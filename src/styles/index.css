@@ -1007,6 +1007,10 @@ a.dropdown-item.active {
 
 /* Monster */
 
+.card {
+  scroll-margin-top: 58px;
+}
+
 .rank {
   background-color: white;
   font-weight: bold;
