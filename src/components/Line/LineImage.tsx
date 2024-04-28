@@ -6,7 +6,7 @@ import { ImagesContext } from '@/context/images';
 
 const NOT_FOUND = '/images/unknown.jpg';
 
-interface Props extends React.ImgHTMLAttributes<any> {
+interface Props {
 	name: string;
 	title?: string;
 	className?: string;
