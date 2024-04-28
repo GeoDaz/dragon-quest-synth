@@ -63,9 +63,9 @@ const PageBuild: React.FC<Props> = ({ images = {}, searchList = [] }) => {
 
 	return (
 		<Layout
-			title="Build your line"
+			title="Make your synthesis three"
 			metatitle="Builder"
-			metadescription="Build your own Dragon Quest synthesis. Be creative your are free."
+			metadescription="Make your own Dragon Quest synthesis threes. Be creative your are free."
 		>
 			<blockquote className="blockquote">
 				<b>Click</b> on a case from the grid to set a Monster.
