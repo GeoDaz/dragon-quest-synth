@@ -19,7 +19,7 @@ const MonsterImg = ({
 			title={monster.name}
 			height={size}
 			width={size}
-			className={makeClassName(`w-${size}px h-${size}px`, className)}
+			className={className}
 		/>
 	);
 };

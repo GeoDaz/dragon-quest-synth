@@ -3,6 +3,7 @@ export interface Monster {
 	rank: string;
 	img: string;
 	family: string;
+	to?: string;
 	subfamily?: string[];
 	synthesis: string[][];
 }

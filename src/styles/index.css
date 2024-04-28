@@ -9,7 +9,7 @@
 
 :root {
   color-scheme: dark;
-  scroll-behavior: auto;
+  scroll-behavior: smooth;
   /* --dl-snd-dark: #141516; */
   --dl-snd-dark: black;
   --dl-box-shadow: 0 0 3px 0 rgb(0, 0, 0, 0.3);
@@ -183,6 +183,10 @@ h1 {
 
 h2 {
   margin-bottom: 0.5em;
+}
+
+h2 img.family {
+  vertical-align: text-top;
 }
 
 .frame {
@@ -762,8 +766,8 @@ a.line-point {
 }
 
 /* .line-grid .levels .level:hover { */
-  /* background-color: rgba(0, 0, 0, .3); */
-  /* border: 3px solid var(--dl-snd-dark); */
+/* background-color: rgba(0, 0, 0, .3); */
+/* border: 3px solid var(--dl-snd-dark); */
 /* } */
 
 .line-grid .levels .level span,
@@ -1001,9 +1005,26 @@ a.dropdown-item.active {
 }
 
 
-/* Card */
+/* Monster */
 
+.rank {
+  background-color: white;
+  font-weight: bold;
+  color: black;
+  padding: 0.05em 0.4em;
+  align-self: flex-end;
+  display: inline-block;
+  margin-bottom: 1px;
+}
 
+.monster-img .rank {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+}
+
+/* Media */
 
 @media (max-width: 768px) {
 
