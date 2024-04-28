@@ -509,7 +509,7 @@
 		"rank": "G",
 		"img": "https://img.game8.jp/8773086/cde218cd20326f30423d2aba12aad40b.png/show",
 		"family": "Dragon",
-		"subfamily": ["Plant"],
+		"subfamily": ["Nature", "Plant"],
 		"synthesis": [["Dragon Family", "Nature Family", "Rank G"]]
 	},
 	"Komodo": {
@@ -571,7 +571,7 @@
 		"rank": "F",
 		"img": "https://img.game8.jp/8797082/8f98fb66e92ea8b9e6fcc9f2e395282e.png/show",
 		"family": "Dragon",
-		"subfamily": ["Reptile"],
+		"subfamily": ["Material", "Reptile"],
 		"synthesis": [["Dragon Family", "Material Family", "Rank F"]]
 	},
 	"Flython": {
@@ -905,7 +905,7 @@
 		"rank": "B",
 		"img": "https://img.game8.jp/9097456/b3fb9c160f6b3834f7731fa8a5db720c.jpeg/show",
 		"family": "Dragon",
-		"subfamily": ["Reptile"],
+		"subfamily": ["Material", "Reptile"],
 		"synthesis": [["Armoured Wartoise", "Armoured Scorpion"]]
 	},
 	"Rashaverak": {

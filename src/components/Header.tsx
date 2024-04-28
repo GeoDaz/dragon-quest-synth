@@ -10,7 +10,12 @@ const Header: React.FC = () => (
 		<Navbar bg="dark" variant="dark" /* expand="lg" */>
 			<Container fluid className="justify-content-start">
 				<Navbar.Brand as={Link} href="/">
-					<Image src="/images/icon.png" alt="logo" height="26" width="32" />{' '}
+					<Image
+						src="/images/dragon-quest-synth.png"
+						alt="logo"
+						height="26"
+						width="32"
+					/>{' '}
 					Dragon Quest Synthesis
 				</Navbar.Brand>
 				<div className="navbar-nav flex-grow-1">
