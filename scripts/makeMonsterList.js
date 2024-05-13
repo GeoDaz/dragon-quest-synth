@@ -1,15 +1,20 @@
 // 1. Visit the Category:Families page
 
-const { fetchHtml, writeJson, wait } = require('./lib');
+const { fetchHtml, writeJson, wait, readJson } = require('./lib');
 
 // Replace this URL with the actual page URL
 const root = 'https://dragonquest.fandom.com';
 const baseUrl = root + '/wiki/Category:Families';
+const dst = './src/json/monsterList.json';
 
 // TODO prefill with existing data
-let monsters = {};
+const monsters = readJson(dst);
 // Call the function to start scraping
-scrapeCategories();
+// scrapeCategories();
+updateFamily(
+	'??? Family',
+	'https://dragonquest.fandom.com/wiki/Category:%3F%3F%3F_family'
+);
 
 // Function to scrape category links starting with "Category:"
 async function scrapeCategories() {
@@ -40,12 +45,21 @@ async function scrapeCategories() {
 	} catch (e) {
 		console.log(e);
 	}
-	writeJson(`./sources/monsterList.json`, monsters);
+	writeJson(dst, monsters);
+}
+
+async function updateFamily(name, url) {
+	try {
+		await scrapeFamily(name, url);
+		writeJson(dst, monsters);
+	} catch (e) {
+		console.log(e);
+	}
 }
 
 // Function to scrape family page
 async function scrapeFamily(name, url) {
-	const doc = await fetchHtml(baseUrl);
+	const doc = await fetchHtml(url);
 	// Select all family links
 	const monstersLink = Array.from(doc.querySelectorAll('.category-page__member-link'));
 

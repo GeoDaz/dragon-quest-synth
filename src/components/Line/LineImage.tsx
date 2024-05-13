@@ -21,7 +21,8 @@ const LineImage: React.FC<Props> = ({
 	loadable = true,
 }) => {
 	const images = useContext(ImagesContext);
-	const [src, setSrc] = useState(images[name] || NOT_FOUND);
+	const image = images[name];
+	const [src, setSrc] = useState(image || NOT_FOUND);
 	const [loading, setLoading] = useState(true);
 	const [ratioWidth, setRatioWidth] = useState(1);
 	const [ratioHeight, setRatioHeight] = useState(1);
@@ -29,7 +30,7 @@ const LineImage: React.FC<Props> = ({
 
 	useEffect(() => {
 		if (name) {
-			const path = images[name];
+			const path = image;
 			if (path && path != src) {
 				setLoading(true);
 				setLoadingStyle({ opacity: 1, zIndex: 5 });
@@ -47,6 +48,7 @@ const LineImage: React.FC<Props> = ({
 			)}
 			<Image
 				src={src}
+				data-src={image}
 				onError={(e: React.SyntheticEvent<HTMLImageElement, Event>) => {
 					setSrc(NOT_FOUND);
 					setLoading(false);
