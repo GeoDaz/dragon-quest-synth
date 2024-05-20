@@ -71,7 +71,7 @@ const LinePoint: React.FC<{
 		}
 	};
 
-	const { name, from, size, color, skins = [], image, collapsable } = point;
+	const { name, from, size, color, image, collapsable } = point;
 
 	const width: number = useMemo(() => {
 		if (size) {
@@ -92,7 +92,7 @@ const LinePoint: React.FC<{
 			onClick={handleEdit ? handleEdit : undefined}
 		>
 			<div className="line-point-safe-zone">
-				<LineImage name={name} />
+				<LineImage name={name} path={image} />
 			</div>
 			{!!handleEdit && (
 				<div className="actions">

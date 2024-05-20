@@ -123,7 +123,7 @@ const LinePointSettings: React.FC<Props> = ({
 							</Button>
 						</h4>
 						<div className="line-point width-min-content">
-							<LineImage name={point.name} />
+							<LineImage name={point.name} path={point.image} />
 						</div>
 					</div>
 				) : null}

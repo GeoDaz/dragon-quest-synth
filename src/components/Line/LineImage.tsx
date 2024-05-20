@@ -9,6 +9,7 @@ const NOT_FOUND = '/images/unknown.jpg';
 interface Props {
 	name: string;
 	title?: string;
+	path?: string;
 	className?: string;
 	style?: object;
 	loadable?: boolean;
@@ -16,13 +17,14 @@ interface Props {
 const LineImage: React.FC<Props> = ({
 	name,
 	title = name,
+	path, // base64
 	className,
 	style,
 	loadable = true,
 }) => {
 	const images = useContext(ImagesContext);
 	const image = images[name];
-	const [src, setSrc] = useState(image || NOT_FOUND);
+	const [src, setSrc] = useState(path || image || NOT_FOUND);
 	const [loading, setLoading] = useState(true);
 	const [ratioWidth, setRatioWidth] = useState(1);
 	const [ratioHeight, setRatioHeight] = useState(1);
