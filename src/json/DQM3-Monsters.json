@@ -1347,7 +1347,7 @@
 		"img": "https://img.game8.jp/9095111/523f66e27b1adadff51621e97dc4706b.jpeg/show",
 		"family": "Nature",
 		"subfamily": ["Aquatic"],
-		"synthesis": ["Merman", "Bullfinch"]
+		"synthesis": [["Merman", "Bullfinch"]]
 	},
 	"Beanie Meanie": {
 		"name": "Beanie Meanie",
@@ -2153,14 +2153,14 @@
 		"img": "https://img.game8.jp/9097548/1d0abc67fd5f44ff297dc2b389ae4562.jpeg/show",
 		"family": "Beast",
 		"subfamily": ["Humanoid"],
-		"synthesis": ["Weartiger", "Hellion"]
+		"synthesis": [["Weartiger", "Hellion"]]
 	},
 	"Don Mole": {
 		"name": "Don Mole",
 		"rank": "B",
 		"img": "https://img.game8.jp/9105419/bb6da3537eb9bee3b561399a5cf2ea02.jpeg/show",
 		"family": "Beast",
-		"synthesis": ["Maniacal Mole", "Calypso King"]
+		"synthesis": [["Maniacal Mole", "Calypso King"]]
 	},
 	"Buffalogre": {
 		"name": "Buffalogre",
@@ -3964,7 +3964,7 @@
 		"img": "https://img.game8.jp/9099088/f19cfb536752b3fc6e441a75bef90f0e.jpeg/show",
 		"family": "???",
 		"subfamily": ["Character"],
-		"synthesis": ["Bodkin Fletcher", "Rhinoceraxe"]
+		"synthesis": [["Bodkin Fletcher", "Rhinoceraxe"]]
 	},
 	"Krystalinda": {
 		"name": "Krystalinda",
