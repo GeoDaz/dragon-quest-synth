@@ -6,25 +6,24 @@ import { makeClassName } from '@/functions';
 import { Card, CardFooter, CardHeader, CardBody } from 'react-bootstrap';
 import { useContext } from 'react';
 import { MonstersContext } from '@/context/monsters';
+import { Monster as MonsterInterface } from '@/types/Monster';
 
 const Monster = ({
-	name,
+	monster,
 	activeMonster,
 	handleActive,
 }: {
-	name: string;
+	monster: MonsterInterface;
 	activeMonster?: string;
 	handleActive: CallableFunction;
 }) => {
-	const monsters = useContext(MonstersContext);
-	const monster = monsters[name];
 	if (!monster) return null;
 	return (
 		<Card
-			id={name}
+			id={monster.name}
 			className={makeClassName(
 				'monster',
-				activeMonster === name &&
+				activeMonster === monster.name &&
 					'outline outline-2 outline-offset-2 outline-indigo-500'
 			)}
 			style={{ width: '18rem' }}
@@ -32,11 +31,11 @@ const Monster = ({
 			<CardHeader>
 				<div className="text-center">
 					<div className="d-inline-block position-relative line-point pictured">
-						<MonsterImg name={name} />
+						<MonsterImg name={monster.name} />
 						<Rank value={monster.rank} />
 					</div>
 				</div>
-				<h2 className="text-center">{name}</h2>
+				<h2 className="text-center">{monster.name}</h2>
 			</CardHeader>
 			<CardBody>
 				<div className="fw-bold mb-2">Family&nbsp;:</div>

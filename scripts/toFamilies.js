@@ -95,7 +95,7 @@ const baseObject = {
 const families = Object.values(monsters).reduce((acc, monster) => {
 	if (!acc[monster.family]) acc[monster.family] = {};
 	if (!acc[monster.family][monster.rank]) acc[monster.family][monster.rank] = [];
-	acc[monster.family][monster.rank].push(monster.name);
+	acc[monster.family][monster.rank].push(monster);
 	return acc;
 }, baseObject);
 

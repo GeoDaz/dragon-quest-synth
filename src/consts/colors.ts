@@ -19,6 +19,17 @@ export const colors: StringObject = {
 	// psychic: '#a24795', // fushia
 };
 
+export const familiesColors: StringObject = {
+	Slime: '#2d95de', // blue
+	Dragon: '#e4637e', // red
+	Beast: '#955339', // brown
+	Nature: '#47b82b', // green
+	Material: '#676767', // grey
+	Demon: '#b130b0', // purple
+	Undead: '#434345', // black
+	'???': '#ebb918', // gold
+};
+
 export const legend: Legend[] = [
 	{ key: 'default', color: colors.default, text: 'Default color' },
 	{

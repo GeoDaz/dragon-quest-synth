@@ -1,675 +1,4515 @@
 {
 	"Slime": {
 		"G": [
-			"Slime",
-			"Goonache Goodie",
-			"Shell Slime",
-			"Buddy Slime",
-			"Scallop Slime",
-			"Wing Slime",
-			"Bubble Slime",
-			"Healslime",
-			"Slimeshroom",
-			"Fright Bulb",
-			"Triple Splatty"
+			{
+				"name": "Slime",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082894/f526dc634f2632faeff2e257ef736183.png/show",
+				"family": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "Goonache Goodie",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082895/6a2139dd6af4c9d91ccdc993bb75a539.png/show",
+				"family": "Slime",
+				"subfamily": ["food"],
+				"synthesis": [["Shell Slime", "Fromage Fray"]]
+			},
+			{
+				"name": "Shell Slime",
+				"rank": "G",
+				"img": "https://img.game8.jp/8774142/bceee6cd738515d8a962c707a761e97e.png/show",
+				"family": "Slime",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Slime Family", "Beast Family", "Rank G"]]
+			},
+			{
+				"name": "Buddy Slime",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082896/53484a780bd000cb1b963af0c1dad53c.png/show",
+				"family": "Slime",
+				"subfamily": ["Plant"],
+				"synthesis": [["Slime Family", "Nature Family", "Rank G"]]
+			},
+			{
+				"name": "Scallop Slime",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082899/5ac4f66d63e6199e60e000d62fb1133e.png/show",
+				"family": "Slime",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Slime Family", "Material Family", "Rank G"]]
+			},
+			{
+				"name": "Wing Slime",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082898/10cae53e11337804c63844a8f7eda2d7.png/show",
+				"family": "Slime",
+				"subfamily": ["Bug"],
+				"synthesis": [["Slime Family", "Dragon Family", "Rank G"]]
+			},
+			{
+				"name": "Bubble Slime",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082897/7c3f2af3225c0f3d9a996fbb857d83b0.png/show",
+				"family": "Slime",
+				"synthesis": [["Slimeshroom", "Killer Gila"]]
+			},
+			{
+				"name": "Healslime",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082900/103e040670e912ded77d52759582221d.png/show",
+				"family": "Slime",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Wing Slime", "Lunatick"]]
+			},
+			{
+				"name": "Slimeshroom",
+				"rank": "G",
+				"img": "https://img.game8.jp/8774143/3273c7407ef420b6608eaab9da56f347.png/show",
+				"family": "Slime",
+				"subfamily": ["Plant"],
+				"synthesis": [["Slime Family", "Undead Family", "Rank G"]]
+			},
+			{
+				"name": "Fright Bulb",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082904/47a71023f6736086b0958268b34a9c9a.png/show",
+				"family": "Slime",
+				"subfamily": ["Plant"],
+				"synthesis": [["Slime Family", "Demon Family", "Rank G"]]
+			},
+			{
+				"name": "Triple Splatty",
+				"rank": "G",
+				"img": "https://img.game8.jp/9088416/ef78db3e9947f496b9f67935a1d4c945.jpeg/show",
+				"family": "Slime",
+				"subfamily": ["food"],
+				"synthesis": []
+			}
 		],
 		"F": [
-			"Feral Slime",
-			"Snail Slime",
-			"Slime Stack",
-			"Slime Knight",
-			"She-Slime",
-			"Onion Slime",
-			"Drake Slime",
-			"Mottle Slime",
-			"Box Slime"
+			{
+				"name": "Feral Slime",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082901/aa53832f051b9ef3efe87b6d89ace865.png/show",
+				"family": "Slime",
+				"synthesis": [["Slime", "Antguzzler"]]
+			},
+			{
+				"name": "Snail Slime",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082903/89d32f81d60f867d358e61d56c244775.png/show",
+				"family": "Slime",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Shell Slime", "Mad Mollusk"]]
+			},
+			{
+				"name": "Slime Stack",
+				"rank": "F",
+				"img": "https://img.game8.jp/8773443/a42afc8a92a6813c9fe917a75de03c88.png/show",
+				"family": "Slime",
+				"synthesis": [["Slime Family", "Material Family", "Rank F"]]
+			},
+			{
+				"name": "Slime Knight",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082905/19d0759ebc72e0c2eeb6672726c78a7d.png/show",
+				"family": "Slime",
+				"synthesis": [["Slime Stack", "Leery Lout"]]
+			},
+			{
+				"name": "She-Slime",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082907/604871fdee414a76f662b3549d6347b7.png/show",
+				"family": "Slime",
+				"synthesis": [["Slime", "Firespirit"]]
+			},
+			{
+				"name": "Onion Slime",
+				"rank": "F",
+				"img": "https://img.game8.jp/8773428/eab21614ce9123de38de2e2078163f4d.png/show",
+				"family": "Slime",
+				"subfamily": ["Plant"],
+				"synthesis": [["Fright Bulb", "Nature Family"]]
+			},
+			{
+				"name": "Drake Slime",
+				"rank": "F",
+				"img": "https://img.game8.jp/8773447/661d6076a30d89530525a70b284cf669.png/show",
+				"family": "Slime",
+				"subfamily": ["Dragon"],
+				"synthesis": [["Wing Slime", "Small Fry"]]
+			},
+			{
+				"name": "Mottle Slime",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082911/dddb516ea7c6f6733ac6270f0a96cc22.png/show",
+				"family": "Slime",
+				"synthesis": [["Slime", "Beast Family"]]
+			},
+			{
+				"name": "Box Slime",
+				"rank": "F",
+				"img": "https://img.game8.jp/8774345/ed86e0ed95c56c39fc7b2e9faae0651d.png/show",
+				"family": "Slime",
+				"synthesis": [["She-Slime", "Bubble Slime"]]
+			}
 		],
 		"E": [
-			"Sprite Bulb",
-			"Angel Slime",
-			"Sugarstar Slime",
-			"Rubble Slime",
-			"Spiny Slime",
-			"Slick Slime",
-			"Dark Slime",
-			"Mouldy Slime",
-			"Metal Slime",
-			"Behemoth Slime"
+			{
+				"name": "Sprite Bulb",
+				"rank": "E",
+				"img": "https://img.game8.jp/9089281/5e6f53ba4918c2aee6c9e2fe8391327a.jpeg/show",
+				"family": "Slime",
+				"subfamily": ["Plant"],
+				"synthesis": [["Fright Bulb", "Luminous Lampling"]]
+			},
+			{
+				"name": "Angel Slime",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086670/ef37a04b8f8449e4de1d1d5e2eed52e9.jpeg/show",
+				"family": "Slime",
+				"subfamily": ["Fairy"],
+				"synthesis": [["Healslime", "Mitey Oak"]]
+			},
+			{
+				"name": "Sugarstar Slime",
+				"rank": "E",
+				"img": "https://img.game8.jp/9082908/48e4e5d346a13cf4f033dffe1bc6e86d.png/show",
+				"family": "Slime",
+				"subfamily": ["space", "Elemental"],
+				"synthesis": [["Spiny Slime", "Fromage Fray"]]
+			},
+			{
+				"name": "Rubble Slime",
+				"rank": "E",
+				"img": "https://img.game8.jp/9082915/8e182829557e99a9677a104d1209343e.png/show",
+				"family": "Slime",
+				"subfamily": ["rock", "Elemental"],
+				"synthesis": [["Mottle Slime", "Mudraker"]]
+			},
+			{
+				"name": "Spiny Slime",
+				"rank": "E",
+				"img": "https://img.game8.jp/9082912/04c07651c5d1d20f96c0997b949a8969.png/show",
+				"family": "Slime",
+				"synthesis": [["Snowmangler", "Disfigurine"]]
+			},
+			{
+				"name": "Slick Slime",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086673/cf83688772f84c8b71ef6b51cecc33df.jpeg/show",
+				"family": "Slime",
+				"subfamily": ["Elemental"],
+				"synthesis": [["Bubble Slime", "Box Slime"]]
+			},
+			{
+				"name": "Dark Slime",
+				"rank": "E",
+				"img": "https://img.game8.jp/9082906/79e618fc362fc2d4fb5db95b2f429167.png/show",
+				"family": "Slime",
+				"subfamily": ["dark"],
+				"synthesis": [["Succubat", "Slime Family"]]
+			},
+			{
+				"name": "Mouldy Slime",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086668/a93accf064b5bfe6168f710fd301d8bd.jpeg/show",
+				"family": "Slime",
+				"subfamily": ["Plant"],
+				"synthesis": [["Slimeshroom", "Muddy Hand"]]
+			},
+			{
+				"name": "Metal Slime",
+				"rank": "E",
+				"img": "https://img.game8.jp/9082914/60c13fcfff87b350e8d9bea299411916.png/show",
+				"family": "Slime",
+				"subfamily": ["metal"],
+				"synthesis": []
+			},
+			{
+				"name": "Behemoth Slime",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086671/ad2e7b2b659c64da9aa87ffb0b5f9074.jpeg/show",
+				"family": "Slime",
+				"synthesis": [["Slime", "Jargon"]]
+			}
 		],
 		"D": [
-			"King Slime",
-			"Wild Slime",
-			"Dragon Slime",
-			"Scuttle Slime",
-			"Dark King Slime",
-			"Cococoa Blobelisk",
-			"Slimecicle",
-			"King Bubble Slime",
-			"Cureslime",
-			"Beshemoth Slime"
+			{
+				"name": "King Slime",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094687/32993071afbfaf7f8eb21df1104b4d57.jpeg/show",
+				"family": "Slime",
+				"synthesis": [["Behemoth Slime", "Behemoth Slime"]]
+			},
+			{
+				"name": "Wild Slime",
+				"rank": "D",
+				"img": "https://img.game8.jp/9082920/9dfa97aca5f9ad7b1861e424a5029430.png/show",
+				"family": "Slime",
+				"synthesis": [["Feral Slime", "Spiked Hare"]]
+			},
+			{
+				"name": "Dragon Slime",
+				"rank": "D",
+				"img": "https://img.game8.jp/9082918/387c64aa180fa61397d531e32985ef57.png/show",
+				"family": "Slime",
+				"subfamily": ["Dragon"],
+				"synthesis": [["Drake Slime", "Green Dragon"]]
+			},
+			{
+				"name": "Scuttle Slime",
+				"rank": "D",
+				"img": "https://img.game8.jp/9082910/f7e0a93277a840a14b0a1e67f8f2ddd6.png/show",
+				"family": "Slime",
+				"subfamily": ["fire", "Elemental"],
+				"synthesis": [["Snail Slime", "Slick Slime"]]
+			},
+			{
+				"name": "Dark King Slime",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094712/b572a74416a73f5d2d161115b3d38ea2.jpeg/show",
+				"family": "Slime",
+				"subfamily": ["dark"],
+				"synthesis": [["Dark Slime", "Dark Slime"]]
+			},
+			{
+				"name": "Cococoa Blobelisk",
+				"rank": "D",
+				"img": "https://img.game8.jp/9082909/4c0df546d9c4b8f7322ad80bb79bc654.png/show",
+				"family": "Slime",
+				"subfamily": ["food"],
+				"synthesis": [["Slime Stack", "Chocolate Whisp"]]
+			},
+			{
+				"name": "Slimecicle",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094694/0fd16cc467685ff2e9a2c06f3a655683.jpeg/show",
+				"family": "Slime",
+				"subfamily": ["ice", "Elemental"],
+				"synthesis": [["Scuttle Slime", "Freezing Fog"]]
+			},
+			{
+				"name": "King Bubble Slime",
+				"rank": "D",
+				"img": "https://img.game8.jp/9082919/0b11b1f206e8ee8066256634bc42c3fc.png/show",
+				"family": "Slime",
+				"synthesis": [["Behemoth Slime", "Bubble Slime"]]
+			},
+			{
+				"name": "Cureslime",
+				"rank": "D",
+				"img": "https://img.game8.jp/9082913/72a49ffb4e9ccb2fea90f17a484d30bd.png/show",
+				"family": "Slime",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Healslime", "Angel Slime"]]
+			},
+			{
+				"name": "Beshemoth Slime",
+				"rank": "D",
+				"img": "https://img.game8.jp/9082921/ee096361431351d8f8becf66bda59635.png/show",
+				"family": "Slime",
+				"synthesis": [["Behemoth Slime", "She-Slime"]]
+			}
 		],
 		"C": [
-			"Pasty Pastry",
-			"Jester Slime",
-			"Shadow Slime",
-			"Flutter Slime",
-			"Crème Caraslime",
-			"Cyber Slime",
-			"Liquid Metal Slime",
-			"Mottle She-Slime",
-			"Metal Slime Knight"
+			{
+				"name": "Pasty Pastry",
+				"rank": "C",
+				"img": "https://img.game8.jp/9082917/4c5d83af29f84ea1dacf3d12a40b923b.png/show",
+				"family": "Slime",
+				"subfamily": ["food"],
+				"synthesis": [["Goonache Goodie", "Bongo Fandango"]]
+			},
+			{
+				"name": "Jester Slime",
+				"rank": "C",
+				"img": "https://img.game8.jp/9082922/4d802b99520d04f149b90f140bb73bf7.png/show",
+				"family": "Slime",
+				"subfamily": ["dark"],
+				"synthesis": [
+					["Slime Family", "Undead Family", "Rank C"],
+					["Dark Slime", "Jinkster", "Angel Slime", "Lump Shaman"]
+				]
+			},
+			{
+				"name": "Shadow Slime",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094872/bd50a3c198421071ac25f74e6fc3e949.jpeg/show",
+				"family": "Slime",
+				"subfamily": ["dark"],
+				"synthesis": [["Slime", "Hypothermion"]]
+			},
+			{
+				"name": "Flutter Slime",
+				"rank": "C",
+				"img": "https://img.game8.jp/9082924/e10a9f47545425d90320417c1605631a.png/show",
+				"family": "Slime",
+				"subfamily": ["Bug"],
+				"synthesis": [["Wing Slime", "Saccharine Sacksquatch"]]
+			},
+			{
+				"name": "Crème Caraslime",
+				"rank": "C",
+				"img": "https://img.game8.jp/9082916/7bb6ac8574125fd80b583ba6bfd3cea9.png/show",
+				"family": "Slime",
+				"subfamily": ["food"],
+				"synthesis": [["King Slime", "Pasty Pastry"]]
+			},
+			{
+				"name": "Cyber Slime",
+				"rank": "C",
+				"img": "https://img.game8.jp/9082925/14347ccf7eee6b758a35f4f699beb868.png/show",
+				"family": "Slime",
+				"subfamily": ["Machine"],
+				"synthesis": [["Killing Machine", "Rubble Slime"]]
+			},
+			{
+				"name": "Liquid Metal Slime",
+				"rank": "C",
+				"img": "https://img.game8.jp/9082933/497843d1f4a678106c718724eebcc58c.png/show",
+				"family": "Slime",
+				"subfamily": ["metal"],
+				"synthesis": [["Metal Slime", "Metal Slime"]]
+			},
+			{
+				"name": "Mottle She-Slime",
+				"rank": "C",
+				"img": "https://img.game8.jp/9082923/d57b7fb3736fb0a71b7719cbdfa296d0.png/show",
+				"family": "Slime",
+				"synthesis": [["Mottle Slime", "Beshemoth Slime"]]
+			},
+			{
+				"name": "Metal Slime Knight",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094877/659ca0432ba07bdb888c4981b2de7e4c.jpeg/show",
+				"family": "Slime",
+				"subfamily": ["metal"],
+				"synthesis": [["Slime Knight", "Metal Slime"]]
+			}
 		],
 		"B": [
-			"King Jester Slime",
-			"Queen Slime",
-			"Diamond Slime",
-			"Shogum",
-			"King Cureslime",
-			"King Slick Slime",
-			"Slime Snack",
-			"Goomulonimbus",
-			"Metal King Slime"
+			{
+				"name": "King Jester Slime",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097460/4d25c05832eca02234ff6e5bc3413349.jpeg/show",
+				"family": "Slime",
+				"subfamily": ["dark"],
+				"synthesis": [["Dark King Slime", "Jester Slime"]]
+			},
+			{
+				"name": "Queen Slime",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097468/e3faf723bc2864b55e87269178c2e2ae.jpeg/show",
+				"family": "Slime",
+				"synthesis": [["King Cureslime", "Angel Slime"]]
+			},
+			{
+				"name": "Diamond Slime",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097549/d7e4f7f0ebf34780b56510028ec18305.jpeg/show",
+				"family": "Slime",
+				"subfamily": ["jewel"],
+				"synthesis": [["Metal King Slime", "Goodybag"]]
+			},
+			{
+				"name": "Shogum",
+				"rank": "B",
+				"img": "https://img.game8.jp/9085310/64db9100f9bfd3dea6a2ffe2d29f602f.png/show",
+				"family": "Slime",
+				"synthesis": [["Beshemoth Slime", "Metal Slime Knight"]]
+			},
+			{
+				"name": "King Cureslime",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097461/effac2ceb6d1e4e7b35e5e037f556366.jpeg/show",
+				"family": "Slime",
+				"synthesis": [["Crème Caraslime", "Cureslime"]]
+			},
+			{
+				"name": "King Slick Slime",
+				"rank": "B",
+				"img": "https://img.game8.jp/9082929/70d096052af556124f2c2f3ec44afbea.png/show",
+				"family": "Slime",
+				"subfamily": ["food"],
+				"synthesis": [
+					["Slime Family", "Demon Family", "Rank B"],
+					["King Bubble Slime", "Slick Slime", "Scuttle Slime", "Magmalice"]
+				]
+			},
+			{
+				"name": "Slime Snack",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097467/f95825dc7edb04ce777826a49ea64e1d.jpeg/show",
+				"family": "Slime",
+				"subfamily": ["food"],
+				"synthesis": [["Cococoa Blobelisk", "Bag O' Sweets"]]
+			},
+			{
+				"name": "Goomulonimbus",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097539/d3e54c482fea81915d395ffceba3e764.jpeg/show",
+				"family": "Slime",
+				"subfamily": ["Elemental"],
+				"synthesis": [["Slime Family", "Dragon Family", "Rank B"]]
+			},
+			{
+				"name": "Metal King Slime",
+				"rank": "B",
+				"img": "https://img.game8.jp/9085311/fef28269104b8545f585473deb1e8bfd.png/show",
+				"family": "Slime",
+				"subfamily": ["metal"],
+				"synthesis": [["Liquid Metal Slime", "Liquid Metal Slime"]]
+			}
 		],
 		"A": [
-			"Gem Slime",
-			"Slionheart",
-			"Emperor Slime",
-			"Superior Slime",
-			"Platinum King Jewel"
+			{
+				"name": "Gem Slime",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100277/09e3ce09f2dd15c79a892c68ca910878.jpeg/show",
+				"family": "Slime",
+				"subfamily": ["jewel"],
+				"synthesis": [["Metal King Slime", "Balhib"]]
+			},
+			{
+				"name": "Slionheart",
+				"rank": "A",
+				"img": "https://img.game8.jp/9085317/641f9a35e73f4edc85beacb29d823557.png/show",
+				"family": "Slime",
+				"synthesis": [["Shogum", "King Cureslime"]]
+			},
+			{
+				"name": "Emperor Slime",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100284/cc8511b14e770858c07ceab0a4bcc67a.jpeg/show",
+				"family": "Slime",
+				"synthesis": [["Diamond Slime", "Slionheart"]]
+			},
+			{
+				"name": "Superior Slime",
+				"rank": "A",
+				"img": "https://img.game8.jp/9085312/7d1652bf171613819ebde65a944fa7a5.png/show",
+				"family": "Slime",
+				"subfamily": ["jewel"],
+				"synthesis": [["Wild Slime", "Mohawker"]]
+			},
+			{
+				"name": "Platinum King Jewel",
+				"rank": "A",
+				"family": "Slime",
+				"synthesis": [["Gem Slime", "Emperor Slime"]]
+			}
 		],
 		"S": [
-			"Darkonium Slime",
-			"Liquid Metal Slime King",
-			"Metal Kaiser Slime",
-			"Grandpa Slime"
+			{
+				"name": "Darkonium Slime",
+				"rank": "S",
+				"family": "Slime",
+				"synthesis": [["Diamond Slime", "Greater Platypink"]]
+			},
+			{
+				"name": "Liquid Metal Slime King",
+				"rank": "S",
+				"family": "Slime",
+				"synthesis": [["King Slick Slime", "Platinum King Jewel"]]
+			},
+			{
+				"name": "Metal Kaiser Slime",
+				"rank": "S",
+				"family": "Slime",
+				"synthesis": [["Superior Slime", "Platinum King Jewel"]]
+			},
+			{
+				"name": "Grandpa Slime",
+				"rank": "S",
+				"img": "https://img.game8.jp/9086342/08a9de40f1e14b82b01000739dedd916.jpeg/show",
+				"family": "Slime",
+				"synthesis": [["Metal Kaiser Slime", "Darkonium Slime"]]
+			}
 		],
-		"X": ["Metal Goddess"]
+		"X": [
+			{
+				"name": "Metal Goddess",
+				"rank": "X",
+				"family": "Slime",
+				"subfamily": ["Fairy"],
+				"synthesis": [["Grandpa Slime", "Liquid Metal Slime King"]]
+			}
+		]
 	},
 	"Dragon": {
 		"G": [
-			"Nardragon",
-			"Dragonthorn",
-			"Komodo",
-			"Small Fry",
-			"Airbagon",
-			"Vegandragora",
-			"Damselfly",
-			"Pteranodon",
-			"Killer Gila"
+			{
+				"name": "Nardragon",
+				"rank": "G",
+				"img": "https://img.game8.jp/8774144/fedc607f405403b45092ae46a85ab590.png/show",
+				"family": "Dragon",
+				"subfamily": ["dinosaur"],
+				"synthesis": [["Dragon Family", "Material Family", "Rank G"]]
+			},
+			{
+				"name": "Dragonthorn",
+				"rank": "G",
+				"img": "https://img.game8.jp/8773086/cde218cd20326f30423d2aba12aad40b.png/show",
+				"family": "Dragon",
+				"subfamily": ["Nature", "Plant"],
+				"synthesis": [["Dragon Family", "Nature Family", "Rank G"]]
+			},
+			{
+				"name": "Komodo",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082927/68b038aa6b7f8978cacb44fec95d6d6f.png/show",
+				"family": "Dragon",
+				"subfamily": ["Reptile"],
+				"synthesis": [["Dragon Family", "Beast Family", "Rank G"]]
+			},
+			{
+				"name": "Small Fry",
+				"rank": "G",
+				"img": "https://img.game8.jp/8774120/3bd2d50a084ffbf76441565cf44141ff.png/show",
+				"family": "Dragon",
+				"synthesis": [["Dragon Family", "Slime Family", "Rank G"]]
+			},
+			{
+				"name": "Airbagon",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082926/f41ad61f9c83c2c04a7e6bd6d762eda1.png/show",
+				"family": "Dragon",
+				"synthesis": [["Killer Gila", "Toady"]]
+			},
+			{
+				"name": "Vegandragora",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082928/9e82e39a82ad2e09e6b6735f2b84f87d.png/show",
+				"family": "Dragon",
+				"subfamily": ["Plant"],
+				"synthesis": [["Damselfly", "Fright Bulb"]]
+			},
+			{
+				"name": "Damselfly",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082931/0ef43d04eb2ec5ad5ac3cde456f6ec5e.png/show",
+				"family": "Dragon",
+				"subfamily": ["Bug"],
+				"synthesis": [["Dragonthorn", "Picksy"]]
+			},
+			{
+				"name": "Pteranodon",
+				"rank": "G",
+				"img": "https://img.game8.jp/8774140/44099534d276021ed9d1470396723430.png/show",
+				"family": "Dragon",
+				"subfamily": ["dinosaur"],
+				"synthesis": [["Dragon Family", "Demon Family", "Rank G"]]
+			},
+			{
+				"name": "Killer Gila",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082936/45f977d75eb4840205fea6a13020d7a9.png/show",
+				"family": "Dragon",
+				"subfamily": ["amphibian"],
+				"synthesis": [["Dragon Family", "Undead Family"]]
+			}
 		],
 		"F": [
-			"Armoured Wartoise",
-			"Flython",
-			"Croc-A-Bugle-Doo",
-			"Briny Bronco",
-			"Raptile",
-			"Drag Racer",
-			"Jargon",
-			"Spitzfire",
-			"Ethereal Serpent"
+			{
+				"name": "Armoured Wartoise",
+				"rank": "F",
+				"img": "https://img.game8.jp/8797082/8f98fb66e92ea8b9e6fcc9f2e395282e.png/show",
+				"family": "Dragon",
+				"subfamily": ["Material", "Reptile"],
+				"synthesis": [["Dragon Family", "Material Family", "Rank F"]]
+			},
+			{
+				"name": "Flython",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082937/a99a4e413d94edcfea7434f8d71926fc.png/show",
+				"family": "Dragon",
+				"subfamily": ["Reptile"],
+				"synthesis": [["Killer Gila", "Gremlin"]]
+			},
+			{
+				"name": "Croc-A-Bugle-Doo",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082934/efbd5586b4f9fca89132fef4542523a8.png/show",
+				"family": "Dragon",
+				"subfamily": ["Nature", "Reptile", "Aquatic"],
+				"synthesis": [["Briny Bronco", "Bongo Drongo"]]
+			},
+			{
+				"name": "Briny Bronco",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082930/1f139c605f08cb08c842080e0b1c7274.png/show",
+				"family": "Dragon",
+				"subfamily": ["Nature", "Aquatic"],
+				"synthesis": [["Small Fry", "Toady"]]
+			},
+			{
+				"name": "Raptile",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082948/0bf644429714b0797301d94828ef32ee.png/show",
+				"family": "Dragon",
+				"subfamily": ["Reptile"],
+				"synthesis": [["Vegandragora", "Bag O' Laughs"]]
+			},
+			{
+				"name": "Drag Racer",
+				"rank": "F",
+				"img": "https://img.game8.jp/8773446/e0c6916ee2321b8323579f502c64af06.png/show",
+				"family": "Dragon",
+				"subfamily": ["dinosaur"],
+				"synthesis": [["Nardragon", "Komodo"]]
+			},
+			{
+				"name": "Jargon",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082941/0b5acdb8c493186197ce4b43e8aa9f1a.png/show",
+				"family": "Dragon",
+				"synthesis": [["Airbagon", "Beast Family"]]
+			},
+			{
+				"name": "Spitzfire",
+				"rank": "F",
+				"img": "https://img.game8.jp/8805951/40635e76c5aba7392407d0e63ad0dfda.png/show",
+				"family": "Dragon",
+				"subfamily": ["fire", "Beast"],
+				"synthesis": [["Pteranodon", "Foo Dog"]]
+			},
+			{
+				"name": "Ethereal Serpent",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082946/186f81b8fce321136104c2185d50e8d3.png/show",
+				"family": "Dragon",
+				"synthesis": []
+			}
 		],
 		"E": [
-			"Wyrtle",
-			"Drakularge",
-			"Stabosaur",
-			"Tortoceratops",
-			"Cauldragon",
-			"Green Dragon",
-			"Gasbagon",
-			"Lumbering Lizard",
-			"Mandrake Major"
+			{
+				"name": "Wyrtle",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086665/7e7b425aca8c831fdc1f23c031aee33c.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["Nature", "Reptile", "Aquatic"],
+				"synthesis": [["Armoured Wartoise", "Beast Family"]]
+			},
+			{
+				"name": "Drakularge",
+				"rank": "E",
+				"img": "https://img.game8.jp/9082938/ccc7c2d2db1b1a1922bf9e312fccafd1.png/show",
+				"family": "Dragon",
+				"synthesis": [["Jargon", "Goodybag"]]
+			},
+			{
+				"name": "Stabosaur",
+				"rank": "E",
+				"img": "https://img.game8.jp/9082932/4471a3d34cf58cd4e6cedf0c549af0c2.png/show",
+				"family": "Dragon",
+				"subfamily": ["dinosaur"],
+				"synthesis": [["Nardragon", "Erazor Blade"]]
+			},
+			{
+				"name": "Tortoceratops",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086663/3cf82417ed2045cd9fef5d3fba8c7163.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["dinosaur"],
+				"synthesis": [["Armoured Wartoise", "Drag Racer"]]
+			},
+			{
+				"name": "Cauldragon",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086666/87088ec1add27bc6a197d715aa11b616.jpeg/show",
+				"family": "Dragon",
+				"synthesis": [["Jargon", "Killer Gila"]]
+			},
+			{
+				"name": "Green Dragon",
+				"rank": "E",
+				"img": "https://img.game8.jp/9085313/95910a1d1f4505b112b714cac8f24c66.png/show",
+				"family": "Dragon",
+				"synthesis": [["Small Fry", "Ursa Major"]]
+			},
+			{
+				"name": "Gasbagon",
+				"rank": "E",
+				"img": "https://img.game8.jp/9082935/2eecfdb3553fff8fc66916bc89c91f50.png/show",
+				"family": "Dragon",
+				"synthesis": [["Airbagon", "Hell Niño"]]
+			},
+			{
+				"name": "Lumbering Lizard",
+				"rank": "E",
+				"img": "https://img.game8.jp/8773116/273cd8350c9f30d49bf0deebc9f30f57.png/show",
+				"family": "Dragon",
+				"subfamily": ["Plant"],
+				"synthesis": [["Drag Racer", "Dragonthorn"]]
+			},
+			{
+				"name": "Mandrake Major",
+				"rank": "E",
+				"img": "https://img.game8.jp/9082939/fb90c15b90ac9511d359a0a9cea98a4d.png/show",
+				"family": "Dragon",
+				"synthesis": [["Raptile", "Restless Armour"]]
+			}
 		],
 		"D": [
-			"Axesaurus",
-			"Great Argon Lizard",
-			"Boreal Serpent",
-			"Tundragster",
-			"Saltwater Stallion",
-			"Dragon Rider",
-			"Abyss Diver",
-			"Metal Dragon",
-			"Wyvern",
-			"Zaptile"
+			{
+				"name": "Axesaurus",
+				"rank": "D",
+				"img": "https://img.game8.jp/9082944/9b8cd5a7474b5f9595ea30812615db29.png/show",
+				"family": "Dragon",
+				"synthesis": [["Mandrake Major", "Material Family"]]
+			},
+			{
+				"name": "Great Argon Lizard",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094686/4db756c154f47822664709433568c807.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["Reptile"],
+				"synthesis": [["Drakularge", "Axesaurus"]]
+			},
+			{
+				"name": "Boreal Serpent",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094713/32994d9cccdc5a021a3904c9fade3835.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["ice"],
+				"synthesis": [["Ethereal Serpent", "Tundragster"]]
+			},
+			{
+				"name": "Tundragster",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094717/03486244211998f26588156131a3f395.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["ice", "dinosaur"],
+				"synthesis": [["Drag Racer", "Freezing Fog"]]
+			},
+			{
+				"name": "Saltwater Stallion",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094698/851f6334d15e4ec09038ee4c677e636d.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["Nature", "Aquatic"],
+				"synthesis": [["Briny Bronco", "Octopot"]]
+			},
+			{
+				"name": "Dragon Rider",
+				"rank": "D",
+				"img": "https://img.game8.jp/9082956/65bce6269bb0f51c8a6c0d6b1791e1c4.png/show",
+				"family": "Dragon",
+				"synthesis": [["Wyvern", "Slime Knight"]]
+			},
+			{
+				"name": "Abyss Diver",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094709/b35ce36dfe345adde25352913c67b777.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["Nature", "Aquatic", "dinosaur"],
+				"synthesis": [["Wyrtle", "Skeleton Soldier"]]
+			},
+			{
+				"name": "Metal Dragon",
+				"rank": "D",
+				"img": "https://img.game8.jp/9082961/ad0f4ca90092c48578e8e3a8b68768ed.png/show",
+				"family": "Dragon",
+				"subfamily": ["Material", "Machine"],
+				"synthesis": [["Lumbering Lizard", "Metal Slime"]]
+			},
+			{
+				"name": "Wyvern",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094695/7f9a875bbf40bbc67ee0558cc043f36b.jpeg/show",
+				"family": "Dragon",
+				"synthesis": [["Pteranodon", "Drakularge"]]
+			},
+			{
+				"name": "Zaptile",
+				"rank": "D",
+				"img": "https://img.game8.jp/9082954/dbe749ba0478a1e6d5f9bc47089d9ef1.png/show",
+				"family": "Dragon",
+				"subfamily": ["Reptile"],
+				"synthesis": [["Raptile", "Scornet"]]
+			}
 		],
 		"C": [
-			"Chihuawyrm",
-			"Wyrtoise",
-			"Liege Lizard",
-			"Flapdragon",
-			"Crowgre",
-			"Tyrannoceratops",
-			"Noble Gasbagon",
-			"Bobonga",
-			"Heligator"
+			{
+				"name": "Chihuawyrm",
+				"rank": "C",
+				"img": "https://img.game8.jp/9096229/11c1daf7ec3faa179870be8a7933df82.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["ice"],
+				"synthesis": [["Tundragster", "Spitzfire"]]
+			},
+			{
+				"name": "Wyrtoise",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094897/6fb64836b7bf8f50c89ad2e592e009c8.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["Nature", "Reptile", "Aquatic"],
+				"synthesis": [["Wyrtle", "Blastoad"]]
+			},
+			{
+				"name": "Liege Lizard",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094882/3f629c6ba8ad896a684e85ec51f96cee.jpeg/show",
+				"family": "Dragon",
+				"synthesis": [["Dragon Family", "Demon Family", "Rank C"]]
+			},
+			{
+				"name": "Flapdragon",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094875/c22e2dd8e523ede6cfb8ac75b72a31cb.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["Reptile"],
+				"synthesis": [["Flython", "Gryphon"]]
+			},
+			{
+				"name": "Crowgre",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094868/84283ed96cf6616077e89b42ba3643db.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["Bird"],
+				"synthesis": [["Liege Lizard", "Hades' Condor"]]
+			},
+			{
+				"name": "Tyrannoceratops",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094871/2abc57372a1fd6cbf8cddcd68cf76161.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["dinosaur"],
+				"synthesis": [["Tortoceratops", "Magmalice"]]
+			},
+			{
+				"name": "Noble Gasbagon",
+				"rank": "C",
+				"img": "https://img.game8.jp/9082947/d05628a41180f95ec134104cd826b6c9.png/show",
+				"family": "Dragon",
+				"synthesis": [["Saltwater Stallion", "Gasbagon"]]
+			},
+			{
+				"name": "Bobonga",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094883/3b39341a648244f30147590c7c4abf14.jpeg/show",
+				"family": "Dragon",
+				"synthesis": [["Jargon", "Low Djinks"]]
+			},
+			{
+				"name": "Heligator",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094870/73a49b824311edbfef3d80dcb3fbf6ea.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["Nature", "Reptile", "Aquatic"],
+				"synthesis": [["Croc-A-Bugle-Doo", "Tuskateer"]]
+			}
 		],
 		"B": [
-			"Drakulard",
-			"Great Dragon",
-			"Mandrake Marshal",
-			"Dread Dragooner",
-			"Hacksaurus",
-			"Avarith",
-			"Black Dragon",
-			"Orochi",
-			"Iron Tortoise"
+			{
+				"name": "Drakulard",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097465/026c9625753bf29a1166d12a38887449.jpeg/show",
+				"family": "Dragon",
+				"synthesis": [["Drakularge", "Jowler"]]
+			},
+			{
+				"name": "Great Dragon",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097455/90124c934d982c69fea6ee71ecd4fa33.jpeg/show",
+				"family": "Dragon",
+				"synthesis": [["Great Argon Lizard", "Sintaur"]]
+			},
+			{
+				"name": "Mandrake Marshal",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097454/dcf07ed1598d35bf0d2676a395c199c1.jpeg/show",
+				"family": "Dragon",
+				"synthesis": [["Mandrake Major", "Phantom Swordsman"]]
+			},
+			{
+				"name": "Dread Dragooner",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097459/fa2a5bbeb8f978d00a5c6d41c24dffa5.jpeg/show",
+				"family": "Dragon",
+				"synthesis": [["Dragon Rider", "Fright Knight"]]
+			},
+			{
+				"name": "Hacksaurus",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097463/35e8b602b574658c7b901f682e5b046f.jpeg/show",
+				"family": "Dragon",
+				"synthesis": [["Axesaurus", "Jowler"]]
+			},
+			{
+				"name": "Avarith",
+				"rank": "B",
+				"img": "https://img.game8.jp/9106470/768c435e205be3b0fd7ef1d6c48720ec.jpeg/show",
+				"family": "Dragon",
+				"synthesis": [["Chihuawyrm", "Hooper Trooper"]]
+			},
+			{
+				"name": "Black Dragon",
+				"rank": "B",
+				"img": "https://img.game8.jp/9085314/6df87dd227966ef4dd3837910d657b9d.png/show",
+				"family": "Dragon",
+				"subfamily": ["dark"],
+				"synthesis": [["Great Argon Lizard", "Grim Keeper"]]
+			},
+			{
+				"name": "Orochi",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097466/2a5ceb0bace2cc99a10a833132067126.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["Reptile", "myth"],
+				"synthesis": [["Wyrtoise", "Ursa Mega"]]
+			},
+			{
+				"name": "Iron Tortoise",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097456/b3fb9c160f6b3834f7731fa8a5db720c.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["Material", "Reptile"],
+				"synthesis": [["Armoured Wartoise", "Armoured Scorpion"]]
+			}
 		],
 		"A": [
-			"Rashaverak",
-			"Royal Reptile",
-			"King Hydra",
-			"Clawvus",
-			"Infernal Serpent",
-			"Silver Serpent",
-			"Dread Dragon",
-			"Serpent Of The Scales",
-			"Alabast Dragon",
-			"Mechan-O'-Wyrm"
+			{
+				"name": "Rashaverak",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100279/89834eb048de5c3a2fa09a397a120526.jpeg/show",
+				"family": "Dragon",
+				"synthesis": [["Drakulard", "Hellspawn"]]
+			},
+			{
+				"name": "Royal Reptile",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100267/e86caf64b9dc1a3fe9de230565fb57b0.jpeg/show",
+				"family": "Dragon",
+				"synthesis": [["Liege Lizard", "Great Dragon"]]
+			},
+			{
+				"name": "King Hydra",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100289/60041dcf98603b1ad07681c850512623.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["Reptile", "myth"],
+				"synthesis": [["Orochi", "Tentacular"]]
+			},
+			{
+				"name": "Clawvus",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100285/175e8fb1d629ad053f4dc894094a0d87.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["Bird", "dark"],
+				"synthesis": [["Crowgre", "Gangleclaw"]]
+			},
+			{
+				"name": "Infernal Serpent",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100282/f802a126049c43aa71fb7519b3806559.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["fire"],
+				"synthesis": [["Boreal Serpent", "Tantamount"]]
+			},
+			{
+				"name": "Silver Serpent",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100274/ef409671fb7330f0bf44007cfcb770da.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["metal"],
+				"synthesis": [["Flapdragon", "Metal Scorpion"]]
+			},
+			{
+				"name": "Dread Dragon",
+				"rank": "A",
+				"img": "https://img.game8.jp/9085316/1f5627b63c3075bd153e50b00d679fec.png/show",
+				"family": "Dragon",
+				"subfamily": ["fire"],
+				"synthesis": [["Green Dragon", "Golem"]]
+			},
+			{
+				"name": "Serpent Of The Scales",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100276/96ed78b36ba86d4220b7da9b83355e8c.jpeg/show",
+				"family": "Dragon",
+				"synthesis": [["Green Dragon", "Goomulonimbus"]]
+			},
+			{
+				"name": "Alabast Dragon",
+				"rank": "A",
+				"family": "Dragon",
+				"synthesis": [["Serpent Of The Scales", "Clawvus"]]
+			},
+			{
+				"name": "Mechan-O'-Wyrm",
+				"rank": "A",
+				"img": "https://img.game8.jp/9085315/4e7896cb78f64b570797bfcf5660b5b4.png/show",
+				"family": "Dragon",
+				"subfamily": ["Material", "Machine", "golf"],
+				"synthesis": [["Metal Dragon", "Balhib"]]
+			}
 		],
 		"S": [
-			"Abyssal Dragon",
-			"Greygnarl",
-			"Barbarus",
-			"Wyrmhole Dragon",
-			"True Dragonlord",
-			"Xenlon",
-			"Lord Of The Dragovians"
+			{
+				"name": "Abyssal Dragon",
+				"rank": "S",
+				"img": "https://img.game8.jp/9089014/ac92bf8bc88b244316a24df29d5505f6.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["dark"],
+				"synthesis": [["Royal Reptile", "Rashaverak"]]
+			},
+			{
+				"name": "Greygnarl",
+				"rank": "S",
+				"img": "https://img.game8.jp/9086477/367b65daa95d24799ff0cec46d201f7f.jpeg/show",
+				"family": "Dragon",
+				"synthesis": [["Abyssal Dragon", "Slionheart"]]
+			},
+			{
+				"name": "Barbarus",
+				"rank": "S",
+				"img": "https://img.game8.jp/9086476/af86508dad69abc6d0b842c60c598099.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["dark"],
+				"synthesis": [["Abyssal Dragon", "Equinox"]]
+			},
+			{
+				"name": "Wyrmhole Dragon",
+				"rank": "S",
+				"img": "https://img.game8.jp/9089013/5f63073b123a86f5199c087f849a1aa9.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["???", "space"],
+				"synthesis": [["Clawvus", "Silver Serpent"]]
+			},
+			{
+				"name": "True Dragonlord",
+				"rank": "S",
+				"img": "https://img.game8.jp/9085319/8d1f95dbc967ecbd526933493f5d16b4.png/show",
+				"family": "Dragon",
+				"subfamily": ["???"],
+				"synthesis": [["The Dragonlord", "Dread Dragon"]]
+			},
+			{
+				"name": "Xenlon",
+				"rank": "S",
+				"img": "https://img.game8.jp/9089080/f3a31d082de608574900e5b82a2b99e5.jpeg/show",
+				"family": "Dragon",
+				"synthesis": [["Infernal Serpent", "Wyrmhole Dragon"]]
+			},
+			{
+				"name": "Lord Of The Dragovians",
+				"rank": "S",
+				"img": "https://img.game8.jp/9085416/9faef3da4d4f798b95cef42b5eca6df5.jpeg/show",
+				"family": "Dragon",
+				"subfamily": ["???"],
+				"synthesis": [["Alabast Dragon", "Infernal Serpent"]]
+			}
 		],
-		"X": ["Shadroth", "LordDraco", "Zenith Dragon", "OmniDragon"],
-		"Z": ["Gore LordDraco"]
+		"X": [
+			{
+				"name": "Shadroth",
+				"rank": "X",
+				"family": "Dragon",
+				"subfamily": ["???"],
+				"synthesis": [["True Dragonlord", "Barbarus"]]
+			},
+			{
+				"name": "LordDraco",
+				"rank": "X",
+				"family": "Dragon",
+				"subfamily": ["???"],
+				"synthesis": [["True Dragonlord", "Lord Of The Dragovians"]]
+			},
+			{
+				"name": "Zenith Dragon",
+				"rank": "X",
+				"family": "Dragon",
+				"subfamily": ["???"],
+				"synthesis": [
+					["Abyssal Dragon", "Xenlon", "Lord Of The Dragovians", "Miraclare"]
+				]
+			},
+			{
+				"name": "OmniDragon",
+				"rank": "X",
+				"family": "Dragon",
+				"synthesis": [
+					["King Hydra", "Mechan-O'-Wyrm", "Wyrmhole Dragon", "Barbarus"]
+				]
+			}
+		],
+		"Z": [
+			{
+				"name": "Gore LordDraco",
+				"rank": "Z",
+				"family": "Dragon",
+				"subfamily": ["???"],
+				"synthesis": [["LordDraco", "Shadroth"]]
+			}
+		]
 	},
 	"Beast": {
 		"G": [
-			"Antguzzler",
-			"Mischievous Mole",
-			"Bunicorn",
-			"Hammerhood",
-			"Fat Rat",
-			"Pan Piper",
-			"Candy Cat",
-			"Sham Hatwitch",
-			"Feralball",
-			"Great Sabrecub",
-			"Mouseflap",
-			"Platypunk"
+			{
+				"name": "Antguzzler",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082982/d5a676a5db14bb1c6530838bc98aa38a.png/show",
+				"family": "Beast",
+				"synthesis": [["Fat Rat", "Airbagon"]]
+			},
+			{
+				"name": "Mischievous Mole",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082968/d233c1d62c2b3e6c37733a4ca061e413.png/show",
+				"family": "Beast",
+				"synthesis": [["Dragon Family", "Material Family", "Rank G"]]
+			},
+			{
+				"name": "Bunicorn",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082960/09718503e6ac307d97c1bc64bcbaf4ca.png/show",
+				"family": "Beast",
+				"synthesis": [["Fat Rat", "Nardragon"]]
+			},
+			{
+				"name": "Hammerhood",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082975/0495acf3254d4bafff70b784a427beb5.png/show",
+				"family": "Beast",
+				"synthesis": [["Mischievous Mole", "Stump Chump"]]
+			},
+			{
+				"name": "Fat Rat",
+				"rank": "G",
+				"img": "https://img.game8.jp/8774129/8dfaa13bf724169c809ee2c8b8ab80dd.png/show",
+				"family": "Beast",
+				"synthesis": [["Beast Family", "Undead Family"]]
+			},
+			{
+				"name": "Pan Piper",
+				"rank": "G",
+				"img": "https://img.game8.jp/8774138/a47ce3946ad5041ad94a345a1087c150.png/show",
+				"family": "Beast",
+				"synthesis": [["Beast Family", "Demon Family", "Rank G"]]
+			},
+			{
+				"name": "Candy Cat",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082972/dfb2c100848ca263696881bbed23b0d7.png/show",
+				"family": "Beast",
+				"subfamily": ["food"],
+				"synthesis": [["Great Sabrecub", "Fromage Fray"]]
+			},
+			{
+				"name": "Sham Hatwitch",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082955/f761249b2153dfb2321a653a7229b15a.png/show",
+				"family": "Beast",
+				"synthesis": [["Beast Family", "Dragon Family", "Rank G"]]
+			},
+			{
+				"name": "Feralball",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082980/66ba16f843d866df338abf15f8848f82.png/show",
+				"family": "Beast",
+				"synthesis": [["Beast Family", "Nature Family", "Rank G"]]
+			},
+			{
+				"name": "Great Sabrecub",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082971/321e359c018643ada908417f154cc349.png/show",
+				"family": "Beast",
+				"synthesis": [["Beast Family", "Slime Family", "Rank G"]]
+			},
+			{
+				"name": "Mouseflap",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082977/a5dd4adda1f4e73122bfec49c28b1419.png/show",
+				"family": "Beast",
+				"synthesis": [["Fat Rat", "Wing Slime"]]
+			},
+			{
+				"name": "Platypunk",
+				"rank": "G",
+				"img": "https://img.game8.jp/8797154/834d30991d9c25d27f54e0c58735f6d8.png/show",
+				"family": "Beast",
+				"synthesis": [["Teeny Sanguini", "Bludgerigar"]]
+			}
 		],
 		"F": [
-			"Powie Yowie",
-			"Orc",
-			"Vampire Cat",
-			"Guaardvark",
-			"Weartiger",
-			"Robber Rabbit",
-			"Sunset Sultan",
-			"Boppin' Badger",
-			"Napir",
-			"Foo Dog"
+			{
+				"name": "Powie Yowie",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082983/e61de4d469bf3ad5b7d2f01592ddde74.png/show",
+				"family": "Beast",
+				"subfamily": ["ice"],
+				"synthesis": [["Platypunk", "Demon Family"]]
+			},
+			{
+				"name": "Orc",
+				"rank": "F",
+				"img": "https://img.game8.jp/8773441/99d0bf9b6bebbd243647727c72ceeb20.png/show",
+				"family": "Beast",
+				"synthesis": [["Sham Hatwitch", "Nature Family"]]
+			},
+			{
+				"name": "Vampire Cat",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082981/1cfae6e7aded3218342c119bfeed9ecb.png/show",
+				"family": "Beast",
+				"subfamily": ["Demon"],
+				"synthesis": [["Mouseflap", "Candy Cat"]]
+			},
+			{
+				"name": "Guaardvark",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082986/c617109fa1e44bdea2e274ebce3687f7.png/show",
+				"family": "Beast",
+				"synthesis": [["Bunicorn", "Stark Raven"]]
+			},
+			{
+				"name": "Weartiger",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082991/cd02d371a42cc4454593e025697e2558.png/show",
+				"family": "Beast",
+				"subfamily": ["Humanoid"],
+				"synthesis": [["Mummy Boy", "Beast Family"]]
+			},
+			{
+				"name": "Robber Rabbit",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082978/281766ebaa0d27ea4d20cf7d1f08e0ea.png/show",
+				"family": "Beast",
+				"synthesis": [["Bunicorn", "Demon Family"]]
+			},
+			{
+				"name": "Sunset Sultan",
+				"rank": "F",
+				"img": "https://img.game8.jp/8927794/cd3dea295864ee928c5f764a62bb1049.png/show",
+				"family": "Beast",
+				"subfamily": ["Demon"],
+				"synthesis": [["Vampire Cat", "Spitnik"]]
+			},
+			{
+				"name": "Boppin' Badger",
+				"rank": "F",
+				"img": "https://img.game8.jp/8773437/ca8365cc69e59f3b5a612e7636628267.png/show",
+				"family": "Beast",
+				"synthesis": [["Mischievous Mole", "Vegandragora"]]
+			},
+			{
+				"name": "Napir",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082988/a5886a4ccdecfa101324666a46a32cd7.png/show",
+				"family": "Beast",
+				"synthesis": [["Beast Family", "Material Family", "Rank F"]]
+			},
+			{
+				"name": "Swinoceros",
+				"rank": "F",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Foo Dog",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083010/1e92fa58fb9418efc4e976fd627304a4.png/show",
+				"family": "Beast",
+				"synthesis": [["Material Family", "Beast Family", "Rank F"]]
+			}
 		],
 		"E": [
-			"Spiked Hare",
-			"Ratatattack",
-			"Jumping Jackal",
-			"Ursa Major",
-			"Dark Sabrecub",
-			"Splatypunk",
-			"Ham Shamwitch",
-			"Meowgician",
-			"Cross Eye",
-			"Brownie",
-			"Jailcat",
-			"Rotten Cotton"
+			{
+				"name": "Spiked Hare",
+				"rank": "E",
+				"img": "https://img.game8.jp/9082979/72b764df1cfd15b7026fbbcbcd734abe.png/show",
+				"family": "Beast",
+				"synthesis": [["Bunicorn", "Napir"]]
+			},
+			{
+				"name": "Ratatattack",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086672/f08843c393e54357351149a0e3a2da45.jpeg/show",
+				"family": "Beast",
+				"synthesis": [["Mouseflap", "Guaardvark"]]
+			},
+			{
+				"name": "Jumping Jackal",
+				"rank": "E",
+				"img": "https://img.game8.jp/9082989/916f5ac5da0235a91e3a8ca3a609281d.png/show",
+				"family": "Beast",
+				"synthesis": [["Great Sabrecub", "Orc"]]
+			},
+			{
+				"name": "Ursa Major",
+				"rank": "E",
+				"img": "https://img.game8.jp/9083000/975b475a42fbdb958909c1f765d03a70.png/show",
+				"family": "Beast",
+				"synthesis": [["Antguzzler", "Ogre"]]
+			},
+			{
+				"name": "Dark Sabrecub",
+				"rank": "E",
+				"img": "https://img.game8.jp/9082984/0986d03765960dfbbb74a6844b699e11.png/show",
+				"family": "Beast",
+				"subfamily": ["dark"],
+				"synthesis": [["Great Sabrecub", "Shadow"]]
+			},
+			{
+				"name": "Splatypunk",
+				"rank": "E",
+				"img": "https://img.game8.jp/9082990/801c25c6dd05e7f33aa4b8bd2c3d92fd.png/show",
+				"family": "Beast",
+				"synthesis": [["Platypunk", "Guaardvark"]]
+			},
+			{
+				"name": "Ham Shamwitch",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086659/8fa89e6900cd97e78c3296d6cd93edef.jpeg/show",
+				"family": "Beast",
+				"synthesis": [["Sham Hatwitch", "Drake Slime"]]
+			},
+			{
+				"name": "Meowgician",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086661/aacbc20d02230819cc19955d1e556ead.jpeg/show",
+				"family": "Beast",
+				"synthesis": [["Vampire Cat", "Demon Family"]]
+			},
+			{
+				"name": "Cross Eye",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086657/980940bed112364389566d9489dcf0f8.jpeg/show",
+				"family": "Beast",
+				"subfamily": ["Demon"],
+				"synthesis": [["See Urchin", "Beast Family"]]
+			},
+			{
+				"name": "Brownie",
+				"rank": "E",
+				"img": "https://img.game8.jp/9082985/98bf9bedd14390e4ba6632b08e2c000e.png/show",
+				"family": "Beast",
+				"synthesis": [["Hammerhood", "Splatypunk"]]
+			},
+			{
+				"name": "Jailcat",
+				"rank": "E",
+				"img": "https://img.game8.jp/9082996/519af182042f049f54ca85e79f1ca716.png/show",
+				"family": "Beast",
+				"synthesis": [["Candy Cat", "Cannonbrawler"]]
+			},
+			{
+				"name": "Rotten Cotton",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086652/94b5d4eb416d17bf30c541078b69df50.jpeg/show",
+				"family": "Beast",
+				"subfamily": ["ice"],
+				"synthesis": [["Feralball", "Powie Yowie"]]
+			}
 		],
 		"D": [
-			"Tuskateer",
-			"Ripped Rabbit",
-			"Missing Lynx",
-			"Great Sabrecat",
-			"Warhog",
-			"Sweaty Yeti",
-			"Calypso King",
-			"Cheater Cheetah",
-			"Ewwnicorn",
-			"Night Emperor",
-			"Rhinoceraxe",
-			"Abracadabrador",
-			"Gryphon"
+			{
+				"name": "Ripped Rabbit",
+				"rank": "D",
+				"img": "https://img.game8.jp/9082994/4e937901ce66d08a3c62191b63acde7c.png/show",
+				"family": "Beast",
+				"synthesis": [["Robber Rabbit", "Wild Slime"]]
+			},
+			{
+				"name": "Missing Lynx",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094710/884d880b0ef2a2e1a1f5e0740c8a2e07.jpeg/show",
+				"family": "Beast",
+				"subfamily": ["Dragon"],
+				"synthesis": [["Great Sabrecat", "Garuda"]]
+			},
+			{
+				"name": "Great Sabrecat",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094716/99fbf581c48fff2ebebc30845cc99dd1.jpeg/show",
+				"family": "Beast",
+				"synthesis": [
+					[
+						"Great Sabrecub",
+						"Great Sabrecub",
+						"Great Sabrecub",
+						"Great Sabrecub"
+					]
+				]
+			},
+			{
+				"name": "Warhog",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094689/d01d3ff00e4a4301b8082fc2dd611de9.jpeg/show",
+				"family": "Beast",
+				"synthesis": [["Mandrake Major", "Beast Family"]]
+			},
+			{
+				"name": "Sweaty Yeti",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094682/f5e1d82a1c073e86398f6de10b4ed650.jpeg/show",
+				"family": "Beast",
+				"subfamily": ["ice"],
+				"synthesis": [["Powie Yowie", "Parched Peckerel"]]
+			},
+			{
+				"name": "Calypso King",
+				"rank": "D",
+				"img": "https://img.game8.jp/9082997/3438b79f1f34ef5de1a5f739968f917a.png/show",
+				"family": "Beast",
+				"synthesis": [["Beast Family", "Material Family", "Rank D"]]
+			},
+			{
+				"name": "Cheater Cheetah",
+				"rank": "D",
+				"img": "https://img.game8.jp/9082992/7de699e8eecddc14f5de7c2a4c577f52.png/show",
+				"family": "Beast",
+				"subfamily": ["Humanoid"],
+				"synthesis": [["Weartiger", "Ursa Major"]]
+			},
+			{
+				"name": "Ewwnicorn",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094692/bb0c5882a3057cc63154afcb5942154b.jpeg/show",
+				"family": "Beast",
+				"synthesis": [["Giruffian", "Angel Slime"]]
+			},
+			{
+				"name": "Night Emperor",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094685/d2e8af424aef37edb3ba391de12fbb8b.jpeg/show",
+				"family": "Beast",
+				"subfamily": ["Demon"],
+				"synthesis": [["Sunset Sultan", "Night Sneaker"]]
+			},
+			{
+				"name": "Rhinoceraxe",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094690/d159a900d7e52f895eebd58e524be12e.jpeg/show",
+				"family": "Beast",
+				"synthesis": [["Ursa Major", "Material Family"]]
+			},
+			{
+				"name": "Abracadabrador",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094688/78980fdb491598daff4df0ef64908c06.jpeg/show",
+				"family": "Beast",
+				"synthesis": [["Foo Dog", "Lump Shaman"]]
+			},
+			{
+				"name": "Gryphon",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094691/698001f16fd6653e247382d92c74889f.jpeg/show",
+				"family": "Beast",
+				"subfamily": ["Bird", "myth"],
+				"synthesis": [["Silvapithecus", "Chimaera"]]
+			}
 		],
 		"C": [
-			"Hellion",
-			"Hyperboarean",
-			"Orc King",
-			"Maniacal Mole",
-			"Greater Platypunk",
-			"Dark Hare",
-			"Gnumesis",
-			"Jowler",
-			"Luneyetic",
-			"Togre",
-			"King Foo Dog"
+			{
+				"name": "Hellion",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094881/7b060bb124db194d52a5970b3934b84d.jpeg/show",
+				"family": "Beast",
+				"synthesis": [["Cheater Cheetah", "Skeleton Swordsman"]]
+			},
+			{
+				"name": "Hyperboarean",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094867/b88040d511909d59b8efe306953f2130.jpeg/show",
+				"family": "Beast",
+				"synthesis": [["Orc King", "Warhog"]]
+			},
+			{
+				"name": "Orc King",
+				"rank": "C",
+				"img": "https://img.game8.jp/9082999/83537ac73ed83630f7fcb8a64d11b852.png/show",
+				"family": "Beast",
+				"synthesis": [["Orc", "Cheater Cheetah"]]
+			},
+			{
+				"name": "Maniacal Mole",
+				"rank": "C",
+				"img": "https://img.game8.jp/9082995/ef64681310e5fbdc5ba41025a2857454.png/show",
+				"family": "Beast",
+				"synthesis": [["Mischievous Mole", "Ripped Rabbit"]]
+			},
+			{
+				"name": "Greater Platypunk",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094911/29ae9abab6eeb3964dddbeba5ed54365.jpeg/show",
+				"family": "Beast",
+				"synthesis": [["Platypunk", "King Slime"]]
+			},
+			{
+				"name": "Dark Hare",
+				"rank": "C",
+				"img": "https://img.game8.jp/9083005/f61f80b3ecff1adfa09ba488a65067b2.png/show",
+				"family": "Beast",
+				"subfamily": ["dark"],
+				"synthesis": [["Spiked Hare", "Hypothermion"]]
+			},
+			{
+				"name": "Gnumesis",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094906/58249ffff618c74bc35728851ccdc50a.jpeg/show",
+				"family": "Beast",
+				"subfamily": ["Demon"],
+				"synthesis": [["Beast Family", "Undead Family", "Rank C"]]
+			},
+			{
+				"name": "Jowler",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094880/b10315f8a0f7586fd4a1fa63758060dd.jpeg/show",
+				"family": "Beast",
+				"subfamily": ["Demon"],
+				"synthesis": [["Beast Family", "Dragon Family", "Rank C"]]
+			},
+			{
+				"name": "Luneyetic",
+				"rank": "C",
+				"img": "https://img.game8.jp/9083026/150fd1e078a7b08ff4289e34b7967c43.png/show",
+				"family": "Beast",
+				"subfamily": ["Demon"],
+				"synthesis": [["Cross Eye", "Bloodbonnet"]]
+			},
+			{
+				"name": "King Foo Dog",
+				"rank": "C",
+				"img": "https://img.game8.jp/9085338/c141897a74a50de173039e9c1158be24.png/show",
+				"family": "Beast",
+				"subfamily": ["dark"],
+				"synthesis": [["Abracadabrador", "Crabber Dabber Doo"]]
+			},
+			{
+				"name": "Togre",
+				"rank": "C",
+				"img": "https://img.game8.jp/9083048/4f840f25c1f45e7b5a69000612fc8f2f.png/show",
+				"family": "Beast",
+				"synthesis": [["Demon Family", "Beast Family", "Rank C"]]
+			}
 		],
 		"B": [
-			"Draguar",
-			"Dark Sabrecat",
-			"Mogus",
-			"Ursa Mega",
-			"Tigergram",
-			"Don Mole",
-			"Buffalogre",
-			"Abominable Showman",
-			"Mohawker",
-			"Slon the Rook",
-			"Kon the Knight",
-			"Tantamount"
+			{
+				"name": "Draguar",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097474/402369107430c62e4cf6c02cf940c43f.jpeg/show",
+				"family": "Beast",
+				"subfamily": ["Dragon"],
+				"synthesis": [["Missing Lynx", "Abyss Diver"]]
+			},
+			{
+				"name": "Dark Sabrecat",
+				"rank": "B",
+				"img": "https://img.game8.jp/9085331/e72df2cee6d2c3aae6a79c4f52fc48b5.png/show",
+				"family": "Beast",
+				"subfamily": ["dark"],
+				"synthesis": [
+					["Beast Family", "Demon Family", "Rank B"],
+					["Great Sabrecat", "Great Sabrecat", "Dark Sabrecub", "Dark Hare"]
+				]
+			},
+			{
+				"name": "Mogus",
+				"rank": "B",
+				"img": "https://img.game8.jp/9083004/f196de6170dbbd0f4094c8e834251ce8.png/show",
+				"family": "Beast",
+				"subfamily": ["dark"],
+				"synthesis": [["Meowgician", "Shadow Slime"]]
+			},
+			{
+				"name": "Ursa Mega",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097476/59a23d46beeedecc31b71803ab3d507c.jpeg/show",
+				"family": "Beast",
+				"synthesis": [["Ursa Major", "Sintaur"]]
+			},
+			{
+				"name": "Tigergram",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097548/1d0abc67fd5f44ff297dc2b389ae4562.jpeg/show",
+				"family": "Beast",
+				"subfamily": ["Humanoid"],
+				"synthesis": [["Weartiger", "Hellion"]]
+			},
+			{
+				"name": "Don Mole",
+				"rank": "B",
+				"img": "https://img.game8.jp/9105419/bb6da3537eb9bee3b561399a5cf2ea02.jpeg/show",
+				"family": "Beast",
+				"synthesis": [["Maniacal Mole", "Calypso King"]]
+			},
+			{
+				"name": "Abominable Showman",
+				"rank": "B",
+				"img": "https://img.game8.jp/9100362/f9c0513c468881ef41f8720cb1c31b6a.jpeg/show",
+				"family": "Beast",
+				"subfamily": ["ice"],
+				"synthesis": [["Sweaty Yeti", "Powie Yowie", "Fightgeist", "Frolicker"]]
+			},
+			{
+				"name": "Buffalogre",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097492/bb2473c5a516919e26b9c3d664769bde.jpeg/show",
+				"family": "Beast",
+				"subfamily": ["Demon"],
+				"synthesis": [["Hyperboarean", "Fowl Beast"]]
+			},
+			{
+				"name": "Mohawker",
+				"rank": "B",
+				"img": "https://img.game8.jp/9082987/726a0c72f1fd5c8ea22590bcbc118048.png/show",
+				"family": "Beast",
+				"subfamily": ["Demon"],
+				"synthesis": [["Jowler", "Heligator"]]
+			},
+			{
+				"name": "Slon The Rook",
+				"rank": "B",
+				"family": "Beast",
+				"synthesis": [["Warhog", "Gnumesis"]]
+			},
+			{
+				"name": "Kon The Knight",
+				"rank": "B",
+				"family": "Beast",
+				"synthesis": [["Ewwnicorn", "Togre"]]
+			},
+			{
+				"name": "Hexagoon",
+				"rank": "B",
+				"family": "Beast",
+				"synthesis": [["Buffalogre", "Treevil"]]
+			},
+			{
+				"name": "Tantamount",
+				"rank": "B",
+				"img": "https://img.game8.jp/9083002/6d5ae30278d0e3509586b81bc183997f.png/show",
+				"family": "Beast",
+				"subfamily": ["myth"],
+				"synthesis": [["Kon The Knight", "Flamethrower"]]
+			}
 		],
 		"A": [
-			"Equinox",
-			"Ronin Raccoon",
-			"Marquis De Léon",
-			"Gnuriel",
-			"Purrgatroyd",
-			"Lieutenant Goresby-Purrvis",
-			"Lieutenant Hootingham-Gore",
-			"Lieutenant Goreham-Hogg"
+			{
+				"name": "Equinox",
+				"rank": "A",
+				"img": "https://img.game8.jp/9085333/4428b6e64b61dda3a311a3f94a082956.png/show",
+				"family": "Beast",
+				"subfamily": ["dark", "myth"],
+				"synthesis": [["Tantamount", "Black Dragon"]]
+			},
+			{
+				"name": "Stormy Sabrecat",
+				"rank": "A",
+				"family": "Beast",
+				"subfamily": ["Elemental"],
+				"synthesis": [["Dark Sabrecat", "Hellbound Hair-Raiser"]]
+			},
+			{
+				"name": "Gnuriel",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100280/4fdb43cafde64eeb0f947e683629c6ab.jpeg/show",
+				"family": "Beast",
+				"subfamily": ["Demon"],
+				"synthesis": [["Gnumesis", "Grotwyrm"]]
+			},
+			{
+				"name": "Ronin Raccoon",
+				"rank": "A",
+				"img": "https://img.game8.jp/9082993/1ae0cc9f27c9b006cdf58476caf357b8.png/show",
+				"family": "Beast",
+				"synthesis": [
+					["Boppin' Badger", "Don Mole", "Mandrake Marshal", "One-Man Army"]
+				]
+			},
+			{
+				"name": "Purrgatroyd",
+				"rank": "A",
+				"img": "https://img.game8.jp/9099091/c24423156dc2b5ea9e7be2af943ff2ae.jpeg/show",
+				"family": "Beast",
+				"synthesis": [["Tigergram", "Robbin' 'Ood"]]
+			},
+			{
+				"name": "Marquis De Léon",
+				"rank": "A",
+				"img": "https://img.game8.jp/9090900/d37bd0404410ee93a5faaa990bdd9b67.jpeg/show",
+				"family": "Beast",
+				"synthesis": [["Hellion", "King Hydra"]]
+			},
+			{
+				"name": "Lieutenant Goresby-Purrvis",
+				"rank": "A",
+				"img": "https://img.game8.jp/9085348/4ea49334f5dd5ac4c412f1bec0e29b42.png/show",
+				"family": "Beast",
+				"synthesis": [["Dark Sabrecat", "Ronin Raccoon"]]
+			},
+			{
+				"name": "Lieutenant Hootingham-Gore",
+				"rank": "A",
+				"img": "https://img.game8.jp/9085340/14d86cc7b9b5646d7576311b10d67063.png/show",
+				"family": "Beast",
+				"subfamily": ["Nature", "Bird"],
+				"synthesis": [["Hocus-Poker", "Gangleclaw"]]
+			},
+			{
+				"name": "Lieutenant Goreham-Hogg",
+				"rank": "A",
+				"img": "https://img.game8.jp/9085337/2623a834ee1e17bf989dfb627bd78921.png/show",
+				"family": "Beast",
+				"synthesis": [["Hexagoon", "Swingre"]]
+			}
 		],
-		"S": ["Greater Platypink"]
+		"S": [
+			{
+				"name": "Greater Platypink",
+				"rank": "S",
+				"img": "https://img.game8.jp/9087038/0a6d1943bf183cabe6213f9e1ea35ddf.jpeg/show",
+				"family": "Beast",
+				"synthesis": [
+					[
+						"King Jester Slime",
+						"Queen Slime",
+						"Splatypunk",
+						"Greater Platypunk"
+					]
+				]
+			}
+		]
 	},
 	"Nature": {
 		"G": [
-			"Stark Raven",
-			"Bantamweight",
-			"Ornery Onion",
-			"Killerpillar",
-			"Capsichum",
-			"Cruelcumber",
-			"Mad Mollusk",
-			"Woebergine",
-			"Bludgerigar",
-			"Khalamari Kid",
-			"Toady",
-			"Lunatick",
-			"Lips",
-			"Funghoul",
-			"Stump Chump",
-			"Drohl Drone"
+			{
+				"name": "Stark Raven",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082943/41091c2230f5c1a9e39026600b749098.png/show",
+				"family": "Nature",
+				"subfamily": ["Bird"],
+				"synthesis": [["Nature Family", "Undead Family", "Rank G"]]
+			},
+			{
+				"name": "Bantamweight",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082952/b6efd49e286bf0eb9011492bc8fa8c2b.png/show",
+				"family": "Nature",
+				"subfamily": ["Bird"],
+				"synthesis": [["Stark Raven", "Bludgerigar"]]
+			},
+			{
+				"name": "Ornery Onion",
+				"rank": "G",
+				"img": "https://img.game8.jp/8774124/09265a869de3ee29b70641f4dcb14440.png/show",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Nature Family", "Demon Family"]]
+			},
+			{
+				"name": "Killerpillar",
+				"rank": "G",
+				"img": "https://img.game8.jp/8773089/f838edbca34d38dec032e0937cdff446.png/show",
+				"family": "Nature",
+				"subfamily": ["Bug"],
+				"synthesis": [["Nature Family", "Dragon Family", "Rank G"]]
+			},
+			{
+				"name": "Capsichum",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082942/1637bf2eff87b0e421f3e5698df5e64e.png/show",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Nature Family", "Material Family", "Rank G"]]
+			},
+			{
+				"name": "Cruelcumber",
+				"rank": "G",
+				"img": "https://img.game8.jp/8797079/0b64a60e80a09276af5477379014423b.png/show",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Capsichum", "Bambooligan"]]
+			},
+			{
+				"name": "Mad Mollusk",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082957/a9ca516677c570ac779112c59b01a60c.png/show",
+				"family": "Nature",
+				"subfamily": ["Bug"],
+				"synthesis": [["Killerpillar", "Lips"]]
+			},
+			{
+				"name": "Woebergine",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082951/15cb56d9bb4d696ff575c5caa5f4d51c.png/show",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Ornery Onion", "Fright Bulb"]]
+			},
+			{
+				"name": "Bludgerigar",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082950/6e189c39c56fb49659953e8e52c2eb47.png/show",
+				"family": "Nature",
+				"subfamily": ["Bird"],
+				"synthesis": [["Nature Family", "Beast Family", "Rank G"]]
+			},
+			{
+				"name": "Khalamari Kid",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082940/567fd9f17f9beb12271c25951c0202a7.png/show",
+				"family": "Nature",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Nature Family", "Slime Family", "Rank G"]]
+			},
+			{
+				"name": "Toady",
+				"rank": "G",
+				"img": "https://img.game8.jp/8773090/9fb8f0dedd20d36f248cc82f27243a34.png/show",
+				"family": "Nature",
+				"subfamily": ["amphibian"],
+				"synthesis": [["Khalamari Kid", "Bunicorn"]]
+			},
+			{
+				"name": "Lunatick",
+				"rank": "G",
+				"img": "https://img.game8.jp/9083054/6b7dc6eac271059065d8f4e3521563b8.png/show",
+				"family": "Nature",
+				"subfamily": ["Bug"],
+				"synthesis": [["Demon Family", "Nature Family", "Rank G"]]
+			},
+			{
+				"name": "Lips",
+				"rank": "G",
+				"img": "https://img.game8.jp/9083032/352049f59e008aef60a9ce21e027b1cd.png/show",
+				"family": "Nature",
+				"subfamily": ["Bug"],
+				"synthesis": [["Toady", "Drohl Drone"]]
+			},
+			{
+				"name": "Funghoul",
+				"rank": "G",
+				"img": "https://img.game8.jp/9083083/b5b4d2106992bf0732544c4cf2aad06f.png/show",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Stump Chump", "Slimeshroom"]]
+			},
+			{
+				"name": "Stump Chump",
+				"rank": "G",
+				"img": "https://img.game8.jp/8773103/aabb78356cf9a11d9d7874ee482c0ac2.png/show",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Undead Family", "Nature Family", "Rank G"]]
+			},
+			{
+				"name": "Drohl Drone",
+				"rank": "G",
+				"img": "https://img.game8.jp/8774132/5ea289d23e5eac5f464fa2d7a976b5b2.png/show",
+				"family": "Nature",
+				"subfamily": ["Bug"],
+				"synthesis": [["Undead Family", "Demon Family", "Rank G"]]
+			}
 		],
 		"F": [
-			"Bullfinch",
-			"Suckling Ocker",
-			"Garuda",
-			"Odd Cob",
-			"Cactiball",
-			"Pogoin' Penguin",
-			"Mitey Oak",
-			"Scissor Beatle",
-			"Bagworm",
-			"Leafy Larrikin",
-			"Merman",
-			"Scarfish",
-			"Monolog",
-			"King Kelp"
+			{
+				"name": "Bullfinch",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082949/50101fbf02cfd5fefff527e303ba2a40.png/show",
+				"family": "Nature",
+				"subfamily": ["Bird", "Beast"],
+				"synthesis": [["Bantamweight", "Beast Family"]]
+			},
+			{
+				"name": "Suckling Ocker",
+				"rank": "F",
+				"img": "https://img.game8.jp/8797081/0a9501e6c0343d91e0120816cd14cafd.png/show",
+				"family": "Nature",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Khalamari Kid", "Khalamari Kid"]]
+			},
+			{
+				"name": "Garuda",
+				"rank": "F",
+				"img": "https://img.game8.jp/8774344/ef00bd9a458435cf5e5a5e3758623d81.png/show",
+				"family": "Nature",
+				"subfamily": ["Bird"],
+				"synthesis": [["Pteranodon", "Bullfinch"]]
+			},
+			{
+				"name": "Odd Cob",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082958/430dc25ea5351ca4758ebab03d394a8c.png/show",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Capsichum", "Lunatick"]]
+			},
+			{
+				"name": "Cactiball",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082962/23b1b784beaa24a4e4a9b0f3c32a65ba.png/show",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Disfigurine", "Nature Family"]]
+			},
+			{
+				"name": "Pogoin' Penguin",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082969/1555bc3de21e495e0c673f0c48203bd5.png/show",
+				"family": "Nature",
+				"subfamily": ["Bird"],
+				"synthesis": [["Stark Raven", "Skipper"]]
+			},
+			{
+				"name": "Mitey Oak",
+				"rank": "F",
+				"img": "https://img.game8.jp/8773442/ab9b09024bc173a5490495973b353830.png/show",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Stump Chump", "Blinkster"]]
+			},
+			{
+				"name": "Scissor Beatle",
+				"rank": "F",
+				"img": "https://img.game8.jp/8773426/4c44dbca323302c97d0c4084a4ba3b82.png/show",
+				"family": "Nature",
+				"subfamily": ["Bug"],
+				"synthesis": [["Nature Family", "Material Family", "Rank F"]]
+			},
+			{
+				"name": "Bagworm",
+				"rank": "F",
+				"img": "https://img.game8.jp/8773440/38591509cfc026b86838b75fe90c655d.png/show",
+				"family": "Nature",
+				"subfamily": ["Bug"],
+				"synthesis": [["Eggsoskeleton", "Stump Chump"]]
+			},
+			{
+				"name": "Leafy Larrikin",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082970/8dfcf1ec1c79da80f86279026561d00e.png/show",
+				"family": "Nature",
+				"subfamily": ["Bug"],
+				"synthesis": [["Monolog", "Capsichum"]]
+			},
+			{
+				"name": "Merman",
+				"rank": "F",
+				"img": "https://img.game8.jp/8773438/124246977f2b4e1b6e4d49895c334f72.png/show",
+				"family": "Nature",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Demon Family", "Nature Family", "Rank F"]]
+			},
+			{
+				"name": "Scarfish",
+				"rank": "F",
+				"img": "https://img.game8.jp/8773436/f509725617f37244b50ed46ddb8d8c14.png/show",
+				"family": "Nature",
+				"subfamily": ["Nature", "Aquatic"],
+				"synthesis": [["Funghoul", "Khalamari Kid"]]
+			},
+			{
+				"name": "Monolog",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083103/9d34a36bc0222a6f955438ae11fa57ff.png/show",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Stump Chump", "Lunatick"]]
+			},
+			{
+				"name": "King Kelp",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083081/53fca3b2b5fb64ea23949be4c07b1808.png/show",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Scarfish", "Woebergine"]]
+			}
 		],
 		"E": [
-			"Puffpoise",
-			"Chimaera",
-			"Scornet",
-			"Crabid",
-			"Octopot",
-			"Parched Peckerel",
-			"Weaken Beakon",
-			"Barracuda",
-			"Beanie Meanie",
-			"Tree Feller",
-			"Awebergine",
-			"Treeface",
-			"Morphean Mushroom"
+			{
+				"name": "Puffpoise",
+				"rank": "E",
+				"img": "https://img.game8.jp/9082959/6fe0c09a1e737777ec3c82bfb95b3481.png/show",
+				"family": "Nature",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Nature Family", "Slime Family", "Rank E"]]
+			},
+			{
+				"name": "Chimaera",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086674/2217915d13136954634c1d64e3d0f9c3.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Bird", "myth"],
+				"synthesis": [["Pogoin' Penguin", "Imp"]]
+			},
+			{
+				"name": "Scornet",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086667/5df6773f56c7cc95dc782dbf8f446ba5.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Bug"],
+				"synthesis": [["Scissor Beatle", "Odd Cob"]]
+			},
+			{
+				"name": "Crabid",
+				"rank": "E",
+				"img": "https://img.game8.jp/9082953/ab43aaa7cac29275033a8d29a0fd1e30.png/show",
+				"family": "Nature",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Nature Family", "Material Family", "Rank E"]]
+			},
+			{
+				"name": "Octopot",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086669/b085df60c9025e0a72d813568ffecf57.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Suckling Ocker", "Orc"]]
+			},
+			{
+				"name": "Parched Peckerel",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086664/4aded625a6f434e127c63a635d90c959.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Bird"],
+				"synthesis": [["Weaken Beakon", "Cactiball"]]
+			},
+			{
+				"name": "Weaken Beakon",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086662/55e47d5adbfec456bc6c0e1746884160.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Bird"],
+				"synthesis": [["Bullfinch", "Putrefido"]]
+			},
+			{
+				"name": "Barracuda",
+				"rank": "E",
+				"img": "https://img.game8.jp/9095111/523f66e27b1adadff51621e97dc4706b.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Merman", "Bullfinch"]]
+			},
+			{
+				"name": "Beanie Meanie",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086660/4319b11091c6f7b9a5602d7e4d74557a.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Cruelcumber", "Odd Cob"]]
+			},
+			{
+				"name": "Tree Feller",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086788/107f630a5305f5de06c47d2fd95ae638.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Plant", "Fairy"],
+				"synthesis": [["Monolog", "Blinkster"]]
+			},
+			{
+				"name": "Awebergine",
+				"rank": "E",
+				"img": "https://img.game8.jp/9082963/9bf72694569c3a6dbc94cdcb56d5c1ca.png/show",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Woebergine", "Pogoin' Penguin"]]
+			},
+			{
+				"name": "Treeface",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086756/f643a71f839572c18a7b9398b84cdee0.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Stump Chump", "Brollygagger"]]
+			},
+			{
+				"name": "Morphean Mushroom",
+				"rank": "E",
+				"img": "https://img.game8.jp/9083097/e2fadde7f17938c98fc052efeeb40137.png/show",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Funghoul", "Napir"]]
+			}
 		],
 		"D": [
-			"Rockin' Rockhopper",
-			"Dangler Fish",
-			"Mortoad",
-			"Brimstone Bulb",
-			"Mangleclaw",
-			"Palooka Prawn",
-			"Carnivine",
-			"Hades' Condor",
-			"Terrorhawk",
-			"Shivery Shrubbery"
+			{
+				"name": "Rockin' Rockhopper",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094705/977cc42ec0db315dcebcfdc8f08ee9e2.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Bird"],
+				"synthesis": [["Hooper Trooper", "Pogoin' Penguin"]]
+			},
+			{
+				"name": "Dangler Fish",
+				"rank": "D",
+				"img": "https://img.game8.jp/9095364/d4a907779f5e65d9fe16da6888309b42.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Barracuda", "Ratatattack"]]
+			},
+			{
+				"name": "Mortoad",
+				"rank": "D",
+				"img": "https://img.game8.jp/9097235/1d3c11b9d3449ab1bc2fb88af798991c.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["amphibian"],
+				"synthesis": [["Toady", "Cyclown"]]
+			},
+			{
+				"name": "Brimstone Bulb",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094700/b962cc4973c386cc7f107aaa6f2e9348.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Slime Family", "Nature Family", "Rank D"]]
+			},
+			{
+				"name": "Mangleclaw",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094714/34e2ce7d7bc53c1395059eb12d56ff7c.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Bird"],
+				"synthesis": [["Chimaera", "Firn Fiend"]]
+			},
+			{
+				"name": "Palooka Prawn",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094715/73139c7024b89476c1b939af09cbf144.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Crabid", "Material Family"]]
+			},
+			{
+				"name": "Tuskateer",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094703/50992c8ffb36d7effbcc5b26410309db.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Aquatic", "Beast"],
+				"synthesis": [["Drakularge", "Merman"]]
+			},
+			{
+				"name": "Carnivine",
+				"rank": "D",
+				"img": "https://img.game8.jp/9082976/a96b8f99b46a2b6143c998d8b250c820.png/show",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Cannibox", "Treeface"]]
+			},
+			{
+				"name": "Hades' Condor",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094708/b02ad00f6c66a3c3e34a3b1dbf19d221.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Bird"],
+				"synthesis": [["Garuda", "Abyss Diver"]]
+			},
+			{
+				"name": "Terrorhawk",
+				"rank": "D",
+				"family": "Nature",
+				"subfamily": ["Bird"],
+				"synthesis": [["Parched Peckerel", "Gargoyle"]]
+			},
+			{
+				"name": "Shivery Shrubbery",
+				"rank": "D",
+				"img": "https://img.game8.jp/9083036/0e37907961341303fff774d01a9492ff.png/show",
+				"family": "Nature",
+				"subfamily": ["Plant", "ice"],
+				"synthesis": [["Freezing Fog", "Leafy Larrikin"]]
+			}
 		],
 		"C": [
-			"Tartarus Eagle",
-			"Grillerpillar",
-			"Tufty Tot",
-			"Armoured Scorpion",
-			"Crabber Dabber Doo",
-			"Blastoad",
-			"Fandangow",
-			"Roistering Rooster",
-			"Treevil",
-			"Soy Soldier"
+			{
+				"name": "Tartarus Eagle",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094891/f274db8fca3199758650bc081056328a.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Bird"],
+				"synthesis": [["Hades' Condor", "Gryphon"]]
+			},
+			{
+				"name": "Grillerpillar",
+				"rank": "C",
+				"img": "https://img.game8.jp/9082973/fcd31326f5eede3a4a1425dd0c470b03.png/show",
+				"family": "Nature",
+				"subfamily": ["Bug"],
+				"synthesis": [["Killerpillar", "Dancing Flame"]]
+			},
+			{
+				"name": "Tufty Tot",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094899/e49ffcfc53856446cdcc5b1c1d7d60c6.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Plant", "Fairy"],
+				"synthesis": [["Mitey Oak", "Ewwnicorn"]]
+			},
+			{
+				"name": "Armoured Scorpion",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094873/37388ac343054ced2b4d35a8a8d4589d.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Bug"],
+				"synthesis": [["Scornet", "Killing Machine"]]
+			},
+			{
+				"name": "Crabber Dabber Doo",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094874/bb2b5dc28da49418cf7c33b7854de345.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Crabid", "Carnivine"]]
+			},
+			{
+				"name": "Blastoad",
+				"rank": "C",
+				"family": "Nature",
+				"subfamily": ["amphibian"],
+				"synthesis": [["Mortoad", "Spinchilla"]]
+			},
+			{
+				"name": "Fandangow",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094902/8e6a8b8a51b832a99f1f97f919d80628.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Rockin' Rockhopper", "Cactiball"]]
+			},
+			{
+				"name": "Roistering Rooster",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094866/da24c4691abbd91b4fa1c2348686c907.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Bird", "firer"],
+				"synthesis": [["Bantamweight", "Saltwater Stallion"]]
+			},
+			{
+				"name": "Treevil",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094884/3d2f9a7e982cb1670a2d2a039a78e757.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Treeface", "Bloody Hand"]]
+			},
+			{
+				"name": "Soy Soldier",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094869/c0305647288857bf8f9c9a29321c7952.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Corpsickle", "Beanie Meanie"]]
+			}
 		],
 		"B": [
-			"King Squid",
-			"Belisha Beakon",
-			"Clobster",
-			"Cosmic Chimaera",
-			"Tuffpoise",
-			"Firebird",
-			"Snowbird",
-			"Fowl Beast",
-			"Foebergine",
-			"Baleen Mage",
-			"Gangleclaw"
+			{
+				"name": "King Squid",
+				"rank": "B",
+				"img": "https://img.game8.jp/9094876/9780c13559a15130485ae0a5dceb60c5.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Octopot", "Liege Lizard"]]
+			},
+			{
+				"name": "Belisha Beakon",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097484/5ca3a7a6f5114f5c353eb0580544bc20.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Bird"],
+				"synthesis": [["Weaken Beakon", "Crabber Dabber Doo"]]
+			},
+			{
+				"name": "Clobster",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097464/4461f2992bf76e9eb1210bc37cf14492.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Palooka Prawn", "Armoured Scorpion"]]
+			},
+			{
+				"name": "Cosmic Chimaera",
+				"rank": "B",
+				"img": "https://img.game8.jp/9082965/131dc0a5be48b8dcfd86347c70a09614.png/show",
+				"family": "Nature",
+				"subfamily": ["Bird", "space", "myth"],
+				"synthesis": [["Chimaera", "Drackyma"]]
+			},
+			{
+				"name": "Tuffpoise",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097480/d673f63d7ebc96fceeddbf3cd9e94b64.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Fandangow", "Puffpoise"]]
+			},
+			{
+				"name": "Firebird",
+				"rank": "B",
+				"img": "https://img.game8.jp/9082967/2947d83f0f0152d5895f2f0718a4177d.png/show",
+				"family": "Nature",
+				"subfamily": ["Bird", "fire"],
+				"synthesis": [["Tartarus Eagle", "Flamethrower"]]
+			},
+			{
+				"name": "Snowbird",
+				"rank": "B",
+				"img": "https://img.game8.jp/9082964/2bbebe8cef2138b816a7c9b2cdbd9b6b.png/show",
+				"family": "Nature",
+				"subfamily": ["Bird", "ice"],
+				"synthesis": [["Tartarus Eagle", "Blizzybody"]]
+			},
+			{
+				"name": "Fowl Beast",
+				"rank": "B",
+				"img": "https://img.game8.jp/9082966/48182273705eb22dda20c23d204d3500.png/show",
+				"family": "Nature",
+				"subfamily": ["Bird", "Beast"],
+				"synthesis": [["Bullfinch", "Moosifer"]]
+			},
+			{
+				"name": "Foebergine",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097566/85ecc0fab5fa93c0fcd0b1dee29e009e.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Awebergine", "Scourgette"]]
+			},
+			{
+				"name": "Baleen Mage",
+				"rank": "B",
+				"img": "https://img.game8.jp/9082974/6e9005b03db0b52ba8b222fa6443f250.png/show",
+				"family": "Nature",
+				"synthesis": [["Blastoad", "Mogus"]]
+			},
+			{
+				"name": "Gangleclaw",
+				"rank": "B",
+				"img": "https://img.game8.jp/9085327/3ef35d93f812bc0b2fd3f30426aa360d.png/show",
+				"family": "Nature",
+				"subfamily": ["Bird", "fire"],
+				"synthesis": [["Mangleclaw", "Bomboulder"]]
+			}
 		],
 		"A": [
-			"Tentacular",
-			"Phoenix",
-			"Metal Scorpion",
-			"Gripevine",
-			"Gracos",
-			"Riptide",
-			"Lleviathan",
-			"Prism Peacock",
-			"Cetacean Sorcerer"
+			{
+				"name": "Tentacular",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100286/941e906f4b5befa597d67b8219777160.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["One-Man Army", "King Squid"]]
+			},
+			{
+				"name": "Phoenix",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100268/f544bae70985d4654da37195b9abf12c.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Bird", "fire"],
+				"synthesis": [
+					["Firebird", "Tartarus Eagle", "Belisha Beakon", "Gangleclaw"]
+				]
+			},
+			{
+				"name": "Metal Scorpion",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100283/ca7ed800a826a83a8773467c14371005.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Bug", "metal"],
+				"synthesis": [["Armoured Scorpion", "Metal King Slime"]]
+			},
+			{
+				"name": "Gripevine",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100288/418b98d8c1652e9d25facb8006aa5b0b.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["One-Man Army", "Dragonthorn"]]
+			},
+			{
+				"name": "Gracos",
+				"rank": "A",
+				"family": "Nature",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Archdemon", "Merman", "Clobster", "Dangler Fish"]]
+			},
+			{
+				"name": "Riptide",
+				"rank": "A",
+				"family": "Nature",
+				"subfamily": ["Aquatic"],
+				"synthesis": []
+			},
+			{
+				"name": "Lleviathan",
+				"rank": "A",
+				"family": "Nature",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Drakulard", "Tuffpoise"]]
+			},
+			{
+				"name": "Prism Peacock",
+				"rank": "A",
+				"img": "https://img.game8.jp/9086344/1513327f3a47f881044e4f23b07211cc.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Bird", "space"],
+				"synthesis": [["Firebird", "Snowbird", "Terrorhawk", "Cosmic Chimaera"]]
+			},
+			{
+				"name": "Cetacean Sorcerer",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100271/adad3239c16976a70bb61ddf25ed7b85.jpeg/show",
+				"family": "Nature",
+				"synthesis": [["Baleen Mage", "King Slick Slime"]]
+			}
 		],
-		"S": ["Snipevine", "Khalamari", "Empyrea"],
-		"X": ["Aquarion", "Ramia"]
+		"S": [
+			{
+				"name": "Snipevine",
+				"rank": "S",
+				"img": "https://img.game8.jp/9085740/a5f26d16e626644cde2ecbed30b8c464.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Plant", "metal"],
+				"synthesis": [["Gripevine", "Cetacean Sorcerer"]]
+			},
+			{
+				"name": "Khalamari",
+				"rank": "S",
+				"family": "Nature",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Tentacular", "Lleviathan"]]
+			},
+			{
+				"name": "Empyrea",
+				"rank": "S",
+				"family": "Nature",
+				"subfamily": ["Bird"],
+				"synthesis": [["Phoenix", "Prism Peacock"]]
+			}
+		],
+		"X": [
+			{
+				"name": "Aquarion",
+				"rank": "X",
+				"family": "Nature",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Gracos", "Khalamari", "Riptide", "Metal Scorpion"]]
+			},
+			{
+				"name": "Ramia",
+				"rank": "X",
+				"img": "https://img.game8.jp/9091697/79d0c7db062a9f12dbfa429a2ed83dbf.jpeg/show",
+				"family": "Nature",
+				"subfamily": ["Bird"],
+				"synthesis": [["Empyrea", "Xenlon", "Great Keeper", "Fluffy"]]
+			}
+		]
 	},
 	"Material": {
 		"G": [
-			"Eggsoskeleton",
-			"Cumaulus",
-			"String Fella",
-			"Bambooligan",
-			"Sacksquatch",
-			"Mud Mannequin",
-			"Fromage Fray",
-			"Mecha-Mynah",
-			"Lampling",
-			"Bag O' Laughs"
+			{
+				"name": "Eggsoskeleton",
+				"rank": "G",
+				"img": "https://img.game8.jp/9083007/efbeea85a6b2b3ef5c9407c636f89e3c.png/show",
+				"family": "Material",
+				"subfamily": ["Machine"],
+				"synthesis": [["Material Family", "Beast Family", "Rank G"]]
+			},
+			{
+				"name": "Cumaulus",
+				"rank": "G",
+				"img": "https://img.game8.jp/9083013/d5a12db4f20059679dc331f32afd3476.png/show",
+				"family": "Material",
+				"subfamily": ["Elemental"],
+				"synthesis": [["Material Family", "Nature Family", "Rank G"]]
+			},
+			{
+				"name": "String Fella",
+				"rank": "G",
+				"img": "https://img.game8.jp/8797277/f7b31a8cc0ccf68ff9ab2b5740a315a2.png/show",
+				"family": "Material",
+				"synthesis": [["Bag O' Laughs", "Leery Lout"]]
+			},
+			{
+				"name": "Bambooligan",
+				"rank": "G",
+				"img": "https://img.game8.jp/9082998/8c0a42af753ac5ad59eb26d94c78fdeb.png/show",
+				"family": "Material",
+				"subfamily": ["Plant"],
+				"synthesis": [["Eggsoskeleton", "String Fella"]]
+			},
+			{
+				"name": "Sacksquatch",
+				"rank": "G",
+				"img": "https://img.game8.jp/9083009/2c914fdd77f49d72935e9bcec9d7f052.png/show",
+				"family": "Material",
+				"synthesis": [["Material Family", "Undead Family", "Rank G"]]
+			},
+			{
+				"name": "Mud Mannequin",
+				"rank": "G",
+				"img": "https://img.game8.jp/8797282/a01dcd4325943797b72e616ff4ad20d9.png/show",
+				"family": "Material",
+				"synthesis": [["Sacksquatch", "Woebergine"]]
+			},
+			{
+				"name": "Fromage Fray",
+				"rank": "G",
+				"img": "https://img.game8.jp/9083003/65a7fa710ce724c2bbffea17b4f60e1f.png/show",
+				"family": "Material",
+				"subfamily": ["food", "Undead"],
+				"synthesis": [["Sacksquatch", "Ghost"]]
+			},
+			{
+				"name": "Mecha-Mynah",
+				"rank": "G",
+				"img": "https://img.game8.jp/9083001/a0c92e7bc47db82ea593444732ef0be1.png/show",
+				"family": "Material",
+				"subfamily": ["Machine"],
+				"synthesis": [["Material Family", "Dragon Family", "Rank G"]]
+			},
+			{
+				"name": "Lampling",
+				"rank": "G",
+				"img": "https://img.game8.jp/9083008/8748d43af660bc3ee97d259a6e5c83b7.png/show",
+				"family": "Material",
+				"to": "Slime",
+				"synthesis": [["Spitnik", "Wax Murderer"]]
+			},
+			{
+				"name": "Bag O' Laughs",
+				"rank": "G",
+				"img": "https://img.game8.jp/9083012/653d4a178c60ea97b81feff06cf60170.png/show",
+				"family": "Material",
+				"synthesis": [["Material Family", "Slime Family", "Rank G"]]
+			}
 		],
 		"F": [
-			"Snowmangler",
-			"Cyclown",
-			"Spitnik",
-			"Horrifying Saucers",
-			"Chocolate Golem",
-			"Disfigurine",
-			"Bongo Drongo",
-			"Avian Android",
-			"Mudraker",
-			"Erazor Blade",
-			"Cannibox",
-			"Pocus Poppet",
-			"Hunter Mech",
-			"Muddy Hand"
+			{
+				"name": "Snowmangler",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082902/aaf74e139d159e57f54ae5b8dcc9c87b.png/show",
+				"family": "Material",
+				"subfamily": ["ice", "Elemental"],
+				"synthesis": [["Slime Family", "Undead Family", "Rank F"]]
+			},
+			{
+				"name": "Cyclown",
+				"rank": "F",
+				"img": "https://img.game8.jp/9082945/95eb677923a892cf2191e02092e81c76.png/show",
+				"family": "Material",
+				"subfamily": ["Elemental"],
+				"synthesis": [["Nature Family", "Demon Family", "Rank F"]]
+			},
+			{
+				"name": "Spitnik",
+				"rank": "F",
+				"img": "https://img.game8.jp/8774117/dea181105c624c8cc34df5a0d8e9e4cb.png/show",
+				"family": "Material",
+				"subfamily": ["Elemental"],
+				"synthesis": [["Material Family", "Demon Family", "Rank G"]]
+			},
+			{
+				"name": "Horrifying Saucers",
+				"rank": "F",
+				"img": "https://img.game8.jp/8797278/c17e79ba19524f942f43ea586bf8eabf.png/show",
+				"family": "Material",
+				"subfamily": ["food"],
+				"synthesis": [["Wax Murderer", "Dracky"]]
+			},
+			{
+				"name": "Chocolate Golem",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083011/dbf33889b63a90daa98067549114eeb0.png/show",
+				"family": "Material",
+				"subfamily": ["food"],
+				"synthesis": [["Mud Mannequin", "Goonache Goodie"]]
+			},
+			{
+				"name": "Disfigurine",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083014/2526cd58b44e90e595db6301f8c68df8.png/show",
+				"family": "Material",
+				"synthesis": [["String Fella", "Dragonthorn"]]
+			},
+			{
+				"name": "Bongo Drongo",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083020/f0bc8c682047694c46db0c42225bebb0.png/show",
+				"family": "Material",
+				"subfamily": ["Elemental"],
+				"synthesis": [["Material Family", "Dragon Family", "Rank F"]]
+			},
+			{
+				"name": "Avian Android",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083022/79d608b3bf6edddd099b824083037c6f.png/show",
+				"family": "Material",
+				"subfamily": ["Machine"],
+				"synthesis": [["Mecha-Mynah", "Nature Family"]]
+			},
+			{
+				"name": "Mudraker",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083059/3774c88d8eee363eeac481bac62679a1.png/show",
+				"family": "Material",
+				"subfamily": ["Elemental"],
+				"synthesis": [["Mud Mannequin", "Undead Family"]]
+			},
+			{
+				"name": "Erazor Blade",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083016/85d063cc52727ba567273084186482b6.png/show",
+				"family": "Material",
+				"synthesis": [["Wax Murderer", "Bambooligan"]]
+			},
+			{
+				"name": "Cannibox",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083018/da1291b840b411c8cd633223a50fb10c.png/show",
+				"family": "Material",
+				"synthesis": [["Bag O' Laughs", "Eggsoskeleton"]]
+			},
+			{
+				"name": "Pocus Poppet",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083017/5802832c6ada0b072791662a7943f3a5.png/show",
+				"family": "Material",
+				"synthesis": [["Material Family", "Demon Family", "Rank F"]]
+			},
+			{
+				"name": "Hunter Mech",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083037/e03daf107108d7bcb3e15e7d7c947074.png/show",
+				"family": "Material",
+				"subfamily": ["Machine"],
+				"synthesis": [["Restless Armour", "Material Family"]]
+			},
+			{
+				"name": "Muddy Hand",
+				"rank": "F",
+				"img": "https://img.game8.jp/8798239/53fd90afa70066b6728d7bc44d845ef1.png/show",
+				"family": "Material",
+				"subfamily": ["Undead"],
+				"synthesis": [["Sacksquatch", "Undead Family"]]
+			}
 		],
 		"E": [
-			"Well Wisher",
-			"Prancing Pillar",
-			"Goodybag",
-			"Clockwork Cuckoo",
-			"Brollygagger",
-			"Luminous Lampling",
-			"Fromage Fey",
-			"Escudogre",
-			"Harmour",
-			"Rockbomb",
-			"Hell Niño",
-			"Freezing Fog",
-			"Chocolate Whisp",
-			"Iron Maiden"
+			{
+				"name": "Well Wisher",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086655/1a1f9712669a65ca02427d2d26fbbc72.jpeg/show",
+				"family": "Material",
+				"subfamily": ["Demon"],
+				"synthesis": [["Material Family", "Dragon Family", "Rank E"]]
+			},
+			{
+				"name": "Prancing Pillar",
+				"rank": "E",
+				"img": "https://img.game8.jp/9083024/1ff8de3616e4cadfad64c9b65126e383.png/show",
+				"family": "Material",
+				"synthesis": [["Pocus Poppet", "Lampling"]]
+			},
+			{
+				"name": "Goodybag",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086658/8cda25cbf400cdac13f4ccdb20a9348a.jpeg/show",
+				"family": "Material",
+				"synthesis": [["Bag O' Laughs", "Pogoin' Penguin"]]
+			},
+			{
+				"name": "Clockwork Cuckoo",
+				"rank": "E",
+				"img": "https://img.game8.jp/9083057/1f1c0c3f4b7b046d15e19061cf89b9dd.png/show",
+				"family": "Material",
+				"subfamily": ["Machine"],
+				"synthesis": [["Mecha-Mynah", "Cyclown"]]
+			},
+			{
+				"name": "Brollygagger",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086653/a3e521d165df9915f4b6843fd14908c3.jpeg/show",
+				"family": "Material",
+				"synthesis": [["Material Family", "Undead Family", "Rank E"]]
+			},
+			{
+				"name": "Luminous Lampling",
+				"rank": "E",
+				"img": "https://img.game8.jp/9089282/53ef4b207bde49daf0357fd801c9b59b.jpeg/show",
+				"family": "Material",
+				"subfamily": ["ice"],
+				"to": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "Fromage Fey",
+				"rank": "E",
+				"img": "https://img.game8.jp/9083023/f2c51a8a116c2a1a8287b7114be6bd64.png/show",
+				"family": "Material",
+				"subfamily": ["food", "Undead"],
+				"synthesis": [["Fromage Fray", "Mouldy Slime"]]
+			},
+			{
+				"name": "Escudogre",
+				"rank": "E",
+				"img": "https://img.game8.jp/9083053/6ffc56c5c233a08fea2efe3f0cd176e8.png/show",
+				"family": "Material",
+				"subfamily": ["Demon"],
+				"synthesis": [["Leery Lout", "Hunter Mech"]]
+			},
+			{
+				"name": "Harmour",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086656/aff2cbaa0f955a3957145807bc1009c6.jpeg/show",
+				"family": "Material",
+				"synthesis": [["Phantom Fencer", "Material Family"]]
+			},
+			{
+				"name": "Rockbomb",
+				"rank": "E",
+				"img": "https://img.game8.jp/9083015/f4898caeb34863c98c571fd6ec46d359.png/show",
+				"family": "Material",
+				"synthesis": [["Material Family", "Demon Family", "Rank E"]]
+			},
+			{
+				"name": "Hell Niño",
+				"rank": "E",
+				"img": "https://img.game8.jp/9083074/ab07b2be860da595ac5c05b919a0ff38.png/show",
+				"family": "Material",
+				"subfamily": ["Elemental", "fire"],
+				"synthesis": [["Cumaulus", "Drake Slime"]]
+			},
+			{
+				"name": "Freezing Fog",
+				"rank": "E",
+				"img": "https://img.game8.jp/9083043/02a7cb616af51156019e66d8020cf120.png/show",
+				"family": "Material",
+				"subfamily": ["Elemental", "ice"],
+				"synthesis": [["Cumaulus", "Snowmangler"]]
+			},
+			{
+				"name": "Chocolate Whisp",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086754/d8b61637122fa70c78677356b36c0d90.jpeg/show",
+				"family": "Material",
+				"subfamily": ["food", "Elemental"],
+				"synthesis": [["Soft Serve Spook", "Chocolate Golem"]]
+			},
+			{
+				"name": "Iron Maiden",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086753/a46b102b02aede09bdd2c7213cccd5a9.jpeg/show",
+				"family": "Material",
+				"subfamily": ["Material"],
+				"synthesis": [["Succubat", "Pocus Poppet"]]
+			}
 		],
 		"D": [
-			"Spinchilla",
-			"Killing Machine",
-			"Coralossus",
-			"Paralyslicer",
-			"Stone Golem",
-			"Saccharine Sacksquatch",
-			"Bag O' Tricks",
-			"Dancing Flame",
-			"Frostburn",
-			"Magmalice",
-			"Firn Fiend",
-			"Mimic With Cheese",
-			"Sculptrice",
-			"Knight Errant",
-			"Bloody Hand"
+			{
+				"name": "Spinchilla",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094706/1d56cabeb240149a6dd9b7bed1a1dc78.jpeg/show",
+				"family": "Material",
+				"subfamily": ["Elemental"],
+				"synthesis": [["Cyclown", "Wyrtle"]]
+			},
+			{
+				"name": "Killing Machine",
+				"rank": "D",
+				"img": "https://img.game8.jp/9083047/910b693353cee7a65d9dba637daaef4d.png/show",
+				"family": "Material",
+				"subfamily": ["Machine"],
+				"synthesis": [["Hunter Mech", "Knight Errant"]]
+			},
+			{
+				"name": "Coralossus",
+				"rank": "D",
+				"img": "https://img.game8.jp/9085323/c7702a18af46dda5468c920e15458ab2.png/show",
+				"family": "Material",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Material Family", "Nature Family", "Rank D"]]
+			},
+			{
+				"name": "Paralyslicer",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094681/dd2f0395cb12d2276b89fd204e804865.jpeg/show",
+				"family": "Material",
+				"synthesis": [["Erazor Blade", "Scornet"]]
+			},
+			{
+				"name": "Stone Golem",
+				"rank": "D",
+				"img": "https://img.game8.jp/9083041/901b53349d5b9fc98d257c1d252ee48c.png/show",
+				"family": "Material",
+				"synthesis": [["Chocolate Golem", "Rubble Slime"]]
+			},
+			{
+				"name": "Saccharine Sacksquatch",
+				"rank": "D",
+				"img": "https://img.game8.jp/9083019/5d3b2c6d117e0f4f6a2d0dd8b42438f1.png/show",
+				"family": "Material",
+				"subfamily": ["food"],
+				"synthesis": [["Sacksquatch", "Scornet"]]
+			},
+			{
+				"name": "Bag O' Tricks",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094693/213c29c80d61041e82215d90bbe0f4c8.jpeg/show",
+				"family": "Material",
+				"synthesis": [["Goodybag", "Sugarstar Slime"]]
+			},
+			{
+				"name": "Dancing Flame",
+				"rank": "D",
+				"img": "https://img.game8.jp/9083021/8ddd40d56d8ea8ca3ccf8376781b6a3f.png/show",
+				"family": "Material",
+				"subfamily": ["Elemental", "fire"],
+				"synthesis": [["Hell Niño", "Grinferno"]]
+			},
+			{
+				"name": "Frostburn",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094696/75fae62655da05be72f274d90bcfc319.jpeg/show",
+				"family": "Material",
+				"subfamily": ["Elemental", "fire", "ice"],
+				"synthesis": [["Freezing Fog", "Grinferno"]]
+			},
+			{
+				"name": "Magmalice",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094719/4c0e262dab874b1ccc79dc98752299b2.jpeg/show",
+				"family": "Material",
+				"subfamily": ["Elemental", "fire"],
+				"synthesis": [["Rockbomb", "Dragon Family"]]
+			},
+			{
+				"name": "Firn Fiend",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094680/0b29c9b857f67cb9419c607dc34b6aa2.jpeg/show",
+				"family": "Material",
+				"subfamily": ["Elemental", "ice"],
+				"synthesis": [["Rockbomb", "Undead Family"]]
+			},
+			{
+				"name": "Mimic With Cheese",
+				"rank": "D",
+				"img": "https://img.game8.jp/9093581/ce95985fe891e7caa0ef99e5a8928e4e.jpeg/show",
+				"family": "Material",
+				"subfamily": ["food"],
+				"synthesis": []
+			},
+			{
+				"name": "Sculptrice",
+				"rank": "D",
+				"img": "https://img.game8.jp/9083078/b2f541bd97afddb7302c43f39b2375a7.png/show",
+				"family": "Material",
+				"subfamily": ["Bird", "ice"],
+				"synthesis": [["Weartiger", "Prancing Pillar"]]
+			},
+			{
+				"name": "Knight Errant",
+				"rank": "D",
+				"img": "https://img.game8.jp/9083079/99adcd6eea0ee334aef1b6615bb205c0.png/show",
+				"family": "Material",
+				"synthesis": [["Demon Family", "Material Family", "Rank D"]]
+			},
+			{
+				"name": "Bloody Hand",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094718/9b7f8e78b056e070df4b31675a7172f7.jpeg/show",
+				"family": "Material",
+				"subfamily": ["Undead"],
+				"synthesis": [["Muddy Hand", "Dead Resident"]]
+			}
 		],
 		"C": [
-			"Living Statue",
-			"Graven Idol",
-			"Bag O' Sweets",
-			"Flying Saucers",
-			"Blue Moon",
-			"Flamethrower",
-			"Blizzybody",
-			"Bongo Fandango",
-			"Mimic",
-			"Bomboulder",
-			"Face Invader"
+			{
+				"name": "Living Statue",
+				"rank": "C",
+				"img": "https://img.game8.jp/9083033/8b271291d43b79f89c7e22efa9a86b00.png/show",
+				"family": "Material",
+				"synthesis": [["Stone Golem", "Cloud Surfer"]]
+			},
+			{
+				"name": "Graven Idol",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094888/43a82e7768f8830073da5d3cc330e06d.jpeg/show",
+				"family": "Material",
+				"synthesis": [["Pocus Poppet", "Grincinerator"]]
+			},
+			{
+				"name": "Bag O' Sweets",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094908/d564eb7a89f165771e0a332be4650fd2.jpeg/show",
+				"family": "Material",
+				"subfamily": ["food"],
+				"synthesis": [["Bag O' Tricks", "Sugar Baddie"]]
+			},
+			{
+				"name": "Flying Saucers",
+				"rank": "C",
+				"img": "https://img.game8.jp/9083038/b07e9668d4470ab6098529c288fa944a.png/show",
+				"family": "Material",
+				"subfamily": ["food"],
+				"synthesis": [["Horrifying Saucers", "Soulspawn"]]
+			},
+			{
+				"name": "Blue Moon",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094879/ab3bf95c174b4ae73f62d289513162a1.jpeg/show",
+				"family": "Material",
+				"subfamily": ["Elemental", "space"],
+				"synthesis": [["Spitnik", "Night Emperor"]]
+			},
+			{
+				"name": "Flamethrower",
+				"rank": "C",
+				"img": "https://img.game8.jp/9083030/64fdc04eddf0a591da13b5e59b65b4bc.png/show",
+				"family": "Material",
+				"subfamily": ["Elemental", "fire", "ice"],
+				"synthesis": [["Dancing Flame", "Beleth"]]
+			},
+			{
+				"name": "Blizzybody",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094893/9835d6e7399506d0eb7a3225bd3fc966.jpeg/show",
+				"family": "Material",
+				"subfamily": ["Elemental", "fire"],
+				"synthesis": [["Frostburn", "Beleth"]]
+			},
+			{
+				"name": "Bongo Fandango",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094905/a01dc7a8430c26811063d4124621cd21.jpeg/show",
+				"family": "Material",
+				"subfamily": ["Elemental", "ice"],
+				"synthesis": [["Frostburn", "Bongo Drongo"]]
+			},
+			{
+				"name": "Mimic",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094895/21997f2ae12c368b24ea22a958544781.jpeg/show",
+				"family": "Material",
+				"synthesis": [["Cannibox", "Cannibox", "Well Wisher", "Bag O' Tricks"]]
+			},
+			{
+				"name": "Bomboulder",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094887/69df759e944f9a50fd07d78555bc3173.jpeg/show",
+				"family": "Material",
+				"synthesis": [["Rockbomb", "Cureslime"]]
+			},
+			{
+				"name": "Face Invader",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094885/226ca099fed385d6e3d282013b6b67a7.jpeg/show",
+				"family": "Material",
+				"subfamily": ["Machine"],
+				"synthesis": [["Coralossus", "Skeleton Swordsman"]]
+			}
 		],
 		"B": [
-			"Bamboogieman",
-			"Buntzenberner",
-			"Hard-Boiled Eggsoskeleton",
-			"Balhib",
-			"Golem",
-			"Alarmour",
-			"Admirer",
-			"Snowgre",
-			"Ne'er-Do-Well",
-			"A3G15",
-			"Bilhaw",
-			"Grrrgoyle",
-			"Dora-In-Grey"
+			{
+				"name": "Golem",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097471/2e8a9e429743692bc5a03eecf11e9561.jpeg/show",
+				"family": "Material",
+				"synthesis": [["Snowgre", "Stone Golem"]]
+			},
+			{
+				"name": "Buntzenberner",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097491/356a811c4fd2b529bf3d99c3ba69a19e.jpeg/show",
+				"family": "Material",
+				"subfamily": ["Elemental", "fire", "dark"],
+				"synthesis": [
+					["Dancing Flame", "Frostburn", "Soulspawn", "Brimstone Bulb"]
+				]
+			},
+			{
+				"name": "Admirer",
+				"rank": "B",
+				"img": "https://img.game8.jp/9083035/a73fd103ecdd4a2ab04ca60ea1b365ff.png/show",
+				"family": "Material",
+				"subfamily": ["Elemental"],
+				"synthesis": [["Blue Moon", "Mudraker"]]
+			},
+			{
+				"name": "Hard-Boiled Eggsoskeleton",
+				"rank": "B",
+				"img": "https://img.game8.jp/9083028/453f70e4c3463f1dd1a9aef2457a6ac3.png/show",
+				"family": "Material",
+				"subfamily": ["Machine"],
+				"synthesis": [["Eggsoskeleton", "Mottle She-Slime"]]
+			},
+			{
+				"name": "Bamboogieman",
+				"rank": "B",
+				"img": "https://img.game8.jp/9083042/6faeddac376c93888ec80df54b6a9ca7.png/show",
+				"family": "Material",
+				"synthesis": [["Hard-Boiled Eggsoskeleton", "Bambooligan"]]
+			},
+			{
+				"name": "Ne'er-Do-Well",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097477/e0c4f35da7f9d1ce474fc95615002194.jpeg/show",
+				"family": "Material",
+				"subfamily": ["Demon"],
+				"synthesis": [["Well Wisher", "Sekerleton"]]
+			},
+			{
+				"name": "Alarmour",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097469/fe91c7d54a62d4f78eb966566d199310.jpeg/show",
+				"family": "Material",
+				"synthesis": [["Harmour", "Grim Keeper"]]
+			},
+			{
+				"name": "Grrrgoyle",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097479/608c7b7e75ac4d456db4b369187424eb.jpeg/show",
+				"family": "Material",
+				"subfamily": ["Bird"],
+				"synthesis": [["Sculptrice", "Zamtasm"]]
+			},
+			{
+				"name": "Balhib",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097487/3aa41c4c91673b19e1f04aedae5b5503.jpeg/show",
+				"family": "Material",
+				"subfamily": ["Demon", "???"],
+				"synthesis": [["Magmalice", "Firn Fiend", "Coralossus", "Stone Golem"]]
+			},
+			{
+				"name": "Bilhaw",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097470/ff249eed8479bf1253a131bc99989c8e.jpeg/show",
+				"family": "Material",
+				"subfamily": ["Demon", "???"],
+				"synthesis": [["Sintaur", "Moosifer"]]
+			},
+			{
+				"name": "Snowgre",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097472/9b349122163bdb7a67366e8231cd4ab5.jpeg/show",
+				"family": "Material",
+				"subfamily": ["Aquatic", "ice"],
+				"synthesis": [["Coralossus", "Blizzybody"]]
+			},
+			{
+				"name": "Dora-In-Grey",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097458/94811098e1c519eef9349aceeedf3184.jpeg/show",
+				"family": "Material",
+				"synthesis": [["Iron Maiden", "Buntzenberner"]]
+			},
+			{
+				"name": "A3G15",
+				"rank": "B",
+				"img": "https://img.game8.jp/9083034/c988c44dde4e9dea0cbd2649a3d866bc.png/show",
+				"family": "Material",
+				"subfamily": ["Machine", "dark"],
+				"synthesis": [["Killing Machine", "Bamboogieman"]]
+			}
 		],
 		"A": [
-			"Overkilling Machine",
-			"Trauminator",
-			"Great Keeper",
-			"Pandora's Box",
-			"Knight Abhorrent"
+			{
+				"name": "Great Keeper",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100278/863275583286159b7efd93f58fddd880.jpeg/show",
+				"family": "Material",
+				"subfamily": ["gold"],
+				"synthesis": [["Living Statue", "Serpent Of The Scales"]]
+			},
+			{
+				"name": "Knight Abhorrent",
+				"rank": "A",
+				"img": "https://img.game8.jp/9085343/a428d4c0ac690bab1149470306c43c19.png/show",
+				"family": "Material",
+				"synthesis": [["Knight Errant", "Bone Baron"]]
+			},
+			{
+				"name": "Pandora's Box",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100290/79616e372870584b01fb116e90bed391.jpeg/show",
+				"family": "Material",
+				"synthesis": [["Mimic", "Ne'er-Do-Well"]]
+			},
+			{
+				"name": "Overkilling Machine",
+				"rank": "A",
+				"img": "https://img.game8.jp/9083058/968b7dd8c7d8318027b12cde4f384778.png/show",
+				"family": "Material",
+				"subfamily": ["Machine"],
+				"synthesis": [["Killing Machine", "Jugular Joker"]]
+			}
 		],
-		"S": ["Uberkilling Machine", "Ruin"],
-		"X": ["Sagittar"]
+		"S": [
+			{
+				"name": "Trauminator",
+				"rank": "S",
+				"img": "https://img.game8.jp/9083039/2af836d46417104c8af5cf1494617581.png/show",
+				"family": "Material",
+				"subfamily": ["Machine"],
+				"synthesis": [["Overkilling Machine", "A3G15"]]
+			},
+			{
+				"name": "Uberkilling Machine",
+				"rank": "S",
+				"img": "https://img.game8.jp/9086341/877c8019f06e42ce56e6dd7d99832252.jpeg/show",
+				"family": "Material",
+				"subfamily": ["Machine", "metal"],
+				"synthesis": [["Overkilling Machine", "Platinum King Jewel"]]
+			},
+			{
+				"name": "Ruin",
+				"rank": "S",
+				"family": "Material",
+				"subfamily": ["Elemental"],
+				"synthesis": [["Great Keeper", "Pandora's Box", "Dora-In-Grey", "Balhib"]]
+			}
+		],
+		"X": [
+			{
+				"name": "Sagittar",
+				"rank": "X",
+				"family": "Material",
+				"subfamily": ["Machine"],
+				"synthesis": [
+					["Trauminator", "Uberkilling Machine", "Knight Abhorrent", "Bilhaw"]
+				]
+			}
+		]
 	},
 	"Demon": {
 		"G": [
-			"Winky",
-			"Gremlin",
-			"Leery Lout",
-			"Dracky",
-			"Picksy",
-			"Blinkster",
-			"Teeny Sanguini",
-			"Bodkin Archer",
-			"Skipper"
+			{
+				"name": "Winky",
+				"rank": "G",
+				"img": "https://img.game8.jp/8798215/b577db61d1a9417302d87a5db97c323e.png/show",
+				"family": "Demon",
+				"synthesis": [["Lunatick", "String Fella"]]
+			},
+			{
+				"name": "Gremlin",
+				"rank": "G",
+				"img": "https://img.game8.jp/9083025/737b07e08a65d3ec91215779bae6ea20.png/show",
+				"family": "Demon",
+				"synthesis": [["Demon Family", "Dragon Family", "Rank G"]]
+			},
+			{
+				"name": "Leery Lout",
+				"rank": "G",
+				"img": "https://img.game8.jp/9083027/5759cdb1e0314510605d1c1a9b4d31fb.png/show",
+				"family": "Demon",
+				"subfamily": ["Humanoid"],
+				"synthesis": [["Demon Family", "Material Family", "Rank G"]]
+			},
+			{
+				"name": "Dracky",
+				"rank": "G",
+				"img": "https://img.game8.jp/9083100/80bbf19495a93b9bd83c9ed82584c566.png/show",
+				"family": "Demon",
+				"synthesis": [["Gremlin", "Bludgerigar"]]
+			},
+			{
+				"name": "Picksy",
+				"rank": "G",
+				"img": "https://img.game8.jp/9083061/e668ae72e1ddd99fffed9078e674ab78.png/show",
+				"family": "Demon",
+				"subfamily": ["Fairy"],
+				"synthesis": [["Demon Family", "Slime Family", "Rank G"]]
+			},
+			{
+				"name": "Blinkster",
+				"rank": "G",
+				"img": "https://img.game8.jp/9083049/0bd9a3e62bb4d01ff9460bddb9af6e10.png/show",
+				"family": "Demon",
+				"subfamily": ["Fairy"],
+				"synthesis": [["Winky", "Ghost"]]
+			},
+			{
+				"name": "Teeny Sanguini",
+				"rank": "G",
+				"img": "https://img.game8.jp/8773093/f8331381c9f299e834c77126f0126127.png/show",
+				"family": "Demon",
+				"synthesis": [["Demon Family", "Beast Family", "Rank G"]]
+			},
+			{
+				"name": "Bodkin Archer",
+				"rank": "G",
+				"img": "https://img.game8.jp/9083055/077e186ce99db0bfadc0504d20b823c6.png/show",
+				"family": "Demon",
+				"subfamily": ["Humanoid"],
+				"synthesis": [["Picksy", "Cruelcumber"]]
+			},
+			{
+				"name": "Skipper",
+				"rank": "G",
+				"img": "https://img.game8.jp/9083087/0bafb0b733fbae189031545e06e40968.png/show",
+				"family": "Demon",
+				"synthesis": [["Winky", "Pan Piper"]]
+			}
 		],
 		"F": [
-			"Hawk Man",
-			"Pickayune",
-			"Cloud Surfer",
-			"Succubat",
-			"See Urchin",
-			"Dessert Demon",
-			"Dancing Devil",
-			"Imp",
-			"Cannonbrawler"
+			{
+				"name": "Hawk Man",
+				"rank": "F",
+				"img": "https://img.game8.jp/8797159/7a659a19ba346b7193465d2331b2fa55.png/show",
+				"family": "Demon",
+				"subfamily": ["Bird"],
+				"synthesis": [["Stark Raven", "Beast Family"]]
+			},
+			{
+				"name": "Pickayune",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083044/598700b857711b5f893d86de34ed8a11.png/show",
+				"family": "Demon",
+				"subfamily": ["Fairy"],
+				"synthesis": [["Picksy", "Lampling"]]
+			},
+			{
+				"name": "Cloud Surfer",
+				"rank": "F",
+				"img": "https://img.game8.jp/8798218/4341c51e3cabacfde8ea9e744ea78d47.png/show",
+				"family": "Demon",
+				"to": "Material",
+				"subfamily": ["Elemental"],
+				"synthesis": [["Dancing Devil", "Cumaulus"]]
+			},
+			{
+				"name": "Succubat",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083073/0f22f0db39479c6b639149a75b90127f.png/show",
+				"family": "Demon",
+				"subfamily": ["Beast"],
+				"synthesis": [["Demon Family", "Beast Family", "Rank F"]]
+			},
+			{
+				"name": "See Urchin",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083040/72540ffbee3bf4bfc88304e17b46246a.png/show",
+				"family": "Demon",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Lunatick", "Khalamari Kid"]]
+			},
+			{
+				"name": "Dessert Demon",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083062/47b823df02dbd52506e4da3c604ce1bd.png/show",
+				"family": "Demon",
+				"subfamily": ["food"],
+				"synthesis": [["Imp", "Chocolate Golem"]]
+			},
+			{
+				"name": "Dancing Devil",
+				"rank": "F",
+				"img": "https://img.game8.jp/8798217/6b6a8229ae362ae9eedf56412a15b8a3.png/show",
+				"family": "Demon",
+				"synthesis": [["Gremlin", "Undead Family"]]
+			},
+			{
+				"name": "Imp",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083050/2f2616ddfb5efc78e11b9abeb7508b3f.png/show",
+				"family": "Demon",
+				"synthesis": [["Blinkster", "Dracky"]]
+			},
+			{
+				"name": "Cannonbrawler",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083045/23abc7cc861fdf6ff10730395105452b.png/show",
+				"family": "Demon",
+				"to": "Material",
+				"subfamily": ["Humanoid"],
+				"synthesis": [["Bodkin Archer", "Mecha-Mynah"]]
+			}
 		],
 		"E": [
-			"Ogre",
-			"Cyclops",
-			"Hooper Trooper",
-			"Sugar Baddie",
-			"Peeper",
-			"Bodkin Fletcher",
-			"Jinkster",
-			"Beleth",
-			"Drackolyte",
-			"Flurry Fiend"
+			{
+				"name": "Ogre",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086654/04c0dc7a9f80496c74ee10ae27582566.jpeg/show",
+				"family": "Demon",
+				"subfamily": ["Humanoid"],
+				"synthesis": [["Cannonbrawler", "Hood"]]
+			},
+			{
+				"name": "Cyclops",
+				"rank": "E",
+				"img": "https://img.game8.jp/8773104/23f8f12665c9e31f3ff3f8656dc53682.png/show",
+				"family": "Demon",
+				"subfamily": ["???", "Humanoid"],
+				"synthesis": [["Cross Eye", "Hammerhood"]]
+			},
+			{
+				"name": "Hooper Trooper",
+				"rank": "E",
+				"img": "https://img.game8.jp/9083029/a02ba301f8628cadd7be2e4eaac0ccbc.png/show",
+				"family": "Demon",
+				"synthesis": [["Dancing Devil", "Cyclown"]]
+			},
+			{
+				"name": "Sugar Baddie",
+				"rank": "E",
+				"img": "https://img.game8.jp/9083067/5d569b0eb68ee3177ae4d995e18948ae.png/show",
+				"family": "Demon",
+				"subfamily": ["food", "Humanoid"],
+				"synthesis": [["Dessert Demon", "Fromage Fey"]]
+			},
+			{
+				"name": "Peeper",
+				"rank": "E",
+				"img": "https://img.game8.jp/9083063/788a1ccd767ae2548713382713120669.png/show",
+				"family": "Demon",
+				"synthesis": [["Winky", "Pocus Poppet"]]
+			},
+			{
+				"name": "Bodkin Fletcher",
+				"rank": "E",
+				"img": "https://img.game8.jp/9085335/11e18f53838344a206a7180ba58c9741.png/show",
+				"family": "Demon",
+				"subfamily": ["Humanoid"],
+				"synthesis": [["Bodkin Archer", "Walking Corpse"]]
+			},
+			{
+				"name": "Jinkster",
+				"rank": "E",
+				"img": "https://img.game8.jp/9083064/a793c02ddeeb68a3c33d2432c845d390.png/show",
+				"family": "Demon",
+				"subfamily": ["Fairy"],
+				"synthesis": [["Blinkster", "Pickayune"]]
+			},
+			{
+				"name": "Beleth",
+				"rank": "E",
+				"img": "https://img.game8.jp/9083051/f0618301c539e1a708d571d1ea6a4e3d.png/show",
+				"family": "Demon",
+				"synthesis": [["Dancing Devil", "Erazor Blade"]]
+			},
+			{
+				"name": "Drackolyte",
+				"rank": "E",
+				"img": "https://img.game8.jp/9083056/e77ca58f0a550603d2115460a88ad36c.png/show",
+				"family": "Demon",
+				"synthesis": [["Dracky", "Whizzard"]]
+			},
+			{
+				"name": "Flurry Fiend",
+				"rank": "E",
+				"img": "https://img.game8.jp/9088415/bbb1a6be77e27390f60d13bd29cb734d.jpeg/show",
+				"family": "Demon",
+				"subfamily": ["food"],
+				"synthesis": []
+			}
 		],
 		"D": [
-			"Gargoyle",
-			"Giruffian",
-			"Hypothermion",
-			"Silvapithecus",
-			"Boss Troll",
-			"Minidemon",
-			"Low Djinks",
-			"Night Sneaker"
+			{
+				"name": "Gargoyle",
+				"rank": "D",
+				"img": "https://img.game8.jp/9083006/0fb24b57b4464e69bfbdafa4605b9e66.png/show",
+				"family": "Demon",
+				"subfamily": ["Material", "Bird"],
+				"synthesis": [["Hawk Man", "Chimaera"]]
+			},
+			{
+				"name": "Giruffian",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094679/def979b7ede5a88193fb56714c2abc95.jpeg/show",
+				"family": "Demon",
+				"synthesis": [["Beast Family", "Nature Family", "Rank D"]]
+			},
+			{
+				"name": "Hypothermion",
+				"rank": "D",
+				"img": "https://img.game8.jp/9083031/f3eb0b643ea4ac3e34e8feb4d08921f5.png/show",
+				"family": "Demon",
+				"synthesis": [["Beleth", "Dark Sabrecub"]]
+			},
+			{
+				"name": "Silvapithecus",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094704/39adedf247713b653c2b7210165042ec.jpeg/show",
+				"family": "Demon",
+				"synthesis": [["Hawk Man", "Meowgician"]]
+			},
+			{
+				"name": "Boss Troll",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094697/bd406c72ef1cb3b1742204bf1f3a656b.jpeg/show",
+				"family": "Demon",
+				"subfamily": ["Humanoid"],
+				"synthesis": [["Cyclops", "Tuskateer"]]
+			},
+			{
+				"name": "Minidemon",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094702/db92ae6131230086a04d867812e4c5cf.jpeg/show",
+				"family": "Demon",
+				"synthesis": [["Imp", "Drackolyte"]]
+			},
+			{
+				"name": "Low Djinks",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094707/d7d713442e34d8c91ef931f60dbade39.jpeg/show",
+				"family": "Demon",
+				"to": "Material",
+				"subfamily": ["Elemental"],
+				"synthesis": [["Cloud Surfer", "Sugar Baddie"]]
+			},
+			{
+				"name": "Night Sneaker",
+				"rank": "D",
+				"img": "https://img.game8.jp/9083076/9a453bd76296176e2bf3c7e43f908193.png/show",
+				"family": "Demon",
+				"synthesis": [["Skipper", "Night Emperor"]]
+			}
 		],
 		"C": [
-			"Notso Macho",
-			"Moosifer",
-			"Sintaur",
-			"Gander",
-			"Swingre",
-			"Drackyma",
-			"Goobonce",
-			"Bloodbonnet"
+			{
+				"name": "Notso Macho",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094896/bfbcc1651e0d350c719c23f499d0f24a.jpeg/show",
+				"family": "Demon",
+				"synthesis": [["Paralyslicer", "Ripped Rabbit"]]
+			},
+			{
+				"name": "Moosifer",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094898/50eb82902ab283680fd4bc9e4dae3efe.jpeg/show",
+				"family": "Demon",
+				"subfamily": ["Beast"],
+				"synthesis": [["Swingre", "Gryphon"]]
+			},
+			{
+				"name": "Sintaur",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094894/d016354c34cc0ab5203fcb4e2c9990ce.jpeg/show",
+				"family": "Demon",
+				"to": "Beast",
+				"subfamily": ["Humanoid"],
+				"synthesis": [["Rhinoceraxe", "Ewwnicorn"]]
+			},
+			{
+				"name": "Gander",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094904/fb58dae5e6b8f4064d4550906e0378bd.jpeg/show",
+				"family": "Demon",
+				"synthesis": [["Peeper", "Zaptile"]]
+			},
+			{
+				"name": "Swingre",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094903/4ad9a7c0af9b485f23b1706f20c58aea.jpeg/show",
+				"family": "Demon",
+				"subfamily": ["Humanoid"],
+				"synthesis": [["Ogre", "Low Djinks"]]
+			},
+			{
+				"name": "Drackyma",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094886/1aef091b2a1d44c4d0b9ac1d162a774a.jpeg/show",
+				"family": "Demon",
+				"synthesis": [["Drackolyte", "Fightgeist"]]
+			},
+			{
+				"name": "Goobonce",
+				"rank": "C",
+				"img": "https://img.game8.jp/9083046/4f62ae025433bc3661f848c548eda10c.png/show",
+				"family": "Demon",
+				"synthesis": [["Winky", "Frostburn"]]
+			},
+			{
+				"name": "Bloodbonnet",
+				"rank": "C",
+				"img": "https://img.game8.jp/9083066/791d9727940527d8e725f694ca944ada.png/show",
+				"family": "Demon",
+				"synthesis": [["Peeper", "Dancing Flame"]]
+			},
+			{
+				"name": "Night Clubber",
+				"rank": "C",
+				"img": "https://img.game8.jp/9097485/99e1e5e0b79c3fc2a531762792a2e7a4.jpeg/show",
+				"family": "Demon",
+				"synthesis": [["Boss Troll", "Pickayune"]]
+			}
 		],
 		"B": [
-			"Archdemon",
-			"Wrecktor",
-			"Night Clubber",
-			"Gigantes",
-			"Jugular Joker",
-			"Stout Troll",
-			"Hyperanemon"
+			{
+				"name": "Archdemon",
+				"rank": "B",
+				"img": "https://img.game8.jp/9083075/37ae29e2561a403e7687c9290f70793f.png/show",
+				"family": "Demon",
+				"synthesis": [["Grim Keeper", "Dessert Demon"]]
+			},
+			{
+				"name": "Wrecktor",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097488/e5871478cd7cb87113fc31cfe9efcbce.jpeg/show",
+				"family": "Demon",
+				"synthesis": [["Demon-At-Arms", "Hocus-Poker"]]
+			},
+			{
+				"name": "Gigantes",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097486/9f787d86a25c9cbf2007cdca29d79c37.jpeg/show",
+				"family": "Demon",
+				"subfamily": ["Humanoid"],
+				"synthesis": [["Cyclops", "Heligator"]]
+			},
+			{
+				"name": "Jugular Joker",
+				"rank": "B",
+				"img": "https://img.game8.jp/9083060/c241fbd06299eef65dbcbb87c8250cfd.png/show",
+				"family": "Demon",
+				"subfamily": ["Humanoid"],
+				"synthesis": [["Jinkster", "Maniacal Mole"]]
+			},
+			{
+				"name": "Stout Troll",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097570/48ff5eb4315b1fd7a1c92273e72b218a.jpeg/show",
+				"family": "Demon",
+				"subfamily": ["Humanoid"],
+				"synthesis": [["Boss Troll", "Noble Gasbagon"]]
+			},
+			{
+				"name": "Hyperanemon",
+				"rank": "B",
+				"img": "https://img.game8.jp/9106421/a11171fb546b70dc109beb0aa4778cbc.jpeg/show",
+				"family": "Demon",
+				"synthesis": []
+			},
+			{
+				"name": "Gadrongo",
+				"rank": "B",
+				"family": "Demon",
+				"synthesis": [["Night Clubber", "Bobonga"]]
+			},
+			{
+				"name": "Balzack",
+				"rank": "B",
+				"img": "https://img.game8.jp/9100275/c70c3d936aefe594962eb09479f879ea.jpeg/show",
+				"family": "Demon",
+				"synthesis": [["Gadrongo", "Abominable Showman"]]
+			}
 		],
 		"A": [
-			"Macho Picchu",
-			"Atlas",
-			"Pruslas",
-			"Pazuzu",
-			"Belial",
-			"Barbatos",
-			"Balzack"
+			{
+				"name": "Macho Picchu",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100273/eb6a70af71129d3cd40cd6b051cb2fd2.jpeg/show",
+				"family": "Demon",
+				"subfamily": ["Demon"],
+				"synthesis": [["Notso Macho", "Alarmour"]]
+			},
+			{
+				"name": "Atlas",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100281/1a41ea4ab0c68fe39eafce13abbd0211.jpeg/show",
+				"family": "Demon",
+				"subfamily": ["Humanoid"],
+				"synthesis": [["Gigantes", "Stout Troll"]]
+			},
+			{
+				"name": "Pruslas",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100266/d5ea29c411d1520f60f67ea3ca997e88.jpeg/show",
+				"family": "Demon",
+				"synthesis": [["Balzack", "Metal Scorpion"]]
+			},
+			{
+				"name": "Pazuzu",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100272/55a1148a7eab5fda0d624e8feecd1bfa.jpeg/show",
+				"family": "Demon",
+				"subfamily": ["Beast"],
+				"synthesis": [["Silvapithecus", "Buntzenberner"]]
+			},
+			{
+				"name": "Belial",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100287/0c90b65d59ffdba3a6c9ef7dbe12ed3d.jpeg/show",
+				"family": "Demon",
+				"synthesis": [["Archdemon", "Buffalogre"]]
+			},
+			{
+				"name": "Barbatos",
+				"rank": "A",
+				"img": "https://img.game8.jp/9090901/5f573d77c2b2366376b1063f97326f26.jpeg/show",
+				"family": "Demon",
+				"subfamily": ["Beast"],
+				"synthesis": [["Marquis De Léon", "Moosifer"]]
+			}
 		],
 		"S": [
-			"Bjorn The Behemoose",
-			"Malroth",
-			"Corvus",
-			"Nelgel The Netherfiend",
-			"Jasper Unbound"
+			{
+				"name": "Bjorn The Behemoose",
+				"rank": "S",
+				"family": "Demon",
+				"subfamily": ["Beast"],
+				"synthesis": [["Barbatos", "Gnuriel"]]
+			},
+			{
+				"name": "Jasper Unbound",
+				"rank": "S",
+				"img": "https://img.game8.jp/9086343/fce8ed9610fc6bf79ef7b66e3e2e0d48.jpeg/show",
+				"family": "Demon",
+				"subfamily": ["???", "Character"],
+				"synthesis": [["Lieutenant Goresby-Purrvis", "Dread Dragooner"]]
+			},
+			{
+				"name": "Malroth",
+				"rank": "S",
+				"img": "https://img.game8.jp/9086856/43240f23c4ed96cbf2bfec05177197ce.jpeg/show",
+				"family": "Demon",
+				"subfamily": ["???", "Dragon"],
+				"synthesis": [["True Dragonlord", "Hargon"]]
+			},
+			{
+				"name": "Corvus",
+				"rank": "S",
+				"img": "https://img.game8.jp/9088317/b1e7c5258662ac2dbfb9551eafea645e.jpeg/show",
+				"family": "Demon",
+				"subfamily": ["???", "Character"],
+				"synthesis": [
+					[
+						"Barbarus",
+						"Lieutenant Goresby-Purrvis",
+						"Lieutenant Hootingham-Gore",
+						"Lieutenant Goreham-Hogg"
+					]
+				]
+			},
+			{
+				"name": "Nelgel The Netherfiend",
+				"rank": "S",
+				"img": "https://img.game8.jp/9099087/82e2417fce297e8708cddd80745de84e.jpeg/show",
+				"family": "Demon",
+				"subfamily": ["???", "Beast"],
+				"synthesis": [["Corvus", "Pazuzu"]]
+			}
 		],
-		"X": ["Genosidoh"],
-		"Z": ["Gore Genosidoh"]
+		"X": [
+			{
+				"name": "Genosidoh",
+				"rank": "X",
+				"family": "Demon",
+				"subfamily": ["???", "Dragon"],
+				"synthesis": [["Malroth", "Shadroth"]]
+			}
+		],
+		"Z": [
+			{
+				"name": "Gore Genosidoh",
+				"rank": "Z",
+				"family": "Demon",
+				"subfamily": ["???", "Dragon"],
+				"synthesis": [["Genosidoh"]]
+			}
+		]
 	},
 	"Undead": {
 		"G": [
-			"Putrefido",
-			"Wax Murderer",
-			"Skeleton",
-			"Ghost",
-			"Soft Serve Spook",
-			"Firespirit"
+			{
+				"name": "Putrefido",
+				"rank": "G",
+				"img": "https://img.game8.jp/9083071/ee76dffc63b3a701dff9ac890c409d2f.png/show",
+				"family": "Undead",
+				"synthesis": [["Undead Family", "Beast Family", "Rank G"]]
+			},
+			{
+				"name": "Wax Murderer",
+				"rank": "G",
+				"img": "https://img.game8.jp/8774150/1f767b599229a381f671aae1cac507b6.png/show",
+				"family": "Undead",
+				"subfamily": ["Elemental", "fire"],
+				"synthesis": [["Undead Family", "Material Family", "Rank G"]]
+			},
+			{
+				"name": "Skeleton",
+				"rank": "G",
+				"img": "https://img.game8.jp/9083086/d4b619510ea96fb882a225f1e98723f1.png/show",
+				"family": "Undead",
+				"synthesis": [["Firespirit", "Leery Lout"]]
+			},
+			{
+				"name": "Ghost",
+				"rank": "G",
+				"img": "https://img.game8.jp/9083089/43054bf713aa3d3fae13df87d6708ad5.png/show",
+				"family": "Undead",
+				"synthesis": [["Soft Serve Spook", "Sham Hatwitch"]]
+			},
+			{
+				"name": "Soft Serve Spook",
+				"rank": "G",
+				"img": "https://img.game8.jp/9083084/c730113d0b75fdba47f077fe26cfa25a.png/show",
+				"family": "Undead",
+				"to": "Material",
+				"subfamily": ["Elemental"],
+				"synthesis": [["Undead Family", "Slime Family"]]
+			},
+			{
+				"name": "Firespirit",
+				"rank": "G",
+				"img": "https://img.game8.jp/9083065/e8520c4a0d4bad487eddc7ac6f7961d3.png/show",
+				"family": "Undead",
+				"subfamily": ["Material", "Elemental", "fire"],
+				"synthesis": [["Undead Family", "Dragon Family", "Rank G"]]
+			}
 		],
 		"F": [
-			"Walking Corpse",
-			"Restless Armour",
-			"Shadow",
-			"Skullrider",
-			"Mummy Boy",
-			"Hellbound Horror"
+			{
+				"name": "Walking Corpse",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083091/829ca5b945be40416f3538dc48306f6b.png/show",
+				"family": "Undead",
+				"synthesis": [["Putrefido", "Skeleton"]]
+			},
+			{
+				"name": "Restless Armour",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083068/64b1a5b4507dd4aaa0fcfde62ac572cd.png/show",
+				"family": "Undead",
+				"synthesis": [["Slime Knight", "Bambooligan"]]
+			},
+			{
+				"name": "Shadow",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083082/c73381359940d53f6bafd73ce5457831.png/show",
+				"family": "Undead",
+				"subfamily": ["Elemental"],
+				"synthesis": [["Hellbound Horror", "Spitnik"]]
+			},
+			{
+				"name": "Skullrider",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083101/a5f5ffe211b2761b9b4593048c994506.png/show",
+				"family": "Undead",
+				"subfamily": ["Demon", "Humanoid"],
+				"synthesis": [["Skeleton", "Killer Gila"]]
+			},
+			{
+				"name": "Mummy Boy",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083069/0bcd1a3f557dca23dc9d3ec4ead2c703.png/show",
+				"family": "Undead",
+				"synthesis": [["Walking Corpse", "String Fella"]]
+			},
+			{
+				"name": "Hellbound Horror",
+				"rank": "F",
+				"img": "https://img.game8.jp/9083090/00089ccb079d36044ee9a5b27a63ac9c.png/show",
+				"family": "Undead",
+				"subfamily": ["Material"],
+				"synthesis": [["Ghost", "Bodkin Archer"]]
+			}
 		],
 		"E": [
-			"Grinferno",
-			"Dead Resident",
-			"Skeleton Soldier",
-			"Frolicker",
-			"Phantom Fencer",
-			"Float-O-Copier"
+			{
+				"name": "Grinferno",
+				"rank": "E",
+				"img": "https://img.game8.jp/9083094/6513a63f4417695829ed3f06a436ecfb.png/show",
+				"family": "Undead",
+				"to": "Material",
+				"subfamily": ["Elemental", "fire"],
+				"synthesis": [["Undead Family", "Dragon Family", "Rank E"]]
+			},
+			{
+				"name": "Dead Resident",
+				"rank": "E",
+				"img": "https://img.game8.jp/9083102/f44bbcb841f78698a6143c78e004a3b5.png/show",
+				"family": "Undead",
+				"synthesis": [["Mummy Boy", "Skullrider"]]
+			},
+			{
+				"name": "Skeleton Soldier",
+				"rank": "E",
+				"img": "https://img.game8.jp/9083105/9a7d14d9c485689af0943796687691c5.png/show",
+				"family": "Undead",
+				"synthesis": [["Skeleton", "Restless Armour"]]
+			},
+			{
+				"name": "Frolicker",
+				"rank": "E",
+				"img": "https://img.game8.jp/9083098/bcfdb87c391cc39727e97367b71ca511.png/show",
+				"family": "Undead",
+				"to": "Demon",
+				"synthesis": [["Undead Family", "Beast Family", "Rank E"]]
+			},
+			{
+				"name": "Phantom Fencer",
+				"rank": "E",
+				"img": "https://img.game8.jp/9083088/b2675a8a67040739a5c065af5037891d.png/show",
+				"family": "Undead",
+				"synthesis": [["Shadow", "Stabosaur"]]
+			},
+			{
+				"name": "Float-O-Copier",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086755/06923f5e3a3ffedf6fac0d6821482a18.jpeg/show",
+				"family": "Undead",
+				"subfamily": ["Elemental", "fire"],
+				"synthesis": []
+			}
 		],
 		"D": [
-			"Soulspawn",
-			"Skeleton Swordsman",
-			"Cursed Crooner",
-			"Tortured Soul",
-			"Corpsickle",
-			"Grim Rider",
-			"Bone Idol",
-			"Discombombulator",
-			"Fightgeist"
+			{
+				"name": "Soulspawn",
+				"rank": "D",
+				"img": "https://img.game8.jp/9083096/3c1cb80a1893ed21533470615db3341a.png/show",
+				"family": "Undead",
+				"synthesis": [["Undead Family", "Demon Family", "Rank D"]]
+			},
+			{
+				"name": "Skeleton Swordsman",
+				"rank": "D",
+				"img": "https://img.game8.jp/9083095/d4e8087108e1075729520ff29e5e86fb.png/show",
+				"family": "Undead",
+				"synthesis": [["Grim Rider", "Demon Family"]]
+			},
+			{
+				"name": "Cursed Crooner",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094701/af04da3a9b516a787bd672209f068478.jpeg/show",
+				"family": "Undead",
+				"synthesis": [["King Kelp", "Lump Shaman"]]
+			},
+			{
+				"name": "Tortured Soul",
+				"rank": "D",
+				"img": "https://img.game8.jp/9095109/f63e2cf051a048df726b338cf39f987f.jpeg/show",
+				"family": "Undead",
+				"synthesis": [["Psaro's Pawn", "Dead Resident"]]
+			},
+			{
+				"name": "Corpsickle",
+				"rank": "D",
+				"img": "https://img.game8.jp/9083093/c85ebb954da226de512d9d812fc726af.png/show",
+				"family": "Undead",
+				"synthesis": [["Walking Corpse", "Cauldragon"]]
+			},
+			{
+				"name": "Grim Rider",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094711/3cc6829a56f5f2977b0c8db8189ac8f6.jpeg/show",
+				"family": "Undead",
+				"synthesis": [["Harmour", "Skullrider"]]
+			},
+			{
+				"name": "Bone Idol",
+				"rank": "D",
+				"img": "https://img.game8.jp/9083085/507ccb3db7bcf098dc72e52878bb33c9.png/show",
+				"family": "Undead",
+				"synthesis": [["Dead Resident", "Vampire Cat"]]
+			},
+			{
+				"name": "Discombombulator",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094699/e71beb139d31dd19de4851cbf781f49e.jpeg/show",
+				"family": "Undead",
+				"subfamily": ["Elemental"],
+				"synthesis": []
+			},
+			{
+				"name": "Fightgeist",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094683/c38f18f8c0072faf6f7a1ad08253160f.jpeg/show",
+				"family": "Undead",
+				"synthesis": [["Ghost", "Dark Slime"]]
+			}
 		],
 		"C": [
-			"Hellbound Hair-Raiser",
-			"Grim Keeper",
-			"Sekerleton",
-			"Phantom Swordsman",
-			"Dullahan",
-			"Skellyfish",
-			"Zamtasm",
-			"Roseguardin",
-			"Fright Knight",
-			"Marrow Escapee",
-			"Grincinerator"
+			{
+				"name": "Grim Keeper",
+				"rank": "C",
+				"img": "https://img.game8.jp/9083052/a147653581b25cef87425d39a977bb6b.png/show",
+				"family": "Undead",
+				"synthesis": [["Beleth", "Low Djinks"]]
+			},
+			{
+				"name": "Roseguardin",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094892/07bb503752fa9b6f63cb35a351166678.jpeg/show",
+				"family": "Undead",
+				"synthesis": [["Grim Rider", "Restless Armour"]]
+			},
+			{
+				"name": "Hellbound Hair-Raiser",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094890/4d00cb8b9b4787443b7c31974292ff50.jpeg/show",
+				"family": "Undead",
+				"synthesis": [["Hellbound Horror", "Paralyslicer"]]
+			},
+			{
+				"name": "Sekerleton",
+				"rank": "C",
+				"img": "https://img.game8.jp/9083092/911893d6e7cfd70485a0054691023b6a.png/show",
+				"family": "Undead",
+				"synthesis": [["Skeleton Soldier", "Cursed Crooner"]]
+			},
+			{
+				"name": "Phantom Swordsman",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094909/3ef43496c3bed82003808efa69737284.jpeg/show",
+				"family": "Undead",
+				"synthesis": [["Phantom Fencer", "Bloody Hand"]]
+			},
+			{
+				"name": "Dullahan",
+				"rank": "C",
+				"img": "https://img.game8.jp/9083099/e1b177975eb3428d89261f5d627eb803.png/show",
+				"family": "Undead",
+				"synthesis": [["Killing Machine", "Ogre"]]
+			},
+			{
+				"name": "Skellyfish",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094900/90fcca78ff3b0a5a5048fa9009e3e66b.jpeg/show",
+				"family": "Undead",
+				"subfamily": ["Nature", "Aquatic"],
+				"synthesis": [["Octopot", "Bone Idol"]]
+			},
+			{
+				"name": "Zamtasm",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094901/6a1f96658724be17fce2ae3f26231291.jpeg/show",
+				"family": "Undead",
+				"subfamily": ["Elemental", "fire"],
+				"synthesis": [["Float-O-Copier", "Soulspawn"]]
+			},
+			{
+				"name": "Fright Knight",
+				"rank": "C",
+				"img": "https://img.game8.jp/9083104/9e3b9dcbb45d19b3aa9615ecce2be5be.png/show",
+				"family": "Undead",
+				"synthesis": [["Skeleton Swordsman", "Roseguardin"]]
+			},
+			{
+				"name": "Marrow Escapee",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094889/78998d3b98a073ac324e9b157cdcd094.jpeg/show",
+				"family": "Undead",
+				"synthesis": [["Dead Resident", "Corpsickle"]]
+			},
+			{
+				"name": "Grincinerator",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094910/15f61d1904d8c797de970ee5f6af406f.jpeg/show",
+				"family": "Undead",
+				"to": "Material",
+				"subfamily": ["Elemental", "fire"],
+				"synthesis": [["Grinferno", "Brimstone Bulb"]]
+			}
 		],
 		"B": [
-			"Green Bogey",
-			"Bone Baron",
-			"Skelegon",
-			"Drooling Ghoul",
-			"One-Man Army",
-			"Headless Horseman",
-			"Grotwyrm",
-			"Hellspawn",
-			"Demon-At-Arms",
-			"Wight King"
+			{
+				"name": "Green Bogey",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097518/710c82a3ff67316e6c2e5e9625e959ba.jpeg/show",
+				"family": "Undead",
+				"subfamily": ["Elemental"],
+				"synthesis": [["Zamtasm", "Shadow"]]
+			},
+			{
+				"name": "Bone Baron",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097482/9be14a0369d3803d2fec990a89cfec59.jpeg/show",
+				"family": "Undead",
+				"synthesis": [["Sekerleton", "Grim Rider"]]
+			},
+			{
+				"name": "Skelegon",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097490/ecf50ffa9cd31936c12053ccfb43f18d.jpeg/show",
+				"family": "Undead",
+				"subfamily": ["Dragon"],
+				"synthesis": [["Grotwyrm", "Marrow Escapee"]]
+			},
+			{
+				"name": "Drooling Ghoul",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097517/ebeaf3623285beefec82779ca7d7b810.jpeg/show",
+				"family": "Undead",
+				"to": "Demon",
+				"synthesis": [["Frolicker", "Shadow Slime"]]
+			},
+			{
+				"name": "One-Man Army",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097478/8b7a39123e279c57b2d2883d52d7c220.jpeg/show",
+				"family": "Undead",
+				"synthesis": [["Skeleton Swordsman", "Phantom Swordsman"]]
+			},
+			{
+				"name": "Headless Horseman",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097481/24966d9d2a09b3705269b95944a3a395.jpeg/show",
+				"family": "Undead",
+				"synthesis": [["Dullahan", "Grim Rider"]]
+			},
+			{
+				"name": "Grotwyrm",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097475/9d16c0345dc43aaea97e4b2810edc829.jpeg/show",
+				"family": "Undead",
+				"subfamily": ["Dragon"],
+				"synthesis": [["Flapdragon", "Putrefido"]]
+			},
+			{
+				"name": "Hellspawn",
+				"rank": "B",
+				"img": "https://img.game8.jp/9083077/8d90bd3e1a41164bc7b9204af829e23c.png/show",
+				"family": "Undead",
+				"synthesis": [["Soulspawn", "Blue Moon"]]
+			},
+			{
+				"name": "Demon-At-Arms",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097489/554b0d796f8b5499be7ea2abecb18d9e.jpeg/show",
+				"family": "Undead",
+				"synthesis": [["Marrow Escapee", "Fright Knight"]]
+			},
+			{
+				"name": "Wight King",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097547/70e80bcc559733b11ae1c5e311652c7f.jpeg/show",
+				"family": "Undead",
+				"synthesis": [["Tortured Soul", "King Slick Slime"]]
+			}
 		],
-		"A": ["Night Knight", "Hell Gladiator", "Umbra"],
-		"S": ["Long John Silverbones"]
-	},
-	"???": {
-		"G": ["Lump Wizard"],
-		"F": ["Hood", "Whizzard"],
-		"E": ["Lump Shaman", "Frightful Conductor"],
-		"D": ["Psaro's Pawn"],
-		"C": ["The Time Being", "Robbin' 'Ood"],
-		"B": ["Hocus-Poker"],
 		"A": [
-			"The Dragonlord",
-			"Evil Sir Leopold",
-			"Rabid Rector",
-			"Aamon",
-			"Krystalinda",
-			"Baramos",
-			"Hargon",
-			"Dhoulmagus",
-			"Bishop Ladja",
-			"Murdaw",
-			"Dhuran",
-			"Captain Crow",
-			"Fizzy"
+			{
+				"name": "Night Knight",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100371/15b102a6890241120971e51b96549bff.jpeg/show",
+				"family": "Undead",
+				"synthesis": [["Wight King", "Fright Knight"]]
+			},
+			{
+				"name": "Hell Gladiator",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100270/2dbe421c5f3b1dbbb5f810e12085f249.jpeg/show",
+				"family": "Undead",
+				"synthesis": [["Demon-At-Arms", "Jugular Joker"]]
+			},
+			{
+				"name": "Umbra",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100364/2dc5efcfd0a3fceb3ad46570a501913f.jpeg/show",
+				"family": "Undead",
+				"subfamily": ["Elemental"],
+				"synthesis": [["Demon-At-Arms", "Green Bogey"]]
+			}
 		],
 		"S": [
-			"Darkling",
-			"Bones Of Baramos",
-			"Razerburn",
-			"Orgodemir",
-			"Nimzo",
-			"Rhapthorne",
-			"Mortamor",
-			"Mordegon, Lord of Shadows",
-			"Fluffy",
-			"Scruffy",
-			"Psaro The Manslayer",
-			"Zoma",
-			"Dolph"
+			{
+				"name": "Long John Silverbones",
+				"rank": "S",
+				"family": "Undead",
+				"subfamily": ["???", "Character"],
+				"synthesis": [["Purrgatroyd", "Captain Crow", "Night Knight", "Riptide"]]
+			}
+		]
+	},
+	"???": {
+		"G": [
+			{
+				"name": "Lump Wizard",
+				"rank": "G",
+				"img": "https://img.game8.jp/8774127/63f6c25b64fe75f1bc8e009ed0aa4217.png/show",
+				"family": "???",
+				"synthesis": [["Demon Family", "Undead Family", "Rank G"]]
+			}
+		],
+		"F": [
+			{
+				"name": "Hood",
+				"rank": "F",
+				"img": "https://img.game8.jp/8798220/cfa07f6387a0adbf65ca3e2cd925f29f.png/show",
+				"family": "???",
+				"subfamily": ["Character"],
+				"synthesis": [["Hammerhood", "Mischievous Mole"]]
+			},
+			{
+				"name": "Whizzard",
+				"rank": "F",
+				"img": "https://img.game8.jp/8798219/3b190134892a9fa8a2655e6a4fd6a6a0.png/show",
+				"family": "???",
+				"synthesis": [["Lump Wizard", "Blinkster"]]
+			}
+		],
+		"E": [
+			{
+				"name": "Lump Shaman",
+				"rank": "E",
+				"img": "https://img.game8.jp/9086650/33aa3bd74ea94d64cac5cb23513eb904.jpeg/show",
+				"family": "???",
+				"synthesis": [["Lump Wizard", "Pocus Poppet"]]
+			},
+			{
+				"name": "Frightful Conductor",
+				"rank": "E",
+				"img": "https://img.game8.jp/9083072/e5d565d73586bc21de64a2586894def0.png/show",
+				"family": "???",
+				"subfamily": ["Fairy"],
+				"synthesis": [["Tree Feller", "Jinkster"]]
+			}
+		],
+		"D": [
+			{
+				"name": "Psaro's Pawn",
+				"rank": "D",
+				"img": "https://img.game8.jp/9095110/1acb6d404ef6085b66a855a2dfbbb970.jpeg/show",
+				"family": "???",
+				"synthesis": [["Whizzard", "Peeper"]]
+			}
+		],
+		"C": [
+			{
+				"name": "The Time Being",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094878/b172f1a425bcec85e2fdf5e1f0974029.jpeg/show",
+				"family": "???",
+				"synthesis": [["Jinkster", "Togre"]]
+			},
+			{
+				"name": "Robbin' 'Ood",
+				"rank": "C",
+				"img": "https://img.game8.jp/9099088/f19cfb536752b3fc6e441a75bef90f0e.jpeg/show",
+				"family": "???",
+				"subfamily": ["Character"],
+				"synthesis": [["Bodkin Fletcher", "Rhinoceraxe"]]
+			}
+		],
+		"B": [
+			{
+				"name": "Hocus-Poker",
+				"rank": "B",
+				"img": "https://img.game8.jp/9083080/90742d3a8a106b59e4c8b6eb2af6d64a.png/show",
+				"family": "???",
+				"synthesis": [["Hellbound Hair-Raiser", "Lump Shaman"]]
+			}
+		],
+		"A": [
+			{
+				"name": "The Dragonlord",
+				"rank": "A",
+				"img": "https://img.game8.jp/9085321/a9df5c728420d28b3ad7746a1df33389.png/show",
+				"family": "???",
+				"subfamily": ["Dragon"],
+				"synthesis": [["Knight Abhorrent", "Cosmic Chimaera"]]
+			},
+			{
+				"name": "Rabid Rector",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100265/af819034cc4ba11197787a6dd2970a5c.jpeg/show",
+				"family": "???",
+				"synthesis": [["The Time Being", "Goomulonimbus"]]
+			},
+			{
+				"name": "Aamon",
+				"rank": "A",
+				"img": "https://img.game8.jp/9087036/d0a8e4b331154eeb38c1c89de4b83d8c.jpeg/show",
+				"family": "???",
+				"synthesis": [["Rabid Rector", "Drooling Ghoul"]]
+			},
+			{
+				"name": "Krystalinda",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100269/429097bcb75ff57914adb76e4105fde6.jpeg/show",
+				"family": "???",
+				"subfamily": ["Character"],
+				"synthesis": [["Dora-In-Grey", "Snowgre"]]
+			},
+			{
+				"name": "Baramos",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100363/821b1786d7b86f4bb3d2e809e746817f.jpeg/show",
+				"family": "???",
+				"synthesis": [["Umbra", "Boss Troll"]]
+			},
+			{
+				"name": "Hargon",
+				"rank": "A",
+				"img": "https://img.game8.jp/9086855/01808f14fdf2df8a3798ca0b993b513d.jpeg/show",
+				"family": "???",
+				"subfamily": ["Demon"],
+				"synthesis": [["Atlas", "Pazuzu", "Belial", "Wrecktor"]]
+			},
+			{
+				"name": "Evil Sir Leopold",
+				"rank": "A",
+				"img": "https://img.game8.jp/9100291/c9601866e39d88763adcd12e81372506.jpeg/show",
+				"family": "???",
+				"subfamily": ["Nature"],
+				"synthesis": [["Dark Sabrecat", "King Foo Dog"]]
+			},
+			{
+				"name": "Dhoulmagus",
+				"rank": "A",
+				"img": "https://img.game8.jp/9106423/936569c9f8726de4547f50e5567b7f81.jpeg/show",
+				"family": "???",
+				"subfamily": ["Character", "Nature"],
+				"synthesis": [["Bishop Ladja", "Jugular Joker"]]
+			},
+			{
+				"name": "Bishop Ladja",
+				"rank": "A",
+				"img": "https://img.game8.jp/9106419/37e540302e50b320ec7cfe8d419b6a23.jpeg/show",
+				"family": "???",
+				"synthesis": [["Hyperanemon", "Aamon"]]
+			},
+			{
+				"name": "Murdaw",
+				"rank": "A",
+				"img": "https://img.game8.jp/9088316/bd2a5e27b55d402349c5ee0ba4537503.jpeg/show",
+				"family": "???",
+				"subfamily": ["Demon"],
+				"synthesis": [["Grrrgoyle", "Hell Gladiator"]]
+			},
+			{
+				"name": "Dhuran",
+				"rank": "A",
+				"family": "???",
+				"subfamily": ["Character"],
+				"synthesis": []
+			},
+			{
+				"name": "Captain Crow",
+				"rank": "A",
+				"family": "???",
+				"subfamily": ["Character"],
+				"synthesis": []
+			},
+			{
+				"name": "Fizzy",
+				"rank": "A",
+				"img": "https://img.game8.jp/9093473/1dc732dceba5ed3450519ca55ddbd738.jpeg/show",
+				"family": "???",
+				"subfamily": ["Fairy"],
+				"synthesis": []
+			}
+		],
+		"S": [
+			{
+				"name": "Darkling",
+				"rank": "S",
+				"img": "https://img.game8.jp/9087039/f62cd061570b6096e90b1c00c9dc1d07.jpeg/show",
+				"family": "???",
+				"subfamily": ["Fairy", "dark"],
+				"synthesis": [["Mordegon, Lord of Shadows", "Scruffy"]]
+			},
+			{
+				"name": "Bones Of Baramos",
+				"rank": "S",
+				"img": "https://img.game8.jp/9091055/cf381e18a71d5c3390a464d597ace50f.jpeg/show",
+				"family": "???",
+				"subfamily": ["Dragon", "Undead"],
+				"synthesis": [["Baramos", "Skelegon"]]
+			},
+			{
+				"name": "Razerburn",
+				"rank": "S",
+				"to": "A",
+				"img": "https://img.game8.jp/9099090/77acca79278e2325174751912222aebf.jpeg/show",
+				"family": "???",
+				"subfamily": ["Character"],
+				"synthesis": [["Purrgatroyd", "Dhuran"]]
+			},
+			{
+				"name": "Orgodemir",
+				"rank": "S",
+				"img": "https://img.game8.jp/9089438/59a6560345c70b8fdf25e0714da8fc46.jpeg/show",
+				"family": "???",
+				"subfamily": ["Demon"],
+				"synthesis": [
+					["Night Knight", "Macho Picchu", "The Time Being", "Pandora's Box"]
+				]
+			},
+			{
+				"name": "Nimzo",
+				"rank": "S",
+				"img": "https://img.game8.jp/9106422/53800169fc2d2adb1b9372c526bf97f9.jpeg/show",
+				"family": "???",
+				"subfamily": ["Demon"],
+				"synthesis": [["Mechan-O'-Wyrm", "Luneyetic", "Bilhaw", "Bishop Ladja"]]
+			},
+			{
+				"name": "Rhapthorne II",
+				"rank": "S",
+				"img": "https://img.game8.jp/9106420/1eff025c7c57e4cec551cf751620e816.jpeg/show",
+				"family": "???",
+				"subfamily": ["Demon"],
+				"synthesis": [["Dhoulmagus", "Evil Sir Leopold"]]
+			},
+			{
+				"name": "Mortamor",
+				"rank": "S",
+				"img": "https://img.game8.jp/9088520/7d5e52df206b8aea35eb933d6c4cf48f.jpeg/show",
+				"family": "???",
+				"subfamily": ["Demon", "Character"],
+				"synthesis": [
+					["Murdaw", "Uberkilling Machine", "Hacksaurus", "Stout Troll"]
+				]
+			},
+			{
+				"name": "Mordegon, Lord of Shadows",
+				"rank": "S",
+				"img": "https://img.game8.jp/9087035/7cabf8a25cf47fc18283393592fe9a97.jpeg/show",
+				"family": "???",
+				"subfamily": ["Undead"],
+				"synthesis": [["Krystalinda", "Jasper Unbound"]]
+			},
+			{
+				"name": "Fluffy",
+				"rank": "S",
+				"img": "https://img.game8.jp/9087034/bea898435269af232c59badccd548e4b.jpeg/show",
+				"family": "???",
+				"subfamily": ["Fairy"],
+				"synthesis": [["Prism Peacock", "Snipevine"]]
+			},
+			{
+				"name": "Scruffy",
+				"rank": "S",
+				"img": "https://img.game8.jp/9087037/3bda5aefe877bb73b83404d3e67d6d9e.jpeg/show",
+				"family": "???",
+				"subfamily": ["Fairy"],
+				"synthesis": [["Grandpa Slime", "Snipevine"]]
+			},
+			{
+				"name": "Psaro The Manslayer",
+				"rank": "S",
+				"family": "???",
+				"synthesis": [["Barbatos", "Pruslas", "Aamon", "Rashaverak"]]
+			},
+			{
+				"name": "Zoma",
+				"rank": "S",
+				"img": "https://img.game8.jp/9102496/9022efc8907d39607f8516c1abaf8eaf.jpeg/show",
+				"family": "???",
+				"subfamily": ["Demon"],
+				"synthesis": [
+					["Hargon", "Bjorn The Behemoose", "Bones Of Baramos", "King Hydra"]
+				]
+			},
+			{
+				"name": "Dolph",
+				"rank": "S",
+				"family": "???",
+				"subfamily": ["Character"],
+				"synthesis": [["Liege Lizard", "Shogum", "Gripevine", "Draguar"]]
+			}
 		],
 		"X": [
-			"PsychoPiz",
-			"Calasmos",
-			"The Almighty",
-			"AsuraZoma",
-			"Estark",
-			"Estark Izmah",
-			"Estark Venjah",
-			"Gran Estark",
-			"Miraclare",
-			"Nokturnus",
-			"Randolfo Final Forme"
+			{
+				"name": "PsychoPiz",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Psaro The Manslayer", "Dolph"]]
+			},
+			{
+				"name": "Calasmos",
+				"rank": "X",
+				"img": "https://img.game8.jp/9099089/cc799906f8d22203a2e1b84ca45c6ee8.jpeg/show",
+				"family": "???",
+				"synthesis": [["Darkling", "Nelgel The Netherfiend"]]
+			},
+			{
+				"name": "The Almighty",
+				"rank": "X",
+				"img": "https://img.game8.jp/9095246/14db8f9d4c64b5c4722abbf600c529c2.jpeg/show",
+				"family": "???",
+				"subfamily": ["Elemental", "Fairy"],
+				"synthesis": [["Orgodemir", "Grandpa Slime"]]
+			},
+			{
+				"name": "AsuraZoma",
+				"rank": "X",
+				"family": "???",
+				"subfamily": ["Demon"],
+				"synthesis": [["Zoma"]]
+			},
+			{
+				"name": "Estark",
+				"rank": "X",
+				"img": "https://img.game8.jp/9105357/29d1fea75a8bbd836fcd78eb29f95b7b.jpeg/show",
+				"family": "???",
+				"synthesis": [["Psaro The Manslayer", "Mortamor", "Nimzo", "Orgodemir"]]
+			},
+			{
+				"name": "Estark Izmah",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Estark", "Ruin"]]
+			},
+			{
+				"name": "Estark Venjah",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Estark", "Rhapthorne II"]]
+			},
+			{
+				"name": "Gran Estark",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Estark", "Miraclare"]]
+			},
+			{
+				"name": "Miraclare",
+				"rank": "X",
+				"family": "???",
+				"subfamily": ["Dragon"],
+				"synthesis": [["Ramia", "The Almighty"]]
+			},
+			{
+				"name": "Nokturnus",
+				"rank": "X",
+				"img": "https://img.game8.jp/9106428/47952726bdbc0333d3dd4a7a79f42dd6.jpeg/show",
+				"family": "???",
+				"subfamily": ["Character"],
+				"synthesis": [["Zoma", "Razerburn", "Randolfo Final Forme", "Corvus"]]
+			},
+			{
+				"name": "Randolfo Final Forme",
+				"rank": "X",
+				"family": "???",
+				"subfamily": ["Character"],
+				"synthesis": [["Dolph", "Psaro The Manslayer"]]
+			}
 		],
-		"Z": ["Gore PsychoPiz", "Gore AsuraZoma", "King Of Calamity", "Azabel"]
+		"Z": [
+			{
+				"name": "Gore PsychoPiz",
+				"rank": "Z",
+				"family": "???",
+				"synthesis": [["PsychoPiz", "Randolfo Final Forme"]]
+			},
+			{
+				"name": "Gore AsuraZoma",
+				"rank": "Z",
+				"family": "???",
+				"subfamily": ["Demon"],
+				"synthesis": [["AsuraZoma", "Nokturnus"]]
+			},
+			{
+				"name": "King Of Calamity",
+				"rank": "Z",
+				"family": "???",
+				"synthesis": [
+					["Estark Izmah", "Estark Venjah", "Gran Estark", "PsychoPiz"]
+				]
+			},
+			{
+				"name": "Azabel",
+				"rank": "Z",
+				"family": "???",
+				"subfamily": ["Fairy"],
+				"synthesis": [
+					["Metal Goddess", "Randolfo Final Forme", "The Almighty", "Calasmos"]
+				]
+			},
+			{
+				"name": "Potentate Of Portals",
+				"rank": "Z",
+				"family": "???",
+				"synthesis": [["Genosidoh", "LordDraco", "AsuraZoma", "PsychoPiz"]]
+			}
+		]
 	}
 }
