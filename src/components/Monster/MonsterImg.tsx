@@ -1,26 +1,14 @@
-import { makeClassName } from '@/functions';
-import { Monster } from '@/types/Monster';
-import Image from 'next/image';
+import LineImage, { LineImageProps } from '../Line/LineImage';
 
-const MonsterImg = ({
-	monster,
-	small = false,
-	className,
-}: {
-	monster: Monster;
+interface MonsterImgProps extends LineImageProps {
 	small?: boolean;
-	className?: string;
-}) => {
-	const size = small ? 45 : 90;
+}
+const MonsterImg = ({ small = false, ...props }: MonsterImgProps) => {
+	const size = (small ? 45 : 90) - 6;
 	return (
-		<Image
-			src={monster.img}
-			alt={monster.name}
-			title={monster.name}
-			height={size}
-			width={size}
-			className={className}
-		/>
+		<div className="line-point-safe-zone">
+			<LineImage height={size} width={size} {...props} />
+		</div>
 	);
 };
 

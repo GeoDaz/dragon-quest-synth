@@ -6,19 +6,23 @@ import { ImagesContext } from '@/context/images';
 
 const NOT_FOUND = '/images/unknown.jpg';
 
-interface Props {
+export interface LineImageProps {
 	name: string;
 	title?: string;
 	path?: string;
 	className?: string;
+	height?: number;
+	width?: number;
 	style?: object;
 	loadable?: boolean;
 }
-const LineImage: React.FC<Props> = ({
+const LineImage: React.FC<LineImageProps> = ({
 	name,
 	title = name,
 	path, // base64
 	className,
+	height = 150,
+	width = 150,
 	style,
 	loadable = true,
 }) => {
@@ -71,12 +75,12 @@ const LineImage: React.FC<Props> = ({
 				}}
 				alt={name}
 				className={makeClassName('line-img rounded', className)}
-				width={150 / ratioWidth}
-				height={150 / ratioHeight}
+				width={width / ratioWidth}
+				height={height / ratioHeight}
 				title={title}
 				style={style}
 			/>
-			<span className="sr-only">{name}</span>
+			{/* <span className="sr-only">{name}</span> */}
 		</>
 	);
 };

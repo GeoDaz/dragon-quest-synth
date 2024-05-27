@@ -15,7 +15,6 @@
         ],
         "F": [
             "Feral Slime",
-            "Snowmangler",
             "Snail Slime",
             "Slime Stack",
             "Slime Knight",
@@ -75,10 +74,17 @@
             "Gem Slime",
             "Slionheart",
             "Emperor Slime",
-            "Superior Slime"
+            "Superior Slime",
+            "Platinum King Jewel"
         ],
         "S": [
+            "Darkonium Slime",
+            "Liquid Metal Slime King",
+            "Metal Kaiser Slime",
             "Grandpa Slime"
+        ],
+        "X": [
+            "Metal Goddess"
         ]
     },
     "Dragon": {
@@ -124,7 +130,8 @@
             "Dragon Rider",
             "Abyss Diver",
             "Metal Dragon",
-            "Wyvern"
+            "Wyvern",
+            "Zaptile"
         ],
         "C": [
             "Chihuawyrm",
@@ -157,107 +164,26 @@
             "Silver Serpent",
             "Dread Dragon",
             "Serpent Of The Scales",
-            "Mechan-O'-Wyrm",
-            "The Dragonlord"
+            "Alabast Dragon",
+            "Mechan-O'-Wyrm"
         ],
         "S": [
-            "Greygnarl",
-            "Wyrmhole Dragon",
             "Abyssal Dragon",
+            "Greygnarl",
             "Barbarus",
-            "True Dragonlord"
-        ],
-        "X": [
+            "Wyrmhole Dragon",
+            "True Dragonlord",
             "Xenlon",
             "Lord Of The Dragovians"
-        ]
-    },
-    "Nature": {
-        "G": [
-            "Stark Raven",
-            "Bantamweight",
-            "Ornery Onion",
-            "Killerpillar",
-            "Capsichum",
-            "Cruelcumber",
-            "Mad Mollusk",
-            "Woebergine",
-            "Bludgerigar",
-            "Khalamari Kid",
-            "Toady"
         ],
-        "F": [
-            "Bullfinch",
-            "Suckling Ocker",
-            "Cyclown",
-            "Garuda",
-            "Odd Cob",
-            "Cactiball",
-            "Pogoin' Penguin",
-            "Mitey Oak",
-            "Scissor Beatle",
-            "Bagworm",
-            "Leafy Larrikin"
+        "X": [
+            "Shadroth",
+            "LordDraco",
+            "Zenith Dragon",
+            "OmniDragon"
         ],
-        "E": [
-            "Puffpoise",
-            "Chimaera",
-            "Scornet",
-            "Crabid",
-            "Octopot",
-            "Parched Peckerel",
-            "Weaken Beakon",
-            "Barracuda",
-            "Beanie Meanie",
-            "Tree Feller",
-            "Awebergine"
-        ],
-        "D": [
-            "Rockin' Rockhopper",
-            "Spinchilla",
-            "Dangler Fish",
-            "Mortoad",
-            "Zaptile",
-            "Brimstone Bulb",
-            "Mangleclaw",
-            "Palooka Prawn",
-            "Tuskateer",
-            "Carnivine",
-            "Hades' Condor"
-        ],
-        "C": [
-            "Tartarus Eagle",
-            "Grillerpillar",
-            "Tufty Tot",
-            "Armoured Scorpion",
-            "Crabber Dabber Doo",
-            "King Squid",
-            "Overtoad",
-            "Fandangow",
-            "Scourgette",
-            "Roistering Rooster"
-        ],
-        "B": [
-            "Belisha Beakon",
-            "Clobster",
-            "Cosmic Chimaera",
-            "Tuffpoise",
-            "Firebird",
-            "Snowbird",
-            "Fowl Beast",
-            "Foebergine",
-            "Baleen Mage",
-            "Gangleclaw"
-        ],
-        "A": [
-            "Tentacular",
-            "Phoenix",
-            "Metal Scorpion",
-            "Gripevine"
-        ],
-        "S": [
-            "Prism Peacock",
-            "Snipevine"
+        "Z": [
+            "Gore LordDraco"
         ]
     },
     "Beast": {
@@ -283,9 +209,9 @@
             "Weartiger",
             "Robber Rabbit",
             "Sunset Sultan",
-            "Hawk Man",
             "Boppin' Badger",
-            "Napir"
+            "Napir",
+            "Foo Dog"
         ],
         "E": [
             "Spiked Hare",
@@ -302,30 +228,31 @@
             "Rotten Cotton"
         ],
         "D": [
+            "Tuskateer",
             "Ripped Rabbit",
             "Missing Lynx",
-            "Gargoyle",
-            "Great Sabercat",
-            "Giruffian",
+            "Great Sabrecat",
             "Warhog",
             "Sweaty Yeti",
             "Calypso King",
             "Cheater Cheetah",
             "Ewwnicorn",
             "Night Emperor",
-            "Rhinoceraxe"
+            "Rhinoceraxe",
+            "Abracadabrador",
+            "Gryphon"
         ],
         "C": [
             "Hellion",
             "Hyperboarean",
             "Orc King",
             "Maniacal Mole",
-            "Notso Macho",
             "Greater Platypunk",
             "Dark Hare",
             "Gnumesis",
             "Jowler",
-            "Luneyetic"
+            "Luneyetic",
+            "Togre"
         ],
         "B": [
             "Draguar",
@@ -337,19 +264,129 @@
             "Buffalogre",
             "Abominable Showman",
             "Mohawker",
-            "Tantamount"
+            "Tantamount",
+            "King Foo Dog"
         ],
         "A": [
-            "Purrgatroyd",
             "Equinox",
             "Ronin Raccoon",
-            "Gnuriel",
-            "Macho Picchu",
             "Marquis De Léon",
-            "Evil Sir Leopold"
+            "Gnuriel",
+            "Purrgatroyd",
+            "Lieutenant Goresby-Purrvis",
+            "Lieutenant Hootingham-Gore",
+            "Lieutenant Goreham-Hogg"
         ],
         "S": [
             "Greater Platypink"
+        ]
+    },
+    "Nature": {
+        "G": [
+            "Stark Raven",
+            "Bantamweight",
+            "Ornery Onion",
+            "Killerpillar",
+            "Capsichum",
+            "Cruelcumber",
+            "Mad Mollusk",
+            "Woebergine",
+            "Bludgerigar",
+            "Khalamari Kid",
+            "Toady",
+            "Lunatick",
+            "Lips",
+            "Funghoul",
+            "Stump Chump",
+            "Drohl Drone"
+        ],
+        "F": [
+            "Bullfinch",
+            "Suckling Ocker",
+            "Garuda",
+            "Odd Cob",
+            "Cactiball",
+            "Pogoin' Penguin",
+            "Mitey Oak",
+            "Scissor Beatle",
+            "Bagworm",
+            "Leafy Larrikin",
+            "Merman",
+            "Scarfish",
+            "Monolog",
+            "King Kelp"
+        ],
+        "E": [
+            "Puffpoise",
+            "Chimaera",
+            "Scornet",
+            "Crabid",
+            "Octopot",
+            "Parched Peckerel",
+            "Weaken Beakon",
+            "Barracuda",
+            "Beanie Meanie",
+            "Tree Feller",
+            "Awebergine",
+            "Treeface",
+            "Morphean Mushroom"
+        ],
+        "D": [
+            "Rockin' Rockhopper",
+            "Dangler Fish",
+            "Mortoad",
+            "Brimstone Bulb",
+            "Mangleclaw",
+            "Palooka Prawn",
+            "Carnivine",
+            "Hades' Condor",
+            "Terrorhawk",
+            "Shivery Shrubbery"
+        ],
+        "C": [
+            "Tartarus Eagle",
+            "Grillerpillar",
+            "Tufty Tot",
+            "Armoured Scorpion",
+            "Crabber Dabber Doo",
+            "Blastoad",
+            "Fandangow",
+            "Roistering Rooster",
+            "Treevil",
+            "Soy Soldier"
+        ],
+        "B": [
+            "King Squid",
+            "Belisha Beakon",
+            "Clobster",
+            "Cosmic Chimaera",
+            "Tuffpoise",
+            "Firebird",
+            "Snowbird",
+            "Fowl Beast",
+            "Foebergine",
+            "Baleen Mage",
+            "Gangleclaw"
+        ],
+        "A": [
+            "Tentacular",
+            "Phoenix",
+            "Metal Scorpion",
+            "Gripevine",
+            "Gracos",
+            "Riptide",
+            "Lleviathan",
+            "Prism Peacock",
+            "Cetacean Sorcerer"
+        ],
+        "S": [
+            "Snipevine",
+            "Khalamari",
+            "Empyrea"
+        ],
+        "X": [
+            "Aquarion",
+            "Ramia"
         ]
     },
     "Material": {
@@ -357,7 +394,6 @@
             "Eggsoskeleton",
             "Cumaulus",
             "String Fella",
-            "Spitnik",
             "Bambooligan",
             "Sacksquatch",
             "Mud Mannequin",
@@ -367,7 +403,9 @@
             "Bag O' Laughs"
         ],
         "F": [
-            "Foo Dog",
+            "Snowmangler",
+            "Cyclown",
+            "Spitnik",
             "Horrifying Saucers",
             "Chocolate Golem",
             "Disfigurine",
@@ -377,7 +415,8 @@
             "Erazor Blade",
             "Cannibox",
             "Pocus Poppet",
-            "Hunter Mech"
+            "Hunter Mech",
+            "Muddy Hand"
         ],
         "E": [
             "Well Wisher",
@@ -391,22 +430,26 @@
             "Harmour",
             "Rockbomb",
             "Hell Niño",
-            "Freezing Fog"
+            "Freezing Fog",
+            "Chocolate Whisp",
+            "Iron Maiden"
         ],
         "D": [
+            "Spinchilla",
             "Killing Machine",
-            "Abracadabrador",
             "Coralossus",
             "Paralyslicer",
             "Stone Golem",
-            "Shivery Shrubbery",
             "Saccharine Sacksquatch",
             "Bag O' Tricks",
             "Dancing Flame",
             "Frostburn",
             "Magmalice",
             "Firn Fiend",
-            "Mimic With Cheese"
+            "Mimic With Cheese",
+            "Sculptrice",
+            "Knight Errant",
+            "Bloody Hand"
         ],
         "C": [
             "Living Statue",
@@ -432,16 +475,23 @@
             "Snowgre",
             "Ne'er-Do-Well",
             "A3G15",
-            "King Foo Dog"
+            "Bilhaw",
+            "Grrrgoyle",
+            "Dora-In-Grey"
         ],
         "A": [
             "Overkilling Machine",
-            "The Trauminator",
+            "Trauminator",
             "Great Keeper",
-            "Pandora's Box"
+            "Pandora's Box",
+            "Knight Abhorrent"
         ],
         "S": [
-            "Uberkilling Machine"
+            "Uberkilling Machine",
+            "Ruin"
+        ],
+        "X": [
+            "Sagittar"
         ]
     },
     "Demon": {
@@ -450,30 +500,25 @@
             "Gremlin",
             "Leery Lout",
             "Dracky",
-            "Lump Wizard",
             "Picksy",
             "Blinkster",
-            "Lunatick",
             "Teeny Sanguini",
-            "Lips",
-            "Bodkin Archer"
+            "Bodkin Archer",
+            "Skipper"
         ],
         "F": [
+            "Hawk Man",
             "Pickayune",
             "Cloud Surfer",
             "Succubat",
-            "Hood",
-            "Whizzard",
             "See Urchin",
             "Dessert Demon",
             "Dancing Devil",
             "Imp",
-            "Merman",
             "Cannonbrawler"
         ],
         "E": [
             "Ogre",
-            "Lump Shaman",
             "Cyclops",
             "Hooper Trooper",
             "Sugar Baddie",
@@ -485,116 +530,97 @@
             "Flurry Fiend"
         ],
         "D": [
-            "Gryphon",
+            "Gargoyle",
+            "Giruffian",
             "Hypothermion",
             "Silvapithecus",
-            "Psaro's Pawn",
-            "Kisser",
-            "Sculptrice",
             "Boss Troll",
             "Minidemon",
-            "Knight Errant",
-            "Low Djinks"
+            "Low Djinks",
+            "Night Sneaker"
         ],
         "C": [
+            "Notso Macho",
             "Moosifer",
             "Grim Keeper",
             "Sintaur",
-            "The Time Being",
             "Gander",
             "Swingre",
             "Drackyma",
-            "Togre",
-            "Roseguardin",
             "Goobonce",
             "Bloodbonnet"
         ],
         "B": [
             "Archdemon",
-            "Hocus-Poker",
             "Wrecktor",
             "Night Clubber",
             "Gigantes",
             "Jugular Joker",
-            "Bilhaw",
             "Stout Troll",
-            "Grrrgoyle",
             "Hyperanemon"
         ],
         "A": [
+            "Macho Picchu",
             "Atlas",
             "Pruslas",
-            "Lieutenant Goresby-Purrvis",
-            "Lieutenant Hootingham-Gore",
-            "Lieutenant Goreham-Hogg",
-            "Knight Abhorrent",
-            "Rabid Rector",
             "Pazuzu",
             "Belial",
             "Barbatos",
             "Balzack"
         ],
         "S": [
-            "Aamon",
-            "The Darkling"
+            "Bjorn The Behemoose",
+            "Malroth",
+            "Corvus",
+            "Nelgel The Netherfiend"
+        ],
+        "X": [
+            "Genosidoh"
+        ],
+        "Z": [
+            "Gore Genosidoh"
         ]
     },
     "Undead": {
         "G": [
             "Putrefido",
-            "Funghoul",
             "Wax Murderer",
             "Skeleton",
-            "Stump Chump",
             "Ghost",
-            "Skipper",
-            "Drohl Drone",
             "Soft Serve Spook",
             "Firespirit"
         ],
         "F": [
-            "Scarfish",
             "Walking Corpse",
             "Restless Armour",
             "Shadow",
             "Skullrider",
-            "Monolog",
-            "Muddy Hand",
             "Mummy Boy",
-            "Hellbound Horror",
-            "King Kelp"
+            "Hellbound Horror"
         ],
         "E": [
             "Grinferno",
             "Dead Resident",
             "Skeleton Soldier",
-            "Treeface",
-            "Chocolate Whisp",
-            "Frightful Conductor",
             "Frolicker",
             "Phantom Fencer",
-            "Morphean Mushroom",
-            "Float-O-Copier",
-            "Iron Maiden"
+            "Float-O-Copier"
         ],
         "D": [
             "Soulspawn",
             "Skeleton Swordsman",
             "Cursed Crooner",
-            "Night Sneaker",
             "Tortured Soul",
-            "Bloody Hand",
             "Corpsickle",
             "Grim Rider",
             "Bone Idol",
-            "Discombobulator",
+            "Discombombulator",
             "Fightgeist"
         ],
         "C": [
-            "Treevil",
+            "Roseguardin",
             "Hellbound Hair-Raiser",
             "Sekerleton",
-            "Soy Soldier",
             "Phantom Swordsman",
             "Dullahan",
             "Skellyfish",
@@ -613,54 +639,87 @@
             "Grotwyrm",
             "Hellspawn",
             "Demon-At-Arms",
-            "Dora-In-Grey",
             "Wight King"
         ],
         "A": [
             "Night Knight",
             "Hell Gladiator",
-            "Cetacean Sorcerer",
             "Umbra"
         ],
         "S": [
-            "Bones Of Baramos"
+            "Long John Silverbones"
         ]
     },
     "???": {
+        "G": [
+            "Lump Wizard"
+        ],
+        "F": [
+            "Hood",
+            "Whizzard"
+        ],
+        "E": [
+            "Lump Shaman",
+            "Frightful Conductor"
+        ],
+        "D": [
+            "Psaro's Pawn"
+        ],
         "C": [
+            "The Time Being",
             "Robbin' 'Ood"
         ],
-        "A": [
-            "Krystalinda",
-            "Baramos"
+        "B": [
+            "Hocus-Poker"
         ],
-        "S": [
+        "A": [
+            "The Dragonlord",
+            "Evil Sir Leopold",
+            "Rabid Rector",
+            "Aamon",
+            "Krystalinda",
+            "Baramos",
             "Hargon",
             "Dhoulmagus",
             "Bishop Ladja",
             "Murdaw",
+            "Dhuran",
+            "Fizzy"
+        ],
+        "S": [
+            "Darkling",
+            "Bones Of Baramos",
             "Jasper Unbound",
             "Razerburn",
-            "Malroth",
             "Orgodemir",
             "Nimzo",
             "Rhapthorne",
             "Mortamor",
             "Mordegon, Lord of Shadows",
-            "Corvus",
-            "Nelgel The Netherfiend",
-            "Fizzy",
             "Fluffy",
             "Scruffy",
             "Psaro The Manslayer",
-            "Calasmos"
+            "Zoma",
+            "Dolph"
         ],
         "X": [
+            "PsychoPiz",
+            "Calasmos",
             "The Almighty",
-            "Zoma",
+            "AsuraZoma",
             "Estark",
-            "Ramia",
-            "Nokturnus"
+            "Estark Izmah",
+            "Estark Venjah",
+            "Gran Estark",
+            "Miraclare",
+            "Nokturnus",
+            "Randolfo Final Forme"
+        ],
+        "Z": [
+            "Gore PsychoPiz",
+            "Gore AsuraZoma",
+            "King Of Calamity",
+            "Azabel"
         ]
     }
 }

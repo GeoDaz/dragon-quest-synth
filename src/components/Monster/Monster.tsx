@@ -1,40 +1,42 @@
-import { Monster as MonsterType } from '@/types/Monster';
 import Family from './Family';
 import MonsterImg from './MonsterImg';
 import Rank from './Rank';
 import Link from 'next/link';
 import { makeClassName } from '@/functions';
 import { Card, CardFooter, CardHeader, CardBody } from 'react-bootstrap';
+import { useContext } from 'react';
+import { MonstersContext } from '@/context/monsters';
 
 const Monster = ({
-	monster,
-	monsters,
+	name,
 	activeMonster,
 	handleActive,
 }: {
-	monster: MonsterType;
-	monsters: { [key: string]: MonsterType };
+	name: string;
 	activeMonster?: string;
 	handleActive: CallableFunction;
 }) => {
+	const monsters = useContext(MonstersContext);
+	const monster = monsters[name];
+	if (!monster) return null;
 	return (
 		<Card
-			id={monster.name}
+			id={name}
 			className={makeClassName(
 				'monster',
-				activeMonster === monster.name &&
+				activeMonster === name &&
 					'outline outline-2 outline-offset-2 outline-indigo-500'
 			)}
 			style={{ width: '18rem' }}
 		>
 			<CardHeader>
 				<div className="text-center">
-					<div className="d-inline-block position-relative monster-img">
-						<MonsterImg monster={monster} />
+					<div className="d-inline-block position-relative line-point pictured">
+						<MonsterImg name={name} />
 						<Rank value={monster.rank} />
 					</div>
 				</div>
-				<h2 className="text-center">{monster.name}</h2>
+				<h2 className="text-center">{name}</h2>
 			</CardHeader>
 			<CardBody>
 				<div className="fw-bold mb-2">Family&nbsp;:</div>
@@ -48,7 +50,10 @@ const Monster = ({
 				{monster.synthesis.map((list: string[], i: number) => (
 					<div
 						key={i}
-						className={makeClassName('d-flex gap-2', i > 0 && 'mt-2')}
+						className={makeClassName(
+							'sub-monsters d-flex gap-2',
+							i > 0 && 'mt-2'
+						)}
 					>
 						{list.map((name, j) => {
 							const key = name + '_' + i + '_' + j;
@@ -61,16 +66,15 @@ const Monster = ({
 							if (isRank) {
 								return <Rank key={key} value={'(1) ' + name} />;
 							}
-							const submonster = monsters[name];
 							return (
 								<Link
-									href={`/#${submonster.name}`}
+									href={`/#${name}`}
 									key={key}
-									className="thumbnail"
-									onClick={e => handleActive(submonster.name)}
+									className="line-point pictured thumbnail"
+									onClick={e => handleActive(name)}
 								>
-									<MonsterImg monster={submonster} small />
-									<span className="sr-only">{submonster.name}</span>
+									<MonsterImg name={name} small />
+									<span className="sr-only">{name}</span>
 								</Link>
 							);
 						})}
