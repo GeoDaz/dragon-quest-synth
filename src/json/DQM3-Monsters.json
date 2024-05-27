@@ -4052,8 +4052,8 @@
 		"subfamily": ["Demon"],
 		"synthesis": [["Mechan-O'-Wyrm", "Luneyetic", "Bilhaw", "Bishop Ladja"]]
 	},
-	"Rhapthorne": {
-		"name": "Rhapthorne",
+	"Rhapthorne II": {
+		"name": "Rhapthorne II",
 		"rank": "S",
 		"img": "https://img.game8.jp/9106420/1eff025c7c57e4cec551cf751620e816.jpeg/show",
 		"family": "???",
@@ -4195,7 +4195,7 @@
 		"name": "Estark Venjah",
 		"rank": "X",
 		"family": "???",
-		"synthesis": [["Estark", "Rhapthorne"]]
+		"synthesis": [["Estark", "Rhapthorne II"]]
 	},
 	"Gran Estark": {
 		"name": "Gran Estark",
