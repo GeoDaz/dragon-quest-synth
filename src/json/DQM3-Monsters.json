@@ -1049,7 +1049,7 @@
 		"rank": "S",
 		"img": "https://img.game8.jp/9089013/5f63073b123a86f5199c087f849a1aa9.jpeg/show",
 		"family": "Dragon",
-		"subfamily": ["space"],
+		"subfamily": ["???", "space"],
 		"synthesis": [["Clawvus", "Silver Serpent"]]
 	},
 	"True Dragonlord": {
@@ -1057,6 +1057,7 @@
 		"rank": "S",
 		"img": "https://img.game8.jp/9085319/8d1f95dbc967ecbd526933493f5d16b4.png/show",
 		"family": "Dragon",
+		"subfamily": ["???"],
 		"synthesis": [["The Dragonlord", "Dread Dragon"]]
 	},
 	"Xenlon": {
@@ -1071,24 +1072,28 @@
 		"rank": "S",
 		"img": "https://img.game8.jp/9085416/9faef3da4d4f798b95cef42b5eca6df5.jpeg/show",
 		"family": "Dragon",
+		"subfamily": ["???"],
 		"synthesis": [["Alabast Dragon", "Infernal Serpent"]]
 	},
 	"Shadroth": {
 		"name": "Shadroth",
 		"rank": "X",
 		"family": "Dragon",
+		"subfamily": ["???"],
 		"synthesis": [["True Dragonlord", "Barbarus"]]
 	},
 	"LordDraco": {
 		"name": "LordDraco",
 		"rank": "X",
 		"family": "Dragon",
+		"subfamily": ["???"],
 		"synthesis": [["True Dragonlord", "Lord Of The Dragovians"]]
 	},
 	"Zenith Dragon": {
 		"name": "Zenith Dragon",
 		"rank": "X",
 		"family": "Dragon",
+		"subfamily": ["???"],
 		"synthesis": [["Xenlon", "Lord Of The Dragovians", "Greygnarl", "Miraclare"]]
 	},
 	"OmniDragon": {
@@ -1101,6 +1106,7 @@
 		"name": "Gore LordDraco",
 		"rank": "Z",
 		"family": "Dragon",
+		"subfamily": ["???"],
 		"synthesis": [["LordDraco", "Shadroth"]]
 	},
 	"Stark Raven": {
@@ -2238,6 +2244,7 @@
 		"rank": "A",
 		"img": "https://img.game8.jp/9100291/c9601866e39d88763adcd12e81372506.jpeg/show",
 		"family": "???",
+		"subfamily": ["Nature"],
 		"synthesis": [["Dark Sabrecat", "King Foo Dog"]]
 	},
 	"Greater Platypink": {
@@ -2866,6 +2873,7 @@
 		"rank": "G",
 		"img": "https://img.game8.jp/8774127/63f6c25b64fe75f1bc8e009ed0aa4217.png/show",
 		"family": "???",
+		"subfamily": ["Demon"],
 		"synthesis": [["Demon Family", "Undead Family", "Rank G"]]
 	},
 	"Picksy": {
@@ -3014,6 +3022,7 @@
 		"rank": "E",
 		"img": "https://img.game8.jp/9086650/33aa3bd74ea94d64cac5cb23513eb904.jpeg/show",
 		"family": "???",
+		"subfamily": ["Demon"],
 		"synthesis": [["Lump Wizard", "Pocus Poppet"]]
 	},
 	"Cyclops": {
@@ -3974,7 +3983,7 @@
 		"rank": "A",
 		"img": "https://img.game8.jp/9106423/936569c9f8726de4547f50e5567b7f81.jpeg/show",
 		"family": "???",
-		"subfamily": ["Character"],
+		"subfamily": ["Character", "Nature"],
 		"synthesis": [["Bishop Ladja", "Jugular Joker"]]
 	},
 	"Bishop Ladja": {
@@ -3982,7 +3991,6 @@
 		"rank": "A",
 		"img": "https://img.game8.jp/9106419/37e540302e50b320ec7cfe8d419b6a23.jpeg/show",
 		"family": "???",
-		"subfamily": ["Demon"],
 		"synthesis": [["Hyperanemon", "Aamon"]]
 	},
 	"Murdaw": {
@@ -4004,8 +4012,8 @@
 		"name": "Jasper Unbound",
 		"rank": "S",
 		"img": "https://img.game8.jp/9086343/fce8ed9610fc6bf79ef7b66e3e2e0d48.jpeg/show",
-		"family": "???",
-		"subfamily": ["Character", "Demon"],
+		"family": "Demon",
+		"subfamily": ["???", "Character"],
 		"synthesis": [["Lieutenant Goresby-Purrvis", "Dread Dragooner"]]
 	},
 	"Razerburn": {
@@ -4028,12 +4036,14 @@
 		"name": "Genosidoh",
 		"rank": "X",
 		"family": "Demon",
+		"subfamily": ["???"],
 		"synthesis": [["Malroth", "Shadroth"]]
 	},
 	"Gore Genosidoh": {
 		"name": "Gore Genosidoh",
 		"rank": "Z",
 		"family": "Demon",
+		"subfamily": ["???"],
 		"synthesis": [["Genosidoh"]]
 	},
 	"Orgodemir": {
@@ -4081,7 +4091,7 @@
 		"rank": "S",
 		"img": "https://img.game8.jp/9088317/b1e7c5258662ac2dbfb9551eafea645e.jpeg/show",
 		"family": "Demon",
-		"subfamily": ["Character"],
+		"subfamily": ["???", "Character"],
 		"synthesis": [
 			[
 				"Barbarus",
@@ -4096,7 +4106,7 @@
 		"rank": "S",
 		"img": "https://img.game8.jp/9099087/82e2417fce297e8708cddd80745de84e.jpeg/show",
 		"family": "Demon",
-		"subfamily": ["Demon", "Beast"],
+		"subfamily": ["???", "Beast"],
 		"synthesis": [["Corvus", "Pazuzu"]]
 	},
 	"Fizzy": {
@@ -4237,7 +4247,7 @@
 		"img": "https://img.game8.jp/9106428/47952726bdbc0333d3dd4a7a79f42dd6.jpeg/show",
 		"family": "???",
 		"subfamily": ["Character"],
-		"synthesis": [["Razerburn", "Randolfo Final Forme", "Corvus", "Calasmos"]]
+		"synthesis": [["Zoma", "Razerburn", "Randolfo Final Forme", "Corvus"]]
 	},
 	"Dolph": {
 		"name": "Dolph",
