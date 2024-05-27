@@ -2153,14 +2153,14 @@
 		"img": "https://img.game8.jp/9097548/1d0abc67fd5f44ff297dc2b389ae4562.jpeg/show",
 		"family": "Beast",
 		"subfamily": ["Humanoid"],
-		"synthesis": []
+		"synthesis": ["Weartiger", "Hellion"]
 	},
 	"Don Mole": {
 		"name": "Don Mole",
 		"rank": "B",
 		"img": "https://img.game8.jp/9105419/bb6da3537eb9bee3b561399a5cf2ea02.jpeg/show",
 		"family": "Beast",
-		"synthesis": []
+		"synthesis": ["Maniacal Mole", "Calypso King"]
 	},
 	"Buffalogre": {
 		"name": "Buffalogre",
@@ -2186,14 +2186,14 @@
 		"subfamily": ["Demon"],
 		"synthesis": [["Jowler", "Heligator"]]
 	},
-	"Slon the Rook": {
-		"name": "Slon the Rook",
+	"Slon The Rook": {
+		"name": "Slon The Rook",
 		"rank": "B",
 		"family": "Beast",
 		"synthesis": [["Warhog", "Gnumesis"]]
 	},
-	"Kon the Knight": {
-		"name": "Kon the Knight",
+	"Kon The Knight": {
+		"name": "Kon The Knight",
 		"rank": "B",
 		"family": "Beast",
 		"synthesis": [["Ewwnicorn", "Togre"]]
@@ -2204,7 +2204,7 @@
 		"img": "https://img.game8.jp/9083002/6d5ae30278d0e3509586b81bc183997f.png/show",
 		"family": "Beast",
 		"subfamily": ["myth"],
-		"synthesis": [["Kon the Knight", "Flamethrower"]]
+		"synthesis": [["Kon The Knight", "Flamethrower"]]
 	},
 	"Equinox": {
 		"name": "Equinox",
@@ -2235,14 +2235,14 @@
 		"rank": "A",
 		"img": "https://img.game8.jp/9082993/1ae0cc9f27c9b006cdf58476caf357b8.png/show",
 		"family": "Beast",
-		"synthesis": [["Boppin' Badger", "Mandrake Marshal"]]
+		"synthesis": [["Boppin' Badger", "Don Mole", "Mandrake Marshal", "One-Man Army"]]
 	},
 	"Purrgatroyd": {
 		"name": "Purrgatroyd",
 		"rank": "A",
 		"img": "https://img.game8.jp/9099091/c24423156dc2b5ea9e7be2af943ff2ae.jpeg/show",
 		"family": "Beast",
-		"synthesis": [["Mogus", "Robbin' 'Ood"]]
+		"synthesis": [["Tigergram", "Robbin' 'Ood"]]
 	},
 	"Marquis De Léon": {
 		"name": "Marquis De Léon",
@@ -3356,7 +3356,7 @@
 		"rank": "A",
 		"img": "https://img.game8.jp/9085340/14d86cc7b9b5646d7576311b10d67063.png/show",
 		"family": "Beast",
-		"subfamily": ["Bird"],
+		"subfamily": ["Nature", "Bird"],
 		"synthesis": [["Hocus-Poker", "Gangleclaw"]]
 	},
 	"Lieutenant Goreham-Hogg": {
