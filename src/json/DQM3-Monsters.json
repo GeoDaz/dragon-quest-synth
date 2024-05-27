@@ -1347,7 +1347,7 @@
 		"img": "https://img.game8.jp/9095111/523f66e27b1adadff51621e97dc4706b.jpeg/show",
 		"family": "Nature",
 		"subfamily": ["Aquatic"],
-		"synthesis": []
+		"synthesis": ["Merman", "Bullfinch"]
 	},
 	"Beanie Meanie": {
 		"name": "Beanie Meanie",
@@ -4162,13 +4162,13 @@
 		"name": "PsychoPiz",
 		"rank": "X",
 		"family": "???",
-		"synthesis": [["Psaro The Manslayer"]]
+		"synthesis": [["Psaro The Manslayer", "Dolph"]]
 	},
 	"Gore PsychoPiz": {
 		"name": "Gore PsychoPiz",
 		"rank": "Z",
 		"family": "???",
-		"synthesis": [["PsychoPiz"]]
+		"synthesis": [["PsychoPiz", "Randolfo Final Forme"]]
 	},
 	"Calasmos": {
 		"name": "Calasmos",
