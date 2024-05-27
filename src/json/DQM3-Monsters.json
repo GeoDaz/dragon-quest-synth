@@ -1363,7 +1363,7 @@
 		"img": "https://img.game8.jp/9086788/107f630a5305f5de06c47d2fd95ae638.jpeg/show",
 		"family": "Nature",
 		"subfamily": ["Plant", "Fairy"],
-		"synthesis": []
+		"synthesis": [["Monolog", "Blinkster"]]
 	},
 	"Awebergine": {
 		"name": "Awebergine",
@@ -1474,7 +1474,7 @@
 		"rank": "D",
 		"family": "Nature",
 		"subfamily": ["Bird"],
-		"synthesis": [["Parched Peckerel", "Sculptrice"]]
+		"synthesis": [["Parched Peckerel", "Gargoyle"]]
 	},
 	"Grillerpillar": {
 		"name": "Grillerpillar",
@@ -2956,6 +2956,7 @@
 		"rank": "F",
 		"img": "https://img.game8.jp/9083073/0f22f0db39479c6b639149a75b90127f.png/show",
 		"family": "Demon",
+		"subfamily": ["Beast"],
 		"synthesis": [["Demon Family", "Beast Family", "Rank F"]]
 	},
 	"Hood": {
@@ -3130,7 +3131,7 @@
 		"rank": "D",
 		"img": "https://img.game8.jp/9095110/1acb6d404ef6085b66a855a2dfbbb970.jpeg/show",
 		"family": "???",
-		"synthesis": []
+		"synthesis": [["Whizzard", "Peeper"]]
 	},
 	"Sculptrice": {
 		"name": "Sculptrice",
@@ -3183,7 +3184,7 @@
 		"name": "Grim Keeper",
 		"rank": "C",
 		"img": "https://img.game8.jp/9083052/a147653581b25cef87425d39a977bb6b.png/show",
-		"family": "Demon",
+		"family": "Undead",
 		"synthesis": [["Beleth", "Low Djinks"]]
 	},
 	"Sintaur": {
@@ -3629,7 +3630,7 @@
 		"img": "https://img.game8.jp/9083072/e5d565d73586bc21de64a2586894def0.png/show",
 		"family": "???",
 		"subfamily": ["Fairy"],
-		"synthesis": []
+		"synthesis": [["Tree Feller", "Jinkster"]]
 	},
 	"Frolicker": {
 		"name": "Frolicker",
@@ -3963,7 +3964,7 @@
 		"img": "https://img.game8.jp/9099088/f19cfb536752b3fc6e441a75bef90f0e.jpeg/show",
 		"family": "???",
 		"subfamily": ["Character"],
-		"synthesis": []
+		"synthesis": ["Bodkin Fletcher", "Rhinoceraxe"]
 	},
 	"Krystalinda": {
 		"name": "Krystalinda",
