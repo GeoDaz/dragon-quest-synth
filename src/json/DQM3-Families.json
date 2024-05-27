@@ -547,7 +547,13 @@
 			"Barbatos",
 			"Balzack"
 		],
-		"S": ["Bjorn The Behemoose", "Malroth", "Corvus", "Nelgel The Netherfiend"],
+		"S": [
+			"Bjorn The Behemoose",
+			"Malroth",
+			"Corvus",
+			"Nelgel The Netherfiend",
+			"Jasper Unbound"
+		],
 		"X": ["Genosidoh"],
 		"Z": ["Gore Genosidoh"]
 	},
@@ -639,7 +645,6 @@
 		"S": [
 			"Darkling",
 			"Bones Of Baramos",
-			"Jasper Unbound",
 			"Razerburn",
 			"Orgodemir",
 			"Nimzo",

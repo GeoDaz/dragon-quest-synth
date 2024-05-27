@@ -2885,7 +2885,6 @@
 		"rank": "G",
 		"img": "https://img.game8.jp/8774127/63f6c25b64fe75f1bc8e009ed0aa4217.png/show",
 		"family": "???",
-		"subfamily": ["Demon"],
 		"synthesis": [["Demon Family", "Undead Family", "Rank G"]]
 	},
 	"Picksy": {
@@ -3034,7 +3033,6 @@
 		"rank": "E",
 		"img": "https://img.game8.jp/9086650/33aa3bd74ea94d64cac5cb23513eb904.jpeg/show",
 		"family": "???",
-		"subfamily": ["Demon"],
 		"synthesis": [["Lump Wizard", "Pocus Poppet"]]
 	},
 	"Cyclops": {
@@ -3042,7 +3040,7 @@
 		"rank": "E",
 		"img": "https://img.game8.jp/8773104/23f8f12665c9e31f3ff3f8656dc53682.png/show",
 		"family": "Demon",
-		"subfamily": ["Humanoid"],
+		"subfamily": ["???", "Humanoid"],
 		"synthesis": [["Cross Eye", "Hammerhood"]]
 	},
 	"Hooper Trooper": {
@@ -3630,7 +3628,7 @@
 		"rank": "E",
 		"img": "https://img.game8.jp/9083072/e5d565d73586bc21de64a2586894def0.png/show",
 		"family": "???",
-		"subfamily": ["Fairy", "Demon"],
+		"subfamily": ["Fairy"],
 		"synthesis": []
 	},
 	"Frolicker": {
@@ -4042,20 +4040,21 @@
 		"rank": "S",
 		"img": "https://img.game8.jp/9086856/43240f23c4ed96cbf2bfec05177197ce.jpeg/show",
 		"family": "Demon",
+		"subfamily": ["???", "Dragon"],
 		"synthesis": [["True Dragonlord", "Hargon"]]
 	},
 	"Genosidoh": {
 		"name": "Genosidoh",
 		"rank": "X",
 		"family": "Demon",
-		"subfamily": ["???"],
+		"subfamily": ["???", "Dragon"],
 		"synthesis": [["Malroth", "Shadroth"]]
 	},
 	"Gore Genosidoh": {
 		"name": "Gore Genosidoh",
 		"rank": "Z",
 		"family": "Demon",
-		"subfamily": ["???"],
+		"subfamily": ["???", "Dragon"],
 		"synthesis": [["Genosidoh"]]
 	},
 	"Orgodemir": {
@@ -4191,7 +4190,7 @@
 		"img": "https://img.game8.jp/9102496/9022efc8907d39607f8516c1abaf8eaf.jpeg/show",
 		"family": "???",
 		"subfamily": ["Demon"],
-		"synthesis": [["Malroth", "Bones Of Baramos", "Murdaw", "King Hydra"]]
+		"synthesis": [["Bjorn The Behemoose", "Bones Of Baramos", "Murdaw", "King Hydra"]]
 	},
 	"AsuraZoma": {
 		"name": "AsuraZoma",
