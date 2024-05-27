@@ -3936,8 +3936,8 @@
 		"name": "Long John Silverbones",
 		"rank": "S",
 		"family": "Undead",
-		"subfamily": ["???"],
-		"synthesis": [["Purrgatroyd"]]
+		"subfamily": ["???", "Character"],
+		"synthesis": [["Purrgatroyd", "Captain Crow", "Night Knight"]]
 	},
 	"Bones Of Baramos": {
 		"name": "Bones Of Baramos",
@@ -4108,6 +4108,13 @@
 		"family": "Demon",
 		"subfamily": ["???", "Beast"],
 		"synthesis": [["Corvus", "Pazuzu"]]
+	},
+	"Captain Crow": {
+		"name": "Captain Crow",
+		"rank": "A",
+		"family": "???",
+		"subfamily": ["Character"],
+		"synthesis": []
 	},
 	"Fizzy": {
 		"name": "Fizzy",
