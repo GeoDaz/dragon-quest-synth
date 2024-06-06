@@ -1586,6 +1586,12 @@
 				"img": "https://img.game8.jp/9083048/4f840f25c1f45e7b5a69000612fc8f2f.png/show",
 				"family": "Beast",
 				"synthesis": [["Demon Family", "Beast Family", "Rank C"]]
+			},
+			{
+				"name": "Hexagoon",
+				"rank": "C",
+				"family": "Beast",
+				"synthesis": [["Swinoceros", "Treevil"]]
 			}
 		],
 		"B": [
@@ -1675,18 +1681,18 @@
 				"synthesis": [["Ewwnicorn", "Togre"]]
 			},
 			{
-				"name": "Hexagoon",
-				"rank": "B",
-				"family": "Beast",
-				"synthesis": [["Buffalogre", "Treevil"]]
-			},
-			{
 				"name": "Tantamount",
 				"rank": "B",
 				"img": "https://img.game8.jp/9083002/6d5ae30278d0e3509586b81bc183997f.png/show",
 				"family": "Beast",
 				"subfamily": ["myth"],
 				"synthesis": [["Kon The Knight", "Flamethrower"]]
+			},
+			{
+				"name": "Nemean",
+				"rank": "B",
+				"family": "Beast",
+				"synthesis": [["Hexagoon", "Gryphon"]]
 			}
 		],
 		"A": [
@@ -2125,6 +2131,13 @@
 				"family": "Nature",
 				"subfamily": ["Plant"],
 				"synthesis": [["Funghoul", "Napir"]]
+			},
+			{
+				"name": "Slugger",
+				"rank": "E",
+				"family": "Nature",
+				"subfamily": ["Bug"],
+				"synthesis": [["Lunatick", "Drohl Drone"]]
 			}
 		],
 		"D": [
@@ -2295,6 +2308,13 @@
 				"family": "Nature",
 				"subfamily": ["Plant"],
 				"synthesis": [["Corpsickle", "Beanie Meanie"]]
+			},
+			{
+				"name": "Sluggerslaught",
+				"rank": "C",
+				"family": "Nature",
+				"subfamily": ["Bug"],
+				"synthesis": [["Slugger", "Fandangow"]]
 			}
 		],
 		"B": [
@@ -2456,6 +2476,13 @@
 				"img": "https://img.game8.jp/9100271/adad3239c16976a70bb61ddf25ed7b85.jpeg/show",
 				"family": "Nature",
 				"synthesis": [["Baleen Mage", "King Slick Slime"]]
+			},
+			{
+				"name": "Larstastnaras",
+				"rank": "A",
+				"family": "???",
+				"subfamily": ["Nature"],
+				"synthesis": [["Morag", "Sluggerslaught"]]
 			}
 		],
 		"S": [
@@ -3458,6 +3485,20 @@
 				"img": "https://img.game8.jp/9083076/9a453bd76296176e2bf3c7e43f908193.png/show",
 				"family": "Demon",
 				"synthesis": [["Skipper", "Night Emperor"]]
+			},
+			{
+				"name": "Gander",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094904/fb58dae5e6b8f4064d4550906e0378bd.jpeg/show",
+				"family": "Demon",
+				"synthesis": [["Peeper", "Zaptile"]]
+			},
+			{
+				"name": "Drackyma",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094886/1aef091b2a1d44c4d0b9ac1d162a774a.jpeg/show",
+				"family": "Demon",
+				"synthesis": [["Drackolyte", "Fightgeist"]]
 			}
 		],
 		"C": [
@@ -3486,11 +3527,9 @@
 				"synthesis": [["Rhinoceraxe", "Ewwnicorn"]]
 			},
 			{
-				"name": "Gander",
+				"name": "Morag",
 				"rank": "C",
-				"img": "https://img.game8.jp/9094904/fb58dae5e6b8f4064d4550906e0378bd.jpeg/show",
-				"family": "Demon",
-				"synthesis": [["Peeper", "Zaptile"]]
+				"family": "Demon"
 			},
 			{
 				"name": "Swingre",
@@ -3499,13 +3538,6 @@
 				"family": "Demon",
 				"subfamily": ["Humanoid"],
 				"synthesis": [["Ogre", "Low Djinks"]]
-			},
-			{
-				"name": "Drackyma",
-				"rank": "C",
-				"img": "https://img.game8.jp/9094886/1aef091b2a1d44c4d0b9ac1d162a774a.jpeg/show",
-				"family": "Demon",
-				"synthesis": [["Drackolyte", "Fightgeist"]]
 			},
 			{
 				"name": "Goobonce",
@@ -3912,6 +3944,14 @@
 				"img": "https://img.game8.jp/9094683/c38f18f8c0072faf6f7a1ad08253160f.jpeg/show",
 				"family": "Undead",
 				"synthesis": [["Ghost", "Dark Slime"]]
+			},
+			{
+				"name": "Skellyfish",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094900/90fcca78ff3b0a5a5048fa9009e3e66b.jpeg/show",
+				"family": "Undead",
+				"subfamily": ["Nature", "Aquatic"],
+				"synthesis": [["Octopot", "Bone Idol"]]
 			}
 		],
 		"C": [
@@ -3958,14 +3998,6 @@
 				"synthesis": [["Killing Machine", "Ogre"]]
 			},
 			{
-				"name": "Skellyfish",
-				"rank": "C",
-				"img": "https://img.game8.jp/9094900/90fcca78ff3b0a5a5048fa9009e3e66b.jpeg/show",
-				"family": "Undead",
-				"subfamily": ["Nature", "Aquatic"],
-				"synthesis": [["Octopot", "Bone Idol"]]
-			},
-			{
 				"name": "Zamtasm",
 				"rank": "C",
 				"img": "https://img.game8.jp/9094901/6a1f96658724be17fce2ae3f26231291.jpeg/show",
@@ -3995,6 +4027,13 @@
 				"to": "Material",
 				"subfamily": ["Elemental", "fire"],
 				"synthesis": [["Grinferno", "Brimstone Bulb"]]
+			},
+			{
+				"name": "Tyrantula",
+				"rank": "C",
+				"family": "Undead",
+				"subfamily": ["Nature", "Bug"],
+				"synthesis": [["Skellyfish", "Cursed Crooner"]]
 			}
 		],
 		"B": [
@@ -4071,6 +4110,12 @@
 				"img": "https://img.game8.jp/9097547/70e80bcc559733b11ae1c5e311652c7f.jpeg/show",
 				"family": "Undead",
 				"synthesis": [["Tortured Soul", "King Slick Slime"]]
+			},
+			{
+				"name": "Wight Knight",
+				"rank": "B",
+				"family": "Undead",
+				"synthesis": [["Headless Horseman", "Bone Baron"]]
 			}
 		],
 		"A": [
@@ -4095,9 +4140,31 @@
 				"family": "Undead",
 				"subfamily": ["Elemental"],
 				"synthesis": [["Demon-At-Arms", "Green Bogey"]]
+			},
+			{
+				"name": "Sir Sanguinus",
+				"rank": "A",
+				"family": "Undead",
+				"synthesis": [["Wight Knight", "Phantom Swordsman"]]
+			},
+			{
+				"name": "Widow's pique",
+				"rank": "A",
+				"family": "Undead",
+				"subfamily": ["Nature", "Bug"],
+				"synthesis": [["Bone Baron", "Tyrantula"]]
 			}
 		],
 		"S": [
+			{
+				"name": "King Godwyn Second Forme",
+				"rank": "S",
+				"family": "Undead",
+				"subfamily": ["???", "Character"],
+				"synthesis": [
+					["Dreadmaster", "Gadrongo", "Master of Nu'un", "Larstastnaras"]
+				]
+			},
 			{
 				"name": "Long John Silverbones",
 				"rank": "S",
@@ -4184,6 +4251,12 @@
 				"img": "https://img.game8.jp/9083080/90742d3a8a106b59e4c8b6eb2af6d64a.png/show",
 				"family": "???",
 				"synthesis": [["Hellbound Hair-Raiser", "Lump Shaman"]]
+			},
+			{
+				"name": "Dreadmaster",
+				"rank": "B",
+				"family": "???",
+				"subfamily": ["Character", "Demon", "Beast"]
 			}
 		],
 		"A": [
@@ -4263,6 +4336,12 @@
 				"rank": "A",
 				"family": "???",
 				"subfamily": ["Character"],
+				"synthesis": []
+			},
+			{
+				"name": "Master of Nu'un",
+				"rank": "A",
+				"family": "???",
 				"synthesis": []
 			},
 			{
