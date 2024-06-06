@@ -3529,7 +3529,8 @@
 			{
 				"name": "Morag",
 				"rank": "C",
-				"family": "Demon"
+				"family": "Demon",
+				"synthesis": []
 			},
 			{
 				"name": "Swingre",
@@ -4148,7 +4149,7 @@
 				"synthesis": [["Wight Knight", "Phantom Swordsman"]]
 			},
 			{
-				"name": "Widow's pique",
+				"name": "Widow's Pique",
 				"rank": "A",
 				"family": "Undead",
 				"subfamily": ["Nature", "Bug"],
@@ -4162,7 +4163,7 @@
 				"family": "Undead",
 				"subfamily": ["???", "Character"],
 				"synthesis": [
-					["Dreadmaster", "Gadrongo", "Master of Nu'un", "Larstastnaras"]
+					["Dreadmaster", "Gadrongo", "Master Of Nu'un", "Larstastnaras"]
 				]
 			},
 			{
@@ -4256,7 +4257,8 @@
 				"name": "Dreadmaster",
 				"rank": "B",
 				"family": "???",
-				"subfamily": ["Character", "Demon", "Beast"]
+				"subfamily": ["Character", "Demon", "Beast"],
+				"synthesis": []
 			}
 		],
 		"A": [
@@ -4339,7 +4341,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Master of Nu'un",
+				"name": "Master Of Nu'un",
 				"rank": "A",
 				"family": "???",
 				"synthesis": []
@@ -4374,7 +4376,7 @@
 				"img": "https://img.game8.jp/9087039/f62cd061570b6096e90b1c00c9dc1d07.jpeg/show",
 				"family": "???",
 				"subfamily": ["Fairy", "dark"],
-				"synthesis": [["Mordegon, Lord of Shadows", "Scruffy"]]
+				"synthesis": [["Mordegon, Lord Of Shadows", "Scruffy"]]
 			},
 			{
 				"name": "Bones Of Baramos",
@@ -4438,7 +4440,7 @@
 				]
 			},
 			{
-				"name": "Mordegon, Lord of Shadows",
+				"name": "Mordegon, Lord Of Shadows",
 				"rank": "S",
 				"img": "https://img.game8.jp/9087035/7cabf8a25cf47fc18283393592fe9a97.jpeg/show",
 				"family": "???",
