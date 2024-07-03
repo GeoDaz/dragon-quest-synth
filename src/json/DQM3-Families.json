@@ -1133,7 +1133,7 @@
 				"family": "Dragon",
 				"subfamily": ["???"],
 				"synthesis": [
-					["Abyssal Dragon", "Xenlon", "Lord Of The Dragovians", "Miraclare"]
+					["Greygnarl", "Xenlon", "Lord Of The Dragovians", "Miraclare"]
 				]
 			}
 		],
@@ -1415,12 +1415,19 @@
 				"synthesis": [["Robber Rabbit", "Wild Slime"]]
 			},
 			{
-				"name": "Missing Lynx",
+				"name": "Ewwnicorn",
 				"rank": "D",
-				"img": "https://img.game8.jp/9094710/884d880b0ef2a2e1a1f5e0740c8a2e07.jpeg/show",
+				"img": "https://img.game8.jp/9094692/bb0c5882a3057cc63154afcb5942154b.jpeg/show",
 				"family": "Beast",
-				"subfamily": ["Dragon"],
-				"synthesis": [["Great Sabrecat", "Garuda"]]
+				"synthesis": [["Giruffian", "Angel Slime"]]
+			},
+			{
+				"name": "Night Emperor",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094685/d2e8af424aef37edb3ba391de12fbb8b.jpeg/show",
+				"family": "Beast",
+				"subfamily": ["Demon"],
+				"synthesis": [["Sunset Sultan", "Night Sneaker"]]
 			},
 			{
 				"name": "Great Sabrecat",
@@ -1437,26 +1444,12 @@
 				]
 			},
 			{
-				"name": "Warhog",
-				"rank": "D",
-				"img": "https://img.game8.jp/9094689/d01d3ff00e4a4301b8082fc2dd611de9.jpeg/show",
-				"family": "Beast",
-				"synthesis": [["Mandrake Major", "Beast Family"]]
-			},
-			{
 				"name": "Sweaty Yeti",
 				"rank": "D",
 				"img": "https://img.game8.jp/9094682/f5e1d82a1c073e86398f6de10b4ed650.jpeg/show",
 				"family": "Beast",
 				"subfamily": ["ice"],
 				"synthesis": [["Powie Yowie", "Parched Peckerel"]]
-			},
-			{
-				"name": "Calypso King",
-				"rank": "D",
-				"img": "https://img.game8.jp/9082997/3438b79f1f34ef5de1a5f739968f917a.png/show",
-				"family": "Beast",
-				"synthesis": [["Beast Family", "Material Family", "Rank D"]]
 			},
 			{
 				"name": "Cheater Cheetah",
@@ -1467,33 +1460,18 @@
 				"synthesis": [["Weartiger", "Ursa Major"]]
 			},
 			{
-				"name": "Ewwnicorn",
-				"rank": "D",
-				"img": "https://img.game8.jp/9094692/bb0c5882a3057cc63154afcb5942154b.jpeg/show",
-				"family": "Beast",
-				"synthesis": [["Giruffian", "Angel Slime"]]
-			},
-			{
-				"name": "Night Emperor",
-				"rank": "D",
-				"img": "https://img.game8.jp/9094685/d2e8af424aef37edb3ba391de12fbb8b.jpeg/show",
-				"family": "Beast",
-				"subfamily": ["Demon"],
-				"synthesis": [["Sunset Sultan", "Night Sneaker"]]
-			},
-			{
-				"name": "Rhinoceraxe",
-				"rank": "D",
-				"img": "https://img.game8.jp/9094690/d159a900d7e52f895eebd58e524be12e.jpeg/show",
-				"family": "Beast",
-				"synthesis": [["Ursa Major", "Material Family"]]
-			},
-			{
 				"name": "Abracadabrador",
 				"rank": "D",
 				"img": "https://img.game8.jp/9094688/78980fdb491598daff4df0ef64908c06.jpeg/show",
 				"family": "Beast",
 				"synthesis": [["Foo Dog", "Lump Shaman"]]
+			},
+			{
+				"name": "Calypso King",
+				"rank": "D",
+				"img": "https://img.game8.jp/9082997/3438b79f1f34ef5de1a5f739968f917a.png/show",
+				"family": "Beast",
+				"synthesis": [["Beast Family", "Material Family", "Rank D"]]
 			},
 			{
 				"name": "Gryphon",
@@ -1502,44 +1480,31 @@
 				"family": "Beast",
 				"subfamily": ["Bird", "myth"],
 				"synthesis": [["Silvapithecus", "Chimaera"]]
+			},
+			{
+				"name": "Missing Lynx",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094710/884d880b0ef2a2e1a1f5e0740c8a2e07.jpeg/show",
+				"family": "Beast",
+				"subfamily": ["Dragon"],
+				"synthesis": [["Great Sabrecat", "Garuda"]]
+			},
+			{
+				"name": "Warhog",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094689/d01d3ff00e4a4301b8082fc2dd611de9.jpeg/show",
+				"family": "Beast",
+				"synthesis": [["Mandrake Major", "Beast Family"]]
+			},
+			{
+				"name": "Rhinoceraxe",
+				"rank": "D",
+				"img": "https://img.game8.jp/9094690/d159a900d7e52f895eebd58e524be12e.jpeg/show",
+				"family": "Beast",
+				"synthesis": [["Ursa Major", "Material Family"]]
 			}
 		],
 		"C": [
-			{
-				"name": "Hellion",
-				"rank": "C",
-				"img": "https://img.game8.jp/9094881/7b060bb124db194d52a5970b3934b84d.jpeg/show",
-				"family": "Beast",
-				"synthesis": [["Cheater Cheetah", "Skeleton Swordsman"]]
-			},
-			{
-				"name": "Hyperboarean",
-				"rank": "C",
-				"img": "https://img.game8.jp/9094867/b88040d511909d59b8efe306953f2130.jpeg/show",
-				"family": "Beast",
-				"synthesis": [["Orc King", "Warhog"]]
-			},
-			{
-				"name": "Orc King",
-				"rank": "C",
-				"img": "https://img.game8.jp/9082999/83537ac73ed83630f7fcb8a64d11b852.png/show",
-				"family": "Beast",
-				"synthesis": [["Orc", "Cheater Cheetah"]]
-			},
-			{
-				"name": "Maniacal Mole",
-				"rank": "C",
-				"img": "https://img.game8.jp/9082995/ef64681310e5fbdc5ba41025a2857454.png/show",
-				"family": "Beast",
-				"synthesis": [["Mischievous Mole", "Ripped Rabbit"]]
-			},
-			{
-				"name": "Greater Platypunk",
-				"rank": "C",
-				"img": "https://img.game8.jp/9094911/29ae9abab6eeb3964dddbeba5ed54365.jpeg/show",
-				"family": "Beast",
-				"synthesis": [["Platypunk", "King Slime"]]
-			},
 			{
 				"name": "Dark Hare",
 				"rank": "C",
@@ -1549,20 +1514,11 @@
 				"synthesis": [["Spiked Hare", "Hypothermion"]]
 			},
 			{
-				"name": "Gnumesis",
+				"name": "Maniacal Mole",
 				"rank": "C",
-				"img": "https://img.game8.jp/9094906/58249ffff618c74bc35728851ccdc50a.jpeg/show",
+				"img": "https://img.game8.jp/9082995/ef64681310e5fbdc5ba41025a2857454.png/show",
 				"family": "Beast",
-				"subfamily": ["Demon"],
-				"synthesis": [["Beast Family", "Undead Family", "Rank C"]]
-			},
-			{
-				"name": "Jowler",
-				"rank": "C",
-				"img": "https://img.game8.jp/9094880/b10315f8a0f7586fd4a1fa63758060dd.jpeg/show",
-				"family": "Beast",
-				"subfamily": ["Demon"],
-				"synthesis": [["Beast Family", "Dragon Family", "Rank C"]]
+				"synthesis": [["Mischievous Mole", "Ripped Rabbit"]]
 			},
 			{
 				"name": "Luneyetic",
@@ -1588,6 +1544,50 @@
 				"synthesis": [["Demon Family", "Beast Family", "Rank C"]]
 			},
 			{
+				"name": "Orc King",
+				"rank": "C",
+				"img": "https://img.game8.jp/9082999/83537ac73ed83630f7fcb8a64d11b852.png/show",
+				"family": "Beast",
+				"synthesis": [["Orc", "Cheater Cheetah"]]
+			},
+			{
+				"name": "Hellion",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094881/7b060bb124db194d52a5970b3934b84d.jpeg/show",
+				"family": "Beast",
+				"synthesis": [["Cheater Cheetah", "Skeleton Swordsman"]]
+			},
+			{
+				"name": "Hyperboarean",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094867/b88040d511909d59b8efe306953f2130.jpeg/show",
+				"family": "Beast",
+				"synthesis": [["Orc King", "Warhog"]]
+			},
+			{
+				"name": "Greater Platypunk",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094911/29ae9abab6eeb3964dddbeba5ed54365.jpeg/show",
+				"family": "Beast",
+				"synthesis": [["Platypunk", "King Slime"]]
+			},
+			{
+				"name": "Gnumesis",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094906/58249ffff618c74bc35728851ccdc50a.jpeg/show",
+				"family": "Beast",
+				"subfamily": ["Demon"],
+				"synthesis": [["Beast Family", "Undead Family", "Rank C"]]
+			},
+			{
+				"name": "Jowler",
+				"rank": "C",
+				"img": "https://img.game8.jp/9094880/b10315f8a0f7586fd4a1fa63758060dd.jpeg/show",
+				"family": "Beast",
+				"subfamily": ["Demon"],
+				"synthesis": [["Beast Family", "Dragon Family", "Rank C"]]
+			},
+			{
 				"name": "Hexagoon",
 				"rank": "C",
 				"family": "Beast",
@@ -1596,12 +1596,12 @@
 		],
 		"B": [
 			{
-				"name": "Draguar",
+				"name": "Mogus",
 				"rank": "B",
-				"img": "https://img.game8.jp/9097474/402369107430c62e4cf6c02cf940c43f.jpeg/show",
+				"img": "https://img.game8.jp/9083004/f196de6170dbbd0f4094c8e834251ce8.png/show",
 				"family": "Beast",
-				"subfamily": ["Dragon"],
-				"synthesis": [["Missing Lynx", "Abyss Diver"]]
+				"subfamily": ["dark"],
+				"synthesis": [["Meowgician", "Shadow Slime"]]
 			},
 			{
 				"name": "Dark Sabrecat",
@@ -1615,19 +1615,12 @@
 				]
 			},
 			{
-				"name": "Mogus",
+				"name": "Abominable Showman",
 				"rank": "B",
-				"img": "https://img.game8.jp/9083004/f196de6170dbbd0f4094c8e834251ce8.png/show",
+				"img": "https://img.game8.jp/9100362/f9c0513c468881ef41f8720cb1c31b6a.jpeg/show",
 				"family": "Beast",
-				"subfamily": ["dark"],
-				"synthesis": [["Meowgician", "Shadow Slime"]]
-			},
-			{
-				"name": "Ursa Mega",
-				"rank": "B",
-				"img": "https://img.game8.jp/9097476/59a23d46beeedecc31b71803ab3d507c.jpeg/show",
-				"family": "Beast",
-				"synthesis": [["Ursa Major", "Sintaur"]]
+				"subfamily": ["ice"],
+				"synthesis": [["Sweaty Yeti", "Powie Yowie", "Fightgeist", "Frolicker"]]
 			},
 			{
 				"name": "Tigergram",
@@ -1638,6 +1631,13 @@
 				"synthesis": [["Weartiger", "Hellion"]]
 			},
 			{
+				"name": "Ursa Mega",
+				"rank": "B",
+				"img": "https://img.game8.jp/9097476/59a23d46beeedecc31b71803ab3d507c.jpeg/show",
+				"family": "Beast",
+				"synthesis": [["Ursa Major", "Sintaur"]]
+			},
+			{
 				"name": "Don Mole",
 				"rank": "B",
 				"img": "https://img.game8.jp/9105419/bb6da3537eb9bee3b561399a5cf2ea02.jpeg/show",
@@ -1645,12 +1645,12 @@
 				"synthesis": [["Maniacal Mole", "Calypso King"]]
 			},
 			{
-				"name": "Abominable Showman",
+				"name": "Draguar",
 				"rank": "B",
-				"img": "https://img.game8.jp/9100362/f9c0513c468881ef41f8720cb1c31b6a.jpeg/show",
+				"img": "https://img.game8.jp/9097474/402369107430c62e4cf6c02cf940c43f.jpeg/show",
 				"family": "Beast",
-				"subfamily": ["ice"],
-				"synthesis": [["Sweaty Yeti", "Powie Yowie", "Fightgeist", "Frolicker"]]
+				"subfamily": ["Dragon"],
+				"synthesis": [["Missing Lynx", "Abyss Diver"]]
 			},
 			{
 				"name": "Buffalogre",
@@ -1658,7 +1658,7 @@
 				"img": "https://img.game8.jp/9097492/bb2473c5a516919e26b9c3d664769bde.jpeg/show",
 				"family": "Beast",
 				"subfamily": ["Demon"],
-				"synthesis": [["Hyperboarean", "Fowl Beast"]]
+				"synthesis": [["Hexagoon", "Fowl Beast"]]
 			},
 			{
 				"name": "Mohawker",
@@ -1666,7 +1666,7 @@
 				"img": "https://img.game8.jp/9082987/726a0c72f1fd5c8ea22590bcbc118048.png/show",
 				"family": "Beast",
 				"subfamily": ["Demon"],
-				"synthesis": [["Jowler", "Heligator"]]
+				"synthesis": [["Hyperboarean", "Heligator"]]
 			},
 			{
 				"name": "Slon The Rook",
@@ -1720,6 +1720,13 @@
 				"synthesis": [["Gnumesis", "Grotwyrm"]]
 			},
 			{
+				"name": "Marquis De Léon",
+				"rank": "A",
+				"img": "https://img.game8.jp/9090900/d37bd0404410ee93a5faaa990bdd9b67.jpeg/show",
+				"family": "Beast",
+				"synthesis": [["Hellion", "King Hydra"]]
+			},
+			{
 				"name": "Ronin Raccoon",
 				"rank": "A",
 				"img": "https://img.game8.jp/9082993/1ae0cc9f27c9b006cdf58476caf357b8.png/show",
@@ -1736,33 +1743,23 @@
 				"synthesis": [["Tigergram", "Robbin' 'Ood"]]
 			},
 			{
-				"name": "Marquis De Léon",
+				"name": "Lieutenant Goreham-Hogg",
 				"rank": "A",
-				"img": "https://img.game8.jp/9090900/d37bd0404410ee93a5faaa990bdd9b67.jpeg/show",
 				"family": "Beast",
-				"synthesis": [["Hellion", "King Hydra"]]
-			},
-			{
-				"name": "Lieutenant Goresby-Purrvis",
-				"rank": "A",
-				"img": "https://img.game8.jp/9085348/4ea49334f5dd5ac4c412f1bec0e29b42.png/show",
-				"family": "Beast",
-				"synthesis": [["Dark Sabrecat", "Ronin Raccoon"]]
+				"synthesis": [["Hexagoon", "Swingre"]]
 			},
 			{
 				"name": "Lieutenant Hootingham-Gore",
 				"rank": "A",
-				"img": "https://img.game8.jp/9085340/14d86cc7b9b5646d7576311b10d67063.png/show",
 				"family": "Beast",
 				"subfamily": ["Nature", "Bird"],
 				"synthesis": [["Hocus-Poker", "Gangleclaw"]]
 			},
 			{
-				"name": "Lieutenant Goreham-Hogg",
+				"name": "Lieutenant Goresby-Purrvis",
 				"rank": "A",
-				"img": "https://img.game8.jp/9085337/2623a834ee1e17bf989dfb627bd78921.png/show",
 				"family": "Beast",
-				"synthesis": [["Hexagoon", "Swingre"]]
+				"synthesis": [["Dark Sabrecat", "Ronin Raccoon"]]
 			}
 		],
 		"S": [
@@ -1779,6 +1776,25 @@
 						"Greater Platypunk"
 					]
 				]
+			},
+			{
+				"name": "Hammibal",
+				"rank": "S",
+				"family": "Beast",
+				"synthesis": [["Lieutenant Goreham-Hogg", "Pruslas"]]
+			},
+			{
+				"name": "Fowleye",
+				"rank": "S",
+				"family": "Beast",
+				"subfamily": ["Nature", "Bird"],
+				"synthesis": [["Lieutenant Hootingham-Gore", "Cetacean Sorcerer"]]
+			},
+			{
+				"name": "Excalipurr",
+				"rank": "S",
+				"family": "Beast",
+				"synthesis": [["Lieutenant Goresby-Purrvis", "Stormy Sabrecat"]]
 			}
 		]
 	},
