@@ -3740,7 +3740,7 @@
 				"rank": "X",
 				"family": "Demon",
 				"subfamily": ["???", "Dragon"],
-				"synthesis": [["Malroth", "Shadroth"]]
+				"synthesis": [["Malroth", "Hammibal"]]
 			}
 		],
 		"Z": [
@@ -3749,7 +3749,7 @@
 				"rank": "Z",
 				"family": "Demon",
 				"subfamily": ["???", "Dragon"],
-				"synthesis": [["Genosidoh"]]
+				"synthesis": [["Genosidoh", "Shadroth"]]
 			}
 		]
 	},
@@ -4509,13 +4509,13 @@
 				"rank": "X",
 				"family": "???",
 				"subfamily": ["Demon"],
-				"synthesis": [["Zoma"]]
+				"synthesis": [["Zoma", "Excalipurr"]]
 			},
 			{
 				"name": "PsychoPiz",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Psaro The Manslayer"]]
+				"synthesis": [["Psaro The Manslayer", "Fowleye"]]
 			},
 			{
 				"name": "Estark",
