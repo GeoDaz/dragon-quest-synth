@@ -7,6 +7,7 @@ interface Props {
 	label?: string | ReactNode;
 	labelOn?: string | ReactNode;
 	labelOff?: string | ReactNode;
+	className?: string;
 }
 const BoostrapSwitch: React.FC<Props> = ({
 	checked,
@@ -14,12 +15,14 @@ const BoostrapSwitch: React.FC<Props> = ({
 	label,
 	labelOn = 'On',
 	labelOff = 'Off',
+	className,
 }) => {
 	return (
 		<div
 			className={makeClassName(
 				'switch btn',
-				checked ? 'on btn-primary' : 'off btn-secondary'
+				checked ? 'on btn-primary' : 'off btn-secondary',
+				className
 			)}
 			onClick={toggle}
 		>

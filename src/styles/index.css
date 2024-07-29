@@ -168,6 +168,15 @@ i.click:hover {
   color: var(--bs-primary);
 }
 
+.absolute-center {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 .blockquote {
   font-size: 1.1rem;
   border-radius: var(--bs-border-radius);
@@ -206,6 +215,31 @@ input.form-control {
   background-color: var(--dl-snd-dark) !important;
   border: 1px solid var(--dl-snd-dark);
   color: white !important;
+}
+
+.form-check-input:checked {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+}
+
+[data-bs-theme=dark] .form-switch .form-check-input {
+  --bs-form-switch-bg: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='%23fff'/%3E%3C/svg%3E") !important;
+  border-color: white;
+  cursor: pointer;
+}
+
+.spinner-grow.xl,
+.spinner-border.xl {
+  --bs-spinner-width: 5rem;
+  --bs-spinner-height: 5rem;
+}
+
+.spinner-grow.xl {
+  --bs-spinner-animation-speed: 0.5s;
+}
+
+.spinner-border.xl {
+  --bs-spinner-border-width: 0.5em;
 }
 
 /* App */
@@ -992,6 +1026,12 @@ a.dropdown-item.active {
   min-width: 6rem;
 }
 
+.btn.switch.big {
+  min-width: 8rem;
+  font-size: 1.15em;
+  font-weight: bold;
+}
+
 .btn.switch i.bi.eye {
   font-size: 1.15em;
 }
@@ -1002,6 +1042,7 @@ a.dropdown-item.active {
   align-items: center;
   justify-content: center;
   padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+  white-space: nowrap;
 }
 
 .btn.switch .switch-on {
@@ -1035,6 +1076,10 @@ a.dropdown-item.active {
 
 .card {
   scroll-margin-top: 58px;
+}
+
+h2 {
+  scroll-margin-top: 64px;
 }
 
 .rank {

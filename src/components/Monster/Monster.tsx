@@ -3,10 +3,9 @@ import MonsterImg from './MonsterImg';
 import Rank from './Rank';
 import Link from 'next/link';
 import { makeClassName } from '@/functions';
-import { Card, CardFooter, CardHeader, CardBody } from 'react-bootstrap';
-import { useContext } from 'react';
-import { MonstersContext } from '@/context/monsters';
+import { Card, CardHeader, CardBody } from 'react-bootstrap';
 import { Monster as MonsterInterface } from '@/types/Monster';
+import AnchorLink from '../AnchorLink';
 
 const Monster = ({
 	monster,
@@ -40,10 +39,14 @@ const Monster = ({
 			<CardBody>
 				<div className="fw-bold mb-2">Family&nbsp;:</div>
 				<div className="d-flex gap-2 mb-2">
-					<Family name={monster.family} />{' '}
-					{!!monster.to && <Family name={monster.to} />}{' '}
+					<Family name={monster.family} handleActive={handleActive} />{' '}
+					{!!monster.to && (
+						<Family name={monster.to} handleActive={handleActive} />
+					)}{' '}
 					{!!monster.subfamily &&
-						monster.subfamily.map(name => <Family key={name} name={name} />)}
+						monster.subfamily.map(name => (
+							<Family key={name} name={name} handleActive={handleActive} />
+						))}
 				</div>
 				<div className="fw-bold mb-2">Synthesis&nbsp;:</div>
 				{monster.synthesis.map((list: string[], i: number) => (
@@ -59,22 +62,28 @@ const Monster = ({
 							const isFamily = name.includes('Family');
 							if (isFamily) {
 								name = name.replace(' Family', '');
-								return <Family key={key} name={name} big />;
+								return (
+									<Family
+										key={key}
+										name={name}
+										big
+										handleActive={handleActive}
+									/>
+								);
 							}
 							const isRank = name.includes('Rank');
 							if (isRank) {
 								return <Rank key={key} value={'(1) ' + name} />;
 							}
 							return (
-								<Link
-									href={`/#${name}`}
+								<AnchorLink
+									hash={name}
 									key={key}
 									className="line-point pictured thumbnail"
-									onClick={e => handleActive(name)}
 								>
 									<MonsterImg name={name} small />
 									<span className="sr-only">{name}</span>
-								</Link>
+								</AnchorLink>
 							);
 						})}
 					</div>

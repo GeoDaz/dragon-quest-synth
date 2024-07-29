@@ -49,7 +49,7 @@ const LineImage: React.FC<LineImageProps> = ({
 		<>
 			{loadable && loading && (
 				<div className="spinner-wrapper" style={loadingStyle}>
-					<Spinner animation="border" />
+					<Spinner animation="grow" />
 				</div>
 			)}
 			<Image

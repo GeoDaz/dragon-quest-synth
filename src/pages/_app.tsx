@@ -5,11 +5,38 @@ import '@/styles/index.css';
 import type { AppProps } from 'next/app';
 import { Analytics } from '@vercel/analytics/react';
 import ErrorBoundary from '@/components/ErrorBoundary';
+import { useEffect, useState } from 'react';
+import Router from 'next/router';
+import { Spinner } from 'react-bootstrap';
 
 export default function App({ Component, pageProps }: AppProps) {
+	const [loading, setLoading] = useState(false);
+
+	// loading on page change
+	useEffect(() => {
+		if (process.env.NODE_ENV === 'development') return;
+
+		const start = () => setLoading(true);
+		const end = () => setLoading(false);
+		Router.events.on('routeChangeStart', start);
+		Router.events.on('routeChangeComplete', end);
+		Router.events.on('routeChangeError', end);
+		return () => {
+			Router.events.off('routeChangeStart', start);
+			Router.events.off('routeChangeComplete', end);
+			Router.events.off('routeChangeError', end);
+		};
+	}, []);
+
 	return (
 		<ErrorBoundary>
-			<Component {...pageProps} />
+			{loading ? (
+				<div className="spinner-wrapper text-center mt-5">
+					<Spinner animation="border" className="xl" variant="primary" />
+				</div>
+			) : (
+				<Component {...pageProps} />
+			)}
 			<Analytics />
 		</ErrorBoundary>
 	);

@@ -46,7 +46,6 @@ const baseObject = {
 		B: [],
 		A: [],
 		S: [],
-		X: [],
 	},
 	Material: {
 		G: [],
@@ -79,16 +78,10 @@ const baseObject = {
 		S: [],
 	},
 	'???': {
-		G: [],
-		F: [],
-		E: [],
-		D: [],
 		C: [],
-		B: [],
 		A: [],
 		S: [],
 		X: [],
-		Z: [],
 	},
 };
 

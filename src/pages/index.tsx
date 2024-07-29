@@ -7,20 +7,49 @@ import Family from '@/components/Monster/Family';
 import { ImagesContext } from '@/context/images';
 import { MonstersContext } from '@/context/monsters';
 import { familiesColors } from '@/consts/colors';
+import { useRouter } from 'next/router';
+import { FormCheck } from 'react-bootstrap';
+import LoadableImage from '@/components/LoadableImage';
 
 interface Props {
 	monsters: { [key: string]: MonsterInterface };
 	families: { [key: string]: { [key: string]: MonsterInterface[] } };
 	images: { [key: string]: string };
+	dqm: boolean;
 }
-const PageLines: React.FC<Props> = ({ monsters = {}, families = {}, images = {} }) => {
+const PageLines: React.FC<Props> = ({
+	monsters = {},
+	families = {},
+	images = {},
+	dqm = true,
+}) => {
+	const router = useRouter();
 	const [activeMonster, setActiveMonster] = useState();
+	const root = dqm ? '/' : '/community';
+
 	return (
 		<Layout
 			noGoBack
 			title="Synthesis"
 			metadescription="The aim of this site is to present dragon quest synthesis from all games."
 		>
+			<div className="mb-5 d-flex align-items-center">
+				<LoadableImage
+					height={125}
+					width={270}
+					src="/images/dqmtdp.webp"
+					alt="Dragon Quest Monster : The Dark Prince"
+					className="img-fluid"
+				/>
+				<FormCheck
+					type="switch"
+					id="dqmtdp-switch"
+					checked={dqm}
+					readOnly
+					onClick={e => router.push(dqm ? '/community' : '/')}
+					className="h2 click"
+				/>
+			</div>
 			<MonstersContext.Provider value={monsters}>
 				<ImagesContext.Provider value={images}>
 					{Object.keys(families).length > 0 ? (
@@ -33,6 +62,7 @@ const PageLines: React.FC<Props> = ({ monsters = {}, families = {}, images = {} 
 											backgroundColor: familiesColors[family],
 											boxShadow: 'inset 0 0 0 3px #aeac69',
 										}}
+										id={family}
 									>
 										<Family name={family} big /> &nbsp; {family}
 									</h2>
@@ -82,7 +112,7 @@ export const getStaticProps: GetStaticProps = async () => {
 		});
 
 		const images = require('../json/monstersImages.json');
-		return { props: { monsters, families, images } };
+		return { props: { monsters, families, images, dqm: true } };
 	} catch (e) {
 		console.error(e);
 		return { props: {} };
