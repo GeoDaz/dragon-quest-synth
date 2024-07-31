@@ -13,6 +13,8 @@ import LoadableImage from '@/components/LoadableImage';
 import { makeMonsters, reverseSynth } from '@/functions/transformer/synthesis';
 import { StringObject } from '@/types/Ui';
 import useTranslate from '@/hooks/useTranslate';
+import { makeClassName } from '@/functions';
+import useHash from '@/hooks/useHash';
 
 interface Props {
 	monsters: Monsters;
@@ -28,7 +30,7 @@ const PageLines: React.FC<Props> = ({
 }) => {
 	const router = useRouter();
 	const { isFr, translateUI } = useTranslate();
-	const [activeMonster, setActiveMonster] = useState();
+	const hash = useHash();
 
 	return (
 		<Layout
@@ -60,7 +62,10 @@ const PageLines: React.FC<Props> = ({
 							{Object.entries(families).map(([family, ranks]) => (
 								<div key={family} className="mb-4">
 									<h2
-										className="rounded"
+										className={makeClassName(
+											'rounded transition',
+											hash == family && 'active-outline'
+										)}
 										style={{
 											backgroundColor: familiesColors[family],
 											boxShadow: 'inset 0 0 0 3px #aeac69',
@@ -81,8 +86,7 @@ const PageLines: React.FC<Props> = ({
 													<Monster
 														key={monster.name}
 														monster={monster}
-														activeMonster={activeMonster}
-														handleActive={setActiveMonster}
+														hash={hash}
 													/>
 												))}
 											</div>

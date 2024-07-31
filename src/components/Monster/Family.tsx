@@ -7,11 +7,11 @@ import { memo } from 'react';
 const Family = memo(function Family({
 	name,
 	big = false,
-	handleActive,
+	activable = false,
 }: {
 	name: string;
 	big?: boolean;
-	handleActive?: CallableFunction;
+	activable?: boolean;
 }) {
 	const { translateUI } = useTranslate();
 	const icon = familiesIcons[name];
@@ -27,7 +27,7 @@ const Family = memo(function Family({
 			width={big ? 45 : 30}
 		/>
 	);
-	if (handleActive) {
+	if (activable) {
 		return <AnchorLink hash={name}>{img}</AnchorLink>;
 	}
 	return img;

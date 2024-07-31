@@ -11,26 +11,36 @@ import useTranslate from '@/hooks/useTranslate';
 
 const Monster = memo(function Monster({
 	monster,
-	activeMonster,
-	handleActive,
+	hash,
 }: {
 	monster: MonsterInterface;
-	activeMonster?: string;
-	handleActive: CallableFunction;
+	hash?: string;
 }) {
-	const { isFr, translateMonster, translateUI } = useTranslate();
 	if (!monster) return null;
-	const displayName = translateMonster(monster.name);
+	// console.log(hash, monster.name, hash == monster.name);
 	return (
 		<Card
 			id={monster.name}
 			className={makeClassName(
-				'monster',
-				activeMonster === monster.name &&
-					'outline outline-2 outline-offset-2 outline-indigo-500'
+				'monster transition',
+				hash == monster.name && 'active-outline'
 			)}
 			style={{ width: '18rem' }}
 		>
+			<MemoizedInnerMonster monster={monster} />
+		</Card>
+	);
+});
+
+const MemoizedInnerMonster = memo(function InnerMonster({
+	monster,
+}: {
+	monster: MonsterInterface;
+}) {
+	const { isFr, translateMonster, translateUI } = useTranslate();
+	const displayName = translateMonster(monster.name);
+	return (
+		<>
 			<CardHeader>
 				<div className="text-center">
 					<div className="d-inline-block position-relative line-point pictured">
@@ -43,13 +53,11 @@ const Monster = memo(function Monster({
 			<CardBody>
 				<div className="fw-bold mb-2">{translateUI('Family')}&nbsp;:</div>
 				<div className="d-flex gap-2">
-					<Family name={monster.family} handleActive={handleActive} />{' '}
-					{!!monster.to && (
-						<Family name={monster.to} handleActive={handleActive} />
-					)}{' '}
+					<Family name={monster.family} activable />{' '}
+					{!!monster.to && <Family name={monster.to} activable />}{' '}
 					{!!monster.subfamily &&
 						monster.subfamily.map(name => (
-							<Family key={name} name={name} handleActive={handleActive} />
+							<Family key={name} name={name} activable />
 						))}
 				</div>
 				{monster.synthesis.length > 0 && (
@@ -71,12 +79,7 @@ const Monster = memo(function Monster({
 									if (isFamily) {
 										name = name.replace(' Family', '');
 										return (
-											<Family
-												key={key}
-												name={name}
-												big
-												handleActive={handleActive}
-											/>
+											<Family key={key} name={name} big activable />
 										);
 									}
 									const isRank = name.includes('Rank');
@@ -132,7 +135,7 @@ const Monster = memo(function Monster({
 					</>
 				)}
 			</CardBody>
-		</Card>
+		</>
 	);
 });
 

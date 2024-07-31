@@ -148,6 +148,18 @@ a:active:not(.btn) {
   transition: all .3s;
 }
 
+/* .inactive-outline {
+  outline: 4px solid transparent;
+} */
+
+.active-outline {
+  outline: 4px solid var(--bs-primary);
+}
+
+.transition {
+  transition: all .3s;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

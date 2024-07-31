@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { memo, useContext, useEffect, useState } from 'react';
 import Image from 'next/image';
 import { makeClassName } from '@/functions';
 import { Spinner } from 'react-bootstrap';
@@ -16,7 +16,7 @@ export interface LineImageProps {
 	style?: object;
 	loadable?: boolean;
 }
-const LineImage: React.FC<LineImageProps> = ({
+const LineImage = memo(function LineImage({
 	name,
 	title = name,
 	path, // base64
@@ -25,7 +25,7 @@ const LineImage: React.FC<LineImageProps> = ({
 	width = 150,
 	style,
 	loadable = true,
-}) => {
+}: LineImageProps) {
 	const images = useContext(ImagesContext);
 	const image = images[name];
 	const [src, setSrc] = useState(path || image || NOT_FOUND);
@@ -83,6 +83,6 @@ const LineImage: React.FC<LineImageProps> = ({
 			{/* <span className="sr-only">{name}</span> */}
 		</>
 	);
-};
+});
 
 export default LineImage;
