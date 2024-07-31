@@ -29,6 +29,13 @@ export const capitalize = (string: string): string => {
 	return string[0].toUpperCase() + string.slice(1);
 };
 
+export const processLanguage = () => {
+	const language: string = navigator.language || (navigator as any).userLanguage;
+	const [p1, p2] = language.split('-');
+	if (p1 == 'fr' || p2 == 'FR') return true;
+	return false;
+};
+
 export const objectToGETparams = (
 	object: object,
 	baseParams: string = '',

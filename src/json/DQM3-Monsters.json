@@ -1449,7 +1449,7 @@
 		"name": "Missing Lynx",
 		"rank": "D",
 		"family": "Beast",
-		"synthesis": [["Great Sabercat", "Garuda"]]
+		"synthesis": [["Great Sabrecat", "Garuda"]]
 	},
 	"Gargoyle": {
 		"name": "Gargoyle",
@@ -1457,8 +1457,8 @@
 		"family": "Beast",
 		"synthesis": [["Hawk Man", "Chimaera"]]
 	},
-	"Great Sabercat": {
-		"name": "Great Sabercat",
+	"Great Sabrecat": {
+		"name": "Great Sabrecat",
 		"rank": "D",
 		"family": "Beast",
 		"synthesis": [["Great Sabrecub", "Green Dragon"]]
@@ -1583,7 +1583,7 @@
 		"family": "Beast",
 		"synthesis": [
 			["Beast Family", "Demon Family(One parent must be Rank B)"],
-			["Great Sabercat", "Great Sabercat", "Dark Sabrecub", "Dark Hare"]
+			["Great Sabrecat", "Great Sabrecat", "Dark Sabrecub", "Dark Hare"]
 		]
 	},
 	"Mogus": {

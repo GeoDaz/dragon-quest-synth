@@ -2,11 +2,10 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 interface AnchorLinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
-	href?: string;
 	hash: string;
 	children: React.ReactNode;
 }
-const AnchorLink = ({ href = '', hash, children, ...props }: AnchorLinkProps) => {
+const AnchorLink = ({ hash, children, ...props }: AnchorLinkProps) => {
 	const router = useRouter();
 
 	const onClick = (e: any) => {
@@ -16,7 +15,7 @@ const AnchorLink = ({ href = '', hash, children, ...props }: AnchorLinkProps) =>
 			.replace(
 				// or push or whatever you want
 				{
-					pathname: href,
+					pathname: window.location.pathname,
 					hash,
 					query: window.location.search,
 				},
@@ -34,7 +33,7 @@ const AnchorLink = ({ href = '', hash, children, ...props }: AnchorLinkProps) =>
 	};
 
 	return (
-		<Link href={`${href}#${hash}`} onClick={onClick} {...props}>
+		<Link href={`#${hash}`} onClick={onClick} {...props}>
 			{children}
 		</Link>
 	);

@@ -242,6 +242,10 @@ input.form-control {
   --bs-spinner-border-width: 0.5em;
 }
 
+a .spinner-grow {
+  color: var(--bs-body-color);
+}
+
 /* App */
 
 .app {

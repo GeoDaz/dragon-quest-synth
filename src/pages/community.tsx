@@ -1,21 +1,14 @@
 import { GetStaticProps } from 'next';
-import { Monster as MonsterInterface } from '@/types/Monster';
+import { Families, Monster as MonsterInterface } from '@/types/Monster';
 import PageLines from '.';
+import { makeMonsters, reverseSynth } from '@/functions/transformer/synthesis';
 
 export const getStaticProps: GetStaticProps = async () => {
 	try {
-		const families: {
-			[key: string]: { [key: string]: MonsterInterface[] };
-		} = require('../json/Families.json');
+		const families: Families = require('../json/Families.json');
 
-		const monsters: { [key: string]: MonsterInterface } = {};
-		Object.values(families).forEach(ranks => {
-			Object.values(ranks).forEach(innermonsters => {
-				innermonsters.forEach(monster => {
-					monsters[monster.name] = monster;
-				});
-			});
-		});
+		const monsters = makeMonsters(families);
+		reverseSynth(monsters);
 
 		const images = require('../json/monstersImages.json');
 		return { props: { monsters, families, images, dqm: false } };

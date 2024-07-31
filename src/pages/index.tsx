@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { GetStaticProps } from 'next';
-import { Monster as MonsterInterface } from '@/types/Monster';
+import { Families, Monster as MonsterInterface, Monsters } from '@/types/Monster';
 import Layout from '@/components/Layout';
 import Monster from '@/components/Monster/Monster';
 import Family from '@/components/Monster/Family';
@@ -10,11 +10,14 @@ import { familiesColors } from '@/consts/colors';
 import { useRouter } from 'next/router';
 import { FormCheck } from 'react-bootstrap';
 import LoadableImage from '@/components/LoadableImage';
+import { makeMonsters, reverseSynth } from '@/functions/transformer/synthesis';
+import { StringObject } from '@/types/Ui';
+import useTranslate from '@/hooks/useTranslate';
 
 interface Props {
-	monsters: { [key: string]: MonsterInterface };
-	families: { [key: string]: { [key: string]: MonsterInterface[] } };
-	images: { [key: string]: string };
+	monsters: Monsters;
+	families: Families;
+	images: StringObject;
 	dqm: boolean;
 }
 const PageLines: React.FC<Props> = ({
@@ -24,13 +27,13 @@ const PageLines: React.FC<Props> = ({
 	dqm = true,
 }) => {
 	const router = useRouter();
+	const { isFr, translateUI } = useTranslate();
 	const [activeMonster, setActiveMonster] = useState();
-	const root = dqm ? '/' : '/community';
 
 	return (
 		<Layout
 			noGoBack
-			title="Synthesis"
+			title={translateUI('Synthesis')}
 			metadescription="The aim of this site is to present dragon quest synthesis from all games."
 		>
 			<div className="mb-5 d-flex align-items-center">
@@ -64,7 +67,8 @@ const PageLines: React.FC<Props> = ({
 										}}
 										id={family}
 									>
-										<Family name={family} big /> &nbsp; {family}
+										<Family name={family} big /> &nbsp;{' '}
+										{translateUI(family)}
 									</h2>
 									{Object.entries(ranks).map(([rank, ranking]) => (
 										<div
@@ -88,7 +92,7 @@ const PageLines: React.FC<Props> = ({
 							))}
 						</div>
 					) : (
-						<p>No Synthesis found.</p>
+						<p>{isFr ? 'Aucune synthèse trouvée' : 'No synthesis found'}.</p>
 					)}
 				</ImagesContext.Provider>
 			</MonstersContext.Provider>
@@ -98,18 +102,10 @@ const PageLines: React.FC<Props> = ({
 
 export const getStaticProps: GetStaticProps = async () => {
 	try {
-		const families: {
-			[key: string]: { [key: string]: MonsterInterface[] };
-		} = require('../json/DQM3-Families.json');
+		const families: Families = require('../json/DQM3-Families.json');
 
-		const monsters: { [key: string]: MonsterInterface } = {};
-		Object.values(families).forEach(ranks => {
-			Object.values(ranks).forEach(innermonsters => {
-				innermonsters.forEach(monster => {
-					monsters[monster.name] = monster;
-				});
-			});
-		});
+		const monsters = makeMonsters(families);
+		reverseSynth(monsters);
 
 		const images = require('../json/monstersImages.json');
 		return { props: { monsters, families, images, dqm: true } };

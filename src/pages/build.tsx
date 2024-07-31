@@ -17,9 +17,10 @@ import Line, { LineColumn } from '@/types/Line';
 import UploadCode from '@/components/UploadCode';
 import transformLine, { areCollapsablePoints } from '@/functions/transformer/line';
 import { ImagesContext } from '@/context/images';
+import { StringObject } from '@/types/Ui';
 
 interface Props {
-	images: { [key: string]: string };
+	images: StringObject;
 	searchList: string[];
 }
 const PageBuild: React.FC<Props> = ({ images = {}, searchList = [] }) => {

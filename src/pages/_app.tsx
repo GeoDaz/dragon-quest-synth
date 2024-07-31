@@ -8,14 +8,18 @@ import ErrorBoundary from '@/components/ErrorBoundary';
 import { useEffect, useState } from 'react';
 import Router from 'next/router';
 import { Spinner } from 'react-bootstrap';
+import { LanguageContext } from '@/context/language';
+import { processLanguage } from '@/functions';
 
 export default function App({ Component, pageProps }: AppProps) {
-	const [loading, setLoading] = useState(false);
+	const [loading, setLoading] = useState<boolean>(false);
+	const [language, setLanguage] = useState<boolean>(false);
 
 	// loading on page change
 	useEffect(() => {
-		if (process.env.NODE_ENV === 'development') return;
+		setLanguage(processLanguage());
 
+		if (process.env.NODE_ENV === 'development') return;
 		const start = () => setLoading(true);
 		const end = () => setLoading(false);
 		Router.events.on('routeChangeStart', start);
@@ -30,13 +34,15 @@ export default function App({ Component, pageProps }: AppProps) {
 
 	return (
 		<ErrorBoundary>
-			{loading ? (
-				<div className="spinner-wrapper text-center mt-5">
-					<Spinner animation="border" className="xl" variant="primary" />
-				</div>
-			) : (
-				<Component {...pageProps} />
-			)}
+			<LanguageContext.Provider value={language}>
+				{loading ? (
+					<div className="spinner-wrapper text-center mt-5">
+						<Spinner animation="border" className="xl" variant="primary" />
+					</div>
+				) : (
+					<Component {...pageProps} />
+				)}
+			</LanguageContext.Provider>
 			<Analytics />
 		</ErrorBoundary>
 	);

@@ -1,3 +1,5 @@
+import { StringObject } from "@/types/Ui";
+
 export const ranks: string[] = ['X', 'S', 'A', 'B', 'C', 'D', 'E', 'F', 'G'];
 export const families: string[] = [
 	'Slime',
@@ -9,7 +11,7 @@ export const families: string[] = [
 	'Undead',
 	'???',
 ];
-export const familiesIcons: { [key: string]: string } = {
+export const familiesIcons: StringObject = {
 	Slime: 'Slime.png',
 	Beast: 'Beast.png',
 	Dragon: 'Dragon.png',
