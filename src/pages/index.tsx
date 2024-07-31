@@ -63,12 +63,12 @@ const PageLines: React.FC<Props> = ({
 								<div key={family} className="mb-4">
 									<h2
 										className={makeClassName(
-											'rounded transition',
+											'family-title',
 											hash == family && 'active-outline'
 										)}
 										style={{
 											backgroundColor: familiesColors[family],
-											boxShadow: 'inset 0 0 0 3px #aeac69',
+											// boxShadow: 'inset 0 0 0 3px #aeac69',
 										}}
 										id={family}
 									>

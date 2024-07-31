@@ -69,7 +69,7 @@ const MemoizedInnerMonster = memo(function InnerMonster({
 							<div
 								key={i}
 								className={makeClassName(
-									'sub-monsters d-flex gap-2',
+									'sub-monsters d-flex gap-2 flex-wrap',
 									i > 0 && 'mt-2'
 								)}
 							>
@@ -116,7 +116,7 @@ const MemoizedInnerMonster = memo(function InnerMonster({
 						<div className="fw-bold mt-2 mb-2">
 							{translateUI('Synthesize into')}&nbsp;:
 						</div>
-						<div className="sub-monsters d-flex gap-2">
+						<div className="sub-monsters d-flex gap-2 flex-wrap">
 							{monster.revSynthesis?.map((name: string, i: number) => (
 								<AnchorLink
 									key={i}

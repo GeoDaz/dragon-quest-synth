@@ -160,6 +160,14 @@ a:active:not(.btn) {
   transition: all .3s;
 }
 
+.rounded-left {
+  border-radius: var(--bs-border-radius) 0 0 var(--bs-border-radius);
+}
+
+.rounded-right {
+  border-radius: 0 var(--bs-border-radius) var(--bs-border-radius) 0;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -1118,6 +1126,19 @@ h2 {
   color: white;
   background-color: var(--bs-primary);
   border-radius: var(--bs-border-radius) 0 var(--bs-border-radius) 0;
+}
+
+.family-title {
+  border-radius: var(--bs-border-radius);
+  display: flex;
+  align-items: center;
+  transition: all .3s;
+}
+
+.family-title img.family {
+  box-sizing: content-box;
+  border-radius: var(--bs-border-radius) 0 0 var(--bs-border-radius);
+  border: 3px solid rgba(0, 0, 0, 0.3);
 }
 
 /* Media */

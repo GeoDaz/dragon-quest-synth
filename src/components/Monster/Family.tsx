@@ -3,15 +3,18 @@ import Image from 'next/image';
 import AnchorLink from '../AnchorLink';
 import useTranslate from '@/hooks/useTranslate';
 import { memo } from 'react';
+import { makeClassName } from '@/functions';
 
 const Family = memo(function Family({
 	name,
 	big = false,
 	activable = false,
+	className,
 }: {
 	name: string;
 	big?: boolean;
 	activable?: boolean;
+	className?: string;
 }) {
 	const { translateUI } = useTranslate();
 	const icon = familiesIcons[name];
@@ -19,12 +22,12 @@ const Family = memo(function Family({
 	const title = translateUI(name);
 	const img = (
 		<Image
-			className="family"
+			className={makeClassName('family', className)}
 			src={`/images/family/${icon}`}
 			alt={title}
 			title={title}
-			height={big ? 45 : 30}
-			width={big ? 45 : 30}
+			height={big ? 47 : 30}
+			width={big ? 48 : 30}
 		/>
 	);
 	if (activable) {
