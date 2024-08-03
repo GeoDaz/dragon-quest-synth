@@ -1,4 +1,4 @@
-import { StringObject } from "@/types/Ui";
+import { StringObject } from '@/types/Ui';
 
 export const ranks: string[] = ['X', 'S', 'A', 'B', 'C', 'D', 'E', 'F', 'G'];
 export const families: string[] = [
@@ -15,14 +15,17 @@ export const familiesIcons: StringObject = {
 	Slime: 'Slime.png',
 	Beast: 'Beast.png',
 	Dragon: 'Dragon.png',
-	// Reptile: 'Dragon.png',
-	// Dinosaur: 'Dragon.png',
 	Nature: 'Nature.png',
 	// Plant: 'Nature.png',
 	Material: 'Material.png',
 	Demon: 'Demon.png',
 	Undead: 'Undead.png',
 	'???': 'Unknown.png',
+	Aquatic: 'Aquatic.png',
+	Reptile: 'Reptile.png',
+	Dinosaur: 'Dinosaur.png',
+	Food: 'Food.png',
+	Dark: 'Dark.png',
 };
 // famillies can be in subfamilies
 export const subfamilies: string[] = [

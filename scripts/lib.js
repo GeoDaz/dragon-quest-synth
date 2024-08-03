@@ -45,4 +45,16 @@ function writeJson(filePath, body) {
 	});
 }
 
-module.exports = { wait, writeJson, fetchHtml, readHtml, readJson };
+function capitalize(string, exceptions) {
+	if (!string) return string;
+
+	return string.toLowerCase().replace(/(\b[a-zA-ZÀ-ÿÉé]+)/g, string => {
+		if (exceptions && exceptions.includes(string)) {
+			return string;
+		}
+		if (string.length === 1) return string.toUpperCase();
+		return string[0].toUpperCase() + string.slice(1);
+	});
+}
+
+module.exports = { wait, capitalize, writeJson, readJson, fetchHtml, readHtml };

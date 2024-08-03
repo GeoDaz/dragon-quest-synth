@@ -1,0 +1,542 @@
+{
+	"GLUANT À CRINIÈRE": {
+		"synthesis": ["Slime Family", "Beast Family(One parent must be Rank F)"]
+	},
+	"GLUANTE": {
+		"synthesis": ["Slime Family", "Demon Family(One parent must be Rank F)"]
+	},
+	"GLUANT BULBE": {
+		"synthesis": ["Slime Family", "Nature Family(One parent must be Rank F)"]
+	},
+	"GLUANCORNU": {
+		"synthesis": ["Slime Family", "Dragon Family(One parent must be Rank F)"]
+	},
+	"GLUANGÉLIQUE": {
+		"synthesis": ["Slime Family", "Nature Family(One parent must be Rank E)"]
+	},
+	"SLURPIERRE": {
+		"synthesis": ["Slime Family", "Material Family(One parent must be Rank E)"]
+	},
+	"GLUANT PIQUANT": {
+		"synthesis": ["Slime Family", "Beast Family(One parent must be Rank E)"]
+	},
+	"VAMPIGLUANT": {
+		"synthesis": ["Slime Family", "Demon Family(One parent must be Rank E)"]
+	},
+	"GLUANT MOISI": {
+		"synthesis": ["Slime Family", "Undead Family(One parent must be Rank E)"]
+	},
+	"GIGLUANT": {
+		"synthesis": ["Slime Family", "Dragon Family(One parent must be Rank E)"]
+	},
+	"GLUANT DE CRIN": {
+		"synthesis": ["Slime Family", "Beast Family(One parent must be Rank D)"]
+	},
+	"GLUANDRAGON": {
+		"synthesis": ["Slime Family", "Dragon Family(One parent must be Rank D)"]
+	},
+	"GLUANTHRACITE": {
+		"synthesis": ["Slime Family", "Nature Family(One parent must be Rank D)"]
+	},
+	"ROI VAMPIGLUANT": {
+		"synthesis": ["Slime Family", "Demon Family(One parent must be Rank D)"]
+	},
+	"CHOCOBÉLISQUE": {
+		"synthesis": ["Slime Family", "Material Family(One parent must be Rank D)"]
+	},
+	"ROI GLUANBULLE": {
+		"synthesis": ["Slime Family", "Undead Family(One parent must be Rank D)"]
+	},
+	"SLURPITRE": {
+		"synthesis": ["Slime Family", "Undead Family(One parent must be Rank C)"]
+	},
+	"GLUANT DE L'OMBRE": {
+		"synthesis": ["Slime Family", "Dragon Family(One parent must be Rank C)"]
+	},
+	"SLURPILLON JAUNE": {
+		"synthesis": ["Slime Family", "Nature Family(One parent must be Rank C)"]
+	},
+	"CYBERGLUANT": {
+		"synthesis": ["Slime Family", "Material Family(One parent must be Rank C)"]
+	},
+	"GLUANTE MOUCHETÉE": {
+		"synthesis": ["Slime Family", "Beast Family(One parent must be Rank C)"]
+	},
+	"MONTE-GLUANT DE MÉTAL": {
+		"synthesis": ["Slime Family", "Demon Family(One parent must be Rank C)"]
+	},
+	"ROI SLURPITRE": {
+		"synthesis": ["Slime Family", "Undead Family(One parent must be Rank B)"]
+	},
+	"MONTE-GLUANCIEN": {
+		"synthesis": ["Slime Family", "Beast Family(One parent must be Rank B)"]
+	},
+	"ROI GUÉRIGLUANT": {
+		"synthesis": ["Slime Family", "Nature Family(One parent must be Rank B)"]
+	},
+	"ROI GLUANT DE POIX": {
+		"synthesis": ["Slime Family", "Demon Family(One parent must be Rank B)"]
+	},
+	"GLUOCUBE": {
+		"synthesis": ["Slime Family", "Material Family(One parent must be Rank B)"]
+	},
+	"VENINCONDA": {
+		"synthesis": ["Dragon Family", "Undead Family(One parent must be Rank F)"]
+	},
+	"MUSTANG DE MER": {
+		"synthesis": ["Dragon Family", "Nature Family(One parent must be Rank F)"]
+	},
+	"ZENZARD": {
+		"synthesis": ["Dragon Family", "Slime Family(One parent must be Rank F)"]
+	},
+	"PTÉRACORNE": {
+		"synthesis": ["Dragon Family", "Demon Family(One parent must be Rank F)"]
+	},
+	"SAINT-BERNEUR": {
+		"synthesis": ["Dragon Family", "Beast Family(One parent must be Rank F)"]
+	},
+	"TORTUGON": {
+		"synthesis": ["Dragon Family", "Slime Family(One parent must be Rank E)"]
+	},
+	"SURINOSAURE": {
+		"synthesis": ["Dragon Family", "Material Family(One parent must be Rank E)"]
+	},
+	"TENSIOCÉRATOPS": {
+		"synthesis": ["Dragon Family", "Beast Family(One parent must be Rank E)"]
+	},
+	"MARMITOSAURE": {
+		"synthesis": ["Dragon Family", "Undead Family(One parent must be Rank E)"]
+	},
+	"SYLVOSAURE": {
+		"synthesis": ["Dragon Family", "Nature Family(One parent must be Rank E)"]
+	},
+	"CAPORAL MANDRAGOR": {
+		"synthesis": ["Dragon Family", "Demon Family(One parent must be Rank E)"]
+	},
+	"ESKINTOSAURE": {
+		"synthesis": ["Dragon Family", "Demon Family(One parent must be Rank D)"]
+	},
+	"FRIGORNOSAURE": {
+		"synthesis": ["Dragon Family", "Nature Family(One parent must be Rank D)"]
+	},
+	"DESTRIER DE L'ESTRAN": {
+		"synthesis": ["Dragon Family", "Slime Family(One parent must be Rank D)"]
+	},
+	"ABYSSAURE": {
+		"synthesis": ["Dragon Family", "Undead Family(One parent must be Rank D)"]
+	},
+	"DRAGON DE MÉTAL": {
+		"synthesis": ["Dragon Family", "Material Family(One parent must be Rank D)"]
+	},
+	"TOUTOUÏVRE": {
+		"synthesis": ["Dragon Family", "Undead Family(One parent must be Rank C)"]
+	},
+	"TYRANNOCÉRATOPS": {
+		"synthesis": ["Dragon Family", "Material Family(One parent must be Rank C)"]
+	},
+	"GAZOSAURE": {
+		"synthesis": ["Dragon Family", "Slime Family(One parent must be Rank C)"]
+	},
+	"COBONGA": {
+		"synthesis": ["Dragon Family", "Beast Family(One parent must be Rank C)"]
+	},
+	"ALIGATUEUR": {
+		"synthesis": ["Dragon Family", "Nature Family(One parent must be Rank C)"]
+	},
+	"DRACULARD": {
+		"synthesis": ["Dragon Family", "Slime Family(One parent must be Rank B)"]
+	},
+	"GÉNÉRAL MANDRAGOR": {
+		"synthesis": ["Dragon Family", "Nature Family(One parent must be Rank B)"]
+	},
+	"DRAGONIER DE L'ENFER": {
+		"synthesis": ["Dragon Family", "Undead Family(One parent must be Rank B)"]
+	},
+	"HACHOSAURE": {
+		"synthesis": ["Dragon Family", "Beast Family(One parent must be Rank B)"]
+	},
+	"DRAGON NOIR": {
+		"synthesis": ["Dragon Family", "Demon Family(One parent must be Rank B)"]
+	},
+	"TORTUFÉROCE": {
+		"synthesis": ["Dragon Family", "Material Family(One parent must be Rank B)"]
+	},
+	"DÉSPIRADO": {
+		"synthesis": ["Nature Family", "Undead Family(One parent must be Rank F)"]
+	},
+	"GALOPINGOUIN": {
+		"synthesis": ["Nature Family", "Dragon Family(One parent must be Rank F)"]
+	},
+	"CHÊNAPAN": {
+		"synthesis": ["Nature Family", "Slime Family(One parent must be Rank F)"]
+	},
+	"SACAVER": {
+		"synthesis": ["Nature Family", "Beast Family(One parent must be Rank F)"]
+	},
+	"CHIMÈRE": {
+		"synthesis": ["Nature Family", "Dragon Family(One parent must be Rank E)"]
+	},
+	"DARDTAGNAN": {
+		"synthesis": ["Nature Family", "Undead Family(One parent must be Rank E)"]
+	},
+	"POULPE À CALOTTE": {
+		"synthesis": ["Nature Family", "Demon Family(One parent must be Rank E)"]
+	},
+	"ALTÉRAPACE": {
+		"synthesis": ["Nature Family", "Beast Family(One parent must be Rank E)"]
+	},
+	"BANDIT MANCHOT": {
+		"synthesis": ["Nature Family", "Demon Family(One parent must be Rank D)"]
+	},
+	"GAIZARD": {
+		"synthesis": ["Nature Family", "Dragon Family(One parent must be Rank D)"]
+	},
+	"MONSTROPOIRO": {
+		"synthesis": ["Nature Family", "Slime Family(One parent must be Rank D)"]
+	},
+	"GAMBASTONNEUR": {
+		"synthesis": ["Nature Family", "Material Family(One parent must be Rank D)"]
+	},
+	"MISAMORSE": {
+		"synthesis": ["Nature Family", "Beast Family(One parent must be Rank D)"]
+	},
+	"MORCHIDÉE": {
+		"synthesis": ["Nature Family", "Undead Family(One parent must be Rank D)"]
+	},
+	"CHARBOMBYX": {
+		"synthesis": ["Nature Family", "Dragon Family(One parent must be Rank C)"]
+	},
+	"ÉTOUPET": {
+		"synthesis": ["Nature Family", "Slime Family(One parent must be Rank C)"]
+	},
+	"SCORPION BLINDÉ": {
+		"synthesis": ["Nature Family", "Material Family(One parent must be Rank C)"]
+	},
+	"CRABJECT": {
+		"synthesis": ["Nature Family", "Undead Family(One parent must be Rank C)"]
+	},
+	"CACTAK": {
+		"synthesis": ["Nature Family", "Demon Family(One parent must be Rank C)"]
+	},
+	"ERGO-GO-GO": {
+		"synthesis": ["Nature Family", "Beast Family(One parent must be Rank C)"]
+	},
+	"RAPACEPASSE": {
+		"synthesis": ["Nature Family", "Undead Family(One parent must be Rank B)"]
+	},
+	"CHIMÈRE COSMIQUE": {
+		"synthesis": ["Nature Family", "Demon Family(One parent must be Rank B)"]
+	},
+	"GLOBA": {
+		"synthesis": ["Nature Family", "Slime Family(One parent must be Rank B)"]
+	},
+	"AIGLEFEU": {
+		"synthesis": ["Nature Family", "Dragon Family(One parent must be Rank B)"]
+	},
+	"PTAURODACTYLE": {
+		"synthesis": ["Nature Family", "Beast Family(One parent must be Rank B)"]
+	},
+	"SERRIAL-KILLER": {
+		"synthesis": ["Nature Family", "Material Family(One parent must be Rank B)"]
+	},
+	"ORQUE": {
+		"synthesis": ["Beast Family", "Nature Family(One parent must be Rank F)"]
+	},
+	"CHAT VAMPIRE": {
+		"synthesis": ["Beast Family", "Dragon Family(One parent must be Rank F)"]
+	},
+	"KANGOUFFRE": {
+		"synthesis": ["Beast Family", "Undead Family(One parent must be Rank F)"]
+	},
+	"GERFAUT": {
+		"synthesis": ["Beast Family", "Demon Family(One parent must be Rank F)"]
+	},
+	"BLAIREAU BONGO": {
+		"synthesis": ["Beast Family", "Slime Family(One parent must be Rank F)"]
+	},
+	"CARNIGORE": {
+		"synthesis": ["Beast Family", "Dragon Family(One parent must be Rank E)"]
+	},
+	"SMILODON DE LAIT NOIR": {
+		"synthesis": ["Beast Family", "Slime Family(One parent must be Rank E)"]
+	},
+	"ORNITRO": {
+		"synthesis": ["Beast Family", "Nature Family(One parent must be Rank E)"]
+	},
+	"MIAOUGICIEN": {
+		"synthesis": ["Beast Family", "Demon Family(One parent must be Rank E)"]
+	},
+	"MARTEBRUN": {
+		"synthesis": ["Beast Family", "Material Family(One parent must be Rank E)"]
+	},
+	"CHAGRIFFEUR": {
+		"synthesis": ["Beast Family", "Undead Family(One parent must be Rank E)"]
+	},
+	"GARGOUILLE": {
+		"synthesis": ["Beast Family", "Demon Family(One parent must be Rank D)"]
+	},
+	"SMILODON": {
+		"synthesis": ["Beast Family", "Dragon Family(One parent must be Rank D)"]
+	},
+	"YÉTI DES SABLES": {
+		"synthesis": ["Beast Family", "Undead Family(One parent must be Rank D)"]
+	},
+	"TIGRRR": {
+		"synthesis": ["Beast Family", "Slime Family(One parent must be Rank D)"]
+	},
+	"TRUBLION": {
+		"synthesis": ["Beast Family", "Nature Family(One parent must be Rank C)"]
+	},
+	"TAUPE-TOC": {
+		"synthesis": ["Beast Family", "Material Family(One parent must be Rank C)"]
+	},
+	"MENO MACHO": {
+		"synthesis": ["Beast Family", "Demon Family(One parent must be Rank C)"]
+	},
+	"LIÈVRECORNE NOIR": {
+		"synthesis": ["Beast Family", "Slime Family(One parent must be Rank C)"]
+	},
+	"DRAGUAR": {
+		"synthesis": ["Beast Family", "Nature Family(One parent must be Rank B)"]
+	},
+	"SMILODON NOIR": {
+		"synthesis": ["Beast Family", "Demon Family(One parent must be Rank B)"]
+	},
+	"CHACROMANCIEN": {
+		"synthesis": ["Beast Family", "Slime Family(One parent must be Rank B)"]
+	},
+	"URSA MÉGA": {
+		"synthesis": ["Beast Family", "Undead Family(One parent must be Rank B)"]
+	},
+	"SANGLIOGRE": {
+		"synthesis": ["Beast Family", "Material Family(One parent must be Rank B)"]
+	},
+	"TEMPÉTALON": {
+		"synthesis": ["Beast Family", "Dragon Family(One parent must be Rank B)"]
+	},
+	"SOUCOUPES AFFOLANTES": {
+		"synthesis": ["Material Family", "Undead Family(One parent must be Rank F)"]
+	},
+	"MÉCAPIAF": {
+		"synthesis": ["Material Family", "Nature Family(One parent must be Rank F)"]
+	},
+	"FANGEUX": {
+		"synthesis": ["Material Family", "Slime Family(One parent must be Rank F)"]
+	},
+	"SACATRÉSOR": {
+		"synthesis": ["Material Family", "Slime Family(One parent must be Rank E)"]
+	},
+	"COUCOU MÉCANIQUE": {
+		"synthesis": ["Material Family", "Nature Family(One parent must be Rank E)"]
+	},
+	"BLINDOGRE": {
+		"synthesis": ["Material Family", "Beast Family(One parent must be Rank E)"]
+	},
+	"ABRACADABRAQUE": {
+		"synthesis": ["Material Family", "Beast Family(One parent must be Rank D)"]
+	},
+	"PARALYSABRE": {
+		"synthesis": ["Material Family", "Demon Family(One parent must be Rank D)"]
+	},
+	"CRYOFOLIA": {
+		"synthesis": ["Material Family", "Slime Family(One parent must be Rank D)"]
+	},
+	"BRÛLEGEL": {
+		"synthesis": ["Material Family", "Undead Family(One parent must be Rank D)"]
+	},
+	"BRÛLEFLAMME": {
+		"synthesis": ["Material Family", "Dragon Family(One parent must be Rank D)"]
+	},
+	"SOUCOUPES VOLANTES": {
+		"synthesis": ["Material Family", "Demon Family(One parent must be Rank C)"]
+	},
+	"TIZON": {
+		"synthesis": ["Material Family", "Nature Family(One parent must be Rank C)"]
+	},
+	"BIG BONGO": {
+		"synthesis": ["Material Family", "Dragon Family(One parent must be Rank C)"]
+	},
+	"VULCANOBOMBE": {
+		"synthesis": ["Material Family", "Beast Family(One parent must be Rank C)"]
+	},
+	"OBSTRUCTUEUR": {
+		"synthesis": ["Material Family", "Slime Family(One parent must be Rank C)"]
+	},
+	"MÉCANOEUF DUR": {
+		"synthesis": ["Material Family", "Slime Family(One parent must be Rank B)"]
+	},
+	"ALARMURE": {
+		"synthesis": ["Material Family", "Demon Family(One parent must be Rank B)"]
+	},
+	"VISCAIRE": {
+		"synthesis": ["Material Family", "Undead Family(One parent must be Rank B)"]
+	},
+	"YÉPIRE": {
+		"synthesis": ["Material Family", "Nature Family(One parent must be Rank B)"]
+	},
+	"PUISSANFOND": {
+		"synthesis": ["Material Family", "Dragon Family(One parent must be Rank B)"]
+	},
+	"CHIENFERNAL ENRAGÉ": {
+		"synthesis": ["Material Family", "Beast Family(One parent must be Rank B)"]
+	},
+	"DÉMONIUS": {
+		"synthesis": ["Demon Family", "Dragon Family(One parent must be Rank F)"]
+	},
+	"DIABLE DANSANT": {
+		"synthesis": ["Demon Family", "Undead Family(One parent must be Rank F)"]
+	},
+	"DIABLOTIN": {
+		"synthesis": ["Demon Family", "Slime Family(One parent must be Rank F)"]
+	},
+	"CANNONIAIS": {
+		"synthesis": ["Demon Family", "Material Family(One parent must be Rank F)"]
+	},
+	"MAGIMOL": {
+		"synthesis": ["Demon Family", "Undead Family(One parent must be Rank E)"]
+	},
+	"DÉHANCHARD": {
+		"synthesis": ["Demon Family", "Material Family(One parent must be Rank E)"]
+	},
+	"DARDEUR": {
+		"synthesis": ["Demon Family", "Beast Family(One parent must be Rank E)"]
+	},
+	"FÉE LÉE": {
+		"synthesis": ["Demon Family", "Nature Family(One parent must be Rank E)"]
+	},
+	"BYLETH": {
+		"synthesis": ["Demon Family", "Dragon Family(One parent must be Rank E)"]
+	},
+	"VAMPIVORACE": {
+		"synthesis": ["Demon Family", "Slime Family(One parent must be Rank E)"]
+	},
+	"HYPOTHERMIOX": {
+		"synthesis": ["Demon Family", "Undead Family(One parent must be Rank D)"]
+	},
+	"SILVAPITHÈQUE": {
+		"synthesis": ["Demon Family", "Beast Family(One parent must be Rank D)"]
+	},
+	"LÈCHEBAVE": {
+		"synthesis": ["Demon Family", "Nature Family(One parent must be Rank D)"]
+	},
+	"MINI DéMON": {
+		"synthesis": ["Demon Family", "Slime Family(One parent must be Rank D)"]
+	},
+	"CUMULOGÉNIE": {
+		"synthesis": ["Demon Family", "Dragon Family(One parent must be Rank D)"]
+	},
+	"GRAND FAUCHEUR": {
+		"synthesis": ["Demon Family", "Undead Family(One parent must be Rank C)"]
+	},
+	"TROUBLOSAURE": {
+		"synthesis": ["Demon Family", "Dragon Family(One parent must be Rank C)"]
+	},
+	"VUDOEIL": {
+		"synthesis": ["Demon Family", "Slime Family(One parent must be Rank C)"]
+	},
+	"FLÉOGRE": {
+		"synthesis": ["Demon Family", "Material Family(One parent must be Rank C)"]
+	},
+	"VAMPIVOLLE": {
+		"synthesis": ["Demon Family", "Nature Family(One parent must be Rank C)"]
+	},
+	"ARCHIDéMON": {
+		"synthesis": ["Demon Family", "Dragon Family(One parent must be Rank B)"]
+	},
+	"MANIPULATUEUR": {
+		"synthesis": ["Demon Family", "Slime Family(One parent must be Rank B)"]
+	},
+	"GÉANT": {
+		"synthesis": ["Demon Family", "Nature Family(One parent must be Rank B)"]
+	},
+	"GROBOUFFON": {
+		"synthesis": ["Demon Family", "Undead Family(One parent must be Rank B)"]
+	},
+	"CHIRON": {
+		"synthesis": ["Demon Family", "Material Family(One parent must be Rank B)"]
+	},
+	"GRRRGOUILLE": {
+		"synthesis": ["Demon Family", "Beast Family(One parent must be Rank B)"]
+	},
+	"MAUVAISE ÉTOILE": {
+		"synthesis": ["Undead Family", "Slime Family(One parent must be Rank F)"]
+	},
+	"MORT-VIVANT": {
+		"synthesis": ["Undead Family", "Beast Family(One parent must be Rank F)"]
+	},
+	"CAVALE-CRÂNE": {
+		"synthesis": ["Undead Family", "Dragon Family(One parent must be Rank F)"]
+	},
+	"EMBÛCHEUR": {
+		"synthesis": ["Undead Family", "Nature Family(One parent must be Rank F)"]
+	},
+	"MAIN DE BOUE": {
+		"synthesis": ["Undead Family", "Material Family(One parent must be Rank F)"]
+	},
+	"LIGOTERREUR": {
+		"synthesis": ["Undead Family", "Demon Family(One parent must be Rank F)"]
+	},
+	"SOLDAT SQUELETTE": {
+		"synthesis": ["Undead Family", "Demon Family(One parent must be Rank E)"]
+	},
+	"CABOSS": {
+		"synthesis": ["Undead Family", "Slime Family(One parent must be Rank E)"]
+	},
+	"CHAMPITOX": {
+		"synthesis": ["Undead Family", "Nature Family(One parent must be Rank E)"]
+	},
+	"POUPIÈGE": {
+		"synthesis": ["Undead Family", "Material Family(One parent must be Rank E)"]
+	},
+	"TÉNORI": {
+		"synthesis": ["Undead Family", "Nature Family(One parent must be Rank D)"]
+	},
+	"MAIN SANGLANTE": {
+		"synthesis": ["Undead Family", "Material Family(One parent must be Rank D)"]
+	},
+	"CAVALIER FANTÔME": {
+		"synthesis": ["Undead Family", "Beast Family(One parent must be Rank D)"]
+	},
+	"TUE-TÊTE": {
+		"synthesis": ["Undead Family", "Dragon Family(One parent must be Rank D)"]
+	},
+	"ESPRIT TAPEUR": {
+		"synthesis": ["Undead Family", "Slime Family(One parent must be Rank D)"]
+	},
+	"ARBOMINATION": {
+		"synthesis": ["Undead Family", "Nature Family(One parent must be Rank C)"]
+	},
+	"BERSEKERLETTE": {
+		"synthesis": ["Undead Family", "Demon Family(One parent must be Rank C)"]
+	},
+	"ÉPÉISTE FANTÔME": {
+		"synthesis": ["Undead Family", "Material Family(One parent must be Rank C)"]
+	},
+	"DÉCAPITÊTE": {
+		"synthesis": ["Undead Family", "Dragon Family(One parent must be Rank C)"]
+	},
+	"SQUELMÉDUSE": {
+		"synthesis": ["Undead Family", "Slime Family(One parent must be Rank C)"]
+	},
+	"VERT FOLLET": {
+		"synthesis": ["Undead Family", "Beast Family(One parent must be Rank C)"]
+	},
+	"BARON D'OS": {
+		"synthesis": ["Undead Family", "Beast Family(One parent must be Rank B)"]
+	},
+	"SMÉAGOULE": {
+		"synthesis": ["Undead Family", "Slime Family(One parent must be Rank B)"]
+	},
+	"DÉCAPITEUR": {
+		"synthesis": ["Undead Family", "Material Family(One parent must be Rank B)"]
+	},
+	"DÉCOMPOSAURE": {
+		"synthesis": ["Undead Family", "Dragon Family(One parent must be Rank B)"]
+	},
+	"REJETON DE L'ENFER": {
+		"synthesis": ["Undead Family", "Nature Family(One parent must be Rank B)"]
+	},
+	"SHIVATTAK": {
+		"synthesis": ["Undead Family", "Demon Family(One parent must be Rank B)"]
+	}
+}
