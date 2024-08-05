@@ -80,7 +80,7 @@ const PageLines: React.FC<Props> = ({
 											key={rank}
 											className="flex flex-col gap-1 mb-4 px-3"
 										>
-											<h3>{rank}</h3>
+											<h3 id={`${family}-${rank}`}>{rank}</h3>
 											<div className="d-flex flex-wrap gap-3">
 												{ranking.map(monster => (
 													<Monster

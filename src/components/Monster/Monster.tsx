@@ -77,9 +77,18 @@ const MemoizedInnerMonster = memo(function InnerMonster({
 									const key = name + '_' + i + '_' + j;
 									const isFamily = name.includes('Family');
 									if (isFamily) {
+										const rank = list
+											.find(n => n.includes('Rank'))
+											?.slice(-1);
 										name = name.replace(' Family', '');
 										return (
-											<Family key={key} name={name} big activable />
+											<Family
+												key={key}
+												name={name}
+												rank={rank}
+												big
+												activable
+											/>
 										);
 									}
 									const isRank = name.includes('Rank');

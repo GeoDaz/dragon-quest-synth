@@ -10,11 +10,13 @@ const Family = memo(function Family({
 	big = false,
 	activable = false,
 	className,
+	rank,
 }: {
 	name: string;
 	big?: boolean;
 	activable?: boolean;
 	className?: string;
+	rank?: string;
 }) {
 	const { translateUI } = useTranslate();
 	const icon = familiesIcons[name];
@@ -31,7 +33,7 @@ const Family = memo(function Family({
 		/>
 	);
 	if (activable) {
-		return <AnchorLink hash={name}>{img}</AnchorLink>;
+		return <AnchorLink hash={name + (rank ? `-${rank}` : '')}>{img}</AnchorLink>;
 	}
 	return img;
 });

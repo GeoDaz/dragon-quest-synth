@@ -1107,12 +1107,9 @@ a.dropdown-item.active {
 
 
 /* Monster */
-
-.card {
-  scroll-margin-top: 58px;
-}
-
-h2 {
+.card,
+h2,
+h3 {
   scroll-margin-top: 64px;
 }
 
@@ -1149,6 +1146,10 @@ h2 {
   box-sizing: content-box;
   border-radius: var(--bs-border-radius) 0 0 var(--bs-border-radius);
   border: 3px solid rgba(0, 0, 0, 0.3);
+}
+
+img.family {
+  border-radius: var(--bs-border-radius);
 }
 
 /* Media */
