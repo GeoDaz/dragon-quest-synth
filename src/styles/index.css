@@ -9,7 +9,7 @@
 
 :root {
   color-scheme: dark;
-  scroll-behavior: smooth;
+  scroll-behavior: inherit;
   /* --dl-snd-dark: #141516; */
   --dl-snd-dark: black;
   --dl-box-shadow: 0 0 3px 0 rgb(0, 0, 0, 0.3);
@@ -1104,7 +1104,6 @@ a.dropdown-item.active {
   background-color: var(--bs-gray-800);
   border-color: var(--bs-gray-800);
 }
-
 
 /* Monster */
 .card,

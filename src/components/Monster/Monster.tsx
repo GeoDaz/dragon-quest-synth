@@ -9,15 +9,8 @@ import AnchorLink from '../AnchorLink';
 import { memo } from 'react';
 import useTranslate from '@/hooks/useTranslate';
 
-const Monster = memo(function Monster({
-	monster,
-	hash,
-}: {
-	monster: MonsterInterface;
-	hash?: string;
-}) {
+const Monster = ({ monster, hash }: { monster: MonsterInterface; hash?: string }) => {
 	if (!monster) return null;
-	// console.log(hash, monster.name, hash == monster.name);
 	return (
 		<Card
 			id={monster.name}
@@ -25,12 +18,12 @@ const Monster = memo(function Monster({
 				'monster transition',
 				hash == monster.name && 'active-outline'
 			)}
-			style={{ width: '18rem' }}
+			style={{ minHeight: `${416 / 15}rem`, width: '18rem' }}
 		>
 			<MemoizedInnerMonster monster={monster} />
 		</Card>
 	);
-});
+};
 
 const MemoizedInnerMonster = memo(function InnerMonster({
 	monster,

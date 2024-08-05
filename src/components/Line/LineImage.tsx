@@ -60,25 +60,28 @@ const LineImage = memo(function LineImage({
 					setLoading(false);
 				}}
 				onLoad={e => {
+					setLoadingStyle({ zIndex: loadingStyle.zIndex, opacity: 0 });
 					setTimeout(() => {
 						setLoading(false);
 						setLoadingStyle({ opacity: 0, zIndex: 2 });
 					}, 300);
-					setLoadingStyle({ zIndex: loadingStyle.zIndex, opacity: 0 });
 				}}
-				onLoadingComplete={({ naturalWidth, naturalHeight }) => {
-					if (naturalWidth > naturalHeight) {
-						setRatioHeight(naturalWidth / naturalHeight || 1);
-					} else {
-						setRatioWidth(naturalHeight / naturalWidth || 1);
-					}
-				}}
+				// onLoadingComplete={({ naturalWidth, naturalHeight }) => {
+				// 	if (naturalWidth > naturalHeight) {
+				// 		setRatioHeight(naturalWidth / naturalHeight || 1);
+				// 	} else {
+				// 		setRatioWidth(naturalHeight / naturalWidth || 1);
+				// 	}
+				// }}
 				alt={name}
 				className={makeClassName('line-img rounded', className)}
-				width={width / ratioWidth}
-				height={height / ratioHeight}
+				// width={width / ratioWidth}
+				// height={height / ratioHeight}
+				width={0}
+				height={0}
 				title={title}
-				style={style}
+				// style={style}
+				style={{ width: 'auto', height: 'auto', ...style }}
 			/>
 			{/* <span className="sr-only">{name}</span> */}
 		</>
