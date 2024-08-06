@@ -30,8 +30,8 @@ const LineImage = memo(function LineImage({
 	const image = images[name];
 	const [src, setSrc] = useState(path || image || NOT_FOUND);
 	const [loading, setLoading] = useState(true);
-	const [ratioWidth, setRatioWidth] = useState(1);
-	const [ratioHeight, setRatioHeight] = useState(1);
+	// const [ratioWidth, setRatioWidth] = useState(1);
+	// const [ratioHeight, setRatioHeight] = useState(1);
 	const [loadingStyle, setLoadingStyle] = useState({ opacity: 1, zIndex: 2 });
 
 	useEffect(() => {
@@ -75,12 +75,12 @@ const LineImage = memo(function LineImage({
 				// }}
 				alt={name}
 				className={makeClassName('line-img rounded', className)}
+				title={title}
 				// width={width / ratioWidth}
 				// height={height / ratioHeight}
+				// style={style}
 				width={0}
 				height={0}
-				title={title}
-				// style={style}
 				style={{ width: 'auto', height: 'auto', ...style }}
 			/>
 			{/* <span className="sr-only">{name}</span> */}
