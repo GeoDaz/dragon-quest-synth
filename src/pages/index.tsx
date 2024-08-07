@@ -43,10 +43,10 @@ const PageLines: React.FC<Props> = props => {
 		} else {
 			setFamilies(
 				Object.entries(props.families).reduce((acc, [family, ranks]) => {
-					if (stringToKey(translateUI(family)).includes(search)) {
-						acc[family] = ranks;
-						return acc;
-					}
+					// if (stringToKey(translateUI(family)).includes(search)) {
+					// 	acc[family] = ranks;
+					// 	return acc;
+					// }
 
 					const nextRanks = Object.entries(ranks).reduce(
 						(acc, [rank, monsters]) => {
@@ -106,7 +106,7 @@ const PageLines: React.FC<Props> = props => {
 			</div>
 			<div className="d-flex flex-wrap gap-4 mb-4">
 				<SearchBar
-					label="Research a monster, family"
+					label={isFr ? 'Rechercher un monstre' : 'Research a monster'}
 					onSubmit={handleSearch}
 					defaultValue={search}
 				/>
