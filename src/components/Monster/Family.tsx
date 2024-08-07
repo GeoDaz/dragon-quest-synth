@@ -28,8 +28,8 @@ const Family = memo(function Family({
 			src={`/images/family/${icon}`}
 			alt={title}
 			title={title}
-			height={big ? 47 : 30}
-			width={big ? 48 : 30}
+			height={big ? 45 : 30}
+			width={big ? 45 : 30}
 		/>
 	);
 	if (activable) {
