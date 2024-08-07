@@ -6,6 +6,7 @@ const translatedMonsters = require('../json/monsterTranslations.json');
 const translatedUI: StringObject = {
 	Synthesis: 'Synthèse',
 	'Synthesize into': 'Se synthètise en',
+	Egg: 'Oeuf',
 	Void: 'Vider',
 	Family: 'Famille',
 	Rank: 'Rang',
@@ -19,6 +20,10 @@ const translatedUI: StringObject = {
 	Undead: 'Zombie',
 	'???': '???',
 	Unknown: 'Inconnu',
+	White: 'Blanc',
+	Silver: 'Argent',
+	Gold: 'Or',
+	Rainbow: 'Multicolore',
 };
 
 const useTranslate = () => {

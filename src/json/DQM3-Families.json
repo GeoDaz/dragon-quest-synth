@@ -607,7 +607,8 @@
 				"name": "Ethereal Serpent",
 				"rank": "F",
 				"family": "Dragon",
-				"synthesis": []
+				"synthesis": [],
+				"egg": "White"
 			}
 		],
 		"E": [
@@ -760,7 +761,8 @@
 				"name": "Chihuawyrm",
 				"rank": "C",
 				"family": "Dragon",
-				"synthesis": [["Tundragster", "Spitzfire"]]
+				"synthesis": [],
+				"egg": "Gold"
 			},
 			{
 				"name": "Wyrtoise",
@@ -1454,13 +1456,15 @@
 				"name": "Tigergram",
 				"rank": "B",
 				"family": "Beast",
-				"synthesis": []
+				"synthesis": [],
+				"egg": "Gold"
 			},
 			{
 				"name": "Don Mole",
 				"rank": "B",
 				"family": "Beast",
-				"synthesis": []
+				"synthesis": [],
+				"egg": "Gold"
 			},
 			{
 				"name": "Buffalogre",
@@ -1528,7 +1532,8 @@
 				"name": "Marquis De Léon",
 				"rank": "A",
 				"family": "Beast",
-				"synthesis": []
+				"synthesis": [],
+				"egg": "Rainbow"
 			},
 			{
 				"name": "Evil Sir Leopold",
@@ -1761,7 +1766,8 @@
 				"name": "Barracuda",
 				"rank": "E",
 				"family": "Nature",
-				"synthesis": []
+				"synthesis": [],
+				"egg": "Silver"
 			},
 			{
 				"name": "Beanie Meanie",
@@ -1773,7 +1779,8 @@
 				"name": "Tree Feller",
 				"rank": "E",
 				"family": "Nature",
-				"synthesis": []
+				"synthesis": [],
+				"egg": "Silver"
 			},
 			{
 				"name": "Awebergine",
@@ -1808,7 +1815,8 @@
 				"name": "Mortoad",
 				"rank": "D",
 				"family": "Nature",
-				"synthesis": []
+				"synthesis": [],
+				"egg": "Silver"
 			},
 			{
 				"name": "Zaptile",
@@ -1936,7 +1944,8 @@
 				"name": "Scourgette",
 				"rank": "C",
 				"family": "Nature",
-				"synthesis": []
+				"synthesis": [],
+				"egg": "Gold"
 			},
 			{
 				"name": "Roistering Rooster",
@@ -2256,7 +2265,8 @@
 				"name": "Luminous Lampling",
 				"rank": "E",
 				"family": "Material",
-				"synthesis": []
+				"synthesis": [],
+				"egg": "Silver"
 			},
 			{
 				"name": "Fromage Fey",
@@ -2863,7 +2873,8 @@
 				"name": "Psaro's Pawn",
 				"rank": "D",
 				"family": "Demon",
-				"synthesis": []
+				"synthesis": [],
+				"egg": "Silver"
 			},
 			{
 				"name": "Kisser",
@@ -3071,7 +3082,8 @@
 				"name": "Hyperanemon",
 				"rank": "B",
 				"family": "Demon",
-				"synthesis": []
+				"synthesis": [],
+				"egg": "Gold"
 			}
 		],
 		"A": [
@@ -3341,7 +3353,8 @@
 				"name": "Frightful Conductor",
 				"rank": "E",
 				"family": "Undead",
-				"synthesis": []
+				"synthesis": [],
+				"egg": "Silver"
 			},
 			{
 				"name": "Frolicker",
@@ -3368,7 +3381,8 @@
 				"name": "Float-O-Copier",
 				"rank": "E",
 				"family": "Undead",
-				"synthesis": []
+				"synthesis": [],
+				"egg": "Silver"
 			},
 			{
 				"name": "Iron Maiden",
@@ -3451,7 +3465,8 @@
 				"name": "Discombombulator",
 				"rank": "D",
 				"family": "Undead",
-				"synthesis": []
+				"synthesis": [],
+				"egg": "Silver"
 			},
 			{
 				"name": "Fightgeist",
@@ -3676,7 +3691,8 @@
 				"name": "Robbin' 'Ood",
 				"rank": "C",
 				"family": "???",
-				"synthesis": []
+				"synthesis": [],
+				"egg": "Gold"
 			}
 		],
 		"A": [

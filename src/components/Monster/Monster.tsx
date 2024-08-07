@@ -7,6 +7,7 @@ import { Monster as MonsterInterface } from '@/types/Monster';
 import AnchorLink from '../AnchorLink';
 import { memo } from 'react';
 import useTranslate from '@/hooks/useTranslate';
+import Egg from './Egg';
 
 const Monster = ({ monster, hash }: { monster: MonsterInterface; hash?: string }) => {
 	if (!monster) return null;
@@ -111,6 +112,11 @@ const MemoizedInnerMonster = memo(function InnerMonster({
 							</div>
 						))}
 					</>
+				)}
+				{!!monster.egg && (
+					<div className="fw-bold mt-2 mb-2">
+						{translateUI('Egg')}&nbsp;: <Egg name={monster.egg} />
+					</div>
 				)}
 				{monster.revSynthesis?.length > 0 && (
 					<>

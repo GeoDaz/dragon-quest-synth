@@ -5,6 +5,7 @@ export interface Monster {
 	img: string;
 	family: string;
 	to?: string;
+	egg?: string;
 	subfamily?: string[];
 	synthesis: string[][];
 	revSynthesis: string[];
