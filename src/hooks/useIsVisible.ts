@@ -17,18 +17,20 @@ const useIsVisible = () => {
 	// );
 
 	useEffect(() => {
-		const observer = new IntersectionObserver(([entry], observer) => {
-			if (entry.isIntersecting) {
-				setVisible(entry.isIntersecting);
-				observer.unobserve(ref.current as any);
-			}
-		});
-		observer.observe(ref.current as any);
+		if (ref.current) {
+			const observer = new IntersectionObserver(([entry], observer) => {
+				if (entry.isIntersecting) {
+					setVisible(entry.isIntersecting);
+					observer.unobserve(ref.current as any);
+				}
+			});
+			observer.observe(ref.current as any);
+		}
 		// (observer as IntersectionObserver).observe(ref.current as any);
 		// (observer as IntersectionObserver).disconnect();
 		// return () => {
 		// };
-	}, [ref /* , observer */]);
+	}, [ref]);
 
 	return [ref, visible];
 };

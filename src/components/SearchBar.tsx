@@ -9,12 +9,14 @@ import { Option } from '@/types/Ui';
 const NB_PREVIEW = 10;
 interface Props {
 	onSubmit: Function;
+	label?: string;
 	defaultValue?: string;
 	width?: number;
 	forwardRef?: React.Ref<HTMLInputElement>;
 }
 const SearchBar: React.FC<Props> = ({
 	onSubmit,
+	label = 'Research',
 	defaultValue,
 	width = 300,
 	forwardRef,
@@ -35,7 +37,7 @@ const SearchBar: React.FC<Props> = ({
 		e.preventDefault();
 		e.stopPropagation();
 		if (e.key == 'Enter') {
-			handleSubmit(selection !== null ? previews[selection]?.value : undefined);
+			handleSubmit(selection !== null ? previews[selection].value : undefined);
 		} else if (previews.length > 0) {
 			if (e.key == 'ArrowDown') {
 				setSelection(
@@ -59,9 +61,8 @@ const SearchBar: React.FC<Props> = ({
 
 	const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
 		setSearch(e.target.value);
-		let search = e.target.value;
 		if (search) {
-			if (searchList.length > 0) {
+			if (searchList && searchList.length > 0) {
 				let result = searchList.reduce((result, name) => {
 					const priority = getSearchPriority(search, name);
 					if (priority != null) {
@@ -91,12 +92,13 @@ const SearchBar: React.FC<Props> = ({
 				ref={forwardRef}
 				type="text"
 				id="lines-search"
-				placeholder="Research a Monster"
+				placeholder={label}
 				style={{ width, maxWidth: '100%' }}
 				onChange={handleSearch}
 				value={search || ''}
 				onKeyDown={onKeyDown}
 				autoComplete="off"
+				className="research"
 			/>
 			{previews.length > 0 && (
 				<div className="previews" role="listbox" aria-expanded tabIndex={0}>

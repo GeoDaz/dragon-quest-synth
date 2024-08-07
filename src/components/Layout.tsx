@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import GoBack from '@/components/GoBack';
 import Head from 'next/head';
 import { SITE_URL } from '@/consts/env';
+import { makeClassName } from '@/functions';
 
 interface Props {
 	title: string | React.ReactNode;
@@ -11,6 +12,7 @@ interface Props {
 	metadescription?: string;
 	metaimg?: string;
 	noGoBack?: boolean;
+	className?: string;
 }
 const Layout: React.FC<Props> = ({
 	title,
@@ -19,6 +21,7 @@ const Layout: React.FC<Props> = ({
 	metadescription,
 	metaimg = 'og_image.png',
 	noGoBack = false,
+	className,
 }) => {
 	const trueMetaTitle = metatitle
 		? `${metatitle} | Dragon Quest Synthesis`
@@ -42,7 +45,7 @@ const Layout: React.FC<Props> = ({
 				<meta property="og:image" content={`${SITE_URL}/images/${metaimg}`} />
 			</Head>
 			<main>
-				<Container className="page" fluid>
+				<Container className={makeClassName('page', className)} fluid>
 					<h1>
 						{!noGoBack && <GoBack />} {title}
 					</h1>

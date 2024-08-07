@@ -6,6 +6,7 @@ const translatedMonsters = require('../json/monsterTranslations.json');
 const translatedUI: StringObject = {
 	Synthesis: 'Synthèse',
 	'Synthesize into': 'Se synthètise en',
+	Void: 'Vider',
 	Family: 'Famille',
 	Rank: 'Rang',
 	Subfamily: 'Sous-famille',

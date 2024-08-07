@@ -1,7 +1,6 @@
 import Family from './Family';
 import MonsterImg from './MonsterImg';
 import Rank from './Rank';
-import Link from 'next/link';
 import { makeClassName } from '@/functions';
 import { Card, CardHeader, CardBody } from 'react-bootstrap';
 import { Monster as MonsterInterface } from '@/types/Monster';
@@ -31,7 +30,7 @@ const MemoizedInnerMonster = memo(function InnerMonster({
 	monster: MonsterInterface;
 }) {
 	const { isFr, translateMonster, translateUI } = useTranslate();
-	const displayName = translateMonster(monster.name);
+	const displayName = (isFr && monster.nom) || monster.name;
 	return (
 		<>
 			<CardHeader>
