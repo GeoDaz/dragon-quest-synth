@@ -30,7 +30,7 @@
 				"name": "Goonache Goodie",
 				"rank": "G",
 				"family": "Slime",
-				"subfamily": ["food"],
+				"subfamily": ["Food"],
 				"synthesis": [["Shell Slime", "Fromage Fray"]]
 			},
 			{
@@ -188,7 +188,7 @@
 				"name": "Dark Slime",
 				"rank": "E",
 				"family": "Slime",
-				"subfamily": ["dark"],
+				"subfamily": ["Dark"],
 				"synthesis": [["Succubat", "Slime Family"]]
 			},
 			{
@@ -210,14 +210,14 @@
 				"name": "Pasty Pastry",
 				"rank": "D",
 				"family": "Slime",
-				"subfamily": ["food"],
+				"subfamily": ["Food"],
 				"synthesis": [["Goonache Goodie", "Luminous Lampling"]]
 			},
 			{
 				"name": "Cococoa Blobelisk",
 				"rank": "D",
 				"family": "Slime",
-				"subfamily": ["food"],
+				"subfamily": ["Food"],
 				"synthesis": [["Slime Stack", "Chocolate Whisp"]]
 			},
 			{
@@ -279,7 +279,7 @@
 				"name": "Shadow Slime",
 				"rank": "C",
 				"family": "Slime",
-				"subfamily": ["dark"],
+				"subfamily": ["Dark"],
 				"synthesis": [["Slime", "Hypothermion"]]
 			},
 			{
@@ -313,14 +313,14 @@
 				"name": "Dark King Slime",
 				"rank": "C",
 				"family": "Slime",
-				"subfamily": ["dark"],
+				"subfamily": ["Dark"],
 				"synthesis": [["Dark Slime", "Dark Slime"]]
 			},
 			{
 				"name": "Jester Slime",
 				"rank": "C",
 				"family": "Slime",
-				"subfamily": ["dark"],
+				"subfamily": ["Dark"],
 				"synthesis": [
 					["Slime Family", "Undead Family", "Rank C"],
 					["Dark Slime", "Jinkster", "Angel Slime", "Lump Shaman"]
@@ -330,7 +330,7 @@
 				"name": "Crème Caraslime",
 				"rank": "C",
 				"family": "Slime",
-				"subfamily": ["food"],
+				"subfamily": ["Food"],
 				"synthesis": [["King Slime", "Pasty Pastry"]]
 			}
 		],
@@ -339,7 +339,7 @@
 				"name": "Slime Snack",
 				"rank": "B",
 				"family": "Slime",
-				"subfamily": ["food"],
+				"subfamily": ["Food"],
 				"synthesis": [["Cococoa Blobelisk", "Bag O' Sweets"]]
 			},
 			{
@@ -358,7 +358,7 @@
 				"name": "King Slick Slime",
 				"rank": "B",
 				"family": "Slime",
-				"subfamily": ["food"],
+				"subfamily": ["Food"],
 				"synthesis": [
 					["Slime Family", "Demon Family", "Rank B"],
 					["King Bubble Slime", "Slick Slime", "Scuttle Slime", "Magmalice"]
@@ -375,7 +375,7 @@
 				"name": "King Jester Slime",
 				"rank": "B",
 				"family": "Slime",
-				"subfamily": ["dark"],
+				"subfamily": ["Dark"],
 				"synthesis": [["Dark King Slime", "Jester Slime"]]
 			},
 			{
@@ -849,7 +849,7 @@
 				"name": "Black Dragon",
 				"rank": "B",
 				"family": "Dragon",
-				"subfamily": ["dark"],
+				"subfamily": ["Dark"],
 				"synthesis": [["Great Argon Lizard", "Grim Keeper"]]
 			},
 			{
@@ -877,7 +877,7 @@
 				"name": "Clawvus",
 				"rank": "A",
 				"family": "Dragon",
-				"subfamily": ["Bird", "dark"],
+				"subfamily": ["Bird", "Dark"],
 				"synthesis": [["Crowgre", "Gangleclaw"]]
 			},
 			{
@@ -933,7 +933,7 @@
 				"name": "Abyssal Dragon",
 				"rank": "S",
 				"family": "Dragon",
-				"subfamily": ["dark"],
+				"subfamily": ["Dark"],
 				"synthesis": [["Royal Reptile", "Rashaverak"]]
 			},
 			{
@@ -946,7 +946,7 @@
 				"name": "Barbarus",
 				"rank": "S",
 				"family": "Dragon",
-				"subfamily": ["dark"],
+				"subfamily": ["Dark"],
 				"synthesis": [["Abyssal Dragon", "Equinox"]]
 			},
 			{
@@ -1074,7 +1074,7 @@
 				"name": "Candy Cat",
 				"rank": "G",
 				"family": "Beast",
-				"subfamily": ["food"],
+				"subfamily": ["Food"],
 				"synthesis": [["Great Sabrecub", "Fromage Fray"]]
 			},
 			{
@@ -1197,7 +1197,7 @@
 				"name": "Dark Sabrecub",
 				"rank": "E",
 				"family": "Beast",
-				"subfamily": ["dark"],
+				"subfamily": ["Dark"],
 				"synthesis": [["Great Sabrecub", "Shadow"]]
 			},
 			{
@@ -1336,7 +1336,7 @@
 				"name": "Dark Hare",
 				"rank": "C",
 				"family": "Beast",
-				"subfamily": ["dark"],
+				"subfamily": ["Dark"],
 				"synthesis": [["Spiked Hare", "Hypothermion"]]
 			},
 			{
@@ -1356,7 +1356,7 @@
 				"name": "King Foo Dog",
 				"rank": "C",
 				"family": "Beast",
-				"subfamily": ["dark"],
+				"subfamily": ["Dark"],
 				"synthesis": [["Abracadabrador", "Crabber Dabber Doo"]]
 			},
 			{
@@ -1415,14 +1415,14 @@
 				"name": "Mogus",
 				"rank": "B",
 				"family": "Beast",
-				"subfamily": ["dark"],
+				"subfamily": ["Dark"],
 				"synthesis": [["Meowgician", "Shadow Slime"]]
 			},
 			{
 				"name": "Dark Sabrecat",
 				"rank": "B",
 				"family": "Beast",
-				"subfamily": ["dark"],
+				"subfamily": ["Dark"],
 				"synthesis": [
 					["Beast Family", "Demon Family", "Rank B"],
 					["Great Sabrecat", "Great Sabrecat", "Dark Sabrecub", "Dark Hare"]
@@ -1433,7 +1433,9 @@
 				"rank": "B",
 				"family": "Beast",
 				"subfamily": ["ice"],
-				"synthesis": [["Sweaty Yeti", "Powie Yowie", "Fightgeist", "Frolicker"]]
+				"synthesis": [
+					["Sweaty Yeti", "Rotten Cotton", "Ursa Major", "Splatypunk"]
+				]
 			},
 			{
 				"name": "Tigergram",
@@ -1506,7 +1508,7 @@
 				"name": "Equinox",
 				"rank": "A",
 				"family": "Beast",
-				"subfamily": ["dark", "myth"],
+				"subfamily": ["Dark", "myth"],
 				"synthesis": [["Tantamount", "Black Dragon"]]
 			},
 			{
@@ -1534,7 +1536,7 @@
 				"rank": "A",
 				"family": "Beast",
 				"synthesis": [
-					["Boppin' Badger", "Don Mole", "Mandrake Marshal", "One-Man Army"]
+					["Boppin' Badger", "Don Mole", "Mandrake Marshal", "Cockateer"]
 				]
 			},
 			{
@@ -2022,6 +2024,13 @@
 				"synthesis": [["Chimaera", "Firn Fiend"]]
 			},
 			{
+				"name": "Cockateer",
+				"rank": "C",
+				"family": "Nature",
+				"subfamily": ["Bird"],
+				"synthesis": [["Roistering Rooster", "Jumping Jackal"]]
+			},
+			{
 				"name": "Tartarus Eagle",
 				"rank": "C",
 				"family": "Nature",
@@ -2071,6 +2080,13 @@
 				"family": "Nature",
 				"subfamily": ["Bug"],
 				"synthesis": [["Slugger", "Fandangow"]]
+			},
+			{
+				"name": "Beetleboy",
+				"rank": "B",
+				"family": "Nature",
+				"subfamily": ["Bug"],
+				"synthesis": [["Crabber Dabber Doo", "Treevil"]]
 			},
 			{
 				"name": "Cosmic Chimaera",
@@ -2153,6 +2169,13 @@
 				"synthesis": [["Armoured Scorpion", "Metal King Slime"]]
 			},
 			{
+				"name": "Beetlebully",
+				"rank": "A",
+				"family": "Nature",
+				"subfamily": ["Bug"],
+				"synthesis": [["Beetleboy", "Hacksaurus"]]
+			},
+			{
 				"name": "Gripevine",
 				"rank": "A",
 				"family": "Nature",
@@ -2171,7 +2194,8 @@
 				"rank": "A",
 				"family": "Nature",
 				"subfamily": ["Aquatic"],
-				"synthesis": []
+				"synthesis": [],
+				"_comment": ["Merman", "Jumping Jackal"]
 			},
 			{
 				"name": "Lleviathan",
@@ -2286,7 +2310,7 @@
 				"name": "Fromage Fray",
 				"rank": "G",
 				"family": "Material",
-				"subfamily": ["food", "Undead"],
+				"subfamily": ["Food", "Undead"],
 				"synthesis": [["Sacksquatch", "Ghost"]]
 			},
 			{
@@ -2336,14 +2360,14 @@
 				"name": "Horrifying Saucers",
 				"rank": "F",
 				"family": "Material",
-				"subfamily": ["food"],
+				"subfamily": ["Food"],
 				"synthesis": [["Wax Murderer", "Dracky"]]
 			},
 			{
 				"name": "Chocolate Golem",
 				"rank": "F",
 				"family": "Material",
-				"subfamily": ["food"],
+				"subfamily": ["Food"],
 				"synthesis": [["Mud Mannequin", "Goonache Goodie"]]
 			},
 			{
@@ -2445,7 +2469,7 @@
 				"name": "Fromage Fey",
 				"rank": "E",
 				"family": "Material",
-				"subfamily": ["food", "Undead"],
+				"subfamily": ["Food", "Undead"],
 				"synthesis": [["Fromage Fray", "Mouldy Slime"]]
 			},
 			{
@@ -2540,7 +2564,7 @@
 				"name": "Saccharine Sacksquatch",
 				"rank": "D",
 				"family": "Material",
-				"subfamily": ["food"],
+				"subfamily": ["Food"],
 				"synthesis": [["Sacksquatch", "Scornet"]]
 			},
 			{
@@ -2642,14 +2666,14 @@
 				"name": "Bag O' Sweets",
 				"rank": "C",
 				"family": "Material",
-				"subfamily": ["food"],
+				"subfamily": ["Food"],
 				"synthesis": [["Bag O' Tricks", "Sugar Baddie"]]
 			},
 			{
 				"name": "Flying Saucers",
 				"rank": "C",
 				"family": "Material",
-				"subfamily": ["food"],
+				"subfamily": ["Food"],
 				"synthesis": [["Horrifying Saucers", "Soulspawn"]]
 			},
 			{
@@ -2704,7 +2728,7 @@
 				"name": "Buntzenberner",
 				"rank": "B",
 				"family": "Material",
-				"subfamily": ["Elemental", "fire", "dark"],
+				"subfamily": ["Elemental", "fire", "Dark"],
 				"synthesis": [
 					["Dancing Flame", "Frostburn", "Soulspawn", "Brimstone Bulb"]
 				]
@@ -2767,7 +2791,7 @@
 				"name": "A3G15",
 				"rank": "B",
 				"family": "Material",
-				"subfamily": ["Machine", "dark"],
+				"subfamily": ["Machine", "Dark"],
 				"synthesis": [["Killing Machine", "Bamboogieman"]]
 			}
 		],
@@ -2962,7 +2986,7 @@
 				"name": "Dessert Demon",
 				"rank": "F",
 				"family": "Demon",
-				"subfamily": ["food"],
+				"subfamily": ["Food"],
 				"synthesis": [["Imp", "Chocolate Golem"]]
 			}
 		],
@@ -3009,7 +3033,7 @@
 				"name": "Sugar Baddie",
 				"rank": "E",
 				"family": "Demon",
-				"subfamily": ["food", "Humanoid"],
+				"subfamily": ["Food", "Humanoid"],
 				"synthesis": [["Dessert Demon", "Fromage Fey"]]
 			},
 			{
@@ -3426,7 +3450,7 @@
 				"name": "Chocolate Whisp",
 				"rank": "E",
 				"family": "Material",
-				"subfamily": ["food", "Elemental"],
+				"subfamily": ["Food", "Elemental"],
 				"synthesis": [["Soft Serve Spook", "Chocolate Golem"]]
 			},
 			{
@@ -3539,6 +3563,7 @@
 				"rank": "C",
 				"family": "Undead",
 				"to": "Demon",
+				"subfamily": ["Dark"],
 				"synthesis": [["Frolicker", "Shadow Slime"]]
 			},
 			{
@@ -3679,23 +3704,29 @@
 				"synthesis": [["Demon-At-Arms", "Jugular Joker"]]
 			},
 			{
-				"name": "Wight Knight",
-				"rank": "B",
-				"family": "Undead",
-				"synthesis": [["Headless Horseman", "Wight King"]]
-			},
-			{
 				"name": "Widow's Pique",
 				"rank": "A",
 				"family": "Undead",
 				"subfamily": ["Nature", "Bug"],
 				"synthesis": [["Bone Baron", "Tyrantula"]]
+			},
+			{
+				"name": "Wight Knight",
+				"rank": "A",
+				"family": "Undead",
+				"synthesis": [["Headless Horseman", "Wight King"]]
+			},
+			{
+				"name": "Oren Wraithblade",
+				"rank": "A",
+				"family": "Undead",
+				"synthesis": [["Raving Reaper", "Rabid Rector"]]
 			}
 		],
 		"S": [
 			{
 				"name": "Sir Sanguinus",
-				"rank": "A",
+				"rank": "S",
 				"family": "Undead",
 				"synthesis": [["Wight Knight", "Umbra"]]
 			},
@@ -4007,7 +4038,7 @@
 				"name": "Darkling",
 				"rank": "S",
 				"family": "???",
-				"subfamily": ["Fairy", "dark"],
+				"subfamily": ["Fairy", "Dark"],
 				"synthesis": [["Mordegon, Lord Of Shadows", "Scruffy"]]
 			}
 		],
