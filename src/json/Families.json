@@ -1372,6 +1372,13 @@
 				"synthesis": [["Orc", "Cheater Cheetah"]]
 			},
 			{
+				"name": "War Gryphon",
+				"rank": "C",
+				"family": "Beast",
+				"subfamily": ["Bird", "myth"],
+				"synthesis": [["Gryphon", "Carnivine"]]
+			},
+			{
 				"name": "Hellion",
 				"rank": "C",
 				"family": "Beast",
@@ -2072,7 +2079,7 @@
 				"rank": "B",
 				"family": "Nature",
 				"subfamily": ["Aquatic"],
-				"synthesis": [["Palooka Prawn", "Armoured Scorpion"]]
+				"synthesis": [["Palooka Prawn", "Crabber Dabber Doo"]]
 			},
 			{
 				"name": "Sluggerslaught",
@@ -2086,7 +2093,7 @@
 				"rank": "B",
 				"family": "Nature",
 				"subfamily": ["Bug"],
-				"synthesis": [["Crabber Dabber Doo", "Treevil"]]
+				"synthesis": [["Armoured Scorpion", "Treevil"]]
 			},
 			{
 				"name": "Cosmic Chimaera",
@@ -3188,7 +3195,14 @@
 				"name": "Hyperanemon",
 				"rank": "B",
 				"family": "Demon",
-				"synthesis": []
+				"synthesis": [["Hypothermion", "Notso Macho"]]
+			},
+			{
+				"name": "Gemon",
+				"rank": "B",
+				"family": "Demon",
+				"subfamily": ["Beast", "Bird"],
+				"synthesis": ["War Gryphon", "Drooling Ghoul"]
 			},
 			{
 				"name": "Jugular Joker",
@@ -3836,6 +3850,13 @@
 				"family": "???",
 				"subfamily": ["Character", "Demon", "Beast"],
 				"synthesis": []
+			},
+			{
+				"name": "Butoma Preciana",
+				"rank": "B",
+				"family": "???",
+				"subfamily": ["Character", "Beast"],
+				"synthesis": [["Togre", "Morag"]]
 			}
 		],
 		"A": [
@@ -3845,6 +3866,13 @@
 				"family": "???",
 				"subfamily": ["Demon"],
 				"synthesis": [["The Time Being", "Goomulonimbus"]]
+			},
+			{
+				"name": "Mystical Juliante",
+				"rank": "A",
+				"family": "???",
+				"subfamily": ["Character", "Beast"],
+				"synthesis": [["Butoma Preciana", "Gemon"]]
 			},
 			{
 				"name": "Dhuran",
