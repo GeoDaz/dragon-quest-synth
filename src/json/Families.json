@@ -3202,7 +3202,7 @@
 				"rank": "B",
 				"family": "Demon",
 				"subfamily": ["Beast", "Bird"],
-				"synthesis": ["War Gryphon", "Drooling Ghoul"]
+				"synthesis": [["War Gryphon", "Drooling Ghoul"]]
 			},
 			{
 				"name": "Jugular Joker",
