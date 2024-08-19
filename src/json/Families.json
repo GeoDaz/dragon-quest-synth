@@ -379,6 +379,12 @@
 				"synthesis": [["Dark King Slime", "Jester Slime"]]
 			},
 			{
+				"name": "Mottle King Slime",
+				"rank": "B",
+				"family": "Slime",
+				"synthesis": [["King Cureslime", "Mottle Slime"]]
+			},
+			{
 				"name": "Shogum",
 				"rank": "B",
 				"family": "Slime",
@@ -441,16 +447,25 @@
 				"synthesis": [["Diamond Slime", "Greater Platypink"]]
 			},
 			{
+				"name": "Metal Kaiser Slime",
+				"rank": "S",
+				"family": "Slime",
+				"synthesis": [["Superior Slime", "Platinum King Jewel"]]
+			},
+			{
 				"name": "Liquid Metal Slime King",
 				"rank": "S",
 				"family": "Slime",
 				"synthesis": [["King Slick Slime", "Platinum King Jewel"]]
 			},
 			{
-				"name": "Metal Kaiser Slime",
+				"name": "Canzar",
 				"rank": "S",
 				"family": "Slime",
-				"synthesis": [["Superior Slime", "Platinum King Jewel"]]
+				"subfamily": ["Nature", "Aquatic"],
+				"synthesis": [
+					["Cyber Slime", "Crabber Dabber Doo", "A3G15", "Metal Scorpion"]
+				]
 			},
 			{
 				"name": "Grandpa Slime",
@@ -1328,7 +1343,7 @@
 				"name": "Rhinoceraxe",
 				"rank": "D",
 				"family": "Beast",
-				"synthesis": [["Ursa Major", "Material Family"]]
+				"synthesis": [["Axesaurus", "Swinoceros"]]
 			}
 		],
 		"C": [
@@ -1351,6 +1366,13 @@
 				"family": "Beast",
 				"subfamily": ["Demon"],
 				"synthesis": [["Cross Eye", "Bloodbonnet"]]
+			},
+			{
+				"name": "Mogus",
+				"rank": "C",
+				"family": "Beast",
+				"subfamily": ["Dark"],
+				"synthesis": [["Meowgician", "Shadow Slime"]]
 			},
 			{
 				"name": "King Foo Dog",
@@ -1418,13 +1440,6 @@
 			}
 		],
 		"B": [
-			{
-				"name": "Mogus",
-				"rank": "B",
-				"family": "Beast",
-				"subfamily": ["Dark"],
-				"synthesis": [["Meowgician", "Shadow Slime"]]
-			},
 			{
 				"name": "Dark Sabrecat",
 				"rank": "B",
@@ -1507,7 +1522,8 @@
 				"name": "Nemean",
 				"rank": "B",
 				"family": "Beast",
-				"synthesis": [["Hexagoon", "Gryphon"]]
+				"subfamily": ["Demon", "myth"],
+				"synthesis": [["Hexagoon", "War Gryphon"]]
 			}
 		],
 		"A": [
@@ -1524,6 +1540,13 @@
 				"family": "Beast",
 				"subfamily": ["Elemental"],
 				"synthesis": [["Dark Sabrecat", "Hellbound Hair-Raiser"]]
+			},
+			{
+				"name": "Leon Bubro",
+				"rank": "A",
+				"family": "Beast",
+				"subfamily": ["Demon", "myth"],
+				"synthesis": [["Nemean", "Draguar"]]
 			},
 			{
 				"name": "Gnuriel",
@@ -2144,6 +2167,12 @@
 				"synthesis": [["Blastoad", "Mogus"]]
 			},
 			{
+				"name": "Leaf Spirit",
+				"rank": "B",
+				"family": "Nature",
+				"synthesis": [["Woodwyrm", "Night Clubber"]]
+			},
+			{
 				"name": "Gangleclaw",
 				"rank": "B",
 				"family": "Nature",
@@ -2187,7 +2216,7 @@
 				"rank": "A",
 				"family": "Nature",
 				"subfamily": ["Plant"],
-				"synthesis": [["One-Man Army", "Dragonthorn"]]
+				"synthesis": [["One-Man Army", "Leaf Spirit"]]
 			},
 			{
 				"name": "Gracos",
@@ -2201,8 +2230,7 @@
 				"rank": "A",
 				"family": "Nature",
 				"subfamily": ["Aquatic"],
-				"synthesis": [],
-				"_comment": ["Merman", "Jumping Jackal"]
+				"synthesis": [["Clobster", "Jumping Jackal"]]
 			},
 			{
 				"name": "Lleviathan",
@@ -2261,7 +2289,7 @@
 				"rank": "X",
 				"family": "Nature",
 				"subfamily": ["Aquatic"],
-				"synthesis": [["Gracos", "Khalamari", "Riptide", "Clobster"]]
+				"synthesis": [["Gracos", "Khalamari", "Riptide", "Megalodon"]]
 			},
 			{
 				"name": "Ramia",
@@ -2834,16 +2862,16 @@
 				"family": "Material",
 				"subfamily": ["Machine"],
 				"synthesis": [["Killing Machine", "Jugular Joker"]]
-			}
-		],
-		"S": [
+			},
 			{
 				"name": "Trauminator",
-				"rank": "S",
+				"rank": "A",
 				"family": "Material",
 				"subfamily": ["Machine"],
 				"synthesis": [["Overkilling Machine", "A3G15"]]
-			},
+			}
+		],
+		"S": [
 			{
 				"name": "Uberkilling Machine",
 				"rank": "S",
@@ -2852,11 +2880,20 @@
 				"synthesis": [["Overkilling Machine", "Platinum King Jewel"]]
 			},
 			{
+				"name": "Void Droid",
+				"rank": "S",
+				"family": "Material",
+				"subfamily": ["Machine"],
+				"synthesis": [["Trauminator", "Widow's Pique"]]
+			},
+			{
 				"name": "Ruin",
 				"rank": "S",
 				"family": "Material",
 				"subfamily": ["Elemental"],
-				"synthesis": [["Great Keeper", "Pandora's Box", "Dora-In-Grey", "Balhib"]]
+				"synthesis": [
+					["Great Keeper", "Pandora's Box", "Dora-In-Grey", "Grrrgoyle"]
+				]
 			}
 		],
 		"X": [
@@ -2865,9 +2902,7 @@
 				"rank": "X",
 				"family": "Material",
 				"subfamily": ["Machine"],
-				"synthesis": [
-					["Trauminator", "Uberkilling Machine", "Knight Abhorrent", "Bilhaw"]
-				]
+				"synthesis": [["Void Droid", "Uberkilling Machine", "Balhib", "Bilhaw"]]
 			}
 		]
 	},
@@ -3702,6 +3737,13 @@
 				"rank": "B",
 				"family": "Undead",
 				"synthesis": [["Tortured Soul", "King Slick Slime"]]
+			},
+			{
+				"name": "Ragin' Contagion",
+				"rank": "B",
+				"family": "Undead",
+				"subfamily": ["Elemental"],
+				"synthesis": [["Grincinerator", "Green Bogey"]]
 			}
 		],
 		"A": [
@@ -3723,6 +3765,13 @@
 				"family": "Undead",
 				"subfamily": ["Nature", "Bug"],
 				"synthesis": [["Bone Baron", "Tyrantula"]]
+			},
+			{
+				"name": "Uncommon cold",
+				"rank": "A",
+				"family": "Undead",
+				"subfamily": ["Elemental"],
+				"synthesis": [["Ragin' Contagion", "Snowgre"]]
 			},
 			{
 				"name": "Wight Knight",
@@ -4127,6 +4176,14 @@
 				"rank": "X",
 				"family": "???",
 				"synthesis": [["Darkling", "Nelgel The Netherfiend"]]
+			},
+			{
+				"name": "Maldragora Final Forme",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [
+					["King Godwyn Second Forme", "Leon Bubro", "Nimzo", "Tyrannoceratops"]
+				]
 			},
 			{
 				"name": "Nokturnus",
