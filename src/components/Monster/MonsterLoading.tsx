@@ -31,6 +31,7 @@ const MonsterLoading = ({
 				</div>
 			</CardHeader>
 			<CardBody className="d-flex justify-content-center align-items-center">
+				<span className="sr-only">{monster.name}</span>
 				<Spinner animation="grow" />
 			</CardBody>
 		</Card>
