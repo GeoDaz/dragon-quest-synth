@@ -2855,7 +2855,7 @@
 				"synthesis": [["Well Wisher", "Sekerleton"]]
 			},
 			{
-				"name": "Cumulus vex",
+				"name": "Cumulus Vex",
 				"rank": "B",
 				"family": "Material",
 				"subfamily": ["Elemental"],
@@ -2955,14 +2955,14 @@
 				"rank": "A",
 				"family": "Material",
 				"subfamily": ["Elemental"],
-				"synthesis": [["Cumulus vex", "Grrrgoyle"]]
+				"synthesis": [["Cumulus Vex", "Grrrgoyle"]]
 			},
 			{
 				"name": "Fire Spirit",
 				"rank": "A",
 				"family": "Material",
 				"subfamily": ["Elemental"],
-				"synthesis": [["Gasmon", "Tyrannoceratops"]]
+				"synthesis": [["Buntzenberner", "Tyrannoceratops"]]
 			},
 			{
 				"name": "Water Spirit",
@@ -3870,7 +3870,7 @@
 				"synthesis": [["Bone Baron", "Tyrantula"]]
 			},
 			{
-				"name": "Uncommon cold",
+				"name": "Uncommon Cold",
 				"rank": "A",
 				"family": "Undead",
 				"subfamily": ["Elemental"],
