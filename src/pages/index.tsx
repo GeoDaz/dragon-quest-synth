@@ -74,12 +74,7 @@ const PageLines: React.FC<Props> = props => {
 	}, []);
 
 	const filters = useMemo(
-		() => ({
-			resetFilters,
-			search,
-			selectedFamily,
-			selectedRank,
-		}),
+		() => ({ resetFilters, search, selectedFamily, selectedRank }),
 		[resetFilters, search, selectedFamily, selectedRank]
 	);
 
