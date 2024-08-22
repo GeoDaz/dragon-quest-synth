@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useContext, useEffect, useMemo, useState } from 'react';
 import { GetStaticProps } from 'next';
 import { Families, Monster as MonsterInterface } from '@/types/Monster';
 import Layout from '@/components/Layout';
@@ -19,6 +19,7 @@ import useIsVisible from '@/hooks/useIsVisible';
 import MonsterLoading from '@/components/Monster/MonsterLoading';
 import SearchBar from '@/components/SearchBar';
 import Icon from '@/components/Icon';
+import { FiltersContext } from '@/context/filter';
 
 interface Props {
 	families: Families;
@@ -43,11 +44,6 @@ const PageLines: React.FC<Props> = props => {
 		} else {
 			setFamilies(
 				Object.entries(props.families).reduce((acc, [family, ranks]) => {
-					// if (stringToKey(translateUI(family)).includes(search)) {
-					// 	acc[family] = ranks;
-					// 	return acc;
-					// }
-
 					const nextRanks = Object.entries(ranks).reduce(
 						(acc, [rank, monsters]) => {
 							const nextMonsters = monsters.filter(monster =>
@@ -70,6 +66,22 @@ const PageLines: React.FC<Props> = props => {
 			);
 		}
 	}, [search]);
+
+	const resetFilters = useCallback(() => {
+		setSelectedFamily(undefined);
+		setSelectedRank(undefined);
+		setSearch(undefined);
+	}, []);
+
+	const filters = useMemo(
+		() => ({
+			resetFilters,
+			search,
+			selectedFamily,
+			selectedRank,
+		}),
+		[resetFilters, search, selectedFamily, selectedRank]
+	);
 
 	const handleSearch = (value: string) => {
 		let sanitizedSearch = stringToKey(value);
@@ -143,24 +155,24 @@ const PageLines: React.FC<Props> = props => {
 					))}
 				</DropdownButton>
 			</div>
-			<ImagesContext.Provider value={images}>
-				{Object.keys(families).length > 0 ? (
-					<div className="synthesis-list">
-						{Object.entries(families).map(([family, ranks]) => (
-							<FamilySection
-								key={family}
-								family={family}
-								ranks={ranks}
-								hash={hash}
-								selectedFamily={selectedFamily}
-								selectedRank={selectedRank}
-							/>
-						))}
-					</div>
-				) : (
-					<p>{isFr ? 'Aucune synthèse trouvée' : 'No synthesis found'}.</p>
-				)}
-			</ImagesContext.Provider>
+			<FiltersContext.Provider value={filters}>
+				<ImagesContext.Provider value={images}>
+					{Object.keys(families).length > 0 ? (
+						<div className="synthesis-list">
+							{Object.entries(families).map(([family, ranks]) => (
+								<FamilySection
+									key={family}
+									family={family}
+									ranks={ranks}
+									hash={hash}
+								/>
+							))}
+						</div>
+					) : (
+						<p>{isFr ? 'Aucune synthèse trouvée' : 'No synthesis found'}.</p>
+					)}
+				</ImagesContext.Provider>
+			</FiltersContext.Provider>
 		</Layout>
 	);
 };
@@ -169,16 +181,13 @@ const FamilySection = ({
 	family,
 	hash,
 	ranks,
-	selectedFamily,
-	selectedRank,
 }: {
 	family: string;
 	hash?: string;
 	ranks: { [key: string]: MonsterInterface[] };
-	selectedFamily?: string;
-	selectedRank?: string;
 }) => {
 	const { translateUI } = useTranslate();
+	const { selectedFamily, selectedRank } = useContext(FiltersContext);
 
 	if (selectedFamily && selectedFamily != family) return null;
 	return (
@@ -196,6 +205,7 @@ const FamilySection = ({
 			>
 				<Family name={family} big /> &nbsp; {translateUI(family)}
 			</h2>
+			{/* selectedRank is used here to avoid calling useIsVisible */}
 			{Object.entries(ranks).map(([rank, ranking]) =>
 				selectedRank && selectedRank != rank ? null : (
 					<RankSection

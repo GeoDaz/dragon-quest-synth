@@ -1,5 +1,7 @@
+import { FiltersContext } from '@/context/filter';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import { useContext } from 'react';
 
 interface AnchorLinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
 	hash: string;
@@ -7,9 +9,12 @@ interface AnchorLinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> 
 }
 const AnchorLink = ({ hash, children, ...props }: AnchorLinkProps) => {
 	const router = useRouter();
+	const { resetFilters } = useContext(FiltersContext);
 
 	const onClick = (e: any) => {
 		e.preventDefault();
+
+		if (resetFilters) resetFilters();
 
 		router
 			.replace(
