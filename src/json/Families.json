@@ -762,10 +762,11 @@
 				"synthesis": [["Saltwater Stallion", "Gasbagon"]]
 			},
 			{
-				"name": "Bobonga",
+				"name": "Flapdragon",
 				"rank": "C",
 				"family": "Dragon",
-				"synthesis": [["Jargon", "Low Djinks"]]
+				"subfamily": ["Reptile"],
+				"synthesis": [["Flython", "Gryphon"]]
 			},
 			{
 				"name": "Wyrtoise",
@@ -775,11 +776,11 @@
 				"synthesis": [["Wyrtle", "Blastoad"]]
 			},
 			{
-				"name": "Flapdragon",
+				"name": "Iron Tortoise",
 				"rank": "C",
 				"family": "Dragon",
-				"subfamily": ["Reptile"],
-				"synthesis": [["Flython", "Gryphon"]]
+				"subfamily": ["Material", "Reptile"],
+				"synthesis": [["Armoured Wartoise", "Armoured Scorpion"]]
 			},
 			{
 				"name": "Tyrannoceratops",
@@ -789,25 +790,10 @@
 				"synthesis": [["Tortoceratops", "Magmalice"]]
 			},
 			{
-				"name": "Iron Tortoise",
+				"name": "Bobonga",
 				"rank": "C",
 				"family": "Dragon",
-				"subfamily": ["Material", "Reptile"],
-				"synthesis": [["Armoured Wartoise", "Armoured Scorpion"]]
-			},
-			{
-				"name": "Crowgre",
-				"rank": "C",
-				"family": "Dragon",
-				"subfamily": ["Bird"],
-				"synthesis": [["Wyvern", "Hades' Condor"]]
-			},
-			{
-				"name": "Chihuawyrm",
-				"rank": "C",
-				"family": "Dragon",
-				"subfamily": ["Ice"],
-				"synthesis": [["Tundragster", "Spitzfire"]]
+				"synthesis": [["Jargon", "Low Djinks"]]
 			},
 			{
 				"name": "Abyss Diver",
@@ -824,6 +810,20 @@
 				"synthesis": [["Croc-A-Bugle-Doo", "Tuskateer"]]
 			},
 			{
+				"name": "Chihuawyrm",
+				"rank": "C",
+				"family": "Dragon",
+				"subfamily": ["Ice"],
+				"synthesis": [["Tundragster", "Spitzfire"]]
+			},
+			{
+				"name": "Crowgre",
+				"rank": "C",
+				"family": "Dragon",
+				"subfamily": ["Bird"],
+				"synthesis": [["Wyvern", "Hades' Condor"]]
+			},
+			{
 				"name": "Liege Lizard",
 				"rank": "C",
 				"family": "Dragon",
@@ -832,28 +832,22 @@
 		],
 		"B": [
 			{
-				"name": "Mandrake Marshal",
-				"rank": "B",
-				"family": "Dragon",
-				"synthesis": [["Mandrake Major", "Phantom Swordsman"]]
-			},
-			{
 				"name": "Dread Dragooner",
 				"rank": "B",
 				"family": "Dragon",
 				"synthesis": [["Dragon Rider", "Fright Knight"]]
 			},
 			{
+				"name": "Mandrake Marshal",
+				"rank": "B",
+				"family": "Dragon",
+				"synthesis": [["Mandrake Major", "Phantom Swordsman"]]
+			},
+			{
 				"name": "Hacksaurus",
 				"rank": "B",
 				"family": "Dragon",
 				"synthesis": [["Axesaurus", "Jowler"]]
-			},
-			{
-				"name": "Drakulard",
-				"rank": "B",
-				"family": "Dragon",
-				"synthesis": [["Drakularge", "Jowler"]]
 			},
 			{
 				"name": "Avarith",
@@ -867,6 +861,12 @@
 				"family": "Dragon",
 				"subfamily": ["Nature", "Aquatic"],
 				"synthesis": [["Abyss Diver", "Boreal Serpent"]]
+			},
+			{
+				"name": "Drakulard",
+				"rank": "B",
+				"family": "Dragon",
+				"synthesis": [["Drakularge", "Jowler"]]
 			},
 			{
 				"name": "Great Dragon",
@@ -2919,7 +2919,7 @@
 			},
 			{
 				"name": "Dora-In-Grey",
-				"rank": "B",
+				"rank": "A",
 				"family": "Material",
 				"synthesis": [["Iron Maiden", "Buntzenberner"]]
 			},
@@ -4229,10 +4229,22 @@
 				"synthesis": [["Mordegon, Lord Of Shadows", "Scruffy"]]
 			},
 			{
+				"name": "Juggerwroth",
+				"rank": "S",
+				"family": "???",
+				"synthesis": [["Orgodemir", "Gnuriel"]]
+			},
+			{
+				"name": "Zumergias",
+				"rank": "S",
+				"family": "???",
+				"synthesis": [["Razerburn", "Void Droid"]]
+			},
+			{
 				"name": "Xiphos The Deathbringer",
 				"rank": "S",
 				"family": "???",
-				"synthesis": []
+				"synthesis": [["Valgirt", "Atlas", "Gemon", "Dhuran"]]
 			}
 		],
 		"X": [
@@ -4300,13 +4312,22 @@
 				"rank": "X",
 				"family": "???",
 				"subfamily": ["Character"],
-				"synthesis": [["Zoma", "Razerburn", "Randolfo Final Forme", "Corvus"]]
+				"synthesis": [
+					["Zoma", "Razerburn", "Randolfo Final Forme", "Long John Silverbones"]
+				]
 			},
 			{
 				"name": "Hihyudorado",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Nelgel The Netherfiend"]]
+				"synthesis": [
+					[
+						"Nelgel The Netherfiend",
+						"Sir Sanguinus",
+						"Broken King Bermud",
+						"Jasper Unbound"
+					]
+				]
 			},
 			{
 				"name": "Maldragora Final Forme",
@@ -4320,7 +4341,9 @@
 				"name": "Fractos",
 				"rank": "X",
 				"family": "???",
-				"synthesis": []
+				"synthesis": [
+					["Xiphos The Deathbringer", "Calasmos", "Juggerwroth", "Zumergias"]
+				]
 			}
 		],
 		"Z": [
@@ -4335,7 +4358,7 @@
 				"rank": "Z",
 				"family": "???",
 				"subfamily": ["Demon"],
-				"synthesis": [["AsuraZoma", "Nokturnus"]]
+				"synthesis": [["AsuraZoma", "Master Of Nu'un"]]
 			},
 			{
 				"name": "King Of Calamity",
@@ -4358,9 +4381,7 @@
 				"name": "Rigor Mortex Evolved Forme",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [
-					["Leonyx", "Maldragora Final Forme", "Hihyudorado", "Fractos"]
-				]
+				"synthesis": [["Leonyx", "Sagittar", "Hihyudorado", "Fractos"]]
 			},
 			{
 				"name": "Potentate Of Portals",
