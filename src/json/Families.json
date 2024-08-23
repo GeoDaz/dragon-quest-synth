@@ -478,7 +478,7 @@
 				"family": "Slime",
 				"subfamily": ["Nature", "Aquatic"],
 				"synthesis": [
-					["Cyber Slime", "Crabber Dabber Doo", "A3G15", "Metal Scorpion"]
+					["Cyber Slime", "Crabber Dabber Doo", "A3G15", "Clangoustine"]
 				]
 			},
 			{
@@ -665,6 +665,12 @@
 				"synthesis": [["Small Fry", "Ursa Major"]]
 			},
 			{
+				"name": "Drackal",
+				"rank": "E",
+				"family": "Dragon",
+				"synthesis": [["Green Dragon", "Killer Gila"]]
+			},
+			{
 				"name": "Tortoceratops",
 				"rank": "E",
 				"family": "Dragon",
@@ -752,6 +758,13 @@
 				"family": "Dragon",
 				"subfamily": ["Material", "Machine"],
 				"synthesis": [["Lumbering Lizard", "Metal Slime"]]
+			},
+			{
+				"name": "Cactolotl",
+				"rank": "D",
+				"family": "Dragon",
+				"subfamily": ["Reptile"],
+				"synthesis": [["Cauldragon", "Cactiball"]]
 			}
 		],
 		"C": [
@@ -921,7 +934,7 @@
 				"rank": "A",
 				"family": "Dragon",
 				"subfamily": ["Metal"],
-				"synthesis": [["Flapdragon", "Metal Scorpion"]]
+				"synthesis": [["Flapdragon", "Clangoustine"]]
 			},
 			{
 				"name": "Dread Dragon",
@@ -1999,11 +2012,18 @@
 				"synthesis": [["Hooper Trooper", "Pogoin' Penguin"]]
 			},
 			{
-				"name": "Dangler Fish",
+				"name": "Shivery Shrubbery",
 				"rank": "D",
 				"family": "Nature",
-				"subfamily": ["Aquatic"],
-				"synthesis": [["Barracuda", "Puffpoise"]]
+				"subfamily": ["Plant", "Ice"],
+				"synthesis": [["Freezing Fog", "Leafy Larrikin"]]
+			},
+			{
+				"name": "Slugger",
+				"rank": "D",
+				"family": "Nature",
+				"subfamily": ["Bug"],
+				"synthesis": [["Batterfly", "Tree Feller"]]
 			},
 			{
 				"name": "Mortoad",
@@ -2027,6 +2047,20 @@
 				"synthesis": [["Slime Family", "Nature Family", "Rank D"]]
 			},
 			{
+				"name": "Dangler Fish",
+				"rank": "D",
+				"family": "Nature",
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Barracuda", "Puffpoise"]]
+			},
+			{
+				"name": "Carnivine",
+				"rank": "D",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Cannibox", "Treeface"]]
+			},
+			{
 				"name": "Palooka Prawn",
 				"rank": "D",
 				"family": "Nature",
@@ -2039,13 +2073,6 @@
 				"family": "Nature",
 				"subfamily": ["Aquatic", "Beast"],
 				"synthesis": [["Drakularge", "Merman"]]
-			},
-			{
-				"name": "Carnivine",
-				"rank": "D",
-				"family": "Nature",
-				"subfamily": ["Plant"],
-				"synthesis": [["Cannibox", "Treeface"]]
 			},
 			{
 				"name": "Hades' Condor",
@@ -2062,18 +2089,11 @@
 				"synthesis": [["Parched Peckerel", "Gargoyle"]]
 			},
 			{
-				"name": "Shivery Shrubbery",
-				"rank": "D",
-				"family": "Nature",
-				"subfamily": ["Plant", "Ice"],
-				"synthesis": [["Freezing Fog", "Leafy Larrikin"]]
-			},
-			{
-				"name": "Slugger",
+				"name": "Slayer Of The Sands",
 				"rank": "D",
 				"family": "Nature",
 				"subfamily": ["Bug"],
-				"synthesis": [["Batterfly", "Tree Feller"]]
+				"synthesis": [["Scornet", "Crabid"]]
 			}
 		],
 		"C": [
@@ -2131,7 +2151,7 @@
 				"rank": "C",
 				"family": "Nature",
 				"subfamily": ["Bug"],
-				"synthesis": [["Scornet", "Killing Machine"]]
+				"synthesis": [["Slayer Of The Sands", "Killing Machine"]]
 			},
 			{
 				"name": "Blastoad",
@@ -2153,6 +2173,13 @@
 				"family": "Nature",
 				"subfamily": ["Plant"],
 				"synthesis": [["Treeface", "Bloody Hand"]]
+			},
+			{
+				"name": "Fowl Beast",
+				"rank": "C",
+				"family": "Nature",
+				"subfamily": ["Bird", "Beast"],
+				"synthesis": [["Bullfinch", "Moosifer"]]
 			}
 		],
 		"B": [
@@ -2189,7 +2216,7 @@
 				"rank": "B",
 				"family": "Nature",
 				"subfamily": ["Aquatic"],
-				"synthesis": [["Fandangow", "Dangler Fish"]]
+				"synthesis": [["Fowl Beast", "Dangler Fish"]]
 			},
 			{
 				"name": "Firebird",
@@ -2206,11 +2233,11 @@
 				"synthesis": [["Tartarus Eagle", "Blizzybody"]]
 			},
 			{
-				"name": "Fowl Beast",
+				"name": "Gangleclaw",
 				"rank": "B",
 				"family": "Nature",
-				"subfamily": ["Bird", "Beast"],
-				"synthesis": [["Bullfinch", "Moosifer"]]
+				"subfamily": ["Bird", "fire"],
+				"synthesis": [["Mangleclaw", "Bomboulder"]]
 			},
 			{
 				"name": "King Squid",
@@ -2232,11 +2259,11 @@
 				"synthesis": [["Lumbering Lizard", "Night Clubber"]]
 			},
 			{
-				"name": "Gangleclaw",
+				"name": "Riptide",
 				"rank": "B",
 				"family": "Nature",
-				"subfamily": ["Bird", "fire"],
-				"synthesis": [["Mangleclaw", "Bomboulder"]]
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Sea Dog", "Jumping Jackal"]]
 			}
 		],
 		"A": [
@@ -2246,22 +2273,6 @@
 				"family": "Nature",
 				"subfamily": ["Aquatic"],
 				"synthesis": [["One-Man Army", "King Squid"]]
-			},
-			{
-				"name": "Phoenix",
-				"rank": "A",
-				"family": "Nature",
-				"subfamily": ["Bird", "fire"],
-				"synthesis": [
-					["Firebird", "Tartarus Eagle", "Belisha Beakon", "Gangleclaw"]
-				]
-			},
-			{
-				"name": "Metal Scorpion",
-				"rank": "A",
-				"family": "Nature",
-				"subfamily": ["Bug", "metal"],
-				"synthesis": [["Armoured Scorpion", "Metal King Slime"]]
 			},
 			{
 				"name": "Beetlebully",
@@ -2278,25 +2289,34 @@
 				"synthesis": [["One-Man Army", "Leaf Spirit"]]
 			},
 			{
+				"name": "Cetacean Sorcerer",
+				"rank": "A",
+				"family": "Nature",
+				"synthesis": [["Baleen Mage", "King Slick Slime"]]
+			},
+			{
+				"name": "Phoenix",
+				"rank": "A",
+				"family": "Nature",
+				"subfamily": ["Bird", "fire"],
+				"synthesis": [
+					["Firebird", "Tartarus Eagle", "Belisha Beakon", "Gangleclaw"]
+				]
+			},
+			{
+				"name": "Clangoustine",
+				"_name": "Metal Scorpion",
+				"rank": "A",
+				"family": "Nature",
+				"subfamily": ["Bug", "metal"],
+				"synthesis": [["Armoured Scorpion", "Metal King Slime"]]
+			},
+			{
 				"name": "Gracos",
 				"rank": "A",
 				"family": "Nature",
 				"subfamily": ["Aquatic"],
 				"synthesis": [["Archdemon", "Merman", "Picuda", "Salamarauder"]]
-			},
-			{
-				"name": "Riptide",
-				"rank": "A",
-				"family": "Nature",
-				"subfamily": ["Aquatic"],
-				"synthesis": [["Clobster", "Jumping Jackal"]]
-			},
-			{
-				"name": "Lleviathan",
-				"rank": "A",
-				"family": "Nature",
-				"subfamily": ["Aquatic"],
-				"synthesis": [["Drakulard", "Picuda"]]
 			},
 			{
 				"name": "Prism Peacock",
@@ -2306,17 +2326,24 @@
 				"synthesis": [["Firebird", "Snowbird", "Terrorhawk", "Cosmic Chimaera"]]
 			},
 			{
-				"name": "Cetacean Sorcerer",
+				"name": "Lleviathan",
 				"rank": "A",
 				"family": "Nature",
-				"synthesis": [["Baleen Mage", "King Slick Slime"]]
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Drakulard", "Picuda"]]
 			},
 			{
-				"name": "Larstastnaras",
+				"name": "Aragune",
 				"rank": "A",
-				"family": "???",
-				"subfamily": ["Nature"],
-				"synthesis": [["Morag", "Sluggerslaught"]]
+				"family": "Nature",
+				"synthesis": [["Beetleboy", "King Squid"]]
+			},
+			{
+				"name": "Ultra Marine",
+				"rank": "A",
+				"family": "Nature",
+				"subfamily": ["???"],
+				"synthesis": [["Riptide", "Dhuran"]]
 			}
 		],
 		"S": [
@@ -2328,11 +2355,11 @@
 				"synthesis": [["Gripevine", "Cetacean Sorcerer"]]
 			},
 			{
-				"name": "Aragune",
+				"name": "Arachtagon",
 				"rank": "S",
 				"family": "Nature",
 				"subfamily": ["Bug"],
-				"synthesis": [["Beetlebully", "Larstastnaras"]]
+				"synthesis": [["Aragune", "Larstastnaras"]]
 			},
 			{
 				"name": "Khalamari",
@@ -2355,7 +2382,7 @@
 				"rank": "X",
 				"family": "Nature",
 				"subfamily": ["Aquatic"],
-				"synthesis": [["Gracos", "Khalamari", "Riptide", "Megalodon"]]
+				"synthesis": [["Gracos", "Khalamari", "Ultra Marine", "Megalodon"]]
 			},
 			{
 				"name": "Ramia",
@@ -2912,12 +2939,6 @@
 				"synthesis": [["Living Statue", "Serpent Of The Scales"]]
 			},
 			{
-				"name": "Knight Abhorrent",
-				"rank": "A",
-				"family": "Material",
-				"synthesis": [["Knight Errant", "Bone Baron"]]
-			},
-			{
 				"name": "Dora-In-Grey",
 				"rank": "A",
 				"family": "Material",
@@ -2928,6 +2949,12 @@
 				"rank": "A",
 				"family": "Material",
 				"synthesis": [["Mimic", "Ne'er-Do-Well"]]
+			},
+			{
+				"name": "Knight Abhorrent",
+				"rank": "A",
+				"family": "Material",
+				"synthesis": [["Knight Errant", "Bone Baron"]]
 			},
 			{
 				"name": "Overkilling Machine",
@@ -2942,6 +2969,13 @@
 				"family": "Material",
 				"subfamily": ["Machine"],
 				"synthesis": [["Overkilling Machine", "A3G15"]]
+			},
+			{
+				"name": "Gyldygga",
+				"rank": "A",
+				"family": "Material",
+				"subfamily": ["gold"],
+				"synthesis": [["Cactolotl", "Great Keeper"]]
 			},
 			{
 				"name": "Earth Spirit",
@@ -3314,19 +3348,25 @@
 				"synthesis": [["Boss Troll", "Pickayune"]]
 			},
 			{
+				"name": "Archdemon",
+				"rank": "C",
+				"family": "Demon",
+				"synthesis": [["Grim Keeper", "Dessert Demon"]]
+			},
+			{
 				"name": "Morag",
 				"rank": "C",
 				"family": "Demon",
 				"synthesis": []
+			},
+			{
+				"name": "Booga",
+				"rank": "C",
+				"family": "Demon",
+				"synthesis": [["Hooper Trooper", "Goobonce"]]
 			}
 		],
 		"B": [
-			{
-				"name": "Archdemon",
-				"rank": "B",
-				"family": "Demon",
-				"synthesis": [["Grim Keeper", "Dessert Demon"]]
-			},
 			{
 				"name": "Hyperanemon",
 				"rank": "B",
@@ -3390,6 +3430,13 @@
 				"synthesis": [["Silvapithecus", "Buntzenberner"]]
 			},
 			{
+				"name": "Brodysseus",
+				"rank": "A",
+				"family": "Demon",
+				"subfamily": ["Humanoid"],
+				"synthesis": [["Gigantes", "King Squid"]]
+			},
+			{
 				"name": "Barbatos",
 				"rank": "A",
 				"family": "Demon",
@@ -3413,7 +3460,7 @@
 				"name": "Pruslas",
 				"rank": "A",
 				"family": "Demon",
-				"synthesis": [["Balzack", "Metal Scorpion"]]
+				"synthesis": [["Balzack", "Clangoustine"]]
 			}
 		],
 		"S": [
@@ -3901,7 +3948,9 @@
 				"rank": "S",
 				"family": "Undead",
 				"subfamily": ["???", "Character"],
-				"synthesis": [["Purrgatroyd", "Captain Crow", "Night Knight", "Riptide"]]
+				"synthesis": [
+					["Purrgatroyd", "Captain Crow", "Ultra Marine", "Night Knight"]
+				]
 			},
 			{
 				"name": "King Godwyn Second Forme",
@@ -4004,6 +4053,19 @@
 				"synthesis": []
 			},
 			{
+				"name": "Larstastnaras",
+				"rank": "B",
+				"family": "Nature",
+				"subfamily": ["???"],
+				"synthesis": [["Morag", "Sluggerslaught"]]
+			},
+			{
+				"name": "Master Of Nu'un",
+				"rank": "A",
+				"family": "???",
+				"synthesis": []
+			},
+			{
 				"name": "Butoma Preciana",
 				"rank": "B",
 				"family": "???",
@@ -4096,12 +4158,6 @@
 				"synthesis": [["Dark Sabrecat", "King Foo Dog"]]
 			},
 			{
-				"name": "Master Of Nu'un",
-				"rank": "A",
-				"family": "???",
-				"synthesis": []
-			},
-			{
 				"name": "Krystalinda",
 				"rank": "A",
 				"family": "???",
@@ -4113,7 +4169,7 @@
 				"rank": "A",
 				"family": "???",
 				"subfamily": ["Character"],
-				"synthesis": [["Sea Dog", "Robbin' 'Ood", "Riptide"]]
+				"synthesis": [["Robbin' 'Ood", "Riptide"]]
 			},
 			{
 				"name": "Fizzy",
