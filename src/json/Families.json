@@ -524,7 +524,7 @@
 				"name": "Nardragon",
 				"rank": "G",
 				"family": "Dragon",
-				"subfamily": ["dinosaur"],
+				"subfamily": ["Dinosaur"],
 				"synthesis": [["Dragon Family", "Material Family", "Rank G"]]
 			},
 			{
@@ -552,7 +552,7 @@
 				"name": "Pteranodon",
 				"rank": "G",
 				"family": "Dragon",
-				"subfamily": ["dinosaur"],
+				"subfamily": ["Dinosaur"],
 				"synthesis": [["Dragon Family", "Demon Family", "Rank G"]]
 			},
 			{
@@ -574,7 +574,7 @@
 				"name": "Drag Racer",
 				"rank": "F",
 				"family": "Dragon",
-				"subfamily": ["dinosaur"],
+				"subfamily": ["Dinosaur"],
 				"synthesis": [["Nardragon", "Komodo"]]
 			},
 			{
@@ -643,8 +643,15 @@
 				"name": "Stabosaur",
 				"rank": "E",
 				"family": "Dragon",
-				"subfamily": ["dinosaur"],
+				"subfamily": ["Dinosaur"],
 				"synthesis": [["Nardragon", "Erazor Blade"]]
+			},
+			{
+				"name": "Snapdragon",
+				"rank": "E",
+				"family": "Dragon",
+				"subfamily": ["Nature", "Plant"],
+				"synthesis": [["Dragonthorn", "Hellbound Horror"]]
 			},
 			{
 				"name": "Mandrake Major",
@@ -674,7 +681,7 @@
 				"name": "Tortoceratops",
 				"rank": "E",
 				"family": "Dragon",
-				"subfamily": ["dinosaur"],
+				"subfamily": ["Dinosaur"],
 				"synthesis": [["Armoured Wartoise", "Drag Racer"]]
 			},
 			{
@@ -710,7 +717,7 @@
 				"name": "Tundragster",
 				"rank": "D",
 				"family": "Dragon",
-				"subfamily": ["Ice", "dinosaur"],
+				"subfamily": ["Ice", "Dinosaur"],
 				"synthesis": [["Drag Racer", "Freezing Fog"]]
 			},
 			{
@@ -765,6 +772,13 @@
 				"family": "Dragon",
 				"subfamily": ["Reptile"],
 				"synthesis": [["Cauldragon", "Cactiball"]]
+			},
+			{
+				"name": "Terrornodon",
+				"rank": "D",
+				"family": "Dragon",
+				"subfamily": ["Dinosaur"],
+				"synthesis": [["Pteranodon", "Bodkin Fletcher"]]
 			}
 		],
 		"C": [
@@ -799,7 +813,7 @@
 				"name": "Tyrannoceratops",
 				"rank": "C",
 				"family": "Dragon",
-				"subfamily": ["dinosaur"],
+				"subfamily": ["Dinosaur"],
 				"synthesis": [["Tortoceratops", "Magmalice"]]
 			},
 			{
@@ -907,7 +921,7 @@
 				"name": "Rashaverak",
 				"rank": "A",
 				"family": "Dragon",
-				"synthesis": [["Drakulard", "Hellspawn"]]
+				"synthesis": [["Drakulard", "Terrornodon"]]
 			},
 			{
 				"name": "Royal Reptile",
@@ -3747,6 +3761,13 @@
 				"rank": "D",
 				"family": "Undead",
 				"synthesis": [["Psaro's Pawn", "Dead Resident"]]
+			},
+			{
+				"name": "Lethal Armour",
+				"rank": "D",
+				"family": "Undead",
+				"subfamily": ["Material"],
+				"synthesis": [["Restless Armour", "Discombombulator"]]
 			}
 		],
 		"C": [
@@ -3804,17 +3825,17 @@
 				"synthesis": [["Killing Machine", "Ogre"]]
 			},
 			{
-				"name": "Fright Knight",
-				"rank": "C",
-				"family": "Undead",
-				"synthesis": [["Skeleton Swordsman", "Roseguardin"]]
-			},
-			{
 				"name": "Roseguardin",
 				"rank": "C",
 				"family": "Undead",
 				"subfamily": ["Material"],
-				"synthesis": [["Grim Rider", "Restless Armour"]]
+				"synthesis": [["Grim Rider", "Lethal Armour"]]
+			},
+			{
+				"name": "Fright Knight",
+				"rank": "C",
+				"family": "Undead",
+				"synthesis": [["Skeleton Swordsman", "Roseguardin"]]
 			},
 			{
 				"name": "Tyrantula",
