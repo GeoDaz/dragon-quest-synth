@@ -35,7 +35,8 @@
 				"rank": "G",
 				"family": "Slime",
 				"subfamily": [
-					"Plant"
+					"Plant",
+					"Nature"
 				],
 				"synthesis": [
 					[
@@ -63,6 +64,8 @@
 				"rank": "G",
 				"family": "Slime",
 				"subfamily": [
+					"Aquatic",
+					"Nature",
 					"Aquatic"
 				],
 				"synthesis": [
@@ -78,7 +81,8 @@
 				"rank": "G",
 				"family": "Slime",
 				"subfamily": [
-					"Plant"
+					"Plant",
+					"Nature"
 				],
 				"synthesis": [
 					[
@@ -93,7 +97,8 @@
 				"rank": "G",
 				"family": "Slime",
 				"subfamily": [
-					"Aquatic"
+					"Aquatic",
+					"Nature"
 				],
 				"synthesis": [
 					[
@@ -123,7 +128,8 @@
 				"rank": "G",
 				"family": "Slime",
 				"subfamily": [
-					"Plant"
+					"Plant",
+					"Nature"
 				],
 				"synthesis": [
 					[
@@ -134,6 +140,20 @@
 			}
 		],
 		"F": [
+			{
+				"name": "Chocoslime",
+				"rank": "F",
+				"family": "Slime",
+				"subfamily": [
+					"Food"
+				],
+				"synthesis": [
+					[
+						"Goonache Goodie",
+						"Slime"
+					]
+				]
+			},
 			{
 				"name": "Box Slime",
 				"rank": "F",
@@ -175,7 +195,8 @@
 				"rank": "F",
 				"family": "Slime",
 				"subfamily": [
-					"Plant"
+					"Plant",
+					"Nature"
 				],
 				"synthesis": [
 					[
@@ -393,6 +414,44 @@
 		],
 		"D": [
 			{
+				"name": "Shadow Slime",
+				"rank": "D",
+				"family": "Slime",
+				"subfamily": [
+					"Dark"
+				],
+				"synthesis": [
+					[
+						"Slime",
+						"Hypothermion"
+					]
+				]
+			},
+			{
+				"name": "Gold slime",
+				"rank": "D",
+				"family": "Slime",
+				"subfamily": [
+					"Gold"
+				],
+				"synthesis": [
+					[
+						"Metal Slime"
+					]
+				]
+			},
+			{
+				"name": "Mottle She-Slime",
+				"rank": "D",
+				"family": "Slime",
+				"synthesis": [
+					[
+						"Mottle Slime",
+						"Beshemoth Slime"
+					]
+				]
+			},
+			{
 				"name": "Pasty Pastry",
 				"rank": "D",
 				"family": "Slime",
@@ -504,6 +563,22 @@
 				]
 			},
 			{
+				"name": "Metal Pearl",
+				"rank": "D",
+				"family": "Slime",
+				"subfamily": [
+					"Metal",
+					"Nature",
+					"Aquatic"
+				],
+				"synthesis": [
+					[
+						"Metal Slime",
+						"Scallop Slime"
+					]
+				]
+			},
+			{
 				"name": "Metal Slime Knight",
 				"rank": "D",
 				"family": "Slime",
@@ -542,27 +617,16 @@
 		],
 		"C": [
 			{
-				"name": "Shadow Slime",
+				"name": "Gem Jamboree",
 				"rank": "C",
 				"family": "Slime",
 				"subfamily": [
-					"Dark"
+					"Food"
 				],
 				"synthesis": [
 					[
-						"Slime",
-						"Hypothermion"
-					]
-				]
-			},
-			{
-				"name": "Mottle She-Slime",
-				"rank": "C",
-				"family": "Slime",
-				"synthesis": [
-					[
-						"Mottle Slime",
-						"Beshemoth Slime"
+						"Cococoa Blobelisk",
+						"Gold Slime"
 					]
 				]
 			},
@@ -581,6 +645,22 @@
 				]
 			},
 			{
+				"name": "MagmaSlime",
+				"rank": "C",
+				"family": "Slime",
+				"subfamily": [
+					"Fire",
+					"Elemental",
+					"Material"
+				],
+				"synthesis": [
+					[
+						"Scuttle Slime",
+						"Magmalice"
+					]
+				]
+			},
+			{
 				"name": "Liquid Metal Slime",
 				"rank": "C",
 				"family": "Slime",
@@ -595,6 +675,34 @@
 				]
 			},
 			{
+				"name": "Metal Dragon Slime",
+				"rank": "C",
+				"family": "Slime",
+				"subfamily": [
+					"Metal"
+				],
+				"synthesis": [
+					[
+						"Dragon Slime",
+						"Metal Dragon"
+					]
+				]
+			},
+			{
+				"name": "Metal Angel Slime",
+				"rank": "C",
+				"family": "Slime",
+				"subfamily": [
+					"Metal"
+				],
+				"synthesis": [
+					[
+						"Metal Slime",
+						"Angel Slime"
+					]
+				]
+			},
+			{
 				"name": "Jester Slime",
 				"rank": "C",
 				"family": "Slime",
@@ -602,11 +710,6 @@
 					"Dark"
 				],
 				"synthesis": [
-					[
-						"Slime Family",
-						"Undead Family",
-						"Rank C"
-					],
 					[
 						"Dark Slime",
 						"Jinkster",
@@ -685,16 +788,31 @@
 		],
 		"B": [
 			{
-				"name": "Slime Snack",
+				"name": "Goomulonimbus",
 				"rank": "B",
 				"family": "Slime",
 				"subfamily": [
-					"Food"
+					"Elemental"
 				],
 				"synthesis": [
 					[
-						"Cococoa Blobelisk",
-						"Bag O' Sweets"
+						"Slime Family",
+						"Dragon Family",
+						"Rank B"
+					]
+				]
+			},
+			{
+				"name": "Gold Angel Slime",
+				"rank": "B",
+				"family": "Slime",
+				"subfamily": [
+					"Gold"
+				],
+				"synthesis": [
+					[
+						"Metal Angel Slime",
+						"Gold Slime"
 					]
 				]
 			},
@@ -729,30 +847,10 @@
 				],
 				"synthesis": [
 					[
-						"Slime Family",
-						"Demon Family",
-						"Rank B"
-					],
-					[
 						"King Bubble Slime",
 						"Slick Slime",
 						"Scuttle Slime",
 						"Magmalice"
-					]
-				]
-			},
-			{
-				"name": "Goomulonimbus",
-				"rank": "B",
-				"family": "Slime",
-				"subfamily": [
-					"Elemental"
-				],
-				"synthesis": [
-					[
-						"Slime Family",
-						"Dragon Family",
-						"Rank B"
 					]
 				]
 			},
@@ -846,7 +944,7 @@
 				"synthesis": [
 					[
 						"Metal King Slime",
-						"Balhib"
+						"Gem Jamboree"
 					]
 				]
 			},
@@ -862,6 +960,17 @@
 				]
 			},
 			{
+				"name": "King Healslime",
+				"rank": "A",
+				"family": "Slime",
+				"synthesis": [
+					[
+						"Queen Slime",
+						"Tentacular"
+					]
+				]
+			},
+			{
 				"name": "Platinum King Jewel",
 				"rank": "A",
 				"family": "Slime",
@@ -871,6 +980,23 @@
 						"Emperor Slime"
 					]
 				]
+			},
+			{
+				"name": "Prime Slime",
+				"rank": "A",
+				"family": "Slime",
+				"synthesis": [
+					[
+						"Slionheart",
+						"Gem Slime"
+					]
+				]
+			},
+			{
+				"name": "Ultra Slime",
+				"rank": "A",
+				"family": "Slime",
+				"synthesis": []
 			}
 		],
 		"S": [
@@ -908,11 +1034,23 @@
 				]
 			},
 			{
+				"name": "Grandpa Slime",
+				"rank": "S",
+				"family": "Slime",
+				"synthesis": [
+					[
+						"Metal Kaiser Slime",
+						"Darkonium Slime"
+					]
+				]
+			},
+			{
 				"name": "Canzar",
 				"rank": "S",
 				"family": "Slime",
 				"subfamily": [
-					"Nature",
+					"Material",
+					"Machine",
 					"Aquatic"
 				],
 				"synthesis": [
@@ -925,15 +1063,14 @@
 				]
 			},
 			{
-				"name": "Grandpa Slime",
+				"name": "Dark Robot Slime",
 				"rank": "S",
 				"family": "Slime",
-				"synthesis": [
-					[
-						"Metal Kaiser Slime",
-						"Darkonium Slime"
-					]
-				]
+				"subfamily": [
+					"Material",
+					"Machine"
+				],
+				"synthesis": []
 			}
 		],
 		"X": [
@@ -3076,7 +3213,7 @@
 				"synthesis": [
 					[
 						"Dark Sabrecat",
-						"Hellbound Hair-Raiser"
+						"Thunderbird"
 					]
 				]
 			},
