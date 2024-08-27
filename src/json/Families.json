@@ -428,7 +428,7 @@
 				]
 			},
 			{
-				"name": "Gold slime",
+				"name": "Gold Slime",
 				"rank": "D",
 				"family": "Slime",
 				"subfamily": [
@@ -812,7 +812,7 @@
 				"synthesis": [
 					[
 						"Metal Angel Slime",
-						"Gold Slime"
+						"Gem Jamboree"
 					]
 				]
 			},
@@ -848,9 +848,7 @@
 				"synthesis": [
 					[
 						"King Bubble Slime",
-						"Slick Slime",
-						"Scuttle Slime",
-						"Magmalice"
+						"MagmaSlime"
 					]
 				]
 			},
@@ -944,7 +942,7 @@
 				"synthesis": [
 					[
 						"Metal King Slime",
-						"Gem Jamboree"
+						"Metal Angel Slime"
 					]
 				]
 			},
@@ -1070,7 +1068,11 @@
 					"Material",
 					"Machine"
 				],
-				"synthesis": []
+				"synthesis": [
+					[
+						"Ultra Slime"
+					]
+				]
 			}
 		],
 		"X": [
@@ -1084,7 +1086,9 @@
 				"synthesis": [
 					[
 						"Grandpa Slime",
-						"Liquid Metal Slime King"
+						"Liquid Metal Slime King",
+						"Canzar",
+						"Dark Robot Slime"
 					]
 				]
 			}
@@ -2154,7 +2158,7 @@
 				]
 			},
 			{
-				"name": "Nadraga",
+				"name": "Nadraga Final Forme",
 				"rank": "S",
 				"family": "Dragon",
 				"subfamily": [
@@ -5036,7 +5040,7 @@
 				"synthesis": [
 					[
 						"Mud Mannequin",
-						"Goonache Goodie"
+						"Chocoslime"
 					]
 				]
 			},
@@ -7274,7 +7278,7 @@
 				"synthesis": [
 					[
 						"Soft Serve Spook",
-						"Chocolate Golem"
+						"Chocoslime"
 					]
 				]
 			},
