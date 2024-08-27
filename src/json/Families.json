@@ -8699,6 +8699,17 @@
 				]
 			},
 			{
+				"name": "War Goddess Togamihime",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [
+					[
+						"Metal Goddess",
+						"Krystalinda"
+					]
+				]
+			},
+			{
 				"name": "Fractos",
 				"rank": "X",
 				"family": "???",
@@ -8760,7 +8771,7 @@
 				],
 				"synthesis": [
 					[
-						"Metal Goddess",
+						"War Goddess Togamihime",
 						"The Almighty",
 						"Estark Izmah",
 						"Estark Venjah"
