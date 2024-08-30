@@ -363,7 +363,7 @@
 				"rank": "C",
 				"family": "Slime",
 				"subfamily": ["Dark"],
-				"synthesis": [["Dark Slime", "Jinkster", "Angel Slime", "Lump Shaman"]]
+				"synthesis": [["Dark Slime", "Angel Slime"]]
 			},
 			{
 				"name": "Snooty Slime Knight",
@@ -481,7 +481,7 @@
 				"rank": "A",
 				"family": "Slime",
 				"subfamily": ["jewel"],
-				"synthesis": [["Diamond Slime", "Gold Angel Slime"]]
+				"synthesis": [["Metal King Slime", "Gold Angel Slime"]]
 			},
 			{
 				"name": "Emperor Slime",
@@ -2815,14 +2815,14 @@
 				"name": "Dancing Flame",
 				"rank": "D",
 				"family": "Material",
-				"subfamily": ["Demon", "Elemental", "Fire"],
+				"subfamily": ["Elemental", "Fire"],
 				"synthesis": [["Hell Niño", "Grinferno"]]
 			},
 			{
 				"name": "Frostburn",
 				"rank": "D",
 				"family": "Material",
-				"subfamily": ["Elemental", "Demon", "Fire", "Ice"],
+				"subfamily": ["Elemental", "Fire", "Ice"],
 				"synthesis": [["Freezing Fog", "Grinferno"]]
 			},
 			{
@@ -2925,14 +2925,14 @@
 				"name": "Flamethrower",
 				"rank": "C",
 				"family": "Material",
-				"subfamily": ["Elemental", "Fire", "Ice"],
+				"subfamily": ["Demon", "Elemental", "Fire"],
 				"synthesis": [["Dancing Flame", "Beleth"]]
 			},
 			{
 				"name": "Blizzybody",
 				"rank": "C",
 				"family": "Material",
-				"subfamily": ["Elemental", "Fire"],
+				"subfamily": ["Demon", "Elemental", "Fire", "Ice"],
 				"synthesis": [["Frostburn", "Beleth"]]
 			},
 			{
@@ -4033,7 +4033,7 @@
 				"synthesis": [["Wight King", "Cosmic Chimera"]]
 			},
 			{
-				"name": "Hell Gladiator",
+				"name": "Hell Wadiator",
 				"rank": "A",
 				"family": "Undead",
 				"synthesis": [["Demon-At-Arms", "Jugular Joker"]]
@@ -4435,7 +4435,7 @@
 				"name": "Xiphos The Deathbringer",
 				"rank": "S",
 				"family": "???",
-				"synthesis": [["Valgirt", "Atlas", "Gemon", "Dhuran"]]
+				"synthesis": [["Valgirt", "Atlas", "Gemon", "Razerburn"]]
 			}
 		],
 		"X": [
@@ -4529,6 +4529,12 @@
 				]
 			},
 			{
+				"name": "War Goddess Togamihime",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Metal Goddess", "Krystalinda"]]
+			},
+			{
 				"name": "Fractos",
 				"rank": "X",
 				"family": "???",
@@ -4549,7 +4555,7 @@
 				"rank": "Z",
 				"family": "???",
 				"subfamily": ["Demon"],
-				"synthesis": [["AsuraZoma", "Master Of Nu'un"]]
+				"synthesis": [["AsuraZoma", "Zumergias"]]
 			},
 			{
 				"name": "King Of Calamity",
@@ -4565,7 +4571,12 @@
 				"family": "???",
 				"subfamily": ["Fairy"],
 				"synthesis": [
-					["Metal Goddess", "The Almighty", "Estark Izmah", "Estark Venjah"]
+					[
+						"War Goddess Togamihime",
+						"The Almighty",
+						"Estark Izmah",
+						"Estark Venjah"
+					]
 				]
 			},
 			{
