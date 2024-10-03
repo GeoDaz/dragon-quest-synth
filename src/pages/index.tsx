@@ -20,6 +20,7 @@ import MonsterLoading from '@/components/Monster/MonsterLoading';
 import SearchBar from '@/components/SearchBar';
 import Icon from '@/components/Icon';
 import { FiltersContext } from '@/context/filter';
+import ScrollUp from '@/components/ScrollUp';
 
 interface Props {
 	families: Families;
@@ -35,6 +36,12 @@ const PageLines: React.FC<Props> = props => {
 	const [search, setSearch] = useState<string>();
 	const [selectedFamily, setSelectedFamily] = useState<string | undefined>();
 	const [selectedRank, setSelectedRank] = useState<string | undefined>();
+
+	useEffect(() => {
+		if (hash && Object.keys(families).length > 0) {
+			document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' });
+		}
+	}, [props.families, hash]);
 
 	useEffect(() => {
 		if (!search) {
@@ -94,6 +101,7 @@ const PageLines: React.FC<Props> = props => {
 			metadescription="The aim of this site is to present dragon quest synthesis from all games."
 			className="overflow-visible"
 		>
+			<ScrollUp />
 			<div className="d-flex align-items-center mb-4 pb-2">
 				<LoadableImage
 					height={125}

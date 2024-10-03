@@ -131,6 +131,13 @@ a:active:not(.btn) {
   --bs-btn-disabled-border-color: var(--bs-primary);
 }
 
+.btn-scroll-up {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 99;
+}
+
 .text-primary {
   color: var(--bs-primary) !important;
 }
@@ -1252,5 +1259,37 @@ img.family {
   .line-grid .line-row .col .line-point .line-skin:focus {
     max-width: var(--dl-img-size);
     max-height: var(--dl-img-size);
+  }
+}
+
+.btn-scroll-up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  transition: opacity 0.5s;
+}
+
+.btn-scroll-up.fade-in {
+  opacity: 1;
+  display: block;
+  animation: jump .6s ease-in-out;
+}
+
+.btn-scroll-up.fade-out {
+  opacity: 0;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-7px);
+  }
+
+  100% {
+    transform: translateY(0);
   }
 }

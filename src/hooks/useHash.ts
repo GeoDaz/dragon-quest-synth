@@ -18,3 +18,4 @@ const useHash = () => {
 };
 
 export default useHash;
+
