@@ -67,7 +67,6 @@ const MemoizedInnerMonster = memo(function InnerMonster({
 								)}
 							>
 								{list.map((name, j) => {
-									const key = name + '_' + i + '_' + j;
 									const isFamily = name.includes('Family');
 									if (isFamily) {
 										const rank = list
@@ -76,7 +75,7 @@ const MemoizedInnerMonster = memo(function InnerMonster({
 										name = name.replace(' Family', '');
 										return (
 											<Family
-												key={key}
+												key={j}
 												name={name}
 												rank={rank}
 												big
@@ -92,12 +91,12 @@ const MemoizedInnerMonster = memo(function InnerMonster({
 												translateUI('Rank')
 											);
 										}
-										return <Rank key={key} value={'(1) ' + name} />;
+										return <Rank key={j} value={'(1) ' + name} />;
 									}
 									return (
 										<AnchorLink
 											hash={name}
-											key={key}
+											key={j}
 											className="line-point pictured thumbnail"
 										>
 											<MonsterImg
