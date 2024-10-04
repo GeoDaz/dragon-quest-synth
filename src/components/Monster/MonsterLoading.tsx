@@ -1,11 +1,14 @@
 import { makeClassName } from '@/functions';
 import { Card, CardHeader, CardBody, Spinner } from 'react-bootstrap';
 import { Monster as MonsterInterface } from '@/types/Monster';
-import { memo } from 'react';
-import useTranslate from '@/hooks/useTranslate';
-import Rank from './Rank';
 
-const MonsterLoading = ({ monster, hash }: { monster: MonsterInterface; hash?: string }) => {
+const MonsterLoading = ({
+	monster,
+	hash,
+}: {
+	monster: MonsterInterface;
+	hash?: string;
+}) => {
 	if (!monster) return null;
 	return (
 		<Card
@@ -16,38 +19,22 @@ const MonsterLoading = ({ monster, hash }: { monster: MonsterInterface; hash?: s
 			)}
 			style={{ minHeight: `${416 / 15}rem`, width: '18rem' }}
 		>
-			<MemoizedInnerMonster monster={monster} />
-		</Card>
-	);
-};
-
-const MemoizedInnerMonster = memo(function InnerMonster({
-	monster,
-}: {
-	monster: MonsterInterface;
-}) {
-	const { isFr, translateUI } = useTranslate();
-	const displayName = (isFr && monster.nom) || monster.name;
-	return (
-		<>
 			<CardHeader>
 				<div className="text-center">
 					<div className="d-inline-block position-relative line-point pictured">
 						<ImgLoading />
 					</div>
 				</div>
-				<h2 className="text-center">{displayName}</h2>
+				<h2 className="text-center">{monster.name}</h2>
 			</CardHeader>
 			<CardBody>
-				<div className="fw-bold mb-2">{translateUI('Family')}&nbsp;:</div>
+				<div className="fw-bold mb-2">Family&nbsp;:</div>
 				<div className="d-flex gap-2">
 					<FamilyLoading />
 				</div>
 				{monster.synthesis.length > 0 && (
 					<>
-						<div className="fw-bold mt-2 mb-2">
-							{translateUI('Synthesis')}&nbsp;:
-						</div>
+						<div className="fw-bold mt-2 mb-2">Synthesis&nbsp;:</div>
 						{monster.synthesis.map((list: string[], i: number) => (
 							<div
 								key={i}
@@ -56,35 +43,9 @@ const MemoizedInnerMonster = memo(function InnerMonster({
 									i > 0 && 'mt-2'
 								)}
 							>
-								{list.map((name, j) => {
-									const isFamily = name.includes('Family');
-									if (isFamily) {
-										const rank = list
-											.find(n => n.includes('Rank'))
-											?.slice(-1);
-										name = name.replace(' Family', '');
-										return (
-											<div key={j} className="line-point pictured thumbnail">
-												<ImgLoading />
-											</div>
-										);
-									}
-									const isRank = name.includes('Rank');
-									if (isRank) {
-										if (isFr) {
-											name = name.replace(
-												'Rank',
-												translateUI('Rank')
-											);
-										}
-										return <Rank key={j} value={'(1) ' + name} />;
-									}
-									return (
-										<div key={j} className="line-point pictured thumbnail">
-											<ImgLoading />
-										</div>
-									);
-								})}
+								{list.map((_, j) => (
+									<ThumbLoading key={j} />
+								))}
 							</div>
 						))}
 					</>
@@ -96,22 +57,18 @@ const MemoizedInnerMonster = memo(function InnerMonster({
 				)}
 				{monster.revSynthesis?.length > 0 && (
 					<>
-						<div className="fw-bold mt-2 mb-2">
-							{translateUI('Synthesize into')}&nbsp;:
-						</div>
+						<div className="fw-bold mt-2 mb-2">Synthesize into&nbsp;:</div>
 						<div className="sub-monsters d-flex gap-2 flex-wrap">
-							{monster.revSynthesis?.map((name: string, i: number) => (
-								<div key={i} className="line-point pictured thumbnail">
-									<ImgLoading />
-								</div>
+							{monster.revSynthesis?.map((_, i: number) => (
+								<ThumbLoading key={i} />
 							))}
 						</div>
 					</>
 				)}
 			</CardBody>
-		</>
+		</Card>
 	);
-});
+};
 
 const ImgLoading = () => {
 	return (
@@ -122,11 +79,12 @@ const ImgLoading = () => {
 		</div>
 	);
 };
+const ThumbLoading = () => {
+	return <div style={{ height: '45px', width: '45px' }} />;
+};
 
 const FamilyLoading = () => {
-	return <div className="spinner-wrapper" style={{ height: '30px', width: '30px' }}>
-		<Spinner animation="grow" />
-	</div>
+	return <div style={{ height: '30px', width: '30px' }} />;
 };
 
 export default MonsterLoading;
