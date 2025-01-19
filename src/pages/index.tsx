@@ -8,7 +8,7 @@ import { ImagesContext } from '@/context/images';
 import { familiesColors } from '@/consts/colors';
 import { families as familyList, ranks as rankList } from '@/consts/data';
 import { useRouter } from 'next/router';
-import { Dropdown, DropdownButton, FormCheck } from 'react-bootstrap';
+import { Card, Dropdown, DropdownButton, FormCheck } from 'react-bootstrap';
 import LoadableImage from '@/components/LoadableImage';
 import { reverseSynth } from '@/functions/transformer/synthesis';
 import { StringObject } from '@/types/Ui';
@@ -25,10 +25,10 @@ import ScrollUp from '@/components/ScrollUp';
 interface Props {
 	families: Families;
 	images: StringObject;
-	dqm: boolean;
+	game: ?string;
 }
 const PageLines: React.FC<Props> = props => {
-	const { images, dqm } = props;
+	const { images, game } = props;
 	const [families, setFamilies] = useState<Families>(props.families);
 	const router = useRouter();
 	const hash = useHash();
@@ -103,21 +103,34 @@ const PageLines: React.FC<Props> = props => {
 		>
 			<ScrollUp />
 			<div className="d-flex align-items-center mb-4 pb-2">
-				<LoadableImage
-					height={125}
-					width={270}
-					src="/images/dqmtdp.webp"
-					alt="Dragon Quest Monster : The Dark Prince"
-					className="img-fluid"
-				/>
-				<FormCheck
-					type="switch"
-					id="dqmtdp-switch"
-					checked={dqm}
-					readOnly
-					onClick={e => router.push(dqm ? '/community' : '/')}
-					className="h2 click"
-				/>
+				<Card
+					onClick={() => router.push('/')}
+					className={!game || game == 'DQMTDP' ? 'active' : ''}
+				>
+					<Card.Img
+						variant="top"
+						src="/images/DQMTDP.webp"
+						alt="Dragon Quest Monster : The Dark Prince"
+						title="Dragon Quest Monster : The Dark Prince"
+					/>
+				</Card>
+				<Card
+					className={game == 'DQMJ1' ? 'active' : ''}
+					onClick={() => router.push('/game/DQMJ1')}
+				>
+					<Card.Img
+						variant="top"
+						src="/images/DQMJ1.png"
+						alt="Dragon Quest Monster Joker I"
+						title="Dragon Quest Monster Joker I"
+					/>
+				</Card>
+				<Card
+					className={game == 'Custom' ? 'active' : ''}
+					onClick={() => router.push('/game/Custom')}
+				>
+					<h2 className="text-primary">Custom</h2>
+				</Card>
 			</div>
 			<div className="d-flex flex-wrap gap-4 mb-4">
 				<SearchBar
@@ -269,11 +282,11 @@ const RankSection = ({
 
 export const getStaticProps: GetStaticProps = async () => {
 	try {
-		const families: Families = require('../json/DQM3-Families.json');
+		const families: Families = require('../json/DQMTDP.json');
 		reverseSynth(families);
 
 		const images = require('../json/monstersImages.json');
-		return { props: { families, images, dqm: true } };
+		return { props: { families, images, game: 'DQMTDP' } };
 	} catch (e) {
 		console.error(e);
 		return { props: {} };
