@@ -21,11 +21,14 @@ import SearchBar from '@/components/SearchBar';
 import Icon from '@/components/Icon';
 import { FiltersContext } from '@/context/filter';
 import ScrollUp from '@/components/ScrollUp';
+import GameCard from '@/components/GameCard';
+import { Game } from '@/types/Game';
+import games from '@/json/games.json';
 
 interface Props {
 	families: Families;
 	images: StringObject;
-	game: ?string;
+	game?: string;
 }
 const PageLines: React.FC<Props> = props => {
 	const { images, game } = props;
@@ -102,35 +105,28 @@ const PageLines: React.FC<Props> = props => {
 			className="overflow-visible"
 		>
 			<ScrollUp />
-			<div className="d-flex align-items-center mb-4 pb-2">
-				<Card
-					onClick={() => router.push('/')}
-					className={!game || game == 'DQMTDP' ? 'active' : ''}
-				>
-					<Card.Img
-						variant="top"
-						src="/images/DQMTDP.webp"
-						alt="Dragon Quest Monster : The Dark Prince"
-						title="Dragon Quest Monster : The Dark Prince"
-					/>
-				</Card>
-				<Card
-					className={game == 'DQMJ1' ? 'active' : ''}
-					onClick={() => router.push('/game/DQMJ1')}
-				>
-					<Card.Img
-						variant="top"
-						src="/images/DQMJ1.png"
-						alt="Dragon Quest Monster Joker I"
-						title="Dragon Quest Monster Joker I"
-					/>
-				</Card>
-				<Card
-					className={game == 'Custom' ? 'active' : ''}
-					onClick={() => router.push('/game/Custom')}
-				>
-					<h2 className="text-primary">Custom</h2>
-				</Card>
+			<div className="row mb-4">
+				{Object.values(games).map((_game: Game) => (
+					<div
+						key={_game.key}
+						className="col-12 col-lg-3 col-md-4 col-sm-6 d-flex mb-4"
+					>
+						<GameCard game={_game} currentGame={game} />
+					</div>
+				))}
+				<div className="col-12 col-lg-3 col-md-4 col-sm-6 d-flex mb-4">
+					<Card
+						className={makeClassName(
+							'click flex-center w-100',
+							game == 'Custom' ? 'active' : ''
+						)}
+						onClick={() => router.push('/game/Custom')}
+					>
+						<h2 className="text-primary fs-1 fw-bold mb-0">
+							<Icon name="discord" /> Custom
+						</h2>
+					</Card>
+				</div>
 			</div>
 			<div className="d-flex flex-wrap gap-4 mb-4">
 				<SearchBar

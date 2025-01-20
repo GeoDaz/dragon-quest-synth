@@ -1,1 +1,32 @@
-["DQMJ1", "DQMJ2", "DQMJ2Pro", "DQMJ3", "DQMJ3Pro", "DQM", "DQM2", "DQMTDP", "Custom"]
+{
+	"DQMJ1": {
+		"key": "DQMJ1",
+		"title": "Dragon Quest Monster Joker I",
+		"extension": "png"
+	},
+	"DQMJ2": {
+		"key": "DQMJ2",
+		"title": "Dragon Quest Monster Joker II",
+		"extension": "png"
+	},
+	"DQMJ2Pro": {
+		"key": "DQMJ2Pro",
+		"title": "Dragon Quest Monster Joker II Pro",
+		"extension": "webp"
+	},
+	"DQMJ3": {
+		"key": "DQMJ3",
+		"title": "Dragon Quest Monster Joker III",
+		"extension": "webp"
+	},
+	"DQMJ3Pro": {
+		"key": "DQMJ3Pro",
+		"title": "Dragon Quest Monster Joker III Pro",
+		"extension": "png"
+	},
+	"DQMTDP": {
+		"key": "DQMTDP",
+		"title": "Dragon Quest Monster The Dark Prince",
+		"extension": "webp"
+	}
+}

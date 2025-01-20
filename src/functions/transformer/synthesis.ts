@@ -19,6 +19,9 @@ export const reverseSynth = (families: Families): void => {
 	Object.values(families).forEach(ranks => {
 		Object.values(ranks).forEach(innerMonsters => {
 			innerMonsters.forEach(monster => {
+				if (!monster.synthesis) {
+					monster.synthesis = [];
+				}
 				monster.synthesis.forEach(synthesis => {
 					synthesis.forEach(synth => {
 						const synthMonster = monsters[synth];
