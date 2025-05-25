@@ -13,7 +13,7 @@ import { Button } from 'react-bootstrap';
 import ReportABugLink from '@/components/ReportABugLink';
 import useLocalStorage from '@/hooks/useLocalStorage';
 import DownloadDropdown from '@/components/DownloadDropdown';
-import Line, { LineColumn } from '@/types/Line';
+import Line from '@/types/Line';
 import UploadCode from '@/components/UploadCode';
 import transformLine, { areCollapsablePoints } from '@/functions/transformer/line';
 import { ImagesContext } from '@/context/images';
@@ -25,7 +25,7 @@ interface Props {
 	images: StringObject;
 	search: Search;
 }
-const PageBuild: React.FC<Props> = ({ images = {}, search = {} }) => {
+const PageBuild: React.FC<Props> = ({ images = {}, search }) => {
 	const [line, dispatchState] = useReducer(lineReducer, defaultLine);
 	const setLine = (line: Line) => dispatchState(setLineAction(line));
 	const { setItemToStorage } = useLocalStorage('line', line, setLine);
