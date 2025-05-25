@@ -14,9 +14,8 @@ const GameCard = ({ game, currentGame }: { game: Game; currentGame?: string }) =
 				!game || game.key == currentGame ? 'active' : ''
 			)}
 		>
-			<Card.Img
-				as={Image}
-				variant="top"
+			<Image
+				className="card-img-top"
 				src={`/images/${game.key}.${game.extension}`}
 				alt={game.title}
 				title={game.title}
