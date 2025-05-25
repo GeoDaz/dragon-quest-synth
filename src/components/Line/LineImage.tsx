@@ -15,6 +15,7 @@ export interface LineImageProps {
 	width?: number;
 	style?: object;
 	loadable?: boolean;
+	mirror?: boolean;
 }
 const LineImage = memo(function LineImage({
 	name,
@@ -25,6 +26,7 @@ const LineImage = memo(function LineImage({
 	width = 150,
 	style,
 	loadable = true,
+	mirror = false,
 }: LineImageProps) {
 	const images = useContext(ImagesContext);
 	const image = images[name];
@@ -74,7 +76,11 @@ const LineImage = memo(function LineImage({
 				// 	}
 				// }}
 				alt={name}
-				className={makeClassName('line-img rounded', className)}
+				className={makeClassName(
+					'line-img rounded',
+					mirror && 'mirror',
+					className
+				)}
 				title={title}
 				// width={width / ratioWidth}
 				// height={height / ratioHeight}

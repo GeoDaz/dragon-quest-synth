@@ -8,7 +8,7 @@ import { ImagesContext } from '@/context/images';
 import { familiesColors } from '@/consts/colors';
 import { families as familyList, ranks as rankList } from '@/consts/data';
 import { useRouter } from 'next/router';
-import { Dropdown, DropdownButton, FormCheck } from 'react-bootstrap';
+import { Card, Dropdown, DropdownButton, FormCheck } from 'react-bootstrap';
 import LoadableImage from '@/components/LoadableImage';
 import { reverseSynth } from '@/functions/transformer/synthesis';
 import { StringObject } from '@/types/Ui';
@@ -21,14 +21,17 @@ import SearchBar from '@/components/SearchBar';
 import Icon from '@/components/Icon';
 import { FiltersContext } from '@/context/filter';
 import ScrollUp from '@/components/ScrollUp';
+import GameCard from '@/components/GameCard';
+import { Game } from '@/types/Game';
+import games from '@/json/games.json';
 
 interface Props {
 	families: Families;
 	images: StringObject;
-	dqm: boolean;
+	game?: string;
 }
 const PageLines: React.FC<Props> = props => {
-	const { images, dqm } = props;
+	const { images, game } = props;
 	const [families, setFamilies] = useState<Families>(props.families);
 	const router = useRouter();
 	const hash = useHash();
@@ -72,7 +75,7 @@ const PageLines: React.FC<Props> = props => {
 				}, {} as Families)
 			);
 		}
-	}, [search]);
+	}, [search, props.families]);
 
 	const resetFilters = useCallback(() => {
 		setSelectedFamily(undefined);
@@ -102,22 +105,30 @@ const PageLines: React.FC<Props> = props => {
 			className="overflow-visible"
 		>
 			<ScrollUp />
-			<div className="d-flex align-items-center mb-4 pb-2">
-				<LoadableImage
-					height={125}
-					width={270}
-					src="/images/dqmtdp.webp"
-					alt="Dragon Quest Monster : The Dark Prince"
-					className="img-fluid"
-				/>
-				<FormCheck
-					type="switch"
-					id="dqmtdp-switch"
-					checked={dqm}
-					readOnly
-					onClick={e => router.push(dqm ? '/community' : '/')}
-					className="h2 click"
-				/>
+			<div className="row mb-4">
+				{Object.values(games)
+					.filter(game => game.available)
+					.map((_game: Game) => (
+						<div
+							key={_game.key}
+							className="col-12 col-lg-3 col-md-4 col-sm-6 d-flex mb-4"
+						>
+							<GameCard game={_game} currentGame={game} />
+						</div>
+					))}
+				<div className="col-12 col-lg-3 col-md-4 col-sm-6 d-flex mb-4">
+					<Card
+						className={makeClassName(
+							'click flex-center w-100',
+							game == 'Custom' ? 'active' : ''
+						)}
+						onClick={() => router.push('/game/Custom')}
+					>
+						<h2 className="text-primary fs-1 fw-bold mb-0">
+							<Icon name="discord" /> Custom
+						</h2>
+					</Card>
+				</div>
 			</div>
 			<div className="d-flex flex-wrap gap-4 mb-4">
 				<SearchBar
@@ -269,11 +280,11 @@ const RankSection = ({
 
 export const getStaticProps: GetStaticProps = async () => {
 	try {
-		const families: Families = require('../json/DQM3-Families.json');
+		const families: Families = require('../json/DQMTDP.json');
 		reverseSynth(families);
 
 		const images = require('../json/monstersImages.json');
-		return { props: { families, images, dqm: true } };
+		return { props: { families, images, game: 'DQMTDP' } };
 	} catch (e) {
 		console.error(e);
 		return { props: {} };

@@ -38,7 +38,7 @@ const MemoizedInnerMonster = memo(function InnerMonster({
 				<div className="text-center">
 					<div className="d-inline-block position-relative line-point pictured">
 						<MonsterImg name={monster.name} title={displayName} />
-						<Rank value={monster.rank} />
+						{monster.rank && <Rank value={monster.rank} />}
 					</div>
 				</div>
 				<h2 className="text-center">{displayName}</h2>

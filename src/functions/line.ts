@@ -1,5 +1,5 @@
 import Line, { LineColumn, LineFound, LinePoint, LineThumb } from '@/types/Line';
-import { getSearchPriority } from '../search';
+import { getSearchPriority } from './search';
 import { StringArrayObject } from '@/types/Ui';
 
 const transformLine = (line: Line | undefined): Line | undefined => {

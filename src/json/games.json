@@ -1,0 +1,38 @@
+{
+	"DQMTDP": {
+		"key": "DQMTDP",
+		"title": "Dragon Quest Monster The Dark Prince",
+		"extension": "webp",
+		"available": true
+	},
+	"DQMJ1": {
+		"key": "DQMJ1",
+		"title": "Dragon Quest Monster Joker I",
+		"extension": "png",
+		"available": true
+	},
+	"DQMJ2": {
+		"key": "DQMJ2",
+		"title": "Dragon Quest Monster Joker II",
+		"extension": "png",
+		"available": false
+	},
+	"DQMJ2Pro": {
+		"key": "DQMJ2Pro",
+		"title": "Dragon Quest Monster Joker II Pro",
+		"extension": "webp",
+		"available": false
+	},
+	"DQMJ3": {
+		"key": "DQMJ3",
+		"title": "Dragon Quest Monster Joker III",
+		"extension": "webp",
+		"available": false
+	},
+	"DQMJ3Pro": {
+		"key": "DQMJ3Pro",
+		"title": "Dragon Quest Monster Joker III Pro",
+		"extension": "png",
+		"available": false
+	}
+}

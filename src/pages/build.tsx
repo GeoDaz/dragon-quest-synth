@@ -13,17 +13,19 @@ import { Button } from 'react-bootstrap';
 import ReportABugLink from '@/components/ReportABugLink';
 import useLocalStorage from '@/hooks/useLocalStorage';
 import DownloadDropdown from '@/components/DownloadDropdown';
-import Line, { LineColumn } from '@/types/Line';
+import Line from '@/types/Line';
 import UploadCode from '@/components/UploadCode';
 import transformLine, { areCollapsablePoints } from '@/functions/transformer/line';
 import { ImagesContext } from '@/context/images';
 import { StringObject } from '@/types/Ui';
+import Search from '@/types/Search';
+import { getDubbedSearchList } from '@/functions/search';
 
 interface Props {
 	images: StringObject;
-	searchList: string[];
+	search: Search;
 }
-const PageBuild: React.FC<Props> = ({ images = {}, searchList = [] }) => {
+const PageBuild: React.FC<Props> = ({ images = {}, search }) => {
 	const [line, dispatchState] = useReducer(lineReducer, defaultLine);
 	const setLine = (line: Line) => dispatchState(setLineAction(line));
 	const { setItemToStorage } = useLocalStorage('line', line, setLine);
@@ -105,7 +107,7 @@ const PageBuild: React.FC<Props> = ({ images = {}, searchList = [] }) => {
 				<ZoomBar handleZoom={setZoom} />
 				<ColorLegend />
 			</div>
-			<SearchContext.Provider value={searchList}>
+			<SearchContext.Provider value={search}>
 				<ImagesContext.Provider value={images}>
 					<LineGrid
 						line={line}
@@ -121,9 +123,11 @@ const PageBuild: React.FC<Props> = ({ images = {}, searchList = [] }) => {
 export const getStaticProps: GetStaticProps = async () => {
 	try {
 		const images = require('../json/monstersImages.json');
-		console.log(images.Slime);
+		const translatedMonsters = require('../json/monsterTranslations.json');
+		const searchList: string[] = Object.keys(images);
+		const search: Search = getDubbedSearchList(searchList, translatedMonsters);
 
-		return { props: { images, searchList: Object.keys(images) } };
+		return { props: { images, search } };
 	} catch (e) {
 		console.error(e);
 		return { props: {} };
