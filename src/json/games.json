@@ -2,7 +2,7 @@
 	"DQMTDP": {
 		"key": "DQMTDP",
 		"title": "Dragon Quest Monster The Dark Prince",
-		"extension": "webp",
+		"extension": "png",
 		"available": true
 	},
 	"DQMJ1": {
@@ -20,13 +20,13 @@
 	"DQMJ2Pro": {
 		"key": "DQMJ2Pro",
 		"title": "Dragon Quest Monster Joker II Pro",
-		"extension": "webp",
+		"extension": "png",
 		"available": false
 	},
 	"DQMJ3": {
 		"key": "DQMJ3",
 		"title": "Dragon Quest Monster Joker III",
-		"extension": "webp",
+		"extension": "png",
 		"available": false
 	},
 	"DQMJ3Pro": {
