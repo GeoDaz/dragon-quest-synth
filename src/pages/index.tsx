@@ -75,7 +75,7 @@ const PageLines: React.FC<Props> = props => {
 				}, {} as Families)
 			);
 		}
-	}, [search]);
+	}, [search, props.families]);
 
 	const resetFilters = useCallback(() => {
 		setSelectedFamily(undefined);
@@ -106,14 +106,16 @@ const PageLines: React.FC<Props> = props => {
 		>
 			<ScrollUp />
 			<div className="row mb-4">
-				{Object.values(games).map((_game: Game) => (
-					<div
-						key={_game.key}
-						className="col-12 col-lg-3 col-md-4 col-sm-6 d-flex mb-4"
-					>
-						<GameCard game={_game} currentGame={game} />
-					</div>
-				))}
+				{Object.values(games)
+					.filter(game => game.available)
+					.map((_game: Game) => (
+						<div
+							key={_game.key}
+							className="col-12 col-lg-3 col-md-4 col-sm-6 d-flex mb-4"
+						>
+							<GameCard game={_game} currentGame={game} />
+						</div>
+					))}
 				<div className="col-12 col-lg-3 col-md-4 col-sm-6 d-flex mb-4">
 					<Card
 						className={makeClassName(

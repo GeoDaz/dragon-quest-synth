@@ -3,8 +3,9 @@ import { Button } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
 import Icon from './Icon';
 import { SearchContext } from '@/context/search';
-import { getSearchPriority, makeClassName, stringToKey } from '@/functions';
+import { makeClassName } from '@/functions';
 import { Option } from '@/types/Ui';
+import { getSearchPriority } from '@/functions/search';
 
 const NB_PREVIEW = 10;
 interface Props {
@@ -13,6 +14,7 @@ interface Props {
 	defaultValue?: string;
 	width?: number;
 	forwardRef?: React.Ref<HTMLInputElement>;
+	disabled?: boolean;
 }
 const SearchBar: React.FC<Props> = ({
 	onSubmit,
@@ -20,6 +22,7 @@ const SearchBar: React.FC<Props> = ({
 	defaultValue,
 	width = 300,
 	forwardRef,
+	disabled = false,
 }) => {
 	const searchList = useContext(SearchContext);
 	const [search, setSearch] = useState<string | undefined>(defaultValue);
@@ -37,7 +40,7 @@ const SearchBar: React.FC<Props> = ({
 		e.preventDefault();
 		e.stopPropagation();
 		if (e.key == 'Enter') {
-			handleSubmit(selection !== null ? previews[selection].value : undefined);
+			handleSubmit((selection !== null && previews[selection]?.value) || undefined);
 		} else if (previews.length > 0) {
 			if (e.key == 'ArrowDown') {
 				setSelection(
@@ -60,13 +63,18 @@ const SearchBar: React.FC<Props> = ({
 	};
 
 	const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
-		setSearch(e.target.value);
-		if (search) {
-			if (searchList && searchList.length > 0) {
-				let result = searchList.reduce((result, name) => {
-					const priority = getSearchPriority(search, name);
+		const value = e.target.value;
+		setSearch(value);
+		if (value) {
+			if (searchList && searchList.values.length > 0) {
+				let result = searchList.keys.reduce((result, name) => {
+					const priority = getSearchPriority(value, name);
 					if (priority != null) {
-						result.push({ key: priority, value: name } as Option);
+						result.push({
+							key: priority,
+							value: searchList.mapped[name],
+							text: name,
+						} as Option);
 					}
 					return result;
 				}, [] as any[]);
@@ -99,6 +107,7 @@ const SearchBar: React.FC<Props> = ({
 				onKeyDown={onKeyDown}
 				autoComplete="off"
 				className="research"
+				disabled={disabled}
 			/>
 			{previews.length > 0 && (
 				<div className="previews" role="listbox" aria-expanded tabIndex={0}>
@@ -112,16 +121,22 @@ const SearchBar: React.FC<Props> = ({
 							onClick={e => {
 								e.preventDefault();
 								e.stopPropagation();
+								if (disabled) return;
 								setSearch(preview.value as string);
 								handleSubmit(preview.value);
 							}}
 						>
-							{preview.value}
+							{preview.text || preview.value}
 						</span>
 					))}
 				</div>
 			)}
-			<Button color="primary" type="submit" onClick={e => handleSubmit()}>
+			<Button
+				color="primary"
+				type="submit"
+				disabled={disabled}
+				onClick={e => handleSubmit()}
+			>
 				<Icon name="search" />
 			</Button>
 		</div>

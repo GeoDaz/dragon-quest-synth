@@ -10,11 +10,12 @@ export const REMOVE_LINE_COLUMN = 'REMOVE_LINE_COLUMN';
 export const ADD_LINE_ROW = 'ADD_LINE_ROW';
 export const REMOVE_LINE_ROW = 'REMOVE_LINE_ROW';
 
-export const defaultColumn = [null, null, null, null, null];
+export const defaultColumn = [null, null, null, null, null, null, null, null];
 export const defaultLine: Line = {
-	title: undefined,
-	size: 5,
+	size: 8, // yLength ; xLength = line.columns.length
 	columns: [
+		defaultColumn,
+		defaultColumn,
 		defaultColumn,
 		defaultColumn,
 		defaultColumn,
@@ -40,10 +41,10 @@ export const setLineColumn = (i: number, value: any) => ({
 	i,
 	value,
 });
-export const addLineColumn = (i: number | undefined) => ({ type: ADD_LINE_COLUMN, i });
-export const removeLineColumn = (i: number) => ({ type: REMOVE_LINE_COLUMN, i });
-export const addLineRow = (i: number | undefined) => ({ type: ADD_LINE_ROW, i });
-export const removeLineRow = (i: number) => ({ type: REMOVE_LINE_ROW, i });
+export const addLineColumn = (x: number | undefined) => ({ type: ADD_LINE_COLUMN, i: x });
+export const removeLineColumn = (x: number) => ({ type: REMOVE_LINE_COLUMN, i: x });
+export const addLineRow = (y: number | undefined) => ({ type: ADD_LINE_ROW, i: y });
+export const removeLineRow = (y: number) => ({ type: REMOVE_LINE_ROW, i: y });
 
 const lineReducer = (line: Line = defaultLine, action: Record<string, any>) => {
 	let columns;
@@ -52,18 +53,18 @@ const lineReducer = (line: Line = defaultLine, action: Record<string, any>) => {
 			return action.value || line;
 
 		case SET_LINE_VALUE:
-			return { ...line, [action.name]: action.value } || line;
+			return { ...line, [action.name]: action.value };
 
 		case SET_LINE_POINT:
 			columns = line.columns.slice();
 			columns[action.coord[0]] = columns[action.coord[0]].slice();
 			columns[action.coord[0]][action.coord[1]] = action.value;
-			return { ...line, columns } || line;
+			return { ...line, columns };
 
 		case SET_LINE_COLUMN:
 			columns = line.columns.slice();
 			columns[action.i] = action.value;
-			return { ...line, columns } || line;
+			return { ...line, columns };
 
 		case ADD_LINE_COLUMN:
 			columns = line.columns.slice();
@@ -72,12 +73,12 @@ const lineReducer = (line: Line = defaultLine, action: Record<string, any>) => {
 			} else {
 				columns.splice(action.i, 0, new Array(line.size).fill(null));
 			}
-			return { ...line, columns } || line;
+			return { ...line, columns };
 
 		case REMOVE_LINE_COLUMN:
 			columns = line.columns.slice();
 			columns.splice(action.i, 1);
-			return { ...line, columns } || line;
+			return { ...line, columns };
 
 		case ADD_LINE_ROW:
 			columns = line.columns.map(col => {
@@ -89,7 +90,7 @@ const lineReducer = (line: Line = defaultLine, action: Record<string, any>) => {
 				}
 				return col;
 			});
-			return { ...line, columns, size: line.size + 1 } || line;
+			return { ...line, columns, size: line.size + 1 };
 
 		case REMOVE_LINE_ROW:
 			columns = line.columns.map(col => {
@@ -97,7 +98,7 @@ const lineReducer = (line: Line = defaultLine, action: Record<string, any>) => {
 				col.splice(action.i, 1);
 				return col;
 			});
-			return { ...line, columns, size: line.size - 1 } || line;
+			return { ...line, columns, size: line.size - 1 };
 
 		default:
 			return line;

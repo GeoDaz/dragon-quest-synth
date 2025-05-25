@@ -150,6 +150,18 @@ a:active:not(.btn) {
   width: min-content;
 }
 
+.width-auto {
+  width: auto;
+}
+
+.m-auto {
+  margin: 0 auto;
+}
+
+.break-word {
+  word-break: break-word;
+}
+
 .hover-only {
   opacity: 0;
   transition: all .3s;
@@ -438,8 +450,22 @@ a.line-point {
   text-decoration: none;
 }
 
-.line-point.double {
+.line-point.x-double {
   position: absolute;
+}
+
+.line-point.y-double {
+  position: absolute;
+}
+
+.line-point.y-double .actions {
+  top: calc(25% + 0.5em);
+  bottom: calc(25% + 0.5em);
+}
+
+.line-point.x-double .actions {
+  left: calc(25% + var(--bs-gutter-x) * .25);
+  right: calc(25% + var(--bs-gutter-x) * .25);
 }
 
 .line-point.editable {
@@ -454,7 +480,17 @@ a.line-point {
 
 .line-point.editable.pictured:hover,
 .line-point.editable.pictured:focus {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.line-point.editable.pictured::after {
+  z-index: 1;
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 .line-point .absolute-legend {
@@ -551,6 +587,7 @@ a.line-point {
 }
 
 .line-point-safe-zone {
+  z-index: 1;
   background-color: white;
   width: var(--dl-img-size);
   height: var(--dl-img-size);
@@ -568,6 +605,10 @@ a.line-point {
   z-index: 2;
   color: var(--bs-dark);
   transition: all .3s;
+}
+
+.line-point .line-img.mirror {
+  transform: scaleX(-1);
 }
 
 .line-point .line-skin {
@@ -627,7 +668,9 @@ a.line-point {
 }
 
 .line-point .actions:hover,
-.line-point .actions:focus {
+.line-point .actions:focus,
+.line-point:hover .actions,
+.line-point:focus .actions {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -669,28 +712,30 @@ a.line-point {
 
 .line-point .bi.collapse-point {
   top: 50%;
-  left: 100%;
-  transform: translate(0.3rem, -50%);
-  opacity: 0;
-  transition: all .3s;
-}
-
-.line-point .bi.uncollapse-point {
-  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
   transition: all .3s;
 }
 
+.line-point .bi.collapse-col-point {
+  top: 50%;
+  left: 100%;
+  transform: translate(0.3rem, -50%);
+}
+
+.line-point .bi.collapse-row-point {
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 0.3rem);
+}
+
 .line-point:hover .bi.collapse-point,
-.line-point:hover .bi.uncollapse-point,
-.line-point .bi.collapse-point:hover,
-.line-point .bi.uncollapse-point:hover {
+.line-point .bi.collapse-point:hover {
   opacity: 1;
 }
 
-.line-point:has(.bi.collapse-point:hover)::before {
+.line-point:has(.bi.collapse-col-point:hover)::before {
   content: '';
   position: absolute;
   top: 0;
@@ -700,6 +745,18 @@ a.line-point {
   background-color: rgba(255, 255, 255, 0.25);
   border-radius: var(--bs-border-radius);
 }
+
+.line-point:has(.bi.collapse-row-point:hover)::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: calc(-100% - 1.5rem);
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: var(--bs-border-radius);
+}
+
 
 .line-point .bi.settings {
   margin-top: 2em;
@@ -742,6 +799,15 @@ a.line-point {
 
 .line-grid.editable {
   padding-top: 3em;
+}
+
+.line-point-settings {
+  --dl-img-size: 15rem;
+  --dl-skin-img-size: 5rem;
+  --dl-md-img-size: 15rem;
+  --dl-md-skin-img-size: 5rem;
+  --dl-xs-img-size: 12rem;
+  --dl-xs-skin-img-size: 3rem;
 }
 
 .line-grid.editable .line-point.editable::before {
@@ -878,11 +944,21 @@ a.line-point {
 /* } */
 
 .line-grid .levels .level span,
-.line-grid .levels .level .btn {
+.line-grid .levels .level .btn,
+.line-grid .levels .level input {
   position: relative;
   display: inline-block;
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
+}
+
+.line-grid .levels .level input {
+  width: 8rem;
+  text-align: center;
+}
+
+.line-grid .levels .level .form-control:focus {
+  background-color: var(--dl-snd-dark);
 }
 
 .line-grid.editable .levels {
@@ -899,6 +975,12 @@ a.line-point {
   transition: all 0.3s;
   padding: 0.25rem 0.5rem;
   z-index: 1;
+}
+
+.line-grid.editable .levels .level .btn.add.before {
+  top: 0;
+  bottom: auto;
+  transform: translate(-50%, -50%);
 }
 
 .line-grid.editable .levels .level .btn.btn-danger {
@@ -1038,7 +1120,7 @@ a.dropdown-item.active {
 
 /* modal */
 .modal {
-  --bs-modal-width: 350px;
+  /* --bs-modal-width: 350px; */
   --bs-modal-padding: 1rem;
   --bs-modal-margin: 0.5rem;
   --bs-modal-color: var(--bs-body-color);
@@ -1123,6 +1205,11 @@ a.dropdown-item.active {
 h2,
 h3 {
   scroll-margin-top: 64px;
+}
+
+.card:active,
+.card.active {
+  border-color: var(--bs-primary);
 }
 
 .rank {
