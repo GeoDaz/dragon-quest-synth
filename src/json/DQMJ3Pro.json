@@ -330,7 +330,7 @@
 				"rank": "S",
 				"family": "Slime",
 				"synthesis": [
-					["Premium Slime", "Gem Slime", "DELTA King Crab", "Master CPU Q48"]
+					["Premium Slime", "Gem Slime", "Evil King Crab", "Master CPU Q48"]
 				]
 			},
 			{
@@ -1653,7 +1653,7 @@
 				"synthesis": [["Orc King", "Gold Slime"]]
 			},
 			{
-				"name": "DELTA Hraesvel",
+				"name": "Evil Hraesvel",
 				"rank": "S",
 				"family": "Beast",
 				"synthesis": [["Hybrid", "Doom Groom"]]
@@ -1694,7 +1694,7 @@
 				"name": "Grave Digger",
 				"rank": "S",
 				"family": "Beast",
-				"synthesis": [["Marquis de Leo", "DELTA Hraesvelgr"]]
+				"synthesis": [["Marquis de Leo", "Evil Hraesvelgr"]]
 			},
 			{
 				"name": "Bjorn the Behemoose",
@@ -3799,40 +3799,40 @@
 	"Darkonium": {
 		"D": [
 			{
-				"name": "DELTA Slime",
+				"name": "Evil Slime",
 				"rank": "D",
 				"family": "Darkonium",
 				"synthesis": []
 			},
 			{
-				"name": "DELTA Dragrove",
+				"name": "Evil Dragrove",
 				"rank": "D",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Slime", "Dragrove"]]
+				"synthesis": [["Evil Slime", "Dragrove"]]
 			},
 			{
-				"name": "DELTA Chimaera",
+				"name": "Evil Chimaera",
 				"rank": "D",
 				"family": "Darkonium",
 				"synthesis": []
 			},
 			{
-				"name": "DELTA Crabid",
+				"name": "Evil Crabid",
 				"rank": "D",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Slime", "Crabid"]]
+				"synthesis": [["Evil Slime", "Crabid"]]
 			},
 			{
-				"name": "DELTA Mourning Moon",
+				"name": "Evil Mourning Moon",
 				"rank": "D",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Chimaera", "Mourning Moon"]]
+				"synthesis": [["Evil Chimaera", "Mourning Moon"]]
 			},
 			{
-				"name": "DELTA Tuskateer",
+				"name": "Evil Tuskateer",
 				"rank": "D",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Slime", "Tuskateer"]]
+				"synthesis": [["Evil Slime", "Tuskateer"]]
 			}
 		],
 		"C": [
@@ -3840,110 +3840,110 @@
 				"name": "DELTA She-Slime",
 				"rank": "C",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Slime", "She-Slime"]]
+				"synthesis": [["Evil Slime", "She-Slime"]]
 			},
 			{
-				"name": "DELTA Landwurm",
+				"name": "Evil Landwurm",
 				"rank": "C",
 				"family": "Darkonium",
 				"synthesis": []
 			},
 			{
-				"name": "DELTA Spiked 'Doodle",
+				"name": "Evil Spiked 'Doodle",
 				"rank": "C",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Chimaera", "Spiked 'Doodle"]]
+				"synthesis": [["Evil Chimaera", "Spiked 'Doodle"]]
 			}
 		],
 		"B": [
 			{
-				"name": "DELTA Metal Slime",
+				"name": "Evil Metal Slime",
 				"rank": "B",
 				"family": "Darkonium",
 				"synthesis": [["DELTA She-Slime", "Metal Slime"]]
 			},
 			{
-				"name": "DELTA Elder Dragrove",
+				"name": "Evil Elder Dragrove",
 				"rank": "B",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Dragrove", "Elder Dragrove"]]
+				"synthesis": [["Evil Dragrove", "Elder Dragrove"]]
 			},
 			{
-				"name": "DELTA Hocus Chimaera",
+				"name": "Evil Hocus Chimaera",
 				"rank": "B",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Chimaera", "Hocus Chimaera"]]
+				"synthesis": [["Evil Chimaera", "Hocus Chimaera"]]
 			},
 			{
-				"name": "DELTA Terrorhawk",
+				"name": "Evil Terrorhawk",
 				"rank": "B",
 				"family": "Darkonium",
 				"synthesis": [["DLETA Chimaera", "Terrorhawk"]]
 			},
 			{
-				"name": "DELTA Crabber Dabber",
+				"name": "Evil Crabber Dabber",
 				"rank": "B",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Crabid", "Crabber Dabber"]]
+				"synthesis": [["Evil Crabid", "Crabber Dabber"]]
 			},
 			{
-				"name": "DELTA Gloomy Globe",
+				"name": "Evil Gloomy Globe",
 				"rank": "B",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Mourning Moon", "Gloomy Globe"]]
+				"synthesis": [["Evil Mourning Moon", "Gloomy Globe"]]
 			},
 			{
-				"name": "DELTA Maulrus",
+				"name": "Evil Maulrus",
 				"rank": "B",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Tuskateer", "Maulrus"]]
+				"synthesis": [["Evil Tuskateer", "Maulrus"]]
 			}
 		],
 		"A": [
 			{
-				"name": "DELTA Liege Lizard",
+				"name": "Evil Liege Lizard",
 				"rank": "A",
 				"family": "Darkonium",
 				"synthesis": []
 			},
 			{
-				"name": "DELTA Cosmic Chimaera",
+				"name": "Evil Cosmic Chimaera",
 				"rank": "A",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Hocus Chimaera", "Cosmic Chimaera"]]
+				"synthesis": [["Evil Hocus Chimaera", "Cosmic Chimaera"]]
 			},
 			{
-				"name": "DELTA King Crab",
+				"name": "Evil King Crab",
 				"rank": "A",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Crabber Dabber", "King Crab"]]
+				"synthesis": [["Evil Crabber Dabber", "King Crab"]]
 			},
 			{
-				"name": "DELTA Gigantes",
+				"name": "Evil Gigantes",
 				"rank": "A",
 				"family": "Darkonium",
-				"synthesis": [["DELTA King Squid", "Gigantes"]]
+				"synthesis": [["Evil King Squid", "Gigantes"]]
 			},
 			{
-				"name": "DELTA Skelegon",
+				"name": "Evil Skelegon",
 				"rank": "A",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Liege Lizard", "Skelegon"]]
+				"synthesis": [["Evil Liege Lizard", "Skelegon"]]
 			},
 			{
-				"name": "DELTA Voodoo Doll",
+				"name": "Evil Voodoo Doll",
 				"rank": "A",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Spiked 'Doodle", "Voodoo Doll"]]
+				"synthesis": [["Evil Spiked 'Doodle", "Voodoo Doll"]]
 			},
 			{
-				"name": "DELTA Metal Dragon",
+				"name": "Evil Metal Dragon",
 				"rank": "A",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Liege Lizard", "Metal Dragon"]]
+				"synthesis": [["Evil Liege Lizard", "Metal Dragon"]]
 			},
 			{
-				"name": "DELTA King Squid",
+				"name": "Evil King Squid",
 				"rank": "A",
 				"family": "Darkonium",
 				"synthesis": []
@@ -3951,117 +3951,112 @@
 		],
 		"S": [
 			{
-				"name": "DELTA Prism Peacock",
+				"name": "Evil Prism Peacock",
 				"rank": "S",
 				"family": "Darkonium",
 				"synthesis": []
 			},
 			{
-				"name": "DELTA Mars Mug",
+				"name": "Evil Mars Mug",
 				"rank": "S",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Gloomy Globe", "Mars Mug"]]
+				"synthesis": [["Evil Gloomy Globe", "Mars Mug"]]
 			},
 			{
-				"name": "DELTA Tentacular",
+				"name": "Evil Tentacular",
 				"rank": "S",
 				"family": "Darkonium",
-				"synthesis": [["DELTA King Squid", "Tentacular"]]
+				"synthesis": [["Evil King Squid", "Tentacular"]]
 			},
 			{
 				"name": "DELTA War-rus",
 				"rank": "S",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Maulrus", "War-rus"]]
+				"synthesis": [["Evil Maulrus", "War-rus"]]
 			}
 		],
 		"X": [
 			{
-				"name": "DELTA Gaia Dragon",
+				"name": "Evil Gaia Dragon",
 				"rank": "X",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Liege Lizard", "Gaia Dragon"]]
+				"synthesis": [["Evil Liege Lizard", "Gaia Dragon"]]
 			},
 			{
-				"name": "DELTA Volcanic Dragrove",
+				"name": "Evil Volcanic Dragrove",
 				"rank": "X",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Elder Dragrove", "Volcanic Dragrove"]]
+				"synthesis": [["Evil Elder Dragrove", "Volcanic Dragrove"]]
 			},
 			{
-				"name": "DELTA Leon Byblos",
+				"name": "Evil Leon Byblos",
 				"rank": "X",
 				"family": "Darkonium",
 				"synthesis": [
-					[
-						"DELTA Gaia Dragon",
-						"DELTA Dragon Zombie",
-						"DELTA Archdemon",
-						"Sancho"
-					]
+					["Evil Gaia Dragon", "Evil Dragon Zombie", "Evil Archdemon", "Sancho"]
 				]
 			},
 			{
-				"name": "DELTA Atlas",
+				"name": "Evil Atlas",
 				"rank": "X",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Gigantes", "Atlas"]]
+				"synthesis": [["Evil Gigantes", "Atlas"]]
 			},
 			{
-				"name": "DELTA Archdemon",
+				"name": "Evil Archdemon",
 				"rank": "X",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Prism Peacock", "Archdemon"]]
+				"synthesis": [["Evil Prism Peacock", "Archdemon"]]
 			},
 			{
-				"name": "DELTA Dragon Zombie",
+				"name": "Evil Dragon Zombie",
 				"rank": "X",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Skelegon", "Dragon Zombie"]]
+				"synthesis": [["Evil Skelegon", "Dragon Zombie"]]
 			},
 			{
 				"name": "DELTA Mechan-o-wyrm",
 				"rank": "X",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Metal Dragon", "Mechan-o-wyrm"]]
+				"synthesis": [["Evil Metal Dragon", "Mechan-o-wyrm"]]
 			},
 			{
-				"name": "DELTA Lleviathan",
+				"name": "Evil Lleviathan",
 				"rank": "X",
 				"family": "Darkonium",
 				"synthesis": [
-					["DELTA Atlas", "DELTA Tentacular", "DELTA Mechan-o-wyrm", "Sancho"]
+					["Evil Atlas", "Evil Tentacular", "DELTA Mechan-o-wyrm", "Sancho"]
 				]
 			},
 			{
-				"name": "DELTA Estark",
+				"name": "Evil Estark",
 				"rank": "X",
 				"family": "Darkonium",
-				"synthesis": [["Estark", "DELTA Landwurm"]]
+				"synthesis": [["Estark", "Evil Landwurm"]]
 			},
 			{
 				"name": "Boshock",
 				"rank": "X",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Lleviathan", "Orc Chieftain"]]
+				"synthesis": [["Evil Lleviathan", "Orc Chieftain"]]
 			},
 			{
 				"name": "Bundold",
 				"rank": "X",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Leon Byblos", "Wight Emperor"]]
+				"synthesis": [["Evil Leon Byblos", "Wight Emperor"]]
 			},
 			{
 				"name": "Azamook",
 				"rank": "X",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Lleviathan", "Amodeus"]]
+				"synthesis": [["Evil Lleviathan", "Amodeus"]]
 			},
 			{
 				"name": "Itaburu",
 				"rank": "X",
 				"family": "Darkonium",
-				"synthesis": [["DELTA Leon Byblos", "Coalem"]]
+				"synthesis": [["Evil Leon Byblos", "Coalem"]]
 			}
 		]
 	},
@@ -4297,7 +4292,7 @@
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
-					["Pruslas", "Poseidon", "DELTA Atlas", "DELTA Mechan-o-wyrm"]
+					["Pruslas", "Poseidon", "Evil Atlas", "DELTA Mechan-o-wyrm"]
 				]
 			},
 			{
@@ -4679,7 +4674,7 @@
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
-					["Timelord Omega Rolex", "Aldarahla", "Zeldorado", "DELTA Estark"]
+					["Timelord Omega Rolex", "Aldarahla", "Zeldorado", "Evil Estark"]
 				]
 			},
 			{
