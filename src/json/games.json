@@ -3,36 +3,48 @@
 		"key": "DQMTDP",
 		"title": "Dragon Quest Monster The Dark Prince",
 		"extension": "png",
-		"available": true
+		"available": true,
+		"ranks": ["X", "S", "A", "B", "C", "D", "E", "F", "G"]
 	},
 	"DQMJ1": {
 		"key": "DQMJ1",
 		"title": "Dragon Quest Monster Joker I",
 		"extension": "png",
-		"available": true
+		"available": true,
+		"ranks": ["X", "S", "A", "B", "C", "D", "E", "F"]
 	},
 	"DQMJ2": {
 		"key": "DQMJ2",
 		"title": "Dragon Quest Monster Joker II",
 		"extension": "png",
-		"available": false
+		"available": false,
+		"ranks": ["X", "S", "A", "B", "C", "D", "E", "F"]
 	},
 	"DQMJ2Pro": {
 		"key": "DQMJ2Pro",
 		"title": "Dragon Quest Monster Joker II Pro",
 		"extension": "png",
-		"available": false
+		"available": false,
+		"ranks": ["X", "S", "A", "B", "C", "D", "E", "F"]
 	},
 	"DQMJ3": {
 		"key": "DQMJ3",
 		"title": "Dragon Quest Monster Joker III",
 		"extension": "png",
-		"available": false
+		"available": false,
+		"ranks": ["X", "S", "A", "B", "C", "D", "E", "F"]
 	},
 	"DQMJ3Pro": {
 		"key": "DQMJ3Pro",
 		"title": "Dragon Quest Monster Joker III Pro",
 		"extension": "png",
-		"available": false
+		"available": true,
+		"ranks": ["X", "S", "A", "B", "C", "D", "E", "F"]
+	},
+	"Custom": {
+		"key": "Custom",
+		"title": "Community Synthesis",
+		"available": true,
+		"ranks": ["Z", "X", "S", "A", "B", "C", "D", "E", "F", "G"]
 	}
 }

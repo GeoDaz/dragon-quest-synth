@@ -1,6 +1,5 @@
 import { StringObject } from '@/types/Ui';
 
-export const ranks: string[] = ['X', 'S', 'A', 'B', 'C', 'D', 'E', 'F', 'G'];
 export const families: string[] = [
 	'Slime',
 	'Beast',

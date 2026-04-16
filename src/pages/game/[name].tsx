@@ -12,9 +12,6 @@ export const getStaticPaths = async () => {
 		.map((game: Game) => ({
 			params: { name: game.key },
 		}));
-	paths.push({
-		params: { name: 'Custom' },
-	});
 	return { paths, fallback: false };
 };
 
@@ -22,14 +19,15 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 	if (!params?.name) {
 		return { notFound: true };
 	}
-	const game = params.name as string;
+	const gameName = params.name as string;
 	const games = require('../../json/games.json');
-	if ((!games[game] || !games[game].available) && game !== 'Custom') {
+	const game = games[gameName];
+	if (!game || !game.available) {
 		return { notFound: true };
 	}
 
 	try {
-		const families: Families = require(`../../json/${game}.json`);
+		const families: Families = require(`../../json/${gameName}.json`);
 		reverseSynth(families);
 
 		const images = require('../../json/monstersImages.json');

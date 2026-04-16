@@ -1,0 +1,12 @@
+{
+	"permissions": {
+		"allow": [
+			"WebFetch(domain:docs.google.com)",
+			"WebFetch(domain:doc-0k-84-sheets.googleusercontent.com)",
+			"Read(//tmp/**)",
+			"Bash(node *)",
+			"Bash(pwd -W)",
+			"Bash(cygpath -w /tmp)"
+		]
+	}
+}

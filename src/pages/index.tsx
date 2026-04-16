@@ -6,10 +6,8 @@ import Monster from '@/components/Monster/Monster';
 import Family from '@/components/Monster/Family';
 import { ImagesContext } from '@/context/images';
 import { familiesColors } from '@/consts/colors';
-import { families as familyList, ranks as rankList } from '@/consts/data';
-import { useRouter } from 'next/router';
-import { Card, Dropdown, DropdownButton, FormCheck } from 'react-bootstrap';
-import LoadableImage from '@/components/LoadableImage';
+import { families as familyList } from '@/consts/data';
+import { Dropdown, DropdownButton } from 'react-bootstrap';
 import { reverseSynth } from '@/functions/transformer/synthesis';
 import { StringObject } from '@/types/Ui';
 import useTranslate from '@/hooks/useTranslate';
@@ -28,12 +26,11 @@ import games from '@/json/games.json';
 interface Props {
 	families: Families;
 	images: StringObject;
-	game?: string;
+	game: Game;
 }
 const PageLines: React.FC<Props> = props => {
 	const { images, game } = props;
 	const [families, setFamilies] = useState<Families>(props.families);
-	const router = useRouter();
 	const hash = useHash();
 	const { isFr, translateUI } = useTranslate();
 	const [search, setSearch] = useState<string>();
@@ -113,22 +110,9 @@ const PageLines: React.FC<Props> = props => {
 							key={_game.key}
 							className="col-12 col-lg-3 col-md-4 col-sm-6 d-flex mb-4"
 						>
-							<GameCard game={_game} currentGame={game} />
+							<GameCard game={_game} currentGame={game.key} />
 						</div>
 					))}
-				<div className="col-12 col-lg-3 col-md-4 col-sm-6 d-flex mb-4">
-					<Card
-						className={makeClassName(
-							'click flex-center w-100',
-							game == 'Custom' ? 'active' : ''
-						)}
-						onClick={() => router.push('/game/Custom')}
-					>
-						<h2 className="text-primary fs-1 fw-bold mb-0">
-							<Icon name="discord" /> Custom
-						</h2>
-					</Card>
-				</div>
 			</div>
 			<div className="d-flex flex-wrap gap-4 mb-4">
 				<SearchBar
@@ -158,7 +142,7 @@ const PageLines: React.FC<Props> = props => {
 							<Icon name="x" /> {translateUI('Void')}
 						</Dropdown.Item>
 					)}
-					{rankList.map(rank => (
+					{game.ranks.map(rank => (
 						<Dropdown.Item
 							key={rank}
 							active={selectedRank == rank}
@@ -171,7 +155,7 @@ const PageLines: React.FC<Props> = props => {
 			</div>
 			<FiltersContext.Provider value={filters}>
 				<ImagesContext.Provider value={images}>
-					{Object.keys(families).length > 0 ? (
+					{Object.keys(families).length > 0 ?
 						<div className="synthesis-list">
 							{Object.entries(families).map(([family, ranks]) => (
 								<FamilySection
@@ -182,9 +166,7 @@ const PageLines: React.FC<Props> = props => {
 								/>
 							))}
 						</div>
-					) : (
-						<p>{isFr ? 'Aucune synthèse trouvée' : 'No synthesis found'}.</p>
-					)}
+					:	<p>{isFr ? 'Aucune synthèse trouvée' : 'No synthesis found'}.</p>}
 				</ImagesContext.Provider>
 			</FiltersContext.Provider>
 		</Layout>
@@ -221,15 +203,15 @@ const FamilySection = ({
 			</h2>
 			{/* selectedRank is used here to avoid calling useIsVisible */}
 			{Object.entries(ranks).map(([rank, ranking]) =>
-				selectedRank && selectedRank != rank ? null : (
-					<RankSection
+				selectedRank && selectedRank != rank ?
+					null
+				:	<RankSection
 						key={rank}
 						family={family}
 						rank={rank}
 						ranking={ranking}
 						hash={hash}
 					/>
-				)
 			)}
 		</div>
 	);
@@ -263,15 +245,9 @@ const RankSection = ({
 			</h3>
 			<div className="d-flex flex-wrap gap-3">
 				{ranking.map(monster =>
-					visible ? (
+					visible ?
 						<Monster key={monster.name} monster={monster} hash={hash} />
-					) : (
-						<MonsterLoading
-							key={monster.name}
-							monster={monster}
-							hash={hash}
-						/>
-					)
+					:	<MonsterLoading key={monster.name} monster={monster} hash={hash} />
 				)}
 			</div>
 		</div>
@@ -280,11 +256,15 @@ const RankSection = ({
 
 export const getStaticProps: GetStaticProps = async () => {
 	try {
-		const families: Families = require('../json/DQMTDP.json');
+		const defaultGame = 'DQMTDP';
+		const families: Families = require(`../json/${defaultGame}.json`);
 		reverseSynth(families);
+		const games = require('../json/games.json');
+		const game = games[defaultGame];
+		console.log(game);
 
 		const images = require('../json/monstersImages.json');
-		return { props: { families, images, game: 'DQMTDP' } };
+		return { props: { families, images, game } };
 	} catch (e) {
 		console.error(e);
 		return { props: {} };
