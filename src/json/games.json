@@ -17,7 +17,7 @@
 		"key": "DQMJ2",
 		"title": "Dragon Quest Monster Joker II",
 		"extension": "png",
-		"available": false,
+		"available": true,
 		"ranks": ["X", "S", "A", "B", "C", "D", "E", "F"]
 	},
 	"DQMJ2Pro": {
