@@ -261,7 +261,6 @@ export const getStaticProps: GetStaticProps = async () => {
 		reverseSynth(families);
 		const games = require('../json/games.json');
 		const game = games[defaultGame];
-		console.log(game);
 
 		const images = require('../json/monstersImages.json');
 		return { props: { families, images, game } };
