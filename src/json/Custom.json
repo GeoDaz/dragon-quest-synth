@@ -289,7 +289,7 @@
 				"synthesis": [["Snail Slime", "Freezing Fog"]]
 			},
 			{
-				"name": "Metal Pearl",
+				"name": "Metal Scallop Slime",
 				"rank": "D",
 				"family": "Slime",
 				"subfamily": ["Metal", "Nature", "Aquatic"],
@@ -940,7 +940,7 @@
 				"synthesis": [["Dragon Rider", "Fright Knight"]]
 			},
 			{
-				"name": "Mandrake Marshal",
+				"name": "Mandrake Mercenary",
 				"rank": "B",
 				"family": "Dragon",
 				"synthesis": [["Mandrake Major", "Phantom Swordsman"]]
@@ -1713,7 +1713,7 @@
 				"rank": "A",
 				"family": "Beast",
 				"synthesis": [
-					["Boppin' Badger", "Don Mole", "Mandrake Marshal", "Cockateer"]
+					["Boppin' Badger", "Don Mole", "Mandrake Mercenary", "Cockateer"]
 				]
 			},
 			{
