@@ -1384,7 +1384,7 @@
 				"synthesis": [["Bilhaw", "Brimstone Bulb"]]
 			},
 			{
-				"name": "Prism PuXycat",
+				"name": "Prism Pussycat",
 				"rank": "B",
 				"family": "Beast",
 				"synthesis": [["Terror Tabby", "Terror Tabby"]]
@@ -1541,7 +1541,12 @@
 				"rank": "A",
 				"family": "Beast",
 				"synthesis": [
-					["Prism PuXycat", "Prism PuXycat", "Prism PuXycat", "Prism PuXycat"]
+					[
+						"Prism Pussycat",
+						"Prism Pussycat",
+						"Prism Pussycat",
+						"Prism Pussycat"
+					]
 				]
 			},
 			{
@@ -2188,7 +2193,7 @@
 				]
 			},
 			{
-				"name": "Rainbow SciXors",
+				"name": "Rainbow Scissors",
 				"rank": "B",
 				"family": "Nature",
 				"synthesis": [["Grinade", "Type G0"]]
@@ -3488,7 +3493,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Pandora's DreXer",
+				"name": "Pandora's Dresser",
 				"rank": "C",
 				"family": "Material",
 				"synthesis": [["Horrordrobe", "Cannibox"]]
@@ -3660,7 +3665,7 @@
 				"name": "Royal Armoire",
 				"rank": "A",
 				"family": "Material",
-				"synthesis": [["Pandora's DreXer", "Mimic"]]
+				"synthesis": [["Pandora's Dresser", "Mimic"]]
 			},
 			{
 				"name": "Totem of Urubea",
@@ -3744,7 +3749,7 @@
 				"synthesis": [["Doom Groom", "Gracos"]]
 			},
 			{
-				"name": "Gilded ColoXus",
+				"name": "Gilded Colossus",
 				"rank": "S",
 				"family": "Material",
 				"synthesis": [["Granite Titan", "Gem Jamboree"]]
@@ -3753,7 +3758,7 @@
 				"name": "Ruin",
 				"rank": "S",
 				"family": "Material",
-				"synthesis": [["Stormsgate Citadel", "Gilded ColoXus"]]
+				"synthesis": [["Stormsgate Citadel", "Gilded Colossus"]]
 			},
 			{
 				"name": "Stormsgate Citadel",
