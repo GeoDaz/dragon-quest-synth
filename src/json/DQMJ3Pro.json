@@ -61,7 +61,7 @@
 				"name": "Mouldy Slime",
 				"rank": "E",
 				"family": "Slime",
-				"synthesis": [["Armoured AntArmoured Ant", "Man O' War"]]
+				"synthesis": [["Armoured Ant", "Man O' War"]]
 			},
 			{
 				"name": "Man O' War",
@@ -76,7 +76,7 @@
 				"synthesis": [
 					["Killer Wave", "Man O' War"],
 					["Slime", "Splatypunk"],
-					["Bubble Slime", "Armoured AntArmoured Ant"]
+					["Bubble Slime", "Armoured Ant"]
 				]
 			}
 		],
@@ -353,7 +353,7 @@
 		],
 		"X": [
 			{
-				"name": "Egg-En-ciel",
+				"name": "Egg-En-Ciel",
 				"rank": "X",
 				"family": "Slime",
 				"synthesis": []
@@ -845,7 +845,7 @@
 				"synthesis": [["Girguish", "Defender of the Depts"]]
 			},
 			{
-				"name": "Id",
+				"name": "Tactician Iddo",
 				"rank": "S",
 				"family": "Dragon",
 				"synthesis": [["Evil Sorcerer", "Captain Drago"]]
@@ -930,7 +930,7 @@
 				"name": "Phantom General Fuzzma",
 				"rank": "X",
 				"family": "Dragon",
-				"synthesis": [["Id", "EnchantreX Gretel"]]
+				"synthesis": [["Tactician Iddo", "EnchantreX Gretel"]]
 			},
 			{
 				"name": "Pusugon Awaken",
@@ -1022,7 +1022,7 @@
 				"name": "Mischievous Mole",
 				"rank": "F",
 				"family": "Beast",
-				"synthesis": [["Lumbering Lizard", "Striking Sabercub"]]
+				"synthesis": [["Lumbering Lizard", "Tigercub"]]
 			},
 			{
 				"name": "Orc",
@@ -1034,7 +1034,7 @@
 				"name": "Jailcat",
 				"rank": "F",
 				"family": "Beast",
-				"synthesis": [["Big Hat", "Dracky"]]
+				"synthesis": [["Sham Hatwitch", "Dracky"]]
 			},
 			{
 				"name": "Platypunk",
@@ -1049,19 +1049,19 @@
 				"synthesis": [["Bludgerigar", "Green Scissors"]]
 			},
 			{
-				"name": "Striking Sabercub",
+				"name": "Tigercub",
 				"rank": "F",
 				"family": "Beast",
 				"synthesis": [["Cactiball", "Cactiball"]]
 			},
 			{
-				"name": "Dream Eater",
+				"name": "Napir",
 				"rank": "F",
 				"family": "Beast",
 				"synthesis": [["Bullfinch", "Beast Family"]]
 			},
 			{
-				"name": "Big Hat",
+				"name": "Sham Hatwitch",
 				"rank": "F",
 				"family": "Beast",
 				"synthesis": [["Cruelcumber", "Jailcat"]]
@@ -1103,10 +1103,10 @@
 				"synthesis": [["Khalamari Kid", "Spiked Hare"]]
 			},
 			{
-				"name": "Ram-tam Tanuki",
+				"name": "Boppin' Badger",
 				"rank": "F",
 				"family": "Beast",
-				"synthesis": [["Dream Eater", "Cactiball"]]
+				"synthesis": [["Napir", "Cactiball"]]
 			}
 		],
 		"E": [
@@ -1168,7 +1168,7 @@
 				"name": "Gargoyle",
 				"rank": "E",
 				"family": "Beast",
-				"synthesis": [["Green Dragon", "S'quarrel"]]
+				"synthesis": [["Green Dragon", "Red Squirrel"]]
 			},
 			{
 				"name": "Hades Condor",
@@ -1177,13 +1177,13 @@
 				"synthesis": [["Jargon", "Great Sabrecat"]]
 			},
 			{
-				"name": "S'quarrel",
+				"name": "Red Squirrel",
 				"rank": "E",
 				"family": "Beast",
 				"synthesis": [["Suckling Ocker", "Suckling Ocker"]]
 			},
 			{
-				"name": "Dark Eyelephant",
+				"name": "Phantaseyes",
 				"rank": "E",
 				"family": "Beast",
 				"synthesis": [["Charm Bat", "Prancing Pillar"]]
@@ -1215,7 +1215,7 @@
 				"synthesis": [["Blue Minx", "Fandangow"]]
 			},
 			{
-				"name": "Swinebrero",
+				"name": "Ham Shamwitch",
 				"rank": "D",
 				"family": "Beast",
 				"synthesis": [["Fandangow", "Fandangow"]]
@@ -1257,7 +1257,7 @@
 				"synthesis": [["Hawk Man", "Silvapithecus"]]
 			},
 			{
-				"name": "Black Tanuki",
+				"name": "Badja",
 				"rank": "D",
 				"family": "Beast",
 				"synthesis": []
@@ -1319,7 +1319,7 @@
 				"name": "Twilight Chapper",
 				"rank": "C",
 				"family": "Beast",
-				"synthesis": [["Oinkemist", "Ice Golem"]]
+				"synthesis": [["Sham Hamwitch", "Ice Golem"]]
 			},
 			{
 				"name": "Naumannborg",
@@ -1328,7 +1328,7 @@
 				"synthesis": [["King Squid", "Axolhotl"]]
 			},
 			{
-				"name": "Oinkemist",
+				"name": "Sham Hamwitch",
 				"rank": "C",
 				"family": "Beast",
 				"synthesis": [["Cyclops", "Tundragster"]]
@@ -1459,7 +1459,7 @@
 				"name": "Paralakeet",
 				"rank": "B",
 				"family": "Beast",
-				"synthesis": [["Gold Tanuki", "Liquid Metal Slime"]]
+				"synthesis": [["Badja", "Liquid Metal Slime"]]
 			},
 			{
 				"name": "Garuda",
@@ -1480,7 +1480,7 @@
 				"synthesis": [["Expload", "Firebird"]]
 			},
 			{
-				"name": "Gold Tanuki",
+				"name": "Badja",
 				"rank": "B",
 				"family": "Beast",
 				"synthesis": []
@@ -1862,7 +1862,7 @@
 				"name": "Cruelcumber",
 				"rank": "F",
 				"family": "Nature",
-				"synthesis": [["Slime", "Big Hat"]]
+				"synthesis": [["Slime", "Sham Hatwitch"]]
 			},
 			{
 				"name": "Stump Chump",
@@ -1877,7 +1877,7 @@
 				"synthesis": [["Mudraker", "Whipped Scream"]]
 			},
 			{
-				"name": "Wooper trooper",
+				"name": "Wooper Trooper",
 				"rank": "F",
 				"family": "Nature",
 				"synthesis": [["Drake Slime", "Cactiball"]]
@@ -1912,7 +1912,7 @@
 				"name": "Giant Moth",
 				"rank": "E",
 				"family": "Nature",
-				"synthesis": [["Slimeshroom", "Striking Sabercub"]]
+				"synthesis": [["Slimeshroom", "Tigercub"]]
 			},
 			{
 				"name": "Black Mantis",
@@ -1930,7 +1930,7 @@
 				"name": "Squid Kid",
 				"rank": "E",
 				"family": "Nature",
-				"synthesis": [["S'quarrel", "Bushy Baby"]]
+				"synthesis": [["Red Squirrel", "Bushy Baby"]]
 			},
 			{
 				"name": "Suckling Ocker",
@@ -1939,7 +1939,7 @@
 				"synthesis": [["Lanter Minion", "Lanter Minion"]]
 			},
 			{
-				"name": "Marine Knight",
+				"name": "FishRider",
 				"rank": "E",
 				"family": "Nature",
 				"synthesis": [["Robber Rabbit", "Man O' War"]]
@@ -1948,7 +1948,7 @@
 				"name": "Puffpoise",
 				"rank": "E",
 				"family": "Nature",
-				"synthesis": [["Ghost", "Striking Sabercub"]]
+				"synthesis": [["Ghost", "Tigercub"]]
 			},
 			{
 				"name": "Wild Boarfish",
@@ -2144,7 +2144,7 @@
 				"name": "Sand Wave",
 				"rank": "C",
 				"family": "Nature",
-				"synthesis": [["Striking Sabercub", "Snooty Slime Knight"]]
+				"synthesis": [["Tigercub", "Snooty Slime Knight"]]
 			}
 		],
 		"B": [
@@ -2369,7 +2369,7 @@
 				"name": "Troll",
 				"rank": "E",
 				"family": "Demon",
-				"synthesis": [["Murderous Anch", "S'quarrel"]]
+				"synthesis": [["Murderous Anch", "Red Squirrel"]]
 			},
 			{
 				"name": "Grimlin",
@@ -2411,7 +2411,7 @@
 				"name": "Imp",
 				"rank": "E",
 				"family": "Demon",
-				"synthesis": [["Powie Yowie", "S'quarrel"]]
+				"synthesis": [["Powie Yowie", "Red Squirrel"]]
 			}
 		],
 		"D": [
@@ -2862,7 +2862,7 @@
 				"name": "Putrefido",
 				"rank": "F",
 				"family": "Undead",
-				"synthesis": [["Ram-tam Tanuki", "Striking Sabercub"]]
+				"synthesis": [["Boppin' Badger", "Tigercub"]]
 			},
 			{
 				"name": "Skullbat",
@@ -2880,7 +2880,7 @@
 				"name": "Walking Corpse",
 				"rank": "F",
 				"family": "Undead",
-				"synthesis": [["Tuskateer", "Striking Sabercub"]]
+				"synthesis": [["Tuskateer", "Tigercub"]]
 			},
 			{
 				"name": "Ghost",
@@ -2918,7 +2918,7 @@
 				"name": "Tortured Soul",
 				"rank": "E",
 				"family": "Undead",
-				"synthesis": [["Mandrake Major", "S'quarrel"]]
+				"synthesis": [["Mandrake Major", "Red Squirrel"]]
 			},
 			{
 				"name": "Spoilt Scream",
@@ -3212,7 +3212,7 @@
 				"name": "Cumaulus",
 				"rank": "F",
 				"family": "Material",
-				"synthesis": [["Wooper trooper", "Striking Sabercub"]]
+				"synthesis": [["Wooper Trooper", "Tigercub"]]
 			},
 			{
 				"name": "Mecha-Mynah",
@@ -3248,7 +3248,7 @@
 				"name": "Dirty Dogu",
 				"rank": "F",
 				"family": "Material",
-				"synthesis": [["Spitnik", "Striking Sabercub"]]
+				"synthesis": [["Spitnik", "Tigercub"]]
 			}
 		],
 		"E": [
@@ -3274,7 +3274,7 @@
 				"name": "Prancing Pillar",
 				"rank": "E",
 				"family": "Material",
-				"synthesis": [["S'quarrel", "S'quarrel"]]
+				"synthesis": [["Red Squirrel", "Red Squirrel"]]
 			},
 			{
 				"name": "Bogman",
@@ -3298,19 +3298,19 @@
 				"name": "Funky Feta",
 				"rank": "E",
 				"family": "Material",
-				"synthesis": [["Clockwork Cuckoo", "S'quarrel"]]
+				"synthesis": [["Clockwork Cuckoo", "Red Squirrel"]]
 			},
 			{
 				"name": "Horrordrobe",
 				"rank": "E",
 				"family": "Material",
-				"synthesis": [["S'quarrel", "Armoured Wartoise"]]
+				"synthesis": [["Red Squirrel", "Armoured Wartoise"]]
 			},
 			{
 				"name": "Hellbound Horror",
 				"rank": "E",
 				"family": "Material",
-				"synthesis": [["Galbagorba", "S'quarrel"]]
+				"synthesis": [["Galbagorba", "Red Squirrel"]]
 			}
 		],
 		"D": [
@@ -3414,7 +3414,7 @@
 				"name": "Cavorting Column",
 				"rank": "D",
 				"family": "Material",
-				"synthesis": [["Dark Eyelephant", "Dragurn"]]
+				"synthesis": [["Phantaseyes", "Dragurn"]]
 			}
 		],
 		"C": [
@@ -3440,7 +3440,7 @@
 				"name": "Rubanka",
 				"rank": "C",
 				"family": "Material",
-				"synthesis": [["Skelebat", "Swinebrero"]]
+				"synthesis": [["Skelebat", "Ham Shamwitch"]]
 			},
 			{
 				"name": "Green Glow",
@@ -4322,7 +4322,7 @@
 				"name": "Ladja",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Necromancer", "Id"]]
+				"synthesis": [["Necromancer", "Tactician Iddo"]]
 			},
 			{
 				"name": "Mortamor",
