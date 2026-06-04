@@ -108,7 +108,7 @@ const PageLines: React.FC<Props> = props => {
 					.map((_game: Game) => (
 						<div
 							key={_game.key}
-							className="col-12 col-lg-3 col-md-4 col-sm-6 d-flex mb-4"
+							className="col-12 col-lg-2 col-md-4 col-sm-6 d-flex mb-4"
 						>
 							<GameCard game={_game} currentGame={game.key} />
 						</div>
