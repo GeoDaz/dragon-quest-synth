@@ -20,7 +20,7 @@
 				"synthesis": [["Weedie", "Dracky"]]
 			},
 			{
-				"name": "Tree Slime",
+				"name": "Buddy Slime",
 				"rank": "F",
 				"family": "Slime",
 				"synthesis": [["Bad Egg", "Lips"]]
@@ -29,10 +29,10 @@
 				"name": "Bubble Slime",
 				"rank": "F",
 				"family": "Slime",
-				"synthesis": [["Tree Slime", "Satyr"]]
+				"synthesis": [["Buddy Slime", "Satyr"]]
 			},
 			{
-				"name": "Heal Slime",
+				"name": "Healslime",
 				"rank": "F",
 				"family": "Slime",
 				"synthesis": [["Bubble Slime", "Tree Feller"]]
@@ -41,10 +41,10 @@
 				"name": "Wing Slime",
 				"rank": "F",
 				"family": "Slime",
-				"synthesis": [["Heal Slime", "Conklave"]]
+				"synthesis": [["Healslime", "Conklave"]]
 			},
 			{
-				"name": "Drak Slime",
+				"name": "Drake Slime",
 				"rank": "F",
 				"family": "Slime",
 				"synthesis": [
@@ -56,12 +56,12 @@
 				"name": "Wild Slime",
 				"rank": "F",
 				"family": "Slime",
-				"synthesis": [["Drak Slime", "Brushead"]]
+				"synthesis": [["Drake Slime", "Mohawkling"]]
 			}
 		],
 		"E": [
 			{
-				"name": "She Slime",
+				"name": "She-Slime",
 				"rank": "E",
 				"family": "Slime",
 				"synthesis": [["Wild Slime", "Winky"]]
@@ -70,14 +70,14 @@
 				"name": "Shell Slime",
 				"rank": "E",
 				"family": "Slime",
-				"synthesis": [["She Slime", "Pollywaggle"]]
+				"synthesis": [["She-Slime", "Pollywaggle"]]
 			},
 			{
 				"name": "Mottle Slime",
 				"rank": "E",
 				"family": "Slime",
 				"synthesis": [
-					["Slime", "She Slime"],
+					["Slime", "She-Slime"],
 					["Shell Slime", "Beavern"]
 				]
 			},
@@ -88,28 +88,28 @@
 				"synthesis": [["Mottle Slime", "Skipper"]]
 			},
 			{
-				"name": "Pearl Gel",
+				"name": "Scallop Slime",
 				"rank": "E",
 				"family": "Slime",
 				"synthesis": [["Snail Slime", "Gremlin"]]
 			},
 			{
-				"name": "Tropic Gel",
+				"name": "TropicGel",
 				"rank": "E",
 				"family": "Slime",
-				"synthesis": [["Pearl Gel", "Cannibox"]]
+				"synthesis": [["Scallop Slime", "Cannibox"]]
 			},
 			{
-				"name": "Magma Slime",
+				"name": "MagmaSlime",
 				"rank": "E",
 				"family": "Slime",
-				"synthesis": [["Tropic Gel", "Blooming Sorcerer"]]
+				"synthesis": [["TropicGel", "Blooming Sorcerer"]]
 			},
 			{
 				"name": "Aqua Slime",
 				"rank": "E",
 				"family": "Slime",
-				"synthesis": [["Magma Slime", "Hellhound"]]
+				"synthesis": [["MagmaSlime", "Hellhound"]]
 			},
 			{
 				"name": "Snowmangler",
@@ -183,7 +183,7 @@
 				"synthesis": [["Snowmangler", "Monolog"]]
 			},
 			{
-				"name": "Heart Knight",
+				"name": "Snooty Slime Knight",
 				"rank": "D",
 				"family": "Slime",
 				"synthesis": []
@@ -219,21 +219,21 @@
 				"synthesis": [["Angel Slime", "Heyedra"]]
 			},
 			{
-				"name": "Spin Slime",
+				"name": "Spiny Slime",
 				"rank": "D",
 				"family": "Slime",
 				"synthesis": [["Behemoth Slime", "Eyelasher"]]
 			},
 			{
-				"name": "Mime Slime",
+				"name": "MimeSlime",
 				"rank": "D",
 				"family": "Slime",
-				"synthesis": [["Spin Slime", "Koala Knight"]]
+				"synthesis": [["Spiny Slime", "BeastNite"]]
 			}
 		],
 		"C": [
 			{
-				"name": "Peach Slime",
+				"name": "Pink Slime",
 				"rank": "C",
 				"family": "Slime",
 				"synthesis": []
@@ -263,19 +263,19 @@
 				"synthesis": []
 			},
 			{
-				"name": "Whipped Slime",
+				"name": "Cream Slime",
 				"rank": "C",
 				"family": "Slime",
 				"synthesis": []
 			},
 			{
-				"name": "Flan Slime",
+				"name": "Crème Caraslime",
 				"rank": "C",
 				"family": "Slime",
 				"synthesis": []
 			},
 			{
-				"name": "King Mottle Slime",
+				"name": "Mottle King Slime",
 				"rank": "C",
 				"family": "Slime",
 				"synthesis": [
@@ -287,13 +287,13 @@
 				"name": "Slabbit",
 				"rank": "C",
 				"family": "Slime",
-				"synthesis": [["King Mottle Slime", "Wormbat"]]
+				"synthesis": [["Mottle King Slime", "Wormbat"]]
 			},
 			{
 				"name": "Beshemoth Slime",
 				"rank": "C",
 				"family": "Slime",
-				"synthesis": [["Behemoth Slime", "She Slime"]]
+				"synthesis": [["Behemoth Slime", "She-Slime"]]
 			},
 			{
 				"name": "Metal Slime Knight",
@@ -309,7 +309,7 @@
 				"name": "Dragon Slime",
 				"rank": "C",
 				"family": "Slime",
-				"synthesis": [["Metal Slime Knight", "Swordgon"]]
+				"synthesis": [["Metal Slime Knight", "Stabosaur"]]
 			},
 			{
 				"name": "King Slime",
@@ -328,7 +328,7 @@
 				"rank": "C",
 				"family": "Slime",
 				"synthesis": [
-					["Heal Slime", "Beshemoth Slime"],
+					["Healslime", "Beshemoth Slime"],
 					["Slime Stack", "Wight Watchman"]
 				]
 			},
@@ -351,10 +351,10 @@
 				]
 			},
 			{
-				"name": "Confetti",
+				"name": "Sugarstar Slime",
 				"rank": "C",
 				"family": "Slime",
-				"synthesis": [["Slimecicle", "Rayburn"]]
+				"synthesis": [["Slimecicle", "Wyvern"]]
 			},
 			{
 				"name": "King Bubble Slime",
@@ -362,7 +362,7 @@
 				"family": "Slime",
 				"synthesis": [
 					["Bubble Slime", "King Slime"],
-					["Confetti", "Mandrake Marshal"]
+					["Sugarstar Slime", "Mandrake Marshal"]
 				]
 			}
 		],
@@ -399,7 +399,7 @@
 				"rank": "B",
 				"family": "Slime",
 				"synthesis": [
-					["Bad Egg", "King Mottle Slime"],
+					["Bad Egg", "Mottle King Slime"],
 					["Dark Slime", "Skeleton Soldier"]
 				]
 			},
@@ -464,7 +464,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Master Slime",
+				"name": "Superior Slime",
 				"rank": "A",
 				"family": "Slime",
 				"synthesis": [["Dark King Slime", "Thwarthog"]]
@@ -522,7 +522,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Dark Mecha-Slime",
+				"name": "Dark Robot Slime",
 				"rank": "S",
 				"family": "Slime",
 				"synthesis": [
@@ -581,7 +581,7 @@
 				"name": "Canzar",
 				"rank": "S",
 				"family": "Slime",
-				"synthesis": [["Gem Slime", "Gem Slime", "Dark Crab", "Dark Crab"]]
+				"synthesis": [["Gem Slime", "Gem Slime", "DarkCrab", "DarkCrab"]]
 			},
 			{
 				"name": "Gem Slime",
@@ -590,7 +590,7 @@
 				"synthesis": [["Grandpa Slime", "Grandpa Slime", "Balhib", "Balhib"]]
 			},
 			{
-				"name": "Egg-en-ciel",
+				"name": "Egg-En-Ciel",
 				"rank": "S",
 				"family": "Slime",
 				"synthesis": []
@@ -602,8 +602,8 @@
 				"rank": "X",
 				"family": "Slime",
 				"synthesis": [
-					["Dark Mecha-Slime", "Schwarzman Tank"],
-					["Dark Mecha-Slime", "Schleiman Tank"]
+					["Dark Robot Slime", "Schwarzman Tank"],
+					["Dark Robot Slime", "Schleiman Tank"]
 				]
 			},
 			{
@@ -634,11 +634,11 @@
 				"synthesis": []
 			},
 			{
-				"name": "Liquid Metal King Slime",
+				"name": "Liquid Metal Slime King",
 				"rank": "X",
 				"family": "Slime",
 				"synthesis": [
-					["Diamond Slime", "Dark Mecha-Slime"],
+					["Diamond Slime", "Dark Robot Slime"],
 					["Diamond Slime", "Schleiman Tank"],
 					["Diamond Slime", "Schwarzman Tank"],
 					["Diamond Slime", "Slime Blaster"]
@@ -648,7 +648,7 @@
 				"name": "Metal Star",
 				"rank": "X",
 				"family": "Slime",
-				"synthesis": [["Liquid Metal King Slime", "Dark Mecha-Slime"]]
+				"synthesis": [["Liquid Metal Slime King", "Dark Robot Slime"]]
 			},
 			{
 				"name": "Metal Goddess",
@@ -664,7 +664,7 @@
 				"name": "Small Fry",
 				"rank": "F",
 				"family": "Dragon",
-				"synthesis": [["Slime", "Florajay"]]
+				"synthesis": [["Slime", "Kingfuchsia"]]
 			},
 			{
 				"name": "Komodo",
@@ -678,7 +678,7 @@
 				"family": "Dragon",
 				"synthesis": [
 					["Argon Lizard", "Beast Family"],
-					["Komodo", "Whipped Scream"]
+					["Komodo", "Soft Serve Spook"]
 				]
 			},
 			{
@@ -722,7 +722,7 @@
 				"name": "Killer Gila",
 				"rank": "F",
 				"family": "Dragon",
-				"synthesis": [["Dragonfry", "Will-O'-Whips"]]
+				"synthesis": [["Dragonfry", "Will-O'-The-Whips"]]
 			}
 		],
 		"E": [
@@ -784,7 +784,7 @@
 				"family": "Dragon",
 				"synthesis": [
 					["Jargon", "Nature Family"],
-					["Flython", "Tropic Gel"]
+					["Flython", "TropicGel"]
 				]
 			},
 			{
@@ -800,7 +800,7 @@
 				"name": "Gasbagon",
 				"rank": "E",
 				"family": "Dragon",
-				"synthesis": [["Green Dragon", "Magma Slime"]]
+				"synthesis": [["Green Dragon", "MagmaSlime"]]
 			},
 			{
 				"name": "Terrordactyl",
@@ -820,7 +820,7 @@
 		],
 		"D": [
 			{
-				"name": "Drag-goof",
+				"name": "Drag-Goof",
 				"rank": "D",
 				"family": "Dragon",
 				"synthesis": [["Skelegon", "Ornery Onion"]]
@@ -829,7 +829,7 @@
 				"name": "Finned Fatale",
 				"rank": "D",
 				"family": "Dragon",
-				"synthesis": [["Drag-goof", "Hyper Heyedra"]]
+				"synthesis": [["Drag-Goof", "Hyper Heyedra"]]
 			},
 			{
 				"name": "Red Dragon",
@@ -841,7 +841,7 @@
 				"name": "Quayhorse",
 				"rank": "D",
 				"family": "Dragon",
-				"synthesis": [["Finned Fatale", "Mecha-mynah"]]
+				"synthesis": [["Finned Fatale", "Mecha-Mynah"]]
 			},
 			{
 				"name": "Seasaur",
@@ -889,7 +889,7 @@
 				"name": "Drygon",
 				"rank": "D",
 				"family": "Dragon",
-				"synthesis": [["Boreal Serpent", "Fox Fire"]]
+				"synthesis": [["Boreal Serpent", "Grinferno"]]
 			}
 		],
 		"C": [
@@ -905,7 +905,7 @@
 				"family": "Dragon",
 				"synthesis": [
 					["Metal Slime", "Red Dragon"],
-					["Wormbat", "King Mottle Slime"]
+					["Wormbat", "Mottle King Slime"]
 				]
 			},
 			{
@@ -918,7 +918,7 @@
 				]
 			},
 			{
-				"name": "Swordgon",
+				"name": "Stabosaur",
 				"rank": "C",
 				"family": "Dragon",
 				"synthesis": [["Metal Dragon", "Wraithwand"]]
@@ -927,7 +927,7 @@
 				"name": "Tantamount",
 				"rank": "C",
 				"family": "Dragon",
-				"synthesis": [["Tigertaur", "Dancing Flame"]]
+				"synthesis": [["Trigertaur", "Dancing Flame"]]
 			},
 			{
 				"name": "Noble Gasbagon",
@@ -935,11 +935,11 @@
 				"family": "Dragon",
 				"synthesis": [
 					["Gasbagon", "Nature Family"],
-					["Swordgon", "Restless Armour"]
+					["Stabosaur", "Restless Armour"]
 				]
 			},
 			{
-				"name": "Tundra Dragon",
+				"name": "Tundragster",
 				"rank": "C",
 				"family": "Dragon",
 				"synthesis": [
@@ -959,11 +959,11 @@
 				"family": "Dragon",
 				"synthesis": [
 					["Drakularge", "Material Family"],
-					["Tundra Dragon", "Cerberwretch"]
+					["Tundragster", "Cerberwretch"]
 				]
 			},
 			{
-				"name": "Rayburn",
+				"name": "Wyvern",
 				"rank": "C",
 				"family": "Dragon",
 				"synthesis": [["Tortoceratops", "Quack Up"]]
@@ -974,7 +974,7 @@
 				"family": "Dragon",
 				"synthesis": [
 					["Phantom Fencer", "Red Dragon"],
-					["Rayburn", "Rhinoceraxe"]
+					["Wyvern", "Rhinoceraxe"]
 				]
 			},
 			{
@@ -986,10 +986,10 @@
 		],
 		"B": [
 			{
-				"name": "Seahorse",
+				"name": "Briny Bronco",
 				"rank": "B",
 				"family": "Dragon",
-				"synthesis": [["Weighvern", "Weedbug"]]
+				"synthesis": [["Weighvern", "WeedBug"]]
 			},
 			{
 				"name": "Great Argon Lizard",
@@ -1000,10 +1000,10 @@
 				]
 			},
 			{
-				"name": "Smile Lizard",
+				"name": "Raptile",
 				"rank": "B",
 				"family": "Dragon",
-				"synthesis": [["Seahorse", "Gorerilla"]]
+				"synthesis": [["Briny Bronco", "Gorerilla"]]
 			},
 			{
 				"name": "Megalodon",
@@ -1011,7 +1011,7 @@
 				"family": "Dragon",
 				"synthesis": [
 					["Sea Dragon", "Beast Family"],
-					["Smile Lizard", "Dark Slime"]
+					["Raptile", "Dark Slime"]
 				]
 			},
 			{
@@ -1030,7 +1030,7 @@
 				]
 			},
 			{
-				"name": "Tri Winder",
+				"name": "Triwinder",
 				"rank": "B",
 				"family": "Dragon",
 				"synthesis": [["Eveel", "Octavian Sentry"]]
@@ -1041,7 +1041,7 @@
 				"family": "Dragon",
 				"synthesis": [
 					["Sea Dragon", "Undead Family"],
-					["Tyrantosaurus", "Dream Eater"]
+					["Tyrantosaurus", "Napir"]
 				]
 			},
 			{
@@ -1055,7 +1055,7 @@
 						"Boreal Serpent",
 						"Boreal Serpent"
 					],
-					["Abyss Diver", "Wild Chappy"]
+					["Abyss Diver", "Ripped Rabbit"]
 				]
 			},
 			{
@@ -1072,15 +1072,15 @@
 				"rank": "B",
 				"family": "Dragon",
 				"synthesis": [
-					["Demonrider", "Drag-goof"],
-					["Slime Knight", "Drag-goof"]
+					["Demonrider", "Drag-Goof"],
+					["Slime Knight", "Drag-Goof"]
 				]
 			},
 			{
 				"name": "Serpentia",
 				"rank": "B",
 				"family": "Dragon",
-				"synthesis": [["Fryling", "Axeshark"]]
+				"synthesis": [["Fryling", "AxeShark"]]
 			},
 			{
 				"name": "Thaumatosaurus",
@@ -1092,7 +1092,7 @@
 				]
 			},
 			{
-				"name": "Coatol",
+				"name": "Flapdragon",
 				"rank": "B",
 				"family": "Dragon",
 				"synthesis": [
@@ -1109,7 +1109,7 @@
 				"family": "Dragon",
 				"synthesis": [
 					["Great Argon Lizard", "Frou-Frou"],
-					["Coatol", "Herb Man"]
+					["Flapdragon", "HerbMan"]
 				]
 			},
 			{
@@ -1178,7 +1178,7 @@
 				]
 			},
 			{
-				"name": "Mechan-o'-wyrm",
+				"name": "Mechan-O'-Wyrm",
 				"rank": "A",
 				"family": "Dragon",
 				"synthesis": [
@@ -1220,7 +1220,7 @@
 				"name": "Orochi",
 				"rank": "S",
 				"family": "Dragon",
-				"synthesis": [["Tri Winder", "Tri Winder", "Bilhaw", "Bilhaw"]]
+				"synthesis": [["Triwinder", "Triwinder", "Bilhaw", "Bilhaw"]]
 			},
 			{
 				"name": "Bilhaw",
@@ -1232,7 +1232,7 @@
 				]
 			},
 			{
-				"name": "Holy Bahlib",
+				"name": "Silverine",
 				"rank": "S",
 				"family": "Dragon",
 				"synthesis": []
@@ -1242,22 +1242,22 @@
 				"rank": "S",
 				"family": "Dragon",
 				"synthesis": [
-					["Mechan-o'-wyrm", "Baramos Zombie"],
-					["Mechan-o'-wyrm", "Drakulard"]
+					["Mechan-O'-Wyrm", "Bones Of Baramos"],
+					["Mechan-O'-Wyrm", "Drakulard"]
 				]
 			},
 			{
-				"name": "Shantak",
+				"name": "Crowgre",
 				"rank": "S",
 				"family": "Dragon",
 				"synthesis": [
-					["Garudian", "Eyevory Tusk-tusk"],
+					["Garudian", "Eyevory Tusk-Tusk"],
 					["Great Dragon", "Uber Dreamaera"],
-					["Great Dragon", "Whip Bird"]
+					["Great Dragon", "Gangleclaw"]
 				]
 			},
 			{
-				"name": "Monster Wanderer",
+				"name": "Pusugon",
 				"rank": "S",
 				"family": "Dragon",
 				"synthesis": []
@@ -1269,22 +1269,22 @@
 				"synthesis": [["Liege Lizard", "Black Dragon"]]
 			},
 			{
-				"name": "Gillgush",
+				"name": "Girguish",
 				"rank": "S",
 				"family": "Dragon",
-				"synthesis": [["Thaumatosaurus", "Whale Mage"]]
+				"synthesis": [["Thaumatosaurus", "Baleen Mage"]]
 			},
 			{
-				"name": "Dragon Lord",
+				"name": "Dragonlord",
 				"rank": "S",
 				"family": "Dragon",
 				"synthesis": [
-					["Coatol", "Demon-at-Arms"],
-					["Great Dragon", "Demon-at-Arms"]
+					["Flapdragon", "Demon-At-Arms"],
+					["Great Dragon", "Demon-At-Arms"]
 				]
 			},
 			{
-				"name": "V-Drag",
+				"name": "V Dragon",
 				"rank": "S",
 				"family": "Dragon",
 				"synthesis": []
@@ -1297,17 +1297,17 @@
 				"family": "Dragon",
 				"synthesis": [
 					["Orochi", "Urnhaler"],
-					["Buga the Terragon", "Gryphynx"]
+					["Buga the Terragon", "Gryphinx"]
 				]
 			},
 			{
 				"name": "Dragonlord",
 				"rank": "X",
 				"family": "Dragon",
-				"synthesis": [["Dragon Lord", "Alabast Dragon"]]
+				"synthesis": [["Dragonlord", "Alabast Dragon"]]
 			},
 			{
-				"name": "Xiphos",
+				"name": "Xiphos The Deathbringer",
 				"rank": "X",
 				"family": "Dragon",
 				"synthesis": [["Captain Crow", "Nokturnus"]]
@@ -1316,31 +1316,31 @@
 				"name": "Rugius",
 				"rank": "X",
 				"family": "Dragon",
-				"synthesis": [["Hogeira", "Veera", "Argo", "Syphon"]]
+				"synthesis": [["Hogeira", "Hellsguard Veera", "Argo", "Siphon"]]
 			},
 			{
 				"name": "Tactician Iddo",
 				"rank": "X",
 				"family": "Dragon",
-				"synthesis": [["Duke Sigras", "Sorcerer Bedora"]]
+				"synthesis": [["Duke Sigras", "Bedora"]]
 			},
 			{
 				"name": "Stalagosaur",
 				"rank": "X",
 				"family": "Dragon",
-				"synthesis": [["Gem Slime", "Azurite"]]
+				"synthesis": [["Gem Slime", "Azurile"]]
 			},
 			{
 				"name": "Beast of the Sea",
 				"rank": "X",
 				"family": "Dragon",
-				"synthesis": [["Coatol", "Poseidon"]]
+				"synthesis": [["Flapdragon", "Poseidon"]]
 			},
 			{
 				"name": "Valgirt",
 				"rank": "X",
 				"family": "Dragon",
-				"synthesis": [["King Hydra", "Maizar"]]
+				"synthesis": [["King Hydra", "Malzar"]]
 			},
 			{
 				"name": "Barbarus",
@@ -1352,7 +1352,7 @@
 				"name": "Greygnarl",
 				"rank": "X",
 				"family": "Dragon",
-				"synthesis": [["Barbarus", "Dragovian Lord"]]
+				"synthesis": [["Barbarus", "Lord Of The Dragovians"]]
 			},
 			{
 				"name": "Xenlon",
@@ -1360,18 +1360,18 @@
 				"family": "Dragon",
 				"synthesis": [
 					["Greygnarl", "Yggdrasil"],
-					["Greygnarl", "Dimensional Dragon"],
+					["Greygnarl", "Wyrmhole Dragon"],
 					["Greygnarl", "Prism Peacock"]
 				]
 			},
 			{
-				"name": "Dimensional Dragon",
+				"name": "Wyrmhole Dragon",
 				"rank": "X",
 				"family": "Dragon",
 				"synthesis": []
 			},
 			{
-				"name": "Dragovian Lord",
+				"name": "Lord Of The Dragovians",
 				"rank": "X",
 				"family": "Dragon",
 				"synthesis": [["Dragonlord", "Rhapthorne II"]]
@@ -1390,12 +1390,12 @@
 				"rank": "X",
 				"family": "Dragon",
 				"synthesis": [
-					["Great Godbird", "Xenlon"],
+					["Empyrea", "Xenlon"],
 					["Xenlon", "Ramia"]
 				]
 			},
 			{
-				"name": "Dark Dragonlord",
+				"name": "True Dragonlord",
 				"rank": "X",
 				"family": "Dragon",
 				"synthesis": [["Dragonlord", "Stalagosaur"]]
@@ -1408,7 +1408,7 @@
 				"name": "Quiller",
 				"rank": "F",
 				"family": "Beast",
-				"synthesis": [["Florajay", "Wax Murderer"]]
+				"synthesis": [["Kingfuchsia", "Wax Murderer"]]
 			},
 			{
 				"name": "Mischievous Mole",
@@ -1444,7 +1444,7 @@
 				"name": "Boppin' Badger",
 				"rank": "F",
 				"family": "Beast",
-				"synthesis": [["Hammerhood", "Evil Seed"]]
+				"synthesis": [["Hammerhood", "EvilSeed"]]
 			},
 			{
 				"name": "Powie Yowie",
@@ -1524,7 +1524,7 @@
 				"name": "Sea Dog",
 				"rank": "E",
 				"family": "Beast",
-				"synthesis": [["Night Emperor", "Pumpoise"]]
+				"synthesis": [["Night Emperor", "Puffpoise"]]
 			},
 			{
 				"name": "Cross Eye",
@@ -1595,7 +1595,7 @@
 				]
 			},
 			{
-				"name": "Spiked Clubber",
+				"name": "Spiked Club",
 				"rank": "D",
 				"family": "Beast",
 				"synthesis": []
@@ -1659,22 +1659,22 @@
 				"synthesis": [["Weartiger", "Crabid"]]
 			},
 			{
-				"name": "Tigertaur",
+				"name": "Trigertaur",
 				"rank": "D",
 				"family": "Beast",
 				"synthesis": [["Tuskateer", "Wyrtle"]]
 			},
 			{
-				"name": "Koala Knight",
+				"name": "BeastNite",
 				"rank": "D",
 				"family": "Beast",
-				"synthesis": [["Tigertaur", "Flying Flayer"]]
+				"synthesis": [["Trigertaur", "Flying Flayer"]]
 			},
 			{
 				"name": "Meowgician",
 				"rank": "D",
 				"family": "Beast",
-				"synthesis": [["Koala Knight", "Dark Crab"]]
+				"synthesis": [["BeastNite", "DarkCrab"]]
 			}
 		],
 		"C": [
@@ -1684,7 +1684,7 @@
 				"family": "Beast",
 				"synthesis": [
 					["Mischievous Mole", "Whackanape"],
-					["Meowgician", "Mime Slime"]
+					["Meowgician", "MimeSlime"]
 				]
 			},
 			{
@@ -1728,7 +1728,7 @@
 				"rank": "C",
 				"family": "Beast",
 				"synthesis": [
-					["Heal Slime", "Heal Slime", "Ursa Major", "Ursa Major"],
+					["Healslime", "Healslime", "Ursa Major", "Ursa Major"],
 					["Half Hog", "Gryphon"]
 				]
 			},
@@ -1739,19 +1739,19 @@
 				"synthesis": [["Damned Ram", "Foo Dog"]]
 			},
 			{
-				"name": "Mertiger",
+				"name": "MerTiger",
 				"rank": "C",
 				"family": "Beast",
 				"synthesis": [
-					["Tigertaur", "Incineraytor"],
-					["Ewwnicorn", "Tundra Dragon"]
+					["Trigertaur", "Incineraytor"],
+					["Ewwnicorn", "Tundragster"]
 				]
 			},
 			{
 				"name": "Ham Shamwitch",
 				"rank": "C",
 				"family": "Beast",
-				"synthesis": [["Mertiger", "Giant Moth"]]
+				"synthesis": [["MerTiger", "Giant Moth"]]
 			},
 			{
 				"name": "Alchemy Hat",
@@ -1772,22 +1772,22 @@
 				"synthesis": [["Ham Shamwitch", "Tortoceratops"]]
 			},
 			{
-				"name": "Town Frog",
+				"name": "Continent Toad",
 				"rank": "C",
 				"family": "Beast",
 				"synthesis": [["Rhinoceraxe", "Golem"]]
 			},
 			{
-				"name": "Notso-Macho",
+				"name": "Notso Macho",
 				"rank": "C",
 				"family": "Beast",
-				"synthesis": [["Town Frog", "Peahooter"]]
+				"synthesis": [["Continent Toad", "Peahooter"]]
 			},
 			{
 				"name": "Rampage",
 				"rank": "C",
 				"family": "Beast",
-				"synthesis": [["Notso-Macho", "Amber Weed"]]
+				"synthesis": [["Notso Macho", "AmberWeed"]]
 			}
 		],
 		"B": [
@@ -1836,34 +1836,34 @@
 				"synthesis": []
 			},
 			{
-				"name": "Dream Eater",
+				"name": "Napir",
 				"rank": "B",
 				"family": "Beast",
 				"synthesis": [["Pink Sanguini", "Megalodon"]]
 			},
 			{
-				"name": "Wild Chappy",
+				"name": "Ripped Rabbit",
 				"rank": "B",
 				"family": "Beast",
-				"synthesis": [["Dream Eater", "Ogre"]]
+				"synthesis": [["Napir", "Ogre"]]
 			},
 			{
-				"name": "Eyevory Tusk-tusk",
+				"name": "Eyevory Tusk-Tusk",
 				"rank": "B",
 				"family": "Beast",
 				"synthesis": [
 					["Sluggernaut", "Diemon"],
-					["Sluggernaut", "Notso-Macho"],
+					["Sluggernaut", "Notso Macho"],
 					["Sluggernaut", "Half Hog"]
 				]
 			},
 			{
-				"name": "Axeshark",
+				"name": "AxeShark",
 				"rank": "B",
 				"family": "Beast",
 				"synthesis": [
 					["Megalodon", "Hacksaurus"],
-					["Eyevory Tusk-tusk", "Widow's Pique"]
+					["Eyevory Tusk-Tusk", "Widow's Pique"]
 				]
 			},
 			{
@@ -1878,7 +1878,7 @@
 				"family": "Beast",
 				"synthesis": [
 					["Diemon", "Golem"],
-					["Notso-Macho", "Golem"],
+					["Notso Macho", "Golem"],
 					["Half Hog", "Golem"]
 				]
 			},
@@ -1906,7 +1906,7 @@
 				"synthesis": [["Ginormoose", "Living Statue"]]
 			},
 			{
-				"name": "Bjorn",
+				"name": "Bjorn The Behemoose",
 				"rank": "A",
 				"family": "Beast",
 				"synthesis": [["Baby Bjorn", "Baby Bjorn"]]
@@ -1961,7 +1961,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Slon the Rook",
+				"name": "Slon The Rook",
 				"rank": "A",
 				"family": "Beast",
 				"synthesis": [
@@ -1983,7 +1983,7 @@
 				]
 			},
 			{
-				"name": "Kon the Knight",
+				"name": "Kon The Knight",
 				"rank": "A",
 				"family": "Beast",
 				"synthesis": [["Bone Baron", "Mandrake Marshal"]]
@@ -1995,13 +1995,13 @@
 				"synthesis": []
 			},
 			{
-				"name": "Taurus",
+				"name": "Taurix",
 				"rank": "A",
 				"family": "Beast",
 				"synthesis": [["Buffalogre", "Gigantes"]]
 			},
 			{
-				"name": "Goresby-Purrvis",
+				"name": "Lieutenant Goresby-Purrvis",
 				"rank": "A",
 				"family": "Beast",
 				"synthesis": [["Great Sabrecat", "Bishop Ladja"]]
@@ -2012,15 +2012,15 @@
 				"name": "Excalipurr",
 				"rank": "S",
 				"family": "Beast",
-				"synthesis": [["Sneezy", "Goresby-Purrvis"]]
+				"synthesis": [["Kamashki", "Lieutenant Goresby-Purrvis"]]
 			},
 			{
-				"name": "Marquis de Léon",
+				"name": "Marquis De Léon",
 				"rank": "S",
 				"family": "Beast",
 				"synthesis": [
 					["Mohawker", "Ewwnicorn"],
-					["Eyevory Tusk-tusk", "Eyevory Tusk-tusk"],
+					["Eyevory Tusk-Tusk", "Eyevory Tusk-Tusk"],
 					["Mohawker", "Buffalogre"]
 				]
 			},
@@ -2040,7 +2040,7 @@
 				"family": "Beast",
 				"synthesis": [
 					["Garuda", "Kukri"],
-					["Garuda", "Elder Pippit"],
+					["Garuda", "Elder Pipit"],
 					["Garuda", "Tiko"],
 					["Firebird", "Firebird", "Snowbird", "Snowbird"]
 				]
@@ -2052,11 +2052,11 @@
 				"synthesis": [
 					["King Squid", "Gigalumph"],
 					["Lleviathan", "Gigalumph"],
-					["Baron von Bellycose", "Gigalumph"]
+					["Baron Von Bellycose", "Gigalumph"]
 				]
 			},
 			{
-				"name": "Baalzack",
+				"name": "Balzack",
 				"rank": "S",
 				"family": "Beast",
 				"synthesis": [
@@ -2066,7 +2066,7 @@
 				]
 			},
 			{
-				"name": "Gryphynx",
+				"name": "Gryphinx",
 				"rank": "S",
 				"family": "Beast",
 				"synthesis": []
@@ -2078,7 +2078,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Azurite",
+				"name": "Azurile",
 				"rank": "S",
 				"family": "Beast",
 				"synthesis": []
@@ -2117,7 +2117,7 @@
 				]
 			},
 			{
-				"name": "Veera",
+				"name": "Hellsguard Veera",
 				"rank": "X",
 				"family": "Beast",
 				"synthesis": [["Excalipurr", "Demonic Carriage"]]
@@ -2133,21 +2133,21 @@
 				"rank": "X",
 				"family": "Beast",
 				"synthesis": [
-					["Cat Riberio", "Gillgush", "Mystical Juliante", "Araniad the Enigma"]
+					["Cat Riberio", "Girguish", "Mystical Juliante", "Araniad the Enigma"]
 				]
 			},
 			{
 				"name": "Woolly Elefort",
 				"rank": "X",
 				"family": "Beast",
-				"synthesis": [["Gorago", "Shantak"]]
+				"synthesis": [["Gorago", "Crowgre"]]
 			}
 		]
 	},
 	"Nature": {
 		"F": [
 			{
-				"name": "Florajay",
+				"name": "Kingfuchsia",
 				"rank": "F",
 				"family": "Nature",
 				"synthesis": []
@@ -2156,7 +2156,7 @@
 				"name": "Capsichum",
 				"rank": "F",
 				"family": "Nature",
-				"synthesis": [["Florajay", "Slime"]]
+				"synthesis": [["Kingfuchsia", "Slime"]]
 			},
 			{
 				"name": "Bludgerigar",
@@ -2174,10 +2174,10 @@
 				"name": "Cactiball",
 				"rank": "F",
 				"family": "Nature",
-				"synthesis": [["Killerpillar", "Tree Slime"]]
+				"synthesis": [["Killerpillar", "Buddy Slime"]]
 			},
 			{
-				"name": "Golden Cacti",
+				"name": "Golden Globe",
 				"rank": "F",
 				"family": "Nature",
 				"synthesis": []
@@ -2198,7 +2198,7 @@
 				"name": "Walking Stick",
 				"rank": "F",
 				"family": "Nature",
-				"synthesis": [["Cruelcumber", "Heal Slime"]]
+				"synthesis": [["Cruelcumber", "Healslime"]]
 			},
 			{
 				"name": "Swarmtroop",
@@ -2219,7 +2219,7 @@
 				"synthesis": [["Bagworm", "Wing Slime"]]
 			},
 			{
-				"name": "Aqua Hawk",
+				"name": "AquaHawk",
 				"rank": "F",
 				"family": "Nature",
 				"synthesis": []
@@ -2228,7 +2228,7 @@
 				"name": "Dread Herring",
 				"rank": "F",
 				"family": "Nature",
-				"synthesis": [["Bantamweight", "Drak Slime"]]
+				"synthesis": [["Bantamweight", "Drake Slime"]]
 			},
 			{
 				"name": "Stark Raven",
@@ -2281,7 +2281,7 @@
 				"synthesis": [["Bantamweight", "Boreal Serpent"]]
 			},
 			{
-				"name": "Pumpoise",
+				"name": "Puffpoise",
 				"rank": "E",
 				"family": "Nature",
 				"synthesis": [["Parched Peckerel", "Lump Wizard"]]
@@ -2296,7 +2296,7 @@
 				"name": "Scorpion",
 				"rank": "E",
 				"family": "Nature",
-				"synthesis": [["Pumpoise", "Drag Racer"]]
+				"synthesis": [["Puffpoise", "Drag Racer"]]
 			},
 			{
 				"name": "Mad Mollusk",
@@ -2379,7 +2379,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Hoodsquid",
+				"name": "HoodSquid",
 				"rank": "D",
 				"family": "Nature",
 				"synthesis": []
@@ -2391,7 +2391,7 @@
 				"synthesis": [["Chimaera", "Cumaulus"]]
 			},
 			{
-				"name": "Bean Man",
+				"name": "Beanie Meanie",
 				"rank": "D",
 				"family": "Nature",
 				"synthesis": []
@@ -2413,7 +2413,7 @@
 				"rank": "D",
 				"family": "Nature",
 				"synthesis": [
-					["Pumpoise", "Beast Family"],
+					["Puffpoise", "Beast Family"],
 					["Rockin' Rockhopper", "Rubble Slime"]
 				]
 			},
@@ -2475,16 +2475,16 @@
 				"synthesis": [["Boring Bug", "King Kelp"]]
 			},
 			{
-				"name": "War Mantis",
+				"name": "WarMantis",
 				"rank": "D",
 				"family": "Nature",
 				"synthesis": [["Wooper Trooper", "Crone"]]
 			},
 			{
-				"name": "Yellow Sickler",
+				"name": "Yellow Sickle",
 				"rank": "D",
 				"family": "Nature",
-				"synthesis": [["War Mantis", "Boreal Serpent"]]
+				"synthesis": [["WarMantis", "Boreal Serpent"]]
 			}
 		],
 		"C": [
@@ -2492,7 +2492,7 @@
 				"name": "Crested Loon",
 				"rank": "C",
 				"family": "Nature",
-				"synthesis": [["Yellow Sickler", "Fishrider"]]
+				"synthesis": [["Yellow Sickle", "FishRider"]]
 			},
 			{
 				"name": "Treeface",
@@ -2537,10 +2537,10 @@
 				"name": "Raven Lunatic",
 				"rank": "C",
 				"family": "Nature",
-				"synthesis": [["Stark Raven", "Rot Raven"]]
+				"synthesis": [["Stark Raven", "RotRaven"]]
 			},
 			{
-				"name": "Fire Weed",
+				"name": "Flame Flower",
 				"rank": "C",
 				"family": "Nature",
 				"synthesis": [["Barracuda", "Jumping Jackal"]]
@@ -2551,11 +2551,11 @@
 				"family": "Nature",
 				"synthesis": [
 					["Crabid", "Crabid"],
-					["Fire Weed", "Great Muddy Hand"]
+					["Flame Flower", "Great Muddy Hand"]
 				]
 			},
 			{
-				"name": "Funky Bird",
+				"name": "FunkyBird",
 				"rank": "C",
 				"family": "Nature",
 				"synthesis": []
@@ -2570,7 +2570,7 @@
 				"name": "Quack Up",
 				"rank": "C",
 				"family": "Nature",
-				"synthesis": [["Giant Moth", "Mertiger"]]
+				"synthesis": [["Giant Moth", "MerTiger"]]
 			},
 			{
 				"name": "Sickler",
@@ -2591,16 +2591,16 @@
 				"synthesis": [["Slurperon", "Scytheborg"]]
 			},
 			{
-				"name": "Cancer Man",
+				"name": "CancerMan",
 				"rank": "C",
 				"family": "Nature",
-				"synthesis": [["Pyuro", "Notso-Macho"]]
+				"synthesis": [["Pyuro", "Notso Macho"]]
 			},
 			{
-				"name": "Weedbug",
+				"name": "WeedBug",
 				"rank": "C",
 				"family": "Nature",
-				"synthesis": [["Cancer Man", "King Bubble Slime"]]
+				"synthesis": [["CancerMan", "King Bubble Slime"]]
 			}
 		],
 		"B": [
@@ -2610,14 +2610,14 @@
 				"family": "Nature",
 				"synthesis": [
 					["Hades Condor", "Dancing Flame"],
-					["Weedbug", "Rampage"]
+					["WeedBug", "Rampage"]
 				]
 			},
 			{
 				"name": "Sentripede",
 				"rank": "B",
 				"family": "Nature",
-				"synthesis": [["Amber Weed", "Nature Family"]]
+				"synthesis": [["AmberWeed", "Nature Family"]]
 			},
 			{
 				"name": "Hell Hornet",
@@ -2636,7 +2636,7 @@
 						"Scissor Beatle",
 						"Scissor Beatle"
 					],
-					["Hell Hornet", "Smile Lizard"]
+					["Hell Hornet", "Raptile"]
 				]
 			},
 			{
@@ -2655,7 +2655,7 @@
 				]
 			},
 			{
-				"name": "Digster",
+				"name": "Palooka Prawn",
 				"rank": "B",
 				"family": "Nature",
 				"synthesis": [["Yabby", "Yabby"]]
@@ -2714,10 +2714,10 @@
 				"synthesis": [["Chewlip", "Face Invader"]]
 			},
 			{
-				"name": "Whip Bird",
+				"name": "Gangleclaw",
 				"rank": "B",
 				"family": "Nature",
-				"synthesis": [["Genji Beetle", "Coatol"]]
+				"synthesis": [["Genji Beetle", "Flapdragon"]]
 			}
 		],
 		"A": [
@@ -2727,7 +2727,7 @@
 				"family": "Nature",
 				"synthesis": [
 					["Firebird", "Snowbird"],
-					["Whip Bird", "Rashaverak"]
+					["Gangleclaw", "Rashaverak"]
 				]
 			},
 			{
@@ -2736,7 +2736,7 @@
 				"family": "Nature",
 				"synthesis": [
 					["Chimaera", "Chimaera", "Hades Condor", "Hades Condor"],
-					["Thunderbird", "Demon-at-Arms"]
+					["Thunderbird", "Demon-At-Arms"]
 				]
 			},
 			{
@@ -2770,10 +2770,10 @@
 				]
 			},
 			{
-				"name": "Goreham-Hogg",
+				"name": "Lieutenant Goreham-Hogg",
 				"rank": "A",
 				"family": "Nature",
-				"synthesis": [["Mohawker", "Slon the Rook"]]
+				"synthesis": [["Mohawker", "Slon The Rook"]]
 			}
 		],
 		"S": [
@@ -2790,7 +2790,7 @@
 				"name": "Hammibal",
 				"rank": "S",
 				"family": "Nature",
-				"synthesis": [["Barbaru", "Goreham-Hogg"]]
+				"synthesis": [["Blamara", "Lieutenant Goreham-Hogg"]]
 			},
 			{
 				"name": "Empyrea",
@@ -2804,11 +2804,11 @@
 				"family": "Nature",
 				"synthesis": [
 					["Stout Troll", "Chewlip"],
-					["Marquis de Léon", "Chewlip"]
+					["Marquis De Léon", "Chewlip"]
 				]
 			},
 			{
-				"name": "Horn Beet",
+				"name": "HornBeet",
 				"rank": "S",
 				"family": "Nature",
 				"synthesis": [
@@ -2824,7 +2824,7 @@
 				"family": "Nature",
 				"synthesis": [
 					["Dullahan", "Thunderbird"],
-					["Horn Beet", "Thunderbird"],
+					["HornBeet", "Thunderbird"],
 					["Roseguardin", "Thunderbird"]
 				]
 			},
@@ -2873,8 +2873,8 @@
 				"rank": "X",
 				"family": "Nature",
 				"synthesis": [
-					["Treeface", "Rottney"],
-					["Treeface", "Cottney"]
+					["Treeface", "Scruffy"],
+					["Treeface", "Fluffy"]
 				]
 			},
 			{
@@ -2883,14 +2883,14 @@
 				"family": "Nature",
 				"synthesis": [
 					["Greygnarl", "Numen"],
-					["Greygnarl", "Cottney"]
+					["Greygnarl", "Fluffy"]
 				]
 			},
 			{
-				"name": "Great Godbird",
+				"name": "Empyrea",
 				"rank": "X",
 				"family": "Nature",
-				"synthesis": [["Dragovian Lord", "Empyrea"]]
+				"synthesis": [["Lord Of The Dragovians", "Empyrea"]]
 			}
 		]
 	},
@@ -2915,7 +2915,7 @@
 				"synthesis": [["Bag O' Laughs", "Capsichum"]]
 			},
 			{
-				"name": "Coil Bird",
+				"name": "CoilBird",
 				"rank": "F",
 				"family": "Material",
 				"synthesis": [["Mud Mannequin", "Bludgerigar"]]
@@ -2924,7 +2924,7 @@
 				"name": "Burr Baby",
 				"rank": "F",
 				"family": "Material",
-				"synthesis": [["Coil Bird", "Killerpillar"]]
+				"synthesis": [["CoilBird", "Killerpillar"]]
 			},
 			{
 				"name": "Sacksquatch",
@@ -2986,7 +2986,7 @@
 				"name": "Mudraker",
 				"rank": "E",
 				"family": "Material",
-				"synthesis": [["Malevolamp", "Rot Raven"]]
+				"synthesis": [["Malevolamp", "RotRaven"]]
 			},
 			{
 				"name": "Dingaling",
@@ -3022,7 +3022,7 @@
 				"name": "Shadow",
 				"rank": "E",
 				"family": "Material",
-				"synthesis": [["Cannibox", "Pearl Gel"]]
+				"synthesis": [["Cannibox", "Scallop Slime"]]
 			},
 			{
 				"name": "Rockbomb",
@@ -3070,7 +3070,7 @@
 				"name": "Aquarella",
 				"rank": "E",
 				"family": "Material",
-				"synthesis": [["Dancing Flame", "Broadaxer"]]
+				"synthesis": [["Dancing Flame", "Boorbarian"]]
 			},
 			{
 				"name": "Urnexpected",
@@ -3084,10 +3084,10 @@
 				"name": "Cumaulus",
 				"rank": "D",
 				"family": "Material",
-				"synthesis": [["Urnexpected", "Drag-goof"]]
+				"synthesis": [["Urnexpected", "Drag-Goof"]]
 			},
 			{
-				"name": "Mecha-mynah",
+				"name": "Mecha-Mynah",
 				"rank": "D",
 				"family": "Material",
 				"synthesis": [["Cumaulus", "Phantom Fencer"]]
@@ -3102,7 +3102,7 @@
 				"name": "Magmalice",
 				"rank": "D",
 				"family": "Material",
-				"synthesis": [["Mecha-mynah", "Finned Fatale"]]
+				"synthesis": [["Mecha-Mynah", "Finned Fatale"]]
 			},
 			{
 				"name": "Erazor Blade",
@@ -3141,7 +3141,7 @@
 				"synthesis": [["Harmour", "Weartiger"]]
 			},
 			{
-				"name": "Lucky Bag",
+				"name": "Bag O' Tricks",
 				"rank": "D",
 				"family": "Material",
 				"synthesis": [["Goodybag", "Goodybag"]]
@@ -3163,7 +3163,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Demonic Ender",
+				"name": "Tome Of Apocalypse",
 				"rank": "D",
 				"family": "Material",
 				"synthesis": []
@@ -3174,14 +3174,14 @@
 				"family": "Material",
 				"synthesis": [
 					["Sacksquatch", "Sacksquatch", "Power Hammer", "Power Hammer"],
-					["Frostburn", "Drac the Vlad"]
+					["Frostburn", "Drac The Vlad"]
 				]
 			},
 			{
 				"name": "Moai Minstrel",
 				"rank": "D",
 				"family": "Material",
-				"synthesis": [["Sand Wave", "Spin Slime"]]
+				"synthesis": [["Sand Wave", "Spiny Slime"]]
 			}
 		],
 		"C": [
@@ -3228,7 +3228,7 @@
 				"name": "Gastank",
 				"rank": "C",
 				"family": "Material",
-				"synthesis": [["Great Muddy Hand", "Fire Weed"]]
+				"synthesis": [["Great Muddy Hand", "Flame Flower"]]
 			},
 			{
 				"name": "Puppetor",
@@ -3261,7 +3261,7 @@
 				"synthesis": [["Golem", "Prestidigitator"]]
 			},
 			{
-				"name": "Amber Weed",
+				"name": "AmberWeed",
 				"rank": "C",
 				"family": "Material",
 				"synthesis": [["Scytheborg", "Morphean Mushroom"]]
@@ -3282,7 +3282,7 @@
 				"name": "Exaucers",
 				"rank": "C",
 				"family": "Material",
-				"synthesis": [["Amber Weed", "Giga Conkuistador"]]
+				"synthesis": [["AmberWeed", "Giga Hero"]]
 			}
 		],
 		"B": [
@@ -3292,7 +3292,7 @@
 				"family": "Material",
 				"synthesis": [
 					["Hunter Mech", "Hunter Mech"],
-					["Exaucers", "Iron Hawk"]
+					["Exaucers", "IronHawk"]
 				]
 			},
 			{
@@ -3314,17 +3314,17 @@
 				"family": "Material",
 				"synthesis": [
 					["Cannibox", "Cannibox", "Cannibox", "Cannibox"],
-					["Automaton", "Bonebat"]
+					["Automaton", "Bone Bat"]
 				]
 			},
 			{
-				"name": "Knotty Child",
+				"name": "String Fella",
 				"rank": "B",
 				"family": "Material",
 				"synthesis": [["Mimic", "Cockateer"]]
 			},
 			{
-				"name": "Wireman",
+				"name": "Wire Man",
 				"rank": "B",
 				"family": "Material",
 				"synthesis": []
@@ -3333,7 +3333,7 @@
 				"name": "Bambooligan",
 				"rank": "B",
 				"family": "Material",
-				"synthesis": [["Knotty Child", "Grim Grinner"]]
+				"synthesis": [["String Fella", "Grim Grinner"]]
 			},
 			{
 				"name": "Lethal Armour",
@@ -3354,7 +3354,7 @@
 				]
 			},
 			{
-				"name": "Type G",
+				"name": "Type G0",
 				"rank": "B",
 				"family": "Material",
 				"synthesis": []
@@ -3384,7 +3384,7 @@
 				]
 			},
 			{
-				"name": "Lexicon",
+				"name": "Archfiend's Grimoire",
 				"rank": "B",
 				"family": "Material",
 				"synthesis": []
@@ -3488,7 +3488,7 @@
 				]
 			},
 			{
-				"name": "Stormgate Citadel",
+				"name": "Stormsgate Citadel",
 				"rank": "A",
 				"family": "Material",
 				"synthesis": []
@@ -3508,13 +3508,13 @@
 				"synthesis": [["Balhib", "Balhib", "Killing Machine", "Killing Machine"]]
 			},
 			{
-				"name": "Dark Crystal",
+				"name": "DarkCrystal",
 				"rank": "S",
 				"family": "Material",
 				"synthesis": [
-					["Mechan-o'-wyrm", "Dorsal Fiend"],
-					["Mechan-o'-wyrm", "Whip Bird"],
-					["Mechan-o'-wyrm", "King Squid"]
+					["Mechan-O'-Wyrm", "Dorsal Fiend"],
+					["Mechan-O'-Wyrm", "Gangleclaw"],
+					["Mechan-O'-Wyrm", "King Squid"]
 				]
 			},
 			{
@@ -3537,10 +3537,10 @@
 				]
 			},
 			{
-				"name": "Mecha-Dragon",
+				"name": "DrakMachine",
 				"rank": "S",
 				"family": "Material",
-				"synthesis": [["Coatol", "Slaughtomaton"]]
+				"synthesis": [["Flapdragon", "Slaughtomaton"]]
 			},
 			{
 				"name": "Extreme Killing Machine",
@@ -3549,7 +3549,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Dark Matter",
+				"name": "DarkMate",
 				"rank": "S",
 				"family": "Material",
 				"synthesis": []
@@ -3561,7 +3561,7 @@
 				"synthesis": [["Mum", "Boh", "Jum", "Boe"]]
 			},
 			{
-				"name": "Aztech",
+				"name": "Urubea Genie Soldier",
 				"rank": "S",
 				"family": "Material",
 				"synthesis": []
@@ -3570,7 +3570,7 @@
 				"name": "Uberkilling Machine",
 				"rank": "S",
 				"family": "Material",
-				"synthesis": [["Mecha-Dragon", "Extreme Killing Machine"]]
+				"synthesis": [["DrakMachine", "Extreme Killing Machine"]]
 			},
 			{
 				"name": "Ruin",
@@ -3578,8 +3578,8 @@
 				"family": "Material",
 				"synthesis": [
 					["Mumboh-Jumboe", "Gold Golem"],
-					["Stormgate Citadel", "Living Statue"],
-					["Stormgate Citadel", "Gold Golem"],
+					["Stormsgate Citadel", "Living Statue"],
+					["Stormsgate Citadel", "Gold Golem"],
 					["Mumboh-Jumboe", "Living Statue"]
 				]
 			}
@@ -3590,7 +3590,7 @@
 				"rank": "X",
 				"family": "Material",
 				"synthesis": [
-					["Dark Crystal", "Ruin"],
+					["DarkCrystal", "Ruin"],
 					["Overkilling Machine", "Ruin"],
 					["Metal Scorpion", "Ruin"]
 				]
@@ -3620,7 +3620,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Saggitar",
+				"name": "Sagittar",
 				"rank": "X",
 				"family": "Material",
 				"synthesis": [
@@ -3643,13 +3643,13 @@
 				"name": "Devipine",
 				"rank": "F",
 				"family": "Demon",
-				"synthesis": [["Florajay", "Ghost"]]
+				"synthesis": [["Kingfuchsia", "Ghost"]]
 			},
 			{
 				"name": "Dracky",
 				"rank": "F",
 				"family": "Demon",
-				"synthesis": [["Devipine", "Florajay"]]
+				"synthesis": [["Devipine", "Kingfuchsia"]]
 			},
 			{
 				"name": "Lips",
@@ -3703,7 +3703,7 @@
 				]
 			},
 			{
-				"name": "Brushead",
+				"name": "Mohawkling",
 				"rank": "F",
 				"family": "Demon",
 				"synthesis": [["Pan Piper", "Guaardvark"]]
@@ -3712,7 +3712,7 @@
 				"name": "Winky",
 				"rank": "F",
 				"family": "Demon",
-				"synthesis": [["Brushead", "Platypunk"]]
+				"synthesis": [["Mohawkling", "Platypunk"]]
 			},
 			{
 				"name": "See Urchin",
@@ -3738,7 +3738,7 @@
 				"name": "Lump Wizard",
 				"rank": "E",
 				"family": "Demon",
-				"synthesis": [["Headhunter", "She Slime"]]
+				"synthesis": [["Headhunter", "She-Slime"]]
 			},
 			{
 				"name": "Swingin' Hipster",
@@ -3801,7 +3801,7 @@
 				"synthesis": [["Lesser Demon", "Chariot Chappie"]]
 			},
 			{
-				"name": "Broadaxer",
+				"name": "Boorbarian",
 				"rank": "E",
 				"family": "Demon",
 				"synthesis": [["Jinkster", "Leafy Larrikin"]]
@@ -3810,7 +3810,7 @@
 				"name": "Anemon",
 				"rank": "E",
 				"family": "Demon",
-				"synthesis": [["Broadaxer", "Ursa Major"]]
+				"synthesis": [["Boorbarian", "Ursa Major"]]
 			}
 		],
 		"D": [
@@ -3881,7 +3881,7 @@
 				"name": "Crone",
 				"rank": "D",
 				"family": "Demon",
-				"synthesis": [["Flying Flayer", "Tigertaur"]]
+				"synthesis": [["Flying Flayer", "Trigertaur"]]
 			},
 			{
 				"name": "Peeper",
@@ -3890,7 +3890,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Fishrider",
+				"name": "FishRider",
 				"rank": "D",
 				"family": "Demon",
 				"synthesis": [["Crone", "Armoured Wartoise"]]
@@ -3901,7 +3901,7 @@
 				"name": "Beastmaster",
 				"rank": "C",
 				"family": "Demon",
-				"synthesis": [["Fishrider", "Yellow Sickler"]]
+				"synthesis": [["FishRider", "Yellow Sickle"]]
 			},
 			{
 				"name": "Quadrahead",
@@ -3946,7 +3946,7 @@
 				"name": "Gryphon",
 				"rank": "C",
 				"family": "Demon",
-				"synthesis": [["Octavian Sentry", "Misty Wing"]]
+				"synthesis": [["Octavian Sentry", "MistyWing"]]
 			},
 			{
 				"name": "Kotobukino",
@@ -3976,10 +3976,10 @@
 				"name": "Peahooter",
 				"rank": "C",
 				"family": "Demon",
-				"synthesis": [["Prestidigitator", "Death Maestro"]]
+				"synthesis": [["Prestidigitator", "Frightening Conductor"]]
 			},
 			{
-				"name": "Giga Conkuistador",
+				"name": "Giga Hero",
 				"rank": "C",
 				"family": "Demon",
 				"synthesis": [
@@ -3991,15 +3991,15 @@
 				"name": "Dingbat",
 				"rank": "C",
 				"family": "Demon",
-				"synthesis": [["Giga Conkuistador", "Haunted Tree"]]
+				"synthesis": [["Giga Hero", "GhosTree"]]
 			},
 			{
-				"name": "Iron Hawk",
+				"name": "IronHawk",
 				"rank": "C",
 				"family": "Demon",
 				"synthesis": [
 					["Hades Condor", "Silvapithecus"],
-					["Dingbat", "Cancer Man"]
+					["Dingbat", "CancerMan"]
 				]
 			}
 		],
@@ -4008,7 +4008,7 @@
 				"name": "Togrus Maximus",
 				"rank": "B",
 				"family": "Demon",
-				"synthesis": [["Iron Hawk", "Eyesaur"]]
+				"synthesis": [["IronHawk", "Eyesaur"]]
 			},
 			{
 				"name": "Boss Troll",
@@ -4016,7 +4016,7 @@
 				"family": "Demon",
 				"synthesis": [
 					["Gorerilla", "Diemon"],
-					["Gorerilla", "Notso-Macho"],
+					["Gorerilla", "Notso Macho"],
 					["Gorerilla", "Half Hog"]
 				]
 			},
@@ -4024,7 +4024,7 @@
 				"name": "Babygoyle",
 				"rank": "B",
 				"family": "Demon",
-				"synthesis": [["Togrus Maximus", "Seahorse"]]
+				"synthesis": [["Togrus Maximus", "Briny Bronco"]]
 			},
 			{
 				"name": "Grim Grinner",
@@ -4096,7 +4096,7 @@
 				"family": "Demon",
 				"synthesis": [
 					["Malevolantern", "Cumulus Rex"],
-					["Archdemon", "Wailin Weed"]
+					["Archdemon", "Wailin' Weed"]
 				]
 			},
 			{
@@ -4115,7 +4115,7 @@
 				"rank": "A",
 				"family": "Demon",
 				"synthesis": [
-					["Notso-Macho", "Phantom Swordsman"],
+					["Notso Macho", "Phantom Swordsman"],
 					["Aggrosculpture", "Ginormoose"]
 				]
 			},
@@ -4123,10 +4123,10 @@
 				"name": "Stout Troll",
 				"rank": "A",
 				"family": "Demon",
-				"synthesis": [["Boss Troll", "Bjorn"]]
+				"synthesis": [["Boss Troll", "Bjorn The Behemoose"]]
 			},
 			{
-				"name": "Demon-at-Arms",
+				"name": "Demon-At-Arms",
 				"rank": "A",
 				"family": "Demon",
 				"synthesis": [
@@ -4141,12 +4141,12 @@
 				"synthesis": [["Mandrake Marshal", "Wooper Trooper"]]
 			},
 			{
-				"name": "Whale Mage",
+				"name": "Baleen Mage",
 				"rank": "A",
 				"family": "Demon",
 				"synthesis": [
-					["Axeshark", "Crone"],
-					["Demon-at-Arms", "Thunderbird"]
+					["AxeShark", "Crone"],
+					["Demon-At-Arms", "Thunderbird"]
 				]
 			},
 			{
@@ -4197,7 +4197,7 @@
 				]
 			},
 			{
-				"name": "Baron von Bellycose",
+				"name": "Baron Von Bellycose",
 				"rank": "A",
 				"family": "Demon",
 				"synthesis": [
@@ -4221,9 +4221,9 @@
 				"rank": "A",
 				"family": "Demon",
 				"synthesis": [
-					["Herb Man", "Thornella"],
-					["Herb Man", "Mortella"],
-					["Herb Man", "Conkettes"]
+					["HerbMan", "Thornella"],
+					["HerbMan", "Mortella"],
+					["HerbMan", "Conkettes"]
 				]
 			},
 			{
@@ -4253,10 +4253,10 @@
 				]
 			},
 			{
-				"name": "Hootingham-Gore",
+				"name": "Lieutenant Hootingham-Gore",
 				"rank": "A",
 				"family": "Demon",
-				"synthesis": [["Kon the Knight", "Jamirus"]]
+				"synthesis": [["Kon The Knight", "Jamirus"]]
 			}
 		],
 		"S": [
@@ -4264,7 +4264,7 @@
 				"name": "Fowleye",
 				"rank": "S",
 				"family": "Demon",
-				"synthesis": [["Kakalon", "Hootingham-Gore"]]
+				"synthesis": [["Klashmi", "Lieutenant Hootingham-Gore"]]
 			},
 			{
 				"name": "Atlas",
@@ -4295,7 +4295,7 @@
 				"family": "Demon",
 				"synthesis": [
 					["King Korol", "Terracotta Warrior"],
-					["King Korol", "Baron von Bellycose"]
+					["King Korol", "Baron Von Bellycose"]
 				]
 			},
 			{
@@ -4321,10 +4321,10 @@
 				"name": "Duke Sigras",
 				"rank": "S",
 				"family": "Demon",
-				"synthesis": [["Baalzack", "Gracos"]]
+				"synthesis": [["Balzack", "Gracos"]]
 			},
 			{
-				"name": "Tyrannasaura Wrecks",
+				"name": "Tyrannosaura Wrecks",
 				"rank": "S",
 				"family": "Demon",
 				"synthesis": []
@@ -4338,17 +4338,22 @@
 				"synthesis": [["Fowleye", "Demonic Carriage"]]
 			},
 			{
-				"name": "Shaman Marline",
+				"name": "Monsterous Marine",
 				"rank": "X",
 				"family": "Demon",
-				"synthesis": [["Large Ghost Mammon", "Monster Wanderer"]]
+				"synthesis": [["Large Ghost Mammon", "Pusugon"]]
 			},
 			{
-				"name": "Kabalna the Divine",
+				"name": "Kukulkannibal",
 				"rank": "X",
 				"family": "Demon",
 				"synthesis": [
-					["Aztech", "Oren Wraithblade", "Tactician Iddo", "Shaman Marline"]
+					[
+						"Urubea Genie Soldier",
+						"Oren Wraithblade",
+						"Tactician Iddo",
+						"Monsterous Marine"
+					]
 				]
 			},
 			{
@@ -4356,9 +4361,9 @@
 				"rank": "X",
 				"family": "Demon",
 				"synthesis": [
-					["Dhuran", "Dr. Snapped"],
-					["Eggla & Chickira", "Dr. Snapped"],
-					["Dhuran", "Mortamor III"]
+					["Dhuran", "Dr Snapped"],
+					["Eggla & Chickira", "Dr Snapped"],
+					["Dhuran", "Mortamor"]
 				]
 			}
 		]
@@ -4372,7 +4377,7 @@
 				"synthesis": [["Devipine", "Weedie"]]
 			},
 			{
-				"name": "Whipped Scream",
+				"name": "Soft Serve Spook",
 				"rank": "F",
 				"family": "Undead",
 				"synthesis": [["Ghost", "Quiller"]]
@@ -4381,10 +4386,10 @@
 				"name": "Stump Chump",
 				"rank": "F",
 				"family": "Undead",
-				"synthesis": [["Whipped Scream", "Bag O' Laughs"]]
+				"synthesis": [["Soft Serve Spook", "Bag O' Laughs"]]
 			},
 			{
-				"name": "Evil Seed",
+				"name": "EvilSeed",
 				"rank": "F",
 				"family": "Undead",
 				"synthesis": [["Stump Chump", "Mud Mannequin"]]
@@ -4393,7 +4398,7 @@
 				"name": "Funghoul",
 				"rank": "F",
 				"family": "Undead",
-				"synthesis": [["Evil Seed", "Coil Bird"]]
+				"synthesis": [["EvilSeed", "CoilBird"]]
 			},
 			{
 				"name": "Putrefido",
@@ -4417,7 +4422,7 @@
 				]
 			},
 			{
-				"name": "Skull Rider",
+				"name": "Skullrider",
 				"rank": "F",
 				"family": "Undead",
 				"synthesis": []
@@ -4435,7 +4440,7 @@
 				"synthesis": [["Drooling Ghoul", "Cheeky Tiki"]]
 			},
 			{
-				"name": "Will-O'-Whips",
+				"name": "Will-O'-The-Whips",
 				"rank": "F",
 				"family": "Undead",
 				"synthesis": [["Mummy Boy", "Muddy Hand"]]
@@ -4450,7 +4455,7 @@
 				"name": "Fire Spirit",
 				"rank": "F",
 				"family": "Undead",
-				"synthesis": [["Will-O'-Whips", "Pocus Poppet"]]
+				"synthesis": [["Will-O'-The-Whips", "Pocus Poppet"]]
 			},
 			{
 				"name": "Frightbait",
@@ -4461,7 +4466,7 @@
 		],
 		"E": [
 			{
-				"name": "Rot Raven",
+				"name": "RotRaven",
 				"rank": "E",
 				"family": "Undead",
 				"synthesis": [["Frightbait", "Sky Fry"]]
@@ -4470,7 +4475,7 @@
 				"name": "Marrow Escapee",
 				"rank": "E",
 				"family": "Undead",
-				"synthesis": [["Rot Raven", "Nardragon"]]
+				"synthesis": [["RotRaven", "Nardragon"]]
 			},
 			{
 				"name": "Skipper",
@@ -4512,7 +4517,7 @@
 				"name": "Demonrider",
 				"rank": "E",
 				"family": "Undead",
-				"synthesis": [["Skull Rider", "Demon Family"]]
+				"synthesis": [["Skullrider", "Demon Family"]]
 			},
 			{
 				"name": "Mudslinger",
@@ -4610,31 +4615,31 @@
 				"synthesis": [["Eyelasher", "Prickly Prankster"]]
 			},
 			{
-				"name": "Drac the Vlad",
+				"name": "Drac The Vlad",
 				"rank": "D",
 				"family": "Undead",
 				"synthesis": [["King Kelp", "Boring Bug"]]
 			},
 			{
-				"name": "Dark Crab",
+				"name": "DarkCrab",
 				"rank": "D",
 				"family": "Undead",
 				"synthesis": [
 					["Crabid", "Undead Family"],
-					["Drac the Vlad", "Frostburn"]
+					["Drac The Vlad", "Frostburn"]
 				]
 			},
 			{
-				"name": "Fox Fire",
+				"name": "Grinferno",
 				"rank": "D",
 				"family": "Undead",
-				"synthesis": [["Dark Crab", "Wooper Trooper"]]
+				"synthesis": [["DarkCrab", "Wooper Trooper"]]
 			},
 			{
 				"name": "Swag Bagger",
 				"rank": "D",
 				"family": "Undead",
-				"synthesis": [["Fox Fire", "War Mantis"]]
+				"synthesis": [["Grinferno", "WarMantis"]]
 			}
 		],
 		"C": [
@@ -4645,7 +4650,7 @@
 				"synthesis": [["Swag Bagger", "Beastmaster"]]
 			},
 			{
-				"name": "Mad Smith",
+				"name": "Lumberin' Jack",
 				"rank": "C",
 				"family": "Undead",
 				"synthesis": []
@@ -4666,7 +4671,7 @@
 				]
 			},
 			{
-				"name": "Misty Wing",
+				"name": "MistyWing",
 				"rank": "C",
 				"family": "Undead",
 				"synthesis": [["Restless Armour", "Sculptrice"]]
@@ -4681,7 +4686,7 @@
 				"name": "Wight Watchman",
 				"rank": "C",
 				"family": "Undead",
-				"synthesis": [["Misty Wing", "Barracuda"]]
+				"synthesis": [["MistyWing", "Barracuda"]]
 			},
 			{
 				"name": "Cerberwretch",
@@ -4715,7 +4720,7 @@
 				]
 			},
 			{
-				"name": "Death Maestro",
+				"name": "Frightening Conductor",
 				"rank": "C",
 				"family": "Undead",
 				"synthesis": [["Gustbluster", "Dreadmaster"]]
@@ -4726,14 +4731,14 @@
 				"family": "Undead",
 				"synthesis": [
 					["Funghoul", "Pan Piper"],
-					["Death Maestro", "Slimecicle"]
+					["Frightening Conductor", "Slimecicle"]
 				]
 			},
 			{
-				"name": "Haunted Tree",
+				"name": "GhosTree",
 				"rank": "C",
 				"family": "Undead",
-				"synthesis": [["Morphean Mushroom", "Town Frog"]]
+				"synthesis": [["Morphean Mushroom", "Continent Toad"]]
 			},
 			{
 				"name": "Beelzebuzz",
@@ -4741,7 +4746,7 @@
 				"family": "Undead",
 				"synthesis": [
 					["Flyguy", "Flying Flayer"],
-					["Haunted Tree", "Confetti"]
+					["GhosTree", "Sugarstar Slime"]
 				]
 			},
 			{
@@ -4753,7 +4758,7 @@
 		],
 		"B": [
 			{
-				"name": "Bonebat",
+				"name": "Bone Bat",
 				"rank": "B",
 				"family": "Undead",
 				"synthesis": [["Eyesaur", "Magic Slime"]]
@@ -4770,7 +4775,7 @@
 				"family": "Undead",
 				"synthesis": [
 					["Skeleton", "Skeleton", "Skeleton", "Skeleton"],
-					["Bonebat", "Firebird"]
+					["Bone Bat", "Firebird"]
 				]
 			},
 			{
@@ -4778,7 +4783,7 @@
 				"rank": "B",
 				"family": "Undead",
 				"synthesis": [
-					["Demonrider", "Notso-Macho"],
+					["Demonrider", "Notso Macho"],
 					["Demonrider", "Diemon"],
 					["Demonrider", "Half Hog"]
 				]
@@ -4799,7 +4804,7 @@
 				"name": "Animated Armour",
 				"rank": "B",
 				"family": "Undead",
-				"synthesis": [["Grim Rider", "Knotty Child"]]
+				"synthesis": [["Grim Rider", "String Fella"]]
 			},
 			{
 				"name": "Ragin' Contagion",
@@ -4808,7 +4813,7 @@
 				"synthesis": [["Walking Corpse", "Soulspawn"]]
 			},
 			{
-				"name": "Kite Hawk",
+				"name": "KiteHawk",
 				"rank": "B",
 				"family": "Undead",
 				"synthesis": [["Animated Armour", "Tyrantosaurus"]]
@@ -4817,7 +4822,7 @@
 				"name": "Widow's Pique",
 				"rank": "B",
 				"family": "Undead",
-				"synthesis": [["Kite Hawk", "Abyss Diver"]]
+				"synthesis": [["KiteHawk", "Abyss Diver"]]
 			},
 			{
 				"name": "Soulspawn",
@@ -4844,7 +4849,7 @@
 				]
 			},
 			{
-				"name": "Wailin Weed",
+				"name": "Wailin' Weed",
 				"rank": "B",
 				"family": "Undead",
 				"synthesis": [
@@ -4854,12 +4859,12 @@
 				]
 			},
 			{
-				"name": "Herb Man",
+				"name": "HerbMan",
 				"rank": "B",
 				"family": "Undead",
 				"synthesis": [
 					["Wild Carrot", "Wild Carrot"],
-					["Wailin Weed", "Thaumatosaurus"]
+					["Wailin' Weed", "Thaumatosaurus"]
 				]
 			},
 			{
@@ -4868,7 +4873,7 @@
 				"family": "Undead",
 				"synthesis": [
 					["Octagoon", "Octagoon"],
-					["Herb Man", "High Djinks"]
+					["HerbMan", "High Djinks"]
 				]
 			},
 			{
@@ -4885,7 +4890,7 @@
 				"family": "Undead",
 				"synthesis": [
 					["Mortoad", "Mortoad"],
-					["Gnuriel", "Whip Bird"]
+					["Gnuriel", "Gangleclaw"]
 				]
 			},
 			{
@@ -4901,10 +4906,10 @@
 				"name": "King Godwyn",
 				"rank": "A",
 				"family": "Undead",
-				"synthesis": [["Marquis de Léon", "King Korol"]]
+				"synthesis": [["Marquis De Léon", "King Korol"]]
 			},
 			{
-				"name": "Dead Masker",
+				"name": "DeathMasker",
 				"rank": "A",
 				"family": "Undead",
 				"synthesis": [["Skeleton Swordsman", "Buffalogre"]]
@@ -4928,7 +4933,7 @@
 				"synthesis": [
 					["Fright Knight", "Cobra Cardinal"],
 					["Fright Knight", "Wight Knight"],
-					["Fright Knight", "Wailin Weed"],
+					["Fright Knight", "Wailin' Weed"],
 					["Fright Knight", "Ragin' Contagion"]
 				]
 			},
@@ -5020,7 +5025,7 @@
 				]
 			},
 			{
-				"name": "Baramos Zombie",
+				"name": "Bones Of Baramos",
 				"rank": "S",
 				"family": "Undead",
 				"synthesis": [["Baramos", "Undead Family"]]
@@ -5031,7 +5036,7 @@
 				"family": "Undead",
 				"synthesis": [
 					["Wight Knight", "Morag"],
-					["Domedy", "King Godwyn"]
+					["Damniuni", "King Godwyn"]
 				]
 			},
 			{
@@ -5065,23 +5070,28 @@
 				"synthesis": []
 			},
 			{
-				"name": "King Godwyn II",
+				"name": "King Godwyn Second Forme",
 				"rank": "S",
 				"family": "Undead",
 				"synthesis": [
-					["Goresby-Purrvis", "Goreham-Hogg", "Hootingham-Gore", "King Godwyn"]
+					[
+						"Lieutenant Goresby-Purrvis",
+						"Lieutenant Goreham-Hogg",
+						"Lieutenant Hootingham-Gore",
+						"King Godwyn"
+					]
 				]
 			}
 		],
 		"X": [
 			{
-				"name": "Syphon",
+				"name": "Siphon",
 				"rank": "X",
 				"family": "Undead",
 				"synthesis": [["Sebastian", "Demonic Carriage"]]
 			},
 			{
-				"name": "Dr. Snapped",
+				"name": "Dr Snapped",
 				"rank": "X",
 				"family": "Undead",
 				"synthesis": [
@@ -5173,8 +5183,8 @@
 				"rank": "D",
 				"family": "???",
 				"synthesis": [
-					["Orgodemir", "Dead Masker"],
-					["Dragon Lord", "Dead Masker"]
+					["Orgodemir", "DeathMasker"],
+					["Dragonlord", "DeathMasker"]
 				]
 			},
 			{
@@ -5182,8 +5192,8 @@
 				"rank": "D",
 				"family": "???",
 				"synthesis": [
-					["Hargon", "Dead Masker"],
-					["Nimzo", "Dead Masker"]
+					["Hargon", "DeathMasker"],
+					["Nimzo", "DeathMasker"]
 				]
 			}
 		],
@@ -5211,7 +5221,7 @@
 		],
 		"A": [
 			{
-				"name": "Robbin' Hood",
+				"name": "Robbin' 'Ood",
 				"rank": "A",
 				"family": "???",
 				"synthesis": []
@@ -5223,7 +5233,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Estarkers",
+				"name": "Starkers",
 				"rank": "A",
 				"family": "???",
 				"synthesis": []
@@ -5271,7 +5281,7 @@
 				"synthesis": [["Divine Monster", "Beast Family", "Rank A or lower"]]
 			},
 			{
-				"name": "Elder Pippit",
+				"name": "Elder Pipit",
 				"rank": "A",
 				"family": "???",
 				"synthesis": [
@@ -5296,7 +5306,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Princess Togami",
+				"name": "War Goddess Togamihime",
 				"rank": "S",
 				"family": "???",
 				"synthesis": [
@@ -5330,10 +5340,10 @@
 				"synthesis": []
 			},
 			{
-				"name": "Sorcerer Bedora",
+				"name": "Bedora",
 				"rank": "S",
 				"family": "???",
-				"synthesis": [["Master Slime", "Face Invader"]]
+				"synthesis": [["Superior Slime", "Face Invader"]]
 			},
 			{
 				"name": "Hargon",
@@ -5358,8 +5368,8 @@
 				"rank": "S",
 				"family": "???",
 				"synthesis": [
-					["Bjorn", "Mossferatu"],
-					["Bjorn", "Night Clubber"]
+					["Bjorn The Behemoose", "Mossferatu"],
+					["Bjorn The Behemoose", "Night Clubber"]
 				]
 			},
 			{
@@ -5369,7 +5379,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Mortamor II",
+				"name": "Mortamor Intermediate Forme",
 				"rank": "S",
 				"family": "???",
 				"synthesis": [
@@ -5385,7 +5395,7 @@
 				"synthesis": [
 					["Hargon", "Khalamari"],
 					["Hargon", "Skeleton Swordsman"],
-					["Hargon", "Demon-at-Arms"]
+					["Hargon", "Demon-At-Arms"]
 				]
 			},
 			{
@@ -5394,9 +5404,9 @@
 				"family": "???",
 				"synthesis": [
 					["Hyperanemon", "Kapurigon"],
-					["Whip Bird", "Taurus"],
-					["Whip Bird", "Kapurigon"],
-					["Hyperanemon", "Taurus"]
+					["Gangleclaw", "Taurix"],
+					["Gangleclaw", "Kapurigon"],
+					["Hyperanemon", "Taurix"]
 				]
 			},
 			{
@@ -5404,10 +5414,10 @@
 				"rank": "S",
 				"family": "???",
 				"synthesis": [
-					["Alabast Dragon", "Tyrannasaura Wrecks"],
+					["Alabast Dragon", "Tyrannosaura Wrecks"],
 					["Alabast Dragon", "Captain Crow"],
 					["Alabast Dragon", "Tyrannosaurus Wrecks"],
-					["Alabast Dragon", "Geno Darck"]
+					["Alabast Dragon", "GenoDrak"]
 				]
 			},
 			{
@@ -5429,25 +5439,25 @@
 				"synthesis": []
 			},
 			{
-				"name": "Kakalon",
+				"name": "Klashmi",
 				"rank": "S",
 				"family": "???",
 				"synthesis": []
 			},
 			{
-				"name": "Sneezy",
+				"name": "Kamashki",
 				"rank": "S",
 				"family": "???",
 				"synthesis": []
 			},
 			{
-				"name": "Barbaru",
+				"name": "Blamara",
 				"rank": "S",
 				"family": "???",
 				"synthesis": []
 			},
 			{
-				"name": "Domedy",
+				"name": "Damniuni",
 				"rank": "S",
 				"family": "???",
 				"synthesis": []
@@ -5491,12 +5501,12 @@
 				"synthesis": []
 			},
 			{
-				"name": "Geno Darck",
+				"name": "GenoDrak",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
 					["Malroth", "Kapurigon"],
-					["Malroth", "Taurus"]
+					["Malroth", "Taurix"]
 				]
 			},
 			{
@@ -5513,14 +5523,14 @@
 					["Aamon", "Pruslas", "Barbatos", "Rashaverak"],
 					[
 						"Robbin's Old Lady",
-						"Robbin' Hood",
+						"Robbin' 'Ood",
 						"Prince O' Thieves",
 						"Robbin' Ladies"
 					]
 				]
 			},
 			{
-				"name": "Nimzo II",
+				"name": "Nimzo",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [["Baramos", "Nimzo"]]
@@ -5530,12 +5540,12 @@
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
-					["Murdaw", "Don Mole", "Cottney", "King Sanguini"],
-					["Murdaw", "Don Mole", "Rottney", "King Sanguini"]
+					["Murdaw", "Don Mole", "Fluffy", "King Sanguini"],
+					["Murdaw", "Don Mole", "Scruffy", "King Sanguini"]
 				]
 			},
 			{
-				"name": "Maizar",
+				"name": "Malzar",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [["Rugius", "King Godfrey"]]
@@ -5547,13 +5557,13 @@
 				"synthesis": []
 			},
 			{
-				"name": "Guardian Lazuvann",
+				"name": "Razerburn",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Kabalna the Divine", "Tyrant Basagrande"]]
+				"synthesis": [["Kukulkannibal", "Tyrant Basagrande"]]
 			},
 			{
-				"name": "Rottney",
+				"name": "Scruffy",
 				"rank": "X",
 				"family": "???",
 				"synthesis": []
@@ -5576,19 +5586,19 @@
 				"synthesis": []
 			},
 			{
-				"name": "Cottney",
+				"name": "Fluffy",
 				"rank": "X",
 				"family": "???",
 				"synthesis": []
 			},
 			{
-				"name": "Mortamor III",
+				"name": "Mortamor",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Psaro", "Mortamor II"]]
+				"synthesis": [["Psaro", "Mortamor Intermediate Forme"]]
 			},
 			{
-				"name": "Baboon Beast",
+				"name": "Hihyurude",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [["Aquarion", "Monkey Zombie", "Malevolynx", "Gisvarg"]]
@@ -5600,11 +5610,11 @@
 				"synthesis": [["Orochi", "Pruslas"]]
 			},
 			{
-				"name": "Orgodemir II",
+				"name": "Orgodemir",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
-					["Tyrannasaura Wrecks", "Orgodemir"],
+					["Tyrannosaura Wrecks", "Orgodemir"],
 					["Tyrannosaurus Wrecks", "Orgodemir"]
 				]
 			},
@@ -5612,13 +5622,13 @@
 				"name": "Gadis",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Saggitar", "Xiphos"]]
+				"synthesis": [["Sagittar", "Xiphos The Deathbringer"]]
 			},
 			{
 				"name": "Rhapthorne",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Zoma", "Nimzo II", "Mortamor III", "Orgodemir II"]]
+				"synthesis": [["Zoma", "Nimzo", "Mortamor", "Orgodemir"]]
 			},
 			{
 				"name": "Aquarion",
@@ -5636,8 +5646,8 @@
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
-					["Titanis", "Estarkers"],
-					["Titanis", "Xiphos"]
+					["Titanis", "Starkers"],
+					["Titanis", "Xiphos The Deathbringer"]
 				]
 			},
 			{
@@ -5653,7 +5663,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Ace of Spades",
+				"name": "Ace Of Spades",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [["Wulfspade Ace", "Leopold"]]
@@ -5663,7 +5673,7 @@
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
-					["Wulfspade Ace", "Great Godbird"],
+					["Wulfspade Ace", "Empyrea"],
 					["Wulfspade Ace", "Ramia"]
 				]
 			},
@@ -5671,7 +5681,7 @@
 				"name": "Malevolynx",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Ace of Spades", "Leokid"]]
+				"synthesis": [["Ace Of Spades", "Leokid"]]
 			},
 			{
 				"name": "Leonyx",
@@ -5696,60 +5706,60 @@
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
-					["King Godwyn II", "Magarugi"],
-					["King Godwyn II", "Realm of the Mighty"]
+					["King Godwyn Second Forme", "Magarugi"],
+					["King Godwyn Second Forme", "Realm of the Mighty"]
 				]
 			},
 			{
-				"name": "Evil Beast",
+				"name": "Hihyudorado",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Baboon Beast", "Corvus"]]
+				"synthesis": [["Hihyurude", "Corvus"]]
 			},
 			{
-				"name": "Maizarcane",
+				"name": "Malzar Beast",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Valgirt", "Evil Beast"]]
+				"synthesis": [["Valgirt", "Hihyudorado"]]
 			},
 			{
 				"name": "Neo Darck",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Darck", "Dark Matter"]]
+				"synthesis": [["Darck", "DarkMate"]]
 			},
 			{
-				"name": "Geno Malroth",
+				"name": "Genosidoh",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [["Malroth", "Beast of the Sea"]]
 			},
 			{
-				"name": "Asura Zoma",
+				"name": "AsuraZoma",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [["Zoma", "Woolly Elefort"]]
 			},
 			{
-				"name": "Psycho Psaro",
+				"name": "PsychoPiz",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [["Psaro", "Neo Darck"]]
 			},
 			{
-				"name": "Nelgel",
+				"name": "Nelgel Humanoid",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Guardian Lazuvann", "Leida Metes Temple"]]
+				"synthesis": [["Razerburn", "Leida Metes Temple"]]
 			},
 			{
-				"name": "Maizarugius",
+				"name": "Zumergias",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Styrmling", "Maizarcane"]]
+				"synthesis": [["Styrmling", "Malzar Beast"]]
 			},
 			{
-				"name": "Holy Dragon Miraclea",
+				"name": "Miraclare",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
@@ -5757,30 +5767,28 @@
 				]
 			},
 			{
-				"name": "Lord of Hell",
+				"name": "Nelgel The Netherfiend",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Maizarugius", "Nelgel"]]
+				"synthesis": [["Zumergias", "Nelgel Humanoid"]]
 			},
 			{
-				"name": "Potentate of Portals",
+				"name": "Potentate Of Portals",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [
-					["Dark Dragonlord", "Geno Malroth", "Asura Zoma", "Psycho Psaro"]
-				]
+				"synthesis": [["True Dragonlord", "Genosidoh", "AsuraZoma", "PsychoPiz"]]
 			},
 			{
-				"name": "Grand Estark",
+				"name": "Gran Estark",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Estark", "Holy Dragon Miraclea"]]
+				"synthesis": [["Estark", "Miraclare"]]
 			},
 			{
-				"name": "He Who Bears No Name",
+				"name": "Nameless King Of Darkness",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Potentate of Portals", "Lord of Hell"]]
+				"synthesis": [["Potentate Of Portals", "Nelgel The Netherfiend"]]
 			}
 		]
 	}
