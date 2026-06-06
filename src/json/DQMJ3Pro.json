@@ -930,7 +930,7 @@
 				"name": "Phantom General Fuzzma",
 				"rank": "X",
 				"family": "Dragon",
-				"synthesis": [["Tactician Iddo", "EnchantreX Gretel"]]
+				"synthesis": [["Tactician Iddo", "Enchantress Gretel"]]
 			},
 			{
 				"name": "Pusugon Awaken",
@@ -955,7 +955,7 @@
 				"name": "Xenlon",
 				"rank": "X",
 				"family": "Dragon",
-				"synthesis": [["God", "True Dragonlord", "PrinceX Togami", "Darck"]]
+				"synthesis": [["God", "True Dragonlord", "Princess Togami", "Darck"]]
 			},
 			{
 				"name": "Grand Dragon",
@@ -1670,7 +1670,7 @@
 				"synthesis": [["Hybird", "Doom Groom"]]
 			},
 			{
-				"name": "GalbatroX",
+				"name": "Galbatross",
 				"rank": "S",
 				"family": "Beast",
 				"synthesis": [["Jamirus", "Black Goyle"]]
@@ -2828,7 +2828,7 @@
 				]
 			},
 			{
-				"name": "EnchantreX Gretel",
+				"name": "Enchantress Gretel",
 				"rank": "X",
 				"family": "Demon",
 				"synthesis": [["Dancer Pleshauna", "Arachnida the Enigma"]]
@@ -3392,7 +3392,7 @@
 				"synthesis": [["Hunter Mech", "Hunter Mech"]]
 			},
 			{
-				"name": "GroX Gorgonzola",
+				"name": "Gross Gorgonzola",
 				"rank": "D",
 				"family": "Material",
 				"synthesis": [["Killing Machine Lite", "Crabber Dabber Doo"]]
@@ -4334,7 +4334,7 @@
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
-					["GalbatroX", "Gracos", "Guardian Lazuvann", "Rinjara the Fierce"]
+					["Galbatross", "Gracos", "Guardian Lazuvann", "Rinjara the Fierce"]
 				]
 			},
 			{
@@ -4702,7 +4702,7 @@
 				"synthesis": [["Kandar", "Scroll Wiper"]]
 			},
 			{
-				"name": "PrinceX Togami",
+				"name": "Princess Togami",
 				"rank": "X",
 				"family": "???",
 				"synthesis": []
