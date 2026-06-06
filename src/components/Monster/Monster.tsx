@@ -37,7 +37,7 @@ const MemoizedInnerMonster = memo(function InnerMonster({
 			<CardHeader>
 				<div className="text-center">
 					<div className="d-inline-block position-relative line-point pictured">
-						<MonsterImg name={monster.name} title={displayName} />
+						<MonsterImg name={monster.name} title={displayName} expandable />
 						{monster.rank && <Rank value={monster.rank} />}
 					</div>
 				</div>

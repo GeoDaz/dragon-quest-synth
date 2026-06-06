@@ -427,6 +427,11 @@ a .spinner-grow {
   padding: 0;
 }
 
+.monster-img-modal {
+  --dl-img-size: 20rem;
+  --dl-skin-img-size: 7rem;
+}
+
 .line-point,
 .line-point-safe-zone {
   min-width: var(--dl-img-size);
