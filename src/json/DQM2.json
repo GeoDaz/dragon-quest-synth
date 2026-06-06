@@ -832,7 +832,7 @@
 				"synthesis": [["Drag-Goof", "Hyper Heyedra"]]
 			},
 			{
-				"name": "Red Dragon",
+				"name": "Dread Dragon",
 				"rank": "D",
 				"family": "Dragon",
 				"synthesis": [["Green Dragon", "Beast Family"]]
@@ -904,7 +904,7 @@
 				"rank": "C",
 				"family": "Dragon",
 				"synthesis": [
-					["Metal Slime", "Red Dragon"],
+					["Metal Slime", "Dread Dragon"],
 					["Wormbat", "Mottle King Slime"]
 				]
 			},
@@ -973,7 +973,7 @@
 				"rank": "C",
 				"family": "Dragon",
 				"synthesis": [
-					["Phantom Fencer", "Red Dragon"],
+					["Phantom Fencer", "Dread Dragon"],
 					["Wyvern", "Rhinoceraxe"]
 				]
 			},
