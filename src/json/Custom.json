@@ -3049,6 +3049,12 @@
 				"synthesis": [["Living Statue", "Serpent Of The Scales"]]
 			},
 			{
+				"name": "Penteractic Guardian",
+				"rank": "A",
+				"family": "Material",
+				"synthesis": [["Golem", "Diamond Slime"]]
+			},
+			{
 				"name": "Dora-In-Grey",
 				"rank": "A",
 				"family": "Material",
@@ -3137,7 +3143,7 @@
 				"family": "Material",
 				"subfamily": ["Elemental"],
 				"synthesis": [
-					["Great Keeper", "Pandora's Box", "Dora-In-Grey", "Grrrgoyle"]
+					["Penteractic Guardian", "Gyldygga", "Pandora's Box", "Bilhaw"]
 				]
 			}
 		],
