@@ -593,7 +593,7 @@
 				]
 			},
 			{
-				"name": "Mechanowyrm",
+				"name": "Mechan-O'-Wyrm",
 				"rank": "A",
 				"family": "Dragon",
 				"synthesis": [["Metal Dragon", "Great Dragon"]]
@@ -623,10 +623,10 @@
 				"name": "Alabast Dragon",
 				"rank": "S",
 				"family": "Dragon",
-				"synthesis": [["Mechanowyrm", "Drakulard"]]
+				"synthesis": [["Mechan-O'-Wyrm", "Drakulard"]]
 			},
 			{
-				"name": "Dracolord",
+				"name": "True Dragonlord",
 				"rank": "S",
 				"family": "Dragon",
 				"synthesis": [["Great Dragon", "Demon-At-Arms"]]
@@ -644,21 +644,23 @@
 				"rank": "X",
 				"family": "Dragon",
 				"synthesis": [
-					["Dracolord", "Alabast Dragon", "Gem Slime", "Captain Crow"],
-					["Dracolord", "Alabast Dragon"]
+					["True Dragonlord", "Alabast Dragon", "Gem Slime", "Captain Crow"],
+					["True Dragonlord", "Alabast Dragon"]
 				]
 			},
 			{
 				"name": "Orochi",
 				"rank": "X",
 				"family": "Dragon",
-				"synthesis": [["Wormonger", "Missing Lynx", "Bjorn", "Empyrea"]]
+				"synthesis": [
+					["Wormonger", "Missing Lynx", "Bjorn The Behemoose", "Empyrea"]
+				]
 			},
 			{
 				"name": "Greygnarl",
 				"rank": "X",
 				"family": "Dragon",
-				"synthesis": [["Barbarus", "Dragovian Lord"]]
+				"synthesis": [["Barbarus", "Lord Of The Dragovians"]]
 			},
 			{
 				"name": "Barbarus",
@@ -676,20 +678,20 @@
 				]
 			},
 			{
-				"name": "Dragovian Lord",
+				"name": "Lord Of The Dragovians",
 				"rank": "X",
 				"family": "Dragon",
-				"synthesis": [["Dragonlord", "Rhapthorne 2"]]
+				"synthesis": [["Dragonlord", "Rhapthorne II"]]
 			}
 		],
 		"???": [
 			{
 				"name": "Zenith Dragon",
-				"rank": "???",
+				"rank": "",
 				"family": "Dragon",
 				"synthesis": [
-					["Nokturnus", "Xenlon", "Dracolord", "Aquarion"],
-					["Nokturnus", "Xenlon", "Dracolord", "Sagittar"],
+					["Nokturnus", "Xenlon", "True Dragonlord", "Aquarion"],
+					["Nokturnus", "Xenlon", "True Dragonlord", "Sagittar"],
 					["Dragonlord", "Xenlon"]
 				]
 			}
@@ -998,7 +1000,7 @@
 		],
 		"X": [
 			{
-				"name": "Leopold",
+				"name": "Evil Sir Leopold",
 				"rank": "X",
 				"family": "Nature",
 				"synthesis": [
@@ -1010,7 +1012,7 @@
 				]
 			},
 			{
-				"name": "Numen",
+				"name": "The Almighty",
 				"rank": "X",
 				"family": "Nature",
 				"synthesis": []
@@ -1026,10 +1028,10 @@
 				]
 			},
 			{
-				"name": "Great Godbird",
+				"name": "Ramia",
 				"rank": "X",
 				"family": "Nature",
-				"synthesis": [["Dragovian Lord", "Empyrea"]]
+				"synthesis": [["Lord Of The Dragovians", "Empyrea"]]
 			}
 		]
 	},
@@ -1229,7 +1231,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Bjorn",
+				"name": "Bjorn The Behemoose",
 				"rank": "B",
 				"family": "Beast",
 				"synthesis": []
@@ -1324,7 +1326,7 @@
 				"rank": "S",
 				"family": "Beast",
 				"synthesis": [
-					["Alabast Dragon", "Psaro"],
+					["Alabast Dragon", "Psaro The Manslayer"],
 					["Alabast Dragon", "Estark"]
 				]
 			},
@@ -1347,7 +1349,7 @@
 				"rank": "X",
 				"family": "Beast",
 				"synthesis": [
-					["Megalodon", "Gracos", "Trode", "Rhapthorne 2"],
+					["Megalodon", "Gracos", "Trode", "Rhapthorne II"],
 					["Gracos", "Nokturnus"]
 				]
 			}
@@ -1566,7 +1568,7 @@
 				"rank": "A",
 				"family": "Material",
 				"synthesis": [
-					["Hunter Mech", "Mechanowyrm"],
+					["Hunter Mech", "Mechan-O'-Wyrm"],
 					["Hunter Mech", "Phantom Swordsman"],
 					["Hunter Mech", "Ruin"],
 					["Hunter Mech", "Hunter Mech", "Hunter Mech", "Hunter Mech"]
@@ -1630,7 +1632,7 @@
 				"family": "Material",
 				"synthesis": [
 					["Mimic", "Mimic", "Cannibox", "Metal Kaiser Slime"],
-					["Mimic", "Mimic", "Mechanowyrm", "Mechanowyrm"]
+					["Mimic", "Mimic", "Mechan-O'-Wyrm", "Mechan-O'-Wyrm"]
 				]
 			},
 			{
@@ -1671,7 +1673,7 @@
 		],
 		"X": [
 			{
-				"name": "Psaro",
+				"name": "Psaro The Manslayer",
 				"rank": "X",
 				"family": "Material",
 				"synthesis": [["Roseguardin", "Ruin"]]
@@ -1695,7 +1697,7 @@
 				"name": "Estark",
 				"rank": "X",
 				"family": "Material",
-				"synthesis": [["Psaro", "Marquis De Léon"]]
+				"synthesis": [["Psaro The Manslayer", "Marquis De Léon"]]
 			}
 		]
 	},
@@ -1985,7 +1987,7 @@
 				"name": "Murdaw",
 				"rank": "S",
 				"family": "Demon",
-				"synthesis": [["Bjorn", "Night Clubber"]]
+				"synthesis": [["Bjorn The Behemoose", "Night Clubber"]]
 			},
 			{
 				"name": "Baramos",
@@ -2325,7 +2327,7 @@
 				"name": "Captain Crow",
 				"rank": "S",
 				"family": "Undead",
-				"synthesis": [["Trode", "Rhapthorne 2", "Megalodon", "Gracos"]]
+				"synthesis": [["Trode", "Rhapthorne II", "Megalodon", "Gracos"]]
 			},
 			{
 				"name": "Skeleton XY",
@@ -2340,18 +2342,18 @@
 				"rank": "X",
 				"family": "Undead",
 				"synthesis": [
-					["Darkonium Slime", "Rhapthorne 2", "Orgodemir", "Captain Crow"],
+					["Darkonium Slime", "Rhapthorne II", "Orgodemir", "Captain Crow"],
 					["Darkonium Slime", "Murdaw"]
 				]
 			}
 		]
 	},
-	"Boss": {
+	"???": {
 		"X": [
 			{
 				"name": "Nimzo",
 				"rank": "X",
-				"family": "Boss",
+				"family": "???",
 				"synthesis": [
 					["Baramos", "Khalamari"],
 					["Baramos", "Drakulard"]
@@ -2360,7 +2362,7 @@
 			{
 				"name": "Zoma",
 				"rank": "X",
-				"family": "Boss",
+				"family": "???",
 				"synthesis": [
 					["Malroth", "Captain Crow"],
 					["Malroth", "Dullahan"],
@@ -2370,19 +2372,19 @@
 			{
 				"name": "Mortamor",
 				"rank": "X",
-				"family": "Boss",
+				"family": "???",
 				"synthesis": [["Nimzo", "Estark"]]
 			},
 			{
 				"name": "Orgodemir",
 				"rank": "X",
-				"family": "Boss",
+				"family": "???",
 				"synthesis": [["Mortamor", "Alabast Dragon"]]
 			},
 			{
 				"name": "Rhapthorne",
 				"rank": "X",
-				"family": "Boss",
+				"family": "???",
 				"synthesis": [
 					["Dhoulmagus", "Nimzo"],
 					["Dhoulmagus", "Mortamor"],
@@ -2390,9 +2392,9 @@
 				]
 			},
 			{
-				"name": "Rhapthorne 2",
+				"name": "Rhapthorne II",
 				"rank": "X",
-				"family": "Boss",
+				"family": "???",
 				"synthesis": [
 					["Rhapthorne", "Zoma"],
 					["Rhapthorne", "Orgodemir"],
@@ -2403,74 +2405,74 @@
 		"???": [
 			{
 				"name": "Wulfspade",
-				"rank": "???",
-				"family": "Boss",
+				"rank": "",
+				"family": "???",
 				"synthesis": []
 			},
 			{
 				"name": "Hawkhart",
-				"rank": "???",
-				"family": "Boss",
+				"rank": "",
+				"family": "???",
 				"synthesis": []
 			},
 			{
 				"name": "Cluboon",
-				"rank": "???",
-				"family": "Boss",
+				"rank": "",
+				"family": "???",
 				"synthesis": []
 			},
 			{
 				"name": "Diamagon",
-				"rank": "???",
-				"family": "Boss",
+				"rank": "",
+				"family": "???",
 				"synthesis": []
 			},
 			{
 				"name": "Wulfspade Ace",
-				"rank": "???",
-				"family": "Boss",
+				"rank": "",
+				"family": "???",
 				"synthesis": []
 			},
 			{
 				"name": "Hawkhart Ace",
-				"rank": "???",
-				"family": "Boss",
+				"rank": "",
+				"family": "???",
 				"synthesis": []
 			},
 			{
 				"name": "Cluboon Ace",
-				"rank": "???",
-				"family": "Boss",
+				"rank": "",
+				"family": "???",
 				"synthesis": []
 			},
 			{
 				"name": "Diamagon Ace",
-				"rank": "???",
-				"family": "Boss",
+				"rank": "",
+				"family": "???",
 				"synthesis": []
 			},
 			{
 				"name": "Ace Of Spades",
-				"rank": "???",
-				"family": "Boss",
-				"synthesis": [["Wulfspade Ace", "Leopold"]]
+				"rank": "",
+				"family": "???",
+				"synthesis": [["Wulfspade Ace", "Evil Sir Leopold"]]
 			},
 			{
 				"name": "Wildcard",
-				"rank": "???",
-				"family": "Boss",
-				"synthesis": [["Wulfspade Ace", "Great Godbird"]]
+				"rank": "",
+				"family": "???",
+				"synthesis": [["Wulfspade Ace", "Ramia"]]
 			},
 			{
 				"name": "Leonyx",
-				"rank": "???",
-				"family": "Boss",
+				"rank": "",
+				"family": "???",
 				"synthesis": [["Wildcard", "Orochi", "Marquis De Léon", "Don Mole"]]
 			},
 			{
 				"name": "Rigor Mortex",
-				"rank": "???",
-				"family": "Boss",
+				"rank": "",
+				"family": "???",
 				"synthesis": [["Leonyx", "Zenith Dragon"]]
 			}
 		]

@@ -3866,7 +3866,7 @@
 				"synthesis": [["Restless Armour", "Discombombulator"]]
 			},
 			{
-				"name": "Grudge sludge",
+				"name": "Grudge Sludge",
 				"rank": "D",
 				"family": "Undead",
 				"subfamily": ["Material", "Elemental"],
@@ -4030,10 +4030,10 @@
 				"name": "Pearly Wight",
 				"rank": "A",
 				"family": "Undead",
-				"synthesis": [["Wight King", "Cosmic Chimera"]]
+				"synthesis": [["Wight King", "Cosmic Chimaera"]]
 			},
 			{
-				"name": "Hell Wadiator",
+				"name": "Hell Gladiator",
 				"rank": "A",
 				"family": "Undead",
 				"synthesis": [["Demon-At-Arms", "Jugular Joker"]]
@@ -4078,7 +4078,7 @@
 				"family": "Undead",
 				"subfamily": ["???", "Character"],
 				"synthesis": [
-					["Purrgatroyd", "Captain Crow", "Ultra Marine", "Night Knight"]
+					["Purrgatroyd", "Captain Crow", "Ultra Marine", "Pearly Wight"]
 				]
 			},
 			{

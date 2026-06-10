@@ -1301,7 +1301,7 @@
 				]
 			},
 			{
-				"name": "Dragonlord",
+				"name": "True Dragonlord",
 				"rank": "X",
 				"family": "Dragon",
 				"synthesis": [["Dragonlord", "Alabast Dragon"]]
@@ -1331,7 +1331,7 @@
 				"synthesis": [["Gem Slime", "Azurile"]]
 			},
 			{
-				"name": "Beast of the Sea",
+				"name": "Beast Of The Sea",
 				"rank": "X",
 				"family": "Dragon",
 				"synthesis": [["Flapdragon", "Poseidon"]]
@@ -1374,15 +1374,15 @@
 				"name": "Lord Of The Dragovians",
 				"rank": "X",
 				"family": "Dragon",
-				"synthesis": [["Dragonlord", "Rhapthorne II"]]
+				"synthesis": [["True Dragonlord", "Rhapthorne II"]]
 			},
 			{
 				"name": "Zenith Dragon",
 				"rank": "X",
 				"family": "Dragon",
 				"synthesis": [
-					["Dragonlord", "Munchie"],
-					["Dragonlord", "Xenlon"]
+					["True Dragonlord", "Munchie"],
+					["True Dragonlord", "Xenlon"]
 				]
 			},
 			{
@@ -1395,7 +1395,7 @@
 				]
 			},
 			{
-				"name": "True Dragonlord",
+				"name": "LordDraco",
 				"rank": "X",
 				"family": "Dragon",
 				"synthesis": [["Dragonlord", "Stalagosaur"]]
@@ -1500,7 +1500,7 @@
 				"name": "Chainine",
 				"rank": "E",
 				"family": "Beast",
-				"synthesis": [["Great Sabrecub", "Fire Spirit"]]
+				"synthesis": [["Great Sabrecub", "Firespirit"]]
 			},
 			{
 				"name": "Beavern",
@@ -2098,7 +2098,7 @@
 		],
 		"X": [
 			{
-				"name": "Leopold",
+				"name": "Evil Sir Leopold",
 				"rank": "X",
 				"family": "Beast",
 				"synthesis": [
@@ -2882,7 +2882,7 @@
 				"rank": "X",
 				"family": "Nature",
 				"synthesis": [
-					["Greygnarl", "Numen"],
+					["Greygnarl", "The Almighty"],
 					["Greygnarl", "Fluffy"]
 				]
 			},
@@ -3630,7 +3630,7 @@
 				]
 			},
 			{
-				"name": "Realm of the Mighty",
+				"name": "Realm Of The Mighty",
 				"rank": "X",
 				"family": "Material",
 				"synthesis": []
@@ -4452,7 +4452,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Fire Spirit",
+				"name": "Firespirit",
 				"rank": "F",
 				"family": "Undead",
 				"synthesis": [["Will-O'-The-Whips", "Pocus Poppet"]]
@@ -4461,7 +4461,7 @@
 				"name": "Frightbait",
 				"rank": "F",
 				"family": "Undead",
-				"synthesis": [["Fire Spirit", "Emyu"]]
+				"synthesis": [["Firespirit", "Emyu"]]
 			}
 		],
 		"E": [
@@ -4830,7 +4830,7 @@
 				"family": "Undead",
 				"synthesis": [
 					["Ghost", "Ghost", "Ghost", "Ghost"],
-					["Fire Spirit", "Fire Spirit", "Fire Spirit", "Fire Spirit"]
+					["Firespirit", "Firespirit", "Firespirit", "Firespirit"]
 				]
 			},
 			{
@@ -5183,7 +5183,7 @@
 				"rank": "D",
 				"family": "???",
 				"synthesis": [
-					["Orgodemir", "DeathMasker"],
+					["Orgodemir Humanoide", "DeathMasker"],
 					["Dragonlord", "DeathMasker"]
 				]
 			},
@@ -5193,7 +5193,7 @@
 				"family": "???",
 				"synthesis": [
 					["Hargon", "DeathMasker"],
-					["Nimzo", "DeathMasker"]
+					["Nimzo Humanoide", "DeathMasker"]
 				]
 			}
 		],
@@ -5239,19 +5239,19 @@
 				"synthesis": []
 			},
 			{
-				"name": "Nimzo",
+				"name": "Nimzo Humanoide",
 				"rank": "A",
 				"family": "???",
 				"synthesis": [["Equinox", "Skeleton Swordsman"]]
 			},
 			{
-				"name": "Mortamor",
+				"name": "Mortamor Humanoid",
 				"rank": "A",
 				"family": "???",
 				"synthesis": [["Blackmar", "Thunderbird"]]
 			},
 			{
-				"name": "Orgodemir",
+				"name": "Orgodemir Humanoide",
 				"rank": "A",
 				"family": "???",
 				"synthesis": [["Delusionist", "Ewwnicorn"]]
@@ -5286,8 +5286,8 @@
 				"family": "???",
 				"synthesis": [
 					["Grandpa Slime", "Kukri"],
-					["Numen", "Tiko"],
-					["Numen", "Kukri"],
+					["The Almighty", "Tiko"],
+					["The Almighty", "Kukri"],
 					["Grandpa Slime", "Tiko"]
 				]
 			}
@@ -5383,9 +5383,9 @@
 				"rank": "S",
 				"family": "???",
 				"synthesis": [
-					["Mortamor", "The Time Being"],
-					["Mortamor", "Knight Abhorrent"],
-					["Mortamor", "Escudogre"]
+					["Mortamor Humanoid", "The Time Being"],
+					["Mortamor Humanoid", "Knight Abhorrent"],
+					["Mortamor Humanoid", "Escudogre"]
 				]
 			},
 			{
@@ -5516,7 +5516,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Psaro",
+				"name": "Psaro The Manslayer",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
@@ -5533,7 +5533,7 @@
 				"name": "Nimzo",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Baramos", "Nimzo"]]
+				"synthesis": [["Baramos", "Nimzo Humanoide"]]
 			},
 			{
 				"name": "Trode",
@@ -5580,7 +5580,7 @@
 				]
 			},
 			{
-				"name": "Numen",
+				"name": "The Almighty",
 				"rank": "X",
 				"family": "???",
 				"synthesis": []
@@ -5595,7 +5595,7 @@
 				"name": "Mortamor",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Psaro", "Mortamor Intermediate Forme"]]
+				"synthesis": [["Psaro The Manslayer", "Mortamor Intermediate Forme"]]
 			},
 			{
 				"name": "Hihyurude",
@@ -5614,8 +5614,8 @@
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
-					["Tyrannosaura Wrecks", "Orgodemir"],
-					["Tyrannosaurus Wrecks", "Orgodemir"]
+					["Tyrannosaura Wrecks", "Orgodemir Humanoide"],
+					["Tyrannosaurus Wrecks", "Orgodemir Humanoide"]
 				]
 			},
 			{
@@ -5666,7 +5666,7 @@
 				"name": "Ace Of Spades",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Wulfspade Ace", "Leopold"]]
+				"synthesis": [["Wulfspade Ace", "Evil Sir Leopold"]]
 			},
 			{
 				"name": "Wildcard",
@@ -5707,7 +5707,7 @@
 				"family": "???",
 				"synthesis": [
 					["King Godwyn Second Forme", "Magarugi"],
-					["King Godwyn Second Forme", "Realm of the Mighty"]
+					["King Godwyn Second Forme", "Realm Of The Mighty"]
 				]
 			},
 			{
@@ -5723,7 +5723,7 @@
 				"synthesis": [["Valgirt", "Hihyudorado"]]
 			},
 			{
-				"name": "Neo Darck",
+				"name": "Mega Darck",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [["Darck", "DarkMate"]]
@@ -5732,7 +5732,7 @@
 				"name": "Genosidoh",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Malroth", "Beast of the Sea"]]
+				"synthesis": [["Malroth", "Beast Of The Sea"]]
 			},
 			{
 				"name": "AsuraZoma",
@@ -5744,7 +5744,7 @@
 				"name": "PsychoPiz",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Psaro", "Neo Darck"]]
+				"synthesis": [["Psaro The Manslayer", "Mega Darck"]]
 			},
 			{
 				"name": "Nelgel Humanoid",
@@ -5763,7 +5763,7 @@
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
-					["Stalagosaur", "Beast of the Sea", "Woolly Elefort", "Metal Goddess"]
+					["Stalagosaur", "Beast Of The Sea", "Woolly Elefort", "Metal Goddess"]
 				]
 			},
 			{
@@ -5776,7 +5776,7 @@
 				"name": "Potentate Of Portals",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["True Dragonlord", "Genosidoh", "AsuraZoma", "PsychoPiz"]]
+				"synthesis": [["LordDraco", "Genosidoh", "AsuraZoma", "PsychoPiz"]]
 			},
 			{
 				"name": "Gran Estark",
