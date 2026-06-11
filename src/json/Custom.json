@@ -586,7 +586,7 @@
 				"name": "Small Fry",
 				"rank": "G",
 				"family": "Dragon",
-				"synthesis": [["Dragon Family", "Slime Family", "Rank G"]]
+				"synthesis": [["Dragon Family", "Demon Family", "Rank G"]]
 			},
 			{
 				"name": "Vegandragora",
@@ -624,11 +624,11 @@
 				"synthesis": [["Dragon Family", "Nature Family", "Rank G"]]
 			},
 			{
-				"name": "Pteranodon",
+				"name": "Briny Bronco",
 				"rank": "G",
 				"family": "Dragon",
-				"subfamily": ["Dinosaur"],
-				"synthesis": [["Dragon Family", "Demon Family", "Rank G"]]
+				"subfamily": ["Nature", "Aquatic"],
+				"synthesis": [["Dragon Family", "Slime Family", "Rank G"]]
 			},
 			{
 				"name": "Airbagon",
@@ -639,7 +639,7 @@
 		],
 		"F": [
 			{
-				"name": "Raptile",
+				"name": "Zaptile",
 				"rank": "F",
 				"family": "Dragon",
 				"subfamily": ["Reptile"],
@@ -674,10 +674,10 @@
 				"synthesis": [["Briny Bronco", "Bongo Drongo"]]
 			},
 			{
-				"name": "Briny Bronco",
+				"name": "Pteranodon",
 				"rank": "F",
 				"family": "Dragon",
-				"subfamily": ["Nature", "Aquatic"],
+				"subfamily": ["Dinosaur"],
 				"synthesis": [["Small Fry", "Toady"]]
 			},
 			{
@@ -732,7 +732,7 @@
 				"name": "Mandrake Major",
 				"rank": "E",
 				"family": "Dragon",
-				"synthesis": [["Raptile", "Restless Armour"]]
+				"synthesis": [["Zaptile", "Restless Armour"]]
 			},
 			{
 				"name": "Cauldragon",
@@ -775,14 +775,14 @@
 		],
 		"D": [
 			{
-				"name": "Zaptile",
+				"name": "Hiptile",
 				"rank": "D",
 				"family": "Dragon",
 				"subfamily": ["Reptile"],
-				"synthesis": [["Raptile", "Scornet"]]
+				"synthesis": [["Zaptile", "Scornet"]]
 			},
 			{
-				"name": "Saltwater Stallion",
+				"name": "Quayhorse",
 				"rank": "D",
 				"family": "Dragon",
 				"subfamily": ["Nature", "Aquatic"],
@@ -815,7 +815,7 @@
 				"synthesis": [["Wyvern", "Slime Knight"]]
 			},
 			{
-				"name": "Axesaurus",
+				"name": "Hacksaurus",
 				"rank": "D",
 				"family": "Dragon",
 				"synthesis": [["Mandrake Major", "Material Family"]]
@@ -825,7 +825,7 @@
 				"rank": "D",
 				"family": "Dragon",
 				"subfamily": ["Reptile"],
-				"synthesis": [["Drakularge", "Axesaurus"]]
+				"synthesis": [["Drakularge", "Hacksaurus"]]
 			},
 			{
 				"name": "Boreal Serpent",
@@ -861,7 +861,7 @@
 				"name": "Noble Gasbagon",
 				"rank": "C",
 				"family": "Dragon",
-				"synthesis": [["Saltwater Stallion", "Gasbagon"]]
+				"synthesis": [["Quayhorse", "Gasbagon"]]
 			},
 			{
 				"name": "Flapdragon",
@@ -876,6 +876,12 @@
 				"family": "Dragon",
 				"subfamily": ["Nature", "Reptile", "Aquatic"],
 				"synthesis": [["Wyrtle", "Blastoad"]]
+			},
+			{
+				"name": "Red Dragon",
+				"rank": "C",
+				"family": "Dragon",
+				"synthesis": [["Wyvern", "Bomboulder"]]
 			},
 			{
 				"name": "Iron Tortoise",
@@ -934,6 +940,13 @@
 		],
 		"B": [
 			{
+				"name": "Dread Dragon",
+				"rank": "B",
+				"family": "Dragon",
+				"subfamily": ["Fire"],
+				"synthesis": [["Green Dragon", "Red Dragon"]]
+			},
+			{
 				"name": "Dread Dragooner",
 				"rank": "B",
 				"family": "Dragon",
@@ -946,10 +959,10 @@
 				"synthesis": [["Mandrake Major", "Phantom Swordsman"]]
 			},
 			{
-				"name": "Hacksaurus",
+				"name": "Tyrantosaurus",
 				"rank": "B",
 				"family": "Dragon",
-				"synthesis": [["Axesaurus", "Jowler"]]
+				"synthesis": [["Hacksaurus", "Jowler"]]
 			},
 			{
 				"name": "Avarith",
@@ -977,13 +990,6 @@
 				"synthesis": [["Great Argon Lizard", "Sintaur"]]
 			},
 			{
-				"name": "Black Dragon",
-				"rank": "B",
-				"family": "Dragon",
-				"subfamily": ["Dark"],
-				"synthesis": [["Great Argon Lizard", "Grim Keeper"]]
-			},
-			{
 				"name": "Orochi",
 				"rank": "B",
 				"family": "Dragon",
@@ -992,6 +998,19 @@
 			}
 		],
 		"A": [
+			{
+				"name": "Black Dragon",
+				"rank": "A",
+				"family": "Dragon",
+				"subfamily": ["Dark"],
+				"synthesis": [["Great Dragon", "Dark Sabrecat"]]
+			},
+			{
+				"name": "Noble Dragon",
+				"rank": "A",
+				"family": "Dragon",
+				"synthesis": [["Great Dragon", "Noble Gasbagon"]]
+			},
 			{
 				"name": "Rashaverak",
 				"rank": "A",
@@ -1026,17 +1045,10 @@
 				"synthesis": [["Flapdragon", "Clangoustine"]]
 			},
 			{
-				"name": "Dread Dragon",
+				"name": "Girguish",
 				"rank": "A",
 				"family": "Dragon",
-				"subfamily": ["Fire"],
-				"synthesis": [["Green Dragon", "Golem"]]
-			},
-			{
-				"name": "Serpent Of The Scales",
-				"rank": "A",
-				"family": "Dragon",
-				"synthesis": [["Green Dragon", "Goomulonimbus"]]
+				"synthesis": [["Megalodon", "Goomulonimbus"]]
 			},
 			{
 				"name": "Mechan-O'-Wyrm",
@@ -1051,34 +1063,34 @@
 				"family": "Dragon",
 				"subfamily": ["Reptile", "myth"],
 				"synthesis": [["Orochi", "Tentacular"]]
-			},
-			{
-				"name": "Alabast Dragon",
-				"rank": "A",
-				"family": "Dragon",
-				"synthesis": [["Serpent Of The Scales", "Clawvus"]]
 			}
 		],
 		"S": [
 			{
-				"name": "Abyssal Dragon",
+				"name": "Alabast Dragon",
+				"rank": "S",
+				"family": "Dragon",
+				"synthesis": [["Noble Dragon", "Clawvus"]]
+			},
+			{
+				"name": "Black Flying Dragon",
 				"rank": "S",
 				"family": "Dragon",
 				"subfamily": ["Dark"],
-				"synthesis": [["Royal Reptile", "Rashaverak"]]
+				"synthesis": [["Black Dragon", "Rashaverak"]]
 			},
 			{
 				"name": "Greygnarl",
 				"rank": "S",
 				"family": "Dragon",
-				"synthesis": [["Abyssal Dragon", "Slionheart"]]
+				"synthesis": [["Black Flying Dragon", "Slionheart"]]
 			},
 			{
 				"name": "Barbarus",
 				"rank": "S",
 				"family": "Dragon",
 				"subfamily": ["Dark"],
-				"synthesis": [["Abyssal Dragon", "Equinox"]]
+				"synthesis": [["Black Flying Dragon", "Equinox"]]
 			},
 			{
 				"name": "Wyrmhole Dragon",
@@ -1107,13 +1119,6 @@
 				"synthesis": [["Infernal Serpent", "Wyrmhole Dragon"]]
 			},
 			{
-				"name": "Lord Of The Dragovians",
-				"rank": "S",
-				"family": "Dragon",
-				"subfamily": ["???"],
-				"synthesis": [["Alabast Dragon", "Infernal Serpent"]]
-			},
-			{
 				"name": "Nadraga Final Forme",
 				"rank": "S",
 				"family": "Dragon",
@@ -1122,6 +1127,13 @@
 			}
 		],
 		"X": [
+			{
+				"name": "Lord Of The Dragovians",
+				"rank": "X",
+				"family": "Dragon",
+				"subfamily": ["???"],
+				"synthesis": [["Alabast Dragon", "Infernal Serpent"]]
+			},
 			{
 				"name": "Shadroth",
 				"rank": "X",
@@ -1143,7 +1155,9 @@
 				"synthesis": [
 					["Valgirt", "Mechan-O'-Wyrm", "Wyrmhole Dragon", "Barbarus"]
 				]
-			},
+			}
+		],
+		"Z": [
 			{
 				"name": "Zenith Dragon",
 				"rank": "X",
@@ -1152,9 +1166,7 @@
 				"synthesis": [
 					["Greygnarl", "Xenlon", "Lord Of The Dragovians", "Miraclare"]
 				]
-			}
-		],
-		"Z": [
+			},
 			{
 				"name": "Gore LordDraco",
 				"rank": "Z",
@@ -1490,7 +1502,7 @@
 				"name": "Rhinoceraxe",
 				"rank": "D",
 				"family": "Beast",
-				"synthesis": [["Axesaurus", "Swinoceros"]]
+				"synthesis": [["Hacksaurus", "Swinoceros"]]
 			}
 		],
 		"C": [
@@ -2054,7 +2066,7 @@
 				"rank": "E",
 				"family": "Nature",
 				"subfamily": ["Bird"],
-				"synthesis": [["Weaken Beakon", "Raptile"]]
+				"synthesis": [["Weaken Beakon", "Zaptile"]]
 			},
 			{
 				"name": "Barracuda",
@@ -2205,7 +2217,7 @@
 				"rank": "C",
 				"family": "Nature",
 				"subfamily": ["Bird", "firer"],
-				"synthesis": [["Bantamweight", "Saltwater Stallion"]]
+				"synthesis": [["Bantamweight", "Quayhorse"]]
 			},
 			{
 				"name": "Belisha Beakon",
@@ -2382,7 +2394,7 @@
 				"rank": "A",
 				"family": "Nature",
 				"subfamily": ["Bug"],
-				"synthesis": [["Beetleboy", "Hacksaurus"]]
+				"synthesis": [["Beetleboy", "Tyrantosaurus"]]
 			},
 			{
 				"name": "Gripevine",
@@ -2492,7 +2504,7 @@
 				"rank": "X",
 				"family": "Nature",
 				"subfamily": ["Aquatic"],
-				"synthesis": [["Gracos", "Khalamari", "Ultra Marine", "Megalodon"]]
+				"synthesis": [["Gracos", "Khalamari", "Ultra Marine", "Girguish"]]
 			},
 			{
 				"name": "Ramia",
@@ -3046,7 +3058,7 @@
 				"rank": "A",
 				"family": "Material",
 				"subfamily": ["gold"],
-				"synthesis": [["Living Statue", "Serpent Of The Scales"]]
+				"synthesis": [["Living Statue", "Girguish"]]
 			},
 			{
 				"name": "Penteractic Guardian",
@@ -3361,7 +3373,7 @@
 				"name": "Gander",
 				"rank": "D",
 				"family": "Demon",
-				"synthesis": [["Peeper", "Zaptile"]]
+				"synthesis": [["Peeper", "Hiptile"]]
 			},
 			{
 				"name": "Minidemon",
@@ -4202,7 +4214,7 @@
 			},
 			{
 				"name": "Master Of Nu'un",
-				"rank": "A",
+				"rank": "B",
 				"family": "???",
 				"synthesis": []
 			},
@@ -4386,7 +4398,7 @@
 				"family": "???",
 				"subfamily": ["Demon", "Character"],
 				"synthesis": [
-					["Murdaw", "Uberkilling Machine", "Hacksaurus", "Stout Troll"]
+					["Murdaw", "Uberkilling Machine", "Tyrantosaurus", "Stout Troll"]
 				]
 			},
 			{
@@ -4514,6 +4526,12 @@
 				]
 			},
 			{
+				"name": "Rigor Mortex",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Leonyx", "Ruin", "Sagittar", "Canzar"]]
+			},
+			{
 				"name": "Hihyudorado",
 				"rank": "X",
 				"family": "???",
@@ -4589,7 +4607,9 @@
 				"name": "Rigor Mortex Evolved Forme",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Leonyx", "Sagittar", "Hihyudorado", "Fractos"]]
+				"synthesis": [
+					["Rigor Mortex", "War Goddess Togamihime", "Hihyudorado", "Fractos"]
+				]
 			},
 			{
 				"name": "Potentate Of Portals",

@@ -373,7 +373,7 @@
 				"rank": "X",
 				"family": "Slime",
 				"synthesis": [
-					["Egg-en-ciel", "Hades Nelgel"],
+					["Egg-en-ciel", "Nelgel"],
 					["Egg-en-ciel", "He Who Bears no name"],
 					["Egg-en-ciel", "Disasterking"]
 				]
@@ -821,7 +821,7 @@
 				"synthesis": [["Trikaceratops", "Yellow Bellow"]]
 			},
 			{
-				"name": "Wyrtle",
+				"name": "Wonder Wyrtle",
 				"rank": "S",
 				"family": "Dragon",
 				"synthesis": [["Wyrtoise", "Ironclad Wartoise"]]
@@ -836,7 +836,7 @@
 				"name": "Girguish",
 				"rank": "S",
 				"family": "Dragon",
-				"synthesis": [["Wyrtle", "Gaia Dragon"]]
+				"synthesis": [["Wonder Wyrtle", "Gaia Dragon"]]
 			},
 			{
 				"name": "Barkeros",
@@ -917,7 +917,7 @@
 				"rank": "X",
 				"family": "Dragon",
 				"synthesis": [
-					["True Dragonlord", "Rhapthorne II", "Sir Leopold", "Boshock"]
+					["True Dragonlord", "Rhapthorne II", "Evil Sir Leopold", "Boshock"]
 				]
 			},
 			{
@@ -955,7 +955,9 @@
 				"name": "Xenlon",
 				"rank": "X",
 				"family": "Dragon",
-				"synthesis": [["God", "True Dragonlord", "Princess Togami", "Darck"]]
+				"synthesis": [
+					["God", "True Dragonlord", "War Goddess Togamihime", "Darck"]
+				]
 			},
 			{
 				"name": "Grand Dragon",
@@ -988,7 +990,7 @@
 				"name": "Greygnarl",
 				"rank": "X",
 				"family": "Dragon",
-				"synthesis": [["Barbarus", "Zemelgias", "Ladja", "Blackmar"]]
+				"synthesis": [["Barbarus", "Zumergias", "Ladja", "Blackmar"]]
 			},
 			{
 				"name": "Zenith Dragon",
@@ -1725,7 +1727,7 @@
 				"name": "Phantomount",
 				"rank": "X",
 				"family": "Beast",
-				"synthesis": [["Godsteed", "Wyrtle"]]
+				"synthesis": [["Godsteed", "Wonder Wyrtle"]]
 			},
 			{
 				"name": "Halcyon the Godlike",
@@ -1788,7 +1790,7 @@
 				"synthesis": [["Lieutenant Goreham-Hogg", "Pale Whale"]]
 			},
 			{
-				"name": "Sir Leopold",
+				"name": "Evil Sir Leopold",
 				"rank": "X",
 				"family": "Beast",
 				"synthesis": [["Dhoulmagus", "Balzack"]]
@@ -4310,7 +4312,7 @@
 				"family": "???",
 				"synthesis": [
 					[
-						"Psycho Psaro",
+						"PsychoPiz",
 						"Madullajah Djinn",
 						"Fractos Unfettered",
 						"Zenith Dragon"
@@ -4393,7 +4395,7 @@
 				"synthesis": [["Phantomount", "Affable Black"]]
 			},
 			{
-				"name": "Corvus the Fallen",
+				"name": "Corvus",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [["Rhapthorne II", "King Healslime"]]
@@ -4405,10 +4407,10 @@
 				"synthesis": []
 			},
 			{
-				"name": "Hades Nelgel",
+				"name": "Nelgel",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Baboodread", "Attihocc"]]
+				"synthesis": [["Hihyudorado", "Attihocc"]]
 			},
 			{
 				"name": "Anlucia The Maluminary",
@@ -4423,10 +4425,10 @@
 				"synthesis": [["Shadroth", "Estark"]]
 			},
 			{
-				"name": "Madesgora",
+				"name": "Maldragora Final Forme",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Hades Nelgel", "Anlucia The Maluminary"]]
+				"synthesis": [["Nelgel", "Anlucia The Maluminary"]]
 			},
 			{
 				"name": "Cottney",
@@ -4461,7 +4463,7 @@
 				"synthesis": [["Zoma", "Mortamor", "Excalipurr", "Azamook"]]
 			},
 			{
-				"name": "Psycho Psaro",
+				"name": "PsychoPiz",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
@@ -4487,13 +4489,13 @@
 				"synthesis": [["Leonyx", "Ruin", "Sagittar", "Canzar"]]
 			},
 			{
-				"name": "Timelord Omega Rolex",
+				"name": "Rigor Mortex Evolved Forme",
 				"rank": "X",
 				"family": "???",
 				"synthesis": []
 			},
 			{
-				"name": "Beastly Baboor",
+				"name": "Hoakari",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
@@ -4501,10 +4503,10 @@
 				]
 			},
 			{
-				"name": "Baboodread",
+				"name": "Hihyudorado",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Beastly Baboor", "King Teeny Sanguini"]]
+				"synthesis": [["Hoakari", "King Teeny Sanguini"]]
 			},
 			{
 				"name": "Rugius",
@@ -4513,16 +4515,16 @@
 				"synthesis": []
 			},
 			{
-				"name": "Vera",
+				"name": "Hellsguard Veera",
 				"rank": "X",
 				"family": "???",
 				"synthesis": []
 			},
 			{
-				"name": "Zemelgias",
+				"name": "Zumergias",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Rugius", "Vera", "Cottney", "Rigor Mortex"]]
+				"synthesis": [["Rugius", "Hellsguard Veera", "Cottney", "Rigor Mortex"]]
 			},
 			{
 				"name": "Miraclare",
@@ -4537,10 +4539,10 @@
 				"synthesis": []
 			},
 			{
-				"name": "He Who Bears no Name",
+				"name": "Nameless King Of Darkness",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["LordDraco", "Genosidoh", "AsuraZoma", "Psycho Psaro"]]
+				"synthesis": [["LordDraco", "Genosidoh", "AsuraZoma", "PsychoPiz"]]
 			},
 			{
 				"name": "Snapped-Off",
@@ -4564,7 +4566,7 @@
 				"name": "Hoakari",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Metal Goddess", "Corvus the Fallen"]]
+				"synthesis": [["Metal Goddess", "Corvus"]]
 			},
 			{
 				"name": "Wadatsumi",
@@ -4576,22 +4578,22 @@
 				"name": "Snapped-Dragon",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Snapped Almighty", "He Who Bears no Name"]]
+				"synthesis": [["Snapped Almighty", "Nameless King Of Darkness"]]
 			},
 			{
 				"name": "Jormungandros",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Snapped-Dragon", "Madesgora"]]
+				"synthesis": [["Snapped-Dragon", "Maldragora Final Forme"]]
 			},
 			{
-				"name": "Madullajah Djinn",
+				"name": "Madyuraja",
 				"rank": "X",
 				"family": "???",
 				"synthesis": []
 			},
 			{
-				"name": "Madullajah Marid",
+				"name": "Madyuraja Ascended",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
@@ -4670,7 +4672,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Dark Lord Valaat",
+				"name": "DVurato",
 				"rank": "X",
 				"family": "???",
 				"synthesis": []
@@ -4682,33 +4684,45 @@
 				"synthesis": [["Malroth", "Zoma"]]
 			},
 			{
-				"name": "Fractos Unfettered",
+				"name": "Fractos",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
-					["Timelord Omega Rolex", "Aldarahla", "Zeldorade", "Evil Estark"]
+					["Rigor Mortex Evolved Forme", "Cobrara", "Zeldorade", "Evil Estark"]
 				]
 			},
 			{
-				"name": "Aldarahla",
+				"name": "Cobrara",
 				"rank": "X",
 				"family": "???",
 				"synthesis": []
 			},
 			{
-				"name": "Kandar Viking",
-				"rank": "X",
-				"family": "???",
-				"synthesis": [["Kandar", "Scroll Wiper"]]
-			},
-			{
-				"name": "Princess Togami",
+				"name": "Robbin' 'Ood",
 				"rank": "X",
 				"family": "???",
 				"synthesis": []
 			},
 			{
-				"name": "Great King Vearn",
+				"name": "Robbin' Ladies",
+				"rank": "X",
+				"family": "???",
+				"synthesis": []
+			},
+			{
+				"name": "Lucky Seven 'Oods",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Robbin' 'Ood", "Scroll Wiper"]]
+			},
+			{
+				"name": "War Goddess Togamihime",
+				"rank": "X",
+				"family": "???",
+				"synthesis": []
+			},
+			{
+				"name": "Vearn",
 				"rank": "X",
 				"family": "???",
 				"synthesis": []
@@ -4726,7 +4740,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Vearn, The Beholder",
+				"name": "Vearn The Supreme Sovereign",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
