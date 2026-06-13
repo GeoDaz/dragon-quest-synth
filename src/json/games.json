@@ -1,10 +1,10 @@
 {
-	"DQMTDP": {
-		"key": "DQMTDP",
-		"title": "Dragon Quest Monster The Dark Prince",
+	"DQM1": {
+		"key": "DQM1",
+		"title": "Dragon Quest Monsters 1: Terry's Wonderland",
 		"extension": "png",
 		"available": true,
-		"ranks": ["X", "S", "A", "B", "C", "D", "E", "F", "G"]
+		"ranks": ["X", "S", "A", "B", "C", "D", "E", "F"]
 	},
 	"DQM2": {
 		"key": "DQM2",
@@ -12,6 +12,13 @@
 		"extension": "png",
 		"available": true,
 		"ranks": ["X", "S", "A", "B", "C", "D", "E", "F"]
+	},
+	"DQM3": {
+		"key": "DQM3",
+		"title": "Dragon Quest Monster The Dark Prince",
+		"extension": "png",
+		"available": true,
+		"ranks": ["X", "S", "A", "B", "C", "D", "E", "F", "G"]
 	},
 	"DQMJ1": {
 		"key": "DQMJ1",
@@ -25,14 +32,14 @@
 		"title": "Dragon Quest Monster Joker II",
 		"extension": "png",
 		"available": true,
-		"ranks": ["X", "S", "A", "B", "C", "D", "E", "F"]
+		"ranks": ["???", "X", "S", "A", "B", "C", "D", "E", "F"]
 	},
 	"DQMJ2Pro": {
 		"key": "DQMJ2Pro",
 		"title": "Dragon Quest Monster Joker II Pro",
 		"extension": "png",
 		"available": false,
-		"ranks": ["X", "S", "A", "B", "C", "D", "E", "F"]
+		"ranks": ["???", "X", "S", "A", "B", "C", "D", "E", "F"]
 	},
 	"DQMJ3": {
 		"key": "DQMJ3",

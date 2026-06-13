@@ -687,7 +687,7 @@
 		"???": [
 			{
 				"name": "Zenith Dragon",
-				"rank": "",
+				"rank": "???",
 				"family": "Dragon",
 				"synthesis": [
 					["Nokturnus", "Xenlon", "True Dragonlord", "Aquarion"],
@@ -2405,73 +2405,73 @@
 		"???": [
 			{
 				"name": "Wulfspade",
-				"rank": "",
+				"rank": "???",
 				"family": "???",
 				"synthesis": []
 			},
 			{
 				"name": "Hawkhart",
-				"rank": "",
+				"rank": "???",
 				"family": "???",
 				"synthesis": []
 			},
 			{
 				"name": "Cluboon",
-				"rank": "",
+				"rank": "???",
 				"family": "???",
 				"synthesis": []
 			},
 			{
 				"name": "Diamagon",
-				"rank": "",
+				"rank": "???",
 				"family": "???",
 				"synthesis": []
 			},
 			{
 				"name": "Wulfspade Ace",
-				"rank": "",
+				"rank": "???",
 				"family": "???",
 				"synthesis": []
 			},
 			{
 				"name": "Hawkhart Ace",
-				"rank": "",
+				"rank": "???",
 				"family": "???",
 				"synthesis": []
 			},
 			{
 				"name": "Cluboon Ace",
-				"rank": "",
+				"rank": "???",
 				"family": "???",
 				"synthesis": []
 			},
 			{
 				"name": "Diamagon Ace",
-				"rank": "",
+				"rank": "???",
 				"family": "???",
 				"synthesis": []
 			},
 			{
 				"name": "Ace Of Spades",
-				"rank": "",
+				"rank": "???",
 				"family": "???",
 				"synthesis": [["Wulfspade Ace", "Evil Sir Leopold"]]
 			},
 			{
 				"name": "Wildcard",
-				"rank": "",
+				"rank": "???",
 				"family": "???",
 				"synthesis": [["Wulfspade Ace", "Ramia"]]
 			},
 			{
 				"name": "Leonyx",
-				"rank": "",
+				"rank": "???",
 				"family": "???",
 				"synthesis": [["Wildcard", "Orochi", "Marquis De Léon", "Don Mole"]]
 			},
 			{
 				"name": "Rigor Mortex",
-				"rank": "",
+				"rank": "???",
 				"family": "???",
 				"synthesis": [["Leonyx", "Zenith Dragon"]]
 			}

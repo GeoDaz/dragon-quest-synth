@@ -11,7 +11,7 @@ const GameCard = ({ game, currentGame }: { game: Game; currentGame?: string }) =
 		<Card
 			onClick={() => router.push(`/game/${game.key}`)}
 			className={makeClassName(
-				'click flex-grow-1 flex-center',
+				'click flex-grow-1 flex-center overflow-hidden',
 				!game || game.key == currentGame ? 'active' : ''
 			)}
 		>
@@ -30,7 +30,7 @@ const GameCard = ({ game, currentGame }: { game: Game; currentGame?: string }) =
 						maxHeight: '100%',
 					}}
 				/>
-			:	<h2 className="text-primary text-center fs-1 fw-bold mb-0 p-4">
+			:	<h2 className="text-primary text-center fw-bold mb-0 p-4">
 					<Icon
 						name="discord"
 						className="display-4"

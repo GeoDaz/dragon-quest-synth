@@ -108,7 +108,7 @@ const PageLines: React.FC<Props> = props => {
 					.map((_game: Game) => (
 						<div
 							key={_game.key}
-							className="col-12 col-lg-2 col-md-4 col-sm-6 d-flex mb-4"
+							className="col-6 col-lg-2 col-md-3 col-sm-4 d-flex mb-4"
 						>
 							<GameCard game={_game} currentGame={game.key} />
 						</div>
@@ -256,7 +256,7 @@ const RankSection = ({
 
 export const getStaticProps: GetStaticProps = async () => {
 	try {
-		const defaultGame = 'DQMTDP';
+		const defaultGame = 'DQM3';
 		const families: Families = require(`../json/${defaultGame}.json`);
 		reverseSynth(families);
 		const games = require('../json/games.json');

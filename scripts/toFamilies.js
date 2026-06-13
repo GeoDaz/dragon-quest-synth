@@ -1,7 +1,7 @@
 const { writeJson, readJson } = require('./lib');
 
-const src = './src/json/ignored/DQMTDP-Monsters.json';
-const dst = './src/json/DQMTDP.json';
+const src = './src/json/ignored/DQM3-Monsters.json';
+const dst = './src/json/DQM3.json';
 
 const monsters = readJson(src);
 

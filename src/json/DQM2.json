@@ -1712,7 +1712,7 @@
 				"synthesis": [["Merman", "Snowbird"]]
 			},
 			{
-				"name": "Baby Bjorn",
+				"name": "Rebjorn",
 				"rank": "C",
 				"family": "Beast",
 				"synthesis": []
@@ -1909,7 +1909,7 @@
 				"name": "Bjorn The Behemoose",
 				"rank": "A",
 				"family": "Beast",
-				"synthesis": [["Baby Bjorn", "Baby Bjorn"]]
+				"synthesis": [["Rebjorn", "Rebjorn"]]
 			},
 			{
 				"name": "Buffalogre",
