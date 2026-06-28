@@ -1317,8 +1317,7 @@
 				"family": "Beast",
 				"synthesis": [
 					["Boss Troll", "Pazuzu"],
-					["Boss Troll", "Frou-Frou"],
-					["Boss Troll", "Drakularge"]
+					["Boss Troll", "Frou-Frou"]
 				]
 			},
 			{
@@ -1580,7 +1579,6 @@
 				"family": "Material",
 				"synthesis": [
 					["Magmalice", "Firn Fiend", "Golem", "Gold Golem"],
-					["Magmalice", "Magmalice", "Firn Fiend", "Firn Fiend"],
 					["Golem", "Golem", "Gold Golem", "Gold Golem"],
 					["Golem", "Gold Golem", "Magmalice", "Firn Fiend"]
 				]
