@@ -956,7 +956,7 @@
 				"family": "Dragon",
 				"synthesis": [
 					["Mechan-O'-Wyrm", "Drakulard"],
-					["Mechan-O'-Wyrm", "Bones Of Baramos"]
+					["Mechan-O'-Wyrm", "Bones Of Baramos 2"]
 				]
 			},
 			{
@@ -3193,7 +3193,7 @@
 				"synthesis": [["Shogum", "Grotwyrm"]]
 			},
 			{
-				"name": "Knight Abhorrent",
+				"name": "Knight Abhorrent 2",
 				"rank": "S",
 				"family": "Demon",
 				"synthesis": [["Roseguardin", "Roseguardin"]]
@@ -3734,7 +3734,7 @@
 				]
 			},
 			{
-				"name": "Bones Of Baramos",
+				"name": "Bones Of Baramos 2",
 				"rank": "S",
 				"family": "Undead",
 				"synthesis": [["Baramos", "Undead Family"]]
@@ -3912,7 +3912,7 @@
 		],
 		"S": [
 			{
-				"name": "Cat Riberio",
+				"name": "Purrgatroyd",
 				"rank": "S",
 				"family": "???",
 				"synthesis": []

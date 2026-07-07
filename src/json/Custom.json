@@ -3079,7 +3079,7 @@
 				"synthesis": [["Mimic", "Ne'er-Do-Well"]]
 			},
 			{
-				"name": "Knight Abhorrent",
+				"name": "Knight Abhorrent 2",
 				"rank": "A",
 				"family": "Material",
 				"synthesis": [["Knight Errant", "Bone Baron"]]
@@ -4266,7 +4266,7 @@
 				"rank": "A",
 				"family": "???",
 				"subfamily": ["Dragon"],
-				"synthesis": [["Knight Abhorrent", "Avarith"]]
+				"synthesis": [["Knight Abhorrent 2", "Avarith"]]
 			},
 			{
 				"name": "Hargon",
@@ -4290,7 +4290,7 @@
 				"synthesis": [["Umbra", "Stout Troll"]]
 			},
 			{
-				"name": "Bones Of Baramos",
+				"name": "Bones Of Baramos 2",
 				"rank": "A",
 				"family": "???",
 				"subfamily": ["Dragon", "Undead"],
@@ -4359,7 +4359,7 @@
 				"family": "???",
 				"subfamily": ["Demon"],
 				"synthesis": [
-					["Hargon", "Bjorn The Behemoose", "Bones Of Baramos", "King Hydra"]
+					["Hargon", "Bjorn The Behemoose", "Bones Of Baramos 2", "King Hydra"]
 				]
 			},
 			{

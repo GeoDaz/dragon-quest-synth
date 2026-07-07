@@ -1514,7 +1514,7 @@
 				"name": "Equinox",
 				"rank": "A",
 				"family": "Beast",
-				"synthesis": [["Tantamount", "Mammon"]]
+				"synthesis": [["Tantamount", "Grudge Sludge"]]
 			},
 			{
 				"name": "Spiked Clubber",
@@ -2279,7 +2279,7 @@
 				"name": "Gracos",
 				"rank": "A",
 				"family": "Nature",
-				"synthesis": [["Gracolyte", "Mammon"]]
+				"synthesis": [["Gracolyte", "Grudge Sludge"]]
 			},
 			{
 				"name": "Tentacular",
@@ -2612,7 +2612,7 @@
 				"name": "Terror Troll",
 				"rank": "A",
 				"family": "Demon",
-				"synthesis": [["Stout Troll", "Mammon"]]
+				"synthesis": [["Stout Troll", "Grudge Sludge"]]
 			},
 			{
 				"name": "Evil Sorcerer",
@@ -3126,7 +3126,7 @@
 				"synthesis": [["Ghoul", "Baalzebub"]]
 			},
 			{
-				"name": "Mammon",
+				"name": "Grudge Sludge",
 				"rank": "A",
 				"family": "Undead",
 				"synthesis": [
@@ -3159,7 +3159,9 @@
 				"name": "Mucky Eddy",
 				"rank": "S",
 				"family": "Undead",
-				"synthesis": [["Mammon", "Mammon", "Mammon", "Mammon"]]
+				"synthesis": [
+					["Grudge Sludge", "Grudge Sludge", "Grudge Sludge", "Grudge Sludge"]
+				]
 			},
 			{
 				"name": "Calamity Blade",
