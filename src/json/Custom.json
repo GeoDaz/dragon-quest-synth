@@ -199,11 +199,11 @@
 				"synthesis": [["Succubat", "Slime Family"]]
 			},
 			{
-				"name": "Sprite Bulb",
+				"name": "Aqua Slime",
 				"rank": "E",
 				"family": "Slime",
-				"subfamily": ["Plant"],
-				"synthesis": [["Fright Bulb", "Luminous Lampling"]]
+				"subfamily": ["Aquatic"],
+				"synthesis": [["Healslime", "Puffpoise"]]
 			},
 			{
 				"name": "Spiny Slime",
@@ -228,7 +228,7 @@
 				"synthesis": [["Metal Slime"]]
 			},
 			{
-				"name": "Mottle She-Slime",
+				"name": "MimeSlime",
 				"rank": "D",
 				"family": "Slime",
 				"synthesis": [["Mottle Slime", "Beshemoth Slime"]]
@@ -275,11 +275,11 @@
 				"synthesis": [["Drake Slime", "Mandrake Major"]]
 			},
 			{
-				"name": "Scuttle Slime",
+				"name": "MagmaSlime",
 				"rank": "D",
 				"family": "Slime",
 				"subfamily": ["Fire", "Elemental"],
-				"synthesis": [["Snail Slime", "Slick Slime"]]
+				"synthesis": [["Hell Niño", "Slick Slime"]]
 			},
 			{
 				"name": "Slimecicle",
@@ -331,11 +331,11 @@
 				"synthesis": [["Killing Machine", "Rubble Slime"]]
 			},
 			{
-				"name": "MagmaSlime",
+				"name": "Scuttle Slime",
 				"rank": "C",
 				"family": "Slime",
 				"subfamily": ["Fire", "Elemental", "Material"],
-				"synthesis": [["Scuttle Slime", "Magmalice"]]
+				"synthesis": [["MagmaSlime", "Stalagluant"]]
 			},
 			{
 				"name": "Liquid Metal Slime",
@@ -432,7 +432,7 @@
 				"rank": "B",
 				"family": "Slime",
 				"subfamily": ["Food"],
-				"synthesis": [["King Bubble Slime", "MagmaSlime"]]
+				"synthesis": [["King Bubble Slime", "Scuttle Slime"]]
 			},
 			{
 				"name": "King Jester Slime",
@@ -558,16 +558,36 @@
 		],
 		"X": [
 			{
+				"name": "Metal Star",
+				"rank": "X",
+				"family": "Slime",
+				"subfamily": ["Fairy"],
+				"synthesis": [["Canzar", "Dark Robot Slime"]]
+			},
+			{
 				"name": "Metal Goddess",
 				"rank": "X",
 				"family": "Slime",
 				"subfamily": ["Fairy"],
 				"synthesis": [
 					[
+						"Queen Slime",
+						"Kukulkannibal",
+						"Metal Star",
+						"Liquid Metal Slime King"
+					]
+				]
+			},
+			{
+				"name": "Slider King",
+				"rank": "X",
+				"family": "Slime",
+				"synthesis": [
+					[
 						"Grandpa Slime",
+						"Dark Robot Slime",
 						"Liquid Metal Slime King",
-						"Canzar",
-						"Dark Robot Slime"
+						"Canzar"
 					]
 				]
 			}
@@ -1997,11 +2017,11 @@
 				"synthesis": [["Monolog", "Capsichum"]]
 			},
 			{
-				"name": "Merman",
+				"name": "Puffpoise",
 				"rank": "F",
 				"family": "Nature",
 				"subfamily": ["Aquatic"],
-				"synthesis": [["Demon Family", "Nature Family", "Rank F"]]
+				"synthesis": [["Slime Family", "Nature Family", "Rank F"]]
 			},
 			{
 				"name": "Scarfish",
@@ -2022,16 +2042,16 @@
 				"rank": "F",
 				"family": "Nature",
 				"subfamily": ["Bug"],
-				"synthesis": [["Undead Family", "Demon Family", "Rank F"]]
+				"synthesis": [["Undead Family", "Nature Family", "Rank F"]]
 			}
 		],
 		"E": [
 			{
-				"name": "Puffpoise",
+				"name": "Merman",
 				"rank": "E",
 				"family": "Nature",
 				"subfamily": ["Aquatic"],
-				"synthesis": [["Nature Family", "Slime Family", "Rank E"]]
+				"synthesis": [["Nature Family", "Demon Family", "Rank E"]]
 			},
 			{
 				"name": "Chimaera",
@@ -2842,7 +2862,7 @@
 				"rank": "D",
 				"family": "Material",
 				"subfamily": ["Elemental", "Fire"],
-				"synthesis": [["Rockbomb", "Dragon Family"]]
+				"synthesis": [["Rockbomb", "MagmaSlime"]]
 			},
 			{
 				"name": "Firn Fiend",
@@ -2904,7 +2924,7 @@
 				"rank": "C",
 				"family": "Material",
 				"subfamily": ["Machine"],
-				"synthesis": [["Eggsoskeleton", "Mottle She-Slime"]]
+				"synthesis": [["Eggsoskeleton", "MimeSlime"]]
 			},
 			{
 				"name": "Graven Idol",
