@@ -1,5 +1,7 @@
 import { NumberObject, Option } from '@/types/Ui';
 
+export const DEFAULT_ZOOM = 100;
+
 export const zooms: NumberObject = {
 	'-3': 25,
 	'-2': 50,

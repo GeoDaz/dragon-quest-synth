@@ -13,21 +13,25 @@ export const getDirPaths = (dir: string): string[] => {
 export const formatFileName = (string: string) =>
 	string.replace(/\/+/g, '-').replace(/:+/g, '');
 
-export const download = (blob: Blob | File, filename: string) => {
+export const downloadFile = (blob: Blob | File, filename: string) => {
 	filename = formatFileName(filename);
 	if (window.navigator && window.navigator.msSaveBlob !== undefined) {
 		window.navigator.msSaveBlob(blob, filename);
 	} else {
 		const url = URL.createObjectURL(blob);
-		const a = document.createElement('a');
-		a.style.display = 'none';
-		a.href = url;
-		a.download = filename;
-		document.body.appendChild(a);
-		a.click();
-		document.body.removeChild(a);
+		downloadFromUrl(url, filename);
 		window.URL.revokeObjectURL(url);
 	}
+};
+
+export const downloadFromUrl = (url: string, filename: string) => {
+	const a = document.createElement('a');
+	a.style.display = 'none';
+	a.href = url;
+	a.download = filename;
+	document.body.appendChild(a);
+	a.click();
+	document.body.removeChild(a);
 };
 
 export const createFile = (

@@ -26,7 +26,9 @@ const UploadCode: React.FC<{
 		if (files?.length) {
 			let file = files[0];
 			if (file.type !== 'application/json') return;
-			getContent(file).then(json => handleUpload(json));
+			getContent(file).then(json =>
+				handleUpload(file.name.split('.')[0], json)
+			);
 		}
 	};
 

@@ -1,3 +1,5 @@
+export const wait = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+
 export const typeOf = (value: any): string => {
 	if (value === null) return 'null';
 	if (Array.isArray(value)) return 'array';
@@ -82,5 +84,19 @@ export const stringToKey = (string: string): string =>
 	string
 		.toLowerCase()
 		.normalize('NFD')
-		.replace(/[\s\-_.'’:?%\u0300-\u036f]/g, '')
+		.replace(/[\s\-_.'’:?%̀-ͯ]/g, '')
 		.toLowerCase();
+
+export const copyToClipboard = (content: string) => {
+	if (navigator.clipboard) {
+		navigator.clipboard.writeText(content);
+	} else {
+		const textarea = document.createElement('textarea');
+		textarea.style.display = 'none';
+		textarea.value = content;
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand('copy');
+		document.body.removeChild(textarea);
+	}
+};

@@ -30,6 +30,17 @@ const transformLine = (line: Line | undefined): Line | undefined => {
 	return line;
 };
 
+export const prepareLineExport = (line: Line): Line => {
+	const cleanColumns = line.columns.map(col =>
+		col.map((point: LinePoint | null) => {
+			if (!point) return point;
+			const { xCollapsable, yCollapsable, ...rest } = point;
+			return { ...rest };
+		})
+	);
+	return { ...line, columns: cleanColumns };
+};
+
 export const clearLine = (line: Line): Line => {
 	const columns = line.columns.map(col =>
 		col.map(point => {
