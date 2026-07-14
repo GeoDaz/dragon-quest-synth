@@ -1242,7 +1242,7 @@
 				"rank": "S",
 				"family": "Dragon",
 				"synthesis": [
-					["Mechan-O'-Wyrm", "Bones Of Baramos 2"],
+					["Mechan-O'-Wyrm", "Bones Of Baramos (Alt)"],
 					["Mechan-O'-Wyrm", "Drakulard"]
 				]
 			},
@@ -5023,7 +5023,7 @@
 				]
 			},
 			{
-				"name": "Bones Of Baramos 2",
+				"name": "Bones Of Baramos (Alt)",
 				"rank": "S",
 				"family": "Undead",
 				"synthesis": [["Baramos", "Undead Family"]]
@@ -5109,7 +5109,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Montner 2nd Form",
+				"name": "Montner Second Form",
 				"rank": "F",
 				"family": "???",
 				"synthesis": []
@@ -5181,7 +5181,7 @@
 				"rank": "D",
 				"family": "???",
 				"synthesis": [
-					["Orgodemir Humanoide", "DeathMasker"],
+					["Orgodemir Humanoid", "DeathMasker"],
 					["Dragonlord", "DeathMasker"]
 				]
 			},
@@ -5191,7 +5191,7 @@
 				"family": "???",
 				"synthesis": [
 					["Hargon", "DeathMasker"],
-					["Nimzo Humanoide", "DeathMasker"]
+					["Nimzo Humanoid", "DeathMasker"]
 				]
 			}
 		],
@@ -5237,7 +5237,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Nimzo Humanoide",
+				"name": "Nimzo Humanoid",
 				"rank": "A",
 				"family": "???",
 				"synthesis": [["Equinox", "Skeleton Swordsman"]]
@@ -5249,7 +5249,7 @@
 				"synthesis": [["Blackmar", "Thunderbird"]]
 			},
 			{
-				"name": "Orgodemir Humanoide",
+				"name": "Orgodemir Humanoid",
 				"rank": "A",
 				"family": "???",
 				"synthesis": [["Delusionist", "Ewwnicorn"]]
@@ -5531,7 +5531,7 @@
 				"name": "Nimzo",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Baramos", "Nimzo Humanoide"]]
+				"synthesis": [["Baramos", "Nimzo Humanoid"]]
 			},
 			{
 				"name": "Trode",
@@ -5612,8 +5612,8 @@
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
-					["Tyrannosaura Wrecks", "Orgodemir Humanoide"],
-					["Tyrannosaurus Wrecks", "Orgodemir Humanoide"]
+					["Tyrannosaura Wrecks", "Orgodemir Humanoid"],
+					["Tyrannosaurus Wrecks", "Orgodemir Humanoid"]
 				]
 			},
 			{

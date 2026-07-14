@@ -22,6 +22,9 @@ const Header: React.FC = () => (
 					<Link className="nav-link" href="/build">
 						Build
 					</Link>
+					<Link className="nav-link" href="/bosses">
+						Bosses
+					</Link>
 				</div>
 				<Link
 					href={DISCORD_URL}

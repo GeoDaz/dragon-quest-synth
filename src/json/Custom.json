@@ -4310,7 +4310,7 @@
 				"synthesis": [["Umbra", "Stout Troll"]]
 			},
 			{
-				"name": "Bones Of Baramos 2",
+				"name": "Bones Of Baramos (Alt)",
 				"rank": "A",
 				"family": "???",
 				"subfamily": ["Dragon", "Undead"],
@@ -4379,7 +4379,12 @@
 				"family": "???",
 				"subfamily": ["Demon"],
 				"synthesis": [
-					["Hargon", "Bjorn The Behemoose", "Bones Of Baramos 2", "King Hydra"]
+					[
+						"Hargon",
+						"Bjorn The Behemoose",
+						"Bones Of Baramos (Alt)",
+						"King Hydra"
+					]
 				]
 			},
 			{

@@ -1,0 +1,181 @@
+[
+	{
+		"key": "I",
+		"title": "Dragon Quest I",
+		"subtitle": "The Great Journey of the Descendants",
+		"year": 1986,
+		"bosses": [
+			{ "name": "Green Dragon", "role": "Boss" },
+			{ "name": "Golem", "role": "Boss" },
+			{ "name": "Knight Aberrant", "role": "Boss" },
+			{ "name": "Dragonlord", "role": "Final Boss" },
+			{ "name": "True Dragonlord", "role": "Final Boss" }
+		]
+	},
+	{
+		"key": "II",
+		"title": "Dragon Quest II",
+		"subtitle": "Luminaries of the Legendary Line",
+		"year": 1987,
+		"bosses": [
+			{ "name": "Archbashop", "role": "Boss" },
+			{ "name": "Atlas", "role": "Boss" },
+			{ "name": "Pazuzu", "role": "Boss" },
+			{ "name": "Belial", "role": "Boss" },
+			{ "name": "Hargon", "role": "Boss" },
+			{ "name": "Malroth", "role": "Final Boss" }
+		]
+	},
+	{
+		"key": "III",
+		"title": "Dragon Quest III",
+		"subtitle": "The Seeds of Salvation",
+		"year": 1988,
+		"bosses": [
+			{ "name": "Robbin' 'Ood", "role": "Boss" },
+			{ "name": "Orochi", "role": "Boss" },
+			{ "name": "Boss Troll", "role": "Boss" },
+			{ "name": "King Hydra", "role": "Boss" },
+			{ "name": "Baramos", "role": "Boss" },
+			{ "name": "Soul Of Baramos", "role": "Boss" },
+			{ "name": "Bones Of Baramos", "role": "Boss" },
+			{ "name": "Zoma", "role": "Final Boss" },
+			{ "name": "Xenlon", "role": "Secret Boss" },
+			{ "name": "Grand Dragon", "role": "Secret Boss" }
+		]
+	},
+	{
+		"key": "IV",
+		"title": "Dragon Quest IV",
+		"subtitle": "Chapters of the Chosen",
+		"year": 1990,
+		"bosses": [
+			{ "name": "Psaro's Pawn", "role": "Boss" },
+			{ "name": "Master Kung", "role": "Boss" },
+			{ "name": "Balzackian", "role": "Boss" },
+			{ "name": "Marquis De Léon", "role": "Boss" },
+			{ "name": "Balzack", "role": "Boss" },
+			{ "name": "Roseguardin", "role": "Boss" },
+			{ "name": "Estark", "role": "Boss" },
+			{ "name": "Rashaverak", "role": "Boss" },
+			{ "name": "Pruslas", "role": "Boss" },
+			{ "name": "Barbatos", "role": "Boss" },
+			{ "name": "Aamon", "role": "Boss" },
+			{ "name": "Psaro The Manslayer", "role": "Final Boss" },
+			{ "name": "Ashtaroth", "role": "Final Boss", "note": "(Remake)" },
+			{ "name": "Ashtaroth Forme 2", "role": "Final Boss", "note": "(Remake)" },
+			{ "name": "Foo Yung", "role": "Secret Boss" },
+			{ "name": "Chow Mein", "role": "Secret Boss" }
+		]
+	},
+	{
+		"key": "V",
+		"title": "Dragon Quest V",
+		"subtitle": "Hand of the Heavenly Bride",
+		"year": 1992,
+		"bosses": [
+			{ "name": "Kon The Knight", "role": "Boss" },
+			{ "name": "Bjorn The Behemoose", "role": "Boss" },
+			{ "name": "Slon The Rook", "role": "Boss" },
+			{ "name": "Bishop Ladja", "role": "Boss" },
+			{ "name": "Queen Ferz", "role": "Boss" },
+			{ "name": "King Korol", "role": "Boss" },
+			{ "name": "Nimzo Humanoid", "role": "Final Boss" },
+			{ "name": "Nimzo", "role": "Final Boss" },
+			{ "name": "Estark", "role": "Secret Boss" }
+		]
+	},
+	{
+		"key": "VI",
+		"title": "Dragon Quest VI",
+		"subtitle": "Realms of Revelation",
+		"year": 1995,
+		"bosses": [
+			{ "name": "Murdaw", "role": "Boss" },
+			{ "name": "Gracos", "role": "Boss" },
+			{ "name": "Demon-At-Arms", "role": "Boss" },
+			{ "name": "Stormsgate Citadel", "role": "Boss" },
+			{ "name": "Terry", "role": "Boss" },
+			{ "name": "Dhuran", "role": "Boss" },
+			{ "name": "Blackmar", "role": "Boss" },
+			{ "name": "Mortamor Humanoid", "role": "Final Boss" },
+			{ "name": "Mortamor Intermediate Forme", "role": "Final Boss" },
+			{ "name": "Mortamor", "role": "Final Boss" },
+			{ "name": "Nokturnus", "role": "Secret Boss" }
+		]
+	},
+	{
+		"key": "VII",
+		"title": "Dragon Quest VII",
+		"subtitle": "Fragments of the Forgotten Past",
+		"year": 2000,
+		"bosses": [
+			{ "name": "Antoria", "role": "Boss" },
+			{ "name": "Time Sage", "role": "Boss" },
+			{ "name": "Borunga", "role": "Boss" },
+			{ "name": "Botok", "role": "Boss" },
+			{ "name": "Gamadius", "role": "Boss" },
+			{ "name": "Macho Picchu", "role": "Boss" },
+			{ "name": "Orgodemir Humanoid", "role": "Final Boss" },
+			{ "name": "Orgodemir", "role": "Final Boss" },
+			{ "name": "Orgodemir Intermediate Melting", "role": "Final Boss" },
+			{ "name": "Orgodemir Melting", "role": "Final Boss" },
+			{ "name": "The Almighty", "role": "Secret Boss" }
+		]
+	},
+	{
+		"key": "VIII",
+		"title": "Dragon Quest VIII",
+		"subtitle": "Journey of the Cursed King",
+		"year": 2004,
+		"bosses": [
+			{ "name": "Dhoulmagus", "role": "Boss" },
+			{ "name": "Marcello", "role": "Boss" },
+			{ "name": "Rhapthorne", "role": "Final Boss" },
+			{ "name": "Rhapthorne II", "role": "Final Boss" },
+			{ "name": "Estark", "role": "Secret Boss" }
+		]
+	},
+	{
+		"key": "IX",
+		"title": "Dragon Quest IX",
+		"subtitle": "Sentinels of the Starry Skies",
+		"year": 2009,
+		"bosses": [
+			{ "name": "Greygnarl", "role": "Boss" },
+			{ "name": "Lieutenant Goreham-Hogg", "role": "Boss" },
+			{ "name": "Lieutenant Hootingham-Gore", "role": "Boss" },
+			{ "name": "Lieutenant Goresby-Purrvis", "role": "Boss" },
+			{ "name": "Barbarus", "role": "Boss" },
+			{ "name": "King Godwyn", "role": "Boss" },
+			{ "name": "King Godwyn Second Forme", "role": "Boss" },
+			{ "name": "Corvus Fallen", "role": "Final Boss" },
+			{ "name": "Corvus", "role": "Final Boss" }
+		]
+	},
+	{
+		"key": "X",
+		"title": "Dragon Quest X",
+		"subtitle": "Rise of the Five Tribes Online",
+		"year": 2012,
+		"bosses": [
+			{ "name": "Nelgel The Netherfiend", "role": "Final Boss" },
+			{ "name": "Jagonuba", "role": "Boss" }
+		]
+	},
+	{
+		"key": "XI",
+		"title": "Dragon Quest XI",
+		"subtitle": "Echoes of an Elusive Age",
+		"year": 2017,
+		"bosses": [
+			{ "name": "Jasper", "role": "Boss" },
+			{ "name": "Jasper Unbound", "role": "Boss" },
+			{ "name": "Mordegon Humanoid", "role": "Final Boss" },
+			{ "name": "Mordegon", "role": "Final Boss" },
+			{ "name": "Mordegon, Lord Of Shadows", "role": "Final Boss" },
+			{ "name": "Calasmos", "role": "Secret Boss" },
+			{ "name": "Timewyrm", "role": "Secret Boss" }
+		]
+	}
+]
