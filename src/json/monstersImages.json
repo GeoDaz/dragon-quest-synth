@@ -77,6 +77,7 @@
 	"Mashouu": "https://static.wikia.nocookie.net/dragonquest/images/f/fb/DQX-Mashouu.png",
 	"Maulrus": "https://static.wikia.nocookie.net/dragonquest/images/0/00/DQIVDS_-_Maulrus.png",
 	"Merderer": "https://static.wikia.nocookie.net/dragonquest/images/8/84/DQVIDS_-_Merking.png",
+	"Gracos (Alt)": "https://static.wikia.nocookie.net/dragonquest/images/8/84/DQVIDS_-_Merking.png",
 	"Merking": "https://static.wikia.nocookie.net/dragonquest/images/5/58/DQVIII_-_Merking.png",
 	"Merlusc": "https://static.wikia.nocookie.net/dragonquest/images/4/4a/Merlusc_Artwork.png",
 	"Merman": "https://static.wikia.nocookie.net/dragonquest/images/8/83/Merman_Artwork.png",
@@ -2907,7 +2908,7 @@
 	"Splatrick": "https://static.wikia.nocookie.net/dragonquest/images/6/69/DQVIII_-_Slime.png",
 	"Swotsy": "https://static.wikia.nocookie.net/dragonquest/images/1/1e/Swotsy-big.png",
 	"Estark": "https://static.wikia.nocookie.net/dragonquest/images/1/1f/DQIVDS_-_Estark.png",
-	"Estark (Alt)": "/images/monsters/Estark_Alt.png",
+	"Estark (Alt)": "https://dragonquestfrance.fr/images/Artworks/Monstres/Estark%20-%20DQIV.png",
 	"Gran Estark": "https://static.wikia.nocookie.net/dragonquest/images/4/46/DQMSL_-_Gran_Estark.png",
 	"Starkers": "https://static.wikia.nocookie.net/dragonquest/images/e/ed/DQMTW3D_-_Starkers.png",
 	"Captain Crow": "https://static.wikia.nocookie.net/dragonquest/images/7/73/DQVIII_-_Captain_crow.png",
@@ -3196,5 +3197,7 @@
 	"Monster Parade": "https://static.wikia.nocookie.net/dragonquest/images/b/bd/DQM2ILMMK_-_Monster_parade.png",
 	"Robbin' Rockers": "https://static.wikia.nocookie.net/dragonquest/images/0/07/DQMJ2_-_Robbin%27_Rocks.png",
 	"Temple Raydamethes": "https://static.wikia.nocookie.net/dragonquest/images/8/80/DQM2_3DS_-_Temple_Raydamethes.jpg",
-	"Queen Ferz": "https://static.wikia.nocookie.net/dragonquest/images/0/0f/Queen_Ferz.png"
+	"Queen Ferz": "https://static.wikia.nocookie.net/dragonquest/images/0/0f/Queen_Ferz.png",
+	"Cardinal Sin": "https://static.wikia.nocookie.net/dragonquest/images/a/a4/DQVII3DS_-_Cardinal_Sin.png",
+	"Moostapha": "https://static.wikia.nocookie.net/dragonquest/images/5/52/DQVII_-_Moostapha.png"
 }

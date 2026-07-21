@@ -1,4 +1,11 @@
-import React, { useCallback, useContext, useEffect, useMemo, useState } from 'react';
+import React, {
+	useCallback,
+	useContext,
+	useEffect,
+	useMemo,
+	useRef,
+	useState,
+} from 'react';
 import { GetStaticProps } from 'next';
 import { Families, Monster as MonsterInterface } from '@/types/Monster';
 import Layout from '@/components/Layout';
@@ -7,7 +14,7 @@ import Family from '@/components/Monster/Family';
 import { ImagesContext } from '@/context/images';
 import { familiesColors } from '@/consts/colors';
 import { families as familyList } from '@/consts/data';
-import { Dropdown, DropdownButton } from 'react-bootstrap';
+import { Dropdown, DropdownButton, Spinner } from 'react-bootstrap';
 import { reverseSynth } from '@/functions/transformer/synthesis';
 import { StringObject } from '@/types/Ui';
 import useTranslate from '@/hooks/useTranslate';
@@ -23,6 +30,10 @@ import GameCard from '@/components/GameCard';
 import { Game } from '@/types/Game';
 import games from '@/json/games.json';
 
+// A game can hold >800 monsters, each mounting many synthesis/reverse-synthesis
+// thumbnails. Mount only a batch of monster cards and grow it on scroll.
+const PAGE_SIZE = 40;
+
 interface Props {
 	families: Families;
 	images: StringObject;
@@ -36,12 +47,86 @@ const PageLines: React.FC<Props> = props => {
 	const [search, setSearch] = useState<string>();
 	const [selectedFamily, setSelectedFamily] = useState<string | undefined>();
 	const [selectedRank, setSelectedRank] = useState<string | undefined>();
+	const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+	const sentinelRef = useRef<HTMLDivElement | null>(null);
 
-	useEffect(() => {
-		if (hash && Object.keys(families).length > 0) {
-			document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' });
+	// Flat, ordered view of the current families after family/rank filters, plus
+	// index maps used for pagination and hash deep-links. (search is already
+	// applied to the `families` state above.)
+	const filtered = useMemo(() => {
+		const entries: {
+			family: string;
+			rank: string;
+			monsters: MonsterInterface[];
+		}[] = [];
+		const monsterIndex: { [name: string]: number } = {};
+		const familyStart: { [family: string]: number } = {};
+		const rankStart: { [id: string]: number } = {};
+		let count = 0;
+		for (const [family, ranks] of Object.entries(families)) {
+			if (selectedFamily && selectedFamily !== family) continue;
+			if (familyStart[family] === undefined) familyStart[family] = count;
+			for (const [rank, monsters] of Object.entries(ranks)) {
+				if (selectedRank && selectedRank !== rank) continue;
+				rankStart[`${family}-${rank}`] = count;
+				entries.push({ family, rank, monsters });
+				monsters.forEach(m => {
+					monsterIndex[m.name] = count;
+					count++;
+				});
+			}
 		}
-	}, [props.families, hash]);
+		return { entries, total: count, monsterIndex, familyStart, rankStart };
+	}, [families, selectedFamily, selectedRank]);
+
+	// Nested (Families-shaped) subset limited to the first `visibleCount` monsters.
+	const paginatedFamilies = useMemo(() => {
+		const result: Families = {};
+		let shown = 0;
+		for (const { family, rank, monsters } of filtered.entries) {
+			if (shown >= visibleCount) break;
+			const slice = monsters.slice(0, visibleCount - shown);
+			shown += slice.length;
+			if (!result[family]) result[family] = {};
+			result[family][rank] = slice;
+		}
+		return result;
+	}, [filtered, visibleCount]);
+
+	// Reset pagination whenever the visible set changes.
+	useEffect(() => {
+		setVisibleCount(PAGE_SIZE);
+	}, [search, selectedFamily, selectedRank]);
+
+	// Grow the batch as the bottom sentinel approaches the viewport.
+	useEffect(() => {
+		const el = sentinelRef.current;
+		if (!el) return;
+		const observer = new IntersectionObserver(
+			es => {
+				if (es[0].isIntersecting) {
+					setVisibleCount(v => Math.min(v + PAGE_SIZE, filtered.total));
+				}
+			},
+			{ rootMargin: '600px' }
+		);
+		observer.observe(el);
+		return () => observer.disconnect();
+	}, [filtered.total, visibleCount]);
+
+	// Deep-link via hash (family / rank / monster): mount the target before scroll.
+	useEffect(() => {
+		if (!hash || filtered.total === 0) return;
+		const idx =
+			filtered.monsterIndex[hash] ??
+			filtered.rankStart[hash] ??
+			filtered.familyStart[hash];
+		if (idx !== undefined && idx >= visibleCount) {
+			setVisibleCount(Math.min(idx + PAGE_SIZE, filtered.total));
+			return; // re-runs once visibleCount grows, then scrolls
+		}
+		document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' });
+	}, [hash, filtered, visibleCount]);
 
 	useEffect(() => {
 		if (!search) {
@@ -155,17 +240,26 @@ const PageLines: React.FC<Props> = props => {
 			</div>
 			<FiltersContext.Provider value={filters}>
 				<ImagesContext.Provider value={images}>
-					{Object.keys(families).length > 0 ?
-						<div className="synthesis-list">
-							{Object.entries(families).map(([family, ranks]) => (
-								<FamilySection
-									key={family}
-									family={family}
-									ranks={ranks}
-									hash={hash}
-								/>
-							))}
-						</div>
+					{filtered.total > 0 ?
+						<>
+							<div className="synthesis-list">
+								{Object.entries(paginatedFamilies).map(
+									([family, ranks]) => (
+										<FamilySection
+											key={family}
+											family={family}
+											ranks={ranks}
+											hash={hash}
+										/>
+									)
+								)}
+							</div>
+							{visibleCount < filtered.total && (
+								<div ref={sentinelRef} className="text-center py-4">
+									<Spinner animation="border" />
+								</div>
+							)}
+						</>
 					:	<p>{isFr ? 'Aucune synthèse trouvée' : 'No synthesis found'}.</p>}
 				</ImagesContext.Provider>
 			</FiltersContext.Provider>

@@ -23,7 +23,7 @@
 			{ "name": "Pazuzu", "role": "Boss" },
 			{ "name": "Belial", "role": "Boss" },
 			{ "name": "Hargon", "role": "Boss" },
-			{ "name": "Malroth", "role": "Final Boss" }
+			{ "name": "Malroth (Alt)", "role": "Final Boss" }
 		]
 	},
 	{
@@ -52,11 +52,14 @@
 		"bosses": [
 			{ "name": "Psaro's Pawn", "role": "Boss" },
 			{ "name": "Master Kung", "role": "Boss" },
+			{ "name": "Abominable Showman", "role": "Boss" },
 			{ "name": "Balzackian", "role": "Boss" },
+			{ "name": "Tricksy", "role": "Boss" },
+			{ "name": "Tigergram", "role": "Boss" },
 			{ "name": "Marquis De Léon", "role": "Boss" },
 			{ "name": "Balzack", "role": "Boss" },
 			{ "name": "Roseguardin", "role": "Boss" },
-			{ "name": "Estark", "role": "Boss" },
+			{ "name": "Estark (Alt)", "role": "Boss" },
 			{ "name": "Rashaverak", "role": "Boss" },
 			{ "name": "Pruslas", "role": "Boss" },
 			{ "name": "Barbatos", "role": "Boss" },
@@ -92,12 +95,14 @@
 		"year": 1995,
 		"bosses": [
 			{ "name": "Murdaw", "role": "Boss" },
-			{ "name": "Gracos", "role": "Boss" },
+			{ "name": "Gracos (Alt)", "role": "Boss" },
 			{ "name": "Demon-At-Arms", "role": "Boss" },
 			{ "name": "Stormsgate Citadel", "role": "Boss" },
 			{ "name": "Terry", "role": "Boss" },
 			{ "name": "Dhuran", "role": "Boss" },
 			{ "name": "Blackmar", "role": "Boss" },
+			{ "name": "Belleau*", "role": "Boss" },
+			{ "name": "Cabot", "role": "Boss" },
 			{ "name": "Mortamor Humanoid", "role": "Final Boss" },
 			{ "name": "Mortamor Intermediate Forme", "role": "Final Boss" },
 			{ "name": "Mortamor", "role": "Final Boss" },
@@ -110,17 +115,23 @@
 		"subtitle": "Fragments of the Forgotten Past",
 		"year": 2000,
 		"bosses": [
-			{ "name": "Antoria", "role": "Boss" },
-			{ "name": "Time Sage", "role": "Boss" },
-			{ "name": "Borunga", "role": "Boss" },
-			{ "name": "Botok", "role": "Boss" },
-			{ "name": "Gamadius", "role": "Boss" },
+			{ "name": "Cardinal Sin", "role": "Boss" },
+			{ "name": "The Time Being", "role": "Boss" },
+			{ "name": "Gracos V", "role": "Boss" },
+			{ "name": "Moostapha", "role": "Boss" },
+			{ "name": "Gasputin", "role": "Boss" },
+			{ "name": "Mossferatu", "role": "Boss" },
+			{ "name": "Togrus Maximus", "role": "Boss" },
 			{ "name": "Macho Picchu", "role": "Boss" },
 			{ "name": "Orgodemir Humanoid", "role": "Final Boss" },
 			{ "name": "Orgodemir", "role": "Final Boss" },
 			{ "name": "Orgodemir Intermediate Melting", "role": "Final Boss" },
 			{ "name": "Orgodemir Melting", "role": "Final Boss" },
-			{ "name": "The Almighty", "role": "Secret Boss" }
+			{ "name": "The Almighty", "role": "Secret Boss" },
+			{ "name": "Fire Spirit", "role": "Secret Boss" },
+			{ "name": "Earth Spirit", "role": "Secret Boss" },
+			{ "name": "Water Spirit", "role": "Secret Boss" },
+			{ "name": "Wind Spirit", "role": "Secret Boss" }
 		]
 	},
 	{
@@ -129,10 +140,19 @@
 		"subtitle": "Journey of the Cursed King",
 		"year": 2004,
 		"bosses": [
+			{ "name": "Khalamar", "role": "Boss" },
+			{ "name": "Dhoulmagus Humanoid", "role": "Boss" },
 			{ "name": "Dhoulmagus", "role": "Boss" },
+			{ "name": "Captain Crow", "role": "Boss" },
+			{ "name": "Empyrea", "role": "Boss" },
+			{ "name": "Gemon", "role": "Boss" },
+			{ "name": "Leopold", "role": "Boss" },
 			{ "name": "Marcello", "role": "Boss" },
+			{ "name": "Ruin", "role": "Boss" },
 			{ "name": "Rhapthorne", "role": "Final Boss" },
 			{ "name": "Rhapthorne II", "role": "Final Boss" },
+			{ "name": "Lord of Dragovians", "role": "Secret Boss" },
+			{ "name": "Goliathross", "role": "Secret Boss" },
 			{ "name": "Estark", "role": "Secret Boss" }
 		]
 	},
@@ -142,6 +162,15 @@
 		"subtitle": "Sentinels of the Starry Skies",
 		"year": 2009,
 		"bosses": [
+			{ "name": "Hexagoon", "role": "Boss" },
+			{ "name": "Wight Knight", "role": "Boss" },
+			{ "name": "Morag", "role": "Boss" },
+			{ "name": "Ragin' Contagion", "role": "Boss" },
+			{ "name": "Master Of Nu'un", "role": "Boss" },
+			{ "name": "Lleviathan", "role": "Boss" },
+			{ "name": "Larstastnaras", "role": "Boss" },
+			{ "name": "Dreadmaster", "role": "Boss" },
+			{ "name": "Gadrongo", "role": "Boss" },
 			{ "name": "Greygnarl", "role": "Boss" },
 			{ "name": "Lieutenant Goreham-Hogg", "role": "Boss" },
 			{ "name": "Lieutenant Hootingham-Gore", "role": "Boss" },
