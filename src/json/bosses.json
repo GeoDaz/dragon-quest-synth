@@ -23,7 +23,13 @@
 			{ "name": "Pazuzu", "role": "Boss" },
 			{ "name": "Belial", "role": "Boss" },
 			{ "name": "Hargon", "role": "Boss" },
-			{ "name": "Malroth (Alt)", "role": "Final Boss" }
+			{ "name": "Malroth (Alt)", "role": "Final Boss" },
+			{ "name": "Xenlon", "role": "Secret Boss", "note": "(HD2D Remake)" },
+			{
+				"name": "Malwrath Second Phase",
+				"role": "Secret Boss",
+				"note": "(HD2D Remake)"
+			}
 		]
 	},
 	{
@@ -131,7 +137,8 @@
 			{ "name": "Fire Spirit", "role": "Secret Boss" },
 			{ "name": "Earth Spirit", "role": "Secret Boss" },
 			{ "name": "Water Spirit", "role": "Secret Boss" },
-			{ "name": "Wind Spirit", "role": "Secret Boss" }
+			{ "name": "Wind Spirit", "role": "Secret Boss" },
+			{ "name": "Xenlon", "role": "Secret Boss", "note": "(Reimagined)" }
 		]
 	},
 	{
@@ -140,19 +147,31 @@
 		"subtitle": "Journey of the Cursed King",
 		"year": 2004,
 		"bosses": [
-			{ "name": "Khalamar", "role": "Boss" },
-			{ "name": "Dhoulmagus Humanoid", "role": "Boss" },
-			{ "name": "Dhoulmagus", "role": "Boss" },
+			{ "name": "Khalamari", "role": "Boss" },
+			{ "name": "Tortured Soul", "role": "Boss" },
+			{ "name": "Trap Box", "role": "Boss" },
+			{ "name": "Don Mole", "role": "Boss" },
+			{ "name": "Great Argon Lizard", "role": "Boss" },
+			{ "name": "Dhoulmagus Humanoid", "role": "Final Boss" },
+			{ "name": "Dhoulmagus", "role": "Final Boss" },
 			{ "name": "Captain Crow", "role": "Boss" },
 			{ "name": "Empyrea", "role": "Boss" },
 			{ "name": "Gemon", "role": "Boss" },
-			{ "name": "Leopold", "role": "Boss" },
+			{ "name": "Evil Sir Leopold", "role": "Boss" },
 			{ "name": "Marcello", "role": "Boss" },
-			{ "name": "Ruin", "role": "Boss" },
 			{ "name": "Rhapthorne", "role": "Final Boss" },
+			{ "name": "Servant Of Darkness", "role": "Boss" },
+			{ "name": "Ruin", "role": "Boss" },
 			{ "name": "Rhapthorne II", "role": "Final Boss" },
-			{ "name": "Lord of Dragovians", "role": "Secret Boss" },
-			{ "name": "Goliathross", "role": "Secret Boss" },
+			{ "name": "Lord Of The Dragovians Humanoid", "role": "Secret Boss" },
+			{ "name": "Lord Of The Dragovians", "role": "Secret Boss" },
+			{ "name": "Emerald Dragon", "role": "Secret Boss" },
+			{ "name": "Silver Dragon", "role": "Secret Boss" },
+			{ "name": "Darksteel Dragon", "role": "Secret Boss" },
+			{ "name": "Golden Dragon", "role": "Secret Boss" },
+			{ "name": "Divine Dragon", "role": "Secret Boss" },
+			{ "name": "Ultimate Dragon", "role": "Secret Boss" },
+			{ "name": "Juggerwroth", "role": "Secret Boss" },
 			{ "name": "Estark", "role": "Secret Boss" }
 		]
 	},
@@ -168,6 +187,9 @@
 			{ "name": "Ragin' Contagion", "role": "Boss" },
 			{ "name": "Master Of Nu'un", "role": "Boss" },
 			{ "name": "Lleviathan", "role": "Boss" },
+			{ "name": "Garde Gouille", "role": "Boss" },
+			{ "name": "Tyrantule", "role": "Boss" },
+			{ "name": "Balthezar", "role": "Boss" },
 			{ "name": "Larstastnaras", "role": "Boss" },
 			{ "name": "Dreadmaster", "role": "Boss" },
 			{ "name": "Gadrongo", "role": "Boss" },
@@ -175,11 +197,16 @@
 			{ "name": "Lieutenant Goreham-Hogg", "role": "Boss" },
 			{ "name": "Lieutenant Hootingham-Gore", "role": "Boss" },
 			{ "name": "Lieutenant Goresby-Purrvis", "role": "Boss" },
-			{ "name": "Barbarus", "role": "Boss" },
 			{ "name": "King Godwyn", "role": "Boss" },
 			{ "name": "King Godwyn Second Forme", "role": "Boss" },
+			{ "name": "Barbarus", "role": "Boss" },
 			{ "name": "Corvus Fallen", "role": "Final Boss" },
-			{ "name": "Corvus", "role": "Final Boss" }
+			{ "name": "Corvus", "role": "Final Boss" },
+			{ "name": "Fourax", "role": "Boss" },
+			{ "name": "Médhor", "role": "Boss" },
+			{ "name": "Roi Godefroy", "role": "Boss" },
+			{ "name": "Tyrannamort", "role": "Boss" },
+			{ "name": "Atoner", "role": "Boss" }
 		]
 	},
 	{
