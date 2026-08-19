@@ -107,7 +107,7 @@
 			{ "name": "Terry", "role": "Boss" },
 			{ "name": "Dhuran", "role": "Boss" },
 			{ "name": "Blackmar", "role": "Boss" },
-			{ "name": "Belleau*", "role": "Boss" },
+			{ "name": "Belleau", "role": "Boss" },
 			{ "name": "Cabot", "role": "Boss" },
 			{ "name": "Mortamor Humanoid", "role": "Final Boss" },
 			{ "name": "Mortamor Intermediate Forme", "role": "Final Boss" },
@@ -187,9 +187,9 @@
 			{ "name": "Ragin' Contagion", "role": "Boss" },
 			{ "name": "Master Of Nu'un", "role": "Boss" },
 			{ "name": "Lleviathan", "role": "Boss" },
-			{ "name": "Garde Gouille", "role": "Boss" },
-			{ "name": "Tyrantule", "role": "Boss" },
-			{ "name": "Balthezar", "role": "Boss" },
+			{ "name": "Garth Goyle", "role": "Boss" },
+			{ "name": "Tyrantula", "role": "Boss" },
+			{ "name": "Grand Lizzier", "role": "Boss" },
 			{ "name": "Larstastnaras", "role": "Boss" },
 			{ "name": "Dreadmaster", "role": "Boss" },
 			{ "name": "Gadrongo", "role": "Boss" },
@@ -202,11 +202,12 @@
 			{ "name": "Barbarus", "role": "Boss" },
 			{ "name": "Corvus Fallen", "role": "Final Boss" },
 			{ "name": "Corvus", "role": "Final Boss" },
-			{ "name": "Fourax", "role": "Boss" },
+			{ "name": "Yore", "role": "Boss" },
 			{ "name": "Médhor", "role": "Boss" },
-			{ "name": "Roi Godefroy", "role": "Boss" },
-			{ "name": "Tyrannamort", "role": "Boss" },
-			{ "name": "Atoner", "role": "Boss" }
+			{ "name": "King Godfrey", "role": "Boss" },
+			{ "name": "Tyrannosaura Wrecks", "role": "Boss" },
+			{ "name": "Tyrannosaurus Wrecks", "role": "Boss" },
+			{ "name": "Alphyn", "role": "Boss" }
 		]
 	},
 	{
