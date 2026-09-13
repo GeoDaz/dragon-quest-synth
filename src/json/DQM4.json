@@ -368,12 +368,6 @@
 		],
 		"F": [
 			{
-				"name": "Enorman",
-				"rank": "F",
-				"family": "Beast",
-				"synthesis": []
-			},
-			{
 				"name": "Dread Squirrel",
 				"rank": "F",
 				"family": "Beast",
@@ -637,12 +631,6 @@
 			}
 		],
 		"???": [
-			{
-				"name": "Tumbledweeb",
-				"rank": "???",
-				"family": "Nature",
-				"synthesis": []
-			},
 			{
 				"name": "Funky Chicken",
 				"rank": "???",
