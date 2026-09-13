@@ -417,7 +417,7 @@ const RankSection = ({
 
 export const getStaticProps: GetStaticProps = async () => {
 	try {
-		const defaultGame = 'DQM3';
+		const defaultGame = 'DQM4';
 		const families: Families = require(`../json/${defaultGame}.json`);
 		reverseSynth(families);
 		const games = require('../json/games.json');
