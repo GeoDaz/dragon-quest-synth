@@ -33,6 +33,20 @@
   --bs-primary-hover: #0a55c5;
   --bs-primary-active: #0c3e89;
 
+  /* synthesis list & filters — the mockup sits on a near-black ground while the
+     site body is #212529, so borders and muted greys are a few steps lighter */
+  --dl-panel: #14181e;
+  --dl-panel-soft: #161c23;
+  --dl-border-soft: #414d5c;
+  --dl-border-strong: #55636f;
+  --dl-row-border: #55636f;
+  --dl-row-hover: #2a3038;
+  --dl-label: #b3c0cd;
+  --dl-muted: #96a3b3;
+  --dl-muted-soft: #8592a3;
+  --dl-accent: #2d95de;
+  --dl-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
   --dl-img-size: 10rem;
   --dl-skin-img-size: 3rem;
   --dl-md-img-size: 7.5rem;
@@ -233,6 +247,8 @@ i.click:hover {
 
 h1 {
   margin-bottom: 1em;
+  font-weight: 700;
+  letter-spacing: -.02em;
 }
 
 h2 {
@@ -334,16 +350,7 @@ a .spinner-grow {
   min-height: var(--dl-xs-img-size);
 }
 
-.synthesis-list .sub-monsters .line-point,
-.synthesis-list .sub-monsters .line-point-safe-zone {
-  width: var(--dl-skin-img-size);
-  height: var(--dl-skin-img-size);
-  min-width: var(--dl-skin-img-size);
-  min-height: var(--dl-skin-img-size);
-}
-
-.synthesis-list .line-point .line-img,
-.synthesis-list .sub-monsters .line-point .line-img {
+.synthesis-list .line-point .line-img {
   max-width: 100%;
   max-height: 100%;
 }
@@ -1239,27 +1246,420 @@ h3 {
   border-radius: var(--bs-border-radius) 0 var(--bs-border-radius) 0;
 }
 
+/* Synthesis list (one table per family) */
+
+.family-section {
+  margin-bottom: 2.5em;
+}
+
+/* Family band */
+
 .family-title {
-  border-radius: var(--bs-border-radius);
   display: flex;
   align-items: center;
+  font-size: 1.5rem;
+  gap: 14px;
+  margin: 0;
+  padding: 10px 10px;
+  border-radius: 12px 12px 0 0;
+  /* flat fallback first: browsers without color-mix() keep a solid band */
+  background-color: var(--dl-family-color);
+  background-image: linear-gradient(90deg,
+      var(--dl-family-color) 0%,
+      color-mix(in srgb, var(--dl-family-color) 68%, #000) 100%);
   transition: all .3s;
 }
 
 .family-title img.family {
   box-sizing: content-box;
-  border-radius: var(--bs-border-radius) 0 0 var(--bs-border-radius);
-  border: 3px solid rgba(0, 0, 0, 0.3);
+  width: 2rem;
+  height: 2rem;
+  border: 0;
+  border-radius: 0;
 }
 
-.rank-title {
+.family-title .family-name {
+  font-weight: 700;
+  letter-spacing: -.01em;
+  color: #fff;
+}
+
+.family-title .family-count {
+  margin-left: auto;
+  font-family: var(--dl-mono);
+  font-size: .8em;
+  font-weight: 700;
+  white-space: nowrap;
+  color: rgba(255, 255, 255, .92);
+}
+
+/* Table */
+
+.synthesis-table {
+  --bs-table-bg: transparent;
+  margin-bottom: 0;
+  border-color: var(--dl-row-border);
+}
+
+.synthesis-table>thead th {
+  padding: 20px 18px;
+  white-space: nowrap;
+  font-family: var(--dl-mono);
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: .16em;
+  color: #c3ccd8;
+  border-bottom: 1px solid var(--dl-border-soft);
+}
+
+.synthesis-table>tbody>tr>td {
+  padding: 14px 18px;
+  vertical-align: middle;
+  border-bottom: 1px solid var(--dl-row-border);
+}
+
+.synthesis-table>tbody>tr.monster:hover>td {
+  background-color: var(--dl-row-hover);
+}
+
+.synthesis-table tr.monster.active-outline {
+  outline-offset: -4px;
+}
+
+/* Rank separator */
+
+.synthesis-table .group-cell {
+  padding: 22px 18px;
+  background-color: var(--dl-panel-soft);
+}
+
+.synthesis-table .rank-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+}
+
+.synthesis-table .rank-title {
   display: inline-block;
+  font-family: var(--dl-mono);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--dl-label);
   border-radius: var(--bs-border-radius);
 }
 
-.rank-title.active-outline {
+.synthesis-table .rank-title.active-outline {
   padding: 0.1em 0.5em 0.2em;
   margin: -0.1em 0 0.2em;
+}
+
+.synthesis-table .rank-rule {
+  flex: 1;
+  height: 1px;
+  background: var(--dl-border-soft);
+}
+
+/* Columns */
+
+.synthesis-table .cell-monster {
+  width: 240px;
+  min-width: 240px;
+}
+
+.synthesis-table .cell-rank,
+.synthesis-table .cell-family {
+  width: 70px;
+  text-align: center;
+}
+
+/* Monster identity */
+
+.synthesis-table .monster-identity {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+}
+
+.synthesis-table .monster-name {
+  font-size: 1.05em;
+  font-weight: 700;
+  letter-spacing: -.01em;
+  color: #e7ecf2;
+}
+
+.synthesis-list .monster-tile,
+.synthesis-list .monster-tile .line-point-safe-zone {
+  flex: none;
+  width: 64px;
+  height: 64px;
+  min-width: 64px;
+  min-height: 64px;
+  border-radius: 12px;
+}
+
+/* Rank badge & family icons */
+
+.synthesis-table .rank-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--dl-border-strong);
+  border-radius: 8px;
+  background-color: var(--dl-panel-soft);
+  font-family: var(--dl-mono);
+  font-size: 1em;
+  font-weight: 700;
+  color: #c3ccd8;
+}
+
+.synthesis-table .family-icons {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.synthesis-table .family-icons img.family {
+  width: 32px;
+  height: 32px;
+  transition: filter .3s;
+}
+
+.synthesis-table .family-icons a:hover img.family,
+.synthesis-table .family-icons a:focus img.family {
+  filter: drop-shadow(0 0 3px var(--dl-accent));
+}
+
+/* Recipes */
+
+.synthesis-table .recipe {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.synthesis-table .recipe+.recipe {
+  margin-top: 8px;
+}
+
+.synthesis-table .recipe-alt {
+  /* full row of the wrapping flex: the alternative parents start on a new line */
+  flex: 0 0 100%;
+  font-family: var(--dl-mono);
+  font-size: .75em;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--dl-muted);
+}
+
+/* Chip: only what still carries a label (family + required rank, egg). No
+   padding besides the right one, so its height is the icon's own height. */
+.synthesis-table .parent-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 0 9px 0 0;
+  border: 1px solid var(--dl-border-soft);
+  border-radius: 8px;
+  background-color: var(--dl-panel-soft);
+  text-decoration: none;
+  transition: border-color .3s, background-color .3s;
+}
+
+.synthesis-table .parent-chip img {
+  border-radius: 7px 0 0 7px;
+}
+
+.synthesis-table a.parent-chip:hover,
+.synthesis-table a.parent-chip:focus {
+  border-color: var(--dl-accent);
+  background-color: #18222c;
+}
+
+.synthesis-table .chip-label {
+  font-size: .9em;
+  font-weight: 600;
+  white-space: nowrap;
+  color: #d5dde6;
+}
+
+/* Bare parent tile, like the reverse-synthesis column */
+
+.synthesis-list .parent-tile,
+.synthesis-list .parent-tile .line-point-safe-zone {
+  flex: none;
+  width: 64px;
+  height: 64px;
+  min-width: 64px;
+  min-height: 64px;
+  border-radius: 12px;
+}
+
+.synthesis-list .parent-tile {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow .3s;
+}
+
+.synthesis-list .parent-tile:hover,
+.synthesis-list .parent-tile:focus {
+  box-shadow: 0 0 0 2px var(--dl-accent);
+}
+
+.synthesis-list .parent-tile-family img.family {
+  width: 32px;
+  height: 32px;
+}
+
+/* Reverse synthesis */
+
+.synthesis-table .into-tiles {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.synthesis-list .into-tile,
+.synthesis-list .into-tile .line-point-safe-zone {
+  flex: none;
+  width: 64px;
+  height: 64px;
+  min-width: 64px;
+  min-height: 64px;
+  border-radius: 12px;
+}
+
+.synthesis-list .into-tile {
+  transition: box-shadow .3s;
+}
+
+.synthesis-list .into-tile:hover,
+.synthesis-list .into-tile:focus {
+  box-shadow: 0 0 0 2px var(--dl-accent);
+}
+
+.synthesis-table .cell-empty {
+  font-family: var(--dl-mono);
+  font-size: .8em;
+  color: var(--dl-muted-soft);
+}
+
+.synthesis-table .row-skeleton {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: var(--dl-panel-soft);
+}
+
+/* Filters */
+
+.synthesis-filters {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.synthesis-filters .search {
+  margin-bottom: 0 !important;
+}
+
+.synthesis-filters .form-control,
+.synthesis-filters .btn {
+  height: 38px;
+  border: 1px solid var(--dl-border-soft);
+  background-color: var(--dl-panel);
+  font-size: .9em;
+  transition: all .3s;
+}
+
+.synthesis-filters .form-control {
+  border-right: 0;
+  border-radius: 9px 0 0 9px;
+  color: #e7ecf2;
+}
+
+.synthesis-filters .form-control::placeholder {
+  color: var(--dl-muted);
+}
+
+.synthesis-filters .form-control:focus {
+  background-color: var(--dl-panel);
+  border-color: var(--dl-accent);
+  box-shadow: none;
+}
+
+.synthesis-filters .search .btn {
+  border-radius: 0 9px 9px 0;
+  color: var(--dl-label);
+}
+
+.synthesis-filters .search .btn:hover,
+.synthesis-filters .search .btn:focus {
+  color: #e7ecf2;
+  border-color: var(--dl-accent);
+}
+
+.synthesis-filters .dropdown-toggle {
+  padding: 0 14px;
+  border-radius: 9px;
+  font-weight: 600;
+  color: #c3ccd8;
+}
+
+.synthesis-filters .dropdown-toggle::after {
+  margin-left: 7px;
+  color: var(--dl-label);
+}
+
+.synthesis-filters .dropdown-toggle:hover,
+.synthesis-filters .dropdown-toggle:focus,
+.synthesis-filters .dropdown-toggle.show {
+  background-color: var(--dl-panel-soft);
+  border-color: var(--dl-border-strong);
+  color: #e7ecf2;
+}
+
+.synthesis-filters .filter-active .dropdown-toggle {
+  border-color: var(--dl-accent);
+  color: #e7ecf2;
+}
+
+.synthesis-filters .filter-reset {
+  height: 38px;
+  padding: 0 12px;
+  border: 1px dashed var(--dl-border-soft);
+  border-radius: 9px;
+  background: none;
+  font-size: .9em;
+  font-weight: 600;
+  color: var(--dl-label);
+  transition: all .3s;
+}
+
+.synthesis-filters .filter-reset:hover,
+.synthesis-filters .filter-reset:focus {
+  border-style: solid;
+  border-color: var(--dl-accent);
+  color: #e7ecf2;
+}
+
+.synthesis-filters .filter-count {
+  margin-left: auto;
+  font-family: var(--dl-mono);
+  font-size: .78em;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--dl-label);
 }
 
 img.family {

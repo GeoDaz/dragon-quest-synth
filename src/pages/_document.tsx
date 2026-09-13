@@ -14,6 +14,16 @@ export default function Document() {
 				<meta property="og:type" content="website" />
 				<meta name="robots" content="index, follow" />
 				<meta property="og:url" content={SITE_URL} />
+				<link rel="preconnect" href="https://fonts.googleapis.com" />
+				<link
+					rel="preconnect"
+					href="https://fonts.gstatic.com"
+					crossOrigin="anonymous"
+				/>
+				<link
+					href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&display=swap"
+					rel="stylesheet"
+				/>
 				<link rel="icon" href="/favicon.ico" />
 				<link rel="apple-touch-icon" href="/logo192.png" />
 				<link rel="manifest" href="/manifest.json" />

@@ -9,7 +9,7 @@ import React, {
 import { GetStaticProps } from 'next';
 import { Families, Monster as MonsterInterface } from '@/types/Monster';
 import Layout from '@/components/Layout';
-import Monster from '@/components/Monster/Monster';
+import MonsterRow from '@/components/Monster/MonsterRow';
 import Family from '@/components/Monster/Family';
 import { ImagesContext } from '@/context/images';
 import { familiesColors } from '@/consts/colors';
@@ -21,7 +21,7 @@ import useTranslate from '@/hooks/useTranslate';
 import { makeClassName, stringToKey } from '@/functions';
 import useHash from '@/hooks/useHash';
 import useIsVisible from '@/hooks/useIsVisible';
-import MonsterLoading from '@/components/Monster/MonsterLoading';
+import MonsterRowLoading from '@/components/Monster/MonsterRowLoading';
 import SearchBar from '@/components/SearchBar';
 import Icon from '@/components/Icon';
 import { FiltersContext } from '@/context/filter';
@@ -61,6 +61,7 @@ const PageLines: React.FC<Props> = props => {
 		}[] = [];
 		const monsterIndex: { [name: string]: number } = {};
 		const familyStart: { [family: string]: number } = {};
+		const familyTotals: { [family: string]: number } = {};
 		const rankStart: { [id: string]: number } = {};
 		let count = 0;
 		for (const [family, ranks] of Object.entries(families)) {
@@ -70,13 +71,21 @@ const PageLines: React.FC<Props> = props => {
 				if (selectedRank && selectedRank !== rank) continue;
 				rankStart[`${family}-${rank}`] = count;
 				entries.push({ family, rank, monsters });
+				familyTotals[family] = (familyTotals[family] || 0) + monsters.length;
 				monsters.forEach(m => {
 					monsterIndex[m.name] = count;
 					count++;
 				});
 			}
 		}
-		return { entries, total: count, monsterIndex, familyStart, rankStart };
+		return {
+			entries,
+			total: count,
+			monsterIndex,
+			familyStart,
+			familyTotals,
+			rankStart,
+		};
 	}, [families, selectedFamily, selectedRank]);
 
 	// Nested (Families-shaped) subset limited to the first `visibleCount` monsters.
@@ -199,13 +208,24 @@ const PageLines: React.FC<Props> = props => {
 						</div>
 					))}
 			</div>
-			<div className="d-flex flex-wrap gap-4 mb-4">
+			<div className="synthesis-filters mb-4">
 				<SearchBar
 					label={isFr ? 'Rechercher un monstre' : 'Research a monster'}
 					onSubmit={handleSearch}
 					defaultValue={search}
 				/>
-				<DropdownButton id="family-selector" title={translateUI('Family')}>
+				<DropdownButton
+					id="family-selector"
+					className={makeClassName(
+						'filter-dropdown',
+						!!selectedFamily && 'filter-active'
+					)}
+					title={
+						selectedFamily ?
+							translateUI(selectedFamily)
+						:	translateUI('Family')
+					}
+				>
 					{!!selectedFamily && (
 						<Dropdown.Item onClick={() => setSelectedFamily(undefined)}>
 							<Icon name="x" /> {translateUI('Void')}
@@ -221,7 +241,18 @@ const PageLines: React.FC<Props> = props => {
 						</Dropdown.Item>
 					))}
 				</DropdownButton>
-				<DropdownButton id="rank-selector" title={translateUI('Rank')}>
+				<DropdownButton
+					id="rank-selector"
+					className={makeClassName(
+						'filter-dropdown',
+						!!selectedRank && 'filter-active'
+					)}
+					title={
+						selectedRank ?
+							`${translateUI('Rank')} ${selectedRank}`
+						:	translateUI('Rank')
+					}
+				>
 					{!!selectedRank && (
 						<Dropdown.Item onClick={() => setSelectedRank(undefined)}>
 							<Icon name="x" /> {translateUI('Void')}
@@ -237,6 +268,15 @@ const PageLines: React.FC<Props> = props => {
 						</Dropdown.Item>
 					))}
 				</DropdownButton>
+				{(!!search || !!selectedFamily || !!selectedRank) && (
+					<button type="button" className="filter-reset" onClick={resetFilters}>
+						<Icon name="x" /> {translateUI('Clear filters')}
+					</button>
+				)}
+				<span className="filter-count">
+					{filtered.total}&nbsp;
+					{translateUI(filtered.total > 1 ? 'monsters' : 'monster')}
+				</span>
 			</div>
 			<FiltersContext.Provider value={filters}>
 				<ImagesContext.Provider value={images}>
@@ -249,6 +289,7 @@ const PageLines: React.FC<Props> = props => {
 											key={family}
 											family={family}
 											ranks={ranks}
+											count={filtered.familyTotals[family]}
 											hash={hash}
 										/>
 									)
@@ -271,43 +312,65 @@ const FamilySection = ({
 	family,
 	hash,
 	ranks,
+	count,
 }: {
 	family: string;
 	hash?: string;
 	ranks: { [key: string]: MonsterInterface[] };
+	count: number;
 }) => {
 	const { translateUI } = useTranslate();
 	const { selectedFamily, selectedRank } = useContext(FiltersContext);
 
 	if (selectedFamily && selectedFamily != family) return null;
 	return (
-		<div key={family} className="mb-4">
+		<section className="family-section">
 			<h2
 				className={makeClassName(
 					'family-title',
 					hash == family && 'active-outline'
 				)}
-				style={{
-					backgroundColor: familiesColors[family],
-					// boxShadow: 'inset 0 0 0 3px #aeac69',
-				}}
+				style={
+					{
+						'--dl-family-color': familiesColors[family],
+					} as React.CSSProperties
+				}
 				id={family}
 			>
-				<Family name={family} big /> &nbsp; {translateUI(family)}
+				<Family name={family} big />
+				<span className="family-name">{translateUI(family)}</span>
+				<span className="family-count">
+					{count}&nbsp;{translateUI(count > 1 ? 'monsters' : 'monster')}
+				</span>
 			</h2>
-			{/* selectedRank is used here to avoid calling useIsVisible */}
-			{Object.entries(ranks).map(([rank, ranking]) =>
-				selectedRank && selectedRank != rank ?
-					null
-				:	<RankSection
-						key={rank}
-						family={family}
-						rank={rank}
-						ranking={ranking}
-						hash={hash}
-					/>
-			)}
-		</div>
+			<div className="table-responsive">
+				<table className="table synthesis-table">
+					<thead>
+						<tr>
+							<th className="cell-monster">{translateUI('Monster')}</th>
+							<th className="cell-rank">{translateUI('Rank')}</th>
+							<th className="cell-family">{translateUI('Family')}</th>
+							<th className="cell-synthesis">{translateUI('Synthesis')}</th>
+							<th className="cell-rev-synthesis">
+								{translateUI('Synthesize into')}
+							</th>
+						</tr>
+					</thead>
+					{/* selectedRank is used here to avoid calling useIsVisible */}
+					{Object.entries(ranks).map(([rank, ranking]) =>
+						selectedRank && selectedRank != rank ?
+							null
+						:	<RankSection
+								key={rank}
+								family={family}
+								rank={rank}
+								ranking={ranking}
+								hash={hash}
+							/>
+					)}
+				</table>
+			</div>
+		</section>
 	);
 };
 
@@ -324,27 +387,31 @@ const RankSection = ({
 }) => {
 	const [ref, visible] = useIsVisible();
 
+	const { translateUI } = useTranslate();
 	const hashId = `${family}-${rank}`;
 	return (
-		<div key={rank} ref={ref as any} className="flex flex-col gap-1 mb-4 px-3">
-			<h3 id={hashId}>
-				<span
-					className={makeClassName(
-						'rank-title',
-						hash == hashId && 'active-outline'
-					)}
-				>
-					{rank}
-				</span>
-			</h3>
-			<div className="d-flex flex-wrap gap-3">
-				{ranking.map(monster =>
-					visible ?
-						<Monster key={monster.name} monster={monster} hash={hash} />
-					:	<MonsterLoading key={monster.name} monster={monster} hash={hash} />
-				)}
-			</div>
-		</div>
+		<tbody ref={ref as any} className="rank-group">
+			<tr>
+				<th colSpan={5} className="group-cell pe-0">
+					<h3 id={hashId} className="rank-heading">
+						<span
+							className={makeClassName(
+								'rank-title',
+								hash == hashId && 'active-outline'
+							)}
+						>
+							{translateUI('Rank')} {rank}
+						</span>
+						<span className="rank-rule" />
+					</h3>
+				</th>
+			</tr>
+			{ranking.map(monster =>
+				visible ?
+					<MonsterRow key={monster.name} monster={monster} hash={hash} />
+				:	<MonsterRowLoading key={monster.name} monster={monster} hash={hash} />
+			)}
+		</tbody>
 	);
 };
 
