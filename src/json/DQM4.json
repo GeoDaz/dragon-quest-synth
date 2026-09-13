@@ -1,1 +1,1028 @@
-{}
+{
+	"Slime": {
+		"G": [
+			{
+				"name": "Slime",
+				"rank": "G",
+				"family": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "Goonache Goodie",
+				"rank": "G",
+				"family": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "Slime Stack",
+				"rank": "G",
+				"family": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "Shell Slime",
+				"rank": "G",
+				"family": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "Buddy Slime",
+				"rank": "G",
+				"family": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "Bad Egg",
+				"rank": "G",
+				"family": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "Scallop Slime",
+				"rank": "G",
+				"family": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "Wing Slime",
+				"rank": "G",
+				"family": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "Bubble Slime",
+				"rank": "G",
+				"family": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "Healslime",
+				"rank": "G",
+				"family": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "Fright Bulb",
+				"rank": "G",
+				"family": "Slime",
+				"synthesis": []
+			}
+		],
+		"F": [
+			{
+				"name": "Marislime",
+				"rank": "F",
+				"family": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "Feral Slime",
+				"rank": "F",
+				"family": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "Snowmangler",
+				"rank": "F",
+				"family": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "Snail Slime",
+				"rank": "F",
+				"family": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "Slime Knight",
+				"rank": "F",
+				"family": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "She-Slime",
+				"rank": "F",
+				"family": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "Onion Slime",
+				"rank": "F",
+				"family": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "Drake Slime",
+				"rank": "F",
+				"family": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "Coconut Slime",
+				"rank": "F",
+				"family": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "Mottle Slime",
+				"rank": "F",
+				"family": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "Box Slime",
+				"rank": "F",
+				"family": "Slime",
+				"synthesis": []
+			},
+			{
+				"name": "Molten Slime",
+				"rank": "F",
+				"family": "Slime",
+				"synthesis": []
+			}
+		]
+	},
+	"Dragon": {
+		"G": [
+			{
+				"name": "Nardragon",
+				"rank": "G",
+				"family": "Dragon",
+				"synthesis": []
+			},
+			{
+				"name": "Dragonthorn",
+				"rank": "G",
+				"family": "Dragon",
+				"synthesis": []
+			},
+			{
+				"name": "Komodo",
+				"rank": "G",
+				"family": "Dragon",
+				"synthesis": []
+			},
+			{
+				"name": "Crested Viper",
+				"rank": "G",
+				"family": "Dragon",
+				"synthesis": []
+			},
+			{
+				"name": "Small Fry",
+				"rank": "G",
+				"family": "Dragon",
+				"synthesis": []
+			},
+			{
+				"name": "Vegandragora",
+				"rank": "G",
+				"family": "Dragon",
+				"synthesis": []
+			},
+			{
+				"name": "Icy Dragling",
+				"rank": "G",
+				"family": "Dragon",
+				"synthesis": []
+			},
+			{
+				"name": "Damselfly",
+				"rank": "G",
+				"family": "Dragon",
+				"synthesis": []
+			},
+			{
+				"name": "Pteranodon",
+				"rank": "G",
+				"family": "Dragon",
+				"synthesis": []
+			},
+			{
+				"name": "Killer Gila",
+				"rank": "G",
+				"family": "Dragon",
+				"synthesis": []
+			}
+		],
+		"F": [
+			{
+				"name": "Armoured Wartoise",
+				"rank": "F",
+				"family": "Dragon",
+				"synthesis": []
+			},
+			{
+				"name": "Flython",
+				"rank": "F",
+				"family": "Dragon",
+				"synthesis": []
+			},
+			{
+				"name": "Seasaur",
+				"rank": "F",
+				"family": "Dragon",
+				"synthesis": []
+			},
+			{
+				"name": "Croc-a-Bugle-Doo",
+				"rank": "F",
+				"family": "Dragon",
+				"synthesis": []
+			},
+			{
+				"name": "Ethereal Serpent",
+				"rank": "F",
+				"family": "Dragon",
+				"synthesis": []
+			},
+			{
+				"name": "Raptile",
+				"rank": "F",
+				"family": "Dragon",
+				"synthesis": []
+			},
+			{
+				"name": "Drag Racer",
+				"rank": "F",
+				"family": "Dragon",
+				"synthesis": []
+			},
+			{
+				"name": "Jargon",
+				"rank": "F",
+				"family": "Dragon",
+				"synthesis": []
+			},
+			{
+				"name": "Cauldragon",
+				"rank": "F",
+				"family": "Dragon",
+				"synthesis": []
+			},
+			{
+				"name": "Gasbagon",
+				"rank": "F",
+				"family": "Dragon",
+				"synthesis": []
+			}
+		],
+		"E": [
+			{
+				"name": "Drakularge",
+				"rank": "E",
+				"family": "Dragon",
+				"synthesis": []
+			}
+		]
+	},
+	"Beast": {
+		"G": [
+			{
+				"name": "Antguzzler",
+				"rank": "G",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Mischievous Mole",
+				"rank": "G",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Bunicorn",
+				"rank": "G",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Hammerhood",
+				"rank": "G",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Fat Rat",
+				"rank": "G",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Funky Ferret",
+				"rank": "G",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Candy Cat",
+				"rank": "G",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Sham Hatwitch",
+				"rank": "G",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Feralball",
+				"rank": "G",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Great Sabrecub",
+				"rank": "G",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Gloomy Grublin",
+				"rank": "G",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Platypunk",
+				"rank": "G",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Platypup",
+				"rank": "G",
+				"family": "Beast",
+				"synthesis": []
+			}
+		],
+		"F": [
+			{
+				"name": "Enorman",
+				"rank": "F",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Dread Squirrel",
+				"rank": "F",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Powie Yowie",
+				"rank": "F",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Orc",
+				"rank": "F",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Vampire Cat",
+				"rank": "F",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Ruff Ruffian",
+				"rank": "F",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Guaardvark",
+				"rank": "F",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Warhog",
+				"rank": "F",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Tongue Fu Fighter",
+				"rank": "F",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Weartiger",
+				"rank": "F",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Robber Rabbit",
+				"rank": "F",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Boppin' Badger",
+				"rank": "F",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Napir",
+				"rank": "F",
+				"family": "Beast",
+				"synthesis": []
+			}
+		],
+		"E": [
+			{
+				"name": "Ursa Major",
+				"rank": "E",
+				"family": "Beast",
+				"synthesis": []
+			}
+		]
+	},
+	"Nature": {
+		"G": [
+			{
+				"name": "Stark Raven",
+				"rank": "G",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Bantamweight",
+				"rank": "G",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Ornery Onion",
+				"rank": "G",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Swarmtroop",
+				"rank": "G",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Killerpillar",
+				"rank": "G",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Capsichum",
+				"rank": "G",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Cruelcumber",
+				"rank": "G",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Mad Mollusk",
+				"rank": "G",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Woebergine",
+				"rank": "G",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Kingfuschia",
+				"rank": "G",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Bludgerigar",
+				"rank": "G",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Khalamari Kid",
+				"rank": "G",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Toady",
+				"rank": "G",
+				"family": "Nature",
+				"synthesis": []
+			}
+		],
+		"F": [
+			{
+				"name": "Barbarito",
+				"rank": "F",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Midnight Horknight",
+				"rank": "F",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Bullfinch",
+				"rank": "F",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Scorpion",
+				"rank": "F",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Suckling Ocker",
+				"rank": "F",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Bad Apple",
+				"rank": "F",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Cyclown",
+				"rank": "F",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Odd Cob",
+				"rank": "F",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Crabid",
+				"rank": "F",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Cactiball",
+				"rank": "F",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Jingle Bug",
+				"rank": "F",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Mitey Oak",
+				"rank": "F",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Leafy Larrikin",
+				"rank": "F",
+				"family": "Nature",
+				"synthesis": []
+			}
+		]
+	},
+	"Material": {
+		"G": [
+			{
+				"name": "Eggsoskeleton",
+				"rank": "G",
+				"family": "Material",
+				"synthesis": []
+			},
+			{
+				"name": "Cumaulus",
+				"rank": "G",
+				"family": "Material",
+				"synthesis": []
+			},
+			{
+				"name": "String Fella",
+				"rank": "G",
+				"family": "Material",
+				"synthesis": []
+			},
+			{
+				"name": "Bambooligan",
+				"rank": "G",
+				"family": "Material",
+				"synthesis": []
+			},
+			{
+				"name": "Burr Baby",
+				"rank": "G",
+				"family": "Material",
+				"synthesis": []
+			},
+			{
+				"name": "Sacksquatch",
+				"rank": "G",
+				"family": "Material",
+				"synthesis": []
+			},
+			{
+				"name": "Mud Mannequin",
+				"rank": "G",
+				"family": "Material",
+				"synthesis": []
+			},
+			{
+				"name": "Fromage Fray",
+				"rank": "G",
+				"family": "Material",
+				"synthesis": []
+			},
+			{
+				"name": "Sky Fry",
+				"rank": "G",
+				"family": "Material",
+				"synthesis": []
+			},
+			{
+				"name": "Mecha-Mynah",
+				"rank": "G",
+				"family": "Material",
+				"synthesis": []
+			},
+			{
+				"name": "Lampling",
+				"rank": "G",
+				"family": "Material",
+				"synthesis": []
+			}
+		],
+		"F": [
+			{
+				"name": "Urnexpected",
+				"rank": "F",
+				"family": "Material",
+				"synthesis": []
+			},
+			{
+				"name": "Foo Dog",
+				"rank": "F",
+				"family": "Material",
+				"synthesis": []
+			},
+			{
+				"name": "Gold Golem",
+				"rank": "F",
+				"family": "Material",
+				"synthesis": []
+			},
+			{
+				"name": "Smog",
+				"rank": "F",
+				"family": "Material",
+				"synthesis": []
+			},
+			{
+				"name": "Bongo Drongo",
+				"rank": "F",
+				"family": "Material",
+				"synthesis": []
+			},
+			{
+				"name": "Avian Android",
+				"rank": "F",
+				"family": "Material",
+				"synthesis": []
+			},
+			{
+				"name": "Mudraker",
+				"rank": "F",
+				"family": "Material",
+				"synthesis": []
+			},
+			{
+				"name": "Mad Moai",
+				"rank": "F",
+				"family": "Material",
+				"synthesis": []
+			},
+			{
+				"name": "Erazor Blade",
+				"rank": "F",
+				"family": "Material",
+				"synthesis": []
+			},
+			{
+				"name": "Cannibox",
+				"rank": "F",
+				"family": "Material",
+				"synthesis": []
+			},
+			{
+				"name": "Pocus Poppet",
+				"rank": "F",
+				"family": "Material",
+				"synthesis": []
+			},
+			{
+				"name": "Hunter Mech",
+				"rank": "F",
+				"family": "Material",
+				"synthesis": []
+			}
+		]
+	},
+	"Demon": {
+		"G": [
+			{
+				"name": "Winky",
+				"rank": "G",
+				"family": "Demon",
+				"synthesis": []
+			},
+			{
+				"name": "Gremlin",
+				"rank": "G",
+				"family": "Demon",
+				"synthesis": []
+			},
+			{
+				"name": "Piña Marauder",
+				"rank": "G",
+				"family": "Demon",
+				"synthesis": []
+			},
+			{
+				"name": "Dracky",
+				"rank": "G",
+				"family": "Demon",
+				"synthesis": []
+			},
+			{
+				"name": "Lump Wizard",
+				"rank": "G",
+				"family": "Demon",
+				"synthesis": []
+			},
+			{
+				"name": "Imp",
+				"rank": "G",
+				"family": "Demon",
+				"synthesis": []
+			},
+			{
+				"name": "Lunatick",
+				"rank": "G",
+				"family": "Demon",
+				"synthesis": []
+			},
+			{
+				"name": "Teeny Sanguini",
+				"rank": "G",
+				"family": "Demon",
+				"synthesis": []
+			},
+			{
+				"name": "Lips",
+				"rank": "G",
+				"family": "Demon",
+				"synthesis": []
+			},
+			{
+				"name": "Bodkin Archer",
+				"rank": "G",
+				"family": "Demon",
+				"synthesis": []
+			}
+		],
+		"F": [
+			{
+				"name": "Little Devil",
+				"rank": "F",
+				"family": "Demon",
+				"synthesis": []
+			},
+			{
+				"name": "Succubat",
+				"rank": "F",
+				"family": "Demon",
+				"synthesis": []
+			},
+			{
+				"name": "See Urchin",
+				"rank": "F",
+				"family": "Demon",
+				"synthesis": []
+			},
+			{
+				"name": "Greater Dracky",
+				"rank": "F",
+				"family": "Demon",
+				"synthesis": []
+			},
+			{
+				"name": "Dessert Demon",
+				"rank": "F",
+				"family": "Demon",
+				"synthesis": []
+			},
+			{
+				"name": "Hangelabra",
+				"rank": "F",
+				"family": "Demon",
+				"synthesis": []
+			},
+			{
+				"name": "Dancing Devil",
+				"rank": "F",
+				"family": "Demon",
+				"synthesis": []
+			},
+			{
+				"name": "Merman",
+				"rank": "F",
+				"family": "Demon",
+				"synthesis": []
+			},
+			{
+				"name": "Prestidigitator",
+				"rank": "F",
+				"family": "Demon",
+				"synthesis": []
+			},
+			{
+				"name": "Cannonbrawler",
+				"rank": "F",
+				"family": "Demon",
+				"synthesis": []
+			}
+		]
+	},
+	"Undead": {
+		"G": [
+			{
+				"name": "Putrefido",
+				"rank": "G",
+				"family": "Undead",
+				"synthesis": []
+			},
+			{
+				"name": "Funghoul",
+				"rank": "G",
+				"family": "Undead",
+				"synthesis": []
+			},
+			{
+				"name": "Wax Murderer",
+				"rank": "G",
+				"family": "Undead",
+				"synthesis": []
+			},
+			{
+				"name": "Skeleton",
+				"rank": "G",
+				"family": "Undead",
+				"synthesis": []
+			},
+			{
+				"name": "Stump Chump",
+				"rank": "G",
+				"family": "Undead",
+				"synthesis": []
+			},
+			{
+				"name": "Ghost",
+				"rank": "G",
+				"family": "Undead",
+				"synthesis": []
+			},
+			{
+				"name": "Skipper",
+				"rank": "G",
+				"family": "Undead",
+				"synthesis": []
+			},
+			{
+				"name": "Drohl Drone",
+				"rank": "G",
+				"family": "Undead",
+				"synthesis": []
+			},
+			{
+				"name": "Will-o'-the-Whips",
+				"rank": "G",
+				"family": "Undead",
+				"synthesis": []
+			},
+			{
+				"name": "Soft Serve Spook",
+				"rank": "G",
+				"family": "Undead",
+				"synthesis": []
+			},
+			{
+				"name": "Firespirit",
+				"rank": "G",
+				"family": "Undead",
+				"synthesis": []
+			}
+		],
+		"F": [
+			{
+				"name": "Scarfish",
+				"rank": "F",
+				"family": "Undead",
+				"synthesis": []
+			},
+			{
+				"name": "Walking Corpse",
+				"rank": "F",
+				"family": "Undead",
+				"synthesis": []
+			},
+			{
+				"name": "Restless Armour",
+				"rank": "F",
+				"family": "Undead",
+				"synthesis": []
+			},
+			{
+				"name": "Shadow",
+				"rank": "F",
+				"family": "Undead",
+				"synthesis": []
+			},
+			{
+				"name": "Skullrider",
+				"rank": "F",
+				"family": "Undead",
+				"synthesis": []
+			},
+			{
+				"name": "Monolog",
+				"rank": "F",
+				"family": "Undead",
+				"synthesis": []
+			},
+			{
+				"name": "Muddy Hand",
+				"rank": "F",
+				"family": "Undead",
+				"synthesis": []
+			},
+			{
+				"name": "Mummy Boy",
+				"rank": "F",
+				"family": "Undead",
+				"synthesis": []
+			},
+			{
+				"name": "Mouldfish",
+				"rank": "F",
+				"family": "Undead",
+				"synthesis": []
+			},
+			{
+				"name": "Hellbound Horror",
+				"rank": "F",
+				"family": "Undead",
+				"synthesis": []
+			},
+			{
+				"name": "King Kelp",
+				"rank": "F",
+				"family": "Undead",
+				"synthesis": []
+			}
+		],
+		"E": [
+			{
+				"name": "Treeface",
+				"rank": "E",
+				"family": "Undead",
+				"synthesis": []
+			}
+		]
+	}
+}

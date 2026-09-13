@@ -362,7 +362,7 @@
 				"family": "Slime",
 				"synthesis": [
 					["Bubble Slime", "King Slime"],
-					["Sugarstar Slime", "Mandrake Mercernary"]
+					["Sugarstar Slime", "Mandrake Mercenary"]
 				]
 			}
 		],
@@ -969,7 +969,7 @@
 				"synthesis": [["Tortoceratops", "Quack Up"]]
 			},
 			{
-				"name": "Mandrake Mercernary",
+				"name": "Mandrake Mercenary",
 				"rank": "C",
 				"family": "Dragon",
 				"synthesis": [
@@ -981,7 +981,7 @@
 				"name": "Weighvern",
 				"rank": "C",
 				"family": "Dragon",
-				"synthesis": [["Mandrake Mercernary", "Pyuro"]]
+				"synthesis": [["Mandrake Mercenary", "Pyuro"]]
 			}
 		],
 		"B": [
@@ -1120,7 +1120,7 @@
 					["Knight Aberrant", "Dragon Rider"],
 					["Knight Aberrant", "Drakularge"],
 					["Knight Aberrant", "Tortoceratops"],
-					["Knight Aberrant", "Mandrake Mercernary"]
+					["Knight Aberrant", "Mandrake Mercenary"]
 				]
 			},
 			{
@@ -1966,7 +1966,7 @@
 				"family": "Beast",
 				"synthesis": [
 					["Thwarthog", "Thwarthog"],
-					["Buffalogre", "Mandrake Mercernary"]
+					["Buffalogre", "Mandrake Mercenary"]
 				]
 			},
 			{
@@ -1986,7 +1986,7 @@
 				"name": "Kon The Knight",
 				"rank": "A",
 				"family": "Beast",
-				"synthesis": [["Bone Baron", "Mandrake Mercernary"]]
+				"synthesis": [["Bone Baron", "Mandrake Mercenary"]]
 			},
 			{
 				"name": "Dorsal Fiend",
@@ -4136,7 +4136,7 @@
 				"name": "Hyperanemon",
 				"rank": "A",
 				"family": "Demon",
-				"synthesis": [["Mandrake Mercernary", "Wooper Trooper"]]
+				"synthesis": [["Mandrake Mercenary", "Wooper Trooper"]]
 			},
 			{
 				"name": "Baleen Mage",
@@ -5007,7 +5007,7 @@
 				"name": "Bishop Ladja",
 				"rank": "A",
 				"family": "Undead",
-				"synthesis": [["Elusid", "Mandrake Mercernary"]]
+				"synthesis": [["Elusid", "Mandrake Mercenary"]]
 			}
 		],
 		"S": [
