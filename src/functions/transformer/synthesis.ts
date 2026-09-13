@@ -1,19 +1,26 @@
 import { Families, Monsters } from '@/types/Monster';
 
-export const reverseSynth = (families: Families): void => {
-	const translatedMonsters = require('../../json/monsterTranslations.json');
-
+export const indexMonsters = (families: Families): Monsters => {
 	const monsters: Monsters = {};
 	Object.values(families).forEach(ranks => {
 		Object.values(ranks).forEach(innerMonsters => {
 			innerMonsters.forEach(monster => {
-				const frName = translatedMonsters[monster.name];
-				if (frName) {
-					monster.nom = frName;
-				}
 				monsters[monster.name] = monster;
 			});
 		});
+	});
+	return monsters;
+};
+
+export const reverseSynth = (families: Families): void => {
+	const translatedMonsters = require('../../json/monsterTranslations.json');
+
+	const monsters = indexMonsters(families);
+	Object.values(monsters).forEach(monster => {
+		const frName = translatedMonsters[monster.name];
+		if (frName) {
+			monster.nom = frName;
+		}
 	});
 
 	Object.values(families).forEach(ranks => {

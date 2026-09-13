@@ -141,7 +141,7 @@ const LineGrid: React.FC<GridProps> = ({ line, zoom = 100, handleUpdate }) => {
 					)}
 					style={{ zoom: `${zoom}%` }}
 				>
-					<LineLevels line={line} />
+					{!!handleUpdate && <LineLevels line={line} />}
 					{line.columns.map((column, i) => (
 						<LineRow key={i} x={i} column={column} />
 					))}

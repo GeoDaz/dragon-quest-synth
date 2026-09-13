@@ -15,7 +15,7 @@ import { ImagesContext } from '@/context/images';
 import { familiesColors } from '@/consts/colors';
 import { families as familyList } from '@/consts/data';
 import { Dropdown, DropdownButton, Spinner } from 'react-bootstrap';
-import { reverseSynth } from '@/functions/transformer/synthesis';
+import { indexMonsters, reverseSynth } from '@/functions/transformer/synthesis';
 import { StringObject } from '@/types/Ui';
 import useTranslate from '@/hooks/useTranslate';
 import { makeClassName, stringToKey } from '@/functions';
@@ -25,6 +25,9 @@ import MonsterRowLoading from '@/components/Monster/MonsterRowLoading';
 import SearchBar from '@/components/SearchBar';
 import Icon from '@/components/Icon';
 import { FiltersContext } from '@/context/filter';
+import { TrailContext } from '@/context/trail';
+import SynthesisTrail from '@/components/Monster/SynthesisTrail';
+import useSynthesisTrail from '@/hooks/useSynthesisTrail';
 import ScrollUp from '@/components/ScrollUp';
 import GameCard from '@/components/GameCard';
 import { Game } from '@/types/Game';
@@ -49,6 +52,8 @@ const PageLines: React.FC<Props> = props => {
 	const [selectedRank, setSelectedRank] = useState<string | undefined>();
 	const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 	const sentinelRef = useRef<HTMLDivElement | null>(null);
+	const allMonsters = useMemo(() => indexMonsters(props.families), [props.families]);
+	const { tree, walk, focusOn, clearTrail } = useSynthesisTrail(allMonsters);
 
 	// Flat, ordered view of the current families after family/rank filters, plus
 	// index maps used for pagination and hash deep-links. (search is already
@@ -280,28 +285,37 @@ const PageLines: React.FC<Props> = props => {
 			</div>
 			<FiltersContext.Provider value={filters}>
 				<ImagesContext.Provider value={images}>
-					{filtered.total > 0 ?
-						<>
-							<div className="synthesis-list">
-								{Object.entries(paginatedFamilies).map(
-									([family, ranks]) => (
-										<FamilySection
-											key={family}
-											family={family}
-											ranks={ranks}
-											count={filtered.familyTotals[family]}
-											hash={hash}
-										/>
-									)
-								)}
-							</div>
-							{visibleCount < filtered.total && (
-								<div ref={sentinelRef} className="text-center py-4">
-									<Spinner animation="border" />
+					<TrailContext.Provider value={walk}>
+						{filtered.total > 0 ?
+							<>
+								<div className="synthesis-list">
+									{Object.entries(paginatedFamilies).map(
+										([family, ranks]) => (
+											<FamilySection
+												key={family}
+												family={family}
+												ranks={ranks}
+												count={filtered.familyTotals[family]}
+												hash={hash}
+											/>
+										)
+									)}
 								</div>
-							)}
-						</>
-					:	<p>{isFr ? 'Aucune synthèse trouvée' : 'No synthesis found'}.</p>}
+								{visibleCount < filtered.total && (
+									<div ref={sentinelRef} className="text-center py-4">
+										<Spinner animation="border" />
+									</div>
+								)}
+							</>
+						:	<p>
+								{isFr ? 'Aucune synthèse trouvée' : 'No synthesis found'}.
+							</p>}
+						<SynthesisTrail
+							tree={tree}
+							onFocus={focusOn}
+							onClear={clearTrail}
+						/>
+					</TrailContext.Provider>
 				</ImagesContext.Provider>
 			</FiltersContext.Provider>
 		</Layout>

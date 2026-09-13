@@ -47,6 +47,9 @@
   --dl-accent: #2d95de;
   --dl-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 
+  /* the header is sticky (~57px with its border): anchors clear it plus room */
+  --dl-anchor-offset: 88px;
+
   --dl-img-size: 10rem;
   --dl-skin-img-size: 3rem;
   --dl-md-img-size: 7.5rem;
@@ -393,6 +396,11 @@ a .spinner-grow {
   padding: 2em 2em 0 5em;
 }
 
+/* the left gutter only held the levels, which the read mode drops */
+.frame .line-grid:not(.editable) {
+  padding-left: 2em;
+}
+
 .line-grid .line-row {
   position: relative;
   flex-wrap: nowrap;
@@ -621,6 +629,30 @@ a.line-point {
 
 .line-point .line-img.mirror {
   transform: scaleX(-1);
+}
+
+/* a family stands for every monster of a rank: its icon takes the whole cell */
+.line-point.family .line-img {
+  width: var(--dl-img-size);
+  height: var(--dl-img-size);
+  max-width: var(--dl-img-size);
+  max-height: var(--dl-img-size);
+  object-fit: contain;
+}
+
+.line-point-rank {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  padding: 0.1em 0.5em;
+  border-radius: 0.25em 0.25em 0 0.25em;
+  background-color: var(--bs-primary);
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  white-space: nowrap;
 }
 
 .line-point .line-skin {
@@ -1215,8 +1247,9 @@ a.dropdown-item.active {
 /* Monster */
 .card,
 h2,
-h3 {
-  scroll-margin-top: 64px;
+h3,
+.synthesis-table tr.monster {
+  scroll-margin-top: var(--dl-anchor-offset);
 }
 
 .card:active,
@@ -1754,4 +1787,166 @@ img.family {
 .bg-purple {
   background-color: #6f42c1 !important;
   color: #fff !important;
+}
+
+/* Synthesis trail ---------------------------------------------------------
+   Bottom drawer keeping the chain of monsters walked through the synthesis
+   columns. Collapsed it shows the breadcrumb, expanded it renders the same
+   chain as a read-only builder line. */
+
+.synthesis-trail {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1010;
+  background-color: var(--dl-panel);
+  border-top: 1px solid var(--dl-border-strong);
+  box-shadow: 0 -6px 20px rgba(0, 0, 0, .45);
+}
+
+/* the drawer floats over the page: keep the end of the list reachable */
+.synthesis-list:has(~ .synthesis-trail) {
+  padding-bottom: 96px;
+}
+
+.trail-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* right room for the scroll-up button, which floats in the same corner */
+  padding: 10px 60px 10px 12px;
+}
+
+.trail-steps {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow-x: auto;
+}
+
+.trail-step {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.trail-arrow {
+  color: var(--dl-muted);
+}
+
+.trail-step-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 0 9px 0 0;
+  border: 1px solid var(--dl-border-soft);
+  border-radius: 8px;
+  background-color: var(--dl-panel-soft);
+  text-decoration: none;
+  transition: border-color .3s, background-color .3s;
+}
+
+.trail-step-link:hover,
+.trail-step-link:focus {
+  border-color: var(--dl-accent);
+  background-color: #18222c;
+}
+
+/* the shared safe zone is sized for the full grid: shrink it to a chip */
+.trail-step-link .line-point-safe-zone {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 3px;
+  overflow: hidden;
+  border-radius: 7px 0 0 7px;
+}
+
+/* LineImage renders at its natural size: only a max-* keeps it in the chip, and
+   the grid rule that does so is scoped to .line-point, which is not used here */
+.trail-step-link .line-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* a family stands for a whole rank, its icon replaces the monster image */
+.trail-step-link.family {
+  gap: 6px;
+  padding: 0 9px;
+}
+
+.trail-step-link.family img.family {
+  width: 26px;
+  height: 26px;
+}
+
+.trail-step-name {
+  font-size: .9em;
+  font-weight: 600;
+  white-space: nowrap;
+  color: #d5dde6;
+}
+
+.trail-toggle,
+.trail-clear {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--dl-border-soft);
+  border-radius: 8px;
+  background-color: var(--dl-panel-soft);
+  color: var(--dl-label);
+  transition: border-color .3s, color .3s;
+}
+
+.trail-toggle:hover,
+.trail-clear:hover {
+  border-color: var(--dl-accent);
+  color: #d5dde6;
+}
+
+.trail-preview {
+  max-height: 50vh;
+  overflow: auto;
+  padding: 12px 12px 0;
+  border-bottom: 1px solid var(--dl-border-soft);
+}
+
+.trail-preview .frame {
+  margin-bottom: 12px;
+}
+
+/* the preview is halved, the family icons are not: scaled back to their full
+   size a lone family reads clearly. Done with transform rather than zoom so the
+   grid and its links keep their geometry — the icon overflows its cell, and two
+   families side by side do overlap. */
+.trail-preview .line-point.family .line-img {
+  transform: scale(2);
+}
+
+@media (max-width: 576px) {
+
+  /* the images alone still read as a breadcrumb once names no longer fit */
+  .trail-step-name {
+    display: none;
+  }
+
+  .trail-step-link {
+    padding-right: 0;
+  }
+
+  .trail-step-link .line-point-safe-zone {
+    border-radius: 7px;
+  }
 }

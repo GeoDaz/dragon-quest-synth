@@ -87,6 +87,8 @@ const LinePoint: React.FC<{
 		ySize,
 		xCollapsable,
 		yCollapsable,
+		family,
+		rank,
 	} = point;
 
 	const width: number = useMemo(() => {
@@ -109,6 +111,7 @@ const LinePoint: React.FC<{
 				'line-point pictured',
 				xSize == 2 && 'x-double',
 				ySize == 2 && 'y-double',
+				family && 'family',
 				handleEdit && 'editable'
 			)}
 			style={{ width: width + 'px', height: height + 'px' }}
@@ -126,6 +129,7 @@ const LinePoint: React.FC<{
 						style={{ bottom: 3.3 * i + 'em' }}
 					/>
 				))}
+				{!!rank && <span className="line-point-rank">{rank}</span>}
 			</div>
 			{!!handleEdit && (
 				<div className="actions">

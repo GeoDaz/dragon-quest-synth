@@ -3,8 +3,9 @@ import MonsterImg from './MonsterImg';
 import { makeClassName } from '@/functions';
 import { Monster as MonsterInterface } from '@/types/Monster';
 import AnchorLink from '../AnchorLink';
-import { memo } from 'react';
+import { memo, useContext } from 'react';
 import useTranslate from '@/hooks/useTranslate';
+import { TrailContext } from '@/context/trail';
 import Egg from './Egg';
 
 // A recipe is a flat token list: monster names, "<Family> Family", and at most
@@ -49,6 +50,7 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 	monster: MonsterInterface;
 }) {
 	const { isFr, translateMonster, translateUI } = useTranslate();
+	const { walkInto } = useContext(TrailContext);
 	const displayName = (isFr && monster.nom) || monster.name;
 	return (
 		<>
@@ -81,7 +83,12 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 							</span>
 						)}
 						{parseRecipe(list).map((parent, j) => (
-							<ParentChip key={j} parent={parent} />
+							<ParentChip
+								key={j}
+								parent={parent}
+								child={monster.name}
+								recipe={list}
+							/>
 						))}
 					</div>
 				))}
@@ -108,6 +115,9 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 								hash={name}
 								className="into-tile line-point pictured"
 								title={translateMonster(name)}
+								onNavigate={
+									walkInto && (() => walkInto(monster.name, name))
+								}
 							>
 								<MonsterImg
 									name={name}
@@ -124,8 +134,19 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 	);
 });
 
-const ParentChip = ({ parent }: { parent: Parent }) => {
+const ParentChip = ({
+	parent,
+	child,
+	recipe,
+}: {
+	parent: Parent;
+	child: string;
+	recipe: string[];
+}) => {
 	const { translateMonster, translateUI } = useTranslate();
+	const { walkFrom } = useContext(TrailContext);
+	// the whole recipe is grafted, so a family chip walks the trail too
+	const onNavigate = walkFrom && (() => walkFrom(child, recipe));
 
 	// Family parents keep a chip, but the icon already names the family: only the
 	// required rank is spelled out. Without a rank there is nothing left to label.
@@ -140,6 +161,7 @@ const ParentChip = ({ parent }: { parent: Parent }) => {
 				hash={`${parent.family}-${parent.rank}`}
 				className="parent-chip"
 				title={`${family} · ${rank}`}
+				onNavigate={onNavigate}
 			>
 				<Family name={parent.family} />
 				<span className="chip-label">{rank}</span>
@@ -151,7 +173,12 @@ const ParentChip = ({ parent }: { parent: Parent }) => {
 	const name = parent.name as string;
 	const label = translateMonster(name);
 	return (
-		<AnchorLink hash={name} className="parent-tile line-point pictured" title={label}>
+		<AnchorLink
+			hash={name}
+			className="parent-tile line-point pictured"
+			title={label}
+			onNavigate={onNavigate}
+		>
 			<MonsterImg name={name} small title={label} />
 			<span className="sr-only">{name}</span>
 		</AnchorLink>

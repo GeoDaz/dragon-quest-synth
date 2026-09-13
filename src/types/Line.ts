@@ -21,6 +21,10 @@ export interface LinePoint {
 	collapsable?: boolean /** @deprected */;
 	xCollapsable?: boolean;
 	yCollapsable?: boolean;
+	/** the point stands for a whole family rather than a named monster */
+	family?: boolean;
+	/** required rank, drawn as a capsule in the corner of the point */
+	rank?: string;
 }
 
 export type Axis = 'x' | 'y';
