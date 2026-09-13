@@ -94,22 +94,22 @@
 				"synthesis": [["Snail Slime", "Gremlin"]]
 			},
 			{
-				"name": "TropicGel",
+				"name": "Coconut Slime",
 				"rank": "E",
 				"family": "Slime",
 				"synthesis": [["Scallop Slime", "Cannibox"]]
 			},
 			{
-				"name": "MagmaSlime",
+				"name": "Molten Slime",
 				"rank": "E",
 				"family": "Slime",
-				"synthesis": [["TropicGel", "Blooming Sorcerer"]]
+				"synthesis": [["Coconut Slime", "Blooming Sorcerer"]]
 			},
 			{
-				"name": "Aqua Slime",
+				"name": "Marislime",
 				"rank": "E",
 				"family": "Slime",
-				"synthesis": [["MagmaSlime", "Hellhound"]]
+				"synthesis": [["Molten Slime", "Hellhound"]]
 			},
 			{
 				"name": "Snowmangler",
@@ -117,7 +117,7 @@
 				"family": "Slime",
 				"synthesis": [
 					["Powie Yowie", "Slime Family"],
-					["Aqua Slime", "Power Hammer"]
+					["Marislime", "Power Hammer"]
 				]
 			}
 		],
@@ -664,7 +664,7 @@
 				"name": "Small Fry",
 				"rank": "F",
 				"family": "Dragon",
-				"synthesis": [["Slime", "Kingfuchsia"]]
+				"synthesis": [["Slime", "Kingfuschia"]]
 			},
 			{
 				"name": "Komodo",
@@ -784,7 +784,7 @@
 				"family": "Dragon",
 				"synthesis": [
 					["Jargon", "Nature Family"],
-					["Flython", "TropicGel"]
+					["Flython", "Coconut Slime"]
 				]
 			},
 			{
@@ -800,7 +800,7 @@
 				"name": "Gasbagon",
 				"rank": "E",
 				"family": "Dragon",
-				"synthesis": [["Green Dragon", "MagmaSlime"]]
+				"synthesis": [["Green Dragon", "Molten Slime"]]
 			},
 			{
 				"name": "Terrordactyl",
@@ -814,7 +814,7 @@
 				"family": "Dragon",
 				"synthesis": [
 					["Green Dragon", "Undead Family"],
-					["Terrordactyl", "Aqua Slime"]
+					["Terrordactyl", "Marislime"]
 				]
 			}
 		],
@@ -1408,13 +1408,13 @@
 				"name": "Quiller",
 				"rank": "F",
 				"family": "Beast",
-				"synthesis": [["Kingfuchsia", "Wax Murderer"]]
+				"synthesis": [["Kingfuschia", "Wax Murderer"]]
 			},
 			{
 				"name": "Mischievous Mole",
 				"rank": "F",
 				"family": "Beast",
-				"synthesis": [["Quiller", "Devipine"]]
+				"synthesis": [["Quiller", "Piña Marauder"]]
 			},
 			{
 				"name": "Antguzzler",
@@ -2145,7 +2145,7 @@
 	"Nature": {
 		"F": [
 			{
-				"name": "Kingfuchsia",
+				"name": "Kingfuschia",
 				"rank": "F",
 				"family": "Nature",
 				"synthesis": []
@@ -2154,7 +2154,7 @@
 				"name": "Capsichum",
 				"rank": "F",
 				"family": "Nature",
-				"synthesis": [["Kingfuchsia", "Slime"]]
+				"synthesis": [["Kingfuschia", "Slime"]]
 			},
 			{
 				"name": "Bludgerigar",
@@ -2553,7 +2553,7 @@
 				]
 			},
 			{
-				"name": "FunkyBird",
+				"name": "Funky Chicken",
 				"rank": "C",
 				"family": "Nature",
 				"synthesis": []
@@ -3638,16 +3638,16 @@
 	"Demon": {
 		"F": [
 			{
-				"name": "Devipine",
+				"name": "Piña Marauder",
 				"rank": "F",
 				"family": "Demon",
-				"synthesis": [["Kingfuchsia", "Ghost"]]
+				"synthesis": [["Kingfuschia", "Ghost"]]
 			},
 			{
 				"name": "Dracky",
 				"rank": "F",
 				"family": "Demon",
-				"synthesis": [["Devipine", "Kingfuchsia"]]
+				"synthesis": [["Piña Marauder", "Kingfuschia"]]
 			},
 			{
 				"name": "Lips",
@@ -4372,7 +4372,7 @@
 				"name": "Ghost",
 				"rank": "F",
 				"family": "Undead",
-				"synthesis": [["Devipine", "Weedie"]]
+				"synthesis": [["Piña Marauder", "Weedie"]]
 			},
 			{
 				"name": "Soft Serve Spook",
@@ -4415,7 +4415,7 @@
 				"rank": "F",
 				"family": "Undead",
 				"synthesis": [
-					["Capsichum", "Devipine"],
+					["Capsichum", "Piña Marauder"],
 					["Drohl Drone", "Sacksquatch"]
 				]
 			},

@@ -275,6 +275,14 @@
 				"family": "Dragon",
 				"synthesis": []
 			}
+		],
+		"???": [
+			{
+				"name": "Hacksaurus",
+				"rank": "???",
+				"family": "Dragon",
+				"synthesis": []
+			}
 		]
 	},
 	"Beast": {
@@ -445,6 +453,26 @@
 				"family": "Beast",
 				"synthesis": []
 			}
+		],
+		"???": [
+			{
+				"name": "Splatypunk",
+				"rank": "???",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Cross Eye",
+				"rank": "???",
+				"family": "Beast",
+				"synthesis": []
+			},
+			{
+				"name": "Jailcat",
+				"rank": "???",
+				"family": "Beast",
+				"synthesis": []
+			}
 		]
 	},
 	"Nature": {
@@ -607,6 +635,20 @@
 				"family": "Nature",
 				"synthesis": []
 			}
+		],
+		"???": [
+			{
+				"name": "Tumbledweeb",
+				"rank": "???",
+				"family": "Nature",
+				"synthesis": []
+			},
+			{
+				"name": "Funky Chicken",
+				"rank": "???",
+				"family": "Nature",
+				"synthesis": []
+			}
 		]
 	},
 	"Material": {
@@ -748,6 +790,14 @@
 			{
 				"name": "Hunter Mech",
 				"rank": "F",
+				"family": "Material",
+				"synthesis": []
+			}
+		],
+		"???": [
+			{
+				"name": "Mimic",
+				"rank": "???",
 				"family": "Material",
 				"synthesis": []
 			}
@@ -1021,6 +1071,40 @@
 				"name": "Treeface",
 				"rank": "E",
 				"family": "Undead",
+				"synthesis": []
+			}
+		]
+	},
+	"???": {
+		"???": [
+			{
+				"name": "Iron Maiden",
+				"rank": "???",
+				"family": "???",
+				"synthesis": []
+			},
+			{
+				"name": "Thespidor",
+				"rank": "???",
+				"family": "???",
+				"synthesis": []
+			},
+			{
+				"name": "Fuzzy",
+				"rank": "???",
+				"family": "???",
+				"synthesis": []
+			},
+			{
+				"name": "Fluffy",
+				"rank": "???",
+				"family": "???",
+				"synthesis": []
+			},
+			{
+				"name": "Scruffy",
+				"rank": "???",
+				"family": "???",
 				"synthesis": []
 			}
 		]

@@ -199,7 +199,7 @@
 				"synthesis": [["Succubat", "Slime Family"]]
 			},
 			{
-				"name": "Aqua Slime",
+				"name": "Marislime",
 				"rank": "E",
 				"family": "Slime",
 				"subfamily": ["Aquatic"],
@@ -275,7 +275,7 @@
 				"synthesis": [["Drake Slime", "Mandrake Major"]]
 			},
 			{
-				"name": "MagmaSlime",
+				"name": "Molten Slime",
 				"rank": "D",
 				"family": "Slime",
 				"subfamily": ["Fire", "Elemental"],
@@ -335,7 +335,7 @@
 				"rank": "C",
 				"family": "Slime",
 				"subfamily": ["Fire", "Elemental", "Material"],
-				"synthesis": [["MagmaSlime", "Stalagluant"]]
+				"synthesis": [["Molten Slime", "Stalagluant"]]
 			},
 			{
 				"name": "Liquid Metal Slime",
@@ -2862,7 +2862,7 @@
 				"rank": "D",
 				"family": "Material",
 				"subfamily": ["Elemental", "Fire"],
-				"synthesis": [["Rockbomb", "MagmaSlime"]]
+				"synthesis": [["Rockbomb", "Molten Slime"]]
 			},
 			{
 				"name": "Firn Fiend",

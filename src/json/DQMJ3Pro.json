@@ -1170,7 +1170,7 @@
 				"name": "Gargoyle",
 				"rank": "E",
 				"family": "Beast",
-				"synthesis": [["Green Dragon", "Red Squirrel"]]
+				"synthesis": [["Green Dragon", "Dread Squirrel"]]
 			},
 			{
 				"name": "Hades Condor",
@@ -1179,7 +1179,7 @@
 				"synthesis": [["Jargon", "Great Sabrecat"]]
 			},
 			{
-				"name": "Red Squirrel",
+				"name": "Dread Squirrel",
 				"rank": "E",
 				"family": "Beast",
 				"synthesis": [["Suckling Ocker", "Suckling Ocker"]]
@@ -1937,7 +1937,7 @@
 				"name": "Squid Kid",
 				"rank": "E",
 				"family": "Nature",
-				"synthesis": [["Red Squirrel", "Bushy Baby"]]
+				"synthesis": [["Dread Squirrel", "Bushy Baby"]]
 			},
 			{
 				"name": "Suckling Ocker",
@@ -2376,7 +2376,7 @@
 				"name": "Troll",
 				"rank": "E",
 				"family": "Demon",
-				"synthesis": [["Murderous Anch", "Red Squirrel"]]
+				"synthesis": [["Murderous Anch", "Dread Squirrel"]]
 			},
 			{
 				"name": "Grimlin",
@@ -2418,7 +2418,7 @@
 				"name": "Imp",
 				"rank": "E",
 				"family": "Demon",
-				"synthesis": [["Powie Yowie", "Red Squirrel"]]
+				"synthesis": [["Powie Yowie", "Dread Squirrel"]]
 			}
 		],
 		"D": [
@@ -2925,7 +2925,7 @@
 				"name": "Tortured Soul",
 				"rank": "E",
 				"family": "Undead",
-				"synthesis": [["Mandrake Major", "Red Squirrel"]]
+				"synthesis": [["Mandrake Major", "Dread Squirrel"]]
 			},
 			{
 				"name": "Spoilt Scream",
@@ -3283,7 +3283,7 @@
 				"name": "Prancing Pillar",
 				"rank": "E",
 				"family": "Material",
-				"synthesis": [["Red Squirrel", "Red Squirrel"]]
+				"synthesis": [["Dread Squirrel", "Dread Squirrel"]]
 			},
 			{
 				"name": "Bogman",
@@ -3307,19 +3307,19 @@
 				"name": "Funky Feta",
 				"rank": "E",
 				"family": "Material",
-				"synthesis": [["Clockwork Cuckoo", "Red Squirrel"]]
+				"synthesis": [["Clockwork Cuckoo", "Dread Squirrel"]]
 			},
 			{
 				"name": "Horrordrobe",
 				"rank": "E",
 				"family": "Material",
-				"synthesis": [["Red Squirrel", "Armoured Wartoise"]]
+				"synthesis": [["Dread Squirrel", "Armoured Wartoise"]]
 			},
 			{
 				"name": "Hellbound Horror",
 				"rank": "E",
 				"family": "Material",
-				"synthesis": [["Galbagorba", "Red Squirrel"]]
+				"synthesis": [["Galbagorba", "Dread Squirrel"]]
 			}
 		],
 		"D": [
