@@ -56,6 +56,8 @@
   --dl-md-skin-img-size: 2.5rem;
   --dl-xs-img-size: 6rem;
   --dl-xs-skin-img-size: 2rem;
+
+  --dl-tile-size: 64px;
 }
 
 html,
@@ -358,8 +360,12 @@ a .spinner-grow {
   }
 }
 
-/* Donate + Footer */
+/* Game cards */
+.game-card-col {
+  max-width: 215px;
+}
 
+/* Donate + Footer */
 
 .donate {
 	background-color: var(--bs-primary);
@@ -1486,11 +1492,11 @@ h3,
 .synthesis-list .monster-tile,
 .synthesis-list .monster-tile .line-point-safe-zone {
   flex: none;
-  width: 64px;
-  height: 64px;
-  min-width: 64px;
-  min-height: 64px;
-  border-radius: 12px;
+  width: var(--dl-tile-size);
+  height: var(--dl-tile-size);
+  min-width: var(--dl-tile-size);
+  min-height: var(--dl-tile-size);
+  border-radius: calc(var(--dl-tile-size) * 3 / 16);
 }
 
 /* Rank badge & family icons */
@@ -1587,11 +1593,11 @@ h3,
 .synthesis-list .parent-tile,
 .synthesis-list .parent-tile .line-point-safe-zone {
   flex: none;
-  width: 64px;
-  height: 64px;
-  min-width: 64px;
-  min-height: 64px;
-  border-radius: 12px;
+  width: var(--dl-tile-size);
+  height: var(--dl-tile-size);
+  min-width: var(--dl-tile-size);
+  min-height: var(--dl-tile-size);
+  border-radius: calc(var(--dl-tile-size) * 3 / 16);
 }
 
 .synthesis-list .parent-tile {
@@ -1607,8 +1613,8 @@ h3,
 }
 
 .synthesis-list .parent-tile-family img.family {
-  width: 32px;
-  height: 32px;
+  width: calc(var(--dl-tile-size) / 2);
+  height: calc(var(--dl-tile-size) / 2);
 }
 
 /* Reverse synthesis */
@@ -1623,11 +1629,11 @@ h3,
 .synthesis-list .into-tile,
 .synthesis-list .into-tile .line-point-safe-zone {
   flex: none;
-  width: 64px;
-  height: 64px;
-  min-width: 64px;
-  min-height: 64px;
-  border-radius: 12px;
+  width: var(--dl-tile-size);
+  height: var(--dl-tile-size);
+  min-width: var(--dl-tile-size);
+  min-height: var(--dl-tile-size);
+  border-radius: calc(var(--dl-tile-size) * 3 / 16);
 }
 
 .synthesis-list .into-tile {
@@ -1996,9 +2002,35 @@ img.family {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 992px) {
+  :root {
+    --dl-tile-size: 40px;
+  }
 
-  /* the images alone still read as a breadcrumb once names no longer fit */
+  .synthesis-table>tbody>tr>td,
+  .synthesis-table>thead th {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .synthesis-table .cell-monster {
+    width: 160px;
+    min-width: 160px;
+  }
+
+  .synthesis-table .monster-identity {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .game-card-col{
+    padding-right: calc(var(--bs-gutter-x) * .25);
+    padding-left: calc(var(--bs-gutter-x) * .25);
+  }
+}
+
+@media (max-width: 576px) {
   .trail-step-name {
     display: none;
   }
@@ -2013,6 +2045,10 @@ img.family {
 }
 
 @media (max-width: 448px) {
+  :root {
+    --dl-tile-size: 32px;
+  }
+
   .d-max-xs-none {
     display: none !important;
   }
@@ -2027,5 +2063,10 @@ img.family {
 
   .navbar > .container-fluid {
     gap: 0.5em;
+  }
+
+  .game-card-col{
+    padding-right: calc(var(--bs-gutter-x) * .125);
+    padding-left: calc(var(--bs-gutter-x) * .125);
   }
 }

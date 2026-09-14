@@ -207,7 +207,7 @@ const PageLines: React.FC<Props> = props => {
 					.map((_game: Game) => (
 						<div
 							key={_game.key}
-							className="col-6 col-lg-2 col-md-3 col-sm-4 d-flex mb-4"
+							className="game-card-col col-4 col-sm-3 d-flex mb-2 mb-md-3 mb-lg-4"
 						>
 							<GameCard game={_game} currentGame={game.key} />
 						</div>
@@ -307,9 +307,8 @@ const PageLines: React.FC<Props> = props => {
 									</div>
 								)}
 							</>
-						:	<p>
-								{isFr ? 'Aucune synthèse trouvée' : 'No synthesis found'}.
-							</p>}
+						:	<p>{isFr ? 'Aucune synthèse trouvée' : 'No synthesis found'}.</p>
+						}
 						<SynthesisTrail
 							tree={tree}
 							onFocus={focusOn}

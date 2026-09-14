@@ -1,0 +1,8 @@
+{
+	"Custom": {
+		"key": "Custom",
+		"title": "Community Synthesis",
+		"available": true,
+		"ranks": ["Z", "X", "S", "A", "B", "C", "D", "E", "F", "G"]
+	}
+}
