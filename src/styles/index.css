@@ -358,6 +358,30 @@ a .spinner-grow {
   }
 }
 
+/* Donate + Footer */
+
+
+.donate {
+	background-color: var(--bs-primary);
+	color: white;
+	text-align: center;
+	padding: 0.5em 0.5em;
+	font-size: 0.85em;
+}
+.donate a.btn {
+	font-size: 1em;
+	vertical-align: baseline;
+	margin: 0.25em 0.5em;
+  text-decoration: none;
+}
+
+.footer {
+  font-size: 0.85em;
+  text-align: center;
+  padding: 1em 0.5em 1.5em;
+  color: var(--dl-muted);
+}
+
 /* Page */
 
 .page,

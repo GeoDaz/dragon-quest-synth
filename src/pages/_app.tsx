@@ -8,6 +8,8 @@ import { Spinner } from 'react-bootstrap';
 import type { AppProps } from 'next/app';
 import { Analytics } from '@vercel/analytics/react';
 import Header from '@/components/Header';
+import Donate from '@/components/Donate';
+import Footer from '@/components/Footer';
 import ErrorBoundary from '@/components/ErrorBoundary';
 import { LanguageContext } from '@/context/language';
 import { processLanguage } from '@/functions';
@@ -42,6 +44,8 @@ export default function App({ Component, pageProps }: AppProps) {
 						<Spinner animation="border" className="xl" variant="primary" />
 					</div>
 				:	<Component {...pageProps} />}
+				<Donate />
+				<Footer />
 			</LanguageContext.Provider>
 			<Analytics />
 		</ErrorBoundary>
