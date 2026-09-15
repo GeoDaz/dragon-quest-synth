@@ -1,43 +1,80 @@
-import { download } from '@/functions/file';
-import { clearLine } from '@/functions/line';
-import Line from '@/types/Line';
 import { useState } from 'react';
+import { downloadFromUrl, formatFileName } from '@/functions/file';
+import { wait } from '@/functions';
 
-const useDownloadImg = (line: Line, name: string | undefined) => {
+const preLoadImages = async (node: Element): Promise<void> => {
+	const images = Array.from(node.querySelectorAll('img'));
+
+	await Promise.all(
+		images.map(async image => {
+			const src = image.src;
+			if (src.startsWith('data:')) {
+				try {
+					await image.decode();
+				} catch {}
+				return;
+			}
+			if (src.startsWith('http') && !src.startsWith(window.location.origin)) return;
+			try {
+				const response = await fetch(src);
+				const blob = await response.blob();
+				const dataUrl = await new Promise<string>(resolve => {
+					const reader = new FileReader();
+					reader.onloadend = () => resolve(reader.result as string);
+					reader.readAsDataURL(blob);
+				});
+				image.src = dataUrl;
+				image.removeAttribute('srcset');
+				await image.decode();
+			} catch (error) {
+				console.error({ error });
+			}
+		})
+	);
+};
+
+const waitForNextPaint = (): Promise<void> =>
+	new Promise(resolve =>
+		requestAnimationFrame(() => requestAnimationFrame(() => resolve()))
+	);
+
+const useDownloadImg = (name: string | undefined) => {
 	const [downloading, setDownloading] = useState<boolean>(false);
 	const [error, setError] = useState<string | undefined>();
 
-	const downloadImage = () => {
+	const downloadImage = async (selector: string) => {
 		setDownloading(true);
-		let type: string = 'blob';
-		const cleared = clearLine(line);
-		fetch(process.env.NEXT_PUBLIC_PUPPETEER_URL + '/dragon-quest-synth/build', {
-			method: 'POST',
-			headers: { 'Content-Type': 'application/json' },
-			body: JSON.stringify(cleared),
-		})
-			.then(res => {
-				if (res.headers.get('Content-Type') == 'application/json') {
-					type = 'json';
-					return res.json();
-				}
-				if (!res.ok) throw new Error(res.statusText);
-				return res.blob();
-			})
-			.then(res => {
-				if (type == 'json') throw res;
+		setError(undefined);
 
-				download(res, (name || 'line') + '.png');
-				setDownloading(false);
-				setError(undefined);
-			})
-			.catch(e => {
-				console.error(e);
-				if (e.message) {
-					setError(e.message);
-				}
-				setDownloading(false);
+		let node: HTMLElement | null = null;
+		try {
+			const domtoimage = (await import('dom-to-image-more')).default;
+
+			await wait(500);
+			node = document.querySelector(selector) as HTMLElement | null;
+			if (!node) throw new Error(`${selector} introuvable`);
+
+			node.classList.add('captured');
+			await preLoadImages(node);
+			await waitForNextPaint();
+			await wait(500);
+
+			const dataUrl = await domtoimage.toPng(node, {
+				quality: 1,
+				width: node.scrollWidth,
+				height: node.scrollHeight,
+				style: { overflow: 'visible' },
+				corsImg: { url: '/api/proxy-image?url=#{cors}' },
 			});
+
+			downloadFromUrl(dataUrl, formatFileName((name || 'line') + '.png'));
+		} catch (error) {
+			console.error({ error });
+			if (error instanceof Error) setError(error.message);
+		} finally {
+			node?.classList.remove('captured');
+			setDownloading(false);
+		}
 	};
 
 	return { downloadImage, downloading, error };

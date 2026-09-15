@@ -1,4 +1,4 @@
-import { Fragment, memo, useContext, useState } from 'react';
+import { Fragment, memo, useContext, useRef, useState } from 'react';
 import { Row, Col, Button } from 'react-bootstrap';
 import {
 	Axis,
@@ -10,7 +10,12 @@ import {
 	SizeAttr,
 } from '@/types/Line';
 import { makeClassName } from '@/functions';
-import { addLineColumn, removeLineColumn, setLinePoint } from '@/reducers/lineReducer';
+import {
+	addLineColumn,
+	moveLinePoint,
+	removeLineColumn,
+	setLinePoint,
+} from '@/reducers/lineReducer';
 import { GridContext } from '@/context/grid';
 import LinePointSettings from './LinePointSettings';
 import LineGridPoint from './LineGridPoint';
@@ -31,6 +36,27 @@ interface GridProps {
 const LineGrid: React.FC<GridProps> = ({ line, zoom = 100, handleUpdate }) => {
 	const [drawing, setDrawing] = useState<number[] | undefined>();
 	const [edition, edit] = useState<number[]>();
+	const dragCoord = useRef<number[] | null>(null);
+
+	const handleDragStart = (coord: number[]) => {
+		dragCoord.current = coord;
+	};
+
+	const handleDragEnd = () => {
+		dragCoord.current = null;
+	};
+
+	const handleDragOver = (e: React.DragEvent) => {
+		if (dragCoord.current) e.preventDefault();
+	};
+
+	const handleDrop = (coord: number[]) => {
+		const source = dragCoord.current;
+		dragCoord.current = null;
+		if (!handleUpdate || !source) return;
+		if (source[0] === coord[0] && source[1] === coord[1]) return;
+		handleUpdate(moveLinePoint, source, coord);
+	};
 
 	const handleTarget = (target: number[]) => {
 		if (!handleUpdate || !drawing) return;
@@ -119,6 +145,10 @@ const LineGrid: React.FC<GridProps> = ({ line, zoom = 100, handleUpdate }) => {
 				handleTarget,
 				handleXCollapse,
 				handleYCollapse,
+				handleDragStart: handleUpdate ? handleDragStart : undefined,
+				handleDragEnd: handleUpdate ? handleDragEnd : undefined,
+				handleDragOver: handleUpdate ? handleDragOver : undefined,
+				handleDrop: handleUpdate ? handleDrop : undefined,
 			}}
 		>
 			{!!handleUpdate && (

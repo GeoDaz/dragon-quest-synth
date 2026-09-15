@@ -301,14 +301,6 @@
 					["Vegandragora", "Slime Family"]
 				]
 			}
-		],
-		"E": [
-			{
-				"name": "Drakularge",
-				"rank": "E",
-				"family": "Dragon",
-				"synthesis": []
-			}
 		]
 	},
 	"Beast": {
@@ -491,14 +483,6 @@
 				"family": "Beast",
 				"synthesis": [["Tongue Fu Fighter", "Will-O'-The-Whips"]]
 			}
-		],
-		"E": [
-			{
-				"name": "Ursa Major",
-				"rank": "E",
-				"family": "Beast",
-				"synthesis": []
-			}
 		]
 	},
 	"Nature": {
@@ -583,12 +567,6 @@
 			}
 		],
 		"F": [
-			{
-				"name": "Barbarito",
-				"rank": "F",
-				"family": "Nature",
-				"synthesis": []
-			},
 			{
 				"name": "Midnight Horknight",
 				"rank": "F",
@@ -1131,14 +1109,6 @@
 					["Scarfish", "Woebergine"],
 					["Fromage Fray", "Undead Family"]
 				]
-			}
-		],
-		"E": [
-			{
-				"name": "Treeface",
-				"rank": "E",
-				"family": "Undead",
-				"synthesis": []
 			}
 		]
 	}

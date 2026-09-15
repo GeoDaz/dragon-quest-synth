@@ -10,7 +10,7 @@ const LineGridPoint: React.FC<{
 	point?: LinePointInterface | null;
 	coord: number[];
 }> = ({ point, coord }) => {
-	const { handleEdit } = useContext(GridContext);
+	const { handleEdit, handleDragOver, handleDrop } = useContext(GridContext);
 
 	const handleEditBuffer = (e: any) => {
 		handleEdit && handleEdit(coord);
@@ -22,6 +22,8 @@ const LineGridPoint: React.FC<{
 			<div
 				className={makeClassName('line-point', editable && 'editable')}
 				onClick={editable ? handleEditBuffer : undefined}
+				onDragOver={handleDragOver}
+				onDrop={handleDrop ? () => handleDrop(coord) : undefined}
 			/>
 		);
 	}
@@ -39,8 +41,17 @@ const LinePoint: React.FC<{
 	coord: number[];
 	handleEdit?: MouseEventHandler<HTMLElement>;
 }> = ({ point, coord, handleEdit }) => {
-	const { drawing, handleDraw, handleTarget, handleXCollapse, handleYCollapse } =
-		React.useContext(GridContext);
+	const {
+		drawing,
+		handleDraw,
+		handleTarget,
+		handleXCollapse,
+		handleYCollapse,
+		handleDragStart,
+		handleDragEnd,
+		handleDragOver,
+		handleDrop,
+	} = React.useContext(GridContext);
 	const isDrawing: boolean =
 		!!drawing && drawing[0] == coord[0] && drawing[1] == coord[1];
 
@@ -117,6 +128,11 @@ const LinePoint: React.FC<{
 			style={{ width: width + 'px', height: height + 'px' }}
 			data-coord={coord}
 			onClick={handleEdit ? handleEdit : undefined}
+			draggable={!!handleEdit}
+			onDragStart={handleDragStart ? () => handleDragStart(coord) : undefined}
+			onDragEnd={handleDragEnd}
+			onDragOver={handleDragOver}
+			onDrop={handleDrop ? () => handleDrop(coord) : undefined}
 		>
 			<div className="line-point-safe-zone">
 				<LineImage name={name} path={image} mirror={point.mirror} />

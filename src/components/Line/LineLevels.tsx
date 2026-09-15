@@ -54,6 +54,11 @@ const LineLevels: React.FC<Props> = ({ line }) => {
 	const handleRemove = (e: any, y: number) => {
 		e.stopPropagation();
 		if (handleUpdate && levelsPicked.length > 1) {
+			setLevelsPicked(current => {
+				const nextLevels = current.slice();
+				nextLevels.splice(y, 1);
+				return nextLevels;
+			});
 			handleUpdate(removeLineRow, y);
 		}
 	};

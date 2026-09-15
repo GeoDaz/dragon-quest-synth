@@ -1,6 +1,8 @@
 import { Fragment, useMemo, useState } from 'react';
+import { Spinner } from 'react-bootstrap';
 import Line, { LineColumn, LineFrom, LinePoint } from '@/types/Line';
 import { makeClassName } from '@/functions';
+import useDownloadImg from '@/hooks/useDownloadImg';
 import { familiesIcons } from '@/consts/data';
 import useTranslate from '@/hooks/useTranslate';
 import { TrailNode, findNode, height, isFamily } from '@/hooks/useSynthesisTrail';
@@ -33,39 +35,47 @@ const capped = (node: TrailNode, left: number): TrailNode =>
 		{ name: node.name, rank: node.rank }
 	:	{ ...node, parents: node.parents.map(parent => capped(parent, left - 1)) };
 
-const slot = (node: TrailNode): number =>
-	node.parents?.length ?
-		node.parents.length * Math.max(...node.parents.map(slot))
-	:	1;
-
 const buildTrailLine = (trees: TrailNode[]): Line => {
 	const shown = trees.map(tree => capped(tree, RENDER_HEIGHT));
 	if (!shown.length) return { size: 0, columns: [] };
 
 	const placed: Placed[] = [];
-	const walk = (node: TrailNode, left: number, width: number, row: number): number => {
-		const centre = left + (width - 1) / 2;
-		const share = node.parents?.length ? width / node.parents.length : 0;
-		const parents = (node.parents || []).map((parent, i) =>
-			walk(parent, left + i * share, share, row - 1)
-		);
+	const walk = (
+		node: TrailNode,
+		left: number,
+		row: number
+	): { centre: number; width: number } => {
+		if (!node.parents?.length) {
+			placed.push({ node, col: left, row, from: null });
+			return { centre: left, width: 1 };
+		}
+		const centres: number[] = [];
+		let offset = left;
+		node.parents.forEach(parent => {
+			const laid = walk(parent, offset, row - 1);
+			centres.push(laid.centre);
+			offset += laid.width;
+		});
+		const midpoint = centres.reduce((sum, c) => sum + c, 0) / centres.length;
+		const centre = Math.max(left, Math.round(midpoint * 2) / 2);
 		const between = centre % 1 != 0;
 		placed.push({
 			node,
 			col: between ? centre - 0.5 : centre,
 			row,
 			xSize: between ? 2 : undefined,
-			from: parents.length ? parents.map(c => [c - centre, -1]) : null,
+			from: centres.map(c => [c - centre, -1]),
 		});
-		return centre;
+		return {
+			centre,
+			width: Math.max(offset - left, Math.ceil(centre + (between ? 1.5 : 1) - left)),
+		};
 	};
 
 	const rows = Math.max(...shown.map(height)) + 1;
 	let left = 0;
 	shown.forEach(tree => {
-		const width = slot(tree);
-		walk(tree, left, width, rows - 1);
-		left += width + 1;
+		left += walk(tree, left, rows - 1).width + 1;
 	});
 
 	const columns: LineColumn[] = Array.from({ length: Math.max(left - 1, 1) }, () =>
@@ -116,8 +126,18 @@ interface Props {
 }
 const SynthesisTrail: React.FC<Props> = ({ trees, preferred, onPick, onClear }) => {
 	const [open, setOpen] = useState(false);
+	const [zoom, setZoom] = useState(TRAIL_ZOOM);
 	const { isFr, translateUI } = useTranslate();
 	const line = useMemo(() => buildTrailLine(trees), [trees]);
+	const { downloadImage, downloading, error } = useDownloadImg(
+		trees.map(tree => tree.name).join('-')
+	);
+
+	const handleDownload = () => {
+		setOpen(true);
+		setZoom(100);
+		downloadImage('.trail-preview .line-wrapper').then(() => setZoom(TRAIL_ZOOM));
+	};
 
 	if (!trees.length) return null;
 
@@ -132,7 +152,7 @@ const SynthesisTrail: React.FC<Props> = ({ trees, preferred, onPick, onClear }) 
 		<aside className={makeClassName('synthesis-trail', open && 'open')}>
 			{open && (
 				<div className="trail-preview">
-					<LineGrid line={line} zoom={TRAIL_ZOOM} />
+					<LineGrid line={line} zoom={zoom} />
 				</div>
 			)}
 			<div className="trail-bar">
@@ -166,6 +186,17 @@ const SynthesisTrail: React.FC<Props> = ({ trees, preferred, onPick, onClear }) 
 						</Fragment>
 					))}
 				</ol>
+				<button
+					type="button"
+					className={makeClassName('trail-toggle', error && 'failed')}
+					onClick={handleDownload}
+					disabled={downloading}
+					title={error || (isFr ? "Télécharger l'image" : 'Download the image')}
+				>
+					{downloading ?
+						<Spinner animation="border" size="sm" />
+					:	<Icon name="download" />}
+				</button>
 				<button
 					type="button"
 					className="trail-clear"

@@ -12,6 +12,7 @@ import BoostrapSwitch from '@/components/BoostrapSwitch';
 import { Button } from 'react-bootstrap';
 import ReportABugLink from '@/components/ReportABugLink';
 import useLocalStorage from '@/hooks/useLocalStorage';
+import useDownloadImg from '@/hooks/useDownloadImg';
 import DownloadDropdown from '@/components/DownloadDropdown';
 import Line from '@/types/Line';
 import UploadCode from '@/components/UploadCode';
@@ -32,6 +33,18 @@ const PageBuild: React.FC<Props> = ({ images = {}, search }) => {
 	const [zoom, setZoom] = useState<number>(100);
 	const [edition, edit] = useState<boolean>(true);
 	useMemo(() => areCollapsablePoints(line), [line]);
+	const { downloadImage, downloading, error } = useDownloadImg(line.title);
+
+	const handleDownloadImage = () => {
+		const editionState = edition;
+		const zoomState = zoom;
+		edit(false);
+		setZoom(100);
+		downloadImage('.frame .line-wrapper').then(() => {
+			edit(editionState);
+			setZoom(zoomState);
+		});
+	};
 
 	const handleUpdate = (action: CallableFunction, ...args: any[]) => {
 		dispatchState(action(...args));
@@ -73,9 +86,8 @@ const PageBuild: React.FC<Props> = ({ images = {}, search }) => {
 			<blockquote className="blockquote">
 				<b>Click</b> on a case from the grid to set a Monster.
 				<br /> You can make any relations between a monsters.
-				<br /> At the moment there is no download button for images, the only way
-				is to move zoom to the percent you need to get the full image, toggle the
-				edit button and get a manual screenshot.
+				<br /> Use <b>Save as</b> to export your work, either as a code file you
+				can import back later, or as an image.
 				<br /> Your work is saved on the browser for one line at a time but you
 				can export it on your computer with the <b>Save</b> button and rework it
 				later with the <b>Import</b> button.
@@ -100,7 +112,9 @@ const PageBuild: React.FC<Props> = ({ images = {}, search }) => {
 				</Button>
 				<DownloadDropdown
 					downloadCode={downloadCode}
-					// downloadImage={downloadImage}
+					downloadImage={handleDownloadImage}
+					loading={downloading}
+					error={error}
 				/>
 				<UploadCode handleUpload={uploadCode} />
 				<ReportABugLink />

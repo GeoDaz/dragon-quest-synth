@@ -1099,6 +1099,23 @@ a.line-point {
   opacity: 1;
 }
 
+.line-grid.editable .line-point.pictured img {
+  -webkit-user-drag: none;
+  user-drag: none;
+}
+
+.line-grid.editable .line-point.pictured[draggable='true'] {
+  cursor: grab;
+}
+
+.line-grid.editable .line-point.pictured[draggable='true']:active {
+  cursor: grabbing;
+}
+
+.line-grid.editable .line-point.pictured .action {
+  cursor: pointer;
+}
+
 /* Progress Bar */
 
 .progress-bar {
@@ -1870,6 +1887,15 @@ img.family {
   box-shadow: 0 -6px 20px rgba(0, 0, 0, .45);
 }
 
+.synthesis-trail .frame {
+  overflow: auto;
+}
+
+.synthesis-trail .line-wrapper {
+  width: 100%;
+  height: fit-content;
+}
+
 /* the drawer floats over the page: keep the end of the list reachable */
 .synthesis-list:has(~ .synthesis-trail) {
   padding-bottom: 96px;
@@ -1879,8 +1905,12 @@ img.family {
   display: flex;
   align-items: center;
   gap: 10px;
-  /* right room for the scroll-up button, which floats in the same corner */
-  padding: 10px 60px 10px 12px;
+  padding: 10px 10px 10px 12px;
+}
+
+.trail-bar ::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
 }
 
 .trail-steps {
@@ -1989,18 +2019,40 @@ img.family {
 }
 
 .trail-preview {
-  max-height: 50vh;
-  overflow: auto;
   padding: 12px 12px 0;
   border-bottom: 1px solid var(--dl-border-soft);
 }
 
+.trail-preview ::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
 .trail-preview .frame {
+  display: flex;
+  max-height: 50vh;
   margin-bottom: 12px;
+}
+
+.trail-preview .line-grid {
+  min-width: 0;
+  min-height: 0;
+  margin: 0;
+  overflow: auto;
 }
 
 .trail-preview .line-point.family .line-img {
   transform: scale(2);
+}
+
+.line-wrapper.captured {
+  margin: 0 !important;
+  overflow: visible !important;
+  background-color: var(--bs-dark);
+}
+
+.trail-preview .line-wrapper.captured .line-point.family .line-img {
+  transform: none;
 }
 
 @media (max-width: 768px) {

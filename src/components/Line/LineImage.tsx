@@ -37,15 +37,13 @@ const LineImage = memo(function LineImage({
 	const [loadingStyle, setLoadingStyle] = useState({ opacity: 1, zIndex: 2 });
 
 	useEffect(() => {
-		if (name) {
-			const path = image;
-			if (path && path != src) {
-				setLoading(true);
-				setLoadingStyle({ opacity: 1, zIndex: 5 });
-				setSrc(path);
-			}
+		const next = path || image || NOT_FOUND;
+		if (next != src) {
+			setLoading(true);
+			setLoadingStyle({ opacity: 1, zIndex: 5 });
+			setSrc(next);
 		}
-	}, [name]);
+	}, [name, path]);
 
 	return (
 		<>
