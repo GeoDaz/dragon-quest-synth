@@ -1,18 +1,17 @@
-import { useMemo, useState } from 'react';
+import { Fragment, useMemo, useState } from 'react';
 import Line, { LineColumn, LineFrom, LinePoint } from '@/types/Line';
 import { makeClassName } from '@/functions';
 import { familiesIcons } from '@/consts/data';
 import useTranslate from '@/hooks/useTranslate';
-import { TrailNode, height, isFamily } from '@/hooks/useSynthesisTrail';
+import { TrailNode, findNode, height, isFamily } from '@/hooks/useSynthesisTrail';
 import AnchorLink from '../AnchorLink';
 import Icon from '../Icon';
 import LineGrid from '../Line/LineGrid';
 import Family from './Family';
 import MonsterImg from './MonsterImg';
 
-// The preview is the builder grid in read mode (no handleUpdate), halved so a
-// whole tree still fits the drawer.
 const TRAIL_ZOOM = 50;
+const RENDER_HEIGHT = 6;
 
 const familyName = (name: string) => name.replace(' Family', '');
 
@@ -29,17 +28,19 @@ interface Placed {
 	from: LineFrom;
 }
 
-// Every node is centred in the slot allotted to its branch, and its parents
-// share that slot in equal parts on the row above. Equal parts are what keeps
-// each centre on a half column, the finest position the grid can address: a
-// centre falling between two columns is a point spanning them both (xSize 2).
-const buildTrailLine = (tree?: TrailNode): Line => {
-	if (!tree) return { size: 0, columns: [] };
+const capped = (node: TrailNode, left: number): TrailNode =>
+	left <= 0 || !node.parents?.length ?
+		{ name: node.name, rank: node.rank }
+	:	{ ...node, parents: node.parents.map(parent => capped(parent, left - 1)) };
 
-	const slot = (node: TrailNode): number =>
-		node.parents?.length ?
-			node.parents.length * Math.max(...node.parents.map(slot))
-		:	1;
+const slot = (node: TrailNode): number =>
+	node.parents?.length ?
+		node.parents.length * Math.max(...node.parents.map(slot))
+	:	1;
+
+const buildTrailLine = (trees: TrailNode[]): Line => {
+	const shown = trees.map(tree => capped(tree, RENDER_HEIGHT));
+	if (!shown.length) return { size: 0, columns: [] };
 
 	const placed: Placed[] = [];
 	const walk = (node: TrailNode, left: number, width: number, row: number): number => {
@@ -59,11 +60,15 @@ const buildTrailLine = (tree?: TrailNode): Line => {
 		return centre;
 	};
 
-	const rows = height(tree) + 1;
-	const width = slot(tree);
-	walk(tree, 0, width, rows - 1);
+	const rows = Math.max(...shown.map(height)) + 1;
+	let left = 0;
+	shown.forEach(tree => {
+		const width = slot(tree);
+		walk(tree, left, width, rows - 1);
+		left += width + 1;
+	});
 
-	const columns: LineColumn[] = Array.from({ length: width }, () =>
+	const columns: LineColumn[] = Array.from({ length: Math.max(left - 1, 1) }, () =>
 		Array.from({ length: rows }, () => null)
 	);
 	placed.forEach(({ node, col, row, xSize, from }) => {
@@ -85,9 +90,7 @@ interface Step {
 	mates: TrailNode[];
 }
 
-// The bar summarises the tree along its deepest path, each fusion reading
-// "parents > result". Branches hanging off that path show as a single tile.
-const spine = (tree: TrailNode): Step[] => {
+const spine = (tree: TrailNode, preferred?: string): Step[] => {
 	const steps: Step[] = [];
 	let node: TrailNode | undefined = tree;
 	while (node) {
@@ -96,27 +99,27 @@ const spine = (tree: TrailNode): Step[] => {
 			steps.unshift({ node, mates: [] });
 			break;
 		}
-		const deepest: TrailNode = parents.reduce((a, b) =>
-			height(b) > height(a) ? b : a
-		);
-		steps.unshift({ node, mates: parents.filter(parent => parent !== deepest) });
-		node = deepest;
+		const chosen: TrailNode =
+			(preferred && parents.find(parent => !!findNode(parent, preferred))) ||
+			parents.reduce((a, b) => (height(b) > height(a) ? b : a));
+		steps.unshift({ node, mates: parents.filter(parent => parent !== chosen) });
+		node = chosen;
 	}
 	return steps;
 };
 
 interface Props {
-	tree?: TrailNode;
-	onFocus: (name: string) => void;
+	trees: TrailNode[];
+	preferred?: string;
+	onPick: (name: string) => void;
 	onClear: () => void;
 }
-const SynthesisTrail: React.FC<Props> = ({ tree, onFocus, onClear }) => {
+const SynthesisTrail: React.FC<Props> = ({ trees, preferred, onPick, onClear }) => {
 	const [open, setOpen] = useState(false);
 	const { isFr, translateUI } = useTranslate();
-	const line = useMemo(() => buildTrailLine(tree), [tree]);
-	const steps = useMemo(() => (tree ? spine(tree) : []), [tree]);
+	const line = useMemo(() => buildTrailLine(trees), [trees]);
 
-	if (!tree) return null;
+	if (!trees.length) return null;
 
 	const toggleTitle =
 		isFr ?
@@ -143,17 +146,24 @@ const SynthesisTrail: React.FC<Props> = ({ tree, onFocus, onClear }) => {
 					<Icon name={open ? 'chevron-down' : 'chevron-up'} />
 				</button>
 				<ol className="trail-steps">
-					{steps.map(({ node, mates }, i) => (
-						<li key={`${node.name}-${i}`} className="trail-step">
-							{mates.map((mate, j) => (
-								<span key={j} className="trail-step">
-									<Icon name="plus-lg" className="trail-arrow" />
-									<TrailTile node={mate} onFocus={onFocus} />
-								</span>
+					{trees.map((tree, t) => (
+						<Fragment key={t}>
+							{t > 0 && <li className="trail-split" aria-hidden="true" />}
+							{spine(tree, preferred).map(({ node, mates }, i) => (
+								<li key={`${node.name}-${i}`} className="trail-step">
+									{mates.map((mate, j) => (
+										<span key={j} className="trail-step">
+											<Icon name="plus-lg" className="trail-arrow" />
+											<TrailTile node={mate} onPick={onPick} />
+										</span>
+									))}
+									{i > 0 && (
+										<Icon name="chevron-right" className="trail-arrow" />
+									)}
+									<TrailTile node={node} onPick={onPick} />
+								</li>
 							))}
-							{i > 0 && <Icon name="chevron-right" className="trail-arrow" />}
-							<TrailTile node={node} onFocus={onFocus} />
-						</li>
+						</Fragment>
 					))}
 				</ol>
 				<button
@@ -171,10 +181,10 @@ const SynthesisTrail: React.FC<Props> = ({ tree, onFocus, onClear }) => {
 
 const TrailTile = ({
 	node,
-	onFocus,
+	onPick,
 }: {
 	node: TrailNode;
-	onFocus: (name: string) => void;
+	onPick: (name: string) => void;
 }) => {
 	const { translateMonster, translateUI } = useTranslate();
 
@@ -202,7 +212,7 @@ const TrailTile = ({
 			hash={node.name}
 			className="trail-step-link"
 			title={label}
-			onNavigate={() => onFocus(node.name)}
+			onNavigate={() => onPick(node.name)}
 		>
 			<MonsterImg name={node.name} small title={label} />
 			<span className="trail-step-name">{label}</span>

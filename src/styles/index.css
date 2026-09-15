@@ -1905,6 +1905,14 @@ img.family {
   color: var(--dl-muted);
 }
 
+.trail-split {
+  flex: none;
+  align-self: stretch;
+  width: 1px;
+  margin: 0 6px;
+  background-color: var(--dl-border-strong);
+}
+
 .trail-step-link {
   display: inline-flex;
   align-items: center;
@@ -1945,7 +1953,6 @@ img.family {
 /* a family stands for a whole rank, its icon replaces the monster image */
 .trail-step-link.family {
   gap: 6px;
-  padding: 0 9px;
 }
 
 .trail-step-link.family img.family {

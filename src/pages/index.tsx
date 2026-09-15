@@ -55,7 +55,9 @@ const PageLines: React.FC<Props> = props => {
 	const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 	const sentinelRef = useRef<HTMLDivElement | null>(null);
 	const allMonsters = useMemo(() => indexMonsters(props.families), [props.families]);
-	const { tree, walk, focusOn, clearTrail } = useSynthesisTrail(allMonsters);
+	const { trees, preferred, walk, pickInTrail, clearTrail } =
+		useSynthesisTrail(allMonsters);
+	console.log(trees);
 
 	// Flat, ordered view of the current families after family/rank filters, plus
 	// index maps used for pagination and hash deep-links. (search is already
@@ -315,8 +317,9 @@ const PageLines: React.FC<Props> = props => {
 						:	<p>{isFr ? 'Aucune synthèse trouvée' : 'No synthesis found'}.</p>
 						}
 						<SynthesisTrail
-							tree={tree}
-							onFocus={focusOn}
+							trees={trees}
+							preferred={preferred}
+							onPick={pickInTrail}
 							onClear={clearTrail}
 						/>
 					</TrailContext.Provider>

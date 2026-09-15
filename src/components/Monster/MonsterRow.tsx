@@ -50,14 +50,20 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 	monster: MonsterInterface;
 }) {
 	const { isFr, translateMonster, translateUI } = useTranslate();
-	const { walkInto } = useContext(TrailContext);
+	const { walkInto, addDefault } = useContext(TrailContext);
 	const displayName = (isFr && monster.nom) || monster.name;
 	return (
 		<>
 			<td className="cell-monster">
 				<div className="monster-identity">
-					<div className="monster-tile line-point pictured">
-						<MonsterImg name={monster.name} title={displayName} expandable />
+					<div
+						className={makeClassName(
+							'monster-tile line-point pictured',
+							addDefault && 'click'
+						)}
+						onClick={addDefault && (() => addDefault(monster.name))}
+					>
+						<MonsterImg name={monster.name} title={displayName} />
 					</div>
 					<span className="monster-name">{displayName}</span>
 				</div>

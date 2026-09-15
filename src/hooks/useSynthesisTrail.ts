@@ -1,19 +1,9 @@
 import { useCallback, useMemo, useState } from 'react';
 import { Monster, Monsters } from '@/types/Monster';
 
-// The trail is the synthesis tree being explored: the root is the monster
-// obtained, the nodes above it are the recipe it comes from, and so on.
-// Clicking a parent of a monster already in the tree grafts that recipe onto it
-// rather than starting over, and clicking a parent of one of its other recipes
-// replaces its branch. Walking forward wraps the whole tree into a new root.
-// Height is capped because a branch costs twice the width of the one below.
-const MAX_HEIGHT = 6;
-
 export interface TrailNode {
 	name: string;
-	/** Required rank, carried only by the family placeholders of a recipe. */
 	rank?: string;
-	/** The grafted recipe. A node without parents is a leaf of the tree. */
 	parents?: TrailNode[];
 }
 
@@ -23,6 +13,9 @@ const isRank = (token: string) => token.includes('Rank');
 export const height = (node: TrailNode): number =>
 	node.parents?.length ? 1 + Math.max(...node.parents.map(height)) : 0;
 
+export const findNode = (node: TrailNode, name: string): TrailNode | undefined =>
+	node.name == name ? node : node.parents?.map(p => findNode(p, name)).find(Boolean);
+
 const recipeParents = (recipe: string[]): TrailNode[] => {
 	const rank = recipe.find(isRank)?.split(' ').pop();
 	return recipe
@@ -30,95 +23,143 @@ const recipeParents = (recipe: string[]): TrailNode[] => {
 		.map(token => (isFamily(token) ? { name: token, rank } : { name: token }));
 };
 
-// Fewest family placeholders first — a recipe naming real monsters draws a
-// proper tree — then the fewest parents, then the order of the data.
-const simplestRecipe = (result: Monster | undefined, parent: string) => {
-	const cost = (recipe: string[]) =>
-		recipe.filter(isFamily).length * 10 + recipe.filter(token => !isRank(token)).length;
-	return (result?.synthesis || [])
-		.filter(recipe => recipe.includes(parent))
-		.sort((a, b) => cost(a) - cost(b))[0];
+const recipeCost = (recipe: string[]) => {
+	const parents = recipe.filter(token => !isRank(token));
+	if (parents.some(isFamily) || parents.length != recipe.length) return 1;
+	return parents.length == 2 ? 0 : 2;
 };
 
-const findNode = (node: TrailNode, name: string): TrailNode | undefined =>
-	node.name == name ? node : node.parents?.map(p => findNode(p, name)).find(Boolean);
+const bestRecipe = (recipes: string[][]) =>
+	recipes.slice().sort((a, b) => recipeCost(a) - recipeCost(b))[0];
 
-const contains = (node: TrailNode, name: string): boolean =>
-	node.name == name || !!node.parents?.some(parent => contains(parent, name));
+const defaultRecipe = (monster: Monster | undefined) => bestRecipe(monster?.synthesis || []);
 
-// Attach `parents` to the node named `name`, keeping whatever branch already
-// grew under a parent the new recipe names again.
-const graft = (node: TrailNode, name: string, parents: TrailNode[]): TrailNode => {
+const simplestRecipe = (result: Monster | undefined, parent: string) =>
+	bestRecipe((result?.synthesis || []).filter(recipe => recipe.includes(parent)));
+
+const hasLeaf = (node: TrailNode, name: string): boolean =>
+	node.parents?.length ?
+		node.parents.some(parent => hasLeaf(parent, name))
+	:	node.name == name;
+
+const fillLeaf = (node: TrailNode, subtree: TrailNode): TrailNode =>
+	node.parents?.length ?
+		{ ...node, parents: node.parents.map(parent => fillLeaf(parent, subtree)) }
+	: node.name == subtree.name ? subtree
+	: node;
+
+const join = (roots: TrailNode[]): TrailNode[] => {
+	for (let i = 0; i < roots.length; i++) {
+		for (let j = 0; j < roots.length; j++) {
+			if (i == j || !hasLeaf(roots[j], roots[i].name)) continue;
+			return join(
+				roots
+					.map((root, k) => (k == j ? fillLeaf(root, roots[i]) : root))
+					.filter((_, k) => k != i)
+			);
+		}
+	}
+	return roots;
+};
+
+const graft = (
+	node: TrailNode,
+	name: string,
+	parents: TrailNode[],
+	displaced: TrailNode[]
+): TrailNode => {
 	if (node.name == name) {
 		const kept = node.parents || [];
-		return {
-			...node,
-			parents: parents.map(
-				parent => kept.find(old => old.name == parent.name) || parent
-			),
-		};
+		const used: TrailNode[] = [];
+		const next = parents.map(parent => {
+			const old = kept.find(
+				current => current.name == parent.name && !used.includes(current)
+			);
+			if (old) used.push(old);
+			return old || parent;
+		});
+		kept.filter(old => !used.includes(old)).forEach(old => displaced.push(old));
+		return { ...node, parents: next };
 	}
 	if (!node.parents) return node;
-	return { ...node, parents: node.parents.map(p => graft(p, name, parents)) };
+	return {
+		...node,
+		parents: node.parents.map(parent => graft(parent, name, parents, displaced)),
+	};
 };
 
-const prune = (node: TrailNode, left: number): TrailNode =>
-	left <= 0 || !node.parents ?
-		{ name: node.name, rank: node.rank }
-	:	{ ...node, parents: node.parents.map(parent => prune(parent, left - 1)) };
-
 const useSynthesisTrail = (monsters: Monsters) => {
-	const [tree, setTree] = useState<TrailNode | undefined>();
+	const [roots, setRoots] = useState<TrailNode[]>([]);
+	const [preferred, setPreferred] = useState<string | undefined>();
+
+	const regraft = (current: TrailNode[], holder: TrailNode, name: string, parents: TrailNode[]) => {
+		const displaced: TrailNode[] = [];
+		const grafted = graft(holder, name, parents, displaced);
+		return join([
+			...current.map(root => (root === holder ? grafted : root)),
+			...displaced,
+		]);
+	};
+
+	const walkFrom = useCallback((child: string, recipe: string[]) => {
+		const parents = recipeParents(recipe);
+		setRoots(current => {
+			const holder = current.find(root => !!findNode(root, child));
+			if (!holder) return join([...current, { name: child, parents }]);
+			return regraft(current, holder, child, parents);
+		});
+	}, []);
 
 	const walkInto = useCallback(
 		(monster: string, into: string) => {
 			const recipe = simplestRecipe(monsters[into], monster);
 			const parents = recipe ? recipeParents(recipe) : [{ name: monster }];
-			setTree(current => {
-				// already the result on display: only settle which recipe it uses
-				if (current?.name == into) {
-					return prune(graft(current, into, parents), MAX_HEIGHT);
-				}
-				// the tree so far becomes the branch feeding the new result
-				const grown = current?.name == monster ? current : { name: monster };
-				return prune(
-					{
-						name: into,
-						parents: parents.map(p => (p.name == monster ? grown : p)),
-					},
-					MAX_HEIGHT
-				);
+			setRoots(current => {
+				const holder = current.find(root => root.name == into);
+				if (!holder) return join([...current, { name: into, parents }]);
+				return regraft(current, holder, into, parents);
 			});
 		},
 		[monsters]
 	);
 
-	const walkFrom = useCallback((child: string, recipe: string[]) => {
-		const parents = recipeParents(recipe);
-		setTree(current =>
-			prune(
-				current && contains(current, child) ?
-					graft(current, child, parents)
-				:	{ name: child, parents },
-				MAX_HEIGHT
-			)
-		);
+	const addDefault = useCallback(
+		(name: string) => {
+			const recipe = defaultRecipe(monsters[name]);
+			setRoots(current => {
+				const parents = recipe ? recipeParents(recipe) : undefined;
+				const holder = current.find(root => !!findNode(root, name));
+				if (!holder) return join([...current, { name, parents }]);
+				if (!parents) return current;
+				return regraft(current, holder, name, parents);
+			});
+		},
+		[monsters]
+	);
+
+	const pickInTrail = useCallback(
+		(name: string) => {
+			const node = roots.map(root => findNode(root, name)).find(Boolean);
+			if (node?.parents?.length) {
+				setPreferred(name);
+				return;
+			}
+			addDefault(name);
+		},
+		[roots, addDefault]
+	);
+
+	const clearTrail = useCallback(() => {
+		setRoots([]);
+		setPreferred(undefined);
 	}, []);
 
-	// Picking a monster of the trail switches the whole display to the tree grown
-	// under it. A leaf has no tree of its own, so it only scrolls.
-	const focusOn = useCallback((name: string) => {
-		setTree(current => {
-			const found = current && findNode(current, name);
-			return found?.parents?.length ? found : current;
-		});
-	}, []);
+	const walk = useMemo(
+		() => ({ walkInto, walkFrom, addDefault }),
+		[walkInto, walkFrom, addDefault]
+	);
 
-	const clearTrail = useCallback(() => setTree(undefined), []);
-
-	const walk = useMemo(() => ({ walkInto, walkFrom }), [walkInto, walkFrom]);
-
-	return { tree, walk, focusOn, clearTrail };
+	return { trees: roots, preferred, walk, pickInTrail, clearTrail };
 };
 
 export default useSynthesisTrail;
