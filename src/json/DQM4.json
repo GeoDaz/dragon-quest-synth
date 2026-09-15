@@ -928,10 +928,7 @@
 				"name": "Greater Dracky",
 				"rank": "F",
 				"family": "Demon",
-				"synthesis": [
-					["Dracky", "Gasbagon"],
-					["Dracky", "Dracky"]
-				]
+				"synthesis": [["Dracky", "Gasbagon"]]
 			},
 			{
 				"name": "Dessert Demon",
