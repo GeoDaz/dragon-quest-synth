@@ -47,8 +47,8 @@
   --dl-accent: #2d95de;
   --dl-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 
-  /* the header is sticky (~57px with its border): anchors clear it plus room */
-  --dl-anchor-offset: 88px;
+  /* the header is sticky (~67px with its border): anchors clear it plus room */
+  --dl-anchor-offset: 68px;
 
   --dl-img-size: 10rem;
   --dl-skin-img-size: 3rem;

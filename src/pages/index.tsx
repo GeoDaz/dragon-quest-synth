@@ -20,6 +20,7 @@ import { StringObject } from '@/types/Ui';
 import useTranslate from '@/hooks/useTranslate';
 import { makeClassName, stringToKey } from '@/functions';
 import useHash from '@/hooks/useHash';
+import useScrollToAnchor from '@/hooks/useScrollToAnchor';
 import useIsVisible from '@/hooks/useIsVisible';
 import MonsterRowLoading from '@/components/Monster/MonsterRowLoading';
 import SearchBar from '@/components/SearchBar';
@@ -45,7 +46,8 @@ interface Props {
 const PageLines: React.FC<Props> = props => {
 	const { images, game } = props;
 	const [families, setFamilies] = useState<Families>(props.families);
-	const hash = useHash();
+	const { hash, nav } = useHash();
+	const scrollToAnchor = useScrollToAnchor();
 	const { isFr, translateUI } = useTranslate();
 	const [search, setSearch] = useState<string>();
 	const [selectedFamily, setSelectedFamily] = useState<string | undefined>();
@@ -128,19 +130,22 @@ const PageLines: React.FC<Props> = props => {
 		return () => observer.disconnect();
 	}, [filtered.total, visibleCount]);
 
-	// Deep-link via hash (family / rank / monster): mount the target before scroll.
+	const scrolledNavRef = useRef<number>();
 	useEffect(() => {
-		if (!hash || filtered.total === 0) return;
+		if (!hash || filtered.total === 0 || scrolledNavRef.current === nav) return;
 		const idx =
 			filtered.monsterIndex[hash] ??
 			filtered.rankStart[hash] ??
 			filtered.familyStart[hash];
 		if (idx !== undefined && idx >= visibleCount) {
 			setVisibleCount(Math.min(idx + PAGE_SIZE, filtered.total));
-			return; // re-runs once visibleCount grows, then scrolls
+			return;
 		}
-		document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' });
-	}, [hash, filtered, visibleCount]);
+		const firstHashOfSession = scrolledNavRef.current === undefined;
+		if (scrollToAnchor(hash, firstHashOfSession ? 'auto' : 'smooth')) {
+			scrolledNavRef.current = nav;
+		}
+	}, [hash, nav, filtered, visibleCount]);
 
 	useEffect(() => {
 		if (!search) {
