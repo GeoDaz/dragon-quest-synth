@@ -1,494 +1,34 @@
 {
 	"traits": {
-		"Tactical Commander": {
-			"en": "Tactical Commander",
-			"fr": "Supériorité tactique",
+		"Absorbent Touch": {
+			"en": "Absorbent Touch",
+			"fr": "Absorbéite",
 			"desc": {
-				"en": "Performs 2 actions in a row. The number of actions is not affected if you don't issue specific orders. Lower's the monster's attributes."
+				"en": "Regular attacks sometimes absorb a portion of the enemy's MP.",
+				"fr": "Permet parfois aux attaques ordinaires d'absorber des PM à l'ennemi."
 			}
 		},
-		"Tactical Genius": {
-			"en": "Tactical Genius",
-			"fr": "Génie tactique",
+		"Ace Evader": {
+			"en": "Ace Evader",
+			"fr": "Exquise esquive",
 			"desc": {
-				"en": "Sometimes performs 2 or 3 actions in a row. The number of actions is not affected if you don't issue specific orders. Slightly lowers the monster's attributes."
+				"en": "Makes it somewhat easier to avoid enemy attacks.",
+				"fr": "Augmente les chances d'esquiver les attaques ennemies."
 			}
 		},
-		"Tactical Titan": {
-			"en": "Tactical Titan",
-			"fr": "Hégémonie tactique",
+		"Adrenaline Rush": {
+			"en": "Adrenaline Rush",
+			"fr": "Poussée d'adrénaline",
 			"desc": {
-				"en": "Performs 2 or 3 actions in a row. The number of actions is not affected if you don't issue specific orders. Lowers the monster's attributes."
+				"en": "Greatly increases the attack after inflicting a critical hit."
 			}
 		},
-		"Tactical Trooper": {
-			"en": "Tactical Trooper",
-			"fr": "Avantage tactique",
+		"Agent of Chaos": {
+			"en": "Agent of Chaos",
+			"fr": "Agent du chaos",
 			"desc": {
-				"en": "Sometimes performs 2 actions in a row. The number of actions is not affected if you don't issue specific orders. Very slightly lowers the monster's attributes."
-			}
-		},
-		"Insta-Accel": {
-			"en": "Insta-Accel",
-			"fr": "Accéléro liminaire",
-			"desc": {
-				"en": "Monster sometimes casts Accelerate on itself at the start of battle.",
-				"fr": "Utilise parfois Accéléro sur soi-même en début de combat."
-			}
-		},
-		"Insta-Bounce": {
-			"en": "Insta-Bounce",
-			"fr": "Réflexion initiale",
-			"desc": {
-				"en": "Monster sometimes casts Bounce on itself at the start of battle.",
-				"fr": "Utilise parfois Réflexion sur soi-même en début de combat."
-			}
-		},
-		"Insta-Buff": {
-			"en": "Insta-Buff",
-			"fr": "Protection initiale",
-			"desc": {
-				"en": "Monster sometimes casts Buff on itself at the start of battle.",
-				"fr": "Utilise parfois Protection sur soi-même en début de combat."
-			}
-		},
-		"Insta-Oomph": {
-			"en": "Insta-Oomph",
-			"fr": "Décuplo initial",
-			"desc": {
-				"en": "Monster sometimes casts Oomph on itself at the start of battle.",
-				"fr": "Utilise parfois Décuplo sur soi-même en début de combat."
-			}
-		},
-		"Insta-Ping": {
-			"en": "Insta-Ping",
-			"fr": "Tintement instantané",
-			"desc": {
-				"en": "Monster sometimes casts Ping on itself at the start of battle.",
-				"fr": "Utilise parfois Tilt sur soi-même en début de combat."
-			}
-		},
-		"Rando-Accel": {
-			"en": "Rando-Accel",
-			"fr": "Accéléro aléatoire",
-			"desc": {
-				"en": "Monster sometimes casts Accelerate on itself during battle.",
-				"fr": "Utilise parfois Accéléro sur soi-même en cours de combat."
-			}
-		},
-		"Rando-Buff": {
-			"en": "Rando-Buff",
-			"fr": "Protection aléatoire",
-			"desc": {
-				"en": "Monster sometimes casts Buff on itself during battle.",
-				"fr": "Utilise parfois Protection sur soi-même en cours de combat."
-			}
-		},
-		"Rando-Disrupt": {
-			"en": "Rando-Disrupt",
-			"desc": {
-				"en": "Sometimes uses Disruptive Wave during battle."
-			}
-		},
-		"Rando-Mister": {
-			"en": "Rando-Mister",
-			"fr": "Brume de bataille aléatoire",
-			"desc": {
-				"en": "Monster sometimes casts Mist Me on itself during battle."
-			}
-		},
-		"Rando-Muster": {
-			"en": "Rando-Muster",
-			"fr": "Concentration de force",
-			"desc": {
-				"en": "Sometimes uses Muster Strength during battle.",
-				"fr": "Utilise parfois Concentration de force en cours de combat."
-			}
-		},
-		"Rando-Oomph": {
-			"en": "Rando-Oomph",
-			"fr": "Décuplo aléatoire",
-			"desc": {
-				"en": "Monster sometimes casts Oomph on itself during battle.",
-				"fr": "Utilise parfois Décuplo sur soi-même en cours de combat."
-			}
-		},
-		"Rando-Panic": {
-			"en": "Rando-Panic",
-			"fr": "Vague de panique",
-			"desc": {
-				"en": "Monster sometimes casts Wave of Panic on itself during battle."
-			}
-		},
-		"Rando-Ping": {
-			"en": "Rando-Ping",
-			"fr": "Tintement sporadique",
-			"desc": {
-				"en": "Monster sometimes casts Ping on itself during battle.",
-				"fr": "Utilise parfois Tilt sur soi-même en cours de combat."
-			}
-		},
-		"Rando-Relief": {
-			"en": "Rando-Relief",
-			"fr": "Vague de soulagement",
-			"desc": {
-				"en": "Monster sometimes casts Wave of Relief on itself during battle."
-			}
-		},
-		"Max. HP +2": {
-			"en": "Max. HP +2",
-			"fr": "PV max. +2",
-			"desc": {
-				"en": "Raises max. HP by 2.",
-				"fr": "Augmente les PV max. de 2 points."
-			}
-		},
-		"Max. HP +4": {
-			"en": "Max. HP +4",
-			"fr": "PV max. +4",
-			"desc": {
-				"en": "Raises max. HP by 4.",
-				"fr": "Augmente les PV max. de 4 points."
-			}
-		},
-		"Max. HP +8": {
-			"en": "Max. HP +8",
-			"fr": "PV max. +8",
-			"desc": {
-				"en": "Raises max. HP by 8.",
-				"fr": "Augmente les PV max. de 8 points."
-			}
-		},
-		"Max. HP +12": {
-			"en": "Max. HP +12",
-			"fr": "PV max. +12",
-			"desc": {
-				"en": "Raises max. HP by 12.",
-				"fr": "Augmente les PV max. de 12 points."
-			}
-		},
-		"Max. HP +16": {
-			"en": "Max. HP +16",
-			"fr": "PV max. +16",
-			"desc": {
-				"en": "Raises max. HP by 16.",
-				"fr": "Augmente les PV max. de 16 points."
-			}
-		},
-		"Max. HP +20": {
-			"en": "Max. HP +20",
-			"fr": "PV max. +20",
-			"desc": {
-				"en": "Raises max. HP by 20.",
-				"fr": "Augmente les PV max. de 20 points."
-			}
-		},
-		"Max. HP +24": {
-			"en": "Max. HP +24",
-			"fr": "PV max. +24",
-			"desc": {
-				"en": "Raises max. HP by 24.",
-				"fr": "Augmente les PV max. de 24 points."
-			}
-		},
-		"Max. HP +30": {
-			"en": "Max. HP +30",
-			"fr": "PV max. +30",
-			"desc": {
-				"en": "Raises max. HP by 30.",
-				"fr": "Augmente les PV max. de 30 points."
-			}
-		},
-		"Max. HP +36": {
-			"en": "Max. HP +36",
-			"fr": "PV max. +36",
-			"desc": {
-				"en": "Raises max. HP by 36."
-			}
-		},
-		"Max. HP +48": {
-			"en": "Max. HP +48",
-			"fr": "PV max. +48",
-			"desc": {
-				"en": "Raises max. HP by 48.",
-				"fr": "Augmente les PV max. de 48 points."
-			}
-		},
-		"Max. MP +4": {
-			"en": "Max. MP +4",
-			"fr": "PM max. +4",
-			"desc": {
-				"en": "Raises max. MP by 4.",
-				"fr": "Augmente les PM max. de 4 points."
-			}
-		},
-		"Max. MP +8": {
-			"en": "Max. MP +8",
-			"fr": "PM max. +8",
-			"desc": {
-				"en": "Raises max. MP by 8.",
-				"fr": "Augmente les PM max. de 8 points."
-			}
-		},
-		"Max. MP +12": {
-			"en": "Max. MP +12",
-			"fr": "PM max. +12",
-			"desc": {
-				"en": "Raises max. MP by 12.",
-				"fr": "Augmente les PM max. de 12 points."
-			}
-		},
-		"Max. MP +16": {
-			"en": "Max. MP +16",
-			"fr": "PM max. +16",
-			"desc": {
-				"en": "Raises max. MP by 16.",
-				"fr": "Augmente les PM max. de 16 points."
-			}
-		},
-		"Max. MP +24": {
-			"en": "Max. MP +24",
-			"fr": "PM max. +24",
-			"desc": {
-				"en": "Raises max. MP by 24.",
-				"fr": "Augmente les PM max. de 24 points."
-			}
-		},
-		"Max. MP +32": {
-			"en": "Max. MP +32",
-			"fr": "PM max. +32",
-			"desc": {
-				"en": "Raises max. MP by 32.",
-				"fr": "Augmente les PM max. de 32 points."
-			}
-		},
-		"Max. MP +40": {
-			"en": "Max. MP +40",
-			"fr": "PM max. +40",
-			"desc": {
-				"en": "Raises max. MP by 40.",
-				"fr": "Augmente les PM max. de 40 points."
-			}
-		},
-		"Max. MP +48": {
-			"en": "Max. MP +48",
-			"fr": "PM max. +48",
-			"desc": {
-				"en": "Raises max. MP by 48.",
-				"fr": "Augmente les PM max. de 48 points."
-			}
-		},
-		"Max. MP +60": {
-			"en": "Max. MP +60",
-			"fr": "PM max. +60",
-			"desc": {
-				"en": "Raises max. MP by 60.",
-				"fr": "Augmente les PM max. de 60 points."
-			}
-		},
-		"Max. MP +72": {
-			"en": "Max. MP +72",
-			"fr": "PM max. +72",
-			"desc": {
-				"en": "Raises max. MP by 72.",
-				"fr": "Augmente les PM max. de 72 points."
-			}
-		},
-		"Max. MP +96": {
-			"en": "Max. MP +96",
-			"fr": "PM max. +96",
-			"desc": {
-				"en": "Raises max. MP by 96.",
-				"fr": "Augmente les PM max. de 96 points."
-			}
-		},
-		"Attacking Impulse": {
-			"en": "Attacking Impulse",
-			"fr": "Pulsion d'attaque",
-			"desc": {
-				"en": "Increases damage inflicted when HP drops to 1/2."
-			}
-		},
-		"Attack +2": {
-			"en": "Attack +2",
-			"fr": "Attaque +2",
-			"desc": {
-				"en": "Raises attack by 2.",
-				"fr": "Augmente l'attaque de 2 points."
-			}
-		},
-		"Attack +4": {
-			"en": "Attack +4",
-			"fr": "Attaque +4",
-			"desc": {
-				"en": "Raises attack by 4.",
-				"fr": "Augmente l'attaque de 4 points."
-			}
-		},
-		"Attack +8": {
-			"en": "Attack +8",
-			"fr": "Attaque +8",
-			"desc": {
-				"en": "Raises attack by 8.",
-				"fr": "Augmente l'attaque de 8 points."
-			}
-		},
-		"Attack +12": {
-			"en": "Attack +12",
-			"fr": "Attaque +12",
-			"desc": {
-				"en": "Raises attack by 12.",
-				"fr": "Augmente l'attaque de 12 points."
-			}
-		},
-		"Attack +16": {
-			"en": "Attack +16",
-			"fr": "Attaque +16",
-			"desc": {
-				"en": "Raises attack by 16.",
-				"fr": "Augmente l'attaque de 16 points."
-			}
-		},
-		"Attack +20": {
-			"en": "Attack +20",
-			"fr": "Attaque +20",
-			"desc": {
-				"en": "Raises attack by 20.",
-				"fr": "Augmente l'attaque de 20 points."
-			}
-		},
-		"Attack +24": {
-			"en": "Attack +24",
-			"fr": "Attaque +24",
-			"desc": {
-				"en": "Raises attack by 24.",
-				"fr": "Augmente l'attaque de 24 points."
-			}
-		},
-		"Attack +30": {
-			"en": "Attack +30",
-			"fr": "Attaque +30",
-			"desc": {
-				"en": "Raises attack by 30.",
-				"fr": "Augmente l'attaque de 30 points."
-			}
-		},
-		"Attack +36": {
-			"en": "Attack +36",
-			"fr": "Attaque +36",
-			"desc": {
-				"en": "Raises attack by 36.",
-				"fr": "Augmente l'attaque de 36 points."
-			}
-		},
-		"Attack +48": {
-			"en": "Attack +48",
-			"fr": "Attaque +48",
-			"desc": {
-				"en": "Raises attack by 48.",
-				"fr": "Augmente l'attaque de 48 points."
-			}
-		},
-		"Defence +4": {
-			"en": "Defence +4",
-			"fr": "Défense +4",
-			"desc": {
-				"en": "Raises defence by 4.",
-				"fr": "Augmente la défense de 4 points."
-			}
-		},
-		"Defence +8": {
-			"en": "Defence +8",
-			"fr": "Défense +8",
-			"desc": {
-				"en": "Raises defence by 8.",
-				"fr": "Augmente la défense de 8 points."
-			}
-		},
-		"Defence +12": {
-			"en": "Defence +12",
-			"desc": {
-				"en": "Raises defence by 12."
-			}
-		},
-		"Defence +24": {
-			"en": "Defence +24",
-			"fr": "Défense +24",
-			"desc": {
-				"en": "Raises defence by 24.",
-				"fr": "Augmente la défense de 24 points."
-			}
-		},
-		"Defence +32": {
-			"en": "Defence +32",
-			"fr": "Défense +32",
-			"desc": {
-				"en": "Raises defence by 32.",
-				"fr": "Augmente la défense de 32 points."
-			}
-		},
-		"Defence +40": {
-			"en": "Defence +40",
-			"fr": "Défense +40",
-			"desc": {
-				"en": "Raises defence by 40.",
-				"fr": "Augmente la défense de 40 points."
-			}
-		},
-		"Defence +48": {
-			"en": "Defence +48",
-			"fr": "Défense +48",
-			"desc": {
-				"en": "Raises defence by 48.",
-				"fr": "Augmente la défense de 48 points."
-			}
-		},
-		"Defence +60": {
-			"en": "Defence +60",
-			"fr": "Défense +60",
-			"desc": {
-				"en": "Raises defence by 60.",
-				"fr": "Augmente la défense de 60 points."
-			}
-		},
-		"Defence +72": {
-			"en": "Defence +72",
-			"fr": "Défense +72",
-			"desc": {
-				"en": "Raises defence by 72.",
-				"fr": "Augmente la défense de 72 points."
-			}
-		},
-		"Defence +96": {
-			"en": "Defence +96",
-			"fr": "Défense +96",
-			"desc": {
-				"en": "Raises defence by 96.",
-				"fr": "Augmente la défense de 96 points."
-			}
-		},
-		"Agility +2": {
-			"en": "Agility +2",
-			"fr": "Agilité +2",
-			"desc": {
-				"en": "Raises agility by 2.",
-				"fr": "Augmente l'agilité de 2 points."
-			}
-		},
-		"Agility +4": {
-			"en": "Agility +4",
-			"fr": "Agilité +4",
-			"desc": {
-				"en": "Raises agility by 4.",
-				"fr": "Augmente l'agilité de 4 points."
-			}
-		},
-		"Agility +8": {
-			"en": "Agility +8",
-			"fr": "Agilité +8",
-			"desc": {
-				"en": "Raises agility by 8.",
-				"fr": "Augmente l'agilité de 8 points."
+				"en": "Always attacks an enemy when the monster is confused. Successful strikes inflict critical hits.",
+				"fr": "Attaque l'ennemi même quand le monstre subit la confusion, et inflige un coup critique en cas d'attaque réussie."
 			}
 		},
 		"Agility +12": {
@@ -505,6 +45,14 @@
 			"desc": {
 				"en": "Raises agility by 16.",
 				"fr": "Augmente l'agilité de 16 points."
+			}
+		},
+		"Agility +2": {
+			"en": "Agility +2",
+			"fr": "Agilité +2",
+			"desc": {
+				"en": "Raises agility by 2.",
+				"fr": "Augmente l'agilité de 2 points."
 			}
 		},
 		"Agility +20": {
@@ -539,6 +87,14 @@
 				"fr": "Augmente l'agilité de 36 points."
 			}
 		},
+		"Agility +4": {
+			"en": "Agility +4",
+			"fr": "Agilité +4",
+			"desc": {
+				"en": "Raises agility by 4.",
+				"fr": "Augmente l'agilité de 4 points."
+			}
+		},
 		"Agility +48": {
 			"en": "Agility +48",
 			"fr": "Agilité +48",
@@ -547,84 +103,141 @@
 				"fr": "Augmente l'agilité de 48 points."
 			}
 		},
-		"Wisdom +4": {
-			"en": "Wisdom +4",
-			"fr": "Sagesse +4",
+		"Agility +8": {
+			"en": "Agility +8",
+			"fr": "Agilité +8",
 			"desc": {
-				"en": "Raises wisdom by 4.",
-				"fr": "Augmente la sagesse de 4 points."
+				"en": "Raises agility by 8.",
+				"fr": "Augmente l'agilité de 8 points."
 			}
 		},
-		"Wisdom +8": {
-			"en": "Wisdom +8",
-			"fr": "Sagesse +8",
+		"Antioxidant": {
+			"en": "Antioxidant",
 			"desc": {
-				"en": "Raises wisdom by 8.",
-				"fr": "Augmente la sagesse de 8 points."
+				"en": "Slightly increases resistance to poison and severe poison."
 			}
 		},
-		"Wisdom +16": {
-			"en": "Wisdom +16",
-			"fr": "Sagesse +16",
+		"Artful Dodger": {
+			"en": "Artful Dodger",
 			"desc": {
-				"en": "Raises wisdom by 16.",
-				"fr": "Augmente la sagesse de 16 points."
+				"en": "Slightly increases the chance of evading enemy attacks."
 			}
 		},
-		"Wisdom +24": {
-			"en": "Wisdom +24",
-			"fr": "Sagesse +24",
+		"Attack +12": {
+			"en": "Attack +12",
+			"fr": "Attaque +12",
 			"desc": {
-				"en": "Raises wisdom by 24.",
-				"fr": "Augmente la sagesse de 24 points."
+				"en": "Raises attack by 12.",
+				"fr": "Augmente l'attaque de 12 points."
 			}
 		},
-		"Wisdom +32": {
-			"en": "Wisdom +32",
-			"fr": "Sagesse +32",
+		"Attack +16": {
+			"en": "Attack +16",
+			"fr": "Attaque +16",
 			"desc": {
-				"en": "Raises wisdom by 32.",
-				"fr": "Augmente la sagesse de 32 points."
+				"en": "Raises attack by 16.",
+				"fr": "Augmente l'attaque de 16 points."
 			}
 		},
-		"Wisdom +40": {
-			"en": "Wisdom +40",
-			"fr": "Sagesse +40",
+		"Attack +2": {
+			"en": "Attack +2",
+			"fr": "Attaque +2",
 			"desc": {
-				"en": "Raises wisdom by 40.",
-				"fr": "Augmente la sagesse de 40 points."
+				"en": "Raises attack by 2.",
+				"fr": "Augmente l'attaque de 2 points."
 			}
 		},
-		"Wisdom +48": {
-			"en": "Wisdom +48",
-			"fr": "Sagesse +48",
+		"Attack +20": {
+			"en": "Attack +20",
+			"fr": "Attaque +20",
 			"desc": {
-				"en": "Raises wisdom by 48.",
-				"fr": "Augmente la sagesse de 48 points."
+				"en": "Raises attack by 20.",
+				"fr": "Augmente l'attaque de 20 points."
 			}
 		},
-		"Wisdom +60": {
-			"en": "Wisdom +60",
-			"fr": "Sagesse +60",
+		"Attack +24": {
+			"en": "Attack +24",
+			"fr": "Attaque +24",
 			"desc": {
-				"en": "Raises wisdom by 60.",
-				"fr": "Augmente la sagesse de 60 points."
+				"en": "Raises attack by 24.",
+				"fr": "Augmente l'attaque de 24 points."
 			}
 		},
-		"Wisdom +72": {
-			"en": "Wisdom +72",
-			"fr": "Sagesse +72",
+		"Attack +30": {
+			"en": "Attack +30",
+			"fr": "Attaque +30",
 			"desc": {
-				"en": "Raises wisdom by 72.",
-				"fr": "Augmente la sagesse de 72 points."
+				"en": "Raises attack by 30.",
+				"fr": "Augmente l'attaque de 30 points."
 			}
 		},
-		"Wisdom +96": {
-			"en": "Wisdom +96",
-			"fr": "Sagesse +96",
+		"Attack +36": {
+			"en": "Attack +36",
+			"fr": "Attaque +36",
 			"desc": {
-				"en": "Raises wisdom by 96.",
-				"fr": "Augmente la sagesse de 96 points."
+				"en": "Raises attack by 36.",
+				"fr": "Augmente l'attaque de 36 points."
+			}
+		},
+		"Attack +4": {
+			"en": "Attack +4",
+			"fr": "Attaque +4",
+			"desc": {
+				"en": "Raises attack by 4.",
+				"fr": "Augmente l'attaque de 4 points."
+			}
+		},
+		"Attack +48": {
+			"en": "Attack +48",
+			"fr": "Attaque +48",
+			"desc": {
+				"en": "Raises attack by 48.",
+				"fr": "Augmente l'attaque de 48 points."
+			}
+		},
+		"Attack +8": {
+			"en": "Attack +8",
+			"fr": "Attaque +8",
+			"desc": {
+				"en": "Raises attack by 8.",
+				"fr": "Augmente l'attaque de 8 points."
+			}
+		},
+		"Attacking Impulse": {
+			"en": "Attacking Impulse",
+			"fr": "Pulsion d'attaque",
+			"desc": {
+				"en": "Increases damage inflicted when HP drops to 1/2."
+			}
+		},
+		"Auto-Cadabra": {
+			"en": "Auto-Cadabra",
+			"fr": "Automagication",
+			"desc": {
+				"en": "Restores a small amount of MP after each action.",
+				"fr": "Restaure légèrement les PM après chaque action."
+			}
+		},
+		"Auto-Restora": {
+			"en": "Auto-Restora",
+			"fr": "Automédication",
+			"desc": {
+				"en": "Restores a small amount of HP after each action.",
+				"fr": "Restaure légèrement les PV après chaque action."
+			}
+		},
+		"Bang Ward": {
+			"en": "Bang Ward",
+			"desc": {
+				"en": "Slightly increases resistance to explosive-elemental attacks."
+			}
+		},
+		"Bangmeister": {
+			"en": "Bangmeister",
+			"fr": "Maestrobang",
+			"desc": {
+				"en": "Increases the potency of explosive attacks and decreases their MP consumption.",
+				"fr": "Renforce les attaques d'explosion et réduit leur coût en PM."
 			}
 		},
 		"Beastsbane": {
@@ -633,94 +246,83 @@
 				"en": "Increases damage inflicted on monsters from the beast family and slightly lowers all resistances."
 			}
 		},
+		"Benefaction": {
+			"en": "Benefaction",
+			"fr": "Œuvre de bienfaisance",
+			"desc": {
+				"en": "Massively increases the attack, defence, agility and wisdom of allies when a killer blow is received."
+			}
+		},
+		"Big Bully": {
+			"en": "Big Bully",
+			"fr": "Gros méchant",
+			"desc": {
+				"en": "Increases damage inflicted on L-size monsters.",
+				"fr": "Augmente les dégâts infligés aux monstres de taille G."
+			}
+		},
+		"Bigger Upper": {
+			"en": "Bigger Upper",
+			"fr": "Rallonge",
+			"desc": {
+				"en": "Extends the duration of skills that raise the strength, defence, agility, or wisdom of allies to 5 turns. In addition, randomly grants invincibility, the ability to reflect spells or breath attacks, or raises evasion."
+			}
+		},
 		"Bossesbane": {
 			"en": "Bossesbane",
 			"desc": {
 				"en": "Increases damage inflicted on monsters from the ??? family and slightly lowers all resistances."
 			}
 		},
-		"Demonsbane": {
-			"en": "Demonsbane",
+		"Castslasher": {
+			"en": "Castslasher",
+			"fr": "Super promo magique",
 			"desc": {
-				"en": "Increases damage inflicted on monsters from the demon family and slightly lowers all resistances."
+				"en": "Reduces MP consumption by 1/2.",
+				"fr": "Réduit de moitié les coûts en PM."
 			}
 		},
-		"Dragonsbane": {
-			"en": "Dragonsbane",
+		"Clear Thinker": {
+			"en": "Clear Thinker",
 			"desc": {
-				"en": "Increases damage inflicted on monsters from the dragon family and slightly lowers all resistances."
+				"en": "Slightly increases resistance to confusion."
 			}
 		},
-		"Matterbane": {
-			"en": "Matterbane",
+		"Close Scraper": {
+			"en": "Close Scraper",
+			"fr": "Moins une",
 			"desc": {
-				"en": "Increases damage inflicted on monsters from the material family and slightly lowers all resistances."
+				"en": "Sometimes allows the monster to survive at 1 HP after suffering an attack that would otherwise kill it.",
+				"fr": "Permet parfois au monstre de survivre avec 1 PV restant après avoir subi des dégâts qui auraient dû le faire tomber au combat."
 			}
 		},
-		"Naturesbane": {
-			"en": "Naturesbane",
+		"Collective Punishment": {
+			"en": "Collective Punishment",
+			"fr": "Punition collective",
 			"desc": {
-				"en": "Increases damage inflicted on monsters from the nature family and slightly lowers all resistances."
+				"en": "Attacks that do more damage as the attack attribute increases will strike all enemies instead of a single target."
 			}
 		},
-		"Slimesbane": {
-			"en": "Slimesbane",
+		"Confusing Touch": {
+			"en": "Confusing Touch",
+			"fr": "Confusite",
 			"desc": {
-				"en": "Increases damage inflicted on monsters from the slime family and slightly lowers all resistances."
+				"en": "Regular attacks sometimes confuse the enemy.",
+				"fr": "Permet parfois aux attaques ordinaires de provoquer la confusion de l'ennemi."
 			}
 		},
-		"Zombiesbane": {
-			"en": "Zombiesbane",
+		"Crack Ward": {
+			"en": "Crack Ward",
 			"desc": {
-				"en": "Increases damage inflicted on monsters from the undead family and slightly lowers all resistances."
+				"en": "Slightly increases resistance to ice-elemental attacks."
 			}
 		},
-		"Uber Slimesbane": {
-			"en": "Uber Slimesbane",
+		"Crackmeister": {
+			"en": "Crackmeister",
+			"fr": "Maestroglace",
 			"desc": {
-				"en": "Greatly increases damage inflicted on monsters from the slime family and somewhat lowers all resistances."
-			}
-		},
-		"Uber Dragonsbane": {
-			"en": "Uber Dragonsbane",
-			"desc": {
-				"en": "Greatly increases damage inflicted on monsters from the dragon family and somewhat lowers all resistances."
-			}
-		},
-		"Uber Beastbane": {
-			"en": "Uber Beastbane",
-			"desc": {
-				"en": "Greatly increases damage inflicted on monsters from the beast family and somewhat lowers all resistances."
-			}
-		},
-		"Uber Naturesbane": {
-			"en": "Uber Naturesbane",
-			"desc": {
-				"en": "Greatly increases damage inflicted on monsters from the nature family and somewhat lowers all resistances."
-			}
-		},
-		"Uber Demonsbane": {
-			"en": "Uber Demonsbane",
-			"desc": {
-				"en": "Greatly increases damage inflicted on monsters from the demon family and somewhat lowers all resistances."
-			}
-		},
-		"Uber Zombiesbane": {
-			"en": "Uber Zombiesbane",
-			"desc": {
-				"en": "Greatly increases damage inflicted on monsters from the undead family and somewhat lowers all resistances."
-			}
-		},
-		"Uber Matterbane": {
-			"en": "Uber Matterbane",
-			"desc": {
-				"en": "Greatly increases damage inflicted on monsters from the material family and somewhat lowers all resistances."
-			}
-		},
-		"Uber Bossesbane": {
-			"en": "Uber Bossesbane",
-			"desc": {
-				"en": "Greatly increases damage inflicted on monsters from the ??? family and somewhat lowers all resistances."
+				"en": "Increases the potency of ice-elemental attacks and decreases their MP consumption.",
+				"fr": "Renforce les attaques de glace et réduit leur coût en PM."
 			}
 		},
 		"Crafty Banger": {
@@ -842,6 +444,1041 @@
 			"en": "Crafty Zapper",
 			"desc": {
 				"en": "Increases damage of lightning attribute attacks slightly."
+			}
+		},
+		"Crag Ward": {
+			"en": "Crag Ward",
+			"desc": {
+				"en": "Slightly increases resistance to earth-elemental attacks."
+			}
+		},
+		"Cragmeister": {
+			"en": "Cragmeister",
+			"fr": "Maestroséisme",
+			"desc": {
+				"en": "Increases the potency of earth-elemental attacks and decreases their MP consumption.",
+				"fr": "Renforce les attaques de terre et réduit leur coût en PM."
+			}
+		},
+		"Critical Favorite": {
+			"en": "Critical Favorite",
+			"desc": {
+				"en": "Slightly increases the chance of critical hits."
+			}
+		},
+		"Critical Mastermind": {
+			"en": "Critical Mastermind",
+			"fr": "Analyse critique",
+			"desc": {
+				"en": "Makes it much easier to cast critical spells.",
+				"fr": "Augmente grandement les chances de lancer des sorts critiques."
+			}
+		},
+		"Critical Moment": {
+			"en": "Critical Moment",
+			"fr": "Instant critique",
+			"desc": {
+				"en": "Makes it easier to inflict critical hits when HP drops to 1/2, and even more so when HP drops to 1/4.",
+				"fr": "Augmente les chances d'effectuer des coups critiques quand les PV sont réduits de moitié, et encore davantage lorsque les PV sont réduits de 3/4."
+			}
+		},
+		"Critical Sensation": {
+			"en": "Critical Sensation",
+			"fr": "Déluge de critiques",
+			"desc": {
+				"en": "Makes it much easier to inflict critical hits.",
+				"fr": "Augmente grandement les chances d'effectuer des coups critiques."
+			}
+		},
+		"Critical Theorist": {
+			"en": "Critical Theorist",
+			"fr": "Réflexion critique",
+			"desc": {
+				"en": "Makes it somewhat easier to cast critical spells.",
+				"fr": "Augmente les chances de lancer des sorts critiques."
+			}
+		},
+		"Critical Thinker": {
+			"en": "Critical Thinker",
+			"desc": {
+				"en": "Slightly increases the chance of magical surges."
+			}
+		},
+		"Critical Triumph": {
+			"en": "Critical Triumph",
+			"fr": "Flot de critiques",
+			"desc": {
+				"en": "Makes it somewhat easier to inflict critical hits.",
+				"fr": "Augmente les chances d'effectuer des coups critiques."
+			}
+		},
+		"Deadly Touch": {
+			"en": "Deadly Touch",
+			"fr": "Morsubite",
+			"desc": {
+				"en": "Regular attacks sometimes kill the enemy instantly.",
+				"fr": "Permet parfois aux attaques ordinaires de provoquer la mort subite de l'ennemi."
+			}
+		},
+		"Death Defier": {
+			"en": "Death Defier",
+			"desc": {
+				"en": "Slighty increases resistance to instant death."
+			}
+		},
+		"Decontaminate": {
+			"en": "Decontaminate",
+			"fr": "Cure de jouvence",
+			"desc": {
+				"en": "Sometimes cures allies of sleep, confusion, poison, severe poison, and paralysis during battle."
+			}
+		},
+		"Defence +12": {
+			"en": "Defence +12",
+			"desc": {
+				"en": "Raises defence by 12."
+			}
+		},
+		"Defence +24": {
+			"en": "Defence +24",
+			"fr": "Défense +24",
+			"desc": {
+				"en": "Raises defence by 24.",
+				"fr": "Augmente la défense de 24 points."
+			}
+		},
+		"Defence +32": {
+			"en": "Defence +32",
+			"fr": "Défense +32",
+			"desc": {
+				"en": "Raises defence by 32.",
+				"fr": "Augmente la défense de 32 points."
+			}
+		},
+		"Defence +4": {
+			"en": "Defence +4",
+			"fr": "Défense +4",
+			"desc": {
+				"en": "Raises defence by 4.",
+				"fr": "Augmente la défense de 4 points."
+			}
+		},
+		"Defence +40": {
+			"en": "Defence +40",
+			"fr": "Défense +40",
+			"desc": {
+				"en": "Raises defence by 40.",
+				"fr": "Augmente la défense de 40 points."
+			}
+		},
+		"Defence +48": {
+			"en": "Defence +48",
+			"fr": "Défense +48",
+			"desc": {
+				"en": "Raises defence by 48.",
+				"fr": "Augmente la défense de 48 points."
+			}
+		},
+		"Defence +60": {
+			"en": "Defence +60",
+			"fr": "Défense +60",
+			"desc": {
+				"en": "Raises defence by 60.",
+				"fr": "Augmente la défense de 60 points."
+			}
+		},
+		"Defence +72": {
+			"en": "Defence +72",
+			"fr": "Défense +72",
+			"desc": {
+				"en": "Raises defence by 72.",
+				"fr": "Augmente la défense de 72 points."
+			}
+		},
+		"Defence +8": {
+			"en": "Defence +8",
+			"fr": "Défense +8",
+			"desc": {
+				"en": "Raises defence by 8.",
+				"fr": "Augmente la défense de 8 points."
+			}
+		},
+		"Defence +96": {
+			"en": "Defence +96",
+			"fr": "Défense +96",
+			"desc": {
+				"en": "Raises defence by 96.",
+				"fr": "Augmente la défense de 96 points."
+			}
+		},
+		"Defensive Impulse": {
+			"en": "Defensive Impulse",
+			"fr": "Pulsion de défense",
+			"desc": {
+				"en": "Reduces damage received when HP drops to 1/2."
+			}
+		},
+		"Demonsbane": {
+			"en": "Demonsbane",
+			"desc": {
+				"en": "Increases damage inflicted on monsters from the demon family and slightly lowers all resistances."
+			}
+		},
+		"Desperate Measures": {
+			"en": "Desperate Measures",
+			"fr": "Mesures désespérées",
+			"desc": {
+				"en": "Negates all damage suffered from critical hits and critical spells.",
+				"fr": "Annule tous les dégâts infligés par des coups critiques et des sorts critiques."
+			}
+		},
+		"Detox": {
+			"en": "Detox",
+			"fr": "Détox",
+			"desc": {
+				"en": "Sometimes cures allies of poison, severe poison, and paralysis during battle."
+			}
+		},
+		"Dodge Denier": {
+			"en": "Dodge Denier",
+			"fr": "Anti-esquive",
+			"desc": {
+				"en": "Ensures the enemy cannot avoid attacks.",
+				"fr": "Rend les esquives impossibles pour les ennemis."
+			}
+		},
+		"Dragonsbane": {
+			"en": "Dragonsbane",
+			"desc": {
+				"en": "Increases damage inflicted on monsters from the dragon family and slightly lowers all resistances."
+			}
+		},
+		"Drain Blocker": {
+			"en": "Drain Blocker",
+			"desc": {
+				"en": "Slightly increases resistance to MP absorption."
+			}
+		},
+		"Echonomist": {
+			"en": "Echonomist",
+			"fr": "Écho favorable",
+			"desc": {
+				"en": "Sometimes casts the same spell twice. Consumes slightly more MP than usual.",
+				"fr": "Lance parfois 2 fois le même sort. Augmente légèrement le coût en PM."
+			}
+		},
+		"Evasive Impulse": {
+			"en": "Evasive Impulse",
+			"fr": "Pulsion d'esquive",
+			"desc": {
+				"en": "Sometimes increases evasion and greatly increases agility during battle when HP has dropped to 1/2. Only activates once per battle.",
+				"fr": "Augmente parfois l'esquive, et grandement l'agilité, quand les PV sont réduits de moitié en cours de combat. Ne s'active qu'une fois par combat."
+			}
+		},
+		"Fidget": {
+			"en": "Fidget",
+			"desc": {
+				"en": "Slightly increases resistance to paralysis."
+			}
+		},
+		"Frizz Ward": {
+			"en": "Frizz Ward",
+			"desc": {
+				"en": "Slightly increases resistance to fire-elemental attacks."
+			}
+		},
+		"Frizzmeister": {
+			"en": "Frizzmeister",
+			"fr": "Maestroflamme",
+			"desc": {
+				"en": "Increases the potency of fire-elemental attacks and decreases their MP consumption.",
+				"fr": "Renforce les attaques de feu et réduit leur coût en PM."
+			}
+		},
+		"Granite Chin": {
+			"en": "Granite Chin",
+			"desc": {
+				"en": "Slightly increases resistance to being stunned."
+			}
+		},
+		"Health Professional": {
+			"en": "Health Professional",
+			"fr": "Professionnel de santé",
+			"desc": {
+				"en": "Increases the potency of healing skills and decreases their MP consumption.",
+				"fr": "Renforce l'effet des compétences de soin et réduit leur coût en PM."
+			}
+		},
+		"Heaven-Sent": {
+			"en": "Heaven-Sent",
+			"fr": "Super manne",
+			"desc": {
+				"en": "Sometimes greatly increases attack, defence, agility, or wisdom during battle."
+			}
+		},
+		"High Heal": {
+			"en": "High Heal",
+			"fr": "Soins intensifs",
+			"desc": {
+				"en": "Sometimes restores 80 or more HP to all allies during battle. Higher wisdom makes the healing effect more powerful.",
+				"fr": "Restaure parfois au moins 80 PV à tous les alliés en cours de combat. La quantité de PV restaurés est proportionnelle à la sagesse du monstre utilisateur."
+			}
+		},
+		"Hothead": {
+			"en": "Hothead",
+			"desc": {
+				"en": "Makes it easier to activate a frenzied state, turning the monster into a formidable fighting force."
+			}
+		},
+		"Infected Skin": {
+			"en": "Infected Skin",
+			"fr": "Cuir toxique",
+			"desc": {
+				"en": "Sometimes poisons enemies that inflict indirect attacks."
+			}
+		},
+		"Insensitive Skin": {
+			"en": "Insensitive Skin",
+			"fr": "Cuir paralysant",
+			"desc": {
+				"en": "Sometimes paralyses enemies that inflict direct attacks.",
+				"fr": "Provoque parfois la paralysie des ennemis qui lui portent des attaques directes."
+			}
+		},
+		"Insomniac": {
+			"en": "Insomniac",
+			"desc": {
+				"en": "Slightly increases resistance to being put to sleep."
+			}
+		},
+		"Insta-Accel": {
+			"en": "Insta-Accel",
+			"fr": "Accéléro liminaire",
+			"desc": {
+				"en": "Monster sometimes casts Accelerate on itself at the start of battle.",
+				"fr": "Utilise parfois Accéléro sur soi-même en début de combat."
+			}
+		},
+		"Insta-Bounce": {
+			"en": "Insta-Bounce",
+			"fr": "Réflexion initiale",
+			"desc": {
+				"en": "Monster sometimes casts Bounce on itself at the start of battle.",
+				"fr": "Utilise parfois Réflexion sur soi-même en début de combat."
+			}
+		},
+		"Insta-Buff": {
+			"en": "Insta-Buff",
+			"fr": "Protection initiale",
+			"desc": {
+				"en": "Monster sometimes casts Buff on itself at the start of battle.",
+				"fr": "Utilise parfois Protection sur soi-même en début de combat."
+			}
+		},
+		"Insta-Oomph": {
+			"en": "Insta-Oomph",
+			"fr": "Décuplo initial",
+			"desc": {
+				"en": "Monster sometimes casts Oomph on itself at the start of battle.",
+				"fr": "Utilise parfois Décuplo sur soi-même en début de combat."
+			}
+		},
+		"Insta-Ping": {
+			"en": "Insta-Ping",
+			"fr": "Tintement instantané",
+			"desc": {
+				"en": "Monster sometimes casts Ping on itself at the start of battle.",
+				"fr": "Utilise parfois Tilt sur soi-même en début de combat."
+			}
+		},
+		"Insult to Injury": {
+			"en": "Insult to Injury",
+			"fr": "Mal en pis",
+			"desc": {
+				"en": "Increases damage inflicted on enemies that are poisoned, severely poisoned, stunned, asleep, confused, or paralysed."
+			}
+		},
+		"Intimidating": {
+			"en": "Intimidating",
+			"fr": "Hors pair",
+			"desc": {
+				"en": "Sometimes stuns the enemy during battle for 1 turn.",
+				"fr": "Empêche parfois l'ennemi d'agir pendant 1 tour, en cours de combat."
+			}
+		},
+		"Large Gold Boost": {
+			"en": "Large Gold Boost",
+			"desc": {
+				"en": "Significantly increases gold obtained in battles."
+			}
+		},
+		"Last Gasp": {
+			"en": "Last Gasp",
+			"fr": "Dernier souffle",
+			"desc": {
+				"en": "Revives a single ally after it falls in battle. Only works once per battle.",
+				"fr": "Ressuscite un allié tombé au combat. Utilisable une fois par combat."
+			}
+		},
+		"Last Legs": {
+			"en": "Last Legs",
+			"fr": "In extremis",
+			"desc": {
+				"en": "Allows the monster to survive at 1 HP after suffering an attack that would otherwise kill it.",
+				"fr": "Permet 1 fois au monstre de survivre avec 1 PV restant après avoir subi des dégâts qui auraient dû le faire tomber au combat."
+			}
+		},
+		"Late Bloomer": {
+			"en": "Late Bloomer",
+			"fr": "Course de fond",
+			"desc": {
+				"en": "Increases attack, defence, agility, and wisdom from round 3 onwards, and even more so from round 6."
+			}
+		},
+		"Little Menace": {
+			"en": "Little Menace",
+			"fr": "Petite frappe",
+			"desc": {
+				"en": "Increases damage inflicted on S-size monsters.",
+				"fr": "Augmente les dégâts infligés aux monstres de taille P."
+			}
+		},
+		"Low Heal": {
+			"en": "Low Heal",
+			"fr": "Petits soins",
+			"desc": {
+				"en": "Sometimes restores 30 or more HP to all allies during battle. Higher wisdom makes the healing effect more powerful.",
+				"fr": "Restaure parfois au moins 30 PV à tous les alliés en cours de combat. La quantité de PV restaurés est proportionnelle à la sagesse du monstre utilisateur."
+			}
+		},
+		"MP Cost Reduction": {
+			"en": "MP Cost Reduction",
+			"desc": {
+				"en": "Reduces MP consumption to 3/4."
+			}
+		},
+		"Magical Moment": {
+			"en": "Magical Moment",
+			"fr": "Génie critique",
+			"desc": {
+				"en": "Makes it easier to cast critical spells when HP drops to 1/2, and even more so when HP drops to 1/4."
+			}
+		},
+		"Major Downer": {
+			"en": "Major Downer",
+			"fr": "Coup de rabot",
+			"desc": {
+				"en": "Extends the duration of skills lower the strength, defence, agility, or wisdom of enemies to 5 turns. In addition, randomly prevents breath attacks, critical hits, or the casting of magic, or bedazzles the enemy."
+			}
+		},
+		"Matterbane": {
+			"en": "Matterbane",
+			"desc": {
+				"en": "Increases damage inflicted on monsters from the material family and slightly lowers all resistances."
+			}
+		},
+		"Max. HP +12": {
+			"en": "Max. HP +12",
+			"fr": "PV max. +12",
+			"desc": {
+				"en": "Raises max. HP by 12.",
+				"fr": "Augmente les PV max. de 12 points."
+			}
+		},
+		"Max. HP +16": {
+			"en": "Max. HP +16",
+			"fr": "PV max. +16",
+			"desc": {
+				"en": "Raises max. HP by 16.",
+				"fr": "Augmente les PV max. de 16 points."
+			}
+		},
+		"Max. HP +2": {
+			"en": "Max. HP +2",
+			"fr": "PV max. +2",
+			"desc": {
+				"en": "Raises max. HP by 2.",
+				"fr": "Augmente les PV max. de 2 points."
+			}
+		},
+		"Max. HP +20": {
+			"en": "Max. HP +20",
+			"fr": "PV max. +20",
+			"desc": {
+				"en": "Raises max. HP by 20.",
+				"fr": "Augmente les PV max. de 20 points."
+			}
+		},
+		"Max. HP +24": {
+			"en": "Max. HP +24",
+			"fr": "PV max. +24",
+			"desc": {
+				"en": "Raises max. HP by 24.",
+				"fr": "Augmente les PV max. de 24 points."
+			}
+		},
+		"Max. HP +30": {
+			"en": "Max. HP +30",
+			"fr": "PV max. +30",
+			"desc": {
+				"en": "Raises max. HP by 30.",
+				"fr": "Augmente les PV max. de 30 points."
+			}
+		},
+		"Max. HP +36": {
+			"en": "Max. HP +36",
+			"fr": "PV max. +36",
+			"desc": {
+				"en": "Raises max. HP by 36."
+			}
+		},
+		"Max. HP +4": {
+			"en": "Max. HP +4",
+			"fr": "PV max. +4",
+			"desc": {
+				"en": "Raises max. HP by 4.",
+				"fr": "Augmente les PV max. de 4 points."
+			}
+		},
+		"Max. HP +48": {
+			"en": "Max. HP +48",
+			"fr": "PV max. +48",
+			"desc": {
+				"en": "Raises max. HP by 48.",
+				"fr": "Augmente les PV max. de 48 points."
+			}
+		},
+		"Max. HP +8": {
+			"en": "Max. HP +8",
+			"fr": "PV max. +8",
+			"desc": {
+				"en": "Raises max. HP by 8.",
+				"fr": "Augmente les PV max. de 8 points."
+			}
+		},
+		"Max. MP +12": {
+			"en": "Max. MP +12",
+			"fr": "PM max. +12",
+			"desc": {
+				"en": "Raises max. MP by 12.",
+				"fr": "Augmente les PM max. de 12 points."
+			}
+		},
+		"Max. MP +16": {
+			"en": "Max. MP +16",
+			"fr": "PM max. +16",
+			"desc": {
+				"en": "Raises max. MP by 16.",
+				"fr": "Augmente les PM max. de 16 points."
+			}
+		},
+		"Max. MP +24": {
+			"en": "Max. MP +24",
+			"fr": "PM max. +24",
+			"desc": {
+				"en": "Raises max. MP by 24.",
+				"fr": "Augmente les PM max. de 24 points."
+			}
+		},
+		"Max. MP +32": {
+			"en": "Max. MP +32",
+			"fr": "PM max. +32",
+			"desc": {
+				"en": "Raises max. MP by 32.",
+				"fr": "Augmente les PM max. de 32 points."
+			}
+		},
+		"Max. MP +4": {
+			"en": "Max. MP +4",
+			"fr": "PM max. +4",
+			"desc": {
+				"en": "Raises max. MP by 4.",
+				"fr": "Augmente les PM max. de 4 points."
+			}
+		},
+		"Max. MP +40": {
+			"en": "Max. MP +40",
+			"fr": "PM max. +40",
+			"desc": {
+				"en": "Raises max. MP by 40.",
+				"fr": "Augmente les PM max. de 40 points."
+			}
+		},
+		"Max. MP +48": {
+			"en": "Max. MP +48",
+			"fr": "PM max. +48",
+			"desc": {
+				"en": "Raises max. MP by 48.",
+				"fr": "Augmente les PM max. de 48 points."
+			}
+		},
+		"Max. MP +60": {
+			"en": "Max. MP +60",
+			"fr": "PM max. +60",
+			"desc": {
+				"en": "Raises max. MP by 60.",
+				"fr": "Augmente les PM max. de 60 points."
+			}
+		},
+		"Max. MP +72": {
+			"en": "Max. MP +72",
+			"fr": "PM max. +72",
+			"desc": {
+				"en": "Raises max. MP by 72.",
+				"fr": "Augmente les PM max. de 72 points."
+			}
+		},
+		"Max. MP +8": {
+			"en": "Max. MP +8",
+			"fr": "PM max. +8",
+			"desc": {
+				"en": "Raises max. MP by 8.",
+				"fr": "Augmente les PM max. de 8 points."
+			}
+		},
+		"Max. MP +96": {
+			"en": "Max. MP +96",
+			"fr": "PM max. +96",
+			"desc": {
+				"en": "Raises max. MP by 96.",
+				"fr": "Augmente les PM max. de 96 points."
+			}
+		},
+		"Medium EXP Boost": {
+			"en": "Medium EXP Boost",
+			"desc": {
+				"en": "Increases experience gained in battles."
+			}
+		},
+		"Medium Gold Boost": {
+			"en": "Medium Gold Boost",
+			"desc": {
+				"en": "Increases gold obtained in battles."
+			}
+		},
+		"Medium Item Drop Rate Boost": {
+			"en": "Medium Item Drop Rate Boost",
+			"desc": {
+				"en": "After battle, increases the drop rate of items."
+			}
+		},
+		"Metal Beater": {
+			"en": "Metal Beater",
+			"fr": "Laminage",
+			"desc": {
+				"en": "Inflicts additional damage on enemies. A higher level increases the effect. Works on enemies with the Metal Skin trait.",
+				"fr": "Augmente les dégâts infligés à l'ennemi proportionnellement au niveau du monstre attaquant. Efficace aussi contre les ennemis dotés de l'attribut Cuir d'acier."
+			}
+		},
+		"Metal Medley": {
+			"en": "Metal Medley",
+			"fr": "Métal hurlant",
+			"desc": {
+				"en": "Ignores the damage-reducing effect that the Metal Skin trait provides.",
+				"fr": "Ignore la réduction des dégâts dont bénéficient les ennemis dotés de l'attribut Cuir d'acier."
+			}
+		},
+		"Metal Skin": {
+			"en": "Metal Skin",
+			"desc": {
+				"en": "Reduces damage received by 1/3, but doubles the MP consumption of spells and abilities."
+			}
+		},
+		"Miraculous Touch": {
+			"en": "Miraculous Touch",
+			"fr": "Miraculite",
+			"desc": {
+				"en": "Regular attacks restore 1/2 of the damage they inflict on the enemy as HP.",
+				"fr": "Permet aux attaques ordinaires de restaurer en PV l'équivalent de la moitié des dégâts infligés."
+			}
+		},
+		"Naked Ambition": {
+			"en": "Naked Ambition",
+			"fr": "Rien dans les mains",
+			"desc": {
+				"en": "Increases the likelihood of critical hits and critical spells if no accessory is equipped.",
+				"fr": "Augmente les chances de coups et de sorts critiques si le monstre n'est équipé d'aucun accessoire."
+			}
+		},
+		"Naturesbane": {
+			"en": "Naturesbane",
+			"desc": {
+				"en": "Increases damage inflicted on monsters from the nature family and slightly lowers all resistances."
+			}
+		},
+		"Paralysing Touch": {
+			"en": "Paralysing Touch",
+			"fr": "Paralysite",
+			"desc": {
+				"en": "Regular attacks sometimes paralyse the enemy.",
+				"fr": "Permet parfois aux attaques ordinaires de provoquer la paralysie de l'ennemi."
+			}
+		},
+		"Parting Gift": {
+			"en": "Parting Gift",
+			"fr": "Riposte mortem",
+			"desc": {
+				"en": "Inflicts damage back on all enemies when a killer blow is received. The amount inflicted is proportional to the excess damage suffered after the monster's HP are reduced to zero."
+			}
+		},
+		"Personal Grudge": {
+			"en": "Personal Grudge",
+			"fr": "Claque de fin",
+			"desc": {
+				"en": "Greatly decreases the attack, defence, agility, and wisdom of an enemy that lands a killer blow, and stuns them for the next turn."
+			}
+		},
+		"Poisonous Touch": {
+			"en": "Poisonous Touch",
+			"fr": "Toxicite",
+			"desc": {
+				"en": "Regular attacks sometimes poison the enemy.",
+				"fr": "Permet parfois aux attaques ordinaires de provoquer l'empoisonnement de l'ennemi."
+			}
+		},
+		"Rando-Accel": {
+			"en": "Rando-Accel",
+			"fr": "Accéléro aléatoire",
+			"desc": {
+				"en": "Monster sometimes casts Accelerate on itself during battle.",
+				"fr": "Utilise parfois Accéléro sur soi-même en cours de combat."
+			}
+		},
+		"Rando-Buff": {
+			"en": "Rando-Buff",
+			"fr": "Protection aléatoire",
+			"desc": {
+				"en": "Monster sometimes casts Buff on itself during battle.",
+				"fr": "Utilise parfois Protection sur soi-même en cours de combat."
+			}
+		},
+		"Rando-Disrupt": {
+			"en": "Rando-Disrupt",
+			"desc": {
+				"en": "Sometimes uses Disruptive Wave during battle."
+			}
+		},
+		"Rando-Mister": {
+			"en": "Rando-Mister",
+			"fr": "Brume de bataille aléatoire",
+			"desc": {
+				"en": "Monster sometimes casts Mist Me on itself during battle."
+			}
+		},
+		"Rando-Muster": {
+			"en": "Rando-Muster",
+			"fr": "Concentration de force",
+			"desc": {
+				"en": "Sometimes uses Muster Strength during battle.",
+				"fr": "Utilise parfois Concentration de force en cours de combat."
+			}
+		},
+		"Rando-Oomph": {
+			"en": "Rando-Oomph",
+			"fr": "Décuplo aléatoire",
+			"desc": {
+				"en": "Monster sometimes casts Oomph on itself during battle.",
+				"fr": "Utilise parfois Décuplo sur soi-même en cours de combat."
+			}
+		},
+		"Rando-Panic": {
+			"en": "Rando-Panic",
+			"fr": "Vague de panique",
+			"desc": {
+				"en": "Monster sometimes casts Wave of Panic on itself during battle."
+			}
+		},
+		"Rando-Ping": {
+			"en": "Rando-Ping",
+			"fr": "Tintement sporadique",
+			"desc": {
+				"en": "Monster sometimes casts Ping on itself during battle.",
+				"fr": "Utilise parfois Tilt sur soi-même en cours de combat."
+			}
+		},
+		"Rando-Relief": {
+			"en": "Rando-Relief",
+			"fr": "Vague de soulagement",
+			"desc": {
+				"en": "Monster sometimes casts Wave of Relief on itself during battle."
+			}
+		},
+		"Scout Rate Boost": {
+			"en": "Scout Rate Boost",
+			"desc": {
+				"en": "Occasionally increases the success rate of scout attacks."
+			}
+		},
+		"Sizz Ward": {
+			"en": "Sizz Ward",
+			"desc": {
+				"en": "Slightly increases resistance to light-elemental attacks."
+			}
+		},
+		"Sizzmeister": {
+			"en": "Sizzmeister",
+			"fr": "Maestrocrame",
+			"desc": {
+				"en": "Increases the potency of light-elemental attacks and decreases their MP consumption.",
+				"fr": "Renforce les attaques de lumière et réduit leur coût en PM."
+			}
+		},
+		"Sleep Twitch": {
+			"en": "Sleep Twitch",
+			"fr": "Somnambulisme",
+			"desc": {
+				"en": "Attacks all enemies when the monster is asleep.",
+				"fr": "Attaque tous les ennemis même quand le monstre subit le sommeil."
+			}
+		},
+		"Sleepy Touch": {
+			"en": "Sleepy Touch",
+			"fr": "Dormite",
+			"desc": {
+				"en": "Regular attacks sometimes puts the enemy to sleep."
+			}
+		},
+		"Slick Skin": {
+			"en": "Slick Skin",
+			"fr": "Cuir verni",
+			"desc": {
+				"en": "Sometimes causes incoming direct attacks to miss."
+			}
+		},
+		"Slimesbane": {
+			"en": "Slimesbane",
+			"desc": {
+				"en": "Increases damage inflicted on monsters from the slime family and slightly lowers all resistances."
+			}
+		},
+		"Small EXP Boost": {
+			"en": "Small EXP Boost",
+			"desc": {
+				"en": "Slightly increases experience gained in battles."
+			}
+		},
+		"Small Gold Boost": {
+			"en": "Small Gold Boost",
+			"desc": {
+				"en": "Slightly increases gold obtained in battles."
+			}
+		},
+		"Small Item Drop Rate Boost": {
+			"en": "Small Item Drop Rate Boost",
+			"desc": {
+				"en": "After battle, slightly increases the drop rate of items."
+			}
+		},
+		"Snappy Comeback": {
+			"en": "Snappy Comeback",
+			"fr": "Retour de bâton",
+			"desc": {
+				"en": "Inflicts damage back on an enemy that lands a killer blow. The amount inflicted is proportional to the excess damage suffered after the monster's HP are reduced to zero.",
+				"fr": "Inflige des dégâts à l'ennemi qui a causé sa mort. Les dégâts infligés sont proportionnels à la quantité de ceux subis au-delà des PV restants du monstre."
+			}
+		},
+		"Sobering Slap": {
+			"en": "Sobering Slap",
+			"fr": "Coup de fouet",
+			"desc": {
+				"en": "Sometimes cures allies of sleep and confusion during battle."
+			}
+		},
+		"Somnolent Skin": {
+			"en": "Somnolent Skin",
+			"fr": "Cuir soporifique",
+			"desc": {
+				"en": "Sometimes puts enemies that inflict direct attacks to sleep.",
+				"fr": "Provoque parfois le sommeil des ennemis qui lui portent des attaques directes."
+			}
+		},
+		"Spellbinder": {
+			"en": "Spellbinder",
+			"desc": {
+				"en": "Slightly increases resistance to antimagic."
+			}
+		},
+		"Spiky Skin": {
+			"en": "Spiky Skin",
+			"fr": "Cuir clouté",
+			"desc": {
+				"en": "Returns 1/4 of the damage suffered from direct attacks back at the attacking enemy.",
+				"fr": "Renvoie un quart des dégâts aux ennemis qui lui portent des attaques directes."
+			}
+		},
+		"Splish Ward": {
+			"en": "Splish Ward",
+			"desc": {
+				"en": "Slightly increases resistance to water-elemental attacks."
+			}
+		},
+		"Splishmeister": {
+			"en": "Splishmeister",
+			"fr": "Maestroplouf",
+			"desc": {
+				"en": "Increases the potency of water-elemental attacks and decreases their MP consumption.",
+				"fr": "Renforce les attaques d'eau et réduit leur coût en PM."
+			}
+		},
+		"Spongy Skin": {
+			"en": "Spongy Skin",
+			"fr": "Cuir absorbant",
+			"desc": {
+				"en": "Sometimes absorbs MP from enemies that inflict direct attacks.",
+				"fr": "Absorbe parfois des PM aux ennemis qui lui portent des attaques directes."
+			}
+		},
+		"Static Discharge": {
+			"en": "Static Discharge",
+			"fr": "Décharge statique",
+			"desc": {
+				"en": "Sometimes paralyses enemies that inflict direct attacks when the monster is paralysed itself.",
+				"fr": "Provoque parfois la paralysie des ennemis qui lui portent des attaques directes, quand le monstre subit lui-même la paralysie."
+			}
+		},
+		"Strangely Alluring": {
+			"en": "Strangely Alluring",
+			"fr": "Impair et manque",
+			"desc": {
+				"en": "Sometimes stuns the enemy during battle for 1 turn.",
+				"fr": "Empêche parfois l'ennemi d'agir pendant 1 tour, en cours de combat."
+			}
+		},
+		"Strong Starter": {
+			"en": "Strong Starter",
+			"fr": "Démarrage en force",
+			"desc": {
+				"en": "Raises damage inflicted on enemies up to round 3, but lowers it from round 4 onwards.",
+				"fr": "Augmente les dégâts infligés aux ennemis jusqu'au 3e round, puis les réduit à partir du 4e."
+			}
+		},
+		"Stunning Skin": {
+			"en": "Stunning Skin",
+			"fr": "Cuir étourdissant",
+			"desc": {
+				"en": "Sometimes stuns enemies that inflict direct attacks for 1 turn.",
+				"fr": "Empêche parfois de bouger pendant 1 tour les ennemis qui lui portent des attaques directes."
+			}
+		},
+		"Stunning Touch": {
+			"en": "Stunning Touch",
+			"fr": "Étourdite",
+			"desc": {
+				"en": "Regular attacks sometimes stuns the enemy for 1 turn."
+			}
+		},
+		"Stupefying Skin": {
+			"en": "Stupefying Skin",
+			"fr": "Cuir déroutant",
+			"desc": {
+				"en": "Sometimes confuses enemies that inflict direct attacks.",
+				"fr": "Provoque parfois la confusion des ennemis qui lui portent des attaques directes."
+			}
+		},
+		"Supreme Sidestepper": {
+			"en": "Supreme Sidestepper",
+			"fr": "Esquive exclusive",
+			"desc": {
+				"en": "Makes it much easier to avoid enemy attacks.",
+				"fr": "Augmente grandement les chances d'esquiver les attaques ennemies."
+			}
+		},
+		"Tactical Commander": {
+			"en": "Tactical Commander",
+			"fr": "Supériorité tactique",
+			"desc": {
+				"en": "Performs 2 actions in a row. The number of actions is not affected if you don't issue specific orders. Lower's the monster's attributes."
+			}
+		},
+		"Tactical Genius": {
+			"en": "Tactical Genius",
+			"fr": "Génie tactique",
+			"desc": {
+				"en": "Sometimes performs 2 or 3 actions in a row. The number of actions is not affected if you don't issue specific orders. Slightly lowers the monster's attributes."
+			}
+		},
+		"Tactical Titan": {
+			"en": "Tactical Titan",
+			"fr": "Hégémonie tactique",
+			"desc": {
+				"en": "Performs 2 or 3 actions in a row. The number of actions is not affected if you don't issue specific orders. Lowers the monster's attributes."
+			}
+		},
+		"Tactical Trooper": {
+			"en": "Tactical Trooper",
+			"fr": "Avantage tactique",
+			"desc": {
+				"en": "Sometimes performs 2 actions in a row. The number of actions is not affected if you don't issue specific orders. Very slightly lowers the monster's attributes."
+			}
+		},
+		"Tit for Tat": {
+			"en": "Tit for Tat",
+			"fr": "Prêté pour un rendu",
+			"desc": {
+				"en": "When a monster is inflicted with a status ailment, the attacking enemy will have the same ailment inflicted back on them.",
+				"fr": "Inflige la même altération d'état à l'ennemi, quand le monstre en subit une."
+			}
+		},
+		"Tough Customer": {
+			"en": "Tough Customer",
+			"desc": {
+				"en": "Slightly increases resistance to debilitation."
+			}
+		},
+		"Trance State": {
+			"en": "Trance State",
+			"fr": "État de transe",
+			"desc": {
+				"en": "Greatly increases wisdom after casting a critical spell.",
+				"fr": "Augmente grandement la sagesse après avoir lancé un sort critique."
+			}
+		},
+		"Uber Beastbane": {
+			"en": "Uber Beastbane",
+			"desc": {
+				"en": "Greatly increases damage inflicted on monsters from the beast family and somewhat lowers all resistances."
+			}
+		},
+		"Uber Bossesbane": {
+			"en": "Uber Bossesbane",
+			"desc": {
+				"en": "Greatly increases damage inflicted on monsters from the ??? family and somewhat lowers all resistances."
+			}
+		},
+		"Uber Demonsbane": {
+			"en": "Uber Demonsbane",
+			"desc": {
+				"en": "Greatly increases damage inflicted on monsters from the demon family and somewhat lowers all resistances."
+			}
+		},
+		"Uber Dragonsbane": {
+			"en": "Uber Dragonsbane",
+			"desc": {
+				"en": "Greatly increases damage inflicted on monsters from the dragon family and somewhat lowers all resistances."
+			}
+		},
+		"Uber Matterbane": {
+			"en": "Uber Matterbane",
+			"desc": {
+				"en": "Greatly increases damage inflicted on monsters from the material family and somewhat lowers all resistances."
+			}
+		},
+		"Uber Naturesbane": {
+			"en": "Uber Naturesbane",
+			"desc": {
+				"en": "Greatly increases damage inflicted on monsters from the nature family and somewhat lowers all resistances."
+			}
+		},
+		"Uber Slimesbane": {
+			"en": "Uber Slimesbane",
+			"desc": {
+				"en": "Greatly increases damage inflicted on monsters from the slime family and somewhat lowers all resistances."
+			}
+		},
+		"Uber Zombiesbane": {
+			"en": "Uber Zombiesbane",
+			"desc": {
+				"en": "Greatly increases damage inflicted on monsters from the undead family and somewhat lowers all resistances."
 			}
 		},
 		"Ultra Antioxidant": {
@@ -1138,205 +1775,12 @@
 				"fr": "Augmente grandement la résistance aux attaques de foudre."
 			}
 		},
-		"Bangmeister": {
-			"en": "Bangmeister",
-			"fr": "Maestrobang",
+		"Unhealthy Advantage": {
+			"en": "Unhealthy Advantage",
+			"fr": "Loi du plus faible",
 			"desc": {
-				"en": "Increases the potency of explosive attacks and decreases their MP consumption.",
-				"fr": "Renforce les attaques d'explosion et réduit leur coût en PM."
-			}
-		},
-		"Crackmeister": {
-			"en": "Crackmeister",
-			"fr": "Maestroglace",
-			"desc": {
-				"en": "Increases the potency of ice-elemental attacks and decreases their MP consumption.",
-				"fr": "Renforce les attaques de glace et réduit leur coût en PM."
-			}
-		},
-		"Cragmeister": {
-			"en": "Cragmeister",
-			"fr": "Maestroséisme",
-			"desc": {
-				"en": "Increases the potency of earth-elemental attacks and decreases their MP consumption.",
-				"fr": "Renforce les attaques de terre et réduit leur coût en PM."
-			}
-		},
-		"Frizzmeister": {
-			"en": "Frizzmeister",
-			"fr": "Maestroflamme",
-			"desc": {
-				"en": "Increases the potency of fire-elemental attacks and decreases their MP consumption.",
-				"fr": "Renforce les attaques de feu et réduit leur coût en PM."
-			}
-		},
-		"Sizzmeister": {
-			"en": "Sizzmeister",
-			"fr": "Maestrocrame",
-			"desc": {
-				"en": "Increases the potency of light-elemental attacks and decreases their MP consumption.",
-				"fr": "Renforce les attaques de lumière et réduit leur coût en PM."
-			}
-		},
-		"Splishmeister": {
-			"en": "Splishmeister",
-			"fr": "Maestroplouf",
-			"desc": {
-				"en": "Increases the potency of water-elemental attacks and decreases their MP consumption.",
-				"fr": "Renforce les attaques d'eau et réduit leur coût en PM."
-			}
-		},
-		"Wooshmeister": {
-			"en": "Wooshmeister",
-			"fr": "Maestrotornade",
-			"desc": {
-				"en": "Increases the potency of wind-elemental attacks and decreases their MP consumption.",
-				"fr": "Renforce les attaques de vent et réduit leur coût en PM."
-			}
-		},
-		"Zammeister": {
-			"en": "Zammeister",
-			"fr": "Maestroélec",
-			"desc": {
-				"en": "Increases the potency of dark-elemental attacks and decreases their MP consumption.",
-				"fr": "Renforce les attaques de ténèbres et réduit leur coût en PM."
-			}
-		},
-		"Zapmeister": {
-			"en": "Zapmeister",
-			"fr": "Maestrofoudre",
-			"desc": {
-				"en": "Increases the potency of electric-elemental attacks and decreases their MP consumption."
-			}
-		},
-		"Antioxidant": {
-			"en": "Antioxidant",
-			"desc": {
-				"en": "Slightly increases resistance to poison and severe poison."
-			}
-		},
-		"Artful Dodger": {
-			"en": "Artful Dodger",
-			"desc": {
-				"en": "Slightly increases the chance of evading enemy attacks."
-			}
-		},
-		"Auto-Cadabra": {
-			"en": "Auto-Cadabra",
-			"fr": "Automagication",
-			"desc": {
-				"en": "Restores a small amount of MP after each action.",
-				"fr": "Restaure légèrement les PM après chaque action."
-			}
-		},
-		"Auto-Restora": {
-			"en": "Auto-Restora",
-			"fr": "Automédication",
-			"desc": {
-				"en": "Restores a small amount of HP after each action.",
-				"fr": "Restaure légèrement les PV après chaque action."
-			}
-		},
-		"Bang Ward": {
-			"en": "Bang Ward",
-			"desc": {
-				"en": "Slightly increases resistance to explosive-elemental attacks."
-			}
-		},
-		"Clear Thinker": {
-			"en": "Clear Thinker",
-			"desc": {
-				"en": "Slightly increases resistance to confusion."
-			}
-		},
-		"Crack Ward": {
-			"en": "Crack Ward",
-			"desc": {
-				"en": "Slightly increases resistance to ice-elemental attacks."
-			}
-		},
-		"Crag Ward": {
-			"en": "Crag Ward",
-			"desc": {
-				"en": "Slightly increases resistance to earth-elemental attacks."
-			}
-		},
-		"Critical Favorite": {
-			"en": "Critical Favorite",
-			"desc": {
-				"en": "Slightly increases the chance of critical hits."
-			}
-		},
-		"Critical Thinker": {
-			"en": "Critical Thinker",
-			"desc": {
-				"en": "Slightly increases the chance of magical surges."
-			}
-		},
-		"Death Defier": {
-			"en": "Death Defier",
-			"desc": {
-				"en": "Slighty increases resistance to instant death."
-			}
-		},
-		"Drain Blocker": {
-			"en": "Drain Blocker",
-			"desc": {
-				"en": "Slightly increases resistance to MP absorption."
-			}
-		},
-		"Fidget": {
-			"en": "Fidget",
-			"desc": {
-				"en": "Slightly increases resistance to paralysis."
-			}
-		},
-		"Frizz Ward": {
-			"en": "Frizz Ward",
-			"desc": {
-				"en": "Slightly increases resistance to fire-elemental attacks."
-			}
-		},
-		"Granite Chin": {
-			"en": "Granite Chin",
-			"desc": {
-				"en": "Slightly increases resistance to being stunned."
-			}
-		},
-		"Insomniac": {
-			"en": "Insomniac",
-			"desc": {
-				"en": "Slightly increases resistance to being put to sleep."
-			}
-		},
-		"MP Cost Reduction": {
-			"en": "MP Cost Reduction",
-			"desc": {
-				"en": "Reduces MP consumption to 3/4."
-			}
-		},
-		"Sizz Ward": {
-			"en": "Sizz Ward",
-			"desc": {
-				"en": "Slightly increases resistance to light-elemental attacks."
-			}
-		},
-		"Spellbinder": {
-			"en": "Spellbinder",
-			"desc": {
-				"en": "Slightly increases resistance to antimagic."
-			}
-		},
-		"Splish Ward": {
-			"en": "Splish Ward",
-			"desc": {
-				"en": "Slightly increases resistance to water-elemental attacks."
-			}
-		},
-		"Tough Customer": {
-			"en": "Tough Customer",
-			"desc": {
-				"en": "Slightly increases resistance to debilitation."
+				"en": "Inflicts increasing amounts of damage as remaining HP gets lower.",
+				"fr": "Augmente les dégâts infligés à l'ennemi proportionnellement aux PV manquant au monstre."
 			}
 		},
 		"Visionary": {
@@ -1345,560 +1789,84 @@
 				"en": "Slightly increases resistance to bedazzlement."
 			}
 		},
-		"Woosh Ward": {
-			"en": "Woosh Ward",
+		"Wisdom +16": {
+			"en": "Wisdom +16",
+			"fr": "Sagesse +16",
 			"desc": {
-				"en": "Slightly increases resistance to wind-elemental attacks."
+				"en": "Raises wisdom by 16.",
+				"fr": "Augmente la sagesse de 16 points."
 			}
 		},
-		"Zam Ward": {
-			"en": "Zam Ward",
+		"Wisdom +24": {
+			"en": "Wisdom +24",
+			"fr": "Sagesse +24",
 			"desc": {
-				"en": "Slightly increases resistance to dark-elemental attacks."
+				"en": "Raises wisdom by 24.",
+				"fr": "Augmente la sagesse de 24 points."
 			}
 		},
-		"Zap Ward": {
-			"en": "Zap Ward",
+		"Wisdom +32": {
+			"en": "Wisdom +32",
+			"fr": "Sagesse +32",
 			"desc": {
-				"en": "Slightly increases resistance to electrical-elemental attacks."
+				"en": "Raises wisdom by 32.",
+				"fr": "Augmente la sagesse de 32 points."
 			}
 		},
-		"Absorbent Touch": {
-			"en": "Absorbent Touch",
-			"fr": "Absorbéite",
+		"Wisdom +4": {
+			"en": "Wisdom +4",
+			"fr": "Sagesse +4",
 			"desc": {
-				"en": "Regular attacks sometimes absorb a portion of the enemy's MP.",
-				"fr": "Permet parfois aux attaques ordinaires d'absorber des PM à l'ennemi."
+				"en": "Raises wisdom by 4.",
+				"fr": "Augmente la sagesse de 4 points."
 			}
 		},
-		"Ace Evader": {
-			"en": "Ace Evader",
-			"fr": "Exquise esquive",
+		"Wisdom +40": {
+			"en": "Wisdom +40",
+			"fr": "Sagesse +40",
 			"desc": {
-				"en": "Makes it somewhat easier to avoid enemy attacks.",
-				"fr": "Augmente les chances d'esquiver les attaques ennemies."
+				"en": "Raises wisdom by 40.",
+				"fr": "Augmente la sagesse de 40 points."
 			}
 		},
-		"Agent of Chaos": {
-			"en": "Agent of Chaos",
-			"fr": "Agent du chaos",
+		"Wisdom +48": {
+			"en": "Wisdom +48",
+			"fr": "Sagesse +48",
 			"desc": {
-				"en": "Always attacks an enemy when the monster is confused. Successful strikes inflict critical hits.",
-				"fr": "Attaque l'ennemi même quand le monstre subit la confusion, et inflige un coup critique en cas d'attaque réussie."
+				"en": "Raises wisdom by 48.",
+				"fr": "Augmente la sagesse de 48 points."
 			}
 		},
-		"Benefaction": {
-			"en": "Benefaction",
-			"fr": "Œuvre de bienfaisance",
+		"Wisdom +60": {
+			"en": "Wisdom +60",
+			"fr": "Sagesse +60",
 			"desc": {
-				"en": "Massively increases the attack, defence, agility and wisdom of allies when a killer blow is received."
+				"en": "Raises wisdom by 60.",
+				"fr": "Augmente la sagesse de 60 points."
 			}
 		},
-		"Big Bully": {
-			"en": "Big Bully",
-			"fr": "Gros méchant",
+		"Wisdom +72": {
+			"en": "Wisdom +72",
+			"fr": "Sagesse +72",
 			"desc": {
-				"en": "Increases damage inflicted on L-size monsters.",
-				"fr": "Augmente les dégâts infligés aux monstres de taille G."
+				"en": "Raises wisdom by 72.",
+				"fr": "Augmente la sagesse de 72 points."
 			}
 		},
-		"Bigger Upper": {
-			"en": "Bigger Upper",
-			"fr": "Rallonge",
+		"Wisdom +8": {
+			"en": "Wisdom +8",
+			"fr": "Sagesse +8",
 			"desc": {
-				"en": "Extends the duration of skills that raise the strength, defence, agility, or wisdom of allies to 5 turns. In addition, randomly grants invincibility, the ability to reflect spells or breath attacks, or raises evasion."
+				"en": "Raises wisdom by 8.",
+				"fr": "Augmente la sagesse de 8 points."
 			}
 		},
-		"Castslasher": {
-			"en": "Castslasher",
-			"fr": "Super promo magique",
+		"Wisdom +96": {
+			"en": "Wisdom +96",
+			"fr": "Sagesse +96",
 			"desc": {
-				"en": "Reduces MP consumption by 1/2.",
-				"fr": "Réduit de moitié les coûts en PM."
-			}
-		},
-		"Close Scraper": {
-			"en": "Close Scraper",
-			"fr": "Moins une",
-			"desc": {
-				"en": "Sometimes allows the monster to survive at 1 HP after suffering an attack that would otherwise kill it.",
-				"fr": "Permet parfois au monstre de survivre avec 1 PV restant après avoir subi des dégâts qui auraient dû le faire tomber au combat."
-			}
-		},
-		"Collective Punishment": {
-			"en": "Collective Punishment",
-			"fr": "Punition collective",
-			"desc": {
-				"en": "Attacks that do more damage as the attack attribute increases will strike all enemies instead of a single target."
-			}
-		},
-		"Confusing Touch": {
-			"en": "Confusing Touch",
-			"fr": "Confusite",
-			"desc": {
-				"en": "Regular attacks sometimes confuse the enemy.",
-				"fr": "Permet parfois aux attaques ordinaires de provoquer la confusion de l'ennemi."
-			}
-		},
-		"Critical Mastermind": {
-			"en": "Critical Mastermind",
-			"fr": "Analyse critique",
-			"desc": {
-				"en": "Makes it much easier to cast critical spells.",
-				"fr": "Augmente grandement les chances de lancer des sorts critiques."
-			}
-		},
-		"Critical Moment": {
-			"en": "Critical Moment",
-			"fr": "Instant critique",
-			"desc": {
-				"en": "Makes it easier to inflict critical hits when HP drops to 1/2, and even more so when HP drops to 1/4.",
-				"fr": "Augmente les chances d'effectuer des coups critiques quand les PV sont réduits de moitié, et encore davantage lorsque les PV sont réduits de 3/4."
-			}
-		},
-		"Critical Sensation": {
-			"en": "Critical Sensation",
-			"fr": "Déluge de critiques",
-			"desc": {
-				"en": "Makes it much easier to inflict critical hits.",
-				"fr": "Augmente grandement les chances d'effectuer des coups critiques."
-			}
-		},
-		"Critical Theorist": {
-			"en": "Critical Theorist",
-			"fr": "Réflexion critique",
-			"desc": {
-				"en": "Makes it somewhat easier to cast critical spells.",
-				"fr": "Augmente les chances de lancer des sorts critiques."
-			}
-		},
-		"Critical Triumph": {
-			"en": "Critical Triumph",
-			"fr": "Flot de critiques",
-			"desc": {
-				"en": "Makes it somewhat easier to inflict critical hits.",
-				"fr": "Augmente les chances d'effectuer des coups critiques."
-			}
-		},
-		"Deadly Touch": {
-			"en": "Deadly Touch",
-			"fr": "Morsubite",
-			"desc": {
-				"en": "Regular attacks sometimes kill the enemy instantly.",
-				"fr": "Permet parfois aux attaques ordinaires de provoquer la mort subite de l'ennemi."
-			}
-		},
-		"Decontaminate": {
-			"en": "Decontaminate",
-			"fr": "Cure de jouvence",
-			"desc": {
-				"en": "Sometimes cures allies of sleep, confusion, poison, severe poison, and paralysis during battle."
-			}
-		},
-		"Defensive Impulse": {
-			"en": "Defensive Impulse",
-			"fr": "Pulsion de défense",
-			"desc": {
-				"en": "Reduces damage received when HP drops to 1/2."
-			}
-		},
-		"Desperate Measures": {
-			"en": "Desperate Measures",
-			"fr": "Mesures désespérées",
-			"desc": {
-				"en": "Negates all damage suffered from critical hits and critical spells.",
-				"fr": "Annule tous les dégâts infligés par des coups critiques et des sorts critiques."
-			}
-		},
-		"Detox": {
-			"en": "Detox",
-			"fr": "Détox",
-			"desc": {
-				"en": "Sometimes cures allies of poison, severe poison, and paralysis during battle."
-			}
-		},
-		"Dodge Denier": {
-			"en": "Dodge Denier",
-			"fr": "Anti-esquive",
-			"desc": {
-				"en": "Ensures the enemy cannot avoid attacks.",
-				"fr": "Rend les esquives impossibles pour les ennemis."
-			}
-		},
-		"Echonomist": {
-			"en": "Echonomist",
-			"fr": "Écho favorable",
-			"desc": {
-				"en": "Sometimes casts the same spell twice. Consumes slightly more MP than usual.",
-				"fr": "Lance parfois 2 fois le même sort. Augmente légèrement le coût en PM."
-			}
-		},
-		"Evasive Impulse": {
-			"en": "Evasive Impulse",
-			"fr": "Pulsion d'esquive",
-			"desc": {
-				"en": "Sometimes increases evasion and greatly increases agility during battle when HP has dropped to 1/2. Only activates once per battle.",
-				"fr": "Augmente parfois l'esquive, et grandement l'agilité, quand les PV sont réduits de moitié en cours de combat. Ne s'active qu'une fois par combat."
-			}
-		},
-		"Health Professional": {
-			"en": "Health Professional",
-			"fr": "Professionnel de santé",
-			"desc": {
-				"en": "Increases the potency of healing skills and decreases their MP consumption.",
-				"fr": "Renforce l'effet des compétences de soin et réduit leur coût en PM."
-			}
-		},
-		"Heaven-Sent": {
-			"en": "Heaven-Sent",
-			"fr": "Super manne",
-			"desc": {
-				"en": "Sometimes greatly increases attack, defence, agility, or wisdom during battle."
-			}
-		},
-		"High Heal": {
-			"en": "High Heal",
-			"fr": "Soins intensifs",
-			"desc": {
-				"en": "Sometimes restores 80 or more HP to all allies during battle. Higher wisdom makes the healing effect more powerful.",
-				"fr": "Restaure parfois au moins 80 PV à tous les alliés en cours de combat. La quantité de PV restaurés est proportionnelle à la sagesse du monstre utilisateur."
-			}
-		},
-		"Hothead": {
-			"en": "Hothead",
-			"desc": {
-				"en": "Makes it easier to activate a frenzied state, turning the monster into a formidable fighting force."
-			}
-		},
-		"Infected Skin": {
-			"en": "Infected Skin",
-			"fr": "Cuir toxique",
-			"desc": {
-				"en": "Sometimes poisons enemies that inflict indirect attacks."
-			}
-		},
-		"Insensitive Skin": {
-			"en": "Insensitive Skin",
-			"fr": "Cuir paralysant",
-			"desc": {
-				"en": "Sometimes paralyses enemies that inflict direct attacks.",
-				"fr": "Provoque parfois la paralysie des ennemis qui lui portent des attaques directes."
-			}
-		},
-		"Insult to Injury": {
-			"en": "Insult to Injury",
-			"fr": "Mal en pis",
-			"desc": {
-				"en": "Increases damage inflicted on enemies that are poisoned, severely poisoned, stunned, asleep, confused, or paralysed."
-			}
-		},
-		"Intimidating": {
-			"en": "Intimidating",
-			"fr": "Hors pair",
-			"desc": {
-				"en": "Sometimes stuns the enemy during battle for 1 turn.",
-				"fr": "Empêche parfois l'ennemi d'agir pendant 1 tour, en cours de combat."
-			}
-		},
-		"Large Gold Boost": {
-			"en": "Large Gold Boost",
-			"desc": {
-				"en": "Significantly increases gold obtained in battles."
-			}
-		},
-		"Last Gasp": {
-			"en": "Last Gasp",
-			"fr": "Dernier souffle",
-			"desc": {
-				"en": "Revives a single ally after it falls in battle. Only works once per battle.",
-				"fr": "Ressuscite un allié tombé au combat. Utilisable une fois par combat."
-			}
-		},
-		"Last Legs": {
-			"en": "Last Legs",
-			"fr": "In extremis",
-			"desc": {
-				"en": "Allows the monster to survive at 1 HP after suffering an attack that would otherwise kill it.",
-				"fr": "Permet 1 fois au monstre de survivre avec 1 PV restant après avoir subi des dégâts qui auraient dû le faire tomber au combat."
-			}
-		},
-		"Late Bloomer": {
-			"en": "Late Bloomer",
-			"fr": "Course de fond",
-			"desc": {
-				"en": "Increases attack, defence, agility, and wisdom from round 3 onwards, and even more so from round 6."
-			}
-		},
-		"Little Menace": {
-			"en": "Little Menace",
-			"fr": "Petite frappe",
-			"desc": {
-				"en": "Increases damage inflicted on S-size monsters.",
-				"fr": "Augmente les dégâts infligés aux monstres de taille P."
-			}
-		},
-		"Low Heal": {
-			"en": "Low Heal",
-			"fr": "Petits soins",
-			"desc": {
-				"en": "Sometimes restores 30 or more HP to all allies during battle. Higher wisdom makes the healing effect more powerful.",
-				"fr": "Restaure parfois au moins 30 PV à tous les alliés en cours de combat. La quantité de PV restaurés est proportionnelle à la sagesse du monstre utilisateur."
-			}
-		},
-		"Magical Moment": {
-			"en": "Magical Moment",
-			"fr": "Génie critique",
-			"desc": {
-				"en": "Makes it easier to cast critical spells when HP drops to 1/2, and even more so when HP drops to 1/4."
-			}
-		},
-		"Major Downer": {
-			"en": "Major Downer",
-			"fr": "Coup de rabot",
-			"desc": {
-				"en": "Extends the duration of skills lower the strength, defence, agility, or wisdom of enemies to 5 turns. In addition, randomly prevents breath attacks, critical hits, or the casting of magic, or bedazzles the enemy."
-			}
-		},
-		"Medium EXP Boost": {
-			"en": "Medium EXP Boost",
-			"desc": {
-				"en": "Increases experience gained in battles."
-			}
-		},
-		"Medium Gold Boost": {
-			"en": "Medium Gold Boost",
-			"desc": {
-				"en": "Increases gold obtained in battles."
-			}
-		},
-		"Medium Item Drop Rate Boost": {
-			"en": "Medium Item Drop Rate Boost",
-			"desc": {
-				"en": "After battle, increases the drop rate of items."
-			}
-		},
-		"Metal Beater": {
-			"en": "Metal Beater",
-			"fr": "Laminage",
-			"desc": {
-				"en": "Inflicts additional damage on enemies. A higher level increases the effect. Works on enemies with the Metal Skin trait.",
-				"fr": "Augmente les dégâts infligés à l'ennemi proportionnellement au niveau du monstre attaquant. Efficace aussi contre les ennemis dotés de l'attribut Cuir d'acier."
-			}
-		},
-		"Metal Medley": {
-			"en": "Metal Medley",
-			"fr": "Métal hurlant",
-			"desc": {
-				"en": "Ignores the damage-reducing effect that the Metal Skin trait provides.",
-				"fr": "Ignore la réduction des dégâts dont bénéficient les ennemis dotés de l'attribut Cuir d'acier."
-			}
-		},
-		"Metal Skin": {
-			"en": "Metal Skin",
-			"desc": {
-				"en": "Reduces damage received by 1/3, but doubles the MP consumption of spells and abilities."
-			}
-		},
-		"Miraculous Touch": {
-			"en": "Miraculous Touch",
-			"fr": "Miraculite",
-			"desc": {
-				"en": "Regular attacks restore 1/2 of the damage they inflict on the enemy as HP.",
-				"fr": "Permet aux attaques ordinaires de restaurer en PV l'équivalent de la moitié des dégâts infligés."
-			}
-		},
-		"Naked Ambition": {
-			"en": "Naked Ambition",
-			"fr": "Rien dans les mains",
-			"desc": {
-				"en": "Increases the likelihood of critical hits and critical spells if no accessory is equipped.",
-				"fr": "Augmente les chances de coups et de sorts critiques si le monstre n'est équipé d'aucun accessoire."
-			}
-		},
-		"Paralysing Touch": {
-			"en": "Paralysing Touch",
-			"fr": "Paralysite",
-			"desc": {
-				"en": "Regular attacks sometimes paralyse the enemy.",
-				"fr": "Permet parfois aux attaques ordinaires de provoquer la paralysie de l'ennemi."
-			}
-		},
-		"Parting Gift": {
-			"en": "Parting Gift",
-			"fr": "Riposte mortem",
-			"desc": {
-				"en": "Inflicts damage back on all enemies when a killer blow is received. The amount inflicted is proportional to the excess damage suffered after the monster's HP are reduced to zero."
-			}
-		},
-		"Personal Grudge": {
-			"en": "Personal Grudge",
-			"fr": "Claque de fin",
-			"desc": {
-				"en": "Greatly decreases the attack, defence, agility, and wisdom of an enemy that lands a killer blow, and stuns them for the next turn."
-			}
-		},
-		"Poisonous Touch": {
-			"en": "Poisonous Touch",
-			"fr": "Toxicite",
-			"desc": {
-				"en": "Regular attacks sometimes poison the enemy.",
-				"fr": "Permet parfois aux attaques ordinaires de provoquer l'empoisonnement de l'ennemi."
-			}
-		},
-		"Scout Rate Boost": {
-			"en": "Scout Rate Boost",
-			"desc": {
-				"en": "Occasionally increases the success rate of scout attacks."
-			}
-		},
-		"Sleep Twitch": {
-			"en": "Sleep Twitch",
-			"fr": "Somnambulisme",
-			"desc": {
-				"en": "Attacks all enemies when the monster is asleep.",
-				"fr": "Attaque tous les ennemis même quand le monstre subit le sommeil."
-			}
-		},
-		"Sleepy Touch": {
-			"en": "Sleepy Touch",
-			"fr": "Dormite",
-			"desc": {
-				"en": "Regular attacks sometimes puts the enemy to sleep."
-			}
-		},
-		"Slick Skin": {
-			"en": "Slick Skin",
-			"fr": "Cuir verni",
-			"desc": {
-				"en": "Sometimes causes incoming direct attacks to miss."
-			}
-		},
-		"Small EXP Boost": {
-			"en": "Small EXP Boost",
-			"desc": {
-				"en": "Slightly increases experience gained in battles."
-			}
-		},
-		"Small Gold Boost": {
-			"en": "Small Gold Boost",
-			"desc": {
-				"en": "Slightly increases gold obtained in battles."
-			}
-		},
-		"Small Item Drop Rate Boost": {
-			"en": "Small Item Drop Rate Boost",
-			"desc": {
-				"en": "After battle, slightly increases the drop rate of items."
-			}
-		},
-		"Snappy Comeback": {
-			"en": "Snappy Comeback",
-			"fr": "Retour de bâton",
-			"desc": {
-				"en": "Inflicts damage back on an enemy that lands a killer blow. The amount inflicted is proportional to the excess damage suffered after the monster's HP are reduced to zero.",
-				"fr": "Inflige des dégâts à l'ennemi qui a causé sa mort. Les dégâts infligés sont proportionnels à la quantité de ceux subis au-delà des PV restants du monstre."
-			}
-		},
-		"Sobering Slap": {
-			"en": "Sobering Slap",
-			"fr": "Coup de fouet",
-			"desc": {
-				"en": "Sometimes cures allies of sleep and confusion during battle."
-			}
-		},
-		"Somnolent Skin": {
-			"en": "Somnolent Skin",
-			"fr": "Cuir soporifique",
-			"desc": {
-				"en": "Sometimes puts enemies that inflict direct attacks to sleep.",
-				"fr": "Provoque parfois le sommeil des ennemis qui lui portent des attaques directes."
-			}
-		},
-		"Spiky Skin": {
-			"en": "Spiky Skin",
-			"fr": "Cuir clouté",
-			"desc": {
-				"en": "Returns 1/4 of the damage suffered from direct attacks back at the attacking enemy.",
-				"fr": "Renvoie un quart des dégâts aux ennemis qui lui portent des attaques directes."
-			}
-		},
-		"Spongy Skin": {
-			"en": "Spongy Skin",
-			"fr": "Cuir absorbant",
-			"desc": {
-				"en": "Sometimes absorbs MP from enemies that inflict direct attacks.",
-				"fr": "Absorbe parfois des PM aux ennemis qui lui portent des attaques directes."
-			}
-		},
-		"Static Discharge": {
-			"en": "Static Discharge",
-			"fr": "Décharge statique",
-			"desc": {
-				"en": "Sometimes paralyses enemies that inflict direct attacks when the monster is paralysed itself.",
-				"fr": "Provoque parfois la paralysie des ennemis qui lui portent des attaques directes, quand le monstre subit lui-même la paralysie."
-			}
-		},
-		"Strangely Alluring": {
-			"en": "Strangely Alluring",
-			"fr": "Impair et manque",
-			"desc": {
-				"en": "Sometimes stuns the enemy during battle for 1 turn.",
-				"fr": "Empêche parfois l'ennemi d'agir pendant 1 tour, en cours de combat."
-			}
-		},
-		"Strong Starter": {
-			"en": "Strong Starter",
-			"fr": "Démarrage en force",
-			"desc": {
-				"en": "Raises damage inflicted on enemies up to round 3, but lowers it from round 4 onwards.",
-				"fr": "Augmente les dégâts infligés aux ennemis jusqu'au 3e round, puis les réduit à partir du 4e."
-			}
-		},
-		"Stunning Skin": {
-			"en": "Stunning Skin",
-			"fr": "Cuir étourdissant",
-			"desc": {
-				"en": "Sometimes stuns enemies that inflict direct attacks for 1 turn.",
-				"fr": "Empêche parfois de bouger pendant 1 tour les ennemis qui lui portent des attaques directes."
-			}
-		},
-		"Stunning Touch": {
-			"en": "Stunning Touch",
-			"fr": "Étourdite",
-			"desc": {
-				"en": "Regular attacks sometimes stuns the enemy for 1 turn."
-			}
-		},
-		"Stupefying Skin": {
-			"en": "Stupefying Skin",
-			"fr": "Cuir déroutant",
-			"desc": {
-				"en": "Sometimes confuses enemies that inflict direct attacks.",
-				"fr": "Provoque parfois la confusion des ennemis qui lui portent des attaques directes."
-			}
-		},
-		"Supreme Sidestepper": {
-			"en": "Supreme Sidestepper",
-			"fr": "Esquive exclusive",
-			"desc": {
-				"en": "Makes it much easier to avoid enemy attacks.",
-				"fr": "Augmente grandement les chances d'esquiver les attaques ennemies."
-			}
-		},
-		"Tit for Tat": {
-			"en": "Tit for Tat",
-			"fr": "Prêté pour un rendu",
-			"desc": {
-				"en": "When a monster is inflicted with a status ailment, the attacking enemy will have the same ailment inflicted back on them.",
-				"fr": "Inflige la même altération d'état à l'ennemi, quand le monstre en subit une."
-			}
-		},
-		"Unhealthy Advantage": {
-			"en": "Unhealthy Advantage",
-			"fr": "Loi du plus faible",
-			"desc": {
-				"en": "Inflicts increasing amounts of damage as remaining HP gets lower.",
-				"fr": "Augmente les dégâts infligés à l'ennemi proportionnellement aux PV manquant au monstre."
+				"en": "Raises wisdom by 96.",
+				"fr": "Augmente la sagesse de 96 points."
 			}
 		},
 		"Wizardly Waft": {
@@ -1914,6 +1882,53 @@
 			"fr": "Bourrasque magique",
 			"desc": {
 				"en": "Sometimes restores 5 or more MP to all allies during battle. Higher wisdom makes the healing effect more powerfull."
+			}
+		},
+		"Woosh Ward": {
+			"en": "Woosh Ward",
+			"desc": {
+				"en": "Slightly increases resistance to wind-elemental attacks."
+			}
+		},
+		"Wooshmeister": {
+			"en": "Wooshmeister",
+			"fr": "Maestrotornade",
+			"desc": {
+				"en": "Increases the potency of wind-elemental attacks and decreases their MP consumption.",
+				"fr": "Renforce les attaques de vent et réduit leur coût en PM."
+			}
+		},
+		"Zam Ward": {
+			"en": "Zam Ward",
+			"desc": {
+				"en": "Slightly increases resistance to dark-elemental attacks."
+			}
+		},
+		"Zammeister": {
+			"en": "Zammeister",
+			"fr": "Maestroélec",
+			"desc": {
+				"en": "Increases the potency of dark-elemental attacks and decreases their MP consumption.",
+				"fr": "Renforce les attaques de ténèbres et réduit leur coût en PM."
+			}
+		},
+		"Zap Ward": {
+			"en": "Zap Ward",
+			"desc": {
+				"en": "Slightly increases resistance to electrical-elemental attacks."
+			}
+		},
+		"Zapmeister": {
+			"en": "Zapmeister",
+			"fr": "Maestrofoudre",
+			"desc": {
+				"en": "Increases the potency of electric-elemental attacks and decreases their MP consumption."
+			}
+		},
+		"Zombiesbane": {
+			"en": "Zombiesbane",
+			"desc": {
+				"en": "Increases damage inflicted on monsters from the undead family and slightly lowers all resistances."
 			}
 		}
 	},

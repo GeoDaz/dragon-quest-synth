@@ -4,12 +4,10 @@ export interface MonsterDrop {
 	rare?: boolean;
 }
 
-export interface MonsterTraits {
-	always?: string;
-	level20?: string;
-	level40?: string;
-	largeAlways?: string[];
-	largeLevel60?: string;
+export interface MonsterTrait {
+	name: string;
+	level: number;
+	large?: boolean;
 }
 
 export interface MonsterStats {
@@ -27,7 +25,7 @@ export interface MonsterDetails {
 	eggColor?: string;
 	stats?: MonsterStats;
 	resistances?: { [key: string]: number };
-	traits?: MonsterTraits;
+	traits?: MonsterTrait[];
 	skill?: string;
 	randomSkills?: string[];
 	scoutable?: boolean;

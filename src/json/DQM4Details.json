@@ -23,16 +23,35 @@
 			"poison": -25,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "やいばのボディ",
-			"level20": "ねがえり",
-			"level40": "ときどきスカラ",
-			"largeAlways": [
-				"行動回数１から２",
-				"癒しの大力"
-			],
-			"largeLevel60": "会心かんぜんガード"
-		},
+		"traits": [
+			{
+				"name": "やいばのボディ",
+				"level": 1
+			},
+			{
+				"name": "ねがえり",
+				"level": 20
+			},
+			{
+				"name": "ときどきスカラ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "癒しの大力",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "会心かんぜんガード",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ぼうぎょ",
 		"drops": [
 			{
@@ -69,16 +88,35 @@
 			"poison": 50,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "きょうせんし",
-			"level20": "いきなりピオラ",
-			"level40": "プレッシャー",
-			"largeAlways": [
-				"行動回数２",
-				"くじけぬ心"
-			],
-			"largeLevel60": "闇ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "きょうせんし",
+				"level": 1
+			},
+			{
+				"name": "いきなりピオラ",
+				"level": 20
+			},
+			{
+				"name": "プレッシャー",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "くじけぬ心",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "闇ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ダウナー",
 		"drops": [
 			{
@@ -117,16 +155,35 @@
 			"rest": -25,
 			"poison": 25
 		},
-		"traits": {
-			"always": "きょうせんし",
-			"level20": "みかわしアップ大",
-			"level40": "ときどきバイキルト",
-			"largeAlways": [
-				"行動回数１から３",
-				"最後のあがき"
-			],
-			"largeLevel60": "全体攻撃"
-		},
+		"traits": [
+			{
+				"name": "きょうせんし",
+				"level": 1
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 20
+			},
+			{
+				"name": "ときどきバイキルト",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "最後のあがき",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "全体攻撃",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "あばれんぼう",
 		"drops": [
 			{
@@ -164,16 +221,35 @@
 			"sleep": -25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "くじけぬ心",
-			"level20": "徒手空拳",
-			"level40": "ピンチで会心",
-			"largeAlways": [
-				"行動回数１から３",
-				"ときどきスカラ"
-			],
-			"largeLevel60": "根に持つタイプ"
-		},
+		"traits": [
+			{
+				"name": "くじけぬ心",
+				"level": 1
+			},
+			{
+				"name": "徒手空拳",
+				"level": 20
+			},
+			{
+				"name": "ピンチで会心",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ときどきスカラ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "根に持つタイプ",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "あばれんぼう",
 		"drops": [
 			{
@@ -210,16 +286,35 @@
 			"rest": 50,
 			"poison": 50
 		},
-		"traits": {
-			"always": "ときどきバイキルト",
-			"level20": "メタルハンター",
-			"level40": "ショック攻撃",
-			"largeAlways": [
-				"行動回数１から３",
-				"きょうせんし"
-			],
-			"largeLevel60": "休みブレイク大"
-		},
+		"traits": [
+			{
+				"name": "ときどきバイキルト",
+				"level": 1
+			},
+			{
+				"name": "メタルハンター",
+				"level": 20
+			},
+			{
+				"name": "ショック攻撃",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "きょうせんし",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "休みブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ちからもち"
 	},
 	"Powie Yowie": {
@@ -243,16 +338,35 @@
 			"sleep": 25,
 			"rest": 50
 		},
-		"traits": {
-			"always": "氷結のコツ",
-			"level20": "アンチみかわし",
-			"level40": "ショック攻撃",
-			"largeAlways": [
-				"行動回数２",
-				"ときどきピオラ"
-			],
-			"largeLevel60": "氷結ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "氷結のコツ",
+				"level": 1
+			},
+			{
+				"name": "アンチみかわし",
+				"level": 20
+			},
+			{
+				"name": "ショック攻撃",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ときどきピオラ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "氷結ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "吹雪",
 		"drops": [
 			{
@@ -287,16 +401,35 @@
 			"paralysis": 50,
 			"rest": 50
 		},
-		"traits": {
-			"always": "とうそうほんのう",
-			"level20": "ちからため",
-			"level40": "メタルキラー",
-			"largeAlways": [
-				"行動回数１から３",
-				"会心率アップ大"
-			],
-			"largeLevel60": "スモールキラー"
-		},
+		"traits": [
+			{
+				"name": "とうそうほんのう",
+				"level": 1
+			},
+			{
+				"name": "ちからため",
+				"level": 20
+			},
+			{
+				"name": "メタルキラー",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "会心率アップ大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "スモールキラー",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "いたずら",
 		"drops": [
 			{
@@ -330,16 +463,35 @@
 			"rest": 50,
 			"poison": 25
 		},
-		"traits": {
-			"always": "とうそうほんのう",
-			"level20": "やいばのボディ",
-			"level40": "秘めたるチカラ",
-			"largeAlways": [
-				"行動回数１から３",
-				"みかわしアップ大"
-			],
-			"largeLevel60": "ラストスタンド"
-		},
+		"traits": [
+			{
+				"name": "とうそうほんのう",
+				"level": 1
+			},
+			{
+				"name": "やいばのボディ",
+				"level": 20
+			},
+			{
+				"name": "秘めたるチカラ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ラストスタンド",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "けもの道",
 		"drops": [
 			{
@@ -376,16 +528,35 @@
 			"rest": 50,
 			"poison": -25
 		},
-		"traits": {
-			"always": "ショック攻撃",
-			"level20": "きょうせんし",
-			"level40": "ピンチで会心",
-			"largeAlways": [
-				"行動回数１から３",
-				"休みブレイク大"
-			],
-			"largeLevel60": "やいばのボディ"
-		},
+		"traits": [
+			{
+				"name": "ショック攻撃",
+				"level": 1
+			},
+			{
+				"name": "きょうせんし",
+				"level": 20
+			},
+			{
+				"name": "ピンチで会心",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "休みブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "やいばのボディ",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "じこぎせい"
 	},
 	"Dragonthorn": {
@@ -413,16 +584,35 @@
 			"rest": 50,
 			"poison": -25
 		},
-		"traits": {
-			"always": "やいばのボディ",
-			"level20": "ねむり攻撃",
-			"level40": "いやがらせ",
-			"largeAlways": [
-				"行動回数１から３",
-				"超魔獣キラー"
-			],
-			"largeLevel60": "マヒブレイク大"
-		},
+		"traits": [
+			{
+				"name": "やいばのボディ",
+				"level": 1
+			},
+			{
+				"name": "ねむり攻撃",
+				"level": 20
+			},
+			{
+				"name": "いやがらせ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "超魔獣キラー",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "マヒブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "グリーンソード"
 	},
 	"Flython": {
@@ -450,16 +640,35 @@
 			"rest": 50,
 			"poison": -25
 		},
-		"traits": {
-			"always": "どく攻撃",
-			"level20": "アンチみかわし",
-			"level40": "くじけぬ心",
-			"largeAlways": [
-				"行動回数１から３",
-				"毒ブレイク大"
-			],
-			"largeLevel60": "ときどきバイキルト"
-		},
+		"traits": [
+			{
+				"name": "どく攻撃",
+				"level": 1
+			},
+			{
+				"name": "アンチみかわし",
+				"level": 20
+			},
+			{
+				"name": "くじけぬ心",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "毒ブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ときどきバイキルト",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "毒舌",
 		"drops": [
 			{
@@ -498,16 +707,35 @@
 			"paralysis": 50,
 			"rest": -25
 		},
-		"traits": {
-			"always": "みかわしアップ大",
-			"level20": "いきなりピオラ",
-			"level40": "しっぺがえし",
-			"largeAlways": [
-				"行動回数１から３",
-				"闇のコツ"
-			],
-			"largeLevel60": "いやがらせ"
-		},
+		"traits": [
+			{
+				"name": "みかわしアップ大",
+				"level": 1
+			},
+			{
+				"name": "いきなりピオラ",
+				"level": 20
+			},
+			{
+				"name": "しっぺがえし",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "闇のコツ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "いやがらせ",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "つむじ風",
 		"drops": [
 			{
@@ -545,16 +773,35 @@
 			"paralysis": 25,
 			"rest": 50
 		},
-		"traits": {
-			"always": "会心率アップ大",
-			"level20": "メタルハンター",
-			"level40": "いきなりバイキルト",
-			"largeAlways": [
-				"行動回数２",
-				"くじけぬ心"
-			],
-			"largeLevel60": "アンチみかわし"
-		},
+		"traits": [
+			{
+				"name": "会心率アップ大",
+				"level": 1
+			},
+			{
+				"name": "メタルハンター",
+				"level": 20
+			},
+			{
+				"name": "いきなりバイキルト",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "くじけぬ心",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "アンチみかわし",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ちからもち",
 		"drops": [
 			{
@@ -592,16 +839,35 @@
 			"sleep": 25,
 			"rest": 50
 		},
-		"traits": {
-			"always": "回復のコツ",
-			"level20": "アンチみかわし",
-			"level40": "ピンチで会心",
-			"largeAlways": [
-				"行動回数２",
-				"いきなりピオラ"
-			],
-			"largeLevel60": "ときどきバイキルト"
-		},
+		"traits": [
+			{
+				"name": "回復のコツ",
+				"level": 1
+			},
+			{
+				"name": "アンチみかわし",
+				"level": 20
+			},
+			{
+				"name": "ピンチで会心",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "いきなりピオラ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ときどきバイキルト",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "しんそく"
 	},
 	"Bantamweight": {
@@ -630,16 +896,35 @@
 			"paralysis": 50,
 			"rest": -25
 		},
-		"traits": {
-			"always": "ロケットスタート",
-			"level20": "ねむり攻撃",
-			"level40": "ツッコミ",
-			"largeAlways": [
-				"行動回数２から３",
-				"スモールキラー"
-			],
-			"largeLevel60": "眠りブレイク大"
-		},
+		"traits": [
+			{
+				"name": "ロケットスタート",
+				"level": 1
+			},
+			{
+				"name": "ねむり攻撃",
+				"level": 20
+			},
+			{
+				"name": "ツッコミ",
+				"level": 40
+			},
+			{
+				"name": "行動回数２から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "スモールキラー",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "眠りブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "巨漢",
 		"drops": [
 			{
@@ -678,16 +963,35 @@
 			"rest": 50,
 			"poison": 25
 		},
-		"traits": {
-			"always": "きょうせんし",
-			"level20": "ときどきバイキルト",
-			"level40": "とうそうほんのう",
-			"largeAlways": [
-				"行動回数１から３",
-				"超自然キラー"
-			],
-			"largeLevel60": "全体攻撃"
-		},
+		"traits": [
+			{
+				"name": "きょうせんし",
+				"level": 1
+			},
+			{
+				"name": "ときどきバイキルト",
+				"level": 20
+			},
+			{
+				"name": "とうそうほんのう",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "超自然キラー",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "全体攻撃",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "地の心",
 		"drops": [
 			{
@@ -725,16 +1029,35 @@
 			"paralysis": -25,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "ピンチで会心",
-			"level20": "こんらん攻撃",
-			"level40": "いきなりバイキルト",
-			"largeAlways": [
-				"行動回数１から３",
-				"封じブレイク大"
-			],
-			"largeLevel60": "ギャンブルボディ"
-		},
+		"traits": [
+			{
+				"name": "ピンチで会心",
+				"level": 1
+			},
+			{
+				"name": "こんらん攻撃",
+				"level": 20
+			},
+			{
+				"name": "いきなりバイキルト",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "封じブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ギャンブルボディ",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "アンチスペル",
 		"drops": [
 			{
@@ -771,16 +1094,35 @@
 			"paralysis": 50,
 			"rest": -25
 		},
-		"traits": {
-			"always": "マヒ攻撃",
-			"level20": "水のコツ",
-			"level40": "ロケットスタート",
-			"largeAlways": [
-				"行動回数１から３",
-				"きょうせんし"
-			],
-			"largeLevel60": "全体攻撃"
-		},
+		"traits": [
+			{
+				"name": "マヒ攻撃",
+				"level": 1
+			},
+			{
+				"name": "水のコツ",
+				"level": 20
+			},
+			{
+				"name": "ロケットスタート",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "きょうせんし",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "全体攻撃",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ブルーソード",
 		"drops": [
 			{
@@ -819,16 +1161,35 @@
 			"rest": -25,
 			"poison": 25
 		},
-		"traits": {
-			"always": "れんぞく６",
-			"level20": "ラージキラー",
-			"level40": "かいひほんのう",
-			"largeAlways": [
-				"行動回数１から３",
-				"超みかわしアップ"
-			],
-			"largeLevel60": "やまびこ"
-		},
+		"traits": [
+			{
+				"name": "れんぞく６",
+				"level": 1
+			},
+			{
+				"name": "ラージキラー",
+				"level": 20
+			},
+			{
+				"name": "かいひほんのう",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "超みかわしアップ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "やまびこ",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ナチュラル"
 	},
 	"Funghoul": {
@@ -857,16 +1218,35 @@
 			"poison": 50,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "毒ブレイク大",
-			"level20": "おいうち",
-			"level40": "スヤスヤボディ",
-			"largeAlways": [
-				"行動回数２から３",
-				"いやがらせ"
-			],
-			"largeLevel60": "眠りブレイク大"
-		},
+		"traits": [
+			{
+				"name": "毒ブレイク大",
+				"level": 1
+			},
+			{
+				"name": "おいうち",
+				"level": 20
+			},
+			{
+				"name": "スヤスヤボディ",
+				"level": 40
+			},
+			{
+				"name": "行動回数２から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "いやがらせ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "眠りブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "あくしゅう"
 	},
 	"Wax Murderer": {
@@ -894,16 +1274,35 @@
 			"poison": 50,
 			"sudden_death": 50
 		},
-		"traits": {
-			"always": "火のコツ",
-			"level20": "きょうせんし",
-			"level40": "くじけぬ心",
-			"largeAlways": [
-				"行動回数１から３",
-				"弱体化ブレイク大"
-			],
-			"largeLevel60": "最後のあがき"
-		},
+		"traits": [
+			{
+				"name": "火のコツ",
+				"level": 1
+			},
+			{
+				"name": "きょうせんし",
+				"level": 20
+			},
+			{
+				"name": "くじけぬ心",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "弱体化ブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "最後のあがき",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "レッドソード"
 	},
 	"Scarfish": {
@@ -931,16 +1330,35 @@
 			"rest": 25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "どくどくボディ",
-			"level20": "しっぺがえし",
-			"level40": "ロケットスタート",
-			"largeAlways": [
-				"行動回数１から３",
-				"超自然キラー"
-			],
-			"largeLevel60": "どく攻撃"
-		},
+		"traits": [
+			{
+				"name": "どくどくボディ",
+				"level": 1
+			},
+			{
+				"name": "しっぺがえし",
+				"level": 20
+			},
+			{
+				"name": "ロケットスタート",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "超自然キラー",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "どく攻撃",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "アンデッド",
 		"drops": [
 			{
@@ -978,16 +1396,35 @@
 			"poison": 50,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "混乱ブレイク大",
-			"level20": "ピンチで会心",
-			"level40": "メタルハンター",
-			"largeAlways": [
-				"行動回数２",
-				"最後のあがき"
-			],
-			"largeLevel60": "電撃ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "混乱ブレイク大",
+				"level": 1
+			},
+			{
+				"name": "ピンチで会心",
+				"level": 20
+			},
+			{
+				"name": "メタルハンター",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "最後のあがき",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "電撃ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "アンデッド",
 		"drops": [
 			{
@@ -1026,16 +1463,35 @@
 			"paralysis": 25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "風のコツ",
-			"level20": "いきなりピオラ",
-			"level40": "弱体化ブレイク大",
-			"largeAlways": [
-				"行動回数１から３",
-				"わるあがき"
-			],
-			"largeLevel60": "全体攻撃"
-		},
+		"traits": [
+			{
+				"name": "風のコツ",
+				"level": 1
+			},
+			{
+				"name": "いきなりピオラ",
+				"level": 20
+			},
+			{
+				"name": "弱体化ブレイク大",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "わるあがき",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "全体攻撃",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "風の心",
 		"drops": [
 			{
@@ -1073,16 +1529,35 @@
 			"rest": 25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "ギャンブルボディ",
-			"level20": "ねがえり",
-			"level40": "アンチみかわし",
-			"largeAlways": [
-				"行動回数１から３",
-				"ときどきスカラ"
-			],
-			"largeLevel60": "ピンチで会心"
-		},
+		"traits": [
+			{
+				"name": "ギャンブルボディ",
+				"level": 1
+			},
+			{
+				"name": "ねがえり",
+				"level": 20
+			},
+			{
+				"name": "アンチみかわし",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ときどきスカラ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ピンチで会心",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "いしあたま",
 		"drops": [
 			{
@@ -1120,16 +1595,35 @@
 			"rest": 25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "みかわしアップ大",
-			"level20": "最後の息吹",
-			"level40": "風のコツ",
-			"largeAlways": [
-				"行動回数２",
-				"たいでんたいしつ"
-			],
-			"largeLevel60": "魔力の強風"
-		},
+		"traits": [
+			{
+				"name": "みかわしアップ大",
+				"level": 1
+			},
+			{
+				"name": "最後の息吹",
+				"level": 20
+			},
+			{
+				"name": "風のコツ",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "たいでんたいしつ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "魔力の強風",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "風の心",
 		"drops": [
 			{
@@ -1168,16 +1662,35 @@
 			"rest": -25,
 			"poison": 25
 		},
-		"traits": {
-			"always": "いきなりスカラ",
-			"level20": "ピンチで会心",
-			"level40": "どく攻撃",
-			"largeAlways": [
-				"行動回数１から３",
-				"毒ブレイク大"
-			],
-			"largeLevel60": "会心かんぜんガード"
-		},
+		"traits": [
+			{
+				"name": "いきなりスカラ",
+				"level": 1
+			},
+			{
+				"name": "ピンチで会心",
+				"level": 20
+			},
+			{
+				"name": "どく攻撃",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "毒ブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "会心かんぜんガード",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "むしのしらせ"
 	},
 	"Vampire Cat": {
@@ -1203,16 +1716,35 @@
 			"sleep": 50,
 			"rest": 50
 		},
-		"traits": {
-			"always": "封じブレイク大",
-			"level20": "みかわしアップ大",
-			"level40": "ときどきピオラ",
-			"largeAlways": [
-				"行動回数１から３",
-				"魔力の強風"
-			],
-			"largeLevel60": "呪文会心率アップ大"
-		},
+		"traits": [
+			{
+				"name": "封じブレイク大",
+				"level": 1
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 20
+			},
+			{
+				"name": "ときどきピオラ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "魔力の強風",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "呪文会心率アップ大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "アンチスペル"
 	},
 	"Odd Cob": {
@@ -1238,16 +1770,35 @@
 			"paralysis": 50,
 			"rest": -25
 		},
-		"traits": {
-			"always": "マヒブレイク大",
-			"level20": "癒しの力",
-			"level40": "おだてじょうず",
-			"largeAlways": [
-				"行動回数２から３",
-				"背水の陣"
-			],
-			"largeLevel60": "最後のあがき"
-		},
+		"traits": [
+			{
+				"name": "マヒブレイク大",
+				"level": 1
+			},
+			{
+				"name": "癒しの力",
+				"level": 20
+			},
+			{
+				"name": "おだてじょうず",
+				"level": 40
+			},
+			{
+				"name": "行動回数２から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "背水の陣",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "最後のあがき",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "サポーター",
 		"drops": [
 			{
@@ -1281,16 +1832,35 @@
 			"rest": 25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "れんぞく",
-			"level20": "セラピー",
-			"level40": "マホトラ攻撃",
-			"largeAlways": [
-				"行動回数２",
-				"いやがらせ"
-			],
-			"largeLevel60": "眠りブレイク大"
-		},
+		"traits": [
+			{
+				"name": "れんぞく",
+				"level": 1
+			},
+			{
+				"name": "セラピー",
+				"level": 20
+			},
+			{
+				"name": "マホトラ攻撃",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "いやがらせ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "眠りブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ナチュラル",
 		"drops": [
 			{
@@ -1328,16 +1898,35 @@
 			"poison": 50,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "どく攻撃",
-			"level20": "休みブレイク大",
-			"level40": "封じブレイク大",
-			"largeAlways": [
-				"行動回数２",
-				"どくどくボディ"
-			],
-			"largeLevel60": "ラストスタンド"
-		},
+		"traits": [
+			{
+				"name": "どく攻撃",
+				"level": 1
+			},
+			{
+				"name": "休みブレイク大",
+				"level": 20
+			},
+			{
+				"name": "封じブレイク大",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "どくどくボディ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ラストスタンド",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "アンデッド",
 		"drops": [
 			{
@@ -1370,16 +1959,35 @@
 			"rest": -25,
 			"poison": 25
 		},
-		"traits": {
-			"always": "封じブレイク大",
-			"level20": "やいばのボディ",
-			"level40": "ラージキラー",
-			"largeAlways": [
-				"行動回数１から３",
-				"くじけぬ心"
-			],
-			"largeLevel60": "いきなりバイキルト"
-		},
+		"traits": [
+			{
+				"name": "封じブレイク大",
+				"level": 1
+			},
+			{
+				"name": "やいばのボディ",
+				"level": 20
+			},
+			{
+				"name": "ラージキラー",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "くじけぬ心",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "いきなりバイキルト",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "サポーター"
 	},
 	"String Fella": {
@@ -1406,16 +2014,35 @@
 			"rest": 25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "セラピー",
-			"level20": "マヒ攻撃",
-			"level40": "みかわしアップ大",
-			"largeAlways": [
-				"行動回数１から３",
-				"マヒブレイク大"
-			],
-			"largeLevel60": "全体攻撃"
-		},
+		"traits": [
+			{
+				"name": "セラピー",
+				"level": 1
+			},
+			{
+				"name": "マヒ攻撃",
+				"level": 20
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "マヒブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "全体攻撃",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "トリッキー"
 	},
 	"Succubat": {
@@ -1440,16 +2067,35 @@
 			"sleep": 25,
 			"paralysis": -25
 		},
-		"traits": {
-			"always": "闇のコツ",
-			"level20": "みかわしアップ大",
-			"level40": "スヤスヤボディ",
-			"largeAlways": [
-				"行動回数１から３",
-				"ときどきピオラ"
-			],
-			"largeLevel60": "MP吸収ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "闇のコツ",
+				"level": 1
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 20
+			},
+			{
+				"name": "スヤスヤボディ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ときどきピオラ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "MP吸収ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "みわく",
 		"drops": [
 			{
@@ -1483,16 +2129,35 @@
 			"paralysis": -25,
 			"rest": 25
 		},
-		"traits": {
-			"always": "呪文会心率アップ大",
-			"level20": "みかわしアップ大",
-			"level40": "いやがらせ",
-			"largeAlways": [
-				"行動回数１から３",
-				"おいうち"
-			],
-			"largeLevel60": "くじけぬ心"
-		},
+		"traits": [
+			{
+				"name": "呪文会心率アップ大",
+				"level": 1
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 20
+			},
+			{
+				"name": "いやがらせ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "おいうち",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "くじけぬ心",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "異常回復",
 		"drops": [
 			{
@@ -1525,16 +2190,35 @@
 			"rest": 50,
 			"poison": -25
 		},
-		"traits": {
-			"always": "メタルキラー",
-			"level20": "おだてじょうず",
-			"level40": "ときどきピオラ",
-			"largeAlways": [
-				"行動回数１から３",
-				"医術士"
-			],
-			"largeLevel60": "秘めたるチカラ"
-		},
+		"traits": [
+			{
+				"name": "メタルキラー",
+				"level": 1
+			},
+			{
+				"name": "おだてじょうず",
+				"level": 20
+			},
+			{
+				"name": "ときどきピオラ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "医術士",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "秘めたるチカラ",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "アッパー",
 		"drops": [
 			{
@@ -1573,16 +2257,35 @@
 			"rest": -25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "れんぞく",
-			"level20": "いきなりスカラ",
-			"level40": "弱体化ブレイク大",
-			"largeAlways": [
-				"行動回数１から２",
-				"会心かんぜんガード"
-			],
-			"largeLevel60": "最後のあがき"
-		},
+		"traits": [
+			{
+				"name": "れんぞく",
+				"level": 1
+			},
+			{
+				"name": "いきなりスカラ",
+				"level": 20
+			},
+			{
+				"name": "弱体化ブレイク大",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "会心かんぜんガード",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "最後のあがき",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ぼうぎょ",
 		"drops": [
 			{
@@ -1620,16 +2323,35 @@
 			"rest": 25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "封じブレイク大",
-			"level20": "ショック攻撃",
-			"level40": "マホキテボディ",
-			"largeAlways": [
-				"行動回数２",
-				"超みかわしアップ"
-			],
-			"largeLevel60": "魔力の強風"
-		},
+		"traits": [
+			{
+				"name": "封じブレイク大",
+				"level": 1
+			},
+			{
+				"name": "ショック攻撃",
+				"level": 20
+			},
+			{
+				"name": "マホキテボディ",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "超みかわしアップ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "魔力の強風",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "アンデッド",
 		"drops": [
 			{
@@ -1668,16 +2390,35 @@
 			"poison": -25,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "会心率アップ大",
-			"level20": "ロケットスタート",
-			"level40": "くじけぬ心",
-			"largeAlways": [
-				"行動回数１から３",
-				"幻惑ブレイク大"
-			],
-			"largeLevel60": "火ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "会心率アップ大",
+				"level": 1
+			},
+			{
+				"name": "ロケットスタート",
+				"level": 20
+			},
+			{
+				"name": "くじけぬ心",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "幻惑ブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "火ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ぼうぎょ",
 		"drops": [
 			{
@@ -1713,16 +2454,35 @@
 			"rest": -25,
 			"poison": 25
 		},
-		"traits": {
-			"always": "やいばのボディ",
-			"level20": "休みブレイク大",
-			"level40": "ラージキラー",
-			"largeAlways": [
-				"行動回数１から３",
-				"わるあがき"
-			],
-			"largeLevel60": "全体攻撃"
-		},
+		"traits": [
+			{
+				"name": "やいばのボディ",
+				"level": 1
+			},
+			{
+				"name": "休みブレイク大",
+				"level": 20
+			},
+			{
+				"name": "ラージキラー",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "わるあがき",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "全体攻撃",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "グリーンソード"
 	},
 	"Restless Armour": {
@@ -1753,16 +2513,35 @@
 			"poison": 50,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "ミラクル攻撃",
-			"level20": "ぼうえいほんのう",
-			"level40": "わるあがき",
-			"largeAlways": [
-				"行動回数１から３",
-				"たいでんたいしつ"
-			],
-			"largeLevel60": "全ガードブレイク"
-		},
+		"traits": [
+			{
+				"name": "ミラクル攻撃",
+				"level": 1
+			},
+			{
+				"name": "ぼうえいほんのう",
+				"level": 20
+			},
+			{
+				"name": "わるあがき",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "たいでんたいしつ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "全ガードブレイク",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "アンチブレス"
 	},
 	"See Urchin": {
@@ -1788,16 +2567,35 @@
 			"paralysis": -25,
 			"poison": 25
 		},
-		"traits": {
-			"always": "みかわしアップ大",
-			"level20": "癒しの力",
-			"level40": "水ブレイク大",
-			"largeAlways": [
-				"行動回数１から３",
-				"ふっかつの祈り"
-			],
-			"largeLevel60": "ひかりのはどう"
-		},
+		"traits": [
+			{
+				"name": "みかわしアップ大",
+				"level": 1
+			},
+			{
+				"name": "癒しの力",
+				"level": 20
+			},
+			{
+				"name": "水ブレイク大",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ふっかつの祈り",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ひかりのはどう",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "水の心",
 		"drops": [
 			{
@@ -1836,16 +2634,35 @@
 			"poison": 25,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "ときどきスカラ",
-			"level20": "ねがえり",
-			"level40": "秘めたるチカラ",
-			"largeAlways": [
-				"行動回数１から３",
-				"てんしのきまぐれ"
-			],
-			"largeLevel60": "いきなりマホカンタ"
-		},
+		"traits": [
+			{
+				"name": "ときどきスカラ",
+				"level": 1
+			},
+			{
+				"name": "ねがえり",
+				"level": 20
+			},
+			{
+				"name": "秘めたるチカラ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "てんしのきまぐれ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "いきなりマホカンタ",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ダウナー",
 		"drops": [
 			{
@@ -1883,16 +2700,35 @@
 			"rest": 25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "闇のコツ",
-			"level20": "いきなりインテ",
-			"level40": "ザキ攻撃",
-			"largeAlways": [
-				"行動回数１から３",
-				"即死ブレイク大"
-			],
-			"largeLevel60": "ギャンブルボディ"
-		},
+		"traits": [
+			{
+				"name": "闇のコツ",
+				"level": 1
+			},
+			{
+				"name": "いきなりインテ",
+				"level": 20
+			},
+			{
+				"name": "ザキ攻撃",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "即死ブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ギャンブルボディ",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "カース",
 		"drops": [
 			{
@@ -1929,16 +2765,35 @@
 			"sleep": 25,
 			"paralysis": 50
 		},
-		"traits": {
-			"always": "ときどきバイキルト",
-			"level20": "ときどきピオラ",
-			"level40": "どく攻撃",
-			"largeAlways": [
-				"行動回数１から３",
-				"背水の陣"
-			],
-			"largeLevel60": "ファイターズハイ"
-		},
+		"traits": [
+			{
+				"name": "ときどきバイキルト",
+				"level": 1
+			},
+			{
+				"name": "ときどきピオラ",
+				"level": 20
+			},
+			{
+				"name": "どく攻撃",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "背水の陣",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ファイターズハイ",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ウォリアー"
 	},
 	"Ethereal Serpent": {
@@ -1967,16 +2822,35 @@
 			"rest": 50,
 			"poison": -25
 		},
-		"traits": {
-			"always": "会心率アップ大",
-			"level20": "氷結のコツ",
-			"level40": "秘めたるチカラ",
-			"largeAlways": [
-				"行動回数１から３",
-				"背水の陣"
-			],
-			"largeLevel60": "最後の息吹"
-		},
+		"traits": [
+			{
+				"name": "会心率アップ大",
+				"level": 1
+			},
+			{
+				"name": "氷結のコツ",
+				"level": 20
+			},
+			{
+				"name": "秘めたるチカラ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "背水の陣",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "最後の息吹",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "息吹"
 	},
 	"Guaardvark": {
@@ -2004,16 +2878,35 @@
 			"poison": 25,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "混乱ブレイク大",
-			"level20": "いきなりピオラ",
-			"level40": "きょうせんし",
-			"largeAlways": [
-				"行動回数１から３",
-				"ピンチで会心"
-			],
-			"largeLevel60": "こんらん攻撃"
-		},
+		"traits": [
+			{
+				"name": "混乱ブレイク大",
+				"level": 1
+			},
+			{
+				"name": "いきなりピオラ",
+				"level": 20
+			},
+			{
+				"name": "きょうせんし",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ピンチで会心",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "こんらん攻撃",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "スリラー"
 	},
 	"Skullrider": {
@@ -2041,16 +2934,35 @@
 			"paralysis": 25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "行動回数１から２",
-			"level20": "くじけぬ心",
-			"level40": "きょうせんし",
-			"largeAlways": [
-				"ときどきピオラ",
-				"地ブレイク大"
-			],
-			"largeLevel60": "アンチみかわし"
-		},
+		"traits": [
+			{
+				"name": "行動回数１から２",
+				"level": 1
+			},
+			{
+				"name": "くじけぬ心",
+				"level": 20
+			},
+			{
+				"name": "きょうせんし",
+				"level": 40
+			},
+			{
+				"name": "ときどきピオラ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "地ブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "アンチみかわし",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ブルーソード",
 		"drops": [
 			{
@@ -2087,16 +2999,35 @@
 			"confusion": 50,
 			"poison": 50
 		},
-		"traits": {
-			"always": "弱体化ブレイク大",
-			"level20": "みかわしアップ大",
-			"level40": "封じブレイク大",
-			"largeAlways": [
-				"行動回数１から３",
-				"いきなりピオラ"
-			],
-			"largeLevel60": "ラストスタンド"
-		},
+		"traits": [
+			{
+				"name": "弱体化ブレイク大",
+				"level": 1
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 20
+			},
+			{
+				"name": "封じブレイク大",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "いきなりピオラ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ラストスタンド",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ジャマー",
 		"drops": [
 			{
@@ -2135,16 +3066,35 @@
 			"rest": -25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "ヘロヘロボディ",
-			"level20": "弱体化ブレイク大",
-			"level40": "爆発のコツ",
-			"largeAlways": [
-				"行動回数１から３",
-				"おいうち"
-			],
-			"largeLevel60": "全体攻撃"
-		},
+		"traits": [
+			{
+				"name": "ヘロヘロボディ",
+				"level": 1
+			},
+			{
+				"name": "弱体化ブレイク大",
+				"level": 20
+			},
+			{
+				"name": "爆発のコツ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "おいうち",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "全体攻撃",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "グリーンソード"
 	},
 	"Snowmangler": {
@@ -2173,16 +3123,35 @@
 			"paralysis": 50,
 			"rest": 25
 		},
-		"traits": {
-			"always": "氷結のコツ",
-			"level20": "いきなりピオラ",
-			"level40": "ザキ攻撃",
-			"largeAlways": [
-				"行動回数１から３",
-				"氷結ブレイク大"
-			],
-			"largeLevel60": "最後のあがき"
-		},
+		"traits": [
+			{
+				"name": "氷結のコツ",
+				"level": 1
+			},
+			{
+				"name": "いきなりピオラ",
+				"level": 20
+			},
+			{
+				"name": "ザキ攻撃",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "氷結ブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "最後のあがき",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "氷結の心"
 	},
 	"Raptile": {
@@ -2211,16 +3180,35 @@
 			"poison": -25,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "れんぞく４",
-			"level20": "きょうせんし",
-			"level40": "たいでんたいしつ",
-			"largeAlways": [
-				"行動回数２",
-				"火ブレイク大"
-			],
-			"largeLevel60": "全体攻撃"
-		},
+		"traits": [
+			{
+				"name": "れんぞく４",
+				"level": 1
+			},
+			{
+				"name": "きょうせんし",
+				"level": 20
+			},
+			{
+				"name": "たいでんたいしつ",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "火ブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "全体攻撃",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "息吹",
 		"drops": [
 			{
@@ -2258,16 +3246,35 @@
 			"paralysis": 75,
 			"poison": 25
 		},
-		"traits": {
-			"always": "電撃のコツ",
-			"level20": "会心率アップ大",
-			"level40": "ラージキラー",
-			"largeAlways": [
-				"行動回数１から３",
-				"いきなりピオラ"
-			],
-			"largeLevel60": "ファイターズハイ"
-		},
+		"traits": [
+			{
+				"name": "電撃のコツ",
+				"level": 1
+			},
+			{
+				"name": "会心率アップ大",
+				"level": 20
+			},
+			{
+				"name": "ラージキラー",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "いきなりピオラ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ファイターズハイ",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "スラフォース",
 		"drops": [
 			{
@@ -2307,16 +3314,35 @@
 			"sleep": 25,
 			"paralysis": 50
 		},
-		"traits": {
-			"always": "いきなりスカラ",
-			"level20": "ときどきまもりの霧",
-			"level40": "ぐるぐるボディ",
-			"largeAlways": [
-				"行動回数１から３",
-				"魔力の強風"
-			],
-			"largeLevel60": "封じブレイク大"
-		},
+		"traits": [
+			{
+				"name": "いきなりスカラ",
+				"level": 1
+			},
+			{
+				"name": "ときどきまもりの霧",
+				"level": 20
+			},
+			{
+				"name": "ぐるぐるボディ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "魔力の強風",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "封じブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "てっぺき",
 		"drops": [
 			{
@@ -2356,16 +3382,35 @@
 			"sleep": 25,
 			"paralysis": 50
 		},
-		"traits": {
-			"always": "ラブリー",
-			"level20": "魔力の風",
-			"level40": "最後の息吹",
-			"largeAlways": [
-				"行動回数１から３",
-				"やまびこ"
-			],
-			"largeLevel60": "おだてじょうず"
-		},
+		"traits": [
+			{
+				"name": "ラブリー",
+				"level": 1
+			},
+			{
+				"name": "魔力の風",
+				"level": 20
+			},
+			{
+				"name": "最後の息吹",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "やまびこ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "おだてじょうず",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "スイート"
 	},
 	"Slime Stack": {
@@ -2394,16 +3439,35 @@
 			"sleep": 25,
 			"paralysis": 50
 		},
-		"traits": {
-			"always": "電撃のコツ",
-			"level20": "アンチみかわし",
-			"level40": "スモールキラー",
-			"largeAlways": [
-				"行動回数１から３",
-				"ツッコミ"
-			],
-			"largeLevel60": "くじけぬ心"
-		},
+		"traits": [
+			{
+				"name": "電撃のコツ",
+				"level": 1
+			},
+			{
+				"name": "アンチみかわし",
+				"level": 20
+			},
+			{
+				"name": "スモールキラー",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ツッコミ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "くじけぬ心",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "電撃の心",
 		"drops": [
 			{
@@ -2442,16 +3506,35 @@
 			"paralysis": 50,
 			"poison": 25
 		},
-		"traits": {
-			"always": "ときどきスカラ",
-			"level20": "やいばのボディ",
-			"level40": "ラブリー",
-			"largeAlways": [
-				"行動回数１から２",
-				"癒しの大力"
-			],
-			"largeLevel60": "マヒブレイク大"
-		},
+		"traits": [
+			{
+				"name": "ときどきスカラ",
+				"level": 1
+			},
+			{
+				"name": "やいばのボディ",
+				"level": 20
+			},
+			{
+				"name": "ラブリー",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "癒しの大力",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "マヒブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ぼうぎょ",
 		"drops": [
 			{
@@ -2489,16 +3572,35 @@
 			"sleep": 25,
 			"paralysis": 75
 		},
-		"traits": {
-			"always": "ときどきインテ",
-			"level20": "マヒ攻撃",
-			"level40": "みかわしアップ大",
-			"largeAlways": [
-				"行動回数１から３",
-				"癒しの大力"
-			],
-			"largeLevel60": "マヒブレイク大"
-		},
+		"traits": [
+			{
+				"name": "ときどきインテ",
+				"level": 1
+			},
+			{
+				"name": "マヒ攻撃",
+				"level": 20
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "癒しの大力",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "マヒブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ナチュラル",
 		"drops": [
 			{
@@ -2539,16 +3641,35 @@
 			"sleep": 25,
 			"paralysis": 75
 		},
-		"traits": {
-			"always": "行動回数１から２",
-			"level20": "くじけぬ心",
-			"level40": "ラージキラー",
-			"largeAlways": [
-				"ピンチで会心",
-				"爆発ブレイク大"
-			],
-			"largeLevel60": "いきなりバイキルト"
-		},
+		"traits": [
+			{
+				"name": "行動回数１から２",
+				"level": 1
+			},
+			{
+				"name": "くじけぬ心",
+				"level": 20
+			},
+			{
+				"name": "ラージキラー",
+				"level": 40
+			},
+			{
+				"name": "ピンチで会心",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "爆発ブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "いきなりバイキルト",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "騎士道"
 	},
 	"She-Slime": {
@@ -2574,16 +3695,35 @@
 			"paralysis": 75,
 			"rest": 25
 		},
-		"traits": {
-			"always": "火のコツ",
-			"level20": "ときどきピオラ",
-			"level40": "ロケットスタート",
-			"largeAlways": [
-				"行動回数２から３",
-				"きょうせんし"
-			],
-			"largeLevel60": "火ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "火のコツ",
+				"level": 1
+			},
+			{
+				"name": "ときどきピオラ",
+				"level": 20
+			},
+			{
+				"name": "ロケットスタート",
+				"level": 40
+			},
+			{
+				"name": "行動回数２から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "きょうせんし",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "火ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "レッドソード"
 	},
 	"Warhog": {
@@ -2611,16 +3751,35 @@
 			"rest": 50,
 			"poison": 25
 		},
-		"traits": {
-			"always": "スヤスヤボディ",
-			"level20": "いきなりスカラ",
-			"level40": "ラストスタンド",
-			"largeAlways": [
-				"行動回数１から３",
-				"とうそうほんのう"
-			],
-			"largeLevel60": "秘めたるチカラ"
-		},
+		"traits": [
+			{
+				"name": "スヤスヤボディ",
+				"level": 1
+			},
+			{
+				"name": "いきなりスカラ",
+				"level": 20
+			},
+			{
+				"name": "ラストスタンド",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "とうそうほんのう",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "秘めたるチカラ",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ウォリアー",
 		"drops": [
 			{
@@ -2655,16 +3814,35 @@
 			"rest": 25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "弱体化ブレイク大",
-			"level20": "かいひほんのう",
-			"level40": "いきなりスカラ",
-			"largeAlways": [
-				"行動回数１から３",
-				"わるあがき"
-			],
-			"largeLevel60": "全ガードブレイク"
-		},
+		"traits": [
+			{
+				"name": "弱体化ブレイク大",
+				"level": 1
+			},
+			{
+				"name": "かいひほんのう",
+				"level": 20
+			},
+			{
+				"name": "いきなりスカラ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "わるあがき",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "全ガードブレイク",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "グリーンソード",
 		"drops": [
 			{
@@ -2697,16 +3875,35 @@
 			"rest": 50,
 			"poison": -25
 		},
-		"traits": {
-			"always": "ロケットスタート",
-			"level20": "ねがえり",
-			"level40": "ピンチで会心",
-			"largeAlways": [
-				"行動回数１から３",
-				"ときどきピオラ"
-			],
-			"largeLevel60": "とうそうほんのう"
-		},
+		"traits": [
+			{
+				"name": "ロケットスタート",
+				"level": 1
+			},
+			{
+				"name": "ねがえり",
+				"level": 20
+			},
+			{
+				"name": "ピンチで会心",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ときどきピオラ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "とうそうほんのう",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "あばれんぼう"
 	},
 	"Onion Slime": {
@@ -2732,16 +3929,35 @@
 			"paralysis": 50,
 			"rest": 25
 		},
-		"traits": {
-			"always": "地のコツ",
-			"level20": "幻惑ブレイク大",
-			"level40": "ときどきまもりの霧",
-			"largeAlways": [
-				"行動回数１から３",
-				"セラピー"
-			],
-			"largeLevel60": "ひかりのはどう"
-		},
+		"traits": [
+			{
+				"name": "地のコツ",
+				"level": 1
+			},
+			{
+				"name": "幻惑ブレイク大",
+				"level": 20
+			},
+			{
+				"name": "ときどきまもりの霧",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "セラピー",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ひかりのはどう",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ナチュラル",
 		"drops": [
 			{
@@ -2777,16 +3993,35 @@
 			"rest": -25,
 			"poison": 25
 		},
-		"traits": {
-			"always": "どく攻撃",
-			"level20": "いきなりマホカンタ",
-			"level40": "マホキテボディ",
-			"largeAlways": [
-				"行動回数１から３",
-				"氷結ブレイク大"
-			],
-			"largeLevel60": "全体攻撃"
-		},
+		"traits": [
+			{
+				"name": "どく攻撃",
+				"level": 1
+			},
+			{
+				"name": "いきなりマホカンタ",
+				"level": 20
+			},
+			{
+				"name": "マホキテボディ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "氷結ブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "全体攻撃",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ヌメヌメ",
 		"drops": [
 			{
@@ -2823,16 +4058,35 @@
 			"sleep": 25,
 			"paralysis": -25
 		},
-		"traits": {
-			"always": "会心率アップ大",
-			"level20": "いきなりインテ",
-			"level40": "メタルハンター",
-			"largeAlways": [
-				"行動回数１から３",
-				"アンチみかわし"
-			],
-			"largeLevel60": "爆発ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "会心率アップ大",
+				"level": 1
+			},
+			{
+				"name": "いきなりインテ",
+				"level": 20
+			},
+			{
+				"name": "メタルハンター",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "アンチみかわし",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "爆発ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "爆発の心",
 		"drops": [
 			{
@@ -2866,16 +4120,35 @@
 			"rest": 50,
 			"poison": -25
 		},
-		"traits": {
-			"always": "幻惑ブレイク大",
-			"level20": "ピンチで会心",
-			"level40": "ときどきバイキルト",
-			"largeAlways": [
-				"行動回数１から３",
-				"スモールキラー"
-			],
-			"largeLevel60": "火ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "幻惑ブレイク大",
+				"level": 1
+			},
+			{
+				"name": "ピンチで会心",
+				"level": 20
+			},
+			{
+				"name": "ときどきバイキルト",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "スモールキラー",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "火ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "火炎"
 	},
 	"Weartiger": {
@@ -2903,16 +4176,35 @@
 			"sleep": 50,
 			"rest": 50
 		},
-		"traits": {
-			"always": "ピンチで会心",
-			"level20": "きょうせんし",
-			"level40": "アンチみかわし",
-			"largeAlways": [
-				"行動回数２から３",
-				"休みブレイク大"
-			],
-			"largeLevel60": "いきなりバイキルト"
-		},
+		"traits": [
+			{
+				"name": "ピンチで会心",
+				"level": 1
+			},
+			{
+				"name": "きょうせんし",
+				"level": 20
+			},
+			{
+				"name": "アンチみかわし",
+				"level": 40
+			},
+			{
+				"name": "行動回数２から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "休みブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "いきなりバイキルト",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "イエローソード",
 		"drops": [
 			{
@@ -2951,16 +4243,35 @@
 			"rest": 25,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "闇のコツ",
-			"level20": "いきなりピオラ",
-			"level40": "ラージキラー",
-			"largeAlways": [
-				"行動回数２",
-				"みかわしアップ大"
-			],
-			"largeLevel60": "幻惑ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "闇のコツ",
+				"level": 1
+			},
+			{
+				"name": "いきなりピオラ",
+				"level": 20
+			},
+			{
+				"name": "ラージキラー",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "幻惑ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "闇の心",
 		"drops": [
 			{
@@ -2998,16 +4309,35 @@
 			"sleep": 25,
 			"paralysis": 50
 		},
-		"traits": {
-			"always": "みかわしアップ大",
-			"level20": "いきなりピオラ",
-			"level40": "ピンチで会心",
-			"largeAlways": [
-				"行動回数１から３",
-				"火ブレイク大"
-			],
-			"largeLevel60": "火のコツ"
-		},
+		"traits": [
+			{
+				"name": "みかわしアップ大",
+				"level": 1
+			},
+			{
+				"name": "いきなりピオラ",
+				"level": 20
+			},
+			{
+				"name": "ピンチで会心",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "火ブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "火のコツ",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "息吹"
 	},
 	"Small Fry": {
@@ -3035,16 +4365,35 @@
 			"rest": 75,
 			"poison": -25
 		},
-		"traits": {
-			"always": "会心率アップ大",
-			"level20": "ラージキラー",
-			"level40": "ときどきバイキルト",
-			"largeAlways": [
-				"行動回数１から３",
-				"火ブレイク大"
-			],
-			"largeLevel60": "プレッシャー"
-		},
+		"traits": [
+			{
+				"name": "会心率アップ大",
+				"level": 1
+			},
+			{
+				"name": "ラージキラー",
+				"level": 20
+			},
+			{
+				"name": "ときどきバイキルト",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "火ブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "プレッシャー",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ドラゴンソウル"
 	},
 	"Bongo Drongo": {
@@ -3070,16 +4419,35 @@
 			"rest": 50,
 			"poison": 50
 		},
-		"traits": {
-			"always": "れんぞく",
-			"level20": "ツッコミ",
-			"level40": "最後の息吹",
-			"largeAlways": [
-				"行動回数１から３",
-				"おだてじょうず"
-			],
-			"largeLevel60": "いきなりバイキルト"
-		},
+		"traits": [
+			{
+				"name": "れんぞく",
+				"level": 1
+			},
+			{
+				"name": "ツッコミ",
+				"level": 20
+			},
+			{
+				"name": "最後の息吹",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "おだてじょうず",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "いきなりバイキルト",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "アッパー",
 		"drops": [
 			{
@@ -3113,16 +4481,35 @@
 			"paralysis": -25,
 			"rest": 25
 		},
-		"traits": {
-			"always": "れんぞく",
-			"level20": "呪文会心率アップ大",
-			"level40": "いきなりインテ",
-			"largeAlways": [
-				"行動回数１から３",
-				"マジシャンズハイ"
-			],
-			"largeLevel60": "MP吸収ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "れんぞく",
+				"level": 1
+			},
+			{
+				"name": "呪文会心率アップ大",
+				"level": 20
+			},
+			{
+				"name": "いきなりインテ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "マジシャンズハイ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "MP吸収ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "風の心"
 	},
 	"Avian Android": {
@@ -3149,16 +4536,35 @@
 			"poison": 50,
 			"sudden_death": 50
 		},
-		"traits": {
-			"always": "眠りブレイク大",
-			"level20": "ビリビリボディ",
-			"level40": "セラピー",
-			"largeAlways": [
-				"行動回数２",
-				"おいうち"
-			],
-			"largeLevel60": "全ガードブレイク"
-		},
+		"traits": [
+			{
+				"name": "眠りブレイク大",
+				"level": 1
+			},
+			{
+				"name": "ビリビリボディ",
+				"level": 20
+			},
+			{
+				"name": "セラピー",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "おいうち",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "全ガードブレイク",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "アサシン",
 		"drops": [
 			{
@@ -3191,16 +4597,35 @@
 			"sleep": -25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "地のコツ",
-			"level20": "幻惑ブレイク大",
-			"level40": "くじけぬ心",
-			"largeAlways": [
-				"行動回数１から３",
-				"ときどきまもりの霧"
-			],
-			"largeLevel60": "封じブレイク大"
-		},
+		"traits": [
+			{
+				"name": "地のコツ",
+				"level": 1
+			},
+			{
+				"name": "幻惑ブレイク大",
+				"level": 20
+			},
+			{
+				"name": "くじけぬ心",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ときどきまもりの霧",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "封じブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "地の心",
 		"drops": [
 			{
@@ -3237,16 +4662,35 @@
 			"rest": 25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "地のコツ",
-			"level20": "休みブレイク大",
-			"level40": "根に持つタイプ",
-			"largeAlways": [
-				"行動回数１から３",
-				"ときどきスカラ"
-			],
-			"largeLevel60": "徒手空拳"
-		},
+		"traits": [
+			{
+				"name": "地のコツ",
+				"level": 1
+			},
+			{
+				"name": "休みブレイク大",
+				"level": 20
+			},
+			{
+				"name": "根に持つタイプ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ときどきスカラ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "徒手空拳",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ダンサー",
 		"drops": [
 			{
@@ -3285,16 +4729,35 @@
 			"poison": 50,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "地のコツ",
-			"level20": "ときどきスカラ",
-			"level40": "ギャンブルボディ",
-			"largeAlways": [
-				"行動回数１から３",
-				"毒ブレイク大"
-			],
-			"largeLevel60": "最後のあがき"
-		},
+		"traits": [
+			{
+				"name": "地のコツ",
+				"level": 1
+			},
+			{
+				"name": "ときどきスカラ",
+				"level": 20
+			},
+			{
+				"name": "ギャンブルボディ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "毒ブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "最後のあがき",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ヘドロ",
 		"drops": [
 			{
@@ -3332,16 +4795,35 @@
 			"poison": 50,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "封じブレイク大",
-			"level20": "MP吸収ブレイク大",
-			"level40": "マホキテボディ",
-			"largeAlways": [
-				"行動回数２",
-				"どく攻撃"
-			],
-			"largeLevel60": "しっぺがえし"
-		},
+		"traits": [
+			{
+				"name": "封じブレイク大",
+				"level": 1
+			},
+			{
+				"name": "MP吸収ブレイク大",
+				"level": 20
+			},
+			{
+				"name": "マホキテボディ",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "どく攻撃",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "しっぺがえし",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ヌメヌメ"
 	},
 	"Mitey Oak": {
@@ -3369,16 +4851,35 @@
 			"rest": -25,
 			"poison": 25
 		},
-		"traits": {
-			"always": "れんぞく６",
-			"level20": "セラピー",
-			"level40": "ラージキラー",
-			"largeAlways": [
-				"行動回数１から３",
-				"最後のあがき"
-			],
-			"largeLevel60": "全体攻撃"
-		},
+		"traits": [
+			{
+				"name": "れんぞく６",
+				"level": 1
+			},
+			{
+				"name": "セラピー",
+				"level": 20
+			},
+			{
+				"name": "ラージキラー",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "最後のあがき",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "全体攻撃",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "じこぎせい"
 	},
 	"Woebergine": {
@@ -3405,16 +4906,35 @@
 			"rest": -25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "みかわしアップ大",
-			"level20": "こんらん攻撃",
-			"level40": "ヘロヘロボディ",
-			"largeAlways": [
-				"行動回数２",
-				"いきなりピオラ"
-			],
-			"largeLevel60": "休みブレイク大"
-		},
+		"traits": [
+			{
+				"name": "みかわしアップ大",
+				"level": 1
+			},
+			{
+				"name": "こんらん攻撃",
+				"level": 20
+			},
+			{
+				"name": "ヘロヘロボディ",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "いきなりピオラ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "休みブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ダンサー"
 	},
 	"Robber Rabbit": {
@@ -3441,16 +4961,35 @@
 			"paralysis": 25,
 			"rest": 50
 		},
-		"traits": {
-			"always": "きょうせんし",
-			"level20": "いきなりピオラ",
-			"level40": "くじけぬ心",
-			"largeAlways": [
-				"行動回数２",
-				"ロケットスタート"
-			],
-			"largeLevel60": "ぐるぐるボディ"
-		},
+		"traits": [
+			{
+				"name": "きょうせんし",
+				"level": 1
+			},
+			{
+				"name": "いきなりピオラ",
+				"level": 20
+			},
+			{
+				"name": "くじけぬ心",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ロケットスタート",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ぐるぐるボディ",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ぬすっと"
 	},
 	"Scallop Slime": {
@@ -3479,16 +5018,35 @@
 			"paralysis": 50,
 			"poison": 50
 		},
-		"traits": {
-			"always": "ぼうえいほんのう",
-			"level20": "ときどきスカラ",
-			"level40": "メタルキラー",
-			"largeAlways": [
-				"行動回数１から３",
-				"水のコツ"
-			],
-			"largeLevel60": "背水の陣"
-		},
+		"traits": [
+			{
+				"name": "ぼうえいほんのう",
+				"level": 1
+			},
+			{
+				"name": "ときどきスカラ",
+				"level": 20
+			},
+			{
+				"name": "メタルキラー",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "水のコツ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "背水の陣",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "水の心",
 		"drops": [
 			{
@@ -3525,16 +5083,35 @@
 			"rest": 50,
 			"poison": -25
 		},
-		"traits": {
-			"always": "くじけぬ心",
-			"level20": "メタルハンター",
-			"level40": "いきなりピオラ",
-			"largeAlways": [
-				"行動回数１から３",
-				"火ブレイク大"
-			],
-			"largeLevel60": "電撃ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "くじけぬ心",
+				"level": 1
+			},
+			{
+				"name": "メタルハンター",
+				"level": 20
+			},
+			{
+				"name": "いきなりピオラ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "火ブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "電撃ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "光の心",
 		"drops": [
 			{
@@ -3571,16 +5148,35 @@
 			"paralysis": 75,
 			"rest": 25
 		},
-		"traits": {
-			"always": "みかわしアップ大",
-			"level20": "回復のコツ",
-			"level40": "マホトラ攻撃",
-			"largeAlways": [
-				"行動回数２",
-				"魔力の強風"
-			],
-			"largeLevel60": "風ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "みかわしアップ大",
+				"level": 1
+			},
+			{
+				"name": "回復のコツ",
+				"level": 20
+			},
+			{
+				"name": "マホトラ攻撃",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "魔力の強風",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "風ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "つむじ風"
 	},
 	"Bubble Slime": {
@@ -3608,16 +5204,35 @@
 			"paralysis": 50,
 			"poison": 75
 		},
-		"traits": {
-			"always": "どくどくボディ",
-			"level20": "いきなりピオラ",
-			"level40": "毒ブレイク大",
-			"largeAlways": [
-				"行動回数１から３",
-				"みかわしアップ大"
-			],
-			"largeLevel60": "ラブリー"
-		},
+		"traits": [
+			{
+				"name": "どくどくボディ",
+				"level": 1
+			},
+			{
+				"name": "いきなりピオラ",
+				"level": 20
+			},
+			{
+				"name": "毒ブレイク大",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ラブリー",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "スラフォース",
 		"drops": [
 			{
@@ -3657,16 +5272,35 @@
 			"rest": -25,
 			"poison": 25
 		},
-		"traits": {
-			"always": "れんぞく３",
-			"level20": "こんらん攻撃",
-			"level40": "ファイターズハイ",
-			"largeAlways": [
-				"行動回数１から３",
-				"おいうち"
-			],
-			"largeLevel60": "混乱ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "れんぞく３",
+				"level": 1
+			},
+			{
+				"name": "こんらん攻撃",
+				"level": 20
+			},
+			{
+				"name": "ファイターズハイ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "おいうち",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "混乱ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "つむじ風",
 		"drops": [
 			{
@@ -3705,16 +5339,35 @@
 			"sleep": 50,
 			"rest": 50
 		},
-		"traits": {
-			"always": "スヤスヤボディ",
-			"level20": "ラストスタンド",
-			"level40": "最後の息吹",
-			"largeAlways": [
-				"行動回数１から３",
-				"ときどきインテ"
-			],
-			"largeLevel60": "超会心率アップ"
-		},
+		"traits": [
+			{
+				"name": "スヤスヤボディ",
+				"level": 1
+			},
+			{
+				"name": "ラストスタンド",
+				"level": 20
+			},
+			{
+				"name": "最後の息吹",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ときどきインテ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "超会心率アップ",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "息吹"
 	},
 	"Dancing Devil": {
@@ -3741,16 +5394,35 @@
 			"paralysis": -25,
 			"rest": 25
 		},
-		"traits": {
-			"always": "みかわしアップ大",
-			"level20": "いきなりインテ",
-			"level40": "ツッコミ",
-			"largeAlways": [
-				"行動回数１から３",
-				"しっぺがえし"
-			],
-			"largeLevel60": "闇ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "みかわしアップ大",
+				"level": 1
+			},
+			{
+				"name": "いきなりインテ",
+				"level": 20
+			},
+			{
+				"name": "ツッコミ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "しっぺがえし",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "闇ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ダンサー"
 	},
 	"Erazor Blade": {
@@ -3777,16 +5449,35 @@
 			"rest": 25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "みかわしアップ大",
-			"level20": "ピンチで会心",
-			"level40": "アンチみかわし",
-			"largeAlways": [
-				"行動回数１から３",
-				"ねがえり"
-			],
-			"largeLevel60": "いきなりバイキルト"
-		},
+		"traits": [
+			{
+				"name": "みかわしアップ大",
+				"level": 1
+			},
+			{
+				"name": "ピンチで会心",
+				"level": 20
+			},
+			{
+				"name": "アンチみかわし",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ねがえり",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "いきなりバイキルト",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "剣術",
 		"drops": [
 			{
@@ -3823,16 +5514,35 @@
 			"sleep": -25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "ピンチで会心",
-			"level20": "アンチみかわし",
-			"level40": "即死ブレイク大",
-			"largeAlways": [
-				"行動回数１から３",
-				"ザキ攻撃"
-			],
-			"largeLevel60": "プレッシャー"
-		},
+		"traits": [
+			{
+				"name": "ピンチで会心",
+				"level": 1
+			},
+			{
+				"name": "アンチみかわし",
+				"level": 20
+			},
+			{
+				"name": "即死ブレイク大",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ザキ攻撃",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "プレッシャー",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "スリラー",
 		"drops": [
 			{
@@ -3872,16 +5582,35 @@
 			"rest": 50,
 			"poison": 25
 		},
-		"traits": {
-			"always": "みかわしアップ大",
-			"level20": "スヤスヤボディ",
-			"level40": "ラブリー",
-			"largeAlways": [
-				"行動回数１から３",
-				"いきなりピオラ"
-			],
-			"largeLevel60": "眠りブレイク大"
-		},
+		"traits": [
+			{
+				"name": "みかわしアップ大",
+				"level": 1
+			},
+			{
+				"name": "スヤスヤボディ",
+				"level": 20
+			},
+			{
+				"name": "ラブリー",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "いきなりピオラ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "眠りブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "グリーンソード",
 		"drops": [
 			{
@@ -3918,16 +5647,35 @@
 			"rest": 50,
 			"poison": -25
 		},
-		"traits": {
-			"always": "爆発のコツ",
-			"level20": "光のコツ",
-			"level40": "火ブレイク大",
-			"largeAlways": [
-				"行動回数１から２",
-				"最後のあがき"
-			],
-			"largeLevel60": "爆発ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "爆発のコツ",
+				"level": 1
+			},
+			{
+				"name": "光のコツ",
+				"level": 20
+			},
+			{
+				"name": "火ブレイク大",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "最後のあがき",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "爆発ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "火炎"
 	},
 	"Damselfly": {
@@ -3956,16 +5704,35 @@
 			"rest": 50,
 			"poison": -25
 		},
-		"traits": {
-			"always": "幻惑ブレイク大",
-			"level20": "最後の息吹",
-			"level40": "ヘロヘロボディ",
-			"largeAlways": [
-				"行動回数１から３",
-				"いきなりピオラ"
-			],
-			"largeLevel60": "休みブレイク大"
-		},
+		"traits": [
+			{
+				"name": "幻惑ブレイク大",
+				"level": 1
+			},
+			{
+				"name": "最後の息吹",
+				"level": 20
+			},
+			{
+				"name": "ヘロヘロボディ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "いきなりピオラ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "休みブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "妖精",
 		"drops": [
 			{
@@ -4002,16 +5769,35 @@
 			"sleep": -25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "ヘロヘロボディ",
-			"level20": "いきなりインテ",
-			"level40": "ツッコミ",
-			"largeAlways": [
-				"行動回数１から３",
-				"魔力の強風"
-			],
-			"largeLevel60": "休みブレイク大"
-		},
+		"traits": [
+			{
+				"name": "ヘロヘロボディ",
+				"level": 1
+			},
+			{
+				"name": "いきなりインテ",
+				"level": 20
+			},
+			{
+				"name": "ツッコミ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "魔力の強風",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "休みブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "イエローソード"
 	},
 	"Khalamari Kid": {
@@ -4039,16 +5825,35 @@
 			"rest": -25,
 			"poison": 25
 		},
-		"traits": {
-			"always": "水のコツ",
-			"level20": "みかわしアップ大",
-			"level40": "MP吸収ブレイク大",
-			"largeAlways": [
-				"行動回数１から３",
-				"魔力の強風"
-			],
-			"largeLevel60": "ラブリー"
-		},
+		"traits": [
+			{
+				"name": "水のコツ",
+				"level": 1
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 20
+			},
+			{
+				"name": "MP吸収ブレイク大",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "魔力の強風",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ラブリー",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "みずげい",
 		"drops": [
 			{
@@ -4089,16 +5894,35 @@
 			"sleep": 25,
 			"paralysis": 50
 		},
-		"traits": {
-			"always": "ツッコミ",
-			"level20": "ラブリー",
-			"level40": "電撃ブレイク大",
-			"largeAlways": [
-				"行動回数１から３",
-				"ちからため"
-			],
-			"largeLevel60": "全体攻撃"
-		},
+		"traits": [
+			{
+				"name": "ツッコミ",
+				"level": 1
+			},
+			{
+				"name": "ラブリー",
+				"level": 20
+			},
+			{
+				"name": "電撃ブレイク大",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ちからため",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "全体攻撃",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "イエローソード",
 		"drops": [
 			{
@@ -4134,16 +5958,35 @@
 			"poison": -25,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "徒手空拳",
-			"level20": "風のコツ",
-			"level40": "しっぺがえし",
-			"largeAlways": [
-				"行動回数１から３",
-				"ときどきピオラ"
-			],
-			"largeLevel60": "超みかわしアップ"
-		},
+		"traits": [
+			{
+				"name": "徒手空拳",
+				"level": 1
+			},
+			{
+				"name": "風のコツ",
+				"level": 20
+			},
+			{
+				"name": "しっぺがえし",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ときどきピオラ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "超みかわしアップ",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ドラゴンソウル",
 		"drops": [
 			{
@@ -4181,16 +6024,35 @@
 			"poison": 50,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "混乱ブレイク大",
-			"level20": "マホキテボディ",
-			"level40": "ねがえり",
-			"largeAlways": [
-				"行動回数２",
-				"みかわしアップ大"
-			],
-			"largeLevel60": "電撃ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "混乱ブレイク大",
+				"level": 1
+			},
+			{
+				"name": "マホキテボディ",
+				"level": 20
+			},
+			{
+				"name": "ねがえり",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "電撃ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ナチュラル",
 		"drops": [
 			{
@@ -4224,16 +6086,35 @@
 			"rest": -25,
 			"poison": 25
 		},
-		"traits": {
-			"always": "水のコツ",
-			"level20": "みかわしアップ大",
-			"level40": "マホトラ攻撃",
-			"largeAlways": [
-				"行動回数２",
-				"ねがえり"
-			],
-			"largeLevel60": "混乱ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "水のコツ",
+				"level": 1
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 20
+			},
+			{
+				"name": "マホトラ攻撃",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ねがえり",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "混乱ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "水の心",
 		"drops": [
 			{
@@ -4274,13 +6155,22 @@
 			"poison": 255,
 			"sudden_death": 255
 		},
-		"traits": {
-			"always": "行動回数２",
-			"largeAlways": [
-				"火ブレイク大",
-				"火のコツ"
-			]
-		},
+		"traits": [
+			{
+				"name": "行動回数２",
+				"level": 1
+			},
+			{
+				"name": "火ブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "火のコツ",
+				"level": 1,
+				"large": true
+			}
+		],
 		"skill": ""
 	},
 	"Great Sabrecub": {
@@ -4307,16 +6197,35 @@
 			"rest": 50,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "きょうせんし",
-			"level20": "ショック攻撃",
-			"level40": "ラブリー",
-			"largeAlways": [
-				"行動回数１から３",
-				"休みブレイク大"
-			],
-			"largeLevel60": "全体攻撃"
-		},
+		"traits": [
+			{
+				"name": "きょうせんし",
+				"level": 1
+			},
+			{
+				"name": "ショック攻撃",
+				"level": 20
+			},
+			{
+				"name": "ラブリー",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "休みブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "全体攻撃",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "けもの道"
 	},
 	"Killer Gila": {
@@ -4343,16 +6252,35 @@
 			"rest": 50,
 			"poison": 25
 		},
-		"traits": {
-			"always": "どくどくボディ",
-			"level20": "きょうせんし",
-			"level40": "ピンチで会心",
-			"largeAlways": [
-				"行動回数１から３",
-				"毒ブレイク大"
-			],
-			"largeLevel60": "いきなりバイキルト"
-		},
+		"traits": [
+			{
+				"name": "どくどくボディ",
+				"level": 1
+			},
+			{
+				"name": "きょうせんし",
+				"level": 20
+			},
+			{
+				"name": "ピンチで会心",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "毒ブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "いきなりバイキルト",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "毒舌"
 	},
 	"Soft Serve Spook": {
@@ -4378,16 +6306,35 @@
 			"paralysis": 50,
 			"poison": 50
 		},
-		"traits": {
-			"always": "ギャンブルボディ",
-			"level20": "みかわしアップ大",
-			"level40": "ツッコミ",
-			"largeAlways": [
-				"行動回数１から３",
-				"魔力の強風"
-			],
-			"largeLevel60": "風のコツ"
-		},
+		"traits": [
+			{
+				"name": "ギャンブルボディ",
+				"level": 1
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 20
+			},
+			{
+				"name": "ツッコミ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "魔力の強風",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "風のコツ",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "キューピット"
 	},
 	"Healslime": {
@@ -4412,16 +6359,35 @@
 			"paralysis": 50,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "回復のコツ",
-			"level20": "ときどきまもりの霧",
-			"level40": "最後の息吹",
-			"largeAlways": [
-				"行動回数２",
-				"みかわしアップ大"
-			],
-			"largeLevel60": "マホキテボディ"
-		},
+		"traits": [
+			{
+				"name": "回復のコツ",
+				"level": 1
+			},
+			{
+				"name": "ときどきまもりの霧",
+				"level": 20
+			},
+			{
+				"name": "最後の息吹",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "マホキテボディ",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "HP回復",
 		"drops": [
 			{
@@ -4459,16 +6425,35 @@
 			"confusion": 25,
 			"paralysis": 75
 		},
-		"traits": {
-			"always": "封じブレイク大",
-			"level20": "ミラクル攻撃",
-			"level40": "かいひほんのう",
-			"largeAlways": [
-				"行動回数１から３",
-				"ビリビリボディ"
-			],
-			"largeLevel60": "星のおくりもの"
-		},
+		"traits": [
+			{
+				"name": "封じブレイク大",
+				"level": 1
+			},
+			{
+				"name": "ミラクル攻撃",
+				"level": 20
+			},
+			{
+				"name": "かいひほんのう",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ビリビリボディ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "星のおくりもの",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "アッパー"
 	},
 	"Boppin' Badger": {
@@ -4497,16 +6482,35 @@
 			"rest": 50,
 			"poison": 25
 		},
-		"traits": {
-			"always": "混乱ブレイク大",
-			"level20": "しっぺがえし",
-			"level40": "ときどきピオラ",
-			"largeAlways": [
-				"行動回数１から３",
-				"ぐるぐるボディ"
-			],
-			"largeLevel60": "ザキ攻撃"
-		},
+		"traits": [
+			{
+				"name": "混乱ブレイク大",
+				"level": 1
+			},
+			{
+				"name": "しっぺがえし",
+				"level": 20
+			},
+			{
+				"name": "ときどきピオラ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ぐるぐるボディ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ザキ攻撃",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ダンサー",
 		"drops": [
 			{
@@ -4540,16 +6544,35 @@
 			"rest": 25,
 			"poison": 25
 		},
-		"traits": {
-			"always": "封じブレイク大",
-			"level20": "回復のコツ",
-			"level40": "ミラクル攻撃",
-			"largeAlways": [
-				"行動回数２",
-				"癒しの大力"
-			],
-			"largeLevel60": "弱体化ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "封じブレイク大",
+				"level": 1
+			},
+			{
+				"name": "回復のコツ",
+				"level": 20
+			},
+			{
+				"name": "ミラクル攻撃",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "癒しの大力",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "弱体化ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "みずげい",
 		"drops": [
 			{
@@ -4584,16 +6607,35 @@
 			"rest": 25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "こんらん攻撃",
-			"level20": "地のコツ",
-			"level40": "封じブレイク大",
-			"largeAlways": [
-				"行動回数１から３",
-				"ツッコミ"
-			],
-			"largeLevel60": "混乱ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "こんらん攻撃",
+				"level": 1
+			},
+			{
+				"name": "地のコツ",
+				"level": 20
+			},
+			{
+				"name": "封じブレイク大",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ツッコミ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "混乱ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "地の心",
 		"drops": [
 			{
@@ -4630,16 +6672,35 @@
 			"confusion": 50,
 			"paralysis": 50
 		},
-		"traits": {
-			"always": "みかわしアップ大",
-			"level20": "かいひほんのう",
-			"level40": "休みブレイク大",
-			"largeAlways": [
-				"行動回数１から３",
-				"最後のあがき"
-			],
-			"largeLevel60": "全体攻撃"
-		},
+		"traits": [
+			{
+				"name": "みかわしアップ大",
+				"level": 1
+			},
+			{
+				"name": "かいひほんのう",
+				"level": 20
+			},
+			{
+				"name": "休みブレイク大",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "最後のあがき",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "全体攻撃",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "妖精",
 		"drops": [
 			{
@@ -4677,16 +6738,35 @@
 			"sleep": 50,
 			"poison": 50
 		},
-		"traits": {
-			"always": "眠りブレイク大",
-			"level20": "ねむり攻撃",
-			"level40": "しっぺがえし",
-			"largeAlways": [
-				"行動回数１から３",
-				"スヤスヤボディ"
-			],
-			"largeLevel60": "弱体化ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "眠りブレイク大",
+				"level": 1
+			},
+			{
+				"name": "ねむり攻撃",
+				"level": 20
+			},
+			{
+				"name": "しっぺがえし",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "スヤスヤボディ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "弱体化ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "アンデッド"
 	},
 	"Pocus Poppet": {
@@ -4713,16 +6793,35 @@
 			"rest": 25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "弱体化ブレイク大",
-			"level20": "MP吸収ブレイク大",
-			"level40": "ときどきスカラ",
-			"largeAlways": [
-				"行動回数１から３",
-				"会心かんぜんガード"
-			],
-			"largeLevel60": "封じブレイク大"
-		},
+		"traits": [
+			{
+				"name": "弱体化ブレイク大",
+				"level": 1
+			},
+			{
+				"name": "MP吸収ブレイク大",
+				"level": 20
+			},
+			{
+				"name": "ときどきスカラ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "会心かんぜんガード",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "封じブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ジャマー",
 		"drops": [
 			{
@@ -4761,16 +6860,35 @@
 			"rest": 25,
 			"poison": 25
 		},
-		"traits": {
-			"always": "幻惑ブレイク大",
-			"level20": "光のコツ",
-			"level40": "マヒ攻撃",
-			"largeAlways": [
-				"行動回数１から３",
-				"みかわしアップ大"
-			],
-			"largeLevel60": "マヒブレイク大"
-		},
+		"traits": [
+			{
+				"name": "幻惑ブレイク大",
+				"level": 1
+			},
+			{
+				"name": "光のコツ",
+				"level": 20
+			},
+			{
+				"name": "マヒ攻撃",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "マヒブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "スリラー",
 		"drops": [
 			{
@@ -4808,16 +6926,35 @@
 			"rest": 50,
 			"poison": 50
 		},
-		"traits": {
-			"always": "マホキテボディ",
-			"level20": "電撃のコツ",
-			"level40": "かいひほんのう",
-			"largeAlways": [
-				"行動回数１から３",
-				"ときどきピオラ"
-			],
-			"largeLevel60": "超みかわしアップ"
-		},
+		"traits": [
+			{
+				"name": "マホキテボディ",
+				"level": 1
+			},
+			{
+				"name": "電撃のコツ",
+				"level": 20
+			},
+			{
+				"name": "かいひほんのう",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ときどきピオラ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "超みかわしアップ",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "風の心"
 	},
 	"Hunter Mech": {
@@ -4843,16 +6980,35 @@
 			"rest": 50,
 			"poison": 50
 		},
-		"traits": {
-			"always": "行動回数１から２",
-			"level20": "メタルハンター",
-			"level40": "たいでんたいしつ",
-			"largeAlways": [
-				"アンチみかわし",
-				"超会心率アップ"
-			],
-			"largeLevel60": "ショック攻撃"
-		},
+		"traits": [
+			{
+				"name": "行動回数１から２",
+				"level": 1
+			},
+			{
+				"name": "メタルハンター",
+				"level": 20
+			},
+			{
+				"name": "たいでんたいしつ",
+				"level": 40
+			},
+			{
+				"name": "アンチみかわし",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "超会心率アップ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ショック攻撃",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "剣術",
 		"drops": [
 			{
@@ -4891,16 +7047,35 @@
 			"rest": 25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "火のコツ",
-			"level20": "みかわしアップ大",
-			"level40": "マホトラ攻撃",
-			"largeAlways": [
-				"行動回数１から３",
-				"ときどきインテ"
-			],
-			"largeLevel60": "最後のあがき"
-		},
+		"traits": [
+			{
+				"name": "火のコツ",
+				"level": 1
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 20
+			},
+			{
+				"name": "マホトラ攻撃",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ときどきインテ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "最後のあがき",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "火の心",
 		"drops": [
 			{
@@ -4942,16 +7117,35 @@
 			"poison": 25,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "ショック攻撃",
-			"level20": "いきなりピオラ",
-			"level40": "秘めたるチカラ",
-			"largeAlways": [
-				"行動回数１から３",
-				"みかわしアップ大"
-			],
-			"largeLevel60": "ラブリー"
-		},
+		"traits": [
+			{
+				"name": "ショック攻撃",
+				"level": 1
+			},
+			{
+				"name": "いきなりピオラ",
+				"level": 20
+			},
+			{
+				"name": "秘めたるチカラ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ラブリー",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "悪魔のささやき",
 		"drops": [
 			{
@@ -4992,16 +7186,35 @@
 			"rest": -25,
 			"poison": 25
 		},
-		"traits": {
-			"always": "みかわしアップ大",
-			"level20": "こんらん攻撃",
-			"level40": "ツッコミ",
-			"largeAlways": [
-				"行動回数１から３",
-				"最後のあがき"
-			],
-			"largeLevel60": "ラブリー"
-		},
+		"traits": [
+			{
+				"name": "みかわしアップ大",
+				"level": 1
+			},
+			{
+				"name": "こんらん攻撃",
+				"level": 20
+			},
+			{
+				"name": "ツッコミ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "最後のあがき",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ラブリー",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "レッドソード"
 	},
 	"Platypunk": {
@@ -5026,16 +7239,35 @@
 			"rest": 50,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "れんぞく４",
-			"level20": "ラブリー",
-			"level40": "ツッコミ",
-			"largeAlways": [
-				"行動回数１から３",
-				"休みブレイク大"
-			],
-			"largeLevel60": "全体攻撃"
-		},
+		"traits": [
+			{
+				"name": "れんぞく４",
+				"level": 1
+			},
+			{
+				"name": "ラブリー",
+				"level": 20
+			},
+			{
+				"name": "ツッコミ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "休みブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "全体攻撃",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "けもの道",
 		"drops": [
 			{
@@ -5070,16 +7302,35 @@
 			"drain_mp": 50,
 			"poison": 50
 		},
-		"traits": {
-			"always": "ツッコミ",
-			"level20": "やいばのボディ",
-			"level40": "弱体化ブレイク大",
-			"largeAlways": [
-				"行動回数１から３",
-				"魔力の強風"
-			],
-			"largeLevel60": "やみのはどう"
-		},
+		"traits": [
+			{
+				"name": "ツッコミ",
+				"level": 1
+			},
+			{
+				"name": "やいばのボディ",
+				"level": 20
+			},
+			{
+				"name": "弱体化ブレイク大",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "魔力の強風",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "やみのはどう",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "闇の心"
 	},
 	"Napir": {
@@ -5106,16 +7357,35 @@
 			"sleep": 50,
 			"rest": 50
 		},
-		"traits": {
-			"always": "眠りブレイク大",
-			"level20": "MP吸収ブレイク大",
-			"level40": "しっぺがえし",
-			"largeAlways": [
-				"行動回数１から３",
-				"きょうせんし"
-			],
-			"largeLevel60": "最後の息吹"
-		},
+		"traits": [
+			{
+				"name": "眠りブレイク大",
+				"level": 1
+			},
+			{
+				"name": "MP吸収ブレイク大",
+				"level": 20
+			},
+			{
+				"name": "しっぺがえし",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "きょうせんし",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "最後の息吹",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "睡魔",
 		"drops": [
 			{
@@ -5154,16 +7424,35 @@
 			"poison": 50,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "火のコツ",
-			"level20": "ピンチで呪文会心",
-			"level40": "わるあがき",
-			"largeAlways": [
-				"行動回数１から３",
-				"くじけぬ心"
-			],
-			"largeLevel60": "爆発のコツ"
-		},
+		"traits": [
+			{
+				"name": "火のコツ",
+				"level": 1
+			},
+			{
+				"name": "ピンチで呪文会心",
+				"level": 20
+			},
+			{
+				"name": "わるあがき",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "くじけぬ心",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "爆発のコツ",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "火の心",
 		"drops": [
 			{
@@ -5201,16 +7490,35 @@
 			"paralysis": -25,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "ちからため",
-			"level20": "爆発のコツ",
-			"level40": "魔力の風",
-			"largeAlways": [
-				"行動回数１から３",
-				"爆発ブレイク大"
-			],
-			"largeLevel60": "ふっかつの祈り"
-		},
+		"traits": [
+			{
+				"name": "ちからため",
+				"level": 1
+			},
+			{
+				"name": "爆発のコツ",
+				"level": 20
+			},
+			{
+				"name": "魔力の風",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "爆発ブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ふっかつの祈り",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "爆発の心",
 		"drops": [
 			{
@@ -5249,16 +7557,35 @@
 			"paralysis": 50,
 			"rest": -25
 		},
-		"traits": {
-			"always": "こんらん攻撃",
-			"level20": "いきなりインテ",
-			"level40": "ツッコミ",
-			"largeAlways": [
-				"行動回数１から３",
-				"どくどくボディ"
-			],
-			"largeLevel60": "混乱ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "こんらん攻撃",
+				"level": 1
+			},
+			{
+				"name": "いきなりインテ",
+				"level": 20
+			},
+			{
+				"name": "ツッコミ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "どくどくボディ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "混乱ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ヌメヌメ",
 		"drops": [
 			{
@@ -5299,16 +7626,35 @@
 			"rest": 25,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "ときどきスカラ",
-			"level20": "おだてじょうず",
-			"level40": "しっぺがえし",
-			"largeAlways": [
-				"行動回数２",
-				"根に持つタイプ"
-			],
-			"largeLevel60": "全体攻撃"
-		},
+		"traits": [
+			{
+				"name": "ときどきスカラ",
+				"level": 1
+			},
+			{
+				"name": "おだてじょうず",
+				"level": 20
+			},
+			{
+				"name": "しっぺがえし",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "根に持つタイプ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "全体攻撃",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "アサシン",
 		"drops": [
 			{
@@ -5346,16 +7692,35 @@
 			"sleep": 25,
 			"poison": 50
 		},
-		"traits": {
-			"always": "癒しの力",
-			"level20": "ラージキラー",
-			"level40": "ときどきインテ",
-			"largeAlways": [
-				"行動回数１から３",
-				"セラピー"
-			],
-			"largeLevel60": "全体攻撃"
-		},
+		"traits": [
+			{
+				"name": "癒しの力",
+				"level": 1
+			},
+			{
+				"name": "ラージキラー",
+				"level": 20
+			},
+			{
+				"name": "ときどきインテ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "セラピー",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "全体攻撃",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "みずげい",
 		"drops": [
 			{
@@ -5391,16 +7756,35 @@
 			"rest": 50,
 			"poison": 25
 		},
-		"traits": {
-			"always": "どくどくボディ",
-			"level20": "ねがえり",
-			"level40": "どく攻撃",
-			"largeAlways": [
-				"行動回数１から３",
-				"癒しの大力"
-			],
-			"largeLevel60": "全体攻撃"
-		},
+		"traits": [
+			{
+				"name": "どくどくボディ",
+				"level": 1
+			},
+			{
+				"name": "ねがえり",
+				"level": 20
+			},
+			{
+				"name": "どく攻撃",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "癒しの大力",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "全体攻撃",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "あくしゅう"
 	},
 	"Marislime": {
@@ -5424,16 +7808,35 @@
 			"sleep": 25,
 			"paralysis": 75
 		},
-		"traits": {
-			"always": "水のコツ",
-			"level20": "いきなりピオラ",
-			"level40": "アンチみかわし",
-			"largeAlways": [
-				"行動回数２",
-				"みかわしアップ大"
-			],
-			"largeLevel60": "水ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "水のコツ",
+				"level": 1
+			},
+			{
+				"name": "いきなりピオラ",
+				"level": 20
+			},
+			{
+				"name": "アンチみかわし",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "水ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "みずげい",
 		"drops": [
 			{
@@ -5470,16 +7873,35 @@
 			"sleep": 25,
 			"paralysis": 75
 		},
-		"traits": {
-			"always": "火のコツ",
-			"level20": "とうそうほんのう",
-			"level40": "くじけぬ心",
-			"largeAlways": [
-				"行動回数１から３",
-				"ファイターズハイ"
-			],
-			"largeLevel60": "火ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "火のコツ",
+				"level": 1
+			},
+			{
+				"name": "とうそうほんのう",
+				"level": 20
+			},
+			{
+				"name": "くじけぬ心",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ファイターズハイ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "火ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "火遊び"
 	},
 	"Bad Egg": {
@@ -5505,16 +7927,35 @@
 			"paralysis": 50,
 			"poison": 50
 		},
-		"traits": {
-			"always": "マホキテボディ",
-			"level20": "封じブレイク大",
-			"level40": "ときどきピオラ",
-			"largeAlways": [
-				"行動回数２",
-				"光のコツ"
-			],
-			"largeLevel60": "マヒブレイク大"
-		},
+		"traits": [
+			{
+				"name": "マホキテボディ",
+				"level": 1
+			},
+			{
+				"name": "封じブレイク大",
+				"level": 20
+			},
+			{
+				"name": "ときどきピオラ",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "光のコツ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "マヒブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "氷結の心"
 	},
 	"Burr Baby": {
@@ -5539,16 +7980,35 @@
 			"poison": 50,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "ときどきバイキルト",
-			"level20": "徒手空拳",
-			"level40": "爆発のコツ",
-			"largeAlways": [
-				"行動回数１から３",
-				"やいばのボディ"
-			],
-			"largeLevel60": "全ガードブレイク"
-		},
+		"traits": [
+			{
+				"name": "ときどきバイキルト",
+				"level": 1
+			},
+			{
+				"name": "徒手空拳",
+				"level": 20
+			},
+			{
+				"name": "爆発のコツ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "やいばのボディ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "全ガードブレイク",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "いしあたま",
 		"drops": [
 			{
@@ -5583,16 +8043,35 @@
 			"rest": 50,
 			"poison": 75
 		},
-		"traits": {
-			"always": "ピンチで会心",
-			"level20": "しっぺがえし",
-			"level40": "いきなりピオラ",
-			"largeAlways": [
-				"行動回数１から３",
-				"ツッコミ"
-			],
-			"largeLevel60": "眠りブレイク大"
-		},
+		"traits": [
+			{
+				"name": "ピンチで会心",
+				"level": 1
+			},
+			{
+				"name": "しっぺがえし",
+				"level": 20
+			},
+			{
+				"name": "いきなりピオラ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ツッコミ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "眠りブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "スイート"
 	},
 	"Urnexpected": {
@@ -5620,16 +8099,35 @@
 			"poison": 50,
 			"sudden_death": 50
 		},
-		"traits": {
-			"always": "ザキ攻撃",
-			"level20": "いきなりスカラ",
-			"level40": "みかわしアップ大",
-			"largeAlways": [
-				"行動回数２",
-				"スモールキラー"
-			],
-			"largeLevel60": "即死ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "ザキ攻撃",
+				"level": 1
+			},
+			{
+				"name": "いきなりスカラ",
+				"level": 20
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "スモールキラー",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "即死ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "パニック",
 		"drops": [
 			{
@@ -5667,16 +8165,35 @@
 			"paralysis": 25,
 			"rest": 50
 		},
-		"traits": {
-			"always": "ときどきピオラ",
-			"level20": "どく攻撃",
-			"level40": "毒ブレイク大",
-			"largeAlways": [
-				"行動回数２",
-				"スモールキラー"
-			],
-			"largeLevel60": "超会心率アップ"
-		},
+		"traits": [
+			{
+				"name": "ときどきピオラ",
+				"level": 1
+			},
+			{
+				"name": "どく攻撃",
+				"level": 20
+			},
+			{
+				"name": "毒ブレイク大",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "スモールキラー",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "超会心率アップ",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "バンデッド"
 	},
 	"Will-O'-The-Whips": {
@@ -5701,16 +8218,35 @@
 			"poison": 50,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "みかわしアップ大",
-			"level20": "ミラクル攻撃",
-			"level40": "ピンチで呪文会心",
-			"largeAlways": [
-				"行動回数１から３",
-				"いやがらせ"
-			],
-			"largeLevel60": "根に持つタイプ"
-		},
+		"traits": [
+			{
+				"name": "みかわしアップ大",
+				"level": 1
+			},
+			{
+				"name": "ミラクル攻撃",
+				"level": 20
+			},
+			{
+				"name": "ピンチで呪文会心",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "いやがらせ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "根に持つタイプ",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "アンデッド"
 	},
 	"Coconut Slime": {
@@ -5738,16 +8274,35 @@
 			"paralysis": 50,
 			"poison": 25
 		},
-		"traits": {
-			"always": "マホキテボディ",
-			"level20": "癒しの力",
-			"level40": "眠りブレイク大",
-			"largeAlways": [
-				"行動回数２から３",
-				"医術士"
-			],
-			"largeLevel60": "休みブレイク大"
-		},
+		"traits": [
+			{
+				"name": "マホキテボディ",
+				"level": 1
+			},
+			{
+				"name": "癒しの力",
+				"level": 20
+			},
+			{
+				"name": "眠りブレイク大",
+				"level": 40
+			},
+			{
+				"name": "行動回数２から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "医術士",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "休みブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "トロピカル",
 		"drops": [
 			{
@@ -5786,16 +8341,35 @@
 			"poison": -25,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "封じブレイク大",
-			"level20": "ときどきスカラ",
-			"level40": "呪文会心率アップ大",
-			"largeAlways": [
-				"行動回数１から３",
-				"魔力の強風"
-			],
-			"largeLevel60": "氷結ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "封じブレイク大",
+				"level": 1
+			},
+			{
+				"name": "ときどきスカラ",
+				"level": 20
+			},
+			{
+				"name": "呪文会心率アップ大",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "魔力の強風",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "氷結ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "魔術",
 		"drops": [
 			{
@@ -5831,16 +8405,35 @@
 			"rest": 50,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "ラブリー",
-			"level20": "魔力の風",
-			"level40": "ときどきまもりの霧",
-			"largeAlways": [
-				"行動回数１から３",
-				"おだてじょうず"
-			],
-			"largeLevel60": "ひかりのはどう"
-		},
+		"traits": [
+			{
+				"name": "ラブリー",
+				"level": 1
+			},
+			{
+				"name": "魔力の風",
+				"level": 20
+			},
+			{
+				"name": "ときどきまもりの霧",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "おだてじょうず",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ひかりのはどう",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "HP回復"
 	},
 	"Funky Ferret": {
@@ -5867,16 +8460,35 @@
 			"paralysis": 25,
 			"poison": 25
 		},
-		"traits": {
-			"always": "眠りブレイク大",
-			"level20": "ショック攻撃",
-			"level40": "ラブリー",
-			"largeAlways": [
-				"行動回数２",
-				"ヘロヘロボディ"
-			],
-			"largeLevel60": "最後のあがき"
-		},
+		"traits": [
+			{
+				"name": "眠りブレイク大",
+				"level": 1
+			},
+			{
+				"name": "ショック攻撃",
+				"level": 20
+			},
+			{
+				"name": "ラブリー",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ヘロヘロボディ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "最後のあがき",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "あくしゅう",
 		"drops": [
 			{
@@ -5912,16 +8524,35 @@
 			"sleep": 50,
 			"rest": 50
 		},
-		"traits": {
-			"always": "会心率アップ大",
-			"level20": "ときどきスカラ",
-			"level40": "ラブリー",
-			"largeAlways": [
-				"行動回数１から３",
-				"ミラクル攻撃"
-			],
-			"largeLevel60": "背水の陣"
-		},
+		"traits": [
+			{
+				"name": "会心率アップ大",
+				"level": 1
+			},
+			{
+				"name": "ときどきスカラ",
+				"level": 20
+			},
+			{
+				"name": "ラブリー",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ミラクル攻撃",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "背水の陣",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "けもの道"
 	},
 	"Gloomy Grublin": {
@@ -5947,16 +8578,35 @@
 			"sleep": 50,
 			"rest": 50
 		},
-		"traits": {
-			"always": "いきなりピオラ",
-			"level20": "みかわしアップ大",
-			"level40": "かいひほんのう",
-			"largeAlways": [
-				"行動回数２から３",
-				"ときどきまもりの霧"
-			],
-			"largeLevel60": "ふっかつの祈り"
-		},
+		"traits": [
+			{
+				"name": "いきなりピオラ",
+				"level": 1
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 20
+			},
+			{
+				"name": "かいひほんのう",
+				"level": 40
+			},
+			{
+				"name": "行動回数２から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ときどきまもりの霧",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ふっかつの祈り",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "いたずら",
 		"drops": [
 			{
@@ -5991,16 +8641,35 @@
 			"paralysis": 50,
 			"poison": 50
 		},
-		"traits": {
-			"always": "どく攻撃",
-			"level20": "ときどきスカラ",
-			"level40": "毒ブレイク大",
-			"largeAlways": [
-				"行動回数１から３",
-				"ピンチで会心"
-			],
-			"largeLevel60": "しっぺがえし"
-		},
+		"traits": [
+			{
+				"name": "どく攻撃",
+				"level": 1
+			},
+			{
+				"name": "ときどきスカラ",
+				"level": 20
+			},
+			{
+				"name": "毒ブレイク大",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ピンチで会心",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "しっぺがえし",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "むしのしらせ"
 	},
 	"Hangelabra": {
@@ -6023,16 +8692,35 @@
 			"confusion": 50,
 			"sleep": 50
 		},
-		"traits": {
-			"always": "呪文会心率アップ大",
-			"level20": "魔力の風",
-			"level40": "闇のコツ",
-			"largeAlways": [
-				"行動回数１から３",
-				"マジシャンズハイ"
-			],
-			"largeLevel60": "マヒブレイク大"
-		},
+		"traits": [
+			{
+				"name": "呪文会心率アップ大",
+				"level": 1
+			},
+			{
+				"name": "魔力の風",
+				"level": 20
+			},
+			{
+				"name": "闇のコツ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "マジシャンズハイ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "マヒブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "カース"
 	},
 	"Little Devil": {
@@ -6055,16 +8743,35 @@
 			"confusion": 50,
 			"sleep": 50
 		},
-		"traits": {
-			"always": "いやがらせ",
-			"level20": "ツッコミ",
-			"level40": "わるあがき",
-			"largeAlways": [
-				"行動回数１から３",
-				"マジシャンズハイ"
-			],
-			"largeLevel60": "地ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "いやがらせ",
+				"level": 1
+			},
+			{
+				"name": "ツッコミ",
+				"level": 20
+			},
+			{
+				"name": "わるあがき",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "マジシャンズハイ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "地ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "悪魔のささやき",
 		"drops": [
 			{
@@ -6097,16 +8804,35 @@
 			"confusion": 50,
 			"poison": 50
 		},
-		"traits": {
-			"always": "キラキラボディ",
-			"level20": "ちからため",
-			"level40": "いきなりマホカンタ",
-			"largeAlways": [
-				"行動回数２",
-				"プレッシャー"
-			],
-			"largeLevel60": "弱体化ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "キラキラボディ",
+				"level": 1
+			},
+			{
+				"name": "ちからため",
+				"level": 20
+			},
+			{
+				"name": "いきなりマホカンタ",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "プレッシャー",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "弱体化ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "いしあたま"
 	},
 	"Mad Moai": {
@@ -6128,16 +8854,35 @@
 			"paralysis": 50,
 			"poison": 50
 		},
-		"traits": {
-			"always": "プレッシャー",
-			"level20": "地のコツ",
-			"level40": "わるあがき",
-			"largeAlways": [
-				"行動回数１から３",
-				"ツッコミ"
-			],
-			"largeLevel60": "地ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "プレッシャー",
+				"level": 1
+			},
+			{
+				"name": "地のコツ",
+				"level": 20
+			},
+			{
+				"name": "わるあがき",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ツッコミ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "地ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "いしあたま"
 	},
 	"Seasaur": {
@@ -6164,16 +8909,35 @@
 			"poison": -25,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "みかわしアップ大",
-			"level20": "水のコツ",
-			"level40": "いきなりバイキルト",
-			"largeAlways": [
-				"行動回数１から３",
-				"ファイターズハイ"
-			],
-			"largeLevel60": "氷結ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "みかわしアップ大",
+				"level": 1
+			},
+			{
+				"name": "水のコツ",
+				"level": 20
+			},
+			{
+				"name": "いきなりバイキルト",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ファイターズハイ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "氷結ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "水の心",
 		"drops": [
 			{
@@ -6209,16 +8973,35 @@
 			"rest": 25,
 			"poison": 25
 		},
-		"traits": {
-			"always": "会心率アップ大",
-			"level20": "いきなりピオラ",
-			"level40": "みかわしアップ大",
-			"largeAlways": [
-				"行動回数１から３",
-				"ロケットスタート"
-			],
-			"largeLevel60": "最後のあがき"
-		},
+		"traits": [
+			{
+				"name": "会心率アップ大",
+				"level": 1
+			},
+			{
+				"name": "いきなりピオラ",
+				"level": 20
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ロケットスタート",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "最後のあがき",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ダウナー",
 		"drops": [
 			{
@@ -6250,16 +9033,35 @@
 			"paralysis": 50,
 			"poison": 50
 		},
-		"traits": {
-			"always": "ショック攻撃",
-			"level20": "ときどきスカラ",
-			"level40": "地のコツ",
-			"largeAlways": [
-				"行動回数１から３",
-				"しっぺがえし"
-			],
-			"largeLevel60": "休みブレイク大"
-		},
+		"traits": [
+			{
+				"name": "ショック攻撃",
+				"level": 1
+			},
+			{
+				"name": "ときどきスカラ",
+				"level": 20
+			},
+			{
+				"name": "地のコツ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "しっぺがえし",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "休みブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "バンデッド",
 		"drops": [
 			{
@@ -6296,16 +9098,35 @@
 			"rest": -25,
 			"poison": 75
 		},
-		"traits": {
-			"always": "会心率アップ大",
-			"level20": "マヒ攻撃",
-			"level40": "いやがらせ",
-			"largeAlways": [
-				"行動回数１から３",
-				"背水の陣"
-			],
-			"largeLevel60": "マヒブレイク大"
-		},
+		"traits": [
+			{
+				"name": "会心率アップ大",
+				"level": 1
+			},
+			{
+				"name": "マヒ攻撃",
+				"level": 20
+			},
+			{
+				"name": "いやがらせ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "背水の陣",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "マヒブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "むしのしらせ"
 	},
 	"Swarmtroop": {
@@ -6334,16 +9155,35 @@
 			"rest": 50,
 			"poison": -25
 		},
-		"traits": {
-			"always": "れんぞく６",
-			"level20": "みかわしアップ大",
-			"level40": "毒ブレイク大",
-			"largeAlways": [
-				"行動回数２から３",
-				"ぐるぐるボディ"
-			],
-			"largeLevel60": "パワードレイン"
-		},
+		"traits": [
+			{
+				"name": "れんぞく６",
+				"level": 1
+			},
+			{
+				"name": "みかわしアップ大",
+				"level": 20
+			},
+			{
+				"name": "毒ブレイク大",
+				"level": 40
+			},
+			{
+				"name": "行動回数２から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ぐるぐるボディ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "パワードレイン",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ダウナー",
 		"drops": [
 			{
@@ -6382,16 +9222,35 @@
 			"poison": 50,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "封じブレイク大",
-			"level20": "ねがえり",
-			"level40": "闇のコツ",
-			"largeAlways": [
-				"行動回数２から３",
-				"超呪文会心率アップ"
-			],
-			"largeLevel60": "魔力の強風"
-		},
+		"traits": [
+			{
+				"name": "封じブレイク大",
+				"level": 1
+			},
+			{
+				"name": "ねがえり",
+				"level": 20
+			},
+			{
+				"name": "闇のコツ",
+				"level": 40
+			},
+			{
+				"name": "行動回数２から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "超呪文会心率アップ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "魔力の強風",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "巨漢"
 	},
 	"Mouldfish": {
@@ -6414,16 +9273,35 @@
 			"sleep": 25,
 			"paralysis": 50
 		},
-		"traits": {
-			"always": "ビリビリボディ",
-			"level20": "風のコツ",
-			"level40": "ぼうえいほんのう",
-			"largeAlways": [
-				"行動回数１から３",
-				"闇ブレイク大"
-			],
-			"largeLevel60": "やみのはどう"
-		},
+		"traits": [
+			{
+				"name": "ビリビリボディ",
+				"level": 1
+			},
+			{
+				"name": "風のコツ",
+				"level": 20
+			},
+			{
+				"name": "ぼうえいほんのう",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "闇ブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "やみのはどう",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "みずげい",
 		"drops": [
 			{
@@ -6463,16 +9341,35 @@
 			"poison": 25,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "かいひほんのう",
-			"level20": "ときどきまもりの霧",
-			"level40": "幻惑ブレイク大",
-			"largeAlways": [
-				"行動回数１から３",
-				"超みかわしアップ"
-			],
-			"largeLevel60": "魔力の強風"
-		},
+		"traits": [
+			{
+				"name": "かいひほんのう",
+				"level": 1
+			},
+			{
+				"name": "ときどきまもりの霧",
+				"level": 20
+			},
+			{
+				"name": "幻惑ブレイク大",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "超みかわしアップ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "魔力の強風",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ジャマー"
 	},
 	"Sky Fry": {
@@ -6501,16 +9398,35 @@
 			"poison": 25,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "ギャンブルボディ",
-			"level20": "ときどきスカラ",
-			"level40": "ねむり攻撃",
-			"largeAlways": [
-				"行動回数２",
-				"眠りブレイク大"
-			],
-			"largeLevel60": "混乱ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "ギャンブルボディ",
+				"level": 1
+			},
+			{
+				"name": "ときどきスカラ",
+				"level": 20
+			},
+			{
+				"name": "ねむり攻撃",
+				"level": 40
+			},
+			{
+				"name": "行動回数２",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "眠りブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "混乱ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "風の心"
 	},
 	"Jingle Bug": {
@@ -6540,16 +9456,35 @@
 			"sleep": -25,
 			"paralysis": 25
 		},
-		"traits": {
-			"always": "てんしの音色",
-			"level20": "かいひほんのう",
-			"level40": "セラピー",
-			"largeAlways": [
-				"行動回数２から３",
-				"ねむり攻撃"
-			],
-			"largeLevel60": "やまびこ"
-		},
+		"traits": [
+			{
+				"name": "てんしの音色",
+				"level": 1
+			},
+			{
+				"name": "かいひほんのう",
+				"level": 20
+			},
+			{
+				"name": "セラピー",
+				"level": 40
+			},
+			{
+				"name": "行動回数２から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ねむり攻撃",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "やまびこ",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "アッパー"
 	},
 	"Platypup": {
@@ -6579,16 +9514,35 @@
 			"confusion": 25,
 			"rest": 50
 		},
-		"traits": {
-			"always": "れんぞく３",
-			"level20": "ラブリー",
-			"level40": "とうそうほんのう",
-			"largeAlways": [
-				"行動回数１から３",
-				"超会心率アップ"
-			],
-			"largeLevel60": "ロケットスタート"
-		},
+		"traits": [
+			{
+				"name": "れんぞく３",
+				"level": 1
+			},
+			{
+				"name": "ラブリー",
+				"level": 20
+			},
+			{
+				"name": "とうそうほんのう",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "超会心率アップ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "ロケットスタート",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "いたずら",
 		"drops": [
 			{
@@ -6627,16 +9581,35 @@
 			"poison": 25,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "毒ブレイク大",
-			"level20": "MP吸収ブレイク大",
-			"level40": "混乱ブレイク大",
-			"largeAlways": [
-				"行動回数２から３",
-				"眠りブレイク大"
-			],
-			"largeLevel60": "即死ブレイク大"
-		},
+		"traits": [
+			{
+				"name": "毒ブレイク大",
+				"level": 1
+			},
+			{
+				"name": "MP吸収ブレイク大",
+				"level": 20
+			},
+			{
+				"name": "混乱ブレイク大",
+				"level": 40
+			},
+			{
+				"name": "行動回数２から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "眠りブレイク大",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "即死ブレイク大",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "ナチュラル",
 		"drops": [
 			{
@@ -6670,16 +9643,35 @@
 			"rest": -25,
 			"sudden_death": 25
 		},
-		"traits": {
-			"always": "れんぞく４",
-			"level20": "いきなりピオラ",
-			"level40": "回復のコツ",
-			"largeAlways": [
-				"行動回数１から３",
-				"超みかわしアップ"
-			],
-			"largeLevel60": "セラピー"
-		},
+		"traits": [
+			{
+				"name": "れんぞく４",
+				"level": 1
+			},
+			{
+				"name": "いきなりピオラ",
+				"level": 20
+			},
+			{
+				"name": "回復のコツ",
+				"level": 40
+			},
+			{
+				"name": "行動回数１から３",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "超みかわしアップ",
+				"level": 1,
+				"large": true
+			},
+			{
+				"name": "セラピー",
+				"level": 60,
+				"large": true
+			}
+		],
 		"skill": "プリンセス",
 		"drops": [
 			{

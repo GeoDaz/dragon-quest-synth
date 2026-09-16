@@ -66,7 +66,8 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 }) {
 	const { isFr, translateMonster, translateUI } = useTranslate();
 	const { walkInto, addDefault } = useContext(TrailContext);
-	const { details, terms, farewell, items, spawns } = useContext(DetailsContext);
+	const { details, terms, farewell, items, spawns, hasDetails, hasSpawns } =
+		useContext(DetailsContext);
 	const { stock, addToReserve, openReserve } = useContext(ReserveContext);
 	const held = stock?.[monster.name] || 0;
 	const [open, setOpen] = useState(false);
@@ -93,13 +94,15 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 			</td>
 			<td className="cell-details">
 				<div className="row-actions">
-					<button
-						type="button"
-						className="btn btn-primary details-button"
-						onClick={() => setOpen(true)}
-					>
-						<Icon name="text-indent-left" /> {translateUI('Details')}
-					</button>
+					{hasDetails && (
+						<button
+							type="button"
+							className="btn btn-primary details-button"
+							onClick={() => setOpen(true)}
+						>
+							<Icon name="text-indent-left" /> {translateUI('Details')}
+						</button>
+					)}
 					{!!addToReserve && (
 						<button
 							type="button"
@@ -141,15 +144,17 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 			<td className="cell-rank">
 				<Rank name={monster.rank} />
 			</td>
-			<td className="cell-skill">
+			{hasDetails && (
+				<td className="cell-skill">
 				{skillName ?
 					<Described
 						text={(isFr && skillTerm?.desc?.fr) || skillTerm?.desc?.en}
 					>
 						{skillName}
 					</Described>
-				:	<span className="cell-empty">&mdash;</span>}
-			</td>
+					:	<span className="cell-empty">&mdash;</span>}
+				</td>
+			)}
 			<td className="cell-synthesis">
 				{monster.synthesis.map((list: string[], i: number) => (
 					<div key={i} className="recipe">
@@ -206,11 +211,13 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 					</div>
 				:	<span className="cell-empty">&mdash;</span>}
 			</td>
-			<td className="cell-spawn">
-				{places?.length ?
-					places.map(place => <SpawnChip key={place.area} spawn={place} />)
-				:	<span className="cell-empty">&mdash;</span>}
-			</td>
+			{hasSpawns && (
+				<td className="cell-spawn">
+					{places?.length ?
+						places.map(place => <SpawnChip key={place.area} spawn={place} />)
+					:	<span className="cell-empty">&mdash;</span>}
+				</td>
+			)}
 		</>
 	);
 });

@@ -2,6 +2,8 @@ import { makeClassName } from '@/functions';
 import { Spinner } from 'react-bootstrap';
 import { Monster as MonsterInterface } from '@/types/Monster';
 import Rank from './Rank';
+import { useContext } from 'react';
+import { DetailsContext } from '@/context/details';
 
 const MonsterRowLoading = ({
 	monster,
@@ -10,6 +12,7 @@ const MonsterRowLoading = ({
 	monster: MonsterInterface;
 	hash?: string;
 }) => {
+	const { hasDetails, hasSpawns } = useContext(DetailsContext);
 	if (!monster) return null;
 	return (
 		<tr
@@ -40,9 +43,11 @@ const MonsterRowLoading = ({
 			<td className="cell-rank">
 				<Rank name={monster.rank} />
 			</td>
-			<td className="cell-skill">
-				<Skeleton size={16} width={80} />
-			</td>
+			{hasDetails && (
+				<td className="cell-skill">
+					<Skeleton size={16} width={80} />
+				</td>
+			)}
 			<td className="cell-synthesis">
 				{monster.synthesis.map((list: string[], i: number) => {
 					// a rank token turns its family tokens into labelled chips,
@@ -75,9 +80,11 @@ const MonsterRowLoading = ({
 					))}
 				</div>
 			</td>
-			<td className="cell-spawn">
-				<Skeleton size={16} width={80} />
-			</td>
+			{hasSpawns && (
+				<td className="cell-spawn">
+					<Skeleton size={16} width={80} />
+				</td>
+			)}
 		</tr>
 	);
 };

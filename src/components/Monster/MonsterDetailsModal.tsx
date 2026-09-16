@@ -7,6 +7,7 @@ import {
 	GameTerms,
 	Localised,
 	MonsterDetails,
+	MonsterTrait,
 } from '@/types/MonsterDetails';
 import { Monster as MonsterInterface } from '@/types/Monster';
 import useTranslate from '@/hooks/useTranslate';
@@ -36,6 +37,7 @@ const RESISTANCES: { key: string; label: string }[] = [
 	{ key: 'light', label: 'Light' },
 	{ key: 'darkness', label: 'Darkness' },
 	{ key: 'weakness', label: 'Debuff' },
+	{ key: 'bedazzle', label: 'Bedazzle' },
 	{ key: 'hit', label: 'Blunt' },
 	{ key: 'seal', label: 'Seal' },
 	{ key: 'drain_mp', label: 'MP drain' },
@@ -95,18 +97,12 @@ const MonsterDetailsModal: React.FC<Props> = ({
 	);
 	const label = (isFr && monster.nom) || monster.name;
 
-	const traits = details?.traits || {};
-	const atLevel = (level: number) => `${translateUI('Level')} ${level}`;
-	const smallTraits = [
-		{ when: atLevel(1), name: traits.always },
-		{ when: atLevel(20), name: traits.level20 },
-		{ when: atLevel(40), name: traits.level40 },
-	].filter(entry => !!entry.name);
-	const largeTraits = [
-		...(traits.largeAlways || []).map(name => ({ when: atLevel(1), name })),
-		{ when: atLevel(60), name: traits.largeLevel60 },
-	].filter(entry => !!entry.name);
-	const resisted = RESISTANCES.filter(entry => details?.resistances?.[entry.key]);
+	const traits = details?.traits || [];
+	const smallTraits = traits.filter(trait => !trait.large);
+	const largeTraits = traits.filter(trait => trait.large);
+	const resisted = RESISTANCES.filter(
+		entry => details?.resistances?.[entry.key] !== undefined
+	);
 
 	return (
 		<Modal
@@ -207,6 +203,7 @@ const MonsterDetailsModal: React.FC<Props> = ({
 							terms={terms}
 							named={named}
 							heading={translateUI('Traits')}
+							level={translateUI('Level')}
 						/>
 						<TraitsTable
 							size="L"
@@ -214,13 +211,14 @@ const MonsterDetailsModal: React.FC<Props> = ({
 							terms={terms}
 							named={named}
 							heading={translateUI('Traits')}
+							level={translateUI('Level')}
 						/>
 
 						{!!resisted.length && (
 							<section className="details-block wide">
 								<h5>{translateUI('Resistances')}</h5>
 								<ul className="details-resistances">
-									{RESISTANCES.map(entry => {
+									{resisted.map(entry => {
 										const value =
 											details.resistances?.[entry.key] || 0;
 										return (
@@ -275,12 +273,14 @@ const TraitsTable = ({
 	terms,
 	named,
 	heading,
+	level,
 }: {
 	size: string;
-	rows: { when: string; name?: string }[];
+	rows: MonsterTrait[];
 	terms: GameTerms;
 	named: (japanese: string, table: GameTerms['traits']) => React.ReactNode;
 	heading: string;
+	level: string;
 }) => {
 	if (!rows.length) return null;
 	return (
@@ -290,11 +290,13 @@ const TraitsTable = ({
 			</h5>
 			<table className="details-traits">
 				<tbody>
-					{rows.map((entry, i) => (
-						<tr key={`${entry.when}-${i}`}>
-							<th scope="row">{entry.when}</th>
+					{rows.map((trait, i) => (
+						<tr key={`${trait.name}-${i}`}>
+							<th scope="row">
+								{level} {trait.level}
+							</th>
 							<TraitCell
-								names={[entry.name as string]}
+								names={[trait.name]}
 								terms={terms}
 								named={named}
 							/>

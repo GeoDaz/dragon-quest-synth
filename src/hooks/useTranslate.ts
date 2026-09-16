@@ -115,6 +115,7 @@ const translatedUI: StringObject = {
 	Light: 'Lumière',
 	Darkness: 'Ténèbres',
 	Debuff: 'Affaiblissement',
+	Bedazzle: 'Éblouissement',
 	Blunt: 'Coup',
 	Seal: 'Scellement',
 	'MP drain': 'Vol de PM',

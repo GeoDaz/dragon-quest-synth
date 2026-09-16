@@ -139,9 +139,11 @@ const PageLines: React.FC<Props> = props => {
 		dropFromReserve,
 		clearReserve,
 	} = useReserve(game.key);
+	const hasDetails = !!Object.keys(details).length;
+	const hasSpawns = !!Object.keys(spawns).length;
 	const detailsValue = useMemo(
-		() => ({ details, terms, farewell, items, spawns }),
-		[details, terms, farewell, items, spawns]
+		() => ({ details, terms, farewell, items, spawns, hasDetails, hasSpawns }),
+		[details, terms, farewell, items, spawns, hasDetails, hasSpawns]
 	);
 
 	// Flat, ordered view of the current families after family/rank filters, plus
@@ -461,6 +463,7 @@ const FamilySection = ({
 }) => {
 	const { translateUI } = useTranslate();
 	const { selectedFamily, selectedRank } = useContext(FiltersContext);
+	const { hasDetails, hasSpawns } = useContext(DetailsContext);
 
 	if (selectedFamily && selectedFamily != family) return null;
 	return (
@@ -493,12 +496,18 @@ const FamilySection = ({
 							<th className="cell-details" />
 							<th className="cell-family">{translateUI('Family')}</th>
 							<th className="cell-rank">{translateUI('Rank')}</th>
-							<th className="cell-skill">{translateUI('Skill set')}</th>
+							{hasDetails && (
+								<th className="cell-skill">
+									{translateUI('Skill set')}
+								</th>
+							)}
 							<th className="cell-synthesis">{translateUI('Synthesis')}</th>
 							<th className="cell-rev-synthesis">
 								{translateUI('Synthesize into')}
 							</th>
-							<th className="cell-spawn">{translateUI('Location')}</th>
+							{hasSpawns && (
+								<th className="cell-spawn">{translateUI('Location')}</th>
+							)}
 						</tr>
 					</thead>
 					{/* selectedRank is used here to avoid calling useIsVisible */}
@@ -533,11 +542,13 @@ const RankSection = ({
 	const [ref, visible] = useIsVisible();
 
 	const { translateUI } = useTranslate();
+	const { hasDetails, hasSpawns } = useContext(DetailsContext);
+	const columns = 6 + (hasDetails ? 1 : 0) + (hasSpawns ? 1 : 0);
 	const hashId = `${family}-${rank}`;
 	return (
 		<tbody ref={ref as any} className="rank-group">
 			<tr>
-				<th colSpan={8} className="group-cell pe-0">
+				<th colSpan={columns} className="group-cell pe-0">
 					<h3 id={hashId} className="rank-heading">
 						<span
 							className={makeClassName(
