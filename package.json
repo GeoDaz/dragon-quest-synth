@@ -25,13 +25,15 @@
 		"eslint": "^8.36.0",
 		"eslint-config-next": "^13.2.4",
 		"jsdom": "^22.1.0",
+		"sharp": "^0.35.4",
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
 		"dev": "next dev",
 		"start": "next dev",
 		"build": "next build",
-		"daemon": "next start"
+		"daemon": "next start",
+		"optimize:images": "node scripts/optimizeImages.js"
 	},
 	"eslintConfig": {
 		"extends": [
