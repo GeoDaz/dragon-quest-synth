@@ -155,9 +155,15 @@ const MonsterDetailsModal: React.FC<Props> = ({
 						<section className="details-block">
 							<ul className="details-misc">
 								<li>
-									<span>{translateUI('Size')}</span>
+									<span>{translateUI('Default size')}</span>
 									<b>{details.size}</b>
 								</li>
+								{!!details.skill && (
+									<li>
+										<span>{translateUI('Skill set')}</span>
+										<b>{named(details.skill, terms.skills)}</b>
+									</li>
+								)}
 								<li>
 									<span>{translateUI('Egg')}</span>
 									<b>
@@ -166,12 +172,6 @@ const MonsterDetailsModal: React.FC<Props> = ({
 										:	translateUI('No')}
 									</b>
 								</li>
-								{!!details.skill && (
-									<li>
-										<span>{translateUI('Skill set')}</span>
-										<b>{named(details.skill, terms.skills)}</b>
-									</li>
-								)}
 								{/* {details.drops?.map(drop => (
 									<li key={drop.item}>
 										<span>

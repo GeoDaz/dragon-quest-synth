@@ -2235,7 +2235,7 @@ img.family {
 
 .details-block h5 {
   font-family: var(--dl-mono);
-  font-size: .75em;
+  font-size: 1em;
   letter-spacing: .14em;
   text-transform: uppercase;
   color: var(--dl-muted);

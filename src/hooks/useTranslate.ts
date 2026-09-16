@@ -50,6 +50,7 @@ const translatedUI: StringObject = {
 	Statistics: 'Statistiques',
 	Misc: 'Divers',
 	Size: 'Taille',
+	'Default size': 'Taille par defaut',
 	Small: 'Petit',
 	Large: 'Grand',
 	'Skill set': 'Talent',
