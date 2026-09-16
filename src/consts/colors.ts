@@ -30,6 +30,17 @@ export const familiesColors: StringObject = {
 	'???': '#ebb918', // gold
 };
 
+export const familiesGradients: { [family: string]: [string, string] } = {
+	Slime: ['#529eff', '#5a24f7'],
+	Dragon: ['#ff7931', '#ce1418'],
+	Beast: ['#c68e42', '#7e4b1b'],
+	Nature: ['#c6eb5a', '#5a9a08'],
+	Material: ['#ada6ce', '#6b696b'],
+	Demon: ['#e775ff', '#940cbd'],
+	Undead: ['#6e6989', '#3c3642'],
+	'???': ['#fff339', '#e79a10'],
+};
+
 export const legend: Legend[] = [
 	{ key: 'default', color: colors.default, text: 'Default color' },
 	{

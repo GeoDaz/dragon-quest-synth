@@ -40,7 +40,7 @@ export default function App({ Component, pageProps }: AppProps) {
 			<Header />
 			<LanguageContext.Provider value={language}>
 				{loading ?
-					<div className="spinner-wrapper text-center mt-5">
+					<div className="spinner-wrapper text-center mt-5 mb-5">
 						<Spinner animation="border" className="xl" variant="primary" />
 					</div>
 				:	<Component {...pageProps} />}

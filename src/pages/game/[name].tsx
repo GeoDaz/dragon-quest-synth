@@ -1,6 +1,6 @@
 import { GetStaticProps } from 'next';
-import { Families, Monster as MonsterInterface } from '@/types/Monster';
-import PageLines from '..';
+import { Families } from '@/types/Monster';
+import PageLines, { gameDetails, gameFarewell, gameItems, gameTerms } from '..';
 import { reverseSynth } from '@/functions/transformer/synthesis';
 import { Game } from '@/types/Game';
 
@@ -31,7 +31,11 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 		reverseSynth(families);
 
 		const images = require('../../json/monstersImages.json');
-		return { props: { families, images, game } };
+		const details = gameDetails(gameName);
+		const terms = gameTerms(gameName);
+		const farewell = gameFarewell(gameName);
+		const items = gameItems(gameName);
+		return { props: { families, images, details, terms, farewell, items, game } };
 	} catch (e) {
 		console.error(e);
 		return { props: {} };

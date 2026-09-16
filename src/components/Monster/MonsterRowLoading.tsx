@@ -1,6 +1,7 @@
 import { makeClassName } from '@/functions';
 import { Spinner } from 'react-bootstrap';
 import { Monster as MonsterInterface } from '@/types/Monster';
+import Rank from './Rank';
 
 const MonsterRowLoading = ({
 	monster,
@@ -30,13 +31,14 @@ const MonsterRowLoading = ({
 					<span className="monster-name">{monster.name}</span>
 				</div>
 			</td>
-			<td className="cell-rank">
-				{!!monster.rank && <span className="rank-badge">{monster.rank}</span>}
-			</td>
+			<td className="cell-details" />
 			<td className="cell-family">
 				<div className="family-icons">
 					<Skeleton size={30} />
 				</div>
+			</td>
+			<td className="cell-rank">
+				<Rank name={monster.rank} />
 			</td>
 			<td className="cell-synthesis">
 				{monster.synthesis.map((list: string[], i: number) => {
@@ -46,16 +48,16 @@ const MonsterRowLoading = ({
 					return (
 						<div key={i} className="recipe">
 							{list
-								.filter(token => !token.includes('Rank'))
+								.filter(
+									token =>
+										!token.includes('Rank') &&
+										!token.startsWith('Plus ')
+								)
 								.map((token, j) => (
 									<Skeleton
 										key={j}
 										size={32}
-										width={
-											chip && token.includes('Family') ?
-												92
-											:	32
-										}
+										width={chip && token.includes('Family') ? 92 : 32}
 									/>
 								))}
 						</div>
@@ -75,10 +77,7 @@ const MonsterRowLoading = ({
 };
 
 const Skeleton = ({ size, width }: { size: number; width?: number }) => (
-	<span
-		className="row-skeleton"
-		style={{ height: size, width: width || size }}
-	/>
+	<span className="row-skeleton" style={{ height: size, width: width || size }} />
 );
 
 export default MonsterRowLoading;

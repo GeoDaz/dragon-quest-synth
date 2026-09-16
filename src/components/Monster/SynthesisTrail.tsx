@@ -32,7 +32,7 @@ interface Placed {
 
 const capped = (node: TrailNode, left: number): TrailNode =>
 	left <= 0 || !node.parents?.length ?
-		{ name: node.name, rank: node.rank }
+		{ name: node.name, rank: node.rank, plus: node.plus }
 	:	{ ...node, parents: node.parents.map(parent => capped(parent, left - 1)) };
 
 const buildTrailLine = (trees: TrailNode[]): Line => {
@@ -89,6 +89,7 @@ const buildTrailLine = (trees: TrailNode[]): Line => {
 			...(xSize && { xSize }),
 			...(image && { image, family: true }),
 			...(image && node.rank && { rank: node.rank }),
+			...(node.plus && { plus: node.plus }),
 		} as LinePoint;
 	});
 
@@ -127,7 +128,7 @@ interface Props {
 const SynthesisTrail: React.FC<Props> = ({ trees, preferred, onPick, onClear }) => {
 	const [open, setOpen] = useState(false);
 	const [zoom, setZoom] = useState(TRAIL_ZOOM);
-	const { isFr, translateUI } = useTranslate();
+	const { translateUI } = useTranslate();
 	const line = useMemo(() => buildTrailLine(trees), [trees]);
 	const { downloadImage, downloading, error } = useDownloadImg(
 		trees.map(tree => tree.name).join('-')
@@ -141,12 +142,9 @@ const SynthesisTrail: React.FC<Props> = ({ trees, preferred, onPick, onClear }) 
 
 	if (!trees.length) return null;
 
-	const toggleTitle =
-		isFr ?
-			open ? 'Replier la synthèse'
-			:	'Déplier la synthèse'
-		: open ? 'Collapse the synthesis'
-		: 'Expand the synthesis';
+	const toggleTitle = translateUI(
+		open ? 'Collapse the synthesis' : 'Expand the synthesis'
+	);
 
 	return (
 		<aside className={makeClassName('synthesis-trail', open && 'open')}>
@@ -191,7 +189,7 @@ const SynthesisTrail: React.FC<Props> = ({ trees, preferred, onPick, onClear }) 
 					className={makeClassName('trail-toggle', error && 'failed')}
 					onClick={handleDownload}
 					disabled={downloading}
-					title={error || (isFr ? "Télécharger l'image" : 'Download the image')}
+					title={error || translateUI('Download the image')}
 				>
 					{downloading ?
 						<Spinner animation="border" size="sm" />
@@ -233,6 +231,7 @@ const TrailTile = ({
 			>
 				<Family name={family} />
 				<span className="trail-step-name">{rank}</span>
+				{!!node.plus && <span className="line-point-plus">+{node.plus}</span>}
 			</AnchorLink>
 		);
 	}
@@ -247,6 +246,7 @@ const TrailTile = ({
 		>
 			<MonsterImg name={node.name} small title={label} />
 			<span className="trail-step-name">{label}</span>
+			{!!node.plus && <span className="line-point-plus">+{node.plus}</span>}
 		</AnchorLink>
 	);
 };

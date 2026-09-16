@@ -10,6 +10,18 @@ export const families: string[] = [
 	'Undead',
 	'???',
 ];
+export const ranksIcons: StringObject = {
+	X: 'X.png',
+	S: 'S.png',
+	A: 'A.png',
+	B: 'B.png',
+	C: 'C.png',
+	D: 'D.png',
+	E: 'E.png',
+	F: 'F.png',
+	G: 'G.png',
+};
+
 export const familiesIcons: StringObject = {
 	Slime: 'Slime.png',
 	Beast: 'Beast.png',

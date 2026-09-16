@@ -1,0 +1,19 @@
+{
+	"items": [
+		{ "item": "いのちのきのみ", "rate": 13 },
+		{ "item": "ふしぎなきのみ", "rate": 13 },
+		{ "item": "ちからのたね", "rate": 13 },
+		{ "item": "まもりのたね", "rate": 13 },
+		{ "item": "すばやさのたね", "rate": 13 },
+		{ "item": "かしこさのたね", "rate": 13 },
+		{ "item": "スキルのたね", "rate": 12 },
+		{ "item": "Sサイズのタネ", "rate": 5 },
+		{ "item": "Lサイズのタネ", "rate": 5 }
+	],
+	"amounts": [
+		{ "growth": 85, "count": 10 },
+		{ "growth": 60, "count": 6 },
+		{ "growth": 30, "count": 3 },
+		{ "growth": 0, "count": 1 }
+	]
+}

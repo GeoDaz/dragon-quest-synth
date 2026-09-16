@@ -1,12 +1,16 @@
 import Family from './Family';
+import Rank from './Rank';
 import MonsterImg from './MonsterImg';
 import { makeClassName } from '@/functions';
 import { Monster as MonsterInterface } from '@/types/Monster';
 import AnchorLink from '../AnchorLink';
-import { memo, useContext } from 'react';
+import { memo, useContext, useState } from 'react';
 import useTranslate from '@/hooks/useTranslate';
 import { TrailContext } from '@/context/trail';
 import Egg from './Egg';
+import Icon from '../Icon';
+import MonsterDetailsModal from './MonsterDetailsModal';
+import { DetailsContext } from '@/context/details';
 
 // A recipe is a flat token list: monster names, "<Family> Family", and at most
 // one "Rank <X>" that qualifies every family token of that recipe.
@@ -14,18 +18,26 @@ interface Parent {
 	name?: string;
 	family?: string;
 	rank?: string;
+	plus?: string;
 }
+const isCondition = (token: string) =>
+	token.includes('Rank') || token.startsWith('Plus ');
+
 const parseRecipe = (list: string[]): Parent[] => {
 	const rank = list
 		.find(token => token.includes('Rank'))
 		?.split(' ')
 		.pop();
+	const plus = list
+		.find(token => token.startsWith('Plus '))
+		?.split(' ')
+		.pop();
 	return list
-		.filter(token => !token.includes('Rank'))
+		.filter(token => !isCondition(token))
 		.map(token =>
 			token.includes('Family') ?
-				{ family: token.replace(' Family', ''), rank }
-			:	{ name: token }
+				{ family: token.replace(' Family', ''), rank, plus }
+			:	{ name: token, plus }
 		);
 };
 
@@ -51,6 +63,8 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 }) {
 	const { isFr, translateMonster, translateUI } = useTranslate();
 	const { walkInto, addDefault } = useContext(TrailContext);
+	const { details, terms, farewell, items } = useContext(DetailsContext);
+	const [open, setOpen] = useState(false);
 	const displayName = (isFr && monster.nom) || monster.name;
 	return (
 		<>
@@ -68,8 +82,26 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 					<span className="monster-name">{displayName}</span>
 				</div>
 			</td>
-			<td className="cell-rank">
-				{!!monster.rank && <span className="rank-badge">{monster.rank}</span>}
+			<td className="cell-details">
+				<button
+					type="button"
+					className="btn btn-primary details-button"
+					onClick={() => setOpen(true)}
+					title={translateUI('Details')}
+				>
+					<Icon name="text-indent-left" />
+				</button>
+				{open && (
+					<MonsterDetailsModal
+						monster={monster}
+						details={details[monster.name]}
+						terms={terms}
+						farewell={farewell}
+						items={items}
+						open={open}
+						handleClose={() => setOpen(false)}
+					/>
+				)}
 			</td>
 			<td className="cell-family">
 				<div className="family-icons">
@@ -79,6 +111,9 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 						<Family key={name} name={name} activable />
 					))}
 				</div>
+			</td>
+			<td className="cell-rank">
+				<Rank name={monster.rank} />
 			</td>
 			<td className="cell-synthesis">
 				{monster.synthesis.map((list: string[], i: number) => (
@@ -171,6 +206,7 @@ const ParentChip = ({
 			>
 				<Family name={parent.family} />
 				<span className="chip-label">{rank}</span>
+				{!!parent.plus && <PlusBadge plus={parent.plus} />}
 				<span className="sr-only">{family}</span>
 			</AnchorLink>
 		);
@@ -186,9 +222,20 @@ const ParentChip = ({
 			onNavigate={onNavigate}
 		>
 			<MonsterImg name={name} small title={label} />
+			{!!parent.plus && (
+				<span className="line-point-badges">
+					<PlusBadge plus={parent.plus} />
+				</span>
+			)}
 			<span className="sr-only">{name}</span>
 		</AnchorLink>
 	);
 };
+
+const PlusBadge = ({ plus }: { plus: string }) => (
+	<span className="line-point-plus" title={`+${plus}`}>
+		+{plus}
+	</span>
+);
 
 export default MonsterRow;

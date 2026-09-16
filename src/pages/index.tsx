@@ -12,11 +12,23 @@ import Layout from '@/components/Layout';
 import MonsterRow from '@/components/Monster/MonsterRow';
 import Family from '@/components/Monster/Family';
 import { ImagesContext } from '@/context/images';
-import { familiesColors } from '@/consts/colors';
+import {
+	DetailsContext,
+	emptyFarewell,
+	emptyItems,
+	emptyTerms,
+} from '@/context/details';
+import { familiesColors, familiesGradients } from '@/consts/colors';
 import { families as familyList } from '@/consts/data';
 import { Dropdown, DropdownButton, Spinner } from 'react-bootstrap';
 import { indexMonsters, reverseSynth } from '@/functions/transformer/synthesis';
 import { StringObject } from '@/types/Ui';
+import {
+	GameFarewell,
+	GameItems,
+	GameTerms,
+	MonstersDetails,
+} from '@/types/MonsterDetails';
 import useTranslate from '@/hooks/useTranslate';
 import { makeClassName, stringToKey } from '@/functions';
 import useHash from '@/hooks/useHash';
@@ -33,6 +45,7 @@ import ScrollUp from '@/components/ScrollUp';
 import GameCard from '@/components/GameCard';
 import { Game } from '@/types/Game';
 import games from '@/json/games.json';
+import Rank from '@/components/Monster/Rank';
 
 // A game can hold >800 monsters, each mounting many synthesis/reverse-synthesis
 // thumbnails. Mount only a batch of monster cards and grow it on scroll.
@@ -41,10 +54,53 @@ const PAGE_SIZE = 40;
 interface Props {
 	families: Families;
 	images: StringObject;
+	details: MonstersDetails;
+	terms: GameTerms;
+	farewell: GameFarewell;
+	items: GameItems;
 	game: Game;
 }
+export const gameDetails = (game: string): MonstersDetails => {
+	try {
+		return require(`../json/${game}Details.json`);
+	} catch (e) {
+		return {};
+	}
+};
+
+export const gameTerms = (game: string): GameTerms => {
+	try {
+		return require(`../json/${game}Terms.json`);
+	} catch (e) {
+		return { traits: {}, skills: {} };
+	}
+};
+
+export const gameFarewell = (game: string): GameFarewell => {
+	try {
+		return require(`../json/${game}Farewell.json`);
+	} catch (e) {
+		return { items: [], amounts: [] };
+	}
+};
+
+export const gameItems = (game: string): GameItems => {
+	try {
+		return require(`../json/${game}Items.json`);
+	} catch (e) {
+		return {};
+	}
+};
+
 const PageLines: React.FC<Props> = props => {
-	const { images, game } = props;
+	const {
+		images,
+		game,
+		details = {},
+		terms = emptyTerms,
+		farewell = emptyFarewell,
+		items = emptyItems,
+	} = props;
 	const [families, setFamilies] = useState<Families>(props.families);
 	const { hash, nav } = useHash();
 	const scrollToAnchor = useScrollToAnchor();
@@ -57,7 +113,10 @@ const PageLines: React.FC<Props> = props => {
 	const allMonsters = useMemo(() => indexMonsters(props.families), [props.families]);
 	const { trees, preferred, walk, pickInTrail, clearTrail } =
 		useSynthesisTrail(allMonsters);
-	console.log(trees);
+	const detailsValue = useMemo(
+		() => ({ details, terms, farewell, items }),
+		[details, terms, farewell, items]
+	);
 
 	// Flat, ordered view of the current families after family/rank filters, plus
 	// index maps used for pagination and hash deep-links. (search is already
@@ -222,7 +281,7 @@ const PageLines: React.FC<Props> = props => {
 			</div>
 			<div className="synthesis-filters mb-4">
 				<SearchBar
-					label={isFr ? 'Rechercher un monstre' : 'Research a monster'}
+					label={translateUI('Research a monster')}
 					onSubmit={handleSearch}
 					defaultValue={search}
 				/>
@@ -292,37 +351,41 @@ const PageLines: React.FC<Props> = props => {
 			</div>
 			<FiltersContext.Provider value={filters}>
 				<ImagesContext.Provider value={images}>
-					<TrailContext.Provider value={walk}>
-						{filtered.total > 0 ?
-							<>
-								<div className="synthesis-list">
-									{Object.entries(paginatedFamilies).map(
-										([family, ranks]) => (
-											<FamilySection
-												key={family}
-												family={family}
-												ranks={ranks}
-												count={filtered.familyTotals[family]}
-												hash={hash}
-											/>
-										)
-									)}
-								</div>
-								{visibleCount < filtered.total && (
-									<div ref={sentinelRef} className="text-center py-4">
-										<Spinner animation="border" />
+					<DetailsContext.Provider value={detailsValue}>
+						<TrailContext.Provider value={walk}>
+							{filtered.total > 0 ?
+								<>
+									<div className="synthesis-list">
+										{Object.entries(paginatedFamilies).map(
+											([family, ranks]) => (
+												<FamilySection
+													key={family}
+													family={family}
+													ranks={ranks}
+													count={filtered.familyTotals[family]}
+													hash={hash}
+												/>
+											)
+										)}
 									</div>
-								)}
-							</>
-						:	<p>{isFr ? 'Aucune synthèse trouvée' : 'No synthesis found'}.</p>
-						}
-						<SynthesisTrail
-							trees={trees}
-							preferred={preferred}
-							onPick={pickInTrail}
-							onClear={clearTrail}
-						/>
-					</TrailContext.Provider>
+									{visibleCount < filtered.total && (
+										<div
+											ref={sentinelRef}
+											className="text-center py-4"
+										>
+											<Spinner animation="border" />
+										</div>
+									)}
+								</>
+							:	<p>{translateUI('No synthesis found')}.</p>}
+							<SynthesisTrail
+								trees={trees}
+								preferred={preferred}
+								onPick={pickInTrail}
+								onClear={clearTrail}
+							/>
+						</TrailContext.Provider>
+					</DetailsContext.Provider>
 				</ImagesContext.Provider>
 			</FiltersContext.Provider>
 		</Layout>
@@ -354,6 +417,8 @@ const FamilySection = ({
 				style={
 					{
 						'--dl-family-color': familiesColors[family],
+						'--dl-family-top': familiesGradients[family]?.[0],
+						'--dl-family-bottom': familiesGradients[family]?.[1],
 					} as React.CSSProperties
 				}
 				id={family}
@@ -369,8 +434,9 @@ const FamilySection = ({
 					<thead>
 						<tr>
 							<th className="cell-monster">{translateUI('Monster')}</th>
-							<th className="cell-rank">{translateUI('Rank')}</th>
+							<th className="cell-details" />
 							<th className="cell-family">{translateUI('Family')}</th>
+							<th className="cell-rank">{translateUI('Rank')}</th>
 							<th className="cell-synthesis">{translateUI('Synthesis')}</th>
 							<th className="cell-rev-synthesis">
 								{translateUI('Synthesize into')}
@@ -413,7 +479,7 @@ const RankSection = ({
 	return (
 		<tbody ref={ref as any} className="rank-group">
 			<tr>
-				<th colSpan={5} className="group-cell pe-0">
+				<th colSpan={6} className="group-cell pe-0">
 					<h3 id={hashId} className="rank-heading">
 						<span
 							className={makeClassName(
@@ -421,7 +487,7 @@ const RankSection = ({
 								hash == hashId && 'active-outline'
 							)}
 						>
-							{translateUI('Rank')} {rank}
+							{translateUI('Rank')} <Rank name={rank} big />
 						</span>
 						<span className="rank-rule" />
 					</h3>
@@ -445,7 +511,11 @@ export const getStaticProps: GetStaticProps = async () => {
 		const game = games[defaultGame];
 
 		const images = require('../json/monstersImages.json');
-		return { props: { families, images, game } };
+		const details = gameDetails(defaultGame);
+		const terms = gameTerms(defaultGame);
+		const farewell = gameFarewell(defaultGame);
+		const items = gameItems(defaultGame);
+		return { props: { families, images, details, terms, farewell, items, game } };
 	} catch (e) {
 		console.error(e);
 		return { props: {} };

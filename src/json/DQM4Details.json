@@ -1,0 +1,6696 @@
+{
+	"Armoured Wartoise": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1380,
+			"mp": 560,
+			"attack": 430,
+			"defence": 800,
+			"agility": 300,
+			"wisdom": 660
+		},
+		"resistances": {
+			"fire": 50,
+			"wind": 25,
+			"explosion": 50,
+			"darkness": 25,
+			"weakness": -25,
+			"hit": 50,
+			"drain_mp": 50,
+			"paralysis": 25,
+			"rest": 50,
+			"poison": -25,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "やいばのボディ",
+			"level20": "ねがえり",
+			"level40": "ときどきスカラ",
+			"largeAlways": [
+				"行動回数１から２",
+				"癒しの大力"
+			],
+			"largeLevel60": "会心かんぜんガード"
+		},
+		"skill": "ぼうぎょ",
+		"drops": [
+			{
+				"item": "薬草",
+				"rate": 8
+			},
+			{
+				"item": "小さなこうら",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Putrefido": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1400,
+			"mp": 500,
+			"attack": 620,
+			"defence": 400,
+			"agility": 480,
+			"wisdom": 300
+		},
+		"resistances": {
+			"fire": -25,
+			"earth": 50,
+			"freeze": 50,
+			"thunder": 25,
+			"darkness": 50,
+			"hit": -25,
+			"seal": 50,
+			"drain_mp": 50,
+			"poison": 50,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "きょうせんし",
+			"level20": "いきなりピオラ",
+			"level40": "プレッシャー",
+			"largeAlways": [
+				"行動回数２",
+				"くじけぬ心"
+			],
+			"largeLevel60": "闇ブレイク大"
+		},
+		"skill": "ダウナー",
+		"drops": [
+			{
+				"item": "毒消し草",
+				"rate": 8
+			},
+			{
+				"item": "獣の骨",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Bullfinch": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1330,
+			"mp": 390,
+			"attack": 620,
+			"defence": 550,
+			"agility": 510,
+			"wisdom": 480
+		},
+		"resistances": {
+			"water": 50,
+			"wind": 25,
+			"earth": 50,
+			"explosion": -25,
+			"light": 25,
+			"darkness": 25,
+			"weakness": 25,
+			"confusion": 25,
+			"sleep": 50,
+			"paralysis": 50,
+			"rest": -25,
+			"poison": 25
+		},
+		"traits": {
+			"always": "きょうせんし",
+			"level20": "みかわしアップ大",
+			"level40": "ときどきバイキルト",
+			"largeAlways": [
+				"行動回数１から３",
+				"最後のあがき"
+			],
+			"largeLevel60": "全体攻撃"
+		},
+		"skill": "あばれんぼう",
+		"drops": [
+			{
+				"item": "上薬草",
+				"rate": 8
+			},
+			{
+				"item": "獣の骨",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Foo Dog": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1370,
+			"mp": 400,
+			"attack": 570,
+			"defence": 470,
+			"agility": 480,
+			"wisdom": 550
+		},
+		"resistances": {
+			"wind": -25,
+			"earth": 25,
+			"freeze": 50,
+			"thunder": 50,
+			"light": 50,
+			"hit": 25,
+			"seal": 25,
+			"drain_mp": 25,
+			"confusion": 50,
+			"sleep": -25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "くじけぬ心",
+			"level20": "徒手空拳",
+			"level40": "ピンチで会心",
+			"largeAlways": [
+				"行動回数１から３",
+				"ときどきスカラ"
+			],
+			"largeLevel60": "根に持つタイプ"
+		},
+		"skill": "あばれんぼう",
+		"drops": [
+			{
+				"item": "上薬草",
+				"rate": 8
+			},
+			{
+				"item": "漬け物石",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Antguzzler": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1390,
+			"mp": 450,
+			"attack": 610,
+			"defence": 380,
+			"agility": 470,
+			"wisdom": 450
+		},
+		"resistances": {
+			"fire": 50,
+			"wind": 50,
+			"earth": 50,
+			"explosion": 25,
+			"freeze": -25,
+			"confusion": -25,
+			"sleep": 50,
+			"paralysis": 25,
+			"rest": 50,
+			"poison": 50
+		},
+		"traits": {
+			"always": "ときどきバイキルト",
+			"level20": "メタルハンター",
+			"level40": "ショック攻撃",
+			"largeAlways": [
+				"行動回数１から３",
+				"きょうせんし"
+			],
+			"largeLevel60": "休みブレイク大"
+		},
+		"skill": "ちからもち"
+	},
+	"Powie Yowie": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1360,
+			"mp": 290,
+			"attack": 600,
+			"defence": 570,
+			"agility": 540,
+			"wisdom": 420
+		},
+		"resistances": {
+			"fire": -25,
+			"water": 25,
+			"wind": 50,
+			"freeze": 100,
+			"hit": 50,
+			"seal": 25,
+			"sleep": 25,
+			"rest": 50
+		},
+		"traits": {
+			"always": "氷結のコツ",
+			"level20": "アンチみかわし",
+			"level40": "ショック攻撃",
+			"largeAlways": [
+				"行動回数２",
+				"ときどきピオラ"
+			],
+			"largeLevel60": "氷結ブレイク大"
+		},
+		"skill": "吹雪",
+		"drops": [
+			{
+				"item": "やわらかウール",
+				"rate": 4,
+				"rare": true
+			}
+		]
+	},
+	"Mischievous Mole": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1330,
+			"mp": 360,
+			"attack": 630,
+			"defence": 580,
+			"agility": 540,
+			"wisdom": 400
+		},
+		"resistances": {
+			"fire": 50,
+			"water": -25,
+			"wind": 50,
+			"earth": 75,
+			"freeze": -25,
+			"light": -25,
+			"darkness": 50,
+			"hit": 25,
+			"confusion": -25,
+			"sleep": 50,
+			"paralysis": 50,
+			"rest": 50
+		},
+		"traits": {
+			"always": "とうそうほんのう",
+			"level20": "ちからため",
+			"level40": "メタルキラー",
+			"largeAlways": [
+				"行動回数１から３",
+				"会心率アップ大"
+			],
+			"largeLevel60": "スモールキラー"
+		},
+		"skill": "いたずら",
+		"drops": [
+			{
+				"item": "さとりそう",
+				"rate": 4,
+				"rare": true
+			}
+		]
+	},
+	"Bunicorn": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1300,
+			"mp": 380,
+			"attack": 570,
+			"defence": 470,
+			"agility": 670,
+			"wisdom": 470
+		},
+		"resistances": {
+			"fire": 25,
+			"water": 25,
+			"wind": 75,
+			"earth": 25,
+			"freeze": -25,
+			"light": 25,
+			"weakness": 25,
+			"confusion": 25,
+			"sleep": 25,
+			"rest": 50,
+			"poison": 25
+		},
+		"traits": {
+			"always": "とうそうほんのう",
+			"level20": "やいばのボディ",
+			"level40": "秘めたるチカラ",
+			"largeAlways": [
+				"行動回数１から３",
+				"みかわしアップ大"
+			],
+			"largeLevel60": "ラストスタンド"
+		},
+		"skill": "けもの道",
+		"drops": [
+			{
+				"item": "モンスターの糞",
+				"rate": 8
+			},
+			{
+				"item": "ふさふさの毛皮",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Nardragon": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1410,
+			"mp": 290,
+			"attack": 640,
+			"defence": 540,
+			"agility": 480,
+			"wisdom": 290
+		},
+		"resistances": {
+			"fire": 50,
+			"water": -25,
+			"wind": 25,
+			"explosion": 50,
+			"thunder": 50,
+			"weakness": 25,
+			"hit": 50,
+			"paralysis": 50,
+			"rest": 50,
+			"poison": -25
+		},
+		"traits": {
+			"always": "ショック攻撃",
+			"level20": "きょうせんし",
+			"level40": "ピンチで会心",
+			"largeAlways": [
+				"行動回数１から３",
+				"休みブレイク大"
+			],
+			"largeLevel60": "やいばのボディ"
+		},
+		"skill": "じこぎせい"
+	},
+	"Dragonthorn": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1370,
+			"mp": 360,
+			"attack": 570,
+			"defence": 610,
+			"agility": 530,
+			"wisdom": 350
+		},
+		"resistances": {
+			"fire": 50,
+			"water": -25,
+			"earth": 25,
+			"explosion": 50,
+			"light": 50,
+			"weakness": -25,
+			"hit": 50,
+			"seal": 25,
+			"drain_mp": 50,
+			"sleep": 25,
+			"rest": 50,
+			"poison": -25
+		},
+		"traits": {
+			"always": "やいばのボディ",
+			"level20": "ねむり攻撃",
+			"level40": "いやがらせ",
+			"largeAlways": [
+				"行動回数１から３",
+				"超魔獣キラー"
+			],
+			"largeLevel60": "マヒブレイク大"
+		},
+		"skill": "グリーンソード"
+	},
+	"Flython": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1360,
+			"mp": 310,
+			"attack": 540,
+			"defence": 360,
+			"agility": 680,
+			"wisdom": 450
+		},
+		"resistances": {
+			"fire": 50,
+			"water": -25,
+			"wind": 25,
+			"earth": -25,
+			"explosion": 50,
+			"thunder": 50,
+			"light": 25,
+			"weakness": 50,
+			"hit": 50,
+			"paralysis": 25,
+			"rest": 50,
+			"poison": -25
+		},
+		"traits": {
+			"always": "どく攻撃",
+			"level20": "アンチみかわし",
+			"level40": "くじけぬ心",
+			"largeAlways": [
+				"行動回数１から３",
+				"毒ブレイク大"
+			],
+			"largeLevel60": "ときどきバイキルト"
+		},
+		"skill": "毒舌",
+		"drops": [
+			{
+				"item": "石ころ",
+				"rate": 8
+			},
+			{
+				"item": "へびのぬけがら",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Stark Raven": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1310,
+			"mp": 420,
+			"attack": 560,
+			"defence": 590,
+			"agility": 570,
+			"wisdom": 490
+		},
+		"resistances": {
+			"water": 50,
+			"wind": 50,
+			"earth": 50,
+			"explosion": -25,
+			"light": -25,
+			"darkness": 50,
+			"seal": 25,
+			"drain_mp": 25,
+			"confusion": 25,
+			"sleep": 50,
+			"paralysis": 50,
+			"rest": -25
+		},
+		"traits": {
+			"always": "みかわしアップ大",
+			"level20": "いきなりピオラ",
+			"level40": "しっぺがえし",
+			"largeAlways": [
+				"行動回数１から３",
+				"闇のコツ"
+			],
+			"largeLevel60": "いやがらせ"
+		},
+		"skill": "つむじ風",
+		"drops": [
+			{
+				"item": "石ころ",
+				"rate": 8
+			},
+			{
+				"item": "風切りの羽",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Hammerhood": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1450,
+			"mp": 300,
+			"attack": 630,
+			"defence": 570,
+			"agility": 390,
+			"wisdom": 290
+		},
+		"resistances": {
+			"fire": 50,
+			"wind": 50,
+			"earth": 25,
+			"explosion": 25,
+			"freeze": -25,
+			"light": 25,
+			"hit": 25,
+			"seal": 25,
+			"sleep": 25,
+			"paralysis": 25,
+			"rest": 50
+		},
+		"traits": {
+			"always": "会心率アップ大",
+			"level20": "メタルハンター",
+			"level40": "いきなりバイキルト",
+			"largeAlways": [
+				"行動回数２",
+				"くじけぬ心"
+			],
+			"largeLevel60": "アンチみかわし"
+		},
+		"skill": "ちからもち",
+		"drops": [
+			{
+				"item": "石ころ",
+				"rate": 8
+			},
+			{
+				"item": "鉄鉱石",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Orc": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1350,
+			"mp": 380,
+			"attack": 570,
+			"defence": 500,
+			"agility": 510,
+			"wisdom": 560
+		},
+		"resistances": {
+			"fire": 50,
+			"wind": 50,
+			"earth": 25,
+			"explosion": 25,
+			"freeze": -25,
+			"light": 25,
+			"hit": 25,
+			"seal": 25,
+			"drain_mp": 25,
+			"sleep": 25,
+			"rest": 50
+		},
+		"traits": {
+			"always": "回復のコツ",
+			"level20": "アンチみかわし",
+			"level40": "ピンチで会心",
+			"largeAlways": [
+				"行動回数２",
+				"いきなりピオラ"
+			],
+			"largeLevel60": "ときどきバイキルト"
+		},
+		"skill": "しんそく"
+	},
+	"Bantamweight": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1280,
+			"mp": 360,
+			"attack": 540,
+			"defence": 460,
+			"agility": 690,
+			"wisdom": 600
+		},
+		"resistances": {
+			"fire": -25,
+			"water": 50,
+			"wind": 25,
+			"earth": 50,
+			"explosion": -25,
+			"thunder": 25,
+			"light": 50,
+			"hit": 25,
+			"seal": 25,
+			"drain_mp": 25,
+			"sleep": 50,
+			"paralysis": 50,
+			"rest": -25
+		},
+		"traits": {
+			"always": "ロケットスタート",
+			"level20": "ねむり攻撃",
+			"level40": "ツッコミ",
+			"largeAlways": [
+				"行動回数２から３",
+				"スモールキラー"
+			],
+			"largeLevel60": "眠りブレイク大"
+		},
+		"skill": "巨漢",
+		"drops": [
+			{
+				"item": "石ころ",
+				"rate": 8
+			},
+			{
+				"item": "ホワイトパール",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Fat Rat": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1360,
+			"mp": 350,
+			"attack": 580,
+			"defence": 490,
+			"agility": 560,
+			"wisdom": 440
+		},
+		"resistances": {
+			"fire": 50,
+			"water": 25,
+			"wind": 50,
+			"explosion": 25,
+			"freeze": -25,
+			"darkness": 25,
+			"seal": 25,
+			"drain_mp": 25,
+			"confusion": -25,
+			"sleep": 50,
+			"rest": 50,
+			"poison": 25
+		},
+		"traits": {
+			"always": "きょうせんし",
+			"level20": "ときどきバイキルト",
+			"level40": "とうそうほんのう",
+			"largeAlways": [
+				"行動回数１から３",
+				"超自然キラー"
+			],
+			"largeLevel60": "全体攻撃"
+		},
+		"skill": "地の心",
+		"drops": [
+			{
+				"item": "石ころ",
+				"rate": 8
+			},
+			{
+				"item": "獣の骨",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Winky": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1350,
+			"mp": 440,
+			"attack": 560,
+			"defence": 520,
+			"agility": 520,
+			"wisdom": 480
+		},
+		"resistances": {
+			"fire": 25,
+			"water": 50,
+			"wind": 50,
+			"freeze": 25,
+			"thunder": -25,
+			"darkness": 25,
+			"seal": 50,
+			"drain_mp": 50,
+			"confusion": 50,
+			"paralysis": -25,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "ピンチで会心",
+			"level20": "こんらん攻撃",
+			"level40": "いきなりバイキルト",
+			"largeAlways": [
+				"行動回数１から３",
+				"封じブレイク大"
+			],
+			"largeLevel60": "ギャンブルボディ"
+		},
+		"skill": "アンチスペル",
+		"drops": [
+			{
+				"item": "目覚めの針",
+				"rate": 8
+			},
+			{
+				"item": "レッドアイ",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Suckling Ocker": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1410,
+			"mp": 420,
+			"attack": 600,
+			"defence": 410,
+			"agility": 450,
+			"wisdom": 430
+		},
+		"resistances": {
+			"water": 100,
+			"earth": 50,
+			"explosion": -25,
+			"freeze": 25,
+			"hit": 25,
+			"drain_mp": 25,
+			"confusion": 25,
+			"sleep": 50,
+			"paralysis": 50,
+			"rest": -25
+		},
+		"traits": {
+			"always": "マヒ攻撃",
+			"level20": "水のコツ",
+			"level40": "ロケットスタート",
+			"largeAlways": [
+				"行動回数１から３",
+				"きょうせんし"
+			],
+			"largeLevel60": "全体攻撃"
+		},
+		"skill": "ブルーソード",
+		"drops": [
+			{
+				"item": "魔法の小瓶",
+				"rate": 8
+			},
+			{
+				"item": "ふしぎな海草",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Ornery Onion": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1400,
+			"mp": 620,
+			"attack": 490,
+			"defence": 460,
+			"agility": 340,
+			"wisdom": 660
+		},
+		"resistances": {
+			"fire": -25,
+			"water": 50,
+			"earth": 50,
+			"explosion": -25,
+			"thunder": 25,
+			"light": 50,
+			"darkness": 25,
+			"drain_mp": 50,
+			"sleep": 50,
+			"paralysis": 50,
+			"rest": -25,
+			"poison": 25
+		},
+		"traits": {
+			"always": "れんぞく６",
+			"level20": "ラージキラー",
+			"level40": "かいひほんのう",
+			"largeAlways": [
+				"行動回数１から３",
+				"超みかわしアップ"
+			],
+			"largeLevel60": "やまびこ"
+		},
+		"skill": "ナチュラル"
+	},
+	"Funghoul": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1350,
+			"mp": 430,
+			"attack": 580,
+			"defence": 590,
+			"agility": 500,
+			"wisdom": 420
+		},
+		"resistances": {
+			"fire": -25,
+			"earth": 50,
+			"freeze": 50,
+			"thunder": 25,
+			"darkness": 50,
+			"weakness": 25,
+			"hit": -25,
+			"drain_mp": 50,
+			"sleep": -25,
+			"paralysis": 25,
+			"rest": 25,
+			"poison": 50,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "毒ブレイク大",
+			"level20": "おいうち",
+			"level40": "スヤスヤボディ",
+			"largeAlways": [
+				"行動回数２から３",
+				"いやがらせ"
+			],
+			"largeLevel60": "眠りブレイク大"
+		},
+		"skill": "あくしゅう"
+	},
+	"Wax Murderer": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1390,
+			"mp": 400,
+			"attack": 480,
+			"defence": 610,
+			"agility": 490,
+			"wisdom": 490
+		},
+		"resistances": {
+			"fire": 25,
+			"wind": -25,
+			"earth": 50,
+			"explosion": 25,
+			"freeze": 25,
+			"thunder": 50,
+			"weakness": 25,
+			"hit": -25,
+			"drain_mp": 25,
+			"sleep": 25,
+			"poison": 50,
+			"sudden_death": 50
+		},
+		"traits": {
+			"always": "火のコツ",
+			"level20": "きょうせんし",
+			"level40": "くじけぬ心",
+			"largeAlways": [
+				"行動回数１から３",
+				"弱体化ブレイク大"
+			],
+			"largeLevel60": "最後のあがき"
+		},
+		"skill": "レッドソード"
+	},
+	"Scarfish": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1420,
+			"mp": 330,
+			"attack": 430,
+			"defence": 520,
+			"agility": 510,
+			"wisdom": 590
+		},
+		"resistances": {
+			"fire": -25,
+			"water": 75,
+			"wind": -25,
+			"earth": 50,
+			"freeze": 50,
+			"darkness": 25,
+			"hit": -25,
+			"drain_mp": 50,
+			"confusion": 25,
+			"sleep": 25,
+			"rest": 25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "どくどくボディ",
+			"level20": "しっぺがえし",
+			"level40": "ロケットスタート",
+			"largeAlways": [
+				"行動回数１から３",
+				"超自然キラー"
+			],
+			"largeLevel60": "どく攻撃"
+		},
+		"skill": "アンデッド",
+		"drops": [
+			{
+				"item": "薬草",
+				"rate": 8
+			},
+			{
+				"item": "ブルーアイ",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Skeleton": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1420,
+			"mp": 290,
+			"attack": 610,
+			"defence": 510,
+			"agility": 430,
+			"wisdom": 440
+		},
+		"resistances": {
+			"fire": -25,
+			"earth": 50,
+			"freeze": 50,
+			"darkness": 75,
+			"weakness": 25,
+			"hit": -25,
+			"drain_mp": 50,
+			"sleep": -25,
+			"paralysis": 50,
+			"poison": 50,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "混乱ブレイク大",
+			"level20": "ピンチで会心",
+			"level40": "メタルハンター",
+			"largeAlways": [
+				"行動回数２",
+				"最後のあがき"
+			],
+			"largeLevel60": "電撃ブレイク大"
+		},
+		"skill": "アンデッド",
+		"drops": [
+			{
+				"item": "薬草",
+				"rate": 8
+			},
+			{
+				"item": "きれいな枝",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Cyclown": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1320,
+			"mp": 570,
+			"attack": 590,
+			"defence": 480,
+			"agility": 510,
+			"wisdom": 470
+		},
+		"resistances": {
+			"wind": 50,
+			"earth": -25,
+			"freeze": 50,
+			"thunder": 25,
+			"light": 25,
+			"darkness": 25,
+			"hit": 25,
+			"drain_mp": 25,
+			"confusion": 50,
+			"sleep": -25,
+			"paralysis": 25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "風のコツ",
+			"level20": "いきなりピオラ",
+			"level40": "弱体化ブレイク大",
+			"largeAlways": [
+				"行動回数１から３",
+				"わるあがき"
+			],
+			"largeLevel60": "全体攻撃"
+		},
+		"skill": "風の心",
+		"drops": [
+			{
+				"item": "魔法の小瓶",
+				"rate": 8
+			},
+			{
+				"item": "しおかぜ草",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Eggsoskeleton": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1380,
+			"mp": 400,
+			"attack": 570,
+			"defence": 540,
+			"agility": 510,
+			"wisdom": 380
+		},
+		"resistances": {
+			"wind": -25,
+			"earth": 25,
+			"explosion": 25,
+			"freeze": 50,
+			"thunder": 50,
+			"light": 25,
+			"drain_mp": 50,
+			"confusion": 50,
+			"sleep": -25,
+			"rest": 25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "ギャンブルボディ",
+			"level20": "ねがえり",
+			"level40": "アンチみかわし",
+			"largeAlways": [
+				"行動回数１から３",
+				"ときどきスカラ"
+			],
+			"largeLevel60": "ピンチで会心"
+		},
+		"skill": "いしあたま",
+		"drops": [
+			{
+				"item": "魔法の小瓶",
+				"rate": 8
+			},
+			{
+				"item": "銅の鉱石",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Cumaulus": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1360,
+			"mp": 430,
+			"attack": 570,
+			"defence": 350,
+			"agility": 510,
+			"wisdom": 620
+		},
+		"resistances": {
+			"wind": -25,
+			"earth": 25,
+			"explosion": 50,
+			"freeze": 50,
+			"thunder": 50,
+			"weakness": 25,
+			"drain_mp": 25,
+			"confusion": 50,
+			"sleep": -25,
+			"rest": 25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "みかわしアップ大",
+			"level20": "最後の息吹",
+			"level40": "風のコツ",
+			"largeAlways": [
+				"行動回数２",
+				"たいでんたいしつ"
+			],
+			"largeLevel60": "魔力の強風"
+		},
+		"skill": "風の心",
+		"drops": [
+			{
+				"item": "魔法の小瓶",
+				"rate": 8
+			},
+			{
+				"item": "あまつゆのいと",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Killerpillar": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1340,
+			"mp": 400,
+			"attack": 590,
+			"defence": 570,
+			"agility": 500,
+			"wisdom": 490
+		},
+		"resistances": {
+			"fire": -25,
+			"water": 50,
+			"wind": 25,
+			"earth": 50,
+			"explosion": -25,
+			"thunder": 50,
+			"light": 25,
+			"seal": 50,
+			"sleep": 50,
+			"paralysis": 50,
+			"rest": -25,
+			"poison": 25
+		},
+		"traits": {
+			"always": "いきなりスカラ",
+			"level20": "ピンチで会心",
+			"level40": "どく攻撃",
+			"largeAlways": [
+				"行動回数１から３",
+				"毒ブレイク大"
+			],
+			"largeLevel60": "会心かんぜんガード"
+		},
+		"skill": "むしのしらせ"
+	},
+	"Vampire Cat": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1310,
+			"mp": 430,
+			"attack": 450,
+			"defence": 430,
+			"agility": 700,
+			"wisdom": 600
+		},
+		"resistances": {
+			"fire": 50,
+			"wind": 50,
+			"earth": 25,
+			"explosion": 25,
+			"freeze": -25,
+			"darkness": 25,
+			"seal": 75,
+			"confusion": -25,
+			"sleep": 50,
+			"rest": 50
+		},
+		"traits": {
+			"always": "封じブレイク大",
+			"level20": "みかわしアップ大",
+			"level40": "ときどきピオラ",
+			"largeAlways": [
+				"行動回数１から３",
+				"魔力の強風"
+			],
+			"largeLevel60": "呪文会心率アップ大"
+		},
+		"skill": "アンチスペル"
+	},
+	"Odd Cob": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1300,
+			"mp": 550,
+			"attack": 610,
+			"defence": 380,
+			"agility": 610,
+			"wisdom": 430
+		},
+		"resistances": {
+			"water": 75,
+			"earth": 50,
+			"explosion": -25,
+			"darkness": 50,
+			"weakness": 50,
+			"hit": 50,
+			"drain_mp": -25,
+			"sleep": 50,
+			"paralysis": 50,
+			"rest": -25
+		},
+		"traits": {
+			"always": "マヒブレイク大",
+			"level20": "癒しの力",
+			"level40": "おだてじょうず",
+			"largeAlways": [
+				"行動回数２から３",
+				"背水の陣"
+			],
+			"largeLevel60": "最後のあがき"
+		},
+		"skill": "サポーター",
+		"drops": [
+			{
+				"item": "みかわしそう",
+				"rate": 4,
+				"rare": true
+			}
+		]
+	},
+	"Stump Chump": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1370,
+			"mp": 460,
+			"attack": 580,
+			"defence": 590,
+			"agility": 460,
+			"wisdom": 390
+		},
+		"resistances": {
+			"fire": -25,
+			"wind": 25,
+			"earth": 50,
+			"freeze": 50,
+			"darkness": 50,
+			"hit": -25,
+			"drain_mp": 50,
+			"sleep": 25,
+			"paralysis": 25,
+			"rest": 25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "れんぞく",
+			"level20": "セラピー",
+			"level40": "マホトラ攻撃",
+			"largeAlways": [
+				"行動回数２",
+				"いやがらせ"
+			],
+			"largeLevel60": "眠りブレイク大"
+		},
+		"skill": "ナチュラル",
+		"drops": [
+			{
+				"item": "薬草",
+				"rate": 8
+			},
+			{
+				"item": "きれいな枝",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Walking Corpse": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1420,
+			"mp": 360,
+			"attack": 620,
+			"defence": 530,
+			"agility": 400,
+			"wisdom": 390
+		},
+		"resistances": {
+			"fire": -25,
+			"water": 25,
+			"earth": 50,
+			"freeze": 50,
+			"darkness": 50,
+			"hit": -25,
+			"drain_mp": 50,
+			"paralysis": 25,
+			"rest": 25,
+			"poison": 50,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "どく攻撃",
+			"level20": "休みブレイク大",
+			"level40": "封じブレイク大",
+			"largeAlways": [
+				"行動回数２",
+				"どくどくボディ"
+			],
+			"largeLevel60": "ラストスタンド"
+		},
+		"skill": "アンデッド",
+		"drops": [
+			{
+				"item": "まりょくの土",
+				"rate": 4,
+				"rare": true
+			}
+		]
+	},
+	"Capsichum": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1370,
+			"mp": 440,
+			"attack": 570,
+			"defence": 480,
+			"agility": 490,
+			"wisdom": 480
+		},
+		"resistances": {
+			"water": 50,
+			"wind": 50,
+			"earth": 50,
+			"explosion": -25,
+			"freeze": 25,
+			"drain_mp": 50,
+			"sleep": 50,
+			"paralysis": 50,
+			"rest": -25,
+			"poison": 25
+		},
+		"traits": {
+			"always": "封じブレイク大",
+			"level20": "やいばのボディ",
+			"level40": "ラージキラー",
+			"largeAlways": [
+				"行動回数１から３",
+				"くじけぬ心"
+			],
+			"largeLevel60": "いきなりバイキルト"
+		},
+		"skill": "サポーター"
+	},
+	"String Fella": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1340,
+			"mp": 420,
+			"attack": 580,
+			"defence": 390,
+			"agility": 550,
+			"wisdom": 570
+		},
+		"resistances": {
+			"water": 25,
+			"wind": -25,
+			"freeze": 50,
+			"thunder": 50,
+			"light": 25,
+			"darkness": 25,
+			"drain_mp": 50,
+			"confusion": 50,
+			"sleep": -25,
+			"rest": 25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "セラピー",
+			"level20": "マヒ攻撃",
+			"level40": "みかわしアップ大",
+			"largeAlways": [
+				"行動回数１から３",
+				"マヒブレイク大"
+			],
+			"largeLevel60": "全体攻撃"
+		},
+		"skill": "トリッキー"
+	},
+	"Succubat": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1320,
+			"mp": 500,
+			"attack": 510,
+			"defence": 390,
+			"agility": 610,
+			"wisdom": 590
+		},
+		"resistances": {
+			"water": 50,
+			"wind": 50,
+			"thunder": -25,
+			"darkness": 75,
+			"seal": 50,
+			"drain_mp": 50,
+			"confusion": 50,
+			"sleep": 25,
+			"paralysis": -25
+		},
+		"traits": {
+			"always": "闇のコツ",
+			"level20": "みかわしアップ大",
+			"level40": "スヤスヤボディ",
+			"largeAlways": [
+				"行動回数１から３",
+				"ときどきピオラ"
+			],
+			"largeLevel60": "MP吸収ブレイク大"
+		},
+		"skill": "みわく",
+		"drops": [
+			{
+				"item": "夜の帳",
+				"rate": 4,
+				"rare": true
+			}
+		]
+	},
+	"Gremlin": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1370,
+			"mp": 650,
+			"attack": 450,
+			"defence": 290,
+			"agility": 520,
+			"wisdom": 640
+		},
+		"resistances": {
+			"water": 50,
+			"wind": 50,
+			"freeze": 25,
+			"thunder": -25,
+			"darkness": 50,
+			"seal": 25,
+			"drain_mp": 50,
+			"confusion": 50,
+			"sleep": 25,
+			"paralysis": -25,
+			"rest": 25
+		},
+		"traits": {
+			"always": "呪文会心率アップ大",
+			"level20": "みかわしアップ大",
+			"level40": "いやがらせ",
+			"largeAlways": [
+				"行動回数１から３",
+				"おいうち"
+			],
+			"largeLevel60": "くじけぬ心"
+		},
+		"skill": "異常回復",
+		"drops": [
+			{
+				"item": "プラチナこうせき",
+				"rate": 4,
+				"rare": true
+			}
+		]
+	},
+	"Croc-A-Bugle-Doo": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1400,
+			"mp": 610,
+			"attack": 600,
+			"defence": 280,
+			"agility": 460,
+			"wisdom": 390
+		},
+		"resistances": {
+			"fire": 50,
+			"water": 25,
+			"explosion": 25,
+			"light": 25,
+			"darkness": 25,
+			"weakness": 50,
+			"hit": 50,
+			"paralysis": 25,
+			"rest": 50,
+			"poison": -25
+		},
+		"traits": {
+			"always": "メタルキラー",
+			"level20": "おだてじょうず",
+			"level40": "ときどきピオラ",
+			"largeAlways": [
+				"行動回数１から３",
+				"医術士"
+			],
+			"largeLevel60": "秘めたるチカラ"
+		},
+		"skill": "アッパー",
+		"drops": [
+			{
+				"item": "薬草",
+				"rate": 8
+			},
+			{
+				"item": "黄色の宝石",
+				"rate": 4,
+				"rare": true
+			}
+		]
+	},
+	"Crabid": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1340,
+			"mp": 320,
+			"attack": 570,
+			"defence": 720,
+			"agility": 520,
+			"wisdom": 420
+		},
+		"resistances": {
+			"fire": -25,
+			"water": 50,
+			"wind": 25,
+			"earth": 50,
+			"explosion": -25,
+			"freeze": 50,
+			"darkness": 25,
+			"hit": 25,
+			"sleep": 50,
+			"paralysis": 50,
+			"rest": -25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "れんぞく",
+			"level20": "いきなりスカラ",
+			"level40": "弱体化ブレイク大",
+			"largeAlways": [
+				"行動回数１から２",
+				"会心かんぜんガード"
+			],
+			"largeLevel60": "最後のあがき"
+		},
+		"skill": "ぼうぎょ",
+		"drops": [
+			{
+				"item": "石ころ",
+				"rate": 8
+			},
+			{
+				"item": "小さなこうら",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Ghost": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1350,
+			"mp": 640,
+			"attack": 480,
+			"defence": 270,
+			"agility": 570,
+			"wisdom": 590
+		},
+		"resistances": {
+			"fire": -25,
+			"earth": 50,
+			"freeze": 50,
+			"thunder": 25,
+			"darkness": 50,
+			"hit": -25,
+			"drain_mp": 50,
+			"sleep": 25,
+			"paralysis": 25,
+			"rest": 25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "封じブレイク大",
+			"level20": "ショック攻撃",
+			"level40": "マホキテボディ",
+			"largeAlways": [
+				"行動回数２",
+				"超みかわしアップ"
+			],
+			"largeLevel60": "魔力の強風"
+		},
+		"skill": "アンデッド",
+		"drops": [
+			{
+				"item": "魔法の小瓶",
+				"rate": 8
+			},
+			{
+				"item": "きよめの水",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Komodo": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1360,
+			"mp": 320,
+			"attack": 640,
+			"defence": 490,
+			"agility": 590,
+			"wisdom": 290
+		},
+		"resistances": {
+			"fire": 50,
+			"water": -25,
+			"wind": 25,
+			"earth": 25,
+			"explosion": 50,
+			"darkness": 25,
+			"hit": 50,
+			"seal": 25,
+			"drain_mp": 25,
+			"rest": 50,
+			"poison": -25,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "会心率アップ大",
+			"level20": "ロケットスタート",
+			"level40": "くじけぬ心",
+			"largeAlways": [
+				"行動回数１から３",
+				"幻惑ブレイク大"
+			],
+			"largeLevel60": "火ブレイク大"
+		},
+		"skill": "ぼうぎょ",
+		"drops": [
+			{
+				"item": "薬草",
+				"rate": 8
+			},
+			{
+				"item": "小さな鱗",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Cactiball": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1400,
+			"mp": 330,
+			"attack": 570,
+			"defence": 520,
+			"agility": 490,
+			"wisdom": 430
+		},
+		"resistances": {
+			"water": 50,
+			"wind": 25,
+			"earth": 50,
+			"light": 25,
+			"drain_mp": 50,
+			"sleep": 50,
+			"paralysis": 50,
+			"rest": -25,
+			"poison": 25
+		},
+		"traits": {
+			"always": "やいばのボディ",
+			"level20": "休みブレイク大",
+			"level40": "ラージキラー",
+			"largeAlways": [
+				"行動回数１から３",
+				"わるあがき"
+			],
+			"largeLevel60": "全体攻撃"
+		},
+		"skill": "グリーンソード"
+	},
+	"Restless Armour": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1340,
+			"mp": 370,
+			"attack": 560,
+			"defence": 680,
+			"agility": 490,
+			"wisdom": 490
+		},
+		"resistances": {
+			"fire": -25,
+			"earth": 50,
+			"freeze": 50,
+			"thunder": 25,
+			"light": 25,
+			"darkness": 25,
+			"weakness": 25,
+			"hit": -25,
+			"seal": 25,
+			"drain_mp": 25,
+			"confusion": -25,
+			"sleep": 25,
+			"paralysis": 25,
+			"poison": 50,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "ミラクル攻撃",
+			"level20": "ぼうえいほんのう",
+			"level40": "わるあがき",
+			"largeAlways": [
+				"行動回数１から３",
+				"たいでんたいしつ"
+			],
+			"largeLevel60": "全ガードブレイク"
+		},
+		"skill": "アンチブレス"
+	},
+	"See Urchin": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1330,
+			"mp": 580,
+			"attack": 370,
+			"defence": 360,
+			"agility": 690,
+			"wisdom": 620
+		},
+		"resistances": {
+			"fire": 25,
+			"water": 75,
+			"wind": 50,
+			"freeze": 25,
+			"thunder": -25,
+			"drain_mp": 50,
+			"confusion": 50,
+			"sleep": 50,
+			"paralysis": -25,
+			"poison": 25
+		},
+		"traits": {
+			"always": "みかわしアップ大",
+			"level20": "癒しの力",
+			"level40": "水ブレイク大",
+			"largeAlways": [
+				"行動回数１から３",
+				"ふっかつの祈り"
+			],
+			"largeLevel60": "ひかりのはどう"
+		},
+		"skill": "水の心",
+		"drops": [
+			{
+				"item": "魔法の小瓶",
+				"rate": 8
+			},
+			{
+				"item": "しおかぜ草",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Candy Cat": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1360,
+			"mp": 480,
+			"attack": 560,
+			"defence": 510,
+			"agility": 480,
+			"wisdom": 490
+		},
+		"resistances": {
+			"fire": 50,
+			"wind": 50,
+			"earth": 25,
+			"freeze": -25,
+			"light": 25,
+			"darkness": 25,
+			"confusion": -25,
+			"sleep": 50,
+			"paralysis": 25,
+			"rest": 50,
+			"poison": 25,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "ときどきスカラ",
+			"level20": "ねがえり",
+			"level40": "秘めたるチカラ",
+			"largeAlways": [
+				"行動回数１から３",
+				"てんしのきまぐれ"
+			],
+			"largeLevel60": "いきなりマホカンタ"
+		},
+		"skill": "ダウナー",
+		"drops": [
+			{
+				"item": "魔法の小瓶",
+				"rate": 8
+			},
+			{
+				"item": "磨き砂",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Shadow": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1290,
+			"mp": 440,
+			"attack": 480,
+			"defence": 490,
+			"agility": 670,
+			"wisdom": 610
+		},
+		"resistances": {
+			"fire": -25,
+			"earth": 50,
+			"freeze": 50,
+			"light": -25,
+			"darkness": 100,
+			"hit": -25,
+			"drain_mp": 50,
+			"sleep": 25,
+			"paralysis": 25,
+			"rest": 25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "闇のコツ",
+			"level20": "いきなりインテ",
+			"level40": "ザキ攻撃",
+			"largeAlways": [
+				"行動回数１から３",
+				"即死ブレイク大"
+			],
+			"largeLevel60": "ギャンブルボディ"
+		},
+		"skill": "カース",
+		"drops": [
+			{
+				"item": "魔法の小瓶",
+				"rate": 8
+			},
+			{
+				"item": "夜の帳",
+				"rate": 4,
+				"rare": true
+			}
+		]
+	},
+	"Feral Slime": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1390,
+			"mp": 310,
+			"attack": 690,
+			"defence": 380,
+			"agility": 460,
+			"wisdom": 450
+		},
+		"resistances": {
+			"fire": 25,
+			"explosion": 50,
+			"thunder": 50,
+			"light": 25,
+			"weakness": 25,
+			"hit": 50,
+			"drain_mp": -25,
+			"confusion": 25,
+			"sleep": 25,
+			"paralysis": 50
+		},
+		"traits": {
+			"always": "ときどきバイキルト",
+			"level20": "ときどきピオラ",
+			"level40": "どく攻撃",
+			"largeAlways": [
+				"行動回数１から３",
+				"背水の陣"
+			],
+			"largeLevel60": "ファイターズハイ"
+		},
+		"skill": "ウォリアー"
+	},
+	"Ethereal Serpent": {
+		"size": "L",
+		"egg": false,
+		"stats": {
+			"hp": 1360,
+			"mp": 320,
+			"attack": 600,
+			"defence": 530,
+			"agility": 530,
+			"wisdom": 450
+		},
+		"resistances": {
+			"fire": 50,
+			"water": -25,
+			"wind": 50,
+			"earth": -25,
+			"explosion": 50,
+			"thunder": 25,
+			"light": 25,
+			"hit": 50,
+			"seal": 25,
+			"sleep": 25,
+			"paralysis": 25,
+			"rest": 50,
+			"poison": -25
+		},
+		"traits": {
+			"always": "会心率アップ大",
+			"level20": "氷結のコツ",
+			"level40": "秘めたるチカラ",
+			"largeAlways": [
+				"行動回数１から３",
+				"背水の陣"
+			],
+			"largeLevel60": "最後の息吹"
+		},
+		"skill": "息吹"
+	},
+	"Guaardvark": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1370,
+			"mp": 450,
+			"attack": 630,
+			"defence": 380,
+			"agility": 450,
+			"wisdom": 530
+		},
+		"resistances": {
+			"fire": 50,
+			"wind": 50,
+			"earth": 25,
+			"explosion": 25,
+			"freeze": -25,
+			"light": 25,
+			"hit": 25,
+			"confusion": -25,
+			"sleep": 50,
+			"rest": 50,
+			"poison": 25,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "混乱ブレイク大",
+			"level20": "いきなりピオラ",
+			"level40": "きょうせんし",
+			"largeAlways": [
+				"行動回数１から３",
+				"ピンチで会心"
+			],
+			"largeLevel60": "こんらん攻撃"
+		},
+		"skill": "スリラー"
+	},
+	"Skullrider": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1400,
+			"mp": 430,
+			"attack": 520,
+			"defence": 370,
+			"agility": 480,
+			"wisdom": 600
+		},
+		"resistances": {
+			"fire": -25,
+			"earth": 50,
+			"freeze": 50,
+			"thunder": 25,
+			"light": 25,
+			"darkness": 25,
+			"hit": -25,
+			"seal": 25,
+			"drain_mp": 50,
+			"sleep": 25,
+			"paralysis": 25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "行動回数１から２",
+			"level20": "くじけぬ心",
+			"level40": "きょうせんし",
+			"largeAlways": [
+				"ときどきピオラ",
+				"地ブレイク大"
+			],
+			"largeLevel60": "アンチみかわし"
+		},
+		"skill": "ブルーソード",
+		"drops": [
+			{
+				"item": "上薬草",
+				"rate": 8
+			},
+			{
+				"item": "こおりの樹木",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Skipper": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1340,
+			"mp": 380,
+			"attack": 560,
+			"defence": 630,
+			"agility": 530,
+			"wisdom": 450
+		},
+		"resistances": {
+			"fire": -25,
+			"water": 25,
+			"earth": 50,
+			"freeze": 50,
+			"darkness": 50,
+			"weakness": 25,
+			"hit": -25,
+			"drain_mp": 50,
+			"confusion": 50,
+			"poison": 50
+		},
+		"traits": {
+			"always": "弱体化ブレイク大",
+			"level20": "みかわしアップ大",
+			"level40": "封じブレイク大",
+			"largeAlways": [
+				"行動回数１から３",
+				"いきなりピオラ"
+			],
+			"largeLevel60": "ラストスタンド"
+		},
+		"skill": "ジャマー",
+		"drops": [
+			{
+				"item": "魔法の小瓶",
+				"rate": 8
+			},
+			{
+				"item": "妖草",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Cruelcumber": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1330,
+			"mp": 460,
+			"attack": 590,
+			"defence": 560,
+			"agility": 490,
+			"wisdom": 500
+		},
+		"resistances": {
+			"fire": -25,
+			"water": 50,
+			"wind": 25,
+			"earth": 50,
+			"explosion": -25,
+			"light": 50,
+			"darkness": 25,
+			"confusion": 25,
+			"sleep": 50,
+			"paralysis": 50,
+			"rest": -25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "ヘロヘロボディ",
+			"level20": "弱体化ブレイク大",
+			"level40": "爆発のコツ",
+			"largeAlways": [
+				"行動回数１から３",
+				"おいうち"
+			],
+			"largeLevel60": "全体攻撃"
+		},
+		"skill": "グリーンソード"
+	},
+	"Snowmangler": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1390,
+			"mp": 480,
+			"attack": 510,
+			"defence": 580,
+			"agility": 390,
+			"wisdom": 580
+		},
+		"resistances": {
+			"fire": -25,
+			"water": 25,
+			"earth": -25,
+			"explosion": 50,
+			"freeze": 100,
+			"thunder": 50,
+			"darkness": -25,
+			"weakness": 25,
+			"hit": 50,
+			"drain_mp": -25,
+			"sleep": 25,
+			"paralysis": 50,
+			"rest": 25
+		},
+		"traits": {
+			"always": "氷結のコツ",
+			"level20": "いきなりピオラ",
+			"level40": "ザキ攻撃",
+			"largeAlways": [
+				"行動回数１から３",
+				"氷結ブレイク大"
+			],
+			"largeLevel60": "最後のあがき"
+		},
+		"skill": "氷結の心"
+	},
+	"Raptile": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1430,
+			"mp": 360,
+			"attack": 460,
+			"defence": 350,
+			"agility": 630,
+			"wisdom": 390
+		},
+		"resistances": {
+			"fire": 50,
+			"water": -25,
+			"wind": 25,
+			"explosion": 50,
+			"thunder": 25,
+			"light": 25,
+			"weakness": -25,
+			"hit": 50,
+			"sleep": 25,
+			"paralysis": 50,
+			"rest": 50,
+			"poison": -25,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "れんぞく４",
+			"level20": "きょうせんし",
+			"level40": "たいでんたいしつ",
+			"largeAlways": [
+				"行動回数２",
+				"火ブレイク大"
+			],
+			"largeLevel60": "全体攻撃"
+		},
+		"skill": "息吹",
+		"drops": [
+			{
+				"item": "上薬草",
+				"rate": 8
+			},
+			{
+				"item": "ガマの油",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Slime": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1420,
+			"mp": 410,
+			"attack": 460,
+			"defence": 380,
+			"agility": 650,
+			"wisdom": 310
+		},
+		"resistances": {
+			"water": 25,
+			"earth": -25,
+			"explosion": 50,
+			"thunder": 75,
+			"light": 50,
+			"darkness": -25,
+			"hit": 50,
+			"drain_mp": -25,
+			"confusion": 25,
+			"paralysis": 75,
+			"poison": 25
+		},
+		"traits": {
+			"always": "電撃のコツ",
+			"level20": "会心率アップ大",
+			"level40": "ラージキラー",
+			"largeAlways": [
+				"行動回数１から３",
+				"いきなりピオラ"
+			],
+			"largeLevel60": "ファイターズハイ"
+		},
+		"skill": "スラフォース",
+		"drops": [
+			{
+				"item": "薬草",
+				"rate": 8
+			},
+			{
+				"item": "スライムゼリー",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Snail Slime": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1410,
+			"mp": 470,
+			"attack": 480,
+			"defence": 820,
+			"agility": 240,
+			"wisdom": 630
+		},
+		"resistances": {
+			"water": 25,
+			"earth": -25,
+			"explosion": 50,
+			"freeze": 50,
+			"thunder": 50,
+			"light": 25,
+			"darkness": -25,
+			"hit": 50,
+			"seal": 25,
+			"drain_mp": -25,
+			"confusion": 25,
+			"sleep": 25,
+			"paralysis": 50
+		},
+		"traits": {
+			"always": "いきなりスカラ",
+			"level20": "ときどきまもりの霧",
+			"level40": "ぐるぐるボディ",
+			"largeAlways": [
+				"行動回数１から３",
+				"魔力の強風"
+			],
+			"largeLevel60": "封じブレイク大"
+		},
+		"skill": "てっぺき",
+		"drops": [
+			{
+				"item": "メタルストーン",
+				"rate": 8
+			},
+			{
+				"item": "白い貝がら",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Goonache Goodie": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1390,
+			"mp": 460,
+			"attack": 560,
+			"defence": 420,
+			"agility": 440,
+			"wisdom": 560
+		},
+		"resistances": {
+			"fire": 25,
+			"water": 50,
+			"earth": -25,
+			"explosion": 50,
+			"freeze": 25,
+			"thunder": 50,
+			"darkness": -25,
+			"weakness": 25,
+			"hit": 50,
+			"drain_mp": -25,
+			"confusion": 25,
+			"sleep": 25,
+			"paralysis": 50
+		},
+		"traits": {
+			"always": "ラブリー",
+			"level20": "魔力の風",
+			"level40": "最後の息吹",
+			"largeAlways": [
+				"行動回数１から３",
+				"やまびこ"
+			],
+			"largeLevel60": "おだてじょうず"
+		},
+		"skill": "スイート"
+	},
+	"Slime Stack": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1360,
+			"mp": 390,
+			"attack": 570,
+			"defence": 530,
+			"agility": 490,
+			"wisdom": 520
+		},
+		"resistances": {
+			"water": 50,
+			"earth": -25,
+			"explosion": 50,
+			"freeze": 25,
+			"thunder": 50,
+			"light": 25,
+			"darkness": -25,
+			"weakness": 25,
+			"hit": 50,
+			"drain_mp": -25,
+			"confusion": 25,
+			"sleep": 25,
+			"paralysis": 50
+		},
+		"traits": {
+			"always": "電撃のコツ",
+			"level20": "アンチみかわし",
+			"level40": "スモールキラー",
+			"largeAlways": [
+				"行動回数１から３",
+				"ツッコミ"
+			],
+			"largeLevel60": "くじけぬ心"
+		},
+		"skill": "電撃の心",
+		"drops": [
+			{
+				"item": "薬草",
+				"rate": 8
+			},
+			{
+				"item": "スライムゼリー",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Shell Slime": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1430,
+			"mp": 520,
+			"attack": 400,
+			"defence": 840,
+			"agility": 300,
+			"wisdom": 520
+		},
+		"resistances": {
+			"water": 25,
+			"earth": -25,
+			"explosion": 50,
+			"freeze": 50,
+			"thunder": 50,
+			"light": 25,
+			"darkness": -25,
+			"hit": 50,
+			"seal": 50,
+			"drain_mp": -25,
+			"paralysis": 50,
+			"poison": 25
+		},
+		"traits": {
+			"always": "ときどきスカラ",
+			"level20": "やいばのボディ",
+			"level40": "ラブリー",
+			"largeAlways": [
+				"行動回数１から２",
+				"癒しの大力"
+			],
+			"largeLevel60": "マヒブレイク大"
+		},
+		"skill": "ぼうぎょ",
+		"drops": [
+			{
+				"item": "薬草",
+				"rate": 8
+			},
+			{
+				"item": "白い貝がら",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Buddy Slime": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1360,
+			"mp": 550,
+			"attack": 520,
+			"defence": 320,
+			"agility": 490,
+			"wisdom": 670
+		},
+		"resistances": {
+			"water": 25,
+			"explosion": 25,
+			"freeze": 25,
+			"thunder": 50,
+			"light": 50,
+			"darkness": -25,
+			"hit": 50,
+			"seal": 25,
+			"drain_mp": -25,
+			"sleep": 25,
+			"paralysis": 75
+		},
+		"traits": {
+			"always": "ときどきインテ",
+			"level20": "マヒ攻撃",
+			"level40": "みかわしアップ大",
+			"largeAlways": [
+				"行動回数１から３",
+				"癒しの大力"
+			],
+			"largeLevel60": "マヒブレイク大"
+		},
+		"skill": "ナチュラル",
+		"drops": [
+			{
+				"item": "上薬草",
+				"rate": 8
+			},
+			{
+				"item": "イエローアイ",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Slime Knight": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1330,
+			"mp": 420,
+			"attack": 580,
+			"defence": 590,
+			"agility": 480,
+			"wisdom": 550
+		},
+		"resistances": {
+			"fire": 25,
+			"water": 25,
+			"wind": 25,
+			"earth": -25,
+			"explosion": 25,
+			"freeze": 25,
+			"thunder": 50,
+			"light": 25,
+			"darkness": -25,
+			"weakness": 25,
+			"hit": 50,
+			"drain_mp": -25,
+			"sleep": 25,
+			"paralysis": 75
+		},
+		"traits": {
+			"always": "行動回数１から２",
+			"level20": "くじけぬ心",
+			"level40": "ラージキラー",
+			"largeAlways": [
+				"ピンチで会心",
+				"爆発ブレイク大"
+			],
+			"largeLevel60": "いきなりバイキルト"
+		},
+		"skill": "騎士道"
+	},
+	"She-Slime": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1490,
+			"mp": 400,
+			"attack": 510,
+			"defence": 360,
+			"agility": 490,
+			"wisdom": 280
+		},
+		"resistances": {
+			"fire": 50,
+			"explosion": 25,
+			"thunder": 50,
+			"light": 25,
+			"hit": 25,
+			"seal": 25,
+			"drain_mp": -25,
+			"confusion": 25,
+			"paralysis": 75,
+			"rest": 25
+		},
+		"traits": {
+			"always": "火のコツ",
+			"level20": "ときどきピオラ",
+			"level40": "ロケットスタート",
+			"largeAlways": [
+				"行動回数２から３",
+				"きょうせんし"
+			],
+			"largeLevel60": "火ブレイク大"
+		},
+		"skill": "レッドソード"
+	},
+	"Warhog": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1360,
+			"mp": 330,
+			"attack": 640,
+			"defence": 530,
+			"agility": 510,
+			"wisdom": 400
+		},
+		"resistances": {
+			"fire": 50,
+			"wind": 50,
+			"earth": 25,
+			"freeze": -25,
+			"light": 25,
+			"darkness": 25,
+			"seal": 25,
+			"drain_mp": 25,
+			"confusion": -25,
+			"sleep": 50,
+			"rest": 50,
+			"poison": 25
+		},
+		"traits": {
+			"always": "スヤスヤボディ",
+			"level20": "いきなりスカラ",
+			"level40": "ラストスタンド",
+			"largeAlways": [
+				"行動回数１から３",
+				"とうそうほんのう"
+			],
+			"largeLevel60": "秘めたるチカラ"
+		},
+		"skill": "ウォリアー",
+		"drops": [
+			{
+				"item": "まじゅうの皮",
+				"rate": 4,
+				"rare": true
+			}
+		]
+	},
+	"Bambooligan": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1400,
+			"mp": 310,
+			"attack": 580,
+			"defence": 500,
+			"agility": 510,
+			"wisdom": 410
+		},
+		"resistances": {
+			"water": 25,
+			"wind": -25,
+			"freeze": 50,
+			"thunder": 50,
+			"light": 25,
+			"darkness": 25,
+			"hit": 25,
+			"drain_mp": 25,
+			"confusion": 50,
+			"sleep": -25,
+			"rest": 25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "弱体化ブレイク大",
+			"level20": "かいひほんのう",
+			"level40": "いきなりスカラ",
+			"largeAlways": [
+				"行動回数１から３",
+				"わるあがき"
+			],
+			"largeLevel60": "全ガードブレイク"
+		},
+		"skill": "グリーンソード",
+		"drops": [
+			{
+				"item": "こおりの樹木",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Drag Racer": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1340,
+			"mp": 340,
+			"attack": 620,
+			"defence": 480,
+			"agility": 640,
+			"wisdom": 300
+		},
+		"resistances": {
+			"fire": 50,
+			"water": -25,
+			"earth": 50,
+			"explosion": 50,
+			"light": 25,
+			"weakness": 50,
+			"hit": 50,
+			"sleep": 25,
+			"rest": 50,
+			"poison": -25
+		},
+		"traits": {
+			"always": "ロケットスタート",
+			"level20": "ねがえり",
+			"level40": "ピンチで会心",
+			"largeAlways": [
+				"行動回数１から３",
+				"ときどきピオラ"
+			],
+			"largeLevel60": "とうそうほんのう"
+		},
+		"skill": "あばれんぼう"
+	},
+	"Onion Slime": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1410,
+			"mp": 430,
+			"attack": 510,
+			"defence": 530,
+			"agility": 570,
+			"wisdom": 240
+		},
+		"resistances": {
+			"water": 50,
+			"explosion": 25,
+			"thunder": 50,
+			"light": 50,
+			"darkness": -25,
+			"hit": 50,
+			"drain_mp": -25,
+			"confusion": 50,
+			"paralysis": 50,
+			"rest": 25
+		},
+		"traits": {
+			"always": "地のコツ",
+			"level20": "幻惑ブレイク大",
+			"level40": "ときどきまもりの霧",
+			"largeAlways": [
+				"行動回数１から３",
+				"セラピー"
+			],
+			"largeLevel60": "ひかりのはどう"
+		},
+		"skill": "ナチュラル",
+		"drops": [
+			{
+				"item": "かがやきそう",
+				"rate": 4,
+				"rare": true
+			}
+		]
+	},
+	"Mad Mollusk": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1410,
+			"mp": 530,
+			"attack": 580,
+			"defence": 360,
+			"agility": 410,
+			"wisdom": 490
+		},
+		"resistances": {
+			"fire": 25,
+			"water": 50,
+			"wind": 25,
+			"earth": 50,
+			"explosion": -25,
+			"darkness": 25,
+			"weakness": -25,
+			"drain_mp": 50,
+			"confusion": 25,
+			"sleep": 50,
+			"paralysis": 50,
+			"rest": -25,
+			"poison": 25
+		},
+		"traits": {
+			"always": "どく攻撃",
+			"level20": "いきなりマホカンタ",
+			"level40": "マホキテボディ",
+			"largeAlways": [
+				"行動回数１から３",
+				"氷結ブレイク大"
+			],
+			"largeLevel60": "全体攻撃"
+		},
+		"skill": "ヌメヌメ",
+		"drops": [
+			{
+				"item": "上薬草",
+				"rate": 8
+			},
+			{
+				"item": "うるわしきのこ",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Dessert Demon": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1370,
+			"mp": 380,
+			"attack": 600,
+			"defence": 500,
+			"agility": 460,
+			"wisdom": 520
+		},
+		"resistances": {
+			"fire": 50,
+			"water": 50,
+			"wind": 50,
+			"thunder": -25,
+			"light": 25,
+			"weakness": 50,
+			"drain_mp": 50,
+			"confusion": 50,
+			"sleep": 25,
+			"paralysis": -25
+		},
+		"traits": {
+			"always": "会心率アップ大",
+			"level20": "いきなりインテ",
+			"level40": "メタルハンター",
+			"largeAlways": [
+				"行動回数１から３",
+				"アンチみかわし"
+			],
+			"largeLevel60": "爆発ブレイク大"
+		},
+		"skill": "爆発の心",
+		"drops": [
+			{
+				"item": "ひかりの石",
+				"rate": 4,
+				"rare": true
+			}
+		]
+	},
+	"Jargon": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1400,
+			"mp": 310,
+			"attack": 650,
+			"defence": 590,
+			"agility": 430,
+			"wisdom": 340
+		},
+		"resistances": {
+			"fire": 50,
+			"water": -25,
+			"explosion": 50,
+			"thunder": 25,
+			"light": 25,
+			"darkness": 25,
+			"hit": 50,
+			"drain_mp": 25,
+			"paralysis": 50,
+			"rest": 50,
+			"poison": -25
+		},
+		"traits": {
+			"always": "幻惑ブレイク大",
+			"level20": "ピンチで会心",
+			"level40": "ときどきバイキルト",
+			"largeAlways": [
+				"行動回数１から３",
+				"スモールキラー"
+			],
+			"largeLevel60": "火ブレイク大"
+		},
+		"skill": "火炎"
+	},
+	"Weartiger": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1350,
+			"mp": 340,
+			"attack": 590,
+			"defence": 620,
+			"agility": 480,
+			"wisdom": 500
+		},
+		"resistances": {
+			"fire": 50,
+			"wind": 50,
+			"earth": 25,
+			"explosion": 25,
+			"freeze": -25,
+			"light": 25,
+			"hit": 25,
+			"seal": 25,
+			"drain_mp": 25,
+			"confusion": -25,
+			"sleep": 50,
+			"rest": 50
+		},
+		"traits": {
+			"always": "ピンチで会心",
+			"level20": "きょうせんし",
+			"level40": "アンチみかわし",
+			"largeAlways": [
+				"行動回数２から３",
+				"休みブレイク大"
+			],
+			"largeLevel60": "いきなりバイキルト"
+		},
+		"skill": "イエローソード",
+		"drops": [
+			{
+				"item": "上薬草",
+				"rate": 8
+			},
+			{
+				"item": "鋭い爪",
+				"rate": 4,
+				"rare": true
+			}
+		]
+	},
+	"Dracky": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1260,
+			"mp": 490,
+			"attack": 480,
+			"defence": 440,
+			"agility": 780,
+			"wisdom": 510
+		},
+		"resistances": {
+			"fire": 25,
+			"water": 25,
+			"wind": 50,
+			"earth": 25,
+			"thunder": -25,
+			"darkness": 50,
+			"weakness": 25,
+			"drain_mp": 50,
+			"confusion": 50,
+			"paralysis": -25,
+			"rest": 25,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "闇のコツ",
+			"level20": "いきなりピオラ",
+			"level40": "ラージキラー",
+			"largeAlways": [
+				"行動回数２",
+				"みかわしアップ大"
+			],
+			"largeLevel60": "幻惑ブレイク大"
+		},
+		"skill": "闇の心",
+		"drops": [
+			{
+				"item": "魔法の小瓶",
+				"rate": 8
+			},
+			{
+				"item": "蝙蝠の羽",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Drake Slime": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1380,
+			"mp": 460,
+			"attack": 540,
+			"defence": 380,
+			"agility": 580,
+			"wisdom": 400
+		},
+		"resistances": {
+			"fire": 50,
+			"earth": -25,
+			"explosion": 50,
+			"thunder": 50,
+			"light": 25,
+			"weakness": 25,
+			"hit": 50,
+			"seal": 25,
+			"drain_mp": -25,
+			"sleep": 25,
+			"paralysis": 50
+		},
+		"traits": {
+			"always": "みかわしアップ大",
+			"level20": "いきなりピオラ",
+			"level40": "ピンチで会心",
+			"largeAlways": [
+				"行動回数１から３",
+				"火ブレイク大"
+			],
+			"largeLevel60": "火のコツ"
+		},
+		"skill": "息吹"
+	},
+	"Small Fry": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1450,
+			"mp": 470,
+			"attack": 530,
+			"defence": 340,
+			"agility": 510,
+			"wisdom": 310
+		},
+		"resistances": {
+			"fire": 50,
+			"water": -25,
+			"wind": 25,
+			"explosion": 50,
+			"light": 25,
+			"darkness": 25,
+			"hit": 25,
+			"seal": 25,
+			"drain_mp": 25,
+			"paralysis": 25,
+			"rest": 75,
+			"poison": -25
+		},
+		"traits": {
+			"always": "会心率アップ大",
+			"level20": "ラージキラー",
+			"level40": "ときどきバイキルト",
+			"largeAlways": [
+				"行動回数１から３",
+				"火ブレイク大"
+			],
+			"largeLevel60": "プレッシャー"
+		},
+		"skill": "ドラゴンソウル"
+	},
+	"Bongo Drongo": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1400,
+			"mp": 460,
+			"attack": 610,
+			"defence": 450,
+			"agility": 410,
+			"wisdom": 450
+		},
+		"resistances": {
+			"wind": -25,
+			"explosion": 25,
+			"freeze": 50,
+			"thunder": 50,
+			"light": 50,
+			"hit": 25,
+			"confusion": 50,
+			"sleep": -25,
+			"rest": 50,
+			"poison": 50
+		},
+		"traits": {
+			"always": "れんぞく",
+			"level20": "ツッコミ",
+			"level40": "最後の息吹",
+			"largeAlways": [
+				"行動回数１から３",
+				"おだてじょうず"
+			],
+			"largeLevel60": "いきなりバイキルト"
+		},
+		"skill": "アッパー",
+		"drops": [
+			{
+				"item": "パープルアイ",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Lump Wizard": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1340,
+			"mp": 510,
+			"attack": 410,
+			"defence": 590,
+			"agility": 520,
+			"wisdom": 680
+		},
+		"resistances": {
+			"water": 50,
+			"wind": 50,
+			"freeze": 25,
+			"thunder": -25,
+			"light": 25,
+			"darkness": 25,
+			"seal": 50,
+			"drain_mp": 50,
+			"confusion": 50,
+			"paralysis": -25,
+			"rest": 25
+		},
+		"traits": {
+			"always": "れんぞく",
+			"level20": "呪文会心率アップ大",
+			"level40": "いきなりインテ",
+			"largeAlways": [
+				"行動回数１から３",
+				"マジシャンズハイ"
+			],
+			"largeLevel60": "MP吸収ブレイク大"
+		},
+		"skill": "風の心"
+	},
+	"Avian Android": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1330,
+			"mp": 470,
+			"attack": 580,
+			"defence": 430,
+			"agility": 630,
+			"wisdom": 360
+		},
+		"resistances": {
+			"water": 25,
+			"wind": -25,
+			"earth": 25,
+			"freeze": 50,
+			"thunder": 50,
+			"light": 25,
+			"confusion": 50,
+			"sleep": -25,
+			"paralysis": 25,
+			"poison": 50,
+			"sudden_death": 50
+		},
+		"traits": {
+			"always": "眠りブレイク大",
+			"level20": "ビリビリボディ",
+			"level40": "セラピー",
+			"largeAlways": [
+				"行動回数２",
+				"おいうち"
+			],
+			"largeLevel60": "全ガードブレイク"
+		},
+		"skill": "アサシン",
+		"drops": [
+			{
+				"item": "鋭い爪",
+				"rate": 4,
+				"rare": true
+			}
+		]
+	},
+	"Sacksquatch": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1390,
+			"mp": 540,
+			"attack": 490,
+			"defence": 540,
+			"agility": 430,
+			"wisdom": 520
+		},
+		"resistances": {
+			"wind": -25,
+			"earth": 50,
+			"freeze": 50,
+			"thunder": 50,
+			"light": 25,
+			"weakness": 25,
+			"hit": 50,
+			"confusion": 50,
+			"sleep": -25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "地のコツ",
+			"level20": "幻惑ブレイク大",
+			"level40": "くじけぬ心",
+			"largeAlways": [
+				"行動回数１から３",
+				"ときどきまもりの霧"
+			],
+			"largeLevel60": "封じブレイク大"
+		},
+		"skill": "地の心",
+		"drops": [
+			{
+				"item": "石ころ",
+				"rate": 8
+			},
+			{
+				"item": "磨き砂",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Mud Mannequin": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1380,
+			"mp": 460,
+			"attack": 610,
+			"defence": 540,
+			"agility": 480,
+			"wisdom": 300
+		},
+		"resistances": {
+			"water": 25,
+			"wind": -25,
+			"earth": 50,
+			"freeze": 50,
+			"thunder": 50,
+			"drain_mp": 50,
+			"confusion": 50,
+			"sleep": -25,
+			"rest": 25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "地のコツ",
+			"level20": "休みブレイク大",
+			"level40": "根に持つタイプ",
+			"largeAlways": [
+				"行動回数１から３",
+				"ときどきスカラ"
+			],
+			"largeLevel60": "徒手空拳"
+		},
+		"skill": "ダンサー",
+		"drops": [
+			{
+				"item": "薬草",
+				"rate": 8
+			},
+			{
+				"item": "パープルアイ",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Mudraker": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1380,
+			"mp": 530,
+			"attack": 600,
+			"defence": 590,
+			"agility": 310,
+			"wisdom": 540
+		},
+		"resistances": {
+			"water": 50,
+			"wind": -25,
+			"earth": 50,
+			"freeze": 50,
+			"thunder": 50,
+			"light": -25,
+			"hit": 25,
+			"drain_mp": 25,
+			"confusion": 50,
+			"sleep": -25,
+			"poison": 50,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "地のコツ",
+			"level20": "ときどきスカラ",
+			"level40": "ギャンブルボディ",
+			"largeAlways": [
+				"行動回数１から３",
+				"毒ブレイク大"
+			],
+			"largeLevel60": "最後のあがき"
+		},
+		"skill": "ヘドロ",
+		"drops": [
+			{
+				"item": "魔法の小瓶",
+				"rate": 8
+			},
+			{
+				"item": "グリーンアイ",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Drohl Drone": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1350,
+			"mp": 420,
+			"attack": 540,
+			"defence": 500,
+			"agility": 590,
+			"wisdom": 420
+		},
+		"resistances": {
+			"fire": -25,
+			"earth": 50,
+			"freeze": 50,
+			"thunder": 25,
+			"darkness": 50,
+			"hit": -25,
+			"drain_mp": 50,
+			"confusion": 25,
+			"paralysis": 25,
+			"poison": 50,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "封じブレイク大",
+			"level20": "MP吸収ブレイク大",
+			"level40": "マホキテボディ",
+			"largeAlways": [
+				"行動回数２",
+				"どく攻撃"
+			],
+			"largeLevel60": "しっぺがえし"
+		},
+		"skill": "ヌメヌメ"
+	},
+	"Mitey Oak": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1420,
+			"mp": 450,
+			"attack": 590,
+			"defence": 560,
+			"agility": 360,
+			"wisdom": 410
+		},
+		"resistances": {
+			"fire": -25,
+			"water": 50,
+			"earth": 50,
+			"explosion": -25,
+			"freeze": 25,
+			"thunder": 50,
+			"darkness": 25,
+			"hit": 50,
+			"sleep": 50,
+			"paralysis": 50,
+			"rest": -25,
+			"poison": 25
+		},
+		"traits": {
+			"always": "れんぞく６",
+			"level20": "セラピー",
+			"level40": "ラージキラー",
+			"largeAlways": [
+				"行動回数１から３",
+				"最後のあがき"
+			],
+			"largeLevel60": "全体攻撃"
+		},
+		"skill": "じこぎせい"
+	},
+	"Woebergine": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1360,
+			"mp": 610,
+			"attack": 490,
+			"defence": 440,
+			"agility": 480,
+			"wisdom": 570
+		},
+		"resistances": {
+			"water": 50,
+			"earth": 50,
+			"explosion": -25,
+			"thunder": 25,
+			"light": 25,
+			"darkness": 25,
+			"drain_mp": 25,
+			"sleep": 50,
+			"paralysis": 50,
+			"rest": -25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "みかわしアップ大",
+			"level20": "こんらん攻撃",
+			"level40": "ヘロヘロボディ",
+			"largeAlways": [
+				"行動回数２",
+				"いきなりピオラ"
+			],
+			"largeLevel60": "休みブレイク大"
+		},
+		"skill": "ダンサー"
+	},
+	"Robber Rabbit": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1340,
+			"mp": 350,
+			"attack": 610,
+			"defence": 430,
+			"agility": 590,
+			"wisdom": 460
+		},
+		"resistances": {
+			"fire": 50,
+			"wind": 50,
+			"earth": 25,
+			"explosion": 25,
+			"freeze": -25,
+			"light": 25,
+			"seal": 50,
+			"confusion": -25,
+			"sleep": 50,
+			"paralysis": 25,
+			"rest": 50
+		},
+		"traits": {
+			"always": "きょうせんし",
+			"level20": "いきなりピオラ",
+			"level40": "くじけぬ心",
+			"largeAlways": [
+				"行動回数２",
+				"ロケットスタート"
+			],
+			"largeLevel60": "ぐるぐるボディ"
+		},
+		"skill": "ぬすっと"
+	},
+	"Scallop Slime": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1390,
+			"mp": 410,
+			"attack": 460,
+			"defence": 610,
+			"agility": 470,
+			"wisdom": 560
+		},
+		"resistances": {
+			"water": 50,
+			"wind": 25,
+			"earth": -25,
+			"explosion": 25,
+			"freeze": 25,
+			"thunder": 25,
+			"light": 25,
+			"weakness": 25,
+			"hit": 25,
+			"drain_mp": -25,
+			"sleep": 25,
+			"paralysis": 50,
+			"poison": 50
+		},
+		"traits": {
+			"always": "ぼうえいほんのう",
+			"level20": "ときどきスカラ",
+			"level40": "メタルキラー",
+			"largeAlways": [
+				"行動回数１から３",
+				"水のコツ"
+			],
+			"largeLevel60": "背水の陣"
+		},
+		"skill": "水の心",
+		"drops": [
+			{
+				"item": "石ころ",
+				"rate": 8
+			},
+			{
+				"item": "ホワイトパール",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Vegandragora": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1380,
+			"mp": 570,
+			"attack": 630,
+			"defence": 370,
+			"agility": 450,
+			"wisdom": 380
+		},
+		"resistances": {
+			"fire": 50,
+			"water": -25,
+			"earth": 50,
+			"explosion": 50,
+			"light": 25,
+			"weakness": 50,
+			"hit": 50,
+			"paralysis": 25,
+			"rest": 50,
+			"poison": -25
+		},
+		"traits": {
+			"always": "くじけぬ心",
+			"level20": "メタルハンター",
+			"level40": "いきなりピオラ",
+			"largeAlways": [
+				"行動回数１から３",
+				"火ブレイク大"
+			],
+			"largeLevel60": "電撃ブレイク大"
+		},
+		"skill": "光の心",
+		"drops": [
+			{
+				"item": "モンスターの糞",
+				"rate": 8
+			},
+			{
+				"item": "しおかぜ草",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Wing Slime": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1320,
+			"mp": 490,
+			"attack": 520,
+			"defence": 360,
+			"agility": 640,
+			"wisdom": 550
+		},
+		"resistances": {
+			"wind": 75,
+			"earth": -25,
+			"explosion": 25,
+			"thunder": 50,
+			"light": 50,
+			"darkness": -25,
+			"hit": 75,
+			"drain_mp": -25,
+			"paralysis": 75,
+			"rest": 25
+		},
+		"traits": {
+			"always": "みかわしアップ大",
+			"level20": "回復のコツ",
+			"level40": "マホトラ攻撃",
+			"largeAlways": [
+				"行動回数２",
+				"魔力の強風"
+			],
+			"largeLevel60": "風ブレイク大"
+		},
+		"skill": "つむじ風"
+	},
+	"Bubble Slime": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1440,
+			"mp": 660,
+			"attack": 460,
+			"defence": 500,
+			"agility": 410,
+			"wisdom": 340
+		},
+		"resistances": {
+			"water": 50,
+			"earth": -25,
+			"explosion": 25,
+			"freeze": 25,
+			"thunder": 50,
+			"light": 25,
+			"weakness": 25,
+			"hit": 50,
+			"drain_mp": -25,
+			"sleep": -25,
+			"paralysis": 50,
+			"poison": 75
+		},
+		"traits": {
+			"always": "どくどくボディ",
+			"level20": "いきなりピオラ",
+			"level40": "毒ブレイク大",
+			"largeAlways": [
+				"行動回数１から３",
+				"みかわしアップ大"
+			],
+			"largeLevel60": "ラブリー"
+		},
+		"skill": "スラフォース",
+		"drops": [
+			{
+				"item": "毒消し草",
+				"rate": 8
+			},
+			{
+				"item": "グリーンアイ",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Bludgerigar": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1320,
+			"mp": 550,
+			"attack": 590,
+			"defence": 340,
+			"agility": 580,
+			"wisdom": 490
+		},
+		"resistances": {
+			"water": 50,
+			"wind": 50,
+			"earth": 50,
+			"explosion": -25,
+			"freeze": 25,
+			"thunder": 25,
+			"light": -25,
+			"hit": 25,
+			"confusion": 25,
+			"sleep": 50,
+			"paralysis": 50,
+			"rest": -25,
+			"poison": 25
+		},
+		"traits": {
+			"always": "れんぞく３",
+			"level20": "こんらん攻撃",
+			"level40": "ファイターズハイ",
+			"largeAlways": [
+				"行動回数１から３",
+				"おいうち"
+			],
+			"largeLevel60": "混乱ブレイク大"
+		},
+		"skill": "つむじ風",
+		"drops": [
+			{
+				"item": "石ころ",
+				"rate": 8
+			},
+			{
+				"item": "風切りの羽",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Sham Hatwitch": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1360,
+			"mp": 410,
+			"attack": 470,
+			"defence": 630,
+			"agility": 490,
+			"wisdom": 600
+		},
+		"resistances": {
+			"fire": 50,
+			"wind": 50,
+			"earth": 25,
+			"freeze": -25,
+			"light": 25,
+			"darkness": 25,
+			"weakness": -25,
+			"seal": 25,
+			"drain_mp": 75,
+			"confusion": -25,
+			"sleep": 50,
+			"rest": 50
+		},
+		"traits": {
+			"always": "スヤスヤボディ",
+			"level20": "ラストスタンド",
+			"level40": "最後の息吹",
+			"largeAlways": [
+				"行動回数１から３",
+				"ときどきインテ"
+			],
+			"largeLevel60": "超会心率アップ"
+		},
+		"skill": "息吹"
+	},
+	"Dancing Devil": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1360,
+			"mp": 460,
+			"attack": 410,
+			"defence": 560,
+			"agility": 570,
+			"wisdom": 580
+		},
+		"resistances": {
+			"fire": 25,
+			"water": 50,
+			"wind": 50,
+			"thunder": -25,
+			"darkness": 50,
+			"weakness": 25,
+			"seal": 25,
+			"drain_mp": 50,
+			"confusion": 50,
+			"paralysis": -25,
+			"rest": 25
+		},
+		"traits": {
+			"always": "みかわしアップ大",
+			"level20": "いきなりインテ",
+			"level40": "ツッコミ",
+			"largeAlways": [
+				"行動回数１から３",
+				"しっぺがえし"
+			],
+			"largeLevel60": "闇ブレイク大"
+		},
+		"skill": "ダンサー"
+	},
+	"Erazor Blade": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1330,
+			"mp": 360,
+			"attack": 600,
+			"defence": 510,
+			"agility": 580,
+			"wisdom": 450
+		},
+		"resistances": {
+			"wind": -25,
+			"earth": 25,
+			"explosion": 25,
+			"freeze": 50,
+			"thunder": 50,
+			"light": 25,
+			"seal": 50,
+			"confusion": 50,
+			"sleep": -25,
+			"rest": 25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "みかわしアップ大",
+			"level20": "ピンチで会心",
+			"level40": "アンチみかわし",
+			"largeAlways": [
+				"行動回数１から３",
+				"ねがえり"
+			],
+			"largeLevel60": "いきなりバイキルト"
+		},
+		"skill": "剣術",
+		"drops": [
+			{
+				"item": "上薬草",
+				"rate": 8
+			},
+			{
+				"item": "鉄鉱石",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Cannibox": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1380,
+			"mp": 280,
+			"attack": 640,
+			"defence": 590,
+			"agility": 450,
+			"wisdom": 430
+		},
+		"resistances": {
+			"wind": -25,
+			"explosion": 50,
+			"freeze": 50,
+			"thunder": 50,
+			"light": 25,
+			"weakness": 25,
+			"hit": 50,
+			"confusion": 50,
+			"sleep": -25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "ピンチで会心",
+			"level20": "アンチみかわし",
+			"level40": "即死ブレイク大",
+			"largeAlways": [
+				"行動回数１から３",
+				"ザキ攻撃"
+			],
+			"largeLevel60": "プレッシャー"
+		},
+		"skill": "スリラー",
+		"drops": [
+			{
+				"item": "ちいさなメダル",
+				"rate": 70
+			},
+			{
+				"item": "ミスリルこうせき",
+				"rate": 30,
+				"rare": true
+			}
+		]
+	},
+	"Feralball": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1420,
+			"mp": 570,
+			"attack": 470,
+			"defence": 420,
+			"agility": 390,
+			"wisdom": 610
+		},
+		"resistances": {
+			"fire": 50,
+			"wind": 50,
+			"explosion": 25,
+			"freeze": -25,
+			"light": 25,
+			"darkness": 25,
+			"weakness": -25,
+			"hit": 25,
+			"drain_mp": 50,
+			"confusion": -25,
+			"sleep": 50,
+			"rest": 50,
+			"poison": 25
+		},
+		"traits": {
+			"always": "みかわしアップ大",
+			"level20": "スヤスヤボディ",
+			"level40": "ラブリー",
+			"largeAlways": [
+				"行動回数１から３",
+				"いきなりピオラ"
+			],
+			"largeLevel60": "眠りブレイク大"
+		},
+		"skill": "グリーンソード",
+		"drops": [
+			{
+				"item": "満月草",
+				"rate": 8
+			},
+			{
+				"item": "コットン草",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Gasbagon": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1420,
+			"mp": 320,
+			"attack": 590,
+			"defence": 590,
+			"agility": 410,
+			"wisdom": 410
+		},
+		"resistances": {
+			"fire": 50,
+			"water": -25,
+			"wind": 50,
+			"explosion": 50,
+			"light": 25,
+			"weakness": 50,
+			"hit": 50,
+			"paralysis": 25,
+			"rest": 50,
+			"poison": -25
+		},
+		"traits": {
+			"always": "爆発のコツ",
+			"level20": "光のコツ",
+			"level40": "火ブレイク大",
+			"largeAlways": [
+				"行動回数１から２",
+				"最後のあがき"
+			],
+			"largeLevel60": "爆発ブレイク大"
+		},
+		"skill": "火炎"
+	},
+	"Damselfly": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1320,
+			"mp": 450,
+			"attack": 460,
+			"defence": 250,
+			"agility": 800,
+			"wisdom": 500
+		},
+		"resistances": {
+			"fire": 50,
+			"water": -25,
+			"wind": 25,
+			"earth": 25,
+			"explosion": 50,
+			"light": 25,
+			"weakness": -25,
+			"hit": 50,
+			"drain_mp": 25,
+			"sleep": 50,
+			"paralysis": 25,
+			"rest": 50,
+			"poison": -25
+		},
+		"traits": {
+			"always": "幻惑ブレイク大",
+			"level20": "最後の息吹",
+			"level40": "ヘロヘロボディ",
+			"largeAlways": [
+				"行動回数１から３",
+				"いきなりピオラ"
+			],
+			"largeLevel60": "休みブレイク大"
+		},
+		"skill": "妖精",
+		"drops": [
+			{
+				"item": "毒消し草",
+				"rate": 8
+			},
+			{
+				"item": "かがやきの樹液",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Fromage Fray": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1390,
+			"mp": 480,
+			"attack": 500,
+			"defence": 400,
+			"agility": 490,
+			"wisdom": 580
+		},
+		"resistances": {
+			"wind": -25,
+			"earth": 50,
+			"explosion": 25,
+			"freeze": 50,
+			"thunder": 50,
+			"hit": 25,
+			"drain_mp": 50,
+			"confusion": 50,
+			"sleep": -25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "ヘロヘロボディ",
+			"level20": "いきなりインテ",
+			"level40": "ツッコミ",
+			"largeAlways": [
+				"行動回数１から３",
+				"魔力の強風"
+			],
+			"largeLevel60": "休みブレイク大"
+		},
+		"skill": "イエローソード"
+	},
+	"Khalamari Kid": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1400,
+			"mp": 520,
+			"attack": 530,
+			"defence": 460,
+			"agility": 400,
+			"wisdom": 560
+		},
+		"resistances": {
+			"fire": -25,
+			"water": 100,
+			"earth": 50,
+			"explosion": -25,
+			"thunder": -25,
+			"light": 25,
+			"darkness": 50,
+			"drain_mp": 50,
+			"sleep": 50,
+			"paralysis": 50,
+			"rest": -25,
+			"poison": 25
+		},
+		"traits": {
+			"always": "水のコツ",
+			"level20": "みかわしアップ大",
+			"level40": "MP吸収ブレイク大",
+			"largeAlways": [
+				"行動回数１から３",
+				"魔力の強風"
+			],
+			"largeLevel60": "ラブリー"
+		},
+		"skill": "みずげい",
+		"drops": [
+			{
+				"item": "魔法の小瓶",
+				"rate": 8
+			},
+			{
+				"item": "きよめの水",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Mottle Slime": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1420,
+			"mp": 460,
+			"attack": 510,
+			"defence": 450,
+			"agility": 510,
+			"wisdom": 370
+		},
+		"resistances": {
+			"fire": 25,
+			"water": 25,
+			"earth": -25,
+			"explosion": 50,
+			"freeze": 25,
+			"thunder": 50,
+			"light": 25,
+			"darkness": -25,
+			"weakness": 25,
+			"hit": 50,
+			"seal": 25,
+			"drain_mp": -25,
+			"sleep": 25,
+			"paralysis": 50
+		},
+		"traits": {
+			"always": "ツッコミ",
+			"level20": "ラブリー",
+			"level40": "電撃ブレイク大",
+			"largeAlways": [
+				"行動回数１から３",
+				"ちからため"
+			],
+			"largeLevel60": "全体攻撃"
+		},
+		"skill": "イエローソード",
+		"drops": [
+			{
+				"item": "さとりそう",
+				"rate": 4,
+				"rare": true
+			}
+		]
+	},
+	"Pteranodon": {
+		"size": "L",
+		"egg": true,
+		"stats": {
+			"hp": 1370,
+			"mp": 360,
+			"attack": 580,
+			"defence": 350,
+			"agility": 620,
+			"wisdom": 410
+		},
+		"resistances": {
+			"fire": 50,
+			"water": -25,
+			"wind": 50,
+			"earth": -25,
+			"explosion": 50,
+			"thunder": 25,
+			"darkness": 25,
+			"hit": 50,
+			"seal": 25,
+			"sleep": 25,
+			"rest": 50,
+			"poison": -25,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "徒手空拳",
+			"level20": "風のコツ",
+			"level40": "しっぺがえし",
+			"largeAlways": [
+				"行動回数１から３",
+				"ときどきピオラ"
+			],
+			"largeLevel60": "超みかわしアップ"
+		},
+		"skill": "ドラゴンソウル",
+		"drops": [
+			{
+				"item": "モンスターの糞",
+				"rate": 8
+			},
+			{
+				"item": "レッドアイ",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Monolog": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1440,
+			"mp": 430,
+			"attack": 580,
+			"defence": 370,
+			"agility": 410,
+			"wisdom": 460
+		},
+		"resistances": {
+			"fire": -25,
+			"earth": 50,
+			"freeze": 50,
+			"thunder": 25,
+			"darkness": 50,
+			"hit": -25,
+			"seal": 25,
+			"drain_mp": 50,
+			"paralysis": 25,
+			"poison": 50,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "混乱ブレイク大",
+			"level20": "マホキテボディ",
+			"level40": "ねがえり",
+			"largeAlways": [
+				"行動回数２",
+				"みかわしアップ大"
+			],
+			"largeLevel60": "電撃ブレイク大"
+		},
+		"skill": "ナチュラル",
+		"drops": [
+			{
+				"item": "蝶の羽",
+				"rate": 4,
+				"rare": true
+			}
+		]
+	},
+	"Toady": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1410,
+			"mp": 360,
+			"attack": 560,
+			"defence": 450,
+			"agility": 520,
+			"wisdom": 390
+		},
+		"resistances": {
+			"fire": 25,
+			"water": 75,
+			"earth": 25,
+			"explosion": -25,
+			"light": 25,
+			"darkness": 25,
+			"hit": 50,
+			"sleep": 50,
+			"paralysis": 50,
+			"rest": -25,
+			"poison": 25
+		},
+		"traits": {
+			"always": "水のコツ",
+			"level20": "みかわしアップ大",
+			"level40": "マホトラ攻撃",
+			"largeAlways": [
+				"行動回数２",
+				"ねがえり"
+			],
+			"largeLevel60": "混乱ブレイク大"
+		},
+		"skill": "水の心",
+		"drops": [
+			{
+				"item": "モンスターの糞",
+				"rate": 8
+			},
+			{
+				"item": "ガマの油",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Imp": {
+		"size": "L",
+		"egg": false,
+		"stats": {
+			"hp": 1300,
+			"mp": 310,
+			"attack": 570,
+			"defence": 530,
+			"agility": 570,
+			"wisdom": 680
+		},
+		"resistances": {
+			"fire": 50,
+			"water": 25,
+			"wind": 25,
+			"freeze": 25,
+			"thunder": -25,
+			"darkness": 50,
+			"seal": 255,
+			"drain_mp": 255,
+			"confusion": 255,
+			"sleep": 255,
+			"paralysis": 255,
+			"rest": 255,
+			"poison": 255,
+			"sudden_death": 255
+		},
+		"traits": {
+			"always": "行動回数２",
+			"largeAlways": [
+				"火ブレイク大",
+				"火のコツ"
+			]
+		},
+		"skill": ""
+	},
+	"Great Sabrecub": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1400,
+			"mp": 310,
+			"attack": 550,
+			"defence": 550,
+			"agility": 570,
+			"wisdom": 300
+		},
+		"resistances": {
+			"fire": 50,
+			"water": 25,
+			"wind": 50,
+			"earth": 25,
+			"explosion": 25,
+			"freeze": -25,
+			"hit": 25,
+			"confusion": 25,
+			"paralysis": 25,
+			"rest": 50,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "きょうせんし",
+			"level20": "ショック攻撃",
+			"level40": "ラブリー",
+			"largeAlways": [
+				"行動回数１から３",
+				"休みブレイク大"
+			],
+			"largeLevel60": "全体攻撃"
+		},
+		"skill": "けもの道"
+	},
+	"Killer Gila": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1380,
+			"mp": 430,
+			"attack": 610,
+			"defence": 460,
+			"agility": 420,
+			"wisdom": 530
+		},
+		"resistances": {
+			"fire": 50,
+			"water": -25,
+			"explosion": 50,
+			"freeze": 25,
+			"light": 25,
+			"darkness": 25,
+			"weakness": -25,
+			"hit": 50,
+			"drain_mp": 50,
+			"rest": 50,
+			"poison": 25
+		},
+		"traits": {
+			"always": "どくどくボディ",
+			"level20": "きょうせんし",
+			"level40": "ピンチで会心",
+			"largeAlways": [
+				"行動回数１から３",
+				"毒ブレイク大"
+			],
+			"largeLevel60": "いきなりバイキルト"
+		},
+		"skill": "毒舌"
+	},
+	"Soft Serve Spook": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1420,
+			"mp": 490,
+			"attack": 440,
+			"defence": 540,
+			"agility": 460,
+			"wisdom": 490
+		},
+		"resistances": {
+			"fire": -25,
+			"earth": 50,
+			"freeze": 50,
+			"thunder": 50,
+			"darkness": 25,
+			"hit": -25,
+			"drain_mp": 50,
+			"confusion": 25,
+			"paralysis": 50,
+			"poison": 50
+		},
+		"traits": {
+			"always": "ギャンブルボディ",
+			"level20": "みかわしアップ大",
+			"level40": "ツッコミ",
+			"largeAlways": [
+				"行動回数１から３",
+				"魔力の強風"
+			],
+			"largeLevel60": "風のコツ"
+		},
+		"skill": "キューピット"
+	},
+	"Healslime": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1320,
+			"mp": 620,
+			"attack": 330,
+			"defence": 420,
+			"agility": 660,
+			"wisdom": 700
+		},
+		"resistances": {
+			"water": 25,
+			"explosion": 25,
+			"thunder": 50,
+			"light": 50,
+			"hit": 25,
+			"seal": 25,
+			"confusion": 25,
+			"paralysis": 50,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "回復のコツ",
+			"level20": "ときどきまもりの霧",
+			"level40": "最後の息吹",
+			"largeAlways": [
+				"行動回数２",
+				"みかわしアップ大"
+			],
+			"largeLevel60": "マホキテボディ"
+		},
+		"skill": "HP回復",
+		"drops": [
+			{
+				"item": "魔法の小瓶",
+				"rate": 8
+			},
+			{
+				"item": "スライムゼリー",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Box Slime": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1420,
+			"mp": 640,
+			"attack": 450,
+			"defence": 610,
+			"agility": 280,
+			"wisdom": 610
+		},
+		"resistances": {
+			"fire": 25,
+			"water": 25,
+			"earth": -25,
+			"explosion": 25,
+			"thunder": 50,
+			"light": 50,
+			"hit": 50,
+			"seal": 25,
+			"drain_mp": -25,
+			"confusion": 25,
+			"paralysis": 75
+		},
+		"traits": {
+			"always": "封じブレイク大",
+			"level20": "ミラクル攻撃",
+			"level40": "かいひほんのう",
+			"largeAlways": [
+				"行動回数１から３",
+				"ビリビリボディ"
+			],
+			"largeLevel60": "星のおくりもの"
+		},
+		"skill": "アッパー"
+	},
+	"Boppin' Badger": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1350,
+			"mp": 350,
+			"attack": 580,
+			"defence": 600,
+			"agility": 530,
+			"wisdom": 430
+		},
+		"resistances": {
+			"fire": 50,
+			"wind": 50,
+			"earth": 25,
+			"explosion": 25,
+			"freeze": -25,
+			"light": 25,
+			"weakness": -25,
+			"hit": 25,
+			"confusion": -25,
+			"sleep": 50,
+			"paralysis": 50,
+			"rest": 50,
+			"poison": 25
+		},
+		"traits": {
+			"always": "混乱ブレイク大",
+			"level20": "しっぺがえし",
+			"level40": "ときどきピオラ",
+			"largeAlways": [
+				"行動回数１から３",
+				"ぐるぐるボディ"
+			],
+			"largeLevel60": "ザキ攻撃"
+		},
+		"skill": "ダンサー",
+		"drops": [
+			{
+				"item": "獣の皮",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Merman": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1350,
+			"mp": 380,
+			"attack": 570,
+			"defence": 600,
+			"agility": 530,
+			"wisdom": 420
+		},
+		"resistances": {
+			"water": 75,
+			"wind": 50,
+			"freeze": 25,
+			"thunder": -25,
+			"darkness": 25,
+			"drain_mp": 50,
+			"confusion": 50,
+			"sleep": 25,
+			"paralysis": -25,
+			"rest": 25,
+			"poison": 25
+		},
+		"traits": {
+			"always": "封じブレイク大",
+			"level20": "回復のコツ",
+			"level40": "ミラクル攻撃",
+			"largeAlways": [
+				"行動回数２",
+				"癒しの大力"
+			],
+			"largeLevel60": "弱体化ブレイク大"
+		},
+		"skill": "みずげい",
+		"drops": [
+			{
+				"item": "赤いサンゴ",
+				"rate": 4,
+				"rare": true
+			}
+		]
+	},
+	"Muddy Hand": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1420,
+			"mp": 550,
+			"attack": 560,
+			"defence": 400,
+			"agility": 430,
+			"wisdom": 390
+		},
+		"resistances": {
+			"fire": -25,
+			"water": 25,
+			"earth": 50,
+			"explosion": 25,
+			"freeze": 50,
+			"thunder": 25,
+			"hit": -25,
+			"drain_mp": 50,
+			"sleep": 25,
+			"paralysis": 25,
+			"rest": 25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "こんらん攻撃",
+			"level20": "地のコツ",
+			"level40": "封じブレイク大",
+			"largeAlways": [
+				"行動回数１から３",
+				"ツッコミ"
+			],
+			"largeLevel60": "混乱ブレイク大"
+		},
+		"skill": "地の心",
+		"drops": [
+			{
+				"item": "魔法の小瓶",
+				"rate": 8
+			},
+			{
+				"item": "うるわしきのこ",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Fright Bulb": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1370,
+			"mp": 490,
+			"attack": 520,
+			"defence": 450,
+			"agility": 520,
+			"wisdom": 500
+		},
+		"resistances": {
+			"water": 25,
+			"earth": 25,
+			"freeze": 25,
+			"thunder": 50,
+			"light": 25,
+			"weakness": 25,
+			"hit": 50,
+			"drain_mp": -25,
+			"confusion": 50,
+			"paralysis": 50
+		},
+		"traits": {
+			"always": "みかわしアップ大",
+			"level20": "かいひほんのう",
+			"level40": "休みブレイク大",
+			"largeAlways": [
+				"行動回数１から３",
+				"最後のあがき"
+			],
+			"largeLevel60": "全体攻撃"
+		},
+		"skill": "妖精",
+		"drops": [
+			{
+				"item": "毒消し草",
+				"rate": 8
+			},
+			{
+				"item": "ようせいの綿花",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Mummy Boy": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1400,
+			"mp": 420,
+			"attack": 580,
+			"defence": 580,
+			"agility": 450,
+			"wisdom": 340
+		},
+		"resistances": {
+			"fire": -25,
+			"wind": 25,
+			"earth": 50,
+			"explosion": 25,
+			"freeze": 50,
+			"darkness": 25,
+			"hit": -25,
+			"seal": 25,
+			"drain_mp": 50,
+			"sleep": 50,
+			"poison": 50
+		},
+		"traits": {
+			"always": "眠りブレイク大",
+			"level20": "ねむり攻撃",
+			"level40": "しっぺがえし",
+			"largeAlways": [
+				"行動回数１から３",
+				"スヤスヤボディ"
+			],
+			"largeLevel60": "弱体化ブレイク大"
+		},
+		"skill": "アンデッド"
+	},
+	"Pocus Poppet": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1340,
+			"mp": 500,
+			"attack": 500,
+			"defence": 550,
+			"agility": 490,
+			"wisdom": 610
+		},
+		"resistances": {
+			"fire": 25,
+			"wind": -25,
+			"explosion": 25,
+			"freeze": 50,
+			"thunder": 50,
+			"darkness": 25,
+			"hit": 50,
+			"confusion": 50,
+			"sleep": -25,
+			"rest": 25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "弱体化ブレイク大",
+			"level20": "MP吸収ブレイク大",
+			"level40": "ときどきスカラ",
+			"largeAlways": [
+				"行動回数１から３",
+				"会心かんぜんガード"
+			],
+			"largeLevel60": "封じブレイク大"
+		},
+		"skill": "ジャマー",
+		"drops": [
+			{
+				"item": "魔法の小瓶",
+				"rate": 8
+			},
+			{
+				"item": "漬け物石",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Lunatick": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1400,
+			"mp": 450,
+			"attack": 530,
+			"defence": 400,
+			"agility": 460,
+			"wisdom": 570
+		},
+		"resistances": {
+			"water": 50,
+			"wind": 50,
+			"earth": 25,
+			"freeze": 25,
+			"thunder": -25,
+			"darkness": 25,
+			"seal": 25,
+			"drain_mp": 50,
+			"confusion": 50,
+			"paralysis": -25,
+			"rest": 25,
+			"poison": 25
+		},
+		"traits": {
+			"always": "幻惑ブレイク大",
+			"level20": "光のコツ",
+			"level40": "マヒ攻撃",
+			"largeAlways": [
+				"行動回数１から３",
+				"みかわしアップ大"
+			],
+			"largeLevel60": "マヒブレイク大"
+		},
+		"skill": "スリラー",
+		"drops": [
+			{
+				"item": "モンスターの糞",
+				"rate": 8
+			},
+			{
+				"item": "レッドアイ",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Mecha-Mynah": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1400,
+			"mp": 490,
+			"attack": 470,
+			"defence": 730,
+			"agility": 440,
+			"wisdom": 360
+		},
+		"resistances": {
+			"wind": -25,
+			"earth": 25,
+			"explosion": 25,
+			"freeze": 50,
+			"thunder": 50,
+			"light": 25,
+			"hit": 25,
+			"confusion": 50,
+			"sleep": -25,
+			"rest": 50,
+			"poison": 50
+		},
+		"traits": {
+			"always": "マホキテボディ",
+			"level20": "電撃のコツ",
+			"level40": "かいひほんのう",
+			"largeAlways": [
+				"行動回数１から３",
+				"ときどきピオラ"
+			],
+			"largeLevel60": "超みかわしアップ"
+		},
+		"skill": "風の心"
+	},
+	"Hunter Mech": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1350,
+			"mp": 300,
+			"attack": 680,
+			"defence": 540,
+			"agility": 520,
+			"wisdom": 360
+		},
+		"resistances": {
+			"wind": -25,
+			"explosion": 50,
+			"freeze": 50,
+			"thunder": 50,
+			"light": 25,
+			"weakness": 25,
+			"confusion": 50,
+			"sleep": -25,
+			"rest": 50,
+			"poison": 50
+		},
+		"traits": {
+			"always": "行動回数１から２",
+			"level20": "メタルハンター",
+			"level40": "たいでんたいしつ",
+			"largeAlways": [
+				"アンチみかわし",
+				"超会心率アップ"
+			],
+			"largeLevel60": "ショック攻撃"
+		},
+		"skill": "剣術",
+		"drops": [
+			{
+				"item": "メタルストーン",
+				"rate": 8
+			},
+			{
+				"item": "赤い宝石",
+				"rate": 4,
+				"rare": true
+			}
+		]
+	},
+	"Firespirit": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1400,
+			"mp": 520,
+			"attack": 350,
+			"defence": 580,
+			"agility": 480,
+			"wisdom": 640
+		},
+		"resistances": {
+			"fire": 50,
+			"water": -25,
+			"earth": 50,
+			"explosion": 50,
+			"freeze": -25,
+			"light": 50,
+			"hit": -25,
+			"drain_mp": 50,
+			"confusion": 25,
+			"paralysis": 25,
+			"rest": 25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "火のコツ",
+			"level20": "みかわしアップ大",
+			"level40": "マホトラ攻撃",
+			"largeAlways": [
+				"行動回数１から３",
+				"ときどきインテ"
+			],
+			"largeLevel60": "最後のあがき"
+		},
+		"skill": "火の心",
+		"drops": [
+			{
+				"item": "魔法の小瓶",
+				"rate": 8
+			},
+			{
+				"item": "ふしぎなひだね",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Teeny Sanguini": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1300,
+			"mp": 550,
+			"attack": 410,
+			"defence": 440,
+			"agility": 700,
+			"wisdom": 590
+		},
+		"resistances": {
+			"fire": 25,
+			"water": 25,
+			"wind": 25,
+			"explosion": 50,
+			"freeze": 25,
+			"thunder": -25,
+			"darkness": 25,
+			"hit": 25,
+			"drain_mp": 25,
+			"confusion": 50,
+			"sleep": -25,
+			"paralysis": -25,
+			"rest": 50,
+			"poison": 25,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "ショック攻撃",
+			"level20": "いきなりピオラ",
+			"level40": "秘めたるチカラ",
+			"largeAlways": [
+				"行動回数１から３",
+				"みかわしアップ大"
+			],
+			"largeLevel60": "ラブリー"
+		},
+		"skill": "悪魔のささやき",
+		"drops": [
+			{
+				"item": "モンスターの糞",
+				"rate": 8
+			},
+			{
+				"item": "蝙蝠の羽",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Leafy Larrikin": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1350,
+			"mp": 660,
+			"attack": 520,
+			"defence": 330,
+			"agility": 610,
+			"wisdom": 350
+		},
+		"resistances": {
+			"fire": -25,
+			"water": 50,
+			"wind": 25,
+			"earth": 50,
+			"explosion": -25,
+			"freeze": 25,
+			"light": 25,
+			"darkness": 25,
+			"hit": 25,
+			"confusion": 25,
+			"sleep": 50,
+			"paralysis": 50,
+			"rest": -25,
+			"poison": 25
+		},
+		"traits": {
+			"always": "みかわしアップ大",
+			"level20": "こんらん攻撃",
+			"level40": "ツッコミ",
+			"largeAlways": [
+				"行動回数１から３",
+				"最後のあがき"
+			],
+			"largeLevel60": "ラブリー"
+		},
+		"skill": "レッドソード"
+	},
+	"Platypunk": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1370,
+			"mp": 380,
+			"attack": 580,
+			"defence": 620,
+			"agility": 520,
+			"wisdom": 320
+		},
+		"resistances": {
+			"fire": 25,
+			"wind": 50,
+			"explosion": 25,
+			"freeze": 25,
+			"light": 25,
+			"hit": 25,
+			"seal": 50,
+			"rest": 50,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "れんぞく４",
+			"level20": "ラブリー",
+			"level40": "ツッコミ",
+			"largeAlways": [
+				"行動回数１から３",
+				"休みブレイク大"
+			],
+			"largeLevel60": "全体攻撃"
+		},
+		"skill": "けもの道",
+		"drops": [
+			{
+				"item": "薬草",
+				"rate": 8
+			},
+			{
+				"item": "獣の皮",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Hellbound Horror": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1340,
+			"mp": 440,
+			"attack": 550,
+			"defence": 430,
+			"agility": 530,
+			"wisdom": 610
+		},
+		"resistances": {
+			"fire": -25,
+			"earth": 50,
+			"freeze": 50,
+			"darkness": 75,
+			"hit": -25,
+			"seal": 75,
+			"drain_mp": 50,
+			"poison": 50
+		},
+		"traits": {
+			"always": "ツッコミ",
+			"level20": "やいばのボディ",
+			"level40": "弱体化ブレイク大",
+			"largeAlways": [
+				"行動回数１から３",
+				"魔力の強風"
+			],
+			"largeLevel60": "やみのはどう"
+		},
+		"skill": "闇の心"
+	},
+	"Napir": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1390,
+			"mp": 460,
+			"attack": 460,
+			"defence": 420,
+			"agility": 510,
+			"wisdom": 620
+		},
+		"resistances": {
+			"fire": 50,
+			"wind": 50,
+			"explosion": 25,
+			"freeze": -25,
+			"darkness": 50,
+			"weakness": -25,
+			"hit": 25,
+			"seal": 75,
+			"confusion": -25,
+			"sleep": 50,
+			"rest": 50
+		},
+		"traits": {
+			"always": "眠りブレイク大",
+			"level20": "MP吸収ブレイク大",
+			"level40": "しっぺがえし",
+			"largeAlways": [
+				"行動回数１から３",
+				"きょうせんし"
+			],
+			"largeLevel60": "最後の息吹"
+		},
+		"skill": "睡魔",
+		"drops": [
+			{
+				"item": "目覚めの針",
+				"rate": 8
+			},
+			{
+				"item": "コットン草",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Lampling": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1370,
+			"mp": 460,
+			"attack": 520,
+			"defence": 590,
+			"agility": 430,
+			"wisdom": 570
+		},
+		"resistances": {
+			"fire": 25,
+			"water": -25,
+			"wind": -25,
+			"explosion": 25,
+			"freeze": 50,
+			"thunder": 50,
+			"light": 50,
+			"seal": 50,
+			"confusion": 50,
+			"sleep": -25,
+			"poison": 50,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "火のコツ",
+			"level20": "ピンチで呪文会心",
+			"level40": "わるあがき",
+			"largeAlways": [
+				"行動回数１から３",
+				"くじけぬ心"
+			],
+			"largeLevel60": "爆発のコツ"
+		},
+		"skill": "火の心",
+		"drops": [
+			{
+				"item": "魔法の小瓶",
+				"rate": 8
+			},
+			{
+				"item": "ふしぎなひだね",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Cannonbrawler": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1370,
+			"mp": 430,
+			"attack": 690,
+			"defence": 410,
+			"agility": 460,
+			"wisdom": 380
+		},
+		"resistances": {
+			"water": 50,
+			"wind": 50,
+			"explosion": 25,
+			"thunder": -25,
+			"light": -25,
+			"darkness": 75,
+			"weakness": 50,
+			"drain_mp": 50,
+			"confusion": 50,
+			"paralysis": -25,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "ちからため",
+			"level20": "爆発のコツ",
+			"level40": "魔力の風",
+			"largeAlways": [
+				"行動回数１から３",
+				"爆発ブレイク大"
+			],
+			"largeLevel60": "ふっかつの祈り"
+		},
+		"skill": "爆発の心",
+		"drops": [
+			{
+				"item": "上薬草",
+				"rate": 8
+			},
+			{
+				"item": "鉄鉱石",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Lips": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1430,
+			"mp": 630,
+			"attack": 490,
+			"defence": 530,
+			"agility": 370,
+			"wisdom": 400
+		},
+		"resistances": {
+			"water": 50,
+			"wind": 50,
+			"earth": 50,
+			"explosion": -25,
+			"freeze": 25,
+			"weakness": -25,
+			"seal": 50,
+			"drain_mp": 25,
+			"confusion": 25,
+			"sleep": 50,
+			"paralysis": 50,
+			"rest": -25
+		},
+		"traits": {
+			"always": "こんらん攻撃",
+			"level20": "いきなりインテ",
+			"level40": "ツッコミ",
+			"largeAlways": [
+				"行動回数１から３",
+				"どくどくボディ"
+			],
+			"largeLevel60": "混乱ブレイク大"
+		},
+		"skill": "ヌメヌメ",
+		"drops": [
+			{
+				"item": "モンスターの糞",
+				"rate": 8
+			},
+			{
+				"item": "へびのぬけがら",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Bodkin Archer": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1460,
+			"mp": 470,
+			"attack": 480,
+			"defence": 500,
+			"agility": 460,
+			"wisdom": 310
+		},
+		"resistances": {
+			"fire": 25,
+			"water": 25,
+			"wind": 25,
+			"earth": 25,
+			"explosion": 25,
+			"thunder": -25,
+			"light": 25,
+			"darkness": 25,
+			"hit": 25,
+			"drain_mp": 50,
+			"confusion": 50,
+			"paralysis": -25,
+			"rest": 25,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "ときどきスカラ",
+			"level20": "おだてじょうず",
+			"level40": "しっぺがえし",
+			"largeAlways": [
+				"行動回数２",
+				"根に持つタイプ"
+			],
+			"largeLevel60": "全体攻撃"
+		},
+		"skill": "アサシン",
+		"drops": [
+			{
+				"item": "毒消し草",
+				"rate": 8
+			},
+			{
+				"item": "うるわしきのこ",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"King Kelp": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1280,
+			"mp": 540,
+			"attack": 580,
+			"defence": 520,
+			"agility": 510,
+			"wisdom": 640
+		},
+		"resistances": {
+			"fire": -25,
+			"water": 50,
+			"earth": 25,
+			"freeze": 25,
+			"light": 25,
+			"darkness": 50,
+			"hit": -25,
+			"seal": 50,
+			"drain_mp": 50,
+			"sleep": 25,
+			"poison": 50
+		},
+		"traits": {
+			"always": "癒しの力",
+			"level20": "ラージキラー",
+			"level40": "ときどきインテ",
+			"largeAlways": [
+				"行動回数１から３",
+				"セラピー"
+			],
+			"largeLevel60": "全体攻撃"
+		},
+		"skill": "みずげい",
+		"drops": [
+			{
+				"item": "ふしぎな海草",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Cauldragon": {
+		"size": "L",
+		"egg": false,
+		"stats": {
+			"hp": 1380,
+			"mp": 340,
+			"attack": 690,
+			"defence": 370,
+			"agility": 490,
+			"wisdom": 410
+		},
+		"resistances": {
+			"fire": 50,
+			"water": -25,
+			"earth": 25,
+			"explosion": 50,
+			"thunder": -25,
+			"light": 25,
+			"darkness": 50,
+			"weakness": 25,
+			"hit": 50,
+			"drain_mp": -25,
+			"paralysis": 25,
+			"rest": 50,
+			"poison": 25
+		},
+		"traits": {
+			"always": "どくどくボディ",
+			"level20": "ねがえり",
+			"level40": "どく攻撃",
+			"largeAlways": [
+				"行動回数１から３",
+				"癒しの大力"
+			],
+			"largeLevel60": "全体攻撃"
+		},
+		"skill": "あくしゅう"
+	},
+	"Marislime": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1390,
+			"mp": 410,
+			"attack": 460,
+			"defence": 460,
+			"agility": 570,
+			"wisdom": 510
+		},
+		"resistances": {
+			"water": 100,
+			"wind": 25,
+			"light": 50,
+			"darkness": -25,
+			"hit": 75,
+			"drain_mp": -25,
+			"sleep": 25,
+			"paralysis": 75
+		},
+		"traits": {
+			"always": "水のコツ",
+			"level20": "いきなりピオラ",
+			"level40": "アンチみかわし",
+			"largeAlways": [
+				"行動回数２",
+				"みかわしアップ大"
+			],
+			"largeLevel60": "水ブレイク大"
+		},
+		"skill": "みずげい",
+		"drops": [
+			{
+				"item": "薬草",
+				"rate": 8
+			},
+			{
+				"item": "きよめの水",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Molten Slime": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1350,
+			"mp": 410,
+			"attack": 530,
+			"defence": 460,
+			"agility": 540,
+			"wisdom": 590
+		},
+		"resistances": {
+			"fire": 100,
+			"water": -25,
+			"earth": 25,
+			"freeze": -25,
+			"light": 100,
+			"darkness": -25,
+			"hit": 75,
+			"drain_mp": -25,
+			"sleep": 25,
+			"paralysis": 75
+		},
+		"traits": {
+			"always": "火のコツ",
+			"level20": "とうそうほんのう",
+			"level40": "くじけぬ心",
+			"largeAlways": [
+				"行動回数１から３",
+				"ファイターズハイ"
+			],
+			"largeLevel60": "火ブレイク大"
+		},
+		"skill": "火遊び"
+	},
+	"Bad Egg": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1410,
+			"mp": 410,
+			"attack": 480,
+			"defence": 580,
+			"agility": 480,
+			"wisdom": 450
+		},
+		"resistances": {
+			"wind": 25,
+			"explosion": 25,
+			"thunder": 75,
+			"light": 50,
+			"darkness": -25,
+			"weakness": 25,
+			"hit": 50,
+			"drain_mp": -25,
+			"paralysis": 50,
+			"poison": 50
+		},
+		"traits": {
+			"always": "マホキテボディ",
+			"level20": "封じブレイク大",
+			"level40": "ときどきピオラ",
+			"largeAlways": [
+				"行動回数２",
+				"光のコツ"
+			],
+			"largeLevel60": "マヒブレイク大"
+		},
+		"skill": "氷結の心"
+	},
+	"Burr Baby": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1410,
+			"mp": 340,
+			"attack": 490,
+			"defence": 540,
+			"agility": 480,
+			"wisdom": 540
+		},
+		"resistances": {
+			"wind": -25,
+			"earth": 50,
+			"explosion": 75,
+			"thunder": 50,
+			"drain_mp": 50,
+			"confusion": -25,
+			"sleep": 50,
+			"poison": 50,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "ときどきバイキルト",
+			"level20": "徒手空拳",
+			"level40": "爆発のコツ",
+			"largeAlways": [
+				"行動回数１から３",
+				"やいばのボディ"
+			],
+			"largeLevel60": "全ガードブレイク"
+		},
+		"skill": "いしあたま",
+		"drops": [
+			{
+				"item": "薬草",
+				"rate": 8
+			},
+			{
+				"item": "かがみ石",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Bad Apple": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1390,
+			"mp": 410,
+			"attack": 540,
+			"defence": 470,
+			"agility": 510,
+			"wisdom": 460
+		},
+		"resistances": {
+			"fire": -25,
+			"water": 25,
+			"earth": 100,
+			"darkness": 50,
+			"hit": -25,
+			"seal": 50,
+			"rest": 50,
+			"poison": 75
+		},
+		"traits": {
+			"always": "ピンチで会心",
+			"level20": "しっぺがえし",
+			"level40": "いきなりピオラ",
+			"largeAlways": [
+				"行動回数１から３",
+				"ツッコミ"
+			],
+			"largeLevel60": "眠りブレイク大"
+		},
+		"skill": "スイート"
+	},
+	"Urnexpected": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1350,
+			"mp": 470,
+			"attack": 500,
+			"defence": 590,
+			"agility": 480,
+			"wisdom": 580
+		},
+		"resistances": {
+			"water": -25,
+			"wind": -25,
+			"earth": 50,
+			"freeze": 25,
+			"thunder": 75,
+			"darkness": 50,
+			"seal": -25,
+			"drain_mp": 50,
+			"confusion": -25,
+			"sleep": 50,
+			"poison": 50,
+			"sudden_death": 50
+		},
+		"traits": {
+			"always": "ザキ攻撃",
+			"level20": "いきなりスカラ",
+			"level40": "みかわしアップ大",
+			"largeAlways": [
+				"行動回数２",
+				"スモールキラー"
+			],
+			"largeLevel60": "即死ブレイク大"
+		},
+		"skill": "パニック",
+		"drops": [
+			{
+				"item": "ちいさなメダル",
+				"rate": 70
+			},
+			{
+				"item": "まりょくの土",
+				"rate": 30,
+				"rare": true
+			}
+		]
+	},
+	"Ruff Ruffian": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1320,
+			"mp": 360,
+			"attack": 550,
+			"defence": 470,
+			"agility": 630,
+			"wisdom": 530
+		},
+		"resistances": {
+			"water": 25,
+			"wind": 25,
+			"earth": 25,
+			"freeze": 25,
+			"thunder": 25,
+			"darkness": 25,
+			"weakness": 50,
+			"hit": 50,
+			"drain_mp": -25,
+			"paralysis": 25,
+			"rest": 50
+		},
+		"traits": {
+			"always": "ときどきピオラ",
+			"level20": "どく攻撃",
+			"level40": "毒ブレイク大",
+			"largeAlways": [
+				"行動回数２",
+				"スモールキラー"
+			],
+			"largeLevel60": "超会心率アップ"
+		},
+		"skill": "バンデッド"
+	},
+	"Will-O'-The-Whips": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1330,
+			"mp": 490,
+			"attack": 550,
+			"defence": 410,
+			"agility": 530,
+			"wisdom": 620
+		},
+		"resistances": {
+			"fire": -25,
+			"earth": 75,
+			"thunder": 50,
+			"darkness": 50,
+			"hit": -25,
+			"seal": 50,
+			"drain_mp": 50,
+			"poison": 50,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "みかわしアップ大",
+			"level20": "ミラクル攻撃",
+			"level40": "ピンチで呪文会心",
+			"largeAlways": [
+				"行動回数１から３",
+				"いやがらせ"
+			],
+			"largeLevel60": "根に持つタイプ"
+		},
+		"skill": "アンデッド"
+	},
+	"Coconut Slime": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1400,
+			"mp": 380,
+			"attack": 470,
+			"defence": 510,
+			"agility": 510,
+			"wisdom": 550
+		},
+		"resistances": {
+			"fire": 25,
+			"water": 25,
+			"freeze": 25,
+			"thunder": 50,
+			"light": 50,
+			"darkness": -25,
+			"hit": 25,
+			"seal": 25,
+			"drain_mp": -25,
+			"sleep": 50,
+			"paralysis": 50,
+			"poison": 25
+		},
+		"traits": {
+			"always": "マホキテボディ",
+			"level20": "癒しの力",
+			"level40": "眠りブレイク大",
+			"largeAlways": [
+				"行動回数２から３",
+				"医術士"
+			],
+			"largeLevel60": "休みブレイク大"
+		},
+		"skill": "トロピカル",
+		"drops": [
+			{
+				"item": "魔法の小瓶",
+				"rate": 8
+			},
+			{
+				"item": "かがやきの樹液",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Prestidigitator": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1360,
+			"mp": 530,
+			"attack": 430,
+			"defence": 440,
+			"agility": 550,
+			"wisdom": 630
+		},
+		"resistances": {
+			"fire": 50,
+			"water": 25,
+			"explosion": 25,
+			"freeze": 25,
+			"thunder": -25,
+			"darkness": 50,
+			"seal": 50,
+			"drain_mp": 75,
+			"confusion": 50,
+			"paralysis": -25,
+			"poison": -25,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "封じブレイク大",
+			"level20": "ときどきスカラ",
+			"level40": "呪文会心率アップ大",
+			"largeAlways": [
+				"行動回数１から３",
+				"魔力の強風"
+			],
+			"largeLevel60": "氷結ブレイク大"
+		},
+		"skill": "魔術",
+		"drops": [
+			{
+				"item": "魔法の小瓶",
+				"rate": 8
+			},
+			{
+				"item": "妖草",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Icy Dragling": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1320,
+			"mp": 440,
+			"attack": 490,
+			"defence": 460,
+			"agility": 620,
+			"wisdom": 600
+		},
+		"resistances": {
+			"fire": 25,
+			"wind": 25,
+			"explosion": 50,
+			"freeze": 25,
+			"thunder": 25,
+			"hit": 50,
+			"confusion": 25,
+			"rest": 50,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "ラブリー",
+			"level20": "魔力の風",
+			"level40": "ときどきまもりの霧",
+			"largeAlways": [
+				"行動回数１から３",
+				"おだてじょうず"
+			],
+			"largeLevel60": "ひかりのはどう"
+		},
+		"skill": "HP回復"
+	},
+	"Funky Ferret": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1380,
+			"mp": 370,
+			"attack": 510,
+			"defence": 470,
+			"agility": 580,
+			"wisdom": 460
+		},
+		"resistances": {
+			"fire": 25,
+			"wind": 50,
+			"earth": 25,
+			"freeze": 25,
+			"darkness": 25,
+			"weakness": 25,
+			"hit": 25,
+			"drain_mp": 25,
+			"sleep": 25,
+			"paralysis": 25,
+			"poison": 25
+		},
+		"traits": {
+			"always": "眠りブレイク大",
+			"level20": "ショック攻撃",
+			"level40": "ラブリー",
+			"largeAlways": [
+				"行動回数２",
+				"ヘロヘロボディ"
+			],
+			"largeLevel60": "最後のあがき"
+		},
+		"skill": "あくしゅう",
+		"drops": [
+			{
+				"item": "モンスターの糞",
+				"rate": 8
+			},
+			{
+				"item": "ふさふさの毛皮",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Dread Squirrel": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1370,
+			"mp": 380,
+			"attack": 530,
+			"defence": 390,
+			"agility": 590,
+			"wisdom": 510
+		},
+		"resistances": {
+			"fire": 25,
+			"wind": 50,
+			"earth": 25,
+			"freeze": 25,
+			"light": 25,
+			"hit": 25,
+			"seal": 25,
+			"sleep": 50,
+			"rest": 50
+		},
+		"traits": {
+			"always": "会心率アップ大",
+			"level20": "ときどきスカラ",
+			"level40": "ラブリー",
+			"largeAlways": [
+				"行動回数１から３",
+				"ミラクル攻撃"
+			],
+			"largeLevel60": "背水の陣"
+		},
+		"skill": "けもの道"
+	},
+	"Gloomy Grublin": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1360,
+			"mp": 390,
+			"attack": 520,
+			"defence": 440,
+			"agility": 560,
+			"wisdom": 570
+		},
+		"resistances": {
+			"fire": 25,
+			"water": 25,
+			"wind": 25,
+			"earth": 25,
+			"explosion": 25,
+			"darkness": 25,
+			"hit": 25,
+			"drain_mp": 25,
+			"sleep": 50,
+			"rest": 50
+		},
+		"traits": {
+			"always": "いきなりピオラ",
+			"level20": "みかわしアップ大",
+			"level40": "かいひほんのう",
+			"largeAlways": [
+				"行動回数２から３",
+				"ときどきまもりの霧"
+			],
+			"largeLevel60": "ふっかつの祈り"
+		},
+		"skill": "いたずら",
+		"drops": [
+			{
+				"item": "薬草",
+				"rate": 8
+			},
+			{
+				"item": "銅の鉱石",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Midnight Horknight": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1390,
+			"mp": 360,
+			"attack": 550,
+			"defence": 510,
+			"agility": 530,
+			"wisdom": 410
+		},
+		"resistances": {
+			"water": 50,
+			"wind": 25,
+			"earth": 50,
+			"thunder": 25,
+			"seal": 25,
+			"sleep": 25,
+			"paralysis": 50,
+			"poison": 50
+		},
+		"traits": {
+			"always": "どく攻撃",
+			"level20": "ときどきスカラ",
+			"level40": "毒ブレイク大",
+			"largeAlways": [
+				"行動回数１から３",
+				"ピンチで会心"
+			],
+			"largeLevel60": "しっぺがえし"
+		},
+		"skill": "むしのしらせ"
+	},
+	"Hangelabra": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1360,
+			"mp": 470,
+			"attack": 460,
+			"defence": 450,
+			"agility": 550,
+			"wisdom": 620
+		},
+		"resistances": {
+			"water": 50,
+			"wind": 50,
+			"earth": 25,
+			"darkness": 25,
+			"drain_mp": 50,
+			"confusion": 50,
+			"sleep": 50
+		},
+		"traits": {
+			"always": "呪文会心率アップ大",
+			"level20": "魔力の風",
+			"level40": "闇のコツ",
+			"largeAlways": [
+				"行動回数１から３",
+				"マジシャンズハイ"
+			],
+			"largeLevel60": "マヒブレイク大"
+		},
+		"skill": "カース"
+	},
+	"Little Devil": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1350,
+			"mp": 460,
+			"attack": 470,
+			"defence": 410,
+			"agility": 600,
+			"wisdom": 590
+		},
+		"resistances": {
+			"water": 50,
+			"wind": 50,
+			"earth": 25,
+			"explosion": 25,
+			"drain_mp": 50,
+			"confusion": 50,
+			"sleep": 50
+		},
+		"traits": {
+			"always": "いやがらせ",
+			"level20": "ツッコミ",
+			"level40": "わるあがき",
+			"largeAlways": [
+				"行動回数１から３",
+				"マジシャンズハイ"
+			],
+			"largeLevel60": "地ブレイク大"
+		},
+		"skill": "悪魔のささやき",
+		"drops": [
+			{
+				"item": "魔法の小瓶",
+				"rate": 8
+			},
+			{
+				"item": "あまつゆのいと",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Gold Golem": {
+		"size": "L",
+		"egg": false,
+		"stats": {
+			"hp": 1400,
+			"mp": 420,
+			"attack": 520,
+			"defence": 580,
+			"agility": 380,
+			"wisdom": 600
+		},
+		"resistances": {
+			"water": 50,
+			"thunder": 50,
+			"light": 50,
+			"weakness": 50,
+			"confusion": 50,
+			"poison": 50
+		},
+		"traits": {
+			"always": "キラキラボディ",
+			"level20": "ちからため",
+			"level40": "いきなりマホカンタ",
+			"largeAlways": [
+				"行動回数２",
+				"プレッシャー"
+			],
+			"largeLevel60": "弱体化ブレイク大"
+		},
+		"skill": "いしあたま"
+	},
+	"Mad Moai": {
+		"size": "L",
+		"egg": false,
+		"stats": {
+			"hp": 1400,
+			"mp": 410,
+			"attack": 560,
+			"defence": 600,
+			"agility": 320,
+			"wisdom": 630
+		},
+		"resistances": {
+			"earth": 50,
+			"freeze": 50,
+			"thunder": 50,
+			"seal": 50,
+			"paralysis": 50,
+			"poison": 50
+		},
+		"traits": {
+			"always": "プレッシャー",
+			"level20": "地のコツ",
+			"level40": "わるあがき",
+			"largeAlways": [
+				"行動回数１から３",
+				"ツッコミ"
+			],
+			"largeLevel60": "地ブレイク大"
+		},
+		"skill": "いしあたま"
+	},
+	"Seasaur": {
+		"size": "L",
+		"egg": false,
+		"stats": {
+			"hp": 1350,
+			"mp": 320,
+			"attack": 690,
+			"defence": 620,
+			"agility": 440,
+			"wisdom": 400
+		},
+		"resistances": {
+			"water": 50,
+			"earth": -25,
+			"freeze": 50,
+			"light": 50,
+			"darkness": 25,
+			"hit": 50,
+			"seal": 25,
+			"sleep": 50,
+			"rest": 25,
+			"poison": -25,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "みかわしアップ大",
+			"level20": "水のコツ",
+			"level40": "いきなりバイキルト",
+			"largeAlways": [
+				"行動回数１から３",
+				"ファイターズハイ"
+			],
+			"largeLevel60": "氷結ブレイク大"
+		},
+		"skill": "水の心",
+		"drops": [
+			{
+				"item": "薬草",
+				"rate": 8
+			},
+			{
+				"item": "ヘビーメタル",
+				"rate": 4,
+				"rare": true
+			}
+		]
+	},
+	"Crested Viper": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1310,
+			"mp": 290,
+			"attack": 640,
+			"defence": 460,
+			"agility": 640,
+			"wisdom": 450
+		},
+		"resistances": {
+			"earth": -25,
+			"explosion": 100,
+			"light": 50,
+			"darkness": 25,
+			"weakness": 25,
+			"hit": 50,
+			"confusion": 25,
+			"rest": 25,
+			"poison": 25
+		},
+		"traits": {
+			"always": "会心率アップ大",
+			"level20": "いきなりピオラ",
+			"level40": "みかわしアップ大",
+			"largeAlways": [
+				"行動回数１から３",
+				"ロケットスタート"
+			],
+			"largeLevel60": "最後のあがき"
+		},
+		"skill": "ダウナー",
+		"drops": [
+			{
+				"item": "へびのぬけがら",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Tongue Fu Fighter": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1420,
+			"mp": 320,
+			"attack": 580,
+			"defence": 570,
+			"agility": 430,
+			"wisdom": 410
+		},
+		"resistances": {
+			"wind": 25,
+			"earth": 50,
+			"explosion": 25,
+			"freeze": 25,
+			"thunder": 25,
+			"weakness": 25,
+			"hit": 25,
+			"paralysis": 50,
+			"poison": 50
+		},
+		"traits": {
+			"always": "ショック攻撃",
+			"level20": "ときどきスカラ",
+			"level40": "地のコツ",
+			"largeAlways": [
+				"行動回数１から３",
+				"しっぺがえし"
+			],
+			"largeLevel60": "休みブレイク大"
+		},
+		"skill": "バンデッド",
+		"drops": [
+			{
+				"item": "せいれいせき",
+				"rate": 4,
+				"rare": true
+			}
+		]
+	},
+	"Scorpion": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1350,
+			"mp": 340,
+			"attack": 630,
+			"defence": 650,
+			"agility": 480,
+			"wisdom": 390
+		},
+		"resistances": {
+			"fire": 25,
+			"wind": 25,
+			"earth": 50,
+			"explosion": 50,
+			"freeze": -25,
+			"thunder": 25,
+			"light": -25,
+			"darkness": 25,
+			"seal": -25,
+			"drain_mp": 25,
+			"sleep": 25,
+			"paralysis": 75,
+			"rest": -25,
+			"poison": 75
+		},
+		"traits": {
+			"always": "会心率アップ大",
+			"level20": "マヒ攻撃",
+			"level40": "いやがらせ",
+			"largeAlways": [
+				"行動回数１から３",
+				"背水の陣"
+			],
+			"largeLevel60": "マヒブレイク大"
+		},
+		"skill": "むしのしらせ"
+	},
+	"Swarmtroop": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1300,
+			"mp": 450,
+			"attack": 540,
+			"defence": 430,
+			"agility": 690,
+			"wisdom": 460
+		},
+		"resistances": {
+			"water": 25,
+			"wind": 25,
+			"earth": 25,
+			"explosion": 25,
+			"thunder": 25,
+			"light": 25,
+			"weakness": 25,
+			"seal": 25,
+			"drain_mp": 25,
+			"confusion": 25,
+			"sleep": 25,
+			"rest": 50,
+			"poison": -25
+		},
+		"traits": {
+			"always": "れんぞく６",
+			"level20": "みかわしアップ大",
+			"level40": "毒ブレイク大",
+			"largeAlways": [
+				"行動回数２から３",
+				"ぐるぐるボディ"
+			],
+			"largeLevel60": "パワードレイン"
+		},
+		"skill": "ダウナー",
+		"drops": [
+			{
+				"item": "メタルストーン",
+				"rate": 8
+			},
+			{
+				"item": "かがやきの樹液",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Greater Dracky": {
+		"size": "L",
+		"egg": false,
+		"stats": {
+			"hp": 1430,
+			"mp": 430,
+			"attack": 530,
+			"defence": 560,
+			"agility": 310,
+			"wisdom": 610
+		},
+		"resistances": {
+			"water": 25,
+			"wind": 25,
+			"earth": 50,
+			"light": -25,
+			"darkness": 75,
+			"drain_mp": 50,
+			"confusion": 25,
+			"sleep": -25,
+			"paralysis": 50,
+			"rest": -25,
+			"poison": 50,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "封じブレイク大",
+			"level20": "ねがえり",
+			"level40": "闇のコツ",
+			"largeAlways": [
+				"行動回数２から３",
+				"超呪文会心率アップ"
+			],
+			"largeLevel60": "魔力の強風"
+		},
+		"skill": "巨漢"
+	},
+	"Mouldfish": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1430,
+			"mp": 440,
+			"attack": 570,
+			"defence": 380,
+			"agility": 360,
+			"wisdom": 600
+		},
+		"resistances": {
+			"water": 50,
+			"freeze": 25,
+			"darkness": 75,
+			"weakness": 25,
+			"seal": 50,
+			"sleep": 25,
+			"paralysis": 50
+		},
+		"traits": {
+			"always": "ビリビリボディ",
+			"level20": "風のコツ",
+			"level40": "ぼうえいほんのう",
+			"largeAlways": [
+				"行動回数１から３",
+				"闇ブレイク大"
+			],
+			"largeLevel60": "やみのはどう"
+		},
+		"skill": "みずげい",
+		"drops": [
+			{
+				"item": "アモールの水",
+				"rate": 8
+			},
+			{
+				"item": "赤いサンゴ",
+				"rate": 4,
+				"rare": true
+			}
+		]
+	},
+	"Smog": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1290,
+			"mp": 450,
+			"attack": 540,
+			"defence": 580,
+			"agility": 590,
+			"wisdom": 550
+		},
+		"resistances": {
+			"fire": 25,
+			"water": 25,
+			"wind": -25,
+			"earth": 25,
+			"freeze": 25,
+			"thunder": 25,
+			"light": 25,
+			"darkness": 25,
+			"seal": 50,
+			"drain_mp": 25,
+			"paralysis": 25,
+			"poison": 25,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "かいひほんのう",
+			"level20": "ときどきまもりの霧",
+			"level40": "幻惑ブレイク大",
+			"largeAlways": [
+				"行動回数１から３",
+				"超みかわしアップ"
+			],
+			"largeLevel60": "魔力の強風"
+		},
+		"skill": "ジャマー"
+	},
+	"Sky Fry": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1370,
+			"mp": 320,
+			"attack": 580,
+			"defence": 440,
+			"agility": 600,
+			"wisdom": 400
+		},
+		"resistances": {
+			"fire": 50,
+			"water": 25,
+			"wind": -25,
+			"earth": 50,
+			"thunder": 25,
+			"darkness": 25,
+			"weakness": 25,
+			"seal": 25,
+			"drain_mp": 25,
+			"confusion": -25,
+			"sleep": 50,
+			"poison": 25,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "ギャンブルボディ",
+			"level20": "ときどきスカラ",
+			"level40": "ねむり攻撃",
+			"largeAlways": [
+				"行動回数２",
+				"眠りブレイク大"
+			],
+			"largeLevel60": "混乱ブレイク大"
+		},
+		"skill": "風の心"
+	},
+	"Jingle Bug": {
+		"size": "S",
+		"egg": false,
+		"stats": {
+			"hp": 1300,
+			"mp": 440,
+			"attack": 500,
+			"defence": 410,
+			"agility": 680,
+			"wisdom": 590
+		},
+		"resistances": {
+			"fire": -25,
+			"wind": -25,
+			"earth": 50,
+			"freeze": 25,
+			"thunder": 50,
+			"light": 50,
+			"darkness": 25,
+			"weakness": 25,
+			"hit": 25,
+			"seal": 25,
+			"drain_mp": 25,
+			"confusion": 50,
+			"sleep": -25,
+			"paralysis": 25
+		},
+		"traits": {
+			"always": "てんしの音色",
+			"level20": "かいひほんのう",
+			"level40": "セラピー",
+			"largeAlways": [
+				"行動回数２から３",
+				"ねむり攻撃"
+			],
+			"largeLevel60": "やまびこ"
+		},
+		"skill": "アッパー"
+	},
+	"Platypup": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1370,
+			"mp": 320,
+			"attack": 590,
+			"defence": 520,
+			"agility": 550,
+			"wisdom": 400
+		},
+		"resistances": {
+			"fire": 25,
+			"water": 25,
+			"earth": 50,
+			"explosion": 25,
+			"freeze": 50,
+			"thunder": -25,
+			"light": 25,
+			"darkness": -25,
+			"weakness": 50,
+			"hit": -25,
+			"seal": 25,
+			"drain_mp": 25,
+			"confusion": 25,
+			"rest": 50
+		},
+		"traits": {
+			"always": "れんぞく３",
+			"level20": "ラブリー",
+			"level40": "とうそうほんのう",
+			"largeAlways": [
+				"行動回数１から３",
+				"超会心率アップ"
+			],
+			"largeLevel60": "ロケットスタート"
+		},
+		"skill": "いたずら",
+		"drops": [
+			{
+				"item": "魔法の小瓶",
+				"rate": 8
+			},
+			{
+				"item": "イエローアイ",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Piña Marauder": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1370,
+			"mp": 330,
+			"attack": 580,
+			"defence": 540,
+			"agility": 530,
+			"wisdom": 430
+		},
+		"resistances": {
+			"fire": 25,
+			"water": 50,
+			"freeze": 50,
+			"thunder": -25,
+			"darkness": 50,
+			"hit": 25,
+			"seal": 25,
+			"drain_mp": 25,
+			"confusion": 50,
+			"paralysis": -25,
+			"poison": 25,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "毒ブレイク大",
+			"level20": "MP吸収ブレイク大",
+			"level40": "混乱ブレイク大",
+			"largeAlways": [
+				"行動回数２から３",
+				"眠りブレイク大"
+			],
+			"largeLevel60": "即死ブレイク大"
+		},
+		"skill": "ナチュラル",
+		"drops": [
+			{
+				"item": "妖草",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	},
+	"Kingfuschia": {
+		"size": "S",
+		"egg": true,
+		"stats": {
+			"hp": 1320,
+			"mp": 430,
+			"attack": 520,
+			"defence": 540,
+			"agility": 620,
+			"wisdom": 470
+		},
+		"resistances": {
+			"wind": 50,
+			"earth": 50,
+			"explosion": 50,
+			"freeze": 25,
+			"light": -25,
+			"hit": 50,
+			"drain_mp": 25,
+			"sleep": 25,
+			"paralysis": 50,
+			"rest": -25,
+			"sudden_death": 25
+		},
+		"traits": {
+			"always": "れんぞく４",
+			"level20": "いきなりピオラ",
+			"level40": "回復のコツ",
+			"largeAlways": [
+				"行動回数１から３",
+				"超みかわしアップ"
+			],
+			"largeLevel60": "セラピー"
+		},
+		"skill": "プリンセス",
+		"drops": [
+			{
+				"item": "毒消し草",
+				"rate": 8
+			},
+			{
+				"item": "グリーンアイ",
+				"rate": 5,
+				"rare": true
+			}
+		]
+	}
+}

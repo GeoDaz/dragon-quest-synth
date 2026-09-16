@@ -25,6 +25,7 @@ export interface LinePoint {
 	family?: boolean;
 	/** required rank, drawn as a capsule in the corner of the point */
 	rank?: string;
+	plus?: string;
 }
 
 export type Axis = 'x' | 'y';

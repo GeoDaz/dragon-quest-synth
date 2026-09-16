@@ -4,11 +4,14 @@ import { Monster, Monsters } from '@/types/Monster';
 export interface TrailNode {
 	name: string;
 	rank?: string;
+	plus?: string;
 	parents?: TrailNode[];
 }
 
 export const isFamily = (token: string) => token.includes('Family');
 const isRank = (token: string) => token.includes('Rank');
+const isPlus = (token: string) => token.startsWith('Plus ');
+const isCondition = (token: string) => isRank(token) || isPlus(token);
 
 export const height = (node: TrailNode): number =>
 	node.parents?.length ? 1 + Math.max(...node.parents.map(height)) : 0;
@@ -18,13 +21,16 @@ export const findNode = (node: TrailNode, name: string): TrailNode | undefined =
 
 const recipeParents = (recipe: string[]): TrailNode[] => {
 	const rank = recipe.find(isRank)?.split(' ').pop();
+	const plus = recipe.find(isPlus)?.split(' ').pop();
 	return recipe
-		.filter(token => !isRank(token))
-		.map(token => (isFamily(token) ? { name: token, rank } : { name: token }));
+		.filter(token => !isCondition(token))
+		.map(token =>
+			isFamily(token) ? { name: token, rank, plus } : { name: token, plus }
+		);
 };
 
 const recipeCost = (recipe: string[]) => {
-	const parents = recipe.filter(token => !isRank(token));
+	const parents = recipe.filter(token => !isCondition(token));
 	if (parents.some(isFamily) || parents.length != recipe.length) return 1;
 	return parents.length == 2 ? 0 : 2;
 };

@@ -1,0 +1,262 @@
+{
+	"薬草": {
+		"en": "Restores 30 HP to a single ally.",
+		"fr": "Restaure 30 PV à un allié."
+	},
+	"上薬草": {
+		"en": "Restores 60 HP to a single ally.",
+		"fr": "Restaure 60 PV à un allié."
+	},
+	"アモールの水": {
+		"en": "Restores 50 to 60 HP to all allies.",
+		"fr": "Restaure 50 à 60 PV à tous les alliés."
+	},
+	"魔法の小瓶": {
+		"en": "Restores 10 MP to a single ally.",
+		"fr": "Restaure 10 PM à un allié."
+	},
+	"毒消し草": {
+		"en": "Cures a single ally of poison and severe poison.",
+		"fr": "Soigne un allié de l'empoisonnement ou de l'empoisonnement sévère."
+	},
+	"満月草": {
+		"en": "Cures a single ally of paralysis.",
+		"fr": "Soigne un allié de la paralysie."
+	},
+	"目覚めの針": {
+		"en": "Cures a single ally of confusion and sleep.",
+		"fr": "Soigne un allié du sommeil et/ou de la confusion."
+	},
+	"モンスターの糞": {
+		"en": "A pongy deposit that can be pitched at one's opponents. Inflicts minor damage to a single enemy when used in battle.",
+		"fr": "Déjection malodorante qui peut être lancée.\nInflige de légers dégâts à un ennemi lorsque utilisée en combat."
+	},
+	"石ころ": {
+		"en": "A small stone that can sting quite sharply if thrown with enough force. Inflicts minor damage to a single enemy when used in battle.",
+		"fr": "Petite pierre pouvant faire mal si lancée sur quelqu'un.\nInflige de légers dégâts à un ennemi lorsque utilisée en combat."
+	},
+	"メタルストーン": {
+		"en": "A sphere of the toughest stone that really hurts if it hits you. Inflicts minor damage to a single enemy when used in battle, including metallic monsters.",
+		"fr": "Pierre sphérique très dure qui peut être lancée. Inflige de légers dégâts à un ennemi lorsque utilisée en combat.\nEfficace aussi contre les monstres métalliques."
+	},
+	"魔物のエサ": {
+		"en": "A meaty morsel that monsters love. Feed to a monster to very slightly increase the likelihood of it wanting to join you.",
+		"fr": "Viande appréciée par les monstres.\nAugmente très légèrement la probabilité qu'un monstre accepte de se joindre à vous."
+	},
+	"くんせいにく": {
+		"en": "A tender treat that monsters adore. Feed to a monster to slightly increase the likelihood of it wanting to join you.",
+		"fr": "Viande très appréciée par les monstres.\nAugmente légèrement la probabilité qu'un monstre accepte de se joindre à vous."
+	},
+	"くさったにく": {
+		"en": "A piece of putrid flesh that exudes a sour stench. Feed to a monster to very slightly increase the likelihood of it wanting to join you, but also poison it in the process.",
+		"fr": "Viande avariée qui dégage une odeur aigre.\nAugmente très légèrement la probabilité qu'un monstre accepte de se joindre à vous, mais l'empoisonne par la même occasion."
+	},
+	"なぞのにく": {
+		"en": "Meat with an oddly familiar taste. Feed to a monster to increase the likelihood of it wanting to join you. Also applies a random effect.",
+		"fr": "Viande au goût étrange. Augmente aléatoirement la probabilité qu'un monstre accepte de se joindre à vous."
+	},
+	"いのちのきのみ": {
+		"en": "Raises the max. HP of a single ally by 3. Note that each monster type has an upper limit to its max. HP that cannot be exceeded.",
+		"fr": "Augmente les PV max. d'un allié de 3 points.\nNe permet toutefois pas de dépasser la limite de chaque type de monstre."
+	},
+	"ふしぎなきのみ": {
+		"en": "Raises the max. MP of a single ally by 3. Note that each monster type has an upper limit to its max. MP that cannot be exceeded.",
+		"fr": "Augmente les PM max. d'un allié de 3 points.\nNe permet toutefois pas de dépasser la limite de chaque type de monstre."
+	},
+	"ちからのたね": {
+		"en": "Raises the attack of a single ally by 3. Note that each monster type has an upper limit to its attack that cannot be exceeded.",
+		"fr": "Augmente l'attaque d'un allié de 3 points.\nNe permet toutefois pas de dépasser la limite de chaque type de monstre."
+	},
+	"まもりのたね": {
+		"en": "Raises the defence of a single ally by 3. Note that each monster type has an upper limit to its defence that cannot be exceeded.",
+		"fr": "Augmente la défense d'un allié de 3 points.\nNe permet toutefois pas de dépasser la limite de chaque type de monstre."
+	},
+	"すばやさのたね": {
+		"en": "Raises the agility of a single ally by 3. Note that each monster type has an upper limit to its agility that cannot be exceeded.",
+		"fr": "Augmente l'agilité d'un allié de 3 points.\nNe permet toutefois pas de dépasser la limite de chaque type de monstre."
+	},
+	"かしこさのたね": {
+		"en": "Raises the wisdom of a single ally by 3. Note that each monster type has an upper limit to its wisdom that cannot be exceeded.",
+		"fr": "Augmente la sagesse d'un allié de 3 points.\nNe permet toutefois pas de dépasser la limite de chaque type de monstre."
+	},
+	"スキルのたね": {
+		"en": "Provides a single ally with 3 additional talent points. Note that a monster can have a maximum of 999 available talent points.",
+		"fr": "Octroie 3 points de talent supplémentaires à un allié.\nNe permet toutefois pas à un monstre d'avoir plus de 999 points de talent disponibles."
+	},
+	"しあわせのたね": {
+		"en": "Raises the level of a single ally by 1.",
+		"fr": "Augmente le niveau d'un allié de 1 point."
+	},
+	"ふつうの本": {
+		"en": "A book so competent that it changes a monster's personality to <6>professional<9>. The monster's attributes will develop in a balanced way.",
+		"fr": "Livre conférant le caractère « sérieux » à un monstre.\nDéveloppe aussi toutes les caractéristiques sans exception."
+	},
+	"じょうねつかの本": {
+		"en": "A book so forward-thinking that it changes a monster's personality to <6>visionary<9>. The monster will develop very high max. MP.",
+		"fr": "Livre conférant le caractère « visionnaire » à un monstre.\nDéveloppe aussi grandement ses PM max."
+	},
+	"きまぐれの本": {
+		"en": "A book so idiosyncratic that it changes a monster's personality to <6>nonconformist<9>. The monster will develop high max. HP and defence.",
+		"fr": "Livre conférant le caractère « capricieux sauvage » à un monstre.\nDéveloppe aussi ses PV max. et sa défense."
+	},
+	"Sサイズのタネ": {
+		"en": "Changes a single ally to S size.",
+		"fr": "Donne la taille P à un monstre allié."
+	},
+	"Lサイズのタネ": {
+		"en": "Changes a single ally to L size.",
+		"fr": "Donne la taille G à un monstre allié."
+	},
+	"銅の鉱石": {
+		"en": "Common ore rich in copper.",
+		"fr": "Morceau de minerai banal qui contient du cuivre."
+	},
+	"鉄鉱石": {
+		"en": "Common ore rich in iron.",
+		"fr": "Morceau de minerai banal qui contient du fer."
+	},
+	"漬け物石": {
+		"en": "A big, heavy stone that's ideal for squishing sandwiches.",
+		"fr": "Pierre grande et lourde qui serait idéale pour le saumurage des aliments."
+	},
+	"磨き砂": {
+		"en": "Soft sand used to polish things till they gleam.",
+		"fr": "Sable lisse qui a été rigoureusement poli."
+	},
+	"妖草": {
+		"en": "A plant of dubious nature.",
+		"fr": "Plante à l'apparence suspecte."
+	},
+	"風切りの羽": {
+		"en": "A plume lost in high winds by a bird on the wing.",
+		"fr": "Plume perdue par un oiseau qui vole en fendant l'air."
+	},
+	"獣の皮": {
+		"en": "A tough pelt of the kind formerly found on monsters.",
+		"fr": "Peau résistante obtenue sur un monstre."
+	},
+	"小さな鱗": {
+		"en": "A teensy tiny scale the size of a fingernail.",
+		"fr": "Écaille de la taille d'un ongle humain."
+	},
+	"獣の骨": {
+		"en": "A sturdy bone from a wild beast.",
+		"fr": "Os solide obtenu sur une bête."
+	},
+	"スライムゼリー": {
+		"en": "Jelly that quivers like a shivering slime.",
+		"fr": "Gelée élastique rappelant les gluants."
+	},
+	"蝙蝠の羽": {
+		"en": "A leathery wing from a fly-by-night supplier.",
+		"fr": "Grande aile noire obtenue sur une chauve-souris."
+	},
+	"ガマの油": {
+		"en": "Oil obtained from a toad (don't ask how).",
+		"fr": "Mucus obtenu sur un crapaud."
+	},
+	"ヘビーメタル": {
+		"en": "A mass of metal that's much heavier than it looks.",
+		"fr": "Bloc de métal remarquablement lourd."
+	},
+	"やわらかウール": {
+		"en": "Fluffy wool from a tender young sheep.",
+		"fr": "Laine légère obtenue sur un mouton."
+	},
+	"いかずちのたま": {
+		"en": "A crystal globe formed through the power of lightning.",
+		"fr": "Orbe dans lequel est cristallisé le pouvoir de la foudre."
+	},
+	"まりょくの土": {
+		"en": "A clump of soil with thaumaturgic properties.",
+		"fr": "Bloc de terre recélant un pouvoir magique."
+	},
+	"かがみ石": {
+		"en": "Rock that reflects light as well as any mirror.",
+		"fr": "Pierre brillant comme un miroir."
+	},
+	"レッドアイ": {
+		"en": "A precious stone that radiates bright red light.",
+		"fr": "Pierre précieuse émettant une lumière rouge."
+	},
+	"イエローアイ": {
+		"en": "A precious stone that gleams with yellow light.",
+		"fr": "Pierre précieuse émettant une lumière jaune."
+	},
+	"グリーンアイ": {
+		"en": "A precious stone that glows with green light.",
+		"fr": "Pierre précieuse émettant une lumière verte."
+	},
+	"パープルアイ": {
+		"en": "A precious stone that glimmers with purple light.",
+		"fr": "Pierre précieuse émettant une lumière violette."
+	},
+	"ホワイトパール": {
+		"en": "A perfect pearl, pure and milky white.",
+		"fr": "Perle immaculée possédant une certaine élégance."
+	},
+	"きれいな枝": {
+		"en": "A slender bough that's long and lovely.",
+		"fr": "Branche longue et fine au charme subtil."
+	},
+	"こおりの樹木": {
+		"en": "A chilly branch that seems to be wreathed in winter.",
+		"fr": "Branche fraîche qui s'enveloppe d'air froid."
+	},
+	"コットン草": {
+		"en": "A fluffy tuft of top-grade cotton.",
+		"fr": "Plante qui donne un coton léger."
+	},
+	"ようせいの綿花": {
+		"en": "Fluffy stuff farmed by the fairest faerie folk.",
+		"fr": "Fleur de coton rare qui a été cultivée par des fées."
+	},
+	"しおかぜ草": {
+		"en": "Rhythmically reeling grass that reeks of the receding tide.",
+		"fr": "Plante autour de laquelle flotte un parfum de brise marine."
+	},
+	"あまつゆのいと": {
+		"en": "Transcendental fibres that flow like fluid.",
+		"fr": "Fibre mystérieuse dont les fils sont couverts d'eau."
+	},
+	"ふさふさの毛皮": {
+		"en": "Toasty-warm fur once worn by a monster.",
+		"fr": "Fourrure épaisse obtenue sur un monstre."
+	},
+	"白い貝がら": {
+		"en": "A shell found on the beach that's white as bone.",
+		"fr": "Coquillage immaculé trouvé sur la plage."
+	},
+	"きよめの水": {
+		"en": "Natural spring water, cool and clear.",
+		"fr": "Eau de source naturelle très limpide."
+	},
+	"かがやきの樹液": {
+		"en": "Sap from a tree that glows in the moonlight.",
+		"fr": "Récipient contenant la sève d'un arbre qui brille à la lumière de la lune."
+	},
+	"へびのぬけがら": {
+		"en": "A skin shed by its serpentine former owner.",
+		"fr": "Peau laissée par un serpent lors de sa mue."
+	},
+	"うるわしきのこ": {
+		"en": "A mushroom of heartbreaking beauty.",
+		"fr": "Champignon splendide à l'apparence attirante."
+	},
+	"ふしぎなひだね": {
+		"en": "Flames that flicker with magical force.",
+		"fr": "Flamme étrange qui recèle un pouvoir magique."
+	},
+	"ちいさなメダル": {
+		"en": "Can be traded with Monsieur Medaille for rewards at the Mini Medal Swap Shop.",
+		"fr": "Médaille collectionnable qui peut être échangée contre une large gamme d'objets au comptoir de Monsieur Médaille."
+	},
+	"息吹の証": {
+		"en": "Teaches the Shallow Breather talent.",
+		"fr": "Enseigne le talent « Petit souffleur »."
+	},
+	"元気玉": {
+		"en": "Increases the amount of experience points and gold coins earned after battle by 1.5x. Effective for 10 battles. Only one of this or similar items can be in effect at any one time.",
+		"fr": "Multiplie par 1,5 les points d'expérience et les pièces d'or gagnés pendant 10 combats ! Effet non cumulable avec celui d'autres objets similaires."
+	}
+}

@@ -13,7 +13,7 @@ interface Props {
 }
 
 const PageBosses: React.FC<Props> = ({ games, images }) => {
-	const { isFr, translateUI } = useTranslate();
+	const { translateUI } = useTranslate();
 
 	return (
 		<Layout
@@ -23,10 +23,9 @@ const PageBosses: React.FC<Props> = ({ games, images }) => {
 			metadescription="The main bosses of every game in the main Dragon Quest saga, from I to XI."
 		>
 			<blockquote className="blockquote">
-				{isFr ?
-					'Les boss majeurs de chaque jeu de la saga principale Dragon Quest, de I à XI.'
-				:	'The major bosses of every game in the main Dragon Quest saga, from I to XI.'
-				}
+				{translateUI(
+					'The major bosses of every game in the main Dragon Quest saga, from I to XI.'
+				)}
 			</blockquote>
 			<ImagesContext.Provider value={images}>
 				{games.map(game => (

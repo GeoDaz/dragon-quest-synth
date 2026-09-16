@@ -125,8 +125,9 @@
 				"rank": "F",
 				"family": "Slime",
 				"synthesis": [
-					["Slime Family", "Dragon Family", "Rank F"],
-					["Wing Slime", "Small Fry"]
+					["Wing Slime", "Small Fry"],
+					["Slime", "Dragon Family"],
+					["Slime Family", "Dragon Family", "Rank F"]
 				]
 			},
 			{
@@ -139,7 +140,10 @@
 				"name": "Mottle Slime",
 				"rank": "F",
 				"family": "Slime",
-				"synthesis": [["Slime Family", "Beast Family", "Rank F"]]
+				"synthesis": [
+					["Slime Family", "Beast Family", "Rank F"],
+					["Slime", "Beast Family"]
+				]
 			},
 			{
 				"name": "Box Slime",
@@ -906,7 +910,10 @@
 				"name": "Greater Dracky",
 				"rank": "F",
 				"family": "Demon",
-				"synthesis": [["Dracky", "Gasbagon"]]
+				"synthesis": [
+					["Dracky", "Gasbagon"],
+					["Dracky", "Dracky", "Plus 2"]
+				]
 			},
 			{
 				"name": "Dessert Demon",
