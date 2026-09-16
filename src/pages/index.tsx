@@ -16,6 +16,7 @@ import {
 	DetailsContext,
 	emptyFarewell,
 	emptyItems,
+	emptySpawns,
 	emptyTerms,
 } from '@/context/details';
 import { familiesColors, familiesGradients } from '@/consts/colors';
@@ -26,6 +27,7 @@ import { StringObject } from '@/types/Ui';
 import {
 	GameFarewell,
 	GameItems,
+	GameSpawns,
 	GameTerms,
 	MonstersDetails,
 } from '@/types/MonsterDetails';
@@ -41,6 +43,9 @@ import { FiltersContext } from '@/context/filter';
 import { TrailContext } from '@/context/trail';
 import SynthesisTrail from '@/components/Monster/SynthesisTrail';
 import useSynthesisTrail from '@/hooks/useSynthesisTrail';
+import { ReserveContext } from '@/context/reserve';
+import ReserveSidebar from '@/components/Monster/ReserveSidebar';
+import useReserve from '@/hooks/useReserve';
 import ScrollUp from '@/components/ScrollUp';
 import GameCard from '@/components/GameCard';
 import { Game } from '@/types/Game';
@@ -58,6 +63,7 @@ interface Props {
 	terms: GameTerms;
 	farewell: GameFarewell;
 	items: GameItems;
+	spawns: GameSpawns;
 	game: Game;
 }
 export const gameDetails = (game: string): MonstersDetails => {
@@ -92,6 +98,14 @@ export const gameItems = (game: string): GameItems => {
 	}
 };
 
+export const gameSpawns = (game: string): GameSpawns => {
+	try {
+		return require(`../json/${game}Spawns.json`);
+	} catch (e) {
+		return {};
+	}
+};
+
 const PageLines: React.FC<Props> = props => {
 	const {
 		images,
@@ -100,6 +114,7 @@ const PageLines: React.FC<Props> = props => {
 		terms = emptyTerms,
 		farewell = emptyFarewell,
 		items = emptyItems,
+		spawns = emptySpawns,
 	} = props;
 	const [families, setFamilies] = useState<Families>(props.families);
 	const { hash, nav } = useHash();
@@ -113,9 +128,20 @@ const PageLines: React.FC<Props> = props => {
 	const allMonsters = useMemo(() => indexMonsters(props.families), [props.families]);
 	const { trees, preferred, walk, pickInTrail, clearTrail } =
 		useSynthesisTrail(allMonsters);
+	const {
+		entries,
+		stock,
+		reserve,
+		open: reserveOpen,
+		toggleReserve,
+		addToReserve,
+		removeFromReserve,
+		dropFromReserve,
+		clearReserve,
+	} = useReserve(game.key);
 	const detailsValue = useMemo(
-		() => ({ details, terms, farewell, items }),
-		[details, terms, farewell, items]
+		() => ({ details, terms, farewell, items, spawns }),
+		[details, terms, farewell, items, spawns]
 	);
 
 	// Flat, ordered view of the current families after family/rank filters, plus
@@ -208,6 +234,24 @@ const PageLines: React.FC<Props> = props => {
 		}
 	}, [hash, nav, filtered, visibleCount]);
 
+	const searchIndex = useMemo(() => {
+		const index: StringObject = {};
+		Object.values(props.families).forEach(ranks =>
+			Object.values(ranks).forEach(monsters =>
+				monsters.forEach(monster => {
+					const parts = [monster.name];
+					if (isFr && monster.nom) parts.push(monster.nom);
+					const skill = details[monster.name]?.skill;
+					const term = skill ? terms.skills[skill] : undefined;
+					if (term?.en) parts.push(term.en);
+					if (isFr && term?.fr) parts.push(term.fr);
+					index[monster.name] = parts.map(stringToKey).join('|');
+				})
+			)
+		);
+		return index;
+	}, [props.families, isFr, details, terms]);
+
 	useEffect(() => {
 		if (!search) {
 			if (families !== props.families) {
@@ -219,9 +263,7 @@ const PageLines: React.FC<Props> = props => {
 					const nextRanks = Object.entries(ranks).reduce(
 						(acc, [rank, monsters]) => {
 							const nextMonsters = monsters.filter(monster =>
-								stringToKey(
-									(isFr && monster.nom) || monster.name
-								).includes(search)
+								searchIndex[monster.name]?.includes(search)
 							);
 							if (nextMonsters.length > 0) {
 								acc[rank] = nextMonsters;
@@ -237,7 +279,7 @@ const PageLines: React.FC<Props> = props => {
 				}, {} as Families)
 			);
 		}
-	}, [search, props.families]);
+	}, [search, props.families, searchIndex]);
 
 	const resetFilters = useCallback(() => {
 		setSelectedFamily(undefined);
@@ -281,7 +323,7 @@ const PageLines: React.FC<Props> = props => {
 			</div>
 			<div className="synthesis-filters mb-4">
 				<SearchBar
-					label={translateUI('Research a monster')}
+					label={translateUI('Search a monster or a skill set')}
 					onSubmit={handleSearch}
 					defaultValue={search}
 				/>
@@ -353,37 +395,51 @@ const PageLines: React.FC<Props> = props => {
 				<ImagesContext.Provider value={images}>
 					<DetailsContext.Provider value={detailsValue}>
 						<TrailContext.Provider value={walk}>
-							{filtered.total > 0 ?
-								<>
-									<div className="synthesis-list">
-										{Object.entries(paginatedFamilies).map(
-											([family, ranks]) => (
-												<FamilySection
-													key={family}
-													family={family}
-													ranks={ranks}
-													count={filtered.familyTotals[family]}
-													hash={hash}
-												/>
-											)
-										)}
-									</div>
-									{visibleCount < filtered.total && (
-										<div
-											ref={sentinelRef}
-											className="text-center py-4"
-										>
-											<Spinner animation="border" />
+							<ReserveContext.Provider value={reserve}>
+								{filtered.total > 0 ?
+									<>
+										<div className="synthesis-list">
+											{Object.entries(paginatedFamilies).map(
+												([family, ranks]) => (
+													<FamilySection
+														key={family}
+														family={family}
+														ranks={ranks}
+														count={filtered.familyTotals[family]}
+														hash={hash}
+													/>
+												)
+											)}
 										</div>
-									)}
-								</>
-							:	<p>{translateUI('No synthesis found')}.</p>}
-							<SynthesisTrail
-								trees={trees}
-								preferred={preferred}
-								onPick={pickInTrail}
-								onClear={clearTrail}
-							/>
+										{visibleCount < filtered.total && (
+											<div
+												ref={sentinelRef}
+												className="text-center py-4"
+											>
+												<Spinner animation="border" />
+											</div>
+										)}
+									</>
+								:	<p>{translateUI('No synthesis found')}.</p>}
+								<SynthesisTrail
+									trees={trees}
+									preferred={preferred}
+									onPick={pickInTrail}
+									onClear={clearTrail}
+								/>
+								<ReserveSidebar
+									entries={entries}
+									stock={stock}
+									monsters={allMonsters}
+									ranks={game.ranks}
+									open={reserveOpen}
+									onToggle={toggleReserve}
+									onAdd={addToReserve}
+									onRemove={removeFromReserve}
+									onDrop={dropFromReserve}
+									onClear={clearReserve}
+								/>
+							</ReserveContext.Provider>
 						</TrailContext.Provider>
 					</DetailsContext.Provider>
 				</ImagesContext.Provider>
@@ -437,10 +493,12 @@ const FamilySection = ({
 							<th className="cell-details" />
 							<th className="cell-family">{translateUI('Family')}</th>
 							<th className="cell-rank">{translateUI('Rank')}</th>
+							<th className="cell-skill">{translateUI('Skill set')}</th>
 							<th className="cell-synthesis">{translateUI('Synthesis')}</th>
 							<th className="cell-rev-synthesis">
 								{translateUI('Synthesize into')}
 							</th>
+							<th className="cell-spawn">{translateUI('Location')}</th>
 						</tr>
 					</thead>
 					{/* selectedRank is used here to avoid calling useIsVisible */}
@@ -479,7 +537,7 @@ const RankSection = ({
 	return (
 		<tbody ref={ref as any} className="rank-group">
 			<tr>
-				<th colSpan={6} className="group-cell pe-0">
+				<th colSpan={8} className="group-cell pe-0">
 					<h3 id={hashId} className="rank-heading">
 						<span
 							className={makeClassName(
@@ -515,7 +573,10 @@ export const getStaticProps: GetStaticProps = async () => {
 		const terms = gameTerms(defaultGame);
 		const farewell = gameFarewell(defaultGame);
 		const items = gameItems(defaultGame);
-		return { props: { families, images, details, terms, farewell, items, game } };
+		const spawns = gameSpawns(defaultGame);
+		return {
+			props: { families, images, details, terms, farewell, items, spawns, game },
+		};
 	} catch (e) {
 		console.error(e);
 		return { props: {} };

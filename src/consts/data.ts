@@ -22,6 +22,14 @@ export const ranksIcons: StringObject = {
 	G: 'G.png',
 };
 
+export const areasNames: StringObject = {
+	KarekiPlain: 'Kareki Plain',
+	KarekiWasteland: 'Kareki Wasteland',
+	KarekiWetland: 'Kareki Wetland',
+	KarekiCave: 'Kareki Cave',
+	KarekiShrineB1F: 'Kareki Shrine B1F',
+};
+
 export const familiesIcons: StringObject = {
 	Slime: 'Slime.png',
 	Beast: 'Beast.png',

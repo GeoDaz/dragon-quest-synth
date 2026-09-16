@@ -40,6 +40,9 @@ const MonsterRowLoading = ({
 			<td className="cell-rank">
 				<Rank name={monster.rank} />
 			</td>
+			<td className="cell-skill">
+				<Skeleton size={16} width={80} />
+			</td>
 			<td className="cell-synthesis">
 				{monster.synthesis.map((list: string[], i: number) => {
 					// a rank token turns its family tokens into labelled chips,
@@ -71,6 +74,9 @@ const MonsterRowLoading = ({
 						<Skeleton key={i} size={38} />
 					))}
 				</div>
+			</td>
+			<td className="cell-spawn">
+				<Skeleton size={16} width={80} />
 			</td>
 		</tr>
 	);

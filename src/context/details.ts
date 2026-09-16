@@ -2,6 +2,7 @@ import { createContext } from 'react';
 import {
 	GameFarewell,
 	GameItems,
+	GameSpawns,
 	GameTerms,
 	MonstersDetails,
 } from '@/types/MonsterDetails';
@@ -11,6 +12,7 @@ export interface DetailsContextValue {
 	terms: GameTerms;
 	farewell: GameFarewell;
 	items: GameItems;
+	spawns: GameSpawns;
 }
 
 export const emptyTerms: GameTerms = { traits: {}, skills: {} };
@@ -19,9 +21,12 @@ export const emptyFarewell: GameFarewell = { items: [], amounts: [] };
 
 export const emptyItems: GameItems = {};
 
+export const emptySpawns: GameSpawns = {};
+
 export const DetailsContext = createContext<DetailsContextValue>({
 	details: {},
 	terms: emptyTerms,
 	farewell: emptyFarewell,
 	items: {},
+	spawns: {},
 });

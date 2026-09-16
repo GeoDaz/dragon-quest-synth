@@ -11,9 +11,10 @@ import Egg from './Egg';
 import Icon from '../Icon';
 import MonsterDetailsModal from './MonsterDetailsModal';
 import { DetailsContext } from '@/context/details';
+import { areasNames } from '@/consts/data';
+import { Spawn } from '@/types/MonsterDetails';
+import { ReserveContext } from '@/context/reserve';
 
-// A recipe is a flat token list: monster names, "<Family> Family", and at most
-// one "Rank <X>" that qualifies every family token of that recipe.
 interface Parent {
 	name?: string;
 	family?: string;
@@ -63,9 +64,15 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 }) {
 	const { isFr, translateMonster, translateUI } = useTranslate();
 	const { walkInto, addDefault } = useContext(TrailContext);
-	const { details, terms, farewell, items } = useContext(DetailsContext);
+	const { details, terms, farewell, items, spawns } = useContext(DetailsContext);
+	const { stock, addToReserve, openReserve } = useContext(ReserveContext);
+	const held = stock?.[monster.name] || 0;
 	const [open, setOpen] = useState(false);
 	const displayName = (isFr && monster.nom) || monster.name;
+	const skill = details[monster.name]?.skill;
+	const skillTerm = skill ? terms.skills[skill] : undefined;
+	const skillName = (isFr && skillTerm?.fr) || skillTerm?.en || skill;
+	const places = spawns[monster.name];
 	return (
 		<>
 			<td className="cell-monster">
@@ -83,14 +90,31 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 				</div>
 			</td>
 			<td className="cell-details">
-				<button
-					type="button"
-					className="btn btn-primary details-button"
-					onClick={() => setOpen(true)}
-					title={translateUI('Details')}
-				>
-					<Icon name="text-indent-left" />
-				</button>
+				<div className="row-actions">
+					<button
+						type="button"
+						className="btn btn-primary details-button"
+						onClick={() => setOpen(true)}
+					>
+						<Icon name="text-indent-left" /> {translateUI('Details')}
+					</button>
+					{!!addToReserve && (
+						<button
+							type="button"
+							className={makeClassName(
+								'btn btn-primary details-button reserve-button',
+								!!held && 'held'
+							)}
+							onClick={() => {
+								addToReserve(monster.name);
+								if (openReserve) openReserve();
+							}}
+						>
+							<Icon name="box-seam" /> {translateUI('Reserve')}{' '}
+							{held > 1 && <span className="reserve-times">×{held}</span>}
+						</button>
+					)}
+				</div>
 				{open && (
 					<MonsterDetailsModal
 						monster={monster}
@@ -114,6 +138,13 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 			</td>
 			<td className="cell-rank">
 				<Rank name={monster.rank} />
+			</td>
+			<td className="cell-skill">
+				{skillName ?
+					<span title={(isFr && skillTerm?.desc?.fr) || skillTerm?.desc?.en}>
+						{skillName}
+					</span>
+				:	<span className="cell-empty">&mdash;</span>}
 			</td>
 			<td className="cell-synthesis">
 				{monster.synthesis.map((list: string[], i: number) => (
@@ -171,9 +202,37 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 					</div>
 				:	<span className="cell-empty">&mdash;</span>}
 			</td>
+			<td className="cell-spawn">
+				{places?.length ?
+					places.map(place => <SpawnChip key={place.area} spawn={place} />)
+				:	<span className="cell-empty">&mdash;</span>}
+			</td>
 		</>
 	);
 });
+
+const TIME_ICONS: { [time: string]: string } = {
+	always: 'brightness-alt-high',
+	day: 'sun',
+	night: 'moon',
+};
+const TIME_LABELS: { [time: string]: string } = {
+	always: 'Day and night',
+	day: 'Day',
+	night: 'Night',
+};
+
+const SpawnChip = ({ spawn }: { spawn: Spawn }) => {
+	const { translateUI } = useTranslate();
+	const area = areasNames[spawn.area] || spawn.area;
+	const when = translateUI(TIME_LABELS[spawn.time]);
+	return (
+		<span className="spawn-chip" title={`${area} · ${when}`}>
+			<Icon name={TIME_ICONS[spawn.time]} />
+			<span className="chip-label">{area}</span>
+		</span>
+	);
+};
 
 const ParentChip = ({
 	parent,

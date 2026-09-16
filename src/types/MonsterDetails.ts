@@ -42,6 +42,13 @@ export interface Term extends Localised {
 
 export type GameItems = { [japanese: string]: Localised };
 
+export interface Spawn {
+	area: string;
+	time: 'always' | 'day' | 'night';
+}
+
+export type GameSpawns = { [name: string]: Spawn[] };
+
 export interface FarewellItem {
 	item: string;
 	rate: number;

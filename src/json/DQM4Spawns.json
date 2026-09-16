@@ -1,0 +1,212 @@
+{
+	"Bantamweight": [
+		{
+			"area": "KarekiPlain",
+			"time": "always"
+		}
+	],
+	"Bubble Slime": [
+		{
+			"area": "KarekiShrineB1F",
+			"time": "always"
+		}
+	],
+	"Bunicorn": [
+		{
+			"area": "KarekiPlain",
+			"time": "always"
+		}
+	],
+	"Burr Baby": [
+		{
+			"area": "KarekiWasteland",
+			"time": "always"
+		}
+	],
+	"Candy Cat": [
+		{
+			"area": "KarekiCave",
+			"time": "always"
+		}
+	],
+	"Cumaulus": [
+		{
+			"area": "KarekiWetland",
+			"time": "always"
+		}
+	],
+	"Damselfly": [
+		{
+			"area": "KarekiWetland",
+			"time": "always"
+		}
+	],
+	"Dracky": [
+		{
+			"area": "KarekiWasteland",
+			"time": "night"
+		},
+		{
+			"area": "KarekiWetland",
+			"time": "night"
+		}
+	],
+	"Fat Rat": [
+		{
+			"area": "KarekiCave",
+			"time": "always"
+		}
+	],
+	"Fright Bulb": [
+		{
+			"area": "KarekiPlain",
+			"time": "always"
+		}
+	],
+	"Funky Ferret": [
+		{
+			"area": "KarekiWasteland",
+			"time": "day"
+		},
+		{
+			"area": "KarekiWetland",
+			"time": "day"
+		}
+	],
+	"Ghost": [
+		{
+			"area": "KarekiWasteland",
+			"time": "night"
+		}
+	],
+	"Hammerhood": [
+		{
+			"area": "KarekiPlain",
+			"time": "day"
+		}
+	],
+	"Komodo": [
+		{
+			"area": "KarekiPlain",
+			"time": "always"
+		}
+	],
+	"Lampling": [
+		{
+			"area": "KarekiShrineB1F",
+			"time": "always"
+		}
+	],
+	"Lips": [
+		{
+			"area": "KarekiShrineB1F",
+			"time": "always"
+		}
+	],
+	"Little Devil": [
+		{
+			"area": "KarekiShrineB1F",
+			"time": "always"
+		},
+		{
+			"area": "KarekiWetland",
+			"time": "always"
+		}
+	],
+	"Lunatick": [
+		{
+			"area": "KarekiCave",
+			"time": "always"
+		}
+	],
+	"Mud Mannequin": [
+		{
+			"area": "KarekiWetland",
+			"time": "day"
+		}
+	],
+	"Muddy Hand": [
+		{
+			"area": "KarekiShrineB1F",
+			"time": "always"
+		}
+	],
+	"Platypunk": [
+		{
+			"area": "KarekiWasteland",
+			"time": "always"
+		}
+	],
+	"Pteranodon": [
+		{
+			"area": "KarekiWasteland",
+			"time": "day"
+		}
+	],
+	"Sacksquatch": [
+		{
+			"area": "KarekiWasteland",
+			"time": "always"
+		}
+	],
+	"Shell Slime": [
+		{
+			"area": "KarekiWetland",
+			"time": "always"
+		}
+	],
+	"Skeleton": [
+		{
+			"area": "KarekiCave",
+			"time": "always"
+		}
+	],
+	"Skipper": [
+		{
+			"area": "KarekiWasteland",
+			"time": "always"
+		}
+	],
+	"Slime": [
+		{
+			"area": "KarekiPlain",
+			"time": "always"
+		},
+		{
+			"area": "KarekiWasteland",
+			"time": "always"
+		},
+		{
+			"area": "KarekiWetland",
+			"time": "always"
+		}
+	],
+	"Stark Raven": [
+		{
+			"area": "KarekiWasteland",
+			"time": "always"
+		}
+	],
+	"Stump Chump": [
+		{
+			"area": "KarekiWetland",
+			"time": "night"
+		}
+	],
+	"Teeny Sanguini": [
+		{
+			"area": "KarekiPlain",
+			"time": "night"
+		}
+	],
+	"Toady": [
+		{
+			"area": "KarekiShrineB1F",
+			"time": "always"
+		},
+		{
+			"area": "KarekiWetland",
+			"time": "always"
+		}
+	]
+}

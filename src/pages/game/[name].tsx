@@ -1,6 +1,12 @@
 import { GetStaticProps } from 'next';
 import { Families } from '@/types/Monster';
-import PageLines, { gameDetails, gameFarewell, gameItems, gameTerms } from '..';
+import PageLines, {
+	gameDetails,
+	gameFarewell,
+	gameItems,
+	gameSpawns,
+	gameTerms,
+} from '..';
 import { reverseSynth } from '@/functions/transformer/synthesis';
 import { Game } from '@/types/Game';
 
@@ -35,7 +41,10 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 		const terms = gameTerms(gameName);
 		const farewell = gameFarewell(gameName);
 		const items = gameItems(gameName);
-		return { props: { families, images, details, terms, farewell, items, game } };
+		const spawns = gameSpawns(gameName);
+		return {
+			props: { families, images, details, terms, farewell, items, spawns, game },
+		};
 	} catch (e) {
 		console.error(e);
 		return { props: {} };
