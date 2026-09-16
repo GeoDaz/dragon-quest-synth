@@ -1543,6 +1543,24 @@ h3,
   text-align: center;
 }
 
+.described {
+  cursor: help;
+}
+
+.described:focus-visible {
+  outline: 2px solid var(--dl-accent);
+  outline-offset: 2px;
+}
+
+.described-popover {
+  --bs-popover-bg: var(--dl-panel-soft);
+  --bs-popover-border-color: var(--dl-border-soft);
+  --bs-popover-body-color: var(--dl-label);
+  --bs-popover-body-padding-y: .6rem;
+  max-width: 320px;
+  font-size: .85rem;
+}
+
 .synthesis-table .cell-skill {
   width: 130px;
   font-size: .9em;
@@ -1550,20 +1568,41 @@ h3,
 }
 
 .synthesis-table .cell-spawn {
-  width: 150px;
+  width: 190px;
 }
 
 .spawn-chip {
   display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  margin: 2px 4px 2px 0;
+  padding: 3px 9px;
+  border: 1px solid var(--dl-border-soft);
+  border-radius: 10px;
+  font-size: .8em;
+  color: var(--dl-label);
+}
+
+.spawn-area {
+  display: inline-flex;
   align-items: center;
   gap: 5px;
-  margin: 2px 4px 2px 0;
-  padding: 2px 8px;
-  border: 1px solid var(--dl-border-soft);
-  border-radius: 999px;
-  font-size: .8em;
   white-space: nowrap;
-  color: var(--dl-label);
+}
+
+.spawn-when {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px 6px;
+  color: var(--dl-muted);
+}
+
+.spawn-when-label {
+  font-family: var(--dl-mono);
+  font-size: .85em;
+  letter-spacing: .06em;
 }
 
 .spawn-chip .bi {
@@ -2224,7 +2263,8 @@ img.family {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.33em;
+  gap: 0.5em;
+  font-size: 0.85em;
   padding: var(--bs-btn-padding-y) var(--bs-btn-padding-y);
   line-height: 1;
 }
@@ -2330,13 +2370,6 @@ img.family {
   font-weight: 400;
   white-space: nowrap;
   color: var(--dl-muted);
-}
-
-.details-traits thead th {
-  font-family: var(--dl-mono);
-  font-size: .75em;
-  letter-spacing: .14em;
-  text-transform: uppercase;
 }
 
 .details-traits td:last-child {

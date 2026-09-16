@@ -1,6 +1,7 @@
 import React from 'react';
 import { Modal } from 'react-bootstrap';
 import {
+	MonsterStats,
 	GameFarewell,
 	GameItems,
 	GameTerms,
@@ -9,11 +10,13 @@ import {
 } from '@/types/MonsterDetails';
 import { Monster as MonsterInterface } from '@/types/Monster';
 import useTranslate from '@/hooks/useTranslate';
+import { makeClassName } from '@/functions';
+import Described from '../Described';
 import Family from './Family';
 import Rank from './Rank';
 import MonsterImg from './MonsterImg';
 
-const STATS: { key: keyof MonsterDetails['stats']; label: string }[] = [
+const STATS: { key: keyof MonsterStats; label: string }[] = [
 	{ key: 'hp', label: 'HP' },
 	{ key: 'mp', label: 'MP' },
 	{ key: 'attack', label: 'Attack' },
@@ -76,46 +79,34 @@ const MonsterDetailsModal: React.FC<Props> = ({
 	const named = (japanese: string, table: GameTerms['traits']) => {
 		const term = table[japanese];
 		const name = localised(term);
-		const title = localised(term?.desc);
-		if (!name) {
-			return (
-				<span className="details-jp" title={title}>
-					{japanese}
-				</span>
-			);
-		}
-		return <span title={title}>{name}</span>;
+		return (
+			<Described
+				text={localised(term?.desc)}
+				className={name ? undefined : 'details-jp'}
+			>
+				{name || japanese}
+			</Described>
+		);
 	};
 	const itemName = (japanese: string) => (
-		<span className="details-jp" title={localised(items[japanese])}>
+		<Described text={localised(items[japanese])} className="details-jp">
 			{japanese}
-		</span>
+		</Described>
 	);
 	const label = (isFr && monster.nom) || monster.name;
 
 	const traits = details?.traits || {};
-	const levelled = [
-		{
-			when: `${translateUI('Level')} 1`,
-			small: traits.always ? [traits.always] : [],
-			large: traits.largeAlways || [],
-		},
-		{
-			when: `${translateUI('Level')} 20`,
-			small: traits.level20 ? [traits.level20] : [],
-			large: [],
-		},
-		{
-			when: `${translateUI('Level')} 40`,
-			small: traits.level40 ? [traits.level40] : [],
-			large: [],
-		},
-		{
-			when: `${translateUI('Level')} 60`,
-			small: [],
-			large: traits.largeLevel60 ? [traits.largeLevel60] : [],
-		},
-	].filter(entry => entry.small.length || entry.large.length);
+	const atLevel = (level: number) => `${translateUI('Level')} ${level}`;
+	const smallTraits = [
+		{ when: atLevel(1), name: traits.always },
+		{ when: atLevel(20), name: traits.level20 },
+		{ when: atLevel(40), name: traits.level40 },
+	].filter(entry => !!entry.name);
+	const largeTraits = [
+		...(traits.largeAlways || []).map(name => ({ when: atLevel(1), name })),
+		{ when: atLevel(60), name: traits.largeLevel60 },
+	].filter(entry => !!entry.name);
+	const resisted = RESISTANCES.filter(entry => details?.resistances?.[entry.key]);
 
 	return (
 		<Modal
@@ -141,33 +132,57 @@ const MonsterDetailsModal: React.FC<Props> = ({
 						{translateUI('No data for this monster.')}
 					</p>
 				:	<div className="details-grid">
-						<section className="details-block">
-							<h5>{translateUI('Statistics')}</h5>
-							<dl className="details-stats">
-								{STATS.map(stat => (
-									<div key={stat.key}>
-										<dt>{translateUI(stat.label)}</dt>
-										<dd>{details.stats[stat.key]}</dd>
-									</div>
-								))}
-							</dl>
-						</section>
-						<section className="details-block">
+						{!!details.stats && (
+							<section className="details-block">
+								<h5>{translateUI('Statistics')}</h5>
+								<dl className="details-stats">
+									{STATS.map(stat => (
+										<div key={stat.key}>
+											<dt>{translateUI(stat.label)}</dt>
+											<dd>{details.stats?.[stat.key]}</dd>
+										</div>
+									))}
+								</dl>
+							</section>
+						)}
+						<section
+							className={makeClassName(
+								'details-block',
+								!details.stats && 'wide'
+							)}
+						>
 							<ul className="details-misc">
-								<li>
-									<span>{translateUI('Default size')}</span>
-									<b>{details.size}</b>
-								</li>
+								{!!details.size && (
+									<li>
+										<span>{translateUI('Default size')}</span>
+										<b>{details.size}</b>
+									</li>
+								)}
 								{!!details.skill && (
 									<li>
 										<span>{translateUI('Skill set')}</span>
 										<b>{named(details.skill, terms.skills)}</b>
 									</li>
 								)}
+								{!!details.randomSkills?.length && (
+									<li>
+										<span>{translateUI('2nd skill among')}</span>
+										<b>
+											{details.randomSkills.map((name, i) => (
+												<React.Fragment key={name}>
+													{i > 0 && ' · '}
+													{named(name, terms.skills)}
+												</React.Fragment>
+											))}
+										</b>
+									</li>
+								)}
 								<li>
 									<span>{translateUI('Egg')}</span>
 									<b>
-										{details.egg ?
+										{details.eggColor ?
+											translateUI(details.eggColor)
+										: details.egg ?
 											translateUI('Yes')
 										:	translateUI('No')}
 									</b>
@@ -186,55 +201,41 @@ const MonsterDetailsModal: React.FC<Props> = ({
 							</ul>
 						</section>
 
-						<section className="details-block wide">
-							<h5>{translateUI('Traits')}</h5>
-							{levelled.length ?
-								<table className="details-traits">
-									<thead>
-										<tr>
-											<th scope="col">{translateUI('Size')}</th>
-											<th scope="col">S</th>
-											<th scope="col">L</th>
-										</tr>
-									</thead>
-									<tbody>
-										{levelled.map(entry => (
-											<tr key={entry.when}>
-												<th scope="row">{entry.when}</th>
-												<TraitCell
-													names={entry.small}
-													terms={terms}
-													named={named}
-												/>
-												<TraitCell
-													names={entry.large}
-													terms={terms}
-													named={named}
-												/>
-											</tr>
-										))}
-									</tbody>
-								</table>
-							:	<p className="cell-empty">&mdash;</p>}
-						</section>
+						<TraitsTable
+							size="S"
+							rows={smallTraits}
+							terms={terms}
+							named={named}
+							heading={translateUI('Traits')}
+						/>
+						<TraitsTable
+							size="L"
+							rows={largeTraits}
+							terms={terms}
+							named={named}
+							heading={translateUI('Traits')}
+						/>
 
-						<section className="details-block wide">
-							<h5>{translateUI('Resistances')}</h5>
-							<ul className="details-resistances">
-								{RESISTANCES.map(entry => {
-									const value = details.resistances[entry.key] || 0;
-									return (
-										<li
-											key={entry.key}
-											className={resistanceClass(value)}
-										>
-											<span>{translateUI(entry.label)}</span>
-											<b>{value > 0 ? `+${value}` : value}</b>
-										</li>
-									);
-								})}
-							</ul>
-						</section>
+						{!!resisted.length && (
+							<section className="details-block wide">
+								<h5>{translateUI('Resistances')}</h5>
+								<ul className="details-resistances">
+									{RESISTANCES.map(entry => {
+										const value =
+											details.resistances?.[entry.key] || 0;
+										return (
+											<li
+												key={entry.key}
+												className={resistanceClass(value)}
+											>
+												<span>{translateUI(entry.label)}</span>
+												<b>{value > 0 ? `+${value}` : value}</b>
+											</li>
+										);
+									})}
+								</ul>
+							</section>
+						)}
 
 						{/* {!!farewell.items.length && (
 							<section className="details-block wide">
@@ -265,6 +266,43 @@ const MonsterDetailsModal: React.FC<Props> = ({
 				}
 			</Modal.Body>
 		</Modal>
+	);
+};
+
+const TraitsTable = ({
+	size,
+	rows,
+	terms,
+	named,
+	heading,
+}: {
+	size: string;
+	rows: { when: string; name?: string }[];
+	terms: GameTerms;
+	named: (japanese: string, table: GameTerms['traits']) => React.ReactNode;
+	heading: string;
+}) => {
+	if (!rows.length) return null;
+	return (
+		<section className="details-block">
+			<h5>
+				{heading} {size}
+			</h5>
+			<table className="details-traits">
+				<tbody>
+					{rows.map((entry, i) => (
+						<tr key={`${entry.when}-${i}`}>
+							<th scope="row">{entry.when}</th>
+							<TraitCell
+								names={[entry.name as string]}
+								terms={terms}
+								named={named}
+							/>
+						</tr>
+					))}
+				</tbody>
+			</table>
+		</section>
 	);
 };
 

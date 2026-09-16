@@ -22,6 +22,29 @@ export const ranksIcons: StringObject = {
 	G: 'G.png',
 };
 
+export const seasonsIcons: StringObject = {
+	Spring: 'flower2',
+	Summer: 'thermometer-sun',
+	Autumn: 'leaf',
+	Winter: 'snow2',
+};
+
+export const weathersIcons: StringObject = {
+	Clear: 'sun-fill',
+	Rain: 'cloud-drizzle-fill',
+	Snow: 'cloud-snow-fill',
+	Blizzard: 'wind',
+	Lightning: 'cloud-lightning-fill',
+	Smog: 'cloud-haze-fill',
+	'Acid Rain': 'cloud-hail-fill',
+	'Candy Rain': 'cake2-fill',
+	'Lava Shower': 'fire',
+	'Star Shower': 'stars',
+	'Blood Moon': 'transparency',
+	'Spooky Night': 'cloud-moon-fill',
+	SansStorm: 'tornado',
+};
+
 export const areasNames: StringObject = {
 	KarekiPlain: 'Kareki Plain',
 	KarekiWasteland: 'Kareki Wasteland',

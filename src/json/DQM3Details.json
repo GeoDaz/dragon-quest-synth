@@ -1,0 +1,3114 @@
+{
+	"Slime": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Slimer",
+		"randomSkills": [
+			"Agility Booster I",
+			"Zap Ward"
+		],
+		"scoutable": true
+	},
+	"Goonache Goodie": {
+		"egg": false,
+		"skill": "Sweet-Talker",
+		"randomSkills": [
+			"Defence Booster I",
+			"Stun Stopper"
+		],
+		"scoutable": true
+	},
+	"Shell Slime": {
+		"egg": false,
+		"skill": "Defender"
+	},
+	"Buddy Slime": {
+		"egg": false,
+		"skill": "Nature Child"
+	},
+	"Scallop Slime": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Splash Afficionado",
+		"randomSkills": [
+			"Defence Booster I",
+			"Splish Ward"
+		],
+		"scoutable": true
+	},
+	"Wing Slime": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Blusterer",
+		"randomSkills": [
+			"Agility Booster I",
+			"Frizz Ward"
+		],
+		"scoutable": true
+	},
+	"Bubble Slime": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Slimer",
+		"randomSkills": [
+			"HP Booster I",
+			"Poison Preventer"
+		],
+		"scoutable": true
+	},
+	"Healslime": {
+		"egg": false,
+		"skill": "Healer",
+		"randomSkills": [
+			"Defence Booster I",
+			"Confusion Controller"
+		],
+		"scoutable": true
+	},
+	"Slimeshroom": {
+		"egg": false,
+		"skill": "Irritant"
+	},
+	"Fright Bulb": {
+		"egg": false,
+		"skill": "Soothesayer"
+	},
+	"Feral Slime": {
+		"egg": false,
+		"skill": "Fighter"
+	},
+	"Snowmangler": {
+		"egg": false,
+		"skill": "Crack Afficionado",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Debilitation Ducker"
+		],
+		"scoutable": true
+	},
+	"Snail Slime": {
+		"egg": false,
+		"skill": "Barricade",
+		"randomSkills": [
+			"Agility Booster I",
+			"Woosh Guard"
+		],
+		"scoutable": true
+	},
+	"Slime Stack": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Zap Afficionado",
+		"randomSkills": [
+			"Agility Booster I",
+			"Paralysis Protector"
+		],
+		"scoutable": true
+	},
+	"Slime Knight": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Good Knight",
+		"randomSkills": [
+			"HP Booster I",
+			"Crag Ward"
+		],
+		"scoutable": true
+	},
+	"She-Slime": {
+		"egg": false,
+		"skill": "Spicy Slasher",
+		"randomSkills": [
+			"HP Booster I",
+			"Zap Ward"
+		],
+		"scoutable": true
+	},
+	"Onion Slime": {
+		"egg": false,
+		"skill": "Nature Child"
+	},
+	"Drake Slime": {
+		"egg": false,
+		"skill": "Shallow Breather",
+		"randomSkills": [
+			"HP Booster I",
+			"Woosh Guard"
+		],
+		"scoutable": true
+	},
+	"Mottle Slime": {
+		"egg": false,
+		"skill": "Stony Slasher"
+	},
+	"Box Slime": {
+		"egg": false,
+		"skill": "Fortifier"
+	},
+	"Sprite Bulb": {
+		"egg": false,
+		"skill": "Healer"
+	},
+	"Angel Slime": {
+		"egg": false,
+		"skill": "Cupid",
+		"scoutable": true
+	},
+	"Sugarstar Slime": {
+		"egg": false,
+		"skill": "Cupid",
+		"randomSkills": [
+			"HP Booster I",
+			"Sizz Ward"
+		],
+		"scoutable": true
+	},
+	"Rubble Slime": {
+		"egg": false,
+		"skill": "Crag Afficionado",
+		"randomSkills": [
+			"Defence Booster I",
+			"Confusion Controller"
+		],
+		"scoutable": true
+	},
+	"Spiny Slime": {
+		"egg": false,
+		"skill": "Fortifier",
+		"randomSkills": [
+			"Defence Booster I",
+			"Sleep Suppressor"
+		],
+		"scoutable": true
+	},
+	"Slick Slime": {
+		"egg": false,
+		"skill": "Blazer"
+	},
+	"Dark Slime": {
+		"egg": false,
+		"skill": "Prankster",
+		"randomSkills": [
+			"MP Booster I",
+			"Zam Ward"
+		],
+		"scoutable": true
+	},
+	"Mouldy Slime": {
+		"egg": false,
+		"skill": "Anaesthetist"
+	},
+	"Metal Slime": {
+		"egg": false,
+		"skill": "Frizz Afficionado",
+		"scoutable": true
+	},
+	"Behemoth Slime": {
+		"egg": false,
+		"skill": "Zap Afficionado"
+	},
+	"King Slime": {
+		"egg": false,
+		"skill": "Just Ruler"
+	},
+	"Wild Slime": {
+		"egg": false,
+		"skill": "Soggy Slasher"
+	},
+	"Dragon Slime": {
+		"egg": false,
+		"skill": "Shallow Breather",
+		"randomSkills": [
+			"HP Booster I",
+			"Crag Ward"
+		],
+		"scoutable": true
+	},
+	"Scuttle Slime": {
+		"egg": false,
+		"skill": "Blazer",
+		"randomSkills": [
+			"Defence Booster I",
+			"Bedazzlement Blocker"
+		],
+		"scoutable": true
+	},
+	"Dark King Slime": {
+		"egg": false,
+		"skill": "Evil Genius"
+	},
+	"Cococoa Blobelisk": {
+		"egg": false,
+		"skill": "Sweet-Talker",
+		"randomSkills": [
+			"MP Booster I",
+			"Poison Preventer"
+		],
+		"scoutable": true
+	},
+	"Slimecicle": {
+		"egg": false,
+		"skill": "Chilly Receptionist"
+	},
+	"King Bubble Slime": {
+		"egg": false,
+		"skill": "Nuisance",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Poison Preventer"
+		],
+		"scoutable": true
+	},
+	"Cureslime": {
+		"egg": false,
+		"skill": "Healer",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Sizz Ward"
+		],
+		"scoutable": true
+	},
+	"Beshemoth Slime": {
+		"egg": true,
+		"eggColor": "Silver",
+		"skill": "Hulk",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Woosh Guard"
+		],
+		"scoutable": true
+	},
+	"Pasty Pastry": {
+		"egg": false,
+		"skill": "Pop Diva",
+		"scoutable": true
+	},
+	"Jester Slime": {
+		"egg": false,
+		"skill": "Vaudevillan"
+	},
+	"Shadow Slime": {
+		"egg": false,
+		"skill": "Blighter"
+	},
+	"Flutter Slime": {
+		"egg": false,
+		"skill": "Cure-All",
+		"scoutable": true
+	},
+	"Crème Caraslime": {
+		"egg": false,
+		"skill": "Pop Idol",
+		"scoutable": true
+	},
+	"Cyber Slime": {
+		"egg": false,
+		"skill": "Lightning Rod",
+		"randomSkills": [
+			"MP Booster I",
+			"Stun Stopper"
+		],
+		"scoutable": true
+	},
+	"Liquid Metal Slime": {
+		"egg": false,
+		"skill": "Storm Chaser",
+		"scoutable": true
+	},
+	"Mottle She-Slime": {
+		"egg": false,
+		"skill": "Enigma"
+	},
+	"Metal Slime Knight": {
+		"egg": false,
+		"skill": "Empath"
+	},
+	"King Jester Slime": {
+		"egg": false,
+		"skill": "Agent Provocateur"
+	},
+	"Queen Slime": {
+		"egg": false,
+		"skill": "Pop Diva"
+	},
+	"Diamond Slime": {
+		"egg": false,
+		"skill": "Mouth Guard"
+	},
+	"Shogum": {
+		"egg": false,
+		"skill": "Leading Light"
+	},
+	"King Cureslime": {
+		"egg": false,
+		"skill": "Cure-All"
+	},
+	"King Slick Slime": {
+		"egg": false,
+		"skill": "Pyrotechnician",
+		"scoutable": true
+	},
+	"Slime Snack": {
+		"egg": false,
+		"skill": "Cure-All"
+	},
+	"Goomulonimbus": {
+		"egg": false,
+		"skill": "Vegabond",
+		"scoutable": true
+	},
+	"Metal King Slime": {
+		"egg": false,
+		"skill": "Just Ruler",
+		"scoutable": true
+	},
+	"Gem Slime": {
+		"egg": false,
+		"skill": "Altruist"
+	},
+	"Slionheart": {
+		"egg": false,
+		"skill": "Rainmaker"
+	},
+	"Emperor Slime": {
+		"egg": false,
+		"skill": "Sovereign"
+	},
+	"Superior Slime": {
+		"egg": true,
+		"eggColor": "Rainbow",
+		"skill": "Cleric"
+	},
+	"Grandpa Slime": {
+		"egg": false,
+		"skill": "Sage"
+	},
+	"Nardragon": {
+		"egg": false,
+		"skill": "Martyr"
+	},
+	"Dragonthorn": {
+		"egg": false,
+		"skill": "Blowy Slasher",
+		"randomSkills": [
+			"Attack Booster I",
+			"Poison Preventer"
+		],
+		"scoutable": true
+	},
+	"Komodo": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Defender",
+		"randomSkills": [
+			"Attack Booster I",
+			"Bedazzlement Blocker"
+		],
+		"scoutable": true
+	},
+	"Small Fry": {
+		"egg": false,
+		"skill": "Dragonheart"
+	},
+	"Airbagon": {
+		"egg": false,
+		"skill": "Bang Afficionado",
+		"randomSkills": [
+			"HP Booster I",
+			"Crack Ward"
+		],
+		"scoutable": true
+	},
+	"Vegandragora": {
+		"egg": false,
+		"skill": "Sizz Afficionado",
+		"randomSkills": [
+			"MP Booster I",
+			"Sleep Suppressor"
+		],
+		"scoutable": true
+	},
+	"Damselfly": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Soothesayer",
+		"randomSkills": [
+			"HP Booster I",
+			"Zap Ward"
+		],
+		"scoutable": true
+	},
+	"Pteranodon": {
+		"egg": false,
+		"skill": "Dragonheart"
+	},
+	"Killer Gila": {
+		"egg": false,
+		"skill": "Toxicologist"
+	},
+	"Armoured Wartoise": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Defender",
+		"randomSkills": [
+			"Defence Booster I",
+			"Zap Ward"
+		],
+		"scoutable": true
+	},
+	"Flython": {
+		"egg": false,
+		"skill": "Toxicologist"
+	},
+	"Croc-A-Bugle-Doo": {
+		"egg": false,
+		"skill": "Fortifier",
+		"randomSkills": [
+			"Attack Booster I",
+			"Bang Ward"
+		],
+		"scoutable": true
+	},
+	"Briny Bronco": {
+		"egg": false,
+		"skill": "Aquapothecary",
+		"randomSkills": [
+			"Attack Booster I",
+			"Bedazzlement Blocker"
+		],
+		"scoutable": true
+	},
+	"Raptile": {
+		"egg": false,
+		"skill": "Shallow Breather"
+	},
+	"Drag Racer": {
+		"egg": false,
+		"skill": "Wild Child"
+	},
+	"Jargon": {
+		"egg": false,
+		"skill": "Blazer"
+	},
+	"Spitzfire": {
+		"egg": false,
+		"skill": "Dragonheart"
+	},
+	"Ethereal Serpent": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Shallow Breather"
+	},
+	"Wyrtle": {
+		"egg": false,
+		"skill": "Barricade"
+	},
+	"Drakularge": {
+		"egg": false,
+		"skill": "Hulk",
+		"randomSkills": [
+			"Defence Booster I",
+			"Debilitation Ducker"
+		],
+		"scoutable": true
+	},
+	"Stabosaur": {
+		"egg": false,
+		"skill": "Soggy Slasher"
+	},
+	"Tortoceratops": {
+		"egg": false,
+		"skill": "Defender"
+	},
+	"Cauldragon": {
+		"egg": false,
+		"skill": "Stinker",
+		"randomSkills": [
+			"Attack Booster I",
+			"Sleep Suppressor"
+		],
+		"scoutable": true
+	},
+	"Green Dragon": {
+		"egg": false,
+		"skill": "Blazer",
+		"randomSkills": [
+			"Attack Booster I",
+			"Frizz Ward"
+		],
+		"scoutable": true
+	},
+	"Gasbagon": {
+		"egg": true,
+		"eggColor": "Silver",
+		"skill": "Blazer",
+		"randomSkills": [
+			"Attack Booster I",
+			"Antimagic Avoider"
+		],
+		"scoutable": true
+	},
+	"Lumbering Lizard": {
+		"egg": false,
+		"skill": "Nature Child",
+		"scoutable": true
+	},
+	"Mandrake Major": {
+		"egg": false,
+		"skill": "Soggy Slasher",
+		"randomSkills": [
+			"Attack Booster I",
+			"Drain Dodger"
+		],
+		"scoutable": true
+	},
+	"Axesaurus": {
+		"egg": false,
+		"skill": "Spicy Slasher"
+	},
+	"Great Argon Lizard": {
+		"egg": false,
+		"skill": "Hulk"
+	},
+	"Boreal Serpent": {
+		"egg": false,
+		"skill": "Chilly Receptionist"
+	},
+	"Tundragster": {
+		"egg": false,
+		"skill": "Paragon"
+	},
+	"Saltwater Stallion": {
+		"egg": false,
+		"skill": "Pop Idol"
+	},
+	"Dragon Rider": {
+		"egg": false,
+		"skill": "Charge Leader",
+		"randomSkills": [
+			"Agility Booster I",
+			"Crag Ward"
+		],
+		"scoutable": true
+	},
+	"Abyss Diver": {
+		"egg": false,
+		"skill": "Shallow Breather"
+	},
+	"Metal Dragon": {
+		"egg": false,
+		"skill": "Protector"
+	},
+	"Wyvern": {
+		"egg": false,
+		"skill": "Blusterer"
+	},
+	"Chihuawyrm": {
+		"egg": true,
+		"eggColor": "Gold",
+		"skill": "Super Naturalist"
+	},
+	"Wyrtoise": {
+		"egg": false,
+		"skill": "Fire Chief",
+		"scoutable": true
+	},
+	"Liege Lizard": {
+		"egg": false,
+		"skill": "Pyrotechnician"
+	},
+	"Flapdragon": {
+		"egg": false,
+		"skill": "Demoniac",
+		"randomSkills": [
+			"Sleep Suppressor",
+			"Confusion Controller"
+		],
+		"scoutable": true
+	},
+	"Crowgre": {
+		"egg": false,
+		"skill": "Snow Drifter"
+	},
+	"Tyrannoceratops": {
+		"egg": false,
+		"skill": "Fire Chief"
+	},
+	"Noble Gasbagon": {
+		"egg": false,
+		"skill": "Bombshell",
+		"scoutable": true
+	},
+	"Bobonga": {
+		"egg": false,
+		"skill": "Fire Chief"
+	},
+	"Heligator": {
+		"egg": false,
+		"skill": "Mariner",
+		"randomSkills": [
+			"Agility Booster I",
+			"Crag Ward"
+		],
+		"scoutable": true
+	},
+	"Drakulard": {
+		"egg": false,
+		"skill": "Wrecker"
+	},
+	"Great Dragon": {
+		"egg": false,
+		"skill": "Respirator"
+	},
+	"Mandrake Marshal": {
+		"egg": false,
+		"skill": "Bobby Dazzler"
+	},
+	"Dread Dragooner": {
+		"egg": false,
+		"skill": "Agent Provocateur"
+	},
+	"Hacksaurus": {
+		"egg": false,
+		"skill": "Firebrand"
+	},
+	"Avarith": {
+		"egg": false,
+		"skill": "Smarty-Pants"
+	},
+	"Black Dragon": {
+		"egg": false,
+		"skill": "Pyrotechnician"
+	},
+	"Orochi": {
+		"egg": false,
+		"skill": "Pyrotechnician"
+	},
+	"Iron Tortoise": {
+		"egg": false,
+		"skill": "Protector"
+	},
+	"Rashaverak": {
+		"egg": true,
+		"eggColor": "Rainbow",
+		"skill": "Bad Breather"
+	},
+	"Royal Reptile": {
+		"egg": false,
+		"skill": "Sovereign"
+	},
+	"King Hydra": {
+		"egg": false,
+		"skill": "Bad Breather"
+	},
+	"Clawvus": {
+		"egg": false,
+		"skill": "Mystic"
+	},
+	"Infernal Serpent": {
+		"egg": false,
+		"skill": "Pyrotechnician"
+	},
+	"Silver Serpent": {
+		"egg": false,
+		"skill": "Walking Disaster"
+	},
+	"Dread Dragon": {
+		"egg": false,
+		"skill": "Bad Breather"
+	},
+	"Serpent Of The Scales": {
+		"egg": true,
+		"eggColor": "Rainbow",
+		"skill": "Breath Worker"
+	},
+	"Mechan-O'-Wyrm": {
+		"egg": false,
+		"skill": "Altruist"
+	},
+	"The Dragonlord": {
+		"egg": false,
+		"skill": "Sovereign",
+		"randomSkills": [
+			"Dragonlord"
+		]
+	},
+	"Greygnarl": {
+		"egg": false,
+		"skill": "Greygnarl"
+	},
+	"Wyrmhole Dragon": {
+		"egg": false,
+		"skill": "Wyrmhole Dragon"
+	},
+	"Abyssal Dragon": {
+		"egg": false,
+		"skill": "Bad Breather"
+	},
+	"Barbarus": {
+		"egg": false,
+		"skill": "Barbarus"
+	},
+	"True Dragonlord": {
+		"egg": false
+	},
+	"Xenlon": {
+		"egg": false,
+		"skill": "Xenlon"
+	},
+	"Lord Of The Dragovians": {
+		"egg": false,
+		"skill": "Lord Of The Dragovians"
+	},
+	"Stark Raven": {
+		"egg": false,
+		"skill": "Blusterer",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Bedazzlement Blocker"
+		],
+		"scoutable": true
+	},
+	"Bantamweight": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Hulk",
+		"randomSkills": [
+			"Defence Booster I",
+			"Debilitation Ducker"
+		],
+		"scoutable": true
+	},
+	"Ornery Onion": {
+		"egg": false,
+		"skill": "Nature Child"
+	},
+	"Killerpillar": {
+		"egg": false,
+		"skill": "Hive Mind",
+		"randomSkills": [
+			"Defence Booster I",
+			"Zam Ward"
+		],
+		"scoutable": true
+	},
+	"Capsichum": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Willing Helper",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Antimagic Avoider"
+		],
+		"scoutable": true
+	},
+	"Cruelcumber": {
+		"egg": false,
+		"skill": "Blowy Slasher"
+	},
+	"Mad Mollusk": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Tongue Twister",
+		"randomSkills": [
+			"MP Booster I",
+			"Debilitation Ducker"
+		],
+		"scoutable": true
+	},
+	"Woebergine": {
+		"egg": false,
+		"skill": "Dancer",
+		"randomSkills": [
+			"MP Booster I",
+			"Confusion Controller"
+		],
+		"scoutable": true
+	},
+	"Bludgerigar": {
+		"egg": false,
+		"skill": "Blusterer"
+	},
+	"Khalamari Kid": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Aquapothecary",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Drain Dodger"
+		],
+		"scoutable": true
+	},
+	"Toady": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Splash Afficionado",
+		"randomSkills": [
+			"Attack Booster I",
+			"Poison Preventer"
+		],
+		"scoutable": true
+	},
+	"Bullfinch": {
+		"egg": false,
+		"skill": "Wild Child"
+	},
+	"Suckling Ocker": {
+		"egg": false,
+		"skill": "Soggy Slasher"
+	},
+	"Cyclown": {
+		"egg": false,
+		"skill": "Woosh Afficionado",
+		"randomSkills": [
+			"Agility Booster I",
+			"Woosh Guard"
+		],
+		"scoutable": true
+	},
+	"Garuda": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Sizz Afficionado",
+		"randomSkills": [
+			"Agility Booster I",
+			"Poison Preventer"
+		],
+		"scoutable": true
+	},
+	"Odd Cob": {
+		"egg": false,
+		"skill": "Willing Helper",
+		"randomSkills": [
+			"Attack Booster I",
+			"Crag Ward"
+		],
+		"scoutable": true
+	},
+	"Cactiball": {
+		"egg": false,
+		"skill": "Blowy Slasher",
+		"randomSkills": [
+			"Agility Booster I",
+			"Confusion Controller"
+		],
+		"scoutable": true
+	},
+	"Pogoin' Penguin": {
+		"egg": false,
+		"skill": "Choreographer",
+		"randomSkills": [
+			"HP Booster I",
+			"Splish Ward"
+		],
+		"scoutable": true
+	},
+	"Mitey Oak": {
+		"egg": false,
+		"skill": "Martyr"
+	},
+	"Scissor Beatle": {
+		"egg": false,
+		"skill": "Hive Mind"
+	},
+	"Bagworm": {
+		"egg": false,
+		"skill": "Defender",
+		"randomSkills": [
+			"Defence Booster I",
+			"Confusion Controller"
+		],
+		"scoutable": true
+	},
+	"Leafy Larrikin": {
+		"egg": false,
+		"skill": "Spicy Slasher",
+		"randomSkills": [
+			"Defence Booster I",
+			"Sizz Ward"
+		],
+		"scoutable": true
+	},
+	"Puffpoise": {
+		"egg": true,
+		"eggColor": "Silver",
+		"skill": "Splash Afficionado",
+		"randomSkills": [
+			"MP Booster I",
+			"Drain Dodger"
+		],
+		"scoutable": true
+	},
+	"Chimaera": {
+		"egg": false,
+		"skill": "Paramedic"
+	},
+	"Scornet": {
+		"egg": false,
+		"skill": "Hive Mind"
+	},
+	"Crabid": {
+		"egg": true,
+		"eggColor": "Silver",
+		"skill": "Defender",
+		"randomSkills": [
+			"Defence Booster I",
+			"Zam Ward"
+		],
+		"scoutable": true
+	},
+	"Octopot": {
+		"egg": false,
+		"skill": "Soggy Slasher"
+	},
+	"Parched Peckerel": {
+		"egg": false,
+		"skill": "Speedster"
+	},
+	"Weaken Beakon": {
+		"egg": false,
+		"skill": "Irritant"
+	},
+	"Barracuda": {
+		"egg": true,
+		"eggColor": "Silver",
+		"skill": "Splash Afficionado"
+	},
+	"Beanie Meanie": {
+		"egg": false,
+		"skill": "Blowy Slasher"
+	},
+	"Tree Feller": {
+		"egg": true,
+		"eggColor": "Silver",
+		"skill": "Paramedic"
+	},
+	"Awebergine": {
+		"egg": false,
+		"skill": "Vexologist",
+		"randomSkills": [
+			"Attack Booster I",
+			"Woosh Guard"
+		],
+		"scoutable": true
+	},
+	"Rockin' Rockhopper": {
+		"egg": false,
+		"skill": "Vexologist"
+	},
+	"Spinchilla": {
+		"egg": false,
+		"skill": "Water Baby",
+		"randomSkills": [
+			"Agility Booster I",
+			"Bedazzlement Blocker"
+		],
+		"scoutable": true
+	},
+	"Dangler Fish": {
+		"egg": false,
+		"skill": "Anaesthetist"
+	},
+	"Mortoad": {
+		"egg": true,
+		"eggColor": "Silver",
+		"skill": "Bombshell"
+	},
+	"Zaptile": {
+		"egg": false,
+		"skill": "Zap Afficionado",
+		"randomSkills": [
+			"Frizz Ward",
+			"Zap Ward"
+		],
+		"scoutable": true
+	},
+	"Brimstone Bulb": {
+		"egg": false,
+		"skill": "Evil Genius"
+	},
+	"Mangleclaw": {
+		"egg": false,
+		"skill": "Cold Snapper",
+		"scoutable": true
+	},
+	"Palooka Prawn": {
+		"egg": false,
+		"skill": "Protector"
+	},
+	"Tuskateer": {
+		"egg": false,
+		"skill": "Hulk"
+	},
+	"Carnivine": {
+		"egg": false,
+		"skill": "Nuisance",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Woosh Guard"
+		],
+		"scoutable": true
+	},
+	"Hades' Condor": {
+		"egg": false,
+		"skill": "Cure-All"
+	},
+	"Tartarus Eagle": {
+		"egg": false,
+		"skill": "Snow Drifter"
+	},
+	"Grillerpillar": {
+		"egg": false,
+		"skill": "Fire Chief",
+		"scoutable": true
+	},
+	"Tufty Tot": {
+		"egg": false,
+		"skill": "Pop Diva",
+		"scoutable": true
+	},
+	"Armoured Scorpion": {
+		"egg": false,
+		"skill": "Mouth Guard",
+		"scoutable": true
+	},
+	"Crabber Dabber Doo": {
+		"egg": false,
+		"skill": "Mouth Guard",
+		"randomSkills": [
+			"Defence Booster I",
+			"Sizz Ward"
+		],
+		"scoutable": true
+	},
+	"King Squid": {
+		"egg": false,
+		"skill": "Mariner"
+	},
+	"Overtoad": {
+		"egg": false,
+		"skill": "Respirator",
+		"scoutable": true
+	},
+	"Fandangow": {
+		"egg": false,
+		"skill": "Party Monster"
+	},
+	"Scourgette": {
+		"egg": true,
+		"eggColor": "Gold",
+		"skill": "Smarty-Pants"
+	},
+	"Roistering Rooster": {
+		"egg": false,
+		"skill": "Vaudevillan",
+		"scoutable": true
+	},
+	"Belisha Beakon": {
+		"egg": false,
+		"skill": "Doomsayer"
+	},
+	"Clobster": {
+		"egg": false,
+		"skill": "Protector"
+	},
+	"Cosmic Chimaera": {
+		"egg": true,
+		"eggColor": "Gold",
+		"skill": "Vaudevillan",
+		"randomSkills": [
+			"Defence Booster I",
+			"Woosh Guard"
+		],
+		"scoutable": true
+	},
+	"Tuffpoise": {
+		"egg": false,
+		"skill": "Water Baby"
+	},
+	"Firebird": {
+		"egg": true,
+		"eggColor": "Gold",
+		"skill": "Fire Chief",
+		"randomSkills": [
+			"Attack Booster I",
+			"Antimagic Avoider"
+		],
+		"scoutable": true
+	},
+	"Fowl Beast": {
+		"egg": false,
+		"skill": "Firebrand",
+		"randomSkills": [
+			"Agility Booster I",
+			"Sleep Suppressor"
+		],
+		"scoutable": true
+	},
+	"Foebergine": {
+		"egg": false,
+		"skill": "Party Monster"
+	},
+	"Baleen Mage": {
+		"egg": false,
+		"skill": "Smarty-Pants",
+		"randomSkills": [
+			"HP Booster I",
+			"Splish Ward"
+		],
+		"scoutable": true
+	},
+	"Snowbird": {
+		"egg": false,
+		"skill": "Cold Snapper",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Bedazzlement Blocker"
+		],
+		"scoutable": true
+	},
+	"Gangleclaw": {
+		"egg": false,
+		"skill": "Snow Drifter"
+	},
+	"Tentacular": {
+		"egg": true,
+		"eggColor": "Rainbow",
+		"skill": "Walking Disaster"
+	},
+	"Phoenix": {
+		"egg": true,
+		"eggColor": "Rainbow",
+		"skill": "Mystic"
+	},
+	"Metal Scorpion": {
+		"egg": false,
+		"skill": "Protector"
+	},
+	"Gripevine": {
+		"egg": true,
+		"eggColor": "Rainbow",
+		"skill": "Devil's Advocate"
+	},
+	"Prism Peacock": {
+		"egg": false,
+		"skill": "Breath Worker"
+	},
+	"Snipevine": {
+		"egg": false,
+		"skill": "Breath Worker"
+	},
+	"Antguzzler": {
+		"egg": false,
+		"skill": "Power Player",
+		"randomSkills": [
+			"Attack Booster I",
+			"Stun Stopper"
+		],
+		"scoutable": true
+	},
+	"Mischievous Mole": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Prankster",
+		"randomSkills": [
+			"Defence Booster I",
+			"Crag Ward"
+		],
+		"scoutable": true
+	},
+	"Bunicorn": {
+		"egg": false,
+		"skill": "Naturalist",
+		"randomSkills": [
+			"HP Booster I",
+			"Paralysis Protector"
+		],
+		"scoutable": true
+	},
+	"Hammerhood": {
+		"egg": false,
+		"skill": "Power Player"
+	},
+	"Fat Rat": {
+		"egg": false,
+		"skill": "Crag Afficionado"
+	},
+	"Pan Piper": {
+		"egg": false,
+		"skill": "Dancer"
+	},
+	"Candy Cat": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Enfeebler",
+		"randomSkills": [
+			"Agility Booster I",
+			"Crag Ward"
+		],
+		"scoutable": true
+	},
+	"Sham Hatwitch": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Shallow Breather",
+		"randomSkills": [
+			"HP Booster I",
+			"Drain Dodger"
+		],
+		"scoutable": true
+	},
+	"Feralball": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Blowy Slasher",
+		"randomSkills": [
+			"HP Booster I",
+			"Woosh Guard"
+		],
+		"scoutable": true
+	},
+	"Great Sabrecub": {
+		"egg": false,
+		"skill": "Naturalist",
+		"randomSkills": [
+			"Agility Booster I",
+			"Woosh Guard"
+		],
+		"scoutable": true
+	},
+	"Mouseflap": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Blusterer",
+		"randomSkills": [
+			"Agility Booster I",
+			"Poison Preventer"
+		],
+		"scoutable": true
+	},
+	"Platypunk": {
+		"egg": false,
+		"skill": "Naturalist"
+	},
+	"Powie Yowie": {
+		"egg": false,
+		"skill": "Chilly Receptionist"
+	},
+	"Orc": {
+		"egg": false,
+		"skill": "Speedster"
+	},
+	"Vampire Cat": {
+		"egg": false,
+		"skill": "Antimagician",
+		"randomSkills": [
+			"Agility Booster I",
+			"Stun Stopper"
+		],
+		"scoutable": true
+	},
+	"Guaardvark": {
+		"egg": false,
+		"skill": "Thrill-Seeker",
+		"randomSkills": [
+			"MP Booster I",
+			"Bang Ward"
+		],
+		"scoutable": true
+	},
+	"Weartiger": {
+		"egg": false,
+		"skill": "Stony Slasher"
+	},
+	"Robber Rabbit": {
+		"egg": false,
+		"skill": "Cutpurse"
+	},
+	"Sunset Sultan": {
+		"egg": false,
+		"skill": "Breath Taker"
+	},
+	"Hawk Man": {
+		"egg": false,
+		"skill": "Dark Artist"
+	},
+	"Boppin' Badger": {
+		"egg": false,
+		"skill": "Dancer"
+	},
+	"Napir": {
+		"egg": false,
+		"skill": "Sleep Counsellor"
+	},
+	"Spiked Hare": {
+		"egg": false,
+		"skill": "Irritant"
+	},
+	"Ratatattack": {
+		"egg": false,
+		"skill": "Prankster"
+	},
+	"Jumping Jackal": {
+		"egg": false,
+		"skill": "Martial Maven",
+		"randomSkills": [
+			"Agility Booster I",
+			"Drain Dodger"
+		],
+		"scoutable": true
+	},
+	"Ursa Major": {
+		"egg": false,
+		"skill": "Wild Child",
+		"randomSkills": [
+			"Attack Booster I",
+			"Zam Ward"
+		],
+		"scoutable": true
+	},
+	"Dark Sabrecub": {
+		"egg": false,
+		"skill": "Cutpurse",
+		"randomSkills": [
+			"Defence Booster I",
+			"Confusion Controller"
+		],
+		"scoutable": true
+	},
+	"Splatypunk": {
+		"egg": false,
+		"skill": "Prankster",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Bedazzlement Blocker"
+		],
+		"scoutable": true
+	},
+	"Ham Shamwitch": {
+		"egg": false,
+		"skill": "Shallow Breather"
+	},
+	"Meowgician": {
+		"egg": false,
+		"skill": "Frizz Afficionado"
+	},
+	"Cross Eye": {
+		"egg": false,
+		"skill": "Crack Afficionado"
+	},
+	"Brownie": {
+		"egg": false,
+		"skill": "Outlaw",
+		"randomSkills": [
+			"Attack Booster I",
+			"Poison Preventer"
+		],
+		"scoutable": true
+	},
+	"Jailcat": {
+		"egg": false,
+		"skill": "Crack Afficionado",
+		"randomSkills": [
+			"HP Booster I",
+			"Bedazzlement Blocker"
+		],
+		"scoutable": true
+	},
+	"Rotten Cotton": {
+		"egg": false,
+		"skill": "Cupid"
+	},
+	"Ripped Rabbit": {
+		"egg": false,
+		"skill": "Wild Child"
+	},
+	"Missing Lynx": {
+		"egg": false,
+		"skill": "Super Naturalist",
+		"scoutable": true
+	},
+	"Gargoyle": {
+		"egg": false,
+		"skill": "Speedster",
+		"scoutable": true
+	},
+	"Great Sabrecat": {
+		"egg": false,
+		"skill": "Maniac"
+	},
+	"Giruffian": {
+		"egg": false,
+		"skill": "Martial Maven"
+	},
+	"Warhog": {
+		"egg": false,
+		"skill": "Fighter"
+	},
+	"Sweaty Yeti": {
+		"egg": false,
+		"skill": "Blazer",
+		"randomSkills": [
+			"HP Booster I",
+			"Bang Ward"
+		],
+		"scoutable": true
+	},
+	"Calypso King": {
+		"egg": false,
+		"skill": "Hottie",
+		"randomSkills": [
+			"Defence Booster I",
+			"Sizz Ward"
+		],
+		"scoutable": true
+	},
+	"Cheater Cheetah": {
+		"egg": false,
+		"skill": "Super Naturalist",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Death Defier"
+		],
+		"scoutable": true
+	},
+	"Ewwnicorn": {
+		"egg": false,
+		"skill": "Heavenly Herald"
+	},
+	"Night Emperor": {
+		"egg": false,
+		"skill": "Nuisance"
+	},
+	"Rhinoceraxe": {
+		"egg": false,
+		"skill": "Duelist"
+	},
+	"Hellion": {
+		"egg": false,
+		"skill": "Paragon"
+	},
+	"Hyperboarean": {
+		"egg": false,
+		"skill": "Paragon"
+	},
+	"Orc King": {
+		"egg": true,
+		"eggColor": "Gold",
+		"skill": "Bobby Dazzler",
+		"randomSkills": [
+			"HP Booster I",
+			"Crag Ward"
+		],
+		"scoutable": true
+	},
+	"Maniacal Mole": {
+		"egg": false,
+		"skill": "Maniac",
+		"randomSkills": [
+			"Attack Booster I",
+			"Debilitation Ducker"
+		],
+		"scoutable": true
+	},
+	"Notso Macho": {
+		"egg": false,
+		"skill": "Slayer"
+	},
+	"Greater Platypunk": {
+		"egg": false,
+		"skill": "Party Monster",
+		"scoutable": true
+	},
+	"Dark Hare": {
+		"egg": false,
+		"skill": "Hardliner",
+		"randomSkills": [
+			"Attack Booster I",
+			"Antimagic Avoider"
+		],
+		"scoutable": true
+	},
+	"Gnumesis": {
+		"egg": false,
+		"skill": "Wrecker",
+		"scoutable": true
+	},
+	"Jowler": {
+		"egg": false,
+		"skill": "Paragon"
+	},
+	"Luneyetic": {
+		"egg": false,
+		"skill": "Nuisance"
+	},
+	"Draguar": {
+		"egg": false,
+		"skill": "Snow Drifter"
+	},
+	"Dark Sabrecat": {
+		"egg": false,
+		"skill": "Blighter",
+		"scoutable": true
+	},
+	"Mogus": {
+		"egg": false,
+		"skill": "Strong Speller",
+		"randomSkills": [
+			"Agility Booster I",
+			"Sizz Ward"
+		],
+		"scoutable": true
+	},
+	"Ursa Mega": {
+		"egg": false,
+		"skill": "Wrecker"
+	},
+	"Tigergram": {
+		"egg": true,
+		"eggColor": "Gold",
+		"skill": "Super Naturalist"
+	},
+	"Don Mole": {
+		"egg": true,
+		"eggColor": "Gold",
+		"skill": "Party Monster"
+	},
+	"Buffalogre": {
+		"egg": false,
+		"skill": "Musclehead"
+	},
+	"Abominable Showman": {
+		"egg": true,
+		"eggColor": "Gold",
+		"skill": "Vaudevillan",
+		"randomSkills": [
+			"HP Booster I",
+			"Bang Ward"
+		],
+		"scoutable": true
+	},
+	"Mohawker": {
+		"egg": true,
+		"eggColor": "Gold",
+		"skill": "Super Naturalist",
+		"randomSkills": [
+			"Defence Booster I",
+			"Bedazzlement Blocker"
+		],
+		"scoutable": true
+	},
+	"Tantamount": {
+		"egg": true,
+		"eggColor": "Gold",
+		"skill": "Lightning Rod",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Paralysis Protector"
+		],
+		"scoutable": true
+	},
+	"Purrgatroyd": {
+		"egg": false,
+		"skill": "Multidisciplinarian"
+	},
+	"Equinox": {
+		"egg": false,
+		"skill": "Dark Horse"
+	},
+	"Ronin Raccoon": {
+		"egg": false,
+		"skill": "Vegabond",
+		"scoutable": true
+	},
+	"Gnuriel": {
+		"egg": false,
+		"skill": "Musclehead"
+	},
+	"Macho Picchu": {
+		"egg": true,
+		"eggColor": "Rainbow",
+		"skill": "Pest Controller"
+	},
+	"Evil Sir Leopold": {
+		"egg": true,
+		"eggColor": "Rainbow",
+		"skill": "Bad Breather"
+	},
+	"Greater Platypink": {
+		"egg": false,
+		"skill": "Rug Cutter"
+	},
+	"Marquis De Léon": {
+		"egg": true,
+		"eggColor": "Rainbow",
+		"skill": "Pest Controller"
+	},
+	"Eggsoskeleton": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Materialist",
+		"randomSkills": [
+			"Attack Booster I",
+			"Antimagic Avoider"
+		],
+		"scoutable": true
+	},
+	"Cumaulus": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Woosh Afficionado",
+		"randomSkills": [
+			"MP Booster I",
+			"Drain Dodger"
+		],
+		"scoutable": true
+	},
+	"String Fella": {
+		"egg": false,
+		"skill": "Vexologist"
+	},
+	"Spitnik": {
+		"egg": false,
+		"skill": "Sizz Afficionado"
+	},
+	"Bambooligan": {
+		"egg": false,
+		"skill": "Blowy Slasher",
+		"randomSkills": [
+			"HP Booster I",
+			"Paralysis Protector"
+		],
+		"scoutable": true
+	},
+	"Sacksquatch": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Crag Afficionado",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Debilitation Ducker"
+		],
+		"scoutable": true
+	},
+	"Mud Mannequin": {
+		"egg": false,
+		"skill": "Dancer"
+	},
+	"Fromage Fray": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Stony Slasher",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Drain Dodger"
+		],
+		"scoutable": true
+	},
+	"Mecha-Mynah": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Woosh Afficionado",
+		"randomSkills": [
+			"Defence Booster I",
+			"Paralysis Protector"
+		],
+		"scoutable": true
+	},
+	"Lampling": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Frizz Afficionado",
+		"randomSkills": [
+			"Agility Booster I",
+			"Poison Preventer"
+		],
+		"scoutable": true
+	},
+	"Bag O' Laughs": {
+		"egg": false,
+		"skill": "Enfeebler"
+	},
+	"Foo Dog": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Wild Child",
+		"randomSkills": [
+			"HP Booster I",
+			"Sizz Ward"
+		],
+		"scoutable": true
+	},
+	"Horrifying Saucers": {
+		"egg": false,
+		"skill": "Thrill-Seeker"
+	},
+	"Chocolate Golem": {
+		"egg": false,
+		"skill": "Materialist"
+	},
+	"Disfigurine": {
+		"egg": false,
+		"skill": "Stony Slasher",
+		"randomSkills": [
+			"Attack Booster I",
+			"Stun Stopper"
+		],
+		"scoutable": true
+	},
+	"Bongo Drongo": {
+		"egg": false,
+		"skill": "Fortifier",
+		"randomSkills": [
+			"Attack Booster I",
+			"Zam Ward"
+		],
+		"scoutable": true
+	},
+	"Avian Android": {
+		"egg": false,
+		"skill": "Assassin"
+	},
+	"Mudraker": {
+		"egg": false,
+		"skill": "Materialist"
+	},
+	"Erazor Blade": {
+		"egg": false,
+		"skill": "Blade Maven",
+		"randomSkills": [
+			"Attack Booster I",
+			"Woosh Guard"
+		],
+		"scoutable": true
+	},
+	"Cannibox": {
+		"egg": false,
+		"skill": "Thrill-Seeker",
+		"randomSkills": [
+			"MP Booster I",
+			"Splish Ward"
+		],
+		"scoutable": true
+	},
+	"Pocus Poppet": {
+		"egg": false,
+		"skill": "Irritant",
+		"randomSkills": [
+			"Defence Booster I",
+			"Confusion Controller"
+		],
+		"scoutable": true
+	},
+	"Hunter Mech": {
+		"egg": false,
+		"skill": "Blade Maven"
+	},
+	"Well Wisher": {
+		"egg": false,
+		"skill": "Assassin"
+	},
+	"Prancing Pillar": {
+		"egg": false,
+		"skill": "Frizz Afficionado"
+	},
+	"Goodybag": {
+		"egg": false,
+		"skill": "Enfeebler"
+	},
+	"Clockwork Cuckoo": {
+		"egg": false,
+		"skill": "Blusterer",
+		"randomSkills": [
+			"HP Booster I",
+			"Bedazzlement Blocker"
+		],
+		"scoutable": true
+	},
+	"Brollygagger": {
+		"egg": false,
+		"skill": "Hexcommunicator",
+		"randomSkills": [
+			"Agility Booster I",
+			"Bang Ward"
+		],
+		"scoutable": true
+	},
+	"Luminous Lampling": {
+		"egg": true,
+		"eggColor": "Silver",
+		"skill": "Sizz Afficionado"
+	},
+	"Fromage Fey": {
+		"egg": false,
+		"skill": "Mad Scientist",
+		"scoutable": true
+	},
+	"Escudogre": {
+		"egg": false,
+		"skill": "Barricade"
+	},
+	"Harmour": {
+		"egg": false,
+		"skill": "Blade Maven",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Bedazzlement Blocker"
+		],
+		"scoutable": true
+	},
+	"Rockbomb": {
+		"egg": true,
+		"eggColor": "Silver",
+		"skill": "Martyr",
+		"randomSkills": [
+			"Defence Booster I",
+			"Antimagic Avoider"
+		],
+		"scoutable": true
+	},
+	"Hell Niño": {
+		"egg": false,
+		"skill": "Frizz Afficionado",
+		"randomSkills": [
+			"MP Booster I",
+			"Debilitation Ducker"
+		],
+		"scoutable": true
+	},
+	"Freezing Fog": {
+		"egg": true,
+		"eggColor": "Silver",
+		"skill": "Crack Afficionado",
+		"randomSkills": [
+			"MP Booster I",
+			"Stun Stopper"
+		],
+		"scoutable": true
+	},
+	"Killing Machine": {
+		"egg": false,
+		"skill": "Duelist"
+	},
+	"Abracadabrador": {
+		"egg": false,
+		"skill": "Super Naturalist",
+		"randomSkills": [
+			"HP Booster I",
+			"Zap Ward"
+		],
+		"scoutable": true
+	},
+	"Coralossus": {
+		"egg": false,
+		"skill": "Protector"
+	},
+	"Paralyslicer": {
+		"egg": false,
+		"skill": "Anaesthetist"
+	},
+	"Stone Golem": {
+		"egg": false,
+		"skill": "Materialist",
+		"randomSkills": [
+			"Attack Booster I",
+			"Zap Ward"
+		],
+		"scoutable": true
+	},
+	"Shivery Shrubbery": {
+		"egg": false,
+		"skill": "Demoniac",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Crack Ward"
+		],
+		"scoutable": true
+	},
+	"Saccharine Sacksquatch": {
+		"egg": false,
+		"skill": "Sweet-Talker",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Paralysis Protector"
+		],
+		"scoutable": true
+	},
+	"Firn Fiend": {
+		"egg": false,
+		"skill": "Chilly Receptionist",
+		"scoutable": true
+	},
+	"Bag O' Tricks": {
+		"egg": false,
+		"skill": "Choreographer",
+		"randomSkills": [
+			"Defence Booster I",
+			"Death Defier"
+		],
+		"scoutable": true
+	},
+	"Frostburn": {
+		"egg": false,
+		"skill": "Chilly Receptionist"
+	},
+	"Dancing Flame": {
+		"egg": false,
+		"skill": "Blazer",
+		"scoutable": true
+	},
+	"Magmalice": {
+		"egg": false,
+		"skill": "Blazer"
+	},
+	"Living Statue": {
+		"egg": false,
+		"skill": "Musclehead",
+		"randomSkills": [
+			"Attack Booster I",
+			"Stun Stopper"
+		],
+		"scoutable": true
+	},
+	"Graven Idol": {
+		"egg": true,
+		"eggColor": "Gold",
+		"skill": "Enigma",
+		"randomSkills": [
+			"Defence Booster I",
+			"Zam Ward"
+		],
+		"scoutable": true
+	},
+	"Bag O' Sweets": {
+		"egg": false,
+		"skill": "Devil's Advocate"
+	},
+	"Flying Saucers": {
+		"egg": false,
+		"skill": "Doomsayer",
+		"scoutable": true
+	},
+	"Blue Moon": {
+		"egg": false,
+		"skill": "Enigma"
+	},
+	"Blizzybody": {
+		"egg": false,
+		"skill": "Cold Snapper"
+	},
+	"Flamethrower": {
+		"egg": false,
+		"skill": "Firebrand"
+	},
+	"Bongo Fandango": {
+		"egg": false,
+		"skill": "Party Monster"
+	},
+	"Mimic": {
+		"egg": false,
+		"skill": "Evil Genius",
+		"randomSkills": [
+			"MP Booster I",
+			"Paralysis Protector"
+		],
+		"scoutable": true
+	},
+	"Bomboulder": {
+		"egg": false,
+		"skill": "Rockin’ Roller"
+	},
+	"Face Invader": {
+		"egg": false,
+		"skill": "Firebrand",
+		"randomSkills": [
+			"Defence Booster I",
+			"Debilitation Ducker"
+		],
+		"scoutable": true
+	},
+	"Bamboogieman": {
+		"egg": false,
+		"skill": "Leading Light"
+	},
+	"Buntzenberner": {
+		"egg": false,
+		"skill": "Doomsayer"
+	},
+	"Hard-Boiled Eggsoskeleton": {
+		"egg": false,
+		"skill": "Bombshell"
+	},
+	"Balhib": {
+		"egg": false,
+		"skill": "Just Ruler"
+	},
+	"Golem": {
+		"egg": false,
+		"skill": "Rockin’ Roller"
+	},
+	"Alarmour": {
+		"egg": false,
+		"skill": "Duelist"
+	},
+	"Admirer": {
+		"egg": false,
+		"skill": "Enigma",
+		"randomSkills": [
+			"HP Booster I",
+			"Drain Dodger"
+		],
+		"scoutable": true
+	},
+	"Snowgre": {
+		"egg": false,
+		"skill": "Freeze"
+	},
+	"Ne'er-Do-Well": {
+		"egg": false,
+		"skill": "Destroyer"
+	},
+	"A3G15": {
+		"egg": false,
+		"skill": "Destroyer"
+	},
+	"King Foo Dog": {
+		"egg": false,
+		"skill": "Hardliner"
+	},
+	"Overkilling Machine": {
+		"egg": true,
+		"eggColor": "Rainbow",
+		"skill": "Maniac"
+	},
+	"Trauminator": {
+		"egg": false,
+		"skill": "Multidisciplinarian"
+	},
+	"Great Keeper": {
+		"egg": false,
+		"skill": "Altruist"
+	},
+	"Pandora's Box": {
+		"egg": false,
+		"skill": "Grump"
+	},
+	"Uberkilling Machine": {
+		"egg": false,
+		"skill": "Uberkilling Machine"
+	},
+	"Winky": {
+		"egg": false,
+		"skill": "Antimagician"
+	},
+	"Gremlin": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Paramedic",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Frizz Ward"
+		],
+		"scoutable": true
+	},
+	"Leery Lout": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Defender",
+		"randomSkills": [
+			"Defence Booster I",
+			"Antimagic Avoider"
+		],
+		"scoutable": true
+	},
+	"Dracky": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Zam Afficionado",
+		"randomSkills": [
+			"MP Booster I",
+			"Bang Ward"
+		],
+		"scoutable": true
+	},
+	"Lump Wizard": {
+		"egg": false,
+		"skill": "Woosh Afficionado"
+	},
+	"Picksy": {
+		"egg": false,
+		"skill": "Soothesayer"
+	},
+	"Blinkster": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Magic Maven",
+		"randomSkills": [
+			"MP Booster I",
+			"Sizz Ward"
+		],
+		"scoutable": true
+	},
+	"Lunatick": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Thrill-Seeker",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Crack Ward"
+		],
+		"scoutable": true
+	},
+	"Teeny Sanguini": {
+		"egg": false,
+		"skill": "Dark Artist",
+		"randomSkills": [
+			"Agility Booster I",
+			"Death Defier"
+		],
+		"scoutable": true
+	},
+	"Lips": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Tongue Twister",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Bedazzlement Blocker"
+		],
+		"scoutable": true
+	},
+	"Bodkin Archer": {
+		"egg": false,
+		"skill": "Assassin"
+	},
+	"Pickayune": {
+		"egg": false,
+		"skill": "Irritant"
+	},
+	"Cloud Surfer": {
+		"egg": false,
+		"skill": "Woosh Afficionado"
+	},
+	"Succubat": {
+		"egg": false,
+		"skill": "Charmer",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Antimagic Avoider"
+		],
+		"scoutable": true
+	},
+	"Hood": {
+		"egg": false,
+		"skill": "Outlaw"
+	},
+	"Whizzard": {
+		"egg": false,
+		"skill": "Woosh Afficionado"
+	},
+	"See Urchin": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Splash Afficionado",
+		"randomSkills": [
+			"HP Booster I",
+			"Debilitation Ducker"
+		],
+		"scoutable": true
+	},
+	"Dessert Demon": {
+		"egg": false,
+		"skill": "Bang Afficionado"
+	},
+	"Dancing Devil": {
+		"egg": false,
+		"skill": "Dancer"
+	},
+	"Imp": {
+		"egg": false,
+		"skill": "Dark Artist",
+		"scoutable": true
+	},
+	"Merman": {
+		"egg": false,
+		"skill": "Aquapothecary"
+	},
+	"Cannonbrawler": {
+		"egg": false,
+		"skill": "Bang Afficionado",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Sleep Suppressor"
+		],
+		"scoutable": true
+	},
+	"Ogre": {
+		"egg": false,
+		"skill": "Fighter"
+	},
+	"Lump Shaman": {
+		"egg": false,
+		"skill": "Sleep Counsellor",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Sizz Ward"
+		],
+		"scoutable": true
+	},
+	"Cyclops": {
+		"egg": false,
+		"skill": "Hulk",
+		"scoutable": true
+	},
+	"Hooper Trooper": {
+		"egg": false,
+		"skill": "Bang Afficionado",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Crag Ward"
+		],
+		"scoutable": true
+	},
+	"Sugar Baddie": {
+		"egg": false,
+		"skill": "Sweet-Talker",
+		"randomSkills": [
+			"Attack Booster I",
+			"Sleep Suppressor"
+		],
+		"scoutable": true
+	},
+	"Peeper": {
+		"egg": false,
+		"skill": "Antimagician",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Frizz Ward"
+		],
+		"scoutable": true
+	},
+	"Bodkin Fletcher": {
+		"egg": false,
+		"skill": "Toxicologist",
+		"scoutable": true
+	},
+	"Jinkster": {
+		"egg": false,
+		"skill": "Magic Maven",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Stun Stopper"
+		],
+		"scoutable": true
+	},
+	"Beleth": {
+		"egg": false,
+		"skill": "Hexcommunicator",
+		"randomSkills": [
+			"MP Booster I",
+			"Sizz Ward"
+		],
+		"scoutable": true
+	},
+	"Drackolyte": {
+		"egg": false,
+		"skill": "Sleep Counsellor",
+		"randomSkills": [
+			"MP Booster I",
+			"Bang Ward"
+		],
+		"scoutable": true
+	},
+	"Gryphon": {
+		"egg": false,
+		"skill": "Antimagician"
+	},
+	"Hypothermion": {
+		"egg": false,
+		"skill": "Evil Genius",
+		"randomSkills": [
+			"MP Booster I",
+			"Sizz Ward"
+		],
+		"scoutable": true
+	},
+	"Silvapithecus": {
+		"egg": false,
+		"skill": "Evil Genius"
+	},
+	"Psaro's Pawn": {
+		"egg": true,
+		"eggColor": "Silver",
+		"skill": "Frizz Afficionado"
+	},
+	"Kisser": {
+		"egg": false,
+		"skill": "Charmer",
+		"randomSkills": [
+			"HP Booster I",
+			"Crag Ward"
+		],
+		"scoutable": true
+	},
+	"Sculptrice": {
+		"egg": false,
+		"skill": "Demoniac",
+		"randomSkills": [
+			"Attack Booster I",
+			"Stun Stopper"
+		],
+		"scoutable": true
+	},
+	"Boss Troll": {
+		"egg": false,
+		"skill": "Paragon"
+	},
+	"Minidemon": {
+		"egg": false,
+		"skill": "Magic Maven"
+	},
+	"Knight Errant": {
+		"egg": false,
+		"skill": "Good Knight",
+		"randomSkills": [
+			"Agility Booster I",
+			"Crack Ward"
+		],
+		"scoutable": true
+	},
+	"Low Djinks": {
+		"egg": false,
+		"skill": "Enigma"
+	},
+	"Moosifer": {
+		"egg": false,
+		"skill": "Storm Chaser"
+	},
+	"Grim Keeper": {
+		"egg": false,
+		"skill": "Slayer",
+		"randomSkills": [
+			"Defence Booster I",
+			"Bedazzlement Blocker"
+		],
+		"scoutable": true
+	},
+	"Sintaur": {
+		"egg": false,
+		"skill": "Duelist",
+		"randomSkills": [
+			"Agility Booster I",
+			"Woosh Guard"
+		],
+		"scoutable": true
+	},
+	"The Time Being": {
+		"egg": false,
+		"skill": "Airhead"
+	},
+	"Gander": {
+		"egg": false,
+		"skill": "Mouth Guard"
+	},
+	"Swingre": {
+		"egg": false,
+		"skill": "Musclehead"
+	},
+	"Drackyma": {
+		"egg": false,
+		"skill": "Devil's Advocate"
+	},
+	"Togre": {
+		"egg": false,
+		"skill": "Charge Leader",
+		"randomSkills": [
+			"HP Booster I",
+			"Sizz Ward"
+		],
+		"scoutable": true
+	},
+	"Roseguardin": {
+		"egg": false,
+		"skill": "Bobby Dazzler"
+	},
+	"Goobonce": {
+		"egg": true,
+		"eggColor": "Gold",
+		"skill": "Devil's Advocate",
+		"scoutable": true
+	},
+	"Bloodbonnet": {
+		"egg": false,
+		"skill": "Devil's Advocate",
+		"scoutable": true
+	},
+	"Archdemon": {
+		"egg": true,
+		"eggColor": "Gold",
+		"skill": "Storm Chaser",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Bang Ward"
+		],
+		"scoutable": true
+	},
+	"Hocus-Poker": {
+		"egg": true,
+		"eggColor": "Gold",
+		"skill": "Strong Speller",
+		"randomSkills": [
+			"MP Booster I",
+			"Bang Ward"
+		],
+		"scoutable": true
+	},
+	"Wrecktor": {
+		"egg": false,
+		"skill": "Strong Speller"
+	},
+	"Night Clubber": {
+		"egg": false,
+		"skill": "Paragon"
+	},
+	"Gigantes": {
+		"egg": false,
+		"skill": "Wrecker"
+	},
+	"Jugular Joker": {
+		"egg": false,
+		"skill": "Vaudevillan"
+	},
+	"Bilhaw": {
+		"egg": false,
+		"skill": "Demoniac"
+	},
+	"Stout Troll": {
+		"egg": false,
+		"skill": "Wrecker",
+		"scoutable": true
+	},
+	"Grrrgoyle": {
+		"egg": false,
+		"skill": "Cold Snapper"
+	},
+	"Hyperanemon": {
+		"egg": true,
+		"eggColor": "Gold",
+		"skill": "Demoniac"
+	},
+	"Atlas": {
+		"egg": false,
+		"skill": "Pest Controller"
+	},
+	"Pruslas": {
+		"egg": false,
+		"skill": "Warmonger"
+	},
+	"Lieutenant Goresby-Purrvis": {
+		"egg": true,
+		"eggColor": "Rainbow",
+		"skill": "Multidisciplinarian"
+	},
+	"Lieutenant Hootingham-Gore": {
+		"egg": false,
+		"skill": "Sage"
+	},
+	"Lieutenant Goreham-Hogg": {
+		"egg": false,
+		"skill": "Warmonger"
+	},
+	"Knight Abhorrent": {
+		"egg": false,
+		"skill": "Pest Controller"
+	},
+	"Rabid Rector": {
+		"egg": false,
+		"skill": "Walking Disaster"
+	},
+	"Pazuzu": {
+		"egg": false,
+		"skill": "Heretic"
+	},
+	"Balzack": {
+		"egg": false,
+		"skill": "Warmonger"
+	},
+	"Belial": {
+		"egg": false,
+		"skill": "Heretic"
+	},
+	"Aamon": {
+		"egg": false,
+		"skill": "Aamon"
+	},
+	"Darkling": {
+		"egg": false,
+		"skill": "Grump"
+	},
+	"Barbatos": {
+		"egg": false,
+		"skill": "Warmonger"
+	},
+	"Putrefido": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Enfeebler",
+		"randomSkills": [
+			"Agility Booster I",
+			"Sleep Suppressor"
+		],
+		"scoutable": true
+	},
+	"Funghoul": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Stinker",
+		"randomSkills": [
+			"MP Booster I",
+			"Crag Ward"
+		],
+		"scoutable": true
+	},
+	"Wax Murderer": {
+		"egg": false,
+		"skill": "Spicy Slasher"
+	},
+	"Skeleton": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Graveheart",
+		"randomSkills": [
+			"Attack Booster I",
+			"Zam Ward"
+		],
+		"scoutable": true
+	},
+	"Stump Chump": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Nature Child",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Splish Ward"
+		],
+		"scoutable": true
+	},
+	"Ghost": {
+		"egg": false,
+		"skill": "Graveheart",
+		"randomSkills": [
+			"Agility Booster I",
+			"Death Defier"
+		],
+		"scoutable": true
+	},
+	"Skipper": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Irritant",
+		"randomSkills": [
+			"Attack Booster I",
+			"Poison Preventer"
+		],
+		"scoutable": true
+	},
+	"Drohl Drone": {
+		"egg": false,
+		"skill": "Tongue Twister"
+	},
+	"Soft Serve Spook": {
+		"egg": false,
+		"skill": "Cupid",
+		"randomSkills": [
+			"HP Booster I",
+			"Debilitation Ducker"
+		],
+		"scoutable": true
+	},
+	"Firespirit": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Frizz Afficionado",
+		"randomSkills": [
+			"MP Booster I",
+			"Frizz Ward"
+		],
+		"scoutable": true
+	},
+	"Scarfish": {
+		"egg": false,
+		"skill": "Graveheart"
+	},
+	"Walking Corpse": {
+		"egg": false,
+		"skill": "Graveheart"
+	},
+	"Restless Armour": {
+		"egg": false,
+		"skill": "Breath Taker",
+		"randomSkills": [
+			"Defence Booster I",
+			"Zam Ward"
+		],
+		"scoutable": true
+	},
+	"Shadow": {
+		"egg": true,
+		"eggColor": "White",
+		"skill": "Hexcommunicator",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Death Defier"
+		],
+		"scoutable": true
+	},
+	"Skullrider": {
+		"egg": false,
+		"skill": "Soggy Slasher"
+	},
+	"Monolog": {
+		"egg": false,
+		"skill": "Nature Child",
+		"randomSkills": [
+			"Attack Booster I",
+			"Crag Ward"
+		],
+		"scoutable": true
+	},
+	"Muddy Hand": {
+		"egg": false,
+		"skill": "Crag Afficionado"
+	},
+	"Mummy Boy": {
+		"egg": false,
+		"skill": "Graveheart",
+		"randomSkills": [
+			"Attack Booster I",
+			"Stun Stopper"
+		],
+		"scoutable": true
+	},
+	"Hellbound Horror": {
+		"egg": false,
+		"skill": "Zam Afficionado",
+		"randomSkills": [
+			"Agility Booster I",
+			"Confusion Controller"
+		],
+		"scoutable": true
+	},
+	"King Kelp": {
+		"egg": false,
+		"skill": "Aquapothecary"
+	},
+	"Grinferno": {
+		"egg": true,
+		"eggColor": "Silver",
+		"skill": "Blazer",
+		"randomSkills": [
+			"Defence Booster I",
+			"Sizz Ward"
+		],
+		"scoutable": true
+	},
+	"Dead Resident": {
+		"egg": false,
+		"skill": "Thrill-Seeker",
+		"randomSkills": [
+			"HP Booster I",
+			"Bedazzlement Blocker"
+		],
+		"scoutable": true
+	},
+	"Skeleton Soldier": {
+		"egg": false,
+		"skill": "Good Knight"
+	},
+	"Treeface": {
+		"egg": false,
+		"skill": "Hexcommunicator"
+	},
+	"Chocolate Whisp": {
+		"egg": false,
+		"skill": "Outlaw",
+		"scoutable": true
+	},
+	"Frightful Conductor": {
+		"egg": true,
+		"eggColor": "Silver",
+		"skill": "Choreographer"
+	},
+	"Frolicker": {
+		"egg": true,
+		"eggColor": "Silver",
+		"skill": "Prankster",
+		"randomSkills": [
+			"Attack Booster I",
+			"Paralysis Protector"
+		],
+		"scoutable": true
+	},
+	"Phantom Fencer": {
+		"egg": false,
+		"skill": "Soggy Slasher",
+		"randomSkills": [
+			"Attack Booster I",
+			"Crack Ward"
+		],
+		"scoutable": true
+	},
+	"Morphean Mushroom": {
+		"egg": false,
+		"skill": "Stinker",
+		"randomSkills": [
+			"Agility Booster I",
+			"Paralysis Protector"
+		],
+		"scoutable": true
+	},
+	"Float-O-Copier": {
+		"egg": true,
+		"eggColor": "Silver",
+		"skill": "Vexologist"
+	},
+	"Iron Maiden": {
+		"egg": false,
+		"skill": "Charmer",
+		"randomSkills": [
+			"Attack Booster I",
+			"Sleep Suppressor"
+		],
+		"scoutable": true
+	},
+	"Soulspawn": {
+		"egg": true,
+		"eggColor": "Silver",
+		"skill": "Doomsayer",
+		"randomSkills": [
+			"Wisdom Booster I",
+			"Paralysis Protector"
+		],
+		"scoutable": true
+	},
+	"Skeleton Swordsman": {
+		"egg": false,
+		"skill": "Slayer",
+		"randomSkills": [
+			"HP Booster I",
+			"Zam Ward"
+		],
+		"scoutable": true
+	},
+	"Cursed Crooner": {
+		"egg": false,
+		"skill": "Hater"
+	},
+	"Night Sneaker": {
+		"egg": true,
+		"eggColor": "Silver",
+		"skill": "Antimagician",
+		"randomSkills": [
+			"HP Booster I",
+			"Confusion Controller"
+		],
+		"scoutable": true
+	},
+	"Tortured Soul": {
+		"egg": false,
+		"skill": "Hater"
+	},
+	"Bloody Hand": {
+		"egg": false,
+		"skill": "Thrill-Seeker"
+	},
+	"Corpsickle": {
+		"egg": false,
+		"skill": "Devil's Advocate",
+		"randomSkills": [
+			"Attack Booster I",
+			"Confusion Controller"
+		],
+		"scoutable": true
+	},
+	"Grim Rider": {
+		"egg": false,
+		"skill": "Good Knight",
+		"randomSkills": [
+			"Agility Booster I",
+			"Sleep Suppressor"
+		],
+		"scoutable": true
+	},
+	"Bone Idol": {
+		"egg": false,
+		"skill": "Breath Taker",
+		"scoutable": true
+	},
+	"Discombombulator": {
+		"egg": true,
+		"eggColor": "Silver",
+		"skill": "Bombshell"
+	},
+	"Fightgeist": {
+		"egg": false,
+		"skill": "Zam Afficionado"
+	},
+	"Treevil": {
+		"egg": false,
+		"skill": "Enigma"
+	},
+	"Hellbound Hair-Raiser": {
+		"egg": false,
+		"skill": "Lightning Rod"
+	},
+	"Sekerleton": {
+		"egg": false,
+		"skill": "Destroyer",
+		"randomSkills": [
+			"Attack Booster I",
+			"Zam Ward"
+		],
+		"scoutable": true
+	},
+	"Soy Soldier": {
+		"egg": false,
+		"skill": "Enigma"
+	},
+	"Phantom Swordsman": {
+		"egg": false,
+		"skill": "Duelist"
+	},
+	"Dullahan": {
+		"egg": false,
+		"skill": "Slayer",
+		"randomSkills": [
+			"Defence Booster I",
+			"Drain Dodger"
+		],
+		"scoutable": true
+	},
+	"Skellyfish": {
+		"egg": false,
+		"skill": "Water Baby",
+		"randomSkills": [
+			"Attack Booster I",
+			"Sleep Suppressor"
+		],
+		"scoutable": true
+	},
+	"Zamtasm": {
+		"egg": false,
+		"skill": "Blighter"
+	},
+	"Fright Knight": {
+		"egg": false,
+		"skill": "Maniac"
+	},
+	"Marrow Escapee": {
+		"egg": false,
+		"skill": "Hater"
+	},
+	"Grincinerator": {
+		"egg": false,
+		"skill": "Hater"
+	},
+	"Green Bogey": {
+		"egg": false,
+		"skill": "Hater"
+	},
+	"Bone Baron": {
+		"egg": false,
+		"skill": "Dark Horse"
+	},
+	"Skelegon": {
+		"egg": true,
+		"eggColor": "Gold",
+		"skill": "Freeze",
+		"randomSkills": [
+			"Defence Booster I",
+			"Poison Preventer"
+		],
+		"scoutable": true
+	},
+	"Drooling Ghoul": {
+		"egg": false,
+		"skill": "Nuisance"
+	},
+	"One-Man Army": {
+		"egg": false,
+		"skill": "Duelist"
+	},
+	"Headless Horseman": {
+		"egg": false,
+		"skill": "Destroyer"
+	},
+	"Grotwyrm": {
+		"egg": false,
+		"skill": "Freeze"
+	},
+	"Hellspawn": {
+		"egg": true,
+		"eggColor": "Gold",
+		"skill": "Devil's Advocate",
+		"randomSkills": [
+			"HP Booster I",
+			"Stun Stopper"
+		],
+		"scoutable": true
+	},
+	"Demon-At-Arms": {
+		"egg": false,
+		"skill": "Destroyer"
+	},
+	"Dora-In-Grey": {
+		"egg": false,
+		"skill": "Cool Customer"
+	},
+	"Wight King": {
+		"egg": false,
+		"skill": "Hater"
+	},
+	"Night Knight": {
+		"egg": false,
+		"skill": "Multidisciplinarian"
+	},
+	"Hell Gladiator": {
+		"egg": false,
+		"skill": "Pest Controller"
+	},
+	"Cetacean Sorcerer": {
+		"egg": false,
+		"skill": "Sage"
+	},
+	"Umbra": {
+		"egg": false,
+		"skill": "Grump"
+	},
+	"Bones Of Baramos": {
+		"egg": false,
+		"skill": "Bad Breather"
+	},
+	"Robbin' 'Ood": {
+		"egg": true,
+		"eggColor": "Gold",
+		"skill": "Slayer"
+	},
+	"Baramos": {
+		"egg": false,
+		"skill": "Baramos"
+	},
+	"Krystalinda": {
+		"egg": true,
+		"eggColor": "Rainbow",
+		"skill": "Cool Customer"
+	},
+	"Rhapthorne II": {
+		"egg": false,
+		"skill": "Rhapthorne"
+	},
+	"Orgodemir": {
+		"egg": false,
+		"skill": "Orgodemir"
+	},
+	"Bishop Ladja": {
+		"egg": false,
+		"skill": "Bishop Ladja"
+	},
+	"Malroth": {
+		"egg": false,
+		"skill": "Malroth"
+	},
+	"Calasmos": {
+		"egg": false,
+		"skill": "Calasmos"
+	},
+	"Razerburn": {
+		"egg": false,
+		"skill": "Razerburn"
+	},
+	"Mordegon, Lord Of Shadows": {
+		"egg": false,
+		"skill": "Mordegon, Lord of Shadows"
+	},
+	"Corvus": {
+		"egg": false,
+		"skill": "Fallen Angel Corvus"
+	},
+	"Mortamor": {
+		"egg": false,
+		"skill": "Mortamor"
+	},
+	"Dhoulmagus": {
+		"egg": false,
+		"skill": "Dhoulmagus"
+	},
+	"Hargon": {
+		"egg": false,
+		"skill": "Hargon"
+	},
+	"Fizzy": {
+		"egg": false,
+		"skill": "Fuzzy Thinker"
+	},
+	"Jasper Unbound": {
+		"egg": false,
+		"skill": "Jasper Unbound"
+	},
+	"Nimzo": {
+		"egg": false,
+		"skill": "Nimzo"
+	},
+	"Murdaw": {
+		"egg": false,
+		"skill": "Murdaw"
+	},
+	"Nelgel The Netherfiend": {
+		"egg": false,
+		"skill": "Nelgel The Netherfiend"
+	},
+	"Fluffy": {
+		"egg": false,
+		"skill": "Fluffy"
+	},
+	"Scruffy": {
+		"egg": false,
+		"skill": "Scruffy"
+	},
+	"Psaro The Manslayer": {
+		"egg": false,
+		"skill": "Psaro The Manslayer"
+	},
+	"Estark": {
+		"egg": false,
+		"skill": "Estark"
+	},
+	"The Almighty": {
+		"egg": false,
+		"skill": "The Almighty"
+	},
+	"Zoma": {
+		"egg": false,
+		"skill": "Zoma"
+	},
+	"Nokturnus": {
+		"egg": false,
+		"skill": "Nokturnus"
+	},
+	"Ramia": {
+		"egg": false,
+		"skill": "Ramia"
+	},
+	"Triple Splatty": {
+		"egg": false,
+		"skill": "Taste Buddies"
+	},
+	"Flurry Fiend": {
+		"egg": false,
+		"skill": "Swirling Dervish"
+	},
+	"Mimic With Cheese": {
+		"egg": false,
+		"skill": "Cheesy Grin"
+	}
+}

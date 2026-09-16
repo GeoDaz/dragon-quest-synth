@@ -12,20 +12,25 @@ export interface MonsterTraits {
 	largeLevel60?: string;
 }
 
+export interface MonsterStats {
+	hp: number;
+	mp: number;
+	attack: number;
+	defence: number;
+	agility: number;
+	wisdom: number;
+}
+
 export interface MonsterDetails {
-	size: string;
+	size?: string;
 	egg: boolean;
-	stats: {
-		hp: number;
-		mp: number;
-		attack: number;
-		defence: number;
-		agility: number;
-		wisdom: number;
-	};
-	resistances: { [key: string]: number };
-	traits: MonsterTraits;
+	eggColor?: string;
+	stats?: MonsterStats;
+	resistances?: { [key: string]: number };
+	traits?: MonsterTraits;
 	skill?: string;
+	randomSkills?: string[];
+	scoutable?: boolean;
 	drops?: MonsterDrop[];
 }
 
@@ -44,7 +49,9 @@ export type GameItems = { [japanese: string]: Localised };
 
 export interface Spawn {
 	area: string;
-	time: 'always' | 'day' | 'night';
+	time?: 'always' | 'day' | 'night';
+	seasons?: string[];
+	weathers?: string[];
 }
 
 export type GameSpawns = { [name: string]: Spawn[] };

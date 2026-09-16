@@ -1,0 +1,12174 @@
+{
+	"moves": {
+		"Frizz": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 2,
+			"desc": {
+				"en": "Inflicts minor fire-elemental spell damage on a single enemy."
+			}
+		},
+		"Frizzle": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 5,
+			"desc": {
+				"en": "Inflicts medium fire-elemental spell damage on a single enemy."
+			}
+		},
+		"Kafrizz": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 12,
+			"desc": {
+				"en": "Inflicts major fire-elemental spell damage on a single enemy."
+			}
+		},
+		"Kafrizzle": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 32,
+			"desc": {
+				"en": "Inflicts extreme fire-elemental spell damage on a single enemy."
+			}
+		},
+		"Splish": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 2,
+			"desc": {
+				"en": "Inflicts minor water-elemental spell damage on a single enemy."
+			}
+		},
+		"Splash": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 5,
+			"desc": {
+				"en": "Inflicts medium water-elemental spell damage on a single enemy."
+			}
+		},
+		"Kasplash": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 11,
+			"desc": {
+				"en": "Inflicts major water-elemental spell damage on a single enemy."
+			}
+		},
+		"Kasplashle": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 29,
+			"desc": {
+				"en": "Inflicts extreme water-elemental spell damage on a single enemy."
+			}
+		},
+		"Woosh": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 4,
+			"desc": {
+				"en": "Inflicts minor wind-elemental spell damage on all enemies."
+			}
+		},
+		"Swoosh": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 11,
+			"desc": {
+				"en": "Inflicts medium wind-elemental spell damage on all enemies."
+			}
+		},
+		"Kaswoosh": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 22,
+			"desc": {
+				"en": "Inflicts major wind-elemental spell damage on all enemies."
+			}
+		},
+		"Kaswooshle": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 54,
+			"desc": {
+				"en": "Inflicts extreme wind-elemental spell damage on all enemies."
+			}
+		},
+		"Crag": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 5,
+			"desc": {
+				"en": "Inflicts minor earth-elemental spell damage on all enemies, but not until the following round."
+			}
+		},
+		"Craggle": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 12,
+			"desc": {
+				"en": "Inflicts medium earth-elemental spell damage on all enemies, but not until the following round."
+			}
+		},
+		"Kacrag": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 23,
+			"desc": {
+				"en": "Inflicts major earth-elemental spell damange on all enemies, but not until the following round."
+			}
+		},
+		"Kacraggle": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 58,
+			"desc": {
+				"en": "Inflicts extreme earth-elemental spell damange on all enemies, but not until the following round."
+			}
+		},
+		"Bang": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 5,
+			"desc": {
+				"en": "Inflicts minor explosive spell damage on all enemies."
+			}
+		},
+		"Boom": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 12,
+			"desc": {
+				"en": "Inflicts medium explosive spell damage on all enemies."
+			}
+		},
+		"Kaboom": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 24,
+			"desc": {
+				"en": "Inflicts major explosive spell damage on all enemies."
+			}
+		},
+		"Kaboomle": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 60,
+			"desc": {
+				"en": "Inflicts extreme explosive spell damage on all enemies."
+			}
+		},
+		"Crack": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 3,
+			"desc": {
+				"en": "Inflicts minor ice-elemental spell damage on a single enemy."
+			}
+		},
+		"Crackle": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 12,
+			"desc": {
+				"en": "Inflicts medium ice-elemental spell damage on all enemies."
+			}
+		},
+		"Kacrack": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 22,
+			"desc": {
+				"en": "Inflicts major ice-elemental spell damage on all enemies."
+			}
+		},
+		"Kacrackle": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 58,
+			"desc": {
+				"en": "Inflicts extreme ice-elemental spell damage on all enemies."
+			}
+		},
+		"Zap": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 2,
+			"desc": {
+				"en": "Inflicts minor electrical spell damage on a single enemy."
+			}
+		},
+		"Zapple": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 13,
+			"desc": {
+				"en": "Inflicts medium electrical spell damage on all enemies."
+			}
+		},
+		"Kazap": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 23,
+			"desc": {
+				"en": "Inflicts major electrical damage on all enemies."
+			}
+		},
+		"Kazapple": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 61,
+			"desc": {
+				"en": "Inflicts extreme electrical spell damage on all enemies."
+			}
+		},
+		"Sizz": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 4,
+			"desc": {
+				"en": "Inflicts minor light-elemental spell damage on all enemies."
+			}
+		},
+		"Sizzle": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 11,
+			"desc": {
+				"en": "Inflicts medium light-elemental spell damage on all enemies."
+			}
+		},
+		"Kasizz": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 22,
+			"desc": {
+				"en": "Inflicts major light-elemental spell damage on all enemies."
+			}
+		},
+		"Kasizzle": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 54,
+			"desc": {
+				"en": "Inflicts extreme light-elemental spell damage on all enemies."
+			}
+		},
+		"Zam": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 3,
+			"desc": {
+				"en": "Inflicts minor dark-elemental spell damage on a single enemy."
+			}
+		},
+		"Zammle": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 6,
+			"desc": {
+				"en": "Inflicts medium dark-elemental spell damage on a single enemy."
+			}
+		},
+		"Kazam": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 10,
+			"desc": {
+				"en": "Inflicts major dark-elemental spell damage on a single enemy."
+			}
+		},
+		"Kazammle": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 30,
+			"desc": {
+				"en": "Inflicts extreme dark-elemental spell damage on a single enemy."
+			}
+		},
+		"Pearly Gates": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": 60,
+			"desc": {
+				"en": "Inflicts extreme light-elemental spell damage on all enemies. Highly effecetive against monsters in the undead family."
+			}
+		},
+		"Magic Pop": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": null,
+			"desc": {
+				"en": "Uses 1/4 of remaining MP to inflict light-elemental damage on a single enemy, for a weaker rendition of a more extreme spell. The more MP the monster has at the time of casting, the greater the damage will be."
+			}
+		},
+		"Magic Burst": {
+			"attribute": "Spell",
+			"type": "Attack",
+			"power": null,
+			"desc": {
+				"en": "Uses all remaining MP to inflict extreme light-elemental damage on all enemies. The more MP the monster has at the time of casting, the greater the damage will be."
+			}
+		},
+		"Heal": {
+			"attribute": "Spell",
+			"type": "Heal",
+			"power": 3,
+			"desc": {
+				"en": "Restores 28 or more HP to a single ally."
+			}
+		},
+		"Midheal": {
+			"attribute": "Spell",
+			"type": "Heal",
+			"power": 8,
+			"desc": {
+				"en": "Restores 76 or more HP to a single ally."
+			}
+		},
+		"Moreheal": {
+			"attribute": "Spell",
+			"type": "Heal",
+			"power": 40,
+			"desc": {
+				"en": "Restores 285 or more HP to a single ally."
+			}
+		},
+		"Multiheal": {
+			"attribute": "Spell",
+			"type": "Heal",
+			"power": 26,
+			"desc": {
+				"en": "Restores 76 or more HP to all allies."
+			}
+		},
+		"Omniheal": {
+			"attribute": "Spell",
+			"type": "Heal",
+			"power": 80,
+			"desc": {
+				"en": "Restores 237 or more HP to all allies."
+			}
+		},
+		"Zing": {
+			"attribute": "Spell",
+			"type": "Revive",
+			"power": 8,
+			"desc": {
+				"en": "Resurrects a fallen ally. Has a chance of failure."
+			}
+		},
+		"Kazing": {
+			"attribute": "Spell",
+			"type": "Revive",
+			"power": 80,
+			"desc": {
+				"en": "Is guaranteed to resurrect a fallen ally."
+			}
+		},
+		"Kerplunk": {
+			"attribute": "Spell",
+			"type": "Revive",
+			"power": 100,
+			"desc": {
+				"en": "Heals or resurrects all allies, including reserves, but at the cost of the caster's life. The caster cannot be resurrected in the same battle."
+			}
+		},
+		"Squelch": {
+			"attribute": "Spell",
+			"type": "Status Recovery",
+			"power": 2,
+			"desc": {
+				"en": "Cures all allies of poison or severe poison."
+			}
+		},
+		"Tingle": {
+			"attribute": "Spell",
+			"type": "Status Recovery",
+			"power": 2,
+			"desc": {
+				"en": "Cures all allies of paralysis."
+			}
+		},
+		"Defuddle": {
+			"attribute": "Spell",
+			"type": "Status Recovery",
+			"power": 2,
+			"desc": {
+				"en": "Cures all allies of confusion."
+			}
+		},
+		"Cock-a-Doodle-Doo": {
+			"attribute": "Spell",
+			"type": "Status Recovery",
+			"power": 2,
+			"desc": {
+				"en": "Cures all allies of sleep."
+			}
+		},
+		"Oomph": {
+			"attribute": "Spell",
+			"type": "Support",
+			"power": 6,
+			"desc": {
+				"en": "Greatly increases the attack of a single ally for 2 to 5 turns."
+			}
+		},
+		"Oomphle": {
+			"attribute": "Spell",
+			"type": "Support",
+			"power": 10,
+			"desc": {
+				"en": "Increases the attack of all allies for 2 to 5 turns."
+			}
+		},
+		"Blunt": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 6,
+			"desc": {
+				"en": "Greatly decreases the attack of a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			}
+		},
+		"Kablunt": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 10,
+			"desc": {
+				"en": "Decreases the attack of all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			}
+		},
+		"Buff": {
+			"attribute": "Spell",
+			"type": "Support",
+			"power": 3,
+			"desc": {
+				"en": "Greatly increases the defence of a single ally for 4 to 7 turns."
+			}
+		},
+		"Kabuff": {
+			"attribute": "Spell",
+			"type": "Support",
+			"power": 4,
+			"desc": {
+				"en": "Increases the defence of all allies for 4 to 7 turns."
+			}
+		},
+		"Sap": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 3,
+			"desc": {
+				"en": "Greatly decreases the defence of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			}
+		},
+		"Kasap": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 4,
+			"desc": {
+				"en": "Decreases the defence of all enemie for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			}
+		},
+		"Accelerate": {
+			"attribute": "Spell",
+			"type": "Support",
+			"power": 3,
+			"desc": {
+				"en": "Greatly increases the agility of a single ally for 4 to 7 turns."
+			}
+		},
+		"Acceleratle": {
+			"attribute": "Spell",
+			"type": "Support",
+			"power": 4,
+			"desc": {
+				"en": "Increases the agility of all allies for 4 to 7 turns."
+			}
+		},
+		"Decelerate": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 3,
+			"desc": {
+				"en": "Greatly decreases the agility of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			}
+		},
+		"Deceleratle": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 4,
+			"desc": {
+				"en": "Decreases the agility of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			}
+		},
+		"Ping": {
+			"attribute": "Spell",
+			"type": "Support",
+			"power": 3,
+			"desc": {
+				"en": "Greatly increases the wisdom of a single ally for 4 to 7 turns."
+			}
+		},
+		"Kaping": {
+			"attribute": "Spell",
+			"type": "Support",
+			"power": 4,
+			"desc": {
+				"en": "Increases the wisdom of all allies for 4 to 7 turns."
+			}
+		},
+		"Dim": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 3,
+			"desc": {
+				"en": "Greatly decreases the wisdom of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			}
+		},
+		"Kadim": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 4,
+			"desc": {
+				"en": "Decreases the wisdom of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			}
+		},
+		"Insulate": {
+			"attribute": "Spell",
+			"type": "Support",
+			"power": 4,
+			"desc": {
+				"en": "Greatly reduces the damage received from breath attacks by a single ally for 4 to 7 turns."
+			}
+		},
+		"Insulatle": {
+			"attribute": "Spell",
+			"type": "Support",
+			"power": 4,
+			"desc": {
+				"en": "Reduces the damage received from breath attacks by all allies for 4 to 7 turns."
+			}
+		},
+		"Dazzle": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 3,
+			"desc": {
+				"en": "Bedazzles all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			}
+		},
+		"Fizzle": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 3,
+			"desc": {
+				"en": "Prevents all enemies from casting spells for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			}
+		},
+		"Bounce": {
+			"attribute": "Spell",
+			"type": "Support",
+			"power": 32,
+			"desc": {
+				"en": "Reflects most spells back at the caster for 4 to 7 turns."
+			}
+		},
+		"Drain Magic": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 0,
+			"desc": {
+				"en": "Absorbs some MP from a single enemy."
+			}
+		},
+		"Giga Drain Magic": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 1,
+			"desc": {
+				"en": "Absorbs MP from enemies at random, 4 times in total."
+			}
+		},
+		"Fuddle": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 5,
+			"desc": {
+				"en": "Confuses a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			}
+		},
+		"Kafuddle": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 10,
+			"desc": {
+				"en": "Confuses all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			}
+		},
+		"Snooze": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 3,
+			"desc": {
+				"en": "Puts a single enemy to sleep for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			}
+		},
+		"Kasnooze": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 8,
+			"desc": {
+				"en": "Puts all enemies to sleep for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			}
+		},
+		"Numb": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 8,
+			"desc": {
+				"en": "Paralyses a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			}
+		},
+		"Kanumb": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 15,
+			"desc": {
+				"en": "Paralyses all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			}
+		},
+		"Tox": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 3,
+			"desc": {
+				"en": "Poisons a single enemy. The higher the caster's wisdom, the more likely the spell is to succeed."
+			}
+		},
+		"Katox": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 8,
+			"desc": {
+				"en": "Poisons all enemies. The higher the caster's wisdom, the more likely the spell is to succeed."
+			}
+		},
+		"Katoxle": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 15,
+			"desc": {
+				"en": "Severely poisons all enemies. The higher the caster's wisdom, the more likely the spell is to succeed."
+			}
+		},
+		"Whack": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 9,
+			"desc": {
+				"en": "Kills a single enemy instantly. The higher the caster's wisdom, the more likely the spell is to succeed."
+			}
+		},
+		"Thwack": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 12,
+			"desc": {
+				"en": "Kills all enemies instantly. The higher the caster's wisdom, the more likely the spell is to succeed."
+			}
+		},
+		"Kamikazee": {
+			"attribute": "Spell",
+			"type": "Debuff",
+			"power": 1,
+			"desc": {
+				"en": "Kills all enemies, but at the cost of the caster's life. The caster cannot be resurrected in the same battle. The higher the caster's wisdom, the more likely the spell is to succeed."
+			}
+		},
+		"Flame Slash": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 2,
+			"desc": {
+				"en": "Inflicts minor fire-elemental slashing damage on a single enemy."
+			}
+		},
+		"Gust Slash": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 2,
+			"desc": {
+				"en": "Inflicts minor wind-elemental slashing damage on a single enemy."
+			}
+		},
+		"Kacrackle Slash": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 2,
+			"desc": {
+				"en": "Inflicts minor ice-elemental slashing damage on a single enemy."
+			}
+		},
+		"Lightning Slash": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 2,
+			"desc": {
+				"en": "Inflicts minor elecrtrical slashing damage on a single enemy."
+			}
+		},
+		"Flamesplitter": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 15,
+			"desc": {
+				"en": "Inflicts minor medium-elemental slashing damage on all enemies."
+			}
+		},
+		"Skysplitter": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 15,
+			"desc": {
+				"en": "Inflicts minor wind-elemental slashing damage on all enemies."
+			}
+		},
+		"Earthsplitter": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 15,
+			"desc": {
+				"en": "Inflicts medium earth-elemental slashing damage on all enemies."
+			}
+		},
+		"Brightsplitter": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 15,
+			"desc": {
+				"en": "Inflicts minor light-elemental slashing damage on all enemies."
+			}
+		},
+		"Blightsplitter": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 15,
+			"desc": {
+				"en": "Inflicts medium dark-elemental slashing damage on all enemies."
+			}
+		},
+		"Gigaslash": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 20,
+			"desc": {
+				"en": "Inflicts outrageous electrical damage on a single enemy. The higher the user's level, the greater the damage that will be inflicted."
+			}
+		},
+		"Gigagash": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 56,
+			"desc": {
+				"en": "Inflicts outrageous electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			}
+		},
+		"Gigacross": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 80,
+			"desc": {
+				"en": "An extreme sword attack that inflicts extreme electrical damage 2 times in a row on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			}
+		},
+		"Shadow Blast": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 80,
+			"desc": {
+				"en": "Inflicts extreme dark-elemental damage 2 times in a row on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			}
+		},
+		"Slime Squisher": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 4,
+			"desc": {
+				"en": "Inflicts heavy impact damage on monsters in the slime family."
+			}
+		},
+		"Dragon Slash": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 4,
+			"desc": {
+				"en": "Inflicts heavy slashing damage on monsters in the dragon family."
+			}
+		},
+		"Nature Nerfer": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 4,
+			"desc": {
+				"en": "Inflicts heavy slashing damage on monsters in the nature family."
+			}
+		},
+		"Beast Tamer": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 4,
+			"desc": {
+				"en": "Inflicts heavy slashing damage on monsters in the beast family."
+			}
+		},
+		"Matter Scatterer": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 4,
+			"desc": {
+				"en": "Inflicts heavy slashing damage on monsters in the material family."
+			}
+		},
+		"Demon Demeaner": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 4,
+			"desc": {
+				"en": "Inflicts heavy slashing damage on monsters in the demon family."
+			}
+		},
+		"Undead Undoer": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 4,
+			"desc": {
+				"en": "Inflicts heavy slashing damage on monsters in the undead family."
+			}
+		},
+		"Multifists": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 20,
+			"desc": {
+				"en": "A punching technique that damages enemies at random, 4 times in total"
+			}
+		},
+		"Shining Shot": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 100,
+			"desc": {
+				"en": "Inflicts light-elemental damage on enemies at random, 4 to 12 times in total."
+			}
+		},
+		"Multislash": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 5,
+			"desc": {
+				"en": "Inflicts slashing damage on all enemies. Enemies that are further to the right-hand side of the battlefield receive less damage."
+			}
+		},
+		"Mercurial Thrust": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 2,
+			"desc": {
+				"en": "A punching technique that only inflicts a small amount of damage, but allows the user to attack before anyone else."
+			}
+		},
+		"Anchorman": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 15,
+			"desc": {
+				"en": "Acts after everyone else to inflict extreme impact damage on the enemy."
+			}
+		},
+		"Knuckle Sandwich": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 20,
+			"desc": {
+				"en": "Focuses strength in order to inflict heavy damage on a single enemy in the next turn, ignoring their defence attribute."
+			}
+		},
+		"Roundhouse Kick": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 8,
+			"desc": {
+				"en": "A kicking technique that damages all enemies, regardless of their defence. Enemies that are further to the right-hand side of the battlefield receive less damage."
+			}
+		},
+		"Hatchet Man": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 8,
+			"desc": {
+				"en": " Inflicts slashing damage on a single enemy. The attack has a high likelihood of missing, but an increased chance of inflicting a critical hit when it succeeds."
+			}
+		},
+		"Frenzy": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 4,
+			"desc": {
+				"en": "A risky technique that inflicts a critical hit on a single enemy or ally at random."
+			}
+		},
+		"Miracle Slash": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 10,
+			"desc": {
+				"en": "Inflicts slashing damage on a single enemy. Approximately half the amount of damage inflicted is restored to the user as HP. Can heal up to a maximum of 200 HP."
+			}
+		},
+		"Attack Attacker": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 4,
+			"desc": {
+				"en": "Damages a single enemy and occasionally lowers its attack for 2 to 5 turns."
+			}
+		},
+		"Helm Splitter": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 4,
+			"desc": {
+				"en": "Damages a single enemy and occasionally lowers its defence for 4 to 7 turns."
+			}
+		},
+		"Confusion Attack": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 4,
+			"desc": {
+				"en": "Damages a single enemy and occasionally confuses it for 2 to 5 turns."
+			}
+		},
+		"Sleep Attack": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 4,
+			"desc": {
+				"en": "Damages a single enemy and occasionally puts it to sleep for 2 to 5 turns."
+			}
+		},
+		"Paralysing Punch": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 4,
+			"desc": {
+				"en": "Damages a single enemy and occasionally paralyses it for 2 to 5 turns."
+			}
+		},
+		"Parallax": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 20,
+			"desc": {
+				"en": "Inflicts heavy slashing damage on a single enemy and occasionally paralyses it for 2 to 5 turns."
+			}
+		},
+		"Heart Breaker": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 4,
+			"desc": {
+				"en": "Inflicts slashing damage on a single enemy and stuns it for 1 turn."
+			}
+		},
+		"Poison Attack": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 2,
+			"desc": {
+				"en": "Damages a single enemy and occasionally poisons it."
+			}
+		},
+		"Assassin's Stab": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 8,
+			"desc": {
+				"en": "Damages a single enemy and occasionally causes instant death."
+			}
+		},
+		"Victimiser": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 4,
+			"desc": {
+				"en": "Damages a single enemy. Highly effective against enemies that are poisoned, severly poisoned or paralysed."
+			}
+		},
+		"Multi-Victimiser": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 26,
+			"desc": {
+				"en": "Damages all enemies. Highly effective against enemies that are poisoned, severely poisoned or paralysed."
+			}
+		},
+		"Persecutter": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 4,
+			"desc": {
+				"en": "Damages a single enemy. Higly effective against enemies that are asleep or confused."
+			}
+		},
+		"Multi-Persecutter": {
+			"attribute": "Physical",
+			"type": "Attack",
+			"power": 26,
+			"desc": {
+				"en": "Damages all enemies. Highly effective against enemies that are asleep or confused."
+			}
+		},
+		"Magma Blast": {
+			"attribute": "Technique",
+			"type": "Attack",
+			"power": 4,
+			"desc": {
+				"en": "Inflicts medium fire-elemental damage on all enemies."
+			}
+		},
+		"Tidal Wave": {
+			"attribute": "Technique",
+			"type": "Attack",
+			"power": 52,
+			"desc": {
+				"en": "Inflicts outrageous water-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			}
+		},
+		"Wind Sickles": {
+			"attribute": "Technique",
+			"type": "Attack",
+			"power": 4,
+			"desc": {
+				"en": "Inflicts minor wind-elemental damages on a single enemy."
+			}
+		},
+		"Thin Air": {
+			"attribute": "Technique",
+			"type": "Attack",
+			"power": 12,
+			"desc": {
+				"en": "Inflicts medium wind-elemental damages on a single enemy. The higher the user's level, the greater the damage that will be inflicted."
+			}
+		},
+		"Stone's Throw": {
+			"attribute": "Technique",
+			"type": "Attack",
+			"power": 4,
+			"desc": {
+				"en": "Inflicts minor earth-elemental damages on a single enemy."
+			}
+		},
+		"Stomp": {
+			"attribute": "Technique",
+			"type": "Attack",
+			"power": 12,
+			"desc": {
+				"en": "Inflicts medium earth-elemental damages on a single enemy. The higher the user's level, the greater the damage that will be inflicted."
+			}
+		},
+		"Boulder Toss": {
+			"attribute": "Technique",
+			"type": "Attack",
+			"power": 36,
+			"desc": {
+				"en": "Inflicts extreme earth-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			}
+		},
+		"Big Banga": {
+			"attribute": "Technique",
+			"type": "Attack",
+			"power": 52,
+			"desc": {
+				"en": "Inflicts outrageous explosive damange on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			}
+		},
+		"Lightning": {
+			"attribute": "Technique",
+			"type": "Attack",
+			"power": 12,
+			"desc": {
+				"en": "Inflicts medium electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			}
+		},
+		"Lightning Storm": {
+			"attribute": "Technique",
+			"type": "Attack",
+			"power": 52,
+			"desc": {
+				"en": "Inflicts outrageous electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			}
+		},
+		"Starfall": {
+			"attribute": "Technique",
+			"type": "Attack",
+			"power": 12,
+			"desc": {
+				"en": "Inflicts medium light-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			}
+		},
+		"Bad Hand": {
+			"attribute": "Technique",
+			"type": "Attack",
+			"power": 52,
+			"desc": {
+				"en": "Inflicts outrageous dark-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			}
+		},
+		"Withering Look": {
+			"attribute": "Technique",
+			"type": "Attack",
+			"power": 36,
+			"desc": {
+				"en": "Shoots a beam from the eyes that inflicts extreme damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			}
+		},
+		"Hellish Howl": {
+			"attribute": "Technique",
+			"type": "Attack",
+			"power": 12,
+			"desc": {
+				"en": "Lets out a bloodcurdling shout that inflicts medium damage on all enemies and occasionally stuns them for 1 turn."
+			}
+		},
+		"Power Surge": {
+			"attribute": "Technique",
+			"type": "Attack",
+			"power": 52,
+			"desc": {
+				"en": "Inflicts outrageous electrical damage on all enemies."
+			}
+		},
+		"Hold Fire": {
+			"attribute": "Technique",
+			"type": "Attack",
+			"power": 52,
+			"desc": {
+				"en": "Focuses strength in order to inflict outrageous fire-elemental damage on all enemies in the next turn. Occasionally stuns them for 1 turn."
+			}
+		},
+		"Meditation": {
+			"attribute": "Technique",
+			"type": "Heal",
+			"power": 35,
+			"desc": {
+				"en": "Restores 300 or more HP to the user."
+			}
+		},
+		"Right as Rain": {
+			"attribute": "Technique",
+			"type": "Heal",
+			"power": 40,
+			"desc": {
+				"en": "Performs a rainmaking ritual that invokes a healing shower in the next turn. Restores a random amount of HP to all allies."
+			}
+		},
+		"Disruptive Wave": {
+			"attribute": "Technique",
+			"type": "Debuff",
+			"power": 60,
+			"desc": {
+				"en": "Removes most beneficial effects from all enemies."
+			}
+		},
+		"Wave of Relief": {
+			"attribute": "Technique",
+			"type": "Status Recovery",
+			"power": 60,
+			"desc": {
+				"en": "Cures of allies of their status ailments."
+			}
+		},
+		"Wave of Panic": {
+			"attribute": "Technique",
+			"type": "Debuff",
+			"power": 60,
+			"desc": {
+				"en": "Debilitates all enemies."
+			}
+		},
+		"Sandstorm": {
+			"attribute": "Technique",
+			"type": "Debuff",
+			"power": 2,
+			"desc": {
+				"en": "Whips up a dense cloud of dust that lowers the accuracy of enemy attacks for 2 to 5 turns."
+			}
+		},
+		"Dazzleflash": {
+			"attribute": "Technique",
+			"type": "Debuff",
+			"power": 2,
+			"desc": {
+				"en": "Unleashes a blinding light that lowers the accuracy of enemy attacks for 2 to 5 turns."
+			}
+		},
+		"Gobstopper": {
+			"attribute": "Technique",
+			"type": "Debuff",
+			"power": 6,
+			"desc": {
+				"en": "Stops a single enemy from using its mouth, preventing the use of breath attacks for 4 to 7 turns."
+			}
+		},
+		"Critical Meltdown": {
+			"attribute": "Technique",
+			"type": "Debuff",
+			"power": 6,
+			"desc": {
+				"en": "Prevents a single enemy from inflicting hits for 4 to 7 turns."
+			}
+		},
+		"Brake Wind": {
+			"attribute": "Technique",
+			"type": "Support",
+			"power": 10,
+			"desc": {
+				"en": "Reflects breath attacks back at the enemy. Protects all allies once only."
+			}
+		},
+		"Mist Me": {
+			"attribute": "Technique",
+			"type": "Support",
+			"power": 10,
+			"desc": {
+				"en": "Negates all damages 1 time only. Ineffective against certain attacks."
+			}
+		},
+		"War Cry": {
+			"attribute": "Technique",
+			"type": "Debuff",
+			"power": 3,
+			"desc": {
+				"en": "An ear-popping shout that stuns all enemies for 1 turn."
+			}
+		},
+		"Tongue Lashing": {
+			"attribute": "Technique",
+			"type": "Debuff",
+			"power": 1,
+			"desc": {
+				"en": "Slathers a single enemy with simy saliva, stunning it and lowering its defence."
+			}
+		},
+		"Tongue Bashing": {
+			"attribute": "Technique",
+			"type": "Debuff",
+			"power": 8,
+			"desc": {
+				"en": "Savagely slathers a single enemy with slimy saliva, stunning it and reducing its defence attribute to 1."
+			}
+		},
+		"Seethe": {
+			"attribute": "Technique",
+			"type": "Support",
+			"power": 10,
+			"desc": {
+				"en": "Internalises rage in order to raise the damage of the next attack. Furthermore, the user's attacks become more difficult for the enemy to dodge."
+			}
+		},
+		"Dodgy Dance": {
+			"attribute": "Technique",
+			"type": "Support",
+			"power": 1,
+			"desc": {
+				"en": "Raises the user's evasion for 4 to 7 turns."
+			}
+		},
+		"Selflessness": {
+			"attribute": "Technique",
+			"type": "Support",
+			"power": 5,
+			"desc": {
+				"en": "Receives all incoming attacks in place for allies for 1 round, but suffers greater damage in doing so."
+			}
+		},
+		"Fire Breath": {
+			"attribute": "Breath",
+			"type": "Attack",
+			"power": 3,
+			"desc": {
+				"en": "Inflicts minor fire-elemental breath damage on all enemies."
+			}
+		},
+		"Flame Breath": {
+			"attribute": "Breath",
+			"type": "Attack",
+			"power": 6,
+			"desc": {
+				"en": "Inflicts medium fire-elemental breath damage on all enemies."
+			}
+		},
+		"Inferno": {
+			"attribute": "Breath",
+			"type": "Attack",
+			"power": 15,
+			"desc": {
+				"en": "Inflicts major fire-elemental breath damage on all enemies."
+			}
+		},
+		"Scorch": {
+			"attribute": "Breath",
+			"type": "Attack",
+			"power": 30,
+			"desc": {
+				"en": "Inflicts extreme fire-elemental breath damage on all enemies."
+			}
+		},
+		"Hellitosis": {
+			"attribute": "Breath",
+			"type": "Attack",
+			"power": 64,
+			"desc": {
+				"en": "Inflicts outrageous fire-elemental breath damage on all enemies and occasionally stuns them for 1 turn."
+			}
+		},
+		"Cool Breath": {
+			"attribute": "Breath",
+			"type": "Attack",
+			"power": 3,
+			"desc": {
+				"en": "Inflicts minor ice-elemental breath damage on all enemies."
+			}
+		},
+		"Chilly Breath": {
+			"attribute": "Breath",
+			"type": "Attack",
+			"power": 6,
+			"desc": {
+				"en": "Inflicts medium ice-elemental breath damage on all enemies."
+			}
+		},
+		"Freezing Blizzard": {
+			"attribute": "Breath",
+			"type": "Attack",
+			"power": 15,
+			"desc": {
+				"en": "Inflicts major ice-elemental breath damage on all enemies."
+			}
+		},
+		"C-C-Cold Breath": {
+			"attribute": "Breath",
+			"type": "Attack",
+			"power": 30,
+			"desc": {
+				"en": "Inflicts extreme ice-elemental breath damage on all enemies."
+			}
+		},
+		"Ice Age": {
+			"attribute": "Breath",
+			"type": "Attack",
+			"power": 64,
+			"desc": {
+				"en": "Inflicts outrageous ice-elemental breath damage on all enemies and occasionally stuns them for 1 turn."
+			}
+		},
+		"Sandy Sigh": {
+			"attribute": "Breath",
+			"type": "Attack",
+			"power": 22,
+			"desc": {
+				"en": "Whips up a cloud of dust that inflicts major earth-elemental breath damage on all enemies and occasionally lowers their accuracy for 2 to 5 turns."
+			}
+		},
+		"Blessed Breath": {
+			"attribute": "Breath",
+			"type": "Attack",
+			"power": 22,
+			"desc": {
+				"en": "Inflicts major light-elemental breath damage on all enemies and occasionally confuses them for 2 to 5 turns."
+			}
+		},
+		"Black Breath": {
+			"attribute": "Breath",
+			"type": "Attack",
+			"power": 22,
+			"desc": {
+				"en": "Inflicts major dark-elemental breath damage on all enemies and occasionally prevents them from casting spells for 2 to 5 turns."
+			}
+		},
+		"Grim Breath": {
+			"attribute": "Breath",
+			"type": "Attack",
+			"power": 80,
+			"desc": {
+				"en": "Inflicts outrageous dark-elemental breath damage on all enemies."
+			}
+		},
+		"Deep Breath": {
+			"attribute": "Breath",
+			"type": "Support",
+			"power": 0,
+			"desc": {
+				"en": "Inhales long and deep, raising the damage inflicted by the user's next breath attack."
+			}
+		},
+		"Sweet Breath": {
+			"attribute": "Breath",
+			"type": "Debuff",
+			"power": 3,
+			"desc": {
+				"en": "Lets out an exhalation of relaxation that puts all enemies to sleep for 2 to 5 turns."
+			}
+		},
+		"Burning Breath": {
+			"attribute": "Breath",
+			"type": "Debuff",
+			"power": 4,
+			"desc": {
+				"en": "Lets out an exhalation of immobilisation that paralyses all enemies for 2 to 5 turns."
+			}
+		},
+		"Poison Breath": {
+			"attribute": "Breath",
+			"type": "Debuff",
+			"power": 3,
+			"desc": {
+				"en": "Exhales toxic fumes that poison all enemies."
+			}
+		},
+		"Sword Dance": {
+			"attribute": "Dance",
+			"type": "Attack",
+			"power": 15,
+			"desc": {
+				"en": "A dance that damages enemies at random, 3 to 7 times in total."
+			}
+		},
+		"Fan Dango": {
+			"attribute": "Dance",
+			"type": "Attack",
+			"power": 8,
+			"desc": {
+				"en": "A dance that damages enemies at random, 3 or 4 times in total. The higher the user's agility, the greater the damage that will be inflicted."
+			}
+		},
+		"Butterfly Bop": {
+			"attribute": "Dance",
+			"type": "Attack",
+			"power": 15,
+			"desc": {
+				"en": "A dance that summons countless butterflies from the aether to attack all enemies. The higher the user's agility, the greter the damage that will be inflicted."
+			}
+		},
+		"Hotstepper": {
+			"attribute": "Dance",
+			"type": "Attack",
+			"power": 30,
+			"desc": {
+				"en": "A dance that inflicts extreme fire-elemental damage on all enemies. The higher ther user's level, the greater the damage that will be inflicted."
+			}
+		},
+		"Electric Boogie": {
+			"attribute": "Dance",
+			"type": "Attack",
+			"power": 30,
+			"desc": {
+				"en": "A dance that inflicts extreme electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			}
+		},
+		"Hustle Dance": {
+			"attribute": "Dance",
+			"type": "Heal",
+			"power": 40,
+			"desc": {
+				"en": "A dance that heals allies at random, 2 to 6 tiems in total. The higher the user's level, the greater the healing amount."
+			}
+		},
+		"Kerplunk Dance": {
+			"attribute": "Dance",
+			"type": "Revive",
+			"power": null,
+			"desc": {
+				"en": "A dance that heals or resurrects all allies, including reserves, but at the cost of the user's life. The user cannot be resurrected in the same battle."
+			}
+		},
+		"Weird Dance": {
+			"attribute": "Dance",
+			"type": "Debuff",
+			"power": 0,
+			"desc": {
+				"en": "A dance that decreases the MP of a single enemy."
+			}
+		},
+		"Tap Dance": {
+			"attribute": "Dance",
+			"type": "Debuff",
+			"power": 0,
+			"desc": {
+				"en": "A dance that absorbs some MP from a single enemy."
+			}
+		},
+		"Fuddle Dance": {
+			"attribute": "Dance",
+			"type": "Debuff",
+			"power": 2,
+			"desc": {
+				"en": "A dance that confuses all enemies for 2 to 5 turns."
+			}
+		},
+		"Sultry Dance": {
+			"attribute": "Dance",
+			"type": "Debuff",
+			"power": 2,
+			"desc": {
+				"en": "A bewitching dance that stuns all enemies for 1 turn."
+			}
+		},
+		"Death Dance": {
+			"attribute": "Dance",
+			"type": "Debuff",
+			"power": 6,
+			"desc": {
+				"en": "A dance that kills all enemies instantly."
+			}
+		},
+		"Mirror Moves": {
+			"attribute": "Dance",
+			"type": "Debuff",
+			"power": 32,
+			"desc": {
+				"en": "A secret technique that copies an enemy's dance moves step-for-step, effectively reflecting their dance back at them. Protects all allies once only."
+			}
+		},
+		"Intense Defense": {
+			"attribute": "Other",
+			"type": "Other",
+			"power": 3,
+			"desc": {
+				"en": "Assumes an impenetrable defensive stance that reduces most damage received by 9/10. Can only be used once per battle."
+			}
+		}
+	},
+	"talents": {
+		"Frizz Afficionado": {
+			"moves": [
+				{
+					"move": "Frizz",
+					"sp": 3
+				},
+				{
+					"move": "Flame Slash",
+					"sp": 10
+				},
+				{
+					"move": "Dragon Slash",
+					"sp": 20
+				},
+				{
+					"move": "Max. MP +4",
+					"sp": 30
+				},
+				{
+					"move": "Fire Breath",
+					"sp": 50
+				},
+				{
+					"move": "Oomph",
+					"sp": 70
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 85
+				},
+				{
+					"move": "Frizzle",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Max. MP +4",
+				"Max. MP +8"
+			],
+			"category": "Standard"
+		},
+		"Frizz Virtuoso": {
+			"moves": [
+				{
+					"move": "Frizzle",
+					"sp": 3
+				},
+				{
+					"move": "Flame Breath",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 20
+				},
+				{
+					"move": "Kafrizz",
+					"sp": 40
+				},
+				{
+					"move": "Flamesplitter",
+					"sp": 60
+				},
+				{
+					"move": "Oomphle",
+					"sp": 80
+				},
+				{
+					"move": "Max. MP +24",
+					"sp": 110
+				},
+				{
+					"move": "Kafrizzle",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Max. MP +16",
+				"Max. MP +24"
+			],
+			"category": "Evolution"
+		},
+		"Splash Afficionado": {
+			"moves": [
+				{
+					"move": "Splish",
+					"sp": 3
+				},
+				{
+					"move": "Heal",
+					"sp": 10
+				},
+				{
+					"move": "Slime Squisher",
+					"sp": 20
+				},
+				{
+					"move": "Max. MP +4",
+					"sp": 30
+				},
+				{
+					"move": "Weird Dance",
+					"sp": 50
+				},
+				{
+					"move": "Blunt",
+					"sp": 70
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 85
+				},
+				{
+					"move": "Splash",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Max. MP +4",
+				"Max. MP +8"
+			],
+			"category": "Standard"
+		},
+		"Splash Virtuoso": {
+			"moves": [
+				{
+					"move": "Splash",
+					"sp": 3
+				},
+				{
+					"move": "Midheal",
+					"sp": 10
+				},
+				{
+					"move": "Kasplash",
+					"sp": 20
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 20
+				},
+				{
+					"move": "Right as Rain",
+					"sp": 40
+				},
+				{
+					"move": "Kablunt",
+					"sp": 80
+				},
+				{
+					"move": "Max. MP +24",
+					"sp": 110
+				},
+				{
+					"move": "Kasplashle",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Max. MP +16",
+				"Max. MP +24"
+			],
+			"category": "Evolution"
+		},
+		"Woosh Afficionado": {
+			"moves": [
+				{
+					"move": "Woosh",
+					"sp": 3
+				},
+				{
+					"move": "Gust Slash",
+					"sp": 10
+				},
+				{
+					"move": "Nature Nerfer",
+					"sp": 20
+				},
+				{
+					"move": "Max. MP +4",
+					"sp": 30
+				},
+				{
+					"move": "Wind Sickles",
+					"sp": 50
+				},
+				{
+					"move": "Insulate",
+					"sp": 70
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 85
+				},
+				{
+					"move": "Swoosh",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Max. MP +4",
+				"Max. MP +8"
+			],
+			"category": "Standard"
+		},
+		"Woosh Virtuoso": {
+			"moves": [
+				{
+					"move": "Swoosh",
+					"sp": 3
+				},
+				{
+					"move": "Thin Air",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 20
+				},
+				{
+					"move": "Kaswoosh",
+					"sp": 40
+				},
+				{
+					"move": "Skysplitter",
+					"sp": 60
+				},
+				{
+					"move": "Insulatle",
+					"sp": 80
+				},
+				{
+					"move": "Max. MP +24",
+					"sp": 110
+				},
+				{
+					"move": "Kaswooshle",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Max. MP +16",
+				"Max. MP +24"
+			],
+			"category": "Evolution"
+		},
+		"Crag Afficionado": {
+			"moves": [
+				{
+					"move": "Crag",
+					"sp": 3
+				},
+				{
+					"move": "Stone's Throw",
+					"sp": 10
+				},
+				{
+					"move": "Beast Tamer",
+					"sp": 20
+				},
+				{
+					"move": "Max. MP +4",
+					"sp": 30
+				},
+				{
+					"move": "Stomp",
+					"sp": 50
+				},
+				{
+					"move": "Buff",
+					"sp": 70
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 85
+				},
+				{
+					"move": "Craggle",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Max. MP +4",
+				"Max. MP +8"
+			],
+			"category": "Standard"
+		},
+		"Crag Virtuoso": {
+			"moves": [
+				{
+					"move": "Craggle",
+					"sp": 3
+				},
+				{
+					"move": "Sandy Sigh",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 20
+				},
+				{
+					"move": "Kacrag",
+					"sp": 40
+				},
+				{
+					"move": "Earthsplitter",
+					"sp": 60
+				},
+				{
+					"move": "Kabuff",
+					"sp": 80
+				},
+				{
+					"move": "Max. MP +24",
+					"sp": 110
+				},
+				{
+					"move": "Kacraggle",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Max. MP +16",
+				"Max. MP +24"
+			],
+			"category": "Evolution"
+		},
+		"Bang Afficionado": {
+			"moves": [
+				{
+					"move": "Bang",
+					"sp": 3
+				},
+				{
+					"move": "Helm Splitter",
+					"sp": 10
+				},
+				{
+					"move": "Matter Scatterer",
+					"sp": 20
+				},
+				{
+					"move": "Max. MP +4",
+					"sp": 30
+				},
+				{
+					"move": "Anchorman",
+					"sp": 50
+				},
+				{
+					"move": "Oomph",
+					"sp": 70
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 85
+				},
+				{
+					"move": "Boom",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Max. MP +4",
+				"Max. MP +8"
+			],
+			"category": "Standard"
+		},
+		"Bang Virtuoso": {
+			"moves": [
+				{
+					"move": "Boom",
+					"sp": 3
+				},
+				{
+					"move": "Hatchet Man",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 20
+				},
+				{
+					"move": "Kaboom",
+					"sp": 40
+				},
+				{
+					"move": "Kamikazee",
+					"sp": 60
+				},
+				{
+					"move": "Oomphle",
+					"sp": 80
+				},
+				{
+					"move": "Max. MP +24",
+					"sp": 110
+				},
+				{
+					"move": "Kaboomle",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Max. MP +16",
+				"Max. MP +24"
+			],
+			"category": "Evolution"
+		},
+		"Crack Afficionado": {
+			"moves": [
+				{
+					"move": "Crack",
+					"sp": 3
+				},
+				{
+					"move": "Kacrackle Slash",
+					"sp": 10
+				},
+				{
+					"move": "Demon Demeaner",
+					"sp": 20
+				},
+				{
+					"move": "Max. MP +4",
+					"sp": 30
+				},
+				{
+					"move": "Cool Breath",
+					"sp": 50
+				},
+				{
+					"move": "Snooze",
+					"sp": 70
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 85
+				},
+				{
+					"move": "Crackle",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Max. MP +4",
+				"Max. MP +8"
+			],
+			"category": "Standard"
+		},
+		"Crack Virtuoso": {
+			"moves": [
+				{
+					"move": "Crackle",
+					"sp": 3
+				},
+				{
+					"move": "Chilly Breath",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 20
+				},
+				{
+					"move": "Kacrack",
+					"sp": 40
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 60
+				},
+				{
+					"move": "Kasnooze",
+					"sp": 80
+				},
+				{
+					"move": "Max. MP +24",
+					"sp": 110
+				},
+				{
+					"move": "Kacrackle",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Max. MP +16",
+				"Max. MP +24",
+				"Max. MP +8"
+			],
+			"category": "Evolution"
+		},
+		"Zap Afficionado": {
+			"moves": [
+				{
+					"move": "Zap",
+					"sp": 3
+				},
+				{
+					"move": "Lightning Slash",
+					"sp": 10
+				},
+				{
+					"move": "Numb",
+					"sp": 20
+				},
+				{
+					"move": "Max. MP +4",
+					"sp": 30
+				},
+				{
+					"move": "Knuckle Sandwich",
+					"sp": 50
+				},
+				{
+					"move": "Accelerate",
+					"sp": 70
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 85
+				},
+				{
+					"move": "Zapple",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Max. MP +4",
+				"Max. MP +8"
+			],
+			"category": "Standard"
+		},
+		"Zap Virtuoso": {
+			"moves": [
+				{
+					"move": "Zapple",
+					"sp": 3
+				},
+				{
+					"move": "Acceleratle",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 20
+				},
+				{
+					"move": "Kazap",
+					"sp": 40
+				},
+				{
+					"move": "Lightning",
+					"sp": 60
+				},
+				{
+					"move": "Kanumb",
+					"sp": 80
+				},
+				{
+					"move": "Max. MP +24",
+					"sp": 110
+				},
+				{
+					"move": "Kazapple",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Max. MP +16",
+				"Max. MP +24"
+			],
+			"category": "Evolution"
+		},
+		"Sizz Afficionado": {
+			"moves": [
+				{
+					"move": "Sizz",
+					"sp": 3
+				},
+				{
+					"move": "Dazzleflash",
+					"sp": 10
+				},
+				{
+					"move": "Undead Undoer",
+					"sp": 20
+				},
+				{
+					"move": "Max. MP +4",
+					"sp": 30
+				},
+				{
+					"move": "Magic Pop",
+					"sp": 50
+				},
+				{
+					"move": "Ping",
+					"sp": 70
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 85
+				},
+				{
+					"move": "Sizzle",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Max. MP +4",
+				"Max. MP +8"
+			],
+			"category": "Standard"
+		},
+		"Sizz Virtuoso": {
+			"moves": [
+				{
+					"move": "Sizzle",
+					"sp": 3
+				},
+				{
+					"move": "Kaping",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 20
+				},
+				{
+					"move": "Kasizz",
+					"sp": 40
+				},
+				{
+					"move": "Brightsplitter",
+					"sp": 60
+				},
+				{
+					"move": "Blessed Breath",
+					"sp": 80
+				},
+				{
+					"move": "Max. MP +24",
+					"sp": 110
+				},
+				{
+					"move": "Kasizzle",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Max. MP +16",
+				"Max. MP +24"
+			],
+			"category": "Evolution"
+		},
+		"Zam Afficionado": {
+			"moves": [
+				{
+					"move": "Zam",
+					"sp": 3
+				},
+				{
+					"move": "Attack Attacker",
+					"sp": 10
+				},
+				{
+					"move": "Victimiser",
+					"sp": 20
+				},
+				{
+					"move": "Max. MP +4",
+					"sp": 30
+				},
+				{
+					"move": "Confusion Attack",
+					"sp": 50
+				},
+				{
+					"move": "Sap",
+					"sp": 70
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 85
+				},
+				{
+					"move": "Zammle",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Max. MP +4",
+				"Max. MP +8"
+			],
+			"category": "Standard"
+		},
+		"Zam Virtuoso": {
+			"moves": [
+				{
+					"move": "Zammle",
+					"sp": 3
+				},
+				{
+					"move": "Kasap",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 20
+				},
+				{
+					"move": "Kazam",
+					"sp": 40
+				},
+				{
+					"move": "Blightsplitter",
+					"sp": 60
+				},
+				{
+					"move": "Black Breath",
+					"sp": 80
+				},
+				{
+					"move": "Max. MP +24",
+					"sp": 110
+				},
+				{
+					"move": "Kazammle",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Max. MP +16",
+				"Max. MP +24"
+			],
+			"category": "Evolution"
+		},
+		"Blazer": {
+			"moves": [
+				{
+					"move": "Fire Breath",
+					"sp": 3
+				},
+				{
+					"move": "Frizz",
+					"sp": 10
+				},
+				{
+					"move": "Defence +8",
+					"sp": 20
+				},
+				{
+					"move": "Stone's Throw",
+					"sp": 30
+				},
+				{
+					"move": "Fuddle",
+					"sp": 50
+				},
+				{
+					"move": "Attack +8",
+					"sp": 70
+				},
+				{
+					"move": "Sandstorm",
+					"sp": 85
+				},
+				{
+					"move": "Flame Breath",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Attack +8",
+				"Defence +8"
+			],
+			"category": "Standard"
+		},
+		"Smart Blazer": {
+			"moves": [
+				{
+					"move": "Flame Breath",
+					"sp": 3
+				},
+				{
+					"move": "Flame Slash",
+					"sp": 10
+				},
+				{
+					"move": "Frizzle",
+					"sp": 20
+				},
+				{
+					"move": "Defence +12",
+					"sp": 40
+				},
+				{
+					"move": "Inferno",
+					"sp": 60
+				},
+				{
+					"move": "Kafrizz",
+					"sp": 80
+				},
+				{
+					"move": "Deep Breath",
+					"sp": 100
+				},
+				{
+					"move": "Scorch",
+					"sp": 130
+				},
+				{
+					"move": "Attack +16",
+					"sp": 160
+				},
+				{
+					"move": "Hellitosis",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Attack +16",
+				"Defence +12"
+			],
+			"category": "Evolution"
+		},
+		"Chilly Receptionist": {
+			"moves": [
+				{
+					"move": "Cool Breath",
+					"sp": 3
+				},
+				{
+					"move": "Crack",
+					"sp": 10
+				},
+				{
+					"move": "Agility +8",
+					"sp": 20
+				},
+				{
+					"move": "Whack",
+					"sp": 30
+				},
+				{
+					"move": "Snooze",
+					"sp": 50
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 70
+				},
+				{
+					"move": "Dazzleflash",
+					"sp": 85
+				},
+				{
+					"move": "Chilly Breath",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Agility +8",
+				"Wisdom +16"
+			],
+			"category": "Standard"
+		},
+		"Frosty Receptionist": {
+			"moves": [
+				{
+					"move": "Chilly Breath",
+					"sp": 3
+				},
+				{
+					"move": "Kacrackle Slash",
+					"sp": 10
+				},
+				{
+					"move": "Crackle",
+					"sp": 20
+				},
+				{
+					"move": "Wisdom +32",
+					"sp": 32
+				},
+				{
+					"move": "Agility +16",
+					"sp": 40
+				},
+				{
+					"move": "Freezing Blizzard",
+					"sp": 60
+				},
+				{
+					"move": "Kacrack",
+					"sp": 80
+				},
+				{
+					"move": "Deep Breath",
+					"sp": 100
+				},
+				{
+					"move": "C-C-Cold Breath",
+					"sp": 130
+				},
+				{
+					"move": "Ice Age",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Agility +16",
+				"Wisdom +32"
+			],
+			"category": "Evolution"
+		},
+		"Shallow Breather": {
+			"moves": [
+				{
+					"move": "Fire Breath",
+					"sp": 3
+				},
+				{
+					"move": "Cool Breath",
+					"sp": 10
+				},
+				{
+					"move": "Attack +4",
+					"sp": 20
+				},
+				{
+					"move": "Sandstorm",
+					"sp": 30
+				},
+				{
+					"move": "Deep Breath",
+					"sp": 50
+				},
+				{
+					"move": "Attack +8",
+					"sp": 70
+				},
+				{
+					"move": "Flame Breath",
+					"sp": 85
+				},
+				{
+					"move": "Chilly Breath",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Attack +4",
+				"Attack +8"
+			],
+			"category": "Standard"
+		},
+		"Deep Breather": {
+			"moves": [
+				{
+					"move": "Flame Breath",
+					"sp": 3
+				},
+				{
+					"move": "Chilly Breath",
+					"sp": 10
+				},
+				{
+					"move": "Deep Breath",
+					"sp": 20
+				},
+				{
+					"move": "Inferno",
+					"sp": 40
+				},
+				{
+					"move": "Freezing Blizzard",
+					"sp": 60
+				},
+				{
+					"move": "Blessed Breath",
+					"sp": 80
+				},
+				{
+					"move": "Black Breath",
+					"sp": 100
+				},
+				{
+					"move": "Sandy Sigh",
+					"sp": 130
+				},
+				{
+					"move": "Scorch",
+					"sp": 160
+				},
+				{
+					"move": "C-C-Cold Breath",
+					"sp": 200
+				}
+			],
+			"category": "Evolution"
+		},
+		"Dancer": {
+			"moves": [
+				{
+					"move": "Weird Dance",
+					"sp": 3
+				},
+				{
+					"move": "Sultry Dance",
+					"sp": 10
+				},
+				{
+					"move": "Mercurial Thrust",
+					"sp": 20
+				},
+				{
+					"move": "Agility +4",
+					"sp": 30
+				},
+				{
+					"move": "Buff",
+					"sp": 50
+				},
+				{
+					"move": "Tap Dance",
+					"sp": 70
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 85
+				},
+				{
+					"move": "Sword Dance",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Agility +4",
+				"Max. MP +8"
+			],
+			"category": "Standard"
+		},
+		"Choreographer": {
+			"moves": [
+				{
+					"move": "Decelerate",
+					"sp": 3
+				},
+				{
+					"move": "Dim",
+					"sp": 10
+				},
+				{
+					"move": "Weird Dance",
+					"sp": 20
+				},
+				{
+					"move": "Deceleratle",
+					"sp": 30
+				},
+				{
+					"move": "Dazzleflash",
+					"sp": 50
+				},
+				{
+					"move": "Sultry Dance",
+					"sp": 70
+				},
+				{
+					"move": "Fuddle Dance",
+					"sp": 85
+				},
+				{
+					"move": "Kerplunk Dance",
+					"sp": 100
+				}
+			],
+			"category": "Standard"
+		},
+		"Slimer": {
+			"moves": [
+				{
+					"move": "Frizz",
+					"sp": 3
+				},
+				{
+					"move": "Heal",
+					"sp": 10
+				},
+				{
+					"move": "Slime Squisher",
+					"sp": 20
+				},
+				{
+					"move": "Zap",
+					"sp": 30
+				},
+				{
+					"move": "Accelerate",
+					"sp": 50
+				},
+				{
+					"move": "Dazzleflash",
+					"sp": 70
+				},
+				{
+					"move": "Midheal",
+					"sp": 85
+				},
+				{
+					"move": "Auto-Restora",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Auto-Restora"
+			],
+			"category": "Standard"
+		},
+		"Dragonheart": {
+			"moves": [
+				{
+					"move": "Fire Breath",
+					"sp": 3
+				},
+				{
+					"move": "Cool Breath",
+					"sp": 10
+				},
+				{
+					"move": "Beast Tamer",
+					"sp": 20
+				},
+				{
+					"move": "Sandstorm",
+					"sp": 30
+				},
+				{
+					"move": "Deep Breath",
+					"sp": 50
+				},
+				{
+					"move": "War Cry",
+					"sp": 70
+				},
+				{
+					"move": "Flame Breath",
+					"sp": 85
+				},
+				{
+					"move": "Chilly Breath",
+					"sp": 100
+				},
+				{
+					"move": "Auto-Restora",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"Auto-Restora"
+			],
+			"category": "Standard"
+		},
+		"Graveheart": {
+			"moves": [
+				{
+					"move": "Poison Attack",
+					"sp": 3
+				},
+				{
+					"move": "Poisonous Touch",
+					"sp": 3
+				},
+				{
+					"move": "Decelerate",
+					"sp": 10
+				},
+				{
+					"move": "Sleep Attack",
+					"sp": 20
+				},
+				{
+					"move": "Sweet Breath",
+					"sp": 30
+				},
+				{
+					"move": "Burning Breath",
+					"sp": 50
+				},
+				{
+					"move": "Confusion Attack",
+					"sp": 70
+				},
+				{
+					"move": "Whack",
+					"sp": 85
+				},
+				{
+					"move": "Kamikazee",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Poisonous Touch"
+			],
+			"category": "Standard"
+		},
+		"Hive Mind": {
+			"moves": [
+				{
+					"move": "Buff",
+					"sp": 3
+				},
+				{
+					"move": "Snooze",
+					"sp": 10
+				},
+				{
+					"move": "Heart Breaker",
+					"sp": 20
+				},
+				{
+					"move": "Sleep Attack",
+					"sp": 30
+				},
+				{
+					"move": "Paralysing Punch",
+					"sp": 50
+				},
+				{
+					"move": "Nature Nerfer",
+					"sp": 70
+				},
+				{
+					"move": "Intense Defense",
+					"sp": 85
+				},
+				{
+					"move": "Fuddle Dance",
+					"sp": 100
+				}
+			],
+			"category": "Standard"
+		},
+		"Materialist": {
+			"moves": [
+				{
+					"move": "Crag",
+					"sp": 3
+				},
+				{
+					"move": "Helm Splitter",
+					"sp": 10
+				},
+				{
+					"move": "Matter Scatterer",
+					"sp": 20
+				},
+				{
+					"move": "Stone's Throw",
+					"sp": 30
+				},
+				{
+					"move": "Kabuff",
+					"sp": 50
+				},
+				{
+					"move": "Fizzle",
+					"sp": 70
+				},
+				{
+					"move": "Knuckle Sandwich",
+					"sp": 85
+				},
+				{
+					"move": "Kamikazee",
+					"sp": 100
+				}
+			],
+			"category": "Standard"
+		},
+		"Naturalist": {
+			"moves": [
+				{
+					"move": "Heart Breaker",
+					"sp": 3
+				},
+				{
+					"move": "Sandstorm",
+					"sp": 10
+				},
+				{
+					"move": "Attack Attacker",
+					"sp": 20
+				},
+				{
+					"move": "Mercurial Thrust",
+					"sp": 30
+				},
+				{
+					"move": "Tongue Lashing",
+					"sp": 50
+				},
+				{
+					"move": "War Cry",
+					"sp": 70
+				},
+				{
+					"move": "Hatchet Man",
+					"sp": 85
+				},
+				{
+					"move": "Auto-Restora",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Auto-Restora"
+			],
+			"category": "Standard"
+		},
+		"Dark Artist": {
+			"moves": [
+				{
+					"move": "Zam",
+					"sp": 3
+				},
+				{
+					"move": "Sap",
+					"sp": 10
+				},
+				{
+					"move": "Dim",
+					"sp": 20
+				},
+				{
+					"move": "Demon Demeaner",
+					"sp": 30
+				},
+				{
+					"move": "Drain Magic",
+					"sp": 50
+				},
+				{
+					"move": "Fizzle",
+					"sp": 70
+				},
+				{
+					"move": "Whack",
+					"sp": 85
+				},
+				{
+					"move": "Zammle",
+					"sp": 100
+				},
+				{
+					"move": "Auto-Cadabra",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"Auto-Cadabra"
+			],
+			"category": "Standard"
+		},
+		"Blusterer": {
+			"moves": [
+				{
+					"move": "Accelerate",
+					"sp": 3
+				},
+				{
+					"move": "Woosh",
+					"sp": 10
+				},
+				{
+					"move": "Sandstorm",
+					"sp": 20
+				},
+				{
+					"move": "Acceleratle",
+					"sp": 30
+				},
+				{
+					"move": "Insulate",
+					"sp": 50
+				},
+				{
+					"move": "Wind Sickles",
+					"sp": 70
+				},
+				{
+					"move": "Insulatle",
+					"sp": 85
+				},
+				{
+					"move": "Brake Wind",
+					"sp": 100
+				},
+				{
+					"move": "Thin Air",
+					"sp": 120
+				}
+			],
+			"category": "Standard"
+		},
+		"Nature Child": {
+			"moves": [
+				{
+					"move": "Squelch",
+					"sp": 3
+				},
+				{
+					"move": "Heal",
+					"sp": 10
+				},
+				{
+					"move": "Drain Magic",
+					"sp": 20
+				},
+				{
+					"move": "Snooze",
+					"sp": 30
+				},
+				{
+					"move": "Sleep Attack",
+					"sp": 50
+				},
+				{
+					"move": "Dazzle",
+					"sp": 70
+				},
+				{
+					"move": "Fizzle",
+					"sp": 85
+				},
+				{
+					"move": "Miracle Slash",
+					"sp": 100
+				},
+				{
+					"move": "Auto-Cadabra",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"Auto-Cadabra"
+			],
+			"category": "Standard"
+		},
+		"Aquapothecary": {
+			"moves": [
+				{
+					"move": "Splish",
+					"sp": 3
+				},
+				{
+					"move": "Heal",
+					"sp": 10
+				},
+				{
+					"move": "Cock-a-Doodle-Doo",
+					"sp": 20
+				},
+				{
+					"move": "Snooze",
+					"sp": 30
+				},
+				{
+					"move": "Midheal",
+					"sp": 50
+				},
+				{
+					"move": "Chilly Breath",
+					"sp": 70
+				},
+				{
+					"move": "Mist Me",
+					"sp": 85
+				},
+				{
+					"move": "Splash",
+					"sp": 100
+				},
+				{
+					"move": "Auto-Cadabra",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"Auto-Cadabra"
+			],
+			"category": "Standard"
+		},
+		"Spicy Slasher": {
+			"moves": [
+				{
+					"move": "Flame Slash",
+					"sp": 3
+				},
+				{
+					"move": "Frizz",
+					"sp": 10
+				},
+				{
+					"move": "Dragon Slash",
+					"sp": 20
+				},
+				{
+					"move": "Attack +4",
+					"sp": 30
+				},
+				{
+					"move": "Squelch",
+					"sp": 50
+				},
+				{
+					"move": "Frizzle",
+					"sp": 70
+				},
+				{
+					"move": "Flame Breath",
+					"sp": 85
+				},
+				{
+					"move": "Attack +8",
+					"sp": 100
+				},
+				{
+					"move": "Flamesplitter",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"Attack +4",
+				"Attack +8"
+			],
+			"category": "Standard"
+		},
+		"Soggy Slasher": {
+			"moves": [
+				{
+					"move": "Kacrackle Slash",
+					"sp": 3
+				},
+				{
+					"move": "Splish",
+					"sp": 10
+				},
+				{
+					"move": "Slime Squisher",
+					"sp": 20
+				},
+				{
+					"move": "Wisdom +8",
+					"sp": 30
+				},
+				{
+					"move": "Cock-a-Doodle-Doo",
+					"sp": 50
+				},
+				{
+					"move": "Splash",
+					"sp": 70
+				},
+				{
+					"move": "Chilly Breath",
+					"sp": 85
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 100
+				},
+				{
+					"move": "Blightsplitter",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"Wisdom +16",
+				"Wisdom +8"
+			],
+			"category": "Standard"
+		},
+		"Blowy Slasher": {
+			"moves": [
+				{
+					"move": "Gust Slash",
+					"sp": 3
+				},
+				{
+					"move": "Woosh",
+					"sp": 10
+				},
+				{
+					"move": "Nature Nerfer",
+					"sp": 20
+				},
+				{
+					"move": "Tingle",
+					"sp": 30
+				},
+				{
+					"move": "Agility +8",
+					"sp": 30
+				},
+				{
+					"move": "Wind Sickles",
+					"sp": 70
+				},
+				{
+					"move": "Swoosh",
+					"sp": 85
+				},
+				{
+					"move": "Agility +16",
+					"sp": 100
+				},
+				{
+					"move": "Skysplitter",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"Agility +16",
+				"Agility +8"
+			],
+			"category": "Standard"
+		},
+		"Stony Slasher": {
+			"moves": [
+				{
+					"move": "Lightning Slash",
+					"sp": 3
+				},
+				{
+					"move": "Crag",
+					"sp": 10
+				},
+				{
+					"move": "Beast Tamer",
+					"sp": 20
+				},
+				{
+					"move": "Defence +8",
+					"sp": 30
+				},
+				{
+					"move": "Defuddle",
+					"sp": 50
+				},
+				{
+					"move": "Stone's Throw",
+					"sp": 70
+				},
+				{
+					"move": "Craggle",
+					"sp": 85
+				},
+				{
+					"move": "Defence +12",
+					"sp": 100
+				},
+				{
+					"move": "Brightsplitter",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"Defence +12",
+				"Defence +8"
+			],
+			"category": "Standard"
+		},
+		"Thrill-Seeker": {
+			"moves": [
+				{
+					"move": "Decelerate",
+					"sp": 3
+				},
+				{
+					"move": "Crack",
+					"sp": 10
+				},
+				{
+					"move": "Cool Breath",
+					"sp": 20
+				},
+				{
+					"move": "Sap",
+					"sp": 30
+				},
+				{
+					"move": "War Cry",
+					"sp": 50
+				},
+				{
+					"move": "Whack",
+					"sp": 70
+				},
+				{
+					"move": "Fuddle",
+					"sp": 85
+				},
+				{
+					"move": "Wisdom +24",
+					"sp": 100
+				},
+				{
+					"move": "Crackle",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"Wisdom +24"
+			],
+			"category": "Standard"
+		},
+		"Hexcommunicator": {
+			"moves": [
+				{
+					"move": "Zam",
+					"sp": 3
+				},
+				{
+					"move": "Sap",
+					"sp": 10
+				},
+				{
+					"move": "Cool Breath",
+					"sp": 20
+				},
+				{
+					"move": "Blunt",
+					"sp": 30
+				},
+				{
+					"move": "Fuddle",
+					"sp": 50
+				},
+				{
+					"move": "Numb",
+					"sp": 70
+				},
+				{
+					"move": "Whack",
+					"sp": 85
+				},
+				{
+					"move": "Wisdom +24",
+					"sp": 100
+				},
+				{
+					"move": "Zammle",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"Wisdom +24"
+			],
+			"category": "Standard"
+		},
+		"Speedster": {
+			"moves": [
+				{
+					"move": "Accelerate",
+					"sp": 3
+				},
+				{
+					"move": "Heal",
+					"sp": 10
+				},
+				{
+					"move": "Decelerate",
+					"sp": 20
+				},
+				{
+					"move": "Agility +4",
+					"sp": 30
+				},
+				{
+					"move": "Dodgy Dance",
+					"sp": 50
+				},
+				{
+					"move": "Sandstorm",
+					"sp": 70
+				},
+				{
+					"move": "Acceleratle",
+					"sp": 85
+				},
+				{
+					"move": "Mercurial Thrust",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Agility +4"
+			],
+			"category": "Standard"
+		},
+		"Cupid": {
+			"moves": [
+				{
+					"move": "Heal",
+					"sp": 3
+				},
+				{
+					"move": "Buff",
+					"sp": 10
+				},
+				{
+					"move": "Sizz",
+					"sp": 20
+				},
+				{
+					"move": "Heart Breaker",
+					"sp": 30
+				},
+				{
+					"move": "Sizzle",
+					"sp": 50
+				},
+				{
+					"move": "Dazzleflash",
+					"sp": 70
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 85
+				},
+				{
+					"move": "Shining Shot",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Max. HP +8"
+			],
+			"category": "Standard"
+		},
+		"Power Player": {
+			"moves": [
+				{
+					"move": "Helm Splitter",
+					"sp": 3
+				},
+				{
+					"move": "Slime Squisher",
+					"sp": 10
+				},
+				{
+					"move": "Attack +4",
+					"sp": 20
+				},
+				{
+					"move": "Seethe",
+					"sp": 30
+				},
+				{
+					"move": "Hatchet Man",
+					"sp": 50
+				},
+				{
+					"move": "Oomph",
+					"sp": 70
+				},
+				{
+					"move": "Attack +12",
+					"sp": 85
+				},
+				{
+					"move": "Anchorman",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Attack +12",
+				"Attack +4"
+			],
+			"category": "Standard"
+		},
+		"Wild Child": {
+			"moves": [
+				{
+					"move": "Sandstorm",
+					"sp": 3
+				},
+				{
+					"move": "Frenzy",
+					"sp": 10
+				},
+				{
+					"move": "Attack Attacker",
+					"sp": 20
+				},
+				{
+					"move": "Attack +4",
+					"sp": 30
+				},
+				{
+					"move": "Confusion Attack",
+					"sp": 50
+				},
+				{
+					"move": "War Cry",
+					"sp": 70
+				},
+				{
+					"move": "Persecutter",
+					"sp": 85
+				},
+				{
+					"move": "Fuddle Dance",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Attack +4"
+			],
+			"category": "Standard"
+		},
+		"Outlaw": {
+			"moves": [
+				{
+					"move": "Helm Splitter",
+					"sp": 3
+				},
+				{
+					"move": "Parallax",
+					"sp": 10
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 20
+				},
+				{
+					"move": "Poison Attack",
+					"sp": 30
+				},
+				{
+					"move": "Poisonous Touch",
+					"sp": 30
+				},
+				{
+					"move": "Stone's Throw",
+					"sp": 50
+				},
+				{
+					"move": "War Cry",
+					"sp": 70
+				},
+				{
+					"move": "Tongue Lashing",
+					"sp": 85
+				},
+				{
+					"move": "Hustle Dance",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Max. HP +4",
+				"Poisonous Touch"
+			],
+			"category": "Standard"
+		},
+		"Fighter": {
+			"moves": [
+				{
+					"move": "Helm Splitter",
+					"sp": 3
+				},
+				{
+					"move": "Heart Breaker",
+					"sp": 10
+				},
+				{
+					"move": "Frenzy",
+					"sp": 20
+				},
+				{
+					"move": "Stone's Throw",
+					"sp": 30
+				},
+				{
+					"move": "Hatchet Man",
+					"sp": 50
+				},
+				{
+					"move": "Roundhouse Kick",
+					"sp": 70
+				},
+				{
+					"move": "War Cry",
+					"sp": 85
+				},
+				{
+					"move": "Knuckle Sandwich",
+					"sp": 100
+				}
+			],
+			"category": "Standard"
+		},
+		"Martial Maven": {
+			"moves": [
+				{
+					"move": "Helm Splitter",
+					"sp": 3
+				},
+				{
+					"move": "Seethe",
+					"sp": 10
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 20
+				},
+				{
+					"move": "Roundhouse Kick",
+					"sp": 30
+				},
+				{
+					"move": "Knuckle Sandwich",
+					"sp": 50
+				},
+				{
+					"move": "Anchorman",
+					"sp": 70
+				},
+				{
+					"move": "Meditation",
+					"sp": 85
+				},
+				{
+					"move": "Multifists",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Max. HP +8"
+			],
+			"category": "Standard"
+		},
+		"Magic Maven": {
+			"moves": [
+				{
+					"move": "Frizz",
+					"sp": 3
+				},
+				{
+					"move": "Heal",
+					"sp": 10
+				},
+				{
+					"move": "Crack",
+					"sp": 20
+				},
+				{
+					"move": "Drain Magic",
+					"sp": 30
+				},
+				{
+					"move": "Sap",
+					"sp": 50
+				},
+				{
+					"move": "Sizz",
+					"sp": 70
+				},
+				{
+					"move": "Woosh",
+					"sp": 85
+				},
+				{
+					"move": "Oomph",
+					"sp": 100
+				},
+				{
+					"move": "Splash",
+					"sp": 120
+				},
+				{
+					"move": "Boom",
+					"sp": 150
+				}
+			],
+			"category": "Standard"
+		},
+		"Blade Maven": {
+			"moves": [
+				{
+					"move": "Flame Slash",
+					"sp": 3
+				},
+				{
+					"move": "Gust Slash",
+					"sp": 10
+				},
+				{
+					"move": "Attack +4",
+					"sp": 20
+				},
+				{
+					"move": "Kacrackle Slash",
+					"sp": 30
+				},
+				{
+					"move": "Lightning Slash",
+					"sp": 50
+				},
+				{
+					"move": "Multislash",
+					"sp": 70
+				},
+				{
+					"move": "Hatchet Man",
+					"sp": 85
+				},
+				{
+					"move": "Miracle Slash",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Attack +4"
+			],
+			"category": "Standard"
+		},
+		"Good Knight": {
+			"moves": [
+				{
+					"move": "Demon Demeaner",
+					"sp": 3
+				},
+				{
+					"move": "Buff",
+					"sp": 10
+				},
+				{
+					"move": "Mercurial Thrust",
+					"sp": 20
+				},
+				{
+					"move": "Oomph",
+					"sp": 30
+				},
+				{
+					"move": "Wind Sickles",
+					"sp": 50
+				},
+				{
+					"move": "Midheal",
+					"sp": 70
+				},
+				{
+					"move": "Selflessness",
+					"sp": 85
+				},
+				{
+					"move": "Meditation",
+					"sp": 100
+				},
+				{
+					"move": "Miracle Slash",
+					"sp": 120
+				}
+			],
+			"category": "Standard"
+		},
+		"Cutpurse": {
+			"moves": [
+				{
+					"move": "Accelerate",
+					"sp": 3
+				},
+				{
+					"move": "Poison Attack",
+					"sp": 10
+				},
+				{
+					"move": "Poisonous Touch",
+					"sp": 10
+				},
+				{
+					"move": "Sleep Attack",
+					"sp": 20
+				},
+				{
+					"move": "Sandstorm",
+					"sp": 30
+				},
+				{
+					"move": "Dodgy Dance",
+					"sp": 50
+				},
+				{
+					"move": "Mercurial Thrust",
+					"sp": 70
+				},
+				{
+					"move": "Victimiser",
+					"sp": 85
+				},
+				{
+					"move": "Persecutter",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Poisonous Touch"
+			],
+			"category": "Standard"
+		},
+		"Sweet-Talker": {
+			"moves": [
+				{
+					"move": "Tongue Lashing",
+					"sp": 2
+				},
+				{
+					"move": "Heal",
+					"sp": 3
+				},
+				{
+					"move": "Sleep Attack",
+					"sp": 20
+				},
+				{
+					"move": "Buff",
+					"sp": 30
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 50
+				},
+				{
+					"move": "Sweet Breath",
+					"sp": 70
+				},
+				{
+					"move": "Miracle Slash",
+					"sp": 85
+				},
+				{
+					"move": "Auto-Cadabra",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Auto-Cadabra",
+				"Max. HP +8"
+			],
+			"category": "Standard"
+		},
+		"Hottie": {
+			"moves": [
+				{
+					"move": "Splish",
+					"sp": 3
+				},
+				{
+					"move": "Sultry Dance",
+					"sp": 10
+				},
+				{
+					"move": "Sweet Breath",
+					"sp": 20
+				},
+				{
+					"move": "Frizzle",
+					"sp": 30
+				},
+				{
+					"move": "Flame Breath",
+					"sp": 50
+				},
+				{
+					"move": "Sizzle",
+					"sp": 70
+				},
+				{
+					"move": "Hustle Dance",
+					"sp": 85
+				},
+				{
+					"move": "Auto-Cadabra",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Auto-Cadabra"
+			],
+			"category": "Standard"
+		},
+		"Tongue Twister": {
+			"moves": [
+				{
+					"move": "Tongue Lashing",
+					"sp": 3
+				},
+				{
+					"move": "Splish",
+					"sp": 10
+				},
+				{
+					"move": "Decelerate",
+					"sp": 20
+				},
+				{
+					"move": "Drain Magic",
+					"sp": 30
+				},
+				{
+					"move": "Sleep Attack",
+					"sp": 50
+				},
+				{
+					"move": "Dazzleflash",
+					"sp": 70
+				},
+				{
+					"move": "Sweet Breath",
+					"sp": 85
+				},
+				{
+					"move": "Tongue Bashing",
+					"sp": 100
+				}
+			],
+			"category": "Standard"
+		},
+		"Assassin": {
+			"moves": [
+				{
+					"move": "Heart Breaker",
+					"sp": 3
+				},
+				{
+					"move": "Sandstorm",
+					"sp": 10
+				},
+				{
+					"move": "Mercurial Thrust",
+					"sp": 20
+				},
+				{
+					"move": "Seethe",
+					"sp": 30
+				},
+				{
+					"move": "Sleep Attack",
+					"sp": 50
+				},
+				{
+					"move": "Hatchet Man",
+					"sp": 70
+				},
+				{
+					"move": "Whack",
+					"sp": 85
+				},
+				{
+					"move": "Assassin's Stab",
+					"sp": 100
+				}
+			],
+			"category": "Standard"
+		},
+		"Hulk": {
+			"moves": [
+				{
+					"move": "Helm Splitter",
+					"sp": 3
+				},
+				{
+					"move": "Slime Squisher",
+					"sp": 10
+				},
+				{
+					"move": "Intense Defense",
+					"sp": 20
+				},
+				{
+					"move": "War Cry",
+					"sp": 30
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 50
+				},
+				{
+					"move": "Selflessness",
+					"sp": 70
+				},
+				{
+					"move": "Anchorman",
+					"sp": 85
+				},
+				{
+					"move": "Stomp",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Max. HP +8"
+			],
+			"category": "Standard"
+		},
+		"Martyr": {
+			"moves": [
+				{
+					"move": "Whack",
+					"sp": 3
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 10
+				},
+				{
+					"move": "Intense Defense",
+					"sp": 20
+				},
+				{
+					"move": "Defence +8",
+					"sp": 30
+				},
+				{
+					"move": "Selflessness",
+					"sp": 50
+				},
+				{
+					"move": "Anchorman",
+					"sp": 70
+				},
+				{
+					"move": "Kamikazee",
+					"sp": 85
+				},
+				{
+					"move": "Kerplunk",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Defence +8",
+				"Max. HP +8"
+			],
+			"category": "Standard"
+		},
+		"Mad Scientist": {
+			"moves": [
+				{
+					"move": "Squelch",
+					"sp": 3
+				},
+				{
+					"move": "Nature Nerfer",
+					"sp": 10
+				},
+				{
+					"move": "Defuddle",
+					"sp": 20
+				},
+				{
+					"move": "Bang",
+					"sp": 30
+				},
+				{
+					"move": "Poison Attack",
+					"sp": 50
+				},
+				{
+					"move": "Poisonous Touch",
+					"sp": 50
+				},
+				{
+					"move": "Wisdom +8",
+					"sp": 70
+				},
+				{
+					"move": "Katox",
+					"sp": 85
+				},
+				{
+					"move": "Wisdom +24",
+					"sp": 100
+				},
+				{
+					"move": "Boom",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"Poisonous Touch",
+				"Wisdom +24",
+				"Wisdom +8"
+			],
+			"category": "Standard"
+		},
+		"Prankster": {
+			"moves": [
+				{
+					"move": "Tongue Lashing",
+					"sp": 3
+				},
+				{
+					"move": "Heart Breaker",
+					"sp": 10
+				},
+				{
+					"move": "Poison Attack",
+					"sp": 20
+				},
+				{
+					"move": "Poisonous Touch",
+					"sp": 20
+				},
+				{
+					"move": "Dazzle",
+					"sp": 30
+				},
+				{
+					"move": "Gobstopper",
+					"sp": 50
+				},
+				{
+					"move": "Fuddle",
+					"sp": 70
+				},
+				{
+					"move": "Agility +4",
+					"sp": 85
+				},
+				{
+					"move": "Burning Breath",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Agility +4",
+				"Poisonous Touch"
+			],
+			"category": "Standard"
+		},
+		"Healer": {
+			"moves": [
+				{
+					"move": "Heal",
+					"sp": 3
+				},
+				{
+					"move": "Buff",
+					"sp": 10
+				},
+				{
+					"move": "Squelch",
+					"sp": 20
+				},
+				{
+					"move": "Insulate",
+					"sp": 30
+				},
+				{
+					"move": "Midheal",
+					"sp": 50
+				},
+				{
+					"move": "Zing",
+					"sp": 70
+				},
+				{
+					"move": "Meditation",
+					"sp": 85
+				},
+				{
+					"move": "Mist Me",
+					"sp": 100
+				},
+				{
+					"move": "Kazing",
+					"sp": 120
+				}
+			],
+			"category": "Standard"
+		},
+		"Paramedic": {
+			"moves": [
+				{
+					"move": "Heal",
+					"sp": 3
+				},
+				{
+					"move": "Squelch",
+					"sp": 10
+				},
+				{
+					"move": "Tingle",
+					"sp": 20
+				},
+				{
+					"move": "Defuddle",
+					"sp": 30
+				},
+				{
+					"move": "Cock-a-Doodle-Doo",
+					"sp": 50
+				},
+				{
+					"move": "Drain Magic",
+					"sp": 70
+				},
+				{
+					"move": "Zing",
+					"sp": 85
+				},
+				{
+					"move": "Wave of Relief",
+					"sp": 100
+				},
+				{
+					"move": "Rando-Relief",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Rando-Relief"
+			],
+			"category": "Standard"
+		},
+		"Soothesayer": {
+			"moves": [
+				{
+					"move": "Heal",
+					"sp": 3
+				},
+				{
+					"move": "Sizz",
+					"sp": 10
+				},
+				{
+					"move": "Buff",
+					"sp": 20
+				},
+				{
+					"move": "Insulate",
+					"sp": 30
+				},
+				{
+					"move": "Snooze",
+					"sp": 50
+				},
+				{
+					"move": "Gobstopper",
+					"sp": 70
+				},
+				{
+					"move": "War Cry",
+					"sp": 85
+				},
+				{
+					"move": "Mist Me",
+					"sp": 100
+				},
+				{
+					"move": "Right as Rain",
+					"sp": 120
+				}
+			],
+			"category": "Standard"
+		},
+		"Sleep Counsellor": {
+			"moves": [
+				{
+					"move": "Snooze",
+					"sp": 3
+				},
+				{
+					"move": "Dazzle",
+					"sp": 10
+				},
+				{
+					"move": "Sleep Attack",
+					"sp": 20
+				},
+				{
+					"move": "Fuddle",
+					"sp": 30
+				},
+				{
+					"move": "Sweet Breath",
+					"sp": 50
+				},
+				{
+					"move": "Confusion Attack",
+					"sp": 70
+				},
+				{
+					"move": "Kasnooze",
+					"sp": 85
+				},
+				{
+					"move": "Kafuddle",
+					"sp": 100
+				}
+			],
+			"category": "Standard"
+		},
+		"Toxicologist": {
+			"moves": [
+				{
+					"move": "Tox",
+					"sp": 3
+				},
+				{
+					"move": "Poison Attack",
+					"sp": 10
+				},
+				{
+					"move": "Poisonous Touch",
+					"sp": 10
+				},
+				{
+					"move": "Tongue Lashing",
+					"sp": 20
+				},
+				{
+					"move": "Heart Breaker",
+					"sp": 30
+				},
+				{
+					"move": "Poison Breath",
+					"sp": 50
+				},
+				{
+					"move": "Dim",
+					"sp": 70
+				},
+				{
+					"move": "Katox",
+					"sp": 85
+				},
+				{
+					"move": "Tongue Bashing",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Poisonous Touch"
+			],
+			"category": "Standard"
+		},
+		"Anaesthetist": {
+			"moves": [
+				{
+					"move": "Numb",
+					"sp": 3
+				},
+				{
+					"move": "Tongue Lashing",
+					"sp": 10
+				},
+				{
+					"move": "Heart Breaker",
+					"sp": 20
+				},
+				{
+					"move": "Paralysing Punch",
+					"sp": 30
+				},
+				{
+					"move": "Assassin's Stab",
+					"sp": 50
+				},
+				{
+					"move": "Parallax",
+					"sp": 70
+				},
+				{
+					"move": "Kanumb",
+					"sp": 85
+				},
+				{
+					"move": "Tongue Bashing",
+					"sp": 100
+				}
+			],
+			"category": "Standard"
+		},
+		"Fortifier": {
+			"moves": [
+				{
+					"move": "Heal",
+					"sp": 3
+				},
+				{
+					"move": "Accelerate",
+					"sp": 10
+				},
+				{
+					"move": "Buff",
+					"sp": 20
+				},
+				{
+					"move": "Ping",
+					"sp": 30
+				},
+				{
+					"move": "Oomph",
+					"sp": 50
+				},
+				{
+					"move": "Insulate",
+					"sp": 70
+				},
+				{
+					"move": "Midheal",
+					"sp": 85
+				},
+				{
+					"move": "Oomphle",
+					"sp": 100
+				}
+			],
+			"category": "Standard"
+		},
+		"Enfeebler": {
+			"moves": [
+				{
+					"move": "Decelerate",
+					"sp": 3
+				},
+				{
+					"move": "Sap",
+					"sp": 10
+				},
+				{
+					"move": "Dim",
+					"sp": 20
+				},
+				{
+					"move": "Blunt",
+					"sp": 30
+				},
+				{
+					"move": "Deceleratle",
+					"sp": 50
+				},
+				{
+					"move": "Kasap",
+					"sp": 70
+				},
+				{
+					"move": "Kadim",
+					"sp": 85
+				},
+				{
+					"move": "Tongue Bashing",
+					"sp": 100
+				}
+			],
+			"category": "Standard"
+		},
+		"Willing Helper": {
+			"moves": [
+				{
+					"move": "Heal",
+					"sp": 3
+				},
+				{
+					"move": "Squelch",
+					"sp": 3
+				},
+				{
+					"move": "Tingle",
+					"sp": 20
+				},
+				{
+					"move": "Buff",
+					"sp": 30
+				},
+				{
+					"move": "Accelerate",
+					"sp": 50
+				},
+				{
+					"move": "Ping",
+					"sp": 70
+				},
+				{
+					"move": "Oomph",
+					"sp": 85
+				},
+				{
+					"move": "Insulate",
+					"sp": 100
+				},
+				{
+					"move": "Midheal",
+					"sp": 120
+				},
+				{
+					"move": "Max. MP +24",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Max. MP +24"
+			],
+			"category": "Standard"
+		},
+		"Breath Taker": {
+			"moves": [
+				{
+					"move": "Gobstopper",
+					"sp": 3
+				},
+				{
+					"move": "Insulate",
+					"sp": 10
+				},
+				{
+					"move": "Dragon Slash",
+					"sp": 20
+				},
+				{
+					"move": "Insulatle",
+					"sp": 30
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 50
+				},
+				{
+					"move": "Sleep Attack",
+					"sp": 70
+				},
+				{
+					"move": "Mist Me",
+					"sp": 85
+				},
+				{
+					"move": "Brake Wind",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Max. HP +4"
+			],
+			"category": "Standard"
+		},
+		"Antimagician": {
+			"moves": [
+				{
+					"move": "Dim",
+					"sp": 3
+				},
+				{
+					"move": "Fizzle",
+					"sp": 10
+				},
+				{
+					"move": "Ping",
+					"sp": 20
+				},
+				{
+					"move": "Drain Magic",
+					"sp": 30
+				},
+				{
+					"move": "Mist Me",
+					"sp": 50
+				},
+				{
+					"move": "Kadim",
+					"sp": 70
+				},
+				{
+					"move": "Mercurial Thrust",
+					"sp": 85
+				},
+				{
+					"move": "Bounce",
+					"sp": 100
+				}
+			],
+			"category": "Standard"
+		},
+		"Defender": {
+			"moves": [
+				{
+					"move": "Buff",
+					"sp": 3
+				},
+				{
+					"move": "Heal",
+					"sp": 10
+				},
+				{
+					"move": "Attack Attacker",
+					"sp": 20
+				},
+				{
+					"move": "Dazzleflash",
+					"sp": 30
+				},
+				{
+					"move": "Kabuff",
+					"sp": 50
+				},
+				{
+					"move": "Intense Defense",
+					"sp": 70
+				},
+				{
+					"move": "Midheal",
+					"sp": 85
+				},
+				{
+					"move": "Selflessness",
+					"sp": 100
+				}
+			],
+			"category": "Standard"
+		},
+		"Barricade": {
+			"moves": [
+				{
+					"move": "Insulate",
+					"sp": 3
+				},
+				{
+					"move": "Defence +4",
+					"sp": 10
+				},
+				{
+					"move": "Kabuff",
+					"sp": 20
+				},
+				{
+					"move": "Mist Me",
+					"sp": 30
+				},
+				{
+					"move": "Knuckle Sandwich",
+					"sp": 50
+				},
+				{
+					"move": "Intense Defense",
+					"sp": 70
+				},
+				{
+					"move": "Critical Meltdown",
+					"sp": 85
+				},
+				{
+					"move": "Selflessness",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Defence +4"
+			],
+			"category": "Standard"
+		},
+		"Irritant": {
+			"moves": [
+				{
+					"move": "Sap",
+					"sp": 3
+				},
+				{
+					"move": "Snooze",
+					"sp": 10
+				},
+				{
+					"move": "Tox",
+					"sp": 20
+				},
+				{
+					"move": "Poison Attack",
+					"sp": 30
+				},
+				{
+					"move": "Poisonous Touch",
+					"sp": 30
+				},
+				{
+					"move": "Numb",
+					"sp": 50
+				},
+				{
+					"move": "Sleep Attack",
+					"sp": 70
+				},
+				{
+					"move": "Assassin's Stab",
+					"sp": 85
+				},
+				{
+					"move": "Kanumb",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Poisonous Touch"
+			],
+			"category": "Standard"
+		},
+		"Vexologist": {
+			"moves": [
+				{
+					"move": "Tox",
+					"sp": 3
+				},
+				{
+					"move": "Dodgy Dance",
+					"sp": 10
+				},
+				{
+					"move": "Gobstopper",
+					"sp": 20
+				},
+				{
+					"move": "Sandstorm",
+					"sp": 30
+				},
+				{
+					"move": "Critical Meltdown",
+					"sp": 50
+				},
+				{
+					"move": "Brake Wind",
+					"sp": 70
+				},
+				{
+					"move": "Katox",
+					"sp": 85
+				},
+				{
+					"move": "Tongue Bashing",
+					"sp": 100
+				}
+			],
+			"category": "Standard"
+		},
+		"Charmer": {
+			"moves": [
+				{
+					"move": "Tox",
+					"sp": 3
+				},
+				{
+					"move": "Sleep Attack",
+					"sp": 10
+				},
+				{
+					"move": "Dazzle",
+					"sp": 20
+				},
+				{
+					"move": "Drain Magic",
+					"sp": 30
+				},
+				{
+					"move": "Sweet Breath",
+					"sp": 50
+				},
+				{
+					"move": "Fuddle Dance",
+					"sp": 70
+				},
+				{
+					"move": "Fan Dango",
+					"sp": 85
+				},
+				{
+					"move": "Giga Drain Magic",
+					"sp": 100
+				}
+			],
+			"category": "Standard"
+		},
+		"Stinker": {
+			"moves": [
+				{
+					"move": "Tox",
+					"sp": 3
+				},
+				{
+					"move": "Gobstopper",
+					"sp": 10
+				},
+				{
+					"move": "Poison Breath",
+					"sp": 20
+				},
+				{
+					"move": "Fuddle",
+					"sp": 30
+				},
+				{
+					"move": "Whack",
+					"sp": 50
+				},
+				{
+					"move": "Sweet Breath",
+					"sp": 70
+				},
+				{
+					"move": "War Cry",
+					"sp": 85
+				},
+				{
+					"move": "Burning Breath",
+					"sp": 100
+				}
+			],
+			"category": "Standard"
+		},
+		"Strong Speller": {
+			"moves": [
+				{
+					"move": "Oomph",
+					"sp": 3
+				},
+				{
+					"move": "Kabuff",
+					"sp": 10
+				},
+				{
+					"move": "Splash",
+					"sp": 20
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 30
+				},
+				{
+					"move": "Frizzle",
+					"sp": 50
+				},
+				{
+					"move": "Moreheal",
+					"sp": 70
+				},
+				{
+					"move": "Kasnooze",
+					"sp": 85
+				},
+				{
+					"move": "Max. MP +60",
+					"sp": 100
+				},
+				{
+					"move": "Kazing",
+					"sp": 120
+				},
+				{
+					"move": "Kazapple",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Max. MP +60",
+				"Wisdom +16"
+			],
+			"category": "Standard"
+		},
+		"Smarty-Pants": {
+			"moves": [
+				{
+					"move": "Kaping",
+					"sp": 3
+				},
+				{
+					"move": "Insulatle",
+					"sp": 10
+				},
+				{
+					"move": "Fizzle",
+					"sp": 20
+				},
+				{
+					"move": "Frizzle",
+					"sp": 30
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 50
+				},
+				{
+					"move": "Thwack",
+					"sp": 70
+				},
+				{
+					"move": "Kabuff",
+					"sp": 85
+				},
+				{
+					"move": "Max. MP +60",
+					"sp": 100
+				},
+				{
+					"move": "Auto-Cadabra",
+					"sp": 120
+				},
+				{
+					"move": "Kaboomle",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Auto-Cadabra",
+				"Max. MP +60",
+				"Wisdom +16"
+			],
+			"category": "Standard"
+		},
+		"Paragon": {
+			"moves": [
+				{
+					"move": "Attack Attacker",
+					"sp": 3
+				},
+				{
+					"move": "Helm Splitter",
+					"sp": 10
+				},
+				{
+					"move": "Intense Defense",
+					"sp": 20
+				},
+				{
+					"move": "Hatchet Man",
+					"sp": 30
+				},
+				{
+					"move": "Attack +8",
+					"sp": 50
+				},
+				{
+					"move": "Anchorman",
+					"sp": 70
+				},
+				{
+					"move": "Multifists",
+					"sp": 85
+				},
+				{
+					"move": "Hellish Howl",
+					"sp": 100
+				},
+				{
+					"move": "Attack +30",
+					"sp": 120
+				},
+				{
+					"move": "Boulder Toss",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Attack +30",
+				"Attack +8"
+			],
+			"category": "Standard"
+		},
+		"Wrecker": {
+			"moves": [
+				{
+					"move": "Helm Splitter",
+					"sp": 3
+				},
+				{
+					"move": "Frenzy",
+					"sp": 10
+				},
+				{
+					"move": "Hatchet Man",
+					"sp": 20
+				},
+				{
+					"move": "Stomp",
+					"sp": 30
+				},
+				{
+					"move": "War Cry",
+					"sp": 50
+				},
+				{
+					"move": "Attack +16",
+					"sp": 70
+				},
+				{
+					"move": "Anchorman",
+					"sp": 85
+				},
+				{
+					"move": "Withering Look",
+					"sp": 100
+				},
+				{
+					"move": "Attack +36",
+					"sp": 120
+				},
+				{
+					"move": "Big Banga",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Attack +16",
+				"Attack +36"
+			],
+			"category": "Standard"
+		},
+		"Musclehead": {
+			"moves": [
+				{
+					"move": "Heart Breaker",
+					"sp": 3
+				},
+				{
+					"move": "Sandstorm",
+					"sp": 10
+				},
+				{
+					"move": "Dodgy Dance",
+					"sp": 20
+				},
+				{
+					"move": "Seethe",
+					"sp": 30
+				},
+				{
+					"move": "Attack +16",
+					"sp": 50
+				},
+				{
+					"move": "Intense Defense",
+					"sp": 70
+				},
+				{
+					"move": "Knuckle Sandwich",
+					"sp": 85
+				},
+				{
+					"move": "Selflessness",
+					"sp": 100
+				},
+				{
+					"move": "Max. HP +36",
+					"sp": 120
+				},
+				{
+					"move": "Meditation",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Attack +16",
+				"Max. HP +36"
+			],
+			"category": "Standard"
+		},
+		"Duelist": {
+			"moves": [
+				{
+					"move": "Gust Slash",
+					"sp": 3
+				},
+				{
+					"move": "Heart Breaker",
+					"sp": 10
+				},
+				{
+					"move": "Helm Splitter",
+					"sp": 20
+				},
+				{
+					"move": "Hatchet Man",
+					"sp": 30
+				},
+				{
+					"move": "Multislash",
+					"sp": 50
+				},
+				{
+					"move": "Attack +16",
+					"sp": 70
+				},
+				{
+					"move": "Skysplitter",
+					"sp": 85
+				},
+				{
+					"move": "Earthsplitter",
+					"sp": 100
+				},
+				{
+					"move": "Attack +36",
+					"sp": 120
+				},
+				{
+					"move": "Gigagash",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Attack +16",
+				"Attack +36"
+			],
+			"category": "Standard"
+		},
+		"Maniac": {
+			"moves": [
+				{
+					"move": "Frenzy",
+					"sp": 3
+				},
+				{
+					"move": "Heart Breaker",
+					"sp": 10
+				},
+				{
+					"move": "Multislash",
+					"sp": 20
+				},
+				{
+					"move": "Sword Dance",
+					"sp": 30
+				},
+				{
+					"move": "Agility +20",
+					"sp": 50
+				},
+				{
+					"move": "Blightsplitter",
+					"sp": 70
+				},
+				{
+					"move": "Parallax",
+					"sp": 85
+				},
+				{
+					"move": "Multifists",
+					"sp": 100
+				},
+				{
+					"move": "Attack +36",
+					"sp": 120
+				},
+				{
+					"move": "Multi-Victimiser",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Agility +20",
+				"Attack +36"
+			],
+			"category": "Standard"
+		},
+		"Leading Light": {
+			"moves": [
+				{
+					"move": "Dragon Slash",
+					"sp": 3
+				},
+				{
+					"move": "Kabuff",
+					"sp": 10
+				},
+				{
+					"move": "Mercurial Thrust",
+					"sp": 20
+				},
+				{
+					"move": "Multislash",
+					"sp": 30
+				},
+				{
+					"move": "Oomphle",
+					"sp": 50
+				},
+				{
+					"move": "Max. HP +12",
+					"sp": 70
+				},
+				{
+					"move": "Flamesplitter",
+					"sp": 85
+				},
+				{
+					"move": "Brightsplitter",
+					"sp": 100
+				},
+				{
+					"move": "Max. MP +32",
+					"sp": 120
+				},
+				{
+					"move": "Kazapple",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Max. HP +12",
+				"Max. MP +32"
+			],
+			"category": "Standard"
+		},
+		"Slayer": {
+			"moves": [
+				{
+					"move": "Kacrackle Slash",
+					"sp": 3
+				},
+				{
+					"move": "Heart Breaker",
+					"sp": 10
+				},
+				{
+					"move": "Poison Attack",
+					"sp": 20
+				},
+				{
+					"move": "Poisonous Touch",
+					"sp": 20
+				},
+				{
+					"move": "Frenzy",
+					"sp": 30
+				},
+				{
+					"move": "Agility +20",
+					"sp": 50
+				},
+				{
+					"move": "Paralysing Punch",
+					"sp": 70
+				},
+				{
+					"move": "Assassin's Stab",
+					"sp": 85
+				},
+				{
+					"move": "Parallax",
+					"sp": 100
+				},
+				{
+					"move": "Attack +48",
+					"sp": 120
+				},
+				{
+					"move": "Multi-Victimiser",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Agility +20",
+				"Attack +48",
+				"Poisonous Touch"
+			],
+			"category": "Standard"
+		},
+		"Destroyer": {
+			"moves": [
+				{
+					"move": "Undead Undoer",
+					"sp": 3
+				},
+				{
+					"move": "Helm Splitter",
+					"sp": 10
+				},
+				{
+					"move": "Assassin's Stab",
+					"sp": 20
+				},
+				{
+					"move": "Death Dance",
+					"sp": 30
+				},
+				{
+					"move": "Thwack",
+					"sp": 50
+				},
+				{
+					"move": "Withering Look",
+					"sp": 70
+				},
+				{
+					"move": "Tidal Wave",
+					"sp": 85
+				},
+				{
+					"move": "Attack +48",
+					"sp": 100
+				},
+				{
+					"move": "Kamikazee",
+					"sp": 120
+				},
+				{
+					"move": "Gigagash",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Attack +48"
+			],
+			"category": "Standard"
+		},
+		"Respirator": {
+			"moves": [
+				{
+					"move": "Poison Breath",
+					"sp": 3
+				},
+				{
+					"move": "Sweet Breath",
+					"sp": 10
+				},
+				{
+					"move": "Flame Breath",
+					"sp": 20
+				},
+				{
+					"move": "Deep Breath",
+					"sp": 30
+				},
+				{
+					"move": "Freezing Blizzard",
+					"sp": 50
+				},
+				{
+					"move": "Blessed Breath",
+					"sp": 70
+				},
+				{
+					"move": "Brake Wind",
+					"sp": 85
+				},
+				{
+					"move": "Scorch",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Frizz Ward",
+					"sp": 120
+				},
+				{
+					"move": "Ice Age",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Ultra Frizz Ward"
+			],
+			"category": "Standard"
+		},
+		"Fire Chief": {
+			"moves": [
+				{
+					"move": "Flame Slash",
+					"sp": 3
+				},
+				{
+					"move": "Flame Breath",
+					"sp": 10
+				},
+				{
+					"move": "Deep Breath",
+					"sp": 20
+				},
+				{
+					"move": "Boom",
+					"sp": 30
+				},
+				{
+					"move": "Inferno",
+					"sp": 50
+				},
+				{
+					"move": "Burning Breath",
+					"sp": 70
+				},
+				{
+					"move": "Kaboom",
+					"sp": 85
+				},
+				{
+					"move": "Scorch",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Frizz Ward",
+					"sp": 120
+				},
+				{
+					"move": "Hellitosis",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Ultra Frizz Ward"
+			],
+			"category": "Standard"
+		},
+		"Cold Snapper": {
+			"moves": [
+				{
+					"move": "Kacrackle Slash",
+					"sp": 3
+				},
+				{
+					"move": "Snooze",
+					"sp": 10
+				},
+				{
+					"move": "Chilly Breath",
+					"sp": 20
+				},
+				{
+					"move": "Numb",
+					"sp": 30
+				},
+				{
+					"move": "Kasnooze",
+					"sp": 50
+				},
+				{
+					"move": "Freezing Blizzard",
+					"sp": 70
+				},
+				{
+					"move": "Assassin's Stab",
+					"sp": 85
+				},
+				{
+					"move": "C-C-Cold Breath",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Crack Ward",
+					"sp": 120
+				},
+				{
+					"move": "Ice Age",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Ultra Crack Ward"
+			],
+			"category": "Standard"
+		},
+		"Party Monster": {
+			"moves": [
+				{
+					"move": "Sultry Dance",
+					"sp": 3
+				},
+				{
+					"move": "Dodgy Dance",
+					"sp": 10
+				},
+				{
+					"move": "Agility +4",
+					"sp": 20
+				},
+				{
+					"move": "Sword Dance",
+					"sp": 30
+				},
+				{
+					"move": "Tap Dance",
+					"sp": 50
+				},
+				{
+					"move": "Fan Dango",
+					"sp": 70
+				},
+				{
+					"move": "Hustle Dance",
+					"sp": 85
+				},
+				{
+					"move": "Mirror Moves",
+					"sp": 100
+				},
+				{
+					"move": "Hotstepper",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"Agility +4"
+			],
+			"category": "Standard"
+		},
+		"Rockin’ Roller": {
+			"moves": [
+				{
+					"move": "Buff",
+					"sp": 3
+				},
+				{
+					"move": "Matter Scatterer",
+					"sp": 10
+				},
+				{
+					"move": "Craggle",
+					"sp": 20
+				},
+				{
+					"move": "Dodgy Dance",
+					"sp": 30
+				},
+				{
+					"move": "Stone's Throw",
+					"sp": 50
+				},
+				{
+					"move": "Sultry Dance",
+					"sp": 70
+				},
+				{
+					"move": "Earthsplitter",
+					"sp": 85
+				},
+				{
+					"move": "Kerplunk",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Crag Ward",
+					"sp": 120
+				},
+				{
+					"move": "Boulder Toss",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Ultra Crag Ward"
+			],
+			"category": "Standard"
+		},
+		"Pop Idol": {
+			"moves": [
+				{
+					"move": "Dodgy Dance",
+					"sp": 3
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 10
+				},
+				{
+					"move": "Dazzleflash",
+					"sp": 20
+				},
+				{
+					"move": "Magic Pop",
+					"sp": 30
+				},
+				{
+					"move": "Fan Dango",
+					"sp": 50
+				},
+				{
+					"move": "Shining Shot",
+					"sp": 70
+				},
+				{
+					"move": "Hustle Dance",
+					"sp": 85
+				},
+				{
+					"move": "Ultra Sizz Ward",
+					"sp": 100
+				},
+				{
+					"move": "Electric Boogie",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"Max. HP +4",
+				"Ultra Sizz Ward"
+			],
+			"category": "Standard"
+		},
+		"Firebrand": {
+			"moves": [
+				{
+					"move": "Flame Slash",
+					"sp": 3
+				},
+				{
+					"move": "Attack +16",
+					"sp": 10
+				},
+				{
+					"move": "Frizzle",
+					"sp": 20
+				},
+				{
+					"move": "Flame Breath",
+					"sp": 30
+				},
+				{
+					"move": "Flamesplitter",
+					"sp": 50
+				},
+				{
+					"move": "Kafrizz",
+					"sp": 70
+				},
+				{
+					"move": "Oomphle",
+					"sp": 85
+				},
+				{
+					"move": "Scorch",
+					"sp": 100
+				},
+				{
+					"move": "Burning Breath",
+					"sp": 120
+				},
+				{
+					"move": "Hellitosis",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Attack +16"
+			],
+			"category": "Standard"
+		},
+		"Pyrotechnician": {
+			"moves": [
+				{
+					"move": "Flame Slash",
+					"sp": 3
+				},
+				{
+					"move": "Frizzle",
+					"sp": 10
+				},
+				{
+					"move": "Flame Breath",
+					"sp": 20
+				},
+				{
+					"move": "Magma Blast",
+					"sp": 30
+				},
+				{
+					"move": "Thwack",
+					"sp": 50
+				},
+				{
+					"move": "Wisdom +24",
+					"sp": 70
+				},
+				{
+					"move": "Kazam",
+					"sp": 85
+				},
+				{
+					"move": "Hotstepper",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Frizz Ward",
+					"sp": 120
+				},
+				{
+					"move": "Hellitosis",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Ultra Frizz Ward",
+				"Wisdom +24"
+			],
+			"category": "Standard"
+		},
+		"Freeze": {
+			"moves": [
+				{
+					"move": "Kacrackle Slash",
+					"sp": 3
+				},
+				{
+					"move": "Sleep Attack",
+					"sp": 10
+				},
+				{
+					"move": "Zammle",
+					"sp": 20
+				},
+				{
+					"move": "Crackle",
+					"sp": 30
+				},
+				{
+					"move": "Kasnooze",
+					"sp": 50
+				},
+				{
+					"move": "Max. MP +24",
+					"sp": 70
+				},
+				{
+					"move": "Multi-Persecutter",
+					"sp": 85
+				},
+				{
+					"move": "Kacrack",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Crack Ward",
+					"sp": 120
+				},
+				{
+					"move": "Ice Age",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Max. MP +24",
+				"Ultra Crack Ward"
+			],
+			"category": "Standard"
+		},
+		"Demoniac": {
+			"moves": [
+				{
+					"move": "Whack",
+					"sp": 3
+				},
+				{
+					"move": "Frenzy",
+					"sp": 10
+				},
+				{
+					"move": "Zammle",
+					"sp": 20
+				},
+				{
+					"move": "Blightsplitter",
+					"sp": 30
+				},
+				{
+					"move": "Freezing Blizzard",
+					"sp": 50
+				},
+				{
+					"move": "Kazam",
+					"sp": 70
+				},
+				{
+					"move": "Ultra Clear Thinker",
+					"sp": 85
+				},
+				{
+					"move": "Kanumb",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Tough Customer",
+					"sp": 120
+				},
+				{
+					"move": "Tidal Wave",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Ultra Clear Thinker",
+				"Ultra Tough Customer"
+			],
+			"category": "Standard"
+		},
+		"Blighter": {
+			"moves": [
+				{
+					"move": "Whack",
+					"sp": 3
+				},
+				{
+					"move": "Kadim",
+					"sp": 10
+				},
+				{
+					"move": "Zammle",
+					"sp": 20
+				},
+				{
+					"move": "Chilly Breath",
+					"sp": 30
+				},
+				{
+					"move": "Blightsplitter",
+					"sp": 50
+				},
+				{
+					"move": "Black Breath",
+					"sp": 70
+				},
+				{
+					"move": "Max. MP +24",
+					"sp": 85
+				},
+				{
+					"move": "Kazammle",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Zam Ward",
+					"sp": 120
+				},
+				{
+					"move": "Grim Breath",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Max. MP +24",
+				"Ultra Zam Ward"
+			],
+			"category": "Standard"
+		},
+		"Dark Horse": {
+			"moves": [
+				{
+					"move": "Mercurial Thrust",
+					"sp": 3
+				},
+				{
+					"move": "Acceleratle",
+					"sp": 10
+				},
+				{
+					"move": "Zammle",
+					"sp": 20
+				},
+				{
+					"move": "Sandstorm",
+					"sp": 30
+				},
+				{
+					"move": "Black Breath",
+					"sp": 50
+				},
+				{
+					"move": "Agility +12",
+					"sp": 70
+				},
+				{
+					"move": "Kazam",
+					"sp": 85
+				},
+				{
+					"move": "Assassin's Stab",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Zam Ward",
+					"sp": 120
+				},
+				{
+					"move": "Bad Hand",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Agility +12",
+				"Ultra Zam Ward"
+			],
+			"category": "Standard"
+		},
+		"Evil Genius": {
+			"moves": [
+				{
+					"move": "Kasap",
+					"sp": 3
+				},
+				{
+					"move": "Confusion Attack",
+					"sp": 10
+				},
+				{
+					"move": "Frenzy",
+					"sp": 20
+				},
+				{
+					"move": "Katox",
+					"sp": 30
+				},
+				{
+					"move": "Kanumb",
+					"sp": 50
+				},
+				{
+					"move": "Thwack",
+					"sp": 70
+				},
+				{
+					"move": "Multi-Persecutter",
+					"sp": 85
+				},
+				{
+					"move": "Ultra Fidget",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Antioxidant",
+					"sp": 120
+				},
+				{
+					"move": "Giga Drain Magic",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Ultra Antioxidant",
+				"Ultra Fidget"
+			],
+			"category": "Standard"
+		},
+		"Agent Provocateur": {
+			"moves": [
+				{
+					"move": "Confusion Attack",
+					"sp": 3
+				},
+				{
+					"move": "Sizzle",
+					"sp": 10
+				},
+				{
+					"move": "Midheal",
+					"sp": 20
+				},
+				{
+					"move": "Black Breath",
+					"sp": 30
+				},
+				{
+					"move": "Kazam",
+					"sp": 50
+				},
+				{
+					"move": "Multiheal",
+					"sp": 70
+				},
+				{
+					"move": "Power Surge",
+					"sp": 85
+				},
+				{
+					"move": "Ultra Clear Thinker",
+					"sp": 100
+				},
+				{
+					"move": "Kasizzle",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"Ultra Clear Thinker"
+			],
+			"category": "Standard"
+		},
+		"Bobby Dazzler": {
+			"moves": [
+				{
+					"move": "Sizzle",
+					"sp": 3
+				},
+				{
+					"move": "Miracle Slash",
+					"sp": 10
+				},
+				{
+					"move": "Kasnooze",
+					"sp": 20
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 30
+				},
+				{
+					"move": "Brightsplitter",
+					"sp": 50
+				},
+				{
+					"move": "Moreheal",
+					"sp": 70
+				},
+				{
+					"move": "Butterfly Bop",
+					"sp": 85
+				},
+				{
+					"move": "Shining Shot",
+					"sp": 100
+				},
+				{
+					"move": "Max. MP +60",
+					"sp": 120
+				},
+				{
+					"move": "Gigagash",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Max. HP +4",
+				"Max. MP +60"
+			],
+			"category": "Standard"
+		},
+		"Pop Diva": {
+			"moves": [
+				{
+					"move": "Sultry Dance",
+					"sp": 3
+				},
+				{
+					"move": "Dazzleflash",
+					"sp": 10
+				},
+				{
+					"move": "Tap Dance",
+					"sp": 20
+				},
+				{
+					"move": "Max. MP +24",
+					"sp": 30
+				},
+				{
+					"move": "Sword Dance",
+					"sp": 50
+				},
+				{
+					"move": "Mirror Moves",
+					"sp": 70
+				},
+				{
+					"move": "Hustle Dance",
+					"sp": 85
+				},
+				{
+					"move": "Starfall",
+					"sp": 100
+				},
+				{
+					"move": "Butterfly Bop",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"Max. MP +24"
+			],
+			"category": "Standard"
+		},
+		"Heavenly Herald": {
+			"moves": [
+				{
+					"move": "Magic Pop",
+					"sp": 3
+				},
+				{
+					"move": "Midheal",
+					"sp": 10
+				},
+				{
+					"move": "Kabuff",
+					"sp": 20
+				},
+				{
+					"move": "Fizzle",
+					"sp": 30
+				},
+				{
+					"move": "Blessed Breath",
+					"sp": 50
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 70
+				},
+				{
+					"move": "Kasizz",
+					"sp": 85
+				},
+				{
+					"move": "Max. MP +24",
+					"sp": 100
+				},
+				{
+					"move": "Multiheal",
+					"sp": 120
+				},
+				{
+					"move": "Shining Shot",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Max. MP +16",
+				"Max. MP +24"
+			],
+			"category": "Standard"
+		},
+		"Just Ruler": {
+			"moves": [
+				{
+					"move": "Midheal",
+					"sp": 3
+				},
+				{
+					"move": "Kabuff",
+					"sp": 10
+				},
+				{
+					"move": "Attack +16",
+					"sp": 20
+				},
+				{
+					"move": "Zapple",
+					"sp": 30
+				},
+				{
+					"move": "Selflessness",
+					"sp": 50
+				},
+				{
+					"move": "Zing",
+					"sp": 70
+				},
+				{
+					"move": "Fan Dango",
+					"sp": 85
+				},
+				{
+					"move": "Shining Shot",
+					"sp": 100
+				},
+				{
+					"move": "Gigaslash",
+					"sp": 120
+				},
+				{
+					"move": "Lightning Storm",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Attack +16"
+			],
+			"category": "Standard"
+		},
+		"Charge Leader": {
+			"moves": [
+				{
+					"move": "Lightning Slash",
+					"sp": 3
+				},
+				{
+					"move": "Heal",
+					"sp": 10
+				},
+				{
+					"move": "Flame Breath",
+					"sp": 20
+				},
+				{
+					"move": "Oomphle",
+					"sp": 30
+				},
+				{
+					"move": "Midheal",
+					"sp": 50
+				},
+				{
+					"move": "Kazap",
+					"sp": 70
+				},
+				{
+					"move": "Gigaslash",
+					"sp": 85
+				},
+				{
+					"move": "Ultra Zap Ward",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Sizz Ward",
+					"sp": 120
+				},
+				{
+					"move": "Gigagash",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Ultra Sizz Ward",
+				"Ultra Zap Ward"
+			],
+			"category": "Standard"
+		},
+		"Lightning Rod": {
+			"moves": [
+				{
+					"move": "Lightning Slash",
+					"sp": 3
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 10
+				},
+				{
+					"move": "Sizzle",
+					"sp": 20
+				},
+				{
+					"move": "Brightsplitter",
+					"sp": 30
+				},
+				{
+					"move": "Lightning",
+					"sp": 50
+				},
+				{
+					"move": "Kasizz",
+					"sp": 70
+				},
+				{
+					"move": "Agility +30",
+					"sp": 85
+				},
+				{
+					"move": "Gigaslash",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Zap Ward",
+					"sp": 120
+				},
+				{
+					"move": "Lightning Storm",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Agility +30",
+				"Max. HP +8",
+				"Ultra Zap Ward"
+			],
+			"category": "Standard"
+		},
+		"Vegabond": {
+			"moves": [
+				{
+					"move": "Gust Slash",
+					"sp": 3
+				},
+				{
+					"move": "Lightning Slash",
+					"sp": 10
+				},
+				{
+					"move": "Mercurial Thrust",
+					"sp": 20
+				},
+				{
+					"move": "Multislash",
+					"sp": 30
+				},
+				{
+					"move": "Skysplitter",
+					"sp": 50
+				},
+				{
+					"move": "Lightning",
+					"sp": 70
+				},
+				{
+					"move": "Kaswoosh",
+					"sp": 85
+				},
+				{
+					"move": "Gigaslash",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Whoosh Ward",
+					"sp": 120
+				},
+				{
+					"move": "Lightning Storm",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Ultra Whoosh Ward"
+			],
+			"category": "Standard"
+		},
+		"Snow Drifter": {
+			"moves": [
+				{
+					"move": "Thin Air",
+					"sp": 3
+				},
+				{
+					"move": "Magic Pop",
+					"sp": 10
+				},
+				{
+					"move": "Insulatle",
+					"sp": 20
+				},
+				{
+					"move": "Blessed Breath",
+					"sp": 30
+				},
+				{
+					"move": "Kaswoosh",
+					"sp": 50
+				},
+				{
+					"move": "Brake Wind",
+					"sp": 70
+				},
+				{
+					"move": "Multiheal",
+					"sp": 85
+				},
+				{
+					"move": "C-C-Cold Breath",
+					"sp": 100
+				},
+				{
+					"move": "Kaswooshle",
+					"sp": 120
+				}
+			],
+			"category": "Standard"
+		},
+		"Bombshell": {
+			"moves": [
+				{
+					"move": "Bang",
+					"sp": 3
+				},
+				{
+					"move": "Stomp",
+					"sp": 8
+				},
+				{
+					"move": "Craggle",
+					"sp": 16
+				},
+				{
+					"move": "Boom",
+					"sp": 28
+				},
+				{
+					"move": "Kacrag",
+					"sp": 40
+				},
+				{
+					"move": "Kaboom",
+					"sp": 55
+				},
+				{
+					"move": "Attack +30",
+					"sp": 75
+				},
+				{
+					"move": "Multifists",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Bang Ward",
+					"sp": 120
+				},
+				{
+					"move": "Kamikazee",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Attack +30",
+				"Ultra Bang Ward"
+			],
+			"category": "Standard"
+		},
+		"Storm Chaser": {
+			"moves": [
+				{
+					"move": "Dazzleflash",
+					"sp": 3
+				},
+				{
+					"move": "Flame Breath",
+					"sp": 8
+				},
+				{
+					"move": "Max. MP +12",
+					"sp": 16
+				},
+				{
+					"move": "Thin Air",
+					"sp": 28
+				},
+				{
+					"move": "Swoosh",
+					"sp": 40
+				},
+				{
+					"move": "Skysplitter",
+					"sp": 55
+				},
+				{
+					"move": "Agility +20",
+					"sp": 75
+				},
+				{
+					"move": "Kaswoosh",
+					"sp": 100
+				},
+				{
+					"move": "Brake Wind",
+					"sp": 120
+				},
+				{
+					"move": "Kaboomle",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Agility +20",
+				"Max. MP +12"
+			],
+			"category": "Standard"
+		},
+		"Mariner": {
+			"moves": [
+				{
+					"move": "Kacrackle Slash",
+					"sp": 3
+				},
+				{
+					"move": "Splash",
+					"sp": 10
+				},
+				{
+					"move": "Midheal",
+					"sp": 20
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 30
+				},
+				{
+					"move": "Kasplash",
+					"sp": 50
+				},
+				{
+					"move": "Anchorman",
+					"sp": 70
+				},
+				{
+					"move": "Moreheal",
+					"sp": 85
+				},
+				{
+					"move": "Multifists",
+					"sp": 100
+				},
+				{
+					"move": "Tidal Wave",
+					"sp": 120
+				},
+				{
+					"move": "Kasplashle",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Max. MP +8"
+			],
+			"category": "Standard"
+		},
+		"Water Baby": {
+			"moves": [
+				{
+					"move": "Splash",
+					"sp": 3
+				},
+				{
+					"move": "Kabuff",
+					"sp": 10
+				},
+				{
+					"move": "Chilly Breath",
+					"sp": 20
+				},
+				{
+					"move": "Moreheal",
+					"sp": 30
+				},
+				{
+					"move": "Multiheal",
+					"sp": 50
+				},
+				{
+					"move": "Kasplash",
+					"sp": 70
+				},
+				{
+					"move": "Right as Rain",
+					"sp": 85
+				},
+				{
+					"move": "Ultra Splish Ward",
+					"sp": 100
+				},
+				{
+					"move": "Auto-Cadabra",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"Auto-Cadabra",
+				"Ultra Splish Ward"
+			],
+			"category": "Standard"
+		},
+		"Hardliner": {
+			"moves": [
+				{
+					"move": "Mercurial Thrust",
+					"sp": 3
+				},
+				{
+					"move": "Gust Slash",
+					"sp": 10
+				},
+				{
+					"move": "Frizzle",
+					"sp": 20
+				},
+				{
+					"move": "Knuckle Sandwich",
+					"sp": 30
+				},
+				{
+					"move": "Attack +12",
+					"sp": 50
+				},
+				{
+					"move": "Anchorman",
+					"sp": 70
+				},
+				{
+					"move": "Hotstepper",
+					"sp": 85
+				},
+				{
+					"move": "Shining Shot",
+					"sp": 100
+				},
+				{
+					"move": "Attack +20",
+					"sp": 120
+				},
+				{
+					"move": "Kazap",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Attack +12",
+				"Attack +20"
+			],
+			"category": "Standard"
+		},
+		"Enigma": {
+			"moves": [
+				{
+					"move": "Weird Dance",
+					"sp": 3
+				},
+				{
+					"move": "Victimiser",
+					"sp": 10
+				},
+				{
+					"move": "Sandstorm",
+					"sp": 20
+				},
+				{
+					"move": "Persecutter",
+					"sp": 30
+				},
+				{
+					"move": "Blunt",
+					"sp": 50
+				},
+				{
+					"move": "Tap Dance",
+					"sp": 70
+				},
+				{
+					"move": "Max. MP +24",
+					"sp": 85
+				},
+				{
+					"move": "Tongue Bashing",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Insomniac",
+					"sp": 120
+				},
+				{
+					"move": "Kamikazee",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Max. MP +24",
+				"Ultra Insomniac"
+			],
+			"category": "Standard"
+		},
+		"Vaudevillan": {
+			"moves": [
+				{
+					"move": "War Cry",
+					"sp": 3
+				},
+				{
+					"move": "Flame Breath",
+					"sp": 10
+				},
+				{
+					"move": "Miracle Slash",
+					"sp": 20
+				},
+				{
+					"move": "Sword Dance",
+					"sp": 30
+				},
+				{
+					"move": "Lightning",
+					"sp": 50
+				},
+				{
+					"move": "Tongue Bashing",
+					"sp": 70
+				},
+				{
+					"move": "Pearly Gates",
+					"sp": 85
+				},
+				{
+					"move": "Ultra Whoosh Ward",
+					"sp": 100
+				},
+				{
+					"move": "Kerplunk Dance",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"Ultra Whoosh Ward"
+			],
+			"category": "Standard"
+		},
+		"Airhead": {
+			"moves": [
+				{
+					"move": "Snooze",
+					"sp": 3
+				},
+				{
+					"move": "Thin Air",
+					"sp": 10
+				},
+				{
+					"move": "Stomp",
+					"sp": 20
+				},
+				{
+					"move": "Lightning",
+					"sp": 30
+				},
+				{
+					"move": "Seethe",
+					"sp": 50
+				},
+				{
+					"move": "Max. MP +24",
+					"sp": 70
+				},
+				{
+					"move": "Brake Wind",
+					"sp": 85
+				},
+				{
+					"move": "Max. MP +40",
+					"sp": 100
+				},
+				{
+					"move": "Lightning Storm",
+					"sp": 120
+				},
+				{
+					"move": "Big Banga",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Max. MP +24",
+				"Max. MP +40"
+			],
+			"category": "Standard"
+		},
+		"Empath": {
+			"moves": [
+				{
+					"move": "Heal",
+					"sp": 3
+				},
+				{
+					"move": "Ping",
+					"sp": 10
+				},
+				{
+					"move": "Intense Defense",
+					"sp": 20
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 30
+				},
+				{
+					"move": "Selflessness",
+					"sp": 50
+				},
+				{
+					"move": "Moreheal",
+					"sp": 70
+				},
+				{
+					"move": "Max. MP +32",
+					"sp": 85
+				},
+				{
+					"move": "Multiheal",
+					"sp": 100
+				},
+				{
+					"move": "Gigagash",
+					"sp": 120
+				},
+				{
+					"move": "Magic Burst",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Max. HP +8",
+				"Max. MP +32"
+			],
+			"category": "Standard"
+		},
+		"Cool Customer": {
+			"moves": [
+				{
+					"move": "Kasnooze",
+					"sp": 3
+				},
+				{
+					"move": "Chilly Breath",
+					"sp": 10
+				},
+				{
+					"move": "Kanumb",
+					"sp": 20
+				},
+				{
+					"move": "Critical Meltdown",
+					"sp": 30
+				},
+				{
+					"move": "Black Breath",
+					"sp": 50
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 70
+				},
+				{
+					"move": "Withering Look",
+					"sp": 85
+				},
+				{
+					"move": "Mirror Moves",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Crack Ward",
+					"sp": 120
+				},
+				{
+					"move": "Disruptive Wave",
+					"sp": 150
+				},
+				{
+					"move": "Rando-Disrupt",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Rando-Disrupt",
+				"Ultra Crack Ward",
+				"Wisdom +16"
+			],
+			"category": "Standard"
+		},
+		"Hater": {
+			"moves": [
+				{
+					"move": "Undead Undoer",
+					"sp": 3
+				},
+				{
+					"move": "Gobstopper",
+					"sp": 10
+				},
+				{
+					"move": "War Cry",
+					"sp": 20
+				},
+				{
+					"move": "Critical Meltdown",
+					"sp": 30
+				},
+				{
+					"move": "Black Breath",
+					"sp": 50
+				},
+				{
+					"move": "Multi-Victimiser",
+					"sp": 70
+				},
+				{
+					"move": "Wisdom +24",
+					"sp": 85
+				},
+				{
+					"move": "Multi-Persecutter",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Death Defier",
+					"sp": 120
+				},
+				{
+					"move": "Death Dance",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Ultra Death Defier",
+				"Wisdom +24"
+			],
+			"category": "Standard"
+		},
+		"Super Naturalist": {
+			"moves": [
+				{
+					"move": "Tongue Lashing",
+					"sp": 3
+				},
+				{
+					"move": "Wind Sickles",
+					"sp": 10
+				},
+				{
+					"move": "Poison Attack",
+					"sp": 20
+				},
+				{
+					"move": "Poisonous Touch",
+					"sp": 20
+				},
+				{
+					"move": "Persecutter",
+					"sp": 30
+				},
+				{
+					"move": "War Cry",
+					"sp": 50
+				},
+				{
+					"move": "Mist Me",
+					"sp": 70
+				},
+				{
+					"move": "Max. HP +48",
+					"sp": 85
+				},
+				{
+					"move": "Tongue Bashing",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Granite Chin",
+					"sp": 120
+				},
+				{
+					"move": "Multi-Persecutter",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Max. HP +48",
+				"Poisonous Touch",
+				"Ultra Granite Chin"
+			],
+			"category": "Standard"
+		},
+		"Cleric": {
+			"moves": [
+				{
+					"move": "Oomph",
+					"sp": 3
+				},
+				{
+					"move": "Attack +4",
+					"sp": 10
+				},
+				{
+					"move": "Brightsplitter",
+					"sp": 20
+				},
+				{
+					"move": "Zing",
+					"sp": 30
+				},
+				{
+					"move": "Multiheal",
+					"sp": 50
+				},
+				{
+					"move": "Starfall",
+					"sp": 70
+				},
+				{
+					"move": "Pearly Gates",
+					"sp": 85
+				},
+				{
+					"move": "Gigaslash",
+					"sp": 100
+				},
+				{
+					"move": "Omniheal",
+					"sp": 120
+				},
+				{
+					"move": "Gigagash",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Attack +4"
+			],
+			"category": "Exclusive"
+		},
+		"Cure-All": {
+			"moves": [
+				{
+					"move": "Heal",
+					"sp": 3
+				},
+				{
+					"move": "Kabuff",
+					"sp": 10
+				},
+				{
+					"move": "Zing",
+					"sp": 20
+				},
+				{
+					"move": "Multiheal",
+					"sp": 30
+				},
+				{
+					"move": "Right as Rain",
+					"sp": 50
+				},
+				{
+					"move": "Insulatle",
+					"sp": 70
+				},
+				{
+					"move": "Hustle Dance",
+					"sp": 85
+				},
+				{
+					"move": "Max. MP +32",
+					"sp": 100
+				},
+				{
+					"move": "Omniheal",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"Max. MP +32"
+			],
+			"category": "Standard"
+		},
+		"Devil's Advocate": {
+			"moves": [
+				{
+					"move": "Sandstorm",
+					"sp": 3
+				},
+				{
+					"move": "Poison Breath",
+					"sp": 10
+				},
+				{
+					"move": "Sleep Attack",
+					"sp": 20
+				},
+				{
+					"move": "Blightsplitter",
+					"sp": 30
+				},
+				{
+					"move": "Burning Breath",
+					"sp": 50
+				},
+				{
+					"move": "Sandy Sigh",
+					"sp": 70
+				},
+				{
+					"move": "Katoxle",
+					"sp": 85
+				},
+				{
+					"move": "Withering Look",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Fidget",
+					"sp": 120
+				},
+				{
+					"move": "Hellish Howl",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Ultra Fidget"
+			],
+			"category": "Standard"
+		},
+		"Nuisance": {
+			"moves": [
+				{
+					"move": "Dazzle",
+					"sp": 3
+				},
+				{
+					"move": "Fuddle",
+					"sp": 10
+				},
+				{
+					"move": "Poison Attack",
+					"sp": 20
+				},
+				{
+					"move": "Poisonous Touch",
+					"sp": 20
+				},
+				{
+					"move": "Sleep Attack",
+					"sp": 30
+				},
+				{
+					"move": "Sweet Breath",
+					"sp": 50
+				},
+				{
+					"move": "Burning Breath",
+					"sp": 70
+				},
+				{
+					"move": "Tongue Bashing",
+					"sp": 85
+				},
+				{
+					"move": "Ultra Insomniac",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Fidget",
+					"sp": 120
+				},
+				{
+					"move": "Hellish Howl",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Poisonous Touch",
+				"Ultra Fidget",
+				"Ultra Insomniac"
+			],
+			"category": "Standard"
+		},
+		"Doomsayer": {
+			"moves": [
+				{
+					"move": "Sandstorm",
+					"sp": 3
+				},
+				{
+					"move": "Heart Breaker",
+					"sp": 10
+				},
+				{
+					"move": "Sweet Breath",
+					"sp": 20
+				},
+				{
+					"move": "Dazzle",
+					"sp": 30
+				},
+				{
+					"move": "Assassin's Stab",
+					"sp": 50
+				},
+				{
+					"move": "Burning Breath",
+					"sp": 70
+				},
+				{
+					"move": "Sandy Sigh",
+					"sp": 85
+				},
+				{
+					"move": "Death Dance",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Death Defier",
+					"sp": 120
+				},
+				{
+					"move": "Kamikazee",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Ultra Death Defier"
+			],
+			"category": "Standard"
+		},
+		"Mouth Guard": {
+			"moves": [
+				{
+					"move": "Insulate",
+					"sp": 3
+				},
+				{
+					"move": "Weird Dance",
+					"sp": 10
+				},
+				{
+					"move": "Fizzle",
+					"sp": 20
+				},
+				{
+					"move": "Mist Me",
+					"sp": 30
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 50
+				},
+				{
+					"move": "Insulatle",
+					"sp": 70
+				},
+				{
+					"move": "Brake Wind",
+					"sp": 85
+				},
+				{
+					"move": "Mirror Moves",
+					"sp": 100
+				},
+				{
+					"move": "Defence +40",
+					"sp": 120
+				},
+				{
+					"move": "Bounce",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Defence +40",
+				"Max. MP +16"
+			],
+			"category": "Standard"
+		},
+		"Protector": {
+			"moves": [
+				{
+					"move": "Attack Attacker",
+					"sp": 3
+				},
+				{
+					"move": "Gobstopper",
+					"sp": 10
+				},
+				{
+					"move": "Kabuff",
+					"sp": 20
+				},
+				{
+					"move": "Fizzle",
+					"sp": 30
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 50
+				},
+				{
+					"move": "Intense Defense",
+					"sp": 70
+				},
+				{
+					"move": "Mist Me",
+					"sp": 85
+				},
+				{
+					"move": "Selflessness",
+					"sp": 100
+				},
+				{
+					"move": "Defence +40",
+					"sp": 120
+				},
+				{
+					"move": "Bounce",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Defence +40",
+				"Max. HP +8"
+			],
+			"category": "Standard"
+		},
+		"Heretic": {
+			"moves": [
+				{
+					"move": "Kasizz",
+					"sp": 10
+				},
+				{
+					"move": "Pearly Gates",
+					"sp": 20
+				},
+				{
+					"move": "Bounce",
+					"sp": 30
+				},
+				{
+					"move": "Kazammle",
+					"sp": 50
+				},
+				{
+					"move": "Kamikazee",
+					"sp": 70
+				},
+				{
+					"move": "Kaboomle",
+					"sp": 100
+				},
+				{
+					"move": "Kerplunk",
+					"sp": 120
+				},
+				{
+					"move": "Giga Drain Magic",
+					"sp": 150
+				},
+				{
+					"move": "Magic Burst",
+					"sp": 200
+				}
+			],
+			"category": "Standard"
+		},
+		"Mystic": {
+			"moves": [
+				{
+					"move": "Midheal",
+					"sp": 10
+				},
+				{
+					"move": "Squelch",
+					"sp": 20
+				},
+				{
+					"move": "Tingle",
+					"sp": 30
+				},
+				{
+					"move": "Moreheal",
+					"sp": 50
+				},
+				{
+					"move": "Defuddle",
+					"sp": 70
+				},
+				{
+					"move": "Multiheal",
+					"sp": 85
+				},
+				{
+					"move": "Cock-a-Doodle-Doo",
+					"sp": 100
+				},
+				{
+					"move": "Zing",
+					"sp": 120
+				},
+				{
+					"move": "Omniheal",
+					"sp": 150
+				},
+				{
+					"move": "Kazing",
+					"sp": 200
+				}
+			],
+			"category": "Standard"
+		},
+		"Sage": {
+			"moves": [
+				{
+					"move": "Deceleratle",
+					"sp": 10
+				},
+				{
+					"move": "Kablunt",
+					"sp": 20
+				},
+				{
+					"move": "Acceleratle",
+					"sp": 30
+				},
+				{
+					"move": "Kasap",
+					"sp": 50
+				},
+				{
+					"move": "Kaping",
+					"sp": 70
+				},
+				{
+					"move": "Kadim",
+					"sp": 85
+				},
+				{
+					"move": "Kabuff",
+					"sp": 100
+				},
+				{
+					"move": "Oomphle",
+					"sp": 120
+				},
+				{
+					"move": "Insulatle",
+					"sp": 150
+				},
+				{
+					"move": "Giga Drain Magic",
+					"sp": 200
+				}
+			],
+			"category": "Standard"
+		},
+		"Grump": {
+			"moves": [
+				{
+					"move": "Dazzle",
+					"sp": 10
+				},
+				{
+					"move": "Katoxle",
+					"sp": 20
+				},
+				{
+					"move": "Kasnooze",
+					"sp": 30
+				},
+				{
+					"move": "Kafuddle",
+					"sp": 50
+				},
+				{
+					"move": "Kanumb",
+					"sp": 70
+				},
+				{
+					"move": "Fizzle",
+					"sp": 85
+				},
+				{
+					"move": "Thwack",
+					"sp": 100
+				},
+				{
+					"move": "Frenzy",
+					"sp": 120
+				},
+				{
+					"move": "Kamikazee",
+					"sp": 150
+				},
+				{
+					"move": "Shadow Blast",
+					"sp": 200
+				}
+			],
+			"category": "Standard"
+		},
+		"Breath Worker": {
+			"moves": [
+				{
+					"move": "Dazzleflash",
+					"sp": 10
+				},
+				{
+					"move": "Sweet Breath",
+					"sp": 20
+				},
+				{
+					"move": "Deep Breath",
+					"sp": 30
+				},
+				{
+					"move": "Blessed Breath",
+					"sp": 50
+				},
+				{
+					"move": "C-C-Cold Breath",
+					"sp": 75
+				},
+				{
+					"move": "Sandy Sigh",
+					"sp": 100
+				},
+				{
+					"move": "Ice Age",
+					"sp": 150
+				},
+				{
+					"move": "Wave of Relief",
+					"sp": 200
+				},
+				{
+					"move": "Rando-Relief",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Rando-Relief"
+			],
+			"category": "Standard"
+		},
+		"Bad Breather": {
+			"moves": [
+				{
+					"move": "Poison Breath",
+					"sp": 10
+				},
+				{
+					"move": "Deep Breath",
+					"sp": 20
+				},
+				{
+					"move": "War Cry",
+					"sp": 30
+				},
+				{
+					"move": "Black Breath",
+					"sp": 50
+				},
+				{
+					"move": "Scorch",
+					"sp": 75
+				},
+				{
+					"move": "Burning Breath",
+					"sp": 100
+				},
+				{
+					"move": "Hellitosis",
+					"sp": 150
+				},
+				{
+					"move": "Grim Breath",
+					"sp": 200
+				}
+			],
+			"category": "Standard"
+		},
+		"Altruist": {
+			"moves": [
+				{
+					"move": "Dodgy Dance",
+					"sp": 10
+				},
+				{
+					"move": "Intense Defense",
+					"sp": 20
+				},
+				{
+					"move": "Mist Me",
+					"sp": 30
+				},
+				{
+					"move": "Selflessness",
+					"sp": 50
+				},
+				{
+					"move": "Meditation",
+					"sp": 75
+				},
+				{
+					"move": "Right as Rain",
+					"sp": 100
+				},
+				{
+					"move": "Brake Wind",
+					"sp": 150
+				},
+				{
+					"move": "Wave of Relief",
+					"sp": 200
+				},
+				{
+					"move": "Rando-Relief",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Rando-Relief"
+			],
+			"category": "Standard"
+		},
+		"Walking Disaster": {
+			"moves": [
+				{
+					"move": "Thin Air",
+					"sp": 10
+				},
+				{
+					"move": "Starfall",
+					"sp": 20
+				},
+				{
+					"move": "Tidal Wave",
+					"sp": 30
+				},
+				{
+					"move": "Boulder Toss",
+					"sp": 50
+				},
+				{
+					"move": "Lightning Storm",
+					"sp": 75
+				},
+				{
+					"move": "Kacraggle",
+					"sp": 100
+				},
+				{
+					"move": "Big Banga",
+					"sp": 150
+				},
+				{
+					"move": "Bad Hand",
+					"sp": 200
+				}
+			],
+			"category": "Standard"
+		},
+		"Warmonger": {
+			"moves": [
+				{
+					"move": "Mercurial Thrust",
+					"sp": 10
+				},
+				{
+					"move": "Frenzy",
+					"sp": 20
+				},
+				{
+					"move": "Roundhouse Kick",
+					"sp": 30
+				},
+				{
+					"move": "Hatchet Man",
+					"sp": 50
+				},
+				{
+					"move": "Knuckle Sandwich",
+					"sp": 70
+				},
+				{
+					"move": "Miracle Slash",
+					"sp": 85
+				},
+				{
+					"move": "Parallax",
+					"sp": 100
+				},
+				{
+					"move": "Anchorman",
+					"sp": 120
+				},
+				{
+					"move": "Multifists",
+					"sp": 150
+				},
+				{
+					"move": "Shining Shot",
+					"sp": 200
+				}
+			],
+			"category": "Standard"
+		},
+		"Pest Controller": {
+			"moves": [
+				{
+					"move": "Dragon Slash",
+					"sp": 10
+				},
+				{
+					"move": "Slime Squisher",
+					"sp": 20
+				},
+				{
+					"move": "Nature Nerfer",
+					"sp": 30
+				},
+				{
+					"move": "Frenzy",
+					"sp": 50
+				},
+				{
+					"move": "Beast Tamer",
+					"sp": 70
+				},
+				{
+					"move": "Matter Scatterer",
+					"sp": 85
+				},
+				{
+					"move": "Hatchet Man",
+					"sp": 100
+				},
+				{
+					"move": "Demon Demeaner",
+					"sp": 120
+				},
+				{
+					"move": "Undead Undoer",
+					"sp": 150
+				},
+				{
+					"move": "Shadow Blast",
+					"sp": 200
+				}
+			],
+			"category": "Standard"
+		},
+		"Multidisciplinarian": {
+			"moves": [
+				{
+					"move": "Attack Attacker",
+					"sp": 10
+				},
+				{
+					"move": "Helm Splitter",
+					"sp": 20
+				},
+				{
+					"move": "Poison Attack",
+					"sp": 30
+				},
+				{
+					"move": "Poisonous Touch",
+					"sp": 30
+				},
+				{
+					"move": "Heart Breaker",
+					"sp": 50
+				},
+				{
+					"move": "Sleep Attack",
+					"sp": 70
+				},
+				{
+					"move": "Confusion Attack",
+					"sp": 85
+				},
+				{
+					"move": "Paralysing Punch",
+					"sp": 100
+				},
+				{
+					"move": "Assassin's Stab",
+					"sp": 120
+				},
+				{
+					"move": "Multi-Victimiser",
+					"sp": 150
+				},
+				{
+					"move": "Multi-Persecutter",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Poisonous Touch"
+			],
+			"category": "Standard"
+		},
+		"Rug Cutter": {
+			"moves": [
+				{
+					"move": "Sword Dance",
+					"sp": 10
+				},
+				{
+					"move": "Fan Dango",
+					"sp": 20
+				},
+				{
+					"move": "Fuddle Dance",
+					"sp": 30
+				},
+				{
+					"move": "Hotstepper",
+					"sp": 50
+				},
+				{
+					"move": "Mirror Moves",
+					"sp": 70
+				},
+				{
+					"move": "Electric Boogie",
+					"sp": 85
+				},
+				{
+					"move": "Death Dance",
+					"sp": 100
+				},
+				{
+					"move": "Butterfly Bop",
+					"sp": 120
+				},
+				{
+					"move": "Hustle Dance",
+					"sp": 150
+				},
+				{
+					"move": "Kerplunk Dance",
+					"sp": 200
+				}
+			],
+			"category": "Exclusive"
+		},
+		"Rainmaker": {
+			"moves": [
+				{
+					"move": "Blessed Breath",
+					"sp": 10
+				},
+				{
+					"move": "Moreheal",
+					"sp": 20
+				},
+				{
+					"move": "Zing",
+					"sp": 30
+				},
+				{
+					"move": "Starfall",
+					"sp": 50
+				},
+				{
+					"move": "Multiheal",
+					"sp": 75
+				},
+				{
+					"move": "Mist Me",
+					"sp": 100
+				},
+				{
+					"move": "Right as Rain",
+					"sp": 150
+				},
+				{
+					"move": "Wave of Relief",
+					"sp": 200
+				},
+				{
+					"move": "Rando-Relief",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Rando-Relief"
+			],
+			"category": "Standard"
+		},
+		"Sovereign": {
+			"moves": [
+				{
+					"move": "Kazap",
+					"sp": 10
+				},
+				{
+					"move": "Miracle Slash",
+					"sp": 20
+				},
+				{
+					"move": "Brightsplitter",
+					"sp": 30
+				},
+				{
+					"move": "Multiheal",
+					"sp": 50
+				},
+				{
+					"move": "Scorch",
+					"sp": 75
+				},
+				{
+					"move": "Pearly Gates",
+					"sp": 100
+				},
+				{
+					"move": "C-C-Cold Breath",
+					"sp": 150
+				},
+				{
+					"move": "Kazapple",
+					"sp": 200
+				}
+			],
+			"category": "Standard"
+		},
+		"Dragonlord": {
+			"moves": [
+				{
+					"move": "Inferno",
+					"sp": 10
+				},
+				{
+					"move": "Moreheal",
+					"sp": 20
+				},
+				{
+					"move": "Deep Breath",
+					"sp": 30
+				},
+				{
+					"move": "Fizzle",
+					"sp": 50
+				},
+				{
+					"move": "Defence +8",
+					"sp": 70
+				},
+				{
+					"move": "Burning Breath",
+					"sp": 85
+				},
+				{
+					"move": "Kasizzle",
+					"sp": 100
+				},
+				{
+					"move": "Defence +12",
+					"sp": 120
+				},
+				{
+					"move": "Hellitosis",
+					"sp": 150
+				},
+				{
+					"move": "Wave of Panic",
+					"sp": 200
+				},
+				{
+					"move": "Rando-Panic",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Defence +12",
+				"Defence +8",
+				"Rando-Panic"
+			],
+			"category": "Exclusive"
+		},
+		"Hargon": {
+			"moves": [
+				{
+					"move": "Snooze",
+					"sp": 10
+				},
+				{
+					"move": "Kasizz",
+					"sp": 20
+				},
+				{
+					"move": "Sweet Breath",
+					"sp": 30
+				},
+				{
+					"move": "Moreheal",
+					"sp": 50
+				},
+				{
+					"move": "Wisdom +8",
+					"sp": 70
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 85
+				},
+				{
+					"move": "Zing",
+					"sp": 100
+				},
+				{
+					"move": "Multiheal",
+					"sp": 120
+				},
+				{
+					"move": "Kaboomle",
+					"sp": 150
+				},
+				{
+					"move": "Hellitosis",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Wisdom +16",
+				"Wisdom +8"
+			],
+			"category": "Exclusive"
+		},
+		"Malroth": {
+			"moves": [
+				{
+					"move": "Sleep Attack",
+					"sp": 10
+				},
+				{
+					"move": "Kabuff",
+					"sp": 20
+				},
+				{
+					"move": "Kasap",
+					"sp": 30
+				},
+				{
+					"move": "Attack +8",
+					"sp": 50
+				},
+				{
+					"move": "Defence +12",
+					"sp": 70
+				},
+				{
+					"move": "Moreheal",
+					"sp": 85
+				},
+				{
+					"move": "Kazammle",
+					"sp": 100
+				},
+				{
+					"move": "Lightning Storm",
+					"sp": 120
+				},
+				{
+					"move": "Hellitosis",
+					"sp": 150
+				},
+				{
+					"move": "Wave of Panic",
+					"sp": 200
+				},
+				{
+					"move": "Rando-Panic",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Attack +8",
+				"Defence +12",
+				"Rando-Panic"
+			],
+			"category": "Exclusive"
+		},
+		"Aamon": {
+			"moves": [
+				{
+					"move": "Kaswoosh",
+					"sp": 10
+				},
+				{
+					"move": "Meditation",
+					"sp": 20
+				},
+				{
+					"move": "Katoxle",
+					"sp": 30
+				},
+				{
+					"move": "Wisdom +8",
+					"sp": 50
+				},
+				{
+					"move": "Kaboom",
+					"sp": 70
+				},
+				{
+					"move": "Giga Drain Magic",
+					"sp": 85
+				},
+				{
+					"move": "Bounce",
+					"sp": 100
+				},
+				{
+					"move": "Auto-Restora",
+					"sp": 120
+				},
+				{
+					"move": "Kafrizzle",
+					"sp": 150
+				},
+				{
+					"move": "Kacrackle",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Auto-Restora",
+				"Wisdom +8"
+			],
+			"category": "Exclusive"
+		},
+		"Bishop Ladja": {
+			"moves": [
+				{
+					"move": "Numb",
+					"sp": 10
+				},
+				{
+					"move": "Magma Blast",
+					"sp": 20
+				},
+				{
+					"move": "Hatchet Man",
+					"sp": 30
+				},
+				{
+					"move": "Burning Breath",
+					"sp": 50
+				},
+				{
+					"move": "Kanumb",
+					"sp": 70
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 85
+				},
+				{
+					"move": "Kafrizzle",
+					"sp": 100
+				},
+				{
+					"move": "Auto-Restora",
+					"sp": 120
+				},
+				{
+					"move": "Bounce",
+					"sp": 150
+				},
+				{
+					"move": "Ice Age",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Auto-Restora",
+				"Wisdom +16"
+			],
+			"category": "Exclusive"
+		},
+		"Nimzo": {
+			"moves": [
+				{
+					"move": "Kasap",
+					"sp": 10
+				},
+				{
+					"move": "Inferno",
+					"sp": 20
+				},
+				{
+					"move": "Meditation",
+					"sp": 30
+				},
+				{
+					"move": "Attack +12",
+					"sp": 50
+				},
+				{
+					"move": "C-C-Cold Breath",
+					"sp": 70
+				},
+				{
+					"move": "Kaboom",
+					"sp": 85
+				},
+				{
+					"move": "Auto-Restora",
+					"sp": 100
+				},
+				{
+					"move": "Bounce",
+					"sp": 120
+				},
+				{
+					"move": "Kafrizzle",
+					"sp": 150
+				},
+				{
+					"move": "Disruptive Wave",
+					"sp": 200
+				},
+				{
+					"move": "Rando-Disrupt",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Attack +12",
+				"Auto-Restora",
+				"Rando-Disrupt"
+			],
+			"category": "Exclusive"
+		},
+		"Murdaw": {
+			"moves": [
+				{
+					"move": "Kasap",
+					"sp": 10
+				},
+				{
+					"move": "Poison Breath",
+					"sp": 20
+				},
+				{
+					"move": "Wisdom +8",
+					"sp": 30
+				},
+				{
+					"move": "Dazzleflash",
+					"sp": 50
+				},
+				{
+					"move": "Lightning",
+					"sp": 70
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 85
+				},
+				{
+					"move": "Withering Look",
+					"sp": 100
+				},
+				{
+					"move": "Kazapple",
+					"sp": 120
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 150
+				},
+				{
+					"move": "Ice Age",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Max. MP +16",
+				"Wisdom +16",
+				"Wisdom +8"
+			],
+			"category": "Exclusive"
+		},
+		"Mortamor": {
+			"moves": [
+				{
+					"move": "Mercurial Thrust",
+					"sp": 10
+				},
+				{
+					"move": "Freezing Blizzard",
+					"sp": 20
+				},
+				{
+					"move": "Intense Defense",
+					"sp": 30
+				},
+				{
+					"move": "Oomph",
+					"sp": 50
+				},
+				{
+					"move": "Kafrizz",
+					"sp": 70
+				},
+				{
+					"move": "Meditation",
+					"sp": 85
+				},
+				{
+					"move": "Kaboom",
+					"sp": 100
+				},
+				{
+					"move": "Bounce",
+					"sp": 120
+				},
+				{
+					"move": "Disruptive Wave",
+					"sp": 150
+				},
+				{
+					"move": "Rando-Disrupt",
+					"sp": 150
+				},
+				{
+					"move": "Magic Burst",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Rando-Disrupt"
+			],
+			"category": "Exclusive"
+		},
+		"Orgodemir": {
+			"moves": [
+				{
+					"move": "Magma Blast",
+					"sp": 10
+				},
+				{
+					"move": "Kafrizz",
+					"sp": 20
+				},
+				{
+					"move": "Kasnooze",
+					"sp": 30
+				},
+				{
+					"move": "Paralysing Punch",
+					"sp": 50
+				},
+				{
+					"move": "Attack +8",
+					"sp": 70
+				},
+				{
+					"move": "Kaboom",
+					"sp": 85
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 100
+				},
+				{
+					"move": "Hellitosis",
+					"sp": 120
+				},
+				{
+					"move": "Disruptive Wave",
+					"sp": 150
+				},
+				{
+					"move": "Rando-Disrupt",
+					"sp": 150
+				},
+				{
+					"move": "Magic Burst",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Attack +8",
+				"Rando-Disrupt",
+				"Wisdom +16"
+			],
+			"category": "Exclusive"
+		},
+		"Dhoulmagus": {
+			"moves": [
+				{
+					"move": "Thin Air",
+					"sp": 10
+				},
+				{
+					"move": "War Cry",
+					"sp": 20
+				},
+				{
+					"move": "Multiheal",
+					"sp": 30
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 50
+				},
+				{
+					"move": "Kacrack",
+					"sp": 70
+				},
+				{
+					"move": "Kasizz",
+					"sp": 85
+				},
+				{
+					"move": "Boulder Toss",
+					"sp": 100
+				},
+				{
+					"move": "Kasplashle",
+					"sp": 120
+				},
+				{
+					"move": "Hellitosis",
+					"sp": 150
+				},
+				{
+					"move": "Disruptive Wave",
+					"sp": 200
+				},
+				{
+					"move": "Rando-Disrupt",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Rando-Disrupt",
+				"Wisdom +16"
+			],
+			"category": "Exclusive"
+		},
+		"Rhapthorne": {
+			"moves": [
+				{
+					"move": "Inferno",
+					"sp": 10
+				},
+				{
+					"move": "Dazzleflash",
+					"sp": 20
+				},
+				{
+					"move": "Starfall",
+					"sp": 30
+				},
+				{
+					"move": "Meditation",
+					"sp": 50
+				},
+				{
+					"move": "C-C-Cold Breath",
+					"sp": 70
+				},
+				{
+					"move": "Kafrizzle",
+					"sp": 85
+				},
+				{
+					"move": "Boulder Toss",
+					"sp": 100
+				},
+				{
+					"move": "Kaboomle",
+					"sp": 120
+				},
+				{
+					"move": "Disruptive Wave",
+					"sp": 150
+				},
+				{
+					"move": "Rando-Disrupt",
+					"sp": 150
+				},
+				{
+					"move": "Magic Burst",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Rando-Disrupt"
+			],
+			"category": "Exclusive"
+		},
+		"Greygnarl": {
+			"moves": [
+				{
+					"move": "Magma Blast",
+					"sp": 10
+				},
+				{
+					"move": "Blessed Breath",
+					"sp": 20
+				},
+				{
+					"move": "Hellish Howl",
+					"sp": 30
+				},
+				{
+					"move": "Attack +8",
+					"sp": 50
+				},
+				{
+					"move": "Kazapple",
+					"sp": 70
+				},
+				{
+					"move": "Giga Drain Magic",
+					"sp": 85
+				},
+				{
+					"move": "Attack +12",
+					"sp": 100
+				},
+				{
+					"move": "Hellitosis",
+					"sp": 120
+				},
+				{
+					"move": "Wave of Relief",
+					"sp": 150
+				},
+				{
+					"move": "Rando-Relief",
+					"sp": 150
+				},
+				{
+					"move": "Magic Burst",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Attack +12",
+				"Attack +8",
+				"Rando-Relief"
+			],
+			"category": "Exclusive"
+		},
+		"Barbarus": {
+			"moves": [
+				{
+					"move": "Black Breath",
+					"sp": 10
+				},
+				{
+					"move": "Hellish Howl",
+					"sp": 20
+				},
+				{
+					"move": "Roundhouse Kick",
+					"sp": 30
+				},
+				{
+					"move": "Heart Breaker",
+					"sp": 50
+				},
+				{
+					"move": "Wisdom +8",
+					"sp": 70
+				},
+				{
+					"move": "Kazammle",
+					"sp": 85
+				},
+				{
+					"move": "Grim Breath",
+					"sp": 100
+				},
+				{
+					"move": "Max. HP +12",
+					"sp": 120
+				},
+				{
+					"move": "Ice Age",
+					"sp": 150
+				},
+				{
+					"move": "Wave of Panic",
+					"sp": 200
+				},
+				{
+					"move": "Rando-Panic",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Max. HP +12",
+				"Rando-Panic",
+				"Wisdom +8"
+			],
+			"category": "Exclusive"
+		},
+		"Fallen Angel Corvus": {
+			"moves": [
+				{
+					"move": "Burning Breath",
+					"sp": 10
+				},
+				{
+					"move": "Seethe",
+					"sp": 20
+				},
+				{
+					"move": "Meditation",
+					"sp": 30
+				},
+				{
+					"move": "Multifists",
+					"sp": 50
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 70
+				},
+				{
+					"move": "Lightning Storm",
+					"sp": 85
+				},
+				{
+					"move": "Grim Breath",
+					"sp": 100
+				},
+				{
+					"move": "Kafrizzle",
+					"sp": 120
+				},
+				{
+					"move": "Magic Burst",
+					"sp": 150
+				},
+				{
+					"move": "Ice Age",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Wisdom +16"
+			],
+			"category": "Exclusive"
+		},
+		"Razerburn": {
+			"moves": [
+				{
+					"move": "Magma Blast",
+					"sp": 10
+				},
+				{
+					"move": "Seethe",
+					"sp": 20
+				},
+				{
+					"move": "Knuckle Sandwich",
+					"sp": 30
+				},
+				{
+					"move": "Roundhouse Kick",
+					"sp": 50
+				},
+				{
+					"move": "Thin Air",
+					"sp": 70
+				},
+				{
+					"move": "Defence +8",
+					"sp": 85
+				},
+				{
+					"move": "Multi-Victimiser",
+					"sp": 100
+				},
+				{
+					"move": "Attack +12",
+					"sp": 120
+				},
+				{
+					"move": "Disruptive Wave",
+					"sp": 150
+				},
+				{
+					"move": "Rando-Disrupt",
+					"sp": 150
+				},
+				{
+					"move": "Wave of Relief",
+					"sp": 200
+				},
+				{
+					"move": "Rando-Relief",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Attack +12",
+				"Defence +8",
+				"Rando-Disrupt",
+				"Rando-Relief"
+			],
+			"category": "Exclusive"
+		},
+		"Nelgel The Netherfiend": {
+			"moves": [
+				{
+					"move": "Roundhouse Kick",
+					"sp": 10
+				},
+				{
+					"move": "Oomph",
+					"sp": 20
+				},
+				{
+					"move": "Starfall",
+					"sp": 30
+				},
+				{
+					"move": "Meditation",
+					"sp": 50
+				},
+				{
+					"move": "Attack +12",
+					"sp": 70
+				},
+				{
+					"move": "Kafrizzle",
+					"sp": 85
+				},
+				{
+					"move": "Kazammle",
+					"sp": 100
+				},
+				{
+					"move": "Kacrackle",
+					"sp": 120
+				},
+				{
+					"move": "Kaboomle",
+					"sp": 150
+				},
+				{
+					"move": "Disruptive Wave",
+					"sp": 200
+				},
+				{
+					"move": "Rando-Disrupt",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Attack +12",
+				"Rando-Disrupt"
+			],
+			"category": "Exclusive"
+		},
+		"Jasper Unbound": {
+			"moves": [
+				{
+					"move": "Multifists",
+					"sp": 10
+				},
+				{
+					"move": "Knuckle Sandwich",
+					"sp": 20
+				},
+				{
+					"move": "Fizzle",
+					"sp": 30
+				},
+				{
+					"move": "Wisdom +8",
+					"sp": 50
+				},
+				{
+					"move": "Power Surge",
+					"sp": 70
+				},
+				{
+					"move": "Blightsplitter",
+					"sp": 85
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 100
+				},
+				{
+					"move": "Brake Wind",
+					"sp": 120
+				},
+				{
+					"move": "Grim Breath",
+					"sp": 150
+				},
+				{
+					"move": "Wave of Panic",
+					"sp": 200
+				},
+				{
+					"move": "Rando-Panic",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Rando-Panic",
+				"Wisdom +16",
+				"Wisdom +8"
+			],
+			"category": "Exclusive"
+		},
+		"Mordegon, Lord of Shadows": {
+			"moves": [
+				{
+					"move": "Kacrack",
+					"sp": 10
+				},
+				{
+					"move": "Meditation",
+					"sp": 20
+				},
+				{
+					"move": "Hellish Howl",
+					"sp": 30
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 50
+				},
+				{
+					"move": "Kaboom",
+					"sp": 70
+				},
+				{
+					"move": "Power Surge",
+					"sp": 85
+				},
+				{
+					"move": "Giga Drain Magic",
+					"sp": 100
+				},
+				{
+					"move": "Kazammle",
+					"sp": 120
+				},
+				{
+					"move": "Ice Age",
+					"sp": 150
+				},
+				{
+					"move": "Disruptive Wave",
+					"sp": 200
+				},
+				{
+					"move": "Rando-Disrupt",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Rando-Disrupt",
+				"Wisdom +16"
+			],
+			"category": "Exclusive"
+		},
+		"Calasmos": {
+			"moves": [
+				{
+					"move": "Meditation",
+					"sp": 10
+				},
+				{
+					"move": "Poison Attack",
+					"sp": 20
+				},
+				{
+					"move": "Poisonous Touch",
+					"sp": 20
+				},
+				{
+					"move": "Confusion Attack",
+					"sp": 30
+				},
+				{
+					"move": "Paralysing Punch",
+					"sp": 50
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 70
+				},
+				{
+					"move": "Kaswooshle",
+					"sp": 85
+				},
+				{
+					"move": "Kaboomle",
+					"sp": 100
+				},
+				{
+					"move": "Max. HP +12",
+					"sp": 120
+				},
+				{
+					"move": "Wave of Panic",
+					"sp": 150
+				},
+				{
+					"move": "Rando-Panic",
+					"sp": 150
+				},
+				{
+					"move": "Hold Fire",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Max. HP +12",
+				"Max. HP +8",
+				"Poisonous Touch",
+				"Rando-Panic"
+			],
+			"category": "Exclusive"
+		},
+		"Uberkilling Machine": {
+			"moves": [
+				{
+					"move": "Dragon Slash",
+					"sp": 10
+				},
+				{
+					"move": "Multislash",
+					"sp": 20
+				},
+				{
+					"move": "Helm Splitter",
+					"sp": 30
+				},
+				{
+					"move": "Hatchet Man",
+					"sp": 50
+				},
+				{
+					"move": "Attack +12",
+					"sp": 70
+				},
+				{
+					"move": "Parallax",
+					"sp": 85
+				},
+				{
+					"move": "Multifists",
+					"sp": 100
+				},
+				{
+					"move": "Earthsplitter",
+					"sp": 120
+				},
+				{
+					"move": "Attack +16",
+					"sp": 150
+				},
+				{
+					"move": "Gigacross",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Attack +12",
+				"Attack +16"
+			],
+			"category": "Exclusive"
+		},
+		"Fluffy": {
+			"moves": [
+				{
+					"move": "Tingle",
+					"sp": 10
+				},
+				{
+					"move": "Cock-a-Doodle-Doo",
+					"sp": 20
+				},
+				{
+					"move": "Oomphle",
+					"sp": 30
+				},
+				{
+					"move": "Kabuff",
+					"sp": 50
+				},
+				{
+					"move": "Kasap",
+					"sp": 70
+				},
+				{
+					"move": "Acceleratle",
+					"sp": 85
+				},
+				{
+					"move": "Kaping",
+					"sp": 100
+				},
+				{
+					"move": "Insulatle",
+					"sp": 120
+				},
+				{
+					"move": "Right as Rain",
+					"sp": 150
+				},
+				{
+					"move": "Wave of Relief",
+					"sp": 200
+				},
+				{
+					"move": "Rando-Relief",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Rando-Relief"
+			],
+			"category": "Exclusive"
+		},
+		"Scruffy": {
+			"moves": [
+				{
+					"move": "Snooze",
+					"sp": 10
+				},
+				{
+					"move": "Fuddle",
+					"sp": 20
+				},
+				{
+					"move": "Numb",
+					"sp": 30
+				},
+				{
+					"move": "Kablunt",
+					"sp": 50
+				},
+				{
+					"move": "Kasap",
+					"sp": 70
+				},
+				{
+					"move": "Deceleratle",
+					"sp": 85
+				},
+				{
+					"move": "Kadim",
+					"sp": 100
+				},
+				{
+					"move": "Dazzle",
+					"sp": 120
+				},
+				{
+					"move": "Katoxle",
+					"sp": 150
+				},
+				{
+					"move": "Wave of Panic",
+					"sp": 200
+				},
+				{
+					"move": "Rando-Panic",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Rando-Panic"
+			],
+			"category": "Exclusive"
+		},
+		"Fuzzy Thinker": {
+			"moves": [
+				{
+					"move": "Dodgy Dance",
+					"sp": 10
+				},
+				{
+					"move": "Dazzleflash",
+					"sp": 20
+				},
+				{
+					"move": "Max. HP +16",
+					"sp": 30
+				},
+				{
+					"move": "Magic Pop",
+					"sp": 50
+				},
+				{
+					"move": "Tongue Bashing",
+					"sp": 70
+				},
+				{
+					"move": "Right as Rain",
+					"sp": 85
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 100
+				},
+				{
+					"move": "Wave of Relief",
+					"sp": 120
+				},
+				{
+					"move": "Rando-Relief",
+					"sp": 120
+				},
+				{
+					"move": "Wave of Panic",
+					"sp": 150
+				},
+				{
+					"move": "Rando-Panic",
+					"sp": 150
+				},
+				{
+					"move": "Disruptive Wave",
+					"sp": 200
+				},
+				{
+					"move": "Rando-Disrupt",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Max. HP +16",
+				"Max. MP +16",
+				"Rando-Disrupt",
+				"Rando-Panic",
+				"Rando-Relief"
+			],
+			"category": "Exclusive"
+		},
+		"Wyrmhole Dragon": {
+			"moves": [
+				{
+					"move": "Skysplitter",
+					"sp": 10
+				},
+				{
+					"move": "Kasizzle",
+					"sp": 20
+				},
+				{
+					"move": "Wisdom +8",
+					"sp": 30
+				},
+				{
+					"move": "Lightning Storm",
+					"sp": 50
+				},
+				{
+					"move": "Attack +12",
+					"sp": 70
+				},
+				{
+					"move": "Grim Breath",
+					"sp": 85
+				},
+				{
+					"move": "Magic Burst",
+					"sp": 100
+				},
+				{
+					"move": "Hellitosis",
+					"sp": 120
+				},
+				{
+					"move": "Wave of Panic",
+					"sp": 150
+				},
+				{
+					"move": "Rando-Panic",
+					"sp": 150
+				},
+				{
+					"move": "Bad Hand",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Attack +12",
+				"Rando-Panic",
+				"Wisdom +8"
+			],
+			"category": "Exclusive"
+		},
+		"Baramos": {
+			"moves": [
+				{
+					"move": "Fuddle",
+					"sp": 10
+				},
+				{
+					"move": "Kafrizz",
+					"sp": 20
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 30
+				},
+				{
+					"move": "Boulder Toss",
+					"sp": 50
+				},
+				{
+					"move": "Kafuddle",
+					"sp": 70
+				},
+				{
+					"move": "Lightning Storm",
+					"sp": 85
+				},
+				{
+					"move": "Kaboomle",
+					"sp": 100
+				},
+				{
+					"move": "Auto-Restora",
+					"sp": 120
+				},
+				{
+					"move": "Hellitosis",
+					"sp": 150
+				},
+				{
+					"move": "Disruptive Wave",
+					"sp": 200
+				},
+				{
+					"move": "Rando-Disrupt",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Auto-Restora",
+				"Rando-Disrupt",
+				"Wisdom +16"
+			],
+			"category": "Exclusive"
+		},
+		"Supreme Healer": {
+			"moves": [
+				{
+					"move": "Moreheal",
+					"sp": 10
+				},
+				{
+					"move": "Dodgy Dance",
+					"sp": 20
+				},
+				{
+					"move": "Hustle Dance",
+					"sp": 30
+				},
+				{
+					"move": "Multiheal",
+					"sp": 50
+				},
+				{
+					"move": "Mist Me",
+					"sp": 70
+				},
+				{
+					"move": "Kerplunk Dance",
+					"sp": 100
+				},
+				{
+					"move": "Kazing",
+					"sp": 150
+				},
+				{
+					"move": "Omniheal",
+					"sp": 200
+				}
+			],
+			"category": "Combination"
+		},
+		"Lord Of The Dragovians": {
+			"moves": [
+				{
+					"move": "Insulatle",
+					"sp": 10
+				},
+				{
+					"move": "Scorch",
+					"sp": 20
+				},
+				{
+					"move": "C-C-Cold Breath",
+					"sp": 30
+				},
+				{
+					"move": "War Cry",
+					"sp": 50
+				},
+				{
+					"move": "Attack +8",
+					"sp": 70
+				},
+				{
+					"move": "Kazapple",
+					"sp": 85
+				},
+				{
+					"move": "Hellitosis",
+					"sp": 100
+				},
+				{
+					"move": "Attack +12",
+					"sp": 120
+				},
+				{
+					"move": "Magic Burst",
+					"sp": 150
+				},
+				{
+					"move": "Gigacross",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Attack +12",
+				"Attack +8"
+			],
+			"category": "Exclusive"
+		},
+		"Xenlon": {
+			"moves": [
+				{
+					"move": "Freezing Blizzard",
+					"sp": 10
+				},
+				{
+					"move": "Deep Breath",
+					"sp": 20
+				},
+				{
+					"move": "Magic Pop",
+					"sp": 30
+				},
+				{
+					"move": "Scorch",
+					"sp": 50
+				},
+				{
+					"move": "Defence +8",
+					"sp": 70
+				},
+				{
+					"move": "Kazapple",
+					"sp": 85
+				},
+				{
+					"move": "Defence +12",
+					"sp": 100
+				},
+				{
+					"move": "Hellitosis",
+					"sp": 120
+				},
+				{
+					"move": "Ice Age",
+					"sp": 150
+				},
+				{
+					"move": "Wave of Relief",
+					"sp": 200
+				},
+				{
+					"move": "Rando-Relief",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Defence +12",
+				"Defence +8",
+				"Rando-Relief"
+			],
+			"category": "Exclusive"
+		},
+		"Ramia": {
+			"moves": [
+				{
+					"move": "Blessed Breath",
+					"sp": 10
+				},
+				{
+					"move": "Moreheal",
+					"sp": 20
+				},
+				{
+					"move": "Magic Pop",
+					"sp": 30
+				},
+				{
+					"move": "Wisdom +8",
+					"sp": 50
+				},
+				{
+					"move": "Pearly Gates",
+					"sp": 70
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 85
+				},
+				{
+					"move": "Shining Shot",
+					"sp": 100
+				},
+				{
+					"move": "Bounce",
+					"sp": 120
+				},
+				{
+					"move": "Wave of Relief",
+					"sp": 150
+				},
+				{
+					"move": "Rando-Relief",
+					"sp": 150
+				},
+				{
+					"move": "Kerplunk",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Rando-Relief",
+				"Wisdom +16",
+				"Wisdom +8"
+			],
+			"category": "Exclusive"
+		},
+		"The Almighty": {
+			"moves": [
+				{
+					"move": "Sultry Dance",
+					"sp": 10
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 20
+				},
+				{
+					"move": "Hotstepper",
+					"sp": 30
+				},
+				{
+					"move": "Max. HP +12",
+					"sp": 50
+				},
+				{
+					"move": "Multiheal",
+					"sp": 70
+				},
+				{
+					"move": "Electric Boogie",
+					"sp": 85
+				},
+				{
+					"move": "Auto-Restora",
+					"sp": 100
+				},
+				{
+					"move": "Lightning Storm",
+					"sp": 120
+				},
+				{
+					"move": "Hustle Dance",
+					"sp": 150
+				},
+				{
+					"move": "Wave of Relief",
+					"sp": 200
+				},
+				{
+					"move": "Rando-Relief",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Auto-Restora",
+				"Max. HP +12",
+				"Max. HP +8",
+				"Rando-Relief"
+			],
+			"category": "Exclusive"
+		},
+		"Psaro The Manslayer": {
+			"moves": [
+				{
+					"move": "Inferno",
+					"sp": 10
+				},
+				{
+					"move": "Kabuff",
+					"sp": 20
+				},
+				{
+					"move": "Sweet Breath",
+					"sp": 30
+				},
+				{
+					"move": "Kasizz",
+					"sp": 50
+				},
+				{
+					"move": "Meditation",
+					"sp": 70
+				},
+				{
+					"move": "Attack +12",
+					"sp": 85
+				},
+				{
+					"move": "Kacrack",
+					"sp": 100
+				},
+				{
+					"move": "Bounce",
+					"sp": 120
+				},
+				{
+					"move": "Ice Age",
+					"sp": 150
+				},
+				{
+					"move": "Disruptive Wave",
+					"sp": 200
+				},
+				{
+					"move": "Rando-Disrupt",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Attack +12",
+				"Rando-Disrupt"
+			],
+			"category": "Exclusive"
+		},
+		"Zoma": {
+			"moves": [
+				{
+					"move": "Kacrackle Slash",
+					"sp": 10
+				},
+				{
+					"move": "Freezing Blizzard",
+					"sp": 20
+				},
+				{
+					"move": "Wisdom +8",
+					"sp": 30
+				},
+				{
+					"move": "Kacrackle",
+					"sp": 50
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 70
+				},
+				{
+					"move": "Bounce",
+					"sp": 85
+				},
+				{
+					"move": "Ice Age",
+					"sp": 100
+				},
+				{
+					"move": "Auto-Restora",
+					"sp": 120
+				},
+				{
+					"move": "Disruptive Wave",
+					"sp": 150
+				},
+				{
+					"move": "Rando-Disrupt",
+					"sp": 150
+				},
+				{
+					"move": "Big Banga",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Auto-Restora",
+				"Rando-Disrupt",
+				"Wisdom +16",
+				"Wisdom +8"
+			],
+			"category": "Exclusive"
+		},
+		"Estark": {
+			"moves": [
+				{
+					"move": "Multislash",
+					"sp": 10
+				},
+				{
+					"move": "Matter Scatterer",
+					"sp": 20
+				},
+				{
+					"move": "Hatchet Man",
+					"sp": 30
+				},
+				{
+					"move": "Skysplitter",
+					"sp": 50
+				},
+				{
+					"move": "Blightsplitter",
+					"sp": 70
+				},
+				{
+					"move": "Auto-Restora",
+					"sp": 85
+				},
+				{
+					"move": "Gigagash",
+					"sp": 100
+				},
+				{
+					"move": "Shadow Blast",
+					"sp": 120
+				},
+				{
+					"move": "Wave of Panic",
+					"sp": 150
+				},
+				{
+					"move": "Rando-Panic",
+					"sp": 150
+				},
+				{
+					"move": "Disruptive Wave",
+					"sp": 200
+				},
+				{
+					"move": "Rando-Disrupt",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Auto-Restora",
+				"Rando-Disrupt",
+				"Rando-Panic"
+			],
+			"category": "Exclusive"
+		},
+		"Nokturnus": {
+			"moves": [
+				{
+					"move": "Oomph",
+					"sp": 10
+				},
+				{
+					"move": "Dragon Slash",
+					"sp": 20
+				},
+				{
+					"move": "Sword Dance",
+					"sp": 30
+				},
+				{
+					"move": "Kazap",
+					"sp": 50
+				},
+				{
+					"move": "Skysplitter",
+					"sp": 70
+				},
+				{
+					"move": "Hellish Howl",
+					"sp": 85
+				},
+				{
+					"move": "Pearly Gates",
+					"sp": 100
+				},
+				{
+					"move": "Ice Age",
+					"sp": 120
+				},
+				{
+					"move": "Gigacross",
+					"sp": 150
+				},
+				{
+					"move": "Disruptive Wave",
+					"sp": 200
+				},
+				{
+					"move": "Rando-Disrupt",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Rando-Disrupt"
+			],
+			"category": "Exclusive"
+		},
+		"Air Fryer": {
+			"moves": [
+				{
+					"move": "Flame Slash",
+					"sp": 10
+				},
+				{
+					"move": "Mercurial Thrust",
+					"sp": 20
+				},
+				{
+					"move": "Gust Slash",
+					"sp": 30
+				},
+				{
+					"move": "Dragon Slash",
+					"sp": 50
+				},
+				{
+					"move": "Demon Demeaner",
+					"sp": 70
+				},
+				{
+					"move": "Skysplitter",
+					"sp": 100
+				},
+				{
+					"move": "Flamesplitter",
+					"sp": 150
+				},
+				{
+					"move": "Multifists",
+					"sp": 200
+				}
+			],
+			"category": "Combination"
+		},
+		"Storm Brewer": {
+			"moves": [
+				{
+					"move": "Gust Slash",
+					"sp": 10
+				},
+				{
+					"move": "Multislash",
+					"sp": 20
+				},
+				{
+					"move": "Lightning Slash",
+					"sp": 30
+				},
+				{
+					"move": "Mercurial Thrust",
+					"sp": 50
+				},
+				{
+					"move": "Slime Squisher",
+					"sp": 70
+				},
+				{
+					"move": "Skysplitter",
+					"sp": 100
+				},
+				{
+					"move": "Miracle Slash",
+					"sp": 150
+				},
+				{
+					"move": "Gigagash",
+					"sp": 200
+				}
+			],
+			"category": "Combination"
+		},
+		"Freeze Popper": {
+			"moves": [
+				{
+					"move": "Kacrackle Slash",
+					"sp": 10
+				},
+				{
+					"move": "Mercurial Thrust",
+					"sp": 20
+				},
+				{
+					"move": "Lightning Slash",
+					"sp": 30
+				},
+				{
+					"move": "Nature Nerfer",
+					"sp": 50
+				},
+				{
+					"move": "Matter Scatterer",
+					"sp": 70
+				},
+				{
+					"move": "Blightsplitter",
+					"sp": 100
+				},
+				{
+					"move": "Earthsplitter",
+					"sp": 150
+				},
+				{
+					"move": "Multifists",
+					"sp": 200
+				}
+			],
+			"category": "Combination"
+		},
+		"Freezer Burner": {
+			"moves": [
+				{
+					"move": "Kacrackle Slash",
+					"sp": 10
+				},
+				{
+					"move": "Multislash",
+					"sp": 20
+				},
+				{
+					"move": "Flame Slash",
+					"sp": 30
+				},
+				{
+					"move": "Beast Tamer",
+					"sp": 50
+				},
+				{
+					"move": "Undead Undoer",
+					"sp": 70
+				},
+				{
+					"move": "Flamesplitter",
+					"sp": 100
+				},
+				{
+					"move": "Blightsplitter",
+					"sp": 150
+				},
+				{
+					"move": "Miracle Slash",
+					"sp": 200
+				}
+			],
+			"category": "Combination"
+		},
+		"Hair Splitter": {
+			"moves": [
+				{
+					"move": "Kacrackle Slash",
+					"sp": 10
+				},
+				{
+					"move": "Lightning Slash",
+					"sp": 20
+				},
+				{
+					"move": "Flamesplitter",
+					"sp": 30
+				},
+				{
+					"move": "Skysplitter",
+					"sp": 50
+				},
+				{
+					"move": "Earthsplitter",
+					"sp": 70
+				},
+				{
+					"move": "Gigagash",
+					"sp": 85
+				},
+				{
+					"move": "Brightsplitter",
+					"sp": 100
+				},
+				{
+					"move": "Blightsplitter",
+					"sp": 120
+				},
+				{
+					"move": "Gigacross",
+					"sp": 150
+				},
+				{
+					"move": "Shadow Blast",
+					"sp": 200
+				}
+			],
+			"category": "Combination"
+		},
+		"Impactor": {
+			"moves": [
+				{
+					"move": "Kafrizz",
+					"sp": 10
+				},
+				{
+					"move": "Kazam",
+					"sp": 20
+				},
+				{
+					"move": "Kaboom",
+					"sp": 30
+				},
+				{
+					"move": "Flamesplitter",
+					"sp": 50
+				},
+				{
+					"move": "Earthsplitter",
+					"sp": 70
+				},
+				{
+					"move": "Blightsplitter",
+					"sp": 85
+				},
+				{
+					"move": "Kacraggle",
+					"sp": 100
+				},
+				{
+					"move": "Kafrizzle",
+					"sp": 120
+				},
+				{
+					"move": "Kazammle",
+					"sp": 150
+				},
+				{
+					"move": "Kaboomle",
+					"sp": 200
+				}
+			],
+			"category": "Combination"
+		},
+		"Polariser": {
+			"moves": [
+				{
+					"move": "Kaswoosh",
+					"sp": 10
+				},
+				{
+					"move": "Kazap",
+					"sp": 20
+				},
+				{
+					"move": "Kacrack",
+					"sp": 30
+				},
+				{
+					"move": "Skysplitter",
+					"sp": 50
+				},
+				{
+					"move": "Brightsplitter",
+					"sp": 70
+				},
+				{
+					"move": "Kasplashle",
+					"sp": 85
+				},
+				{
+					"move": "Kaswooshle",
+					"sp": 100
+				},
+				{
+					"move": "Kazapple",
+					"sp": 120
+				},
+				{
+					"move": "Kacrackle",
+					"sp": 150
+				},
+				{
+					"move": "Kasizzle",
+					"sp": 200
+				}
+			],
+			"category": "Combination"
+		},
+		"Perfect Speller": {
+			"moves": [
+				{
+					"move": "Kafrizzle",
+					"sp": 10
+				},
+				{
+					"move": "Kazapple",
+					"sp": 20
+				},
+				{
+					"move": "Kazammle",
+					"sp": 30
+				},
+				{
+					"move": "Kaswooshle",
+					"sp": 50
+				},
+				{
+					"move": "Kacrackle",
+					"sp": 70
+				},
+				{
+					"move": "Kaboomle",
+					"sp": 100
+				},
+				{
+					"move": "Kasizzle",
+					"sp": 120
+				},
+				{
+					"move": "Kasplashle",
+					"sp": 150
+				},
+				{
+					"move": "Kacraggle",
+					"sp": 200
+				}
+			],
+			"category": "Combination"
+		},
+		"Blow Hard": {
+			"moves": [
+				{
+					"move": "Sweet Breath",
+					"sp": 10
+				},
+				{
+					"move": "War Cry",
+					"sp": 20
+				},
+				{
+					"move": "Poison Breath",
+					"sp": 30
+				},
+				{
+					"move": "Blessed Breath",
+					"sp": 50
+				},
+				{
+					"move": "Black Breath",
+					"sp": 70
+				},
+				{
+					"move": "Deep Breath",
+					"sp": 85
+				},
+				{
+					"move": "Burning Breath",
+					"sp": 100
+				},
+				{
+					"move": "Sandy Sigh",
+					"sp": 120
+				},
+				{
+					"move": "Hellitosis",
+					"sp": 150
+				},
+				{
+					"move": "Ice Age",
+					"sp": 200
+				}
+			],
+			"category": "Combination"
+		},
+		"HP Booster I": {
+			"moves": [
+				{
+					"move": "Max. HP +4",
+					"sp": 5
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 50
+				},
+				{
+					"move": "Max. HP +12",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Max. HP +12",
+				"Max. HP +4",
+				"Max. HP +8"
+			],
+			"category": "Standard"
+		},
+		"HP Booster II": {
+			"moves": [
+				{
+					"move": "Max. HP +4",
+					"sp": 5
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 50
+				},
+				{
+					"move": "Max. HP +12",
+					"sp": 130
+				},
+				{
+					"move": "Max. HP +16",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Max. HP +12",
+				"Max. HP +16",
+				"Max. HP +4",
+				"Max. HP +8"
+			],
+			"category": "Evolution"
+		},
+		"HP Booster III": {
+			"moves": [
+				{
+					"move": "Max. HP +4",
+					"sp": 10
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 50
+				},
+				{
+					"move": "Max. HP +12",
+					"sp": 85
+				},
+				{
+					"move": "Max. HP +16",
+					"sp": 100
+				},
+				{
+					"move": "Max. HP +20",
+					"sp": 120
+				},
+				{
+					"move": "Max. HP +24",
+					"sp": 150
+				},
+				{
+					"move": "Auto-Restora",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Auto-Restora",
+				"Max. HP +12",
+				"Max. HP +16",
+				"Max. HP +20",
+				"Max. HP +24",
+				"Max. HP +4",
+				"Max. HP +8"
+			],
+			"category": "Evolution"
+		},
+		"HP Booster IV": {
+			"moves": [
+				{
+					"move": "Max. HP +2",
+					"sp": 10
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 20
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 30
+				},
+				{
+					"move": "Max. HP +12",
+					"sp": 50
+				},
+				{
+					"move": "Max. HP +16",
+					"sp": 70
+				},
+				{
+					"move": "Max. HP +20",
+					"sp": 85
+				},
+				{
+					"move": "Max. HP +24",
+					"sp": 100
+				},
+				{
+					"move": "Max. HP +30",
+					"sp": 120
+				},
+				{
+					"move": "Max. HP +36",
+					"sp": 150
+				},
+				{
+					"move": "Max. HP +48",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Max. HP +12",
+				"Max. HP +16",
+				"Max. HP +2",
+				"Max. HP +20",
+				"Max. HP +24",
+				"Max. HP +30",
+				"Max. HP +36",
+				"Max. HP +4",
+				"Max. HP +48",
+				"Max. HP +8"
+			],
+			"category": "Evolution"
+		},
+		"MP Booster I": {
+			"moves": [
+				{
+					"move": "Max. MP +4",
+					"sp": 5
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 20
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 85
+				},
+				{
+					"move": "Max. MP +24",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"Max. MP +16",
+				"Max. MP +24",
+				"Max. MP +4",
+				"Max. MP +8"
+			],
+			"category": "Standard"
+		},
+		"MP Booster II": {
+			"moves": [
+				{
+					"move": "Max. MP +4",
+					"sp": 5
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 30
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 75
+				},
+				{
+					"move": "Max. MP +24",
+					"sp": 160
+				},
+				{
+					"move": "Max. MP +32",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Max. MP +16",
+				"Max. MP +24",
+				"Max. MP +32",
+				"Max. MP +4",
+				"Max. MP +8"
+			],
+			"category": "Evolution"
+		},
+		"MP Booster III": {
+			"moves": [
+				{
+					"move": "Max. MP +4",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 30
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 50
+				},
+				{
+					"move": "Max. MP +24",
+					"sp": 85
+				},
+				{
+					"move": "Max. MP +32",
+					"sp": 100
+				},
+				{
+					"move": "Max. MP +40",
+					"sp": 120
+				},
+				{
+					"move": "Max. MP +48",
+					"sp": 150
+				},
+				{
+					"move": "Ultra Drain Blocker",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Max. MP +16",
+				"Max. MP +24",
+				"Max. MP +32",
+				"Max. MP +4",
+				"Max. MP +40",
+				"Max. MP +48",
+				"Max. MP +8",
+				"Ultra Drain Blocker"
+			],
+			"category": "Evolution"
+		},
+		"MP Booster IV": {
+			"moves": [
+				{
+					"move": "Max. MP +4",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 20
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 30
+				},
+				{
+					"move": "Max. MP +24",
+					"sp": 50
+				},
+				{
+					"move": "Max. MP +32",
+					"sp": 70
+				},
+				{
+					"move": "Max. MP +40",
+					"sp": 85
+				},
+				{
+					"move": "Max. MP +48",
+					"sp": 100
+				},
+				{
+					"move": "Max. MP +60",
+					"sp": 120
+				},
+				{
+					"move": "Max. MP +72",
+					"sp": 150
+				},
+				{
+					"move": "Max. MP +96",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Max. MP +16",
+				"Max. MP +24",
+				"Max. MP +32",
+				"Max. MP +4",
+				"Max. MP +40",
+				"Max. MP +48",
+				"Max. MP +60",
+				"Max. MP +72",
+				"Max. MP +8",
+				"Max. MP +96"
+			],
+			"category": "Evolution"
+		},
+		"Attack Booster I": {
+			"moves": [
+				{
+					"move": "Attack +4",
+					"sp": 5
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 10
+				},
+				{
+					"move": "Attack +8",
+					"sp": 20
+				},
+				{
+					"move": "Attack +12",
+					"sp": 85
+				}
+			],
+			"traits": [
+				"Attack +12",
+				"Attack +4",
+				"Attack +8",
+				"Max. HP +4"
+			],
+			"category": "Standard"
+		},
+		"Attack Booster II": {
+			"moves": [
+				{
+					"move": "Attack +4",
+					"sp": 5
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 15
+				},
+				{
+					"move": "Attack +8",
+					"sp": 30
+				},
+				{
+					"move": "Attack +12",
+					"sp": 130
+				},
+				{
+					"move": "Attack +16",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Attack +12",
+				"Attack +16",
+				"Attack +4",
+				"Attack +8",
+				"Max. HP +4"
+			],
+			"category": "Evolution"
+		},
+		"Attack Booster III": {
+			"moves": [
+				{
+					"move": "Attack +8",
+					"sp": 10
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 20
+				},
+				{
+					"move": "Attack +12",
+					"sp": 30
+				},
+				{
+					"move": "Attack +16",
+					"sp": 70
+				},
+				{
+					"move": "Attack +20",
+					"sp": 100
+				},
+				{
+					"move": "Attack +24",
+					"sp": 150
+				},
+				{
+					"move": "Ultra Tough Customer",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Attack +12",
+				"Attack +16",
+				"Attack +20",
+				"Attack +24",
+				"Attack +8",
+				"Max. HP +8",
+				"Ultra Tough Customer"
+			],
+			"category": "Evolution"
+		},
+		"Attack Booster IV": {
+			"moves": [
+				{
+					"move": "Attack +2",
+					"sp": 10
+				},
+				{
+					"move": "Attack +4",
+					"sp": 20
+				},
+				{
+					"move": "Attack +8",
+					"sp": 30
+				},
+				{
+					"move": "Attack +12",
+					"sp": 50
+				},
+				{
+					"move": "Attack +16",
+					"sp": 70
+				},
+				{
+					"move": "Attack +20",
+					"sp": 85
+				},
+				{
+					"move": "Attack +24",
+					"sp": 100
+				},
+				{
+					"move": "Attack +30",
+					"sp": 120
+				},
+				{
+					"move": "Attack +36",
+					"sp": 150
+				},
+				{
+					"move": "Attack +48",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Attack +12",
+				"Attack +16",
+				"Attack +2",
+				"Attack +20",
+				"Attack +24",
+				"Attack +30",
+				"Attack +36",
+				"Attack +4",
+				"Attack +48",
+				"Attack +8"
+			],
+			"category": "Evolution"
+		},
+		"Defence Booster I": {
+			"moves": [
+				{
+					"move": "Defence +4",
+					"sp": 5
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 10
+				},
+				{
+					"move": "Defence +8",
+					"sp": 20
+				},
+				{
+					"move": "Defence +12",
+					"sp": 50
+				},
+				{
+					"move": "Defence +24",
+					"sp": 85
+				}
+			],
+			"traits": [
+				"Defence +12",
+				"Defence +24",
+				"Defence +4",
+				"Defence +8",
+				"Max. HP +4"
+			],
+			"category": "Standard"
+		},
+		"Defence Booster II": {
+			"moves": [
+				{
+					"move": "Defence +8",
+					"sp": 5
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 15
+				},
+				{
+					"move": "Defence +12",
+					"sp": 30
+				},
+				{
+					"move": "Defence +24",
+					"sp": 130
+				},
+				{
+					"move": "Defence +32",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Defence +12",
+				"Defence +24",
+				"Defence +32",
+				"Defence +8",
+				"Max. HP +4"
+			],
+			"category": "Evolution"
+		},
+		"Defence Booster III": {
+			"moves": [
+				{
+					"move": "Defence +12",
+					"sp": 10
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 20
+				},
+				{
+					"move": "Defence +24",
+					"sp": 30
+				},
+				{
+					"move": "Defence +32",
+					"sp": 70
+				},
+				{
+					"move": "Defence +40",
+					"sp": 100
+				},
+				{
+					"move": "Defence +48",
+					"sp": 150
+				},
+				{
+					"move": "Ultra Tough Customer",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Defence +12",
+				"Defence +24",
+				"Defence +32",
+				"Defence +40",
+				"Defence +48",
+				"Max. HP +8",
+				"Ultra Tough Customer"
+			],
+			"category": "Evolution"
+		},
+		"Defence Booster IV": {
+			"moves": [
+				{
+					"move": "Defence +4",
+					"sp": 10
+				},
+				{
+					"move": "Defence +8",
+					"sp": 20
+				},
+				{
+					"move": "Defence +12",
+					"sp": 30
+				},
+				{
+					"move": "Defence +24",
+					"sp": 50
+				},
+				{
+					"move": "Defence +32",
+					"sp": 70
+				},
+				{
+					"move": "Defence +40",
+					"sp": 85
+				},
+				{
+					"move": "Defence +48",
+					"sp": 100
+				},
+				{
+					"move": "Defence +60",
+					"sp": 120
+				},
+				{
+					"move": "Defence +72",
+					"sp": 150
+				},
+				{
+					"move": "Defence +96",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Defence +12",
+				"Defence +24",
+				"Defence +32",
+				"Defence +4",
+				"Defence +40",
+				"Defence +48",
+				"Defence +60",
+				"Defence +72",
+				"Defence +8",
+				"Defence +96"
+			],
+			"category": "Evolution"
+		},
+		"Agility Booster I": {
+			"moves": [
+				{
+					"move": "Agility +4",
+					"sp": 5
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 10
+				},
+				{
+					"move": "Agility +8",
+					"sp": 20
+				},
+				{
+					"move": "Agility +12",
+					"sp": 85
+				}
+			],
+			"traits": [
+				"Agility +12",
+				"Agility +4",
+				"Agility +8",
+				"Max. HP +4"
+			],
+			"category": "Standard"
+		},
+		"Agility Booster II": {
+			"moves": [
+				{
+					"move": "Agility +4",
+					"sp": 5
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 15
+				},
+				{
+					"move": "Agility +8",
+					"sp": 30
+				},
+				{
+					"move": "Agility +12",
+					"sp": 130
+				},
+				{
+					"move": "Agility +16",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Agility +12",
+				"Agility +16",
+				"Agility +4",
+				"Agility +8",
+				"Max. HP +4"
+			],
+			"category": "Evolution"
+		},
+		"Agility Booster III": {
+			"moves": [
+				{
+					"move": "Agility +8",
+					"sp": 10
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 20
+				},
+				{
+					"move": "Agility +12",
+					"sp": 30
+				},
+				{
+					"move": "Agility +16",
+					"sp": 70
+				},
+				{
+					"move": "Agility +20",
+					"sp": 100
+				},
+				{
+					"move": "Agility +24",
+					"sp": 150
+				},
+				{
+					"move": "Ultra Tough Customer",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Agility +12",
+				"Agility +16",
+				"Agility +20",
+				"Agility +24",
+				"Agility +8",
+				"Max. HP +8",
+				"Ultra Tough Customer"
+			],
+			"category": "Evolution"
+		},
+		"Agility Booster IV": {
+			"moves": [
+				{
+					"move": "Agility +2",
+					"sp": 10
+				},
+				{
+					"move": "Agility +4",
+					"sp": 20
+				},
+				{
+					"move": "Agility +8",
+					"sp": 30
+				},
+				{
+					"move": "Agility +12",
+					"sp": 50
+				},
+				{
+					"move": "Agility +16",
+					"sp": 70
+				},
+				{
+					"move": "Agility +20",
+					"sp": 85
+				},
+				{
+					"move": "Agility +24",
+					"sp": 100
+				},
+				{
+					"move": "Agility +30",
+					"sp": 120
+				},
+				{
+					"move": "Agility +36",
+					"sp": 150
+				},
+				{
+					"move": "Agility +48",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Agility +12",
+				"Agility +16",
+				"Agility +2",
+				"Agility +20",
+				"Agility +24",
+				"Agility +30",
+				"Agility +36",
+				"Agility +4",
+				"Agility +48",
+				"Agility +8"
+			],
+			"category": "Evolution"
+		},
+		"Wisdom Booster I": {
+			"moves": [
+				{
+					"move": "Wisdom +4",
+					"sp": 5
+				},
+				{
+					"move": "Max. MP +4",
+					"sp": 10
+				},
+				{
+					"move": "Wisdom +8",
+					"sp": 20
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 50
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 70
+				},
+				{
+					"move": "Wisdom +24",
+					"sp": 85
+				}
+			],
+			"traits": [
+				"Max. MP +4",
+				"Max. MP +8",
+				"Wisdom +16",
+				"Wisdom +24",
+				"Wisdom +4",
+				"Wisdom +8"
+			],
+			"category": "Standard"
+		},
+		"Wisdom Booster II": {
+			"moves": [
+				{
+					"move": "Wisdom +8",
+					"sp": 5
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 15
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 30
+				},
+				{
+					"move": "Wisdom +24",
+					"sp": 130
+				},
+				{
+					"move": "Wisdom +32",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Max. MP +8",
+				"Wisdom +16",
+				"Wisdom +24",
+				"Wisdom +32",
+				"Wisdom +8"
+			],
+			"category": "Evolution"
+		},
+		"Wisdom Booster III": {
+			"moves": [
+				{
+					"move": "Wisdom +16",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 20
+				},
+				{
+					"move": "Wisdom +24",
+					"sp": 30
+				},
+				{
+					"move": "Wisdom +32",
+					"sp": 70
+				},
+				{
+					"move": "Wisdom +40",
+					"sp": 100
+				},
+				{
+					"move": "Wisdom +48",
+					"sp": 150
+				},
+				{
+					"move": "Ultra Tough Customer",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Max. MP +16",
+				"Ultra Tough Customer",
+				"Wisdom +16",
+				"Wisdom +24",
+				"Wisdom +32",
+				"Wisdom +40",
+				"Wisdom +48"
+			],
+			"category": "Evolution"
+		},
+		"Wisdom Booster IV": {
+			"moves": [
+				{
+					"move": "Wisdom +4",
+					"sp": 10
+				},
+				{
+					"move": "Wisdom +8",
+					"sp": 20
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 30
+				},
+				{
+					"move": "Wisdom +24",
+					"sp": 50
+				},
+				{
+					"move": "Wisdom +32",
+					"sp": 70
+				},
+				{
+					"move": "Wisdom +40",
+					"sp": 85
+				},
+				{
+					"move": "Wisdom +48",
+					"sp": 100
+				},
+				{
+					"move": "Wisdom +60",
+					"sp": 120
+				},
+				{
+					"move": "Wisdom +72",
+					"sp": 150
+				},
+				{
+					"move": "Wisdom +96",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Wisdom +16",
+				"Wisdom +24",
+				"Wisdom +32",
+				"Wisdom +4",
+				"Wisdom +40",
+				"Wisdom +48",
+				"Wisdom +60",
+				"Wisdom +72",
+				"Wisdom +8",
+				"Wisdom +96"
+			],
+			"category": "Evolution"
+		},
+		"Frizz Ward": {
+			"moves": [
+				{
+					"move": "Wisdom +16",
+					"sp": 5
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 40
+				},
+				{
+					"move": "Ultra Frizz Ward",
+					"sp": 60
+				},
+				{
+					"move": "Castslasher",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Castslasher",
+				"Max. HP +8",
+				"Max. MP +16",
+				"Ultra Frizz Ward",
+				"Wisdom +16"
+			],
+			"category": "Standard"
+		},
+		"Splish Ward": {
+			"moves": [
+				{
+					"move": "Wisdom +16",
+					"sp": 5
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 40
+				},
+				{
+					"move": "Ultra Splish Ward",
+					"sp": 60
+				},
+				{
+					"move": "Castslasher",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Castslasher",
+				"Max. HP +8",
+				"Max. MP +16",
+				"Ultra Splish Ward",
+				"Wisdom +16"
+			],
+			"category": "Standard"
+		},
+		"Woosh Guard": {
+			"moves": [
+				{
+					"move": "Wisdom +16",
+					"sp": 5
+				},
+				{
+					"move": "Agility +8",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 40
+				},
+				{
+					"move": "Ultra Whoosh Ward",
+					"sp": 60
+				},
+				{
+					"move": "Castslasher",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Agility +8",
+				"Castslasher",
+				"Max. MP +16",
+				"Ultra Whoosh Ward",
+				"Wisdom +16"
+			],
+			"category": "Standard"
+		},
+		"Crag Ward": {
+			"moves": [
+				{
+					"move": "Max. HP +8",
+					"sp": 5
+				},
+				{
+					"move": "Defence +12",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 20
+				},
+				{
+					"move": "Attack +8",
+					"sp": 40
+				},
+				{
+					"move": "Ultra Crag Ward",
+					"sp": 60
+				},
+				{
+					"move": "Castslasher",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Attack +8",
+				"Castslasher",
+				"Defence +12",
+				"Max. HP +8",
+				"Max. MP +16",
+				"Ultra Crag Ward"
+			],
+			"category": "Standard"
+		},
+		"Bang Ward": {
+			"moves": [
+				{
+					"move": "Wisdom +16",
+					"sp": 5
+				},
+				{
+					"move": "Attack +8",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 40
+				},
+				{
+					"move": "Ultra Bang Ward",
+					"sp": 60
+				},
+				{
+					"move": "Castslasher",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Attack +8",
+				"Castslasher",
+				"Max. MP +16",
+				"Ultra Bang Ward",
+				"Wisdom +16"
+			],
+			"category": "Standard"
+		},
+		"Crack Ward": {
+			"moves": [
+				{
+					"move": "Wisdom +16",
+					"sp": 5
+				},
+				{
+					"move": "Defence +12",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 40
+				},
+				{
+					"move": "Ultra Crack Ward",
+					"sp": 60
+				},
+				{
+					"move": "Castslasher",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Castslasher",
+				"Defence +12",
+				"Max. MP +16",
+				"Ultra Crack Ward",
+				"Wisdom +16"
+			],
+			"category": "Standard"
+		},
+		"Zap Ward": {
+			"moves": [
+				{
+					"move": "Wisdom +16",
+					"sp": 5
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 10
+				},
+				{
+					"move": "Ultra Zap Ward",
+					"sp": 60
+				},
+				{
+					"move": "Castslasher",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Castslasher",
+				"Max. MP +16",
+				"Ultra Zap Ward",
+				"Wisdom +16"
+			],
+			"category": "Standard"
+		},
+		"Sizz Ward": {
+			"moves": [
+				{
+					"move": "Wisdom +16",
+					"sp": 5
+				},
+				{
+					"move": "Agility +8",
+					"sp": 10
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 20
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 40
+				},
+				{
+					"move": "Ultra Sizz Ward",
+					"sp": 60
+				},
+				{
+					"move": "Castslasher",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Agility +8",
+				"Castslasher",
+				"Max. HP +8",
+				"Max. MP +16",
+				"Ultra Sizz Ward",
+				"Wisdom +16"
+			],
+			"category": "Standard"
+		},
+		"Zam Ward": {
+			"moves": [
+				{
+					"move": "Wisdom +16",
+					"sp": 5
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 10
+				},
+				{
+					"move": "Ultra Zam Ward",
+					"sp": 60
+				},
+				{
+					"move": "Castslasher",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Castslasher",
+				"Max. MP +16",
+				"Ultra Zam Ward",
+				"Wisdom +16"
+			],
+			"category": "Standard"
+		},
+		"Debilitation Ducker": {
+			"moves": [
+				{
+					"move": "Max. HP +8",
+					"sp": 5
+				},
+				{
+					"move": "Attack +8",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 20
+				},
+				{
+					"move": "Defence +12",
+					"sp": 40
+				},
+				{
+					"move": "Ultra Tough Customer",
+					"sp": 60
+				},
+				{
+					"move": "Auto-Cadabra",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Attack +8",
+				"Auto-Cadabra",
+				"Defence +12",
+				"Max. HP +8",
+				"Max. MP +16",
+				"Ultra Tough Customer"
+			],
+			"category": "Standard"
+		},
+		"Bedazzlement Blocker": {
+			"moves": [
+				{
+					"move": "Max. MP +16",
+					"sp": 5
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 10
+				},
+				{
+					"move": "Defence +12",
+					"sp": 20
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 40
+				},
+				{
+					"move": "Ultra Visionary",
+					"sp": 60
+				},
+				{
+					"move": "Attack +8",
+					"sp": 120
+				},
+				{
+					"move": "Auto-Cadabra",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Attack +8",
+				"Auto-Cadabra",
+				"Defence +12",
+				"Max. HP +8",
+				"Max. MP +16",
+				"Ultra Visionary",
+				"Wisdom +16"
+			],
+			"category": "Standard"
+		},
+		"Antimagic Avoider": {
+			"moves": [
+				{
+					"move": "Max. MP +16",
+					"sp": 5
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 10
+				},
+				{
+					"move": "Ultra Spellbinder",
+					"sp": 60
+				},
+				{
+					"move": "Auto-Cadabra",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Auto-Cadabra",
+				"Max. MP +16",
+				"Ultra Spellbinder",
+				"Wisdom +16"
+			],
+			"category": "Standard"
+		},
+		"Drain Dodger": {
+			"moves": [
+				{
+					"move": "Max. MP +16",
+					"sp": 5
+				},
+				{
+					"move": "Agility +8",
+					"sp": 10
+				},
+				{
+					"move": "Ultra Drain Blocker",
+					"sp": 60
+				},
+				{
+					"move": "Auto-Cadabra",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Agility +8",
+				"Auto-Cadabra",
+				"Max. MP +16",
+				"Ultra Drain Blocker"
+			],
+			"category": "Standard"
+		},
+		"Poison Preventer": {
+			"moves": [
+				{
+					"move": "Max. HP +8",
+					"sp": 5
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 10
+				},
+				{
+					"move": "Ultra Antioxidant",
+					"sp": 60
+				},
+				{
+					"move": "Auto-Restora",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Auto-Restora",
+				"Max. HP +8",
+				"Max. MP +16",
+				"Ultra Antioxidant"
+			],
+			"category": "Standard"
+		},
+		"Stun Stopper": {
+			"moves": [
+				{
+					"move": "Max. HP +8",
+					"sp": 5
+				},
+				{
+					"move": "Defence +12",
+					"sp": 10
+				},
+				{
+					"move": "Agility +8",
+					"sp": 20
+				},
+				{
+					"move": "Ultra Granite Chin",
+					"sp": 60
+				},
+				{
+					"move": "Auto-Restora",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Agility +8",
+				"Auto-Restora",
+				"Defence +12",
+				"Max. HP +8",
+				"Ultra Granite Chin"
+			],
+			"category": "Standard"
+		},
+		"Sleep Suppressor": {
+			"moves": [
+				{
+					"move": "Max. HP +8",
+					"sp": 5
+				},
+				{
+					"move": "Agility +8",
+					"sp": 10
+				},
+				{
+					"move": "Ultra Insomniac",
+					"sp": 60
+				},
+				{
+					"move": "Auto-Restora",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Agility +8",
+				"Auto-Restora",
+				"Max. HP +8",
+				"Ultra Insomniac"
+			],
+			"category": "Standard"
+		},
+		"Confusion Controller": {
+			"moves": [
+				{
+					"move": "Max. HP +8",
+					"sp": 5
+				},
+				{
+					"move": "Defence +12",
+					"sp": 10
+				},
+				{
+					"move": "Ultra Clear Thinker",
+					"sp": 60
+				},
+				{
+					"move": "Auto-Restora",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Auto-Restora",
+				"Defence +12",
+				"Max. HP +8",
+				"Ultra Clear Thinker"
+			],
+			"category": "Standard"
+		},
+		"Paralysis Protector": {
+			"moves": [
+				{
+					"move": "Max. HP +8",
+					"sp": 5
+				},
+				{
+					"move": "Defence +12",
+					"sp": 10
+				},
+				{
+					"move": "Agility +8",
+					"sp": 20
+				},
+				{
+					"move": "Ultra Fidget",
+					"sp": 60
+				},
+				{
+					"move": "Auto-Restora",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Agility +8",
+				"Auto-Restora",
+				"Defence +12",
+				"Max. HP +8",
+				"Ultra Fidget"
+			],
+			"category": "Standard"
+		},
+		"Death Defier": {
+			"moves": [
+				{
+					"move": "Max. HP +8",
+					"sp": 5
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 10
+				},
+				{
+					"move": "Ultra Death Defier",
+					"sp": 60
+				},
+				{
+					"move": "Auto-Restora",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"Auto-Restora",
+				"Max. HP +8",
+				"Max. MP +16",
+				"Ultra Death Defier"
+			],
+			"category": "Standard"
+		},
+		"Sparkling Warder": {
+			"moves": [
+				{
+					"move": "Ultra Drain Blocker",
+					"sp": 10
+				},
+				{
+					"move": "Ultra Frizz Ward",
+					"sp": 20
+				},
+				{
+					"move": "Ultra Antioxidant",
+					"sp": 30
+				},
+				{
+					"move": "Ultra Visionary",
+					"sp": 50
+				},
+				{
+					"move": "Ultra Zap Ward",
+					"sp": 75
+				},
+				{
+					"move": "Ultra Fidget",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Sizz Ward",
+					"sp": 150
+				},
+				{
+					"move": "Ultra Tough Customer",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Ultra Antioxidant",
+				"Ultra Drain Blocker",
+				"Ultra Fidget",
+				"Ultra Frizz Ward",
+				"Ultra Sizz Ward",
+				"Ultra Tough Customer",
+				"Ultra Visionary",
+				"Ultra Zap Ward"
+			],
+			"category": "Standard"
+		},
+		"Hard Warder": {
+			"moves": [
+				{
+					"move": "Ultra Drain Blocker",
+					"sp": 10
+				},
+				{
+					"move": "Ultra Splish Ward",
+					"sp": 20
+				},
+				{
+					"move": "Ultra Granite Chin",
+					"sp": 30
+				},
+				{
+					"move": "Ultra Visionary",
+					"sp": 50
+				},
+				{
+					"move": "Ultra Crag Ward",
+					"sp": 75
+				},
+				{
+					"move": "Ultra Clear Thinker",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Crack Ward",
+					"sp": 150
+				},
+				{
+					"move": "Ultra Spellbinder",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Ultra Clear Thinker",
+				"Ultra Crack Ward",
+				"Ultra Crag Ward",
+				"Ultra Drain Blocker",
+				"Ultra Granite Chin",
+				"Ultra Spellbinder",
+				"Ultra Splish Ward",
+				"Ultra Visionary"
+			],
+			"category": "Standard"
+		},
+		"Holy Warder": {
+			"moves": [
+				{
+					"move": "Ultra Drain Blocker",
+					"sp": 10
+				},
+				{
+					"move": "Ultra Antioxidant",
+					"sp": 20
+				},
+				{
+					"move": "Ultra Zam Ward",
+					"sp": 30
+				},
+				{
+					"move": "Ultra Death Defier",
+					"sp": 50
+				},
+				{
+					"move": "Ultra Bang Ward",
+					"sp": 75
+				},
+				{
+					"move": "Ultra Visionary",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Whoosh Ward",
+					"sp": 150
+				},
+				{
+					"move": "Ultra Insomniac",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Ultra Antioxidant",
+				"Ultra Bang Ward",
+				"Ultra Death Defier",
+				"Ultra Drain Blocker",
+				"Ultra Insomniac",
+				"Ultra Visionary",
+				"Ultra Whoosh Ward",
+				"Ultra Zam Ward"
+			],
+			"category": "Standard"
+		},
+		"Magma Shield": {
+			"moves": [
+				{
+					"move": "Max. HP +8",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 20
+				},
+				{
+					"move": "Max. HP +20",
+					"sp": 30
+				},
+				{
+					"move": "Max. MP +40",
+					"sp": 50
+				},
+				{
+					"move": "Max. HP +36",
+					"sp": 70
+				},
+				{
+					"move": "Max. MP +72",
+					"sp": 85
+				},
+				{
+					"move": "Ultra Tough Customer",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Visionary",
+					"sp": 120
+				},
+				{
+					"move": "Ultra Frizz Ward",
+					"sp": 150
+				},
+				{
+					"move": "Ultra Crag Ward",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Max. HP +20",
+				"Max. HP +36",
+				"Max. HP +8",
+				"Max. MP +16",
+				"Max. MP +40",
+				"Max. MP +72",
+				"Ultra Crag Ward",
+				"Ultra Frizz Ward",
+				"Ultra Tough Customer",
+				"Ultra Visionary"
+			],
+			"category": "Combination"
+		},
+		"Glacier Shield": {
+			"moves": [
+				{
+					"move": "Max. HP +8",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 20
+				},
+				{
+					"move": "Max. HP +20",
+					"sp": 30
+				},
+				{
+					"move": "Max. MP +40",
+					"sp": 50
+				},
+				{
+					"move": "Max. HP +36",
+					"sp": 70
+				},
+				{
+					"move": "Max. MP +72",
+					"sp": 85
+				},
+				{
+					"move": "Ultra Tough Customer",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Spellbinder",
+					"sp": 120
+				},
+				{
+					"move": "Ultra Crack Ward",
+					"sp": 150
+				},
+				{
+					"move": "Ultra Splish Ward",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Max. HP +20",
+				"Max. HP +36",
+				"Max. HP +8",
+				"Max. MP +16",
+				"Max. MP +40",
+				"Max. MP +72",
+				"Ultra Crack Ward",
+				"Ultra Spellbinder",
+				"Ultra Splish Ward",
+				"Ultra Tough Customer"
+			],
+			"category": "Combination"
+		},
+		"Cyclone Shield": {
+			"moves": [
+				{
+					"move": "Max. HP +8",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 20
+				},
+				{
+					"move": "Max. HP +20",
+					"sp": 30
+				},
+				{
+					"move": "Max. MP +40",
+					"sp": 50
+				},
+				{
+					"move": "Max. HP +36",
+					"sp": 70
+				},
+				{
+					"move": "Max. MP +72",
+					"sp": 85
+				},
+				{
+					"move": "Ultra Granite Chin",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Clear Thinker",
+					"sp": 120
+				},
+				{
+					"move": "Ultra Bang Ward",
+					"sp": 150
+				},
+				{
+					"move": "Ultra Whoosh Ward",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Max. HP +20",
+				"Max. HP +36",
+				"Max. HP +8",
+				"Max. MP +16",
+				"Max. MP +40",
+				"Max. MP +72",
+				"Ultra Bang Ward",
+				"Ultra Clear Thinker",
+				"Ultra Granite Chin",
+				"Ultra Whoosh Ward"
+			],
+			"category": "Combination"
+		},
+		"Chiaroscuro Shield": {
+			"moves": [
+				{
+					"move": "Max. HP +8",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 20
+				},
+				{
+					"move": "Max. HP +20",
+					"sp": 30
+				},
+				{
+					"move": "Max. MP +40",
+					"sp": 50
+				},
+				{
+					"move": "Max. HP +36",
+					"sp": 70
+				},
+				{
+					"move": "Max. MP +72",
+					"sp": 85
+				},
+				{
+					"move": "Ultra Drain Blocker",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Death Defier",
+					"sp": 120
+				},
+				{
+					"move": "Ultra Sizz Ward",
+					"sp": 150
+				},
+				{
+					"move": "Ultra Zam Ward",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Max. HP +20",
+				"Max. HP +36",
+				"Max. HP +8",
+				"Max. MP +16",
+				"Max. MP +40",
+				"Max. MP +72",
+				"Ultra Death Defier",
+				"Ultra Drain Blocker",
+				"Ultra Sizz Ward",
+				"Ultra Zam Ward"
+			],
+			"category": "Combination"
+		},
+		"Tremor Shield": {
+			"moves": [
+				{
+					"move": "Max. HP +8",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 20
+				},
+				{
+					"move": "Max. HP +20",
+					"sp": 30
+				},
+				{
+					"move": "Max. MP +40",
+					"sp": 50
+				},
+				{
+					"move": "Max. HP +36",
+					"sp": 70
+				},
+				{
+					"move": "Max. MP +72",
+					"sp": 85
+				},
+				{
+					"move": "Ultra Visionary",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Antioxidant",
+					"sp": 120
+				},
+				{
+					"move": "Ultra Crag Ward",
+					"sp": 150
+				},
+				{
+					"move": "Ultra Bang Ward",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Max. HP +20",
+				"Max. HP +36",
+				"Max. HP +8",
+				"Max. MP +16",
+				"Max. MP +40",
+				"Max. MP +72",
+				"Ultra Antioxidant",
+				"Ultra Bang Ward",
+				"Ultra Crag Ward",
+				"Ultra Visionary"
+			],
+			"category": "Combination"
+		},
+		"Fulgurite Shield": {
+			"moves": [
+				{
+					"move": "Max. HP +8",
+					"sp": 10
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 20
+				},
+				{
+					"move": "Max. HP +20",
+					"sp": 30
+				},
+				{
+					"move": "Max. MP +40",
+					"sp": 50
+				},
+				{
+					"move": "Max. HP +36",
+					"sp": 70
+				},
+				{
+					"move": "Max. MP +72",
+					"sp": 85
+				},
+				{
+					"move": "Ultra Spellbinder",
+					"sp": 100
+				},
+				{
+					"move": "Ultra Fidget",
+					"sp": 120
+				},
+				{
+					"move": "Ultra Zap Ward",
+					"sp": 150
+				},
+				{
+					"move": "Ultra Sizz Ward",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"Max. HP +20",
+				"Max. HP +36",
+				"Max. HP +8",
+				"Max. MP +16",
+				"Max. MP +40",
+				"Max. MP +72",
+				"Ultra Fidget",
+				"Ultra Sizz Ward",
+				"Ultra Spellbinder",
+				"Ultra Zap Ward"
+			],
+			"category": "Combination"
+		},
+		"Cheesy Grin": {
+			"moves": [
+				{
+					"move": "Heart Breaker",
+					"sp": 3
+				},
+				{
+					"move": "Whack",
+					"sp": 10
+				},
+				{
+					"move": "Fizzle",
+					"sp": 20
+				},
+				{
+					"move": "Kasnooze",
+					"sp": 30
+				},
+				{
+					"move": "Critical Meltdown",
+					"sp": 50
+				},
+				{
+					"move": "Thwack",
+					"sp": 70
+				},
+				{
+					"move": "Ultra Sizz Ward",
+					"sp": 85
+				},
+				{
+					"move": "Blessed Breath",
+					"sp": 100
+				},
+				{
+					"move": "Giga Drain Magic",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"Ultra Sizz Ward"
+			],
+			"category": "Exclusive"
+		},
+		"Taste Buddies": {
+			"moves": [
+				{
+					"move": "Heal",
+					"sp": 3
+				},
+				{
+					"move": "Sultry Dance",
+					"sp": 10
+				},
+				{
+					"move": "Buff",
+					"sp": 20
+				},
+				{
+					"move": "Insulate",
+					"sp": 30
+				},
+				{
+					"move": "Midheal",
+					"sp": 50
+				},
+				{
+					"move": "Oomph",
+					"sp": 70
+				},
+				{
+					"move": "Miracle Slash",
+					"sp": 85
+				},
+				{
+					"move": "Hustle Dance",
+					"sp": 100
+				}
+			],
+			"category": "Exclusive"
+		},
+		"Swirling Dervish": {
+			"moves": [
+				{
+					"move": "Mercurial Thrust",
+					"sp": 3
+				},
+				{
+					"move": "Woosh",
+					"sp": 10
+				},
+				{
+					"move": "Confusion Attack",
+					"sp": 20
+				},
+				{
+					"move": "Fuddle",
+					"sp": 30
+				},
+				{
+					"move": "Wind Sickles",
+					"sp": 50
+				},
+				{
+					"move": "Sweet Breath",
+					"sp": 70
+				},
+				{
+					"move": "Swoosh",
+					"sp": 85
+				},
+				{
+					"move": "Brake Wind",
+					"sp": 100
+				}
+			],
+			"category": "Exclusive"
+		}
+	}
+}

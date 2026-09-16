@@ -9,9 +9,11 @@ import useTranslate from '@/hooks/useTranslate';
 import { TrailContext } from '@/context/trail';
 import Egg from './Egg';
 import Icon from '../Icon';
+import Described from '../Described';
 import MonsterDetailsModal from './MonsterDetailsModal';
 import { DetailsContext } from '@/context/details';
-import { areasNames } from '@/consts/data';
+import { areasNames, seasonsIcons, weathersIcons } from '@/consts/data';
+import { StringObject } from '@/types/Ui';
 import { Spawn } from '@/types/MonsterDetails';
 import { ReserveContext } from '@/context/reserve';
 
@@ -141,9 +143,11 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 			</td>
 			<td className="cell-skill">
 				{skillName ?
-					<span title={(isFr && skillTerm?.desc?.fr) || skillTerm?.desc?.en}>
+					<Described
+						text={(isFr && skillTerm?.desc?.fr) || skillTerm?.desc?.en}
+					>
 						{skillName}
-					</span>
+					</Described>
 				:	<span className="cell-empty">&mdash;</span>}
 			</td>
 			<td className="cell-synthesis">
@@ -225,11 +229,55 @@ const TIME_LABELS: { [time: string]: string } = {
 const SpawnChip = ({ spawn }: { spawn: Spawn }) => {
 	const { translateUI } = useTranslate();
 	const area = areasNames[spawn.area] || spawn.area;
-	const when = translateUI(TIME_LABELS[spawn.time]);
+	const when = [
+		...(spawn.time ? [TIME_LABELS[spawn.time]] : []),
+		...(spawn.seasons || []),
+		...(spawn.weathers || []),
+	].map(value => translateUI(value));
 	return (
-		<span className="spawn-chip" title={`${area} · ${when}`}>
-			<Icon name={TIME_ICONS[spawn.time]} />
-			<span className="chip-label">{area}</span>
+		<span className="spawn-chip" title={[area, ...when].join(' · ')}>
+			<span className="spawn-area">
+				{!!spawn.time && (
+					<Icon
+						name={TIME_ICONS[spawn.time]}
+						title={translateUI(TIME_LABELS[spawn.time])}
+					/>
+				)}
+				<span className="chip-label">{area}</span>
+			</span>
+			<SpawnWhen
+				label={translateUI('Season')}
+				values={spawn.seasons}
+				icons={seasonsIcons}
+			/>
+			<SpawnWhen
+				label={translateUI('Weather')}
+				values={spawn.weathers}
+				icons={weathersIcons}
+			/>
+		</span>
+	);
+};
+
+const SpawnWhen = ({
+	label,
+	values,
+	icons,
+}: {
+	label: string;
+	values?: string[];
+	icons: StringObject;
+}) => {
+	const { translateUI } = useTranslate();
+	if (!values?.length) return null;
+	return (
+		<span className="spawn-when">
+			<span className="spawn-when-label">{label}&nbsp;:</span>
+			{values.map(value => {
+				const icon = icons[value];
+				if (!icon) return null;
+				return <Icon key={value} name={icon} title={translateUI(value)} />;
+			})}
 		</span>
 	);
 };

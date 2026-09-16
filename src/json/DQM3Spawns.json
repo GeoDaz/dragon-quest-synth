@@ -1,0 +1,1252 @@
+{
+	"Slime": [
+		{
+			"area": "Terrestria : Plains"
+		}
+	],
+	"Goonache Goodie": [
+		{
+			"area": "Circle of Indulgence : Lower Echelon",
+			"weathers": ["Clear"]
+		}
+	],
+	"Scallop Slime": [
+		{
+			"area": "Circle of Caprice : Lower Echelon"
+		}
+	],
+	"Wing Slime": [
+		{
+			"area": "Terrestria : Plains",
+			"seasons": ["Spring", "Summer", "Autumn"],
+			"weathers": ["Rain"]
+		}
+	],
+	"Bubble Slime": [
+		{
+			"area": "Circle of Conquest : Lower Echelon",
+			"seasons": ["Summer"],
+			"weathers": ["Rain"]
+		}
+	],
+	"Healslime": [
+		{
+			"area": "Circle of Temper : Lower Echelon"
+		}
+	],
+	"Snowmangler": [
+		{
+			"area": "Circle of Indulgence : Lower Echelon",
+			"seasons": ["Winter"]
+		}
+	],
+	"Snail Slime": [
+		{
+			"area": "Circle of Caprice : Lower Echelon",
+			"seasons": ["Winter"]
+		}
+	],
+	"Slime Stack": [
+		{
+			"area": "Circle of Fortitude : Lower Echelon",
+			"seasons": ["Autumn"],
+			"weathers": ["Clear", "Lightning"]
+		}
+	],
+	"Slime Knight": [
+		{
+			"area": "Circle of Fortitude : Lower Echelon"
+		}
+	],
+	"She-Slime": [
+		{
+			"area": "Circle of Temper : Lower Echelon",
+			"weathers": ["Clear"]
+		}
+	],
+	"Drake Slime": [
+		{
+			"area": "Circle of Temper : Middle Echelon"
+		}
+	],
+	"Angel Slime": [
+		{
+			"area": "Circle of Indulgence : Upper Echelon",
+			"seasons": ["Summer"],
+			"weathers": ["Clear", "Candy Rain"]
+		}
+	],
+	"Sugarstar Slime": [
+		{
+			"area": "Circle of Caprice : Middle Echelon",
+			"seasons": ["Winter"],
+			"weathers": ["Star Shower"]
+		}
+	],
+	"Rubble Slime": [
+		{
+			"area": "Circle of Temper : Middle Echelon"
+		}
+	],
+	"Spiny Slime": [
+		{
+			"area": "Circle of Fortitude : Middle Echelon",
+			"seasons": ["Winter"],
+			"weathers": ["Clear", "Smog"]
+		}
+	],
+	"Dark Slime": [
+		{
+			"area": "Circle of Fortitude : Middle Echelon",
+			"seasons": ["Spring", "Summer", "Winter"],
+			"weathers": ["Smog"]
+		}
+	],
+	"Metal Slime": [
+		{
+			"area": "Circle of Fortitude : Middle Echelon"
+		}
+	],
+	"Dragon Slime": [
+		{
+			"area": "Circle of Caprice : Middle Echelon",
+			"seasons": ["Winter"]
+		}
+	],
+	"Scuttle Slime": [
+		{
+			"area": "Circle of Temper : Upper Echelon",
+			"seasons": ["Spring", "Summer", "Autumn"],
+			"weathers": ["Lava Shower"]
+		}
+	],
+	"Cococoa Blobelisk": [
+		{
+			"area": "Circle of Indulgence : Middle Echelon",
+			"weathers": ["Clear"]
+		}
+	],
+	"King Bubble Slime": [
+		{
+			"area": "Circle of Conquest : Middle Echelon",
+			"seasons": ["Summer"],
+			"weathers": ["Acid Rain"]
+		}
+	],
+	"Cureslime": [
+		{
+			"area": "Circle of Temper : Upper Echelon",
+			"seasons": ["Spring"],
+			"weathers": ["Clear", "Lava Shower"]
+		}
+	],
+	"Beshemoth Slime": [
+		{
+			"area": "Circle of Indulgence : Middle Echelon",
+			"seasons": ["Autumn"],
+			"weathers": ["Clear", "Spooky Night"]
+		}
+	],
+	"Pasty Pastry": [
+		{
+			"area": "Circle of Indulgence : Upper Echelon",
+			"weathers": ["Clear"]
+		}
+	],
+	"Flutter Slime": [
+		{
+			"area": "Circle of Indulgence : Upper Echelon",
+			"weathers": ["Clear"]
+		}
+	],
+	"Crème Caraslime": [
+		{
+			"area": "Circle of Indulgence : Upper Echelon",
+			"seasons": ["Spring", "Summer", "Winter"],
+			"weathers": ["Candy Rain"]
+		}
+	],
+	"Cyber Slime": [
+		{
+			"area": "Circle of Fortitude : Upper Echelon"
+		}
+	],
+	"Liquid Metal Slime": [
+		{
+			"area": "Circle of Temper : Upper Echelon"
+		}
+	],
+	"King Slick Slime": [
+		{
+			"area": "Circle of Indulgence : Upper Echelon"
+		}
+	],
+	"Goomulonimbus": [
+		{
+			"area": "Circle of Caprice : Upper Echelon"
+		}
+	],
+	"Metal King Slime": [
+		{
+			"area": "Circle of Temper : Upper Echelon"
+		}
+	],
+	"Dragonthorn": [
+		{
+			"area": "Terrestria : Plains",
+			"seasons": ["Summer"]
+		}
+	],
+	"Komodo": [
+		{
+			"area": "Terrestria : Plains",
+			"weathers": ["Clear", "Snow"]
+		}
+	],
+	"Airbagon": [
+		{
+			"area": "Circle of Temper : Lower Echelon",
+			"seasons": ["Summer"],
+			"weathers": ["Clear", "Lava Shower"]
+		}
+	],
+	"Vegandragora": [
+		{
+			"area": "Terrestria : Plains"
+		}
+	],
+	"Damselfly": [
+		{
+			"area": "Circle of Conquest : Lower Echelon",
+			"weathers": ["Clear"]
+		}
+	],
+	"Armoured Wartoise": [
+		{
+			"area": "Circle of Fortitude : Lower Echelon",
+			"seasons": ["Autumn"],
+			"weathers": ["Lightning"]
+		}
+	],
+	"Croc-A-Bugle-Doo": [
+		{
+			"area": "Circle of Indulgence : Lower Echelon / Hotcake Heap"
+		}
+	],
+	"Briny Bronco": [
+		{
+			"area": "Circle of Caprice : Lower Echelon"
+		}
+	],
+	"Drakularge": [
+		{
+			"area": "Circle of Caprice : Middle Echelon",
+			"seasons": ["Autumn"],
+			"weathers": ["Clear", "Sandstorm"]
+		}
+	],
+	"Cauldragon": [
+		{
+			"area": "Circle of Caprice : Lower Echelon"
+		}
+	],
+	"Green Dragon": [
+		{
+			"area": "Circle of Temper : Lower Echelon"
+		}
+	],
+	"Gasbagon": [
+		{
+			"area": "Circle of Temper : Middle Echelon / Sepulchre of Flame"
+		}
+	],
+	"Lumbering Lizard": [
+		{
+			"area": "Circle of Conquest : Lower Echelon"
+		}
+	],
+	"Mandrake Major": [
+		{
+			"area": "Circle of Fortitude : Middle Echelon / Fort Nox"
+		}
+	],
+	"Dragon Rider": [
+		{
+			"area": "Cradle of Corruption : Upper Level"
+		}
+	],
+	"Wyrtoise": [
+		{
+			"area": "Circle of Temper : Upper Echelon",
+			"seasons": ["Winter"],
+			"weathers": ["Clear", "Blizzard"]
+		}
+	],
+	"Flapdragon": [
+		{
+			"area": "Circle of Conquest : Upper Echelon / Conqueror's Keep"
+		}
+	],
+	"Noble Gasbagon": [
+		{
+			"area": "Circle of Indulgence : Upper Echelon"
+		}
+	],
+	"Heligator": [
+		{
+			"area": "Circle of Caprice : Upper Echelon",
+			"seasons": ["Spring"]
+		}
+	],
+	"Stark Raven": [
+		{
+			"area": "Circle of Temper : Lower Echelon",
+			"seasons": ["Winter"],
+			"weathers": ["Blizzard"]
+		}
+	],
+	"Bantamweight": [
+		{
+			"area": "Terrestria : Plains"
+		}
+	],
+	"Killerpillar": [
+		{
+			"area": "Terrestria : Plains",
+			"seasons": ["Spring"]
+		}
+	],
+	"Capsichum": [
+		{
+			"area": "Terrestria : Plains",
+			"seasons": ["Autumn"]
+		}
+	],
+	"Mad Mollusk": [
+		{
+			"area": "Circle of Conquest : Lower Echelon"
+		}
+	],
+	"Woebergine": [
+		{
+			"area": "Terrestria : Plains",
+			"seasons": ["Autumn"]
+		}
+	],
+	"Khalamari Kid": [
+		{
+			"area": "Terrestria : Plains",
+			"seasons": ["Winter"],
+			"weathers": ["Clear", "Snow"]
+		}
+	],
+	"Toady": [
+		{
+			"area": "Circle of Temper : Lower Echelon",
+			"seasons": ["Autumn"],
+			"weathers": ["Clear", "Lava Shower"]
+		}
+	],
+	"Cyclown": [
+		{
+			"area": "Circle of Temper : Lower Echelon",
+			"seasons": ["Spring"],
+			"weathers": ["Clear", "Lava Shower"]
+		}
+	],
+	"Garuda": [
+		{
+			"area": "Circle of Caprice : Lower Echelon",
+			"seasons": ["Autumn"]
+		}
+	],
+	"Odd Cob": [
+		{
+			"area": "Circle of Indulgence : Lower Echelon / Hotcake Heap"
+		}
+	],
+	"Cactiball": [
+		{
+			"area": "Circle of Caprice : Middle Echelon"
+		}
+	],
+	"Pogoin' Penguin": [
+		{
+			"area": "Circle of Temper : Middle Echelon",
+			"seasons": ["Winter"],
+			"weathers": ["Blizzard"]
+		}
+	],
+	"Bagworm": [
+		{
+			"area": "Circle of Indulgence : Lower Echelon",
+			"seasons": ["Autumn"],
+			"weathers": ["Clear", "Spooky Night"]
+		}
+	],
+	"Leafy Larrikin": [
+		{
+			"area": "Circle of Caprice : Lower Echelon",
+			"seasons": ["Autumn"]
+		}
+	],
+	"Puffpoise": [
+		{
+			"area": "Circle of Caprice : Middle Echelon",
+			"seasons": ["Autumn", "Winter"]
+		}
+	],
+	"Crabid": [
+		{
+			"area": "Circle of Temper : Middle Echelon",
+			"weathers": ["Clear"]
+		}
+	],
+	"Awebergine": [
+		{
+			"area": "Circle of Temper : Middle Echelon",
+			"seasons": ["Autumn"],
+			"weathers": ["Clear", "Lava Shower"]
+		}
+	],
+	"Spinchilla": [
+		{
+			"area": "Circle of Caprice : Middle Echelon",
+			"weathers": ["Sandstorm"]
+		}
+	],
+	"Zaptile": [
+		{
+			"area": "Circle of Conquest : Middle Echelon"
+		}
+	],
+	"Mangleclaw": [
+		{
+			"area": "Circle of Indulgence : Upper Echelon",
+			"seasons": ["Winter"],
+			"weathers": ["Clear", "Candy Rain"]
+		}
+	],
+	"Carnivine": [
+		{
+			"area": "Circle of Conquest : Middle Echelon"
+		}
+	],
+	"Grillerpillar": [
+		{
+			"area": "Circle of Temper : Upper Echelon"
+		}
+	],
+	"Tufty Tot": [
+		{
+			"area": "Circle of Conquest : Upper Echelon"
+		}
+	],
+	"Armoured Scorpion": [
+		{
+			"area": "Circle of Caprice : Middle Echelon"
+		}
+	],
+	"Crabber Dabber Doo": [
+		{
+			"area": "Circle of Conquest : Upper Echelon",
+			"seasons": ["Summer"],
+			"weathers": ["Clear", "Acid Rain"]
+		}
+	],
+	"Overtoad": [
+		{
+			"area": "Circle of Temper : Upper Echelon",
+			"seasons": ["Autumn"],
+			"weathers": ["Clear", "Lava Shower"]
+		}
+	],
+	"Roistering Rooster": [
+		{
+			"area": "Circle of Indulgence : Middle Echelon",
+			"seasons": ["Spring"]
+		}
+	],
+	"Cosmic Chimaera": [
+		{
+			"area": "Circle of Conquest : Upper Echelon",
+			"weathers": ["Clear"]
+		}
+	],
+	"Firebird": [
+		{
+			"area": "Circle of Caprice : Upper Echelon",
+			"seasons": ["Summer"]
+		}
+	],
+	"Fowl Beast": [
+		{
+			"area": "Circle of Conquest : Upper Echelon"
+		}
+	],
+	"Baleen Mage": [
+		{
+			"area": "Circle of Caprice : Upper Echelon"
+		}
+	],
+	"Snowbird": [
+		{
+			"area": "Circle of Caprice : Upper Echelon",
+			"seasons": ["Winter"]
+		}
+	],
+	"Antguzzler": [
+		{
+			"area": "Terrestria : Plains",
+			"seasons": ["Winter"],
+			"weathers": ["Clear", "Snow"]
+		}
+	],
+	"Mischievous Mole": [
+		{
+			"area": "Terrestria : Plains"
+		}
+	],
+	"Bunicorn": [
+		{
+			"area": "Terrestria : Plains",
+			"weathers": ["Clear", "Snow"]
+		}
+	],
+	"Candy Cat": [
+		{
+			"area": "Circle of Indulgence : Lower Echelon",
+			"seasons": ["Spring"],
+			"weathers": ["Clear", "Candy Rain"]
+		}
+	],
+	"Sham Hatwitch": [
+		{
+			"area": "Circle of Caprice : Lower Echelon",
+			"seasons": ["Spring"]
+		}
+	],
+	"Feralball": [
+		{
+			"area": "Terrestria : Plains",
+			"seasons": ["Spring"]
+		}
+	],
+	"Great Sabrecub": [
+		{
+			"area": "Circle of Caprice : Lower Echelon"
+		}
+	],
+	"Mouseflap": [
+		{
+			"area": "Circle of Indulgence : Lower Echelon",
+			"seasons": ["Summer"]
+		}
+	],
+	"Guaardvark": [
+		{
+			"area": "Circle of Temper : Middle Echelon"
+		}
+	],
+	"Jumping Jackal": [
+		{
+			"area": "Circle of Fortitude : Upper Echelon",
+			"seasons": ["Spring"],
+			"weathers": ["Clear", "Smog"]
+		}
+	],
+	"Ursa Major": [
+		{
+			"area": "Circle of Conquest : Middle Echelon",
+			"seasons": ["Spring", "Winter"],
+			"weathers": ["Clear", "Blood Moon"]
+		}
+	],
+	"Dark Sabrecub": [
+		{
+			"area": "Circle of Conquest : Middle Echelon"
+		}
+	],
+	"Splatypunk": [
+		{
+			"area": "Circle of Caprice : Middle Echelon",
+			"weathers": ["Clear"]
+		}
+	],
+	"Brownie": [
+		{
+			"area": "Circle of Temper : Upper Echelon",
+			"weathers": ["Clear"]
+		}
+	],
+	"Jailcat": [
+		{
+			"area": "Circle of Temper : Middle Echelon / Sepulchre of Flame"
+		}
+	],
+	"Missing Lynx": [
+		{
+			"area": "Circle of Temper : Middle Echelon"
+		}
+	],
+	"Gargoyle": [
+		{
+			"area": "Circle of Fortitude : Upper Echelon",
+			"seasons": ["Summer"],
+			"weathers": ["Clear", "Smog"]
+		}
+	],
+	"Sweaty Yeti": [
+		{
+			"area": "Circle of Caprice : Middle Echelon",
+			"seasons": ["Spring"],
+			"weathers": ["Clear", "Sandstorm"]
+		}
+	],
+	"Calypso King": [
+		{
+			"area": "Circle of Indulgence : Middle Echelon",
+			"seasons": ["Summer"],
+			"weathers": ["Clear", "Candy Rain"]
+		}
+	],
+	"Cheater Cheetah": [
+		{
+			"area": "Cradle of Corruption : Upper Level"
+		}
+	],
+	"Orc King": [
+		{
+			"area": "Circle of Fortitude : Upper Echelon",
+			"seasons": ["Winter"],
+			"weathers": ["Clear", "Smog"]
+		}
+	],
+	"Maniacal Mole": [
+		{
+			"area": "Circle of Fortitude : Upper Echelon",
+			"seasons": ["Summer"],
+			"weathers": ["Clear", "Smog"]
+		}
+	],
+	"Greater Platypunk": [
+		{
+			"area": "Circle of Indulgence : Upper Echelon"
+		}
+	],
+	"Dark Hare": [
+		{
+			"area": "Circle of Indulgence : Upper Echelon",
+			"seasons": ["Spring"],
+			"weathers": ["Clear", "Candy Rain"]
+		}
+	],
+	"Gnumesis": [
+		{
+			"area": "Circle of Conquest : Middle Echelon"
+		}
+	],
+	"Dark Sabrecat": [
+		{
+			"area": "Circle of Conquest : Upper Echelon"
+		}
+	],
+	"Mogus": [
+		{
+			"area": "Circle of Conquest : Upper Echelon / Conqueror's Keep"
+		}
+	],
+	"Abominable Showman": [
+		{
+			"area": "Circle of Caprice : Upper Echelon",
+			"weathers": ["Star Shower"]
+		}
+	],
+	"Mohawker": [
+		{
+			"area": "Circle of Caprice : Upper Echelon / Aamon's Sanctum"
+		}
+	],
+	"Tantamount": [
+		{
+			"area": "Circle of Conquest : Upper Echelon",
+			"seasons": ["Spring"],
+			"weathers": ["Clear", "Blood Moon"]
+		}
+	],
+	"Ronin Raccoon": [
+		{
+			"area": "The Whispwoods"
+		}
+	],
+	"Eggsoskeleton": [
+		{
+			"area": "Circle of Fortitude : Lower Echelon",
+			"weathers": ["Smog"]
+		}
+	],
+	"Cumaulus": [
+		{
+			"area": "Circle of Fortitude : Lower Echelon",
+			"seasons": ["Spring", "Summer", "Winter"],
+			"weathers": ["Smog"]
+		}
+	],
+	"Bambooligan": [
+		{
+			"area": "Circle of Fortitude : Middle Echelon",
+			"seasons": ["Spring"],
+			"weathers": ["Clear", "Smog"]
+		}
+	],
+	"Sacksquatch": [
+		{
+			"area": "Circle of Fortitude : Lower Echelon",
+			"seasons": ["Autumn", "Winter"]
+		}
+	],
+	"Fromage Fray": [
+		{
+			"area": "Circle of Indulgence : Lower Echelon",
+			"seasons": ["Spring", "Summer", "Winter"],
+			"weathers": ["Candy Rain"]
+		}
+	],
+	"Mecha-Mynah": [
+		{
+			"area": "Circle of Fortitude : Lower Echelon"
+		}
+	],
+	"Lampling": [
+		{
+			"area": "Circle of Temper : Lower Echelon"
+		}
+	],
+	"Foo Dog": [
+		{
+			"area": "Circle of Temper : Lower Echelon",
+			"seasons": ["Winter"],
+			"weathers": ["Clear", "Blizzard"]
+		}
+	],
+	"Disfigurine": [
+		{
+			"area": "Circle of Caprice : Lower Echelon",
+			"seasons": ["Spring"]
+		}
+	],
+	"Bongo Drongo": [
+		{
+			"area": "Circle of Temper : Lower Echelon"
+		}
+	],
+	"Erazor Blade": [
+		{
+			"area": "Circle of Fortitude : Middle Echelon",
+			"seasons": ["Spring"],
+			"weathers": ["Clear", "Smog"]
+		}
+	],
+	"Cannibox": [
+		{
+			"area": "Circle of Indulgence : Lower Echelon / Hotcake Heap"
+		}
+	],
+	"Pocus Poppet": [
+		{
+			"area": "Cradle of Corruption : Lower Level"
+		}
+	],
+	"Clockwork Cuckoo": [
+		{
+			"area": "Circle of Fortitude : Middle Echelon",
+			"weathers": ["Clear"]
+		}
+	],
+	"Brollygagger": [
+		{
+			"area": "Circle of Fortitude : Middle Echelon",
+			"seasons": ["Autumn"],
+			"weathers": ["Lightning"]
+		}
+	],
+	"Fromage Fey": [
+		{
+			"area": "Circle of Fortitude : Upper Echelon",
+			"seasons": ["Spring", "Summer", "Winter"],
+			"weathers": ["Smog"]
+		}
+	],
+	"Harmour": [
+		{
+			"area": "Circle of Fortitude : Lower Echelon"
+		}
+	],
+	"Rockbomb": [
+		{
+			"area": "Circle of Temper : Middle Echelon"
+		}
+	],
+	"Hell Niño": [
+		{
+			"area": "Circle of Temper : Middle Echelon",
+			"seasons": ["Spring", "Summer", "Autumn"],
+			"weathers": ["Lava Shower"]
+		}
+	],
+	"Freezing Fog": [
+		{
+			"area": "Circle of Caprice : Middle Echelon",
+			"seasons": ["Winter"],
+			"weathers": ["Clear", "Candy Rain"]
+		}
+	],
+	"Abracadabrador": [
+		{
+			"area": "Circle of Indulgence : Middle Echelon",
+			"seasons": ["Spring"],
+			"weathers": ["Clear", "Candy Rain"]
+		}
+	],
+	"Stone Golem": [
+		{
+			"area": "Circle of Caprice : Middle Echelon"
+		}
+	],
+	"Shivery Shrubbery": [
+		{
+			"area": "Circle of Indulgence : Middle Echelon",
+			"seasons": ["Winter"],
+			"weathers": ["Clear", "Candy Rain"]
+		}
+	],
+	"Saccharine Sacksquatch": [
+		{
+			"area": "Circle of Indulgence : Middle Echelon",
+			"seasons": ["Autumn"],
+			"weathers": ["Clear", "Spooky Night"]
+		}
+	],
+	"Firn Fiend": [
+		{
+			"area": "Circle of Temper : Upper Echelon",
+			"seasons": ["Winter"],
+			"weathers": ["Blizzard"]
+		}
+	],
+	"Bag O' Tricks": [
+		{
+			"area": "Circle of Indulgence : Middle Echelon"
+		}
+	],
+	"Dancing Flame": [
+		{
+			"area": "Circle of Temper : Upper Echelon",
+			"seasons": ["Summer"],
+			"weathers": ["Clear", "Lava Shower"]
+		}
+	],
+	"Living Statue": [
+		{
+			"area": "Circle of Caprice : Upper Echelon"
+		}
+	],
+	"Graven Idol": [
+		{
+			"area": "Circle of Conquest : Upper Echelon / Conqueror's Keep"
+		}
+	],
+	"Flying Saucers": [
+		{
+			"area": "Circle of Indulgence : Upper Echelon / Battenburg"
+		}
+	],
+	"Mimic": [
+		{
+			"area": "Circle of Temper : Upper Echelon / Dragonspate"
+		}
+	],
+	"Face Invader": [
+		{
+			"area": "Circle of Fortitude : Upper Echelon",
+			"seasons": ["Autumn"],
+			"weathers": ["Lightning"]
+		}
+	],
+	"Admirer": [
+		{
+			"area": "Circle of Conquest : Upper Echelon",
+			"seasons": ["Summer"],
+			"weathers": ["Acid Rain"]
+		}
+	],
+	"Gremlin": [
+		{
+			"area": "Circle of Indulgence : Lower Echelon / Hotcake Heap"
+		}
+	],
+	"Leery Lout": [
+		{
+			"area": "Circle of Conquest : Lower Echelon",
+			"seasons": ["Spring"],
+			"weathers": ["Clear", "Blood Moon"]
+		}
+	],
+	"Dracky": [
+		{
+			"area": "Terrestria : Plains"
+		}
+	],
+	"Lunatick": [
+		{
+			"area": "Circle of Conquest : Lower Echelon",
+			"seasons": ["Autumn"],
+			"weathers": ["Clear", "Blood Moon"]
+		}
+	],
+	"Teeny Sanguini": [
+		{
+			"area": "Terrestria : Plains",
+			"seasons": ["Winter"],
+			"weathers": ["Snow"]
+		}
+	],
+	"Lips": [
+		{
+			"area": "Circle of Conquest : Lower Echelon"
+		}
+	],
+	"Succubat": [
+		{
+			"area": "Cradle of Corruption : Lower Level"
+		}
+	],
+	"See Urchin": [
+		{
+			"area": "Circle of Caprice : Lower Echelon",
+			"weathers": ["Star Shower"]
+		}
+	],
+	"Imp": [
+		{
+			"area": "Circle of Indulgence : Middle Echelon / Desserted Dungeon"
+		}
+	],
+	"Cannonbrawler": [
+		{
+			"area": "Circle of Fortitude : Lower Echelon"
+		}
+	],
+	"Lump Shaman": [
+		{
+			"area": "Circle of Temper : Middle Echelon",
+			"seasons": ["Winter"],
+			"weathers": ["Clear", "Blizzard"]
+		}
+	],
+	"Cyclops": [
+		{
+			"area": "Terrestria : Plains"
+		}
+	],
+	"Hooper Trooper": [
+		{
+			"area": "Circle of Temper : Middle Echelon",
+			"seasons": ["Spring"],
+			"weathers": ["Clear", "Lava Shower"]
+		}
+	],
+	"Sugar Baddie": [
+		{
+			"area": "Circle of Indulgence : Middle Echelon",
+			"seasons": ["Spring", "Summer", "Winter"],
+			"weathers": ["Candy Rain"]
+		}
+	],
+	"Peeper": [
+		{
+			"area": "Circle of Fortitude : Upper Echelon",
+			"seasons": ["Autumn"],
+			"weathers": ["Clear", "Lightning"]
+		}
+	],
+	"Bodkin Fletcher": [
+		{
+			"area": "Circle of Conquest : Middle Echelon / Grimglow Cave"
+		}
+	],
+	"Jinkster": [
+		{
+			"area": "Circle of Fortitude : Middle Echelon",
+			"seasons": ["Autumn"],
+			"weathers": ["Clear", "Lightning"]
+		}
+	],
+	"Beleth": [
+		{
+			"area": "Circle of Fortitude : Middle Echelon"
+		}
+	],
+	"Drackolyte": [
+		{
+			"area": "Circle of Indulgence : Middle Echelon / Desserted Dungeon"
+		}
+	],
+	"Hypothermion": [
+		{
+			"area": "Circle of Caprice : Middle Echelon / House of Shifting Sands"
+		}
+	],
+	"Kisser": [
+		{
+			"area": "Circle of Conquest : Middle Echelon"
+		}
+	],
+	"Sculptrice": [
+		{
+			"area": "Circle of Conquest : Middle Echelon",
+			"seasons": ["Winter"],
+			"weathers": ["Clear", "Blood Moon"]
+		}
+	],
+	"Knight Errant": [
+		{
+			"area": "Circle of Fortitude : Middle Echelon"
+		}
+	],
+	"Grim Keeper": [
+		{
+			"area": "Circle of Fortitude : Upper Echelon / Barbatos's Bastion"
+		}
+	],
+	"Sintaur": [
+		{
+			"area": "Circle of Caprice : Upper Echelon"
+		}
+	],
+	"Togre": [
+		{
+			"area": "Cradle of Corruption : Middle Level"
+		}
+	],
+	"Goobonce": [
+		{
+			"area": "Circle of Indulgence : Upper Echelon / Battenburg"
+		}
+	],
+	"Bloodbonnet": [
+		{
+			"area": "Circle of Indulgence : Upper Echelon / Battenburg"
+		}
+	],
+	"Archdemon": [
+		{
+			"area": "Circle of Conquest : Upper Echelon / Conqueror's Keep"
+		}
+	],
+	"Hocus-Poker": [
+		{
+			"area": "Circle of Conquest : Upper Echelon / Conqueror's Keep"
+		}
+	],
+	"Stout Troll": [
+		{
+			"area": "Circle of Temper : Upper Echelon"
+		}
+	],
+	"Putrefido": [
+		{
+			"area": "Circle of Conquest : Lower Echelon",
+			"seasons": ["Winter"],
+			"weathers": ["Clear", "Blood Moon"]
+		}
+	],
+	"Funghoul": [
+		{
+			"area": "Circle of Conquest : Lower Echelon"
+		}
+	],
+	"Skeleton": [
+		{
+			"area": "Circle of Conquest : Lower Echelon",
+			"seasons": ["Spring", "Autumn", "Winter"],
+			"weathers": ["Blood Moon"]
+		}
+	],
+	"Stump Chump": [
+		{
+			"area": "Terrestria : Plains",
+			"seasons": ["Summer"]
+		}
+	],
+	"Ghost": [
+		{
+			"area": "Circle of Conquest : Lower Echelon",
+			"seasons": ["Summer"],
+			"weathers": ["Clear", "Acid Rain"]
+		}
+	],
+	"Skipper": [
+		{
+			"area": "Circle of Fortitude : Lower Echelon",
+			"seasons": ["Autumn"],
+			"weathers": ["Clear", "Lightning"]
+		}
+	],
+	"Soft Serve Spook": [
+		{
+			"area": "Circle of Indulgence : Lower Echelon",
+			"seasons": ["Autumn"],
+			"weathers": ["Spooky Night"]
+		}
+	],
+	"Firespirit": [
+		{
+			"area": "Circle of Temper : Lower Echelon",
+			"seasons": ["Spring", "Summer", "Autumn"],
+			"weathers": ["Lava Shower"]
+		}
+	],
+	"Restless Armour": [
+		{
+			"area": "Circle of Fortitude : Lower Echelon"
+		}
+	],
+	"Shadow": [
+		{
+			"area": "Circle of Temper : Lower Echelon",
+			"seasons": ["Summer"],
+			"weathers": ["Clear", "Lava Shower"]
+		}
+	],
+	"Monolog": [
+		{
+			"area": "Circle of Conquest : Middle Echelon",
+			"seasons": ["Autumn"],
+			"weathers": ["Clear", "Blood Moon"]
+		}
+	],
+	"Mummy Boy": [
+		{
+			"area": "Circle of Caprice : Middle Echelon / House of Shifting Sands"
+		}
+	],
+	"Hellbound Horror": [
+		{
+			"area": "Circle of Fortitude : Lower Echelon",
+			"seasons": ["Summer"],
+			"weathers": ["Clear", "Smog"]
+		}
+	],
+	"Grinferno": [
+		{
+			"area": "Circle of Conquest : Middle Echelon",
+			"seasons": ["Summer"],
+			"weathers": ["Clear", "Acid Rain"]
+		}
+	],
+	"Dead Resident": [
+		{
+			"area": "Circle of Conquest : Middle Echelon",
+			"seasons": ["Spring", "Autumn", "Winter"],
+			"weathers": ["Blood Moon"]
+		}
+	],
+	"Chocolate Whisp": [
+		{
+			"area": "Circle of Indulgence : Upper Echelon",
+			"seasons": ["Autumn"],
+			"weathers": ["Spooky Night"]
+		}
+	],
+	"Frolicker": [
+		{
+			"area": "Circle of Temper : Middle Echelon / Zealot's Chamber"
+		}
+	],
+	"Phantom Fencer": [
+		{
+			"area": "Cradle of Corruption : Lower Level"
+		}
+	],
+	"Morphean Mushroom": [
+		{
+			"area": "Circle of Conquest : Middle Echelon",
+			"seasons": ["Spring", "Autumn", "Winter"],
+			"weathers": ["Blood Moon"]
+		}
+	],
+	"Iron Maiden": [
+		{
+			"area": "Circle of Indulgence : Lower Echelon"
+		}
+	],
+	"Soulspawn": [
+		{
+			"area": "Circle of Caprice : Middle Echelon",
+			"seasons": ["Winter"],
+			"weathers": ["Star Shower"]
+		}
+	],
+	"Skeleton Swordsman": [
+		{
+			"area": "Circle of Temper : Upper Echelon / Dragonspate"
+		}
+	],
+	"Night Sneaker": [
+		{
+			"area": "Circle of Indulgence : Middle Echelon",
+			"seasons": ["Autumn"],
+			"weathers": ["Spooky Night"]
+		}
+	],
+	"Corpsickle": [
+		{
+			"area": "Circle of Temper : Upper Echelon",
+			"seasons": ["Spring"],
+			"weathers": ["Clear", "Lava Shower"]
+		}
+	],
+	"Grim Rider": [
+		{
+			"area": "Circle of Caprice : Middle Echelon",
+			"weathers": ["Clear", "Sandstorm", "Star Shower"]
+		}
+	],
+	"Bone Idol": [
+		{
+			"area": "Circle of Temper : Upper Echelon",
+			"seasons": ["Autumn"],
+			"weathers": ["Clear", "Lava Shower"]
+		}
+	],
+	"Sekerleton": [
+		{
+			"area": "Circle of Conquest : Upper Echelon",
+			"seasons": ["Spring", "Autumn", "Winter"],
+			"weathers": ["Blood Moon"]
+		}
+	],
+	"Dullahan": [
+		{
+			"area": "Circle of Conquest : Upper Echelon / Conqueror's Keep"
+		}
+	],
+	"Skellyfish": [
+		{
+			"area": "Circle of Caprice : Upper Echelon",
+			"seasons": ["Summer"]
+		}
+	],
+	"Skelegon": [
+		{
+			"area": "Circle of Caprice : Upper Echelon",
+			"weathers": ["Clear"]
+		}
+	],
+	"Hellspawn": [
+		{
+			"area": "Circle of Conquest : Upper Echelon / Conqueror's Keep"
+		}
+	]
+}
