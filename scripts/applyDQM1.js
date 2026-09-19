@@ -34,7 +34,7 @@ const supp = {
 	'Baramos Zombie': 'Bones Of Baramos',
 	'King Godwyn II': 'King Godwyn Second Forme',
 	Syphon: 'Siphon',
-	"Robbin' Hood": "Robbin' 'Ood",
+	"Robbin' 'Ood": "Robbin' 'Ood",
 	Estarkers: 'Starkers',
 	'Elder Pippit': 'Elder Pipit',
 	'Mortamor II': 'Mortamor Intermediate Forme',

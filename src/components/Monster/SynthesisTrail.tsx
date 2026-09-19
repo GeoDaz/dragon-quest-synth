@@ -10,12 +10,15 @@ import AnchorLink from '../AnchorLink';
 import Icon from '../Icon';
 import LineGrid from '../Line/LineGrid';
 import Family from './Family';
+import Lower from './Lower';
 import MonsterImg from './MonsterImg';
 
 const TRAIL_ZOOM = 50;
 const RENDER_HEIGHT = 6;
 
 const familyName = (name: string) => name.replace(' Family', '');
+
+const LOWER_IMAGE = '/images/lower.svg';
 
 const familyImage = (name: string) => {
 	const icon = familiesIcons[familyName(name)];
@@ -32,7 +35,7 @@ interface Placed {
 
 const capped = (node: TrailNode, left: number): TrailNode =>
 	left <= 0 || !node.parents?.length ?
-		{ name: node.name, rank: node.rank, plus: node.plus }
+		{ name: node.name, rank: node.rank, plus: node.plus, lower: node.lower }
 	:	{ ...node, parents: node.parents.map(parent => capped(parent, left - 1)) };
 
 const buildTrailLine = (trees: TrailNode[]): Line => {
@@ -82,7 +85,10 @@ const buildTrailLine = (trees: TrailNode[]): Line => {
 		Array.from({ length: rows }, () => null)
 	);
 	placed.forEach(({ node, col, row, xSize, from }) => {
-		const image = isFamily(node.name) ? familyImage(node.name) : undefined;
+		const image =
+			node.lower ? LOWER_IMAGE
+			: isFamily(node.name) ? familyImage(node.name)
+			: undefined;
 		columns[col][row] = {
 			name: node.name,
 			from,
@@ -216,6 +222,19 @@ const TrailTile = ({
 	onPick: (name: string) => void;
 }) => {
 	const { translateMonster, translateUI } = useTranslate();
+
+	if (node.lower) {
+		return (
+			<span
+				className="trail-step-link lower-step"
+				title={translateUI('Lower monster')}
+			>
+				<Lower described={false} />
+				<span className="trail-step-name">{translateUI('Lower')}</span>
+				{!!node.plus && <span className="line-point-plus">+{node.plus}</span>}
+			</span>
+		);
+	}
 
 	if (isFamily(node.name)) {
 		const family = familyName(node.name);

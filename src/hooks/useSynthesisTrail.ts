@@ -5,9 +5,12 @@ export interface TrailNode {
 	name: string;
 	rank?: string;
 	plus?: string;
+	lower?: boolean;
 	parents?: TrailNode[];
 }
 
+export const LOWER = 'Lower';
+export const isLower = (token: string) => token == LOWER;
 export const isFamily = (token: string) => token.includes('Family');
 const isRank = (token: string) => token.includes('Rank');
 const isPlus = (token: string) => token.startsWith('Plus ');
@@ -25,7 +28,9 @@ const recipeParents = (recipe: string[]): TrailNode[] => {
 	return recipe
 		.filter(token => !isCondition(token))
 		.map(token =>
-			isFamily(token) ? { name: token, rank, plus } : { name: token, plus }
+			isLower(token) ? { name: token, lower: true, plus }
+			: isFamily(token) ? { name: token, rank, plus }
+			: { name: token, plus }
 		);
 };
 

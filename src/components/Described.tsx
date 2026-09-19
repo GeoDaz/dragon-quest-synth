@@ -15,7 +15,7 @@ const Described: React.FC<Props> = ({ text, className, children }) => {
 	}
 	return (
 		<OverlayTrigger
-			placement="top"
+			placement="bottom"
 			container={bodyContainer}
 			overlay={
 				<Popover className="described-popover">

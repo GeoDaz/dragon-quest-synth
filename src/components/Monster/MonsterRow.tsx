@@ -1,6 +1,8 @@
 import Family from './Family';
 import Rank from './Rank';
+import Lower from './Lower';
 import MonsterImg from './MonsterImg';
+import { LOWER } from '@/hooks/useSynthesisTrail';
 import { makeClassName } from '@/functions';
 import { Monster as MonsterInterface } from '@/types/Monster';
 import AnchorLink from '../AnchorLink';
@@ -22,6 +24,7 @@ interface Parent {
 	family?: string;
 	rank?: string;
 	plus?: string;
+	lower?: boolean;
 }
 const isCondition = (token: string) =>
 	token.includes('Rank') || token.startsWith('Plus ');
@@ -38,7 +41,8 @@ const parseRecipe = (list: string[]): Parent[] => {
 	return list
 		.filter(token => !isCondition(token))
 		.map(token =>
-			token.includes('Family') ?
+			token == LOWER ? { lower: true, plus }
+			: token.includes('Family') ?
 				{ family: token.replace(' Family', ''), rank, plus }
 			:	{ name: token, plus }
 		);
@@ -146,12 +150,12 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 			</td>
 			{hasDetails && (
 				<td className="cell-skill">
-				{skillName ?
-					<Described
-						text={(isFr && skillTerm?.desc?.fr) || skillTerm?.desc?.en}
-					>
-						{skillName}
-					</Described>
+					{skillName ?
+						<Described
+							text={(isFr && skillTerm?.desc?.fr) || skillTerm?.desc?.en}
+						>
+							{skillName}
+						</Described>
 					:	<span className="cell-empty">&mdash;</span>}
 				</td>
 			)}
@@ -303,6 +307,15 @@ const ParentChip = ({
 	// the whole recipe is grafted, so a family chip walks the trail too
 	const onNavigate = walkFrom && (() => walkFrom(child, recipe));
 
+	if (parent.lower) {
+		return (
+			<span className="parent-lower">
+				<Lower />
+				{!!parent.plus && <PlusBadge plus={parent.plus} />}
+			</span>
+		);
+	}
+
 	// Family parents keep a chip, but the icon already names the family: only the
 	// required rank is spelled out. Without a rank there is nothing left to label.
 	if (parent.family) {
@@ -319,9 +332,8 @@ const ParentChip = ({
 				onNavigate={onNavigate}
 			>
 				<Family name={parent.family} />
-				<span className="chip-label">{rank}</span>
-				{!!parent.plus && <PlusBadge plus={parent.plus} />}
 				<span className="sr-only">{family}</span>
+				<span className="chip-label">{rank}</span>
 			</AnchorLink>
 		);
 	}
