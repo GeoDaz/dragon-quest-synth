@@ -1709,6 +1709,7 @@ h3,
 /* Chip: only what still carries a label (family + required rank, egg). No
    padding besides the right one, so its height is the icon's own height. */
 .synthesis-table .parent-chip {
+  position: relative;
   display: inline-flex;
   align-items: center;
   gap: 7px;
