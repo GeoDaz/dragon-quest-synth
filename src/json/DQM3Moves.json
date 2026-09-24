@@ -6,7 +6,12 @@
 			"power": 2,
 			"desc": {
 				"en": "Inflicts minor fire-elemental spell damage on a single enemy."
-			}
+			},
+			"mp": 2,
+			"target": "Single Enemy",
+			"elements": [
+				"fire"
+			]
 		},
 		"Frizzle": {
 			"attribute": "Spell",
@@ -14,7 +19,12 @@
 			"power": 5,
 			"desc": {
 				"en": "Inflicts medium fire-elemental spell damage on a single enemy."
-			}
+			},
+			"mp": 5,
+			"target": "Single Enemy",
+			"elements": [
+				"fire"
+			]
 		},
 		"Kafrizz": {
 			"attribute": "Spell",
@@ -22,7 +32,12 @@
 			"power": 12,
 			"desc": {
 				"en": "Inflicts major fire-elemental spell damage on a single enemy."
-			}
+			},
+			"mp": 12,
+			"target": "Single Enemy",
+			"elements": [
+				"fire"
+			]
 		},
 		"Kafrizzle": {
 			"attribute": "Spell",
@@ -30,7 +45,12 @@
 			"power": 32,
 			"desc": {
 				"en": "Inflicts extreme fire-elemental spell damage on a single enemy."
-			}
+			},
+			"mp": 32,
+			"target": "Single Enemy",
+			"elements": [
+				"fire"
+			]
 		},
 		"Splish": {
 			"attribute": "Spell",
@@ -38,7 +58,12 @@
 			"power": 2,
 			"desc": {
 				"en": "Inflicts minor water-elemental spell damage on a single enemy."
-			}
+			},
+			"mp": 2,
+			"target": "Single Enemy",
+			"elements": [
+				"water"
+			]
 		},
 		"Splash": {
 			"attribute": "Spell",
@@ -46,7 +71,12 @@
 			"power": 5,
 			"desc": {
 				"en": "Inflicts medium water-elemental spell damage on a single enemy."
-			}
+			},
+			"mp": 5,
+			"target": "Single Enemy",
+			"elements": [
+				"water"
+			]
 		},
 		"Kasplash": {
 			"attribute": "Spell",
@@ -54,7 +84,12 @@
 			"power": 11,
 			"desc": {
 				"en": "Inflicts major water-elemental spell damage on a single enemy."
-			}
+			},
+			"mp": 11,
+			"target": "Single Enemy",
+			"elements": [
+				"water"
+			]
 		},
 		"Kasplashle": {
 			"attribute": "Spell",
@@ -62,7 +97,12 @@
 			"power": 29,
 			"desc": {
 				"en": "Inflicts extreme water-elemental spell damage on a single enemy."
-			}
+			},
+			"mp": 29,
+			"target": "Single Enemy",
+			"elements": [
+				"water"
+			]
 		},
 		"Woosh": {
 			"attribute": "Spell",
@@ -70,7 +110,12 @@
 			"power": 4,
 			"desc": {
 				"en": "Inflicts minor wind-elemental spell damage on all enemies."
-			}
+			},
+			"mp": 4,
+			"target": "All Enemies",
+			"elements": [
+				"wind"
+			]
 		},
 		"Swoosh": {
 			"attribute": "Spell",
@@ -78,7 +123,12 @@
 			"power": 11,
 			"desc": {
 				"en": "Inflicts medium wind-elemental spell damage on all enemies."
-			}
+			},
+			"mp": 11,
+			"target": "All Enemies",
+			"elements": [
+				"wind"
+			]
 		},
 		"Kaswoosh": {
 			"attribute": "Spell",
@@ -86,7 +136,12 @@
 			"power": 22,
 			"desc": {
 				"en": "Inflicts major wind-elemental spell damage on all enemies."
-			}
+			},
+			"mp": 22,
+			"target": "All Enemies",
+			"elements": [
+				"wind"
+			]
 		},
 		"Kaswooshle": {
 			"attribute": "Spell",
@@ -94,7 +149,12 @@
 			"power": 54,
 			"desc": {
 				"en": "Inflicts extreme wind-elemental spell damage on all enemies."
-			}
+			},
+			"mp": 54,
+			"target": "All Enemies",
+			"elements": [
+				"wind"
+			]
 		},
 		"Crag": {
 			"attribute": "Spell",
@@ -102,7 +162,12 @@
 			"power": 5,
 			"desc": {
 				"en": "Inflicts minor earth-elemental spell damage on all enemies, but not until the following round."
-			}
+			},
+			"mp": 5,
+			"target": "All Enemies",
+			"elements": [
+				"earth"
+			]
 		},
 		"Craggle": {
 			"attribute": "Spell",
@@ -110,7 +175,12 @@
 			"power": 12,
 			"desc": {
 				"en": "Inflicts medium earth-elemental spell damage on all enemies, but not until the following round."
-			}
+			},
+			"mp": 12,
+			"target": "All Enemies",
+			"elements": [
+				"earth"
+			]
 		},
 		"Kacrag": {
 			"attribute": "Spell",
@@ -118,7 +188,12 @@
 			"power": 23,
 			"desc": {
 				"en": "Inflicts major earth-elemental spell damange on all enemies, but not until the following round."
-			}
+			},
+			"mp": 23,
+			"target": "All Enemies",
+			"elements": [
+				"earth"
+			]
 		},
 		"Kacraggle": {
 			"attribute": "Spell",
@@ -126,7 +201,12 @@
 			"power": 58,
 			"desc": {
 				"en": "Inflicts extreme earth-elemental spell damange on all enemies, but not until the following round."
-			}
+			},
+			"mp": 58,
+			"target": "All Enemies",
+			"elements": [
+				"earth"
+			]
 		},
 		"Bang": {
 			"attribute": "Spell",
@@ -134,7 +214,12 @@
 			"power": 5,
 			"desc": {
 				"en": "Inflicts minor explosive spell damage on all enemies."
-			}
+			},
+			"mp": 5,
+			"target": "All Enemies",
+			"elements": [
+				"explosion"
+			]
 		},
 		"Boom": {
 			"attribute": "Spell",
@@ -142,7 +227,12 @@
 			"power": 12,
 			"desc": {
 				"en": "Inflicts medium explosive spell damage on all enemies."
-			}
+			},
+			"mp": 12,
+			"target": "All Enemies",
+			"elements": [
+				"explosion"
+			]
 		},
 		"Kaboom": {
 			"attribute": "Spell",
@@ -150,7 +240,12 @@
 			"power": 24,
 			"desc": {
 				"en": "Inflicts major explosive spell damage on all enemies."
-			}
+			},
+			"mp": 24,
+			"target": "All Enemies",
+			"elements": [
+				"explosion"
+			]
 		},
 		"Kaboomle": {
 			"attribute": "Spell",
@@ -158,7 +253,12 @@
 			"power": 60,
 			"desc": {
 				"en": "Inflicts extreme explosive spell damage on all enemies."
-			}
+			},
+			"mp": 60,
+			"target": "All Enemies",
+			"elements": [
+				"explosion"
+			]
 		},
 		"Crack": {
 			"attribute": "Spell",
@@ -166,7 +266,12 @@
 			"power": 3,
 			"desc": {
 				"en": "Inflicts minor ice-elemental spell damage on a single enemy."
-			}
+			},
+			"mp": 3,
+			"target": "Single Enemy",
+			"elements": [
+				"freeze"
+			]
 		},
 		"Crackle": {
 			"attribute": "Spell",
@@ -174,7 +279,12 @@
 			"power": 12,
 			"desc": {
 				"en": "Inflicts medium ice-elemental spell damage on all enemies."
-			}
+			},
+			"mp": 12,
+			"target": "All Enemies",
+			"elements": [
+				"freeze"
+			]
 		},
 		"Kacrack": {
 			"attribute": "Spell",
@@ -182,7 +292,12 @@
 			"power": 22,
 			"desc": {
 				"en": "Inflicts major ice-elemental spell damage on all enemies."
-			}
+			},
+			"mp": 22,
+			"target": "All Enemies",
+			"elements": [
+				"freeze"
+			]
 		},
 		"Kacrackle": {
 			"attribute": "Spell",
@@ -190,7 +305,12 @@
 			"power": 58,
 			"desc": {
 				"en": "Inflicts extreme ice-elemental spell damage on all enemies."
-			}
+			},
+			"mp": 58,
+			"target": "All Enemies",
+			"elements": [
+				"freeze"
+			]
 		},
 		"Zap": {
 			"attribute": "Spell",
@@ -198,7 +318,12 @@
 			"power": 2,
 			"desc": {
 				"en": "Inflicts minor electrical spell damage on a single enemy."
-			}
+			},
+			"mp": 2,
+			"target": "Single Enemy",
+			"elements": [
+				"thunder"
+			]
 		},
 		"Zapple": {
 			"attribute": "Spell",
@@ -206,7 +331,12 @@
 			"power": 13,
 			"desc": {
 				"en": "Inflicts medium electrical spell damage on all enemies."
-			}
+			},
+			"mp": 13,
+			"target": "All Enemies",
+			"elements": [
+				"thunder"
+			]
 		},
 		"Kazap": {
 			"attribute": "Spell",
@@ -214,7 +344,12 @@
 			"power": 23,
 			"desc": {
 				"en": "Inflicts major electrical damage on all enemies."
-			}
+			},
+			"mp": 23,
+			"target": "All Enemies",
+			"elements": [
+				"thunder"
+			]
 		},
 		"Kazapple": {
 			"attribute": "Spell",
@@ -222,7 +357,12 @@
 			"power": 61,
 			"desc": {
 				"en": "Inflicts extreme electrical spell damage on all enemies."
-			}
+			},
+			"mp": 61,
+			"target": "All Enemies",
+			"elements": [
+				"thunder"
+			]
 		},
 		"Sizz": {
 			"attribute": "Spell",
@@ -230,7 +370,12 @@
 			"power": 4,
 			"desc": {
 				"en": "Inflicts minor light-elemental spell damage on all enemies."
-			}
+			},
+			"mp": 4,
+			"target": "All Enemies",
+			"elements": [
+				"light"
+			]
 		},
 		"Sizzle": {
 			"attribute": "Spell",
@@ -238,7 +383,12 @@
 			"power": 11,
 			"desc": {
 				"en": "Inflicts medium light-elemental spell damage on all enemies."
-			}
+			},
+			"mp": 11,
+			"target": "All Enemies",
+			"elements": [
+				"light"
+			]
 		},
 		"Kasizz": {
 			"attribute": "Spell",
@@ -246,7 +396,12 @@
 			"power": 22,
 			"desc": {
 				"en": "Inflicts major light-elemental spell damage on all enemies."
-			}
+			},
+			"mp": 22,
+			"target": "All Enemies",
+			"elements": [
+				"light"
+			]
 		},
 		"Kasizzle": {
 			"attribute": "Spell",
@@ -254,7 +409,12 @@
 			"power": 54,
 			"desc": {
 				"en": "Inflicts extreme light-elemental spell damage on all enemies."
-			}
+			},
+			"mp": 54,
+			"target": "All Enemies",
+			"elements": [
+				"light"
+			]
 		},
 		"Zam": {
 			"attribute": "Spell",
@@ -262,7 +422,12 @@
 			"power": 3,
 			"desc": {
 				"en": "Inflicts minor dark-elemental spell damage on a single enemy."
-			}
+			},
+			"mp": 3,
+			"target": "Single Enemy",
+			"elements": [
+				"darkness"
+			]
 		},
 		"Zammle": {
 			"attribute": "Spell",
@@ -270,7 +435,12 @@
 			"power": 6,
 			"desc": {
 				"en": "Inflicts medium dark-elemental spell damage on a single enemy."
-			}
+			},
+			"mp": 6,
+			"target": "Single Enemy",
+			"elements": [
+				"darkness"
+			]
 		},
 		"Kazam": {
 			"attribute": "Spell",
@@ -278,7 +448,12 @@
 			"power": 10,
 			"desc": {
 				"en": "Inflicts major dark-elemental spell damage on a single enemy."
-			}
+			},
+			"mp": 10,
+			"target": "Single Enemy",
+			"elements": [
+				"darkness"
+			]
 		},
 		"Kazammle": {
 			"attribute": "Spell",
@@ -286,7 +461,12 @@
 			"power": 30,
 			"desc": {
 				"en": "Inflicts extreme dark-elemental spell damage on a single enemy."
-			}
+			},
+			"mp": 30,
+			"target": "Single Enemy",
+			"elements": [
+				"darkness"
+			]
 		},
 		"Pearly Gates": {
 			"attribute": "Spell",
@@ -294,7 +474,12 @@
 			"power": 60,
 			"desc": {
 				"en": "Inflicts extreme light-elemental spell damage on all enemies. Highly effecetive against monsters in the undead family."
-			}
+			},
+			"mp": 60,
+			"target": "All Enemies",
+			"elements": [
+				"light"
+			]
 		},
 		"Magic Pop": {
 			"attribute": "Spell",
@@ -302,7 +487,13 @@
 			"power": null,
 			"desc": {
 				"en": "Uses 1/4 of remaining MP to inflict light-elemental damage on a single enemy, for a weaker rendition of a more extreme spell. The more MP the monster has at the time of casting, the greater the damage will be."
-			}
+			},
+			"mp": 25,
+			"mpType": "percentage",
+			"target": "Single Enemy",
+			"elements": [
+				"light"
+			]
 		},
 		"Magic Burst": {
 			"attribute": "Spell",
@@ -310,7 +501,13 @@
 			"power": null,
 			"desc": {
 				"en": "Uses all remaining MP to inflict extreme light-elemental damage on all enemies. The more MP the monster has at the time of casting, the greater the damage will be."
-			}
+			},
+			"mp": 100,
+			"mpType": "percentage",
+			"target": "All Enemies",
+			"elements": [
+				"light"
+			]
 		},
 		"Heal": {
 			"attribute": "Spell",
@@ -318,7 +515,9 @@
 			"power": 3,
 			"desc": {
 				"en": "Restores 28 or more HP to a single ally."
-			}
+			},
+			"mp": 3,
+			"target": "Single Ally"
 		},
 		"Midheal": {
 			"attribute": "Spell",
@@ -326,7 +525,9 @@
 			"power": 8,
 			"desc": {
 				"en": "Restores 76 or more HP to a single ally."
-			}
+			},
+			"mp": 8,
+			"target": "Single Ally"
 		},
 		"Moreheal": {
 			"attribute": "Spell",
@@ -334,7 +535,9 @@
 			"power": 40,
 			"desc": {
 				"en": "Restores 285 or more HP to a single ally."
-			}
+			},
+			"mp": 40,
+			"target": "Single Ally"
 		},
 		"Multiheal": {
 			"attribute": "Spell",
@@ -342,7 +545,9 @@
 			"power": 26,
 			"desc": {
 				"en": "Restores 76 or more HP to all allies."
-			}
+			},
+			"mp": 26,
+			"target": "All Allies"
 		},
 		"Omniheal": {
 			"attribute": "Spell",
@@ -350,7 +555,9 @@
 			"power": 80,
 			"desc": {
 				"en": "Restores 237 or more HP to all allies."
-			}
+			},
+			"mp": 80,
+			"target": "All Allies"
 		},
 		"Zing": {
 			"attribute": "Spell",
@@ -358,7 +565,9 @@
 			"power": 8,
 			"desc": {
 				"en": "Resurrects a fallen ally. Has a chance of failure."
-			}
+			},
+			"mp": 8,
+			"target": "Single Ally"
 		},
 		"Kazing": {
 			"attribute": "Spell",
@@ -366,7 +575,9 @@
 			"power": 80,
 			"desc": {
 				"en": "Is guaranteed to resurrect a fallen ally."
-			}
+			},
+			"mp": 80,
+			"target": "Single Ally"
 		},
 		"Kerplunk": {
 			"attribute": "Spell",
@@ -374,7 +585,10 @@
 			"power": 100,
 			"desc": {
 				"en": "Heals or resurrects all allies, including reserves, but at the cost of the caster's life. The caster cannot be resurrected in the same battle."
-			}
+			},
+			"mp": 100,
+			"mpType": "all-with-min",
+			"target": "All Allies"
 		},
 		"Squelch": {
 			"attribute": "Spell",
@@ -382,7 +596,12 @@
 			"power": 2,
 			"desc": {
 				"en": "Cures all allies of poison or severe poison."
-			}
+			},
+			"mp": 2,
+			"target": "All Allies",
+			"elements": [
+				"poison"
+			]
 		},
 		"Tingle": {
 			"attribute": "Spell",
@@ -390,7 +609,12 @@
 			"power": 2,
 			"desc": {
 				"en": "Cures all allies of paralysis."
-			}
+			},
+			"mp": 2,
+			"target": "All Allies",
+			"elements": [
+				"paralysis"
+			]
 		},
 		"Defuddle": {
 			"attribute": "Spell",
@@ -398,7 +622,12 @@
 			"power": 2,
 			"desc": {
 				"en": "Cures all allies of confusion."
-			}
+			},
+			"mp": 2,
+			"target": "All Allies",
+			"elements": [
+				"confusion"
+			]
 		},
 		"Cock-a-Doodle-Doo": {
 			"attribute": "Spell",
@@ -406,7 +635,12 @@
 			"power": 2,
 			"desc": {
 				"en": "Cures all allies of sleep."
-			}
+			},
+			"mp": 2,
+			"target": "All Allies",
+			"elements": [
+				"sleep"
+			]
 		},
 		"Oomph": {
 			"attribute": "Spell",
@@ -414,7 +648,10 @@
 			"power": 6,
 			"desc": {
 				"en": "Greatly increases the attack of a single ally for 2 to 5 turns."
-			}
+			},
+			"mp": 6,
+			"target": "Single Ally",
+			"effect": "Attack Up"
 		},
 		"Oomphle": {
 			"attribute": "Spell",
@@ -422,7 +659,10 @@
 			"power": 10,
 			"desc": {
 				"en": "Increases the attack of all allies for 2 to 5 turns."
-			}
+			},
+			"mp": 10,
+			"target": "All Allies",
+			"effect": "Attack Up"
 		},
 		"Blunt": {
 			"attribute": "Spell",
@@ -430,7 +670,10 @@
 			"power": 6,
 			"desc": {
 				"en": "Greatly decreases the attack of a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
-			}
+			},
+			"mp": 6,
+			"target": "Single Enemy",
+			"effect": "Attack Down"
 		},
 		"Kablunt": {
 			"attribute": "Spell",
@@ -438,7 +681,10 @@
 			"power": 10,
 			"desc": {
 				"en": "Decreases the attack of all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
-			}
+			},
+			"mp": 10,
+			"target": "All Enemies",
+			"effect": "Attack Down"
 		},
 		"Buff": {
 			"attribute": "Spell",
@@ -446,7 +692,10 @@
 			"power": 3,
 			"desc": {
 				"en": "Greatly increases the defence of a single ally for 4 to 7 turns."
-			}
+			},
+			"mp": 3,
+			"target": "Single Ally",
+			"effect": "Defence Up"
 		},
 		"Kabuff": {
 			"attribute": "Spell",
@@ -454,7 +703,10 @@
 			"power": 4,
 			"desc": {
 				"en": "Increases the defence of all allies for 4 to 7 turns."
-			}
+			},
+			"mp": 4,
+			"target": "All Allies",
+			"effect": "Defence Up"
 		},
 		"Sap": {
 			"attribute": "Spell",
@@ -462,7 +714,10 @@
 			"power": 3,
 			"desc": {
 				"en": "Greatly decreases the defence of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
-			}
+			},
+			"mp": 3,
+			"target": "Single Enemy",
+			"effect": "Defence Down"
 		},
 		"Kasap": {
 			"attribute": "Spell",
@@ -470,7 +725,10 @@
 			"power": 4,
 			"desc": {
 				"en": "Decreases the defence of all enemie for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
-			}
+			},
+			"mp": 4,
+			"target": "All Enemies",
+			"effect": "Defence Down"
 		},
 		"Accelerate": {
 			"attribute": "Spell",
@@ -478,7 +736,10 @@
 			"power": 3,
 			"desc": {
 				"en": "Greatly increases the agility of a single ally for 4 to 7 turns."
-			}
+			},
+			"mp": 3,
+			"target": "Single Ally",
+			"effect": "Agility Up"
 		},
 		"Acceleratle": {
 			"attribute": "Spell",
@@ -486,7 +747,10 @@
 			"power": 4,
 			"desc": {
 				"en": "Increases the agility of all allies for 4 to 7 turns."
-			}
+			},
+			"mp": 4,
+			"target": "All Allies",
+			"effect": "Agility Up"
 		},
 		"Decelerate": {
 			"attribute": "Spell",
@@ -494,7 +758,10 @@
 			"power": 3,
 			"desc": {
 				"en": "Greatly decreases the agility of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
-			}
+			},
+			"mp": 3,
+			"target": "Single Enemy",
+			"effect": "Agility Down"
 		},
 		"Deceleratle": {
 			"attribute": "Spell",
@@ -502,7 +769,10 @@
 			"power": 4,
 			"desc": {
 				"en": "Decreases the agility of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
-			}
+			},
+			"mp": 4,
+			"target": "All Enemies",
+			"effect": "Agility Down"
 		},
 		"Ping": {
 			"attribute": "Spell",
@@ -510,7 +780,10 @@
 			"power": 3,
 			"desc": {
 				"en": "Greatly increases the wisdom of a single ally for 4 to 7 turns."
-			}
+			},
+			"mp": 3,
+			"target": "Single Ally",
+			"effect": "Wisdom Up"
 		},
 		"Kaping": {
 			"attribute": "Spell",
@@ -518,7 +791,10 @@
 			"power": 4,
 			"desc": {
 				"en": "Increases the wisdom of all allies for 4 to 7 turns."
-			}
+			},
+			"mp": 4,
+			"target": "All Allies",
+			"effect": "Wisdom Up"
 		},
 		"Dim": {
 			"attribute": "Spell",
@@ -526,7 +802,10 @@
 			"power": 3,
 			"desc": {
 				"en": "Greatly decreases the wisdom of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
-			}
+			},
+			"mp": 3,
+			"target": "Single Enemy",
+			"effect": "Wisdom Down"
 		},
 		"Kadim": {
 			"attribute": "Spell",
@@ -534,7 +813,10 @@
 			"power": 4,
 			"desc": {
 				"en": "Decreases the wisdom of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
-			}
+			},
+			"mp": 4,
+			"target": "All Enemies",
+			"effect": "Wisdom Down"
 		},
 		"Insulate": {
 			"attribute": "Spell",
@@ -542,7 +824,9 @@
 			"power": 4,
 			"desc": {
 				"en": "Greatly reduces the damage received from breath attacks by a single ally for 4 to 7 turns."
-			}
+			},
+			"mp": 4,
+			"target": "Single Ally"
 		},
 		"Insulatle": {
 			"attribute": "Spell",
@@ -550,7 +834,9 @@
 			"power": 4,
 			"desc": {
 				"en": "Reduces the damage received from breath attacks by all allies for 4 to 7 turns."
-			}
+			},
+			"mp": 4,
+			"target": "All Allies"
 		},
 		"Dazzle": {
 			"attribute": "Spell",
@@ -558,7 +844,12 @@
 			"power": 3,
 			"desc": {
 				"en": "Bedazzles all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
-			}
+			},
+			"mp": 3,
+			"target": "All Enemies",
+			"elements": [
+				"bedazzle"
+			]
 		},
 		"Fizzle": {
 			"attribute": "Spell",
@@ -566,7 +857,12 @@
 			"power": 3,
 			"desc": {
 				"en": "Prevents all enemies from casting spells for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
-			}
+			},
+			"mp": 3,
+			"target": "All Enemies",
+			"elements": [
+				"seal"
+			]
 		},
 		"Bounce": {
 			"attribute": "Spell",
@@ -574,7 +870,9 @@
 			"power": 32,
 			"desc": {
 				"en": "Reflects most spells back at the caster for 4 to 7 turns."
-			}
+			},
+			"mp": 32,
+			"target": "Self"
 		},
 		"Drain Magic": {
 			"attribute": "Spell",
@@ -582,7 +880,9 @@
 			"power": 0,
 			"desc": {
 				"en": "Absorbs some MP from a single enemy."
-			}
+			},
+			"mp": 0,
+			"target": "Single Enemy"
 		},
 		"Giga Drain Magic": {
 			"attribute": "Spell",
@@ -590,7 +890,13 @@
 			"power": 1,
 			"desc": {
 				"en": "Absorbs MP from enemies at random, 4 times in total."
-			}
+			},
+			"mp": 50,
+			"mpType": "percentage",
+			"target": "Random Enemies",
+			"elements": [
+				"drain_mp"
+			]
 		},
 		"Fuddle": {
 			"attribute": "Spell",
@@ -598,7 +904,12 @@
 			"power": 5,
 			"desc": {
 				"en": "Confuses a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
-			}
+			},
+			"mp": 5,
+			"target": "Single Enemy",
+			"elements": [
+				"confusion"
+			]
 		},
 		"Kafuddle": {
 			"attribute": "Spell",
@@ -606,7 +917,12 @@
 			"power": 10,
 			"desc": {
 				"en": "Confuses all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
-			}
+			},
+			"mp": 10,
+			"target": "All Enemies",
+			"elements": [
+				"confusion"
+			]
 		},
 		"Snooze": {
 			"attribute": "Spell",
@@ -614,7 +930,12 @@
 			"power": 3,
 			"desc": {
 				"en": "Puts a single enemy to sleep for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
-			}
+			},
+			"mp": 3,
+			"target": "Single Enemy",
+			"elements": [
+				"sleep"
+			]
 		},
 		"Kasnooze": {
 			"attribute": "Spell",
@@ -622,7 +943,12 @@
 			"power": 8,
 			"desc": {
 				"en": "Puts all enemies to sleep for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
-			}
+			},
+			"mp": 8,
+			"target": "All Enemies",
+			"elements": [
+				"sleep"
+			]
 		},
 		"Numb": {
 			"attribute": "Spell",
@@ -630,7 +956,12 @@
 			"power": 8,
 			"desc": {
 				"en": "Paralyses a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
-			}
+			},
+			"mp": 8,
+			"target": "Single Enemy",
+			"elements": [
+				"paralysis"
+			]
 		},
 		"Kanumb": {
 			"attribute": "Spell",
@@ -638,7 +969,12 @@
 			"power": 15,
 			"desc": {
 				"en": "Paralyses all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
-			}
+			},
+			"mp": 15,
+			"target": "All Enemies",
+			"elements": [
+				"paralysis"
+			]
 		},
 		"Tox": {
 			"attribute": "Spell",
@@ -646,7 +982,12 @@
 			"power": 3,
 			"desc": {
 				"en": "Poisons a single enemy. The higher the caster's wisdom, the more likely the spell is to succeed."
-			}
+			},
+			"mp": 3,
+			"target": "Single Enemy",
+			"elements": [
+				"poison"
+			]
 		},
 		"Katox": {
 			"attribute": "Spell",
@@ -654,7 +995,12 @@
 			"power": 8,
 			"desc": {
 				"en": "Poisons all enemies. The higher the caster's wisdom, the more likely the spell is to succeed."
-			}
+			},
+			"mp": 8,
+			"target": "All Enemies",
+			"elements": [
+				"poison"
+			]
 		},
 		"Katoxle": {
 			"attribute": "Spell",
@@ -662,7 +1008,12 @@
 			"power": 15,
 			"desc": {
 				"en": "Severely poisons all enemies. The higher the caster's wisdom, the more likely the spell is to succeed."
-			}
+			},
+			"mp": 15,
+			"target": "All Enemies",
+			"elements": [
+				"poison"
+			]
 		},
 		"Whack": {
 			"attribute": "Spell",
@@ -670,7 +1021,12 @@
 			"power": 9,
 			"desc": {
 				"en": "Kills a single enemy instantly. The higher the caster's wisdom, the more likely the spell is to succeed."
-			}
+			},
+			"mp": 9,
+			"target": "Single Enemy",
+			"elements": [
+				"sudden_death"
+			]
 		},
 		"Thwack": {
 			"attribute": "Spell",
@@ -678,7 +1034,12 @@
 			"power": 12,
 			"desc": {
 				"en": "Kills all enemies instantly. The higher the caster's wisdom, the more likely the spell is to succeed."
-			}
+			},
+			"mp": 12,
+			"target": "All Enemies",
+			"elements": [
+				"sudden_death"
+			]
 		},
 		"Kamikazee": {
 			"attribute": "Spell",
@@ -686,7 +1047,10 @@
 			"power": 1,
 			"desc": {
 				"en": "Kills all enemies, but at the cost of the caster's life. The caster cannot be resurrected in the same battle. The higher the caster's wisdom, the more likely the spell is to succeed."
-			}
+			},
+			"mp": 100,
+			"mpType": "percentage",
+			"target": "All Enemies"
 		},
 		"Flame Slash": {
 			"attribute": "Physical",
@@ -694,7 +1058,12 @@
 			"power": 2,
 			"desc": {
 				"en": "Inflicts minor fire-elemental slashing damage on a single enemy."
-			}
+			},
+			"mp": 2,
+			"target": "Single Enemy",
+			"elements": [
+				"fire"
+			]
 		},
 		"Gust Slash": {
 			"attribute": "Physical",
@@ -702,7 +1071,12 @@
 			"power": 2,
 			"desc": {
 				"en": "Inflicts minor wind-elemental slashing damage on a single enemy."
-			}
+			},
+			"mp": 2,
+			"target": "Single Enemy",
+			"elements": [
+				"wind"
+			]
 		},
 		"Kacrackle Slash": {
 			"attribute": "Physical",
@@ -710,7 +1084,12 @@
 			"power": 2,
 			"desc": {
 				"en": "Inflicts minor ice-elemental slashing damage on a single enemy."
-			}
+			},
+			"mp": 2,
+			"target": "Single Enemy",
+			"elements": [
+				"freeze"
+			]
 		},
 		"Lightning Slash": {
 			"attribute": "Physical",
@@ -718,7 +1097,12 @@
 			"power": 2,
 			"desc": {
 				"en": "Inflicts minor elecrtrical slashing damage on a single enemy."
-			}
+			},
+			"mp": 2,
+			"target": "Single Enemy",
+			"elements": [
+				"thunder"
+			]
 		},
 		"Flamesplitter": {
 			"attribute": "Physical",
@@ -726,7 +1110,12 @@
 			"power": 15,
 			"desc": {
 				"en": "Inflicts minor medium-elemental slashing damage on all enemies."
-			}
+			},
+			"mp": 15,
+			"target": "All Enemies",
+			"elements": [
+				"fire"
+			]
 		},
 		"Skysplitter": {
 			"attribute": "Physical",
@@ -734,7 +1123,12 @@
 			"power": 15,
 			"desc": {
 				"en": "Inflicts minor wind-elemental slashing damage on all enemies."
-			}
+			},
+			"mp": 15,
+			"target": "All Enemies",
+			"elements": [
+				"wind"
+			]
 		},
 		"Earthsplitter": {
 			"attribute": "Physical",
@@ -742,7 +1136,12 @@
 			"power": 15,
 			"desc": {
 				"en": "Inflicts medium earth-elemental slashing damage on all enemies."
-			}
+			},
+			"mp": 15,
+			"target": "All Enemies",
+			"elements": [
+				"earth"
+			]
 		},
 		"Brightsplitter": {
 			"attribute": "Physical",
@@ -750,7 +1149,12 @@
 			"power": 15,
 			"desc": {
 				"en": "Inflicts minor light-elemental slashing damage on all enemies."
-			}
+			},
+			"mp": 15,
+			"target": "All Enemies",
+			"elements": [
+				"light"
+			]
 		},
 		"Blightsplitter": {
 			"attribute": "Physical",
@@ -758,7 +1162,12 @@
 			"power": 15,
 			"desc": {
 				"en": "Inflicts medium dark-elemental slashing damage on all enemies."
-			}
+			},
+			"mp": 15,
+			"target": "All Enemies",
+			"elements": [
+				"darkness"
+			]
 		},
 		"Gigaslash": {
 			"attribute": "Physical",
@@ -766,7 +1175,12 @@
 			"power": 20,
 			"desc": {
 				"en": "Inflicts outrageous electrical damage on a single enemy. The higher the user's level, the greater the damage that will be inflicted."
-			}
+			},
+			"mp": 20,
+			"target": "Single Enemy",
+			"elements": [
+				"thunder"
+			]
 		},
 		"Gigagash": {
 			"attribute": "Physical",
@@ -774,7 +1188,12 @@
 			"power": 56,
 			"desc": {
 				"en": "Inflicts outrageous electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
-			}
+			},
+			"mp": 56,
+			"target": "All Enemies",
+			"elements": [
+				"thunder"
+			]
 		},
 		"Gigacross": {
 			"attribute": "Physical",
@@ -782,7 +1201,12 @@
 			"power": 80,
 			"desc": {
 				"en": "An extreme sword attack that inflicts extreme electrical damage 2 times in a row on all enemies. The higher the user's level, the greater the damage that will be inflicted."
-			}
+			},
+			"mp": 80,
+			"target": "All Enemies",
+			"elements": [
+				"thunder"
+			]
 		},
 		"Shadow Blast": {
 			"attribute": "Physical",
@@ -790,7 +1214,12 @@
 			"power": 80,
 			"desc": {
 				"en": "Inflicts extreme dark-elemental damage 2 times in a row on all enemies. The higher the user's level, the greater the damage that will be inflicted."
-			}
+			},
+			"mp": 80,
+			"target": "All Enemies",
+			"elements": [
+				"darkness"
+			]
 		},
 		"Slime Squisher": {
 			"attribute": "Physical",
@@ -798,7 +1227,9 @@
 			"power": 4,
 			"desc": {
 				"en": "Inflicts heavy impact damage on monsters in the slime family."
-			}
+			},
+			"mp": 4,
+			"target": "Single Enemy"
 		},
 		"Dragon Slash": {
 			"attribute": "Physical",
@@ -806,7 +1237,9 @@
 			"power": 4,
 			"desc": {
 				"en": "Inflicts heavy slashing damage on monsters in the dragon family."
-			}
+			},
+			"mp": 4,
+			"target": "Single Enemy"
 		},
 		"Nature Nerfer": {
 			"attribute": "Physical",
@@ -814,7 +1247,9 @@
 			"power": 4,
 			"desc": {
 				"en": "Inflicts heavy slashing damage on monsters in the nature family."
-			}
+			},
+			"mp": 4,
+			"target": "Single Enemy"
 		},
 		"Beast Tamer": {
 			"attribute": "Physical",
@@ -822,7 +1257,9 @@
 			"power": 4,
 			"desc": {
 				"en": "Inflicts heavy slashing damage on monsters in the beast family."
-			}
+			},
+			"mp": 4,
+			"target": "Single Enemy"
 		},
 		"Matter Scatterer": {
 			"attribute": "Physical",
@@ -830,7 +1267,9 @@
 			"power": 4,
 			"desc": {
 				"en": "Inflicts heavy slashing damage on monsters in the material family."
-			}
+			},
+			"mp": 4,
+			"target": "Single Enemy"
 		},
 		"Demon Demeaner": {
 			"attribute": "Physical",
@@ -838,7 +1277,9 @@
 			"power": 4,
 			"desc": {
 				"en": "Inflicts heavy slashing damage on monsters in the demon family."
-			}
+			},
+			"mp": 4,
+			"target": "Single Enemy"
 		},
 		"Undead Undoer": {
 			"attribute": "Physical",
@@ -846,7 +1287,9 @@
 			"power": 4,
 			"desc": {
 				"en": "Inflicts heavy slashing damage on monsters in the undead family."
-			}
+			},
+			"mp": 4,
+			"target": "Single Enemy"
 		},
 		"Multifists": {
 			"attribute": "Physical",
@@ -854,7 +1297,9 @@
 			"power": 20,
 			"desc": {
 				"en": "A punching technique that damages enemies at random, 4 times in total"
-			}
+			},
+			"mp": 20,
+			"target": "Random Enemies"
 		},
 		"Shining Shot": {
 			"attribute": "Physical",
@@ -862,7 +1307,12 @@
 			"power": 100,
 			"desc": {
 				"en": "Inflicts light-elemental damage on enemies at random, 4 to 12 times in total."
-			}
+			},
+			"mp": 100,
+			"target": "Random Enemies",
+			"elements": [
+				"light"
+			]
 		},
 		"Multislash": {
 			"attribute": "Physical",
@@ -870,7 +1320,9 @@
 			"power": 5,
 			"desc": {
 				"en": "Inflicts slashing damage on all enemies. Enemies that are further to the right-hand side of the battlefield receive less damage."
-			}
+			},
+			"mp": 5,
+			"target": "All Enemies"
 		},
 		"Mercurial Thrust": {
 			"attribute": "Physical",
@@ -878,7 +1330,9 @@
 			"power": 2,
 			"desc": {
 				"en": "A punching technique that only inflicts a small amount of damage, but allows the user to attack before anyone else."
-			}
+			},
+			"mp": 2,
+			"target": "Single Enemy"
 		},
 		"Anchorman": {
 			"attribute": "Physical",
@@ -886,7 +1340,9 @@
 			"power": 15,
 			"desc": {
 				"en": "Acts after everyone else to inflict extreme impact damage on the enemy."
-			}
+			},
+			"mp": 15,
+			"target": "Single Enemy"
 		},
 		"Knuckle Sandwich": {
 			"attribute": "Physical",
@@ -894,7 +1350,9 @@
 			"power": 20,
 			"desc": {
 				"en": "Focuses strength in order to inflict heavy damage on a single enemy in the next turn, ignoring their defence attribute."
-			}
+			},
+			"mp": 20,
+			"target": "Single Enemy"
 		},
 		"Roundhouse Kick": {
 			"attribute": "Physical",
@@ -902,7 +1360,9 @@
 			"power": 8,
 			"desc": {
 				"en": "A kicking technique that damages all enemies, regardless of their defence. Enemies that are further to the right-hand side of the battlefield receive less damage."
-			}
+			},
+			"mp": 8,
+			"target": "All Enemies"
 		},
 		"Hatchet Man": {
 			"attribute": "Physical",
@@ -910,7 +1370,9 @@
 			"power": 8,
 			"desc": {
 				"en": " Inflicts slashing damage on a single enemy. The attack has a high likelihood of missing, but an increased chance of inflicting a critical hit when it succeeds."
-			}
+			},
+			"mp": 8,
+			"target": "Single Enemy"
 		},
 		"Frenzy": {
 			"attribute": "Physical",
@@ -918,7 +1380,9 @@
 			"power": 4,
 			"desc": {
 				"en": "A risky technique that inflicts a critical hit on a single enemy or ally at random."
-			}
+			},
+			"mp": 4,
+			"target": "Random Enemy or Ally"
 		},
 		"Miracle Slash": {
 			"attribute": "Physical",
@@ -926,7 +1390,9 @@
 			"power": 10,
 			"desc": {
 				"en": "Inflicts slashing damage on a single enemy. Approximately half the amount of damage inflicted is restored to the user as HP. Can heal up to a maximum of 200 HP."
-			}
+			},
+			"mp": 10,
+			"target": "Single Enemy"
 		},
 		"Attack Attacker": {
 			"attribute": "Physical",
@@ -934,7 +1400,10 @@
 			"power": 4,
 			"desc": {
 				"en": "Damages a single enemy and occasionally lowers its attack for 2 to 5 turns."
-			}
+			},
+			"mp": 4,
+			"target": "Single Enemy",
+			"effect": "Attack Down"
 		},
 		"Helm Splitter": {
 			"attribute": "Physical",
@@ -942,7 +1411,10 @@
 			"power": 4,
 			"desc": {
 				"en": "Damages a single enemy and occasionally lowers its defence for 4 to 7 turns."
-			}
+			},
+			"mp": 4,
+			"target": "Single Enemy",
+			"effect": "Defence Down"
 		},
 		"Confusion Attack": {
 			"attribute": "Physical",
@@ -950,7 +1422,12 @@
 			"power": 4,
 			"desc": {
 				"en": "Damages a single enemy and occasionally confuses it for 2 to 5 turns."
-			}
+			},
+			"mp": 4,
+			"target": "Single Enemy",
+			"elements": [
+				"confusion"
+			]
 		},
 		"Sleep Attack": {
 			"attribute": "Physical",
@@ -958,7 +1435,12 @@
 			"power": 4,
 			"desc": {
 				"en": "Damages a single enemy and occasionally puts it to sleep for 2 to 5 turns."
-			}
+			},
+			"mp": 4,
+			"target": "Single Enemy",
+			"elements": [
+				"sleep"
+			]
 		},
 		"Paralysing Punch": {
 			"attribute": "Physical",
@@ -966,7 +1448,12 @@
 			"power": 4,
 			"desc": {
 				"en": "Damages a single enemy and occasionally paralyses it for 2 to 5 turns."
-			}
+			},
+			"mp": 4,
+			"target": "Single Enemy",
+			"elements": [
+				"paralysis"
+			]
 		},
 		"Parallax": {
 			"attribute": "Physical",
@@ -974,7 +1461,12 @@
 			"power": 20,
 			"desc": {
 				"en": "Inflicts heavy slashing damage on a single enemy and occasionally paralyses it for 2 to 5 turns."
-			}
+			},
+			"mp": 20,
+			"target": "Single Enemy",
+			"elements": [
+				"paralysis"
+			]
 		},
 		"Heart Breaker": {
 			"attribute": "Physical",
@@ -982,7 +1474,12 @@
 			"power": 4,
 			"desc": {
 				"en": "Inflicts slashing damage on a single enemy and stuns it for 1 turn."
-			}
+			},
+			"mp": 4,
+			"target": "Single Enemy",
+			"elements": [
+				"rest"
+			]
 		},
 		"Poison Attack": {
 			"attribute": "Physical",
@@ -990,7 +1487,12 @@
 			"power": 2,
 			"desc": {
 				"en": "Damages a single enemy and occasionally poisons it."
-			}
+			},
+			"mp": 2,
+			"target": "Single Enemy",
+			"elements": [
+				"poison"
+			]
 		},
 		"Assassin's Stab": {
 			"attribute": "Physical",
@@ -998,7 +1500,12 @@
 			"power": 8,
 			"desc": {
 				"en": "Damages a single enemy and occasionally causes instant death."
-			}
+			},
+			"mp": 8,
+			"target": "Single Enemy",
+			"elements": [
+				"sudden_death"
+			]
 		},
 		"Victimiser": {
 			"attribute": "Physical",
@@ -1006,7 +1513,13 @@
 			"power": 4,
 			"desc": {
 				"en": "Damages a single enemy. Highly effective against enemies that are poisoned, severly poisoned or paralysed."
-			}
+			},
+			"mp": 4,
+			"target": "Single Enemy",
+			"elements": [
+				"poison",
+				"paralysis"
+			]
 		},
 		"Multi-Victimiser": {
 			"attribute": "Physical",
@@ -1014,7 +1527,13 @@
 			"power": 26,
 			"desc": {
 				"en": "Damages all enemies. Highly effective against enemies that are poisoned, severely poisoned or paralysed."
-			}
+			},
+			"mp": 26,
+			"target": "All Enemies",
+			"elements": [
+				"poison",
+				"paralysis"
+			]
 		},
 		"Persecutter": {
 			"attribute": "Physical",
@@ -1022,7 +1541,13 @@
 			"power": 4,
 			"desc": {
 				"en": "Damages a single enemy. Higly effective against enemies that are asleep or confused."
-			}
+			},
+			"mp": 4,
+			"target": "Single Enemy",
+			"elements": [
+				"confusion",
+				"sleep"
+			]
 		},
 		"Multi-Persecutter": {
 			"attribute": "Physical",
@@ -1030,7 +1555,14 @@
 			"power": 26,
 			"desc": {
 				"en": "Damages all enemies. Highly effective against enemies that are asleep or confused."
-			}
+			},
+			"mp": 0,
+			"mpType": "all-with-min",
+			"target": "All Enemies",
+			"elements": [
+				"sleep",
+				"confusion"
+			]
 		},
 		"Magma Blast": {
 			"attribute": "Technique",
@@ -1038,7 +1570,12 @@
 			"power": 4,
 			"desc": {
 				"en": "Inflicts medium fire-elemental damage on all enemies."
-			}
+			},
+			"mp": 4,
+			"target": "All Enemies",
+			"elements": [
+				"fire"
+			]
 		},
 		"Tidal Wave": {
 			"attribute": "Technique",
@@ -1046,7 +1583,12 @@
 			"power": 52,
 			"desc": {
 				"en": "Inflicts outrageous water-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
-			}
+			},
+			"mp": 52,
+			"target": "All Enemies",
+			"elements": [
+				"water"
+			]
 		},
 		"Wind Sickles": {
 			"attribute": "Technique",
@@ -1054,7 +1596,12 @@
 			"power": 4,
 			"desc": {
 				"en": "Inflicts minor wind-elemental damages on a single enemy."
-			}
+			},
+			"mp": 4,
+			"target": "Single Enemy",
+			"elements": [
+				"wind"
+			]
 		},
 		"Thin Air": {
 			"attribute": "Technique",
@@ -1062,7 +1609,12 @@
 			"power": 12,
 			"desc": {
 				"en": "Inflicts medium wind-elemental damages on a single enemy. The higher the user's level, the greater the damage that will be inflicted."
-			}
+			},
+			"mp": 12,
+			"target": "All Enemies",
+			"elements": [
+				"wind"
+			]
 		},
 		"Stone's Throw": {
 			"attribute": "Technique",
@@ -1070,7 +1622,12 @@
 			"power": 4,
 			"desc": {
 				"en": "Inflicts minor earth-elemental damages on a single enemy."
-			}
+			},
+			"mp": 4,
+			"target": "Single Enemy",
+			"elements": [
+				"earth"
+			]
 		},
 		"Stomp": {
 			"attribute": "Technique",
@@ -1078,7 +1635,12 @@
 			"power": 12,
 			"desc": {
 				"en": "Inflicts medium earth-elemental damages on a single enemy. The higher the user's level, the greater the damage that will be inflicted."
-			}
+			},
+			"mp": 12,
+			"target": "All Enemies",
+			"elements": [
+				"earth"
+			]
 		},
 		"Boulder Toss": {
 			"attribute": "Technique",
@@ -1086,7 +1648,12 @@
 			"power": 36,
 			"desc": {
 				"en": "Inflicts extreme earth-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
-			}
+			},
+			"mp": 36,
+			"target": "All Enemies",
+			"elements": [
+				"earth"
+			]
 		},
 		"Big Banga": {
 			"attribute": "Technique",
@@ -1094,7 +1661,12 @@
 			"power": 52,
 			"desc": {
 				"en": "Inflicts outrageous explosive damange on all enemies. The higher the user's level, the greater the damage that will be inflicted."
-			}
+			},
+			"mp": 36,
+			"target": "All Enemies",
+			"elements": [
+				"explosion"
+			]
 		},
 		"Lightning": {
 			"attribute": "Technique",
@@ -1102,7 +1674,12 @@
 			"power": 12,
 			"desc": {
 				"en": "Inflicts medium electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
-			}
+			},
+			"mp": 12,
+			"target": "All Enemies",
+			"elements": [
+				"thunder"
+			]
 		},
 		"Lightning Storm": {
 			"attribute": "Technique",
@@ -1110,7 +1687,12 @@
 			"power": 52,
 			"desc": {
 				"en": "Inflicts outrageous electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
-			}
+			},
+			"mp": 52,
+			"target": "All Enemies",
+			"elements": [
+				"thunder"
+			]
 		},
 		"Starfall": {
 			"attribute": "Technique",
@@ -1118,7 +1700,12 @@
 			"power": 12,
 			"desc": {
 				"en": "Inflicts medium light-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
-			}
+			},
+			"mp": 12,
+			"target": "All Enemies",
+			"elements": [
+				"light"
+			]
 		},
 		"Bad Hand": {
 			"attribute": "Technique",
@@ -1126,7 +1713,12 @@
 			"power": 52,
 			"desc": {
 				"en": "Inflicts outrageous dark-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
-			}
+			},
+			"mp": 52,
+			"target": "All Enemies",
+			"elements": [
+				"darkness"
+			]
 		},
 		"Withering Look": {
 			"attribute": "Technique",
@@ -1134,7 +1726,9 @@
 			"power": 36,
 			"desc": {
 				"en": "Shoots a beam from the eyes that inflicts extreme damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
-			}
+			},
+			"mp": 36,
+			"target": "All Enemies"
 		},
 		"Hellish Howl": {
 			"attribute": "Technique",
@@ -1142,7 +1736,13 @@
 			"power": 12,
 			"desc": {
 				"en": "Lets out a bloodcurdling shout that inflicts medium damage on all enemies and occasionally stuns them for 1 turn."
-			}
+			},
+			"mp": 0,
+			"mpType": "all-with-min",
+			"target": "All Enemies",
+			"elements": [
+				"rest"
+			]
 		},
 		"Power Surge": {
 			"attribute": "Technique",
@@ -1150,7 +1750,12 @@
 			"power": 52,
 			"desc": {
 				"en": "Inflicts outrageous electrical damage on all enemies."
-			}
+			},
+			"mp": 52,
+			"target": "All Enemies",
+			"elements": [
+				"thunder"
+			]
 		},
 		"Hold Fire": {
 			"attribute": "Technique",
@@ -1158,7 +1763,12 @@
 			"power": 52,
 			"desc": {
 				"en": "Focuses strength in order to inflict outrageous fire-elemental damage on all enemies in the next turn. Occasionally stuns them for 1 turn."
-			}
+			},
+			"mp": 52,
+			"target": "All Enemies",
+			"elements": [
+				"fire"
+			]
 		},
 		"Meditation": {
 			"attribute": "Technique",
@@ -1166,7 +1776,9 @@
 			"power": 35,
 			"desc": {
 				"en": "Restores 300 or more HP to the user."
-			}
+			},
+			"mp": 35,
+			"target": "Self"
 		},
 		"Right as Rain": {
 			"attribute": "Technique",
@@ -1174,7 +1786,9 @@
 			"power": 40,
 			"desc": {
 				"en": "Performs a rainmaking ritual that invokes a healing shower in the next turn. Restores a random amount of HP to all allies."
-			}
+			},
+			"mp": 40,
+			"target": "All Allies"
 		},
 		"Disruptive Wave": {
 			"attribute": "Technique",
@@ -1182,7 +1796,9 @@
 			"power": 60,
 			"desc": {
 				"en": "Removes most beneficial effects from all enemies."
-			}
+			},
+			"mp": 60,
+			"target": "All Enemies"
 		},
 		"Wave of Relief": {
 			"attribute": "Technique",
@@ -1190,7 +1806,9 @@
 			"power": 60,
 			"desc": {
 				"en": "Cures of allies of their status ailments."
-			}
+			},
+			"mp": 60,
+			"target": "All Allies"
 		},
 		"Wave of Panic": {
 			"attribute": "Technique",
@@ -1198,7 +1816,9 @@
 			"power": 60,
 			"desc": {
 				"en": "Debilitates all enemies."
-			}
+			},
+			"mp": 60,
+			"target": "All Enemies"
 		},
 		"Sandstorm": {
 			"attribute": "Technique",
@@ -1206,7 +1826,10 @@
 			"power": 2,
 			"desc": {
 				"en": "Whips up a dense cloud of dust that lowers the accuracy of enemy attacks for 2 to 5 turns."
-			}
+			},
+			"mp": 2,
+			"target": "All Enemies",
+			"effect": "Accuracy Down"
 		},
 		"Dazzleflash": {
 			"attribute": "Technique",
@@ -1214,7 +1837,13 @@
 			"power": 2,
 			"desc": {
 				"en": "Unleashes a blinding light that lowers the accuracy of enemy attacks for 2 to 5 turns."
-			}
+			},
+			"mp": 2,
+			"target": "All Enemies",
+			"elements": [
+				"bedazzle"
+			],
+			"effect": "Accuracy Down"
 		},
 		"Gobstopper": {
 			"attribute": "Technique",
@@ -1222,7 +1851,9 @@
 			"power": 6,
 			"desc": {
 				"en": "Stops a single enemy from using its mouth, preventing the use of breath attacks for 4 to 7 turns."
-			}
+			},
+			"mp": 6,
+			"target": "Single Enemy"
 		},
 		"Critical Meltdown": {
 			"attribute": "Technique",
@@ -1230,7 +1861,9 @@
 			"power": 6,
 			"desc": {
 				"en": "Prevents a single enemy from inflicting hits for 4 to 7 turns."
-			}
+			},
+			"mp": 6,
+			"target": "Single Enemy"
 		},
 		"Brake Wind": {
 			"attribute": "Technique",
@@ -1238,7 +1871,9 @@
 			"power": 10,
 			"desc": {
 				"en": "Reflects breath attacks back at the enemy. Protects all allies once only."
-			}
+			},
+			"mp": 10,
+			"target": "All Allies"
 		},
 		"Mist Me": {
 			"attribute": "Technique",
@@ -1246,7 +1881,9 @@
 			"power": 10,
 			"desc": {
 				"en": "Negates all damages 1 time only. Ineffective against certain attacks."
-			}
+			},
+			"mp": 10,
+			"target": "Self"
 		},
 		"War Cry": {
 			"attribute": "Technique",
@@ -1254,7 +1891,12 @@
 			"power": 3,
 			"desc": {
 				"en": "An ear-popping shout that stuns all enemies for 1 turn."
-			}
+			},
+			"mp": 3,
+			"target": "All Enemies",
+			"elements": [
+				"rest"
+			]
 		},
 		"Tongue Lashing": {
 			"attribute": "Technique",
@@ -1262,7 +1904,13 @@
 			"power": 1,
 			"desc": {
 				"en": "Slathers a single enemy with simy saliva, stunning it and lowering its defence."
-			}
+			},
+			"mp": 1,
+			"target": "Single Enemy",
+			"elements": [
+				"rest"
+			],
+			"effect": "Defence Down"
 		},
 		"Tongue Bashing": {
 			"attribute": "Technique",
@@ -1270,7 +1918,13 @@
 			"power": 8,
 			"desc": {
 				"en": "Savagely slathers a single enemy with slimy saliva, stunning it and reducing its defence attribute to 1."
-			}
+			},
+			"mp": 8,
+			"target": "Single Enemy",
+			"elements": [
+				"rest"
+			],
+			"effect": "Defence Down"
 		},
 		"Seethe": {
 			"attribute": "Technique",
@@ -1278,7 +1932,10 @@
 			"power": 10,
 			"desc": {
 				"en": "Internalises rage in order to raise the damage of the next attack. Furthermore, the user's attacks become more difficult for the enemy to dodge."
-			}
+			},
+			"mp": 10,
+			"target": "Self",
+			"effect": "Accuracy Up"
 		},
 		"Dodgy Dance": {
 			"attribute": "Technique",
@@ -1286,7 +1943,10 @@
 			"power": 1,
 			"desc": {
 				"en": "Raises the user's evasion for 4 to 7 turns."
-			}
+			},
+			"mp": 1,
+			"target": "Self",
+			"effect": "Evasion Up"
 		},
 		"Selflessness": {
 			"attribute": "Technique",
@@ -1294,7 +1954,9 @@
 			"power": 5,
 			"desc": {
 				"en": "Receives all incoming attacks in place for allies for 1 round, but suffers greater damage in doing so."
-			}
+			},
+			"mp": 5,
+			"target": "Self"
 		},
 		"Fire Breath": {
 			"attribute": "Breath",
@@ -1302,7 +1964,12 @@
 			"power": 3,
 			"desc": {
 				"en": "Inflicts minor fire-elemental breath damage on all enemies."
-			}
+			},
+			"mp": 3,
+			"target": "All Enemies",
+			"elements": [
+				"fire"
+			]
 		},
 		"Flame Breath": {
 			"attribute": "Breath",
@@ -1310,7 +1977,12 @@
 			"power": 6,
 			"desc": {
 				"en": "Inflicts medium fire-elemental breath damage on all enemies."
-			}
+			},
+			"mp": 6,
+			"target": "All Enemies",
+			"elements": [
+				"fire"
+			]
 		},
 		"Inferno": {
 			"attribute": "Breath",
@@ -1318,7 +1990,12 @@
 			"power": 15,
 			"desc": {
 				"en": "Inflicts major fire-elemental breath damage on all enemies."
-			}
+			},
+			"mp": 15,
+			"target": "All Enemies",
+			"elements": [
+				"fire"
+			]
 		},
 		"Scorch": {
 			"attribute": "Breath",
@@ -1326,7 +2003,12 @@
 			"power": 30,
 			"desc": {
 				"en": "Inflicts extreme fire-elemental breath damage on all enemies."
-			}
+			},
+			"mp": 30,
+			"target": "All Enemies",
+			"elements": [
+				"fire"
+			]
 		},
 		"Hellitosis": {
 			"attribute": "Breath",
@@ -1334,7 +2016,13 @@
 			"power": 64,
 			"desc": {
 				"en": "Inflicts outrageous fire-elemental breath damage on all enemies and occasionally stuns them for 1 turn."
-			}
+			},
+			"mp": 64,
+			"target": "All Enemies",
+			"elements": [
+				"fire",
+				"rest"
+			]
 		},
 		"Cool Breath": {
 			"attribute": "Breath",
@@ -1342,7 +2030,12 @@
 			"power": 3,
 			"desc": {
 				"en": "Inflicts minor ice-elemental breath damage on all enemies."
-			}
+			},
+			"mp": 3,
+			"target": "All Enemies",
+			"elements": [
+				"freeze"
+			]
 		},
 		"Chilly Breath": {
 			"attribute": "Breath",
@@ -1350,7 +2043,12 @@
 			"power": 6,
 			"desc": {
 				"en": "Inflicts medium ice-elemental breath damage on all enemies."
-			}
+			},
+			"mp": 6,
+			"target": "All Enemies",
+			"elements": [
+				"freeze"
+			]
 		},
 		"Freezing Blizzard": {
 			"attribute": "Breath",
@@ -1358,7 +2056,12 @@
 			"power": 15,
 			"desc": {
 				"en": "Inflicts major ice-elemental breath damage on all enemies."
-			}
+			},
+			"mp": 15,
+			"target": "All Enemies",
+			"elements": [
+				"freeze"
+			]
 		},
 		"C-C-Cold Breath": {
 			"attribute": "Breath",
@@ -1366,7 +2069,12 @@
 			"power": 30,
 			"desc": {
 				"en": "Inflicts extreme ice-elemental breath damage on all enemies."
-			}
+			},
+			"mp": 30,
+			"target": "All Enemies",
+			"elements": [
+				"freeze"
+			]
 		},
 		"Ice Age": {
 			"attribute": "Breath",
@@ -1374,7 +2082,13 @@
 			"power": 64,
 			"desc": {
 				"en": "Inflicts outrageous ice-elemental breath damage on all enemies and occasionally stuns them for 1 turn."
-			}
+			},
+			"mp": 64,
+			"target": "All Enemies",
+			"elements": [
+				"freeze",
+				"rest"
+			]
 		},
 		"Sandy Sigh": {
 			"attribute": "Breath",
@@ -1382,7 +2096,13 @@
 			"power": 22,
 			"desc": {
 				"en": "Whips up a cloud of dust that inflicts major earth-elemental breath damage on all enemies and occasionally lowers their accuracy for 2 to 5 turns."
-			}
+			},
+			"mp": 22,
+			"target": "All Enemies",
+			"elements": [
+				"earth"
+			],
+			"effect": "Accuracy Down"
 		},
 		"Blessed Breath": {
 			"attribute": "Breath",
@@ -1390,7 +2110,13 @@
 			"power": 22,
 			"desc": {
 				"en": "Inflicts major light-elemental breath damage on all enemies and occasionally confuses them for 2 to 5 turns."
-			}
+			},
+			"mp": 22,
+			"target": "All Enemies",
+			"elements": [
+				"light",
+				"confusion"
+			]
 		},
 		"Black Breath": {
 			"attribute": "Breath",
@@ -1398,7 +2124,13 @@
 			"power": 22,
 			"desc": {
 				"en": "Inflicts major dark-elemental breath damage on all enemies and occasionally prevents them from casting spells for 2 to 5 turns."
-			}
+			},
+			"mp": 22,
+			"target": "All Enemies",
+			"elements": [
+				"darkness",
+				"seal"
+			]
 		},
 		"Grim Breath": {
 			"attribute": "Breath",
@@ -1406,7 +2138,12 @@
 			"power": 80,
 			"desc": {
 				"en": "Inflicts outrageous dark-elemental breath damage on all enemies."
-			}
+			},
+			"mp": 80,
+			"target": "All Enemies",
+			"elements": [
+				"darkness"
+			]
 		},
 		"Deep Breath": {
 			"attribute": "Breath",
@@ -1414,7 +2151,9 @@
 			"power": 0,
 			"desc": {
 				"en": "Inhales long and deep, raising the damage inflicted by the user's next breath attack."
-			}
+			},
+			"mp": 0,
+			"target": "Self"
 		},
 		"Sweet Breath": {
 			"attribute": "Breath",
@@ -1422,7 +2161,12 @@
 			"power": 3,
 			"desc": {
 				"en": "Lets out an exhalation of relaxation that puts all enemies to sleep for 2 to 5 turns."
-			}
+			},
+			"mp": 3,
+			"target": "All Enemies",
+			"elements": [
+				"sleep"
+			]
 		},
 		"Burning Breath": {
 			"attribute": "Breath",
@@ -1430,7 +2174,12 @@
 			"power": 4,
 			"desc": {
 				"en": "Lets out an exhalation of immobilisation that paralyses all enemies for 2 to 5 turns."
-			}
+			},
+			"mp": 4,
+			"target": "All Enemies",
+			"elements": [
+				"paralysis"
+			]
 		},
 		"Poison Breath": {
 			"attribute": "Breath",
@@ -1438,7 +2187,12 @@
 			"power": 3,
 			"desc": {
 				"en": "Exhales toxic fumes that poison all enemies."
-			}
+			},
+			"mp": 3,
+			"target": "All Enemies",
+			"elements": [
+				"poison"
+			]
 		},
 		"Sword Dance": {
 			"attribute": "Dance",
@@ -1446,7 +2200,9 @@
 			"power": 15,
 			"desc": {
 				"en": "A dance that damages enemies at random, 3 to 7 times in total."
-			}
+			},
+			"mp": 15,
+			"target": "All Enemies"
 		},
 		"Fan Dango": {
 			"attribute": "Dance",
@@ -1454,7 +2210,9 @@
 			"power": 8,
 			"desc": {
 				"en": "A dance that damages enemies at random, 3 or 4 times in total. The higher the user's agility, the greater the damage that will be inflicted."
-			}
+			},
+			"mp": 8,
+			"target": "Random Enemies"
 		},
 		"Butterfly Bop": {
 			"attribute": "Dance",
@@ -1462,7 +2220,9 @@
 			"power": 15,
 			"desc": {
 				"en": "A dance that summons countless butterflies from the aether to attack all enemies. The higher the user's agility, the greter the damage that will be inflicted."
-			}
+			},
+			"mp": 15,
+			"target": "All Enemies"
 		},
 		"Hotstepper": {
 			"attribute": "Dance",
@@ -1470,7 +2230,12 @@
 			"power": 30,
 			"desc": {
 				"en": "A dance that inflicts extreme fire-elemental damage on all enemies. The higher ther user's level, the greater the damage that will be inflicted."
-			}
+			},
+			"mp": 30,
+			"target": "All Enemies",
+			"elements": [
+				"fire"
+			]
 		},
 		"Electric Boogie": {
 			"attribute": "Dance",
@@ -1478,7 +2243,12 @@
 			"power": 30,
 			"desc": {
 				"en": "A dance that inflicts extreme electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
-			}
+			},
+			"mp": 30,
+			"target": "All Enemies",
+			"elements": [
+				"thunder"
+			]
 		},
 		"Hustle Dance": {
 			"attribute": "Dance",
@@ -1486,7 +2256,9 @@
 			"power": 40,
 			"desc": {
 				"en": "A dance that heals allies at random, 2 to 6 tiems in total. The higher the user's level, the greater the healing amount."
-			}
+			},
+			"mp": 40,
+			"target": "Random Allies"
 		},
 		"Kerplunk Dance": {
 			"attribute": "Dance",
@@ -1494,7 +2266,10 @@
 			"power": null,
 			"desc": {
 				"en": "A dance that heals or resurrects all allies, including reserves, but at the cost of the user's life. The user cannot be resurrected in the same battle."
-			}
+			},
+			"mp": 100,
+			"mpType": "all-with-min",
+			"target": "All Allies"
 		},
 		"Weird Dance": {
 			"attribute": "Dance",
@@ -1502,7 +2277,9 @@
 			"power": 0,
 			"desc": {
 				"en": "A dance that decreases the MP of a single enemy."
-			}
+			},
+			"mp": 0,
+			"target": "Single Enemy"
 		},
 		"Tap Dance": {
 			"attribute": "Dance",
@@ -1510,7 +2287,12 @@
 			"power": 0,
 			"desc": {
 				"en": "A dance that absorbs some MP from a single enemy."
-			}
+			},
+			"mp": 0,
+			"target": "Single Enemy",
+			"elements": [
+				"drain_mp"
+			]
 		},
 		"Fuddle Dance": {
 			"attribute": "Dance",
@@ -1518,7 +2300,12 @@
 			"power": 2,
 			"desc": {
 				"en": "A dance that confuses all enemies for 2 to 5 turns."
-			}
+			},
+			"mp": 2,
+			"target": "All Enemies",
+			"elements": [
+				"confusion"
+			]
 		},
 		"Sultry Dance": {
 			"attribute": "Dance",
@@ -1526,7 +2313,12 @@
 			"power": 2,
 			"desc": {
 				"en": "A bewitching dance that stuns all enemies for 1 turn."
-			}
+			},
+			"mp": 2,
+			"target": "All Enemies",
+			"elements": [
+				"rest"
+			]
 		},
 		"Death Dance": {
 			"attribute": "Dance",
@@ -1534,7 +2326,12 @@
 			"power": 6,
 			"desc": {
 				"en": "A dance that kills all enemies instantly."
-			}
+			},
+			"mp": 6,
+			"target": "All Enemies",
+			"elements": [
+				"sudden_death"
+			]
 		},
 		"Mirror Moves": {
 			"attribute": "Dance",
@@ -1542,7 +2339,9 @@
 			"power": 32,
 			"desc": {
 				"en": "A secret technique that copies an enemy's dance moves step-for-step, effectively reflecting their dance back at them. Protects all allies once only."
-			}
+			},
+			"mp": 32,
+			"target": "All Allies"
 		},
 		"Intense Defense": {
 			"attribute": "Other",
@@ -1550,7 +2349,9 @@
 			"power": 3,
 			"desc": {
 				"en": "Assumes an impenetrable defensive stance that reduces most damage received by 9/10. Can only be used once per battle."
-			}
+			},
+			"mp": 3,
+			"target": "Self"
 		}
 	},
 	"talents": {
@@ -1634,7 +2435,12 @@
 				"Max. MP +16",
 				"Max. MP +24"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Frizz Afficionado"
+				]
+			]
 		},
 		"Splash Afficionado": {
 			"moves": [
@@ -1716,7 +2522,12 @@
 				"Max. MP +16",
 				"Max. MP +24"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Splash Afficionado"
+				]
+			]
 		},
 		"Woosh Afficionado": {
 			"moves": [
@@ -1880,7 +2691,12 @@
 				"Max. MP +16",
 				"Max. MP +24"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Crag Afficionado"
+				]
+			]
 		},
 		"Bang Afficionado": {
 			"moves": [
@@ -1962,7 +2778,12 @@
 				"Max. MP +16",
 				"Max. MP +24"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Bang Afficionado"
+				]
+			]
 		},
 		"Crack Afficionado": {
 			"moves": [
@@ -2045,7 +2866,12 @@
 				"Max. MP +24",
 				"Max. MP +8"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Crack Afficionado"
+				]
+			]
 		},
 		"Zap Afficionado": {
 			"moves": [
@@ -2127,7 +2953,12 @@
 				"Max. MP +16",
 				"Max. MP +24"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Zap Afficionado"
+				]
+			]
 		},
 		"Sizz Afficionado": {
 			"moves": [
@@ -2209,7 +3040,12 @@
 				"Max. MP +16",
 				"Max. MP +24"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Sizz Afficionado"
+				]
+			]
 		},
 		"Zam Afficionado": {
 			"moves": [
@@ -2291,7 +3127,12 @@
 				"Max. MP +16",
 				"Max. MP +24"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Zam Afficionado"
+				]
+			]
 		},
 		"Blazer": {
 			"moves": [
@@ -2381,7 +3222,12 @@
 				"Attack +16",
 				"Defence +12"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Blazer"
+				]
+			]
 		},
 		"Chilly Receptionist": {
 			"moves": [
@@ -2471,7 +3317,12 @@
 				"Agility +16",
 				"Wisdom +32"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Chilly Receptionist"
+				]
+			]
 		},
 		"Shallow Breather": {
 			"moves": [
@@ -2557,7 +3408,12 @@
 					"sp": 200
 				}
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Shallow Breather"
+				]
+			]
 		},
 		"Dancer": {
 			"moves": [
@@ -9217,7 +10073,17 @@
 					"sp": 200
 				}
 			],
-			"category": "Combination"
+			"category": "Combination",
+			"from": [
+				[
+					"Cure-All",
+					"Healer"
+				],
+				[
+					"Cure-All",
+					"Paramedic"
+				]
+			]
 		},
 		"Lord Of The Dragovians": {
 			"moves": [
@@ -9684,7 +10550,13 @@
 					"sp": 200
 				}
 			],
-			"category": "Combination"
+			"category": "Combination",
+			"from": [
+				[
+					"Spicy Slasher",
+					"Blowy Slasher"
+				]
+			]
 		},
 		"Storm Brewer": {
 			"moves": [
@@ -9721,7 +10593,13 @@
 					"sp": 200
 				}
 			],
-			"category": "Combination"
+			"category": "Combination",
+			"from": [
+				[
+					"Stony Slasher",
+					"Blowy Slasher"
+				]
+			]
 		},
 		"Freeze Popper": {
 			"moves": [
@@ -9758,7 +10636,13 @@
 					"sp": 200
 				}
 			],
-			"category": "Combination"
+			"category": "Combination",
+			"from": [
+				[
+					"Stony Slasher",
+					"Soggy Slasher"
+				]
+			]
 		},
 		"Freezer Burner": {
 			"moves": [
@@ -9795,7 +10679,13 @@
 					"sp": 200
 				}
 			],
-			"category": "Combination"
+			"category": "Combination",
+			"from": [
+				[
+					"Spicy Slasher",
+					"Soggy Slasher"
+				]
+			]
 		},
 		"Hair Splitter": {
 			"moves": [
@@ -9840,7 +10730,33 @@
 					"sp": 200
 				}
 			],
-			"category": "Combination"
+			"category": "Combination",
+			"from": [
+				[
+					"Freezer Burner",
+					"Air Fryer"
+				],
+				[
+					"Freezer Burner",
+					"Freeze Popper"
+				],
+				[
+					"Freezer Burner",
+					"Storm Brewer"
+				],
+				[
+					"Air Fryer",
+					"Freeze Popper"
+				],
+				[
+					"Air Fryer",
+					"Storm Brewer"
+				],
+				[
+					"Freeze Popper",
+					"Storm Brewer"
+				]
+			]
 		},
 		"Impactor": {
 			"moves": [
@@ -9885,7 +10801,33 @@
 					"sp": 200
 				}
 			],
-			"category": "Combination"
+			"category": "Combination",
+			"from": [
+				[
+					"Crag Virtuoso",
+					"Bang Virtuoso"
+				],
+				[
+					"Crag Virtuoso",
+					"Frizz Virtuoso"
+				],
+				[
+					"Crag Virtuoso",
+					"Zam Virtuoso"
+				],
+				[
+					"Frizz Virtuoso",
+					"Zam Virtuoso"
+				],
+				[
+					"Frizz Virtuoso",
+					"Bang Virtuoso"
+				],
+				[
+					"Zam Virtuoso",
+					"Bang Virtuoso"
+				]
+			]
 		},
 		"Polariser": {
 			"moves": [
@@ -9930,7 +10872,49 @@
 					"sp": 200
 				}
 			],
-			"category": "Combination"
+			"category": "Combination",
+			"from": [
+				[
+					"Woosh Virtuoso",
+					"Crack Virtuoso"
+				],
+				[
+					"Woosh Virtuoso",
+					"Sizz Virtuoso"
+				],
+				[
+					"Woosh Virtuoso",
+					"Zap Virtuoso"
+				],
+				[
+					"Woosh Virtuoso",
+					"Splash Virtuoso"
+				],
+				[
+					"Crack Virtuoso",
+					"Zap Virtuoso"
+				],
+				[
+					"Crack Virtuoso",
+					"Sizz Virtuoso"
+				],
+				[
+					"Crack Virtuoso",
+					"Splash Virtuoso"
+				],
+				[
+					"Zap Virtuoso",
+					"Sizz Virtuoso"
+				],
+				[
+					"Zap Virtuoso",
+					"Splash Virtuoso"
+				],
+				[
+					"Sizz Virtuoso",
+					"Splash Virtuoso"
+				]
+			]
 		},
 		"Perfect Speller": {
 			"moves": [
@@ -9971,7 +10955,13 @@
 					"sp": 200
 				}
 			],
-			"category": "Combination"
+			"category": "Combination",
+			"from": [
+				[
+					"Polariser",
+					"Impactor"
+				]
+			]
 		},
 		"Blow Hard": {
 			"moves": [
@@ -10016,7 +11006,21 @@
 					"sp": 200
 				}
 			],
-			"category": "Combination"
+			"category": "Combination",
+			"from": [
+				[
+					"Deep Breather",
+					"Smart Blazer"
+				],
+				[
+					"Deep Breather",
+					"Frosty Receptionist"
+				],
+				[
+					"Smart Blazer",
+					"Frosty Receptionist"
+				]
+			]
 		},
 		"HP Booster I": {
 			"moves": [
@@ -10025,8 +11029,28 @@
 					"sp": 5
 				},
 				{
+					"move": "Max. HP +4",
+					"sp": 10
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 20
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 30
+				},
+				{
 					"move": "Max. HP +8",
 					"sp": 50
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 70
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 85
 				},
 				{
 					"move": "Max. HP +12",
@@ -10047,12 +11071,32 @@
 					"sp": 5
 				},
 				{
+					"move": "Max. HP +4",
+					"sp": 15
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 30
+				},
+				{
 					"move": "Max. HP +8",
 					"sp": 50
 				},
 				{
+					"move": "Max. HP +8",
+					"sp": 75
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 100
+				},
+				{
 					"move": "Max. HP +12",
 					"sp": 130
+				},
+				{
+					"move": "Max. HP +12",
+					"sp": 160
 				},
 				{
 					"move": "Max. HP +16",
@@ -10065,7 +11109,12 @@
 				"Max. HP +4",
 				"Max. HP +8"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"HP Booster I"
+				]
+			]
 		},
 		"HP Booster III": {
 			"moves": [
@@ -10074,8 +11123,20 @@
 					"sp": 10
 				},
 				{
+					"move": "Max. HP +4",
+					"sp": 20
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 30
+				},
+				{
 					"move": "Max. HP +8",
 					"sp": 50
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 70
 				},
 				{
 					"move": "Max. HP +12",
@@ -10107,7 +11168,12 @@
 				"Max. HP +4",
 				"Max. HP +8"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"HP Booster II"
+				]
+			]
 		},
 		"HP Booster IV": {
 			"moves": [
@@ -10164,7 +11230,12 @@
 				"Max. HP +48",
 				"Max. HP +8"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"HP Booster III"
+				]
+			]
 		},
 		"MP Booster I": {
 			"moves": [
@@ -10173,8 +11244,24 @@
 					"sp": 5
 				},
 				{
+					"move": "Max. MP +4",
+					"sp": 10
+				},
+				{
 					"move": "Max. MP +8",
 					"sp": 20
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 30
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 50
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 70
 				},
 				{
 					"move": "Max. MP +16",
@@ -10200,12 +11287,28 @@
 					"sp": 5
 				},
 				{
+					"move": "Max. MP +4",
+					"sp": 15
+				},
+				{
 					"move": "Max. MP +8",
 					"sp": 30
 				},
 				{
+					"move": "Max. MP +8",
+					"sp": 50
+				},
+				{
 					"move": "Max. MP +16",
 					"sp": 75
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 100
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 130
 				},
 				{
 					"move": "Max. MP +24",
@@ -10223,7 +11326,12 @@
 				"Max. MP +4",
 				"Max. MP +8"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"MP Booster I"
+				]
+			]
 		},
 		"MP Booster III": {
 			"moves": [
@@ -10232,12 +11340,20 @@
 					"sp": 10
 				},
 				{
+					"move": "Max. MP +4",
+					"sp": 20
+				},
+				{
 					"move": "Max. MP +8",
 					"sp": 30
 				},
 				{
 					"move": "Max. MP +16",
 					"sp": 50
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 70
 				},
 				{
 					"move": "Max. MP +24",
@@ -10270,7 +11386,12 @@
 				"Max. MP +8",
 				"Ultra Drain Blocker"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"MP Booster II"
+				]
+			]
 		},
 		"MP Booster IV": {
 			"moves": [
@@ -10327,7 +11448,12 @@
 				"Max. MP +8",
 				"Max. MP +96"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"MP Booster III"
+				]
+			]
 		},
 		"Attack Booster I": {
 			"moves": [
@@ -10342,6 +11468,18 @@
 				{
 					"move": "Attack +8",
 					"sp": 20
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 30
+				},
+				{
+					"move": "Attack +8",
+					"sp": 50
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 70
 				},
 				{
 					"move": "Attack +12",
@@ -10371,8 +11509,24 @@
 					"sp": 30
 				},
 				{
+					"move": "Max. HP +4",
+					"sp": 50
+				},
+				{
+					"move": "Attack +8",
+					"sp": 75
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 100
+				},
+				{
 					"move": "Attack +12",
 					"sp": 130
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 160
 				},
 				{
 					"move": "Attack +16",
@@ -10386,7 +11540,12 @@
 				"Attack +8",
 				"Max. HP +4"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Attack Booster I"
+				]
+			]
 		},
 		"Attack Booster III": {
 			"moves": [
@@ -10403,12 +11562,24 @@
 					"sp": 30
 				},
 				{
+					"move": "Max. HP +8",
+					"sp": 50
+				},
+				{
 					"move": "Attack +16",
 					"sp": 70
 				},
 				{
+					"move": "Max. HP +8",
+					"sp": 85
+				},
+				{
 					"move": "Attack +20",
 					"sp": 100
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 120
 				},
 				{
 					"move": "Attack +24",
@@ -10428,7 +11599,12 @@
 				"Max. HP +8",
 				"Ultra Tough Customer"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Attack Booster II"
+				]
+			]
 		},
 		"Attack Booster IV": {
 			"moves": [
@@ -10485,7 +11661,12 @@
 				"Attack +48",
 				"Attack +8"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Attack Booster III"
+				]
+			]
 		},
 		"Defence Booster I": {
 			"moves": [
@@ -10502,8 +11683,16 @@
 					"sp": 20
 				},
 				{
+					"move": "Max. HP +4",
+					"sp": 30
+				},
+				{
 					"move": "Defence +12",
 					"sp": 50
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 70
 				},
 				{
 					"move": "Defence +24",
@@ -10534,8 +11723,20 @@
 					"sp": 30
 				},
 				{
+					"move": "Max. HP +4",
+					"sp": 50
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 100
+				},
+				{
 					"move": "Defence +24",
 					"sp": 130
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 160
 				},
 				{
 					"move": "Defence +32",
@@ -10549,7 +11750,12 @@
 				"Defence +8",
 				"Max. HP +4"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Defence Booster I"
+				]
+			]
 		},
 		"Defence Booster III": {
 			"moves": [
@@ -10566,12 +11772,24 @@
 					"sp": 30
 				},
 				{
+					"move": "Max. HP +8",
+					"sp": 50
+				},
+				{
 					"move": "Defence +32",
 					"sp": 70
 				},
 				{
+					"move": "Max. HP +8",
+					"sp": 85
+				},
+				{
 					"move": "Defence +40",
 					"sp": 100
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 120
 				},
 				{
 					"move": "Defence +48",
@@ -10589,9 +11807,15 @@
 				"Defence +40",
 				"Defence +48",
 				"Max. HP +8",
+				"Max. MP +8",
 				"Ultra Tough Customer"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Defence Booster II"
+				]
+			]
 		},
 		"Defence Booster IV": {
 			"moves": [
@@ -10648,7 +11872,12 @@
 				"Defence +8",
 				"Defence +96"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Defence Booster III"
+				]
+			]
 		},
 		"Agility Booster I": {
 			"moves": [
@@ -10663,6 +11892,18 @@
 				{
 					"move": "Agility +8",
 					"sp": 20
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 30
+				},
+				{
+					"move": "Agility +8",
+					"sp": 50
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 70
 				},
 				{
 					"move": "Agility +12",
@@ -10692,8 +11933,24 @@
 					"sp": 30
 				},
 				{
+					"move": "Max. HP +4",
+					"sp": 50
+				},
+				{
+					"move": "Agility +8",
+					"sp": 75
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 100
+				},
+				{
 					"move": "Agility +12",
 					"sp": 130
+				},
+				{
+					"move": "Max. HP +4",
+					"sp": 160
 				},
 				{
 					"move": "Agility +16",
@@ -10707,7 +11964,12 @@
 				"Agility +8",
 				"Max. HP +4"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Agility Booster I"
+				]
+			]
 		},
 		"Agility Booster III": {
 			"moves": [
@@ -10724,12 +11986,24 @@
 					"sp": 30
 				},
 				{
+					"move": "Max. HP +8",
+					"sp": 50
+				},
+				{
 					"move": "Agility +16",
 					"sp": 70
 				},
 				{
+					"move": "Max. HP +8",
+					"sp": 85
+				},
+				{
 					"move": "Agility +20",
 					"sp": 100
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 120
 				},
 				{
 					"move": "Agility +24",
@@ -10749,7 +12023,12 @@
 				"Max. HP +8",
 				"Ultra Tough Customer"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Agility Booster II"
+				]
+			]
 		},
 		"Agility Booster IV": {
 			"moves": [
@@ -10806,7 +12085,12 @@
 				"Agility +48",
 				"Agility +8"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Agility Booster III"
+				]
+			]
 		},
 		"Wisdom Booster I": {
 			"moves": [
@@ -10821,6 +12105,10 @@
 				{
 					"move": "Wisdom +8",
 					"sp": 20
+				},
+				{
+					"move": "Max. MP +4",
+					"sp": 30
 				},
 				{
 					"move": "Wisdom +16",
@@ -10860,8 +12148,24 @@
 					"sp": 30
 				},
 				{
+					"move": "Max. MP +8",
+					"sp": 50
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 75
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 100
+				},
+				{
 					"move": "Wisdom +24",
 					"sp": 130
+				},
+				{
+					"move": "Max. MP +8",
+					"sp": 160
 				},
 				{
 					"move": "Wisdom +32",
@@ -10875,7 +12179,12 @@
 				"Wisdom +32",
 				"Wisdom +8"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Wisdom Booster I"
+				]
+			]
 		},
 		"Wisdom Booster III": {
 			"moves": [
@@ -10892,12 +12201,24 @@
 					"sp": 30
 				},
 				{
+					"move": "Max. MP +16",
+					"sp": 50
+				},
+				{
 					"move": "Wisdom +32",
 					"sp": 70
 				},
 				{
+					"move": "Max. MP +16",
+					"sp": 85
+				},
+				{
 					"move": "Wisdom +40",
 					"sp": 100
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 120
 				},
 				{
 					"move": "Wisdom +48",
@@ -10917,7 +12238,12 @@
 				"Wisdom +40",
 				"Wisdom +48"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Wisdom Booster II"
+				]
+			]
 		},
 		"Wisdom Booster IV": {
 			"moves": [
@@ -10974,7 +12300,12 @@
 				"Wisdom +8",
 				"Wisdom +96"
 			],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [
+				[
+					"Wisdom Booster III"
+				]
+			]
 		},
 		"Frizz Ward": {
 			"moves": [
@@ -10987,12 +12318,24 @@
 					"sp": 10
 				},
 				{
+					"move": "Wisdom +16",
+					"sp": 20
+				},
+				{
 					"move": "Max. MP +16",
 					"sp": 40
 				},
 				{
 					"move": "Ultra Frizz Ward",
 					"sp": 60
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 90
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 120
 				},
 				{
 					"move": "Castslasher",
@@ -11019,12 +12362,24 @@
 					"sp": 10
 				},
 				{
+					"move": "Wisdom +16",
+					"sp": 20
+				},
+				{
 					"move": "Max. MP +16",
 					"sp": 40
 				},
 				{
 					"move": "Ultra Splish Ward",
 					"sp": 60
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 90
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 120
 				},
 				{
 					"move": "Castslasher",
@@ -11051,12 +12406,24 @@
 					"sp": 10
 				},
 				{
+					"move": "Wisdom +16",
+					"sp": 20
+				},
+				{
 					"move": "Max. MP +16",
 					"sp": 40
 				},
 				{
 					"move": "Ultra Whoosh Ward",
 					"sp": 60
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 90
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 120
 				},
 				{
 					"move": "Castslasher",
@@ -11095,6 +12462,10 @@
 					"sp": 60
 				},
 				{
+					"move": "Max. MP +16",
+					"sp": 120
+				},
+				{
 					"move": "Castslasher",
 					"sp": 150
 				}
@@ -11120,12 +12491,24 @@
 					"sp": 10
 				},
 				{
+					"move": "Wisdom +16",
+					"sp": 20
+				},
+				{
 					"move": "Max. MP +16",
 					"sp": 40
 				},
 				{
 					"move": "Ultra Bang Ward",
 					"sp": 60
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 90
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 120
 				},
 				{
 					"move": "Castslasher",
@@ -11152,12 +12535,24 @@
 					"sp": 10
 				},
 				{
+					"move": "Wisdom +16",
+					"sp": 20
+				},
+				{
 					"move": "Max. MP +16",
 					"sp": 40
 				},
 				{
 					"move": "Ultra Crack Ward",
 					"sp": 60
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 90
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 120
 				},
 				{
 					"move": "Castslasher",
@@ -11184,8 +12579,24 @@
 					"sp": 10
 				},
 				{
+					"move": "Wisdom +16",
+					"sp": 20
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 40
+				},
+				{
 					"move": "Ultra Zap Ward",
 					"sp": 60
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 90
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 120
 				},
 				{
 					"move": "Castslasher",
@@ -11223,11 +12634,20 @@
 					"sp": 60
 				},
 				{
+					"move": "Agility +16",
+					"sp": 90
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 120
+				},
+				{
 					"move": "Castslasher",
 					"sp": 150
 				}
 			],
 			"traits": [
+				"Agility +16",
 				"Agility +8",
 				"Castslasher",
 				"Max. HP +8",
@@ -11248,8 +12668,24 @@
 					"sp": 10
 				},
 				{
+					"move": "Wisdom +16",
+					"sp": 20
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 40
+				},
+				{
 					"move": "Ultra Zam Ward",
 					"sp": 60
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 90
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 120
 				},
 				{
 					"move": "Castslasher",
@@ -11285,6 +12721,14 @@
 				{
 					"move": "Ultra Tough Customer",
 					"sp": 60
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 90
+				},
+				{
+					"move": "Attack +8",
+					"sp": 120
 				},
 				{
 					"move": "Auto-Cadabra",
@@ -11324,6 +12768,10 @@
 					"sp": 60
 				},
 				{
+					"move": "Max. MP +16",
+					"sp": 90
+				},
+				{
 					"move": "Attack +8",
 					"sp": 120
 				},
@@ -11354,8 +12802,24 @@
 					"sp": 10
 				},
 				{
+					"move": "Max. MP +16",
+					"sp": 20
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 40
+				},
+				{
 					"move": "Ultra Spellbinder",
 					"sp": 60
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 90
+				},
+				{
+					"move": "Wisdom +16",
+					"sp": 120
 				},
 				{
 					"move": "Auto-Cadabra",
@@ -11381,8 +12845,24 @@
 					"sp": 10
 				},
 				{
+					"move": "Max. MP +16",
+					"sp": 20
+				},
+				{
+					"move": "Agility +8",
+					"sp": 40
+				},
+				{
 					"move": "Ultra Drain Blocker",
 					"sp": 60
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 90
+				},
+				{
+					"move": "Agility +8",
+					"sp": 120
 				},
 				{
 					"move": "Auto-Cadabra",
@@ -11408,8 +12888,24 @@
 					"sp": 10
 				},
 				{
+					"move": "Max. HP +8",
+					"sp": 20
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 40
+				},
+				{
 					"move": "Ultra Antioxidant",
 					"sp": 60
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 90
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 120
 				},
 				{
 					"move": "Auto-Restora",
@@ -11439,8 +12935,16 @@
 					"sp": 20
 				},
 				{
+					"move": "Max. HP +8",
+					"sp": 40
+				},
+				{
 					"move": "Ultra Granite Chin",
 					"sp": 60
+				},
+				{
+					"move": "Agility +8",
+					"sp": 120
 				},
 				{
 					"move": "Auto-Restora",
@@ -11467,8 +12971,24 @@
 					"sp": 10
 				},
 				{
+					"move": "Max. HP +8",
+					"sp": 20
+				},
+				{
+					"move": "Agility +8",
+					"sp": 40
+				},
+				{
 					"move": "Ultra Insomniac",
 					"sp": 60
+				},
+				{
+					"move": "Agility +8",
+					"sp": 90
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 120
 				},
 				{
 					"move": "Auto-Restora",
@@ -11494,8 +13014,16 @@
 					"sp": 10
 				},
 				{
+					"move": "Max. HP +8",
+					"sp": 20
+				},
+				{
 					"move": "Ultra Clear Thinker",
 					"sp": 60
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 90
 				},
 				{
 					"move": "Auto-Restora",
@@ -11525,8 +13053,16 @@
 					"sp": 20
 				},
 				{
+					"move": "Max. HP +8",
+					"sp": 40
+				},
+				{
 					"move": "Ultra Fidget",
 					"sp": 60
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 120
 				},
 				{
 					"move": "Auto-Restora",
@@ -11553,8 +13089,24 @@
 					"sp": 10
 				},
 				{
+					"move": "Max. HP +8",
+					"sp": 20
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 40
+				},
+				{
 					"move": "Ultra Death Defier",
 					"sp": 60
+				},
+				{
+					"move": "Max. HP +8",
+					"sp": 90
+				},
+				{
+					"move": "Max. MP +16",
+					"sp": 120
 				},
 				{
 					"move": "Auto-Restora",
@@ -11614,7 +13166,8 @@
 				"Ultra Visionary",
 				"Ultra Zap Ward"
 			],
-			"category": "Standard"
+			"category": "Standard",
+			"eggOnly": true
 		},
 		"Hard Warder": {
 			"moves": [
@@ -11661,7 +13214,8 @@
 				"Ultra Splish Ward",
 				"Ultra Visionary"
 			],
-			"category": "Standard"
+			"category": "Standard",
+			"eggOnly": true
 		},
 		"Holy Warder": {
 			"moves": [
@@ -11708,7 +13262,8 @@
 				"Ultra Whoosh Ward",
 				"Ultra Zam Ward"
 			],
-			"category": "Standard"
+			"category": "Standard",
+			"eggOnly": true
 		},
 		"Magma Shield": {
 			"moves": [
@@ -11765,7 +13320,13 @@
 				"Ultra Tough Customer",
 				"Ultra Visionary"
 			],
-			"category": "Combination"
+			"category": "Combination",
+			"from": [
+				[
+					"Crag Ward",
+					"Frizz Ward"
+				]
+			]
 		},
 		"Glacier Shield": {
 			"moves": [
@@ -11822,7 +13383,13 @@
 				"Ultra Splish Ward",
 				"Ultra Tough Customer"
 			],
-			"category": "Combination"
+			"category": "Combination",
+			"from": [
+				[
+					"Crack Ward",
+					"Splish Ward"
+				]
+			]
 		},
 		"Cyclone Shield": {
 			"moves": [
@@ -11879,7 +13446,13 @@
 				"Ultra Granite Chin",
 				"Ultra Whoosh Ward"
 			],
-			"category": "Combination"
+			"category": "Combination",
+			"from": [
+				[
+					"Woosh Guard",
+					"Bang Ward"
+				]
+			]
 		},
 		"Chiaroscuro Shield": {
 			"moves": [
@@ -11936,7 +13509,13 @@
 				"Ultra Sizz Ward",
 				"Ultra Zam Ward"
 			],
-			"category": "Combination"
+			"category": "Combination",
+			"from": [
+				[
+					"Zam Ward",
+					"Sizz Ward"
+				]
+			]
 		},
 		"Tremor Shield": {
 			"moves": [
@@ -11993,7 +13572,13 @@
 				"Ultra Crag Ward",
 				"Ultra Visionary"
 			],
-			"category": "Combination"
+			"category": "Combination",
+			"from": [
+				[
+					"Crag Ward",
+					"Bang Ward"
+				]
+			]
 		},
 		"Fulgurite Shield": {
 			"moves": [
@@ -12050,7 +13635,13 @@
 				"Ultra Spellbinder",
 				"Ultra Zap Ward"
 			],
-			"category": "Combination"
+			"category": "Combination",
+			"from": [
+				[
+					"Zap Ward",
+					"Sizz Ward"
+				]
+			]
 		},
 		"Cheesy Grin": {
 			"moves": [

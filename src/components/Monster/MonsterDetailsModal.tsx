@@ -161,16 +161,15 @@ const MonsterDetailsModal: React.FC<Props> = ({
 									</li>
 								)}
 								{!!details.randomSkills?.length && (
-									<li>
-										<span>{translateUI('2nd skill among')}</span>
-										<b>
+									<li className="flex align-items-center">
+										<div>{translateUI('2nd skill among')}</div>
+										<div>
 											{details.randomSkills.map((name, i) => (
-												<React.Fragment key={name}>
-													{i > 0 && ' · '}
-													{named(name, terms.skills)}
-												</React.Fragment>
+												<div key={name}>
+													<b>{named(name, terms.skills)}</b>
+												</div>
 											))}
-										</b>
+										</div>
 									</li>
 								)}
 								<li>
@@ -295,11 +294,7 @@ const TraitsTable = ({
 							<th scope="row">
 								{level} {trait.level}
 							</th>
-							<TraitCell
-								names={[trait.name]}
-								terms={terms}
-								named={named}
-							/>
+							<TraitCell names={[trait.name]} terms={terms} named={named} />
 						</tr>
 					))}
 				</tbody>
