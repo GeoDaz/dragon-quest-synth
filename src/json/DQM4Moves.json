@@ -3,7 +3,8 @@
 		"メラ": {
 			"en": "Frizz",
 			"desc": {
-				"en": "Inflicts minor fire-elemental spell damage on a single enemy."
+				"en": "Inflicts minor fire-elemental spell damage on a single enemy.",
+				"fr": "Inflige de légers dégâts de sort de feu à un ennemi."
 			},
 			"mp": 2,
 			"target": "Single Enemy",
@@ -14,7 +15,8 @@
 		"メラミ": {
 			"en": "Frizzle",
 			"desc": {
-				"en": "Inflicts medium fire-elemental spell damage on a single enemy."
+				"en": "Inflicts medium fire-elemental spell damage on a single enemy.",
+				"fr": "Inflige des dégâts de sort de feu à un ennemi."
 			},
 			"mp": 5,
 			"target": "Single Enemy",
@@ -25,7 +27,8 @@
 		"メラゾーマ": {
 			"en": "Kafrizz",
 			"desc": {
-				"en": "Inflicts major fire-elemental spell damage on a single enemy."
+				"en": "Inflicts major fire-elemental spell damage on a single enemy.",
+				"fr": "Inflige d'importants dégâts de sort de feu à un ennemi."
 			},
 			"mp": 12,
 			"target": "Single Enemy",
@@ -36,7 +39,8 @@
 		"メラガイアー": {
 			"en": "Kafrizzle",
 			"desc": {
-				"en": "Inflicts extreme fire-elemental spell damage on a single enemy."
+				"en": "Inflicts extreme fire-elemental spell damage on a single enemy.",
+				"fr": "Inflige d'impressionnants dégâts de sort de feu à un ennemi."
 			},
 			"mp": 32,
 			"target": "Single Enemy",
@@ -47,7 +51,8 @@
 		"ザバ": {
 			"en": "Splish",
 			"desc": {
-				"en": "Inflicts minor water-elemental spell damage on a single enemy."
+				"en": "Inflicts minor water-elemental spell damage on a single enemy.",
+				"fr": "Inflige de légers dégâts de sort d'eau à un ennemi."
 			},
 			"mp": 2,
 			"target": "Single Enemy",
@@ -58,7 +63,8 @@
 		"ザバラ": {
 			"en": "Splash",
 			"desc": {
-				"en": "Inflicts medium water-elemental spell damage on a single enemy."
+				"en": "Inflicts medium water-elemental spell damage on a single enemy.",
+				"fr": "Inflige des dégâts de sort d'eau à un ennemi."
 			},
 			"mp": 5,
 			"target": "Single Enemy",
@@ -69,7 +75,8 @@
 		"バギ": {
 			"en": "Woosh",
 			"desc": {
-				"en": "Inflicts minor wind-elemental spell damage on all enemies."
+				"en": "Inflicts minor wind-elemental spell damage on all enemies.",
+				"fr": "Inflige de légers dégâts de sort de vent à tous les ennemis."
 			},
 			"mp": 4,
 			"target": "All Enemies",
@@ -80,7 +87,8 @@
 		"バギマ": {
 			"en": "Swoosh",
 			"desc": {
-				"en": "Inflicts medium wind-elemental spell damage on all enemies."
+				"en": "Inflicts medium wind-elemental spell damage on all enemies.",
+				"fr": "Inflige des dégâts de sort de vent à tous les ennemis."
 			},
 			"mp": 11,
 			"target": "All Enemies",
@@ -91,7 +99,8 @@
 		"バギクロス": {
 			"en": "Kaswoosh",
 			"desc": {
-				"en": "Inflicts major wind-elemental spell damage on all enemies."
+				"en": "Inflicts major wind-elemental spell damage on all enemies.",
+				"fr": "Inflige d'importants dégâts de sort de vent à tous les ennemis."
 			},
 			"mp": 22,
 			"target": "All Enemies",
@@ -102,7 +111,8 @@
 		"バギムーチョ": {
 			"en": "Kaswooshle",
 			"desc": {
-				"en": "Inflicts extreme wind-elemental spell damage on all enemies."
+				"en": "Inflicts extreme wind-elemental spell damage on all enemies.",
+				"fr": "Inflige d'impressionnants dégâts de sort de vent à tous les ennemis."
 			},
 			"mp": 54,
 			"target": "All Enemies",
@@ -113,7 +123,8 @@
 		"ジバリア": {
 			"en": "Crag",
 			"desc": {
-				"en": "Inflicts minor earth-elemental spell damage on all enemies, but not until the following round."
+				"en": "Inflicts minor earth-elemental spell damage on all enemies, but not until the following round.",
+				"fr": "Inflige de légers dégâts de sort de terre à tous les ennemis, mais pas avant le round suivant."
 			},
 			"mp": 5,
 			"target": "All Enemies",
@@ -124,7 +135,8 @@
 		"ジバリカ": {
 			"en": "Craggle",
 			"desc": {
-				"en": "Inflicts medium earth-elemental spell damage on all enemies, but not until the following round."
+				"en": "Inflicts medium earth-elemental spell damage on all enemies, but not until the following round.",
+				"fr": "Inflige des dégâts de sort de terre à tous les ennemis, mais pas avant le round suivant."
 			},
 			"mp": 12,
 			"target": "All Enemies",
@@ -135,7 +147,8 @@
 		"イオ": {
 			"en": "Bang",
 			"desc": {
-				"en": "Inflicts minor explosive spell damage on all enemies."
+				"en": "Inflicts minor explosive spell damage on all enemies.",
+				"fr": "Inflige de légers dégâts de sort d'explosion à tous les ennemis."
 			},
 			"mp": 5,
 			"target": "All Enemies",
@@ -146,7 +159,8 @@
 		"イオラ": {
 			"en": "Boom",
 			"desc": {
-				"en": "Inflicts medium explosive spell damage on all enemies."
+				"en": "Inflicts medium explosive spell damage on all enemies.",
+				"fr": "Inflige des dégâts de sort d'explosion à tous les ennemis."
 			},
 			"mp": 12,
 			"target": "All Enemies",
@@ -157,7 +171,8 @@
 		"ヒャド": {
 			"en": "Crack",
 			"desc": {
-				"en": "Inflicts minor ice-elemental spell damage on a single enemy."
+				"en": "Inflicts minor ice-elemental spell damage on a single enemy.",
+				"fr": "Inflige de légers dégâts de sort de glace à un ennemi."
 			},
 			"mp": 3,
 			"target": "Single Enemy",
@@ -168,7 +183,8 @@
 		"ヒャダルコ": {
 			"en": "Crackle",
 			"desc": {
-				"en": "Inflicts medium ice-elemental spell damage on all enemies."
+				"en": "Inflicts medium ice-elemental spell damage on all enemies.",
+				"fr": "Inflige des dégâts de sort de glace à tous les ennemis."
 			},
 			"mp": 12,
 			"target": "All Enemies",
@@ -179,7 +195,8 @@
 		"マヒャド": {
 			"en": "Kacrack",
 			"desc": {
-				"en": "Inflicts major ice-elemental spell damage on all enemies."
+				"en": "Inflicts major ice-elemental spell damage on all enemies.",
+				"fr": "Inflige d'importants dégâts de sort de glace à tous les ennemis."
 			},
 			"mp": 22,
 			"target": "All Enemies",
@@ -190,7 +207,8 @@
 		"マヒャデドス": {
 			"en": "Kacrackle",
 			"desc": {
-				"en": "Inflicts extreme ice-elemental spell damage on all enemies."
+				"en": "Inflicts extreme ice-elemental spell damage on all enemies.",
+				"fr": "Inflige d'impressionnants dégâts de sort de glace à tous les ennemis."
 			},
 			"mp": 58,
 			"target": "All Enemies",
@@ -201,7 +219,8 @@
 		"デイン": {
 			"en": "Zap",
 			"desc": {
-				"en": "Inflicts minor electrical spell damage on a single enemy."
+				"en": "Inflicts minor electrical spell damage on a single enemy.",
+				"fr": "Inflige de légers dégâts de sort de foudre à un ennemi."
 			},
 			"mp": 2,
 			"target": "Single Enemy",
@@ -212,7 +231,8 @@
 		"ライデイン": {
 			"en": "Zapple",
 			"desc": {
-				"en": "Inflicts medium electrical spell damage on all enemies."
+				"en": "Inflicts medium electrical spell damage on all enemies.",
+				"fr": "Inflige des dégâts de sort de foudre à tous les ennemis."
 			},
 			"mp": 13,
 			"target": "All Enemies",
@@ -223,7 +243,8 @@
 		"ギラ": {
 			"en": "Sizz",
 			"desc": {
-				"en": "Inflicts minor light-elemental spell damage on all enemies."
+				"en": "Inflicts minor light-elemental spell damage on all enemies.",
+				"fr": "Inflige de légers dégâts de sort de lumière à tous les ennemis."
 			},
 			"mp": 4,
 			"target": "All Enemies",
@@ -234,7 +255,8 @@
 		"ベギラマ": {
 			"en": "Sizzle",
 			"desc": {
-				"en": "Inflicts medium light-elemental spell damage on all enemies."
+				"en": "Inflicts medium light-elemental spell damage on all enemies.",
+				"fr": "Inflige des dégâts de sort de lumière à tous les ennemis."
 			},
 			"mp": 11,
 			"target": "All Enemies",
@@ -245,7 +267,8 @@
 		"ドルマ": {
 			"en": "Zam",
 			"desc": {
-				"en": "Inflicts minor dark-elemental spell damage on a single enemy."
+				"en": "Inflicts minor dark-elemental spell damage on a single enemy.",
+				"fr": "Inflige de légers dégâts de sort de ténèbres à un ennemi."
 			},
 			"mp": 3,
 			"target": "Single Enemy",
@@ -256,7 +279,8 @@
 		"ドルクマ": {
 			"en": "Zammle",
 			"desc": {
-				"en": "Inflicts medium dark-elemental spell damage on a single enemy."
+				"en": "Inflicts medium dark-elemental spell damage on a single enemy.",
+				"fr": "Inflige des dégâts de sort de ténèbres à un ennemi."
 			},
 			"mp": 6,
 			"target": "Single Enemy",
@@ -279,7 +303,8 @@
 		"ホイミ": {
 			"en": "Heal",
 			"desc": {
-				"en": "Restores 28 or more HP to a single ally."
+				"en": "Restores 28 or more HP to a single ally.",
+				"fr": "Redonne au moins 28 PV à un allié."
 			},
 			"mp": 3,
 			"target": "Single Ally"
@@ -287,7 +312,8 @@
 		"ベホイミ": {
 			"en": "Midheal",
 			"desc": {
-				"en": "Restores 76 or more HP to a single ally."
+				"en": "Restores 76 or more HP to a single ally.",
+				"fr": "Redonne au moins 76 PV à un allié."
 			},
 			"mp": 8,
 			"target": "Single Ally"
@@ -295,7 +321,8 @@
 		"ザオラル": {
 			"en": "Zing",
 			"desc": {
-				"en": "Resurrects a fallen ally. Has a chance of failure."
+				"en": "Resurrects a fallen ally. Has a chance of failure.",
+				"fr": "Ressuscite un allié tombé au combat, sans garantie de réussite."
 			},
 			"mp": 8,
 			"target": "Single Ally"
@@ -311,7 +338,8 @@
 		"キアリー": {
 			"en": "Squelch",
 			"desc": {
-				"en": "Cures all allies of poison or severe poison."
+				"en": "Cures all allies of poison or severe poison.",
+				"fr": "Soigne l'empoisonnement et l'empoisonnement sévère chez tous les alliés."
 			},
 			"mp": 2,
 			"target": "All Allies",
@@ -322,7 +350,8 @@
 		"キアリク": {
 			"en": "Tingle",
 			"desc": {
-				"en": "Cures all allies of paralysis."
+				"en": "Cures all allies of paralysis.",
+				"fr": "Soigne la paralysie chez tous les alliés."
 			},
 			"mp": 2,
 			"target": "All Allies",
@@ -333,7 +362,8 @@
 		"キアラル": {
 			"en": "Defuddle",
 			"desc": {
-				"en": "Cures all allies of confusion."
+				"en": "Cures all allies of confusion.",
+				"fr": "Soigne la confusion chez tous les alliés."
 			},
 			"mp": 2,
 			"target": "All Allies",
@@ -344,7 +374,8 @@
 		"ザメハ": {
 			"en": "Cock-a-Doodle-Doo",
 			"desc": {
-				"en": "Cures all allies of sleep."
+				"en": "Cures all allies of sleep.",
+				"fr": "Soigne le sommeil chez tous les alliés."
 			},
 			"mp": 2,
 			"target": "All Allies",
@@ -355,7 +386,8 @@
 		"バイキルト": {
 			"en": "Oomph",
 			"desc": {
-				"en": "Greatly increases the attack of a single ally for 2 to 5 turns."
+				"en": "Greatly increases the attack of a single ally for 2 to 5 turns.",
+				"fr": "Augmente beaucoup l'attaque d'un allié pendant 2 à 5 tours."
 			},
 			"mp": 6,
 			"target": "Single Ally",
@@ -383,7 +415,8 @@
 		"バイシオン": {
 			"en": "Oomphle",
 			"desc": {
-				"en": "Increases the attack of all allies for 2 to 5 turns."
+				"en": "Increases the attack of all allies for 2 to 5 turns.",
+				"fr": "Augmente l'attaque de tous les alliés pendant 2 à 5 tours."
 			},
 			"mp": 10,
 			"target": "All Allies",
@@ -392,7 +425,8 @@
 		"ヘナトス": {
 			"en": "Blunt",
 			"desc": {
-				"en": "Greatly decreases the attack of a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Greatly decreases the attack of a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Réduit beaucoup l'attaque d'un ennemi pendant 2 à 5 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 6,
 			"target": "Single Enemy",
@@ -401,7 +435,8 @@
 		"スカラ": {
 			"en": "Buff",
 			"desc": {
-				"en": "Greatly increases the defence of a single ally for 4 to 7 turns."
+				"en": "Greatly increases the defence of a single ally for 4 to 7 turns.",
+				"fr": "Augmente beaucoup la défense d'un allié pendant 4 à 7 tours."
 			},
 			"mp": 3,
 			"target": "Single Ally",
@@ -410,7 +445,8 @@
 		"スクルト": {
 			"en": "Kabuff",
 			"desc": {
-				"en": "Increases the defence of all allies for 4 to 7 turns."
+				"en": "Increases the defence of all allies for 4 to 7 turns.",
+				"fr": "Augmente la défense de tous les alliés pendant 4 à 7 tours."
 			},
 			"mp": 4,
 			"target": "All Allies",
@@ -419,7 +455,8 @@
 		"ルカニ": {
 			"en": "Sap",
 			"desc": {
-				"en": "Greatly decreases the defence of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Greatly decreases the defence of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Réduit beaucoup la défense d'un ennemi pendant 4 à 7 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 3,
 			"target": "Single Enemy",
@@ -437,7 +474,8 @@
 		"ピオラ": {
 			"en": "Accelerate",
 			"desc": {
-				"en": "Greatly increases the agility of a single ally for 4 to 7 turns."
+				"en": "Greatly increases the agility of a single ally for 4 to 7 turns.",
+				"fr": "Augmente beaucoup l'agilité d'un allié pendant 4 à 7 tours."
 			},
 			"mp": 3,
 			"target": "Single Ally",
@@ -446,7 +484,8 @@
 		"ピオリム": {
 			"en": "Acceleratle",
 			"desc": {
-				"en": "Increases the agility of all allies for 4 to 7 turns."
+				"en": "Increases the agility of all allies for 4 to 7 turns.",
+				"fr": "Augmente l'agilité de tous les alliés pendant 4 à 7 tours."
 			},
 			"mp": 4,
 			"target": "All Allies",
@@ -455,7 +494,8 @@
 		"ボミエ": {
 			"en": "Decelerate",
 			"desc": {
-				"en": "Greatly decreases the agility of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Greatly decreases the agility of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Réduit beaucoup l'agilité d'un ennemi pendant 4 à 7 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 3,
 			"target": "Single Enemy",
@@ -464,7 +504,8 @@
 		"ボミオス": {
 			"en": "Deceleratle",
 			"desc": {
-				"en": "Decreases the agility of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Decreases the agility of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Réduit l'agilité de tous les ennemis pendant 4 à 7 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 4,
 			"target": "All Enemies",
@@ -473,7 +514,8 @@
 		"インテ": {
 			"en": "Ping",
 			"desc": {
-				"en": "Greatly increases the wisdom of a single ally for 4 to 7 turns."
+				"en": "Greatly increases the wisdom of a single ally for 4 to 7 turns.",
+				"fr": "Augmente beaucoup la sagesse d'un allié pendant 4 à 7 tours."
 			},
 			"mp": 3,
 			"target": "Single Ally",
@@ -482,7 +524,8 @@
 		"フール": {
 			"en": "Dim",
 			"desc": {
-				"en": "Greatly decreases the wisdom of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Greatly decreases the wisdom of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Réduit beaucoup la sagesse d'un ennemi pendant 4 à 7 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 3,
 			"target": "Single Enemy",
@@ -491,7 +534,8 @@
 		"マフール": {
 			"en": "Kadim",
 			"desc": {
-				"en": "Decreases the wisdom of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Decreases the wisdom of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Réduit la sagesse de tous les ennemis pendant 4 à 7 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 4,
 			"target": "All Enemies",
@@ -500,7 +544,8 @@
 		"バーハ": {
 			"en": "Insulate",
 			"desc": {
-				"en": "Greatly reduces the damage received from breath attacks by a single ally for 4 to 7 turns."
+				"en": "Greatly reduces the damage received from breath attacks by a single ally for 4 to 7 turns.",
+				"fr": "Réduit beaucoup les dégâts découlant d'attaques de souffle qu'un allié peut subir pendant 4 à 7 tours."
 			},
 			"mp": 4,
 			"target": "Single Ally"
@@ -508,7 +553,8 @@
 		"フバーハ": {
 			"en": "Insulatle",
 			"desc": {
-				"en": "Reduces the damage received from breath attacks by all allies for 4 to 7 turns."
+				"en": "Reduces the damage received from breath attacks by all allies for 4 to 7 turns.",
+				"fr": "Réduit les dégâts découlant d'attaques de souffle que tous les alliés peuvent subir pendant 4 à 7 tours."
 			},
 			"mp": 4,
 			"target": "All Allies"
@@ -516,7 +562,8 @@
 		"マヌーサ": {
 			"en": "Dazzle",
 			"desc": {
-				"en": "Bedazzles all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Bedazzles all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Éblouit tous les ennemis pendant 2 à 5 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 3,
 			"target": "All Enemies",
@@ -527,7 +574,8 @@
 		"マホトーン": {
 			"en": "Fizzle",
 			"desc": {
-				"en": "Prevents all enemies from casting spells for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Prevents all enemies from casting spells for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Empêche tous les ennemis de lancer des sorts pendant 4 à 7 tours. Plus la sagesse de celui qui lance le sort est élevé, plus ce sort a de chances de réussir."
 			},
 			"mp": 3,
 			"target": "All Enemies",
@@ -538,7 +586,8 @@
 		"マホトラ": {
 			"en": "Drain Magic",
 			"desc": {
-				"en": "Absorbs some MP from a single enemy."
+				"en": "Absorbs some MP from a single enemy.",
+				"fr": "Absorbe des PM à un ennemi."
 			},
 			"mp": 0,
 			"target": "Single Enemy"
@@ -546,7 +595,8 @@
 		"メダパニ": {
 			"en": "Fuddle",
 			"desc": {
-				"en": "Confuses a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Confuses a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Désoriente un ennemi pendant 2 à 5 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 5,
 			"target": "Single Enemy",
@@ -557,7 +607,8 @@
 		"ラリホー": {
 			"en": "Snooze",
 			"desc": {
-				"en": "Puts a single enemy to sleep for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Puts a single enemy to sleep for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Endort un ennemi pendant 2 à 5 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 3,
 			"target": "Single Enemy",
@@ -568,7 +619,8 @@
 		"ラリホーマ": {
 			"en": "Kasnooze",
 			"desc": {
-				"en": "Puts all enemies to sleep for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Puts all enemies to sleep for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Endort tous les ennemis pendant 2 à 5 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 8,
 			"target": "All Enemies",
@@ -579,7 +631,8 @@
 		"シビー": {
 			"en": "Numb",
 			"desc": {
-				"en": "Paralyses a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Paralyses a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Paralyse un ennemi pendant 2 à 5 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 8,
 			"target": "Single Enemy",
@@ -590,7 +643,8 @@
 		"ヴェレ": {
 			"en": "Tox",
 			"desc": {
-				"en": "Poisons a single enemy. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Poisons a single enemy. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Empoisonne un ennemi. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 3,
 			"target": "Single Enemy",
@@ -601,7 +655,8 @@
 		"ヴェレーノ": {
 			"en": "Katox",
 			"desc": {
-				"en": "Poisons all enemies. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Poisons all enemies. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Empoisonne tous les ennemis. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 8,
 			"target": "All Enemies",
@@ -612,7 +667,8 @@
 		"ザキ": {
 			"en": "Whack",
 			"desc": {
-				"en": "Kills a single enemy instantly. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Kills a single enemy instantly. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Tue un ennemi sur le coup. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 9,
 			"target": "Single Enemy",
@@ -654,7 +710,8 @@
 		"マヒャド斬り": {
 			"en": "Kacrackle Slash",
 			"desc": {
-				"en": "Inflicts minor ice-elemental slashing damage on a single enemy."
+				"en": "Inflicts minor ice-elemental slashing damage on a single enemy.",
+				"fr": "Inflige de légers dégâts cinglants de glace à un ennemi."
 			},
 			"mp": 2,
 			"target": "Single Enemy",
@@ -813,7 +870,8 @@
 		"みなごろし": {
 			"en": "Frenzy",
 			"desc": {
-				"en": "A risky technique that inflicts a critical hit on a single enemy or ally at random."
+				"en": "A risky technique that inflicts a critical hit on a single enemy or ally at random.",
+				"fr": "Technique risquée qui inflige un coup critique à un ennemi au hasard."
 			},
 			"mp": 4,
 			"target": "Random Enemy or Ally"
@@ -829,7 +887,8 @@
 		"やいばくだき": {
 			"en": "Attack Attacker",
 			"desc": {
-				"en": "Damages a single enemy and occasionally lowers its attack for 2 to 5 turns."
+				"en": "Damages a single enemy and occasionally lowers its attack for 2 to 5 turns.",
+				"fr": "Inflige des dégâts à un ennemi et réduit parfois son attaque pendant 2 à 5 tours."
 			},
 			"mp": 4,
 			"target": "Single Enemy",
@@ -838,7 +897,8 @@
 		"かぶとわり": {
 			"en": "Helm Splitter",
 			"desc": {
-				"en": "Damages a single enemy and occasionally lowers its defence for 4 to 7 turns."
+				"en": "Damages a single enemy and occasionally lowers its defence for 4 to 7 turns.",
+				"fr": "Inflige des dégâts à un ennemi et réduit parfois sa défense pendant 4 à 7 tours."
 			},
 			"mp": 4,
 			"target": "Single Enemy",
@@ -847,7 +907,8 @@
 		"こんらんこうげき": {
 			"en": "Confusion Attack",
 			"desc": {
-				"en": "Damages a single enemy and occasionally confuses it for 2 to 5 turns."
+				"en": "Damages a single enemy and occasionally confuses it for 2 to 5 turns.",
+				"fr": "Inflige des dégâts à un ennemi et le désoriente parfois pendant 2 à 5 tours."
 			},
 			"mp": 4,
 			"target": "Single Enemy",
@@ -858,7 +919,8 @@
 		"ねむりこうげき": {
 			"en": "Sleep Attack",
 			"desc": {
-				"en": "Damages a single enemy and occasionally puts it to sleep for 2 to 5 turns."
+				"en": "Damages a single enemy and occasionally puts it to sleep for 2 to 5 turns.",
+				"fr": "Inflige des dégâts à un ennemi et l'endort parfois pendant 2 à 5 tours."
 			},
 			"mp": 4,
 			"target": "Single Enemy",
@@ -869,7 +931,8 @@
 		"マヒこうげき": {
 			"en": "Paralysing Punch",
 			"desc": {
-				"en": "Damages a single enemy and occasionally paralyses it for 2 to 5 turns."
+				"en": "Damages a single enemy and occasionally paralyses it for 2 to 5 turns.",
+				"fr": "Inflige des dégâts à un ennemi et le paralyse parfois pendant 2 à 5 tours."
 			},
 			"mp": 4,
 			"target": "Single Enemy",
@@ -891,7 +954,8 @@
 		"どくこうげき": {
 			"en": "Poison Attack",
 			"desc": {
-				"en": "Damages a single enemy and occasionally poisons it."
+				"en": "Damages a single enemy and occasionally poisons it.",
+				"fr": "Inflige des dégâts à un ennemi et l'empoisonne parfois."
 			},
 			"mp": 2,
 			"target": "Single Enemy",
@@ -902,7 +966,8 @@
 		"アサシンアタック": {
 			"en": "Assassin's Stab",
 			"desc": {
-				"en": "Damages a single enemy and occasionally causes instant death."
+				"en": "Damages a single enemy and occasionally causes instant death.",
+				"fr": "Inflige des dégâts à un ennemi et provoque parfois sa mort instantanée."
 			},
 			"mp": 8,
 			"target": "Single Enemy",
@@ -981,7 +1046,8 @@
 		"めいそう": {
 			"en": "Meditation",
 			"desc": {
-				"en": "Restores 300 or more HP to the user."
+				"en": "Restores 300 or more HP to the user.",
+				"fr": "Redonne au moins 300 PV à l'utilisateur."
 			},
 			"mp": 35,
 			"target": "Self"
@@ -1005,7 +1071,8 @@
 		"すなけむり": {
 			"en": "Sandstorm",
 			"desc": {
-				"en": "Whips up a dense cloud of dust that lowers the accuracy of enemy attacks for 2 to 5 turns."
+				"en": "Whips up a dense cloud of dust that lowers the accuracy of enemy attacks for 2 to 5 turns.",
+				"fr": "Soulève un épais nuage de poussière qui réduit la précision des attaques ennemies de 2 à 5 tours."
 			},
 			"mp": 2,
 			"target": "All Enemies",
@@ -1014,7 +1081,8 @@
 		"まぶしい光": {
 			"en": "Dazzleflash",
 			"desc": {
-				"en": "Unleashes a blinding light that lowers the accuracy of enemy attacks for 2 to 5 turns."
+				"en": "Unleashes a blinding light that lowers the accuracy of enemy attacks for 2 to 5 turns.",
+				"fr": "Émet une lumière éblouissante qui réduit la précision des attaques ennemies de 2 à 5 tours."
 			},
 			"mp": 2,
 			"target": "All Enemies",
@@ -1026,7 +1094,8 @@
 		"くちをふさぐ": {
 			"en": "Gobstopper",
 			"desc": {
-				"en": "Stops a single enemy from using its mouth, preventing the use of breath attacks for 4 to 7 turns."
+				"en": "Stops a single enemy from using its mouth, preventing the use of breath attacks for 4 to 7 turns.",
+				"fr": "Empêche un ennemi d'ouvrir la bouche et d'utiliser des attaques de souffle pendant 4 à 7 tours."
 			},
 			"mp": 6,
 			"target": "Single Enemy"
@@ -1034,7 +1103,8 @@
 		"ぎゃくふう": {
 			"en": "Brake Wind",
 			"desc": {
-				"en": "Reflects breath attacks back at the enemy. Protects all allies once only."
+				"en": "Reflects breath attacks back at the enemy. Protects all allies once only.",
+				"fr": "Renvoie les attaques de souffle à l'ennemi. Protège tous les alliés une seule fois."
 			},
 			"mp": 10,
 			"target": "All Allies"
@@ -1050,7 +1120,8 @@
 		"おたけび": {
 			"en": "War Cry",
 			"desc": {
-				"en": "An ear-popping shout that stuns all enemies for 1 turn."
+				"en": "An ear-popping shout that stuns all enemies for 1 turn.",
+				"fr": "Cri assourdissant qui étourdit tous les ennemis pendant 1 tour."
 			},
 			"mp": 3,
 			"target": "All Enemies",
@@ -1073,7 +1144,8 @@
 		"ひゃくれつなめ": {
 			"en": "Tongue Bashing",
 			"desc": {
-				"en": "Savagely slathers a single enemy with slimy saliva, stunning it and reducing its defence attribute to 1."
+				"en": "Savagely slathers a single enemy with slimy saliva, stunning it and reducing its defence attribute to 1.",
+				"fr": "Recouvre sans pitié un ennemi d'une couche de salive gluante, l'étourdissant et réduisant sa défense à 1 point."
 			},
 			"mp": 8,
 			"target": "Single Enemy",
@@ -1094,7 +1166,8 @@
 		"みかわしきゃく": {
 			"en": "Dodgy Dance",
 			"desc": {
-				"en": "Raises the user's evasion for 4 to 7 turns."
+				"en": "Raises the user's evasion for 4 to 7 turns.",
+				"fr": "Augmente l'esquive de l'utilisateur pendant 4 à 7 tours."
 			},
 			"mp": 1,
 			"target": "Self",
@@ -1111,7 +1184,8 @@
 		"火の息": {
 			"en": "Fire Breath",
 			"desc": {
-				"en": "Inflicts minor fire-elemental breath damage on all enemies."
+				"en": "Inflicts minor fire-elemental breath damage on all enemies.",
+				"fr": "Inflige de légers dégâts de souffle de feu à tous les ennemis."
 			},
 			"mp": 3,
 			"target": "All Enemies",
@@ -1122,7 +1196,8 @@
 		"火炎の息": {
 			"en": "Flame Breath",
 			"desc": {
-				"en": "Inflicts medium fire-elemental breath damage on all enemies."
+				"en": "Inflicts medium fire-elemental breath damage on all enemies.",
+				"fr": "Inflige des dégâts de souffle de feu à tous les ennemis."
 			},
 			"mp": 6,
 			"target": "All Enemies",
@@ -1133,7 +1208,8 @@
 		"はげしい炎": {
 			"en": "Inferno",
 			"desc": {
-				"en": "Inflicts major fire-elemental breath damage on all enemies."
+				"en": "Inflicts major fire-elemental breath damage on all enemies.",
+				"fr": "Inflige d'importants dégâts de souffle de feu à tous les ennemis."
 			},
 			"mp": 15,
 			"target": "All Enemies",
@@ -1144,7 +1220,8 @@
 		"しゃくねつ": {
 			"en": "Scorch",
 			"desc": {
-				"en": "Inflicts extreme fire-elemental breath damage on all enemies."
+				"en": "Inflicts extreme fire-elemental breath damage on all enemies.",
+				"fr": "Inflige d'impressionnants dégâts de souffle de feu à tous les ennemis."
 			},
 			"mp": 30,
 			"target": "All Enemies",
@@ -1155,7 +1232,8 @@
 		"つめたい息": {
 			"en": "Cool Breath",
 			"desc": {
-				"en": "Inflicts minor ice-elemental breath damage on all enemies."
+				"en": "Inflicts minor ice-elemental breath damage on all enemies.",
+				"fr": "Inflige de légers dégâts de souffle de glace à tous les ennemis."
 			},
 			"mp": 3,
 			"target": "All Enemies",
@@ -1166,7 +1244,8 @@
 		"こおりの息": {
 			"en": "Chilly Breath",
 			"desc": {
-				"en": "Inflicts medium ice-elemental breath damage on all enemies."
+				"en": "Inflicts medium ice-elemental breath damage on all enemies.",
+				"fr": "Inflige des dégâts de souffle de glace à tous les ennemis."
 			},
 			"mp": 6,
 			"target": "All Enemies",
@@ -1177,7 +1256,8 @@
 		"こごえる吹雪": {
 			"en": "Freezing Blizzard",
 			"desc": {
-				"en": "Inflicts major ice-elemental breath damage on all enemies."
+				"en": "Inflicts major ice-elemental breath damage on all enemies.",
+				"fr": "Inflige d'importants dégâts de souffle de glace à tous les ennemis."
 			},
 			"mp": 15,
 			"target": "All Enemies",
@@ -1188,7 +1268,8 @@
 		"かがやく息": {
 			"en": "C-C-Cold Breath",
 			"desc": {
-				"en": "Inflicts extreme ice-elemental breath damage on all enemies."
+				"en": "Inflicts extreme ice-elemental breath damage on all enemies.",
+				"fr": "Inflige d'impressionnants dégâts de souffle de glace à tous les ennemis."
 			},
 			"mp": 30,
 			"target": "All Enemies",
@@ -1211,7 +1292,8 @@
 		"ひかりの息": {
 			"en": "Blessed Breath",
 			"desc": {
-				"en": "Inflicts major light-elemental breath damage on all enemies and occasionally confuses them for 2 to 5 turns."
+				"en": "Inflicts major light-elemental breath damage on all enemies and occasionally confuses them for 2 to 5 turns.",
+				"fr": "Inflige d'importants dégâts de souffle de lumière à tous les ennemis et les désoriente parfois pendant 2 à 5 tours."
 			},
 			"mp": 22,
 			"target": "All Enemies",
@@ -1235,7 +1317,8 @@
 		"息をすいこむ": {
 			"en": "Deep Breath",
 			"desc": {
-				"en": "Inhales long and deep, raising the damage inflicted by the user's next breath attack."
+				"en": "Inhales long and deep, raising the damage inflicted by the user's next breath attack.",
+				"fr": "Prend une très longue et très profonde inspiration qui augmente les dégâts infligés par l'attaque de souffle suivante de l'utilisateur."
 			},
 			"mp": 0,
 			"target": "Self"
@@ -1243,7 +1326,8 @@
 		"あまい息": {
 			"en": "Sweet Breath",
 			"desc": {
-				"en": "Lets out an exhalation of relaxation that puts all enemies to sleep for 2 to 5 turns."
+				"en": "Lets out an exhalation of relaxation that puts all enemies to sleep for 2 to 5 turns.",
+				"fr": "Laisse échapper un souffle apaisant qui endort tous les ennemis pendant 2 à 5 tours."
 			},
 			"mp": 3,
 			"target": "All Enemies",
@@ -1254,7 +1338,8 @@
 		"やけつく息": {
 			"en": "Burning Breath",
 			"desc": {
-				"en": "Lets out an exhalation of immobilisation that paralyses all enemies for 2 to 5 turns."
+				"en": "Lets out an exhalation of immobilisation that paralyses all enemies for 2 to 5 turns.",
+				"fr": "Laisse échapper un souffle tétanisant qui paralyse tous les ennemis pendant 2 à 5 tours."
 			},
 			"mp": 4,
 			"target": "All Enemies",
@@ -1265,7 +1350,8 @@
 		"どくの息": {
 			"en": "Poison Breath",
 			"desc": {
-				"en": "Exhales toxic fumes that poison all enemies."
+				"en": "Exhales toxic fumes that poison all enemies.",
+				"fr": "Souffle des fumées toxiques qui empoisonnent tous les ennemis."
 			},
 			"mp": 3,
 			"target": "All Enemies",
@@ -1276,7 +1362,8 @@
 		"つるぎのまい": {
 			"en": "Sword Dance",
 			"desc": {
-				"en": "A dance that damages enemies at random, 3 to 7 times in total."
+				"en": "A dance that damages enemies at random, 3 to 7 times in total.",
+				"fr": "Danse qui inflige des dégâts à des ennemis au hasard, de 3 à 7 fois en tout."
 			},
 			"mp": 15,
 			"target": "All Enemies"
@@ -1284,7 +1371,8 @@
 		"ふしぎな踊り": {
 			"en": "Weird Dance",
 			"desc": {
-				"en": "A dance that decreases the MP of a single enemy."
+				"en": "A dance that decreases the MP of a single enemy.",
+				"fr": "Danse qui réduit temporairement les PM d'un ennemi."
 			},
 			"mp": 0,
 			"target": "Single Enemy"
@@ -1292,7 +1380,8 @@
 		"マホトラ踊り": {
 			"en": "Tap Dance",
 			"desc": {
-				"en": "A dance that absorbs some MP from a single enemy."
+				"en": "A dance that absorbs some MP from a single enemy.",
+				"fr": "Danse qui absorbe des PM à un ennemi."
 			},
 			"mp": 0,
 			"target": "Single Enemy",
@@ -1303,7 +1392,8 @@
 		"メダパニダンス": {
 			"en": "Fuddle Dance",
 			"desc": {
-				"en": "A dance that confuses all enemies for 2 to 5 turns."
+				"en": "A dance that confuses all enemies for 2 to 5 turns.",
+				"fr": "Danse qui désoriente tous les ennemis pendant 2 à 5 tours."
 			},
 			"mp": 2,
 			"target": "All Enemies",
@@ -1314,7 +1404,8 @@
 		"さそう踊り": {
 			"en": "Sultry Dance",
 			"desc": {
-				"en": "A bewitching dance that stuns all enemies for 1 turn."
+				"en": "A bewitching dance that stuns all enemies for 1 turn.",
+				"fr": "Danse ensorcelante qui étourdit tous les ennemis pendant 1 tour."
 			},
 			"mp": 2,
 			"target": "All Enemies",
@@ -1333,7 +1424,8 @@
 		"ザバラーン": {
 			"en": "Kasplash",
 			"desc": {
-				"en": "Inflicts major water-elemental spell damage on a single enemy."
+				"en": "Inflicts major water-elemental spell damage on a single enemy.",
+				"fr": "Inflige d'importants dégâts de sort d'eau à un ennemi."
 			},
 			"mp": 11,
 			"target": "Single Enemy",
@@ -1344,7 +1436,8 @@
 		"ザバトローム": {
 			"en": "Kasplashle",
 			"desc": {
-				"en": "Inflicts extreme water-elemental spell damage on a single enemy."
+				"en": "Inflicts extreme water-elemental spell damage on a single enemy.",
+				"fr": "Inflige d'impressionnants dégâts de sort d'eau à un ennemi."
 			},
 			"mp": 29,
 			"target": "Single Enemy",
@@ -1355,7 +1448,8 @@
 		"ヘナトール": {
 			"en": "Kablunt",
 			"desc": {
-				"en": "Decreases the attack of all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Decreases the attack of all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Réduit l'attaque de tous les ennemis pendant 2 à 5 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 10,
 			"target": "All Enemies",
@@ -1397,7 +1491,8 @@
 		"イオナズン": {
 			"en": "Kaboom",
 			"desc": {
-				"en": "Inflicts major explosive spell damage on all enemies."
+				"en": "Inflicts major explosive spell damage on all enemies.",
+				"fr": "Inflige d'importants dégâts de sort d'explosion à tous les ennemis."
 			},
 			"mp": 24,
 			"target": "All Enemies",
@@ -1408,7 +1503,8 @@
 		"イオグランデ": {
 			"en": "Kaboomle",
 			"desc": {
-				"en": "Inflicts extreme explosive spell damage on all enemies."
+				"en": "Inflicts extreme explosive spell damage on all enemies.",
+				"fr": "Inflige d'impressionnants dégâts de sort d'explosion à tous les ennemis."
 			},
 			"mp": 60,
 			"target": "All Enemies",
@@ -1419,7 +1515,8 @@
 		"いなずま": {
 			"en": "Lightning",
 			"desc": {
-				"en": "Inflicts medium electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Inflicts medium electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige des dégâts de foudre à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts sont importants."
 			},
 			"mp": 12,
 			"target": "All Enemies",
@@ -1441,7 +1538,8 @@
 		"シビリーニョ": {
 			"en": "Kanumb",
 			"desc": {
-				"en": "Paralyses all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Paralyses all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Paralyse tous les ennemis pendant 2 à 5 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 15,
 			"target": "All Enemies",
@@ -1452,7 +1550,8 @@
 		"ジゴデイン": {
 			"en": "Kazapple",
 			"desc": {
-				"en": "Inflicts extreme electrical spell damage on all enemies."
+				"en": "Inflicts extreme electrical spell damage on all enemies.",
+				"fr": "Inflige d'impressionnants dégâts de sort de foudre à tous les ennemis."
 			},
 			"mp": 61,
 			"target": "All Enemies",
@@ -1463,7 +1562,8 @@
 		"インテラ": {
 			"en": "Kaping",
 			"desc": {
-				"en": "Increases the wisdom of all allies for 4 to 7 turns."
+				"en": "Increases the wisdom of all allies for 4 to 7 turns.",
+				"fr": "Augmente la sagesse de tous les alliés pendant 4 à 7 tours."
 			},
 			"mp": 4,
 			"target": "All Allies",
@@ -1472,7 +1572,8 @@
 		"ベギラゴン": {
 			"en": "Kasizz",
 			"desc": {
-				"en": "Inflicts major light-elemental spell damage on all enemies."
+				"en": "Inflicts major light-elemental spell damage on all enemies.",
+				"fr": "Inflige d'importants dégâts de sort de lumière à tous les ennemis."
 			},
 			"mp": 22,
 			"target": "All Enemies",
@@ -1483,7 +1584,8 @@
 		"ギラグレイド": {
 			"en": "Kasizzle",
 			"desc": {
-				"en": "Inflicts extreme light-elemental spell damage on all enemies."
+				"en": "Inflicts extreme light-elemental spell damage on all enemies.",
+				"fr": "Inflige d'impressionnants dégâts de sort de lumière à tous les ennemis."
 			},
 			"mp": 54,
 			"target": "All Enemies",
@@ -1494,7 +1596,8 @@
 		"ドルモーア": {
 			"en": "Kazam",
 			"desc": {
-				"en": "Inflicts major dark-elemental spell damage on a single enemy."
+				"en": "Inflicts major dark-elemental spell damage on a single enemy.",
+				"fr": "Inflige d'importants dégâts de sort de ténèbres à un ennemi."
 			},
 			"mp": 10,
 			"target": "Single Enemy",
@@ -1505,7 +1608,8 @@
 		"ドルマドン": {
 			"en": "Kazammle",
 			"desc": {
-				"en": "Inflicts extreme dark-elemental spell damage on a single enemy."
+				"en": "Inflicts extreme dark-elemental spell damage on a single enemy.",
+				"fr": "Inflige d'impressionnants dégâts de sort de ténèbres à un ennemi."
 			},
 			"mp": 30,
 			"target": "Single Enemy",
@@ -1516,7 +1620,8 @@
 		"シャイニングボウ": {
 			"en": "Shining Shot",
 			"desc": {
-				"en": "Inflicts light-elemental damage on enemies at random, 4 to 12 times in total."
+				"en": "Inflicts light-elemental damage on enemies at random, 4 to 12 times in total.",
+				"fr": "Inflige des dégâts de lumière à des ennemis au hasard, pour un total de 4 à 12 fois."
 			},
 			"mp": 100,
 			"target": "Random Enemies",
@@ -1527,7 +1632,8 @@
 		"ばくれつけん": {
 			"en": "Multifists",
 			"desc": {
-				"en": "A punching technique that damages enemies at random, 4 times in total"
+				"en": "A punching technique that damages enemies at random, 4 times in total",
+				"fr": "Technique de frappe qui inflige des dégâts à des ennemis au hasard, pour un total de 4 fois."
 			},
 			"mp": 20,
 			"target": "Random Enemies"
@@ -1544,7 +1650,8 @@
 		"メダパーニャ": {
 			"en": "Kafuddle",
 			"desc": {
-				"en": "Confuses all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Confuses all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Désoriente tous les ennemis pendant 2 à 5 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 10,
 			"target": "All Enemies",
@@ -1555,7 +1662,8 @@
 		"ギガブレイク": {
 			"en": "Gigagash",
 			"desc": {
-				"en": "Inflicts outrageous electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Inflicts outrageous electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige de monstrueux dégâts de foudre à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts infligés seront importants."
 			},
 			"mp": 56,
 			"target": "All Enemies",
@@ -1566,7 +1674,8 @@
 		"ギガクロスブレイク": {
 			"en": "Gigacross",
 			"desc": {
-				"en": "An extreme sword attack that inflicts extreme electrical damage 2 times in a row on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "An extreme sword attack that inflicts extreme electrical damage 2 times in a row on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige d'impressionnants dégâts de foudre 2 fois de suite à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts infligés seront importants."
 			},
 			"mp": 80,
 			"target": "All Enemies",
@@ -1577,7 +1686,8 @@
 		"ダークブレイク": {
 			"en": "Shadow Blast",
 			"desc": {
-				"en": "Inflicts extreme dark-elemental damage 2 times in a row on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Inflicts extreme dark-elemental damage 2 times in a row on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige d'impressionnants dégâts de ténèbres 2 fois de suite à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts infligés seront importants."
 			},
 			"mp": 80,
 			"target": "All Enemies",
@@ -1588,7 +1698,8 @@
 		"煉獄火炎": {
 			"en": "Hellitosis",
 			"desc": {
-				"en": "Inflicts outrageous fire-elemental breath damage on all enemies and occasionally stuns them for 1 turn."
+				"en": "Inflicts outrageous fire-elemental breath damage on all enemies and occasionally stuns them for 1 turn.",
+				"fr": "Inflige de monstrueux dégâts de souffle de feu à tous les ennemis et les étourdit parfois pendant 1 tour."
 			},
 			"mp": 64,
 			"target": "All Enemies",
@@ -1619,7 +1730,8 @@
 		"メガザルダンス": {
 			"en": "Kerplunk Dance",
 			"desc": {
-				"en": "A dance that heals or resurrects all allies, including reserves, but at the cost of the user's life. The user cannot be resurrected in the same battle."
+				"en": "A dance that heals or resurrects all allies, including reserves, but at the cost of the user's life. The user cannot be resurrected in the same battle.",
+				"fr": "Danse qui soigne ou ressuscite tous les alliés, y compris les réservistes, mais coûte la vie à son utilisateur. Ce dernier ne peut pas être ressuscité lors du même combat."
 			},
 			"mp": 100,
 			"mpType": "all-with-min",
@@ -1628,7 +1740,8 @@
 		"おうぎのまい": {
 			"en": "Fan Dango",
 			"desc": {
-				"en": "A dance that damages enemies at random, 3 or 4 times in total. The higher the user's agility, the greater the damage that will be inflicted."
+				"en": "A dance that damages enemies at random, 3 or 4 times in total. The higher the user's agility, the greater the damage that will be inflicted.",
+				"fr": "Danse qui inflige des dégâts à une cible, puis à des ennemis au hasard, de 3 à 4 fois en tout. Plus l'agilité de l'utilisateur est élevée, plus les dégâts sont importants."
 			},
 			"mp": 8,
 			"target": "Random Enemies"
@@ -1636,7 +1749,8 @@
 		"ギガ・マホトラ": {
 			"en": "Giga Drain Magic",
 			"desc": {
-				"en": "Absorbs MP from enemies at random, 4 times in total."
+				"en": "Absorbs MP from enemies at random, 4 times in total.",
+				"fr": "Absorbe des PM à des ennemis au hasard, 4 fois en tout."
 			},
 			"mp": 50,
 			"mpType": "percentage",
@@ -1656,7 +1770,8 @@
 		"絶対零度": {
 			"en": "Ice Age",
 			"desc": {
-				"en": "Inflicts outrageous ice-elemental breath damage on all enemies and occasionally stuns them for 1 turn."
+				"en": "Inflicts outrageous ice-elemental breath damage on all enemies and occasionally stuns them for 1 turn.",
+				"fr": "Inflige de monstrueux dégâts de souffle de glace à tous les ennemis et les étourdit parfois pendant 1 tour."
 			},
 			"mp": 64,
 			"target": "All Enemies",
@@ -1668,7 +1783,8 @@
 		"ギガスラッシュ": {
 			"en": "Gigaslash",
 			"desc": {
-				"en": "Inflicts outrageous electrical damage on a single enemy. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Inflicts outrageous electrical damage on a single enemy. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige de monstrueux dégâts de foudre à un ennemi. Plus le niveau de l'utilisateur est élevé, plus les dégâts infligés seront importants."
 			},
 			"mp": 20,
 			"target": "Single Enemy",
@@ -1679,7 +1795,8 @@
 		"ジゴスパーク": {
 			"en": "Lightning Storm",
 			"desc": {
-				"en": "Inflicts outrageous electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Inflicts outrageous electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige de monstrueux dégâts de foudre à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts infligés seront importants."
 			},
 			"mp": 52,
 			"target": "All Enemies",
@@ -1690,7 +1807,8 @@
 		"ヒュプノスムーチョ": {
 			"en": "Multi-Persecutter",
 			"desc": {
-				"en": "Damages all enemies. Highly effective against enemies that are asleep or confused."
+				"en": "Damages all enemies. Highly effective against enemies that are asleep or confused.",
+				"fr": "Inflige des dégâts à tous les ennemis. Particulièrement efficace contre les ennemis endormis ou désorientés."
 			},
 			"mp": 0,
 			"mpType": "all-with-min",
@@ -1703,7 +1821,8 @@
 		"ザラキ": {
 			"en": "Thwack",
 			"desc": {
-				"en": "Kills all enemies instantly. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Kills all enemies instantly. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Tue tous les ennemis sur le coup. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 12,
 			"target": "All Enemies",
@@ -1714,7 +1833,8 @@
 		"おぞましいおたけび": {
 			"en": "Hellish Howl",
 			"desc": {
-				"en": "Lets out a bloodcurdling shout that inflicts medium damage on all enemies and occasionally stuns them for 1 turn."
+				"en": "Lets out a bloodcurdling shout that inflicts medium damage on all enemies and occasionally stuns them for 1 turn.",
+				"fr": "Laisse s'échapper un cri à glacer le sang qui inflige des dégâts à tous les ennemis et les étourdit parfois pendant 1 tour."
 			},
 			"mp": 0,
 			"mpType": "all-with-min",
@@ -1726,7 +1846,8 @@
 		"タナトスムーチョ": {
 			"en": "Multi-Victimiser",
 			"desc": {
-				"en": "Damages all enemies. Highly effective against enemies that are poisoned, severely poisoned or paralysed."
+				"en": "Damages all enemies. Highly effective against enemies that are poisoned, severely poisoned or paralysed.",
+				"fr": "Inflige des dégâts à tous les ennemis. Particulièrement efficace contre les ennemis empoisonnés, sévèrement empoisonnés ou paralysés."
 			},
 			"mp": 26,
 			"target": "All Enemies",
@@ -1738,7 +1859,8 @@
 		"黒くかがやく炎": {
 			"en": "Grim Breath",
 			"desc": {
-				"en": "Inflicts outrageous dark-elemental breath damage on all enemies"
+				"en": "Inflicts outrageous dark-elemental breath damage on all enemies",
+				"fr": "Inflige de monstrueux dégâts de souffle de ténèbres à tous les ennemis."
 			},
 			"mp": 80,
 			"target": "All Enemies",
@@ -1749,7 +1871,8 @@
 		"いなずまダンス": {
 			"en": "Electric Boogie",
 			"desc": {
-				"en": "A dance that inflicts extreme electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "A dance that inflicts extreme electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Danse qui inflige d'impressionnants dégâts de foudre à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts sont importants."
 			},
 			"mp": 30,
 			"target": "All Enemies",
@@ -1760,7 +1883,8 @@
 		"炎のダンス": {
 			"en": "Hotstepper",
 			"desc": {
-				"en": "A dance that inflicts extreme fire-elemental damage on all enemies. The higher ther user's level, the greater the damage that will be inflicted."
+				"en": "A dance that inflicts extreme fire-elemental damage on all enemies. The higher ther user's level, the greater the damage that will be inflicted.",
+				"fr": "Danse qui inflige d'impressionnants dégâts de feu à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts sont importants."
 			},
 			"mp": 30,
 			"target": "All Enemies",
@@ -1771,7 +1895,8 @@
 		"ミラーステップ": {
 			"en": "Mirror Moves",
 			"desc": {
-				"en": "A secret technique that copies an enemy's dance moves step-for-step, effectively reflecting their dance back at them. Protects all allies once only."
+				"en": "A secret technique that copies an enemy's dance moves step-for-step, effectively reflecting their dance back at them. Protects all allies once only.",
+				"fr": "Technique secrète reproduisant fidèlement les pas de danse d'un ennemi, lui renvoyant sa danse. Protège tous les alliés uniquement une fois."
 			},
 			"mp": 32,
 			"target": "All Allies"
@@ -1779,7 +1904,8 @@
 		"死の踊り": {
 			"en": "Death Dance",
 			"desc": {
-				"en": "A dance that kills all enemies instantly."
+				"en": "A dance that kills all enemies instantly.",
+				"fr": "Danse qui tue tous les ennemis sur le coup."
 			},
 			"mp": 6,
 			"target": "All Enemies",
@@ -1790,7 +1916,8 @@
 		"アゲハ乱舞": {
 			"en": "Butterfly Bop",
 			"desc": {
-				"en": "A dance that summons countless butterflies from the aether to attack all enemies. The higher the user's agility, the greter the damage that will be inflicted."
+				"en": "A dance that summons countless butterflies from the aether to attack all enemies. The higher the user's agility, the greter the damage that will be inflicted.",
+				"fr": "Danse qui invoque du néant d'innombrables papillons pour attaquer tous les ennemis. Plus l'agilité de l'utilisateur est élevée, plus les dégâts sont importants."
 			},
 			"mp": 15,
 			"target": "All Enemies"
@@ -1798,7 +1925,8 @@
 		"つなみ": {
 			"en": "Tidal Wave",
 			"desc": {
-				"en": "Inflicts outrageous water-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Inflicts outrageous water-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige de monstrueux dégâts d'eau à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts sont importants."
 			},
 			"mp": 52,
 			"target": "All Enemies",
@@ -1809,7 +1937,8 @@
 		"ベホマラー": {
 			"en": "Multiheal",
 			"desc": {
-				"en": "Restores 76 or more HP to all allies."
+				"en": "Restores 76 or more HP to all allies.",
+				"fr": "Redonne au moins 76 PV à tous les alliés."
 			},
 			"mp": 26,
 			"target": "All Allies"
@@ -1817,7 +1946,8 @@
 		"はかいのひとみ": {
 			"en": "Withering Look",
 			"desc": {
-				"en": "Shoots a beam from the eyes that inflicts extreme damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Shoots a beam from the eyes that inflicts extreme damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige d'impressionnants dégâts à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts sont importants."
 			},
 			"mp": 36,
 			"target": "All Enemies"
@@ -1825,7 +1955,8 @@
 		"ビッグバン": {
 			"en": "Big Banga",
 			"desc": {
-				"en": "Inflicts outrageous explosive damange on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Inflicts outrageous explosive damange on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige de monstrueux dégâts d'explosion à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts sont importants."
 			},
 			"mp": 36,
 			"target": "All Enemies",
@@ -1836,7 +1967,8 @@
 		"アビスハンド": {
 			"en": "Bad Hand",
 			"desc": {
-				"en": "Inflicts outrageous dark-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Inflicts outrageous dark-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige de monstrueux dégâts de ténèbres à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts sont importants."
 			},
 			"mp": 52,
 			"target": "All Enemies",
@@ -1847,7 +1979,8 @@
 		"ベホマズン": {
 			"en": "Omniheal",
 			"desc": {
-				"en": "Restores 237 or more HP to all allies."
+				"en": "Restores 237 or more HP to all allies.",
+				"fr": "Redonne au moins 237 PV à tous les alliés."
 			},
 			"mp": 80,
 			"target": "All Allies"
@@ -1855,7 +1988,8 @@
 		"ベホイム": {
 			"en": "Moreheal",
 			"desc": {
-				"en": "Restores 285 or more HP to a single ally."
+				"en": "Restores 285 or more HP to a single ally.",
+				"fr": "Redonne au moins 285 PV à un allié."
 			},
 			"mp": 40,
 			"target": "Single Ally"
@@ -1863,7 +1997,8 @@
 		"マダンテ": {
 			"en": "Magic Burst",
 			"desc": {
-				"en": "Uses all remaining MP to inflict extreme light-elemental damage on all enemies. The more MP the monster has at the time of casting, the greater the damage will be."
+				"en": "Uses all remaining MP to inflict extreme light-elemental damage on all enemies. The more MP the monster has at the time of casting, the greater the damage will be.",
+				"fr": "Utilise tous les PM restants pour infliger des dégâts de lumière extrêmes à tous les ennemis. Plus le monstre dispose de PM au moment du lancer, plus les dégâts sont importants."
 			},
 			"mp": 100,
 			"mpType": "percentage",
@@ -1875,7 +2010,8 @@
 		"グランドクロス": {
 			"en": "Pearly Gates",
 			"desc": {
-				"en": "Inflicts extreme light-elemental spell damage on all enemies. Highly effecetive against monsters in the undead family."
+				"en": "Inflicts extreme light-elemental spell damage on all enemies. Highly effecetive against monsters in the undead family.",
+				"fr": "Inflige d'impressionnants dégâts de lumière à tous les ennemis. Particulièrement efficace contre les monstres de la famille des morts-vivants."
 			},
 			"mp": 60,
 			"target": "All Enemies",
@@ -1886,7 +2022,8 @@
 		"流星": {
 			"en": "Starfall",
 			"desc": {
-				"en": "Inflicts medium light-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Inflicts medium light-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige des dégâts de lumière à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts sont importants."
 			},
 			"mp": 12,
 			"target": "All Enemies",
@@ -1897,7 +2034,8 @@
 		"がんせきおとし": {
 			"en": "Boulder Toss",
 			"desc": {
-				"en": "Inflicts extreme earth-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Inflicts extreme earth-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige d'impressionnants dégâts de terre à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts sont importants."
 			},
 			"mp": 36,
 			"target": "All Enemies",
@@ -1908,7 +2046,8 @@
 		"ヴェレノーマ": {
 			"en": "Katoxle",
 			"desc": {
-				"en": "Severely poisons all enemies. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Severely poisons all enemies. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Empoisonne gravement tous les ennemis. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 15,
 			"target": "All Enemies",
@@ -1919,7 +2058,8 @@
 		"やみのはどう": {
 			"en": "Wave of Panic",
 			"desc": {
-				"en": "Debilitates all enemies."
+				"en": "Debilitates all enemies.",
+				"fr": "Affaiblit tous les ennemis."
 			},
 			"mp": 60,
 			"target": "All Enemies"
@@ -1927,7 +2067,8 @@
 		"いてつくはどう": {
 			"en": "Disruptive Wave",
 			"desc": {
-				"en": "Removes most beneficial effects from all enemies."
+				"en": "Removes most beneficial effects from all enemies.",
+				"fr": "Supprime la plupart des effets bénéfiques à tous les ennemis."
 			},
 			"mp": 60,
 			"target": "All Enemies"
@@ -1935,7 +2076,8 @@
 		"マグマ": {
 			"en": "Magma Blast",
 			"desc": {
-				"en": "Inflicts medium fire-elemental damage on all enemies."
+				"en": "Inflicts medium fire-elemental damage on all enemies.",
+				"fr": "Inflige des dégâts de feu à tous les ennemis."
 			},
 			"mp": 4,
 			"target": "All Enemies",
@@ -1946,7 +2088,8 @@
 		"シルバースパーク": {
 			"en": "Power Surge",
 			"desc": {
-				"en": "Inflicts outrageous electrical damage on all enemies."
+				"en": "Inflicts outrageous electrical damage on all enemies.",
+				"fr": "Inflige de monstrueux dégâts de foudre à tous les ennemis."
 			},
 			"mp": 52,
 			"target": "All Enemies",
@@ -1957,7 +2100,8 @@
 		"終末の炎": {
 			"en": "Hold Fire",
 			"desc": {
-				"en": "Focuses strength in order to inflict outrageous fire-elemental damage on all enemies in the next turn. Occasionally stuns them for 1 turn."
+				"en": "Focuses strength in order to inflict outrageous fire-elemental damage on all enemies in the next turn. Occasionally stuns them for 1 turn.",
+				"fr": "Concentre toute la puissance pour infliger de monstrueux dégâts de feu à tous les ennemis lors de l'action suivante. Les étourdit parfois pendant 1 tour."
 			},
 			"mp": 52,
 			"target": "All Enemies",
@@ -2074,124 +2218,124 @@
 		"すばやさアップ１": {
 			"moves": [
 				{
-					"move": "すばやさ+4",
+					"move": "すばやさプラス４",
 					"sp": 5
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 10
 				},
 				{
-					"move": "すばやさ+8",
+					"move": "すばやさプラス８",
 					"sp": 20
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 30
 				},
 				{
-					"move": "すばやさ+8",
+					"move": "すばやさプラス８",
 					"sp": 50
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 70
 				},
 				{
-					"move": "すばやさ+12",
+					"move": "すばやさプラス１２",
 					"sp": 85
 				}
 			],
 			"traits": [
-				"すばやさ+4",
-				"最大HP+4",
-				"すばやさ+8",
-				"すばやさ+12"
+				"すばやさプラス４",
+				"最大HPプラス４",
+				"すばやさプラス８",
+				"すばやさプラス１２"
 			]
 		},
 		"すばやさアップ２": {
 			"moves": [
 				{
-					"move": "すばやさ+4",
+					"move": "すばやさプラス４",
 					"sp": 5
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 15
 				},
 				{
-					"move": "すばやさ+8",
+					"move": "すばやさプラス８",
 					"sp": 30
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 50
 				},
 				{
-					"move": "すばやさ+8",
+					"move": "すばやさプラス８",
 					"sp": 75
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 100
 				},
 				{
-					"move": "すばやさ+12",
+					"move": "すばやさプラス１２",
 					"sp": 130
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 160
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 200
 				}
 			],
 			"traits": [
-				"すばやさ+4",
-				"最大HP+4",
-				"すばやさ+8",
-				"すばやさ+12",
-				"かしこさ+16"
+				"すばやさプラス４",
+				"最大HPプラス４",
+				"すばやさプラス８",
+				"すばやさプラス１２",
+				"かしこさプラス１６"
 			]
 		},
 		"すばやさアップ３": {
 			"moves": [
 				{
-					"move": "すばやさ+8",
+					"move": "すばやさプラス８",
 					"sp": 10
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 20
 				},
 				{
-					"move": "すばやさ+12",
+					"move": "すばやさプラス１２",
 					"sp": 30
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 50
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 70
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 85
 				},
 				{
-					"move": "すばやさ+20",
+					"move": "すばやさプラス２０",
 					"sp": 100
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 120
 				},
 				{
-					"move": "すばやさ+24",
+					"move": "すばやさプラス２４",
 					"sp": 150
 				},
 				{
@@ -2200,69 +2344,69 @@
 				}
 			],
 			"traits": [
-				"すばやさ+8",
-				"最大HP+8",
-				"すばやさ+12",
-				"かしこさ+16",
-				"すばやさ+20",
-				"すばやさ+24",
+				"すばやさプラス８",
+				"最大HPプラス８",
+				"すばやさプラス１２",
+				"かしこさプラス１６",
+				"すばやさプラス２０",
+				"すばやさプラス２４",
 				"弱体化ガード大"
 			]
 		},
 		"すばやさアップ４": {
 			"moves": [
 				{
-					"move": "すばやさ+2",
+					"move": "すばやさプラス２",
 					"sp": 10
 				},
 				{
-					"move": "すばやさ+4",
+					"move": "すばやさプラス４",
 					"sp": 20
 				},
 				{
-					"move": "すばやさ+8",
+					"move": "すばやさプラス８",
 					"sp": 30
 				},
 				{
-					"move": "すばやさ+12",
+					"move": "すばやさプラス１２",
 					"sp": 50
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 70
 				},
 				{
-					"move": "すばやさ+20",
+					"move": "すばやさプラス２０",
 					"sp": 85
 				},
 				{
-					"move": "すばやさ+24",
+					"move": "すばやさプラス２４",
 					"sp": 100
 				},
 				{
-					"move": "すばやさ+30",
+					"move": "すばやさプラス３０",
 					"sp": 120
 				},
 				{
-					"move": "すばやさ+36",
+					"move": "すばやさプラス３６",
 					"sp": 150
 				},
 				{
-					"move": "すばやさ+48",
+					"move": "すばやさプラス４８",
 					"sp": 200
 				}
 			],
 			"traits": [
-				"すばやさ+2",
-				"すばやさ+4",
-				"すばやさ+8",
-				"すばやさ+12",
-				"かしこさ+16",
-				"すばやさ+20",
-				"すばやさ+24",
-				"すばやさ+30",
-				"すばやさ+36",
-				"すばやさ+48"
+				"すばやさプラス２",
+				"すばやさプラス４",
+				"すばやさプラス８",
+				"すばやさプラス１２",
+				"かしこさプラス１６",
+				"すばやさプラス２０",
+				"すばやさプラス２４",
+				"すばやさプラス３０",
+				"すばやさプラス３６",
+				"すばやさプラス４８"
 			]
 		},
 		"風炎の剣技": {
@@ -2340,19 +2484,19 @@
 		"封じガード": {
 			"moves": [
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 5
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 10
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 20
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 40
 				},
 				{
@@ -2360,11 +2504,11 @@
 					"sp": 60
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 90
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 120
 				},
 				{
@@ -2373,8 +2517,8 @@
 				}
 			],
 			"traits": [
-				"最大MP+16",
-				"かしこさ+16",
+				"最大MPプラス１６",
+				"かしこさプラス１６",
 				"封じガード大",
 				"自動MP回復"
 			]
@@ -2497,124 +2641,124 @@
 		"攻撃力アップ１": {
 			"moves": [
 				{
-					"move": "攻撃力+4",
+					"move": "攻撃力プラス４",
 					"sp": 5
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 10
 				},
 				{
-					"move": "攻撃力+8",
+					"move": "攻撃力プラス８",
 					"sp": 20
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 30
 				},
 				{
-					"move": "攻撃力+8",
+					"move": "攻撃力プラス８",
 					"sp": 50
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 70
 				},
 				{
-					"move": "攻撃力+12",
+					"move": "攻撃力プラス１２",
 					"sp": 85
 				}
 			],
 			"traits": [
-				"攻撃力+4",
-				"最大HP+4",
-				"攻撃力+8",
-				"攻撃力+12"
+				"攻撃力プラス４",
+				"最大HPプラス４",
+				"攻撃力プラス８",
+				"攻撃力プラス１２"
 			]
 		},
 		"攻撃力アップ２": {
 			"moves": [
 				{
-					"move": "攻撃力+4",
+					"move": "攻撃力プラス４",
 					"sp": 5
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 15
 				},
 				{
-					"move": "攻撃力+8",
+					"move": "攻撃力プラス８",
 					"sp": 30
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 50
 				},
 				{
-					"move": "攻撃力+8",
+					"move": "攻撃力プラス８",
 					"sp": 75
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 100
 				},
 				{
-					"move": "攻撃力+12",
+					"move": "攻撃力プラス１２",
 					"sp": 130
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 160
 				},
 				{
-					"move": "攻撃力+16",
+					"move": "攻撃力プラス１６",
 					"sp": 200
 				}
 			],
 			"traits": [
-				"攻撃力+4",
-				"最大HP+4",
-				"攻撃力+8",
-				"攻撃力+12",
-				"攻撃力+16"
+				"攻撃力プラス４",
+				"最大HPプラス４",
+				"攻撃力プラス８",
+				"攻撃力プラス１２",
+				"攻撃力プラス１６"
 			]
 		},
 		"攻撃力アップ３": {
 			"moves": [
 				{
-					"move": "攻撃力+8",
+					"move": "攻撃力プラス８",
 					"sp": 10
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 20
 				},
 				{
-					"move": "攻撃力+12",
+					"move": "攻撃力プラス１２",
 					"sp": 30
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 50
 				},
 				{
-					"move": "攻撃力+16",
+					"move": "攻撃力プラス１６",
 					"sp": 70
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 85
 				},
 				{
-					"move": "攻撃力+20",
+					"move": "攻撃力プラス２０",
 					"sp": 100
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 120
 				},
 				{
-					"move": "攻撃力+24",
+					"move": "攻撃力プラス２４",
 					"sp": 150
 				},
 				{
@@ -2623,69 +2767,69 @@
 				}
 			],
 			"traits": [
-				"攻撃力+8",
-				"最大HP+8",
-				"攻撃力+12",
-				"攻撃力+16",
-				"攻撃力+20",
-				"攻撃力+24",
+				"攻撃力プラス８",
+				"最大HPプラス８",
+				"攻撃力プラス１２",
+				"攻撃力プラス１６",
+				"攻撃力プラス２０",
+				"攻撃力プラス２４",
 				"弱体化ガード大"
 			]
 		},
 		"攻撃力アップ４": {
 			"moves": [
 				{
-					"move": "攻撃力+2",
+					"move": "攻撃力プラス２",
 					"sp": 10
 				},
 				{
-					"move": "攻撃力+4",
+					"move": "攻撃力プラス４",
 					"sp": 20
 				},
 				{
-					"move": "攻撃力+8",
+					"move": "攻撃力プラス８",
 					"sp": 30
 				},
 				{
-					"move": "攻撃力+12",
+					"move": "攻撃力プラス１２",
 					"sp": 50
 				},
 				{
-					"move": "攻撃力+16",
+					"move": "攻撃力プラス１６",
 					"sp": 70
 				},
 				{
-					"move": "攻撃力+20",
+					"move": "攻撃力プラス２０",
 					"sp": 85
 				},
 				{
-					"move": "攻撃力+24",
+					"move": "攻撃力プラス２４",
 					"sp": 100
 				},
 				{
-					"move": "攻撃力+30",
+					"move": "攻撃力プラス３０",
 					"sp": 120
 				},
 				{
-					"move": "攻撃力+36",
+					"move": "攻撃力プラス３６",
 					"sp": 150
 				},
 				{
-					"move": "攻撃力+48",
+					"move": "攻撃力プラス４８",
 					"sp": 200
 				}
 			],
 			"traits": [
-				"攻撃力+2",
-				"攻撃力+4",
-				"攻撃力+8",
-				"攻撃力+12",
-				"攻撃力+16",
-				"攻撃力+20",
-				"攻撃力+24",
-				"攻撃力+30",
-				"攻撃力+36",
-				"攻撃力+48"
+				"攻撃力プラス２",
+				"攻撃力プラス４",
+				"攻撃力プラス８",
+				"攻撃力プラス１２",
+				"攻撃力プラス１６",
+				"攻撃力プラス２０",
+				"攻撃力プラス２４",
+				"攻撃力プラス３０",
+				"攻撃力プラス３６",
+				"攻撃力プラス４８"
 			]
 		},
 		"爆発の心": {
@@ -2703,7 +2847,7 @@
 					"sp": 20
 				},
 				{
-					"move": "最大MP+4",
+					"move": "最大MPプラス４",
 					"sp": 30
 				},
 				{
@@ -2715,7 +2859,7 @@
 					"sp": 70
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 85
 				},
 				{
@@ -2724,8 +2868,8 @@
 				}
 			],
 			"traits": [
-				"最大MP+4",
-				"最大MP+8"
+				"最大MPプラス４",
+				"最大MPプラス８"
 			]
 		},
 		"爆発の極意": {
@@ -2739,7 +2883,7 @@
 					"sp": 10
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 20
 				},
 				{
@@ -2755,7 +2899,7 @@
 					"sp": 80
 				},
 				{
-					"move": "最大MP+24",
+					"move": "最大MPプラス２４",
 					"sp": 110
 				},
 				{
@@ -2764,26 +2908,26 @@
 				}
 			],
 			"traits": [
-				"最大MP+16",
-				"最大MP+24"
+				"最大MPプラス１６",
+				"最大MPプラス２４"
 			]
 		},
 		"爆発ガード": {
 			"moves": [
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 5
 				},
 				{
-					"move": "攻撃力+8",
+					"move": "攻撃力プラス８",
 					"sp": 10
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 20
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 40
 				},
 				{
@@ -2791,24 +2935,24 @@
 					"sp": 60
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 90
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 120
 				},
 				{
-					"move": "消費MP半分",
+					"move": "しょうひＭＰ半分",
 					"sp": 150
 				}
 			],
 			"traits": [
-				"かしこさ+16",
-				"攻撃力+8",
-				"最大MP+16",
+				"かしこさプラス１６",
+				"攻撃力プラス８",
+				"最大MPプラス１６",
 				"爆発ガード大",
-				"消費MP半分"
+				"しょうひＭＰ半分"
 			]
 		},
 		"てっぺき": {
@@ -2818,7 +2962,7 @@
 					"sp": 3
 				},
 				{
-					"move": "守備力アップ+4",
+					"move": "守備力プラス４",
 					"sp": 10
 				},
 				{
@@ -2847,25 +2991,25 @@
 				}
 			],
 			"traits": [
-				"守備力アップ+4"
+				"守備力プラス４"
 			]
 		},
 		"幻惑ガード": {
 			"moves": [
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 5
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 10
 				},
 				{
-					"move": "守備力+16",
+					"move": "守備力プラス１６",
 					"sp": 20
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 40
 				},
 				{
@@ -2873,11 +3017,11 @@
 					"sp": 60
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 90
 				},
 				{
-					"move": "攻撃力+8",
+					"move": "攻撃力プラス８",
 					"sp": 120
 				},
 				{
@@ -2886,12 +3030,12 @@
 				}
 			],
 			"traits": [
-				"最大MP+16",
-				"かしこさ+16",
-				"守備力+16",
-				"最大HP+8",
+				"最大MPプラス１６",
+				"かしこさプラス１６",
+				"守備力プラス１６",
+				"最大HPプラス８",
 				"幻惑ガード大",
-				"攻撃力+8",
+				"攻撃力プラス８",
 				"自動MP回復"
 			]
 		},
@@ -2942,7 +3086,7 @@
 					"sp": 10
 				},
 				{
-					"move": "守備力+8",
+					"move": "守備力プラス８",
 					"sp": 20
 				},
 				{
@@ -2954,7 +3098,7 @@
 					"sp": 50
 				},
 				{
-					"move": "攻撃力+8",
+					"move": "攻撃力プラス８",
 					"sp": 70
 				},
 				{
@@ -2967,8 +3111,8 @@
 				}
 			],
 			"traits": [
-				"守備力+8",
-				"攻撃力+8"
+				"守備力プラス８",
+				"攻撃力プラス８"
 			]
 		},
 		"グランドブレスSP": {
@@ -3030,7 +3174,7 @@
 					"sp": 20
 				},
 				{
-					"move": "すばやさ+8",
+					"move": "すばやさプラス８",
 					"sp": 30
 				},
 				{
@@ -3046,7 +3190,7 @@
 					"sp": 85
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 100
 				},
 				{
@@ -3055,8 +3199,8 @@
 				}
 			],
 			"traits": [
-				"すばやさ+8",
-				"かしこさ+16"
+				"すばやさプラス８",
+				"かしこさプラス１６"
 			]
 		},
 		"つむじ風": {
@@ -3118,7 +3262,7 @@
 					"sp": 30
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 50
 				},
 				{
@@ -3135,7 +3279,7 @@
 				}
 			],
 			"traits": [
-				"最大HP+4"
+				"最大HPプラス４"
 			]
 		},
 		"みわく": {
@@ -3177,27 +3321,27 @@
 		"白黒ガードSP": {
 			"moves": [
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 10
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 20
 				},
 				{
-					"move": "最大HP+20",
+					"move": "最大HPプラス２０",
 					"sp": 30
 				},
 				{
-					"move": "最大MP+40",
+					"move": "最大MPプラス４０",
 					"sp": 50
 				},
 				{
-					"move": "最大HP+36",
+					"move": "最大HPプラス３６",
 					"sp": 70
 				},
 				{
-					"move": "最大MP+72",
+					"move": "最大MPプラス７２",
 					"sp": 85
 				},
 				{
@@ -3218,11 +3362,11 @@
 				}
 			],
 			"traits": [
-				"最大HP+8",
-				"最大HP+20",
-				"最大MP+40",
-				"最大HP+36",
-				"最大MP+72",
+				"最大HPプラス８",
+				"最大HPプラス２０",
+				"最大MPプラス４０",
+				"最大HPプラス３６",
+				"最大MPプラス７２",
 				"MP吸収ガード大",
 				"即死ガード大",
 				"光ガード大",
@@ -3240,7 +3384,7 @@
 					"sp": 10
 				},
 				{
-					"move": "すばやさ+8",
+					"move": "すばやさプラス８",
 					"sp": 20
 				},
 				{
@@ -3252,7 +3396,7 @@
 					"sp": 50
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 70
 				},
 				{
@@ -3265,8 +3409,8 @@
 				}
 			],
 			"traits": [
-				"すばやさ+8",
-				"かしこさ+16"
+				"すばやさプラス８",
+				"かしこさプラス１６"
 			]
 		},
 		"エンターテイナー": {
@@ -3308,31 +3452,31 @@
 		"混乱ガード": {
 			"moves": [
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 5
 				},
 				{
-					"move": "守備力+16",
+					"move": "守備力プラス１６",
 					"sp": 10
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 20
 				},
 				{
-					"move": "守備力+16",
+					"move": "守備力プラス１６",
 					"sp": 40
 				},
 				{
-					"move": "こんらんガード大",
+					"move": "混乱ガード大",
 					"sp": 60
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 90
 				},
 				{
-					"move": "守備力+16",
+					"move": "守備力プラス１６",
 					"sp": 120
 				},
 				{
@@ -3341,9 +3485,9 @@
 				}
 			],
 			"traits": [
-				"最大HP+8",
-				"守備力+16",
-				"こんらんガード大",
+				"最大HPプラス８",
+				"守備力プラス１６",
+				"混乱ガード大",
 				"自動HP回復"
 			]
 		},
@@ -3362,7 +3506,7 @@
 					"sp": 20
 				},
 				{
-					"move": "最大MP+4",
+					"move": "最大MPプラス４",
 					"sp": 30
 				},
 				{
@@ -3374,7 +3518,7 @@
 					"sp": 70
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 85
 				},
 				{
@@ -3383,8 +3527,8 @@
 				}
 			],
 			"traits": [
-				"最大MP+4",
-				"最大MP+8"
+				"最大MPプラス４",
+				"最大MPプラス８"
 			]
 		},
 		"氷結の極意": {
@@ -3398,7 +3542,7 @@
 					"sp": 10
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 20
 				},
 				{
@@ -3414,7 +3558,7 @@
 					"sp": 80
 				},
 				{
-					"move": "最大MP+24",
+					"move": "最大MPプラス２４",
 					"sp": 110
 				},
 				{
@@ -3423,26 +3567,26 @@
 				}
 			],
 			"traits": [
-				"最大MP+8",
-				"最大MP+24"
+				"最大MPプラス８",
+				"最大MPプラス２４"
 			]
 		},
 		"氷結ガード": {
 			"moves": [
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 5
 				},
 				{
-					"move": "守備力+16",
+					"move": "守備力プラス１６",
 					"sp": 10
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 20
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 40
 				},
 				{
@@ -3450,24 +3594,24 @@
 					"sp": 60
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 90
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 120
 				},
 				{
-					"move": "消費MP半分",
+					"move": "しょうひＭＰ半分",
 					"sp": 150
 				}
 			],
 			"traits": [
-				"かしこさ+16",
-				"守備力+16",
-				"最大MP+16",
+				"かしこさプラス１６",
+				"守備力プラス１６",
+				"最大MPプラス１６",
 				"氷結ガード大",
-				"消費MP半分"
+				"しょうひＭＰ半分"
 			]
 		},
 		"地の心": {
@@ -3485,7 +3629,7 @@
 					"sp": 20
 				},
 				{
-					"move": "最大MP+4",
+					"move": "最大MPプラス４",
 					"sp": 30
 				},
 				{
@@ -3497,7 +3641,7 @@
 					"sp": 70
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 85
 				},
 				{
@@ -3506,8 +3650,8 @@
 				}
 			],
 			"traits": [
-				"最大MP+4",
-				"最大MP+8"
+				"最大MPプラス４",
+				"最大MPプラス８"
 			]
 		},
 		"地の極意": {
@@ -3521,7 +3665,7 @@
 					"sp": 10
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 20
 				},
 				{
@@ -3537,7 +3681,7 @@
 					"sp": 80
 				},
 				{
-					"move": "最大MP+24",
+					"move": "最大MPプラス２４",
 					"sp": 110
 				},
 				{
@@ -3546,26 +3690,26 @@
 				}
 			],
 			"traits": [
-				"最大MP+16",
-				"最大MP+24"
+				"最大MPプラス１６",
+				"最大MPプラス２４"
 			]
 		},
 		"地ガード": {
 			"moves": [
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 5
 				},
 				{
-					"move": "守備力+16",
+					"move": "守備力プラス１６",
 					"sp": 10
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 20
 				},
 				{
-					"move": "攻撃力+8",
+					"move": "攻撃力プラス８",
 					"sp": 40
 				},
 				{
@@ -3573,25 +3717,25 @@
 					"sp": 60
 				},
 				{
-					"move": "守備力+16",
+					"move": "守備力プラス１６",
 					"sp": 90
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 120
 				},
 				{
-					"move": "消費MP半分",
+					"move": "しょうひＭＰ半分",
 					"sp": 150
 				}
 			],
 			"traits": [
-				"最大HP+8",
-				"守備力+16",
-				"最大MP+16",
-				"攻撃力+8",
+				"最大HPプラス８",
+				"守備力プラス１６",
+				"最大MPプラス１６",
+				"攻撃力プラス８",
 				"地ガード大",
-				"消費MP半分"
+				"しょうひＭＰ半分"
 			]
 		},
 		"キューピット": {
@@ -3621,7 +3765,7 @@
 					"sp": 70
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 85
 				},
 				{
@@ -3630,7 +3774,7 @@
 				}
 			],
 			"traits": [
-				"最大HP+8"
+				"最大HPプラス８"
 			]
 		},
 		"ぬすっと": {
@@ -3672,27 +3816,27 @@
 		"爆風ガードSP": {
 			"moves": [
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 10
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 20
 				},
 				{
-					"move": "最大HP+20",
+					"move": "最大HPプラス２０",
 					"sp": 30
 				},
 				{
-					"move": "最大MP+40",
+					"move": "最大MPプラス４０",
 					"sp": 50
 				},
 				{
-					"move": "最大HP+36",
+					"move": "最大HPプラス３６",
 					"sp": 70
 				},
 				{
-					"move": "最大MP+72",
+					"move": "最大MPプラス７２",
 					"sp": 85
 				},
 				{
@@ -3700,7 +3844,7 @@
 					"sp": 100
 				},
 				{
-					"move": "こんらんガード大",
+					"move": "混乱ガード大",
 					"sp": 120
 				},
 				{
@@ -3713,14 +3857,14 @@
 				}
 			],
 			"traits": [
-				"最大HP+8",
-				"最大MP+16",
-				"最大HP+20",
-				"最大MP+40",
-				"最大HP+36",
-				"最大MP+72",
+				"最大HPプラス８",
+				"最大MPプラス１６",
+				"最大HPプラス２０",
+				"最大MPプラス４０",
+				"最大HPプラス３６",
+				"最大MPプラス７２",
 				"休みガード大",
-				"こんらんガード大",
+				"混乱ガード大",
 				"爆発ガード大",
 				"風ガード大"
 			]
@@ -3740,7 +3884,7 @@
 					"sp": 20
 				},
 				{
-					"move": "すばやさ+4",
+					"move": "すばやさプラス４",
 					"sp": 30
 				},
 				{
@@ -3752,7 +3896,7 @@
 					"sp": 70
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 85
 				},
 				{
@@ -3761,8 +3905,8 @@
 				}
 			],
 			"traits": [
-				"すばやさ+4",
-				"最大MP+8"
+				"すばやさプラス４",
+				"最大MPプラス８"
 			]
 		},
 		"悪魔のささやき": {
@@ -3811,19 +3955,19 @@
 		"即死ガード": {
 			"moves": [
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 5
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 10
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 20
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 40
 				},
 				{
@@ -3831,11 +3975,11 @@
 					"sp": 60
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 90
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 120
 				},
 				{
@@ -3844,8 +3988,8 @@
 				}
 			],
 			"traits": [
-				"最大HP+8",
-				"最大MP+16",
+				"最大HPプラス８",
+				"最大MPプラス１６",
 				"即死ガード大",
 				"自動HP回復"
 			]
@@ -3853,19 +3997,19 @@
 		"弱体化ガード": {
 			"moves": [
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 5
 				},
 				{
-					"move": "攻撃力+8",
+					"move": "攻撃力プラス８",
 					"sp": 10
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 20
 				},
 				{
-					"move": "守備力+16",
+					"move": "守備力プラス１６",
 					"sp": 40
 				},
 				{
@@ -3873,11 +4017,11 @@
 					"sp": 60
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 90
 				},
 				{
-					"move": "攻撃力+8",
+					"move": "攻撃力プラス８",
 					"sp": 120
 				},
 				{
@@ -3886,10 +4030,10 @@
 				}
 			],
 			"traits": [
-				"最大HP+8",
-				"攻撃力+8",
-				"最大MP+16",
-				"守備力+16",
+				"最大HPプラス８",
+				"攻撃力プラス８",
+				"最大MPプラス１６",
+				"守備力プラス１６",
 				"弱体化ガード大",
 				"自動MP回復"
 			]
@@ -3941,125 +4085,125 @@
 		"守備力アップ１": {
 			"moves": [
 				{
-					"move": "守備力アップ+4",
+					"move": "守備力プラス４",
 					"sp": 5
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 10
 				},
 				{
-					"move": "守備力+8",
+					"move": "守備力プラス８",
 					"sp": 20
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 30
 				},
 				{
-					"move": "守備力+16",
+					"move": "守備力プラス１６",
 					"sp": 50
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 70
 				},
 				{
-					"move": "守備力アップ+24",
+					"move": "守備力プラス２４",
 					"sp": 85
 				}
 			],
 			"traits": [
-				"守備力アップ+4",
-				"最大HP+4",
-				"守備力+8",
-				"守備力+16",
-				"守備力アップ+24"
+				"守備力プラス４",
+				"最大HPプラス４",
+				"守備力プラス８",
+				"守備力プラス１６",
+				"守備力プラス２４"
 			]
 		},
 		"守備力アップ２": {
 			"moves": [
 				{
-					"move": "守備力+8",
+					"move": "守備力プラス８",
 					"sp": 5
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 15
 				},
 				{
-					"move": "守備力+16",
+					"move": "守備力プラス１６",
 					"sp": 30
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 50
 				},
 				{
-					"move": "守備力+16",
+					"move": "守備力プラス１６",
 					"sp": 75
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 100
 				},
 				{
-					"move": "守備力アップ+24",
+					"move": "守備力プラス２４",
 					"sp": 130
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 160
 				},
 				{
-					"move": "守備力アップ+32",
+					"move": "守備力プラス３２",
 					"sp": 200
 				}
 			],
 			"traits": [
-				"守備力+8",
-				"最大HP+4",
-				"守備力+16",
-				"守備力アップ+24",
-				"守備力アップ+32"
+				"守備力プラス８",
+				"最大HPプラス４",
+				"守備力プラス１６",
+				"守備力プラス２４",
+				"守備力プラス３２"
 			]
 		},
 		"守備力アップ３": {
 			"moves": [
 				{
-					"move": "守備力+16",
+					"move": "守備力プラス１６",
 					"sp": 10
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 20
 				},
 				{
-					"move": "守備力アップ+24",
+					"move": "守備力プラス２４",
 					"sp": 30
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 50
 				},
 				{
-					"move": "守備力アップ+32",
+					"move": "守備力プラス３２",
 					"sp": 70
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 85
 				},
 				{
-					"move": "守備力+40",
+					"move": "守備力プラス４０",
 					"sp": 100
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 120
 				},
 				{
-					"move": "守備力アップ+48",
+					"move": "守備力プラス４８",
 					"sp": 150
 				},
 				{
@@ -4068,70 +4212,70 @@
 				}
 			],
 			"traits": [
-				"守備力+16",
-				"最大HP+8",
-				"守備力アップ+24",
-				"守備力アップ+32",
-				"守備力+40",
-				"最大MP+8",
-				"守備力アップ+48",
+				"守備力プラス１６",
+				"最大HPプラス８",
+				"守備力プラス２４",
+				"守備力プラス３２",
+				"守備力プラス４０",
+				"最大MPプラス８",
+				"守備力プラス４８",
 				"弱体化ガード大"
 			]
 		},
 		"守備力アップ４": {
 			"moves": [
 				{
-					"move": "守備力アップ+4",
+					"move": "守備力プラス４",
 					"sp": 10
 				},
 				{
-					"move": "守備力+8",
+					"move": "守備力プラス８",
 					"sp": 20
 				},
 				{
-					"move": "守備力+16",
+					"move": "守備力プラス１６",
 					"sp": 30
 				},
 				{
-					"move": "守備力アップ+24",
+					"move": "守備力プラス２４",
 					"sp": 50
 				},
 				{
-					"move": "守備力アップ+32",
+					"move": "守備力プラス３２",
 					"sp": 70
 				},
 				{
-					"move": "守備力+40",
+					"move": "守備力プラス４０",
 					"sp": 85
 				},
 				{
-					"move": "守備力アップ+48",
+					"move": "守備力プラス４８",
 					"sp": 100
 				},
 				{
-					"move": "守備力アップ+60",
+					"move": "守備力プラス６０",
 					"sp": 120
 				},
 				{
-					"move": "守備力アップ+72",
+					"move": "守備力プラス７２",
 					"sp": 150
 				},
 				{
-					"move": "守備力アップ+96",
+					"move": "守備力プラス９６",
 					"sp": 200
 				}
 			],
 			"traits": [
-				"守備力アップ+4",
-				"守備力+8",
-				"守備力+16",
-				"守備力アップ+24",
-				"守備力アップ+32",
-				"守備力+40",
-				"守備力アップ+48",
-				"守備力アップ+60",
-				"守備力アップ+72",
-				"守備力アップ+96"
+				"守備力プラス４",
+				"守備力プラス８",
+				"守備力プラス１６",
+				"守備力プラス２４",
+				"守備力プラス３２",
+				"守備力プラス４０",
+				"守備力プラス４８",
+				"守備力プラス６０",
+				"守備力プラス７２",
+				"守備力プラス９６"
 			]
 		},
 		"ぼうぎょ": {
@@ -4216,19 +4360,19 @@
 		"MP吸収ガード": {
 			"moves": [
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 5
 				},
 				{
-					"move": "すばやさ+8",
+					"move": "すばやさプラス８",
 					"sp": 10
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 20
 				},
 				{
-					"move": "すばやさ+8",
+					"move": "すばやさプラス８",
 					"sp": 40
 				},
 				{
@@ -4236,11 +4380,11 @@
 					"sp": 60
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 90
 				},
 				{
-					"move": "すばやさ+8",
+					"move": "すばやさプラス８",
 					"sp": 120
 				},
 				{
@@ -4249,8 +4393,8 @@
 				}
 			],
 			"traits": [
-				"最大MP+16",
-				"すばやさ+8",
+				"最大MPプラス１６",
+				"すばやさプラス８",
 				"MP吸収ガード大",
 				"自動MP回復"
 			]
@@ -4494,7 +4638,7 @@
 					"sp": 20
 				},
 				{
-					"move": "最大MP+4",
+					"move": "最大MPプラス４",
 					"sp": 30
 				},
 				{
@@ -4506,7 +4650,7 @@
 					"sp": 70
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 85
 				},
 				{
@@ -4515,8 +4659,8 @@
 				}
 			],
 			"traits": [
-				"最大MP+4",
-				"最大MP+8"
+				"最大MPプラス４",
+				"最大MPプラス８"
 			]
 		},
 		"火の極意": {
@@ -4530,7 +4674,7 @@
 					"sp": 10
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 20
 				},
 				{
@@ -4546,7 +4690,7 @@
 					"sp": 80
 				},
 				{
-					"move": "最大MP+24",
+					"move": "最大MPプラス２４",
 					"sp": 110
 				},
 				{
@@ -4555,26 +4699,26 @@
 				}
 			],
 			"traits": [
-				"最大MP+16",
-				"最大MP+24"
+				"最大MPプラス１６",
+				"最大MPプラス２４"
 			]
 		},
 		"火ガード": {
 			"moves": [
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 5
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 10
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 20
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 40
 				},
 				{
@@ -4582,24 +4726,24 @@
 					"sp": 60
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 90
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 120
 				},
 				{
-					"move": "消費MP半分",
+					"move": "しょうひＭＰ半分",
 					"sp": 150
 				}
 			],
 			"traits": [
-				"かしこさ+16",
-				"最大HP+8",
-				"最大MP+16",
+				"かしこさプラス１６",
+				"最大HPプラス８",
+				"最大MPプラス１６",
 				"火ガード大",
-				"消費MP半分"
+				"しょうひＭＰ半分"
 			]
 		},
 		"氷獄": {
@@ -4617,7 +4761,7 @@
 					"sp": 20
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 40
 				},
 				{
@@ -4637,7 +4781,7 @@
 					"sp": 130
 				},
 				{
-					"move": "かしこさ+32",
+					"move": "かしこさプラス３２",
 					"sp": 160
 				},
 				{
@@ -4646,34 +4790,34 @@
 				}
 			],
 			"traits": [
-				"かしこさ+16",
-				"かしこさ+32"
+				"かしこさプラス１６",
+				"かしこさプラス３２"
 			]
 		},
 		"稲妻ガードSP": {
 			"moves": [
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 10
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 20
 				},
 				{
-					"move": "最大HP+20",
+					"move": "最大HPプラス２０",
 					"sp": 30
 				},
 				{
-					"move": "最大MP+40",
+					"move": "最大MPプラス４０",
 					"sp": 50
 				},
 				{
-					"move": "最大HP+36",
+					"move": "最大HPプラス３６",
 					"sp": 70
 				},
 				{
-					"move": "最大MP+72",
+					"move": "最大MPプラス７２",
 					"sp": 85
 				},
 				{
@@ -4694,12 +4838,12 @@
 				}
 			],
 			"traits": [
-				"最大HP+8",
-				"最大MP+16",
-				"最大HP+20",
-				"最大MP+40",
-				"最大HP+36",
-				"最大MP+72",
+				"最大HPプラス８",
+				"最大MPプラス１６",
+				"最大HPプラス２０",
+				"最大MPプラス４０",
+				"最大HPプラス３６",
+				"最大MPプラス７２",
 				"封じガード大",
 				"マヒガード大",
 				"電撃ガード大",
@@ -4709,27 +4853,27 @@
 		"流氷ガードSP": {
 			"moves": [
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 10
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 20
 				},
 				{
-					"move": "最大HP+20",
+					"move": "最大HPプラス２０",
 					"sp": 30
 				},
 				{
-					"move": "最大MP+40",
+					"move": "最大MPプラス４０",
 					"sp": 50
 				},
 				{
-					"move": "最大HP+36",
+					"move": "最大HPプラス３６",
 					"sp": 70
 				},
 				{
-					"move": "最大MP+72",
+					"move": "最大MPプラス７２",
 					"sp": 85
 				},
 				{
@@ -4737,7 +4881,7 @@
 					"sp": 100
 				},
 				{
-					"move": "どくガード大",
+					"move": "毒ガード大",
 					"sp": 120
 				},
 				{
@@ -4750,14 +4894,14 @@
 				}
 			],
 			"traits": [
-				"最大HP+8",
-				"最大MP+16",
-				"最大HP+20",
-				"最大MP+40",
-				"最大HP+36",
-				"最大MP+72",
+				"最大HPプラス８",
+				"最大MPプラス１６",
+				"最大HPプラス２０",
+				"最大MPプラス４０",
+				"最大HPプラス３６",
+				"最大MPプラス７２",
 				"幻惑ガード大",
-				"どくガード大",
+				"毒ガード大",
 				"地ガード大",
 				"爆発ガード大"
 			]
@@ -4781,7 +4925,7 @@
 					"sp": 30
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 50
 				},
 				{
@@ -4798,7 +4942,7 @@
 				}
 			],
 			"traits": [
-				"最大HP+8"
+				"最大HPプラス８"
 			]
 		},
 		"騎士道": {
@@ -4992,7 +5136,7 @@
 					"sp": 85
 				},
 				{
-					"move": "かしこさ+24",
+					"move": "かしこさプラス２４",
 					"sp": 100
 				},
 				{
@@ -5001,7 +5145,7 @@
 				}
 			],
 			"traits": [
-				"かしこさ+24"
+				"かしこさプラス２４"
 			]
 		},
 		"むしのしらせ": {
@@ -5086,126 +5230,126 @@
 		"HPアップ１": {
 			"moves": [
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 5
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 10
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 20
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 30
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 50
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 70
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 85
 				},
 				{
-					"move": "最大HP+12",
+					"move": "最大HPプラス１２",
 					"sp": 100
 				}
 			],
 			"traits": [
-				"最大HP+4",
-				"最大HP+8",
-				"最大HP+12"
+				"最大HPプラス４",
+				"最大HPプラス８",
+				"最大HPプラス１２"
 			]
 		},
 		"HPアップ２": {
 			"moves": [
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 5
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 15
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 30
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 50
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 75
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 100
 				},
 				{
-					"move": "最大HP+12",
+					"move": "最大HPプラス１２",
 					"sp": 130
 				},
 				{
-					"move": "最大HP+12",
+					"move": "最大HPプラス１２",
 					"sp": 160
 				},
 				{
-					"move": "最大HP+16",
+					"move": "最大HPプラス１６",
 					"sp": 200
 				}
 			],
 			"traits": [
-				"最大HP+4",
-				"最大HP+8",
-				"最大HP+12",
-				"最大HP+16"
+				"最大HPプラス４",
+				"最大HPプラス８",
+				"最大HPプラス１２",
+				"最大HPプラス１６"
 			]
 		},
 		"HPアップ３": {
 			"moves": [
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 10
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 20
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 30
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 50
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 70
 				},
 				{
-					"move": "最大HP+12",
+					"move": "最大HPプラス１２",
 					"sp": 85
 				},
 				{
-					"move": "最大HP+16",
+					"move": "最大HPプラス１６",
 					"sp": 100
 				},
 				{
-					"move": "最大HP+20",
+					"move": "最大HPプラス２０",
 					"sp": 120
 				},
 				{
-					"move": "最大HP+24",
+					"move": "最大HPプラス２４",
 					"sp": 150
 				},
 				{
@@ -5214,69 +5358,69 @@
 				}
 			],
 			"traits": [
-				"最大HP+4",
-				"最大HP+8",
-				"最大HP+12",
-				"最大HP+16",
-				"最大HP+20",
-				"最大HP+24",
+				"最大HPプラス４",
+				"最大HPプラス８",
+				"最大HPプラス１２",
+				"最大HPプラス１６",
+				"最大HPプラス２０",
+				"最大HPプラス２４",
 				"自動HP回復"
 			]
 		},
 		"HPアップ４": {
 			"moves": [
 				{
-					"move": "最大HP+2",
+					"move": "最大HPプラス２",
 					"sp": 10
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 20
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 30
 				},
 				{
-					"move": "最大HP+12",
+					"move": "最大HPプラス１２",
 					"sp": 50
 				},
 				{
-					"move": "最大HP+16",
+					"move": "最大HPプラス１６",
 					"sp": 70
 				},
 				{
-					"move": "最大HP+20",
+					"move": "最大HPプラス２０",
 					"sp": 85
 				},
 				{
-					"move": "最大HP+24",
+					"move": "最大HPプラス２４",
 					"sp": 100
 				},
 				{
-					"move": "最大HP+30",
+					"move": "最大HPプラス３０",
 					"sp": 120
 				},
 				{
-					"move": "最大HP+36",
+					"move": "最大HPプラス３６",
 					"sp": 150
 				},
 				{
-					"move": "最大HP+48",
+					"move": "最大HPプラス４８",
 					"sp": 200
 				}
 			],
 			"traits": [
-				"最大HP+2",
-				"最大HP+4",
-				"最大HP+8",
-				"最大HP+12",
-				"最大HP+16",
-				"最大HP+20",
-				"最大HP+24",
-				"最大HP+30",
-				"最大HP+36",
-				"最大HP+48"
+				"最大HPプラス２",
+				"最大HPプラス４",
+				"最大HPプラス８",
+				"最大HPプラス１２",
+				"最大HPプラス１６",
+				"最大HPプラス２０",
+				"最大HPプラス２４",
+				"最大HPプラス３０",
+				"最大HPプラス３６",
+				"最大HPプラス４８"
 			]
 		},
 		"闇の爆炎SP": {
@@ -5410,7 +5554,7 @@
 					"sp": 3
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 10
 				},
 				{
@@ -5418,7 +5562,7 @@
 					"sp": 20
 				},
 				{
-					"move": "守備力+8",
+					"move": "守備力プラス８",
 					"sp": 30
 				},
 				{
@@ -5439,8 +5583,8 @@
 				}
 			],
 			"traits": [
-				"最大HP+8",
-				"守備力+8"
+				"最大HPプラス８",
+				"守備力プラス８"
 			]
 		},
 		"いしあたま": {
@@ -5482,128 +5626,128 @@
 		"MPアップ１": {
 			"moves": [
 				{
-					"move": "最大MP+4",
+					"move": "最大MPプラス４",
 					"sp": 5
 				},
 				{
-					"move": "最大MP+4",
+					"move": "最大MPプラス４",
 					"sp": 10
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 20
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 30
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 50
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 70
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 85
 				},
 				{
-					"move": "最大MP+24",
+					"move": "最大MPプラス２４",
 					"sp": 100
 				}
 			],
 			"traits": [
-				"最大MP+4",
-				"最大MP+8",
-				"最大MP+16",
-				"最大MP+24"
+				"最大MPプラス４",
+				"最大MPプラス８",
+				"最大MPプラス１６",
+				"最大MPプラス２４"
 			]
 		},
 		"MPアップ２": {
 			"moves": [
 				{
-					"move": "最大MP+4",
+					"move": "最大MPプラス４",
 					"sp": 5
 				},
 				{
-					"move": "最大MP+4",
+					"move": "最大MPプラス４",
 					"sp": 15
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 30
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 50
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 75
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 100
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 130
 				},
 				{
-					"move": "最大MP+24",
+					"move": "最大MPプラス２４",
 					"sp": 160
 				},
 				{
-					"move": "最大MP+32",
+					"move": "最大MPプラス３２",
 					"sp": 200
 				}
 			],
 			"traits": [
-				"最大MP+4",
-				"最大MP+8",
-				"最大MP+16",
-				"最大MP+24",
-				"最大MP+32"
+				"最大MPプラス４",
+				"最大MPプラス８",
+				"最大MPプラス１６",
+				"最大MPプラス２４",
+				"最大MPプラス３２"
 			]
 		},
 		"MPアップ３": {
 			"moves": [
 				{
-					"move": "最大MP+4",
+					"move": "最大MPプラス４",
 					"sp": 10
 				},
 				{
-					"move": "最大MP+4",
+					"move": "最大MPプラス４",
 					"sp": 20
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 30
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 50
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 70
 				},
 				{
-					"move": "最大MP+24",
+					"move": "最大MPプラス２４",
 					"sp": 85
 				},
 				{
-					"move": "最大MP+32",
+					"move": "最大MPプラス３２",
 					"sp": 100
 				},
 				{
-					"move": "最大MP+40",
+					"move": "最大MPプラス４０",
 					"sp": 120
 				},
 				{
-					"move": "最大MP+48",
+					"move": "最大MPプラス４８",
 					"sp": 150
 				},
 				{
@@ -5612,70 +5756,70 @@
 				}
 			],
 			"traits": [
-				"最大MP+4",
-				"最大MP+8",
-				"最大MP+16",
-				"最大MP+24",
-				"最大MP+32",
-				"最大MP+40",
-				"最大MP+48",
+				"最大MPプラス４",
+				"最大MPプラス８",
+				"最大MPプラス１６",
+				"最大MPプラス２４",
+				"最大MPプラス３２",
+				"最大MPプラス４０",
+				"最大MPプラス４８",
 				"MP吸収ガード大"
 			]
 		},
 		"MPアップ４": {
 			"moves": [
 				{
-					"move": "最大MP+4",
+					"move": "最大MPプラス４",
 					"sp": 10
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 20
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 30
 				},
 				{
-					"move": "最大MP+24",
+					"move": "最大MPプラス２４",
 					"sp": 50
 				},
 				{
-					"move": "最大MP+32",
+					"move": "最大MPプラス３２",
 					"sp": 70
 				},
 				{
-					"move": "最大MP+40",
+					"move": "最大MPプラス４０",
 					"sp": 85
 				},
 				{
-					"move": "最大MP+48",
+					"move": "最大MPプラス４８",
 					"sp": 100
 				},
 				{
-					"move": "最大MP+60",
+					"move": "最大MPプラス６０",
 					"sp": 120
 				},
 				{
-					"move": "最大MP+72",
+					"move": "最大MPプラス７２",
 					"sp": 150
 				},
 				{
-					"move": "最大MP+96",
+					"move": "最大MPプラス９６",
 					"sp": 200
 				}
 			],
 			"traits": [
-				"最大MP+4",
-				"最大MP+8",
-				"最大MP+16",
-				"最大MP+24",
-				"最大MP+32",
-				"最大MP+40",
-				"最大MP+48",
-				"最大MP+60",
-				"最大MP+72",
-				"最大MP+96"
+				"最大MPプラス４",
+				"最大MPプラス８",
+				"最大MPプラス１６",
+				"最大MPプラス２４",
+				"最大MPプラス３２",
+				"最大MPプラス４０",
+				"最大MPプラス４８",
+				"最大MPプラス６０",
+				"最大MPプラス７２",
+				"最大MPプラス９６"
 			]
 		},
 		"ヘドロ": {
@@ -5835,19 +5979,19 @@
 		"マヒガード": {
 			"moves": [
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 5
 				},
 				{
-					"move": "守備力+16",
+					"move": "守備力プラス１６",
 					"sp": 10
 				},
 				{
-					"move": "すばやさ+8",
+					"move": "すばやさプラス８",
 					"sp": 20
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 40
 				},
 				{
@@ -5855,11 +5999,11 @@
 					"sp": 60
 				},
 				{
-					"move": "守備力+16",
+					"move": "守備力プラス１６",
 					"sp": 90
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 120
 				},
 				{
@@ -5868,9 +6012,9 @@
 				}
 			],
 			"traits": [
-				"最大HP+8",
-				"守備力+16",
-				"すばやさ+8",
+				"最大HPプラス８",
+				"守備力プラス１６",
+				"すばやさプラス８",
 				"マヒガード大",
 				"自動HP回復"
 			]
@@ -5958,31 +6102,31 @@
 		"毒ガード": {
 			"moves": [
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 5
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 10
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 20
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 40
 				},
 				{
-					"move": "どくガード大",
+					"move": "毒ガード大",
 					"sp": 60
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 90
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 120
 				},
 				{
@@ -5991,9 +6135,9 @@
 				}
 			],
 			"traits": [
-				"最大HP+8",
-				"最大MP+16",
-				"どくガード大",
+				"最大HPプラス８",
+				"最大MPプラス１６",
+				"毒ガード大",
 				"自動HP回復"
 			]
 		},
@@ -6068,7 +6212,7 @@
 					"sp": 70
 				},
 				{
-					"move": "攻撃力+12",
+					"move": "攻撃力プラス１２",
 					"sp": 85
 				},
 				{
@@ -6077,7 +6221,7 @@
 				}
 			],
 			"traits": [
-				"攻撃力+12"
+				"攻撃力プラス１２"
 			]
 		},
 		"いたずら": {
@@ -6107,7 +6251,7 @@
 					"sp": 70
 				},
 				{
-					"move": "すばやさ+4",
+					"move": "すばやさプラス４",
 					"sp": 85
 				},
 				{
@@ -6116,7 +6260,7 @@
 				}
 			],
 			"traits": [
-				"すばやさ+4"
+				"すばやさプラス４"
 			]
 		},
 		"プリンセス": {
@@ -6134,7 +6278,7 @@
 					"sp": 20
 				},
 				{
-					"move": "最大HP+4",
+					"move": "最大HPプラス４",
 					"sp": 30
 				},
 				{
@@ -6146,7 +6290,7 @@
 					"sp": 70
 				},
 				{
-					"move": "Max. MP +12",
+					"move": "最大MPプラス１２",
 					"sp": 85
 				},
 				{
@@ -6159,8 +6303,8 @@
 				}
 			],
 			"traits": [
-				"最大HP+4",
-				"Max. MP +12"
+				"最大HPプラス４",
+				"最大MPプラス１２"
 			]
 		},
 		"火遊び": {
@@ -6254,7 +6398,7 @@
 					"sp": 10
 				},
 				{
-					"move": "攻撃力+4",
+					"move": "攻撃力プラス４",
 					"sp": 20
 				},
 				{
@@ -6266,7 +6410,7 @@
 					"sp": 50
 				},
 				{
-					"move": "攻撃力+8",
+					"move": "攻撃力プラス８",
 					"sp": 70
 				},
 				{
@@ -6279,8 +6423,8 @@
 				}
 			],
 			"traits": [
-				"攻撃力+4",
-				"攻撃力+8"
+				"攻撃力プラス４",
+				"攻撃力プラス８"
 			]
 		},
 		"光の心": {
@@ -6298,7 +6442,7 @@
 					"sp": 20
 				},
 				{
-					"move": "最大MP+4",
+					"move": "最大MPプラス４",
 					"sp": 30
 				},
 				{
@@ -6310,7 +6454,7 @@
 					"sp": 70
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 85
 				},
 				{
@@ -6319,8 +6463,8 @@
 				}
 			],
 			"traits": [
-				"最大MP+4",
-				"最大MP+8"
+				"最大MPプラス４",
+				"最大MPプラス８"
 			]
 		},
 		"光の極意": {
@@ -6334,7 +6478,7 @@
 					"sp": 10
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 20
 				},
 				{
@@ -6350,7 +6494,7 @@
 					"sp": 80
 				},
 				{
-					"move": "最大MP+24",
+					"move": "最大MPプラス２４",
 					"sp": 110
 				},
 				{
@@ -6359,26 +6503,26 @@
 				}
 			],
 			"traits": [
-				"最大MP+16",
-				"最大MP+24"
+				"最大MPプラス１６",
+				"最大MPプラス２４"
 			]
 		},
 		"光ガード": {
 			"moves": [
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 5
 				},
 				{
-					"move": "すばやさ+8",
+					"move": "すばやさプラス８",
 					"sp": 10
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 20
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 40
 				},
 				{
@@ -6386,25 +6530,25 @@
 					"sp": 60
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 90
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 120
 				},
 				{
-					"move": "消費MP半分",
+					"move": "しょうひＭＰ半分",
 					"sp": 150
 				}
 			],
 			"traits": [
-				"かしこさ+16",
-				"すばやさ+8",
-				"最大HP+8",
-				"最大MP+16",
+				"かしこさプラス１６",
+				"すばやさプラス８",
+				"最大HPプラス８",
+				"最大MPプラス１６",
 				"光ガード大",
-				"消費MP半分"
+				"しょうひＭＰ半分"
 			]
 		},
 		"睡魔": {
@@ -6446,31 +6590,31 @@
 		"眠りガード": {
 			"moves": [
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 5
 				},
 				{
-					"move": "すばやさ+8",
+					"move": "すばやさプラス８",
 					"sp": 10
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 20
 				},
 				{
-					"move": "すばやさ+8",
+					"move": "すばやさプラス８",
 					"sp": 40
 				},
 				{
-					"move": "ねむりガード大",
+					"move": "眠りガード大",
 					"sp": 60
 				},
 				{
-					"move": "すばやさ+8",
+					"move": "すばやさプラス８",
 					"sp": 90
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 120
 				},
 				{
@@ -6479,9 +6623,9 @@
 				}
 			],
 			"traits": [
-				"最大HP+8",
-				"すばやさ+8",
-				"ねむりガード大",
+				"最大HPプラス８",
+				"すばやさプラス８",
+				"眠りガード大",
 				"自動HP回復"
 			]
 		},
@@ -6539,7 +6683,7 @@
 					"sp": 20
 				},
 				{
-					"move": "守備力+16",
+					"move": "守備力プラス１６",
 					"sp": 40
 				},
 				{
@@ -6559,7 +6703,7 @@
 					"sp": 130
 				},
 				{
-					"move": "攻撃力+16",
+					"move": "攻撃力プラス１６",
 					"sp": 160
 				},
 				{
@@ -6568,8 +6712,8 @@
 				}
 			],
 			"traits": [
-				"守備力+16",
-				"攻撃力+16"
+				"守備力プラス１６",
+				"攻撃力プラス１６"
 			]
 		},
 		"ブルーソード": {
@@ -6587,7 +6731,7 @@
 					"sp": 20
 				},
 				{
-					"move": "かしこさ+8",
+					"move": "かしこさプラス８",
 					"sp": 30
 				},
 				{
@@ -6603,7 +6747,7 @@
 					"sp": 85
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 100
 				},
 				{
@@ -6612,8 +6756,8 @@
 				}
 			],
 			"traits": [
-				"かしこさ+8",
-				"かしこさ+16"
+				"かしこさプラス８",
+				"かしこさプラス１６"
 			]
 		},
 		"妖精": {
@@ -6671,7 +6815,7 @@
 					"sp": 20
 				},
 				{
-					"move": "すばやさ+4",
+					"move": "すばやさプラス４",
 					"sp": 30
 				},
 				{
@@ -6692,7 +6836,7 @@
 				}
 			],
 			"traits": [
-				"すばやさ+4"
+				"すばやさプラス４"
 			]
 		},
 		"レッドソード": {
@@ -6710,7 +6854,7 @@
 					"sp": 20
 				},
 				{
-					"move": "攻撃力+4",
+					"move": "攻撃力プラス４",
 					"sp": 30
 				},
 				{
@@ -6726,7 +6870,7 @@
 					"sp": 85
 				},
 				{
-					"move": "攻撃力+8",
+					"move": "攻撃力プラス８",
 					"sp": 100
 				},
 				{
@@ -6735,8 +6879,8 @@
 				}
 			],
 			"traits": [
-				"攻撃力+4",
-				"攻撃力+8"
+				"攻撃力プラス４",
+				"攻撃力プラス８"
 			]
 		},
 		"水の心": {
@@ -6754,7 +6898,7 @@
 					"sp": 20
 				},
 				{
-					"move": "最大MP+4",
+					"move": "最大MPプラス４",
 					"sp": 30
 				},
 				{
@@ -6766,7 +6910,7 @@
 					"sp": 70
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 85
 				},
 				{
@@ -6775,8 +6919,8 @@
 				}
 			],
 			"traits": [
-				"最大MP+4",
-				"最大MP+8"
+				"最大MPプラス４",
+				"最大MPプラス８"
 			]
 		},
 		"水の極意": {
@@ -6790,7 +6934,7 @@
 					"sp": 10
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 20
 				},
 				{
@@ -6806,7 +6950,7 @@
 					"sp": 80
 				},
 				{
-					"move": "最大MP+24",
+					"move": "最大MPプラス２４",
 					"sp": 110
 				},
 				{
@@ -6815,26 +6959,26 @@
 				}
 			],
 			"traits": [
-				"最大MP+16",
-				"最大MP+24"
+				"最大MPプラス１６",
+				"最大MPプラス２４"
 			]
 		},
 		"水ガード": {
 			"moves": [
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 5
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 10
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 20
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 40
 				},
 				{
@@ -6842,24 +6986,24 @@
 					"sp": 60
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 90
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 120
 				},
 				{
-					"move": "消費MP半分",
+					"move": "しょうひＭＰ半分",
 					"sp": 150
 				}
 			],
 			"traits": [
-				"かしこさ+16",
-				"最大HP+8",
-				"最大MP+16",
+				"かしこさプラス１６",
+				"最大HPプラス８",
+				"最大MPプラス１６",
 				"水ガード大",
-				"消費MP半分"
+				"しょうひＭＰ半分"
 			]
 		},
 		"あくしゅう": {
@@ -6913,7 +7057,7 @@
 					"sp": 20
 				},
 				{
-					"move": "守備力+8",
+					"move": "守備力プラス８",
 					"sp": 30
 				},
 				{
@@ -6929,7 +7073,7 @@
 					"sp": 85
 				},
 				{
-					"move": "守備力+16",
+					"move": "守備力プラス１６",
 					"sp": 100
 				},
 				{
@@ -6938,8 +7082,8 @@
 				}
 			],
 			"traits": [
-				"守備力+8",
-				"守備力+16"
+				"守備力プラス８",
+				"守備力プラス１６"
 			]
 		},
 		"風雷の剣技": {
@@ -6993,7 +7137,7 @@
 					"sp": 20
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 30
 				},
 				{
@@ -7009,7 +7153,7 @@
 					"sp": 85
 				},
 				{
-					"move": "最大MP+60",
+					"move": "最大MPプラス６０",
 					"sp": 100
 				},
 				{
@@ -7022,26 +7166,26 @@
 				}
 			],
 			"traits": [
-				"かしこさ+16",
-				"最大MP+60"
+				"かしこさプラス１６",
+				"最大MPプラス６０"
 			]
 		},
 		"休みガード": {
 			"moves": [
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 5
 				},
 				{
-					"move": "守備力+16",
+					"move": "守備力プラス１６",
 					"sp": 10
 				},
 				{
-					"move": "すばやさ+8",
+					"move": "すばやさプラス８",
 					"sp": 20
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 40
 				},
 				{
@@ -7049,11 +7193,11 @@
 					"sp": 60
 				},
 				{
-					"move": "守備力+16",
+					"move": "守備力プラス１６",
 					"sp": 90
 				},
 				{
-					"move": "すばやさ+8",
+					"move": "すばやさプラス８",
 					"sp": 120
 				},
 				{
@@ -7062,9 +7206,9 @@
 				}
 			],
 			"traits": [
-				"最大HP+8",
-				"守備力+16",
-				"すばやさ+8",
+				"最大HPプラス８",
+				"守備力プラス１６",
+				"すばやさプラス８",
 				"休みガード大",
 				"自動HP回復"
 			]
@@ -7088,7 +7232,7 @@
 					"sp": 30
 				},
 				{
-					"move": "最大HP+8",
+					"move": "最大HPプラス８",
 					"sp": 50
 				},
 				{
@@ -7105,7 +7249,7 @@
 				}
 			],
 			"traits": [
-				"最大HP+8",
+				"最大HPプラス８",
 				"自動MP回復"
 			]
 		},
@@ -7140,7 +7284,7 @@
 					"sp": 85
 				},
 				{
-					"move": "かしこさ+24",
+					"move": "かしこさプラス２４",
 					"sp": 100
 				},
 				{
@@ -7149,7 +7293,7 @@
 				}
 			],
 			"traits": [
-				"かしこさ+24"
+				"かしこさプラス２４"
 			]
 		},
 		"ヌメヌメ": {
@@ -7275,7 +7419,7 @@
 					"sp": 20
 				},
 				{
-					"move": "攻撃力+4",
+					"move": "攻撃力プラス４",
 					"sp": 30
 				},
 				{
@@ -7296,7 +7440,7 @@
 				}
 			],
 			"traits": [
-				"攻撃力+4"
+				"攻撃力プラス４"
 			]
 		},
 		"サポーター": {
@@ -7338,137 +7482,137 @@
 					"sp": 120
 				},
 				{
-					"move": "最大MP+24",
+					"move": "最大MPプラス２４",
 					"sp": 150
 				}
 			],
 			"traits": [
-				"最大MP+24"
+				"最大MPプラス２４"
 			]
 		},
 		"かしこさアップ１": {
 			"moves": [
 				{
-					"move": "かしこさ+4",
+					"move": "かしこさプラス４",
 					"sp": 5
 				},
 				{
-					"move": "最大MP+4",
+					"move": "最大MPプラス４",
 					"sp": 10
 				},
 				{
-					"move": "かしこさ+8",
+					"move": "かしこさプラス８",
 					"sp": 20
 				},
 				{
-					"move": "最大MP+4",
+					"move": "最大MPプラス４",
 					"sp": 30
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 50
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 70
 				},
 				{
-					"move": "かしこさ+24",
+					"move": "かしこさプラス２４",
 					"sp": 85
 				}
 			],
 			"traits": [
-				"かしこさ+4",
-				"最大MP+4",
-				"かしこさ+8",
-				"かしこさ+16",
-				"最大MP+8",
-				"かしこさ+24"
+				"かしこさプラス４",
+				"最大MPプラス４",
+				"かしこさプラス８",
+				"かしこさプラス１６",
+				"最大MPプラス８",
+				"かしこさプラス２４"
 			]
 		},
 		"かしこさアップ２": {
 			"moves": [
 				{
-					"move": "かしこさ+8",
+					"move": "かしこさプラス８",
 					"sp": 5
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 15
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 30
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 50
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 75
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 100
 				},
 				{
-					"move": "かしこさ+24",
+					"move": "かしこさプラス２４",
 					"sp": 130
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 160
 				},
 				{
-					"move": "かしこさ+32",
+					"move": "かしこさプラス３２",
 					"sp": 200
 				}
 			],
 			"traits": [
-				"かしこさ+8",
-				"最大MP+8",
-				"かしこさ+16",
-				"かしこさ+24",
-				"かしこさ+32"
+				"かしこさプラス８",
+				"最大MPプラス８",
+				"かしこさプラス１６",
+				"かしこさプラス２４",
+				"かしこさプラス３２"
 			]
 		},
 		"かしこさアップ３": {
 			"moves": [
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 10
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 20
 				},
 				{
-					"move": "かしこさ+24",
+					"move": "かしこさプラス２４",
 					"sp": 30
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 50
 				},
 				{
-					"move": "かしこさ+32",
+					"move": "かしこさプラス３２",
 					"sp": 70
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 85
 				},
 				{
-					"move": "かしこさ+40",
+					"move": "かしこさプラス４０",
 					"sp": 100
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 120
 				},
 				{
-					"move": "かしこさ+48",
+					"move": "かしこさプラス４８",
 					"sp": 150
 				},
 				{
@@ -7477,69 +7621,69 @@
 				}
 			],
 			"traits": [
-				"かしこさ+16",
-				"最大MP+16",
-				"かしこさ+24",
-				"かしこさ+32",
-				"かしこさ+40",
-				"かしこさ+48",
+				"かしこさプラス１６",
+				"最大MPプラス１６",
+				"かしこさプラス２４",
+				"かしこさプラス３２",
+				"かしこさプラス４０",
+				"かしこさプラス４８",
 				"弱体化ガード大"
 			]
 		},
 		"かしこさアップ４": {
 			"moves": [
 				{
-					"move": "かしこさ+4",
+					"move": "かしこさプラス４",
 					"sp": 10
 				},
 				{
-					"move": "かしこさ+8",
+					"move": "かしこさプラス８",
 					"sp": 20
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 30
 				},
 				{
-					"move": "かしこさ+24",
+					"move": "かしこさプラス２４",
 					"sp": 50
 				},
 				{
-					"move": "かしこさ+32",
+					"move": "かしこさプラス３２",
 					"sp": 70
 				},
 				{
-					"move": "かしこさ+40",
+					"move": "かしこさプラス４０",
 					"sp": 85
 				},
 				{
-					"move": "かしこさ+48",
+					"move": "かしこさプラス４８",
 					"sp": 100
 				},
 				{
-					"move": "かしこさ+60",
+					"move": "かしこさプラス６０",
 					"sp": 120
 				},
 				{
-					"move": "かしこさ+72",
+					"move": "かしこさプラス７２",
 					"sp": 150
 				},
 				{
-					"move": "かしこさ+96",
+					"move": "かしこさプラス９６",
 					"sp": 200
 				}
 			],
 			"traits": [
-				"かしこさ+4",
-				"かしこさ+8",
-				"かしこさ+16",
-				"かしこさ+24",
-				"かしこさ+32",
-				"かしこさ+40",
-				"かしこさ+48",
-				"かしこさ+60",
-				"かしこさ+72",
-				"かしこさ+96"
+				"かしこさプラス４",
+				"かしこさプラス８",
+				"かしこさプラス１６",
+				"かしこさプラス２４",
+				"かしこさプラス３２",
+				"かしこさプラス４０",
+				"かしこさプラス４８",
+				"かしこさプラス６０",
+				"かしこさプラス７２",
+				"かしこさプラス９６"
 			]
 		},
 		"風の心": {
@@ -7557,7 +7701,7 @@
 					"sp": 20
 				},
 				{
-					"move": "最大MP+4",
+					"move": "最大MPプラス４",
 					"sp": 30
 				},
 				{
@@ -7569,7 +7713,7 @@
 					"sp": 70
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 85
 				},
 				{
@@ -7578,8 +7722,8 @@
 				}
 			],
 			"traits": [
-				"最大MP+4",
-				"最大MP+8"
+				"最大MPプラス４",
+				"最大MPプラス８"
 			]
 		},
 		"風の極意": {
@@ -7593,7 +7737,7 @@
 					"sp": 10
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 20
 				},
 				{
@@ -7609,7 +7753,7 @@
 					"sp": 80
 				},
 				{
-					"move": "最大MP+24",
+					"move": "最大MPプラス２４",
 					"sp": 110
 				},
 				{
@@ -7618,26 +7762,26 @@
 				}
 			],
 			"traits": [
-				"最大MP+16",
-				"最大MP+24"
+				"最大MPプラス１６",
+				"最大MPプラス２４"
 			]
 		},
 		"風ガード": {
 			"moves": [
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 5
 				},
 				{
-					"move": "すばやさ+8",
+					"move": "すばやさプラス８",
 					"sp": 10
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 20
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 40
 				},
 				{
@@ -7645,24 +7789,24 @@
 					"sp": 60
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 90
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 120
 				},
 				{
-					"move": "消費MP半分",
+					"move": "しょうひＭＰ半分",
 					"sp": 150
 				}
 			],
 			"traits": [
-				"かしこさ+16",
-				"すばやさ+8",
-				"最大MP+16",
+				"かしこさプラス１６",
+				"すばやさプラス８",
+				"最大MPプラス１６",
 				"風ガード大",
-				"消費MP半分"
+				"しょうひＭＰ半分"
 			]
 		},
 		"闇の心": {
@@ -7680,7 +7824,7 @@
 					"sp": 20
 				},
 				{
-					"move": "最大MP+4",
+					"move": "最大MPプラス４",
 					"sp": 30
 				},
 				{
@@ -7692,7 +7836,7 @@
 					"sp": 70
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 85
 				},
 				{
@@ -7701,8 +7845,8 @@
 				}
 			],
 			"traits": [
-				"最大MP+4",
-				"最大MP+8"
+				"最大MPプラス４",
+				"最大MPプラス８"
 			]
 		},
 		"闇の極意": {
@@ -7716,7 +7860,7 @@
 					"sp": 10
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 20
 				},
 				{
@@ -7732,7 +7876,7 @@
 					"sp": 80
 				},
 				{
-					"move": "最大MP+24",
+					"move": "最大MPプラス２４",
 					"sp": 110
 				},
 				{
@@ -7741,26 +7885,26 @@
 				}
 			],
 			"traits": [
-				"最大MP+16",
-				"最大MP+24"
+				"最大MPプラス１６",
+				"最大MPプラス２４"
 			]
 		},
 		"闇ガード": {
 			"moves": [
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 5
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 10
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 20
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 40
 				},
 				{
@@ -7768,23 +7912,23 @@
 					"sp": 60
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 90
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 120
 				},
 				{
-					"move": "消費MP半分",
+					"move": "しょうひＭＰ半分",
 					"sp": 150
 				}
 			],
 			"traits": [
-				"かしこさ+16",
-				"最大MP+16",
+				"かしこさプラス１６",
+				"最大MPプラス１６",
 				"闇ガード大",
-				"消費MP半分"
+				"しょうひＭＰ半分"
 			]
 		},
 		"電撃の心": {
@@ -7802,7 +7946,7 @@
 					"sp": 20
 				},
 				{
-					"move": "最大MP+4",
+					"move": "最大MPプラス４",
 					"sp": 30
 				},
 				{
@@ -7814,7 +7958,7 @@
 					"sp": 70
 				},
 				{
-					"move": "最大MP+8",
+					"move": "最大MPプラス８",
 					"sp": 85
 				},
 				{
@@ -7823,8 +7967,8 @@
 				}
 			],
 			"traits": [
-				"最大MP+4",
-				"最大MP+8"
+				"最大MPプラス４",
+				"最大MPプラス８"
 			]
 		},
 		"電撃の極意": {
@@ -7838,7 +7982,7 @@
 					"sp": 10
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 20
 				},
 				{
@@ -7854,7 +7998,7 @@
 					"sp": 80
 				},
 				{
-					"move": "最大MP+24",
+					"move": "最大MPプラス２４",
 					"sp": 110
 				},
 				{
@@ -7863,26 +8007,26 @@
 				}
 			],
 			"traits": [
-				"最大MP+16",
-				"最大MP+24"
+				"最大MPプラス１６",
+				"最大MPプラス２４"
 			]
 		},
 		"電撃ガード": {
 			"moves": [
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 5
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 10
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 20
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 40
 				},
 				{
@@ -7890,23 +8034,23 @@
 					"sp": 60
 				},
 				{
-					"move": "かしこさ+16",
+					"move": "かしこさプラス１６",
 					"sp": 90
 				},
 				{
-					"move": "最大MP+16",
+					"move": "最大MPプラス１６",
 					"sp": 120
 				},
 				{
-					"move": "消費MP半分",
+					"move": "しょうひＭＰ半分",
 					"sp": 150
 				}
 			],
 			"traits": [
-				"かしこさ+16",
-				"最大MP+16",
+				"かしこさプラス１６",
+				"最大MPプラス１６",
 				"電撃ガード大",
-				"消費MP半分"
+				"しょうひＭＰ半分"
 			]
 		}
 	}

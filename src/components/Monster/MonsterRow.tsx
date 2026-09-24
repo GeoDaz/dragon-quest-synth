@@ -7,7 +7,7 @@ import { LOWER } from '@/hooks/useSynthesisTrail';
 import { makeClassName } from '@/functions';
 import { Monster as MonsterInterface } from '@/types/Monster';
 import AnchorLink from '../AnchorLink';
-import { memo, useContext, useState } from 'react';
+import { Fragment, memo, useContext, useState } from 'react';
 import useTranslate from '@/hooks/useTranslate';
 import { TrailContext } from '@/context/trail';
 import Egg from './Egg';
@@ -30,10 +30,8 @@ const isCondition = (token: string) =>
 	token.includes('Rank') || token.startsWith('Plus ');
 
 const parseRecipe = (list: string[]): Parent[] => {
-	const rank = list
-		.find(token => token.includes('Rank'))
-		?.split(' ')
-		.pop();
+	const rankString = list.find(t => t.includes('Rank'));
+	const rank = rankString?.slice(rankString.indexOf(' ') + 1);
 	const plus = list
 		.find(token => token.startsWith('Plus '))
 		?.split(' ')
@@ -155,21 +153,23 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 			)}
 			<td className="cell-synthesis">
 				{monster.synthesis.map((list: string[], i: number) => (
-					<div key={i} className="recipe">
+					<Fragment key={i}>
 						{i > 0 && (
-							<span className="recipe-alt">
+							<div className="recipe-alt">
 								&mdash; {translateUI('Or')} &mdash;
-							</span>
+							</div>
 						)}
-						{parseRecipe(list).map((parent, j) => (
-							<ParentChip
-								key={j}
-								parent={parent}
-								child={monster.name}
-								recipe={list}
-							/>
-						))}
-					</div>
+						<div className="recipe">
+							{parseRecipe(list).map((parent, j) => (
+								<ParentChip
+									key={j}
+									parent={parent}
+									child={monster.name}
+									recipe={list}
+								/>
+							))}
+						</div>
+					</Fragment>
 				))}
 				{!!monster.egg && (
 					<div className="recipe">
@@ -316,7 +316,7 @@ const ParentChip = ({
 		const family = translateUI(parent.family);
 		const rank =
 			parent.rank ?
-				`${translateUI('Rank')} ${parent.rank}`
+				`${translateUI('Rank')} ${parent.rank.length > 1 ? translateUI(parent.rank) : parent.rank}`
 			:	translateUI('Any rank');
 		return (
 			<AnchorLink

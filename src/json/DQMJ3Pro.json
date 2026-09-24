@@ -4092,7 +4092,7 @@
 				"synthesis": [["Great Ridon", "Blastoad"]]
 			},
 			{
-				"name": "Zoma's Little",
+				"name": "Zoma's Devil",
 				"rank": "A",
 				"family": "???",
 				"synthesis": []
@@ -4262,7 +4262,7 @@
 				"synthesis": [["Gaogaia", "Rhapthorne II"]]
 			},
 			{
-				"name": "Royal Flush (aka WORLD)",
+				"name": "WORLD",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [["Wildcard", "Jester"]]
@@ -4293,7 +4293,7 @@
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
-					["Zoma's Little", "Baramos", "King Hydra", "Bones Of Baramos"]
+					["Zoma's Devil", "Baramos", "King Hydra", "Bones Of Baramos"]
 				]
 			},
 			{

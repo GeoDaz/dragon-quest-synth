@@ -1562,26 +1562,27 @@ h3,
 }
 
 .talent-steps {
+  width: 100%;
   margin: 0;
-  padding: 0;
-  list-style: none;
+  border-collapse: collapse;
 }
 
-.talent-steps li {
-  display: flex;
-  gap: .6rem;
+.talent-steps td {
+  padding: 0;
+  border: 0;
   line-height: 1.5;
+  vertical-align: top;
 }
 
 .talent-steps .talent-sp {
-  flex: none;
-  min-width: 2.2em;
+  padding-left: .8rem;
   text-align: right;
+  white-space: nowrap;
   font-variant-numeric: tabular-nums;
   color: var(--dl-muted);
 }
 
-.talent-steps .trait span:last-child {
+.talent-steps .talent-trait .talent-move {
   font-style: italic;
 }
 
@@ -1710,15 +1711,14 @@ h3,
   display: flex;
   align-items: center;
   gap: 8px;
-  flex-wrap: wrap;
 }
 
-.synthesis-table .recipe+.recipe {
+.synthesis-table .recipe-alt+.recipe {
   margin-top: 8px;
 }
 
 .synthesis-table .recipe-alt {
-  /* full row of the wrapping flex: the alternative parents start on a new line */
+  margin-top: 8px;
   flex: 0 0 100%;
   font-family: var(--dl-mono);
   font-size: .75em;
@@ -1727,8 +1727,6 @@ h3,
   color: var(--dl-muted);
 }
 
-/* Chip: only what still carries a label (family + required rank, egg). No
-   padding besides the right one, so its height is the icon's own height. */
 .synthesis-table .parent-chip {
   position: relative;
   display: inline-flex;

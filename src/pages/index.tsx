@@ -129,11 +129,7 @@ export const gameTalents = (game: string, details: MonstersDetails): GameTalents
 			};
 			talent.moves.forEach(({ move }: TalentStep) => {
 				const entry = data.moves?.[move];
-				if (!entry?.en && !entry?.fr) return;
-				moves[move] = {
-					...(entry.en ? { en: entry.en } : {}),
-					...(entry.fr ? { fr: entry.fr } : {}),
-				};
+				if (entry?.en) moves[move] = { en: entry.en };
 			});
 		});
 		return { talents, moves };
@@ -156,7 +152,7 @@ const PageLines: React.FC<Props> = props => {
 	const [families, setFamilies] = useState<Families>(props.families);
 	const { hash, nav } = useHash();
 	const scrollToAnchor = useScrollToAnchor();
-	const { isFr, translateUI } = useTranslate();
+	const { isFr, translateUI, translateSkill } = useTranslate();
 	const [search, setSearch] = useState<string>();
 	const [selectedFamily, setSelectedFamily] = useState<string | undefined>();
 	const [selectedRank, setSelectedRank] = useState<string | undefined>();
@@ -283,13 +279,13 @@ const PageLines: React.FC<Props> = props => {
 					const skill = details[monster.name]?.skill;
 					const term = skill ? terms.skills[skill] : undefined;
 					if (term?.en) parts.push(term.en);
-					if (isFr && term?.fr) parts.push(term.fr);
+					if (isFr && term?.en) parts.push(translateSkill(term.en));
 					index[monster.name] = parts.map(stringToKey).join('|');
 				})
 			)
 		);
 		return index;
-	}, [props.families, isFr, details, terms]);
+	}, [props.families, isFr, details, terms, translateSkill]);
 
 	useEffect(() => {
 		if (!search) {

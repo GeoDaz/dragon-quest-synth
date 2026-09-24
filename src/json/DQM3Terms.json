@@ -2,7 +2,6 @@
 	"traits": {
 		"Absorbent Touch": {
 			"en": "Absorbent Touch",
-			"fr": "Absorbéite",
 			"desc": {
 				"en": "Regular attacks sometimes absorb a portion of the enemy's MP.",
 				"fr": "Permet parfois aux attaques ordinaires d'absorber des PM à l'ennemi."
@@ -10,7 +9,6 @@
 		},
 		"Ace Evader": {
 			"en": "Ace Evader",
-			"fr": "Exquise esquive",
 			"desc": {
 				"en": "Makes it somewhat easier to avoid enemy attacks.",
 				"fr": "Augmente les chances d'esquiver les attaques ennemies."
@@ -18,14 +16,12 @@
 		},
 		"Adrenaline Rush": {
 			"en": "Adrenaline Rush",
-			"fr": "Poussée d'adrénaline",
 			"desc": {
 				"en": "Greatly increases the attack after inflicting a critical hit."
 			}
 		},
 		"Agent of Chaos": {
 			"en": "Agent of Chaos",
-			"fr": "Agent du chaos",
 			"desc": {
 				"en": "Always attacks an enemy when the monster is confused. Successful strikes inflict critical hits.",
 				"fr": "Attaque l'ennemi même quand le monstre subit la confusion, et inflige un coup critique en cas d'attaque réussie."
@@ -33,7 +29,6 @@
 		},
 		"Agility +12": {
 			"en": "Agility +12",
-			"fr": "Agilité +12",
 			"desc": {
 				"en": "Raises agility by 12.",
 				"fr": "Augmente l'agilité de 12 points."
@@ -41,7 +36,6 @@
 		},
 		"Agility +16": {
 			"en": "Agility +16",
-			"fr": "Agilité +16",
 			"desc": {
 				"en": "Raises agility by 16.",
 				"fr": "Augmente l'agilité de 16 points."
@@ -49,7 +43,6 @@
 		},
 		"Agility +2": {
 			"en": "Agility +2",
-			"fr": "Agilité +2",
 			"desc": {
 				"en": "Raises agility by 2.",
 				"fr": "Augmente l'agilité de 2 points."
@@ -57,7 +50,6 @@
 		},
 		"Agility +20": {
 			"en": "Agility +20",
-			"fr": "Agilité +20",
 			"desc": {
 				"en": "Raises agility by 20.",
 				"fr": "Augmente l'agilité de 20 points."
@@ -65,7 +57,6 @@
 		},
 		"Agility +24": {
 			"en": "Agility +24",
-			"fr": "Agilité +24",
 			"desc": {
 				"en": "Raises agility by 24.",
 				"fr": "Augmente l'agilité de 24 points."
@@ -73,7 +64,6 @@
 		},
 		"Agility +30": {
 			"en": "Agility +30",
-			"fr": "Agilité +30",
 			"desc": {
 				"en": "Raises agility by 30.",
 				"fr": "Augmente l'agilité de 30 points."
@@ -81,7 +71,6 @@
 		},
 		"Agility +36": {
 			"en": "Agility +36",
-			"fr": "Agilité +36",
 			"desc": {
 				"en": "Raises agility by 36.",
 				"fr": "Augmente l'agilité de 36 points."
@@ -89,7 +78,6 @@
 		},
 		"Agility +4": {
 			"en": "Agility +4",
-			"fr": "Agilité +4",
 			"desc": {
 				"en": "Raises agility by 4.",
 				"fr": "Augmente l'agilité de 4 points."
@@ -97,7 +85,6 @@
 		},
 		"Agility +48": {
 			"en": "Agility +48",
-			"fr": "Agilité +48",
 			"desc": {
 				"en": "Raises agility by 48.",
 				"fr": "Augmente l'agilité de 48 points."
@@ -105,7 +92,6 @@
 		},
 		"Agility +8": {
 			"en": "Agility +8",
-			"fr": "Agilité +8",
 			"desc": {
 				"en": "Raises agility by 8.",
 				"fr": "Augmente l'agilité de 8 points."
@@ -125,7 +111,6 @@
 		},
 		"Attack +12": {
 			"en": "Attack +12",
-			"fr": "Attaque +12",
 			"desc": {
 				"en": "Raises attack by 12.",
 				"fr": "Augmente l'attaque de 12 points."
@@ -133,7 +118,6 @@
 		},
 		"Attack +16": {
 			"en": "Attack +16",
-			"fr": "Attaque +16",
 			"desc": {
 				"en": "Raises attack by 16.",
 				"fr": "Augmente l'attaque de 16 points."
@@ -141,7 +125,6 @@
 		},
 		"Attack +2": {
 			"en": "Attack +2",
-			"fr": "Attaque +2",
 			"desc": {
 				"en": "Raises attack by 2.",
 				"fr": "Augmente l'attaque de 2 points."
@@ -149,7 +132,6 @@
 		},
 		"Attack +20": {
 			"en": "Attack +20",
-			"fr": "Attaque +20",
 			"desc": {
 				"en": "Raises attack by 20.",
 				"fr": "Augmente l'attaque de 20 points."
@@ -157,7 +139,6 @@
 		},
 		"Attack +24": {
 			"en": "Attack +24",
-			"fr": "Attaque +24",
 			"desc": {
 				"en": "Raises attack by 24.",
 				"fr": "Augmente l'attaque de 24 points."
@@ -165,7 +146,6 @@
 		},
 		"Attack +30": {
 			"en": "Attack +30",
-			"fr": "Attaque +30",
 			"desc": {
 				"en": "Raises attack by 30.",
 				"fr": "Augmente l'attaque de 30 points."
@@ -173,7 +153,6 @@
 		},
 		"Attack +36": {
 			"en": "Attack +36",
-			"fr": "Attaque +36",
 			"desc": {
 				"en": "Raises attack by 36.",
 				"fr": "Augmente l'attaque de 36 points."
@@ -181,7 +160,6 @@
 		},
 		"Attack +4": {
 			"en": "Attack +4",
-			"fr": "Attaque +4",
 			"desc": {
 				"en": "Raises attack by 4.",
 				"fr": "Augmente l'attaque de 4 points."
@@ -189,7 +167,6 @@
 		},
 		"Attack +48": {
 			"en": "Attack +48",
-			"fr": "Attaque +48",
 			"desc": {
 				"en": "Raises attack by 48.",
 				"fr": "Augmente l'attaque de 48 points."
@@ -197,7 +174,6 @@
 		},
 		"Attack +8": {
 			"en": "Attack +8",
-			"fr": "Attaque +8",
 			"desc": {
 				"en": "Raises attack by 8.",
 				"fr": "Augmente l'attaque de 8 points."
@@ -205,14 +181,12 @@
 		},
 		"Attacking Impulse": {
 			"en": "Attacking Impulse",
-			"fr": "Pulsion d'attaque",
 			"desc": {
 				"en": "Increases damage inflicted when HP drops to 1/2."
 			}
 		},
 		"Auto-Cadabra": {
 			"en": "Auto-Cadabra",
-			"fr": "Automagication",
 			"desc": {
 				"en": "Restores a small amount of MP after each action.",
 				"fr": "Restaure légèrement les PM après chaque action."
@@ -220,7 +194,6 @@
 		},
 		"Auto-Restora": {
 			"en": "Auto-Restora",
-			"fr": "Automédication",
 			"desc": {
 				"en": "Restores a small amount of HP after each action.",
 				"fr": "Restaure légèrement les PV après chaque action."
@@ -234,7 +207,6 @@
 		},
 		"Bangmeister": {
 			"en": "Bangmeister",
-			"fr": "Maestrobang",
 			"desc": {
 				"en": "Increases the potency of explosive attacks and decreases their MP consumption.",
 				"fr": "Renforce les attaques d'explosion et réduit leur coût en PM."
@@ -248,14 +220,12 @@
 		},
 		"Benefaction": {
 			"en": "Benefaction",
-			"fr": "Œuvre de bienfaisance",
 			"desc": {
 				"en": "Massively increases the attack, defence, agility and wisdom of allies when a killer blow is received."
 			}
 		},
 		"Big Bully": {
 			"en": "Big Bully",
-			"fr": "Gros méchant",
 			"desc": {
 				"en": "Increases damage inflicted on L-size monsters.",
 				"fr": "Augmente les dégâts infligés aux monstres de taille G."
@@ -263,7 +233,6 @@
 		},
 		"Bigger Upper": {
 			"en": "Bigger Upper",
-			"fr": "Rallonge",
 			"desc": {
 				"en": "Extends the duration of skills that raise the strength, defence, agility, or wisdom of allies to 5 turns. In addition, randomly grants invincibility, the ability to reflect spells or breath attacks, or raises evasion."
 			}
@@ -276,7 +245,6 @@
 		},
 		"Castslasher": {
 			"en": "Castslasher",
-			"fr": "Super promo magique",
 			"desc": {
 				"en": "Reduces MP consumption by 1/2.",
 				"fr": "Réduit de moitié les coûts en PM."
@@ -290,7 +258,6 @@
 		},
 		"Close Scraper": {
 			"en": "Close Scraper",
-			"fr": "Moins une",
 			"desc": {
 				"en": "Sometimes allows the monster to survive at 1 HP after suffering an attack that would otherwise kill it.",
 				"fr": "Permet parfois au monstre de survivre avec 1 PV restant après avoir subi des dégâts qui auraient dû le faire tomber au combat."
@@ -298,14 +265,12 @@
 		},
 		"Collective Punishment": {
 			"en": "Collective Punishment",
-			"fr": "Punition collective",
 			"desc": {
 				"en": "Attacks that do more damage as the attack attribute increases will strike all enemies instead of a single target."
 			}
 		},
 		"Confusing Touch": {
 			"en": "Confusing Touch",
-			"fr": "Confusite",
 			"desc": {
 				"en": "Regular attacks sometimes confuse the enemy.",
 				"fr": "Permet parfois aux attaques ordinaires de provoquer la confusion de l'ennemi."
@@ -319,7 +284,6 @@
 		},
 		"Crackmeister": {
 			"en": "Crackmeister",
-			"fr": "Maestroglace",
 			"desc": {
 				"en": "Increases the potency of ice-elemental attacks and decreases their MP consumption.",
 				"fr": "Renforce les attaques de glace et réduit leur coût en PM."
@@ -363,7 +327,6 @@
 		},
 		"Crafty Devil": {
 			"en": "Crafty Devil",
-			"fr": "Attaque imparable",
 			"desc": {
 				"en": "Makes it moderately easier to inflict status ailments on the enemy."
 			}
@@ -454,7 +417,6 @@
 		},
 		"Cragmeister": {
 			"en": "Cragmeister",
-			"fr": "Maestroséisme",
 			"desc": {
 				"en": "Increases the potency of earth-elemental attacks and decreases their MP consumption.",
 				"fr": "Renforce les attaques de terre et réduit leur coût en PM."
@@ -468,7 +430,6 @@
 		},
 		"Critical Mastermind": {
 			"en": "Critical Mastermind",
-			"fr": "Analyse critique",
 			"desc": {
 				"en": "Makes it much easier to cast critical spells.",
 				"fr": "Augmente grandement les chances de lancer des sorts critiques."
@@ -476,7 +437,6 @@
 		},
 		"Critical Moment": {
 			"en": "Critical Moment",
-			"fr": "Instant critique",
 			"desc": {
 				"en": "Makes it easier to inflict critical hits when HP drops to 1/2, and even more so when HP drops to 1/4.",
 				"fr": "Augmente les chances d'effectuer des coups critiques quand les PV sont réduits de moitié, et encore davantage lorsque les PV sont réduits de 3/4."
@@ -484,7 +444,6 @@
 		},
 		"Critical Sensation": {
 			"en": "Critical Sensation",
-			"fr": "Déluge de critiques",
 			"desc": {
 				"en": "Makes it much easier to inflict critical hits.",
 				"fr": "Augmente grandement les chances d'effectuer des coups critiques."
@@ -492,7 +451,6 @@
 		},
 		"Critical Theorist": {
 			"en": "Critical Theorist",
-			"fr": "Réflexion critique",
 			"desc": {
 				"en": "Makes it somewhat easier to cast critical spells.",
 				"fr": "Augmente les chances de lancer des sorts critiques."
@@ -506,7 +464,6 @@
 		},
 		"Critical Triumph": {
 			"en": "Critical Triumph",
-			"fr": "Flot de critiques",
 			"desc": {
 				"en": "Makes it somewhat easier to inflict critical hits.",
 				"fr": "Augmente les chances d'effectuer des coups critiques."
@@ -514,7 +471,6 @@
 		},
 		"Deadly Touch": {
 			"en": "Deadly Touch",
-			"fr": "Morsubite",
 			"desc": {
 				"en": "Regular attacks sometimes kill the enemy instantly.",
 				"fr": "Permet parfois aux attaques ordinaires de provoquer la mort subite de l'ennemi."
@@ -528,7 +484,6 @@
 		},
 		"Decontaminate": {
 			"en": "Decontaminate",
-			"fr": "Cure de jouvence",
 			"desc": {
 				"en": "Sometimes cures allies of sleep, confusion, poison, severe poison, and paralysis during battle."
 			}
@@ -538,12 +493,10 @@
 			"desc": {
 				"en": "Raises defence by 12.",
 				"fr": "Augmente la défense de 16."
-			},
-			"fr": "Défense +16"
+			}
 		},
 		"Defence +24": {
 			"en": "Defence +24",
-			"fr": "Défense +24",
 			"desc": {
 				"en": "Raises defence by 24.",
 				"fr": "Augmente la défense de 24 points."
@@ -551,7 +504,6 @@
 		},
 		"Defence +32": {
 			"en": "Defence +32",
-			"fr": "Défense +32",
 			"desc": {
 				"en": "Raises defence by 32.",
 				"fr": "Augmente la défense de 32 points."
@@ -559,7 +511,6 @@
 		},
 		"Defence +4": {
 			"en": "Defence +4",
-			"fr": "Défense +4",
 			"desc": {
 				"en": "Raises defence by 4.",
 				"fr": "Augmente la défense de 4 points."
@@ -567,7 +518,6 @@
 		},
 		"Defence +40": {
 			"en": "Defence +40",
-			"fr": "Défense +40",
 			"desc": {
 				"en": "Raises defence by 40.",
 				"fr": "Augmente la défense de 40 points."
@@ -575,7 +525,6 @@
 		},
 		"Defence +48": {
 			"en": "Defence +48",
-			"fr": "Défense +48",
 			"desc": {
 				"en": "Raises defence by 48.",
 				"fr": "Augmente la défense de 48 points."
@@ -583,7 +532,6 @@
 		},
 		"Defence +60": {
 			"en": "Defence +60",
-			"fr": "Défense +60",
 			"desc": {
 				"en": "Raises defence by 60.",
 				"fr": "Augmente la défense de 60 points."
@@ -591,7 +539,6 @@
 		},
 		"Defence +72": {
 			"en": "Defence +72",
-			"fr": "Défense +72",
 			"desc": {
 				"en": "Raises defence by 72.",
 				"fr": "Augmente la défense de 72 points."
@@ -599,7 +546,6 @@
 		},
 		"Defence +8": {
 			"en": "Defence +8",
-			"fr": "Défense +8",
 			"desc": {
 				"en": "Raises defence by 8.",
 				"fr": "Augmente la défense de 8 points."
@@ -607,7 +553,6 @@
 		},
 		"Defence +96": {
 			"en": "Defence +96",
-			"fr": "Défense +96",
 			"desc": {
 				"en": "Raises defence by 96.",
 				"fr": "Augmente la défense de 96 points."
@@ -615,7 +560,6 @@
 		},
 		"Defensive Impulse": {
 			"en": "Defensive Impulse",
-			"fr": "Pulsion de défense",
 			"desc": {
 				"en": "Reduces damage received when HP drops to 1/2."
 			}
@@ -628,7 +572,6 @@
 		},
 		"Desperate Measures": {
 			"en": "Desperate Measures",
-			"fr": "Mesures désespérées",
 			"desc": {
 				"en": "Negates all damage suffered from critical hits and critical spells.",
 				"fr": "Annule tous les dégâts infligés par des coups critiques et des sorts critiques."
@@ -636,14 +579,12 @@
 		},
 		"Detox": {
 			"en": "Detox",
-			"fr": "Détox",
 			"desc": {
 				"en": "Sometimes cures allies of poison, severe poison, and paralysis during battle."
 			}
 		},
 		"Dodge Denier": {
 			"en": "Dodge Denier",
-			"fr": "Anti-esquive",
 			"desc": {
 				"en": "Ensures the enemy cannot avoid attacks.",
 				"fr": "Rend les esquives impossibles pour les ennemis."
@@ -663,7 +604,6 @@
 		},
 		"Echonomist": {
 			"en": "Echonomist",
-			"fr": "Écho favorable",
 			"desc": {
 				"en": "Sometimes casts the same spell twice. Consumes slightly more MP than usual.",
 				"fr": "Lance parfois 2 fois le même sort. Augmente légèrement le coût en PM."
@@ -671,7 +611,6 @@
 		},
 		"Evasive Impulse": {
 			"en": "Evasive Impulse",
-			"fr": "Pulsion d'esquive",
 			"desc": {
 				"en": "Sometimes increases evasion and greatly increases agility during battle when HP has dropped to 1/2. Only activates once per battle.",
 				"fr": "Augmente parfois l'esquive, et grandement l'agilité, quand les PV sont réduits de moitié en cours de combat. Ne s'active qu'une fois par combat."
@@ -691,7 +630,6 @@
 		},
 		"Frizzmeister": {
 			"en": "Frizzmeister",
-			"fr": "Maestroflamme",
 			"desc": {
 				"en": "Increases the potency of fire-elemental attacks and decreases their MP consumption.",
 				"fr": "Renforce les attaques de feu et réduit leur coût en PM."
@@ -705,7 +643,6 @@
 		},
 		"Health Professional": {
 			"en": "Health Professional",
-			"fr": "Professionnel de santé",
 			"desc": {
 				"en": "Increases the potency of healing skills and decreases their MP consumption.",
 				"fr": "Renforce l'effet des compétences de soin et réduit leur coût en PM."
@@ -713,14 +650,12 @@
 		},
 		"Heaven-Sent": {
 			"en": "Heaven-Sent",
-			"fr": "Super manne",
 			"desc": {
 				"en": "Sometimes greatly increases attack, defence, agility, or wisdom during battle."
 			}
 		},
 		"High Heal": {
 			"en": "High Heal",
-			"fr": "Soins intensifs",
 			"desc": {
 				"en": "Sometimes restores 80 or more HP to all allies during battle. Higher wisdom makes the healing effect more powerful.",
 				"fr": "Restaure parfois au moins 80 PV à tous les alliés en cours de combat. La quantité de PV restaurés est proportionnelle à la sagesse du monstre utilisateur."
@@ -734,14 +669,12 @@
 		},
 		"Infected Skin": {
 			"en": "Infected Skin",
-			"fr": "Cuir toxique",
 			"desc": {
 				"en": "Sometimes poisons enemies that inflict indirect attacks."
 			}
 		},
 		"Insensitive Skin": {
 			"en": "Insensitive Skin",
-			"fr": "Cuir paralysant",
 			"desc": {
 				"en": "Sometimes paralyses enemies that inflict direct attacks.",
 				"fr": "Provoque parfois la paralysie des ennemis qui lui portent des attaques directes."
@@ -755,7 +688,6 @@
 		},
 		"Insta-Accel": {
 			"en": "Insta-Accel",
-			"fr": "Accéléro liminaire",
 			"desc": {
 				"en": "Monster sometimes casts Accelerate on itself at the start of battle.",
 				"fr": "Utilise parfois Accéléro sur soi-même en début de combat."
@@ -763,7 +695,6 @@
 		},
 		"Insta-Bounce": {
 			"en": "Insta-Bounce",
-			"fr": "Réflexion initiale",
 			"desc": {
 				"en": "Monster sometimes casts Bounce on itself at the start of battle.",
 				"fr": "Utilise parfois Réflexion sur soi-même en début de combat."
@@ -771,7 +702,6 @@
 		},
 		"Insta-Buff": {
 			"en": "Insta-Buff",
-			"fr": "Protection initiale",
 			"desc": {
 				"en": "Monster sometimes casts Buff on itself at the start of battle.",
 				"fr": "Utilise parfois Protection sur soi-même en début de combat."
@@ -779,7 +709,6 @@
 		},
 		"Insta-Oomph": {
 			"en": "Insta-Oomph",
-			"fr": "Décuplo initial",
 			"desc": {
 				"en": "Monster sometimes casts Oomph on itself at the start of battle.",
 				"fr": "Utilise parfois Décuplo sur soi-même en début de combat."
@@ -787,7 +716,6 @@
 		},
 		"Insta-Ping": {
 			"en": "Insta-Ping",
-			"fr": "Tintement instantané",
 			"desc": {
 				"en": "Monster sometimes casts Ping on itself at the start of battle.",
 				"fr": "Utilise parfois Tilt sur soi-même en début de combat."
@@ -795,14 +723,12 @@
 		},
 		"Insult to Injury": {
 			"en": "Insult to Injury",
-			"fr": "Mal en pis",
 			"desc": {
 				"en": "Increases damage inflicted on enemies that are poisoned, severely poisoned, stunned, asleep, confused, or paralysed."
 			}
 		},
 		"Intimidating": {
 			"en": "Intimidating",
-			"fr": "Hors pair",
 			"desc": {
 				"en": "Sometimes stuns the enemy during battle for 1 turn.",
 				"fr": "Empêche parfois l'ennemi d'agir pendant 1 tour, en cours de combat."
@@ -816,7 +742,6 @@
 		},
 		"Last Gasp": {
 			"en": "Last Gasp",
-			"fr": "Dernier souffle",
 			"desc": {
 				"en": "Revives a single ally after it falls in battle. Only works once per battle.",
 				"fr": "Ressuscite un allié tombé au combat. Utilisable une fois par combat."
@@ -824,7 +749,6 @@
 		},
 		"Last Legs": {
 			"en": "Last Legs",
-			"fr": "In extremis",
 			"desc": {
 				"en": "Allows the monster to survive at 1 HP after suffering an attack that would otherwise kill it.",
 				"fr": "Permet 1 fois au monstre de survivre avec 1 PV restant après avoir subi des dégâts qui auraient dû le faire tomber au combat."
@@ -832,14 +756,12 @@
 		},
 		"Late Bloomer": {
 			"en": "Late Bloomer",
-			"fr": "Course de fond",
 			"desc": {
 				"en": "Increases attack, defence, agility, and wisdom from round 3 onwards, and even more so from round 6."
 			}
 		},
 		"Little Menace": {
 			"en": "Little Menace",
-			"fr": "Petite frappe",
 			"desc": {
 				"en": "Increases damage inflicted on S-size monsters.",
 				"fr": "Augmente les dégâts infligés aux monstres de taille P."
@@ -847,7 +769,6 @@
 		},
 		"Low Heal": {
 			"en": "Low Heal",
-			"fr": "Petits soins",
 			"desc": {
 				"en": "Sometimes restores 30 or more HP to all allies during battle. Higher wisdom makes the healing effect more powerful.",
 				"fr": "Restaure parfois au moins 30 PV à tous les alliés en cours de combat. La quantité de PV restaurés est proportionnelle à la sagesse du monstre utilisateur."
@@ -861,14 +782,12 @@
 		},
 		"Magical Moment": {
 			"en": "Magical Moment",
-			"fr": "Génie critique",
 			"desc": {
 				"en": "Makes it easier to cast critical spells when HP drops to 1/2, and even more so when HP drops to 1/4."
 			}
 		},
 		"Major Downer": {
 			"en": "Major Downer",
-			"fr": "Coup de rabot",
 			"desc": {
 				"en": "Extends the duration of skills lower the strength, defence, agility, or wisdom of enemies to 5 turns. In addition, randomly prevents breath attacks, critical hits, or the casting of magic, or bedazzles the enemy."
 			}
@@ -881,7 +800,6 @@
 		},
 		"Max. HP +12": {
 			"en": "Max. HP +12",
-			"fr": "PV max. +12",
 			"desc": {
 				"en": "Raises max. HP by 12.",
 				"fr": "Augmente les PV max. de 12 points."
@@ -889,7 +807,6 @@
 		},
 		"Max. HP +16": {
 			"en": "Max. HP +16",
-			"fr": "PV max. +16",
 			"desc": {
 				"en": "Raises max. HP by 16.",
 				"fr": "Augmente les PV max. de 16 points."
@@ -897,7 +814,6 @@
 		},
 		"Max. HP +2": {
 			"en": "Max. HP +2",
-			"fr": "PV max. +2",
 			"desc": {
 				"en": "Raises max. HP by 2.",
 				"fr": "Augmente les PV max. de 2 points."
@@ -905,7 +821,6 @@
 		},
 		"Max. HP +20": {
 			"en": "Max. HP +20",
-			"fr": "PV max. +20",
 			"desc": {
 				"en": "Raises max. HP by 20.",
 				"fr": "Augmente les PV max. de 20 points."
@@ -913,7 +828,6 @@
 		},
 		"Max. HP +24": {
 			"en": "Max. HP +24",
-			"fr": "PV max. +24",
 			"desc": {
 				"en": "Raises max. HP by 24.",
 				"fr": "Augmente les PV max. de 24 points."
@@ -921,7 +835,6 @@
 		},
 		"Max. HP +30": {
 			"en": "Max. HP +30",
-			"fr": "PV max. +30",
 			"desc": {
 				"en": "Raises max. HP by 30.",
 				"fr": "Augmente les PV max. de 30 points."
@@ -929,7 +842,6 @@
 		},
 		"Max. HP +36": {
 			"en": "Max. HP +36",
-			"fr": "PV max. +36",
 			"desc": {
 				"en": "Raises max. HP by 36.",
 				"fr": "Augmente les PV max. de 36."
@@ -937,7 +849,6 @@
 		},
 		"Max. HP +4": {
 			"en": "Max. HP +4",
-			"fr": "PV max. +4",
 			"desc": {
 				"en": "Raises max. HP by 4.",
 				"fr": "Augmente les PV max. de 4 points."
@@ -945,7 +856,6 @@
 		},
 		"Max. HP +48": {
 			"en": "Max. HP +48",
-			"fr": "PV max. +48",
 			"desc": {
 				"en": "Raises max. HP by 48.",
 				"fr": "Augmente les PV max. de 48 points."
@@ -953,7 +863,6 @@
 		},
 		"Max. HP +8": {
 			"en": "Max. HP +8",
-			"fr": "PV max. +8",
 			"desc": {
 				"en": "Raises max. HP by 8.",
 				"fr": "Augmente les PV max. de 8 points."
@@ -961,7 +870,6 @@
 		},
 		"Max. MP +12": {
 			"en": "Max. MP +12",
-			"fr": "PM max. +12",
 			"desc": {
 				"en": "Raises max. MP by 12.",
 				"fr": "Augmente les PM max. de 12 points."
@@ -969,7 +877,6 @@
 		},
 		"Max. MP +16": {
 			"en": "Max. MP +16",
-			"fr": "PM max. +16",
 			"desc": {
 				"en": "Raises max. MP by 16.",
 				"fr": "Augmente les PM max. de 16 points."
@@ -977,7 +884,6 @@
 		},
 		"Max. MP +24": {
 			"en": "Max. MP +24",
-			"fr": "PM max. +24",
 			"desc": {
 				"en": "Raises max. MP by 24.",
 				"fr": "Augmente les PM max. de 24 points."
@@ -985,7 +891,6 @@
 		},
 		"Max. MP +32": {
 			"en": "Max. MP +32",
-			"fr": "PM max. +32",
 			"desc": {
 				"en": "Raises max. MP by 32.",
 				"fr": "Augmente les PM max. de 32 points."
@@ -993,7 +898,6 @@
 		},
 		"Max. MP +4": {
 			"en": "Max. MP +4",
-			"fr": "PM max. +4",
 			"desc": {
 				"en": "Raises max. MP by 4.",
 				"fr": "Augmente les PM max. de 4 points."
@@ -1001,7 +905,6 @@
 		},
 		"Max. MP +40": {
 			"en": "Max. MP +40",
-			"fr": "PM max. +40",
 			"desc": {
 				"en": "Raises max. MP by 40.",
 				"fr": "Augmente les PM max. de 40 points."
@@ -1009,7 +912,6 @@
 		},
 		"Max. MP +48": {
 			"en": "Max. MP +48",
-			"fr": "PM max. +48",
 			"desc": {
 				"en": "Raises max. MP by 48.",
 				"fr": "Augmente les PM max. de 48 points."
@@ -1017,7 +919,6 @@
 		},
 		"Max. MP +60": {
 			"en": "Max. MP +60",
-			"fr": "PM max. +60",
 			"desc": {
 				"en": "Raises max. MP by 60.",
 				"fr": "Augmente les PM max. de 60 points."
@@ -1025,7 +926,6 @@
 		},
 		"Max. MP +72": {
 			"en": "Max. MP +72",
-			"fr": "PM max. +72",
 			"desc": {
 				"en": "Raises max. MP by 72.",
 				"fr": "Augmente les PM max. de 72 points."
@@ -1033,7 +933,6 @@
 		},
 		"Max. MP +8": {
 			"en": "Max. MP +8",
-			"fr": "PM max. +8",
 			"desc": {
 				"en": "Raises max. MP by 8.",
 				"fr": "Augmente les PM max. de 8 points."
@@ -1041,7 +940,6 @@
 		},
 		"Max. MP +96": {
 			"en": "Max. MP +96",
-			"fr": "PM max. +96",
 			"desc": {
 				"en": "Raises max. MP by 96.",
 				"fr": "Augmente les PM max. de 96 points."
@@ -1067,7 +965,6 @@
 		},
 		"Metal Beater": {
 			"en": "Metal Beater",
-			"fr": "Laminage",
 			"desc": {
 				"en": "Inflicts additional damage on enemies. A higher level increases the effect. Works on enemies with the Metal Skin trait.",
 				"fr": "Augmente les dégâts infligés à l'ennemi proportionnellement au niveau du monstre attaquant. Efficace aussi contre les ennemis dotés de l'attribut Cuir d'acier."
@@ -1075,7 +972,6 @@
 		},
 		"Metal Medley": {
 			"en": "Metal Medley",
-			"fr": "Métal hurlant",
 			"desc": {
 				"en": "Ignores the damage-reducing effect that the Metal Skin trait provides.",
 				"fr": "Ignore la réduction des dégâts dont bénéficient les ennemis dotés de l'attribut Cuir d'acier."
@@ -1089,7 +985,6 @@
 		},
 		"Miraculous Touch": {
 			"en": "Miraculous Touch",
-			"fr": "Miraculite",
 			"desc": {
 				"en": "Regular attacks restore 1/2 of the damage they inflict on the enemy as HP.",
 				"fr": "Permet aux attaques ordinaires de restaurer en PV l'équivalent de la moitié des dégâts infligés."
@@ -1097,7 +992,6 @@
 		},
 		"Naked Ambition": {
 			"en": "Naked Ambition",
-			"fr": "Rien dans les mains",
 			"desc": {
 				"en": "Increases the likelihood of critical hits and critical spells if no accessory is equipped.",
 				"fr": "Augmente les chances de coups et de sorts critiques si le monstre n'est équipé d'aucun accessoire."
@@ -1111,7 +1005,6 @@
 		},
 		"Paralysing Touch": {
 			"en": "Paralysing Touch",
-			"fr": "Paralysite",
 			"desc": {
 				"en": "Regular attacks sometimes paralyse the enemy.",
 				"fr": "Permet parfois aux attaques ordinaires de provoquer la paralysie de l'ennemi."
@@ -1119,21 +1012,18 @@
 		},
 		"Parting Gift": {
 			"en": "Parting Gift",
-			"fr": "Riposte mortem",
 			"desc": {
 				"en": "Inflicts damage back on all enemies when a killer blow is received. The amount inflicted is proportional to the excess damage suffered after the monster's HP are reduced to zero."
 			}
 		},
 		"Personal Grudge": {
 			"en": "Personal Grudge",
-			"fr": "Claque de fin",
 			"desc": {
 				"en": "Greatly decreases the attack, defence, agility, and wisdom of an enemy that lands a killer blow, and stuns them for the next turn."
 			}
 		},
 		"Poisonous Touch": {
 			"en": "Poisonous Touch",
-			"fr": "Toxicite",
 			"desc": {
 				"en": "Regular attacks sometimes poison the enemy.",
 				"fr": "Permet parfois aux attaques ordinaires de provoquer l'empoisonnement de l'ennemi."
@@ -1141,7 +1031,6 @@
 		},
 		"Rando-Accel": {
 			"en": "Rando-Accel",
-			"fr": "Accéléro aléatoire",
 			"desc": {
 				"en": "Monster sometimes casts Accelerate on itself during battle.",
 				"fr": "Utilise parfois Accéléro sur soi-même en cours de combat."
@@ -1149,7 +1038,6 @@
 		},
 		"Rando-Buff": {
 			"en": "Rando-Buff",
-			"fr": "Protection aléatoire",
 			"desc": {
 				"en": "Monster sometimes casts Buff on itself during battle.",
 				"fr": "Utilise parfois Protection sur soi-même en cours de combat."
@@ -1163,14 +1051,12 @@
 		},
 		"Rando-Mister": {
 			"en": "Rando-Mister",
-			"fr": "Brume de bataille aléatoire",
 			"desc": {
 				"en": "Monster sometimes casts Mist Me on itself during battle."
 			}
 		},
 		"Rando-Muster": {
 			"en": "Rando-Muster",
-			"fr": "Concentration de force",
 			"desc": {
 				"en": "Sometimes uses Muster Strength during battle.",
 				"fr": "Utilise parfois Concentration de force en cours de combat."
@@ -1178,7 +1064,6 @@
 		},
 		"Rando-Oomph": {
 			"en": "Rando-Oomph",
-			"fr": "Décuplo aléatoire",
 			"desc": {
 				"en": "Monster sometimes casts Oomph on itself during battle.",
 				"fr": "Utilise parfois Décuplo sur soi-même en cours de combat."
@@ -1186,14 +1071,12 @@
 		},
 		"Rando-Panic": {
 			"en": "Rando-Panic",
-			"fr": "Vague de panique",
 			"desc": {
 				"en": "Monster sometimes casts Wave of Panic on itself during battle."
 			}
 		},
 		"Rando-Ping": {
 			"en": "Rando-Ping",
-			"fr": "Tintement sporadique",
 			"desc": {
 				"en": "Monster sometimes casts Ping on itself during battle.",
 				"fr": "Utilise parfois Tilt sur soi-même en cours de combat."
@@ -1201,7 +1084,6 @@
 		},
 		"Rando-Relief": {
 			"en": "Rando-Relief",
-			"fr": "Vague de soulagement",
 			"desc": {
 				"en": "Monster sometimes casts Wave of Relief on itself during battle."
 			}
@@ -1220,7 +1102,6 @@
 		},
 		"Sizzmeister": {
 			"en": "Sizzmeister",
-			"fr": "Maestrocrame",
 			"desc": {
 				"en": "Increases the potency of light-elemental attacks and decreases their MP consumption.",
 				"fr": "Renforce les attaques de lumière et réduit leur coût en PM."
@@ -1228,7 +1109,6 @@
 		},
 		"Sleep Twitch": {
 			"en": "Sleep Twitch",
-			"fr": "Somnambulisme",
 			"desc": {
 				"en": "Attacks all enemies when the monster is asleep.",
 				"fr": "Attaque tous les ennemis même quand le monstre subit le sommeil."
@@ -1236,14 +1116,12 @@
 		},
 		"Sleepy Touch": {
 			"en": "Sleepy Touch",
-			"fr": "Dormite",
 			"desc": {
 				"en": "Regular attacks sometimes puts the enemy to sleep."
 			}
 		},
 		"Slick Skin": {
 			"en": "Slick Skin",
-			"fr": "Cuir verni",
 			"desc": {
 				"en": "Sometimes causes incoming direct attacks to miss."
 			}
@@ -1274,7 +1152,6 @@
 		},
 		"Snappy Comeback": {
 			"en": "Snappy Comeback",
-			"fr": "Retour de bâton",
 			"desc": {
 				"en": "Inflicts damage back on an enemy that lands a killer blow. The amount inflicted is proportional to the excess damage suffered after the monster's HP are reduced to zero.",
 				"fr": "Inflige des dégâts à l'ennemi qui a causé sa mort. Les dégâts infligés sont proportionnels à la quantité de ceux subis au-delà des PV restants du monstre."
@@ -1282,14 +1159,12 @@
 		},
 		"Sobering Slap": {
 			"en": "Sobering Slap",
-			"fr": "Coup de fouet",
 			"desc": {
 				"en": "Sometimes cures allies of sleep and confusion during battle."
 			}
 		},
 		"Somnolent Skin": {
 			"en": "Somnolent Skin",
-			"fr": "Cuir soporifique",
 			"desc": {
 				"en": "Sometimes puts enemies that inflict direct attacks to sleep.",
 				"fr": "Provoque parfois le sommeil des ennemis qui lui portent des attaques directes."
@@ -1303,7 +1178,6 @@
 		},
 		"Spiky Skin": {
 			"en": "Spiky Skin",
-			"fr": "Cuir clouté",
 			"desc": {
 				"en": "Returns 1/4 of the damage suffered from direct attacks back at the attacking enemy.",
 				"fr": "Renvoie un quart des dégâts aux ennemis qui lui portent des attaques directes."
@@ -1317,7 +1191,6 @@
 		},
 		"Splishmeister": {
 			"en": "Splishmeister",
-			"fr": "Maestroplouf",
 			"desc": {
 				"en": "Increases the potency of water-elemental attacks and decreases their MP consumption.",
 				"fr": "Renforce les attaques d'eau et réduit leur coût en PM."
@@ -1325,7 +1198,6 @@
 		},
 		"Spongy Skin": {
 			"en": "Spongy Skin",
-			"fr": "Cuir absorbant",
 			"desc": {
 				"en": "Sometimes absorbs MP from enemies that inflict direct attacks.",
 				"fr": "Absorbe parfois des PM aux ennemis qui lui portent des attaques directes."
@@ -1333,7 +1205,6 @@
 		},
 		"Static Discharge": {
 			"en": "Static Discharge",
-			"fr": "Décharge statique",
 			"desc": {
 				"en": "Sometimes paralyses enemies that inflict direct attacks when the monster is paralysed itself.",
 				"fr": "Provoque parfois la paralysie des ennemis qui lui portent des attaques directes, quand le monstre subit lui-même la paralysie."
@@ -1341,7 +1212,6 @@
 		},
 		"Strangely Alluring": {
 			"en": "Strangely Alluring",
-			"fr": "Impair et manque",
 			"desc": {
 				"en": "Sometimes stuns the enemy during battle for 1 turn.",
 				"fr": "Empêche parfois l'ennemi d'agir pendant 1 tour, en cours de combat."
@@ -1349,7 +1219,6 @@
 		},
 		"Strong Starter": {
 			"en": "Strong Starter",
-			"fr": "Démarrage en force",
 			"desc": {
 				"en": "Raises damage inflicted on enemies up to round 3, but lowers it from round 4 onwards.",
 				"fr": "Augmente les dégâts infligés aux ennemis jusqu'au 3e round, puis les réduit à partir du 4e."
@@ -1357,7 +1226,6 @@
 		},
 		"Stunning Skin": {
 			"en": "Stunning Skin",
-			"fr": "Cuir étourdissant",
 			"desc": {
 				"en": "Sometimes stuns enemies that inflict direct attacks for 1 turn.",
 				"fr": "Empêche parfois de bouger pendant 1 tour les ennemis qui lui portent des attaques directes."
@@ -1365,14 +1233,12 @@
 		},
 		"Stunning Touch": {
 			"en": "Stunning Touch",
-			"fr": "Étourdite",
 			"desc": {
 				"en": "Regular attacks sometimes stuns the enemy for 1 turn."
 			}
 		},
 		"Stupefying Skin": {
 			"en": "Stupefying Skin",
-			"fr": "Cuir déroutant",
 			"desc": {
 				"en": "Sometimes confuses enemies that inflict direct attacks.",
 				"fr": "Provoque parfois la confusion des ennemis qui lui portent des attaques directes."
@@ -1380,7 +1246,6 @@
 		},
 		"Supreme Sidestepper": {
 			"en": "Supreme Sidestepper",
-			"fr": "Esquive exclusive",
 			"desc": {
 				"en": "Makes it much easier to avoid enemy attacks.",
 				"fr": "Augmente grandement les chances d'esquiver les attaques ennemies."
@@ -1388,35 +1253,30 @@
 		},
 		"Tactical Commander": {
 			"en": "Tactical Commander",
-			"fr": "Supériorité tactique",
 			"desc": {
 				"en": "Performs 2 actions in a row. The number of actions is not affected if you don't issue specific orders. Lower's the monster's attributes."
 			}
 		},
 		"Tactical Genius": {
 			"en": "Tactical Genius",
-			"fr": "Génie tactique",
 			"desc": {
 				"en": "Sometimes performs 2 or 3 actions in a row. The number of actions is not affected if you don't issue specific orders. Slightly lowers the monster's attributes."
 			}
 		},
 		"Tactical Titan": {
 			"en": "Tactical Titan",
-			"fr": "Hégémonie tactique",
 			"desc": {
 				"en": "Performs 2 or 3 actions in a row. The number of actions is not affected if you don't issue specific orders. Lowers the monster's attributes."
 			}
 		},
 		"Tactical Trooper": {
 			"en": "Tactical Trooper",
-			"fr": "Avantage tactique",
 			"desc": {
 				"en": "Sometimes performs 2 actions in a row. The number of actions is not affected if you don't issue specific orders. Very slightly lowers the monster's attributes."
 			}
 		},
 		"Tit for Tat": {
 			"en": "Tit for Tat",
-			"fr": "Prêté pour un rendu",
 			"desc": {
 				"en": "When a monster is inflicted with a status ailment, the attacking enemy will have the same ailment inflicted back on them.",
 				"fr": "Inflige la même altération d'état à l'ennemi, quand le monstre en subit une."
@@ -1430,7 +1290,6 @@
 		},
 		"Trance State": {
 			"en": "Trance State",
-			"fr": "État de transe",
 			"desc": {
 				"en": "Greatly increases wisdom after casting a critical spell.",
 				"fr": "Augmente grandement la sagesse après avoir lancé un sort critique."
@@ -1489,12 +1348,10 @@
 			"desc": {
 				"en": "Greatly increases resistance to poison and severe poison.",
 				"fr": "Augmente beaucoup la résistance à l'empoisonnement et à l'empoisonnement sévère."
-			},
-			"fr": "Ultra Antitoxydant"
+			}
 		},
 		"Ultra Bang Ward": {
 			"en": "Ultra Bang Ward",
-			"fr": "Ultraprotection Bang",
 			"desc": {
 				"en": "Greatly increases resistance to explosive attacks.",
 				"fr": "Augmente grandement la résistance aux attaques explosives."
@@ -1502,7 +1359,6 @@
 		},
 		"Ultra Clear Thinker": {
 			"en": "Ultra Clear Thinker",
-			"fr": "Ultraprotection Confus.",
 			"desc": {
 				"en": "Greatly increases resistance to confusion.",
 				"fr": "Augmente grandement la résistance à la confusion."
@@ -1510,7 +1366,6 @@
 		},
 		"Ultra Crack Ward": {
 			"en": "Ultra Crack Ward",
-			"fr": "Ultraprotection Glace",
 			"desc": {
 				"en": "Greatly increases resistance to ice-elemental attacks.",
 				"fr": "Augmente grandement la résistance aux attaques de glace."
@@ -1518,7 +1373,6 @@
 		},
 		"Ultra Crafty Banger": {
 			"en": "Ultra Crafty Banger",
-			"fr": "Ultradécupleur Bang",
 			"desc": {
 				"en": "Greatly increases the damage inflicted by explosive attacks.",
 				"fr": "Augmente grandement les dégâts des attaques d'explosion."
@@ -1526,7 +1380,6 @@
 		},
 		"Ultra Crafty Confuser": {
 			"en": "Ultra Crafty Confuser",
-			"fr": "Ultradécupleur Confusion",
 			"desc": {
 				"en": "Makes it much easier to confuse the enemy.",
 				"fr": "Rend grandement plus efficaces les attaques provoquant la confusion."
@@ -1534,7 +1387,6 @@
 		},
 		"Ultra Crafty Cracker": {
 			"en": "Ultra Crafty Cracker",
-			"fr": "Ultradécupleur Glace",
 			"desc": {
 				"en": "Greatly increases the damage inflicted by ice-elemental attacks.",
 				"fr": "Augmente grandement les dégâts des attaques de glace."
@@ -1542,7 +1394,6 @@
 		},
 		"Ultra Crafty Cragger": {
 			"en": "Ultra Crafty Cragger",
-			"fr": "Ultradécupleur Séisme",
 			"desc": {
 				"en": "Greatly increases the damage inflicted by earth-elemental attacks.",
 				"fr": "Augmente grandement les dégâts des attaques de terre."
@@ -1550,7 +1401,6 @@
 		},
 		"Ultra Crafty Dazzler": {
 			"en": "Ultra Crafty Dazzler",
-			"fr": "Ultradécupleur Éblouiss.",
 			"desc": {
 				"en": "Makes it much easier to bedazzle the enemy.",
 				"fr": "Rend grandement plus efficaces les attaques provoquant l'éblouissement."
@@ -1558,7 +1408,6 @@
 		},
 		"Ultra Crafty Debilitator": {
 			"en": "Ultra Crafty Debilitator",
-			"fr": "Ultradécupleur Affaiblis.",
 			"desc": {
 				"en": "Makes it much easier to reduce an enemy's attack, defence, agility or wisdom.",
 				"fr": "Rend grandement plus efficaces les attaques réduisant l'attaque, la défense, l'agilité ou la sagesse de l'ennemi."
@@ -1566,7 +1415,6 @@
 		},
 		"Ultra Crafty Frizzer": {
 			"en": "Ultra Crafty Frizzer",
-			"fr": "Ultradécupleur Flamme",
 			"desc": {
 				"en": "Greatly increases the damage inflicted by fire-elemental attacks.",
 				"fr": "Augmente grandement les dégâts des attaques de feu."
@@ -1574,7 +1422,6 @@
 		},
 		"Ultra Crafty Magic Drainer": {
 			"en": "Ultra Crafty Magic Drainer",
-			"fr": "Ultradécupleur Aspirmagie",
 			"desc": {
 				"en": "Makes it much easier to absorb MP.",
 				"fr": "Rend grandement plus efficaces les attaques absorbant les PM."
@@ -1582,7 +1429,6 @@
 		},
 		"Ultra Crafty Paralyser": {
 			"en": "Ultra Crafty Paralyser",
-			"fr": "Ultradécupleur Paralysie",
 			"desc": {
 				"en": "Makes it much easier to paralyse the enemy.",
 				"fr": "Rend grandement plus efficaces les attaques provoquant la paralysie."
@@ -1590,7 +1436,6 @@
 		},
 		"Ultra Crafty Poisoner": {
 			"en": "Ultra Crafty Poisoner",
-			"fr": "Ultradécupleur Empoisonn.",
 			"desc": {
 				"en": "Makes it much easier to poison or severely poison the enemy.",
 				"fr": "Rend grandement plus efficaces les attaques provoquant l'empoisonnement ou l'empoisonnement sévère."
@@ -1604,7 +1449,6 @@
 		},
 		"Ultra Crafty Sleeper": {
 			"en": "Ultra Crafty Sleeper",
-			"fr": "Ultradécupleur Sommeil",
 			"desc": {
 				"en": "Makes it much easier to put the enemy to sleep.",
 				"fr": "Rend grandement plus efficaces les attaques provoquant le sommeil."
@@ -1612,7 +1456,6 @@
 		},
 		"Ultra Crafty Spellbinder": {
 			"en": "Ultra Crafty Spellbinder",
-			"fr": "Ultradécupleur Empêchem.",
 			"desc": {
 				"en": "Makes it much easier to prevent spellcasting.",
 				"fr": "Rend grandement plus efficaces les attaques provoquant l'empêchement."
@@ -1626,7 +1469,6 @@
 		},
 		"Ultra Crafty Stunner": {
 			"en": "Ultra Crafty Stunner",
-			"fr": "Ultradécupleur Étourdis.",
 			"desc": {
 				"en": "Makes it much easier to stun the enemy.",
 				"fr": "Rend grandement plus efficaces les attaques provoquant l'étourdissement."
@@ -1634,7 +1476,6 @@
 		},
 		"Ultra Crafty Whacker": {
 			"en": "Ultra Crafty Whacker",
-			"fr": "Ultradécupleur Mort sub.",
 			"desc": {
 				"en": "Makes it much easier to kill the enemy instantly.",
 				"fr": "Rend grandement plus efficaces les attaques provoquant la mort subite."
@@ -1648,7 +1489,6 @@
 		},
 		"Ultra Crafty Zammer": {
 			"en": "Ultra Crafty Zammer",
-			"fr": "Ultradécupleur Élec",
 			"desc": {
 				"en": "Greatly increases the damage inflicted by dark-elemental attacks.",
 				"fr": "Augmente grandement les dégâts des attaques de ténèbres."
@@ -1656,7 +1496,6 @@
 		},
 		"Ultra Crafty Zapper": {
 			"en": "Ultra Crafty Zapper",
-			"fr": "Ultradécupleur Foudre",
 			"desc": {
 				"en": "Greatly increases the damage inflicted by electrical attacks.",
 				"fr": "Augmente grandement les dégâts des attaques de foudre."
@@ -1664,7 +1503,6 @@
 		},
 		"Ultra Crag Ward": {
 			"en": "Ultra Crag Ward",
-			"fr": "Ultraprotection Séisme",
 			"desc": {
 				"en": "Greatly increases resistance to earth-elemental attacks.",
 				"fr": "Augmente grandement la résistance aux attaques de terre."
@@ -1672,7 +1510,6 @@
 		},
 		"Ultra Death Defier": {
 			"en": "Ultra Death Defier",
-			"fr": "Ultraprotection Mort sub.",
 			"desc": {
 				"en": "Greatly increases resistance to instant death.",
 				"fr": "Augmente grandement la résistance à la mort subite."
@@ -1680,7 +1517,6 @@
 		},
 		"Ultra Drain Blocker": {
 			"en": "Ultra Drain Blocker",
-			"fr": "Ultraprotection Aspirma.",
 			"desc": {
 				"en": "Greatly increases resistance to MP absorption.",
 				"fr": "Augmente grandement la résistance à l'aspirmagie."
@@ -1688,7 +1524,6 @@
 		},
 		"Ultra Fidget": {
 			"en": "Ultra Fidget",
-			"fr": "Ultraprotection Paralysie",
 			"desc": {
 				"en": "Greatly increases resistance to paralysis.",
 				"fr": "Augmente grandement la résistance à la paralysie."
@@ -1696,7 +1531,6 @@
 		},
 		"Ultra Frizz Ward": {
 			"en": "Ultra Frizz Ward",
-			"fr": "Ultraprotection Flamme",
 			"desc": {
 				"en": "Greatly increases resistance to fire-elemental attacks.",
 				"fr": "Augmente grandement la résistance aux attaques de feu."
@@ -1704,7 +1538,6 @@
 		},
 		"Ultra Granite Chin": {
 			"en": "Ultra Granite Chin",
-			"fr": "Ultraprotection Étourdi.",
 			"desc": {
 				"en": "Greatly increases resistance to being stunned.",
 				"fr": "Augmente grandement la résistance à l'étourdissement."
@@ -1712,7 +1545,6 @@
 		},
 		"Ultra Insomniac": {
 			"en": "Ultra Insomniac",
-			"fr": "Ultraprotection Sommeil",
 			"desc": {
 				"en": "Greatly increases resistance to being put to sleep.",
 				"fr": "Augmente grandement la résistance à l'endormissement."
@@ -1720,7 +1552,6 @@
 		},
 		"Ultra Sizz Ward": {
 			"en": "Ultra Sizz Ward",
-			"fr": "Ultraprotection Crame",
 			"desc": {
 				"en": "Greatly increases resistance to light-elemental attacks.",
 				"fr": "Augmente grandement la résistance aux attaques de lumière."
@@ -1728,7 +1559,6 @@
 		},
 		"Ultra Spellbinder": {
 			"en": "Ultra Spellbinder",
-			"fr": "Ultraprotection Empêch.",
 			"desc": {
 				"en": "Greatly increases resistance to antimagic.",
 				"fr": "Augmente grandement la résistance à l'empêchement."
@@ -1736,7 +1566,6 @@
 		},
 		"Ultra Splish Ward": {
 			"en": "Ultra Splish Ward",
-			"fr": "Ultraprotection Plouf",
 			"desc": {
 				"en": "Greatly increases resistance to water-elemental attacks.",
 				"fr": "Augmente grandement la résistance aux attaques d'eau."
@@ -1744,7 +1573,6 @@
 		},
 		"Ultra Tough Customer": {
 			"en": "Ultra Tough Customer",
-			"fr": "Ultraprotection Affaibli.",
 			"desc": {
 				"en": "Greatly increases resistance to debilitation.",
 				"fr": "Augmente grandement la résistance à l'affaiblissement."
@@ -1752,7 +1580,6 @@
 		},
 		"Ultra Visionary": {
 			"en": "Ultra Visionary",
-			"fr": "Ultraprotection Ébloui.",
 			"desc": {
 				"en": "Greatly increases resistance to bedazzlement.",
 				"fr": "Augmente grandement la résistance à l'éblouissement."
@@ -1763,12 +1590,10 @@
 			"desc": {
 				"en": "Greatly increases resistance to wind-elemental attacks.",
 				"fr": "Augmente beaucoup la résistance aux attaques élémentaires de vent."
-			},
-			"fr": "Ultraprotection Tornade"
+			}
 		},
 		"Ultra Zam Ward": {
 			"en": "Ultra Zam Ward",
-			"fr": "Ultraprotection Élec",
 			"desc": {
 				"en": "Greatly increases resistance to dark-elemental attacks.",
 				"fr": "Augmente grandement la résistance aux attaques de ténèbres."
@@ -1776,7 +1601,6 @@
 		},
 		"Ultra Zap Ward": {
 			"en": "Ultra Zap Ward",
-			"fr": "Ultraprotection Foudre",
 			"desc": {
 				"en": "Greatly increases resistance to electrical attacks.",
 				"fr": "Augmente grandement la résistance aux attaques de foudre."
@@ -1784,7 +1608,6 @@
 		},
 		"Unhealthy Advantage": {
 			"en": "Unhealthy Advantage",
-			"fr": "Loi du plus faible",
 			"desc": {
 				"en": "Inflicts increasing amounts of damage as remaining HP gets lower.",
 				"fr": "Augmente les dégâts infligés à l'ennemi proportionnellement aux PV manquant au monstre."
@@ -1798,7 +1621,6 @@
 		},
 		"Wisdom +16": {
 			"en": "Wisdom +16",
-			"fr": "Sagesse +16",
 			"desc": {
 				"en": "Raises wisdom by 16.",
 				"fr": "Augmente la sagesse de 16 points."
@@ -1806,7 +1628,6 @@
 		},
 		"Wisdom +24": {
 			"en": "Wisdom +24",
-			"fr": "Sagesse +24",
 			"desc": {
 				"en": "Raises wisdom by 24.",
 				"fr": "Augmente la sagesse de 24 points."
@@ -1814,7 +1635,6 @@
 		},
 		"Wisdom +32": {
 			"en": "Wisdom +32",
-			"fr": "Sagesse +32",
 			"desc": {
 				"en": "Raises wisdom by 32.",
 				"fr": "Augmente la sagesse de 32 points."
@@ -1822,7 +1642,6 @@
 		},
 		"Wisdom +4": {
 			"en": "Wisdom +4",
-			"fr": "Sagesse +4",
 			"desc": {
 				"en": "Raises wisdom by 4.",
 				"fr": "Augmente la sagesse de 4 points."
@@ -1830,7 +1649,6 @@
 		},
 		"Wisdom +40": {
 			"en": "Wisdom +40",
-			"fr": "Sagesse +40",
 			"desc": {
 				"en": "Raises wisdom by 40.",
 				"fr": "Augmente la sagesse de 40 points."
@@ -1838,7 +1656,6 @@
 		},
 		"Wisdom +48": {
 			"en": "Wisdom +48",
-			"fr": "Sagesse +48",
 			"desc": {
 				"en": "Raises wisdom by 48.",
 				"fr": "Augmente la sagesse de 48 points."
@@ -1846,7 +1663,6 @@
 		},
 		"Wisdom +60": {
 			"en": "Wisdom +60",
-			"fr": "Sagesse +60",
 			"desc": {
 				"en": "Raises wisdom by 60.",
 				"fr": "Augmente la sagesse de 60 points."
@@ -1854,7 +1670,6 @@
 		},
 		"Wisdom +72": {
 			"en": "Wisdom +72",
-			"fr": "Sagesse +72",
 			"desc": {
 				"en": "Raises wisdom by 72.",
 				"fr": "Augmente la sagesse de 72 points."
@@ -1862,7 +1677,6 @@
 		},
 		"Wisdom +8": {
 			"en": "Wisdom +8",
-			"fr": "Sagesse +8",
 			"desc": {
 				"en": "Raises wisdom by 8.",
 				"fr": "Augmente la sagesse de 8 points."
@@ -1870,7 +1684,6 @@
 		},
 		"Wisdom +96": {
 			"en": "Wisdom +96",
-			"fr": "Sagesse +96",
 			"desc": {
 				"en": "Raises wisdom by 96.",
 				"fr": "Augmente la sagesse de 96 points."
@@ -1878,7 +1691,6 @@
 		},
 		"Wizardly Waft": {
 			"en": "Wizardly Waft",
-			"fr": "Brise magique",
 			"desc": {
 				"en": "Sometimes restores 1 or more MP to all allies during battle. A higher level increases the restored amount.",
 				"fr": "Restaure parfois au moins 1 PM à tous les alliés en cours de combat. La quantité de points restaurés est proportionnelle au niveau du monstre utilisateur."
@@ -1886,7 +1698,6 @@
 		},
 		"Wizardly Wind": {
 			"en": "Wizardly Wind",
-			"fr": "Bourrasque magique",
 			"desc": {
 				"en": "Sometimes restores 5 or more MP to all allies during battle. Higher wisdom makes the healing effect more powerfull."
 			}
@@ -1899,7 +1710,6 @@
 		},
 		"Wooshmeister": {
 			"en": "Wooshmeister",
-			"fr": "Maestrotornade",
 			"desc": {
 				"en": "Increases the potency of wind-elemental attacks and decreases their MP consumption.",
 				"fr": "Renforce les attaques de vent et réduit leur coût en PM."
@@ -1913,7 +1723,6 @@
 		},
 		"Zammeister": {
 			"en": "Zammeister",
-			"fr": "Maestroélec",
 			"desc": {
 				"en": "Increases the potency of dark-elemental attacks and decreases their MP consumption.",
 				"fr": "Renforce les attaques de ténèbres et réduit leur coût en PM."
@@ -1927,7 +1736,6 @@
 		},
 		"Zapmeister": {
 			"en": "Zapmeister",
-			"fr": "Maestrofoudre",
 			"desc": {
 				"en": "Increases the potency of electric-elemental attacks and decreases their MP consumption."
 			}
@@ -1941,965 +1749,727 @@
 	},
 	"skills": {
 		"Frizz Afficionado": {
-			"en": "Frizz Afficionado",
-			"fr": "Apprenti de Flamme"
+			"en": "Frizz Afficionado"
 		},
 		"Frizz Virtuoso": {
-			"en": "Frizz Virtuoso",
-			"fr": "Virtuose de Flamme"
+			"en": "Frizz Virtuoso"
 		},
 		"Splash Afficionado": {
-			"en": "Splash Afficionado",
-			"fr": "Apprenti de Superplouf"
+			"en": "Splash Afficionado"
 		},
 		"Splash Virtuoso": {
-			"en": "Splash Virtuoso",
-			"fr": "Virtuose de Superplouf"
+			"en": "Splash Virtuoso"
 		},
 		"Woosh Afficionado": {
-			"en": "Woosh Afficionado",
-			"fr": "Apprenti de Tornade"
+			"en": "Woosh Afficionado"
 		},
 		"Woosh Virtuoso": {
-			"en": "Woosh Virtuoso",
-			"fr": "Virtuose de Tornade"
+			"en": "Woosh Virtuoso"
 		},
 		"Crag Afficionado": {
-			"en": "Crag Afficionado",
-			"fr": "Apprenti de Séisme"
+			"en": "Crag Afficionado"
 		},
 		"Crag Virtuoso": {
-			"en": "Crag Virtuoso",
-			"fr": "Virtuose de Séisme"
+			"en": "Crag Virtuoso"
 		},
 		"Bang Afficionado": {
-			"en": "Bang Afficionado",
-			"fr": "Apprenti de Bang"
+			"en": "Bang Afficionado"
 		},
 		"Bang Virtuoso": {
-			"en": "Bang Virtuoso",
-			"fr": "Virtuose de Bang"
+			"en": "Bang Virtuoso"
 		},
 		"Crack Afficionado": {
-			"en": "Crack Afficionado",
-			"fr": "Apprenti de Glace"
+			"en": "Crack Afficionado"
 		},
 		"Crack Virtuoso": {
-			"en": "Crack Virtuoso",
-			"fr": "Virtuose de Glace"
+			"en": "Crack Virtuoso"
 		},
 		"Zap Afficionado": {
-			"en": "Zap Afficionado",
-			"fr": "Apprenti de Foudre"
+			"en": "Zap Afficionado"
 		},
 		"Zap Virtuoso": {
-			"en": "Zap Virtuoso",
-			"fr": "Virtuose de Foudre"
+			"en": "Zap Virtuoso"
 		},
 		"Sizz Afficionado": {
-			"en": "Sizz Afficionado",
-			"fr": "Apprenti de Crame"
+			"en": "Sizz Afficionado"
 		},
 		"Sizz Virtuoso": {
-			"en": "Sizz Virtuoso",
-			"fr": "Virtuose de Crame"
+			"en": "Sizz Virtuoso"
 		},
 		"Zam Afficionado": {
-			"en": "Zam Afficionado",
-			"fr": "Apprenti d'Élec"
+			"en": "Zam Afficionado"
 		},
 		"Zam Virtuoso": {
-			"en": "Zam Virtuoso",
-			"fr": "Virtuose d'Élec"
+			"en": "Zam Virtuoso"
 		},
 		"Blazer": {
-			"en": "Blazer",
-			"fr": "Incendiaire"
+			"en": "Blazer"
 		},
 		"Smart Blazer": {
-			"en": "Smart Blazer",
-			"fr": "Pyromane"
+			"en": "Smart Blazer"
 		},
 		"Chilly Receptionist": {
-			"en": "Chilly Receptionist",
-			"fr": "Frigo"
+			"en": "Chilly Receptionist"
 		},
 		"Frosty Receptionist": {
-			"en": "Frosty Receptionist",
-			"fr": "Glacière"
+			"en": "Frosty Receptionist"
 		},
 		"Shallow Breather": {
-			"en": "Shallow Breather",
-			"fr": "Petit souffleur"
+			"en": "Shallow Breather"
 		},
 		"Deep Breather": {
-			"en": "Deep Breather",
-			"fr": "Grand souffleur"
+			"en": "Deep Breather"
 		},
 		"Dancer": {
-			"en": "Dancer",
-			"fr": "Danseuse"
+			"en": "Dancer"
 		},
 		"Choreographer": {
-			"en": "Choreographer",
-			"fr": "Chorégraphe"
+			"en": "Choreographer"
 		},
 		"Slimer": {
-			"en": "Slimer",
-			"fr": "Pot de glu"
+			"en": "Slimer"
 		},
 		"Dragonheart": {
-			"en": "Dragonheart",
-			"fr": "Cœur de dragon"
+			"en": "Dragonheart"
 		},
 		"Graveheart": {
-			"en": "Graveheart",
-			"fr": "Zombivant"
+			"en": "Graveheart"
 		},
 		"Hive Mind": {
-			"en": "Hive Mind",
-			"fr": "Cafardeur"
+			"en": "Hive Mind"
 		},
 		"Materialist": {
-			"en": "Materialist",
-			"fr": "Matérialiste"
+			"en": "Materialist"
 		},
 		"Naturalist": {
-			"en": "Naturalist",
-			"fr": "Naturaliste"
+			"en": "Naturalist"
 		},
 		"Dark Artist": {
-			"en": "Dark Artist",
-			"fr": "Démonologue"
+			"en": "Dark Artist"
 		},
 		"Blusterer": {
-			"en": "Blusterer",
-			"fr": "Typhon"
+			"en": "Blusterer"
 		},
 		"Nature Child": {
-			"en": "Nature Child",
-			"fr": "Naturopathe"
+			"en": "Nature Child"
 		},
 		"Aquapothecary": {
-			"en": "Aquapothecary",
-			"fr": "Aquapothicaire"
+			"en": "Aquapothecary"
 		},
 		"Spicy Slasher": {
-			"en": "Spicy Slasher",
-			"fr": "Estoqueur de feu"
+			"en": "Spicy Slasher"
 		},
 		"Soggy Slasher": {
-			"en": "Soggy Slasher",
-			"fr": "Estoqueur d'eau"
+			"en": "Soggy Slasher"
 		},
 		"Blowy Slasher": {
-			"en": "Blowy Slasher",
-			"fr": "Estoqueur de vent"
+			"en": "Blowy Slasher"
 		},
 		"Stony Slasher": {
-			"en": "Stony Slasher",
-			"fr": "Estoqueur de pierre"
+			"en": "Stony Slasher"
 		},
 		"Thrill-Seeker": {
-			"en": "Thrill-Seeker",
-			"fr": "Risque-tout"
+			"en": "Thrill-Seeker"
 		},
 		"Hexcommunicator": {
-			"en": "Hexcommunicator",
-			"fr": "Occultiste"
+			"en": "Hexcommunicator"
 		},
 		"Speedster": {
-			"en": "Speedster",
-			"fr": "Accélérateur"
+			"en": "Speedster"
 		},
 		"Cupid": {
-			"en": "Cupid",
-			"fr": "Cupidon"
+			"en": "Cupid"
 		},
 		"Power Player": {
-			"en": "Power Player",
-			"fr": "Marmule"
+			"en": "Power Player"
 		},
 		"Wild Child": {
-			"en": "Wild Child",
-			"fr": "Enfant sauvage"
+			"en": "Wild Child"
 		},
 		"Outlaw": {
-			"en": "Outlaw",
-			"fr": "Canaille"
+			"en": "Outlaw"
 		},
 		"Fighter": {
-			"en": "Fighter",
-			"fr": "Brisquard"
+			"en": "Fighter"
 		},
 		"Martial Maven": {
-			"en": "Martial Maven",
-			"fr": "Sommité de la savate"
+			"en": "Martial Maven"
 		},
 		"Magic Maven": {
-			"en": "Magic Maven",
-			"fr": "Sommité des sorts"
+			"en": "Magic Maven"
 		},
 		"Blade Maven": {
-			"en": "Blade Maven",
-			"fr": "Sommité du sabre"
+			"en": "Blade Maven"
 		},
 		"Good Knight": {
-			"en": "Good Knight",
-			"fr": "Chevalier servant"
+			"en": "Good Knight"
 		},
 		"Cutpurse": {
-			"en": "Cutpurse",
-			"fr": "Coupe-jarrets"
+			"en": "Cutpurse"
 		},
 		"Sweet-Talker": {
-			"en": "Sweet-Talker",
-			"fr": "Beau-parleur"
+			"en": "Sweet-Talker"
 		},
 		"Hottie": {
-			"en": "Hottie",
-			"fr": "Troubalourdeur"
+			"en": "Hottie"
 		},
 		"Tongue Twister": {
-			"en": "Tongue Twister",
-			"fr": "Linguiste"
+			"en": "Tongue Twister"
 		},
 		"Assassin": {
-			"en": "Assassin",
-			"fr": "Assassin"
+			"en": "Assassin"
 		},
 		"Hulk": {
-			"en": "Hulk",
-			"fr": "Malabar"
+			"en": "Hulk"
 		},
 		"Martyr": {
-			"en": "Martyr",
-			"fr": "Martyr"
+			"en": "Martyr"
 		},
 		"Mad Scientist": {
-			"en": "Mad Scientist",
-			"fr": "Savant fou"
+			"en": "Mad Scientist"
 		},
 		"Prankster": {
-			"en": "Prankster",
-			"fr": "Sacripant"
+			"en": "Prankster"
 		},
 		"Healer": {
-			"en": "Healer",
-			"fr": "Soigneur"
+			"en": "Healer"
 		},
 		"Paramedic": {
-			"en": "Paramedic",
-			"fr": "Urgentiste"
+			"en": "Paramedic"
 		},
 		"Soothesayer": {
-			"en": "Soothesayer",
-			"fr": "Remèdiateur"
+			"en": "Soothesayer"
 		},
 		"Sleep Counsellor": {
-			"en": "Sleep Counsellor",
-			"fr": "Tsé-tsérapeuthe"
+			"en": "Sleep Counsellor"
 		},
 		"Toxicologist": {
-			"en": "Toxicologist",
-			"fr": "Toxicologue"
+			"en": "Toxicologist"
 		},
 		"Anaesthetist": {
-			"en": "Anaesthetist",
-			"fr": "Anesthésiste"
+			"en": "Anaesthetist"
 		},
 		"Fortifier": {
-			"en": "Fortifier",
-			"fr": "Énergiseur"
+			"en": "Fortifier"
 		},
 		"Enfeebler": {
-			"en": "Enfeebler",
-			"fr": "Ramollisseur"
+			"en": "Enfeebler"
 		},
 		"Willing Helper": {
-			"en": "Willing Helper",
-			"fr": "Bénévole"
+			"en": "Willing Helper"
 		},
 		"Breath Taker": {
-			"en": "Breath Taker",
-			"fr": "Coupe-souffle"
+			"en": "Breath Taker"
 		},
 		"Antimagician": {
-			"en": "Antimagician",
-			"fr": "Antimage"
+			"en": "Antimagician"
 		},
 		"Defender": {
-			"en": "Defender",
-			"fr": "Défenseur"
+			"en": "Defender"
 		},
 		"Barricade": {
-			"en": "Barricade",
-			"fr": "Barricade"
+			"en": "Barricade"
 		},
 		"Irritant": {
-			"en": "Irritant",
-			"fr": "Enquiquineur"
+			"en": "Irritant"
 		},
 		"Vexologist": {
-			"en": "Vexologist",
-			"fr": "Mauvaise langue"
+			"en": "Vexologist"
 		},
 		"Charmer": {
-			"en": "Charmer",
-			"fr": "Charmeur"
+			"en": "Charmer"
 		},
 		"Stinker": {
-			"en": "Stinker",
-			"fr": "Schlinguiste"
+			"en": "Stinker"
 		},
 		"Strong Speller": {
-			"en": "Strong Speller",
-			"fr": "Mage maousse"
+			"en": "Strong Speller"
 		},
 		"Smarty-Pants": {
-			"en": "Smarty-Pants",
-			"fr": "Petit malin"
+			"en": "Smarty-Pants"
 		},
 		"Paragon": {
 			"en": "Paragon"
 		},
 		"Wrecker": {
-			"en": "Wrecker",
-			"fr": "Concasseur"
+			"en": "Wrecker"
 		},
 		"Musclehead": {
 			"en": "Musclehead"
 		},
 		"Duelist": {
-			"en": "Duelist",
-			"fr": "Duelliste"
+			"en": "Duelist"
 		},
 		"Maniac": {
-			"en": "Maniac",
-			"fr": "Forcené"
+			"en": "Maniac"
 		},
 		"Leading Light": {
-			"en": "Leading Light",
-			"fr": "Meneur de troubles"
+			"en": "Leading Light"
 		},
 		"Slayer": {
-			"en": "Slayer",
-			"fr": "Saigneur"
+			"en": "Slayer"
 		},
 		"Destroyer": {
-			"en": "Destroyer",
-			"fr": "Destructeur"
+			"en": "Destroyer"
 		},
 		"Respirator": {
-			"en": "Respirator",
-			"fr": "Sophrologue"
+			"en": "Respirator"
 		},
 		"Fire Chief": {
-			"en": "Fire Chief",
-			"fr": "Combattant du feu"
+			"en": "Fire Chief"
 		},
 		"Cold Snapper": {
-			"en": "Cold Snapper",
-			"fr": "Frigoriste"
+			"en": "Cold Snapper"
 		},
 		"Party Monster": {
-			"en": "Party Monster",
-			"fr": "Danseur macabre"
+			"en": "Party Monster"
 		},
 		"Rockin’ Roller": {
-			"en": "Rockin’ Roller",
-			"fr": "Rockstar"
+			"en": "Rockin’ Roller"
 		},
 		"Pop Idol": {
-			"en": "Pop Idol",
-			"fr": "Popstar"
+			"en": "Pop Idol"
 		},
 		"Firebrand": {
-			"en": "Firebrand",
-			"fr": "Crâmeur"
+			"en": "Firebrand"
 		},
 		"Pyrotechnician": {
-			"en": "Pyrotechnician",
-			"fr": "Pyrotechnicien"
+			"en": "Pyrotechnician"
 		},
 		"Freeze": {
-			"en": "Freeze",
-			"fr": "Congélateur"
+			"en": "Freeze"
 		},
 		"Demoniac": {
-			"en": "Demoniac",
-			"fr": "Teigne"
+			"en": "Demoniac"
 		},
 		"Blighter": {
-			"en": "Blighter",
-			"fr": "Mauvais génie"
+			"en": "Blighter"
 		},
 		"Dark Horse": {
-			"en": "Dark Horse",
-			"fr": "Bête noire"
+			"en": "Dark Horse"
 		},
 		"Evil Genius": {
-			"en": "Evil Genius",
-			"fr": "Génie du mal"
+			"en": "Evil Genius"
 		},
 		"Agent Provocateur": {
-			"en": "Agent Provocateur",
-			"fr": "Non-conformiste"
+			"en": "Agent Provocateur"
 		},
 		"Bobby Dazzler": {
-			"en": "Bobby Dazzler",
-			"fr": "Tentateur"
+			"en": "Bobby Dazzler"
 		},
 		"Pop Diva": {
-			"en": "Pop Diva",
-			"fr": "Diva"
+			"en": "Pop Diva"
 		},
 		"Heavenly Herald": {
-			"en": "Heavenly Herald",
-			"fr": "Héraut céleste"
+			"en": "Heavenly Herald"
 		},
 		"Just Ruler": {
-			"en": "Just Ruler",
-			"fr": "Roi probe"
+			"en": "Just Ruler"
 		},
 		"Charge Leader": {
-			"en": "Charge Leader",
-			"fr": "Chef énergique"
+			"en": "Charge Leader"
 		},
 		"Lightning Rod": {
-			"en": "Lightning Rod",
-			"fr": "Foudre de guerre"
+			"en": "Lightning Rod"
 		},
 		"Vegabond": {
-			"en": "Vegabond",
-			"fr": "Vagabond"
+			"en": "Vegabond"
 		},
 		"Snow Drifter": {
-			"en": "Snow Drifter",
-			"fr": "Chasse-neige"
+			"en": "Snow Drifter"
 		},
 		"Bombshell": {
-			"en": "Bombshell",
-			"fr": "Détonateur"
+			"en": "Bombshell"
 		},
 		"Storm Chaser": {
-			"en": "Storm Chaser",
-			"fr": "Chasseur de tempête"
+			"en": "Storm Chaser"
 		},
 		"Mariner": {
-			"en": "Mariner",
-			"fr": "Marinier"
+			"en": "Mariner"
 		},
 		"Water Baby": {
-			"en": "Water Baby",
-			"fr": "Maître-nageur"
+			"en": "Water Baby"
 		},
 		"Hardliner": {
-			"en": "Hardliner",
-			"fr": "Boss du bourre-pif"
+			"en": "Hardliner"
 		},
 		"Enigma": {
-			"en": "Enigma",
-			"fr": "Cachottier"
+			"en": "Enigma"
 		},
 		"Vaudevillan": {
-			"en": "Vaudevillan",
-			"fr": "Saltimbanque"
+			"en": "Vaudevillan"
 		},
 		"Airhead": {
-			"en": "Airhead",
-			"fr": "Voltigeur"
+			"en": "Airhead"
 		},
 		"Empath": {
-			"en": "Empath",
-			"fr": "Bras de la Justice"
+			"en": "Empath"
 		},
 		"Cool Customer": {
-			"en": "Cool Customer",
-			"fr": "Tête froide"
+			"en": "Cool Customer"
 		},
 		"Hater": {
-			"en": "Hater",
-			"fr": "Sac de bile"
+			"en": "Hater"
 		},
 		"Super Naturalist": {
-			"en": "Super Naturalist",
-			"fr": "Super naturaliste"
+			"en": "Super Naturalist"
 		},
 		"Cleric": {
-			"en": "Cleric",
-			"fr": "Ecclésiastique"
+			"en": "Cleric"
 		},
 		"Cure-All": {
-			"en": "Cure-All",
-			"fr": "Guérisseur"
+			"en": "Cure-All"
 		},
 		"Devil's Advocate": {
-			"en": "Devil's Advocate",
-			"fr": "Avocat du diable"
+			"en": "Devil's Advocate"
 		},
 		"Nuisance": {
-			"en": "Nuisance",
-			"fr": "Boulet"
+			"en": "Nuisance"
 		},
 		"Doomsayer": {
-			"en": "Doomsayer",
-			"fr": "Tourmenteur"
+			"en": "Doomsayer"
 		},
 		"Mouth Guard": {
-			"en": "Mouth Guard",
-			"fr": "Surprotecteur"
+			"en": "Mouth Guard"
 		},
 		"Protector": {
-			"en": "Protector",
-			"fr": "Bon génie"
+			"en": "Protector"
 		},
 		"Heretic": {
-			"en": "Heretic",
-			"fr": "Hérétique"
+			"en": "Heretic"
 		},
 		"Mystic": {
-			"en": "Mystic",
-			"fr": "Mystique"
+			"en": "Mystic"
 		},
 		"Sage": {
-			"en": "Sage",
-			"fr": "Sage"
+			"en": "Sage"
 		},
 		"Grump": {
-			"en": "Grump",
-			"fr": "Ronchonchon"
+			"en": "Grump"
 		},
 		"Breath Worker": {
-			"en": "Breath Worker",
-			"fr": "Souffleteur"
+			"en": "Breath Worker"
 		},
 		"Bad Breather": {
-			"en": "Bad Breather",
-			"fr": "Pue-du-bec"
+			"en": "Bad Breather"
 		},
 		"Altruist": {
-			"en": "Altruist",
-			"fr": "Altruiste"
+			"en": "Altruist"
 		},
 		"Walking Disaster": {
-			"en": "Walking Disaster",
-			"fr": "Désastre ambulant"
+			"en": "Walking Disaster"
 		},
 		"Warmonger": {
-			"en": "Warmonger",
-			"fr": "Va-t-en-guerre"
+			"en": "Warmonger"
 		},
 		"Pest Controller": {
-			"en": "Pest Controller",
-			"fr": "Éradicateur"
+			"en": "Pest Controller"
 		},
 		"Multidisciplinarian": {
-			"en": "Multidisciplinarian",
-			"fr": "Maître polyvalent"
+			"en": "Multidisciplinarian"
 		},
 		"Rug Cutter": {
-			"en": "Rug Cutter",
-			"fr": "Vedette de bal"
+			"en": "Rug Cutter"
 		},
 		"Rainmaker": {
-			"en": "Rainmaker",
-			"fr": "Faiseur de pluie"
+			"en": "Rainmaker"
 		},
 		"Sovereign": {
-			"en": "Sovereign",
-			"fr": "Souverain"
+			"en": "Sovereign"
 		},
 		"Dragonlord": {
-			"en": "Dragonlord",
-			"fr": "Lordragon"
+			"en": "Dragonlord"
 		},
 		"Hargon": {
-			"en": "Hargon",
-			"fr": "Kaos"
+			"en": "Hargon"
 		},
 		"Malroth": {
-			"en": "Malroth",
-			"fr": "Malroth"
+			"en": "Malroth"
 		},
 		"Aamon": {
-			"en": "Aamon",
-			"fr": "Aamon"
+			"en": "Aamon"
 		},
 		"Bishop Ladja": {
-			"en": "Bishop Ladja",
-			"fr": "Erebos le Fou"
+			"en": "Bishop Ladja"
 		},
 		"Nimzo": {
-			"en": "Nimzo",
-			"fr": "Nimzo"
+			"en": "Nimzo"
 		},
 		"Murdaw": {
-			"en": "Murdaw",
-			"fr": "Meurtor"
+			"en": "Murdaw"
 		},
 		"Mortamor": {
-			"en": "Mortamor",
-			"fr": "Mortamor"
+			"en": "Mortamor"
 		},
 		"Orgodemir": {
-			"en": "Orgodemir",
-			"fr": "Orgodémir"
+			"en": "Orgodemir"
 		},
 		"Dhoulmagus": {
-			"en": "Dhoulmagus",
-			"fr": "Dhoulmagus"
+			"en": "Dhoulmagus"
 		},
 		"Rhapthorne": {
-			"en": "Rhapthorne",
-			"fr": "Rhapthorne"
+			"en": "Rhapthorne"
 		},
 		"Greygnarl": {
-			"en": "Greygnarl",
-			"fr": "Grizius"
+			"en": "Greygnarl"
 		},
 		"Barbarus": {
-			"en": "Barbarus",
-			"fr": "Barbarus"
+			"en": "Barbarus"
 		},
 		"Fallen Angel Corvus": {
-			"en": "Fallen Angel Corvus",
-			"fr": "Corvus"
+			"en": "Fallen Angel Corvus"
 		},
 		"Razerburn": {
-			"en": "Razerburn",
-			"fr": "Razban"
+			"en": "Razerburn"
 		},
 		"Nelgel The Netherfiend": {
-			"en": "Nelgel The Netherfiend",
-			"fr": "Infernal Nelgel"
+			"en": "Nelgel The Netherfiend"
 		},
 		"Jasper Unbound": {
-			"en": "Jasper Unbound",
-			"fr": "Jasper déchaîné"
+			"en": "Jasper Unbound"
 		},
 		"Mordegon, Lord of Shadows": {
-			"en": "Mordegon, Lord of Shadows",
-			"fr": "Mortégor"
+			"en": "Mordegon, Lord of Shadows"
 		},
 		"Calasmos": {
-			"en": "Calasmos",
-			"fr": "Kalasmos"
+			"en": "Calasmos"
 		},
 		"Uberkilling Machine": {
-			"en": "Uberkilling Machine",
-			"fr": "Mékanocinglé"
+			"en": "Uberkilling Machine"
 		},
 		"Fluffy": {
-			"en": "Fluffy",
-			"fr": "Doudouleur"
+			"en": "Fluffy"
 		},
 		"Scruffy": {
-			"en": "Scruffy",
-			"fr": "Poupouille"
+			"en": "Scruffy"
 		},
 		"Fuzzy Thinker": {
-			"en": "Fuzzy Thinker",
-			"fr": "Agent infiltré"
+			"en": "Fuzzy Thinker"
 		},
 		"Wyrmhole Dragon": {
-			"en": "Wyrmhole Dragon",
-			"fr": "Dragon du temps"
+			"en": "Wyrmhole Dragon"
 		},
 		"Baramos": {
-			"en": "Baramos",
-			"fr": "Baramos"
+			"en": "Baramos"
 		},
 		"Supreme Healer": {
-			"en": "Supreme Healer",
-			"fr": "Guérisseur suprême"
+			"en": "Supreme Healer"
 		},
 		"Lord Of The Dragovians": {
-			"en": "Lord Of The Dragovians",
-			"fr": "Seigneur des Dragoviens"
+			"en": "Lord Of The Dragovians"
 		},
 		"Xenlon": {
-			"en": "Xenlon",
-			"fr": "Xenlon"
+			"en": "Xenlon"
 		},
 		"Ramia": {
-			"en": "Ramia",
-			"fr": "Ramia"
+			"en": "Ramia"
 		},
 		"The Almighty": {
-			"en": "The Almighty",
-			"fr": "Tout-puissant"
+			"en": "The Almighty"
 		},
 		"Psaro The Manslayer": {
-			"en": "Psaro The Manslayer",
-			"fr": "Psaro l'Exterminateur"
+			"en": "Psaro The Manslayer"
 		},
 		"Zoma": {
-			"en": "Zoma",
-			"fr": "Zoma"
+			"en": "Zoma"
 		},
 		"Estark": {
-			"en": "Estark",
-			"fr": "Estark"
+			"en": "Estark"
 		},
 		"Nokturnus": {
-			"en": "Nokturnus",
-			"fr": "Nokturnus"
+			"en": "Nokturnus"
 		},
 		"Air Fryer": {
-			"en": "Air Fryer",
-			"fr": "Touffeur"
+			"en": "Air Fryer"
 		},
 		"Storm Brewer": {
-			"en": "Storm Brewer",
-			"fr": "Tonitrueur"
+			"en": "Storm Brewer"
 		},
 		"Freeze Popper": {
-			"en": "Freeze Popper",
-			"fr": "Canon à neige"
+			"en": "Freeze Popper"
 		},
 		"Freezer Burner": {
-			"en": "Freezer Burner",
-			"fr": "Chaud-froid"
+			"en": "Freezer Burner"
 		},
 		"Hair Splitter": {
-			"en": "Hair Splitter",
-			"fr": "Débiteur SP"
+			"en": "Hair Splitter"
 		},
 		"Impactor": {
-			"en": "Impactor",
-			"fr": "Bûcher-charcuteur SP"
+			"en": "Impactor"
 		},
 		"Polariser": {
-			"en": "Polariser",
-			"fr": "Saint de glace SP"
+			"en": "Polariser"
 		},
 		"Perfect Speller": {
-			"en": "Perfect Speller",
-			"fr": "Pentacliste SP"
+			"en": "Perfect Speller"
 		},
 		"Blow Hard": {
-			"en": "Blow Hard",
-			"fr": "Souffle-souffre"
+			"en": "Blow Hard"
 		},
 		"HP Booster I": {
-			"en": "HP Booster I",
-			"fr": "Bonus de PV I"
+			"en": "HP Booster I"
 		},
 		"HP Booster II": {
-			"en": "HP Booster II",
-			"fr": "Bonus de PV II"
+			"en": "HP Booster II"
 		},
 		"HP Booster III": {
-			"en": "HP Booster III",
-			"fr": "Bonus de PV III"
+			"en": "HP Booster III"
 		},
 		"HP Booster IV": {
-			"en": "HP Booster IV",
-			"fr": "Bonus de PV IV"
+			"en": "HP Booster IV"
 		},
 		"MP Booster I": {
-			"en": "MP Booster I",
-			"fr": "Bonus de PM I"
+			"en": "MP Booster I"
 		},
 		"MP Booster II": {
-			"en": "MP Booster II",
-			"fr": "Bonus de PM II"
+			"en": "MP Booster II"
 		},
 		"MP Booster III": {
-			"en": "MP Booster III",
-			"fr": "Bonus de PM III"
+			"en": "MP Booster III"
 		},
 		"MP Booster IV": {
-			"en": "MP Booster IV",
-			"fr": "Bonus de PM IV"
+			"en": "MP Booster IV"
 		},
 		"Attack Booster I": {
-			"en": "Attack Booster I",
-			"fr": "Bonus d'attaque I"
+			"en": "Attack Booster I"
 		},
 		"Attack Booster II": {
-			"en": "Attack Booster II",
-			"fr": "Bonus d'attaque II"
+			"en": "Attack Booster II"
 		},
 		"Attack Booster III": {
-			"en": "Attack Booster III",
-			"fr": "Bonus d'attaque III"
+			"en": "Attack Booster III"
 		},
 		"Attack Booster IV": {
-			"en": "Attack Booster IV",
-			"fr": "Bonus d'attaque IV"
+			"en": "Attack Booster IV"
 		},
 		"Defence Booster I": {
-			"en": "Defence Booster I",
-			"fr": "Bonus de défense I"
+			"en": "Defence Booster I"
 		},
 		"Defence Booster II": {
-			"en": "Defence Booster II",
-			"fr": "Bonus de défense II"
+			"en": "Defence Booster II"
 		},
 		"Defence Booster III": {
-			"en": "Defence Booster III",
-			"fr": "Bonus de défense III"
+			"en": "Defence Booster III"
 		},
 		"Defence Booster IV": {
-			"en": "Defence Booster IV",
-			"fr": "Bonus de défense IV"
+			"en": "Defence Booster IV"
 		},
 		"Agility Booster I": {
-			"en": "Agility Booster I",
-			"fr": "Bonus d'agilité I"
+			"en": "Agility Booster I"
 		},
 		"Agility Booster II": {
-			"en": "Agility Booster II",
-			"fr": "Bonus d'agilité II"
+			"en": "Agility Booster II"
 		},
 		"Agility Booster III": {
-			"en": "Agility Booster III",
-			"fr": "Bonus d'agilité III"
+			"en": "Agility Booster III"
 		},
 		"Agility Booster IV": {
-			"en": "Agility Booster IV",
-			"fr": "Bonus d'agilité IV"
+			"en": "Agility Booster IV"
 		},
 		"Wisdom Booster I": {
-			"en": "Wisdom Booster I",
-			"fr": "Bonus de sagesse I"
+			"en": "Wisdom Booster I"
 		},
 		"Wisdom Booster II": {
-			"en": "Wisdom Booster II",
-			"fr": "Bonus de sagesse II"
+			"en": "Wisdom Booster II"
 		},
 		"Wisdom Booster III": {
-			"en": "Wisdom Booster III",
-			"fr": "Bonus de sagesse III"
+			"en": "Wisdom Booster III"
 		},
 		"Wisdom Booster IV": {
-			"en": "Wisdom Booster IV",
-			"fr": "Bonus de sagesse IV"
+			"en": "Wisdom Booster IV"
 		},
 		"Frizz Ward": {
-			"en": "Frizz Ward",
-			"fr": "Protection Flamme"
+			"en": "Frizz Ward"
 		},
 		"Splish Ward": {
-			"en": "Splish Ward",
-			"fr": "Protection Plouf"
+			"en": "Splish Ward"
 		},
 		"Woosh Guard": {
-			"en": "Woosh Guard",
-			"fr": "Protection Tornade"
+			"en": "Woosh Guard"
 		},
 		"Crag Ward": {
-			"en": "Crag Ward",
-			"fr": "Protection Séisme"
+			"en": "Crag Ward"
 		},
 		"Bang Ward": {
-			"en": "Bang Ward",
-			"fr": "Protection Bang"
+			"en": "Bang Ward"
 		},
 		"Crack Ward": {
-			"en": "Crack Ward",
-			"fr": "Protection Glace"
+			"en": "Crack Ward"
 		},
 		"Zap Ward": {
-			"en": "Zap Ward",
-			"fr": "Protection Foudre"
+			"en": "Zap Ward"
 		},
 		"Sizz Ward": {
-			"en": "Sizz Ward",
-			"fr": "Protection Crame"
+			"en": "Sizz Ward"
 		},
 		"Zam Ward": {
-			"en": "Zam Ward",
-			"fr": "Protection Élec"
+			"en": "Zam Ward"
 		},
 		"Debilitation Ducker": {
-			"en": "Debilitation Ducker",
-			"fr": "Protection Affaiblissement"
+			"en": "Debilitation Ducker"
 		},
 		"Bedazzlement Blocker": {
-			"en": "Bedazzlement Blocker",
-			"fr": "Protection Éblouissement"
+			"en": "Bedazzlement Blocker"
 		},
 		"Antimagic Avoider": {
-			"en": "Antimagic Avoider",
-			"fr": "Protection Empêchement"
+			"en": "Antimagic Avoider"
 		},
 		"Drain Dodger": {
-			"en": "Drain Dodger",
-			"fr": "Protection Aspirmagie"
+			"en": "Drain Dodger"
 		},
 		"Poison Preventer": {
-			"en": "Poison Preventer",
-			"fr": "Protection Empoisonnement"
+			"en": "Poison Preventer"
 		},
 		"Stun Stopper": {
-			"en": "Stun Stopper",
-			"fr": "Protection Étourdissement"
+			"en": "Stun Stopper"
 		},
 		"Sleep Suppressor": {
-			"en": "Sleep Suppressor",
-			"fr": "Protection Sommeil"
+			"en": "Sleep Suppressor"
 		},
 		"Confusion Controller": {
-			"en": "Confusion Controller",
-			"fr": "Protection Confusion"
+			"en": "Confusion Controller"
 		},
 		"Paralysis Protector": {
-			"en": "Paralysis Protector",
-			"fr": "Protection Paralysie"
+			"en": "Paralysis Protector"
 		},
 		"Death Defier": {
-			"en": "Death Defier",
-			"fr": "Protection Mort subite"
+			"en": "Death Defier"
 		},
 		"Sparkling Warder": {
-			"en": "Sparkling Warder",
-			"fr": "Protection d'enfer"
+			"en": "Sparkling Warder"
 		},
 		"Hard Warder": {
-			"en": "Hard Warder",
-			"fr": "Protection suprême"
+			"en": "Hard Warder"
 		},
 		"Holy Warder": {
-			"en": "Holy Warder",
-			"fr": "Protection Divine"
+			"en": "Holy Warder"
 		},
 		"Magma Shield": {
-			"en": "Magma Shield",
-			"fr": "Bouclier magmatique SP"
+			"en": "Magma Shield"
 		},
 		"Glacier Shield": {
-			"en": "Glacier Shield",
-			"fr": "Bouclier polaire SP"
+			"en": "Glacier Shield"
 		},
 		"Cyclone Shield": {
-			"en": "Cyclone Shield",
-			"fr": "Bouclier cyclonique SP"
+			"en": "Cyclone Shield"
 		},
 		"Chiaroscuro Shield": {
-			"en": "Chiaroscuro Shield",
-			"fr": "Bouclier clair-obscur SP"
+			"en": "Chiaroscuro Shield"
 		},
 		"Tremor Shield": {
-			"en": "Tremor Shield",
-			"fr": "Bouclier tectonique SP"
+			"en": "Tremor Shield"
 		},
 		"Fulgurite Shield": {
-			"en": "Fulgurite Shield",
-			"fr": "Bouclier électrique SP"
+			"en": "Fulgurite Shield"
 		},
 		"Cheesy Grin": {
 			"en": "Cheesy Grin"
 		},
 		"Taste Buddies": {
-			"en": "Taste Buddies",
-			"fr": "Trio gourmand"
+			"en": "Taste Buddies"
 		},
 		"Swirling Dervish": {
-			"en": "Swirling Dervish",
-			"fr": "Bombe glacée"
+			"en": "Swirling Dervish"
 		}
 	}
 }

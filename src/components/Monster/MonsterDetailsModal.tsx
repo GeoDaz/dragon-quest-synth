@@ -77,11 +77,11 @@ const MonsterDetailsModal: React.FC<Props> = ({
 	open,
 	handleClose,
 }) => {
-	const { isFr, translateUI } = useTranslate();
+	const { isFr, translateUI, translateTrait } = useTranslate();
 	const localised = (entry?: Localised) => (isFr && entry?.fr) || entry?.en;
 	const named = (japanese: string, table: GameTerms['traits']) => {
 		const term = table[japanese];
-		const name = localised(term);
+		const name = term?.en && translateTrait(term.en);
 		return (
 			<Described
 				text={localised(term?.desc)}

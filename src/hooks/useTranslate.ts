@@ -1,7 +1,10 @@
-import { useContext } from 'react';
+import { useCallback, useContext } from 'react';
 import { LanguageContext } from '@/context/language';
 import { StringObject } from '@/types/Ui';
 const translatedMonsters = require('../json/monsterTranslations.json');
+const translatedMoves: StringObject = require('../json/movesTranslations.json');
+const translatedSkills: StringObject = require('../json/skillsTranslations.json');
+const translatedTraits: StringObject = require('../json/traitsTranslations.json');
 
 const translatedUI: StringObject = {
 	Synthesis: 'Synthèse',
@@ -11,6 +14,8 @@ const translatedUI: StringObject = {
 	Family: 'Famille',
 	Rank: 'Rang',
 	Lower: 'Inférieur',
+	'Rang lower': 'Rang inférieur',
+	'Rang higher': 'Rang supérieur',
 	'Lower monster': 'Monstre inférieur',
 	'Any lower monster': 'Tout monstre inférieur',
 	Monster: 'Monstre',
@@ -72,6 +77,7 @@ const translatedUI: StringObject = {
 	Small: 'Petit',
 	Large: 'Grand',
 	'Skill set': 'Talent',
+	Skill: 'Compétence',
 	'2nd skill among': 'Second talent parmi',
 	Drop: 'Butin',
 	Traits: 'Attributs',
@@ -141,8 +147,27 @@ const useTranslate = () => {
 		if (isFr) return translatedUI[word] || word;
 		return word;
 	};
+	const translateMove = useCallback(
+		(name: string): string => (isFr && translatedMoves[name]) || name,
+		[isFr]
+	);
+	const translateSkill = useCallback(
+		(name: string): string => (isFr && translatedSkills[name]) || name,
+		[isFr]
+	);
+	const translateTrait = useCallback(
+		(name: string): string => (isFr && translatedTraits[name]) || name,
+		[isFr]
+	);
 
-	return { isFr, translateMonster, translateUI };
+	return {
+		isFr,
+		translateMonster,
+		translateUI,
+		translateMove,
+		translateSkill,
+		translateTrait,
+	};
 };
 
 export default useTranslate;

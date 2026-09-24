@@ -12,8 +12,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"fire"
-			],
-			"fr": "Flamme"
+			]
 		},
 		"Frizzle": {
 			"attribute": "Spell",
@@ -27,8 +26,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"fire"
-			],
-			"fr": "Superflamme"
+			]
 		},
 		"Kafrizz": {
 			"attribute": "Spell",
@@ -42,8 +40,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"fire"
-			],
-			"fr": "Mégaflamme"
+			]
 		},
 		"Kafrizzle": {
 			"attribute": "Spell",
@@ -57,8 +54,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"fire"
-			],
-			"fr": "Gigaflamme"
+			]
 		},
 		"Splish": {
 			"attribute": "Spell",
@@ -72,8 +68,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"water"
-			],
-			"fr": "Plouf"
+			]
 		},
 		"Splash": {
 			"attribute": "Spell",
@@ -87,8 +82,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"water"
-			],
-			"fr": "Superplouf"
+			]
 		},
 		"Kasplash": {
 			"attribute": "Spell",
@@ -102,8 +96,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"water"
-			],
-			"fr": "Mégaplouf"
+			]
 		},
 		"Kasplashle": {
 			"attribute": "Spell",
@@ -117,8 +110,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"water"
-			],
-			"fr": "Gigaplouf"
+			]
 		},
 		"Woosh": {
 			"attribute": "Spell",
@@ -132,8 +124,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"wind"
-			],
-			"fr": "Tornade"
+			]
 		},
 		"Swoosh": {
 			"attribute": "Spell",
@@ -147,8 +138,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"wind"
-			],
-			"fr": "Supertornade"
+			]
 		},
 		"Kaswoosh": {
 			"attribute": "Spell",
@@ -162,8 +152,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"wind"
-			],
-			"fr": "Mégatornade"
+			]
 		},
 		"Kaswooshle": {
 			"attribute": "Spell",
@@ -177,8 +166,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"wind"
-			],
-			"fr": "Gigatornade"
+			]
 		},
 		"Crag": {
 			"attribute": "Spell",
@@ -192,8 +180,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"earth"
-			],
-			"fr": "Séisme"
+			]
 		},
 		"Craggle": {
 			"attribute": "Spell",
@@ -207,8 +194,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"earth"
-			],
-			"fr": "Superséisme"
+			]
 		},
 		"Kacrag": {
 			"attribute": "Spell",
@@ -222,8 +208,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"earth"
-			],
-			"fr": "Mégaséisme"
+			]
 		},
 		"Kacraggle": {
 			"attribute": "Spell",
@@ -237,8 +222,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"earth"
-			],
-			"fr": "Gigaséisme"
+			]
 		},
 		"Bang": {
 			"attribute": "Spell",
@@ -252,8 +236,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"explosion"
-			],
-			"fr": "Bang"
+			]
 		},
 		"Boom": {
 			"attribute": "Spell",
@@ -267,8 +250,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"explosion"
-			],
-			"fr": "Superbang"
+			]
 		},
 		"Kaboom": {
 			"attribute": "Spell",
@@ -282,8 +264,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"explosion"
-			],
-			"fr": "Mégabang"
+			]
 		},
 		"Kaboomle": {
 			"attribute": "Spell",
@@ -297,8 +278,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"explosion"
-			],
-			"fr": "Gigabang"
+			]
 		},
 		"Crack": {
 			"attribute": "Spell",
@@ -312,8 +292,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"freeze"
-			],
-			"fr": "Glace"
+			]
 		},
 		"Crackle": {
 			"attribute": "Spell",
@@ -327,8 +306,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"freeze"
-			],
-			"fr": "Superglace"
+			]
 		},
 		"Kacrack": {
 			"attribute": "Spell",
@@ -342,8 +320,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"freeze"
-			],
-			"fr": "Mégaglace"
+			]
 		},
 		"Kacrackle": {
 			"attribute": "Spell",
@@ -357,8 +334,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"freeze"
-			],
-			"fr": "Gigaglace"
+			]
 		},
 		"Zap": {
 			"attribute": "Spell",
@@ -372,8 +348,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"thunder"
-			],
-			"fr": "Foudre"
+			]
 		},
 		"Zapple": {
 			"attribute": "Spell",
@@ -387,8 +362,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"thunder"
-			],
-			"fr": "Superfoudre"
+			]
 		},
 		"Kazap": {
 			"attribute": "Spell",
@@ -402,8 +376,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"thunder"
-			],
-			"fr": "Mégafoudre"
+			]
 		},
 		"Kazapple": {
 			"attribute": "Spell",
@@ -417,8 +390,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"thunder"
-			],
-			"fr": "Gigafoudre"
+			]
 		},
 		"Sizz": {
 			"attribute": "Spell",
@@ -432,8 +404,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"light"
-			],
-			"fr": "Crame"
+			]
 		},
 		"Sizzle": {
 			"attribute": "Spell",
@@ -447,8 +418,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"light"
-			],
-			"fr": "Supercrame"
+			]
 		},
 		"Kasizz": {
 			"attribute": "Spell",
@@ -462,8 +432,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"light"
-			],
-			"fr": "Mégacrame"
+			]
 		},
 		"Kasizzle": {
 			"attribute": "Spell",
@@ -477,8 +446,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"light"
-			],
-			"fr": "Gigacrame"
+			]
 		},
 		"Zam": {
 			"attribute": "Spell",
@@ -492,8 +460,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"darkness"
-			],
-			"fr": "Élec"
+			]
 		},
 		"Zammle": {
 			"attribute": "Spell",
@@ -507,8 +474,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"darkness"
-			],
-			"fr": "Superélec"
+			]
 		},
 		"Kazam": {
 			"attribute": "Spell",
@@ -522,8 +488,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"darkness"
-			],
-			"fr": "Mégaélec"
+			]
 		},
 		"Kazammle": {
 			"attribute": "Spell",
@@ -537,8 +502,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"darkness"
-			],
-			"fr": "Gigaélec"
+			]
 		},
 		"Pearly Gates": {
 			"attribute": "Spell",
@@ -552,8 +516,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"light"
-			],
-			"fr": "Porte de nacre"
+			]
 		},
 		"Magic Pop": {
 			"attribute": "Spell",
@@ -568,8 +531,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"light"
-			],
-			"fr": "Détonation magique"
+			]
 		},
 		"Magic Burst": {
 			"attribute": "Spell",
@@ -584,8 +546,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"light"
-			],
-			"fr": "Explosion magique"
+			]
 		},
 		"Heal": {
 			"attribute": "Spell",
@@ -596,8 +557,7 @@
 				"fr": "Redonne au moins 28 PV à un allié."
 			},
 			"mp": 3,
-			"target": "Single Ally",
-			"fr": "Premiers secours"
+			"target": "Single Ally"
 		},
 		"Midheal": {
 			"attribute": "Spell",
@@ -608,8 +568,7 @@
 				"fr": "Redonne au moins 76 PV à un allié."
 			},
 			"mp": 8,
-			"target": "Single Ally",
-			"fr": "Soins partiels"
+			"target": "Single Ally"
 		},
 		"Moreheal": {
 			"attribute": "Spell",
@@ -620,8 +579,7 @@
 				"fr": "Redonne au moins 285 PV à un allié."
 			},
 			"mp": 40,
-			"target": "Single Ally",
-			"fr": "Soins avancés"
+			"target": "Single Ally"
 		},
 		"Multiheal": {
 			"attribute": "Spell",
@@ -632,8 +590,7 @@
 				"fr": "Redonne au moins 76 PV à tous les alliés."
 			},
 			"mp": 26,
-			"target": "All Allies",
-			"fr": "Multisoin"
+			"target": "All Allies"
 		},
 		"Omniheal": {
 			"attribute": "Spell",
@@ -644,8 +601,7 @@
 				"fr": "Redonne au moins 237 PV à tous les alliés."
 			},
 			"mp": 80,
-			"target": "All Allies",
-			"fr": "Omnisoin"
+			"target": "All Allies"
 		},
 		"Zing": {
 			"attribute": "Spell",
@@ -656,8 +612,7 @@
 				"fr": "Ressuscite un allié tombé au combat, sans garantie de réussite."
 			},
 			"mp": 8,
-			"target": "Single Ally",
-			"fr": "Rappel"
+			"target": "Single Ally"
 		},
 		"Kazing": {
 			"attribute": "Spell",
@@ -668,8 +623,7 @@
 				"fr": "Ressuscite à coup sûr un allié tombé au combat."
 			},
 			"mp": 80,
-			"target": "Single Ally",
-			"fr": "Résurrection"
+			"target": "Single Ally"
 		},
 		"Kerplunk": {
 			"attribute": "Spell",
@@ -681,8 +635,7 @@
 			},
 			"mp": 100,
 			"mpType": "all-with-min",
-			"target": "All Allies",
-			"fr": "Conjuration"
+			"target": "All Allies"
 		},
 		"Squelch": {
 			"attribute": "Spell",
@@ -696,8 +649,7 @@
 			"target": "All Allies",
 			"elements": [
 				"poison"
-			],
-			"fr": "Désaltération"
+			]
 		},
 		"Tingle": {
 			"attribute": "Spell",
@@ -711,8 +663,7 @@
 			"target": "All Allies",
 			"elements": [
 				"paralysis"
-			],
-			"fr": "Stimulation"
+			]
 		},
 		"Defuddle": {
 			"attribute": "Spell",
@@ -726,8 +677,7 @@
 			"target": "All Allies",
 			"elements": [
 				"confusion"
-			],
-			"fr": "Déconfuz"
+			]
 		},
 		"Cock-a-Doodle-Doo": {
 			"attribute": "Spell",
@@ -741,8 +691,7 @@
 			"target": "All Allies",
 			"elements": [
 				"sleep"
-			],
-			"fr": "Cocorico"
+			]
 		},
 		"Oomph": {
 			"attribute": "Spell",
@@ -754,8 +703,7 @@
 			},
 			"mp": 6,
 			"target": "Single Ally",
-			"effect": "Attack Up",
-			"fr": "Décuplo"
+			"effect": "Attack Up"
 		},
 		"Oomphle": {
 			"attribute": "Spell",
@@ -767,8 +715,7 @@
 			},
 			"mp": 10,
 			"target": "All Allies",
-			"effect": "Attack Up",
-			"fr": "Superdécuplo"
+			"effect": "Attack Up"
 		},
 		"Blunt": {
 			"attribute": "Spell",
@@ -780,8 +727,7 @@
 			},
 			"mp": 6,
 			"target": "Single Enemy",
-			"effect": "Attack Down",
-			"fr": "Ramollo"
+			"effect": "Attack Down"
 		},
 		"Kablunt": {
 			"attribute": "Spell",
@@ -793,8 +739,7 @@
 			},
 			"mp": 10,
 			"target": "All Enemies",
-			"effect": "Attack Down",
-			"fr": "Mégaramollo"
+			"effect": "Attack Down"
 		},
 		"Buff": {
 			"attribute": "Spell",
@@ -806,8 +751,7 @@
 			},
 			"mp": 3,
 			"target": "Single Ally",
-			"effect": "Defence Up",
-			"fr": "Protection"
+			"effect": "Defence Up"
 		},
 		"Kabuff": {
 			"attribute": "Spell",
@@ -819,8 +763,7 @@
 			},
 			"mp": 4,
 			"target": "All Allies",
-			"effect": "Defence Up",
-			"fr": "Mégaprotection"
+			"effect": "Defence Up"
 		},
 		"Sap": {
 			"attribute": "Spell",
@@ -832,8 +775,7 @@
 			},
 			"mp": 3,
 			"target": "Single Enemy",
-			"effect": "Defence Down",
-			"fr": "Altération"
+			"effect": "Defence Down"
 		},
 		"Kasap": {
 			"attribute": "Spell",
@@ -845,8 +787,7 @@
 			},
 			"mp": 4,
 			"target": "All Enemies",
-			"effect": "Defence Down",
-			"fr": "Mégaltération"
+			"effect": "Defence Down"
 		},
 		"Accelerate": {
 			"attribute": "Spell",
@@ -858,8 +799,7 @@
 			},
 			"mp": 3,
 			"target": "Single Ally",
-			"effect": "Agility Up",
-			"fr": "Accéléro"
+			"effect": "Agility Up"
 		},
 		"Acceleratle": {
 			"attribute": "Spell",
@@ -871,8 +811,7 @@
 			},
 			"mp": 4,
 			"target": "All Allies",
-			"effect": "Agility Up",
-			"fr": "Superaccéléro"
+			"effect": "Agility Up"
 		},
 		"Decelerate": {
 			"attribute": "Spell",
@@ -884,8 +823,7 @@
 			},
 			"mp": 3,
 			"target": "Single Enemy",
-			"effect": "Agility Down",
-			"fr": "Décéléro"
+			"effect": "Agility Down"
 		},
 		"Deceleratle": {
 			"attribute": "Spell",
@@ -897,8 +835,7 @@
 			},
 			"mp": 4,
 			"target": "All Enemies",
-			"effect": "Agility Down",
-			"fr": "Superdécéléro"
+			"effect": "Agility Down"
 		},
 		"Ping": {
 			"attribute": "Spell",
@@ -910,8 +847,7 @@
 			},
 			"mp": 3,
 			"target": "Single Ally",
-			"effect": "Wisdom Up",
-			"fr": "Tilt"
+			"effect": "Wisdom Up"
 		},
 		"Kaping": {
 			"attribute": "Spell",
@@ -923,8 +859,7 @@
 			},
 			"mp": 4,
 			"target": "All Allies",
-			"effect": "Wisdom Up",
-			"fr": "Supertilt"
+			"effect": "Wisdom Up"
 		},
 		"Dim": {
 			"attribute": "Spell",
@@ -936,8 +871,7 @@
 			},
 			"mp": 3,
 			"target": "Single Enemy",
-			"effect": "Wisdom Down",
-			"fr": "Simplet"
+			"effect": "Wisdom Down"
 		},
 		"Kadim": {
 			"attribute": "Spell",
@@ -949,8 +883,7 @@
 			},
 			"mp": 4,
 			"target": "All Enemies",
-			"effect": "Wisdom Down",
-			"fr": "Supersimplet"
+			"effect": "Wisdom Down"
 		},
 		"Insulate": {
 			"attribute": "Spell",
@@ -961,8 +894,7 @@
 				"fr": "Réduit beaucoup les dégâts découlant d'attaques de souffle qu'un allié peut subir pendant 4 à 7 tours."
 			},
 			"mp": 4,
-			"target": "Single Ally",
-			"fr": "Isolation"
+			"target": "Single Ally"
 		},
 		"Insulatle": {
 			"attribute": "Spell",
@@ -973,8 +905,7 @@
 				"fr": "Réduit les dégâts découlant d'attaques de souffle que tous les alliés peuvent subir pendant 4 à 7 tours."
 			},
 			"mp": 4,
-			"target": "All Allies",
-			"fr": "Superisolation"
+			"target": "All Allies"
 		},
 		"Dazzle": {
 			"attribute": "Spell",
@@ -988,8 +919,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"bedazzle"
-			],
-			"fr": "Illusion"
+			]
 		},
 		"Fizzle": {
 			"attribute": "Spell",
@@ -1003,8 +933,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"seal"
-			],
-			"fr": "Antimagie"
+			]
 		},
 		"Bounce": {
 			"attribute": "Spell",
@@ -1015,8 +944,7 @@
 				"fr": "Renvoie la plupart des sorts à leur lanceur pendant 4 à 7 tours."
 			},
 			"mp": 32,
-			"target": "Self",
-			"fr": "Réflexion"
+			"target": "Self"
 		},
 		"Drain Magic": {
 			"attribute": "Spell",
@@ -1027,8 +955,7 @@
 				"fr": "Absorbe des PM à un ennemi."
 			},
 			"mp": 0,
-			"target": "Single Enemy",
-			"fr": "Aspirmagie"
+			"target": "Single Enemy"
 		},
 		"Giga Drain Magic": {
 			"attribute": "Spell",
@@ -1043,8 +970,7 @@
 			"target": "Random Enemies",
 			"elements": [
 				"drain_mp"
-			],
-			"fr": "Gigaspirmagie"
+			]
 		},
 		"Fuddle": {
 			"attribute": "Spell",
@@ -1058,8 +984,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"confusion"
-			],
-			"fr": "Confusion"
+			]
 		},
 		"Kafuddle": {
 			"attribute": "Spell",
@@ -1073,8 +998,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"confusion"
-			],
-			"fr": "Mégaconfusion"
+			]
 		},
 		"Snooze": {
 			"attribute": "Spell",
@@ -1088,8 +1012,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"sleep"
-			],
-			"fr": "Torpeur"
+			]
 		},
 		"Kasnooze": {
 			"attribute": "Spell",
@@ -1103,8 +1026,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"sleep"
-			],
-			"fr": "Torpeur ciblée"
+			]
 		},
 		"Numb": {
 			"attribute": "Spell",
@@ -1118,8 +1040,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"paralysis"
-			],
-			"fr": "Roideur"
+			]
 		},
 		"Kanumb": {
 			"attribute": "Spell",
@@ -1133,8 +1054,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"paralysis"
-			],
-			"fr": "Mégaroideur"
+			]
 		},
 		"Tox": {
 			"attribute": "Spell",
@@ -1148,8 +1068,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"poison"
-			],
-			"fr": "Intoxication"
+			]
 		},
 		"Katox": {
 			"attribute": "Spell",
@@ -1163,8 +1082,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"poison"
-			],
-			"fr": "Méga-intoxication"
+			]
 		},
 		"Katoxle": {
 			"attribute": "Spell",
@@ -1178,8 +1096,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"poison"
-			],
-			"fr": "Giga-intoxication"
+			]
 		},
 		"Whack": {
 			"attribute": "Spell",
@@ -1193,8 +1110,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"sudden_death"
-			],
-			"fr": "Kill"
+			]
 		},
 		"Thwack": {
 			"attribute": "Spell",
@@ -1208,8 +1124,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"sudden_death"
-			],
-			"fr": "Superkill"
+			]
 		},
 		"Kamikazee": {
 			"attribute": "Spell",
@@ -1221,8 +1136,7 @@
 			},
 			"mp": 100,
 			"mpType": "percentage",
-			"target": "All Enemies",
-			"fr": "Kamikaze"
+			"target": "All Enemies"
 		},
 		"Flame Slash": {
 			"attribute": "Physical",
@@ -1236,8 +1150,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"fire"
-			],
-			"fr": "Lame de feu"
+			]
 		},
 		"Gust Slash": {
 			"attribute": "Physical",
@@ -1251,8 +1164,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"wind"
-			],
-			"fr": "Lame de vent"
+			]
 		},
 		"Kacrackle Slash": {
 			"attribute": "Physical",
@@ -1266,8 +1178,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"freeze"
-			],
-			"fr": "Entaille gigaglace"
+			]
 		},
 		"Lightning Slash": {
 			"attribute": "Physical",
@@ -1281,8 +1192,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"thunder"
-			],
-			"fr": "Lame d'éclair"
+			]
 		},
 		"Flamesplitter": {
 			"attribute": "Physical",
@@ -1296,8 +1206,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"fire"
-			],
-			"fr": "Brise-flammes"
+			]
 		},
 		"Skysplitter": {
 			"attribute": "Physical",
@@ -1311,8 +1220,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"wind"
-			],
-			"fr": "Brise-cieux"
+			]
 		},
 		"Earthsplitter": {
 			"attribute": "Physical",
@@ -1326,8 +1234,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"earth"
-			],
-			"fr": "Brise-terre"
+			]
 		},
 		"Brightsplitter": {
 			"attribute": "Physical",
@@ -1341,8 +1248,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"light"
-			],
-			"fr": "Brise-lumière"
+			]
 		},
 		"Blightsplitter": {
 			"attribute": "Physical",
@@ -1356,8 +1262,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"darkness"
-			],
-			"fr": "Brise-ombre"
+			]
 		},
 		"Gigaslash": {
 			"attribute": "Physical",
@@ -1371,8 +1276,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"thunder"
-			],
-			"fr": "Gigentaille"
+			]
 		},
 		"Gigagash": {
 			"attribute": "Physical",
@@ -1386,8 +1290,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"thunder"
-			],
-			"fr": "Gigagash"
+			]
 		},
 		"Gigacross": {
 			"attribute": "Physical",
@@ -1401,8 +1304,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"thunder"
-			],
-			"fr": "Gigacroix"
+			]
 		},
 		"Shadow Blast": {
 			"attribute": "Physical",
@@ -1416,8 +1318,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"darkness"
-			],
-			"fr": "Rupture obscure"
+			]
 		},
 		"Slime Squisher": {
 			"attribute": "Physical",
@@ -1428,8 +1329,7 @@
 				"fr": "Inflige de gros dégâts d'impact aux monstres de la famille des gluants."
 			},
 			"mp": 4,
-			"target": "Single Enemy",
-			"fr": "Slurpvérisation"
+			"target": "Single Enemy"
 		},
 		"Dragon Slash": {
 			"attribute": "Physical",
@@ -1440,8 +1340,7 @@
 				"fr": "Inflige de gros dégâts cinglants aux monstres de la famille des dragons."
 			},
 			"mp": 4,
-			"target": "Single Enemy",
-			"fr": "Lame du dragon"
+			"target": "Single Enemy"
 		},
 		"Nature Nerfer": {
 			"attribute": "Physical",
@@ -1452,8 +1351,7 @@
 				"fr": "Inflige de gros dégâts cinglants aux monstres de la famille des naturels."
 			},
 			"mp": 4,
-			"target": "Single Enemy",
-			"fr": "Terminature"
+			"target": "Single Enemy"
 		},
 		"Beast Tamer": {
 			"attribute": "Physical",
@@ -1464,8 +1362,7 @@
 				"fr": "Inflige de gros dégâts cinglants aux monstres de la famille des bêtes."
 			},
 			"mp": 4,
-			"target": "Single Enemy",
-			"fr": "Joug contre joug"
+			"target": "Single Enemy"
 		},
 		"Matter Scatterer": {
 			"attribute": "Physical",
@@ -1476,8 +1373,7 @@
 				"fr": "Inflige de gros dégâts cinglants aux monstres de la famille des matières."
 			},
 			"mp": 4,
-			"target": "Single Enemy",
-			"fr": "Atomisation"
+			"target": "Single Enemy"
 		},
 		"Demon Demeaner": {
 			"attribute": "Physical",
@@ -1488,8 +1384,7 @@
 				"fr": "Inflige de gros dégâts cinglants aux monstres de la famille des démons."
 			},
 			"mp": 4,
-			"target": "Single Enemy",
-			"fr": "Démonlition"
+			"target": "Single Enemy"
 		},
 		"Undead Undoer": {
 			"attribute": "Physical",
@@ -1500,8 +1395,7 @@
 				"fr": "Inflige de gros dégâts cinglants aux monstres de la famille des morts-vivants."
 			},
 			"mp": 4,
-			"target": "Single Enemy",
-			"fr": "Morozombie"
+			"target": "Single Enemy"
 		},
 		"Multifists": {
 			"attribute": "Physical",
@@ -1512,8 +1406,7 @@
 				"fr": "Technique de frappe qui inflige des dégâts à des ennemis au hasard, pour un total de 4 fois."
 			},
 			"mp": 20,
-			"target": "Random Enemies",
-			"fr": "Multipoing"
+			"target": "Random Enemies"
 		},
 		"Shining Shot": {
 			"attribute": "Physical",
@@ -1527,8 +1420,7 @@
 			"target": "Random Enemies",
 			"elements": [
 				"light"
-			],
-			"fr": "Tir de lumière"
+			]
 		},
 		"Multislash": {
 			"attribute": "Physical",
@@ -1539,8 +1431,7 @@
 				"fr": "Inflige des dégâts cinglants à tous les ennemis. Les ennemis à l'extrémité droite du champ de bataille subissent moins de dégâts."
 			},
 			"mp": 5,
-			"target": "All Enemies",
-			"fr": "Multi-lame"
+			"target": "All Enemies"
 		},
 		"Mercurial Thrust": {
 			"attribute": "Physical",
@@ -1551,8 +1442,7 @@
 				"fr": "Coup de poing qui inflige très peu de dégâts, mais permet à l'utilisateur d'attaquer avant tout le monde."
 			},
 			"mp": 2,
-			"target": "Single Enemy",
-			"fr": "Coup d'Hermès"
+			"target": "Single Enemy"
 		},
 		"Anchorman": {
 			"attribute": "Physical",
@@ -1563,8 +1453,7 @@
 				"fr": "Agit après tout le monde pour infliger des dégâts d'impact extrêmes à l'ennemi."
 			},
 			"mp": 15,
-			"target": "Single Enemy",
-			"fr": "Mutancre"
+			"target": "Single Enemy"
 		},
 		"Knuckle Sandwich": {
 			"attribute": "Physical",
@@ -1575,8 +1464,7 @@
 				"fr": "Concentre toutes ses forces pour infliger de gros dégâts à un ennemi au tour suivant, passant outre les caractéristiques de ce dernier en défense."
 			},
 			"mp": 20,
-			"target": "Single Enemy",
-			"fr": "Casse-dentier"
+			"target": "Single Enemy"
 		},
 		"Roundhouse Kick": {
 			"attribute": "Physical",
@@ -1587,8 +1475,7 @@
 				"fr": "Coup de pied qui inflige des dégâts à tous les ennemis, sans tenir compte de leur défense. Les ennemis à l'extrémité droite du champ de bataille subissent moins de dégâts."
 			},
 			"mp": 8,
-			"target": "All Enemies",
-			"fr": "Coup de pied circulaire"
+			"target": "All Enemies"
 		},
 		"Hatchet Man": {
 			"attribute": "Physical",
@@ -1599,8 +1486,7 @@
 				"fr": "Inflige des dégâts cinglants à un ennemi. L'attaque risque vraiment d'échouer, mais ses chances d'asséner un coup critique augmentent si elle porte."
 			},
 			"mp": 8,
-			"target": "Single Enemy",
-			"fr": "Coupe claire"
+			"target": "Single Enemy"
 		},
 		"Frenzy": {
 			"attribute": "Physical",
@@ -1611,8 +1497,7 @@
 				"fr": "Technique risquée qui inflige un coup critique à un ennemi au hasard."
 			},
 			"mp": 4,
-			"target": "Random Enemy or Ally",
-			"fr": "Frénésie"
+			"target": "Random Enemy or Ally"
 		},
 		"Miracle Slash": {
 			"attribute": "Physical",
@@ -1623,8 +1508,7 @@
 				"fr": "Inflige des dégâts cinglants à un ennemi. L'utilisateur récupère environ la moitié des dégâts infligés sous forme de PV. Peut rendre un maximum de 200 PV."
 			},
 			"mp": 10,
-			"target": "Single Enemy",
-			"fr": "Coup miraculeux"
+			"target": "Single Enemy"
 		},
 		"Attack Attacker": {
 			"attribute": "Physical",
@@ -1636,8 +1520,7 @@
 			},
 			"mp": 4,
 			"target": "Single Enemy",
-			"effect": "Attack Down",
-			"fr": "Attaque-attaque"
+			"effect": "Attack Down"
 		},
 		"Helm Splitter": {
 			"attribute": "Physical",
@@ -1649,8 +1532,7 @@
 			},
 			"mp": 4,
 			"target": "Single Enemy",
-			"effect": "Defence Down",
-			"fr": "Brise-casque"
+			"effect": "Defence Down"
 		},
 		"Confusion Attack": {
 			"attribute": "Physical",
@@ -1664,8 +1546,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"confusion"
-			],
-			"fr": "Attaque confusion"
+			]
 		},
 		"Sleep Attack": {
 			"attribute": "Physical",
@@ -1679,8 +1560,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"sleep"
-			],
-			"fr": "Attaque sommeil"
+			]
 		},
 		"Paralysing Punch": {
 			"attribute": "Physical",
@@ -1694,8 +1574,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"paralysis"
-			],
-			"fr": "Frappe paralysante"
+			]
 		},
 		"Parallax": {
 			"attribute": "Physical",
@@ -1709,8 +1588,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"paralysis"
-			],
-			"fr": "Paralhache"
+			]
 		},
 		"Heart Breaker": {
 			"attribute": "Physical",
@@ -1724,8 +1602,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"rest"
-			],
-			"fr": "Crève-cœur"
+			]
 		},
 		"Poison Attack": {
 			"attribute": "Physical",
@@ -1739,8 +1616,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"poison"
-			],
-			"fr": "Attaque poison"
+			]
 		},
 		"Assassin's Stab": {
 			"attribute": "Physical",
@@ -1754,8 +1630,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"sudden_death"
-			],
-			"fr": "Coup de l'assassin"
+			]
 		},
 		"Victimiser": {
 			"attribute": "Physical",
@@ -1770,8 +1645,7 @@
 			"elements": [
 				"poison",
 				"paralysis"
-			],
-			"fr": "Coupe franche"
+			]
 		},
 		"Multi-Victimiser": {
 			"attribute": "Physical",
@@ -1786,8 +1660,7 @@
 			"elements": [
 				"poison",
 				"paralysis"
-			],
-			"fr": "Multicoupe franche"
+			]
 		},
 		"Persecutter": {
 			"attribute": "Physical",
@@ -1802,8 +1675,7 @@
 			"elements": [
 				"confusion",
 				"sleep"
-			],
-			"fr": "Persécutter"
+			]
 		},
 		"Multi-Persecutter": {
 			"attribute": "Physical",
@@ -1819,8 +1691,7 @@
 			"elements": [
 				"sleep",
 				"confusion"
-			],
-			"fr": "Multipersécutter"
+			]
 		},
 		"Magma Blast": {
 			"attribute": "Technique",
@@ -1834,8 +1705,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"fire"
-			],
-			"fr": "Jet de magma"
+			]
 		},
 		"Tidal Wave": {
 			"attribute": "Technique",
@@ -1849,8 +1719,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"water"
-			],
-			"fr": "Raz-de-marée"
+			]
 		},
 		"Wind Sickles": {
 			"attribute": "Technique",
@@ -1864,8 +1733,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"wind"
-			],
-			"fr": "Vent coupant"
+			]
 		},
 		"Thin Air": {
 			"attribute": "Technique",
@@ -1879,8 +1747,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"wind"
-			],
-			"fr": "Trou d'air"
+			]
 		},
 		"Stone's Throw": {
 			"attribute": "Technique",
@@ -1894,8 +1761,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"earth"
-			],
-			"fr": "Jet de pierres"
+			]
 		},
 		"Stomp": {
 			"attribute": "Technique",
@@ -1909,8 +1775,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"earth"
-			],
-			"fr": "Poids lourd"
+			]
 		},
 		"Boulder Toss": {
 			"attribute": "Technique",
@@ -1924,8 +1789,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"earth"
-			],
-			"fr": "Rock 'n' Roll"
+			]
 		},
 		"Big Banga": {
 			"attribute": "Technique",
@@ -1939,8 +1803,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"explosion"
-			],
-			"fr": "Mégabanga"
+			]
 		},
 		"Lightning": {
 			"attribute": "Technique",
@@ -1954,8 +1817,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"thunder"
-			],
-			"fr": "Éclair"
+			]
 		},
 		"Lightning Storm": {
 			"attribute": "Technique",
@@ -1969,8 +1831,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"thunder"
-			],
-			"fr": "Orage d'éclairs"
+			]
 		},
 		"Starfall": {
 			"attribute": "Technique",
@@ -1984,8 +1845,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"light"
-			],
-			"fr": "Désastre"
+			]
 		},
 		"Bad Hand": {
 			"attribute": "Technique",
@@ -1999,8 +1859,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"darkness"
-			],
-			"fr": "Mauvaise main"
+			]
 		},
 		"Withering Look": {
 			"attribute": "Technique",
@@ -2011,8 +1870,7 @@
 				"fr": "Inflige d'impressionnants dégâts à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts sont importants."
 			},
 			"mp": 36,
-			"target": "All Enemies",
-			"fr": "Regard inquisiteur"
+			"target": "All Enemies"
 		},
 		"Hellish Howl": {
 			"attribute": "Technique",
@@ -2027,8 +1885,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"rest"
-			],
-			"fr": "Hurlulement"
+			]
 		},
 		"Power Surge": {
 			"attribute": "Technique",
@@ -2042,8 +1899,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"thunder"
-			],
-			"fr": "Pic de tension"
+			]
 		},
 		"Hold Fire": {
 			"attribute": "Technique",
@@ -2057,8 +1913,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"fire"
-			],
-			"fr": "Feu sacrificiel"
+			]
 		},
 		"Meditation": {
 			"attribute": "Technique",
@@ -2069,8 +1924,7 @@
 				"fr": "Redonne au moins 300 PV à l'utilisateur."
 			},
 			"mp": 35,
-			"target": "Self",
-			"fr": "Méditation"
+			"target": "Self"
 		},
 		"Right as Rain": {
 			"attribute": "Technique",
@@ -2081,8 +1935,7 @@
 				"fr": "Accomplit un rituel de la pluie qui invoque une ondée curative au coup suivant. Redonne une quantité variable de PV à tous les alliés."
 			},
 			"mp": 40,
-			"target": "All Allies",
-			"fr": "Pluie bénéfique"
+			"target": "All Allies"
 		},
 		"Disruptive Wave": {
 			"attribute": "Technique",
@@ -2093,8 +1946,7 @@
 				"fr": "Supprime la plupart des effets bénéfiques à tous les ennemis."
 			},
 			"mp": 60,
-			"target": "All Enemies",
-			"fr": "Perturbonde"
+			"target": "All Enemies"
 		},
 		"Wave of Relief": {
 			"attribute": "Technique",
@@ -2105,8 +1957,7 @@
 				"fr": "Guérit tous les alliés des altérations d'état qui les frappent."
 			},
 			"mp": 60,
-			"target": "All Allies",
-			"fr": "Vague de soulagement"
+			"target": "All Allies"
 		},
 		"Wave of Panic": {
 			"attribute": "Technique",
@@ -2117,8 +1968,7 @@
 				"fr": "Affaiblit tous les ennemis."
 			},
 			"mp": 60,
-			"target": "All Enemies",
-			"fr": "Vague de panique"
+			"target": "All Enemies"
 		},
 		"Sandstorm": {
 			"attribute": "Technique",
@@ -2130,8 +1980,7 @@
 			},
 			"mp": 2,
 			"target": "All Enemies",
-			"effect": "Accuracy Down",
-			"fr": "Tempête de sable"
+			"effect": "Accuracy Down"
 		},
 		"Dazzleflash": {
 			"attribute": "Technique",
@@ -2146,8 +1995,7 @@
 			"elements": [
 				"bedazzle"
 			],
-			"effect": "Accuracy Down",
-			"fr": "Attaque éblouissante"
+			"effect": "Accuracy Down"
 		},
 		"Gobstopper": {
 			"attribute": "Technique",
@@ -2158,8 +2006,7 @@
 				"fr": "Empêche un ennemi d'ouvrir la bouche et d'utiliser des attaques de souffle pendant 4 à 7 tours."
 			},
 			"mp": 6,
-			"target": "Single Enemy",
-			"fr": "Hygiaphone"
+			"target": "Single Enemy"
 		},
 		"Critical Meltdown": {
 			"attribute": "Technique",
@@ -2170,8 +2017,7 @@
 				"fr": "Empêche un ennemi d'asséner des coups critiques pendant 4 à 7 tours."
 			},
 			"mp": 6,
-			"target": "Single Enemy",
-			"fr": "Critique malvenue"
+			"target": "Single Enemy"
 		},
 		"Brake Wind": {
 			"attribute": "Technique",
@@ -2182,8 +2028,7 @@
 				"fr": "Renvoie les attaques de souffle à l'ennemi. Protège tous les alliés une seule fois."
 			},
 			"mp": 10,
-			"target": "All Allies",
-			"fr": "Vent contraire"
+			"target": "All Allies"
 		},
 		"Mist Me": {
 			"attribute": "Technique",
@@ -2194,8 +2039,7 @@
 				"fr": "Annule tous les dégâts une fois seulement. Ne fonctionne pas sur certaines attaques."
 			},
 			"mp": 10,
-			"target": "Self",
-			"fr": "Brume de bataille"
+			"target": "Self"
 		},
 		"War Cry": {
 			"attribute": "Technique",
@@ -2209,8 +2053,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"rest"
-			],
-			"fr": "Cri de guerre"
+			]
 		},
 		"Tongue Lashing": {
 			"attribute": "Technique",
@@ -2225,8 +2068,7 @@
 			"elements": [
 				"rest"
 			],
-			"effect": "Defence Down",
-			"fr": "Léchouille"
+			"effect": "Defence Down"
 		},
 		"Tongue Bashing": {
 			"attribute": "Technique",
@@ -2241,8 +2083,7 @@
 			"elements": [
 				"rest"
 			],
-			"effect": "Defence Down",
-			"fr": "Coup de langue"
+			"effect": "Defence Down"
 		},
 		"Seethe": {
 			"attribute": "Technique",
@@ -2254,8 +2095,7 @@
 			},
 			"mp": 10,
 			"target": "Self",
-			"effect": "Accuracy Up",
-			"fr": "Bouffée de chaleur"
+			"effect": "Accuracy Up"
 		},
 		"Dodgy Dance": {
 			"attribute": "Technique",
@@ -2267,8 +2107,7 @@
 			},
 			"mp": 1,
 			"target": "Self",
-			"effect": "Evasion Up",
-			"fr": "Danse d'esquive"
+			"effect": "Evasion Up"
 		},
 		"Selflessness": {
 			"attribute": "Technique",
@@ -2279,8 +2118,7 @@
 				"fr": "Encaisse toutes les attaques à la place des alliés pendant 1 round, mais subit des dégâts plus importants en conséquence."
 			},
 			"mp": 5,
-			"target": "Self",
-			"fr": "Altruisme"
+			"target": "Self"
 		},
 		"Fire Breath": {
 			"attribute": "Breath",
@@ -2294,8 +2132,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"fire"
-			],
-			"fr": "Souffle de feu"
+			]
 		},
 		"Flame Breath": {
 			"attribute": "Breath",
@@ -2309,8 +2146,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"fire"
-			],
-			"fr": "Cracheflamme"
+			]
 		},
 		"Inferno": {
 			"attribute": "Breath",
@@ -2324,8 +2160,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"fire"
-			],
-			"fr": "Inferno"
+			]
 		},
 		"Scorch": {
 			"attribute": "Breath",
@@ -2339,8 +2174,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"fire"
-			],
-			"fr": "Brûlure"
+			]
 		},
 		"Hellitosis": {
 			"attribute": "Breath",
@@ -2355,8 +2189,7 @@
 			"elements": [
 				"fire",
 				"rest"
-			],
-			"fr": "Soupir pyrique"
+			]
 		},
 		"Cool Breath": {
 			"attribute": "Breath",
@@ -2370,8 +2203,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"freeze"
-			],
-			"fr": "Souffle frais"
+			]
 		},
 		"Chilly Breath": {
 			"attribute": "Breath",
@@ -2385,8 +2217,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"freeze"
-			],
-			"fr": "Souffle froid"
+			]
 		},
 		"Freezing Blizzard": {
 			"attribute": "Breath",
@@ -2400,8 +2231,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"freeze"
-			],
-			"fr": "Souffle de givre"
+			]
 		},
 		"C-C-Cold Breath": {
 			"attribute": "Breath",
@@ -2415,8 +2245,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"freeze"
-			],
-			"fr": "Souffle gla-glacial"
+			]
 		},
 		"Ice Age": {
 			"attribute": "Breath",
@@ -2431,8 +2260,7 @@
 			"elements": [
 				"freeze",
 				"rest"
-			],
-			"fr": "Âge de glace"
+			]
 		},
 		"Sandy Sigh": {
 			"attribute": "Breath",
@@ -2447,8 +2275,7 @@
 			"elements": [
 				"earth"
 			],
-			"effect": "Accuracy Down",
-			"fr": "Souffle karstique"
+			"effect": "Accuracy Down"
 		},
 		"Blessed Breath": {
 			"attribute": "Breath",
@@ -2463,8 +2290,7 @@
 			"elements": [
 				"light",
 				"confusion"
-			],
-			"fr": "Souffle béni"
+			]
 		},
 		"Black Breath": {
 			"attribute": "Breath",
@@ -2479,8 +2305,7 @@
 			"elements": [
 				"darkness",
 				"seal"
-			],
-			"fr": "Noir soupir"
+			]
 		},
 		"Grim Breath": {
 			"attribute": "Breath",
@@ -2494,8 +2319,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"darkness"
-			],
-			"fr": "Souffle sinistre"
+			]
 		},
 		"Deep Breath": {
 			"attribute": "Breath",
@@ -2506,8 +2330,7 @@
 				"fr": "Prend une très longue et très profonde inspiration qui augmente les dégâts infligés par l'attaque de souffle suivante de l'utilisateur."
 			},
 			"mp": 0,
-			"target": "Self",
-			"fr": "Grande inspiration"
+			"target": "Self"
 		},
 		"Sweet Breath": {
 			"attribute": "Breath",
@@ -2521,8 +2344,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"sleep"
-			],
-			"fr": "Haleine fraîche"
+			]
 		},
 		"Burning Breath": {
 			"attribute": "Breath",
@@ -2536,8 +2358,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"paralysis"
-			],
-			"fr": "Souffle brûlant"
+			]
 		},
 		"Poison Breath": {
 			"attribute": "Breath",
@@ -2551,8 +2372,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"poison"
-			],
-			"fr": "Haleine empoisonnée"
+			]
 		},
 		"Sword Dance": {
 			"attribute": "Dance",
@@ -2563,8 +2383,7 @@
 				"fr": "Danse qui inflige des dégâts à des ennemis au hasard, de 3 à 7 fois en tout."
 			},
 			"mp": 15,
-			"target": "All Enemies",
-			"fr": "Danse de l'épée"
+			"target": "All Enemies"
 		},
 		"Fan Dango": {
 			"attribute": "Dance",
@@ -2575,8 +2394,7 @@
 				"fr": "Danse qui inflige des dégâts à une cible, puis à des ennemis au hasard, de 3 à 4 fois en tout. Plus l'agilité de l'utilisateur est élevée, plus les dégâts sont importants."
 			},
 			"mp": 8,
-			"target": "Random Enemies",
-			"fr": "Danse de l'éventail"
+			"target": "Random Enemies"
 		},
 		"Butterfly Bop": {
 			"attribute": "Dance",
@@ -2587,8 +2405,7 @@
 				"fr": "Danse qui invoque du néant d'innombrables papillons pour attaquer tous les ennemis. Plus l'agilité de l'utilisateur est élevée, plus les dégâts sont importants."
 			},
 			"mp": 15,
-			"target": "All Enemies",
-			"fr": "Danse du papillon"
+			"target": "All Enemies"
 		},
 		"Hotstepper": {
 			"attribute": "Dance",
@@ -2602,8 +2419,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"fire"
-			],
-			"fr": "Tango torride"
+			]
 		},
 		"Electric Boogie": {
 			"attribute": "Dance",
@@ -2617,8 +2433,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"thunder"
-			],
-			"fr": "Ballet électrisant"
+			]
 		},
 		"Hustle Dance": {
 			"attribute": "Dance",
@@ -2629,8 +2444,7 @@
 				"fr": "Danse qui soigne tous les alliés au hasard, de 2 à 6 fois en tous. Plus le niveau de l'utilisateur est élevé, plus les soins prodigués sont importants."
 			},
 			"mp": 40,
-			"target": "Random Allies",
-			"fr": "Danse des soins"
+			"target": "Random Allies"
 		},
 		"Kerplunk Dance": {
 			"attribute": "Dance",
@@ -2642,8 +2456,7 @@
 			},
 			"mp": 100,
 			"mpType": "all-with-min",
-			"target": "All Allies",
-			"fr": "Danse de conjuration"
+			"target": "All Allies"
 		},
 		"Weird Dance": {
 			"attribute": "Dance",
@@ -2654,8 +2467,7 @@
 				"fr": "Danse qui réduit temporairement les PM d'un ennemi."
 			},
 			"mp": 0,
-			"target": "Single Enemy",
-			"fr": "Drôle de danse"
+			"target": "Single Enemy"
 		},
 		"Tap Dance": {
 			"attribute": "Dance",
@@ -2669,8 +2481,7 @@
 			"target": "Single Enemy",
 			"elements": [
 				"drain_mp"
-			],
-			"fr": "Claquettes"
+			]
 		},
 		"Fuddle Dance": {
 			"attribute": "Dance",
@@ -2684,8 +2495,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"confusion"
-			],
-			"fr": "Danse de confusion"
+			]
 		},
 		"Sultry Dance": {
 			"attribute": "Dance",
@@ -2699,8 +2509,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"rest"
-			],
-			"fr": "Danse sensuelle"
+			]
 		},
 		"Death Dance": {
 			"attribute": "Dance",
@@ -2714,8 +2523,7 @@
 			"target": "All Enemies",
 			"elements": [
 				"sudden_death"
-			],
-			"fr": "Danse de la mort"
+			]
 		},
 		"Mirror Moves": {
 			"attribute": "Dance",
@@ -2726,8 +2534,7 @@
 				"fr": "Technique secrète reproduisant fidèlement les pas de danse d'un ennemi, lui renvoyant sa danse. Protège tous les alliés uniquement une fois."
 			},
 			"mp": 32,
-			"target": "All Allies",
-			"fr": "Contredanse"
+			"target": "All Allies"
 		},
 		"Intense Defense": {
 			"attribute": "Other",
@@ -2738,8 +2545,7 @@
 				"fr": "Prend une posture défensive impénétrable qui réduit la plupart des dégâts subis de 90 %. Utilisable uniquement une fois par combat."
 			},
 			"mp": 3,
-			"target": "Self",
-			"fr": "Défense intense"
+			"target": "Self"
 		}
 	},
 	"talents": {

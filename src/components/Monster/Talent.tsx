@@ -6,11 +6,12 @@ import { makeClassName } from '@/functions';
 import { Localised } from '@/types/MonsterDetails';
 
 const Talent = memo(function Talent({ name }: { name: string }) {
-	const { isFr } = useTranslate();
+	const { isFr, translateMove, translateSkill, translateTrait, translateUI } =
+		useTranslate();
 	const { terms, talents } = useContext(DetailsContext);
 	const localised = (entry?: Localised) => (isFr && entry?.fr) || entry?.en;
 	const term = terms.skills[name];
-	const label = localised(term) || name;
+	const label = translateSkill(term?.en || name);
 	const desc = localised(term?.desc);
 	const talent = talents.talents[name];
 
@@ -18,27 +19,32 @@ const Talent = memo(function Talent({ name }: { name: string }) {
 		talent ?
 			<>
 				{!!desc && <p className="talent-desc">{desc}</p>}
-				<ol className="talent-steps">
-					{talent.moves.map(({ move, sp }, i) => {
-						const isTrait = !!talent.traits?.includes(move);
-						const moveName =
-							(isTrait ?
-								localised(terms.traits[move])
-							:	localised(talents.moves[move])) || move;
-						return (
-							<li
-								key={`${sp}-${i}`}
-								className={makeClassName(
-									'd-flex justify-content-between',
-									isTrait && 'talent-trait'
-								)}
-							>
-								<span>{moveName}</span>
-								<span className="talent-sp">lvl {sp}</span>
-							</li>
-						);
-					})}
-				</ol>
+				<table className="talent-steps">
+					<thead>
+						<tr>
+							<th className="pe-1">{translateUI('Skill')}</th>
+							<th className="ps-1">{translateUI('Level')}</th>
+						</tr>
+					</thead>
+					<tbody>
+						{talent.moves.map(({ move, sp }, i) => {
+							const isTrait = !!talent.traits?.includes(move);
+							const moveName =
+								isTrait ?
+									translateTrait(terms.traits[move]?.en || move)
+								:	translateMove(talents.moves[move]?.en || move);
+							return (
+								<tr
+									key={`${sp}-${i}`}
+									className={makeClassName(isTrait && 'talent-trait')}
+								>
+									<td className="talent-move">{moveName}</td>
+									<td className="talent-sp">{sp}</td>
+								</tr>
+							);
+						})}
+					</tbody>
+				</table>
 			</>
 		:	desc;
 
