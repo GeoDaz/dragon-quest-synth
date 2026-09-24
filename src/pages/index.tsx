@@ -17,6 +17,7 @@ import {
 	emptyFarewell,
 	emptyItems,
 	emptySpawns,
+	emptyTalents,
 	emptyTerms,
 } from '@/context/details';
 import { familiesColors, familiesGradients } from '@/consts/colors';
@@ -28,8 +29,10 @@ import {
 	GameFarewell,
 	GameItems,
 	GameSpawns,
+	GameTalents,
 	GameTerms,
 	MonstersDetails,
+	TalentStep,
 } from '@/types/MonsterDetails';
 import useTranslate from '@/hooks/useTranslate';
 import { makeClassName, stringToKey } from '@/functions';
@@ -64,6 +67,7 @@ interface Props {
 	farewell: GameFarewell;
 	items: GameItems;
 	spawns: GameSpawns;
+	talents: GameTalents;
 	game: Game;
 }
 export const gameDetails = (game: string): MonstersDetails => {
@@ -106,6 +110,38 @@ export const gameSpawns = (game: string): GameSpawns => {
 	}
 };
 
+export const gameTalents = (game: string, details: MonstersDetails): GameTalents => {
+	try {
+		const data = require(`../json/${game}Moves.json`);
+		const used = new Set<string>();
+		Object.values(details).forEach(monster => {
+			if (monster.skill) used.add(monster.skill);
+			monster.randomSkills?.forEach(skill => used.add(skill));
+		});
+		const talents: GameTalents['talents'] = {};
+		const moves: GameTalents['moves'] = {};
+		used.forEach(name => {
+			const talent = data.talents?.[name];
+			if (!talent?.moves?.length) return;
+			talents[name] = {
+				moves: talent.moves.map(({ move, sp }: TalentStep) => ({ move, sp })),
+				...(talent.traits?.length ? { traits: talent.traits } : {}),
+			};
+			talent.moves.forEach(({ move }: TalentStep) => {
+				const entry = data.moves?.[move];
+				if (!entry?.en && !entry?.fr) return;
+				moves[move] = {
+					...(entry.en ? { en: entry.en } : {}),
+					...(entry.fr ? { fr: entry.fr } : {}),
+				};
+			});
+		});
+		return { talents, moves };
+	} catch (e) {
+		return emptyTalents;
+	}
+};
+
 const PageLines: React.FC<Props> = props => {
 	const {
 		images,
@@ -115,6 +151,7 @@ const PageLines: React.FC<Props> = props => {
 		farewell = emptyFarewell,
 		items = emptyItems,
 		spawns = emptySpawns,
+		talents = emptyTalents,
 	} = props;
 	const [families, setFamilies] = useState<Families>(props.families);
 	const { hash, nav } = useHash();
@@ -142,8 +179,8 @@ const PageLines: React.FC<Props> = props => {
 	const hasDetails = !!Object.keys(details).length;
 	const hasSpawns = !!Object.keys(spawns).length;
 	const detailsValue = useMemo(
-		() => ({ details, terms, farewell, items, spawns, hasDetails, hasSpawns }),
-		[details, terms, farewell, items, spawns, hasDetails, hasSpawns]
+		() => ({ details, terms, farewell, items, spawns, talents, hasDetails, hasSpawns }),
+		[details, terms, farewell, items, spawns, talents, hasDetails, hasSpawns]
 	);
 
 	// Flat, ordered view of the current families after family/rank filters, plus
@@ -585,8 +622,19 @@ export const getStaticProps: GetStaticProps = async () => {
 		const farewell = gameFarewell(defaultGame);
 		const items = gameItems(defaultGame);
 		const spawns = gameSpawns(defaultGame);
+		const talents = gameTalents(defaultGame, details);
 		return {
-			props: { families, images, details, terms, farewell, items, spawns, game },
+			props: {
+				families,
+				images,
+				details,
+				terms,
+				farewell,
+				items,
+				spawns,
+				talents,
+				game,
+			},
 		};
 	} catch (e) {
 		console.error(e);

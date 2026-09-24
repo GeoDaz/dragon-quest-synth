@@ -5,11 +5,12 @@ import { makeClassName } from '@/functions';
 const bodyContainer = () => document.body;
 
 interface Props {
-	text?: string;
+	text?: React.ReactNode;
 	className?: string;
+	popoverClassName?: string;
 	children: React.ReactNode;
 }
-const Described: React.FC<Props> = ({ text, className, children }) => {
+const Described: React.FC<Props> = ({ text, className, popoverClassName, children }) => {
 	if (!text) {
 		return <span className={className}>{children}</span>;
 	}
@@ -18,7 +19,7 @@ const Described: React.FC<Props> = ({ text, className, children }) => {
 			placement="bottom"
 			container={bodyContainer}
 			overlay={
-				<Popover className="described-popover">
+				<Popover className={makeClassName('described-popover', popoverClassName)}>
 					<Popover.Body>{text}</Popover.Body>
 				</Popover>
 			}

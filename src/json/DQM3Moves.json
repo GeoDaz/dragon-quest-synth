@@ -5,1556 +5,1813 @@
 			"type": "Attack",
 			"power": 2,
 			"desc": {
-				"en": "Inflicts minor fire-elemental spell damage on a single enemy."
+				"en": "Inflicts minor fire-elemental spell damage on a single enemy.",
+				"fr": "Inflige de légers dégâts de sort de feu à un ennemi."
 			},
 			"mp": 2,
 			"target": "Single Enemy",
 			"elements": [
 				"fire"
-			]
+			],
+			"fr": "Flamme"
 		},
 		"Frizzle": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 5,
 			"desc": {
-				"en": "Inflicts medium fire-elemental spell damage on a single enemy."
+				"en": "Inflicts medium fire-elemental spell damage on a single enemy.",
+				"fr": "Inflige des dégâts de sort de feu à un ennemi."
 			},
 			"mp": 5,
 			"target": "Single Enemy",
 			"elements": [
 				"fire"
-			]
+			],
+			"fr": "Superflamme"
 		},
 		"Kafrizz": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 12,
 			"desc": {
-				"en": "Inflicts major fire-elemental spell damage on a single enemy."
+				"en": "Inflicts major fire-elemental spell damage on a single enemy.",
+				"fr": "Inflige d'importants dégâts de sort de feu à un ennemi."
 			},
 			"mp": 12,
 			"target": "Single Enemy",
 			"elements": [
 				"fire"
-			]
+			],
+			"fr": "Mégaflamme"
 		},
 		"Kafrizzle": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 32,
 			"desc": {
-				"en": "Inflicts extreme fire-elemental spell damage on a single enemy."
+				"en": "Inflicts extreme fire-elemental spell damage on a single enemy.",
+				"fr": "Inflige d'impressionnants dégâts de sort de feu à un ennemi."
 			},
 			"mp": 32,
 			"target": "Single Enemy",
 			"elements": [
 				"fire"
-			]
+			],
+			"fr": "Gigaflamme"
 		},
 		"Splish": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 2,
 			"desc": {
-				"en": "Inflicts minor water-elemental spell damage on a single enemy."
+				"en": "Inflicts minor water-elemental spell damage on a single enemy.",
+				"fr": "Inflige de légers dégâts de sort d'eau à un ennemi."
 			},
 			"mp": 2,
 			"target": "Single Enemy",
 			"elements": [
 				"water"
-			]
+			],
+			"fr": "Plouf"
 		},
 		"Splash": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 5,
 			"desc": {
-				"en": "Inflicts medium water-elemental spell damage on a single enemy."
+				"en": "Inflicts medium water-elemental spell damage on a single enemy.",
+				"fr": "Inflige des dégâts de sort d'eau à un ennemi."
 			},
 			"mp": 5,
 			"target": "Single Enemy",
 			"elements": [
 				"water"
-			]
+			],
+			"fr": "Superplouf"
 		},
 		"Kasplash": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 11,
 			"desc": {
-				"en": "Inflicts major water-elemental spell damage on a single enemy."
+				"en": "Inflicts major water-elemental spell damage on a single enemy.",
+				"fr": "Inflige d'importants dégâts de sort d'eau à un ennemi."
 			},
 			"mp": 11,
 			"target": "Single Enemy",
 			"elements": [
 				"water"
-			]
+			],
+			"fr": "Mégaplouf"
 		},
 		"Kasplashle": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 29,
 			"desc": {
-				"en": "Inflicts extreme water-elemental spell damage on a single enemy."
+				"en": "Inflicts extreme water-elemental spell damage on a single enemy.",
+				"fr": "Inflige d'impressionnants dégâts de sort d'eau à un ennemi."
 			},
 			"mp": 29,
 			"target": "Single Enemy",
 			"elements": [
 				"water"
-			]
+			],
+			"fr": "Gigaplouf"
 		},
 		"Woosh": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 4,
 			"desc": {
-				"en": "Inflicts minor wind-elemental spell damage on all enemies."
+				"en": "Inflicts minor wind-elemental spell damage on all enemies.",
+				"fr": "Inflige de légers dégâts de sort de vent à tous les ennemis."
 			},
 			"mp": 4,
 			"target": "All Enemies",
 			"elements": [
 				"wind"
-			]
+			],
+			"fr": "Tornade"
 		},
 		"Swoosh": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 11,
 			"desc": {
-				"en": "Inflicts medium wind-elemental spell damage on all enemies."
+				"en": "Inflicts medium wind-elemental spell damage on all enemies.",
+				"fr": "Inflige des dégâts de sort de vent à tous les ennemis."
 			},
 			"mp": 11,
 			"target": "All Enemies",
 			"elements": [
 				"wind"
-			]
+			],
+			"fr": "Supertornade"
 		},
 		"Kaswoosh": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 22,
 			"desc": {
-				"en": "Inflicts major wind-elemental spell damage on all enemies."
+				"en": "Inflicts major wind-elemental spell damage on all enemies.",
+				"fr": "Inflige d'importants dégâts de sort de vent à tous les ennemis."
 			},
 			"mp": 22,
 			"target": "All Enemies",
 			"elements": [
 				"wind"
-			]
+			],
+			"fr": "Mégatornade"
 		},
 		"Kaswooshle": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 54,
 			"desc": {
-				"en": "Inflicts extreme wind-elemental spell damage on all enemies."
+				"en": "Inflicts extreme wind-elemental spell damage on all enemies.",
+				"fr": "Inflige d'impressionnants dégâts de sort de vent à tous les ennemis."
 			},
 			"mp": 54,
 			"target": "All Enemies",
 			"elements": [
 				"wind"
-			]
+			],
+			"fr": "Gigatornade"
 		},
 		"Crag": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 5,
 			"desc": {
-				"en": "Inflicts minor earth-elemental spell damage on all enemies, but not until the following round."
+				"en": "Inflicts minor earth-elemental spell damage on all enemies, but not until the following round.",
+				"fr": "Inflige de légers dégâts de sort de terre à tous les ennemis, mais pas avant le round suivant."
 			},
 			"mp": 5,
 			"target": "All Enemies",
 			"elements": [
 				"earth"
-			]
+			],
+			"fr": "Séisme"
 		},
 		"Craggle": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 12,
 			"desc": {
-				"en": "Inflicts medium earth-elemental spell damage on all enemies, but not until the following round."
+				"en": "Inflicts medium earth-elemental spell damage on all enemies, but not until the following round.",
+				"fr": "Inflige des dégâts de sort de terre à tous les ennemis, mais pas avant le round suivant."
 			},
 			"mp": 12,
 			"target": "All Enemies",
 			"elements": [
 				"earth"
-			]
+			],
+			"fr": "Superséisme"
 		},
 		"Kacrag": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 23,
 			"desc": {
-				"en": "Inflicts major earth-elemental spell damange on all enemies, but not until the following round."
+				"en": "Inflicts major earth-elemental spell damange on all enemies, but not until the following round.",
+				"fr": "Inflige d'importants dégâts de sort de terre à tous les ennemis, mais pas avant le round suivant."
 			},
 			"mp": 23,
 			"target": "All Enemies",
 			"elements": [
 				"earth"
-			]
+			],
+			"fr": "Mégaséisme"
 		},
 		"Kacraggle": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 58,
 			"desc": {
-				"en": "Inflicts extreme earth-elemental spell damange on all enemies, but not until the following round."
+				"en": "Inflicts extreme earth-elemental spell damange on all enemies, but not until the following round.",
+				"fr": "Inflige d'impressionnants dégâts de sort de terre à tous les ennemis, mais pas avant le round suivant."
 			},
 			"mp": 58,
 			"target": "All Enemies",
 			"elements": [
 				"earth"
-			]
+			],
+			"fr": "Gigaséisme"
 		},
 		"Bang": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 5,
 			"desc": {
-				"en": "Inflicts minor explosive spell damage on all enemies."
+				"en": "Inflicts minor explosive spell damage on all enemies.",
+				"fr": "Inflige de légers dégâts de sort d'explosion à tous les ennemis."
 			},
 			"mp": 5,
 			"target": "All Enemies",
 			"elements": [
 				"explosion"
-			]
+			],
+			"fr": "Bang"
 		},
 		"Boom": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 12,
 			"desc": {
-				"en": "Inflicts medium explosive spell damage on all enemies."
+				"en": "Inflicts medium explosive spell damage on all enemies.",
+				"fr": "Inflige des dégâts de sort d'explosion à tous les ennemis."
 			},
 			"mp": 12,
 			"target": "All Enemies",
 			"elements": [
 				"explosion"
-			]
+			],
+			"fr": "Superbang"
 		},
 		"Kaboom": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 24,
 			"desc": {
-				"en": "Inflicts major explosive spell damage on all enemies."
+				"en": "Inflicts major explosive spell damage on all enemies.",
+				"fr": "Inflige d'importants dégâts de sort d'explosion à tous les ennemis."
 			},
 			"mp": 24,
 			"target": "All Enemies",
 			"elements": [
 				"explosion"
-			]
+			],
+			"fr": "Mégabang"
 		},
 		"Kaboomle": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 60,
 			"desc": {
-				"en": "Inflicts extreme explosive spell damage on all enemies."
+				"en": "Inflicts extreme explosive spell damage on all enemies.",
+				"fr": "Inflige d'impressionnants dégâts de sort d'explosion à tous les ennemis."
 			},
 			"mp": 60,
 			"target": "All Enemies",
 			"elements": [
 				"explosion"
-			]
+			],
+			"fr": "Gigabang"
 		},
 		"Crack": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 3,
 			"desc": {
-				"en": "Inflicts minor ice-elemental spell damage on a single enemy."
+				"en": "Inflicts minor ice-elemental spell damage on a single enemy.",
+				"fr": "Inflige de légers dégâts de sort de glace à un ennemi."
 			},
 			"mp": 3,
 			"target": "Single Enemy",
 			"elements": [
 				"freeze"
-			]
+			],
+			"fr": "Glace"
 		},
 		"Crackle": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 12,
 			"desc": {
-				"en": "Inflicts medium ice-elemental spell damage on all enemies."
+				"en": "Inflicts medium ice-elemental spell damage on all enemies.",
+				"fr": "Inflige des dégâts de sort de glace à tous les ennemis."
 			},
 			"mp": 12,
 			"target": "All Enemies",
 			"elements": [
 				"freeze"
-			]
+			],
+			"fr": "Superglace"
 		},
 		"Kacrack": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 22,
 			"desc": {
-				"en": "Inflicts major ice-elemental spell damage on all enemies."
+				"en": "Inflicts major ice-elemental spell damage on all enemies.",
+				"fr": "Inflige d'importants dégâts de sort de glace à tous les ennemis."
 			},
 			"mp": 22,
 			"target": "All Enemies",
 			"elements": [
 				"freeze"
-			]
+			],
+			"fr": "Mégaglace"
 		},
 		"Kacrackle": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 58,
 			"desc": {
-				"en": "Inflicts extreme ice-elemental spell damage on all enemies."
+				"en": "Inflicts extreme ice-elemental spell damage on all enemies.",
+				"fr": "Inflige d'impressionnants dégâts de sort de glace à tous les ennemis."
 			},
 			"mp": 58,
 			"target": "All Enemies",
 			"elements": [
 				"freeze"
-			]
+			],
+			"fr": "Gigaglace"
 		},
 		"Zap": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 2,
 			"desc": {
-				"en": "Inflicts minor electrical spell damage on a single enemy."
+				"en": "Inflicts minor electrical spell damage on a single enemy.",
+				"fr": "Inflige de légers dégâts de sort de foudre à un ennemi."
 			},
 			"mp": 2,
 			"target": "Single Enemy",
 			"elements": [
 				"thunder"
-			]
+			],
+			"fr": "Foudre"
 		},
 		"Zapple": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 13,
 			"desc": {
-				"en": "Inflicts medium electrical spell damage on all enemies."
+				"en": "Inflicts medium electrical spell damage on all enemies.",
+				"fr": "Inflige des dégâts de sort de foudre à tous les ennemis."
 			},
 			"mp": 13,
 			"target": "All Enemies",
 			"elements": [
 				"thunder"
-			]
+			],
+			"fr": "Superfoudre"
 		},
 		"Kazap": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 23,
 			"desc": {
-				"en": "Inflicts major electrical damage on all enemies."
+				"en": "Inflicts major electrical damage on all enemies.",
+				"fr": "Inflige d'importants dégâts de sort de foudre à tous les ennemis."
 			},
 			"mp": 23,
 			"target": "All Enemies",
 			"elements": [
 				"thunder"
-			]
+			],
+			"fr": "Mégafoudre"
 		},
 		"Kazapple": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 61,
 			"desc": {
-				"en": "Inflicts extreme electrical spell damage on all enemies."
+				"en": "Inflicts extreme electrical spell damage on all enemies.",
+				"fr": "Inflige d'impressionnants dégâts de sort de foudre à tous les ennemis."
 			},
 			"mp": 61,
 			"target": "All Enemies",
 			"elements": [
 				"thunder"
-			]
+			],
+			"fr": "Gigafoudre"
 		},
 		"Sizz": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 4,
 			"desc": {
-				"en": "Inflicts minor light-elemental spell damage on all enemies."
+				"en": "Inflicts minor light-elemental spell damage on all enemies.",
+				"fr": "Inflige de légers dégâts de sort de lumière à tous les ennemis."
 			},
 			"mp": 4,
 			"target": "All Enemies",
 			"elements": [
 				"light"
-			]
+			],
+			"fr": "Crame"
 		},
 		"Sizzle": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 11,
 			"desc": {
-				"en": "Inflicts medium light-elemental spell damage on all enemies."
+				"en": "Inflicts medium light-elemental spell damage on all enemies.",
+				"fr": "Inflige des dégâts de sort de lumière à tous les ennemis."
 			},
 			"mp": 11,
 			"target": "All Enemies",
 			"elements": [
 				"light"
-			]
+			],
+			"fr": "Supercrame"
 		},
 		"Kasizz": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 22,
 			"desc": {
-				"en": "Inflicts major light-elemental spell damage on all enemies."
+				"en": "Inflicts major light-elemental spell damage on all enemies.",
+				"fr": "Inflige d'importants dégâts de sort de lumière à tous les ennemis."
 			},
 			"mp": 22,
 			"target": "All Enemies",
 			"elements": [
 				"light"
-			]
+			],
+			"fr": "Mégacrame"
 		},
 		"Kasizzle": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 54,
 			"desc": {
-				"en": "Inflicts extreme light-elemental spell damage on all enemies."
+				"en": "Inflicts extreme light-elemental spell damage on all enemies.",
+				"fr": "Inflige d'impressionnants dégâts de sort de lumière à tous les ennemis."
 			},
 			"mp": 54,
 			"target": "All Enemies",
 			"elements": [
 				"light"
-			]
+			],
+			"fr": "Gigacrame"
 		},
 		"Zam": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 3,
 			"desc": {
-				"en": "Inflicts minor dark-elemental spell damage on a single enemy."
+				"en": "Inflicts minor dark-elemental spell damage on a single enemy.",
+				"fr": "Inflige de légers dégâts de sort de ténèbres à un ennemi."
 			},
 			"mp": 3,
 			"target": "Single Enemy",
 			"elements": [
 				"darkness"
-			]
+			],
+			"fr": "Élec"
 		},
 		"Zammle": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 6,
 			"desc": {
-				"en": "Inflicts medium dark-elemental spell damage on a single enemy."
+				"en": "Inflicts medium dark-elemental spell damage on a single enemy.",
+				"fr": "Inflige des dégâts de sort de ténèbres à un ennemi."
 			},
 			"mp": 6,
 			"target": "Single Enemy",
 			"elements": [
 				"darkness"
-			]
+			],
+			"fr": "Superélec"
 		},
 		"Kazam": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 10,
 			"desc": {
-				"en": "Inflicts major dark-elemental spell damage on a single enemy."
+				"en": "Inflicts major dark-elemental spell damage on a single enemy.",
+				"fr": "Inflige d'importants dégâts de sort de ténèbres à un ennemi."
 			},
 			"mp": 10,
 			"target": "Single Enemy",
 			"elements": [
 				"darkness"
-			]
+			],
+			"fr": "Mégaélec"
 		},
 		"Kazammle": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 30,
 			"desc": {
-				"en": "Inflicts extreme dark-elemental spell damage on a single enemy."
+				"en": "Inflicts extreme dark-elemental spell damage on a single enemy.",
+				"fr": "Inflige d'impressionnants dégâts de sort de ténèbres à un ennemi."
 			},
 			"mp": 30,
 			"target": "Single Enemy",
 			"elements": [
 				"darkness"
-			]
+			],
+			"fr": "Gigaélec"
 		},
 		"Pearly Gates": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": 60,
 			"desc": {
-				"en": "Inflicts extreme light-elemental spell damage on all enemies. Highly effecetive against monsters in the undead family."
+				"en": "Inflicts extreme light-elemental spell damage on all enemies. Highly effecetive against monsters in the undead family.",
+				"fr": "Inflige d'impressionnants dégâts de lumière à tous les ennemis. Particulièrement efficace contre les monstres de la famille des morts-vivants."
 			},
 			"mp": 60,
 			"target": "All Enemies",
 			"elements": [
 				"light"
-			]
+			],
+			"fr": "Porte de nacre"
 		},
 		"Magic Pop": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": null,
 			"desc": {
-				"en": "Uses 1/4 of remaining MP to inflict light-elemental damage on a single enemy, for a weaker rendition of a more extreme spell. The more MP the monster has at the time of casting, the greater the damage will be."
+				"en": "Uses 1/4 of remaining MP to inflict light-elemental damage on a single enemy, for a weaker rendition of a more extreme spell. The more MP the monster has at the time of casting, the greater the damage will be.",
+				"fr": "Utilise un quart des PM restants pour infliger des dégâts de lumière à un ennemi, dans une version plus faible d'un sort extrême. Plus le monstre dispose de PM au moment du lancer, plus les dégâts sont importants."
 			},
 			"mp": 25,
 			"mpType": "percentage",
 			"target": "Single Enemy",
 			"elements": [
 				"light"
-			]
+			],
+			"fr": "Détonation magique"
 		},
 		"Magic Burst": {
 			"attribute": "Spell",
 			"type": "Attack",
 			"power": null,
 			"desc": {
-				"en": "Uses all remaining MP to inflict extreme light-elemental damage on all enemies. The more MP the monster has at the time of casting, the greater the damage will be."
+				"en": "Uses all remaining MP to inflict extreme light-elemental damage on all enemies. The more MP the monster has at the time of casting, the greater the damage will be.",
+				"fr": "Utilise tous les PM restants pour infliger des dégâts de lumière extrêmes à tous les ennemis. Plus le monstre dispose de PM au moment du lancer, plus les dégâts sont importants."
 			},
 			"mp": 100,
 			"mpType": "percentage",
 			"target": "All Enemies",
 			"elements": [
 				"light"
-			]
+			],
+			"fr": "Explosion magique"
 		},
 		"Heal": {
 			"attribute": "Spell",
 			"type": "Heal",
 			"power": 3,
 			"desc": {
-				"en": "Restores 28 or more HP to a single ally."
+				"en": "Restores 28 or more HP to a single ally.",
+				"fr": "Redonne au moins 28 PV à un allié."
 			},
 			"mp": 3,
-			"target": "Single Ally"
+			"target": "Single Ally",
+			"fr": "Premiers secours"
 		},
 		"Midheal": {
 			"attribute": "Spell",
 			"type": "Heal",
 			"power": 8,
 			"desc": {
-				"en": "Restores 76 or more HP to a single ally."
+				"en": "Restores 76 or more HP to a single ally.",
+				"fr": "Redonne au moins 76 PV à un allié."
 			},
 			"mp": 8,
-			"target": "Single Ally"
+			"target": "Single Ally",
+			"fr": "Soins partiels"
 		},
 		"Moreheal": {
 			"attribute": "Spell",
 			"type": "Heal",
 			"power": 40,
 			"desc": {
-				"en": "Restores 285 or more HP to a single ally."
+				"en": "Restores 285 or more HP to a single ally.",
+				"fr": "Redonne au moins 285 PV à un allié."
 			},
 			"mp": 40,
-			"target": "Single Ally"
+			"target": "Single Ally",
+			"fr": "Soins avancés"
 		},
 		"Multiheal": {
 			"attribute": "Spell",
 			"type": "Heal",
 			"power": 26,
 			"desc": {
-				"en": "Restores 76 or more HP to all allies."
+				"en": "Restores 76 or more HP to all allies.",
+				"fr": "Redonne au moins 76 PV à tous les alliés."
 			},
 			"mp": 26,
-			"target": "All Allies"
+			"target": "All Allies",
+			"fr": "Multisoin"
 		},
 		"Omniheal": {
 			"attribute": "Spell",
 			"type": "Heal",
 			"power": 80,
 			"desc": {
-				"en": "Restores 237 or more HP to all allies."
+				"en": "Restores 237 or more HP to all allies.",
+				"fr": "Redonne au moins 237 PV à tous les alliés."
 			},
 			"mp": 80,
-			"target": "All Allies"
+			"target": "All Allies",
+			"fr": "Omnisoin"
 		},
 		"Zing": {
 			"attribute": "Spell",
 			"type": "Revive",
 			"power": 8,
 			"desc": {
-				"en": "Resurrects a fallen ally. Has a chance of failure."
+				"en": "Resurrects a fallen ally. Has a chance of failure.",
+				"fr": "Ressuscite un allié tombé au combat, sans garantie de réussite."
 			},
 			"mp": 8,
-			"target": "Single Ally"
+			"target": "Single Ally",
+			"fr": "Rappel"
 		},
 		"Kazing": {
 			"attribute": "Spell",
 			"type": "Revive",
 			"power": 80,
 			"desc": {
-				"en": "Is guaranteed to resurrect a fallen ally."
+				"en": "Is guaranteed to resurrect a fallen ally.",
+				"fr": "Ressuscite à coup sûr un allié tombé au combat."
 			},
 			"mp": 80,
-			"target": "Single Ally"
+			"target": "Single Ally",
+			"fr": "Résurrection"
 		},
 		"Kerplunk": {
 			"attribute": "Spell",
 			"type": "Revive",
 			"power": 100,
 			"desc": {
-				"en": "Heals or resurrects all allies, including reserves, but at the cost of the caster's life. The caster cannot be resurrected in the same battle."
+				"en": "Heals or resurrects all allies, including reserves, but at the cost of the caster's life. The caster cannot be resurrected in the same battle.",
+				"fr": "Soigne ou ressuscite tous les alliés, y compris ceux en réserve, mais coûte la vie à son utilisateur. Ce dernier ne peut pas être ressuscité lors de ce combat."
 			},
 			"mp": 100,
 			"mpType": "all-with-min",
-			"target": "All Allies"
+			"target": "All Allies",
+			"fr": "Conjuration"
 		},
 		"Squelch": {
 			"attribute": "Spell",
 			"type": "Status Recovery",
 			"power": 2,
 			"desc": {
-				"en": "Cures all allies of poison or severe poison."
+				"en": "Cures all allies of poison or severe poison.",
+				"fr": "Soigne l'empoisonnement et l'empoisonnement sévère chez tous les alliés."
 			},
 			"mp": 2,
 			"target": "All Allies",
 			"elements": [
 				"poison"
-			]
+			],
+			"fr": "Désaltération"
 		},
 		"Tingle": {
 			"attribute": "Spell",
 			"type": "Status Recovery",
 			"power": 2,
 			"desc": {
-				"en": "Cures all allies of paralysis."
+				"en": "Cures all allies of paralysis.",
+				"fr": "Soigne la paralysie chez tous les alliés."
 			},
 			"mp": 2,
 			"target": "All Allies",
 			"elements": [
 				"paralysis"
-			]
+			],
+			"fr": "Stimulation"
 		},
 		"Defuddle": {
 			"attribute": "Spell",
 			"type": "Status Recovery",
 			"power": 2,
 			"desc": {
-				"en": "Cures all allies of confusion."
+				"en": "Cures all allies of confusion.",
+				"fr": "Soigne la confusion chez tous les alliés."
 			},
 			"mp": 2,
 			"target": "All Allies",
 			"elements": [
 				"confusion"
-			]
+			],
+			"fr": "Déconfuz"
 		},
 		"Cock-a-Doodle-Doo": {
 			"attribute": "Spell",
 			"type": "Status Recovery",
 			"power": 2,
 			"desc": {
-				"en": "Cures all allies of sleep."
+				"en": "Cures all allies of sleep.",
+				"fr": "Soigne le sommeil chez tous les alliés."
 			},
 			"mp": 2,
 			"target": "All Allies",
 			"elements": [
 				"sleep"
-			]
+			],
+			"fr": "Cocorico"
 		},
 		"Oomph": {
 			"attribute": "Spell",
 			"type": "Support",
 			"power": 6,
 			"desc": {
-				"en": "Greatly increases the attack of a single ally for 2 to 5 turns."
+				"en": "Greatly increases the attack of a single ally for 2 to 5 turns.",
+				"fr": "Augmente beaucoup l'attaque d'un allié pendant 2 à 5 tours."
 			},
 			"mp": 6,
 			"target": "Single Ally",
-			"effect": "Attack Up"
+			"effect": "Attack Up",
+			"fr": "Décuplo"
 		},
 		"Oomphle": {
 			"attribute": "Spell",
 			"type": "Support",
 			"power": 10,
 			"desc": {
-				"en": "Increases the attack of all allies for 2 to 5 turns."
+				"en": "Increases the attack of all allies for 2 to 5 turns.",
+				"fr": "Augmente l'attaque de tous les alliés pendant 2 à 5 tours."
 			},
 			"mp": 10,
 			"target": "All Allies",
-			"effect": "Attack Up"
+			"effect": "Attack Up",
+			"fr": "Superdécuplo"
 		},
 		"Blunt": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 6,
 			"desc": {
-				"en": "Greatly decreases the attack of a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Greatly decreases the attack of a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Réduit beaucoup l'attaque d'un ennemi pendant 2 à 5 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 6,
 			"target": "Single Enemy",
-			"effect": "Attack Down"
+			"effect": "Attack Down",
+			"fr": "Ramollo"
 		},
 		"Kablunt": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 10,
 			"desc": {
-				"en": "Decreases the attack of all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Decreases the attack of all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Réduit l'attaque de tous les ennemis pendant 2 à 5 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 10,
 			"target": "All Enemies",
-			"effect": "Attack Down"
+			"effect": "Attack Down",
+			"fr": "Mégaramollo"
 		},
 		"Buff": {
 			"attribute": "Spell",
 			"type": "Support",
 			"power": 3,
 			"desc": {
-				"en": "Greatly increases the defence of a single ally for 4 to 7 turns."
+				"en": "Greatly increases the defence of a single ally for 4 to 7 turns.",
+				"fr": "Augmente beaucoup la défense d'un allié pendant 4 à 7 tours."
 			},
 			"mp": 3,
 			"target": "Single Ally",
-			"effect": "Defence Up"
+			"effect": "Defence Up",
+			"fr": "Protection"
 		},
 		"Kabuff": {
 			"attribute": "Spell",
 			"type": "Support",
 			"power": 4,
 			"desc": {
-				"en": "Increases the defence of all allies for 4 to 7 turns."
+				"en": "Increases the defence of all allies for 4 to 7 turns.",
+				"fr": "Augmente la défense de tous les alliés pendant 4 à 7 tours."
 			},
 			"mp": 4,
 			"target": "All Allies",
-			"effect": "Defence Up"
+			"effect": "Defence Up",
+			"fr": "Mégaprotection"
 		},
 		"Sap": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 3,
 			"desc": {
-				"en": "Greatly decreases the defence of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Greatly decreases the defence of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Réduit beaucoup la défense d'un ennemi pendant 4 à 7 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 3,
 			"target": "Single Enemy",
-			"effect": "Defence Down"
+			"effect": "Defence Down",
+			"fr": "Altération"
 		},
 		"Kasap": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 4,
 			"desc": {
-				"en": "Decreases the defence of all enemie for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Decreases the defence of all enemie for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Réduit la défense de tous les ennemis pendant 4 à 7 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 4,
 			"target": "All Enemies",
-			"effect": "Defence Down"
+			"effect": "Defence Down",
+			"fr": "Mégaltération"
 		},
 		"Accelerate": {
 			"attribute": "Spell",
 			"type": "Support",
 			"power": 3,
 			"desc": {
-				"en": "Greatly increases the agility of a single ally for 4 to 7 turns."
+				"en": "Greatly increases the agility of a single ally for 4 to 7 turns.",
+				"fr": "Augmente beaucoup l'agilité d'un allié pendant 4 à 7 tours."
 			},
 			"mp": 3,
 			"target": "Single Ally",
-			"effect": "Agility Up"
+			"effect": "Agility Up",
+			"fr": "Accéléro"
 		},
 		"Acceleratle": {
 			"attribute": "Spell",
 			"type": "Support",
 			"power": 4,
 			"desc": {
-				"en": "Increases the agility of all allies for 4 to 7 turns."
+				"en": "Increases the agility of all allies for 4 to 7 turns.",
+				"fr": "Augmente l'agilité de tous les alliés pendant 4 à 7 tours."
 			},
 			"mp": 4,
 			"target": "All Allies",
-			"effect": "Agility Up"
+			"effect": "Agility Up",
+			"fr": "Superaccéléro"
 		},
 		"Decelerate": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 3,
 			"desc": {
-				"en": "Greatly decreases the agility of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Greatly decreases the agility of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Réduit beaucoup l'agilité d'un ennemi pendant 4 à 7 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 3,
 			"target": "Single Enemy",
-			"effect": "Agility Down"
+			"effect": "Agility Down",
+			"fr": "Décéléro"
 		},
 		"Deceleratle": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 4,
 			"desc": {
-				"en": "Decreases the agility of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Decreases the agility of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Réduit l'agilité de tous les ennemis pendant 4 à 7 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 4,
 			"target": "All Enemies",
-			"effect": "Agility Down"
+			"effect": "Agility Down",
+			"fr": "Superdécéléro"
 		},
 		"Ping": {
 			"attribute": "Spell",
 			"type": "Support",
 			"power": 3,
 			"desc": {
-				"en": "Greatly increases the wisdom of a single ally for 4 to 7 turns."
+				"en": "Greatly increases the wisdom of a single ally for 4 to 7 turns.",
+				"fr": "Augmente beaucoup la sagesse d'un allié pendant 4 à 7 tours."
 			},
 			"mp": 3,
 			"target": "Single Ally",
-			"effect": "Wisdom Up"
+			"effect": "Wisdom Up",
+			"fr": "Tilt"
 		},
 		"Kaping": {
 			"attribute": "Spell",
 			"type": "Support",
 			"power": 4,
 			"desc": {
-				"en": "Increases the wisdom of all allies for 4 to 7 turns."
+				"en": "Increases the wisdom of all allies for 4 to 7 turns.",
+				"fr": "Augmente la sagesse de tous les alliés pendant 4 à 7 tours."
 			},
 			"mp": 4,
 			"target": "All Allies",
-			"effect": "Wisdom Up"
+			"effect": "Wisdom Up",
+			"fr": "Supertilt"
 		},
 		"Dim": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 3,
 			"desc": {
-				"en": "Greatly decreases the wisdom of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Greatly decreases the wisdom of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Réduit beaucoup la sagesse d'un ennemi pendant 4 à 7 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 3,
 			"target": "Single Enemy",
-			"effect": "Wisdom Down"
+			"effect": "Wisdom Down",
+			"fr": "Simplet"
 		},
 		"Kadim": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 4,
 			"desc": {
-				"en": "Decreases the wisdom of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Decreases the wisdom of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Réduit la sagesse de tous les ennemis pendant 4 à 7 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 4,
 			"target": "All Enemies",
-			"effect": "Wisdom Down"
+			"effect": "Wisdom Down",
+			"fr": "Supersimplet"
 		},
 		"Insulate": {
 			"attribute": "Spell",
 			"type": "Support",
 			"power": 4,
 			"desc": {
-				"en": "Greatly reduces the damage received from breath attacks by a single ally for 4 to 7 turns."
+				"en": "Greatly reduces the damage received from breath attacks by a single ally for 4 to 7 turns.",
+				"fr": "Réduit beaucoup les dégâts découlant d'attaques de souffle qu'un allié peut subir pendant 4 à 7 tours."
 			},
 			"mp": 4,
-			"target": "Single Ally"
+			"target": "Single Ally",
+			"fr": "Isolation"
 		},
 		"Insulatle": {
 			"attribute": "Spell",
 			"type": "Support",
 			"power": 4,
 			"desc": {
-				"en": "Reduces the damage received from breath attacks by all allies for 4 to 7 turns."
+				"en": "Reduces the damage received from breath attacks by all allies for 4 to 7 turns.",
+				"fr": "Réduit les dégâts découlant d'attaques de souffle que tous les alliés peuvent subir pendant 4 à 7 tours."
 			},
 			"mp": 4,
-			"target": "All Allies"
+			"target": "All Allies",
+			"fr": "Superisolation"
 		},
 		"Dazzle": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 3,
 			"desc": {
-				"en": "Bedazzles all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Bedazzles all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Éblouit tous les ennemis pendant 2 à 5 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 3,
 			"target": "All Enemies",
 			"elements": [
 				"bedazzle"
-			]
+			],
+			"fr": "Illusion"
 		},
 		"Fizzle": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 3,
 			"desc": {
-				"en": "Prevents all enemies from casting spells for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Prevents all enemies from casting spells for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Empêche tous les ennemis de lancer des sorts pendant 4 à 7 tours. Plus la sagesse de celui qui lance le sort est élevé, plus ce sort a de chances de réussir."
 			},
 			"mp": 3,
 			"target": "All Enemies",
 			"elements": [
 				"seal"
-			]
+			],
+			"fr": "Antimagie"
 		},
 		"Bounce": {
 			"attribute": "Spell",
 			"type": "Support",
 			"power": 32,
 			"desc": {
-				"en": "Reflects most spells back at the caster for 4 to 7 turns."
+				"en": "Reflects most spells back at the caster for 4 to 7 turns.",
+				"fr": "Renvoie la plupart des sorts à leur lanceur pendant 4 à 7 tours."
 			},
 			"mp": 32,
-			"target": "Self"
+			"target": "Self",
+			"fr": "Réflexion"
 		},
 		"Drain Magic": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 0,
 			"desc": {
-				"en": "Absorbs some MP from a single enemy."
+				"en": "Absorbs some MP from a single enemy.",
+				"fr": "Absorbe des PM à un ennemi."
 			},
 			"mp": 0,
-			"target": "Single Enemy"
+			"target": "Single Enemy",
+			"fr": "Aspirmagie"
 		},
 		"Giga Drain Magic": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 1,
 			"desc": {
-				"en": "Absorbs MP from enemies at random, 4 times in total."
+				"en": "Absorbs MP from enemies at random, 4 times in total.",
+				"fr": "Absorbe des PM à des ennemis au hasard, 4 fois en tout."
 			},
 			"mp": 50,
 			"mpType": "percentage",
 			"target": "Random Enemies",
 			"elements": [
 				"drain_mp"
-			]
+			],
+			"fr": "Gigaspirmagie"
 		},
 		"Fuddle": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 5,
 			"desc": {
-				"en": "Confuses a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Confuses a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Désoriente un ennemi pendant 2 à 5 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 5,
 			"target": "Single Enemy",
 			"elements": [
 				"confusion"
-			]
+			],
+			"fr": "Confusion"
 		},
 		"Kafuddle": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 10,
 			"desc": {
-				"en": "Confuses all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Confuses all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Désoriente tous les ennemis pendant 2 à 5 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 10,
 			"target": "All Enemies",
 			"elements": [
 				"confusion"
-			]
+			],
+			"fr": "Mégaconfusion"
 		},
 		"Snooze": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 3,
 			"desc": {
-				"en": "Puts a single enemy to sleep for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Puts a single enemy to sleep for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Endort un ennemi pendant 2 à 5 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 3,
 			"target": "Single Enemy",
 			"elements": [
 				"sleep"
-			]
+			],
+			"fr": "Torpeur"
 		},
 		"Kasnooze": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 8,
 			"desc": {
-				"en": "Puts all enemies to sleep for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Puts all enemies to sleep for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Endort tous les ennemis pendant 2 à 5 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 8,
 			"target": "All Enemies",
 			"elements": [
 				"sleep"
-			]
+			],
+			"fr": "Torpeur ciblée"
 		},
 		"Numb": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 8,
 			"desc": {
-				"en": "Paralyses a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Paralyses a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Paralyse un ennemi pendant 2 à 5 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 8,
 			"target": "Single Enemy",
 			"elements": [
 				"paralysis"
-			]
+			],
+			"fr": "Roideur"
 		},
 		"Kanumb": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 15,
 			"desc": {
-				"en": "Paralyses all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Paralyses all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Paralyse tous les ennemis pendant 2 à 5 tours. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 15,
 			"target": "All Enemies",
 			"elements": [
 				"paralysis"
-			]
+			],
+			"fr": "Mégaroideur"
 		},
 		"Tox": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 3,
 			"desc": {
-				"en": "Poisons a single enemy. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Poisons a single enemy. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Empoisonne un ennemi. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 3,
 			"target": "Single Enemy",
 			"elements": [
 				"poison"
-			]
+			],
+			"fr": "Intoxication"
 		},
 		"Katox": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 8,
 			"desc": {
-				"en": "Poisons all enemies. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Poisons all enemies. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Empoisonne tous les ennemis. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 8,
 			"target": "All Enemies",
 			"elements": [
 				"poison"
-			]
+			],
+			"fr": "Méga-intoxication"
 		},
 		"Katoxle": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 15,
 			"desc": {
-				"en": "Severely poisons all enemies. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Severely poisons all enemies. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Empoisonne gravement tous les ennemis. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 15,
 			"target": "All Enemies",
 			"elements": [
 				"poison"
-			]
+			],
+			"fr": "Giga-intoxication"
 		},
 		"Whack": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 9,
 			"desc": {
-				"en": "Kills a single enemy instantly. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Kills a single enemy instantly. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Tue un ennemi sur le coup. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 9,
 			"target": "Single Enemy",
 			"elements": [
 				"sudden_death"
-			]
+			],
+			"fr": "Kill"
 		},
 		"Thwack": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 12,
 			"desc": {
-				"en": "Kills all enemies instantly. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Kills all enemies instantly. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Tue tous les ennemis sur le coup. Plus la sagesse de celui qui lance le sort est élevée, plus ce sort a de chances de réussir."
 			},
 			"mp": 12,
 			"target": "All Enemies",
 			"elements": [
 				"sudden_death"
-			]
+			],
+			"fr": "Superkill"
 		},
 		"Kamikazee": {
 			"attribute": "Spell",
 			"type": "Debuff",
 			"power": 1,
 			"desc": {
-				"en": "Kills all enemies, but at the cost of the caster's life. The caster cannot be resurrected in the same battle. The higher the caster's wisdom, the more likely the spell is to succeed."
+				"en": "Kills all enemies, but at the cost of the caster's life. The caster cannot be resurrected in the same battle. The higher the caster's wisdom, the more likely the spell is to succeed.",
+				"fr": "Tue tous les ennemis, mais coûte la vie à son utilisateur. Ce dernier ne peut pas être ressuscité lors du combat. Plus les PM de celui qui lance le sort sont élevés, plus ce sort a de chances de réussir."
 			},
 			"mp": 100,
 			"mpType": "percentage",
-			"target": "All Enemies"
+			"target": "All Enemies",
+			"fr": "Kamikaze"
 		},
 		"Flame Slash": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 2,
 			"desc": {
-				"en": "Inflicts minor fire-elemental slashing damage on a single enemy."
+				"en": "Inflicts minor fire-elemental slashing damage on a single enemy.",
+				"fr": "Inflige de légers dégâts cinglants de feu à un ennemi."
 			},
 			"mp": 2,
 			"target": "Single Enemy",
 			"elements": [
 				"fire"
-			]
+			],
+			"fr": "Lame de feu"
 		},
 		"Gust Slash": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 2,
 			"desc": {
-				"en": "Inflicts minor wind-elemental slashing damage on a single enemy."
+				"en": "Inflicts minor wind-elemental slashing damage on a single enemy.",
+				"fr": "Inflige de légers dégâts cinglants de vent à un ennemi."
 			},
 			"mp": 2,
 			"target": "Single Enemy",
 			"elements": [
 				"wind"
-			]
+			],
+			"fr": "Lame de vent"
 		},
 		"Kacrackle Slash": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 2,
 			"desc": {
-				"en": "Inflicts minor ice-elemental slashing damage on a single enemy."
+				"en": "Inflicts minor ice-elemental slashing damage on a single enemy.",
+				"fr": "Inflige de légers dégâts cinglants de glace à un ennemi."
 			},
 			"mp": 2,
 			"target": "Single Enemy",
 			"elements": [
 				"freeze"
-			]
+			],
+			"fr": "Entaille gigaglace"
 		},
 		"Lightning Slash": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 2,
 			"desc": {
-				"en": "Inflicts minor elecrtrical slashing damage on a single enemy."
+				"en": "Inflicts minor elecrtrical slashing damage on a single enemy.",
+				"fr": "Inflige de légers dégâts cinglants de foudre à un ennemi."
 			},
 			"mp": 2,
 			"target": "Single Enemy",
 			"elements": [
 				"thunder"
-			]
+			],
+			"fr": "Lame d'éclair"
 		},
 		"Flamesplitter": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 15,
 			"desc": {
-				"en": "Inflicts minor medium-elemental slashing damage on all enemies."
+				"en": "Inflicts minor medium-elemental slashing damage on all enemies.",
+				"fr": "Inflige des dégâts cinglants de feu à tous les ennemis."
 			},
 			"mp": 15,
 			"target": "All Enemies",
 			"elements": [
 				"fire"
-			]
+			],
+			"fr": "Brise-flammes"
 		},
 		"Skysplitter": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 15,
 			"desc": {
-				"en": "Inflicts minor wind-elemental slashing damage on all enemies."
+				"en": "Inflicts minor wind-elemental slashing damage on all enemies.",
+				"fr": "Inflige des dégâts cinglants de vent à tous les ennemis."
 			},
 			"mp": 15,
 			"target": "All Enemies",
 			"elements": [
 				"wind"
-			]
+			],
+			"fr": "Brise-cieux"
 		},
 		"Earthsplitter": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 15,
 			"desc": {
-				"en": "Inflicts medium earth-elemental slashing damage on all enemies."
+				"en": "Inflicts medium earth-elemental slashing damage on all enemies.",
+				"fr": "Inflige des dégâts cinglants de terre à tous les ennemis."
 			},
 			"mp": 15,
 			"target": "All Enemies",
 			"elements": [
 				"earth"
-			]
+			],
+			"fr": "Brise-terre"
 		},
 		"Brightsplitter": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 15,
 			"desc": {
-				"en": "Inflicts minor light-elemental slashing damage on all enemies."
+				"en": "Inflicts minor light-elemental slashing damage on all enemies.",
+				"fr": "Inflige des dégâts cinglants de lumière à tous les ennemis."
 			},
 			"mp": 15,
 			"target": "All Enemies",
 			"elements": [
 				"light"
-			]
+			],
+			"fr": "Brise-lumière"
 		},
 		"Blightsplitter": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 15,
 			"desc": {
-				"en": "Inflicts medium dark-elemental slashing damage on all enemies."
+				"en": "Inflicts medium dark-elemental slashing damage on all enemies.",
+				"fr": "Inflige des dégâts cinglants de ténèbres à tous les ennemis."
 			},
 			"mp": 15,
 			"target": "All Enemies",
 			"elements": [
 				"darkness"
-			]
+			],
+			"fr": "Brise-ombre"
 		},
 		"Gigaslash": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 20,
 			"desc": {
-				"en": "Inflicts outrageous electrical damage on a single enemy. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Inflicts outrageous electrical damage on a single enemy. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige de monstrueux dégâts de foudre à un ennemi. Plus le niveau de l'utilisateur est élevé, plus les dégâts infligés seront importants."
 			},
 			"mp": 20,
 			"target": "Single Enemy",
 			"elements": [
 				"thunder"
-			]
+			],
+			"fr": "Gigentaille"
 		},
 		"Gigagash": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 56,
 			"desc": {
-				"en": "Inflicts outrageous electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Inflicts outrageous electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige de monstrueux dégâts de foudre à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts infligés seront importants."
 			},
 			"mp": 56,
 			"target": "All Enemies",
 			"elements": [
 				"thunder"
-			]
+			],
+			"fr": "Gigagash"
 		},
 		"Gigacross": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 80,
 			"desc": {
-				"en": "An extreme sword attack that inflicts extreme electrical damage 2 times in a row on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "An extreme sword attack that inflicts extreme electrical damage 2 times in a row on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige d'impressionnants dégâts de foudre 2 fois de suite à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts infligés seront importants."
 			},
 			"mp": 80,
 			"target": "All Enemies",
 			"elements": [
 				"thunder"
-			]
+			],
+			"fr": "Gigacroix"
 		},
 		"Shadow Blast": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 80,
 			"desc": {
-				"en": "Inflicts extreme dark-elemental damage 2 times in a row on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Inflicts extreme dark-elemental damage 2 times in a row on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige d'impressionnants dégâts de ténèbres 2 fois de suite à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts infligés seront importants."
 			},
 			"mp": 80,
 			"target": "All Enemies",
 			"elements": [
 				"darkness"
-			]
+			],
+			"fr": "Rupture obscure"
 		},
 		"Slime Squisher": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 4,
 			"desc": {
-				"en": "Inflicts heavy impact damage on monsters in the slime family."
+				"en": "Inflicts heavy impact damage on monsters in the slime family.",
+				"fr": "Inflige de gros dégâts d'impact aux monstres de la famille des gluants."
 			},
 			"mp": 4,
-			"target": "Single Enemy"
+			"target": "Single Enemy",
+			"fr": "Slurpvérisation"
 		},
 		"Dragon Slash": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 4,
 			"desc": {
-				"en": "Inflicts heavy slashing damage on monsters in the dragon family."
+				"en": "Inflicts heavy slashing damage on monsters in the dragon family.",
+				"fr": "Inflige de gros dégâts cinglants aux monstres de la famille des dragons."
 			},
 			"mp": 4,
-			"target": "Single Enemy"
+			"target": "Single Enemy",
+			"fr": "Lame du dragon"
 		},
 		"Nature Nerfer": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 4,
 			"desc": {
-				"en": "Inflicts heavy slashing damage on monsters in the nature family."
+				"en": "Inflicts heavy slashing damage on monsters in the nature family.",
+				"fr": "Inflige de gros dégâts cinglants aux monstres de la famille des naturels."
 			},
 			"mp": 4,
-			"target": "Single Enemy"
+			"target": "Single Enemy",
+			"fr": "Terminature"
 		},
 		"Beast Tamer": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 4,
 			"desc": {
-				"en": "Inflicts heavy slashing damage on monsters in the beast family."
+				"en": "Inflicts heavy slashing damage on monsters in the beast family.",
+				"fr": "Inflige de gros dégâts cinglants aux monstres de la famille des bêtes."
 			},
 			"mp": 4,
-			"target": "Single Enemy"
+			"target": "Single Enemy",
+			"fr": "Joug contre joug"
 		},
 		"Matter Scatterer": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 4,
 			"desc": {
-				"en": "Inflicts heavy slashing damage on monsters in the material family."
+				"en": "Inflicts heavy slashing damage on monsters in the material family.",
+				"fr": "Inflige de gros dégâts cinglants aux monstres de la famille des matières."
 			},
 			"mp": 4,
-			"target": "Single Enemy"
+			"target": "Single Enemy",
+			"fr": "Atomisation"
 		},
 		"Demon Demeaner": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 4,
 			"desc": {
-				"en": "Inflicts heavy slashing damage on monsters in the demon family."
+				"en": "Inflicts heavy slashing damage on monsters in the demon family.",
+				"fr": "Inflige de gros dégâts cinglants aux monstres de la famille des démons."
 			},
 			"mp": 4,
-			"target": "Single Enemy"
+			"target": "Single Enemy",
+			"fr": "Démonlition"
 		},
 		"Undead Undoer": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 4,
 			"desc": {
-				"en": "Inflicts heavy slashing damage on monsters in the undead family."
+				"en": "Inflicts heavy slashing damage on monsters in the undead family.",
+				"fr": "Inflige de gros dégâts cinglants aux monstres de la famille des morts-vivants."
 			},
 			"mp": 4,
-			"target": "Single Enemy"
+			"target": "Single Enemy",
+			"fr": "Morozombie"
 		},
 		"Multifists": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 20,
 			"desc": {
-				"en": "A punching technique that damages enemies at random, 4 times in total"
+				"en": "A punching technique that damages enemies at random, 4 times in total",
+				"fr": "Technique de frappe qui inflige des dégâts à des ennemis au hasard, pour un total de 4 fois."
 			},
 			"mp": 20,
-			"target": "Random Enemies"
+			"target": "Random Enemies",
+			"fr": "Multipoing"
 		},
 		"Shining Shot": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 100,
 			"desc": {
-				"en": "Inflicts light-elemental damage on enemies at random, 4 to 12 times in total."
+				"en": "Inflicts light-elemental damage on enemies at random, 4 to 12 times in total.",
+				"fr": "Inflige des dégâts de lumière à des ennemis au hasard, pour un total de 4 à 12 fois."
 			},
 			"mp": 100,
 			"target": "Random Enemies",
 			"elements": [
 				"light"
-			]
+			],
+			"fr": "Tir de lumière"
 		},
 		"Multislash": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 5,
 			"desc": {
-				"en": "Inflicts slashing damage on all enemies. Enemies that are further to the right-hand side of the battlefield receive less damage."
+				"en": "Inflicts slashing damage on all enemies. Enemies that are further to the right-hand side of the battlefield receive less damage.",
+				"fr": "Inflige des dégâts cinglants à tous les ennemis. Les ennemis à l'extrémité droite du champ de bataille subissent moins de dégâts."
 			},
 			"mp": 5,
-			"target": "All Enemies"
+			"target": "All Enemies",
+			"fr": "Multi-lame"
 		},
 		"Mercurial Thrust": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 2,
 			"desc": {
-				"en": "A punching technique that only inflicts a small amount of damage, but allows the user to attack before anyone else."
+				"en": "A punching technique that only inflicts a small amount of damage, but allows the user to attack before anyone else.",
+				"fr": "Coup de poing qui inflige très peu de dégâts, mais permet à l'utilisateur d'attaquer avant tout le monde."
 			},
 			"mp": 2,
-			"target": "Single Enemy"
+			"target": "Single Enemy",
+			"fr": "Coup d'Hermès"
 		},
 		"Anchorman": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 15,
 			"desc": {
-				"en": "Acts after everyone else to inflict extreme impact damage on the enemy."
+				"en": "Acts after everyone else to inflict extreme impact damage on the enemy.",
+				"fr": "Agit après tout le monde pour infliger des dégâts d'impact extrêmes à l'ennemi."
 			},
 			"mp": 15,
-			"target": "Single Enemy"
+			"target": "Single Enemy",
+			"fr": "Mutancre"
 		},
 		"Knuckle Sandwich": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 20,
 			"desc": {
-				"en": "Focuses strength in order to inflict heavy damage on a single enemy in the next turn, ignoring their defence attribute."
+				"en": "Focuses strength in order to inflict heavy damage on a single enemy in the next turn, ignoring their defence attribute.",
+				"fr": "Concentre toutes ses forces pour infliger de gros dégâts à un ennemi au tour suivant, passant outre les caractéristiques de ce dernier en défense."
 			},
 			"mp": 20,
-			"target": "Single Enemy"
+			"target": "Single Enemy",
+			"fr": "Casse-dentier"
 		},
 		"Roundhouse Kick": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 8,
 			"desc": {
-				"en": "A kicking technique that damages all enemies, regardless of their defence. Enemies that are further to the right-hand side of the battlefield receive less damage."
+				"en": "A kicking technique that damages all enemies, regardless of their defence. Enemies that are further to the right-hand side of the battlefield receive less damage.",
+				"fr": "Coup de pied qui inflige des dégâts à tous les ennemis, sans tenir compte de leur défense. Les ennemis à l'extrémité droite du champ de bataille subissent moins de dégâts."
 			},
 			"mp": 8,
-			"target": "All Enemies"
+			"target": "All Enemies",
+			"fr": "Coup de pied circulaire"
 		},
 		"Hatchet Man": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 8,
 			"desc": {
-				"en": " Inflicts slashing damage on a single enemy. The attack has a high likelihood of missing, but an increased chance of inflicting a critical hit when it succeeds."
+				"en": " Inflicts slashing damage on a single enemy. The attack has a high likelihood of missing, but an increased chance of inflicting a critical hit when it succeeds.",
+				"fr": "Inflige des dégâts cinglants à un ennemi. L'attaque risque vraiment d'échouer, mais ses chances d'asséner un coup critique augmentent si elle porte."
 			},
 			"mp": 8,
-			"target": "Single Enemy"
+			"target": "Single Enemy",
+			"fr": "Coupe claire"
 		},
 		"Frenzy": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 4,
 			"desc": {
-				"en": "A risky technique that inflicts a critical hit on a single enemy or ally at random."
+				"en": "A risky technique that inflicts a critical hit on a single enemy or ally at random.",
+				"fr": "Technique risquée qui inflige un coup critique à un ennemi au hasard."
 			},
 			"mp": 4,
-			"target": "Random Enemy or Ally"
+			"target": "Random Enemy or Ally",
+			"fr": "Frénésie"
 		},
 		"Miracle Slash": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 10,
 			"desc": {
-				"en": "Inflicts slashing damage on a single enemy. Approximately half the amount of damage inflicted is restored to the user as HP. Can heal up to a maximum of 200 HP."
+				"en": "Inflicts slashing damage on a single enemy. Approximately half the amount of damage inflicted is restored to the user as HP. Can heal up to a maximum of 200 HP.",
+				"fr": "Inflige des dégâts cinglants à un ennemi. L'utilisateur récupère environ la moitié des dégâts infligés sous forme de PV. Peut rendre un maximum de 200 PV."
 			},
 			"mp": 10,
-			"target": "Single Enemy"
+			"target": "Single Enemy",
+			"fr": "Coup miraculeux"
 		},
 		"Attack Attacker": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 4,
 			"desc": {
-				"en": "Damages a single enemy and occasionally lowers its attack for 2 to 5 turns."
+				"en": "Damages a single enemy and occasionally lowers its attack for 2 to 5 turns.",
+				"fr": "Inflige des dégâts à un ennemi et réduit parfois son attaque pendant 2 à 5 tours."
 			},
 			"mp": 4,
 			"target": "Single Enemy",
-			"effect": "Attack Down"
+			"effect": "Attack Down",
+			"fr": "Attaque-attaque"
 		},
 		"Helm Splitter": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 4,
 			"desc": {
-				"en": "Damages a single enemy and occasionally lowers its defence for 4 to 7 turns."
+				"en": "Damages a single enemy and occasionally lowers its defence for 4 to 7 turns.",
+				"fr": "Inflige des dégâts à un ennemi et réduit parfois sa défense pendant 4 à 7 tours."
 			},
 			"mp": 4,
 			"target": "Single Enemy",
-			"effect": "Defence Down"
+			"effect": "Defence Down",
+			"fr": "Brise-casque"
 		},
 		"Confusion Attack": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 4,
 			"desc": {
-				"en": "Damages a single enemy and occasionally confuses it for 2 to 5 turns."
+				"en": "Damages a single enemy and occasionally confuses it for 2 to 5 turns.",
+				"fr": "Inflige des dégâts à un ennemi et le désoriente parfois pendant 2 à 5 tours."
 			},
 			"mp": 4,
 			"target": "Single Enemy",
 			"elements": [
 				"confusion"
-			]
+			],
+			"fr": "Attaque confusion"
 		},
 		"Sleep Attack": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 4,
 			"desc": {
-				"en": "Damages a single enemy and occasionally puts it to sleep for 2 to 5 turns."
+				"en": "Damages a single enemy and occasionally puts it to sleep for 2 to 5 turns.",
+				"fr": "Inflige des dégâts à un ennemi et l'endort parfois pendant 2 à 5 tours."
 			},
 			"mp": 4,
 			"target": "Single Enemy",
 			"elements": [
 				"sleep"
-			]
+			],
+			"fr": "Attaque sommeil"
 		},
 		"Paralysing Punch": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 4,
 			"desc": {
-				"en": "Damages a single enemy and occasionally paralyses it for 2 to 5 turns."
+				"en": "Damages a single enemy and occasionally paralyses it for 2 to 5 turns.",
+				"fr": "Inflige des dégâts à un ennemi et le paralyse parfois pendant 2 à 5 tours."
 			},
 			"mp": 4,
 			"target": "Single Enemy",
 			"elements": [
 				"paralysis"
-			]
+			],
+			"fr": "Frappe paralysante"
 		},
 		"Parallax": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 20,
 			"desc": {
-				"en": "Inflicts heavy slashing damage on a single enemy and occasionally paralyses it for 2 to 5 turns."
+				"en": "Inflicts heavy slashing damage on a single enemy and occasionally paralyses it for 2 to 5 turns.",
+				"fr": "Inflige des dégâts cinglants à un ennemi et le paralyse parfois pendant 2 à 5 tours."
 			},
 			"mp": 20,
 			"target": "Single Enemy",
 			"elements": [
 				"paralysis"
-			]
+			],
+			"fr": "Paralhache"
 		},
 		"Heart Breaker": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 4,
 			"desc": {
-				"en": "Inflicts slashing damage on a single enemy and stuns it for 1 turn."
+				"en": "Inflicts slashing damage on a single enemy and stuns it for 1 turn.",
+				"fr": "Inflige des dégâts cinglants à un ennemi et l'étourdit pendant 1 tour."
 			},
 			"mp": 4,
 			"target": "Single Enemy",
 			"elements": [
 				"rest"
-			]
+			],
+			"fr": "Crève-cœur"
 		},
 		"Poison Attack": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 2,
 			"desc": {
-				"en": "Damages a single enemy and occasionally poisons it."
+				"en": "Damages a single enemy and occasionally poisons it.",
+				"fr": "Inflige des dégâts à un ennemi et l'empoisonne parfois."
 			},
 			"mp": 2,
 			"target": "Single Enemy",
 			"elements": [
 				"poison"
-			]
+			],
+			"fr": "Attaque poison"
 		},
 		"Assassin's Stab": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 8,
 			"desc": {
-				"en": "Damages a single enemy and occasionally causes instant death."
+				"en": "Damages a single enemy and occasionally causes instant death.",
+				"fr": "Inflige des dégâts à un ennemi et provoque parfois sa mort instantanée."
 			},
 			"mp": 8,
 			"target": "Single Enemy",
 			"elements": [
 				"sudden_death"
-			]
+			],
+			"fr": "Coup de l'assassin"
 		},
 		"Victimiser": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 4,
 			"desc": {
-				"en": "Damages a single enemy. Highly effective against enemies that are poisoned, severly poisoned or paralysed."
+				"en": "Damages a single enemy. Highly effective against enemies that are poisoned, severly poisoned or paralysed.",
+				"fr": "Inflige des dégâts à un ennemi. Particulièrement efficace contre les ennemis empoisonnés, sévèrement empoisonnés ou paralysés."
 			},
 			"mp": 4,
 			"target": "Single Enemy",
 			"elements": [
 				"poison",
 				"paralysis"
-			]
+			],
+			"fr": "Coupe franche"
 		},
 		"Multi-Victimiser": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 26,
 			"desc": {
-				"en": "Damages all enemies. Highly effective against enemies that are poisoned, severely poisoned or paralysed."
+				"en": "Damages all enemies. Highly effective against enemies that are poisoned, severely poisoned or paralysed.",
+				"fr": "Inflige des dégâts à tous les ennemis. Particulièrement efficace contre les ennemis empoisonnés, sévèrement empoisonnés ou paralysés."
 			},
 			"mp": 26,
 			"target": "All Enemies",
 			"elements": [
 				"poison",
 				"paralysis"
-			]
+			],
+			"fr": "Multicoupe franche"
 		},
 		"Persecutter": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 4,
 			"desc": {
-				"en": "Damages a single enemy. Higly effective against enemies that are asleep or confused."
+				"en": "Damages a single enemy. Higly effective against enemies that are asleep or confused.",
+				"fr": "Inflige des dégâts à un ennemi. Particulièrement efficace contre les ennemis endormis ou désorientés."
 			},
 			"mp": 4,
 			"target": "Single Enemy",
 			"elements": [
 				"confusion",
 				"sleep"
-			]
+			],
+			"fr": "Persécutter"
 		},
 		"Multi-Persecutter": {
 			"attribute": "Physical",
 			"type": "Attack",
 			"power": 26,
 			"desc": {
-				"en": "Damages all enemies. Highly effective against enemies that are asleep or confused."
+				"en": "Damages all enemies. Highly effective against enemies that are asleep or confused.",
+				"fr": "Inflige des dégâts à tous les ennemis. Particulièrement efficace contre les ennemis endormis ou désorientés."
 			},
 			"mp": 0,
 			"mpType": "all-with-min",
@@ -1562,796 +1819,927 @@
 			"elements": [
 				"sleep",
 				"confusion"
-			]
+			],
+			"fr": "Multipersécutter"
 		},
 		"Magma Blast": {
 			"attribute": "Technique",
 			"type": "Attack",
 			"power": 4,
 			"desc": {
-				"en": "Inflicts medium fire-elemental damage on all enemies."
+				"en": "Inflicts medium fire-elemental damage on all enemies.",
+				"fr": "Inflige des dégâts de feu à tous les ennemis."
 			},
 			"mp": 4,
 			"target": "All Enemies",
 			"elements": [
 				"fire"
-			]
+			],
+			"fr": "Jet de magma"
 		},
 		"Tidal Wave": {
 			"attribute": "Technique",
 			"type": "Attack",
 			"power": 52,
 			"desc": {
-				"en": "Inflicts outrageous water-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Inflicts outrageous water-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige de monstrueux dégâts d'eau à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts sont importants."
 			},
 			"mp": 52,
 			"target": "All Enemies",
 			"elements": [
 				"water"
-			]
+			],
+			"fr": "Raz-de-marée"
 		},
 		"Wind Sickles": {
 			"attribute": "Technique",
 			"type": "Attack",
 			"power": 4,
 			"desc": {
-				"en": "Inflicts minor wind-elemental damages on a single enemy."
+				"en": "Inflicts minor wind-elemental damages on a single enemy.",
+				"fr": "Inflige de légers dégâts de vent à un ennemi."
 			},
 			"mp": 4,
 			"target": "Single Enemy",
 			"elements": [
 				"wind"
-			]
+			],
+			"fr": "Vent coupant"
 		},
 		"Thin Air": {
 			"attribute": "Technique",
 			"type": "Attack",
 			"power": 12,
 			"desc": {
-				"en": "Inflicts medium wind-elemental damages on a single enemy. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Inflicts medium wind-elemental damages on a single enemy. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige des dégâts de vent à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts sont importants."
 			},
 			"mp": 12,
 			"target": "All Enemies",
 			"elements": [
 				"wind"
-			]
+			],
+			"fr": "Trou d'air"
 		},
 		"Stone's Throw": {
 			"attribute": "Technique",
 			"type": "Attack",
 			"power": 4,
 			"desc": {
-				"en": "Inflicts minor earth-elemental damages on a single enemy."
+				"en": "Inflicts minor earth-elemental damages on a single enemy.",
+				"fr": "Inflige de légers dégâts de terre à un ennemi."
 			},
 			"mp": 4,
 			"target": "Single Enemy",
 			"elements": [
 				"earth"
-			]
+			],
+			"fr": "Jet de pierres"
 		},
 		"Stomp": {
 			"attribute": "Technique",
 			"type": "Attack",
 			"power": 12,
 			"desc": {
-				"en": "Inflicts medium earth-elemental damages on a single enemy. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Inflicts medium earth-elemental damages on a single enemy. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige des dégâts de terre à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts sont importants."
 			},
 			"mp": 12,
 			"target": "All Enemies",
 			"elements": [
 				"earth"
-			]
+			],
+			"fr": "Poids lourd"
 		},
 		"Boulder Toss": {
 			"attribute": "Technique",
 			"type": "Attack",
 			"power": 36,
 			"desc": {
-				"en": "Inflicts extreme earth-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Inflicts extreme earth-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige d'impressionnants dégâts de terre à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts sont importants."
 			},
 			"mp": 36,
 			"target": "All Enemies",
 			"elements": [
 				"earth"
-			]
+			],
+			"fr": "Rock 'n' Roll"
 		},
 		"Big Banga": {
 			"attribute": "Technique",
 			"type": "Attack",
 			"power": 52,
 			"desc": {
-				"en": "Inflicts outrageous explosive damange on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Inflicts outrageous explosive damange on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige de monstrueux dégâts d'explosion à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts sont importants."
 			},
 			"mp": 36,
 			"target": "All Enemies",
 			"elements": [
 				"explosion"
-			]
+			],
+			"fr": "Mégabanga"
 		},
 		"Lightning": {
 			"attribute": "Technique",
 			"type": "Attack",
 			"power": 12,
 			"desc": {
-				"en": "Inflicts medium electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Inflicts medium electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige des dégâts de foudre à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts sont importants."
 			},
 			"mp": 12,
 			"target": "All Enemies",
 			"elements": [
 				"thunder"
-			]
+			],
+			"fr": "Éclair"
 		},
 		"Lightning Storm": {
 			"attribute": "Technique",
 			"type": "Attack",
 			"power": 52,
 			"desc": {
-				"en": "Inflicts outrageous electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Inflicts outrageous electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige de monstrueux dégâts de foudre à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts infligés seront importants."
 			},
 			"mp": 52,
 			"target": "All Enemies",
 			"elements": [
 				"thunder"
-			]
+			],
+			"fr": "Orage d'éclairs"
 		},
 		"Starfall": {
 			"attribute": "Technique",
 			"type": "Attack",
 			"power": 12,
 			"desc": {
-				"en": "Inflicts medium light-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Inflicts medium light-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige des dégâts de lumière à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts sont importants."
 			},
 			"mp": 12,
 			"target": "All Enemies",
 			"elements": [
 				"light"
-			]
+			],
+			"fr": "Désastre"
 		},
 		"Bad Hand": {
 			"attribute": "Technique",
 			"type": "Attack",
 			"power": 52,
 			"desc": {
-				"en": "Inflicts outrageous dark-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Inflicts outrageous dark-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige de monstrueux dégâts de ténèbres à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts sont importants."
 			},
 			"mp": 52,
 			"target": "All Enemies",
 			"elements": [
 				"darkness"
-			]
+			],
+			"fr": "Mauvaise main"
 		},
 		"Withering Look": {
 			"attribute": "Technique",
 			"type": "Attack",
 			"power": 36,
 			"desc": {
-				"en": "Shoots a beam from the eyes that inflicts extreme damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "Shoots a beam from the eyes that inflicts extreme damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Inflige d'impressionnants dégâts à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts sont importants."
 			},
 			"mp": 36,
-			"target": "All Enemies"
+			"target": "All Enemies",
+			"fr": "Regard inquisiteur"
 		},
 		"Hellish Howl": {
 			"attribute": "Technique",
 			"type": "Attack",
 			"power": 12,
 			"desc": {
-				"en": "Lets out a bloodcurdling shout that inflicts medium damage on all enemies and occasionally stuns them for 1 turn."
+				"en": "Lets out a bloodcurdling shout that inflicts medium damage on all enemies and occasionally stuns them for 1 turn.",
+				"fr": "Laisse s'échapper un cri à glacer le sang qui inflige des dégâts à tous les ennemis et les étourdit parfois pendant 1 tour."
 			},
 			"mp": 0,
 			"mpType": "all-with-min",
 			"target": "All Enemies",
 			"elements": [
 				"rest"
-			]
+			],
+			"fr": "Hurlulement"
 		},
 		"Power Surge": {
 			"attribute": "Technique",
 			"type": "Attack",
 			"power": 52,
 			"desc": {
-				"en": "Inflicts outrageous electrical damage on all enemies."
+				"en": "Inflicts outrageous electrical damage on all enemies.",
+				"fr": "Inflige de monstrueux dégâts de foudre à tous les ennemis."
 			},
 			"mp": 52,
 			"target": "All Enemies",
 			"elements": [
 				"thunder"
-			]
+			],
+			"fr": "Pic de tension"
 		},
 		"Hold Fire": {
 			"attribute": "Technique",
 			"type": "Attack",
 			"power": 52,
 			"desc": {
-				"en": "Focuses strength in order to inflict outrageous fire-elemental damage on all enemies in the next turn. Occasionally stuns them for 1 turn."
+				"en": "Focuses strength in order to inflict outrageous fire-elemental damage on all enemies in the next turn. Occasionally stuns them for 1 turn.",
+				"fr": "Concentre toute la puissance pour infliger de monstrueux dégâts de feu à tous les ennemis lors de l'action suivante. Les étourdit parfois pendant 1 tour."
 			},
 			"mp": 52,
 			"target": "All Enemies",
 			"elements": [
 				"fire"
-			]
+			],
+			"fr": "Feu sacrificiel"
 		},
 		"Meditation": {
 			"attribute": "Technique",
 			"type": "Heal",
 			"power": 35,
 			"desc": {
-				"en": "Restores 300 or more HP to the user."
+				"en": "Restores 300 or more HP to the user.",
+				"fr": "Redonne au moins 300 PV à l'utilisateur."
 			},
 			"mp": 35,
-			"target": "Self"
+			"target": "Self",
+			"fr": "Méditation"
 		},
 		"Right as Rain": {
 			"attribute": "Technique",
 			"type": "Heal",
 			"power": 40,
 			"desc": {
-				"en": "Performs a rainmaking ritual that invokes a healing shower in the next turn. Restores a random amount of HP to all allies."
+				"en": "Performs a rainmaking ritual that invokes a healing shower in the next turn. Restores a random amount of HP to all allies.",
+				"fr": "Accomplit un rituel de la pluie qui invoque une ondée curative au coup suivant. Redonne une quantité variable de PV à tous les alliés."
 			},
 			"mp": 40,
-			"target": "All Allies"
+			"target": "All Allies",
+			"fr": "Pluie bénéfique"
 		},
 		"Disruptive Wave": {
 			"attribute": "Technique",
 			"type": "Debuff",
 			"power": 60,
 			"desc": {
-				"en": "Removes most beneficial effects from all enemies."
+				"en": "Removes most beneficial effects from all enemies.",
+				"fr": "Supprime la plupart des effets bénéfiques à tous les ennemis."
 			},
 			"mp": 60,
-			"target": "All Enemies"
+			"target": "All Enemies",
+			"fr": "Perturbonde"
 		},
 		"Wave of Relief": {
 			"attribute": "Technique",
 			"type": "Status Recovery",
 			"power": 60,
 			"desc": {
-				"en": "Cures of allies of their status ailments."
+				"en": "Cures of allies of their status ailments.",
+				"fr": "Guérit tous les alliés des altérations d'état qui les frappent."
 			},
 			"mp": 60,
-			"target": "All Allies"
+			"target": "All Allies",
+			"fr": "Vague de soulagement"
 		},
 		"Wave of Panic": {
 			"attribute": "Technique",
 			"type": "Debuff",
 			"power": 60,
 			"desc": {
-				"en": "Debilitates all enemies."
+				"en": "Debilitates all enemies.",
+				"fr": "Affaiblit tous les ennemis."
 			},
 			"mp": 60,
-			"target": "All Enemies"
+			"target": "All Enemies",
+			"fr": "Vague de panique"
 		},
 		"Sandstorm": {
 			"attribute": "Technique",
 			"type": "Debuff",
 			"power": 2,
 			"desc": {
-				"en": "Whips up a dense cloud of dust that lowers the accuracy of enemy attacks for 2 to 5 turns."
+				"en": "Whips up a dense cloud of dust that lowers the accuracy of enemy attacks for 2 to 5 turns.",
+				"fr": "Soulève un épais nuage de poussière qui réduit la précision des attaques ennemies de 2 à 5 tours."
 			},
 			"mp": 2,
 			"target": "All Enemies",
-			"effect": "Accuracy Down"
+			"effect": "Accuracy Down",
+			"fr": "Tempête de sable"
 		},
 		"Dazzleflash": {
 			"attribute": "Technique",
 			"type": "Debuff",
 			"power": 2,
 			"desc": {
-				"en": "Unleashes a blinding light that lowers the accuracy of enemy attacks for 2 to 5 turns."
+				"en": "Unleashes a blinding light that lowers the accuracy of enemy attacks for 2 to 5 turns.",
+				"fr": "Émet une lumière éblouissante qui réduit la précision des attaques ennemies de 2 à 5 tours."
 			},
 			"mp": 2,
 			"target": "All Enemies",
 			"elements": [
 				"bedazzle"
 			],
-			"effect": "Accuracy Down"
+			"effect": "Accuracy Down",
+			"fr": "Attaque éblouissante"
 		},
 		"Gobstopper": {
 			"attribute": "Technique",
 			"type": "Debuff",
 			"power": 6,
 			"desc": {
-				"en": "Stops a single enemy from using its mouth, preventing the use of breath attacks for 4 to 7 turns."
+				"en": "Stops a single enemy from using its mouth, preventing the use of breath attacks for 4 to 7 turns.",
+				"fr": "Empêche un ennemi d'ouvrir la bouche et d'utiliser des attaques de souffle pendant 4 à 7 tours."
 			},
 			"mp": 6,
-			"target": "Single Enemy"
+			"target": "Single Enemy",
+			"fr": "Hygiaphone"
 		},
 		"Critical Meltdown": {
 			"attribute": "Technique",
 			"type": "Debuff",
 			"power": 6,
 			"desc": {
-				"en": "Prevents a single enemy from inflicting hits for 4 to 7 turns."
+				"en": "Prevents a single enemy from inflicting hits for 4 to 7 turns.",
+				"fr": "Empêche un ennemi d'asséner des coups critiques pendant 4 à 7 tours."
 			},
 			"mp": 6,
-			"target": "Single Enemy"
+			"target": "Single Enemy",
+			"fr": "Critique malvenue"
 		},
 		"Brake Wind": {
 			"attribute": "Technique",
 			"type": "Support",
 			"power": 10,
 			"desc": {
-				"en": "Reflects breath attacks back at the enemy. Protects all allies once only."
+				"en": "Reflects breath attacks back at the enemy. Protects all allies once only.",
+				"fr": "Renvoie les attaques de souffle à l'ennemi. Protège tous les alliés une seule fois."
 			},
 			"mp": 10,
-			"target": "All Allies"
+			"target": "All Allies",
+			"fr": "Vent contraire"
 		},
 		"Mist Me": {
 			"attribute": "Technique",
 			"type": "Support",
 			"power": 10,
 			"desc": {
-				"en": "Negates all damages 1 time only. Ineffective against certain attacks."
+				"en": "Negates all damages 1 time only. Ineffective against certain attacks.",
+				"fr": "Annule tous les dégâts une fois seulement. Ne fonctionne pas sur certaines attaques."
 			},
 			"mp": 10,
-			"target": "Self"
+			"target": "Self",
+			"fr": "Brume de bataille"
 		},
 		"War Cry": {
 			"attribute": "Technique",
 			"type": "Debuff",
 			"power": 3,
 			"desc": {
-				"en": "An ear-popping shout that stuns all enemies for 1 turn."
+				"en": "An ear-popping shout that stuns all enemies for 1 turn.",
+				"fr": "Cri assourdissant qui étourdit tous les ennemis pendant 1 tour."
 			},
 			"mp": 3,
 			"target": "All Enemies",
 			"elements": [
 				"rest"
-			]
+			],
+			"fr": "Cri de guerre"
 		},
 		"Tongue Lashing": {
 			"attribute": "Technique",
 			"type": "Debuff",
 			"power": 1,
 			"desc": {
-				"en": "Slathers a single enemy with simy saliva, stunning it and lowering its defence."
+				"en": "Slathers a single enemy with simy saliva, stunning it and lowering its defence.",
+				"fr": "Recouvre un ennemi d'une couche de salive gluante, l'étourdissant et réduisant sa défense."
 			},
 			"mp": 1,
 			"target": "Single Enemy",
 			"elements": [
 				"rest"
 			],
-			"effect": "Defence Down"
+			"effect": "Defence Down",
+			"fr": "Léchouille"
 		},
 		"Tongue Bashing": {
 			"attribute": "Technique",
 			"type": "Debuff",
 			"power": 8,
 			"desc": {
-				"en": "Savagely slathers a single enemy with slimy saliva, stunning it and reducing its defence attribute to 1."
+				"en": "Savagely slathers a single enemy with slimy saliva, stunning it and reducing its defence attribute to 1.",
+				"fr": "Recouvre sans pitié un ennemi d'une couche de salive gluante, l'étourdissant et réduisant sa défense à 1 point."
 			},
 			"mp": 8,
 			"target": "Single Enemy",
 			"elements": [
 				"rest"
 			],
-			"effect": "Defence Down"
+			"effect": "Defence Down",
+			"fr": "Coup de langue"
 		},
 		"Seethe": {
 			"attribute": "Technique",
 			"type": "Support",
 			"power": 10,
 			"desc": {
-				"en": "Internalises rage in order to raise the damage of the next attack. Furthermore, the user's attacks become more difficult for the enemy to dodge."
+				"en": "Internalises rage in order to raise the damage of the next attack. Furthermore, the user's attacks become more difficult for the enemy to dodge.",
+				"fr": "Confine sa rage pour augmenter les dégâts infligés à l'attaque suivante. De plus, l'ennemi a plus de mal à esquiver les attaques de l'utilisateur."
 			},
 			"mp": 10,
 			"target": "Self",
-			"effect": "Accuracy Up"
+			"effect": "Accuracy Up",
+			"fr": "Bouffée de chaleur"
 		},
 		"Dodgy Dance": {
 			"attribute": "Technique",
 			"type": "Support",
 			"power": 1,
 			"desc": {
-				"en": "Raises the user's evasion for 4 to 7 turns."
+				"en": "Raises the user's evasion for 4 to 7 turns.",
+				"fr": "Augmente l'esquive de l'utilisateur pendant 4 à 7 tours."
 			},
 			"mp": 1,
 			"target": "Self",
-			"effect": "Evasion Up"
+			"effect": "Evasion Up",
+			"fr": "Danse d'esquive"
 		},
 		"Selflessness": {
 			"attribute": "Technique",
 			"type": "Support",
 			"power": 5,
 			"desc": {
-				"en": "Receives all incoming attacks in place for allies for 1 round, but suffers greater damage in doing so."
+				"en": "Receives all incoming attacks in place for allies for 1 round, but suffers greater damage in doing so.",
+				"fr": "Encaisse toutes les attaques à la place des alliés pendant 1 round, mais subit des dégâts plus importants en conséquence."
 			},
 			"mp": 5,
-			"target": "Self"
+			"target": "Self",
+			"fr": "Altruisme"
 		},
 		"Fire Breath": {
 			"attribute": "Breath",
 			"type": "Attack",
 			"power": 3,
 			"desc": {
-				"en": "Inflicts minor fire-elemental breath damage on all enemies."
+				"en": "Inflicts minor fire-elemental breath damage on all enemies.",
+				"fr": "Inflige de légers dégâts de souffle de feu à tous les ennemis."
 			},
 			"mp": 3,
 			"target": "All Enemies",
 			"elements": [
 				"fire"
-			]
+			],
+			"fr": "Souffle de feu"
 		},
 		"Flame Breath": {
 			"attribute": "Breath",
 			"type": "Attack",
 			"power": 6,
 			"desc": {
-				"en": "Inflicts medium fire-elemental breath damage on all enemies."
+				"en": "Inflicts medium fire-elemental breath damage on all enemies.",
+				"fr": "Inflige des dégâts de souffle de feu à tous les ennemis."
 			},
 			"mp": 6,
 			"target": "All Enemies",
 			"elements": [
 				"fire"
-			]
+			],
+			"fr": "Cracheflamme"
 		},
 		"Inferno": {
 			"attribute": "Breath",
 			"type": "Attack",
 			"power": 15,
 			"desc": {
-				"en": "Inflicts major fire-elemental breath damage on all enemies."
+				"en": "Inflicts major fire-elemental breath damage on all enemies.",
+				"fr": "Inflige d'importants dégâts de souffle de feu à tous les ennemis."
 			},
 			"mp": 15,
 			"target": "All Enemies",
 			"elements": [
 				"fire"
-			]
+			],
+			"fr": "Inferno"
 		},
 		"Scorch": {
 			"attribute": "Breath",
 			"type": "Attack",
 			"power": 30,
 			"desc": {
-				"en": "Inflicts extreme fire-elemental breath damage on all enemies."
+				"en": "Inflicts extreme fire-elemental breath damage on all enemies.",
+				"fr": "Inflige d'impressionnants dégâts de souffle de feu à tous les ennemis."
 			},
 			"mp": 30,
 			"target": "All Enemies",
 			"elements": [
 				"fire"
-			]
+			],
+			"fr": "Brûlure"
 		},
 		"Hellitosis": {
 			"attribute": "Breath",
 			"type": "Attack",
 			"power": 64,
 			"desc": {
-				"en": "Inflicts outrageous fire-elemental breath damage on all enemies and occasionally stuns them for 1 turn."
+				"en": "Inflicts outrageous fire-elemental breath damage on all enemies and occasionally stuns them for 1 turn.",
+				"fr": "Inflige de monstrueux dégâts de souffle de feu à tous les ennemis et les étourdit parfois pendant 1 tour."
 			},
 			"mp": 64,
 			"target": "All Enemies",
 			"elements": [
 				"fire",
 				"rest"
-			]
+			],
+			"fr": "Soupir pyrique"
 		},
 		"Cool Breath": {
 			"attribute": "Breath",
 			"type": "Attack",
 			"power": 3,
 			"desc": {
-				"en": "Inflicts minor ice-elemental breath damage on all enemies."
+				"en": "Inflicts minor ice-elemental breath damage on all enemies.",
+				"fr": "Inflige de légers dégâts de souffle de glace à tous les ennemis."
 			},
 			"mp": 3,
 			"target": "All Enemies",
 			"elements": [
 				"freeze"
-			]
+			],
+			"fr": "Souffle frais"
 		},
 		"Chilly Breath": {
 			"attribute": "Breath",
 			"type": "Attack",
 			"power": 6,
 			"desc": {
-				"en": "Inflicts medium ice-elemental breath damage on all enemies."
+				"en": "Inflicts medium ice-elemental breath damage on all enemies.",
+				"fr": "Inflige des dégâts de souffle de glace à tous les ennemis."
 			},
 			"mp": 6,
 			"target": "All Enemies",
 			"elements": [
 				"freeze"
-			]
+			],
+			"fr": "Souffle froid"
 		},
 		"Freezing Blizzard": {
 			"attribute": "Breath",
 			"type": "Attack",
 			"power": 15,
 			"desc": {
-				"en": "Inflicts major ice-elemental breath damage on all enemies."
+				"en": "Inflicts major ice-elemental breath damage on all enemies.",
+				"fr": "Inflige d'importants dégâts de souffle de glace à tous les ennemis."
 			},
 			"mp": 15,
 			"target": "All Enemies",
 			"elements": [
 				"freeze"
-			]
+			],
+			"fr": "Souffle de givre"
 		},
 		"C-C-Cold Breath": {
 			"attribute": "Breath",
 			"type": "Attack",
 			"power": 30,
 			"desc": {
-				"en": "Inflicts extreme ice-elemental breath damage on all enemies."
+				"en": "Inflicts extreme ice-elemental breath damage on all enemies.",
+				"fr": "Inflige d'impressionnants dégâts de souffle de glace à tous les ennemis."
 			},
 			"mp": 30,
 			"target": "All Enemies",
 			"elements": [
 				"freeze"
-			]
+			],
+			"fr": "Souffle gla-glacial"
 		},
 		"Ice Age": {
 			"attribute": "Breath",
 			"type": "Attack",
 			"power": 64,
 			"desc": {
-				"en": "Inflicts outrageous ice-elemental breath damage on all enemies and occasionally stuns them for 1 turn."
+				"en": "Inflicts outrageous ice-elemental breath damage on all enemies and occasionally stuns them for 1 turn.",
+				"fr": "Inflige de monstrueux dégâts de souffle de glace à tous les ennemis et les étourdit parfois pendant 1 tour."
 			},
 			"mp": 64,
 			"target": "All Enemies",
 			"elements": [
 				"freeze",
 				"rest"
-			]
+			],
+			"fr": "Âge de glace"
 		},
 		"Sandy Sigh": {
 			"attribute": "Breath",
 			"type": "Attack",
 			"power": 22,
 			"desc": {
-				"en": "Whips up a cloud of dust that inflicts major earth-elemental breath damage on all enemies and occasionally lowers their accuracy for 2 to 5 turns."
+				"en": "Whips up a cloud of dust that inflicts major earth-elemental breath damage on all enemies and occasionally lowers their accuracy for 2 to 5 turns.",
+				"fr": "Soulève un nuage de poussière qui inflige d'importants dégâts de souffle de terre à tous les ennemis et réduit parfois la précision de ceux-ci pendant 2 à 5 tours."
 			},
 			"mp": 22,
 			"target": "All Enemies",
 			"elements": [
 				"earth"
 			],
-			"effect": "Accuracy Down"
+			"effect": "Accuracy Down",
+			"fr": "Souffle karstique"
 		},
 		"Blessed Breath": {
 			"attribute": "Breath",
 			"type": "Attack",
 			"power": 22,
 			"desc": {
-				"en": "Inflicts major light-elemental breath damage on all enemies and occasionally confuses them for 2 to 5 turns."
+				"en": "Inflicts major light-elemental breath damage on all enemies and occasionally confuses them for 2 to 5 turns.",
+				"fr": "Inflige d'importants dégâts de souffle de lumière à tous les ennemis et les désoriente parfois pendant 2 à 5 tours."
 			},
 			"mp": 22,
 			"target": "All Enemies",
 			"elements": [
 				"light",
 				"confusion"
-			]
+			],
+			"fr": "Souffle béni"
 		},
 		"Black Breath": {
 			"attribute": "Breath",
 			"type": "Attack",
 			"power": 22,
 			"desc": {
-				"en": "Inflicts major dark-elemental breath damage on all enemies and occasionally prevents them from casting spells for 2 to 5 turns."
+				"en": "Inflicts major dark-elemental breath damage on all enemies and occasionally prevents them from casting spells for 2 to 5 turns.",
+				"fr": "Inflige d'importants dégâts de souffle de ténèbres à tous les ennemis et les empêche parfois de lancer des sorts pendant 4 à 7 tours."
 			},
 			"mp": 22,
 			"target": "All Enemies",
 			"elements": [
 				"darkness",
 				"seal"
-			]
+			],
+			"fr": "Noir soupir"
 		},
 		"Grim Breath": {
 			"attribute": "Breath",
 			"type": "Attack",
 			"power": 80,
 			"desc": {
-				"en": "Inflicts outrageous dark-elemental breath damage on all enemies."
+				"en": "Inflicts outrageous dark-elemental breath damage on all enemies.",
+				"fr": "Inflige de monstrueux dégâts de souffle de ténèbres à tous les ennemis."
 			},
 			"mp": 80,
 			"target": "All Enemies",
 			"elements": [
 				"darkness"
-			]
+			],
+			"fr": "Souffle sinistre"
 		},
 		"Deep Breath": {
 			"attribute": "Breath",
 			"type": "Support",
 			"power": 0,
 			"desc": {
-				"en": "Inhales long and deep, raising the damage inflicted by the user's next breath attack."
+				"en": "Inhales long and deep, raising the damage inflicted by the user's next breath attack.",
+				"fr": "Prend une très longue et très profonde inspiration qui augmente les dégâts infligés par l'attaque de souffle suivante de l'utilisateur."
 			},
 			"mp": 0,
-			"target": "Self"
+			"target": "Self",
+			"fr": "Grande inspiration"
 		},
 		"Sweet Breath": {
 			"attribute": "Breath",
 			"type": "Debuff",
 			"power": 3,
 			"desc": {
-				"en": "Lets out an exhalation of relaxation that puts all enemies to sleep for 2 to 5 turns."
+				"en": "Lets out an exhalation of relaxation that puts all enemies to sleep for 2 to 5 turns.",
+				"fr": "Laisse échapper un souffle apaisant qui endort tous les ennemis pendant 2 à 5 tours."
 			},
 			"mp": 3,
 			"target": "All Enemies",
 			"elements": [
 				"sleep"
-			]
+			],
+			"fr": "Haleine fraîche"
 		},
 		"Burning Breath": {
 			"attribute": "Breath",
 			"type": "Debuff",
 			"power": 4,
 			"desc": {
-				"en": "Lets out an exhalation of immobilisation that paralyses all enemies for 2 to 5 turns."
+				"en": "Lets out an exhalation of immobilisation that paralyses all enemies for 2 to 5 turns.",
+				"fr": "Laisse échapper un souffle tétanisant qui paralyse tous les ennemis pendant 2 à 5 tours."
 			},
 			"mp": 4,
 			"target": "All Enemies",
 			"elements": [
 				"paralysis"
-			]
+			],
+			"fr": "Souffle brûlant"
 		},
 		"Poison Breath": {
 			"attribute": "Breath",
 			"type": "Debuff",
 			"power": 3,
 			"desc": {
-				"en": "Exhales toxic fumes that poison all enemies."
+				"en": "Exhales toxic fumes that poison all enemies.",
+				"fr": "Souffle des fumées toxiques qui empoisonnent tous les ennemis."
 			},
 			"mp": 3,
 			"target": "All Enemies",
 			"elements": [
 				"poison"
-			]
+			],
+			"fr": "Haleine empoisonnée"
 		},
 		"Sword Dance": {
 			"attribute": "Dance",
 			"type": "Attack",
 			"power": 15,
 			"desc": {
-				"en": "A dance that damages enemies at random, 3 to 7 times in total."
+				"en": "A dance that damages enemies at random, 3 to 7 times in total.",
+				"fr": "Danse qui inflige des dégâts à des ennemis au hasard, de 3 à 7 fois en tout."
 			},
 			"mp": 15,
-			"target": "All Enemies"
+			"target": "All Enemies",
+			"fr": "Danse de l'épée"
 		},
 		"Fan Dango": {
 			"attribute": "Dance",
 			"type": "Attack",
 			"power": 8,
 			"desc": {
-				"en": "A dance that damages enemies at random, 3 or 4 times in total. The higher the user's agility, the greater the damage that will be inflicted."
+				"en": "A dance that damages enemies at random, 3 or 4 times in total. The higher the user's agility, the greater the damage that will be inflicted.",
+				"fr": "Danse qui inflige des dégâts à une cible, puis à des ennemis au hasard, de 3 à 4 fois en tout. Plus l'agilité de l'utilisateur est élevée, plus les dégâts sont importants."
 			},
 			"mp": 8,
-			"target": "Random Enemies"
+			"target": "Random Enemies",
+			"fr": "Danse de l'éventail"
 		},
 		"Butterfly Bop": {
 			"attribute": "Dance",
 			"type": "Attack",
 			"power": 15,
 			"desc": {
-				"en": "A dance that summons countless butterflies from the aether to attack all enemies. The higher the user's agility, the greter the damage that will be inflicted."
+				"en": "A dance that summons countless butterflies from the aether to attack all enemies. The higher the user's agility, the greter the damage that will be inflicted.",
+				"fr": "Danse qui invoque du néant d'innombrables papillons pour attaquer tous les ennemis. Plus l'agilité de l'utilisateur est élevée, plus les dégâts sont importants."
 			},
 			"mp": 15,
-			"target": "All Enemies"
+			"target": "All Enemies",
+			"fr": "Danse du papillon"
 		},
 		"Hotstepper": {
 			"attribute": "Dance",
 			"type": "Attack",
 			"power": 30,
 			"desc": {
-				"en": "A dance that inflicts extreme fire-elemental damage on all enemies. The higher ther user's level, the greater the damage that will be inflicted."
+				"en": "A dance that inflicts extreme fire-elemental damage on all enemies. The higher ther user's level, the greater the damage that will be inflicted.",
+				"fr": "Danse qui inflige d'impressionnants dégâts de feu à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts sont importants."
 			},
 			"mp": 30,
 			"target": "All Enemies",
 			"elements": [
 				"fire"
-			]
+			],
+			"fr": "Tango torride"
 		},
 		"Electric Boogie": {
 			"attribute": "Dance",
 			"type": "Attack",
 			"power": 30,
 			"desc": {
-				"en": "A dance that inflicts extreme electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+				"en": "A dance that inflicts extreme electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted.",
+				"fr": "Danse qui inflige d'impressionnants dégâts de foudre à tous les ennemis. Plus le niveau de l'utilisateur est élevé, plus les dégâts sont importants."
 			},
 			"mp": 30,
 			"target": "All Enemies",
 			"elements": [
 				"thunder"
-			]
+			],
+			"fr": "Ballet électrisant"
 		},
 		"Hustle Dance": {
 			"attribute": "Dance",
 			"type": "Heal",
 			"power": 40,
 			"desc": {
-				"en": "A dance that heals allies at random, 2 to 6 tiems in total. The higher the user's level, the greater the healing amount."
+				"en": "A dance that heals allies at random, 2 to 6 tiems in total. The higher the user's level, the greater the healing amount.",
+				"fr": "Danse qui soigne tous les alliés au hasard, de 2 à 6 fois en tous. Plus le niveau de l'utilisateur est élevé, plus les soins prodigués sont importants."
 			},
 			"mp": 40,
-			"target": "Random Allies"
+			"target": "Random Allies",
+			"fr": "Danse des soins"
 		},
 		"Kerplunk Dance": {
 			"attribute": "Dance",
 			"type": "Revive",
 			"power": null,
 			"desc": {
-				"en": "A dance that heals or resurrects all allies, including reserves, but at the cost of the user's life. The user cannot be resurrected in the same battle."
+				"en": "A dance that heals or resurrects all allies, including reserves, but at the cost of the user's life. The user cannot be resurrected in the same battle.",
+				"fr": "Danse qui soigne ou ressuscite tous les alliés, y compris les réservistes, mais coûte la vie à son utilisateur. Ce dernier ne peut pas être ressuscité lors du même combat."
 			},
 			"mp": 100,
 			"mpType": "all-with-min",
-			"target": "All Allies"
+			"target": "All Allies",
+			"fr": "Danse de conjuration"
 		},
 		"Weird Dance": {
 			"attribute": "Dance",
 			"type": "Debuff",
 			"power": 0,
 			"desc": {
-				"en": "A dance that decreases the MP of a single enemy."
+				"en": "A dance that decreases the MP of a single enemy.",
+				"fr": "Danse qui réduit temporairement les PM d'un ennemi."
 			},
 			"mp": 0,
-			"target": "Single Enemy"
+			"target": "Single Enemy",
+			"fr": "Drôle de danse"
 		},
 		"Tap Dance": {
 			"attribute": "Dance",
 			"type": "Debuff",
 			"power": 0,
 			"desc": {
-				"en": "A dance that absorbs some MP from a single enemy."
+				"en": "A dance that absorbs some MP from a single enemy.",
+				"fr": "Danse qui absorbe des PM à un ennemi."
 			},
 			"mp": 0,
 			"target": "Single Enemy",
 			"elements": [
 				"drain_mp"
-			]
+			],
+			"fr": "Claquettes"
 		},
 		"Fuddle Dance": {
 			"attribute": "Dance",
 			"type": "Debuff",
 			"power": 2,
 			"desc": {
-				"en": "A dance that confuses all enemies for 2 to 5 turns."
+				"en": "A dance that confuses all enemies for 2 to 5 turns.",
+				"fr": "Danse qui désoriente tous les ennemis pendant 2 à 5 tours."
 			},
 			"mp": 2,
 			"target": "All Enemies",
 			"elements": [
 				"confusion"
-			]
+			],
+			"fr": "Danse de confusion"
 		},
 		"Sultry Dance": {
 			"attribute": "Dance",
 			"type": "Debuff",
 			"power": 2,
 			"desc": {
-				"en": "A bewitching dance that stuns all enemies for 1 turn."
+				"en": "A bewitching dance that stuns all enemies for 1 turn.",
+				"fr": "Danse ensorcelante qui étourdit tous les ennemis pendant 1 tour."
 			},
 			"mp": 2,
 			"target": "All Enemies",
 			"elements": [
 				"rest"
-			]
+			],
+			"fr": "Danse sensuelle"
 		},
 		"Death Dance": {
 			"attribute": "Dance",
 			"type": "Debuff",
 			"power": 6,
 			"desc": {
-				"en": "A dance that kills all enemies instantly."
+				"en": "A dance that kills all enemies instantly.",
+				"fr": "Danse qui tue tous les ennemis sur le coup."
 			},
 			"mp": 6,
 			"target": "All Enemies",
 			"elements": [
 				"sudden_death"
-			]
+			],
+			"fr": "Danse de la mort"
 		},
 		"Mirror Moves": {
 			"attribute": "Dance",
 			"type": "Debuff",
 			"power": 32,
 			"desc": {
-				"en": "A secret technique that copies an enemy's dance moves step-for-step, effectively reflecting their dance back at them. Protects all allies once only."
+				"en": "A secret technique that copies an enemy's dance moves step-for-step, effectively reflecting their dance back at them. Protects all allies once only.",
+				"fr": "Technique secrète reproduisant fidèlement les pas de danse d'un ennemi, lui renvoyant sa danse. Protège tous les alliés uniquement une fois."
 			},
 			"mp": 32,
-			"target": "All Allies"
+			"target": "All Allies",
+			"fr": "Contredanse"
 		},
 		"Intense Defense": {
 			"attribute": "Other",
 			"type": "Other",
 			"power": 3,
 			"desc": {
-				"en": "Assumes an impenetrable defensive stance that reduces most damage received by 9/10. Can only be used once per battle."
+				"en": "Assumes an impenetrable defensive stance that reduces most damage received by 9/10. Can only be used once per battle.",
+				"fr": "Prend une posture défensive impénétrable qui réduit la plupart des dégâts subis de 90 %. Utilisable uniquement une fois par combat."
 			},
 			"mp": 3,
-			"target": "Self"
+			"target": "Self",
+			"fr": "Défense intense"
 		}
 	},
 	"talents": {

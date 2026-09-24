@@ -1557,6 +1557,34 @@ h3,
   font-size: .85rem;
 }
 
+.talent-popover .talent-desc {
+  margin: 0 0 .5rem;
+}
+
+.talent-steps {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.talent-steps li {
+  display: flex;
+  gap: .6rem;
+  line-height: 1.5;
+}
+
+.talent-steps .talent-sp {
+  flex: none;
+  min-width: 2.2em;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: var(--dl-muted);
+}
+
+.talent-steps .trait span:last-child {
+  font-style: italic;
+}
+
 .synthesis-table .cell-skill {
   width: 130px;
   font-size: .9em;

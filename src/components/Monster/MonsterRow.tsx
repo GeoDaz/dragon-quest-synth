@@ -1,6 +1,7 @@
 import Family from './Family';
 import Rank from './Rank';
 import Lower from './Lower';
+import Talent from './Talent';
 import MonsterImg from './MonsterImg';
 import { LOWER } from '@/hooks/useSynthesisTrail';
 import { makeClassName } from '@/functions';
@@ -11,7 +12,6 @@ import useTranslate from '@/hooks/useTranslate';
 import { TrailContext } from '@/context/trail';
 import Egg from './Egg';
 import Icon from '../Icon';
-import Described from '../Described';
 import MonsterDetailsModal from './MonsterDetailsModal';
 import { DetailsContext } from '@/context/details';
 import { areasNames, seasonsIcons, weathersIcons } from '@/consts/data';
@@ -77,8 +77,6 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 	const [open, setOpen] = useState(false);
 	const displayName = (isFr && monster.nom) || monster.name;
 	const skill = details[monster.name]?.skill;
-	const skillTerm = skill ? terms.skills[skill] : undefined;
-	const skillName = (isFr && skillTerm?.fr) || skillTerm?.en || skill;
 	const places = spawns[monster.name];
 	return (
 		<>
@@ -150,12 +148,8 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 			</td>
 			{hasDetails && (
 				<td className="cell-skill">
-					{skillName ?
-						<Described
-							text={(isFr && skillTerm?.desc?.fr) || skillTerm?.desc?.en}
-						>
-							{skillName}
-						</Described>
+					{skill ?
+						<Talent name={skill} />
 					:	<span className="cell-empty">&mdash;</span>}
 				</td>
 			)}

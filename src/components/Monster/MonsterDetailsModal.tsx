@@ -16,6 +16,7 @@ import Described from '../Described';
 import Family from './Family';
 import Rank from './Rank';
 import MonsterImg from './MonsterImg';
+import Talent from './Talent';
 
 const STATS: { key: keyof MonsterStats; label: string }[] = [
 	{ key: 'hp', label: 'HP' },
@@ -157,7 +158,9 @@ const MonsterDetailsModal: React.FC<Props> = ({
 								{!!details.skill && (
 									<li>
 										<span>{translateUI('Skill set')}</span>
-										<b>{named(details.skill, terms.skills)}</b>
+										<b>
+											<Talent name={details.skill} />
+										</b>
 									</li>
 								)}
 								{!!details.randomSkills?.length && (
@@ -165,8 +168,10 @@ const MonsterDetailsModal: React.FC<Props> = ({
 										<div>{translateUI('2nd skill among')}</div>
 										<div>
 											{details.randomSkills.map((name, i) => (
-												<div key={name}>
-													<b>{named(name, terms.skills)}</b>
+												<div key={name} className="text-end">
+													<b>
+														<Talent name={name} />
+													</b>
 												</div>
 											))}
 										</div>

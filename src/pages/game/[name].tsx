@@ -5,6 +5,7 @@ import PageLines, {
 	gameFarewell,
 	gameItems,
 	gameSpawns,
+	gameTalents,
 	gameTerms,
 } from '..';
 import { reverseSynth } from '@/functions/transformer/synthesis';
@@ -42,8 +43,19 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 		const farewell = gameFarewell(gameName);
 		const items = gameItems(gameName);
 		const spawns = gameSpawns(gameName);
+		const talents = gameTalents(gameName, details);
 		return {
-			props: { families, images, details, terms, farewell, items, spawns, game },
+			props: {
+				families,
+				images,
+				details,
+				terms,
+				farewell,
+				items,
+				spawns,
+				talents,
+				game,
+			},
 		};
 	} catch (e) {
 		console.error(e);

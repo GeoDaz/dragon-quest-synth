@@ -536,8 +536,10 @@
 		"Defence +12": {
 			"en": "Defence +12",
 			"desc": {
-				"en": "Raises defence by 12."
-			}
+				"en": "Raises defence by 12.",
+				"fr": "Augmente la défense de 16."
+			},
+			"fr": "Défense +16"
 		},
 		"Defence +24": {
 			"en": "Defence +24",
@@ -929,7 +931,8 @@
 			"en": "Max. HP +36",
 			"fr": "PV max. +36",
 			"desc": {
-				"en": "Raises max. HP by 36."
+				"en": "Raises max. HP by 36.",
+				"fr": "Augmente les PV max. de 36."
 			}
 		},
 		"Max. HP +4": {
@@ -1484,8 +1487,10 @@
 		"Ultra Antioxidant": {
 			"en": "Ultra Antioxidant",
 			"desc": {
-				"en": "Greatly increases resistance to poison and severe poison."
-			}
+				"en": "Greatly increases resistance to poison and severe poison.",
+				"fr": "Augmente beaucoup la résistance à l'empoisonnement et à l'empoisonnement sévère."
+			},
+			"fr": "Ultra Antitoxydant"
 		},
 		"Ultra Bang Ward": {
 			"en": "Ultra Bang Ward",
@@ -1756,8 +1761,10 @@
 		"Ultra Whoosh Ward": {
 			"en": "Ultra Whoosh Ward",
 			"desc": {
-				"en": "Greatly increases resistance to wind-elemental attacks."
-			}
+				"en": "Greatly increases resistance to wind-elemental attacks.",
+				"fr": "Augmente beaucoup la résistance aux attaques élémentaires de vent."
+			},
+			"fr": "Ultraprotection Tornade"
 		},
 		"Ultra Zam Ward": {
 			"en": "Ultra Zam Ward",
@@ -2126,7 +2133,8 @@
 			"fr": "Brisquard"
 		},
 		"Martial Maven": {
-			"en": "Martial Maven"
+			"en": "Martial Maven",
+			"fr": "Sommité de la savate"
 		},
 		"Magic Maven": {
 			"en": "Magic Maven",
@@ -2161,14 +2169,16 @@
 			"fr": "Assassin"
 		},
 		"Hulk": {
-			"en": "Hulk"
+			"en": "Hulk",
+			"fr": "Malabar"
 		},
 		"Martyr": {
 			"en": "Martyr",
 			"fr": "Martyr"
 		},
 		"Mad Scientist": {
-			"en": "Mad Scientist"
+			"en": "Mad Scientist",
+			"fr": "Savant fou"
 		},
 		"Prankster": {
 			"en": "Prankster",
@@ -2195,7 +2205,8 @@
 			"fr": "Toxicologue"
 		},
 		"Anaesthetist": {
-			"en": "Anaesthetist"
+			"en": "Anaesthetist",
+			"fr": "Anesthésiste"
 		},
 		"Fortifier": {
 			"en": "Fortifier",
@@ -2246,256 +2257,338 @@
 			"fr": "Mage maousse"
 		},
 		"Smarty-Pants": {
-			"en": "Smarty-Pants"
+			"en": "Smarty-Pants",
+			"fr": "Petit malin"
 		},
 		"Paragon": {
 			"en": "Paragon"
 		},
 		"Wrecker": {
-			"en": "Wrecker"
+			"en": "Wrecker",
+			"fr": "Concasseur"
 		},
 		"Musclehead": {
 			"en": "Musclehead"
 		},
 		"Duelist": {
-			"en": "Duelist"
+			"en": "Duelist",
+			"fr": "Duelliste"
 		},
 		"Maniac": {
-			"en": "Maniac"
+			"en": "Maniac",
+			"fr": "Forcené"
 		},
 		"Leading Light": {
-			"en": "Leading Light"
+			"en": "Leading Light",
+			"fr": "Meneur de troubles"
 		},
 		"Slayer": {
-			"en": "Slayer"
+			"en": "Slayer",
+			"fr": "Saigneur"
 		},
 		"Destroyer": {
-			"en": "Destroyer"
+			"en": "Destroyer",
+			"fr": "Destructeur"
 		},
 		"Respirator": {
-			"en": "Respirator"
+			"en": "Respirator",
+			"fr": "Sophrologue"
 		},
 		"Fire Chief": {
-			"en": "Fire Chief"
+			"en": "Fire Chief",
+			"fr": "Combattant du feu"
 		},
 		"Cold Snapper": {
-			"en": "Cold Snapper"
+			"en": "Cold Snapper",
+			"fr": "Frigoriste"
 		},
 		"Party Monster": {
-			"en": "Party Monster"
+			"en": "Party Monster",
+			"fr": "Danseur macabre"
 		},
 		"Rockin’ Roller": {
-			"en": "Rockin’ Roller"
+			"en": "Rockin’ Roller",
+			"fr": "Rockstar"
 		},
 		"Pop Idol": {
-			"en": "Pop Idol"
+			"en": "Pop Idol",
+			"fr": "Popstar"
 		},
 		"Firebrand": {
-			"en": "Firebrand"
+			"en": "Firebrand",
+			"fr": "Crâmeur"
 		},
 		"Pyrotechnician": {
-			"en": "Pyrotechnician"
+			"en": "Pyrotechnician",
+			"fr": "Pyrotechnicien"
 		},
 		"Freeze": {
-			"en": "Freeze"
+			"en": "Freeze",
+			"fr": "Congélateur"
 		},
 		"Demoniac": {
-			"en": "Demoniac"
+			"en": "Demoniac",
+			"fr": "Teigne"
 		},
 		"Blighter": {
-			"en": "Blighter"
+			"en": "Blighter",
+			"fr": "Mauvais génie"
 		},
 		"Dark Horse": {
-			"en": "Dark Horse"
+			"en": "Dark Horse",
+			"fr": "Bête noire"
 		},
 		"Evil Genius": {
-			"en": "Evil Genius"
+			"en": "Evil Genius",
+			"fr": "Génie du mal"
 		},
 		"Agent Provocateur": {
-			"en": "Agent Provocateur"
+			"en": "Agent Provocateur",
+			"fr": "Non-conformiste"
 		},
 		"Bobby Dazzler": {
-			"en": "Bobby Dazzler"
+			"en": "Bobby Dazzler",
+			"fr": "Tentateur"
 		},
 		"Pop Diva": {
-			"en": "Pop Diva"
+			"en": "Pop Diva",
+			"fr": "Diva"
 		},
 		"Heavenly Herald": {
-			"en": "Heavenly Herald"
+			"en": "Heavenly Herald",
+			"fr": "Héraut céleste"
 		},
 		"Just Ruler": {
-			"en": "Just Ruler"
+			"en": "Just Ruler",
+			"fr": "Roi probe"
 		},
 		"Charge Leader": {
-			"en": "Charge Leader"
+			"en": "Charge Leader",
+			"fr": "Chef énergique"
 		},
 		"Lightning Rod": {
-			"en": "Lightning Rod"
+			"en": "Lightning Rod",
+			"fr": "Foudre de guerre"
 		},
 		"Vegabond": {
-			"en": "Vegabond"
+			"en": "Vegabond",
+			"fr": "Vagabond"
 		},
 		"Snow Drifter": {
-			"en": "Snow Drifter"
+			"en": "Snow Drifter",
+			"fr": "Chasse-neige"
 		},
 		"Bombshell": {
-			"en": "Bombshell"
+			"en": "Bombshell",
+			"fr": "Détonateur"
 		},
 		"Storm Chaser": {
-			"en": "Storm Chaser"
+			"en": "Storm Chaser",
+			"fr": "Chasseur de tempête"
 		},
 		"Mariner": {
-			"en": "Mariner"
+			"en": "Mariner",
+			"fr": "Marinier"
 		},
 		"Water Baby": {
-			"en": "Water Baby"
+			"en": "Water Baby",
+			"fr": "Maître-nageur"
 		},
 		"Hardliner": {
-			"en": "Hardliner"
+			"en": "Hardliner",
+			"fr": "Boss du bourre-pif"
 		},
 		"Enigma": {
-			"en": "Enigma"
+			"en": "Enigma",
+			"fr": "Cachottier"
 		},
 		"Vaudevillan": {
-			"en": "Vaudevillan"
+			"en": "Vaudevillan",
+			"fr": "Saltimbanque"
 		},
 		"Airhead": {
-			"en": "Airhead"
+			"en": "Airhead",
+			"fr": "Voltigeur"
 		},
 		"Empath": {
-			"en": "Empath"
+			"en": "Empath",
+			"fr": "Bras de la Justice"
 		},
 		"Cool Customer": {
-			"en": "Cool Customer"
+			"en": "Cool Customer",
+			"fr": "Tête froide"
 		},
 		"Hater": {
-			"en": "Hater"
+			"en": "Hater",
+			"fr": "Sac de bile"
 		},
 		"Super Naturalist": {
-			"en": "Super Naturalist"
+			"en": "Super Naturalist",
+			"fr": "Super naturaliste"
 		},
 		"Cleric": {
-			"en": "Cleric"
+			"en": "Cleric",
+			"fr": "Ecclésiastique"
 		},
 		"Cure-All": {
-			"en": "Cure-All"
+			"en": "Cure-All",
+			"fr": "Guérisseur"
 		},
 		"Devil's Advocate": {
-			"en": "Devil's Advocate"
+			"en": "Devil's Advocate",
+			"fr": "Avocat du diable"
 		},
 		"Nuisance": {
-			"en": "Nuisance"
+			"en": "Nuisance",
+			"fr": "Boulet"
 		},
 		"Doomsayer": {
-			"en": "Doomsayer"
+			"en": "Doomsayer",
+			"fr": "Tourmenteur"
 		},
 		"Mouth Guard": {
-			"en": "Mouth Guard"
+			"en": "Mouth Guard",
+			"fr": "Surprotecteur"
 		},
 		"Protector": {
-			"en": "Protector"
+			"en": "Protector",
+			"fr": "Bon génie"
 		},
 		"Heretic": {
-			"en": "Heretic"
+			"en": "Heretic",
+			"fr": "Hérétique"
 		},
 		"Mystic": {
-			"en": "Mystic"
+			"en": "Mystic",
+			"fr": "Mystique"
 		},
 		"Sage": {
-			"en": "Sage"
+			"en": "Sage",
+			"fr": "Sage"
 		},
 		"Grump": {
-			"en": "Grump"
+			"en": "Grump",
+			"fr": "Ronchonchon"
 		},
 		"Breath Worker": {
-			"en": "Breath Worker"
+			"en": "Breath Worker",
+			"fr": "Souffleteur"
 		},
 		"Bad Breather": {
-			"en": "Bad Breather"
+			"en": "Bad Breather",
+			"fr": "Pue-du-bec"
 		},
 		"Altruist": {
-			"en": "Altruist"
+			"en": "Altruist",
+			"fr": "Altruiste"
 		},
 		"Walking Disaster": {
-			"en": "Walking Disaster"
+			"en": "Walking Disaster",
+			"fr": "Désastre ambulant"
 		},
 		"Warmonger": {
-			"en": "Warmonger"
+			"en": "Warmonger",
+			"fr": "Va-t-en-guerre"
 		},
 		"Pest Controller": {
-			"en": "Pest Controller"
+			"en": "Pest Controller",
+			"fr": "Éradicateur"
 		},
 		"Multidisciplinarian": {
-			"en": "Multidisciplinarian"
+			"en": "Multidisciplinarian",
+			"fr": "Maître polyvalent"
 		},
 		"Rug Cutter": {
-			"en": "Rug Cutter"
+			"en": "Rug Cutter",
+			"fr": "Vedette de bal"
 		},
 		"Rainmaker": {
-			"en": "Rainmaker"
+			"en": "Rainmaker",
+			"fr": "Faiseur de pluie"
 		},
 		"Sovereign": {
-			"en": "Sovereign"
+			"en": "Sovereign",
+			"fr": "Souverain"
 		},
 		"Dragonlord": {
-			"en": "Dragonlord"
+			"en": "Dragonlord",
+			"fr": "Lordragon"
 		},
 		"Hargon": {
-			"en": "Hargon"
+			"en": "Hargon",
+			"fr": "Kaos"
 		},
 		"Malroth": {
-			"en": "Malroth"
+			"en": "Malroth",
+			"fr": "Malroth"
 		},
 		"Aamon": {
-			"en": "Aamon"
+			"en": "Aamon",
+			"fr": "Aamon"
 		},
 		"Bishop Ladja": {
-			"en": "Bishop Ladja"
+			"en": "Bishop Ladja",
+			"fr": "Erebos le Fou"
 		},
 		"Nimzo": {
-			"en": "Nimzo"
+			"en": "Nimzo",
+			"fr": "Nimzo"
 		},
 		"Murdaw": {
-			"en": "Murdaw"
+			"en": "Murdaw",
+			"fr": "Meurtor"
 		},
 		"Mortamor": {
-			"en": "Mortamor"
+			"en": "Mortamor",
+			"fr": "Mortamor"
 		},
 		"Orgodemir": {
-			"en": "Orgodemir"
+			"en": "Orgodemir",
+			"fr": "Orgodémir"
 		},
 		"Dhoulmagus": {
-			"en": "Dhoulmagus"
+			"en": "Dhoulmagus",
+			"fr": "Dhoulmagus"
 		},
 		"Rhapthorne": {
-			"en": "Rhapthorne"
+			"en": "Rhapthorne",
+			"fr": "Rhapthorne"
 		},
 		"Greygnarl": {
-			"en": "Greygnarl"
+			"en": "Greygnarl",
+			"fr": "Grizius"
 		},
 		"Barbarus": {
-			"en": "Barbarus"
+			"en": "Barbarus",
+			"fr": "Barbarus"
 		},
 		"Fallen Angel Corvus": {
-			"en": "Fallen Angel Corvus"
+			"en": "Fallen Angel Corvus",
+			"fr": "Corvus"
 		},
 		"Razerburn": {
-			"en": "Razerburn"
+			"en": "Razerburn",
+			"fr": "Razban"
 		},
 		"Nelgel The Netherfiend": {
-			"en": "Nelgel The Netherfiend"
+			"en": "Nelgel The Netherfiend",
+			"fr": "Infernal Nelgel"
 		},
 		"Jasper Unbound": {
-			"en": "Jasper Unbound"
+			"en": "Jasper Unbound",
+			"fr": "Jasper déchaîné"
 		},
 		"Mordegon, Lord of Shadows": {
-			"en": "Mordegon, Lord of Shadows"
+			"en": "Mordegon, Lord of Shadows",
+			"fr": "Mortégor"
 		},
 		"Calasmos": {
-			"en": "Calasmos"
+			"en": "Calasmos",
+			"fr": "Kalasmos"
 		},
 		"Uberkilling Machine": {
-			"en": "Uberkilling Machine"
+			"en": "Uberkilling Machine",
+			"fr": "Mékanocinglé"
 		},
 		"Fluffy": {
 			"en": "Fluffy",
@@ -2510,37 +2603,48 @@
 			"fr": "Agent infiltré"
 		},
 		"Wyrmhole Dragon": {
-			"en": "Wyrmhole Dragon"
+			"en": "Wyrmhole Dragon",
+			"fr": "Dragon du temps"
 		},
 		"Baramos": {
-			"en": "Baramos"
+			"en": "Baramos",
+			"fr": "Baramos"
 		},
 		"Supreme Healer": {
-			"en": "Supreme Healer"
+			"en": "Supreme Healer",
+			"fr": "Guérisseur suprême"
 		},
 		"Lord Of The Dragovians": {
-			"en": "Lord Of The Dragovians"
+			"en": "Lord Of The Dragovians",
+			"fr": "Seigneur des Dragoviens"
 		},
 		"Xenlon": {
-			"en": "Xenlon"
+			"en": "Xenlon",
+			"fr": "Xenlon"
 		},
 		"Ramia": {
-			"en": "Ramia"
+			"en": "Ramia",
+			"fr": "Ramia"
 		},
 		"The Almighty": {
-			"en": "The Almighty"
+			"en": "The Almighty",
+			"fr": "Tout-puissant"
 		},
 		"Psaro The Manslayer": {
-			"en": "Psaro The Manslayer"
+			"en": "Psaro The Manslayer",
+			"fr": "Psaro l'Exterminateur"
 		},
 		"Zoma": {
-			"en": "Zoma"
+			"en": "Zoma",
+			"fr": "Zoma"
 		},
 		"Estark": {
-			"en": "Estark"
+			"en": "Estark",
+			"fr": "Estark"
 		},
 		"Nokturnus": {
-			"en": "Nokturnus"
+			"en": "Nokturnus",
+			"fr": "Nokturnus"
 		},
 		"Air Fryer": {
 			"en": "Air Fryer",
@@ -2575,7 +2679,8 @@
 			"fr": "Pentacliste SP"
 		},
 		"Blow Hard": {
-			"en": "Blow Hard"
+			"en": "Blow Hard",
+			"fr": "Souffle-souffre"
 		},
 		"HP Booster I": {
 			"en": "HP Booster I",
@@ -2682,7 +2787,8 @@
 			"fr": "Protection Plouf"
 		},
 		"Woosh Guard": {
-			"en": "Woosh Guard"
+			"en": "Woosh Guard",
+			"fr": "Protection Tornade"
 		},
 		"Crag Ward": {
 			"en": "Crag Ward",
@@ -2749,13 +2855,16 @@
 			"fr": "Protection Mort subite"
 		},
 		"Sparkling Warder": {
-			"en": "Sparkling Warder"
+			"en": "Sparkling Warder",
+			"fr": "Protection d'enfer"
 		},
 		"Hard Warder": {
-			"en": "Hard Warder"
+			"en": "Hard Warder",
+			"fr": "Protection suprême"
 		},
 		"Holy Warder": {
-			"en": "Holy Warder"
+			"en": "Holy Warder",
+			"fr": "Protection Divine"
 		},
 		"Magma Shield": {
 			"en": "Magma Shield",
@@ -2785,10 +2894,12 @@
 			"en": "Cheesy Grin"
 		},
 		"Taste Buddies": {
-			"en": "Taste Buddies"
+			"en": "Taste Buddies",
+			"fr": "Trio gourmand"
 		},
 		"Swirling Dervish": {
-			"en": "Swirling Dervish"
+			"en": "Swirling Dervish",
+			"fr": "Bombe glacée"
 		}
 	}
 }

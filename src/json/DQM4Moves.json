@@ -1,0 +1,7913 @@
+{
+	"moves": {
+		"メラ": {
+			"en": "Frizz",
+			"desc": {
+				"en": "Inflicts minor fire-elemental spell damage on a single enemy."
+			},
+			"mp": 2,
+			"target": "Single Enemy",
+			"elements": [
+				"fire"
+			]
+		},
+		"メラミ": {
+			"en": "Frizzle",
+			"desc": {
+				"en": "Inflicts medium fire-elemental spell damage on a single enemy."
+			},
+			"mp": 5,
+			"target": "Single Enemy",
+			"elements": [
+				"fire"
+			]
+		},
+		"メラゾーマ": {
+			"en": "Kafrizz",
+			"desc": {
+				"en": "Inflicts major fire-elemental spell damage on a single enemy."
+			},
+			"mp": 12,
+			"target": "Single Enemy",
+			"elements": [
+				"fire"
+			]
+		},
+		"メラガイアー": {
+			"en": "Kafrizzle",
+			"desc": {
+				"en": "Inflicts extreme fire-elemental spell damage on a single enemy."
+			},
+			"mp": 32,
+			"target": "Single Enemy",
+			"elements": [
+				"fire"
+			]
+		},
+		"ザバ": {
+			"en": "Splish",
+			"desc": {
+				"en": "Inflicts minor water-elemental spell damage on a single enemy."
+			},
+			"mp": 2,
+			"target": "Single Enemy",
+			"elements": [
+				"water"
+			]
+		},
+		"ザバラ": {
+			"en": "Splash",
+			"desc": {
+				"en": "Inflicts medium water-elemental spell damage on a single enemy."
+			},
+			"mp": 5,
+			"target": "Single Enemy",
+			"elements": [
+				"water"
+			]
+		},
+		"バギ": {
+			"en": "Woosh",
+			"desc": {
+				"en": "Inflicts minor wind-elemental spell damage on all enemies."
+			},
+			"mp": 4,
+			"target": "All Enemies",
+			"elements": [
+				"wind"
+			]
+		},
+		"バギマ": {
+			"en": "Swoosh",
+			"desc": {
+				"en": "Inflicts medium wind-elemental spell damage on all enemies."
+			},
+			"mp": 11,
+			"target": "All Enemies",
+			"elements": [
+				"wind"
+			]
+		},
+		"バギクロス": {
+			"en": "Kaswoosh",
+			"desc": {
+				"en": "Inflicts major wind-elemental spell damage on all enemies."
+			},
+			"mp": 22,
+			"target": "All Enemies",
+			"elements": [
+				"wind"
+			]
+		},
+		"バギムーチョ": {
+			"en": "Kaswooshle",
+			"desc": {
+				"en": "Inflicts extreme wind-elemental spell damage on all enemies."
+			},
+			"mp": 54,
+			"target": "All Enemies",
+			"elements": [
+				"wind"
+			]
+		},
+		"ジバリア": {
+			"en": "Crag",
+			"desc": {
+				"en": "Inflicts minor earth-elemental spell damage on all enemies, but not until the following round."
+			},
+			"mp": 5,
+			"target": "All Enemies",
+			"elements": [
+				"earth"
+			]
+		},
+		"ジバリカ": {
+			"en": "Craggle",
+			"desc": {
+				"en": "Inflicts medium earth-elemental spell damage on all enemies, but not until the following round."
+			},
+			"mp": 12,
+			"target": "All Enemies",
+			"elements": [
+				"earth"
+			]
+		},
+		"イオ": {
+			"en": "Bang",
+			"desc": {
+				"en": "Inflicts minor explosive spell damage on all enemies."
+			},
+			"mp": 5,
+			"target": "All Enemies",
+			"elements": [
+				"explosion"
+			]
+		},
+		"イオラ": {
+			"en": "Boom",
+			"desc": {
+				"en": "Inflicts medium explosive spell damage on all enemies."
+			},
+			"mp": 12,
+			"target": "All Enemies",
+			"elements": [
+				"explosion"
+			]
+		},
+		"ヒャド": {
+			"en": "Crack",
+			"desc": {
+				"en": "Inflicts minor ice-elemental spell damage on a single enemy."
+			},
+			"mp": 3,
+			"target": "Single Enemy",
+			"elements": [
+				"freeze"
+			]
+		},
+		"ヒャダルコ": {
+			"en": "Crackle",
+			"desc": {
+				"en": "Inflicts medium ice-elemental spell damage on all enemies."
+			},
+			"mp": 12,
+			"target": "All Enemies",
+			"elements": [
+				"freeze"
+			]
+		},
+		"マヒャド": {
+			"en": "Kacrack",
+			"desc": {
+				"en": "Inflicts major ice-elemental spell damage on all enemies."
+			},
+			"mp": 22,
+			"target": "All Enemies",
+			"elements": [
+				"freeze"
+			]
+		},
+		"マヒャデドス": {
+			"en": "Kacrackle",
+			"desc": {
+				"en": "Inflicts extreme ice-elemental spell damage on all enemies."
+			},
+			"mp": 58,
+			"target": "All Enemies",
+			"elements": [
+				"freeze"
+			]
+		},
+		"デイン": {
+			"en": "Zap",
+			"desc": {
+				"en": "Inflicts minor electrical spell damage on a single enemy."
+			},
+			"mp": 2,
+			"target": "Single Enemy",
+			"elements": [
+				"thunder"
+			]
+		},
+		"ライデイン": {
+			"en": "Zapple",
+			"desc": {
+				"en": "Inflicts medium electrical spell damage on all enemies."
+			},
+			"mp": 13,
+			"target": "All Enemies",
+			"elements": [
+				"thunder"
+			]
+		},
+		"ギラ": {
+			"en": "Sizz",
+			"desc": {
+				"en": "Inflicts minor light-elemental spell damage on all enemies."
+			},
+			"mp": 4,
+			"target": "All Enemies",
+			"elements": [
+				"light"
+			]
+		},
+		"ベギラマ": {
+			"en": "Sizzle",
+			"desc": {
+				"en": "Inflicts medium light-elemental spell damage on all enemies."
+			},
+			"mp": 11,
+			"target": "All Enemies",
+			"elements": [
+				"light"
+			]
+		},
+		"ドルマ": {
+			"en": "Zam",
+			"desc": {
+				"en": "Inflicts minor dark-elemental spell damage on a single enemy."
+			},
+			"mp": 3,
+			"target": "Single Enemy",
+			"elements": [
+				"darkness"
+			]
+		},
+		"ドルクマ": {
+			"en": "Zammle",
+			"desc": {
+				"en": "Inflicts medium dark-elemental spell damage on a single enemy."
+			},
+			"mp": 6,
+			"target": "Single Enemy",
+			"elements": [
+				"darkness"
+			]
+		},
+		"マダンチョ": {
+			"en": "Magic Pop",
+			"desc": {
+				"en": "Uses 1/4 of remaining MP to inflict light-elemental spell damage on a single enemy, for a weaker rendition of a more extreme spell. The more MP the monster has at the time of casting, the greater the damage will be."
+			},
+			"mp": 25,
+			"mpType": "percentage",
+			"target": "Single Enemy",
+			"elements": [
+				"light"
+			]
+		},
+		"ホイミ": {
+			"en": "Heal",
+			"desc": {
+				"en": "Restores 28 or more HP to a single ally."
+			},
+			"mp": 3,
+			"target": "Single Ally"
+		},
+		"ベホイミ": {
+			"en": "Midheal",
+			"desc": {
+				"en": "Restores 76 or more HP to a single ally."
+			},
+			"mp": 8,
+			"target": "Single Ally"
+		},
+		"ザオラル": {
+			"en": "Zing",
+			"desc": {
+				"en": "Resurrects a fallen ally. Has a chance of failure."
+			},
+			"mp": 8,
+			"target": "Single Ally"
+		},
+		"ザオリク": {
+			"en": "Kazing",
+			"desc": {
+				"en": "Resurrects a fallen ally without fail."
+			},
+			"mp": 80,
+			"target": "Single Ally"
+		},
+		"キアリー": {
+			"en": "Squelch",
+			"desc": {
+				"en": "Cures all allies of poison or severe poison."
+			},
+			"mp": 2,
+			"target": "All Allies",
+			"elements": [
+				"poison"
+			]
+		},
+		"キアリク": {
+			"en": "Tingle",
+			"desc": {
+				"en": "Cures all allies of paralysis."
+			},
+			"mp": 2,
+			"target": "All Allies",
+			"elements": [
+				"paralysis"
+			]
+		},
+		"キアラル": {
+			"en": "Defuddle",
+			"desc": {
+				"en": "Cures all allies of confusion."
+			},
+			"mp": 2,
+			"target": "All Allies",
+			"elements": [
+				"confusion"
+			]
+		},
+		"ザメハ": {
+			"en": "Cock-a-Doodle-Doo",
+			"desc": {
+				"en": "Cures all allies of sleep."
+			},
+			"mp": 2,
+			"target": "All Allies",
+			"elements": [
+				"sleep"
+			]
+		},
+		"バイキルト": {
+			"en": "Oomph",
+			"desc": {
+				"en": "Greatly increases the attack of a single ally for 2 to 5 turns."
+			},
+			"mp": 6,
+			"target": "Single Ally",
+			"effect": "Attack Up"
+		},
+		"暗黒斬": {
+			"en": "Blightsplitter",
+			"desc": {
+				"en": "A slashing attack that inflicts medium dark-elemental damage on all enemies."
+			},
+			"mp": 15,
+			"target": "All Enemies",
+			"elements": [
+				"darkness"
+			]
+		},
+		"会心封じ": {
+			"en": "Critical Meltdown",
+			"desc": {
+				"en": "Prevents a single enemy from inflicting critical hits for 4 to 7 turns."
+			},
+			"mp": 6,
+			"target": "Single Enemy"
+		},
+		"バイシオン": {
+			"en": "Oomphle",
+			"desc": {
+				"en": "Increases the attack of all allies for 2 to 5 turns."
+			},
+			"mp": 10,
+			"target": "All Allies",
+			"effect": "Attack Up"
+		},
+		"ヘナトス": {
+			"en": "Blunt",
+			"desc": {
+				"en": "Greatly decreases the attack of a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			},
+			"mp": 6,
+			"target": "Single Enemy",
+			"effect": "Attack Down"
+		},
+		"スカラ": {
+			"en": "Buff",
+			"desc": {
+				"en": "Greatly increases the defence of a single ally for 4 to 7 turns."
+			},
+			"mp": 3,
+			"target": "Single Ally",
+			"effect": "Defence Up"
+		},
+		"スクルト": {
+			"en": "Kabuff",
+			"desc": {
+				"en": "Increases the defence of all allies for 4 to 7 turns."
+			},
+			"mp": 4,
+			"target": "All Allies",
+			"effect": "Defence Up"
+		},
+		"ルカニ": {
+			"en": "Sap",
+			"desc": {
+				"en": "Greatly decreases the defence of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			},
+			"mp": 3,
+			"target": "Single Enemy",
+			"effect": "Defence Down"
+		},
+		"ルカナン": {
+			"en": "Kasap",
+			"desc": {
+				"en": "Decreases the defence of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			},
+			"mp": 4,
+			"target": "All Enemies",
+			"effect": "Defence Down"
+		},
+		"ピオラ": {
+			"en": "Accelerate",
+			"desc": {
+				"en": "Greatly increases the agility of a single ally for 4 to 7 turns."
+			},
+			"mp": 3,
+			"target": "Single Ally",
+			"effect": "Agility Up"
+		},
+		"ピオリム": {
+			"en": "Acceleratle",
+			"desc": {
+				"en": "Increases the agility of all allies for 4 to 7 turns."
+			},
+			"mp": 4,
+			"target": "All Allies",
+			"effect": "Agility Up"
+		},
+		"ボミエ": {
+			"en": "Decelerate",
+			"desc": {
+				"en": "Greatly decreases the agility of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			},
+			"mp": 3,
+			"target": "Single Enemy",
+			"effect": "Agility Down"
+		},
+		"ボミオス": {
+			"en": "Deceleratle",
+			"desc": {
+				"en": "Decreases the agility of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			},
+			"mp": 4,
+			"target": "All Enemies",
+			"effect": "Agility Down"
+		},
+		"インテ": {
+			"en": "Ping",
+			"desc": {
+				"en": "Greatly increases the wisdom of a single ally for 4 to 7 turns."
+			},
+			"mp": 3,
+			"target": "Single Ally",
+			"effect": "Wisdom Up"
+		},
+		"フール": {
+			"en": "Dim",
+			"desc": {
+				"en": "Greatly decreases the wisdom of a single enemy for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			},
+			"mp": 3,
+			"target": "Single Enemy",
+			"effect": "Wisdom Down"
+		},
+		"マフール": {
+			"en": "Kadim",
+			"desc": {
+				"en": "Decreases the wisdom of all enemies for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			},
+			"mp": 4,
+			"target": "All Enemies",
+			"effect": "Wisdom Down"
+		},
+		"バーハ": {
+			"en": "Insulate",
+			"desc": {
+				"en": "Greatly reduces the damage received from breath attacks by a single ally for 4 to 7 turns."
+			},
+			"mp": 4,
+			"target": "Single Ally"
+		},
+		"フバーハ": {
+			"en": "Insulatle",
+			"desc": {
+				"en": "Reduces the damage received from breath attacks by all allies for 4 to 7 turns."
+			},
+			"mp": 4,
+			"target": "All Allies"
+		},
+		"マヌーサ": {
+			"en": "Dazzle",
+			"desc": {
+				"en": "Bedazzles all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			},
+			"mp": 3,
+			"target": "All Enemies",
+			"elements": [
+				"bedazzle"
+			]
+		},
+		"マホトーン": {
+			"en": "Fizzle",
+			"desc": {
+				"en": "Prevents all enemies from casting spells for 4 to 7 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			},
+			"mp": 3,
+			"target": "All Enemies",
+			"elements": [
+				"seal"
+			]
+		},
+		"マホトラ": {
+			"en": "Drain Magic",
+			"desc": {
+				"en": "Absorbs some MP from a single enemy."
+			},
+			"mp": 0,
+			"target": "Single Enemy"
+		},
+		"メダパニ": {
+			"en": "Fuddle",
+			"desc": {
+				"en": "Confuses a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			},
+			"mp": 5,
+			"target": "Single Enemy",
+			"elements": [
+				"confusion"
+			]
+		},
+		"ラリホー": {
+			"en": "Snooze",
+			"desc": {
+				"en": "Puts a single enemy to sleep for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			},
+			"mp": 3,
+			"target": "Single Enemy",
+			"elements": [
+				"sleep"
+			]
+		},
+		"ラリホーマ": {
+			"en": "Kasnooze",
+			"desc": {
+				"en": "Puts all enemies to sleep for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			},
+			"mp": 8,
+			"target": "All Enemies",
+			"elements": [
+				"sleep"
+			]
+		},
+		"シビー": {
+			"en": "Numb",
+			"desc": {
+				"en": "Paralyses a single enemy for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			},
+			"mp": 8,
+			"target": "Single Enemy",
+			"elements": [
+				"paralysis"
+			]
+		},
+		"ヴェレ": {
+			"en": "Tox",
+			"desc": {
+				"en": "Poisons a single enemy. The higher the caster's wisdom, the more likely the spell is to succeed."
+			},
+			"mp": 3,
+			"target": "Single Enemy",
+			"elements": [
+				"poison"
+			]
+		},
+		"ヴェレーノ": {
+			"en": "Katox",
+			"desc": {
+				"en": "Poisons all enemies. The higher the caster's wisdom, the more likely the spell is to succeed."
+			},
+			"mp": 8,
+			"target": "All Enemies",
+			"elements": [
+				"poison"
+			]
+		},
+		"ザキ": {
+			"en": "Whack",
+			"desc": {
+				"en": "Kills a single enemy instantly. The higher the caster's wisdom, the more likely the spell is to succeed."
+			},
+			"mp": 9,
+			"target": "Single Enemy",
+			"elements": [
+				"sudden_death"
+			]
+		},
+		"メガンテ": {
+			"en": "Kamikazee",
+			"desc": {
+				"en": "Kills all enemies, but at the cost of the caster's life. If used, the caster cannot be resurrected in the same battle. Higher MP increases the likelihood of the spell succeeding."
+			},
+			"mp": 100,
+			"mpType": "percentage",
+			"target": "All Enemies"
+		},
+		"かえん斬り": {
+			"en": "Flame Slash",
+			"desc": {
+				"en": "A slashing attack that inflicts minor fire-elemental damage on a single enemy."
+			},
+			"mp": 2,
+			"target": "Single Enemy",
+			"elements": [
+				"fire"
+			]
+		},
+		"しんくう斬り": {
+			"en": "Gust Slash",
+			"desc": {
+				"en": "A slashing attack that inflicts minor wind-elemental damage on a single enemy."
+			},
+			"mp": 2,
+			"target": "Single Enemy",
+			"elements": [
+				"wind"
+			]
+		},
+		"マヒャド斬り": {
+			"en": "Kacrackle Slash",
+			"desc": {
+				"en": "Inflicts minor ice-elemental slashing damage on a single enemy."
+			},
+			"mp": 2,
+			"target": "Single Enemy",
+			"elements": [
+				"freeze"
+			]
+		},
+		"いなずま斬り": {
+			"en": "Lightning Slash",
+			"desc": {
+				"en": "A slashing attack that inflicts minor electrical damage on a single enemy."
+			},
+			"mp": 2,
+			"target": "Single Enemy",
+			"elements": [
+				"thunder"
+			]
+		},
+		"灼熱斬": {
+			"en": "Flamesplitter",
+			"desc": {
+				"en": "A slashing attack that inflicts medium fire-elemental damage on all enemies."
+			},
+			"mp": 15,
+			"target": "All Enemies",
+			"elements": [
+				"fire"
+			]
+		},
+		"空裂斬": {
+			"en": "Skysplitter",
+			"desc": {
+				"en": "A slashing attack that inflicts medium wind-elemental damage on all enemies."
+			},
+			"mp": 15,
+			"target": "All Enemies",
+			"elements": [
+				"wind"
+			]
+		},
+		"閃光斬": {
+			"en": "Brightsplitter",
+			"desc": {
+				"en": "A slashing attack that inflicts medium light-elemental damage on all enemies."
+			},
+			"mp": 15,
+			"target": "All Enemies",
+			"elements": [
+				"light"
+			]
+		},
+		"スライムたたき": {
+			"en": "Slime Squisher",
+			"desc": {
+				"en": "A smashing attack that inflicts sizeable damage on monsters in the slime family."
+			},
+			"mp": 4,
+			"target": "Single Enemy"
+		},
+		"ドラゴン斬り": {
+			"en": "Dragon Slash",
+			"desc": {
+				"en": "A slashing attack that inflicts sizeable damage on monsters in the dragon family."
+			},
+			"mp": 4,
+			"target": "Single Enemy"
+		},
+		"しぜん斬り": {
+			"en": "Nature Nerfer",
+			"desc": {
+				"en": "A slashing attack that inflicts sizeable damage on monsters in the nature family."
+			},
+			"mp": 4,
+			"target": "Single Enemy"
+		},
+		"けもの斬り": {
+			"en": "Beast Tamer",
+			"desc": {
+				"en": "A slashing attack that inflicts sizeable slashing damage on monsters in the beast family."
+			},
+			"mp": 4,
+			"target": "Single Enemy"
+		},
+		"だいせつだん": {
+			"en": "Matter Scatterer",
+			"desc": {
+				"en": "A slashing attack that inflicts sizeable slashing damage on monsters in the material family."
+			},
+			"mp": 4,
+			"target": "Single Enemy"
+		},
+		"あくま斬り": {
+			"en": "Demon Demeaner",
+			"desc": {
+				"en": "A slashing attack that inflicts sizeable damage on monsters in the demon family."
+			},
+			"mp": 4,
+			"target": "Single Enemy"
+		},
+		"ゾンビ斬り": {
+			"en": "Undead Undoer",
+			"desc": {
+				"en": "A slashing attack that inflicts sizeable damage on monsters in the undead family."
+			},
+			"mp": 4,
+			"target": "Single Enemy"
+		},
+		"さみだれ斬り": {
+			"en": "Multislash",
+			"desc": {
+				"en": "A slashing attack that inflicts damage on all enemies. Enemies that are further to the right-hand side of the battlefield receive less damage."
+			},
+			"mp": 5,
+			"target": "All Enemies"
+		},
+		"しっぷうづき": {
+			"en": "Mercurial Thrust",
+			"desc": {
+				"en": "A punching technique that lets the user attack first each round, but reduces the damage they can inflict."
+			},
+			"mp": 2,
+			"target": "Single Enemy"
+		},
+		"アンカーナックル": {
+			"en": "Anchorman",
+			"desc": {
+				"en": "A punching technique performed after everyone else that inflicts major damage on the enemy."
+			},
+			"mp": 15,
+			"target": "Single Enemy"
+		},
+		"せいけんづき": {
+			"en": "Knuckle Sandwich",
+			"desc": {
+				"en": "Focusses strength in order to inflict medium damage on a single enemy in the next action, ignoring their defence attribute."
+			},
+			"mp": 20,
+			"target": "Single Enemy"
+		},
+		"まわしげり": {
+			"en": "Roundhouse Kick",
+			"desc": {
+				"en": "A kicking technique that inflicts damage on all enemies, ignoring their defence. Enemies that are further to the right-hand side of the battlefield receive less damage."
+			},
+			"mp": 8,
+			"target": "All Enemies"
+		},
+		"まじん斬り": {
+			"en": "Hatchet Man",
+			"desc": {
+				"en": "A slashing attack that targets a single enemy. The attack has a high likelihood of missing, but an increased chance of inflicting a critical hit when it succeeds."
+			},
+			"mp": 8,
+			"target": "Single Enemy"
+		},
+		"みなごろし": {
+			"en": "Frenzy",
+			"desc": {
+				"en": "A risky technique that inflicts a critical hit on a single enemy or ally at random."
+			},
+			"mp": 4,
+			"target": "Random Enemy or Ally"
+		},
+		"ミラクルソード": {
+			"en": "Miracle Slash",
+			"desc": {
+				"en": "A slashing attack that inflicts damage on a single enemy. Approximately half the amount of damage inflicted is restored to the user as HP. Can heal up to a maximum of 200 HP per hit."
+			},
+			"mp": 10,
+			"target": "Single Enemy"
+		},
+		"やいばくだき": {
+			"en": "Attack Attacker",
+			"desc": {
+				"en": "Damages a single enemy and occasionally lowers its attack for 2 to 5 turns."
+			},
+			"mp": 4,
+			"target": "Single Enemy",
+			"effect": "Attack Down"
+		},
+		"かぶとわり": {
+			"en": "Helm Splitter",
+			"desc": {
+				"en": "Damages a single enemy and occasionally lowers its defence for 4 to 7 turns."
+			},
+			"mp": 4,
+			"target": "Single Enemy",
+			"effect": "Defence Down"
+		},
+		"こんらんこうげき": {
+			"en": "Confusion Attack",
+			"desc": {
+				"en": "Damages a single enemy and occasionally confuses it for 2 to 5 turns."
+			},
+			"mp": 4,
+			"target": "Single Enemy",
+			"elements": [
+				"confusion"
+			]
+		},
+		"ねむりこうげき": {
+			"en": "Sleep Attack",
+			"desc": {
+				"en": "Damages a single enemy and occasionally puts it to sleep for 2 to 5 turns."
+			},
+			"mp": 4,
+			"target": "Single Enemy",
+			"elements": [
+				"sleep"
+			]
+		},
+		"マヒこうげき": {
+			"en": "Paralysing Punch",
+			"desc": {
+				"en": "Damages a single enemy and occasionally paralyses it for 2 to 5 turns."
+			},
+			"mp": 4,
+			"target": "Single Enemy",
+			"elements": [
+				"paralysis"
+			]
+		},
+		"ハートブレイク": {
+			"en": "Heart Breaker",
+			"desc": {
+				"en": "A slashing attack that inflicts damage on a single enemy and occasionally stuns it for 1 turn."
+			},
+			"mp": 4,
+			"target": "Single Enemy",
+			"elements": [
+				"rest"
+			]
+		},
+		"どくこうげき": {
+			"en": "Poison Attack",
+			"desc": {
+				"en": "Damages a single enemy and occasionally poisons it."
+			},
+			"mp": 2,
+			"target": "Single Enemy",
+			"elements": [
+				"poison"
+			]
+		},
+		"アサシンアタック": {
+			"en": "Assassin's Stab",
+			"desc": {
+				"en": "Damages a single enemy and occasionally causes instant death."
+			},
+			"mp": 8,
+			"target": "Single Enemy",
+			"elements": [
+				"sudden_death"
+			]
+		},
+		"タナトスハント": {
+			"en": "Victimiser",
+			"desc": {
+				"en": "Damages a single enemy. Highly effective against enemies that are poisoned, severely poisoned or paralysed."
+			},
+			"mp": 4,
+			"target": "Single Enemy",
+			"elements": [
+				"poison",
+				"paralysis"
+			]
+		},
+		"ヒュプノスハント": {
+			"en": "Persecutter",
+			"desc": {
+				"en": "Damages a single enemy. Highly effective against enemies that are asleep or confused."
+			},
+			"mp": 4,
+			"target": "Single Enemy",
+			"elements": [
+				"confusion",
+				"sleep"
+			]
+		},
+		"かまいたち": {
+			"en": "Wind Sickles",
+			"desc": {
+				"en": "Inflicts minor wind-elemental damage on a single enemy."
+			},
+			"mp": 4,
+			"target": "Single Enemy",
+			"elements": [
+				"wind"
+			]
+		},
+		"しんくうは": {
+			"en": "Thin Air",
+			"desc": {
+				"en": "Inflicts medium wind-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			},
+			"mp": 12,
+			"target": "All Enemies",
+			"elements": [
+				"wind"
+			]
+		},
+		"いわなげ": {
+			"en": "Stone's Throw",
+			"desc": {
+				"en": "Inflicts minor earth-elemental damage on a single enemy."
+			},
+			"mp": 4,
+			"target": "Single Enemy",
+			"elements": [
+				"earth"
+			]
+		},
+		"じひびき": {
+			"en": "Stomp",
+			"desc": {
+				"en": "Inflicts medium earth-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			},
+			"mp": 12,
+			"target": "All Enemies",
+			"elements": [
+				"earth"
+			]
+		},
+		"めいそう": {
+			"en": "Meditation",
+			"desc": {
+				"en": "Restores 300 or more HP to the user."
+			},
+			"mp": 35,
+			"target": "Self"
+		},
+		"いやしの雨": {
+			"en": "Right as Rain",
+			"desc": {
+				"en": "Performs a rainmaking ritual that invokes a healing shower. Restores a random amount of HP to all allies in the next turn."
+			},
+			"mp": 40,
+			"target": "All Allies"
+		},
+		"ひかりのはどう": {
+			"en": "Wave of Relief",
+			"desc": {
+				"en": "Cures all allies of their status ailments."
+			},
+			"mp": 60,
+			"target": "All Allies"
+		},
+		"すなけむり": {
+			"en": "Sandstorm",
+			"desc": {
+				"en": "Whips up a dense cloud of dust that lowers the accuracy of enemy attacks for 2 to 5 turns."
+			},
+			"mp": 2,
+			"target": "All Enemies",
+			"effect": "Accuracy Down"
+		},
+		"まぶしい光": {
+			"en": "Dazzleflash",
+			"desc": {
+				"en": "Unleashes a blinding light that lowers the accuracy of enemy attacks for 2 to 5 turns."
+			},
+			"mp": 2,
+			"target": "All Enemies",
+			"elements": [
+				"bedazzle"
+			],
+			"effect": "Accuracy Down"
+		},
+		"くちをふさぐ": {
+			"en": "Gobstopper",
+			"desc": {
+				"en": "Stops a single enemy from using its mouth, preventing the use of breath attacks for 4 to 7 turns."
+			},
+			"mp": 6,
+			"target": "Single Enemy"
+		},
+		"ぎゃくふう": {
+			"en": "Brake Wind",
+			"desc": {
+				"en": "Reflects breath attacks back at the enemy. Protects all allies once only."
+			},
+			"mp": 10,
+			"target": "All Allies"
+		},
+		"まもりの霧": {
+			"en": "Mist Me",
+			"desc": {
+				"en": "Negates all damage 1 time only. Ineffective against certain attacks."
+			},
+			"mp": 10,
+			"target": "Self"
+		},
+		"おたけび": {
+			"en": "War Cry",
+			"desc": {
+				"en": "An ear-popping shout that stuns all enemies for 1 turn."
+			},
+			"mp": 3,
+			"target": "All Enemies",
+			"elements": [
+				"rest"
+			]
+		},
+		"なめまわし": {
+			"en": "Tongue Lashing",
+			"desc": {
+				"en": "Slathers a single enemy with slimy saliva, stunning it and lowering its defence."
+			},
+			"mp": 1,
+			"target": "Single Enemy",
+			"elements": [
+				"rest"
+			],
+			"effect": "Defence Down"
+		},
+		"ひゃくれつなめ": {
+			"en": "Tongue Bashing",
+			"desc": {
+				"en": "Savagely slathers a single enemy with slimy saliva, stunning it and reducing its defence attribute to 1."
+			},
+			"mp": 8,
+			"target": "Single Enemy",
+			"elements": [
+				"rest"
+			],
+			"effect": "Defence Down"
+		},
+		"たぎる": {
+			"en": "Seethe",
+			"desc": {
+				"en": "Internalises rage in order to raise the damage of the next attack. The user's attacks also become more difficult for the enemy to dodge."
+			},
+			"mp": 10,
+			"target": "Self",
+			"effect": "Accuracy Up"
+		},
+		"みかわしきゃく": {
+			"en": "Dodgy Dance",
+			"desc": {
+				"en": "Raises the user's evasion for 4 to 7 turns."
+			},
+			"mp": 1,
+			"target": "Self",
+			"effect": "Evasion Up"
+		},
+		"みがわり": {
+			"en": "Selflessness",
+			"desc": {
+				"en": "Receives all incoming attacks in place of allies for 1 round, but suffers greater damage in doing so."
+			},
+			"mp": 5,
+			"target": "Self"
+		},
+		"火の息": {
+			"en": "Fire Breath",
+			"desc": {
+				"en": "Inflicts minor fire-elemental breath damage on all enemies."
+			},
+			"mp": 3,
+			"target": "All Enemies",
+			"elements": [
+				"fire"
+			]
+		},
+		"火炎の息": {
+			"en": "Flame Breath",
+			"desc": {
+				"en": "Inflicts medium fire-elemental breath damage on all enemies."
+			},
+			"mp": 6,
+			"target": "All Enemies",
+			"elements": [
+				"fire"
+			]
+		},
+		"はげしい炎": {
+			"en": "Inferno",
+			"desc": {
+				"en": "Inflicts major fire-elemental breath damage on all enemies."
+			},
+			"mp": 15,
+			"target": "All Enemies",
+			"elements": [
+				"fire"
+			]
+		},
+		"しゃくねつ": {
+			"en": "Scorch",
+			"desc": {
+				"en": "Inflicts extreme fire-elemental breath damage on all enemies."
+			},
+			"mp": 30,
+			"target": "All Enemies",
+			"elements": [
+				"fire"
+			]
+		},
+		"つめたい息": {
+			"en": "Cool Breath",
+			"desc": {
+				"en": "Inflicts minor ice-elemental breath damage on all enemies."
+			},
+			"mp": 3,
+			"target": "All Enemies",
+			"elements": [
+				"freeze"
+			]
+		},
+		"こおりの息": {
+			"en": "Chilly Breath",
+			"desc": {
+				"en": "Inflicts medium ice-elemental breath damage on all enemies."
+			},
+			"mp": 6,
+			"target": "All Enemies",
+			"elements": [
+				"freeze"
+			]
+		},
+		"こごえる吹雪": {
+			"en": "Freezing Blizzard",
+			"desc": {
+				"en": "Inflicts major ice-elemental breath damage on all enemies."
+			},
+			"mp": 15,
+			"target": "All Enemies",
+			"elements": [
+				"freeze"
+			]
+		},
+		"かがやく息": {
+			"en": "C-C-Cold Breath",
+			"desc": {
+				"en": "Inflicts extreme ice-elemental breath damage on all enemies."
+			},
+			"mp": 30,
+			"target": "All Enemies",
+			"elements": [
+				"freeze"
+			]
+		},
+		"サンドブレス": {
+			"en": "Sandy Sigh",
+			"desc": {
+				"en": "Whips up a cloud of dust that inflicts major earth-elemental breath damage on all enemies and lowers their accuracy for 2 to 5 turns."
+			},
+			"mp": 22,
+			"target": "All Enemies",
+			"elements": [
+				"earth"
+			],
+			"effect": "Accuracy Down"
+		},
+		"ひかりの息": {
+			"en": "Blessed Breath",
+			"desc": {
+				"en": "Inflicts major light-elemental breath damage on all enemies and occasionally confuses them for 2 to 5 turns."
+			},
+			"mp": 22,
+			"target": "All Enemies",
+			"elements": [
+				"light",
+				"confusion"
+			]
+		},
+		"やみの息": {
+			"en": "Black Breath",
+			"desc": {
+				"en": "Inflicts major dark-elemental breath damage on all enemies and occasionally prevents them from casting spells for 4 to 7 turns."
+			},
+			"mp": 22,
+			"target": "All Enemies",
+			"elements": [
+				"darkness",
+				"seal"
+			]
+		},
+		"息をすいこむ": {
+			"en": "Deep Breath",
+			"desc": {
+				"en": "Inhales long and deep, raising the damage inflicted by the user's next breath attack."
+			},
+			"mp": 0,
+			"target": "Self"
+		},
+		"あまい息": {
+			"en": "Sweet Breath",
+			"desc": {
+				"en": "Lets out an exhalation of relaxation that puts all enemies to sleep for 2 to 5 turns."
+			},
+			"mp": 3,
+			"target": "All Enemies",
+			"elements": [
+				"sleep"
+			]
+		},
+		"やけつく息": {
+			"en": "Burning Breath",
+			"desc": {
+				"en": "Lets out an exhalation of immobilisation that paralyses all enemies for 2 to 5 turns."
+			},
+			"mp": 4,
+			"target": "All Enemies",
+			"elements": [
+				"paralysis"
+			]
+		},
+		"どくの息": {
+			"en": "Poison Breath",
+			"desc": {
+				"en": "Exhales toxic fumes that poison all enemies."
+			},
+			"mp": 3,
+			"target": "All Enemies",
+			"elements": [
+				"poison"
+			]
+		},
+		"つるぎのまい": {
+			"en": "Sword Dance",
+			"desc": {
+				"en": "A dance that damages enemies at random, 3 to 7 times in total."
+			},
+			"mp": 15,
+			"target": "All Enemies"
+		},
+		"ふしぎな踊り": {
+			"en": "Weird Dance",
+			"desc": {
+				"en": "A dance that decreases the MP of a single enemy."
+			},
+			"mp": 0,
+			"target": "Single Enemy"
+		},
+		"マホトラ踊り": {
+			"en": "Tap Dance",
+			"desc": {
+				"en": "A dance that absorbs some MP from a single enemy."
+			},
+			"mp": 0,
+			"target": "Single Enemy",
+			"elements": [
+				"drain_mp"
+			]
+		},
+		"メダパニダンス": {
+			"en": "Fuddle Dance",
+			"desc": {
+				"en": "A dance that confuses all enemies for 2 to 5 turns."
+			},
+			"mp": 2,
+			"target": "All Enemies",
+			"elements": [
+				"confusion"
+			]
+		},
+		"さそう踊り": {
+			"en": "Sultry Dance",
+			"desc": {
+				"en": "A bewitching dance that stuns all enemies for 1 turn."
+			},
+			"mp": 2,
+			"target": "All Enemies",
+			"elements": [
+				"rest"
+			]
+		},
+		"だいぼうぎょ": {
+			"en": "Intense Defence",
+			"desc": {
+				"en": "Tightens defences to the extreme, reducing most damage received by 9/10. Can only be used once per battle."
+			},
+			"mp": 3,
+			"target": "Self"
+		},
+		"ザバラーン": {
+			"en": "Kasplash",
+			"desc": {
+				"en": "Inflicts major water-elemental spell damage on a single enemy."
+			},
+			"mp": 11,
+			"target": "Single Enemy",
+			"elements": [
+				"water"
+			]
+		},
+		"ザバトローム": {
+			"en": "Kasplashle",
+			"desc": {
+				"en": "Inflicts extreme water-elemental spell damage on a single enemy."
+			},
+			"mp": 29,
+			"target": "Single Enemy",
+			"elements": [
+				"water"
+			]
+		},
+		"ヘナトール": {
+			"en": "Kablunt",
+			"desc": {
+				"en": "Decreases the attack of all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			},
+			"mp": 10,
+			"target": "All Enemies",
+			"effect": "Attack Down"
+		},
+		"ジバリーナ": {
+			"en": "Kacrag",
+			"desc": {
+				"en": "Inflicts major earth-elemental spell damage on all enemies, but not until the following round."
+			},
+			"mp": 23,
+			"target": "All Enemies",
+			"elements": [
+				"earth"
+			]
+		},
+		"ジバルンバ": {
+			"en": "Kacraggle",
+			"desc": {
+				"en": "Inflicts extreme earth-elemental spell damage on all enemies, but not until the following round."
+			},
+			"mp": 58,
+			"target": "All Enemies",
+			"elements": [
+				"earth"
+			]
+		},
+		"大地斬": {
+			"en": "Earthsplitter",
+			"desc": {
+				"en": "A slashing attack that inflicts medium earth-elemental damage on all enemies."
+			},
+			"mp": 15,
+			"target": "All Enemies",
+			"elements": [
+				"earth"
+			]
+		},
+		"イオナズン": {
+			"en": "Kaboom",
+			"desc": {
+				"en": "Inflicts major explosive spell damage on all enemies."
+			},
+			"mp": 24,
+			"target": "All Enemies",
+			"elements": [
+				"explosion"
+			]
+		},
+		"イオグランデ": {
+			"en": "Kaboomle",
+			"desc": {
+				"en": "Inflicts extreme explosive spell damage on all enemies."
+			},
+			"mp": 60,
+			"target": "All Enemies",
+			"elements": [
+				"explosion"
+			]
+		},
+		"いなずま": {
+			"en": "Lightning",
+			"desc": {
+				"en": "Inflicts medium electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			},
+			"mp": 12,
+			"target": "All Enemies",
+			"elements": [
+				"thunder"
+			]
+		},
+		"ギガデイン": {
+			"en": "Kazap",
+			"desc": {
+				"en": "Inflicts major electrical spell damage on all enemies."
+			},
+			"mp": 23,
+			"target": "All Enemies",
+			"elements": [
+				"thunder"
+			]
+		},
+		"シビリーニョ": {
+			"en": "Kanumb",
+			"desc": {
+				"en": "Paralyses all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			},
+			"mp": 15,
+			"target": "All Enemies",
+			"elements": [
+				"paralysis"
+			]
+		},
+		"ジゴデイン": {
+			"en": "Kazapple",
+			"desc": {
+				"en": "Inflicts extreme electrical spell damage on all enemies."
+			},
+			"mp": 61,
+			"target": "All Enemies",
+			"elements": [
+				"thunder"
+			]
+		},
+		"インテラ": {
+			"en": "Kaping",
+			"desc": {
+				"en": "Increases the wisdom of all allies for 4 to 7 turns."
+			},
+			"mp": 4,
+			"target": "All Allies",
+			"effect": "Wisdom Up"
+		},
+		"ベギラゴン": {
+			"en": "Kasizz",
+			"desc": {
+				"en": "Inflicts major light-elemental spell damage on all enemies."
+			},
+			"mp": 22,
+			"target": "All Enemies",
+			"elements": [
+				"light"
+			]
+		},
+		"ギラグレイド": {
+			"en": "Kasizzle",
+			"desc": {
+				"en": "Inflicts extreme light-elemental spell damage on all enemies."
+			},
+			"mp": 54,
+			"target": "All Enemies",
+			"elements": [
+				"light"
+			]
+		},
+		"ドルモーア": {
+			"en": "Kazam",
+			"desc": {
+				"en": "Inflicts major dark-elemental spell damage on a single enemy."
+			},
+			"mp": 10,
+			"target": "Single Enemy",
+			"elements": [
+				"darkness"
+			]
+		},
+		"ドルマドン": {
+			"en": "Kazammle",
+			"desc": {
+				"en": "Inflicts extreme dark-elemental spell damage on a single enemy."
+			},
+			"mp": 30,
+			"target": "Single Enemy",
+			"elements": [
+				"darkness"
+			]
+		},
+		"シャイニングボウ": {
+			"en": "Shining Shot",
+			"desc": {
+				"en": "Inflicts light-elemental damage on enemies at random, 4 to 12 times in total."
+			},
+			"mp": 100,
+			"target": "Random Enemies",
+			"elements": [
+				"light"
+			]
+		},
+		"ばくれつけん": {
+			"en": "Multifists",
+			"desc": {
+				"en": "A punching technique that damages enemies at random, 4 times in total"
+			},
+			"mp": 20,
+			"target": "Random Enemies"
+		},
+		"メガザル": {
+			"en": "Kerplunk",
+			"desc": {
+				"en": "Heals or resurrects all allies, including reserves, but at the cost of the caster's life. If used, the caster cannot be resurrected in the same battle."
+			},
+			"mp": 100,
+			"mpType": "all-with-min",
+			"target": "All Allies"
+		},
+		"メダパーニャ": {
+			"en": "Kafuddle",
+			"desc": {
+				"en": "Confuses all enemies for 2 to 5 turns. The higher the caster's wisdom, the more likely the spell is to succeed."
+			},
+			"mp": 10,
+			"target": "All Enemies",
+			"elements": [
+				"confusion"
+			]
+		},
+		"ギガブレイク": {
+			"en": "Gigagash",
+			"desc": {
+				"en": "Inflicts outrageous electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			},
+			"mp": 56,
+			"target": "All Enemies",
+			"elements": [
+				"thunder"
+			]
+		},
+		"ギガクロスブレイク": {
+			"en": "Gigacross",
+			"desc": {
+				"en": "An extreme sword attack that inflicts extreme electrical damage 2 times in a row on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			},
+			"mp": 80,
+			"target": "All Enemies",
+			"elements": [
+				"thunder"
+			]
+		},
+		"ダークブレイク": {
+			"en": "Shadow Blast",
+			"desc": {
+				"en": "Inflicts extreme dark-elemental damage 2 times in a row on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			},
+			"mp": 80,
+			"target": "All Enemies",
+			"elements": [
+				"darkness"
+			]
+		},
+		"煉獄火炎": {
+			"en": "Hellitosis",
+			"desc": {
+				"en": "Inflicts outrageous fire-elemental breath damage on all enemies and occasionally stuns them for 1 turn."
+			},
+			"mp": 64,
+			"target": "All Enemies",
+			"elements": [
+				"fire",
+				"rest"
+			]
+		},
+		"蒼天魔斬": {
+			"en": "Parallax",
+			"desc": {
+				"en": "A slashing attack that inflicts major damage on a single enemy and occasionally paralyses it for 2 to 5 turns."
+			},
+			"mp": 20,
+			"target": "Single Enemy",
+			"elements": [
+				"paralysis"
+			]
+		},
+		"ハッスルダンス": {
+			"en": "Hustle Dance",
+			"desc": {
+				"en": "A dance that heals allies at random, 2 to 6 times in total. The higher the user's level, the greater the healing amount."
+			},
+			"mp": 40,
+			"target": "Random Allies"
+		},
+		"メガザルダンス": {
+			"en": "Kerplunk Dance",
+			"desc": {
+				"en": "A dance that heals or resurrects all allies, including reserves, but at the cost of the user's life. The user cannot be resurrected in the same battle."
+			},
+			"mp": 100,
+			"mpType": "all-with-min",
+			"target": "All Allies"
+		},
+		"おうぎのまい": {
+			"en": "Fan Dango",
+			"desc": {
+				"en": "A dance that damages enemies at random, 3 or 4 times in total. The higher the user's agility, the greater the damage that will be inflicted."
+			},
+			"mp": 8,
+			"target": "Random Enemies"
+		},
+		"ギガ・マホトラ": {
+			"en": "Giga Drain Magic",
+			"desc": {
+				"en": "Absorbs MP from enemies at random, 4 times in total."
+			},
+			"mp": 50,
+			"mpType": "percentage",
+			"target": "Random Enemies",
+			"elements": [
+				"drain_mp"
+			]
+		},
+		"マホカンタ": {
+			"en": "Bounce",
+			"desc": {
+				"en": "Reflects most spells back at the enemy for 4 to 7 turns."
+			},
+			"mp": 32,
+			"target": "Self"
+		},
+		"絶対零度": {
+			"en": "Ice Age",
+			"desc": {
+				"en": "Inflicts outrageous ice-elemental breath damage on all enemies and occasionally stuns them for 1 turn."
+			},
+			"mp": 64,
+			"target": "All Enemies",
+			"elements": [
+				"freeze",
+				"rest"
+			]
+		},
+		"ギガスラッシュ": {
+			"en": "Gigaslash",
+			"desc": {
+				"en": "Inflicts outrageous electrical damage on a single enemy. The higher the user's level, the greater the damage that will be inflicted."
+			},
+			"mp": 20,
+			"target": "Single Enemy",
+			"elements": [
+				"thunder"
+			]
+		},
+		"ジゴスパーク": {
+			"en": "Lightning Storm",
+			"desc": {
+				"en": "Inflicts outrageous electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			},
+			"mp": 52,
+			"target": "All Enemies",
+			"elements": [
+				"thunder"
+			]
+		},
+		"ヒュプノスムーチョ": {
+			"en": "Multi-Persecutter",
+			"desc": {
+				"en": "Damages all enemies. Highly effective against enemies that are asleep or confused."
+			},
+			"mp": 0,
+			"mpType": "all-with-min",
+			"target": "All Enemies",
+			"elements": [
+				"sleep",
+				"confusion"
+			]
+		},
+		"ザラキ": {
+			"en": "Thwack",
+			"desc": {
+				"en": "Kills all enemies instantly. The higher the caster's wisdom, the more likely the spell is to succeed."
+			},
+			"mp": 12,
+			"target": "All Enemies",
+			"elements": [
+				"sudden_death"
+			]
+		},
+		"おぞましいおたけび": {
+			"en": "Hellish Howl",
+			"desc": {
+				"en": "Lets out a bloodcurdling shout that inflicts medium damage on all enemies and occasionally stuns them for 1 turn."
+			},
+			"mp": 0,
+			"mpType": "all-with-min",
+			"target": "All Enemies",
+			"elements": [
+				"rest"
+			]
+		},
+		"タナトスムーチョ": {
+			"en": "Multi-Victimiser",
+			"desc": {
+				"en": "Damages all enemies. Highly effective against enemies that are poisoned, severely poisoned or paralysed."
+			},
+			"mp": 26,
+			"target": "All Enemies",
+			"elements": [
+				"poison",
+				"paralysis"
+			]
+		},
+		"黒くかがやく炎": {
+			"en": "Grim Breath",
+			"desc": {
+				"en": "Inflicts outrageous dark-elemental breath damage on all enemies"
+			},
+			"mp": 80,
+			"target": "All Enemies",
+			"elements": [
+				"darkness"
+			]
+		},
+		"いなずまダンス": {
+			"en": "Electric Boogie",
+			"desc": {
+				"en": "A dance that inflicts extreme electrical damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			},
+			"mp": 30,
+			"target": "All Enemies",
+			"elements": [
+				"thunder"
+			]
+		},
+		"炎のダンス": {
+			"en": "Hotstepper",
+			"desc": {
+				"en": "A dance that inflicts extreme fire-elemental damage on all enemies. The higher ther user's level, the greater the damage that will be inflicted."
+			},
+			"mp": 30,
+			"target": "All Enemies",
+			"elements": [
+				"fire"
+			]
+		},
+		"ミラーステップ": {
+			"en": "Mirror Moves",
+			"desc": {
+				"en": "A secret technique that copies an enemy's dance moves step-for-step, effectively reflecting their dance back at them. Protects all allies once only."
+			},
+			"mp": 32,
+			"target": "All Allies"
+		},
+		"死の踊り": {
+			"en": "Death Dance",
+			"desc": {
+				"en": "A dance that kills all enemies instantly."
+			},
+			"mp": 6,
+			"target": "All Enemies",
+			"elements": [
+				"sudden_death"
+			]
+		},
+		"アゲハ乱舞": {
+			"en": "Butterfly Bop",
+			"desc": {
+				"en": "A dance that summons countless butterflies from the aether to attack all enemies. The higher the user's agility, the greter the damage that will be inflicted."
+			},
+			"mp": 15,
+			"target": "All Enemies"
+		},
+		"つなみ": {
+			"en": "Tidal Wave",
+			"desc": {
+				"en": "Inflicts outrageous water-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			},
+			"mp": 52,
+			"target": "All Enemies",
+			"elements": [
+				"water"
+			]
+		},
+		"ベホマラー": {
+			"en": "Multiheal",
+			"desc": {
+				"en": "Restores 76 or more HP to all allies."
+			},
+			"mp": 26,
+			"target": "All Allies"
+		},
+		"はかいのひとみ": {
+			"en": "Withering Look",
+			"desc": {
+				"en": "Shoots a beam from the eyes that inflicts extreme damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			},
+			"mp": 36,
+			"target": "All Enemies"
+		},
+		"ビッグバン": {
+			"en": "Big Banga",
+			"desc": {
+				"en": "Inflicts outrageous explosive damange on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			},
+			"mp": 36,
+			"target": "All Enemies",
+			"elements": [
+				"explosion"
+			]
+		},
+		"アビスハンド": {
+			"en": "Bad Hand",
+			"desc": {
+				"en": "Inflicts outrageous dark-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			},
+			"mp": 52,
+			"target": "All Enemies",
+			"elements": [
+				"darkness"
+			]
+		},
+		"ベホマズン": {
+			"en": "Omniheal",
+			"desc": {
+				"en": "Restores 237 or more HP to all allies."
+			},
+			"mp": 80,
+			"target": "All Allies"
+		},
+		"ベホイム": {
+			"en": "Moreheal",
+			"desc": {
+				"en": "Restores 285 or more HP to a single ally."
+			},
+			"mp": 40,
+			"target": "Single Ally"
+		},
+		"マダンテ": {
+			"en": "Magic Burst",
+			"desc": {
+				"en": "Uses all remaining MP to inflict extreme light-elemental damage on all enemies. The more MP the monster has at the time of casting, the greater the damage will be."
+			},
+			"mp": 100,
+			"mpType": "percentage",
+			"target": "All Enemies",
+			"elements": [
+				"light"
+			]
+		},
+		"グランドクロス": {
+			"en": "Pearly Gates",
+			"desc": {
+				"en": "Inflicts extreme light-elemental spell damage on all enemies. Highly effecetive against monsters in the undead family."
+			},
+			"mp": 60,
+			"target": "All Enemies",
+			"elements": [
+				"light"
+			]
+		},
+		"流星": {
+			"en": "Starfall",
+			"desc": {
+				"en": "Inflicts medium light-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			},
+			"mp": 12,
+			"target": "All Enemies",
+			"elements": [
+				"light"
+			]
+		},
+		"がんせきおとし": {
+			"en": "Boulder Toss",
+			"desc": {
+				"en": "Inflicts extreme earth-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			},
+			"mp": 36,
+			"target": "All Enemies",
+			"elements": [
+				"earth"
+			]
+		},
+		"ヴェレノーマ": {
+			"en": "Katoxle",
+			"desc": {
+				"en": "Severely poisons all enemies. The higher the caster's wisdom, the more likely the spell is to succeed."
+			},
+			"mp": 15,
+			"target": "All Enemies",
+			"elements": [
+				"poison"
+			]
+		},
+		"やみのはどう": {
+			"en": "Wave of Panic",
+			"desc": {
+				"en": "Debilitates all enemies."
+			},
+			"mp": 60,
+			"target": "All Enemies"
+		},
+		"いてつくはどう": {
+			"en": "Disruptive Wave",
+			"desc": {
+				"en": "Removes most beneficial effects from all enemies."
+			},
+			"mp": 60,
+			"target": "All Enemies"
+		},
+		"マグマ": {
+			"en": "Magma Blast",
+			"desc": {
+				"en": "Inflicts medium fire-elemental damage on all enemies."
+			},
+			"mp": 4,
+			"target": "All Enemies",
+			"elements": [
+				"fire"
+			]
+		},
+		"シルバースパーク": {
+			"en": "Power Surge",
+			"desc": {
+				"en": "Inflicts outrageous electrical damage on all enemies."
+			},
+			"mp": 52,
+			"target": "All Enemies",
+			"elements": [
+				"thunder"
+			]
+		},
+		"終末の炎": {
+			"en": "Hold Fire",
+			"desc": {
+				"en": "Focuses strength in order to inflict outrageous fire-elemental damage on all enemies in the next turn. Occasionally stuns them for 1 turn."
+			},
+			"mp": 52,
+			"target": "All Enemies",
+			"elements": [
+				"fire"
+			]
+		},
+		"Snap, Crackle, Poof": {
+			"en": "Snap, Crackle, Poof",
+			"desc": {
+				"en": "Uses the power of a healthy glow to protect one ally from status ailments for 2 to 5 turns."
+			},
+			"mp": 8,
+			"target": "Single Ally"
+		},
+		"Crushed Ice": {
+			"en": "Crushed Ice",
+			"desc": {
+				"en": "A punching technique that inflicts ice-elemental damage on enemies at random, 4 times in total."
+			},
+			"mp": 20,
+			"target": "Random Enemies"
+		},
+		"Buffer Zone": {
+			"en": "Buffer Zone",
+			"desc": {
+				"en": "Raises the resistances of all allies for 2 to 5 turns."
+			},
+			"mp": 12,
+			"target": "All Allies"
+		},
+		"Pyre o' Fire": {
+			"en": "Pyre o' Fire",
+			"desc": {
+				"en": "Inflicts minor fire-elemental damage on one enemy."
+			},
+			"mp": 4,
+			"target": "Single Enemy"
+		},
+		"メタル斬り": {
+			"en": "Metal Slash",
+			"desc": {
+				"en": "A slashing attack with the same power as a normal attack but which always does at least 1 HP of damage to metal enemies."
+			},
+			"mp": 4,
+			"target": "Single Enemy"
+		},
+		"はやぶさ斬り": {
+			"en": "Falcon Slash",
+			"desc": {
+				"en": "A slashing attack that inflicts minor damage 2 times in a row on a single enemy."
+			},
+			"mp": 20,
+			"target": "Single Enemy"
+		},
+		"みずしぶき": {
+			"en": "Waterspout",
+			"desc": {
+				"en": "Inflicts minor water-elemental damage on one enemy."
+			},
+			"mp": 4,
+			"target": "Single Enemy"
+		},
+		"てっぽう水": {
+			"en": "Splash Damage",
+			"desc": {
+				"en": "Inflicts medium water-elemental damage on all enemies. The higher the user's level, the greater the damage that will be inflicted."
+			},
+			"mp": 12,
+			"target": "All Enemies"
+		},
+		"ウィングブロウ": {
+			"en": "Propeller Blade",
+			"desc": {
+				"en": "A punching technique that inflicts minor wind-elemental damage 2 times in a row on a single enemy."
+			},
+			"mp": 20,
+			"target": "Single Enemy"
+		},
+		"海波斬": {
+			"en": "Seasplitter",
+			"desc": {
+				"en": "A slashing attack that inflicts medium water-elemental damage on all enemies."
+			},
+			"mp": 15,
+			"target": "All Enemies"
+		},
+		"ゆきだま": {
+			"en": "Snow Globe",
+			"desc": {
+				"en": "Inflicts minor ice-elemental damage on one enemy."
+			},
+			"mp": 4,
+			"target": "Single Enemy"
+		},
+		"キングダムソード": {
+			"en": "Armour Harmer",
+			"desc": {
+				"en": "A slashing attack that inflicts medium damage on all enemies and occasionally lowers their defence for 4 to 7 turns."
+			},
+			"mp": 20,
+			"target": "All Enemies"
+		},
+		"フリーズブレード": {
+			"en": "Frost Fangs",
+			"desc": {
+				"en": "A slashing attack that inflicts medium ice-elemental damage on all enemies and occasionally stuns them for 1 turn."
+			},
+			"mp": 27,
+			"target": "All Enemies"
+		}
+	},
+	"talents": {
+		"すばやさアップ１": {
+			"moves": [
+				{
+					"move": "すばやさ+4",
+					"sp": 5
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 10
+				},
+				{
+					"move": "すばやさ+8",
+					"sp": 20
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 30
+				},
+				{
+					"move": "すばやさ+8",
+					"sp": 50
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 70
+				},
+				{
+					"move": "すばやさ+12",
+					"sp": 85
+				}
+			],
+			"traits": [
+				"すばやさ+4",
+				"最大HP+4",
+				"すばやさ+8",
+				"すばやさ+12"
+			]
+		},
+		"すばやさアップ２": {
+			"moves": [
+				{
+					"move": "すばやさ+4",
+					"sp": 5
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 15
+				},
+				{
+					"move": "すばやさ+8",
+					"sp": 30
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 50
+				},
+				{
+					"move": "すばやさ+8",
+					"sp": 75
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 100
+				},
+				{
+					"move": "すばやさ+12",
+					"sp": 130
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 160
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"すばやさ+4",
+				"最大HP+4",
+				"すばやさ+8",
+				"すばやさ+12",
+				"かしこさ+16"
+			]
+		},
+		"すばやさアップ３": {
+			"moves": [
+				{
+					"move": "すばやさ+8",
+					"sp": 10
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 20
+				},
+				{
+					"move": "すばやさ+12",
+					"sp": 30
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 50
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 70
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 85
+				},
+				{
+					"move": "すばやさ+20",
+					"sp": 100
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 120
+				},
+				{
+					"move": "すばやさ+24",
+					"sp": 150
+				},
+				{
+					"move": "弱体化ガード大",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"すばやさ+8",
+				"最大HP+8",
+				"すばやさ+12",
+				"かしこさ+16",
+				"すばやさ+20",
+				"すばやさ+24",
+				"弱体化ガード大"
+			]
+		},
+		"すばやさアップ４": {
+			"moves": [
+				{
+					"move": "すばやさ+2",
+					"sp": 10
+				},
+				{
+					"move": "すばやさ+4",
+					"sp": 20
+				},
+				{
+					"move": "すばやさ+8",
+					"sp": 30
+				},
+				{
+					"move": "すばやさ+12",
+					"sp": 50
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 70
+				},
+				{
+					"move": "すばやさ+20",
+					"sp": 85
+				},
+				{
+					"move": "すばやさ+24",
+					"sp": 100
+				},
+				{
+					"move": "すばやさ+30",
+					"sp": 120
+				},
+				{
+					"move": "すばやさ+36",
+					"sp": 150
+				},
+				{
+					"move": "すばやさ+48",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"すばやさ+2",
+				"すばやさ+4",
+				"すばやさ+8",
+				"すばやさ+12",
+				"かしこさ+16",
+				"すばやさ+20",
+				"すばやさ+24",
+				"すばやさ+30",
+				"すばやさ+36",
+				"すばやさ+48"
+			]
+		},
+		"風炎の剣技": {
+			"moves": [
+				{
+					"move": "かえん斬り",
+					"sp": 10
+				},
+				{
+					"move": "しっぷうづき",
+					"sp": 20
+				},
+				{
+					"move": "しんくう斬り",
+					"sp": 30
+				},
+				{
+					"move": "ドラゴン斬り",
+					"sp": 50
+				},
+				{
+					"move": "あくま斬り",
+					"sp": 70
+				},
+				{
+					"move": "空裂斬",
+					"sp": 100
+				},
+				{
+					"move": "灼熱斬",
+					"sp": 150
+				},
+				{
+					"move": "ばくれつけん",
+					"sp": 200
+				}
+			]
+		},
+		"パニック": {
+			"moves": [
+				{
+					"move": "メダパニ",
+					"sp": 3
+				},
+				{
+					"move": "マヌーサ",
+					"sp": 10
+				},
+				{
+					"move": "どくの息",
+					"sp": 20
+				},
+				{
+					"move": "ハートブレイク",
+					"sp": 30
+				},
+				{
+					"move": "おたけび",
+					"sp": 50
+				},
+				{
+					"move": "こんらんこうげき",
+					"sp": 70
+				},
+				{
+					"move": "ヒュプノスハント",
+					"sp": 85
+				},
+				{
+					"move": "メダパニダンス",
+					"sp": 100
+				}
+			]
+		},
+		"封じガード": {
+			"moves": [
+				{
+					"move": "最大MP+16",
+					"sp": 5
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 10
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 20
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 40
+				},
+				{
+					"move": "封じガード大",
+					"sp": 60
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 90
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 120
+				},
+				{
+					"move": "自動MP回復",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"最大MP+16",
+				"かしこさ+16",
+				"封じガード大",
+				"自動MP回復"
+			]
+		},
+		"アンチスペル": {
+			"moves": [
+				{
+					"move": "フール",
+					"sp": 3
+				},
+				{
+					"move": "マホトーン",
+					"sp": 10
+				},
+				{
+					"move": "インテ",
+					"sp": 20
+				},
+				{
+					"move": "マホトラ",
+					"sp": 30
+				},
+				{
+					"move": "まもりの霧",
+					"sp": 50
+				},
+				{
+					"move": "マフール",
+					"sp": 70
+				},
+				{
+					"move": "Buffer Zone",
+					"sp": 85
+				},
+				{
+					"move": "マホカンタ",
+					"sp": 100
+				}
+			]
+		},
+		"みずげい": {
+			"moves": [
+				{
+					"move": "ザバ",
+					"sp": 3
+				},
+				{
+					"move": "ホイミ",
+					"sp": 10
+				},
+				{
+					"move": "みずしぶき",
+					"sp": 20
+				},
+				{
+					"move": "ラリホー",
+					"sp": 30
+				},
+				{
+					"move": "ベホイミ",
+					"sp": 50
+				},
+				{
+					"move": "こおりの息",
+					"sp": 70
+				},
+				{
+					"move": "てっぽう水",
+					"sp": 85
+				},
+				{
+					"move": "ザバラ",
+					"sp": 100
+				},
+				{
+					"move": "自動MP回復",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"自動MP回復"
+			]
+		},
+		"アサシン": {
+			"moves": [
+				{
+					"move": "ハートブレイク",
+					"sp": 3
+				},
+				{
+					"move": "すなけむり",
+					"sp": 10
+				},
+				{
+					"move": "しっぷうづき",
+					"sp": 20
+				},
+				{
+					"move": "たぎる",
+					"sp": 30
+				},
+				{
+					"move": "ねむりこうげき",
+					"sp": 50
+				},
+				{
+					"move": "まじん斬り",
+					"sp": 70
+				},
+				{
+					"move": "ザキ",
+					"sp": 85
+				},
+				{
+					"move": "アサシンアタック",
+					"sp": 100
+				}
+			]
+		},
+		"攻撃力アップ１": {
+			"moves": [
+				{
+					"move": "攻撃力+4",
+					"sp": 5
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 10
+				},
+				{
+					"move": "攻撃力+8",
+					"sp": 20
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 30
+				},
+				{
+					"move": "攻撃力+8",
+					"sp": 50
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 70
+				},
+				{
+					"move": "攻撃力+12",
+					"sp": 85
+				}
+			],
+			"traits": [
+				"攻撃力+4",
+				"最大HP+4",
+				"攻撃力+8",
+				"攻撃力+12"
+			]
+		},
+		"攻撃力アップ２": {
+			"moves": [
+				{
+					"move": "攻撃力+4",
+					"sp": 5
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 15
+				},
+				{
+					"move": "攻撃力+8",
+					"sp": 30
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 50
+				},
+				{
+					"move": "攻撃力+8",
+					"sp": 75
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 100
+				},
+				{
+					"move": "攻撃力+12",
+					"sp": 130
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 160
+				},
+				{
+					"move": "攻撃力+16",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"攻撃力+4",
+				"最大HP+4",
+				"攻撃力+8",
+				"攻撃力+12",
+				"攻撃力+16"
+			]
+		},
+		"攻撃力アップ３": {
+			"moves": [
+				{
+					"move": "攻撃力+8",
+					"sp": 10
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 20
+				},
+				{
+					"move": "攻撃力+12",
+					"sp": 30
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 50
+				},
+				{
+					"move": "攻撃力+16",
+					"sp": 70
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 85
+				},
+				{
+					"move": "攻撃力+20",
+					"sp": 100
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 120
+				},
+				{
+					"move": "攻撃力+24",
+					"sp": 150
+				},
+				{
+					"move": "弱体化ガード大",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"攻撃力+8",
+				"最大HP+8",
+				"攻撃力+12",
+				"攻撃力+16",
+				"攻撃力+20",
+				"攻撃力+24",
+				"弱体化ガード大"
+			]
+		},
+		"攻撃力アップ４": {
+			"moves": [
+				{
+					"move": "攻撃力+2",
+					"sp": 10
+				},
+				{
+					"move": "攻撃力+4",
+					"sp": 20
+				},
+				{
+					"move": "攻撃力+8",
+					"sp": 30
+				},
+				{
+					"move": "攻撃力+12",
+					"sp": 50
+				},
+				{
+					"move": "攻撃力+16",
+					"sp": 70
+				},
+				{
+					"move": "攻撃力+20",
+					"sp": 85
+				},
+				{
+					"move": "攻撃力+24",
+					"sp": 100
+				},
+				{
+					"move": "攻撃力+30",
+					"sp": 120
+				},
+				{
+					"move": "攻撃力+36",
+					"sp": 150
+				},
+				{
+					"move": "攻撃力+48",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"攻撃力+2",
+				"攻撃力+4",
+				"攻撃力+8",
+				"攻撃力+12",
+				"攻撃力+16",
+				"攻撃力+20",
+				"攻撃力+24",
+				"攻撃力+30",
+				"攻撃力+36",
+				"攻撃力+48"
+			]
+		},
+		"爆発の心": {
+			"moves": [
+				{
+					"move": "イオ",
+					"sp": 3
+				},
+				{
+					"move": "かぶとわり",
+					"sp": 10
+				},
+				{
+					"move": "だいせつだん",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+4",
+					"sp": 30
+				},
+				{
+					"move": "アンカーナックル",
+					"sp": 50
+				},
+				{
+					"move": "バイキルト",
+					"sp": 70
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 85
+				},
+				{
+					"move": "イオラ",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"最大MP+4",
+				"最大MP+8"
+			]
+		},
+		"爆発の極意": {
+			"moves": [
+				{
+					"move": "イオラ",
+					"sp": 3
+				},
+				{
+					"move": "まじん斬り",
+					"sp": 10
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 20
+				},
+				{
+					"move": "イオナズン",
+					"sp": 40
+				},
+				{
+					"move": "メガンテ",
+					"sp": 60
+				},
+				{
+					"move": "バイシオン",
+					"sp": 80
+				},
+				{
+					"move": "最大MP+24",
+					"sp": 110
+				},
+				{
+					"move": "イオグランデ",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"最大MP+16",
+				"最大MP+24"
+			]
+		},
+		"爆発ガード": {
+			"moves": [
+				{
+					"move": "かしこさ+16",
+					"sp": 5
+				},
+				{
+					"move": "攻撃力+8",
+					"sp": 10
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 40
+				},
+				{
+					"move": "爆発ガード大",
+					"sp": 60
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 90
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 120
+				},
+				{
+					"move": "消費MP半分",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"かしこさ+16",
+				"攻撃力+8",
+				"最大MP+16",
+				"爆発ガード大",
+				"消費MP半分"
+			]
+		},
+		"てっぺき": {
+			"moves": [
+				{
+					"move": "バーハ",
+					"sp": 3
+				},
+				{
+					"move": "守備力アップ+4",
+					"sp": 10
+				},
+				{
+					"move": "スクルト",
+					"sp": 20
+				},
+				{
+					"move": "まもりの霧",
+					"sp": 30
+				},
+				{
+					"move": "Snap, Crackle, Poof",
+					"sp": 50
+				},
+				{
+					"move": "だいぼうぎょ",
+					"sp": 70
+				},
+				{
+					"move": "会心封じ",
+					"sp": 85
+				},
+				{
+					"move": "みがわり",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"守備力アップ+4"
+			]
+		},
+		"幻惑ガード": {
+			"moves": [
+				{
+					"move": "最大MP+16",
+					"sp": 5
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 10
+				},
+				{
+					"move": "守備力+16",
+					"sp": 20
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 40
+				},
+				{
+					"move": "幻惑ガード大",
+					"sp": 60
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 90
+				},
+				{
+					"move": "攻撃力+8",
+					"sp": 120
+				},
+				{
+					"move": "自動MP回復",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"最大MP+16",
+				"かしこさ+16",
+				"守備力+16",
+				"最大HP+8",
+				"幻惑ガード大",
+				"攻撃力+8",
+				"自動MP回復"
+			]
+		},
+		"剣術": {
+			"moves": [
+				{
+					"move": "かえん斬り",
+					"sp": 3
+				},
+				{
+					"move": "しんくう斬り",
+					"sp": 10
+				},
+				{
+					"move": "メタル斬り",
+					"sp": 20
+				},
+				{
+					"move": "マヒャド斬り",
+					"sp": 30
+				},
+				{
+					"move": "いなずま斬り",
+					"sp": 50
+				},
+				{
+					"move": "はやぶさ斬り",
+					"sp": 70
+				},
+				{
+					"move": "さみだれ斬り",
+					"sp": 85
+				},
+				{
+					"move": "ミラクルソード",
+					"sp": 100
+				}
+			]
+		},
+		"火炎": {
+			"moves": [
+				{
+					"move": "火の息",
+					"sp": 3
+				},
+				{
+					"move": "メラ",
+					"sp": 10
+				},
+				{
+					"move": "守備力+8",
+					"sp": 20
+				},
+				{
+					"move": "Pyre o' Fire",
+					"sp": 30
+				},
+				{
+					"move": "メダパニ",
+					"sp": 50
+				},
+				{
+					"move": "攻撃力+8",
+					"sp": 70
+				},
+				{
+					"move": "すなけむり",
+					"sp": 85
+				},
+				{
+					"move": "火炎の息",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"守備力+8",
+				"攻撃力+8"
+			]
+		},
+		"グランドブレスSP": {
+			"moves": [
+				{
+					"move": "あまい息",
+					"sp": 10
+				},
+				{
+					"move": "おたけび",
+					"sp": 20
+				},
+				{
+					"move": "どくの息",
+					"sp": 30
+				},
+				{
+					"move": "ひかりの息",
+					"sp": 50
+				},
+				{
+					"move": "やみの息",
+					"sp": 70
+				},
+				{
+					"move": "息をすいこむ",
+					"sp": 85
+				},
+				{
+					"move": "やけつく息",
+					"sp": 100
+				},
+				{
+					"move": "サンドブレス",
+					"sp": 120
+				},
+				{
+					"move": "煉獄火炎",
+					"sp": 150
+				},
+				{
+					"move": "絶対零度",
+					"sp": 200
+				}
+			]
+		},
+		"グリーンソード": {
+			"moves": [
+				{
+					"move": "しんくう斬り",
+					"sp": 3
+				},
+				{
+					"move": "バギ",
+					"sp": 10
+				},
+				{
+					"move": "しぜん斬り",
+					"sp": 20
+				},
+				{
+					"move": "すばやさ+8",
+					"sp": 30
+				},
+				{
+					"move": "キアリク",
+					"sp": 50
+				},
+				{
+					"move": "かまいたち",
+					"sp": 70
+				},
+				{
+					"move": "バギマ",
+					"sp": 85
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 100
+				},
+				{
+					"move": "空裂斬",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"すばやさ+8",
+				"かしこさ+16"
+			]
+		},
+		"つむじ風": {
+			"moves": [
+				{
+					"move": "ピオラ",
+					"sp": 3
+				},
+				{
+					"move": "バギ",
+					"sp": 10
+				},
+				{
+					"move": "すなけむり",
+					"sp": 20
+				},
+				{
+					"move": "ピオリム",
+					"sp": 30
+				},
+				{
+					"move": "バーハ",
+					"sp": 50
+				},
+				{
+					"move": "かまいたち",
+					"sp": 70
+				},
+				{
+					"move": "フバーハ",
+					"sp": 85
+				},
+				{
+					"move": "ぎゃくふう",
+					"sp": 100
+				},
+				{
+					"move": "しんくうは",
+					"sp": 120
+				}
+			]
+		},
+		"アンチブレス": {
+			"moves": [
+				{
+					"move": "くちをふさぐ",
+					"sp": 3
+				},
+				{
+					"move": "バーハ",
+					"sp": 10
+				},
+				{
+					"move": "ドラゴン斬り",
+					"sp": 20
+				},
+				{
+					"move": "フバーハ",
+					"sp": 30
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 50
+				},
+				{
+					"move": "ねむりこうげき",
+					"sp": 70
+				},
+				{
+					"move": "まもりの霧",
+					"sp": 85
+				},
+				{
+					"move": "ぎゃくふう",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"最大HP+4"
+			]
+		},
+		"みわく": {
+			"moves": [
+				{
+					"move": "さそう踊り",
+					"sp": 3
+				},
+				{
+					"move": "ねむりこうげき",
+					"sp": 10
+				},
+				{
+					"move": "マヌーサ",
+					"sp": 20
+				},
+				{
+					"move": "マホトラ",
+					"sp": 30
+				},
+				{
+					"move": "あまい息",
+					"sp": 50
+				},
+				{
+					"move": "メダパニダンス",
+					"sp": 70
+				},
+				{
+					"move": "おうぎのまい",
+					"sp": 85
+				},
+				{
+					"move": "ギガ・マホトラ",
+					"sp": 100
+				}
+			]
+		},
+		"白黒ガードSP": {
+			"moves": [
+				{
+					"move": "最大HP+8",
+					"sp": 10
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 20
+				},
+				{
+					"move": "最大HP+20",
+					"sp": 30
+				},
+				{
+					"move": "最大MP+40",
+					"sp": 50
+				},
+				{
+					"move": "最大HP+36",
+					"sp": 70
+				},
+				{
+					"move": "最大MP+72",
+					"sp": 85
+				},
+				{
+					"move": "MP吸収ガード大",
+					"sp": 100
+				},
+				{
+					"move": "即死ガード大",
+					"sp": 120
+				},
+				{
+					"move": "光ガード大",
+					"sp": 150
+				},
+				{
+					"move": "闇ガード大",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"最大HP+8",
+				"最大HP+20",
+				"最大MP+40",
+				"最大HP+36",
+				"最大MP+72",
+				"MP吸収ガード大",
+				"即死ガード大",
+				"光ガード大",
+				"闇ガード大"
+			]
+		},
+		"吹雪": {
+			"moves": [
+				{
+					"move": "つめたい息",
+					"sp": 3
+				},
+				{
+					"move": "ヒャド",
+					"sp": 10
+				},
+				{
+					"move": "すばやさ+8",
+					"sp": 20
+				},
+				{
+					"move": "ゆきだま",
+					"sp": 30
+				},
+				{
+					"move": "ラリホー",
+					"sp": 50
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 70
+				},
+				{
+					"move": "まぶしい光",
+					"sp": 85
+				},
+				{
+					"move": "こおりの息",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"すばやさ+8",
+				"かしこさ+16"
+			]
+		},
+		"エンターテイナー": {
+			"moves": [
+				{
+					"move": "ボミエ",
+					"sp": 3
+				},
+				{
+					"move": "フール",
+					"sp": 10
+				},
+				{
+					"move": "ふしぎな踊り",
+					"sp": 20
+				},
+				{
+					"move": "ボミオス",
+					"sp": 30
+				},
+				{
+					"move": "まぶしい光",
+					"sp": 50
+				},
+				{
+					"move": "さそう踊り",
+					"sp": 70
+				},
+				{
+					"move": "メダパニダンス",
+					"sp": 85
+				},
+				{
+					"move": "メガザルダンス",
+					"sp": 100
+				}
+			]
+		},
+		"混乱ガード": {
+			"moves": [
+				{
+					"move": "最大HP+8",
+					"sp": 5
+				},
+				{
+					"move": "守備力+16",
+					"sp": 10
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 20
+				},
+				{
+					"move": "守備力+16",
+					"sp": 40
+				},
+				{
+					"move": "こんらんガード大",
+					"sp": 60
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 90
+				},
+				{
+					"move": "守備力+16",
+					"sp": 120
+				},
+				{
+					"move": "自動HP回復",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"最大HP+8",
+				"守備力+16",
+				"こんらんガード大",
+				"自動HP回復"
+			]
+		},
+		"氷結の心": {
+			"moves": [
+				{
+					"move": "ヒャド",
+					"sp": 3
+				},
+				{
+					"move": "マヒャド斬り",
+					"sp": 10
+				},
+				{
+					"move": "ゆきだま",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+4",
+					"sp": 30
+				},
+				{
+					"move": "つめたい息",
+					"sp": 50
+				},
+				{
+					"move": "ラリホー",
+					"sp": 70
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 85
+				},
+				{
+					"move": "ヒャダルコ",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"最大MP+4",
+				"最大MP+8"
+			]
+		},
+		"氷結の極意": {
+			"moves": [
+				{
+					"move": "ヒャダルコ",
+					"sp": 3
+				},
+				{
+					"move": "こおりの息",
+					"sp": 10
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 20
+				},
+				{
+					"move": "マヒャド",
+					"sp": 40
+				},
+				{
+					"move": "フリーズブレード",
+					"sp": 60
+				},
+				{
+					"move": "ラリホーマ",
+					"sp": 80
+				},
+				{
+					"move": "最大MP+24",
+					"sp": 110
+				},
+				{
+					"move": "マヒャデドス",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"最大MP+8",
+				"最大MP+24"
+			]
+		},
+		"氷結ガード": {
+			"moves": [
+				{
+					"move": "かしこさ+16",
+					"sp": 5
+				},
+				{
+					"move": "守備力+16",
+					"sp": 10
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 40
+				},
+				{
+					"move": "氷結ガード大",
+					"sp": 60
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 90
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 120
+				},
+				{
+					"move": "消費MP半分",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"かしこさ+16",
+				"守備力+16",
+				"最大MP+16",
+				"氷結ガード大",
+				"消費MP半分"
+			]
+		},
+		"地の心": {
+			"moves": [
+				{
+					"move": "ジバリア",
+					"sp": 3
+				},
+				{
+					"move": "けもの斬り",
+					"sp": 10
+				},
+				{
+					"move": "いわなげ",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+4",
+					"sp": 30
+				},
+				{
+					"move": "スカラ",
+					"sp": 50
+				},
+				{
+					"move": "じひびき",
+					"sp": 70
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 85
+				},
+				{
+					"move": "ジバリカ",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"最大MP+4",
+				"最大MP+8"
+			]
+		},
+		"地の極意": {
+			"moves": [
+				{
+					"move": "ジバリカ",
+					"sp": 3
+				},
+				{
+					"move": "サンドブレス",
+					"sp": 10
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 20
+				},
+				{
+					"move": "ジバリーナ",
+					"sp": 40
+				},
+				{
+					"move": "大地斬",
+					"sp": 60
+				},
+				{
+					"move": "スクルト",
+					"sp": 80
+				},
+				{
+					"move": "最大MP+24",
+					"sp": 110
+				},
+				{
+					"move": "ジバルンバ",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"最大MP+16",
+				"最大MP+24"
+			]
+		},
+		"地ガード": {
+			"moves": [
+				{
+					"move": "最大HP+8",
+					"sp": 5
+				},
+				{
+					"move": "守備力+16",
+					"sp": 10
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 20
+				},
+				{
+					"move": "攻撃力+8",
+					"sp": 40
+				},
+				{
+					"move": "地ガード大",
+					"sp": 60
+				},
+				{
+					"move": "守備力+16",
+					"sp": 90
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 120
+				},
+				{
+					"move": "消費MP半分",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"最大HP+8",
+				"守備力+16",
+				"最大MP+16",
+				"攻撃力+8",
+				"地ガード大",
+				"消費MP半分"
+			]
+		},
+		"キューピット": {
+			"moves": [
+				{
+					"move": "ホイミ",
+					"sp": 3
+				},
+				{
+					"move": "スカラ",
+					"sp": 10
+				},
+				{
+					"move": "ギラ",
+					"sp": 20
+				},
+				{
+					"move": "ハートブレイク",
+					"sp": 30
+				},
+				{
+					"move": "ベギラマ",
+					"sp": 50
+				},
+				{
+					"move": "まぶしい光",
+					"sp": 70
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 85
+				},
+				{
+					"move": "シャイニングボウ",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"最大HP+8"
+			]
+		},
+		"ぬすっと": {
+			"moves": [
+				{
+					"move": "ピオラ",
+					"sp": 3
+				},
+				{
+					"move": "どくこうげき",
+					"sp": 10
+				},
+				{
+					"move": "ねむりこうげき",
+					"sp": 20
+				},
+				{
+					"move": "すなけむり",
+					"sp": 30
+				},
+				{
+					"move": "みかわしきゃく",
+					"sp": 50
+				},
+				{
+					"move": "しっぷうづき",
+					"sp": 70
+				},
+				{
+					"move": "タナトスハント",
+					"sp": 85
+				},
+				{
+					"move": "ヒュプノスハント",
+					"sp": 100
+				}
+			]
+		},
+		"爆風ガードSP": {
+			"moves": [
+				{
+					"move": "最大HP+8",
+					"sp": 10
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 20
+				},
+				{
+					"move": "最大HP+20",
+					"sp": 30
+				},
+				{
+					"move": "最大MP+40",
+					"sp": 50
+				},
+				{
+					"move": "最大HP+36",
+					"sp": 70
+				},
+				{
+					"move": "最大MP+72",
+					"sp": 85
+				},
+				{
+					"move": "休みガード大",
+					"sp": 100
+				},
+				{
+					"move": "こんらんガード大",
+					"sp": 120
+				},
+				{
+					"move": "爆発ガード大",
+					"sp": 150
+				},
+				{
+					"move": "風ガード大",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"最大HP+8",
+				"最大MP+16",
+				"最大HP+20",
+				"最大MP+40",
+				"最大HP+36",
+				"最大MP+72",
+				"休みガード大",
+				"こんらんガード大",
+				"爆発ガード大",
+				"風ガード大"
+			]
+		},
+		"ダンサー": {
+			"moves": [
+				{
+					"move": "ふしぎな踊り",
+					"sp": 3
+				},
+				{
+					"move": "さそう踊り",
+					"sp": 10
+				},
+				{
+					"move": "しっぷうづき",
+					"sp": 20
+				},
+				{
+					"move": "すばやさ+4",
+					"sp": 30
+				},
+				{
+					"move": "スカラ",
+					"sp": 50
+				},
+				{
+					"move": "マホトラ踊り",
+					"sp": 70
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 85
+				},
+				{
+					"move": "つるぎのまい",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"すばやさ+4",
+				"最大MP+8"
+			]
+		},
+		"悪魔のささやき": {
+			"moves": [
+				{
+					"move": "ドルマ",
+					"sp": 3
+				},
+				{
+					"move": "ルカニ",
+					"sp": 10
+				},
+				{
+					"move": "フール",
+					"sp": 20
+				},
+				{
+					"move": "あくま斬り",
+					"sp": 30
+				},
+				{
+					"move": "マホトラ",
+					"sp": 50
+				},
+				{
+					"move": "マホトーン",
+					"sp": 70
+				},
+				{
+					"move": "ザキ",
+					"sp": 85
+				},
+				{
+					"move": "ドルクマ",
+					"sp": 100
+				},
+				{
+					"move": "自動MP回復",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"自動MP回復"
+			]
+		},
+		"即死ガード": {
+			"moves": [
+				{
+					"move": "最大HP+8",
+					"sp": 5
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 10
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 40
+				},
+				{
+					"move": "即死ガード大",
+					"sp": 60
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 90
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 120
+				},
+				{
+					"move": "自動HP回復",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"最大HP+8",
+				"最大MP+16",
+				"即死ガード大",
+				"自動HP回復"
+			]
+		},
+		"弱体化ガード": {
+			"moves": [
+				{
+					"move": "最大HP+8",
+					"sp": 5
+				},
+				{
+					"move": "攻撃力+8",
+					"sp": 10
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 20
+				},
+				{
+					"move": "守備力+16",
+					"sp": 40
+				},
+				{
+					"move": "弱体化ガード大",
+					"sp": 60
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 90
+				},
+				{
+					"move": "攻撃力+8",
+					"sp": 120
+				},
+				{
+					"move": "自動MP回復",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"最大HP+8",
+				"攻撃力+8",
+				"最大MP+16",
+				"守備力+16",
+				"弱体化ガード大",
+				"自動MP回復"
+			]
+		},
+		"ブレスマスター": {
+			"moves": [
+				{
+					"move": "火炎の息",
+					"sp": 3
+				},
+				{
+					"move": "こおりの息",
+					"sp": 10
+				},
+				{
+					"move": "息をすいこむ",
+					"sp": 20
+				},
+				{
+					"move": "はげしい炎",
+					"sp": 40
+				},
+				{
+					"move": "こごえる吹雪",
+					"sp": 60
+				},
+				{
+					"move": "ひかりの息",
+					"sp": 80
+				},
+				{
+					"move": "やみの息",
+					"sp": 100
+				},
+				{
+					"move": "サンドブレス",
+					"sp": 130
+				},
+				{
+					"move": "しゃくねつ",
+					"sp": 160
+				},
+				{
+					"move": "かがやく息",
+					"sp": 200
+				}
+			]
+		},
+		"守備力アップ１": {
+			"moves": [
+				{
+					"move": "守備力アップ+4",
+					"sp": 5
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 10
+				},
+				{
+					"move": "守備力+8",
+					"sp": 20
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 30
+				},
+				{
+					"move": "守備力+16",
+					"sp": 50
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 70
+				},
+				{
+					"move": "守備力アップ+24",
+					"sp": 85
+				}
+			],
+			"traits": [
+				"守備力アップ+4",
+				"最大HP+4",
+				"守備力+8",
+				"守備力+16",
+				"守備力アップ+24"
+			]
+		},
+		"守備力アップ２": {
+			"moves": [
+				{
+					"move": "守備力+8",
+					"sp": 5
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 15
+				},
+				{
+					"move": "守備力+16",
+					"sp": 30
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 50
+				},
+				{
+					"move": "守備力+16",
+					"sp": 75
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 100
+				},
+				{
+					"move": "守備力アップ+24",
+					"sp": 130
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 160
+				},
+				{
+					"move": "守備力アップ+32",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"守備力+8",
+				"最大HP+4",
+				"守備力+16",
+				"守備力アップ+24",
+				"守備力アップ+32"
+			]
+		},
+		"守備力アップ３": {
+			"moves": [
+				{
+					"move": "守備力+16",
+					"sp": 10
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 20
+				},
+				{
+					"move": "守備力アップ+24",
+					"sp": 30
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 50
+				},
+				{
+					"move": "守備力アップ+32",
+					"sp": 70
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 85
+				},
+				{
+					"move": "守備力+40",
+					"sp": 100
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 120
+				},
+				{
+					"move": "守備力アップ+48",
+					"sp": 150
+				},
+				{
+					"move": "弱体化ガード大",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"守備力+16",
+				"最大HP+8",
+				"守備力アップ+24",
+				"守備力アップ+32",
+				"守備力+40",
+				"最大MP+8",
+				"守備力アップ+48",
+				"弱体化ガード大"
+			]
+		},
+		"守備力アップ４": {
+			"moves": [
+				{
+					"move": "守備力アップ+4",
+					"sp": 10
+				},
+				{
+					"move": "守備力+8",
+					"sp": 20
+				},
+				{
+					"move": "守備力+16",
+					"sp": 30
+				},
+				{
+					"move": "守備力アップ+24",
+					"sp": 50
+				},
+				{
+					"move": "守備力アップ+32",
+					"sp": 70
+				},
+				{
+					"move": "守備力+40",
+					"sp": 85
+				},
+				{
+					"move": "守備力アップ+48",
+					"sp": 100
+				},
+				{
+					"move": "守備力アップ+60",
+					"sp": 120
+				},
+				{
+					"move": "守備力アップ+72",
+					"sp": 150
+				},
+				{
+					"move": "守備力アップ+96",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"守備力アップ+4",
+				"守備力+8",
+				"守備力+16",
+				"守備力アップ+24",
+				"守備力アップ+32",
+				"守備力+40",
+				"守備力アップ+48",
+				"守備力アップ+60",
+				"守備力アップ+72",
+				"守備力アップ+96"
+			]
+		},
+		"ぼうぎょ": {
+			"moves": [
+				{
+					"move": "スカラ",
+					"sp": 3
+				},
+				{
+					"move": "ホイミ",
+					"sp": 10
+				},
+				{
+					"move": "やいばくだき",
+					"sp": 20
+				},
+				{
+					"move": "まぶしい光",
+					"sp": 30
+				},
+				{
+					"move": "スクルト",
+					"sp": 50
+				},
+				{
+					"move": "だいぼうぎょ",
+					"sp": 70
+				},
+				{
+					"move": "ベホイミ",
+					"sp": 85
+				},
+				{
+					"move": "みがわり",
+					"sp": 100
+				}
+			]
+		},
+		"ドラゴンソウル": {
+			"moves": [
+				{
+					"move": "火の息",
+					"sp": 3
+				},
+				{
+					"move": "つめたい息",
+					"sp": 10
+				},
+				{
+					"move": "けもの斬り",
+					"sp": 20
+				},
+				{
+					"move": "すなけむり",
+					"sp": 30
+				},
+				{
+					"move": "息をすいこむ",
+					"sp": 50
+				},
+				{
+					"move": "おたけび",
+					"sp": 70
+				},
+				{
+					"move": "火炎の息",
+					"sp": 85
+				},
+				{
+					"move": "こおりの息",
+					"sp": 100
+				},
+				{
+					"move": "自動HP回復",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"自動HP回復"
+			]
+		},
+		"MP吸収ガード": {
+			"moves": [
+				{
+					"move": "最大MP+16",
+					"sp": 5
+				},
+				{
+					"move": "すばやさ+8",
+					"sp": 10
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 20
+				},
+				{
+					"move": "すばやさ+8",
+					"sp": 40
+				},
+				{
+					"move": "MP吸収ガード大",
+					"sp": 60
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 90
+				},
+				{
+					"move": "すばやさ+8",
+					"sp": 120
+				},
+				{
+					"move": "自動MP回復",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"最大MP+16",
+				"すばやさ+8",
+				"MP吸収ガード大",
+				"自動MP回復"
+			]
+		},
+		"ダウナー": {
+			"moves": [
+				{
+					"move": "ボミエ",
+					"sp": 3
+				},
+				{
+					"move": "ルカニ",
+					"sp": 10
+				},
+				{
+					"move": "フール",
+					"sp": 20
+				},
+				{
+					"move": "ヘナトス",
+					"sp": 30
+				},
+				{
+					"move": "ボミオス",
+					"sp": 50
+				},
+				{
+					"move": "ルカナン",
+					"sp": 70
+				},
+				{
+					"move": "マフール",
+					"sp": 85
+				},
+				{
+					"move": "ひゃくれつなめ",
+					"sp": 100
+				}
+			]
+		},
+		"ウォリアー": {
+			"moves": [
+				{
+					"move": "かぶとわり",
+					"sp": 3
+				},
+				{
+					"move": "ハートブレイク",
+					"sp": 10
+				},
+				{
+					"move": "ウィングブロウ",
+					"sp": 20
+				},
+				{
+					"move": "いわなげ",
+					"sp": 30
+				},
+				{
+					"move": "まじん斬り",
+					"sp": 50
+				},
+				{
+					"move": "まわしげり",
+					"sp": 70
+				},
+				{
+					"move": "おたけび",
+					"sp": 85
+				},
+				{
+					"move": "せいけんづき",
+					"sp": 100
+				}
+			]
+		},
+		"わたぼう": {
+			"moves": [
+				{
+					"move": "キアリク",
+					"sp": 10
+				},
+				{
+					"move": "ザメハ",
+					"sp": 20
+				},
+				{
+					"move": "バイシオン",
+					"sp": 30
+				},
+				{
+					"move": "スクルト",
+					"sp": 50
+				},
+				{
+					"move": "ルカナン",
+					"sp": 70
+				},
+				{
+					"move": "ピオリム",
+					"sp": 85
+				},
+				{
+					"move": "インテラ",
+					"sp": 100
+				},
+				{
+					"move": "フバーハ",
+					"sp": 120
+				},
+				{
+					"move": "いやしの雨",
+					"sp": 150
+				},
+				{
+					"move": "ひかりのはどう",
+					"sp": 200
+				}
+			]
+		},
+		"アッパー": {
+			"moves": [
+				{
+					"move": "ホイミ",
+					"sp": 3
+				},
+				{
+					"move": "ピオラ",
+					"sp": 10
+				},
+				{
+					"move": "スカラ",
+					"sp": 20
+				},
+				{
+					"move": "インテ",
+					"sp": 30
+				},
+				{
+					"move": "バイキルト",
+					"sp": 50
+				},
+				{
+					"move": "バーハ",
+					"sp": 70
+				},
+				{
+					"move": "ベホイミ",
+					"sp": 85
+				},
+				{
+					"move": "バイシオン",
+					"sp": 100
+				}
+			]
+		},
+		"爆氷の剣技": {
+			"moves": [
+				{
+					"move": "マヒャド斬り",
+					"sp": 10
+				},
+				{
+					"move": "しっぷうづき",
+					"sp": 20
+				},
+				{
+					"move": "いなずま斬り",
+					"sp": 30
+				},
+				{
+					"move": "しぜん斬り",
+					"sp": 50
+				},
+				{
+					"move": "だいせつだん",
+					"sp": 70
+				},
+				{
+					"move": "暗黒斬",
+					"sp": 100
+				},
+				{
+					"move": "大地斬",
+					"sp": 150
+				},
+				{
+					"move": "ばくれつけん",
+					"sp": 200
+				}
+			]
+		},
+		"氷炎の剣技": {
+			"moves": [
+				{
+					"move": "マヒャド斬り",
+					"sp": 10
+				},
+				{
+					"move": "さみだれ斬り",
+					"sp": 20
+				},
+				{
+					"move": "かえん斬り",
+					"sp": 30
+				},
+				{
+					"move": "けもの斬り",
+					"sp": 50
+				},
+				{
+					"move": "ゾンビ斬り",
+					"sp": 70
+				},
+				{
+					"move": "灼熱斬",
+					"sp": 100
+				},
+				{
+					"move": "暗黒斬",
+					"sp": 150
+				},
+				{
+					"move": "ミラクルソード",
+					"sp": 200
+				}
+			]
+		},
+		"火の心": {
+			"moves": [
+				{
+					"move": "メラ",
+					"sp": 3
+				},
+				{
+					"move": "かえん斬り",
+					"sp": 10
+				},
+				{
+					"move": "ドラゴン斬り",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+4",
+					"sp": 30
+				},
+				{
+					"move": "火の息",
+					"sp": 50
+				},
+				{
+					"move": "バイキルト",
+					"sp": 70
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 85
+				},
+				{
+					"move": "メラミ",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"最大MP+4",
+				"最大MP+8"
+			]
+		},
+		"火の極意": {
+			"moves": [
+				{
+					"move": "メラミ",
+					"sp": 3
+				},
+				{
+					"move": "火炎の息",
+					"sp": 10
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 20
+				},
+				{
+					"move": "メラゾーマ",
+					"sp": 40
+				},
+				{
+					"move": "灼熱斬",
+					"sp": 60
+				},
+				{
+					"move": "バイシオン",
+					"sp": 80
+				},
+				{
+					"move": "最大MP+24",
+					"sp": 110
+				},
+				{
+					"move": "メラガイアー",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"最大MP+16",
+				"最大MP+24"
+			]
+		},
+		"火ガード": {
+			"moves": [
+				{
+					"move": "かしこさ+16",
+					"sp": 5
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 10
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 40
+				},
+				{
+					"move": "火ガード大",
+					"sp": 60
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 90
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 120
+				},
+				{
+					"move": "消費MP半分",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"かしこさ+16",
+				"最大HP+8",
+				"最大MP+16",
+				"火ガード大",
+				"消費MP半分"
+			]
+		},
+		"氷獄": {
+			"moves": [
+				{
+					"move": "こおりの息",
+					"sp": 3
+				},
+				{
+					"move": "マヒャド斬り",
+					"sp": 10
+				},
+				{
+					"move": "ヒャダルコ",
+					"sp": 20
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 40
+				},
+				{
+					"move": "こごえる吹雪",
+					"sp": 60
+				},
+				{
+					"move": "マヒャド",
+					"sp": 80
+				},
+				{
+					"move": "息をすいこむ",
+					"sp": 100
+				},
+				{
+					"move": "かがやく息",
+					"sp": 130
+				},
+				{
+					"move": "かしこさ+32",
+					"sp": 160
+				},
+				{
+					"move": "絶対零度",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"かしこさ+16",
+				"かしこさ+32"
+			]
+		},
+		"稲妻ガードSP": {
+			"moves": [
+				{
+					"move": "最大HP+8",
+					"sp": 10
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 20
+				},
+				{
+					"move": "最大HP+20",
+					"sp": 30
+				},
+				{
+					"move": "最大MP+40",
+					"sp": 50
+				},
+				{
+					"move": "最大HP+36",
+					"sp": 70
+				},
+				{
+					"move": "最大MP+72",
+					"sp": 85
+				},
+				{
+					"move": "封じガード大",
+					"sp": 100
+				},
+				{
+					"move": "マヒガード大",
+					"sp": 120
+				},
+				{
+					"move": "電撃ガード大",
+					"sp": 150
+				},
+				{
+					"move": "光ガード大",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"最大HP+8",
+				"最大MP+16",
+				"最大HP+20",
+				"最大MP+40",
+				"最大HP+36",
+				"最大MP+72",
+				"封じガード大",
+				"マヒガード大",
+				"電撃ガード大",
+				"光ガード大"
+			]
+		},
+		"流氷ガードSP": {
+			"moves": [
+				{
+					"move": "最大HP+8",
+					"sp": 10
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 20
+				},
+				{
+					"move": "最大HP+20",
+					"sp": 30
+				},
+				{
+					"move": "最大MP+40",
+					"sp": 50
+				},
+				{
+					"move": "最大HP+36",
+					"sp": 70
+				},
+				{
+					"move": "最大MP+72",
+					"sp": 85
+				},
+				{
+					"move": "幻惑ガード大",
+					"sp": 100
+				},
+				{
+					"move": "どくガード大",
+					"sp": 120
+				},
+				{
+					"move": "地ガード大",
+					"sp": 150
+				},
+				{
+					"move": "爆発ガード大",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"最大HP+8",
+				"最大MP+16",
+				"最大HP+20",
+				"最大MP+40",
+				"最大HP+36",
+				"最大MP+72",
+				"幻惑ガード大",
+				"どくガード大",
+				"地ガード大",
+				"爆発ガード大"
+			]
+		},
+		"巨漢": {
+			"moves": [
+				{
+					"move": "かぶとわり",
+					"sp": 3
+				},
+				{
+					"move": "スライムたたき",
+					"sp": 10
+				},
+				{
+					"move": "だいぼうぎょ",
+					"sp": 20
+				},
+				{
+					"move": "おたけび",
+					"sp": 30
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 50
+				},
+				{
+					"move": "みがわり",
+					"sp": 70
+				},
+				{
+					"move": "アンカーナックル",
+					"sp": 85
+				},
+				{
+					"move": "じひびき",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"最大HP+8"
+			]
+		},
+		"騎士道": {
+			"moves": [
+				{
+					"move": "あくま斬り",
+					"sp": 3
+				},
+				{
+					"move": "スカラ",
+					"sp": 10
+				},
+				{
+					"move": "しっぷうづき",
+					"sp": 20
+				},
+				{
+					"move": "バイキルト",
+					"sp": 30
+				},
+				{
+					"move": "かまいたち",
+					"sp": 50
+				},
+				{
+					"move": "はやぶさ斬り",
+					"sp": 70
+				},
+				{
+					"move": "ベホイミ",
+					"sp": 85
+				},
+				{
+					"move": "みがわり",
+					"sp": 100
+				},
+				{
+					"move": "キングダムソード",
+					"sp": 120
+				}
+			]
+		},
+		"アンデッド": {
+			"moves": [
+				{
+					"move": "どくこうげき",
+					"sp": 3
+				},
+				{
+					"move": "ボミエ",
+					"sp": 10
+				},
+				{
+					"move": "ねむりこうげき",
+					"sp": 20
+				},
+				{
+					"move": "あまい息",
+					"sp": 30
+				},
+				{
+					"move": "やけつく息",
+					"sp": 50
+				},
+				{
+					"move": "こんらんこうげき",
+					"sp": 70
+				},
+				{
+					"move": "ザキ",
+					"sp": 85
+				},
+				{
+					"move": "メガンテ",
+					"sp": 100
+				}
+			]
+		},
+		"けんごうSP": {
+			"moves": [
+				{
+					"move": "マヒャド斬り",
+					"sp": 10
+				},
+				{
+					"move": "いなずま斬り",
+					"sp": 20
+				},
+				{
+					"move": "灼熱斬",
+					"sp": 30
+				},
+				{
+					"move": "空裂斬",
+					"sp": 50
+				},
+				{
+					"move": "大地斬",
+					"sp": 70
+				},
+				{
+					"move": "ギガブレイク",
+					"sp": 85
+				},
+				{
+					"move": "閃光斬",
+					"sp": 100
+				},
+				{
+					"move": "暗黒斬",
+					"sp": 120
+				},
+				{
+					"move": "ギガクロスブレイク",
+					"sp": 150
+				},
+				{
+					"move": "ダークブレイク",
+					"sp": 200
+				}
+			]
+		},
+		"HP回復": {
+			"moves": [
+				{
+					"move": "ホイミ",
+					"sp": 3
+				},
+				{
+					"move": "スカラ",
+					"sp": 10
+				},
+				{
+					"move": "キアリー",
+					"sp": 20
+				},
+				{
+					"move": "バーハ",
+					"sp": 30
+				},
+				{
+					"move": "ベホイミ",
+					"sp": 50
+				},
+				{
+					"move": "ザオラル",
+					"sp": 70
+				},
+				{
+					"move": "めいそう",
+					"sp": 85
+				},
+				{
+					"move": "まもりの霧",
+					"sp": 100
+				},
+				{
+					"move": "ザオリク",
+					"sp": 120
+				}
+			]
+		},
+		"カース": {
+			"moves": [
+				{
+					"move": "ドルマ",
+					"sp": 3
+				},
+				{
+					"move": "ルカニ",
+					"sp": 10
+				},
+				{
+					"move": "つめたい息",
+					"sp": 20
+				},
+				{
+					"move": "ヘナトス",
+					"sp": 30
+				},
+				{
+					"move": "メダパニ",
+					"sp": 50
+				},
+				{
+					"move": "シビー",
+					"sp": 70
+				},
+				{
+					"move": "ザキ",
+					"sp": 85
+				},
+				{
+					"move": "かしこさ+24",
+					"sp": 100
+				},
+				{
+					"move": "ドルクマ",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"かしこさ+24"
+			]
+		},
+		"むしのしらせ": {
+			"moves": [
+				{
+					"move": "スカラ",
+					"sp": 3
+				},
+				{
+					"move": "ラリホー",
+					"sp": 10
+				},
+				{
+					"move": "ハートブレイク",
+					"sp": 20
+				},
+				{
+					"move": "ねむりこうげき",
+					"sp": 30
+				},
+				{
+					"move": "マヒこうげき",
+					"sp": 50
+				},
+				{
+					"move": "しぜん斬り",
+					"sp": 70
+				},
+				{
+					"move": "だいぼうぎょ",
+					"sp": 85
+				},
+				{
+					"move": "メダパニダンス",
+					"sp": 100
+				}
+			]
+		},
+		"トロピカル": {
+			"moves": [
+				{
+					"move": "ふしぎな踊り",
+					"sp": 3
+				},
+				{
+					"move": "ザバ",
+					"sp": 10
+				},
+				{
+					"move": "さそう踊り",
+					"sp": 20
+				},
+				{
+					"move": "あまい息",
+					"sp": 30
+				},
+				{
+					"move": "メラミ",
+					"sp": 50
+				},
+				{
+					"move": "火炎の息",
+					"sp": 70
+				},
+				{
+					"move": "ベギラマ",
+					"sp": 85
+				},
+				{
+					"move": "ハッスルダンス",
+					"sp": 100
+				},
+				{
+					"move": "自動MP回復",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"自動MP回復"
+			]
+		},
+		"HPアップ１": {
+			"moves": [
+				{
+					"move": "最大HP+4",
+					"sp": 5
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 10
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 20
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 30
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 50
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 70
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 85
+				},
+				{
+					"move": "最大HP+12",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"最大HP+4",
+				"最大HP+8",
+				"最大HP+12"
+			]
+		},
+		"HPアップ２": {
+			"moves": [
+				{
+					"move": "最大HP+4",
+					"sp": 5
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 15
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 30
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 50
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 75
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 100
+				},
+				{
+					"move": "最大HP+12",
+					"sp": 130
+				},
+				{
+					"move": "最大HP+12",
+					"sp": 160
+				},
+				{
+					"move": "最大HP+16",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"最大HP+4",
+				"最大HP+8",
+				"最大HP+12",
+				"最大HP+16"
+			]
+		},
+		"HPアップ３": {
+			"moves": [
+				{
+					"move": "最大HP+4",
+					"sp": 10
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 20
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 30
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 50
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 70
+				},
+				{
+					"move": "最大HP+12",
+					"sp": 85
+				},
+				{
+					"move": "最大HP+16",
+					"sp": 100
+				},
+				{
+					"move": "最大HP+20",
+					"sp": 120
+				},
+				{
+					"move": "最大HP+24",
+					"sp": 150
+				},
+				{
+					"move": "自動HP回復",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"最大HP+4",
+				"最大HP+8",
+				"最大HP+12",
+				"最大HP+16",
+				"最大HP+20",
+				"最大HP+24",
+				"自動HP回復"
+			]
+		},
+		"HPアップ４": {
+			"moves": [
+				{
+					"move": "最大HP+2",
+					"sp": 10
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 20
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 30
+				},
+				{
+					"move": "最大HP+12",
+					"sp": 50
+				},
+				{
+					"move": "最大HP+16",
+					"sp": 70
+				},
+				{
+					"move": "最大HP+20",
+					"sp": 85
+				},
+				{
+					"move": "最大HP+24",
+					"sp": 100
+				},
+				{
+					"move": "最大HP+30",
+					"sp": 120
+				},
+				{
+					"move": "最大HP+36",
+					"sp": 150
+				},
+				{
+					"move": "最大HP+48",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"最大HP+2",
+				"最大HP+4",
+				"最大HP+8",
+				"最大HP+12",
+				"最大HP+16",
+				"最大HP+20",
+				"最大HP+24",
+				"最大HP+30",
+				"最大HP+36",
+				"最大HP+48"
+			]
+		},
+		"闇の爆炎SP": {
+			"moves": [
+				{
+					"move": "メラゾーマ",
+					"sp": 10
+				},
+				{
+					"move": "ドルモーア",
+					"sp": 20
+				},
+				{
+					"move": "イオナズン",
+					"sp": 30
+				},
+				{
+					"move": "灼熱斬",
+					"sp": 50
+				},
+				{
+					"move": "大地斬",
+					"sp": 70
+				},
+				{
+					"move": "暗黒斬",
+					"sp": 85
+				},
+				{
+					"move": "ジバルンバ",
+					"sp": 100
+				},
+				{
+					"move": "メラガイアー",
+					"sp": 120
+				},
+				{
+					"move": "ドルマドン",
+					"sp": 150
+				},
+				{
+					"move": "イオグランデ",
+					"sp": 200
+				}
+			]
+		},
+		"ジャマー": {
+			"moves": [
+				{
+					"move": "ルカニ",
+					"sp": 3
+				},
+				{
+					"move": "ラリホー",
+					"sp": 10
+				},
+				{
+					"move": "ヴェレ",
+					"sp": 20
+				},
+				{
+					"move": "どくこうげき",
+					"sp": 30
+				},
+				{
+					"move": "シビー",
+					"sp": 50
+				},
+				{
+					"move": "ねむりこうげき",
+					"sp": 70
+				},
+				{
+					"move": "アサシンアタック",
+					"sp": 85
+				},
+				{
+					"move": "シビリーニョ",
+					"sp": 100
+				}
+			]
+		},
+		"魔術": {
+			"moves": [
+				{
+					"move": "メラ",
+					"sp": 3
+				},
+				{
+					"move": "ホイミ",
+					"sp": 10
+				},
+				{
+					"move": "ヒャド",
+					"sp": 20
+				},
+				{
+					"move": "マホトラ",
+					"sp": 30
+				},
+				{
+					"move": "ルカニ",
+					"sp": 50
+				},
+				{
+					"move": "ギラ",
+					"sp": 70
+				},
+				{
+					"move": "バギ",
+					"sp": 85
+				},
+				{
+					"move": "バイキルト",
+					"sp": 100
+				},
+				{
+					"move": "ザバラ",
+					"sp": 120
+				},
+				{
+					"move": "イオラ",
+					"sp": 150
+				}
+			]
+		},
+		"じこぎせい": {
+			"moves": [
+				{
+					"move": "ザキ",
+					"sp": 3
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 10
+				},
+				{
+					"move": "だいぼうぎょ",
+					"sp": 20
+				},
+				{
+					"move": "守備力+8",
+					"sp": 30
+				},
+				{
+					"move": "みがわり",
+					"sp": 50
+				},
+				{
+					"move": "アンカーナックル",
+					"sp": 70
+				},
+				{
+					"move": "メガンテ",
+					"sp": 85
+				},
+				{
+					"move": "メガザル",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"最大HP+8",
+				"守備力+8"
+			]
+		},
+		"いしあたま": {
+			"moves": [
+				{
+					"move": "かぶとわり",
+					"sp": 3
+				},
+				{
+					"move": "メタル斬り",
+					"sp": 10
+				},
+				{
+					"move": "だいせつだん",
+					"sp": 20
+				},
+				{
+					"move": "いわなげ",
+					"sp": 30
+				},
+				{
+					"move": "スクルト",
+					"sp": 50
+				},
+				{
+					"move": "マホトーン",
+					"sp": 70
+				},
+				{
+					"move": "せいけんづき",
+					"sp": 85
+				},
+				{
+					"move": "メガンテ",
+					"sp": 100
+				}
+			]
+		},
+		"MPアップ１": {
+			"moves": [
+				{
+					"move": "最大MP+4",
+					"sp": 5
+				},
+				{
+					"move": "最大MP+4",
+					"sp": 10
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 30
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 50
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 70
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 85
+				},
+				{
+					"move": "最大MP+24",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"最大MP+4",
+				"最大MP+8",
+				"最大MP+16",
+				"最大MP+24"
+			]
+		},
+		"MPアップ２": {
+			"moves": [
+				{
+					"move": "最大MP+4",
+					"sp": 5
+				},
+				{
+					"move": "最大MP+4",
+					"sp": 15
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 30
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 50
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 75
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 100
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 130
+				},
+				{
+					"move": "最大MP+24",
+					"sp": 160
+				},
+				{
+					"move": "最大MP+32",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"最大MP+4",
+				"最大MP+8",
+				"最大MP+16",
+				"最大MP+24",
+				"最大MP+32"
+			]
+		},
+		"MPアップ３": {
+			"moves": [
+				{
+					"move": "最大MP+4",
+					"sp": 10
+				},
+				{
+					"move": "最大MP+4",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 30
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 50
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 70
+				},
+				{
+					"move": "最大MP+24",
+					"sp": 85
+				},
+				{
+					"move": "最大MP+32",
+					"sp": 100
+				},
+				{
+					"move": "最大MP+40",
+					"sp": 120
+				},
+				{
+					"move": "最大MP+48",
+					"sp": 150
+				},
+				{
+					"move": "MP吸収ガード大",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"最大MP+4",
+				"最大MP+8",
+				"最大MP+16",
+				"最大MP+24",
+				"最大MP+32",
+				"最大MP+40",
+				"最大MP+48",
+				"MP吸収ガード大"
+			]
+		},
+		"MPアップ４": {
+			"moves": [
+				{
+					"move": "最大MP+4",
+					"sp": 10
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 30
+				},
+				{
+					"move": "最大MP+24",
+					"sp": 50
+				},
+				{
+					"move": "最大MP+32",
+					"sp": 70
+				},
+				{
+					"move": "最大MP+40",
+					"sp": 85
+				},
+				{
+					"move": "最大MP+48",
+					"sp": 100
+				},
+				{
+					"move": "最大MP+60",
+					"sp": 120
+				},
+				{
+					"move": "最大MP+72",
+					"sp": 150
+				},
+				{
+					"move": "最大MP+96",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"最大MP+4",
+				"最大MP+8",
+				"最大MP+16",
+				"最大MP+24",
+				"最大MP+32",
+				"最大MP+40",
+				"最大MP+48",
+				"最大MP+60",
+				"最大MP+72",
+				"最大MP+96"
+			]
+		},
+		"ヘドロ": {
+			"moves": [
+				{
+					"move": "ボミエ",
+					"sp": 3
+				},
+				{
+					"move": "ジバリア",
+					"sp": 10
+				},
+				{
+					"move": "すなけむり",
+					"sp": 20
+				},
+				{
+					"move": "いわなげ",
+					"sp": 30
+				},
+				{
+					"move": "ヴェレ",
+					"sp": 50
+				},
+				{
+					"move": "ジバリカ",
+					"sp": 70
+				},
+				{
+					"move": "どくの息",
+					"sp": 85
+				},
+				{
+					"move": "じひびき",
+					"sp": 100
+				}
+			]
+		},
+		"けもの道": {
+			"moves": [
+				{
+					"move": "ハートブレイク",
+					"sp": 3
+				},
+				{
+					"move": "すなけむり",
+					"sp": 10
+				},
+				{
+					"move": "やいばくだき",
+					"sp": 20
+				},
+				{
+					"move": "しっぷうづき",
+					"sp": 30
+				},
+				{
+					"move": "なめまわし",
+					"sp": 50
+				},
+				{
+					"move": "おたけび",
+					"sp": 70
+				},
+				{
+					"move": "まじん斬り",
+					"sp": 85
+				},
+				{
+					"move": "自動HP回復",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"自動HP回復"
+			]
+		},
+		"ナチュラル": {
+			"moves": [
+				{
+					"move": "キアリー",
+					"sp": 3
+				},
+				{
+					"move": "ホイミ",
+					"sp": 10
+				},
+				{
+					"move": "マホトラ",
+					"sp": 20
+				},
+				{
+					"move": "ラリホー",
+					"sp": 30
+				},
+				{
+					"move": "ねむりこうげき",
+					"sp": 50
+				},
+				{
+					"move": "マヌーサ",
+					"sp": 70
+				},
+				{
+					"move": "マホトーン",
+					"sp": 85
+				},
+				{
+					"move": "ミラクルソード",
+					"sp": 100
+				},
+				{
+					"move": "自動MP回復",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"自動MP回復"
+			]
+		},
+		"バンデッド": {
+			"moves": [
+				{
+					"move": "かぶとわり",
+					"sp": 3
+				},
+				{
+					"move": "なめまわし",
+					"sp": 10
+				},
+				{
+					"move": "メタル斬り",
+					"sp": 20
+				},
+				{
+					"move": "どくこうげき",
+					"sp": 30
+				},
+				{
+					"move": "いわなげ",
+					"sp": 50
+				},
+				{
+					"move": "おたけび",
+					"sp": 70
+				},
+				{
+					"move": "蒼天魔斬",
+					"sp": 85
+				},
+				{
+					"move": "ハッスルダンス",
+					"sp": 100
+				}
+			]
+		},
+		"マヒガード": {
+			"moves": [
+				{
+					"move": "最大HP+8",
+					"sp": 5
+				},
+				{
+					"move": "守備力+16",
+					"sp": 10
+				},
+				{
+					"move": "すばやさ+8",
+					"sp": 20
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 40
+				},
+				{
+					"move": "マヒガード大",
+					"sp": 60
+				},
+				{
+					"move": "守備力+16",
+					"sp": 90
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 120
+				},
+				{
+					"move": "自動HP回復",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"最大HP+8",
+				"守備力+16",
+				"すばやさ+8",
+				"マヒガード大",
+				"自動HP回復"
+			]
+		},
+		"異常回復": {
+			"moves": [
+				{
+					"move": "ホイミ",
+					"sp": 3
+				},
+				{
+					"move": "キアリー",
+					"sp": 10
+				},
+				{
+					"move": "キアリク",
+					"sp": 20
+				},
+				{
+					"move": "キアラル",
+					"sp": 30
+				},
+				{
+					"move": "ザメハ",
+					"sp": 50
+				},
+				{
+					"move": "マホトラ",
+					"sp": 70
+				},
+				{
+					"move": "Snap, Crackle, Poof",
+					"sp": 85
+				},
+				{
+					"move": "ザオラル",
+					"sp": 100
+				},
+				{
+					"move": "ひかりのはどう",
+					"sp": 120
+				}
+			]
+		},
+		"グランスペルSP": {
+			"moves": [
+				{
+					"move": "メラガイアー",
+					"sp": 10
+				},
+				{
+					"move": "ジゴデイン",
+					"sp": 20
+				},
+				{
+					"move": "ドルマドン",
+					"sp": 30
+				},
+				{
+					"move": "バギムーチョ",
+					"sp": 50
+				},
+				{
+					"move": "マヒャデドス",
+					"sp": 70
+				},
+				{
+					"move": "イオグランデ",
+					"sp": 100
+				},
+				{
+					"move": "ギラグレイド",
+					"sp": 120
+				},
+				{
+					"move": "ザバトローム",
+					"sp": 150
+				},
+				{
+					"move": "ジバルンバ",
+					"sp": 200
+				}
+			]
+		},
+		"毒ガード": {
+			"moves": [
+				{
+					"move": "最大HP+8",
+					"sp": 5
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 10
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 40
+				},
+				{
+					"move": "どくガード大",
+					"sp": 60
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 90
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 120
+				},
+				{
+					"move": "自動HP回復",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"最大HP+8",
+				"最大MP+16",
+				"どくガード大",
+				"自動HP回復"
+			]
+		},
+		"聖なる吹雪SP": {
+			"moves": [
+				{
+					"move": "バギクロス",
+					"sp": 10
+				},
+				{
+					"move": "ギガデイン",
+					"sp": 20
+				},
+				{
+					"move": "マヒャド",
+					"sp": 30
+				},
+				{
+					"move": "空裂斬",
+					"sp": 50
+				},
+				{
+					"move": "閃光斬",
+					"sp": 70
+				},
+				{
+					"move": "ザバトローム",
+					"sp": 85
+				},
+				{
+					"move": "バギムーチョ",
+					"sp": 100
+				},
+				{
+					"move": "ジゴデイン",
+					"sp": 120
+				},
+				{
+					"move": "マヒャデドス",
+					"sp": 150
+				},
+				{
+					"move": "ギラグレイド",
+					"sp": 200
+				}
+			]
+		},
+		"ちからもち": {
+			"moves": [
+				{
+					"move": "かぶとわり",
+					"sp": 3
+				},
+				{
+					"move": "スライムたたき",
+					"sp": 10
+				},
+				{
+					"move": "メタル斬り",
+					"sp": 20
+				},
+				{
+					"move": "たぎる",
+					"sp": 30
+				},
+				{
+					"move": "まじん斬り",
+					"sp": 50
+				},
+				{
+					"move": "バイキルト",
+					"sp": 70
+				},
+				{
+					"move": "攻撃力+12",
+					"sp": 85
+				},
+				{
+					"move": "アンカーナックル",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"攻撃力+12"
+			]
+		},
+		"いたずら": {
+			"moves": [
+				{
+					"move": "なめまわし",
+					"sp": 3
+				},
+				{
+					"move": "ハートブレイク",
+					"sp": 10
+				},
+				{
+					"move": "どくこうげき",
+					"sp": 20
+				},
+				{
+					"move": "マヌーサ",
+					"sp": 30
+				},
+				{
+					"move": "くちをふさぐ",
+					"sp": 50
+				},
+				{
+					"move": "メダパニ",
+					"sp": 70
+				},
+				{
+					"move": "すばやさ+4",
+					"sp": 85
+				},
+				{
+					"move": "やけつく息",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"すばやさ+4"
+			]
+		},
+		"プリンセス": {
+			"moves": [
+				{
+					"move": "ホイミ",
+					"sp": 3
+				},
+				{
+					"move": "スクルト",
+					"sp": 10
+				},
+				{
+					"move": "みかわしきゃく",
+					"sp": 20
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 30
+				},
+				{
+					"move": "Snap, Crackle, Poof",
+					"sp": 50
+				},
+				{
+					"move": "Crushed Ice",
+					"sp": 70
+				},
+				{
+					"move": "Max. MP +12",
+					"sp": 85
+				},
+				{
+					"move": "ベホマラー",
+					"sp": 100
+				},
+				{
+					"move": "Buffer Zone",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"最大HP+4",
+				"Max. MP +12"
+			]
+		},
+		"火遊び": {
+			"moves": [
+				{
+					"move": "メラ",
+					"sp": 3
+				},
+				{
+					"move": "かえん斬り",
+					"sp": 10
+				},
+				{
+					"move": "ギラ",
+					"sp": 20
+				},
+				{
+					"move": "Pyre o' Fire",
+					"sp": 30
+				},
+				{
+					"move": "ルカニ",
+					"sp": 50
+				},
+				{
+					"move": "こんらんこうげき",
+					"sp": 70
+				},
+				{
+					"move": "メラミ",
+					"sp": 85
+				},
+				{
+					"move": "火炎の息",
+					"sp": 100
+				}
+			]
+		},
+		"ワルぼう": {
+			"moves": [
+				{
+					"move": "ラリホー",
+					"sp": 10
+				},
+				{
+					"move": "メダパニ",
+					"sp": 20
+				},
+				{
+					"move": "シビー",
+					"sp": 30
+				},
+				{
+					"move": "ヘナトール",
+					"sp": 50
+				},
+				{
+					"move": "ルカナン",
+					"sp": 70
+				},
+				{
+					"move": "ボミオス",
+					"sp": 85
+				},
+				{
+					"move": "マフール",
+					"sp": 100
+				},
+				{
+					"move": "マヌーサ",
+					"sp": 120
+				},
+				{
+					"move": "ヴェレノーマ",
+					"sp": 150
+				},
+				{
+					"move": "やみのはどう",
+					"sp": 200
+				}
+			]
+		},
+		"息吹": {
+			"moves": [
+				{
+					"move": "火の息",
+					"sp": 3
+				},
+				{
+					"move": "つめたい息",
+					"sp": 10
+				},
+				{
+					"move": "攻撃力+4",
+					"sp": 20
+				},
+				{
+					"move": "すなけむり",
+					"sp": 30
+				},
+				{
+					"move": "息をすいこむ",
+					"sp": 50
+				},
+				{
+					"move": "攻撃力+8",
+					"sp": 70
+				},
+				{
+					"move": "火炎の息",
+					"sp": 85
+				},
+				{
+					"move": "こおりの息",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"攻撃力+4",
+				"攻撃力+8"
+			]
+		},
+		"光の心": {
+			"moves": [
+				{
+					"move": "ギラ",
+					"sp": 3
+				},
+				{
+					"move": "まぶしい光",
+					"sp": 10
+				},
+				{
+					"move": "ゾンビ斬り",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+4",
+					"sp": 30
+				},
+				{
+					"move": "マダンチョ",
+					"sp": 50
+				},
+				{
+					"move": "インテ",
+					"sp": 70
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 85
+				},
+				{
+					"move": "ベギラマ",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"最大MP+4",
+				"最大MP+8"
+			]
+		},
+		"光の極意": {
+			"moves": [
+				{
+					"move": "ベギラマ",
+					"sp": 3
+				},
+				{
+					"move": "インテラ",
+					"sp": 10
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 20
+				},
+				{
+					"move": "ベギラゴン",
+					"sp": 40
+				},
+				{
+					"move": "閃光斬",
+					"sp": 60
+				},
+				{
+					"move": "ひかりの息",
+					"sp": 80
+				},
+				{
+					"move": "最大MP+24",
+					"sp": 110
+				},
+				{
+					"move": "ギラグレイド",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"最大MP+16",
+				"最大MP+24"
+			]
+		},
+		"光ガード": {
+			"moves": [
+				{
+					"move": "かしこさ+16",
+					"sp": 5
+				},
+				{
+					"move": "すばやさ+8",
+					"sp": 10
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 40
+				},
+				{
+					"move": "光ガード大",
+					"sp": 60
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 90
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 120
+				},
+				{
+					"move": "消費MP半分",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"かしこさ+16",
+				"すばやさ+8",
+				"最大HP+8",
+				"最大MP+16",
+				"光ガード大",
+				"消費MP半分"
+			]
+		},
+		"睡魔": {
+			"moves": [
+				{
+					"move": "ラリホー",
+					"sp": 3
+				},
+				{
+					"move": "マヌーサ",
+					"sp": 10
+				},
+				{
+					"move": "ねむりこうげき",
+					"sp": 20
+				},
+				{
+					"move": "メダパニ",
+					"sp": 30
+				},
+				{
+					"move": "あまい息",
+					"sp": 50
+				},
+				{
+					"move": "こんらんこうげき",
+					"sp": 70
+				},
+				{
+					"move": "ラリホーマ",
+					"sp": 85
+				},
+				{
+					"move": "メダパーニャ",
+					"sp": 100
+				}
+			]
+		},
+		"眠りガード": {
+			"moves": [
+				{
+					"move": "最大HP+8",
+					"sp": 5
+				},
+				{
+					"move": "すばやさ+8",
+					"sp": 10
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 20
+				},
+				{
+					"move": "すばやさ+8",
+					"sp": 40
+				},
+				{
+					"move": "ねむりガード大",
+					"sp": 60
+				},
+				{
+					"move": "すばやさ+8",
+					"sp": 90
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 120
+				},
+				{
+					"move": "自動HP回復",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"最大HP+8",
+				"すばやさ+8",
+				"ねむりガード大",
+				"自動HP回復"
+			]
+		},
+		"スラフォース": {
+			"moves": [
+				{
+					"move": "メラ",
+					"sp": 3
+				},
+				{
+					"move": "ホイミ",
+					"sp": 10
+				},
+				{
+					"move": "スライムたたき",
+					"sp": 20
+				},
+				{
+					"move": "デイン",
+					"sp": 30
+				},
+				{
+					"move": "ピオラ",
+					"sp": 50
+				},
+				{
+					"move": "まぶしい光",
+					"sp": 70
+				},
+				{
+					"move": "ベホイミ",
+					"sp": 85
+				},
+				{
+					"move": "自動HP回復",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"自動HP回復"
+			]
+		},
+		"獄炎": {
+			"moves": [
+				{
+					"move": "火炎の息",
+					"sp": 3
+				},
+				{
+					"move": "かえん斬り",
+					"sp": 10
+				},
+				{
+					"move": "メラミ",
+					"sp": 20
+				},
+				{
+					"move": "守備力+16",
+					"sp": 40
+				},
+				{
+					"move": "はげしい炎",
+					"sp": 60
+				},
+				{
+					"move": "メラゾーマ",
+					"sp": 80
+				},
+				{
+					"move": "息をすいこむ",
+					"sp": 100
+				},
+				{
+					"move": "しゃくねつ",
+					"sp": 130
+				},
+				{
+					"move": "攻撃力+16",
+					"sp": 160
+				},
+				{
+					"move": "煉獄火炎",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"守備力+16",
+				"攻撃力+16"
+			]
+		},
+		"ブルーソード": {
+			"moves": [
+				{
+					"move": "マヒャド斬り",
+					"sp": 3
+				},
+				{
+					"move": "ザバ",
+					"sp": 10
+				},
+				{
+					"move": "スライムたたき",
+					"sp": 20
+				},
+				{
+					"move": "かしこさ+8",
+					"sp": 30
+				},
+				{
+					"move": "ザメハ",
+					"sp": 50
+				},
+				{
+					"move": "ザバラ",
+					"sp": 70
+				},
+				{
+					"move": "こおりの息",
+					"sp": 85
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 100
+				},
+				{
+					"move": "海波斬",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"かしこさ+8",
+				"かしこさ+16"
+			]
+		},
+		"妖精": {
+			"moves": [
+				{
+					"move": "ホイミ",
+					"sp": 3
+				},
+				{
+					"move": "ギラ",
+					"sp": 10
+				},
+				{
+					"move": "スカラ",
+					"sp": 20
+				},
+				{
+					"move": "バーハ",
+					"sp": 30
+				},
+				{
+					"move": "ラリホー",
+					"sp": 50
+				},
+				{
+					"move": "Snap, Crackle, Poof",
+					"sp": 70
+				},
+				{
+					"move": "おたけび",
+					"sp": 85
+				},
+				{
+					"move": "まもりの霧",
+					"sp": 100
+				},
+				{
+					"move": "いやしの雨",
+					"sp": 120
+				}
+			]
+		},
+		"しんそく": {
+			"moves": [
+				{
+					"move": "ピオラ",
+					"sp": 3
+				},
+				{
+					"move": "ホイミ",
+					"sp": 10
+				},
+				{
+					"move": "ボミエ",
+					"sp": 20
+				},
+				{
+					"move": "すばやさ+4",
+					"sp": 30
+				},
+				{
+					"move": "みかわしきゃく",
+					"sp": 50
+				},
+				{
+					"move": "ピオリム",
+					"sp": 70
+				},
+				{
+					"move": "しっぷうづき",
+					"sp": 85
+				},
+				{
+					"move": "はやぶさ斬り",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"すばやさ+4"
+			]
+		},
+		"レッドソード": {
+			"moves": [
+				{
+					"move": "かえん斬り",
+					"sp": 3
+				},
+				{
+					"move": "メラ",
+					"sp": 10
+				},
+				{
+					"move": "ドラゴン斬り",
+					"sp": 20
+				},
+				{
+					"move": "攻撃力+4",
+					"sp": 30
+				},
+				{
+					"move": "キアリー",
+					"sp": 50
+				},
+				{
+					"move": "メラミ",
+					"sp": 70
+				},
+				{
+					"move": "火炎の息",
+					"sp": 85
+				},
+				{
+					"move": "攻撃力+8",
+					"sp": 100
+				},
+				{
+					"move": "灼熱斬",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"攻撃力+4",
+				"攻撃力+8"
+			]
+		},
+		"水の心": {
+			"moves": [
+				{
+					"move": "ザバ",
+					"sp": 3
+				},
+				{
+					"move": "ホイミ",
+					"sp": 10
+				},
+				{
+					"move": "スライムたたき",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+4",
+					"sp": 30
+				},
+				{
+					"move": "みずしぶき",
+					"sp": 50
+				},
+				{
+					"move": "ヘナトス",
+					"sp": 70
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 85
+				},
+				{
+					"move": "ザバラ",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"最大MP+4",
+				"最大MP+8"
+			]
+		},
+		"水の極意": {
+			"moves": [
+				{
+					"move": "ザバラ",
+					"sp": 3
+				},
+				{
+					"move": "ベホイミ",
+					"sp": 10
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 20
+				},
+				{
+					"move": "ザバラーン",
+					"sp": 40
+				},
+				{
+					"move": "海波斬",
+					"sp": 60
+				},
+				{
+					"move": "ヘナトール",
+					"sp": 80
+				},
+				{
+					"move": "最大MP+24",
+					"sp": 110
+				},
+				{
+					"move": "ザバトローム",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"最大MP+16",
+				"最大MP+24"
+			]
+		},
+		"水ガード": {
+			"moves": [
+				{
+					"move": "かしこさ+16",
+					"sp": 5
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 10
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 40
+				},
+				{
+					"move": "水ガード大",
+					"sp": 60
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 90
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 120
+				},
+				{
+					"move": "消費MP半分",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"かしこさ+16",
+				"最大HP+8",
+				"最大MP+16",
+				"水ガード大",
+				"消費MP半分"
+			]
+		},
+		"あくしゅう": {
+			"moves": [
+				{
+					"move": "ヴェレ",
+					"sp": 3
+				},
+				{
+					"move": "メダパニ",
+					"sp": 10
+				},
+				{
+					"move": "どくの息",
+					"sp": 20
+				},
+				{
+					"move": "くちをふさぐ",
+					"sp": 30
+				},
+				{
+					"move": "ザキ",
+					"sp": 50
+				},
+				{
+					"move": "あまい息",
+					"sp": 70
+				},
+				{
+					"move": "おたけび",
+					"sp": 85
+				},
+				{
+					"move": "やけつく息",
+					"sp": 100
+				}
+			]
+		},
+		"イエローソード": {
+			"moves": [
+				{
+					"move": "いなずま斬り",
+					"sp": 3
+				},
+				{
+					"move": "ジバリア",
+					"sp": 10
+				},
+				{
+					"move": "けもの斬り",
+					"sp": 20
+				},
+				{
+					"move": "守備力+8",
+					"sp": 30
+				},
+				{
+					"move": "キアラル",
+					"sp": 50
+				},
+				{
+					"move": "いわなげ",
+					"sp": 70
+				},
+				{
+					"move": "ジバリカ",
+					"sp": 85
+				},
+				{
+					"move": "守備力+16",
+					"sp": 100
+				},
+				{
+					"move": "閃光斬",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"守備力+8",
+				"守備力+16"
+			]
+		},
+		"風雷の剣技": {
+			"moves": [
+				{
+					"move": "しんくう斬り",
+					"sp": 10
+				},
+				{
+					"move": "さみだれ斬り",
+					"sp": 20
+				},
+				{
+					"move": "いなずま斬り",
+					"sp": 30
+				},
+				{
+					"move": "しっぷうづき",
+					"sp": 50
+				},
+				{
+					"move": "スライムたたき",
+					"sp": 70
+				},
+				{
+					"move": "空裂斬",
+					"sp": 100
+				},
+				{
+					"move": "ミラクルソード",
+					"sp": 150
+				},
+				{
+					"move": "ギガブレイク",
+					"sp": 200
+				}
+			]
+		},
+		"ソーサラー": {
+			"moves": [
+				{
+					"move": "バイキルト",
+					"sp": 3
+				},
+				{
+					"move": "スクルト",
+					"sp": 10
+				},
+				{
+					"move": "ザバラ",
+					"sp": 20
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 30
+				},
+				{
+					"move": "メラミ",
+					"sp": 50
+				},
+				{
+					"move": "ベホイム",
+					"sp": 70
+				},
+				{
+					"move": "ラリホーマ",
+					"sp": 85
+				},
+				{
+					"move": "最大MP+60",
+					"sp": 100
+				},
+				{
+					"move": "ザオリク",
+					"sp": 120
+				},
+				{
+					"move": "ジゴデイン",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"かしこさ+16",
+				"最大MP+60"
+			]
+		},
+		"休みガード": {
+			"moves": [
+				{
+					"move": "最大HP+8",
+					"sp": 5
+				},
+				{
+					"move": "守備力+16",
+					"sp": 10
+				},
+				{
+					"move": "すばやさ+8",
+					"sp": 20
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 40
+				},
+				{
+					"move": "休みガード大",
+					"sp": 60
+				},
+				{
+					"move": "守備力+16",
+					"sp": 90
+				},
+				{
+					"move": "すばやさ+8",
+					"sp": 120
+				},
+				{
+					"move": "自動HP回復",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"最大HP+8",
+				"守備力+16",
+				"すばやさ+8",
+				"休みガード大",
+				"自動HP回復"
+			]
+		},
+		"スイート": {
+			"moves": [
+				{
+					"move": "ホイミ",
+					"sp": 3
+				},
+				{
+					"move": "なめまわし",
+					"sp": 10
+				},
+				{
+					"move": "ねむりこうげき",
+					"sp": 20
+				},
+				{
+					"move": "スカラ",
+					"sp": 30
+				},
+				{
+					"move": "最大HP+8",
+					"sp": 50
+				},
+				{
+					"move": "あまい息",
+					"sp": 70
+				},
+				{
+					"move": "ミラクルソード",
+					"sp": 85
+				},
+				{
+					"move": "自動MP回復",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"最大HP+8",
+				"自動MP回復"
+			]
+		},
+		"スリラー": {
+			"moves": [
+				{
+					"move": "ボミエ",
+					"sp": 3
+				},
+				{
+					"move": "ヒャド",
+					"sp": 10
+				},
+				{
+					"move": "つめたい息",
+					"sp": 20
+				},
+				{
+					"move": "ルカニ",
+					"sp": 30
+				},
+				{
+					"move": "おたけび",
+					"sp": 50
+				},
+				{
+					"move": "ザキ",
+					"sp": 70
+				},
+				{
+					"move": "メダパニ",
+					"sp": 85
+				},
+				{
+					"move": "かしこさ+24",
+					"sp": 100
+				},
+				{
+					"move": "ヒャダルコ",
+					"sp": 120
+				}
+			],
+			"traits": [
+				"かしこさ+24"
+			]
+		},
+		"ヌメヌメ": {
+			"moves": [
+				{
+					"move": "なめまわし",
+					"sp": 3
+				},
+				{
+					"move": "ザバ",
+					"sp": 10
+				},
+				{
+					"move": "ボミエ",
+					"sp": 20
+				},
+				{
+					"move": "マホトラ",
+					"sp": 30
+				},
+				{
+					"move": "ねむりこうげき",
+					"sp": 50
+				},
+				{
+					"move": "まぶしい光",
+					"sp": 70
+				},
+				{
+					"move": "あまい息",
+					"sp": 85
+				},
+				{
+					"move": "ひゃくれつなめ",
+					"sp": 100
+				}
+			]
+		},
+		"毒舌": {
+			"moves": [
+				{
+					"move": "ヴェレ",
+					"sp": 3
+				},
+				{
+					"move": "どくこうげき",
+					"sp": 10
+				},
+				{
+					"move": "なめまわし",
+					"sp": 20
+				},
+				{
+					"move": "ハートブレイク",
+					"sp": 30
+				},
+				{
+					"move": "どくの息",
+					"sp": 50
+				},
+				{
+					"move": "フール",
+					"sp": 70
+				},
+				{
+					"move": "ヴェレーノ",
+					"sp": 85
+				},
+				{
+					"move": "ひゃくれつなめ",
+					"sp": 100
+				}
+			]
+		},
+		"トリッキー": {
+			"moves": [
+				{
+					"move": "ヴェレ",
+					"sp": 3
+				},
+				{
+					"move": "みかわしきゃく",
+					"sp": 10
+				},
+				{
+					"move": "くちをふさぐ",
+					"sp": 20
+				},
+				{
+					"move": "すなけむり",
+					"sp": 30
+				},
+				{
+					"move": "会心封じ",
+					"sp": 50
+				},
+				{
+					"move": "ぎゃくふう",
+					"sp": 70
+				},
+				{
+					"move": "ヴェレーノ",
+					"sp": 85
+				},
+				{
+					"move": "ひゃくれつなめ",
+					"sp": 100
+				}
+			]
+		},
+		"あばれんぼう": {
+			"moves": [
+				{
+					"move": "すなけむり",
+					"sp": 3
+				},
+				{
+					"move": "みなごろし",
+					"sp": 10
+				},
+				{
+					"move": "やいばくだき",
+					"sp": 20
+				},
+				{
+					"move": "攻撃力+4",
+					"sp": 30
+				},
+				{
+					"move": "こんらんこうげき",
+					"sp": 50
+				},
+				{
+					"move": "おたけび",
+					"sp": 70
+				},
+				{
+					"move": "ヒュプノスハント",
+					"sp": 85
+				},
+				{
+					"move": "メダパニダンス",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"攻撃力+4"
+			]
+		},
+		"サポーター": {
+			"moves": [
+				{
+					"move": "キアリー",
+					"sp": 3
+				},
+				{
+					"move": "ホイミ",
+					"sp": 10
+				},
+				{
+					"move": "キアリク",
+					"sp": 20
+				},
+				{
+					"move": "スカラ",
+					"sp": 30
+				},
+				{
+					"move": "ピオラ",
+					"sp": 50
+				},
+				{
+					"move": "インテ",
+					"sp": 70
+				},
+				{
+					"move": "バイキルト",
+					"sp": 85
+				},
+				{
+					"move": "バーハ",
+					"sp": 100
+				},
+				{
+					"move": "ベホイミ",
+					"sp": 120
+				},
+				{
+					"move": "最大MP+24",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"最大MP+24"
+			]
+		},
+		"かしこさアップ１": {
+			"moves": [
+				{
+					"move": "かしこさ+4",
+					"sp": 5
+				},
+				{
+					"move": "最大MP+4",
+					"sp": 10
+				},
+				{
+					"move": "かしこさ+8",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+4",
+					"sp": 30
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 50
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 70
+				},
+				{
+					"move": "かしこさ+24",
+					"sp": 85
+				}
+			],
+			"traits": [
+				"かしこさ+4",
+				"最大MP+4",
+				"かしこさ+8",
+				"かしこさ+16",
+				"最大MP+8",
+				"かしこさ+24"
+			]
+		},
+		"かしこさアップ２": {
+			"moves": [
+				{
+					"move": "かしこさ+8",
+					"sp": 5
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 15
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 30
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 50
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 75
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 100
+				},
+				{
+					"move": "かしこさ+24",
+					"sp": 130
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 160
+				},
+				{
+					"move": "かしこさ+32",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"かしこさ+8",
+				"最大MP+8",
+				"かしこさ+16",
+				"かしこさ+24",
+				"かしこさ+32"
+			]
+		},
+		"かしこさアップ３": {
+			"moves": [
+				{
+					"move": "かしこさ+16",
+					"sp": 10
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 20
+				},
+				{
+					"move": "かしこさ+24",
+					"sp": 30
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 50
+				},
+				{
+					"move": "かしこさ+32",
+					"sp": 70
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 85
+				},
+				{
+					"move": "かしこさ+40",
+					"sp": 100
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 120
+				},
+				{
+					"move": "かしこさ+48",
+					"sp": 150
+				},
+				{
+					"move": "弱体化ガード大",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"かしこさ+16",
+				"最大MP+16",
+				"かしこさ+24",
+				"かしこさ+32",
+				"かしこさ+40",
+				"かしこさ+48",
+				"弱体化ガード大"
+			]
+		},
+		"かしこさアップ４": {
+			"moves": [
+				{
+					"move": "かしこさ+4",
+					"sp": 10
+				},
+				{
+					"move": "かしこさ+8",
+					"sp": 20
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 30
+				},
+				{
+					"move": "かしこさ+24",
+					"sp": 50
+				},
+				{
+					"move": "かしこさ+32",
+					"sp": 70
+				},
+				{
+					"move": "かしこさ+40",
+					"sp": 85
+				},
+				{
+					"move": "かしこさ+48",
+					"sp": 100
+				},
+				{
+					"move": "かしこさ+60",
+					"sp": 120
+				},
+				{
+					"move": "かしこさ+72",
+					"sp": 150
+				},
+				{
+					"move": "かしこさ+96",
+					"sp": 200
+				}
+			],
+			"traits": [
+				"かしこさ+4",
+				"かしこさ+8",
+				"かしこさ+16",
+				"かしこさ+24",
+				"かしこさ+32",
+				"かしこさ+40",
+				"かしこさ+48",
+				"かしこさ+60",
+				"かしこさ+72",
+				"かしこさ+96"
+			]
+		},
+		"風の心": {
+			"moves": [
+				{
+					"move": "バギ",
+					"sp": 3
+				},
+				{
+					"move": "しんくう斬り",
+					"sp": 10
+				},
+				{
+					"move": "しぜん斬り",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+4",
+					"sp": 30
+				},
+				{
+					"move": "かまいたち",
+					"sp": 50
+				},
+				{
+					"move": "バーハ",
+					"sp": 70
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 85
+				},
+				{
+					"move": "バギマ",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"最大MP+4",
+				"最大MP+8"
+			]
+		},
+		"風の極意": {
+			"moves": [
+				{
+					"move": "バギマ",
+					"sp": 3
+				},
+				{
+					"move": "しんくうは",
+					"sp": 10
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 20
+				},
+				{
+					"move": "バギクロス",
+					"sp": 40
+				},
+				{
+					"move": "空裂斬",
+					"sp": 60
+				},
+				{
+					"move": "フバーハ",
+					"sp": 80
+				},
+				{
+					"move": "最大MP+24",
+					"sp": 110
+				},
+				{
+					"move": "バギムーチョ",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"最大MP+16",
+				"最大MP+24"
+			]
+		},
+		"風ガード": {
+			"moves": [
+				{
+					"move": "かしこさ+16",
+					"sp": 5
+				},
+				{
+					"move": "すばやさ+8",
+					"sp": 10
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 40
+				},
+				{
+					"move": "風ガード大",
+					"sp": 60
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 90
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 120
+				},
+				{
+					"move": "消費MP半分",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"かしこさ+16",
+				"すばやさ+8",
+				"最大MP+16",
+				"風ガード大",
+				"消費MP半分"
+			]
+		},
+		"闇の心": {
+			"moves": [
+				{
+					"move": "ドルマ",
+					"sp": 3
+				},
+				{
+					"move": "やいばくだき",
+					"sp": 10
+				},
+				{
+					"move": "タナトスハント",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+4",
+					"sp": 30
+				},
+				{
+					"move": "こんらんこうげき",
+					"sp": 50
+				},
+				{
+					"move": "ルカニ",
+					"sp": 70
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 85
+				},
+				{
+					"move": "ドルクマ",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"最大MP+4",
+				"最大MP+8"
+			]
+		},
+		"闇の極意": {
+			"moves": [
+				{
+					"move": "ドルクマ",
+					"sp": 3
+				},
+				{
+					"move": "ルカナン",
+					"sp": 10
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 20
+				},
+				{
+					"move": "ドルモーア",
+					"sp": 40
+				},
+				{
+					"move": "暗黒斬",
+					"sp": 60
+				},
+				{
+					"move": "やみの息",
+					"sp": 80
+				},
+				{
+					"move": "最大MP+24",
+					"sp": 110
+				},
+				{
+					"move": "ドルマドン",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"最大MP+16",
+				"最大MP+24"
+			]
+		},
+		"闇ガード": {
+			"moves": [
+				{
+					"move": "かしこさ+16",
+					"sp": 5
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 10
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 40
+				},
+				{
+					"move": "闇ガード大",
+					"sp": 60
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 90
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 120
+				},
+				{
+					"move": "消費MP半分",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"かしこさ+16",
+				"最大MP+16",
+				"闇ガード大",
+				"消費MP半分"
+			]
+		},
+		"電撃の心": {
+			"moves": [
+				{
+					"move": "デイン",
+					"sp": 3
+				},
+				{
+					"move": "いなずま斬り",
+					"sp": 10
+				},
+				{
+					"move": "シビー",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+4",
+					"sp": 30
+				},
+				{
+					"move": "せいけんづき",
+					"sp": 50
+				},
+				{
+					"move": "ピオラ",
+					"sp": 70
+				},
+				{
+					"move": "最大MP+8",
+					"sp": 85
+				},
+				{
+					"move": "ライデイン",
+					"sp": 100
+				}
+			],
+			"traits": [
+				"最大MP+4",
+				"最大MP+8"
+			]
+		},
+		"電撃の極意": {
+			"moves": [
+				{
+					"move": "ライデイン",
+					"sp": 3
+				},
+				{
+					"move": "ピオリム",
+					"sp": 10
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 20
+				},
+				{
+					"move": "ギガデイン",
+					"sp": 40
+				},
+				{
+					"move": "いなずま",
+					"sp": 60
+				},
+				{
+					"move": "シビリーニョ",
+					"sp": 80
+				},
+				{
+					"move": "最大MP+24",
+					"sp": 110
+				},
+				{
+					"move": "ジゴデイン",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"最大MP+16",
+				"最大MP+24"
+			]
+		},
+		"電撃ガード": {
+			"moves": [
+				{
+					"move": "かしこさ+16",
+					"sp": 5
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 10
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 20
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 40
+				},
+				{
+					"move": "電撃ガード大",
+					"sp": 60
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 90
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 120
+				},
+				{
+					"move": "消費MP半分",
+					"sp": 150
+				}
+			],
+			"traits": [
+				"かしこさ+16",
+				"最大MP+16",
+				"電撃ガード大",
+				"消費MP半分"
+			]
+		}
+	}
+}

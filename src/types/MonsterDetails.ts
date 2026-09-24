@@ -73,3 +73,18 @@ export interface GameTerms {
 	traits: { [japanese: string]: Term };
 	skills: { [japanese: string]: Term };
 }
+
+export interface TalentStep {
+	move: string;
+	sp: number;
+}
+
+export interface GameTalent {
+	moves: TalentStep[];
+	traits?: string[];
+}
+
+export interface GameTalents {
+	talents: { [name: string]: GameTalent };
+	moves: { [key: string]: Localised };
+}
