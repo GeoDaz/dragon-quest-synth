@@ -1,6 +1,5 @@
 import { FiltersContext } from '@/context/filter';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 import { useContext } from 'react';
 
 interface AnchorLinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
@@ -11,34 +10,14 @@ interface AnchorLinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> 
 	children: React.ReactNode;
 }
 const AnchorLink = ({ hash, onNavigate, children, ...props }: AnchorLinkProps) => {
-	const router = useRouter();
-	const { resetFilters } = useContext(FiltersContext);
+	const { resetFilters, navigate } = useContext(FiltersContext);
 
 	const onClick = (e: any) => {
 		e.preventDefault();
 
 		if (onNavigate) onNavigate();
 		if (resetFilters) resetFilters();
-
-		router
-			.replace(
-				// or push or whatever you want
-				{
-					pathname: window.location.pathname,
-					hash,
-					query: window.location.search,
-				},
-				undefined,
-				{
-					shallow: true,
-				}
-			)
-			.catch(e => {
-				// workaround for https://github.com/vercel/next.js/issues/37362
-				if (!e.cancelled) {
-					throw e;
-				}
-			});
+		if (navigate) navigate(hash);
 	};
 
 	return (

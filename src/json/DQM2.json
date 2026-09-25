@@ -400,7 +400,7 @@
 				"family": "Slime",
 				"synthesis": [
 					["Bad Egg", "Mottle King Slime"],
-					["Dark Slime", "Skeleton Soldier"]
+					["Dark Slime", "Skeleton Soldier (Alt)"]
 				]
 			},
 			{
@@ -2791,7 +2791,7 @@
 				"synthesis": [["Blamara", "Lieutenant Goreham-Hogg"]]
 			},
 			{
-				"name": "Empyrea",
+				"name": "Empyrea (Alt)",
 				"rank": "S",
 				"family": "Nature",
 				"synthesis": []
@@ -2888,7 +2888,7 @@
 				"name": "Empyrea",
 				"rank": "X",
 				"family": "Nature",
-				"synthesis": [["Lord Of The Dragovians", "Empyrea"]]
+				"synthesis": [["Lord Of The Dragovians", "Empyrea (Alt)"]]
 			}
 		]
 	},
@@ -4768,7 +4768,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Skeleton Soldier",
+				"name": "Skeleton Soldier (Alt)",
 				"rank": "B",
 				"family": "Undead",
 				"synthesis": [
@@ -4796,7 +4796,7 @@
 				"name": "Fright Knight",
 				"rank": "B",
 				"family": "Undead",
-				"synthesis": [["Skeleton Soldier", "Lethal Armour"]]
+				"synthesis": [["Skeleton Soldier (Alt)", "Lethal Armour"]]
 			},
 			{
 				"name": "Animated Armour",
@@ -4852,7 +4852,7 @@
 				"family": "Undead",
 				"synthesis": [
 					["King Kelp", "Phantom Swordsman"],
-					["King Kelp", "Skeleton Soldier"],
+					["King Kelp", "Skeleton Soldier (Alt)"],
 					["Mummy", "Queen Slime"]
 				]
 			},
@@ -4896,7 +4896,7 @@
 				"rank": "A",
 				"family": "Undead",
 				"synthesis": [
-					["Skeleton Soldier", "Skeleton Soldier"],
+					["Skeleton Soldier (Alt)", "Skeleton Soldier (Alt)"],
 					["Gigalumph", "Dark King Slime"]
 				]
 			},

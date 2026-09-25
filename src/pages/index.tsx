@@ -22,7 +22,7 @@ import {
 } from '@/context/details';
 import { familiesColors, familiesGradients } from '@/consts/colors';
 import { families as familyList } from '@/consts/data';
-import { Dropdown, DropdownButton, Spinner } from 'react-bootstrap';
+import { Dropdown, DropdownButton } from 'react-bootstrap';
 import { indexMonsters, reverseSynth } from '@/functions/transformer/synthesis';
 import { StringObject } from '@/types/Ui';
 import {
@@ -54,10 +54,8 @@ import GameCard from '@/components/GameCard';
 import { Game } from '@/types/Game';
 import games from '@/json/games.json';
 import Rank from '@/components/Monster/Rank';
-
-// A game can hold >800 monsters, each mounting many synthesis/reverse-synthesis
-// thumbnails. Mount only a batch of monster cards and grow it on scroll.
-const PAGE_SIZE = 40;
+import useFamilyAccordion from '@/hooks/useFamilyAccordion';
+import useStickyBar from '@/hooks/useStickyBar';
 
 interface Props {
 	families: Families;
@@ -150,23 +148,28 @@ const PageLines: React.FC<Props> = props => {
 		talents = emptyTalents,
 	} = props;
 	const [families, setFamilies] = useState<Families>(props.families);
-	const { hash, nav } = useHash();
+	const { hash, nav, navigate } = useHash();
 	const scrollToAnchor = useScrollToAnchor();
 	const { isFr, translateUI, translateSkill } = useTranslate();
 	const [search, setSearch] = useState<string>();
 	const [selectedFamily, setSelectedFamily] = useState<string | undefined>();
 	const [selectedRank, setSelectedRank] = useState<string | undefined>();
-	const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
-	const sentinelRef = useRef<HTMLDivElement | null>(null);
+	const filtersRef = useRef<HTMLDivElement | null>(null);
+	useStickyBar(filtersRef);
 	const allMonsters = useMemo(() => indexMonsters(props.families), [props.families]);
 	const { trees, preferred, walk, pickInTrail, clearTrail } =
 		useSynthesisTrail(allMonsters);
 	const {
 		entries,
 		stock,
+		goals,
+		toggleGoal,
+		clearGoals,
 		reserve,
 		open: reserveOpen,
 		toggleReserve,
+		expanded: reserveExpanded,
+		toggleExpanded: toggleReserveExpanded,
 		addToReserve,
 		removeFromReserve,
 		dropFromReserve,
@@ -217,40 +220,30 @@ const PageLines: React.FC<Props> = props => {
 		};
 	}, [families, selectedFamily, selectedRank]);
 
-	// Nested (Families-shaped) subset limited to the first `visibleCount` monsters.
-	const paginatedFamilies = useMemo(() => {
+	const listFamilies = useMemo(() => {
 		const result: Families = {};
-		let shown = 0;
 		for (const { family, rank, monsters } of filtered.entries) {
-			if (shown >= visibleCount) break;
-			const slice = monsters.slice(0, visibleCount - shown);
-			shown += slice.length;
 			if (!result[family]) result[family] = {};
-			result[family][rank] = slice;
+			result[family][rank] = monsters;
 		}
 		return result;
-	}, [filtered, visibleCount]);
+	}, [filtered]);
+	const familyKeys = useMemo(() => Object.keys(listFamilies), [listFamilies]);
+	const accordion = useFamilyAccordion(familyKeys);
 
-	// Reset pagination whenever the visible set changes.
-	useEffect(() => {
-		setVisibleCount(PAGE_SIZE);
-	}, [search, selectedFamily, selectedRank]);
-
-	// Grow the batch as the bottom sentinel approaches the viewport.
-	useEffect(() => {
-		const el = sentinelRef.current;
-		if (!el) return;
-		const observer = new IntersectionObserver(
-			es => {
-				if (es[0].isIntersecting) {
-					setVisibleCount(v => Math.min(v + PAGE_SIZE, filtered.total));
-				}
-			},
-			{ rootMargin: '600px' }
-		);
-		observer.observe(el);
-		return () => observer.disconnect();
-	}, [filtered.total, visibleCount]);
+	const hashFamily = useMemo(() => {
+		if (!hash) return undefined;
+		for (const { family, rank, monsters } of filtered.entries) {
+			if (
+				hash === family ||
+				hash === `${family}-${rank}` ||
+				monsters.some(m => m.name === hash)
+			) {
+				return family;
+			}
+		}
+		return undefined;
+	}, [hash, filtered]);
 
 	const scrolledNavRef = useRef<number>();
 	useEffect(() => {
@@ -259,15 +252,15 @@ const PageLines: React.FC<Props> = props => {
 			filtered.monsterIndex[hash] ??
 			filtered.rankStart[hash] ??
 			filtered.familyStart[hash];
-		if (idx !== undefined && idx >= visibleCount) {
-			setVisibleCount(Math.min(idx + PAGE_SIZE, filtered.total));
+		if (idx !== undefined && hashFamily && accordion.open !== hashFamily) {
+			accordion.openFamily(hashFamily);
 			return;
 		}
 		const firstHashOfSession = scrolledNavRef.current === undefined;
 		if (scrollToAnchor(hash, firstHashOfSession ? 'auto' : 'smooth')) {
 			scrolledNavRef.current = nav;
 		}
-	}, [hash, nav, filtered, visibleCount]);
+	}, [hash, nav, filtered, hashFamily, accordion.open]);
 
 	const searchIndex = useMemo(() => {
 		const index: StringObject = {};
@@ -323,8 +316,8 @@ const PageLines: React.FC<Props> = props => {
 	}, []);
 
 	const filters = useMemo(
-		() => ({ resetFilters, search, selectedFamily, selectedRank }),
-		[resetFilters, search, selectedFamily, selectedRank]
+		() => ({ resetFilters, navigate, search, selectedFamily, selectedRank }),
+		[resetFilters, navigate, search, selectedFamily, selectedRank]
 	);
 
 	const handleSearch = (value: string) => {
@@ -356,7 +349,7 @@ const PageLines: React.FC<Props> = props => {
 						</div>
 					))}
 			</div>
-			<div className="synthesis-filters mb-4">
+			<div ref={filtersRef} className="synthesis-filters mb-4">
 				<SearchBar
 					label={translateUI('Search a monster or a skill set')}
 					onSubmit={handleSearch}
@@ -434,7 +427,7 @@ const PageLines: React.FC<Props> = props => {
 								{filtered.total > 0 ?
 									<>
 										<div className="synthesis-list">
-											{Object.entries(paginatedFamilies).map(
+											{Object.entries(listFamilies).map(
 												([family, ranks]) => (
 													<FamilySection
 														key={family}
@@ -442,18 +435,14 @@ const PageLines: React.FC<Props> = props => {
 														ranks={ranks}
 														count={filtered.familyTotals[family]}
 														hash={hash}
+														open={accordion.open === family}
+														collapsible={familyKeys.length > 1}
+														onToggle={accordion.toggle}
+														onHeader={accordion.registerHeader}
 													/>
 												)
 											)}
 										</div>
-										{visibleCount < filtered.total && (
-											<div
-												ref={sentinelRef}
-												className="text-center py-4"
-											>
-												<Spinner animation="border" />
-											</div>
-										)}
 									</>
 								:	<p>{translateUI('No synthesis found')}.</p>}
 								<SynthesisTrail
@@ -464,11 +453,16 @@ const PageLines: React.FC<Props> = props => {
 								/>
 								<ReserveSidebar
 									entries={entries}
+									goals={goals}
+									onToggleGoal={toggleGoal}
+									onClearGoals={clearGoals}
 									stock={stock}
 									monsters={allMonsters}
 									ranks={game.ranks}
 									open={reserveOpen}
+									expanded={reserveExpanded}
 									onToggle={toggleReserve}
+									onToggleExpanded={toggleReserveExpanded}
 									onAdd={addToReserve}
 									onRemove={removeFromReserve}
 									onDrop={dropFromReserve}
@@ -488,20 +482,34 @@ const FamilySection = ({
 	hash,
 	ranks,
 	count,
+	open,
+	collapsible,
+	onToggle,
+	onHeader,
 }: {
 	family: string;
 	hash?: string;
 	ranks: { [key: string]: MonsterInterface[] };
 	count: number;
+	open: boolean;
+	collapsible: boolean;
+	onToggle: (family: string) => void;
+	onHeader: (family: string, el: HTMLElement | null) => void;
 }) => {
 	const { translateUI } = useTranslate();
 	const { selectedFamily, selectedRank } = useContext(FiltersContext);
 	const { hasDetails, hasSpawns } = useContext(DetailsContext);
+	const headerRef = useCallback(
+		(el: HTMLHeadingElement | null) => onHeader(family, el),
+		[family, onHeader]
+	);
+	const panelId = `${stringToKey(family)}-panel`;
 
 	if (selectedFamily && selectedFamily != family) return null;
 	return (
-		<section className="family-section">
+		<section className={makeClassName('family-section', open && 'open')}>
 			<h2
+				ref={headerRef}
 				className={makeClassName(
 					'family-title',
 					hash == family && 'active-outline'
@@ -515,48 +523,62 @@ const FamilySection = ({
 				}
 				id={family}
 			>
-				<Family name={family} big />
-				<span className="family-name">{translateUI(family)}</span>
-				<span className="family-count">
-					{count}&nbsp;{translateUI(count > 1 ? 'monsters' : 'monster')}
-				</span>
-			</h2>
-			<div className="table-responsive">
-				<table className="table synthesis-table">
-					<thead>
-						<tr>
-							<th className="cell-monster">{translateUI('Monster')}</th>
-							<th className="cell-details" />
-							<th className="cell-family">{translateUI('Family')}</th>
-							<th className="cell-rank">{translateUI('Rank')}</th>
-							{hasDetails && (
-								<th className="cell-skill">
-									{translateUI('Skill set')}
-								</th>
-							)}
-							<th className="cell-synthesis">{translateUI('Synthesis')}</th>
-							<th className="cell-rev-synthesis">
-								{translateUI('Synthesize into')}
-							</th>
-							{hasSpawns && (
-								<th className="cell-spawn">{translateUI('Location')}</th>
-							)}
-						</tr>
-					</thead>
-					{/* selectedRank is used here to avoid calling useIsVisible */}
-					{Object.entries(ranks).map(([rank, ranking]) =>
-						selectedRank && selectedRank != rank ?
-							null
-						:	<RankSection
-								key={rank}
-								family={family}
-								rank={rank}
-								ranking={ranking}
-								hash={hash}
-							/>
+				<button
+					type="button"
+					className="family-toggle"
+					aria-expanded={open}
+					aria-controls={panelId}
+					aria-disabled={!collapsible || undefined}
+					onClick={() => onToggle(family)}
+				>
+					<Family name={family} big />
+					<span className="family-name">{translateUI(family)}</span>
+					<span className="family-count">
+						{count}&nbsp;{translateUI(count > 1 ? 'monsters' : 'monster')}
+					</span>
+					{collapsible && (
+						<Icon name="chevron-down" className="family-chevron" />
 					)}
-				</table>
-			</div>
+				</button>
+			</h2>
+			{open && (
+				<div className="table-responsive" id={panelId}>
+					<table className="table synthesis-table">
+						<thead>
+							<tr>
+								<th className="cell-monster">{translateUI('Monster')}</th>
+								<th className="cell-details" />
+								<th className="cell-family">{translateUI('Family')}</th>
+								<th className="cell-rank">{translateUI('Rank')}</th>
+								{hasDetails && (
+									<th className="cell-skill">
+										{translateUI('Skill set')}
+									</th>
+								)}
+								<th className="cell-synthesis">{translateUI('Synthesis')}</th>
+								<th className="cell-rev-synthesis">
+									{translateUI('Synthesize into')}
+								</th>
+								{hasSpawns && (
+									<th className="cell-spawn">{translateUI('Location')}</th>
+								)}
+							</tr>
+						</thead>
+						{/* selectedRank is used here to avoid calling useIsVisible */}
+						{Object.entries(ranks).map(([rank, ranking]) =>
+							selectedRank && selectedRank != rank ?
+								null
+							:	<RankSection
+									key={rank}
+									family={family}
+									rank={rank}
+									ranking={ranking}
+									hash={hash}
+								/>
+						)}
+					</table>
+				</div>
+			)}
 		</section>
 	);
 };

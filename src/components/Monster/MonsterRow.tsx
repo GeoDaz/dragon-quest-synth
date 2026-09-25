@@ -70,7 +70,9 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 	const { walkInto, addDefault } = useContext(TrailContext);
 	const { details, terms, farewell, items, spawns, hasDetails, hasSpawns } =
 		useContext(DetailsContext);
-	const { stock, addToReserve, openReserve } = useContext(ReserveContext);
+	const { stock, goals, addToReserve, openReserve, toggleGoal } =
+		useContext(ReserveContext);
+	const isGoal = !!goals?.includes(monster.name);
 	const held = stock?.[monster.name] || 0;
 	const [open, setOpen] = useState(false);
 	const displayName = (isFr && monster.nom) || monster.name;
@@ -117,6 +119,23 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 						>
 							<Icon name="box-seam" /> {translateUI('Reserve')}{' '}
 							{held > 1 && <span className="reserve-times">×{held}</span>}
+						</button>
+					)}
+					{!!toggleGoal && (
+						<button
+							type="button"
+							className={makeClassName(
+								'btn btn-primary details-button reserve-button',
+								isGoal && 'held'
+							)}
+							aria-pressed={isGoal}
+							title={translateUI(isGoal ? 'Remove from goals' : 'Add as a goal')}
+							onClick={() => {
+								toggleGoal(monster.name);
+								if (!isGoal && openReserve) openReserve();
+							}}
+						>
+							<Icon name="bullseye" /> {translateUI('Goal')}
 						</button>
 					)}
 				</div>

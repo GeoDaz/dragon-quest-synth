@@ -1,4 +1,4 @@
-import { Fragment, useMemo, useState } from 'react';
+import { Fragment, useEffect, useMemo, useRef, useState } from 'react';
 import { Spinner } from 'react-bootstrap';
 import Line, { LineColumn, LineFrom, LinePoint } from '@/types/Line';
 import { makeClassName } from '@/functions';
@@ -134,11 +134,28 @@ interface Props {
 const SynthesisTrail: React.FC<Props> = ({ trees, preferred, onPick, onClear }) => {
 	const [open, setOpen] = useState(false);
 	const [zoom, setZoom] = useState(TRAIL_ZOOM);
+	const ref = useRef<HTMLElement>(null);
 	const { translateUI } = useTranslate();
 	const line = useMemo(() => buildTrailLine(trees), [trees]);
 	const { downloadImage, downloading, error } = useDownloadImg(
 		trees.map(tree => tree.name).join('-')
 	);
+
+	const shown = !!trees.length;
+
+	useEffect(() => {
+		const element = ref.current;
+		if (!shown || !element) return;
+		const root = document.documentElement;
+		const observer = new ResizeObserver(() =>
+			root.style.setProperty('--dl-trail-height', `${element.offsetHeight}px`)
+		);
+		observer.observe(element);
+		return () => {
+			observer.disconnect();
+			root.style.removeProperty('--dl-trail-height');
+		};
+	}, [shown]);
 
 	const handleDownload = () => {
 		setOpen(true);
@@ -146,14 +163,14 @@ const SynthesisTrail: React.FC<Props> = ({ trees, preferred, onPick, onClear }) 
 		downloadImage('.trail-preview .line-wrapper').then(() => setZoom(TRAIL_ZOOM));
 	};
 
-	if (!trees.length) return null;
+	if (!shown) return null;
 
 	const toggleTitle = translateUI(
 		open ? 'Collapse the synthesis' : 'Expand the synthesis'
 	);
 
 	return (
-		<aside className={makeClassName('synthesis-trail', open && 'open')}>
+		<aside ref={ref} className={makeClassName('synthesis-trail', open && 'open')}>
 			{open && (
 				<div className="trail-preview">
 					<LineGrid line={line} zoom={zoom} />
