@@ -1,5 +1,5 @@
 import { FiltersContext } from '@/context/filter';
-import Link from 'next/link';
+import Link from '@/components/Link';
 import { useContext } from 'react';
 
 interface AnchorLinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {

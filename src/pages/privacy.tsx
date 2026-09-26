@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+import Link from '@/components/Link';
 import Layout from '@/components/Layout';
 import useTranslate from '@/hooks/useTranslate';
 import {
