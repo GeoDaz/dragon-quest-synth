@@ -460,7 +460,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Silver Ship",
+				"name": "Slival's Ship",
 				"rank": "X",
 				"family": "Slime",
 				"synthesis": []
@@ -974,7 +974,7 @@
 				"name": "King Hydra",
 				"rank": "X",
 				"family": "Dragon",
-				"synthesis": [["Orochi", "Urnhaler"]]
+				"synthesis": [["Orochi", "Inhera"]]
 			},
 			{
 				"name": "Dragonlord",
@@ -1464,7 +1464,7 @@
 				]
 			},
 			{
-				"name": "Stripes",
+				"name": "Slon The Rook",
 				"rank": "A",
 				"family": "Beast",
 				"synthesis": [
@@ -1486,7 +1486,7 @@
 				]
 			},
 			{
-				"name": "Kon",
+				"name": "Kon The Knight",
 				"rank": "A",
 				"family": "Beast",
 				"synthesis": [["Mandrake Marshal", "Bone Baron"]]
@@ -1716,7 +1716,7 @@
 				"synthesis": [["Nature Family", "Rank E"]]
 			},
 			{
-				"name": "Acorn Baby",
+				"name": "Odd Cob",
 				"rank": "E",
 				"family": "Nature",
 				"synthesis": [["Cactiball", "Bad Apple"]]
@@ -1766,7 +1766,7 @@
 				"synthesis": [["Nature Family", "Rank D"]]
 			},
 			{
-				"name": "CragDevil",
+				"name": "Rockin' Rockhopper",
 				"rank": "D",
 				"family": "Nature",
 				"synthesis": [["Snowbird", "Nature Family"]]
@@ -2017,8 +2017,8 @@
 				"synthesis": [
 					["Empyrea", "Drakulard"],
 					["Empyrea", "Black Dragon"],
-					["Kap", "Drakulard"],
-					["Kap", "Black Dragon"]
+					["Kapurigon", "Drakulard"],
+					["Kapurigon", "Black Dragon"]
 				]
 			},
 			{
@@ -2034,7 +2034,7 @@
 				"name": "Lieutenant Goreham-Hogg",
 				"rank": "A",
 				"family": "Nature",
-				"synthesis": [["Mohawker", "Stripes"]]
+				"synthesis": [["Mohawker", "Slon The Rook"]]
 			}
 		],
 		"S": [
@@ -2327,7 +2327,7 @@
 				"synthesis": [["Material Family", "Rank D"]]
 			},
 			{
-				"name": "Tome",
+				"name": "Grimoire",
 				"rank": "D",
 				"family": "Material",
 				"synthesis": []
@@ -2535,7 +2535,7 @@
 				]
 			},
 			{
-				"name": "Horseman",
+				"name": "Wooden Horseman",
 				"rank": "A",
 				"family": "Material",
 				"synthesis": [
@@ -2647,13 +2647,13 @@
 				]
 			},
 			{
-				"name": "Urnhaler",
+				"name": "Inhera",
 				"rank": "X",
 				"family": "Material",
 				"synthesis": [["Trode", "Gadis"]]
 			},
 			{
-				"name": "Demonic Carriage",
+				"name": "David Tank",
 				"rank": "X",
 				"family": "Material",
 				"synthesis": []
@@ -3075,7 +3075,7 @@
 				]
 			},
 			{
-				"name": "Fire-Eater & Ice-Eater",
+				"name": "Bloodbonnet & Goobonce",
 				"rank": "A",
 				"family": "Demon",
 				"synthesis": [["Dual Duellers", "Demon Family"]]
@@ -3165,7 +3165,7 @@
 				"name": "Lieutenant Hootingham-Gore",
 				"rank": "A",
 				"family": "Demon",
-				"synthesis": [["Jamirus", "Kon"]]
+				"synthesis": [["Jamirus", "Kon The Knight"]]
 			}
 		],
 		"S": [
@@ -3182,7 +3182,7 @@
 				"synthesis": [
 					["Gigantes", "Moosifer"],
 					["Gigantes", "Garuda"],
-					["Gigantes", "Fire-Eater & Ice-Eater"],
+					["Gigantes", "Bloodbonnet & Goobonce"],
 					["Gigantes", "Gigantes", "Gigantes", "Gigantes"]
 				]
 			},
@@ -3238,7 +3238,7 @@
 				"name": "Argo",
 				"rank": "X",
 				"family": "Demon",
-				"synthesis": [["Fowleye", "Demonic Carriage"]]
+				"synthesis": [["Fowleye", "David Tank"]]
 			},
 			{
 				"name": "Nokturnus",
@@ -3246,7 +3246,7 @@
 				"family": "Demon",
 				"synthesis": [
 					["Dhuran", "Dr Snapped"],
-					["Eggla & Chickira", "Dr Snapped"]
+					["Foo Yung & Chow Mein", "Dr Snapped"]
 				]
 			}
 		]
@@ -3652,7 +3652,7 @@
 				"family": "Undead",
 				"synthesis": [
 					["Grim Rider", "Grim Rider"],
-					["Horseman", "Horseman"]
+					["Wooden Horseman", "Wooden Horseman"]
 				]
 			},
 			{
@@ -3709,7 +3709,7 @@
 				]
 			},
 			{
-				"name": "Kap",
+				"name": "Kapurigon",
 				"rank": "A",
 				"family": "Undead",
 				"synthesis": [["Barbatos", "Garuda"]]
@@ -3883,25 +3883,25 @@
 				"name": "Wulfspade",
 				"rank": "A",
 				"family": "???",
-				"synthesis": [["Incarnus monster (Joker)", "Nature Family"]]
+				"synthesis": [["Incarnus", "Nature Family"]]
 			},
 			{
 				"name": "Hawkhart",
 				"rank": "A",
 				"family": "???",
-				"synthesis": [["Incarnus monster (Joker)", "Demon Family"]]
+				"synthesis": [["Incarnus", "Demon Family"]]
 			},
 			{
 				"name": "Cluboon",
 				"rank": "A",
 				"family": "???",
-				"synthesis": [["Incarnus monster (Joker)", "Material Family"]]
+				"synthesis": [["Incarnus", "Material Family"]]
 			},
 			{
 				"name": "Diamagon",
 				"rank": "A",
 				"family": "???",
-				"synthesis": [["Incarnus monster (Joker)", "Beast Family"]]
+				"synthesis": [["Incarnus", "Beast Family"]]
 			},
 			{
 				"name": "Elder Pipit",
@@ -3980,9 +3980,9 @@
 				"family": "???",
 				"synthesis": [
 					["Hyperanemon", "Taurix"],
-					["Hyperanemon", "Kap"],
+					["Hyperanemon", "Kapurigon"],
 					["Gangleclaw", "Taurix"],
-					["Gangleclaw", "Kap"]
+					["Gangleclaw", "Kapurigon"]
 				]
 			},
 			{
@@ -4009,7 +4009,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Eggla & Chickira",
+				"name": "Foo Yung & Chow Mein",
 				"rank": "S",
 				"family": "???",
 				"synthesis": []
@@ -4186,7 +4186,7 @@
 				"synthesis": [
 					["Gracos", "Nokturnus"],
 					["Ghost Ship", "Nokturnus"],
-					["Silver Ship", "Nokturnus"]
+					["Slival's Ship", "Nokturnus"]
 				]
 			},
 			{

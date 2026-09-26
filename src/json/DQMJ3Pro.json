@@ -704,7 +704,7 @@
 				"rank": "A",
 				"family": "Dragon",
 				"synthesis": [
-					["Kon", "Metal Dragon / Buffalo Wing / Gremlin"],
+					["Kon The Knight", "Metal Dragon / Buffalo Wing / Gremlin"],
 					["Equinox", "Mars Mug / Queenly Hare"]
 				]
 			},
@@ -730,7 +730,7 @@
 				"name": "Little Wyvern",
 				"rank": "A",
 				"family": "Dragon",
-				"synthesis": [["Rotten Egg / Imp / Bad Egg", "Kon"]]
+				"synthesis": [["Rotten Egg / Imp / Bad Egg", "Kon The Knight"]]
 			},
 			{
 				"name": "Trikaceratops",
@@ -1614,7 +1614,7 @@
 				]
 			},
 			{
-				"name": "Kon",
+				"name": "Kon The Knight",
 				"rank": "A",
 				"family": "Beast",
 				"synthesis": [["Mythsteed", "Queenly Hare"]]
@@ -2287,7 +2287,8 @@
 				"family": "Nature",
 				"synthesis": [
 					["Bobonga", "Gigantes / Psycho Master"],
-					["Axesaurus", "Slon / Kon"]
+					["Axesaurus", "Kon The Knight"],
+					["Axesaurus", "Slon The Rook"]
 				]
 			},
 			{

@@ -2120,7 +2120,7 @@
 				"name": "Hellsguard Veera",
 				"rank": "X",
 				"family": "Beast",
-				"synthesis": [["Excalipurr", "Demonic Carriage"]]
+				"synthesis": [["Excalipurr", "David Tank"]]
 			},
 			{
 				"name": "Mystical Juliante",
@@ -2858,7 +2858,7 @@
 				"name": "Hogeira",
 				"rank": "X",
 				"family": "Nature",
-				"synthesis": [["Hammibal", "Demonic Carriage"]]
+				"synthesis": [["Hammibal", "David Tank"]]
 			},
 			{
 				"name": "Aragune",
@@ -3600,7 +3600,7 @@
 				"synthesis": [["Trode", "Gadis"]]
 			},
 			{
-				"name": "Demonic Carriage",
+				"name": "David Tank",
 				"rank": "X",
 				"family": "Material",
 				"synthesis": []
@@ -4333,7 +4333,7 @@
 				"name": "Argo",
 				"rank": "X",
 				"family": "Demon",
-				"synthesis": [["Fowleye", "Demonic Carriage"]]
+				"synthesis": [["Fowleye", "David Tank"]]
 			},
 			{
 				"name": "Monsterous Marine",
@@ -5086,7 +5086,7 @@
 				"name": "Siphon",
 				"rank": "X",
 				"family": "Undead",
-				"synthesis": [["Sebastian", "Demonic Carriage"]]
+				"synthesis": [["Sebastian", "David Tank"]]
 			},
 			{
 				"name": "Dr Snapped",
@@ -5258,25 +5258,25 @@
 				"name": "Wulfspade",
 				"rank": "A",
 				"family": "???",
-				"synthesis": [["Divine Monster", "Nature Family", "Rank A or lower"]]
+				"synthesis": [["Incarnus", "Nature Family", "Rank A-"]]
 			},
 			{
 				"name": "Hawkhart",
 				"rank": "A",
 				"family": "???",
-				"synthesis": [["Divine Monster", "Demon Family", "Rank A or lower"]]
+				"synthesis": [["Incarnus", "Demon Family", "Rank A-"]]
 			},
 			{
 				"name": "Cluboon",
 				"rank": "A",
 				"family": "???",
-				"synthesis": [["Divine Monster", "Material Family", "Rank A or lower"]]
+				"synthesis": [["Incarnus", "Material Family", "Rank A-"]]
 			},
 			{
 				"name": "Diamagon",
 				"rank": "A",
 				"family": "???",
-				"synthesis": [["Divine Monster", "Beast Family", "Rank A or lower"]]
+				"synthesis": [["Incarnus", "Beast Family", "Rank A-"]]
 			},
 			{
 				"name": "Elder Pipit",
@@ -5472,25 +5472,25 @@
 				"name": "Wulfspade Ace",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Divine Monster", "Nature Family", "Rank S or higher"]]
+				"synthesis": [["Incarnus", "Nature Family", "Rank S+"]]
 			},
 			{
 				"name": "Hawkhart Ace",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Divine Monster", "Demon Family", "Rank S or higher"]]
+				"synthesis": [["Incarnus", "Demon Family", "Rank S+"]]
 			},
 			{
 				"name": "Cluboon Ace",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Divine Monster", "Material Family", "Rank S or higher"]]
+				"synthesis": [["Incarnus", "Material Family", "Rank S+"]]
 			},
 			{
 				"name": "Diamagon Ace",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Divine Monster", "Beast Family", "Rank S or higher"]]
+				"synthesis": [["Incarnus", "Beast Family", "Rank S+"]]
 			},
 			{
 				"name": "Robbin' Ladies",
