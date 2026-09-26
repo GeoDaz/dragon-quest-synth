@@ -36,6 +36,7 @@ import {
 } from '@/types/MonsterDetails';
 import useTranslate from '@/hooks/useTranslate';
 import { makeClassName, stringToKey } from '@/functions';
+import { familiesImageNames, pickImages } from '@/functions/images';
 import useHash from '@/hooks/useHash';
 import useScrollToAnchor from '@/hooks/useScrollToAnchor';
 import useIsVisible from '@/hooks/useIsVisible';
@@ -638,7 +639,10 @@ export const getStaticProps: GetStaticProps = async () => {
 		const games = require('../json/games.json');
 		const game = games[defaultGame];
 
-		const images = require('../json/monstersImages.json');
+		const images = pickImages(
+			require('../json/monstersImages.json'),
+			familiesImageNames(families)
+		);
 		const details = gameDetails(defaultGame);
 		const terms = gameTerms(defaultGame);
 		const farewell = gameFarewell(defaultGame);

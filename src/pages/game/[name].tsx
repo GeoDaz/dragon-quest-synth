@@ -9,6 +9,7 @@ import PageLines, {
 	gameTerms,
 } from '..';
 import { reverseSynth } from '@/functions/transformer/synthesis';
+import { familiesImageNames, pickImages } from '@/functions/images';
 import { Game } from '@/types/Game';
 
 export const getStaticPaths = async () => {
@@ -37,7 +38,10 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 		const families: Families = require(`../../json/${gameName}.json`);
 		reverseSynth(families);
 
-		const images = require('../../json/monstersImages.json');
+		const images = pickImages(
+			require('../../json/monstersImages.json'),
+			familiesImageNames(families)
+		);
 		const details = gameDetails(gameName);
 		const terms = gameTerms(gameName);
 		const farewell = gameFarewell(gameName);

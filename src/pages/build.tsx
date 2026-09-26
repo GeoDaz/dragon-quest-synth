@@ -136,6 +136,8 @@ const PageBuild: React.FC<Props> = ({ images = {}, search }) => {
 
 export const getStaticProps: GetStaticProps = async () => {
 	try {
+		// map complète volontairement : le builder permet de choisir n'importe quel
+		// monstre (la recherche est construite à partir de ses clés)
 		const images = require('../json/monstersImages.json');
 		const translatedMonsters = require('../json/monsterTranslations.json');
 		const searchList: string[] = Object.keys(images);
