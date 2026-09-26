@@ -76,11 +76,15 @@ const fillFamilies = (
 export type RankIndex = (rank?: string) => number;
 
 export const rankIndexer = (ranks: string[]): RankIndex => {
-	const order = ranks.reduce((acc, rank, i) => {
-		acc[rank] = i;
-		return acc;
-	}, {} as { [rank: string]: number });
-	return (rank?: string) => (rank && order[rank] !== undefined ? order[rank] : ranks.length);
+	const order = ranks.reduce(
+		(acc, rank, i) => {
+			acc[rank] = i;
+			return acc;
+		},
+		{} as { [rank: string]: number }
+	);
+	return (rank?: string) =>
+		rank && order[rank] !== undefined ? order[rank] : ranks.length;
 };
 
 const comboKey = (names: string[]) => [...names].sort().join('|');
@@ -162,7 +166,10 @@ export const possibleSyntheses = (
 	const options: SynthesisOption[] = [];
 
 	const cost = (names: string[]) =>
-		names.reduce((sum, name) => sum + ranks.length - rankIndex(monsters[name]?.rank), 0);
+		names.reduce(
+			(sum, name) => sum + ranks.length - rankIndex(monsters[name]?.rank),
+			0
+		);
 
 	Object.values(monsters).forEach(result => {
 		for (const recipe of result.synthesis || []) {
@@ -237,7 +244,12 @@ export const goalRecipes = (
 			});
 			const parts: GoalPart[] = parents.map(token => {
 				if (token == 'Lower') {
-					return { token, kind: 'lower', owned: [], ok: total > parents.length - 1 };
+					return {
+						token,
+						kind: 'lower',
+						owned: [],
+						ok: total > parents.length - 1,
+					};
 				}
 				if (isFamilyToken(token)) {
 					const owned = lowestFirst(index[familyOf(token)]?.['']).filter(
@@ -245,12 +257,12 @@ export const goalRecipes = (
 					);
 					return { token, kind: 'family', owned, ok: !!owned.length };
 				}
-				const held = stock[token] || 0;
+				const active = stock[token] || 0;
 				return {
 					token,
 					kind: 'monster',
-					owned: held ? [token] : [],
-					ok: held >= needed[token],
+					owned: active ? [token] : [],
+					ok: active >= needed[token],
 				};
 			});
 			const families = parents.filter(isFamilyToken).map(familyOf);

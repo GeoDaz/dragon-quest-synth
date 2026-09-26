@@ -116,11 +116,15 @@ const MonsterDetailsModal: React.FC<Props> = ({
 			<Modal.Header closeButton>
 				<Modal.Title className="details-title">
 					<span className="monster-tile line-point pictured">
-						<MonsterImg name={monster.name} title={label} />
+						<MonsterImg name={monster.name} title={label} expandable />
 					</span>
-					<span className="break-word">{label}</span>
-					<Family big name={monster.family} />
-					<Rank big name={monster.rank} />
+					<div className="d-flex flex-column gap-2">
+						<div className="d-flex gap-2 align-items-center">
+							<Family name={monster.family} />
+							<div className="break-word">{label}</div>
+						</div>
+						<Rank name={monster.rank} />
+					</div>
 				</Modal.Title>
 			</Modal.Header>
 			<Modal.Body className="overflow-auto">

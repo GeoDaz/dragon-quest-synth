@@ -18,6 +18,7 @@ import { areasNames, seasonsIcons, weathersIcons } from '@/consts/data';
 import { StringObject } from '@/types/Ui';
 import { Spawn } from '@/types/MonsterDetails';
 import { ReserveContext } from '@/context/reserve';
+import MonsterImgModal from './MonsterImgModal';
 
 interface Parent {
 	name?: string;
@@ -73,7 +74,7 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 	const { stock, goals, addToReserve, openReserve, toggleGoal } =
 		useContext(ReserveContext);
 	const isGoal = !!goals?.includes(monster.name);
-	const held = stock?.[monster.name] || 0;
+	const active = stock?.[monster.name] || 0;
 	const [open, setOpen] = useState(false);
 	const displayName = (isFr && monster.nom) || monster.name;
 	const skill = details[monster.name]?.skill;
@@ -96,60 +97,73 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 			</td>
 			<td className="cell-details">
 				<div className="row-actions">
-					{hasDetails && (
-						<button
-							type="button"
-							className="btn btn-primary details-button"
-							onClick={() => setOpen(true)}
-						>
-							<Icon name="text-indent-left" /> {translateUI('Details')}
-						</button>
-					)}
+					{/* {hasDetails && ( */}
+					<button
+						type="button"
+						className="btn btn-primary details-button"
+						onClick={() => setOpen(true)}
+					>
+						<Icon name={hasDetails ? 'text-indent-left' : 'zoom-in'} />
+						{/*  {translateUI('Details')} */}
+					</button>
+					{/* )} */}
+					{/* <div className="d-flex gap-2"> */}
 					{!!addToReserve && (
 						<button
 							type="button"
 							className={makeClassName(
 								'btn btn-primary details-button reserve-button',
-								!!held && 'held'
+								!!active && 'active'
 							)}
 							onClick={() => {
 								addToReserve(monster.name);
 								if (openReserve) openReserve();
 							}}
 						>
-							<Icon name="box-seam" /> {translateUI('Reserve')}{' '}
-							{held > 1 && <span className="reserve-times">×{held}</span>}
+							<Icon name="box-seam" />
+							{/*  {translateUI('Reserve')} */}{' '}
+							{/* {active > 1 && (
+								<span className="reserve-times">×{active}</span>
+							)} */}
 						</button>
 					)}
 					{!!toggleGoal && (
 						<button
 							type="button"
 							className={makeClassName(
-								'btn btn-primary details-button reserve-button',
-								isGoal && 'held'
+								'btn btn-primary details-button reserve-button goal-button',
+								isGoal && 'active'
 							)}
 							aria-pressed={isGoal}
-							title={translateUI(isGoal ? 'Remove from goals' : 'Add as a goal')}
+							title={translateUI(
+								isGoal ? 'Remove from goals' : 'Add as a goal'
+							)}
 							onClick={() => {
 								toggleGoal(monster.name);
 								if (!isGoal && openReserve) openReserve();
 							}}
 						>
-							<Icon name="bullseye" /> {translateUI('Goal')}
+							<Icon name="bullseye" /> {/* {translateUI('Goal')} */}
 						</button>
 					)}
+					{/* </div> */}
 				</div>
-				{open && (
-					<MonsterDetailsModal
-						monster={monster}
-						details={details[monster.name]}
-						terms={terms}
-						farewell={farewell}
-						items={items}
-						open={open}
-						handleClose={() => setOpen(false)}
-					/>
-				)}
+				{open &&
+					(hasDetails ?
+						<MonsterDetailsModal
+							monster={monster}
+							details={details[monster.name]}
+							terms={terms}
+							farewell={farewell}
+							items={items}
+							open
+							handleClose={() => setOpen(false)}
+						/>
+					:	<MonsterImgModal
+							name={monster.name}
+							open
+							handleClose={() => setOpen(false)}
+						/>)}
 			</td>
 			<td className="cell-family">
 				<div className="family-icons">

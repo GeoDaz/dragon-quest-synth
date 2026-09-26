@@ -2859,7 +2859,7 @@ img.family {
 
 .synthesis-table .row-actions {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   gap: 6px;
 }
 
@@ -2867,9 +2867,13 @@ img.family {
   position: relative;
 }
 
-.synthesis-table .reserve-button.held {
-  background-color: #1f7a3d;
-  border-color: #1f7a3d;
+.synthesis-table .reserve-button.active {
+  background-color: var(--bs-success);
+  border-color: var(--bs-success);
+}
+.synthesis-table .reserve-button.goal-button.active {
+  background-color: var(--bs-warning);
+  border-color: var(--bs-warning);
 }
 
 .synthesis-table .reserve-button .reserve-times {
