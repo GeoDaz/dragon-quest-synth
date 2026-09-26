@@ -1,4 +1,4 @@
-import { Families, Monsters } from '@/types/Monster';
+import { Families, Monster, Monsters } from '@/types/Monster';
 
 export const indexMonsters = (families: Families): Monsters => {
 	const monsters: Monsters = {};
@@ -15,12 +15,17 @@ export const indexMonsters = (families: Families): Monsters => {
 export const reverseSynth = (families: Families): void => {
 	const translatedMonsters = require('../../json/monsterTranslations.json');
 
-	const monsters = indexMonsters(families);
-	Object.values(monsters).forEach(monster => {
-		const frName = translatedMonsters[monster.name];
-		if (frName) {
-			monster.nom = frName;
-		}
+	const byName: { [key: string]: Monster[] } = {};
+	Object.values(families).forEach(ranks => {
+		Object.values(ranks).forEach(innerMonsters => {
+			innerMonsters.forEach(monster => {
+				(byName[monster.name] ??= []).push(monster);
+				const frName = translatedMonsters[monster.name];
+				if (frName) {
+					monster.nom = frName;
+				}
+			});
+		});
 	});
 
 	Object.values(families).forEach(ranks => {
@@ -31,15 +36,21 @@ export const reverseSynth = (families: Families): void => {
 				}
 				monster.synthesis.forEach(synthesis => {
 					synthesis.forEach(synth => {
-						const synthMonster = monsters[synth];
-						if (synthMonster) {
+						byName[synth]?.forEach(synthMonster => {
+							if (
+								monster.version &&
+								synthMonster.version &&
+								monster.version !== synthMonster.version
+							) {
+								return;
+							}
 							if (!synthMonster.revSynthesis) {
 								synthMonster.revSynthesis = [];
 							}
 							if (!synthMonster.revSynthesis.includes(monster.name)) {
 								synthMonster.revSynthesis.push(monster.name);
 							}
-						}
+						});
 					});
 				});
 			});

@@ -617,11 +617,15 @@ const RankSection = ({
 					</h3>
 				</th>
 			</tr>
-			{ranking.map(monster =>
-				visible ?
-					<MonsterRow key={monster.name} monster={monster} hash={hash} />
-				:	<MonsterRowLoading key={monster.name} monster={monster} hash={hash} />
-			)}
+			{ranking.map((monster, i) => {
+				const id =
+					ranking.findIndex(m => m.name === monster.name) === i ?
+						monster.name
+					:	`${monster.name}-${monster.version}`;
+				return visible ?
+						<MonsterRow key={id} id={id} monster={monster} hash={hash} />
+					:	<MonsterRowLoading key={id} id={id} monster={monster} hash={hash} />;
+			})}
 		</tbody>
 	);
 };

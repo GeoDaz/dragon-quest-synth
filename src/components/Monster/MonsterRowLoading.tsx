@@ -8,19 +8,18 @@ import { DetailsContext } from '@/context/details';
 const MonsterRowLoading = ({
 	monster,
 	hash,
+	id = monster?.name,
 }: {
 	monster: MonsterInterface;
 	hash?: string;
+	id?: string;
 }) => {
 	const { hasDetails, hasSpawns } = useContext(DetailsContext);
 	if (!monster) return null;
 	return (
 		<tr
-			id={monster.name}
-			className={makeClassName(
-				'monster transition',
-				hash == monster.name && 'active-outline'
-			)}
+			id={id}
+			className={makeClassName('monster transition', hash == id && 'active-outline')}
 		>
 			<td className="cell-monster">
 				<div className="monster-identity">

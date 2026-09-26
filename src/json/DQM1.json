@@ -2344,7 +2344,7 @@
 				"name": "Dancing Flame",
 				"rank": "E",
 				"family": "Material",
-				"synthesis": [["Frostburn", "Fire Spirit"]]
+				"synthesis": [["Frostburn", "Firespirit"]]
 			},
 			{
 				"name": "Mudraker",
@@ -3414,7 +3414,7 @@
 	"Undead": {
 		"F": [
 			{
-				"name": "Fire Spirit",
+				"name": "Firespirit",
 				"rank": "F",
 				"family": "Undead",
 				"synthesis": [["Undead Family", "Rank F"]]

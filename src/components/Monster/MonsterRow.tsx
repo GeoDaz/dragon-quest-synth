@@ -47,15 +47,20 @@ const parseRecipe = (list: string[]): Parent[] => {
 		);
 };
 
-const MonsterRow = ({ monster, hash }: { monster: MonsterInterface; hash?: string }) => {
+const MonsterRow = ({
+	monster,
+	hash,
+	id = monster?.name,
+}: {
+	monster: MonsterInterface;
+	hash?: string;
+	id?: string;
+}) => {
 	if (!monster) return null;
 	return (
 		<tr
-			id={monster.name}
-			className={makeClassName(
-				'monster transition',
-				hash == monster.name && 'active-outline'
-			)}
+			id={id}
+			className={makeClassName('monster transition', hash == id && 'active-outline')}
 		>
 			<MemoizedMonsterCells monster={monster} />
 		</tr>
