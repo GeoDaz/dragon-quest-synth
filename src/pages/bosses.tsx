@@ -6,6 +6,7 @@ import useTranslate from '@/hooks/useTranslate';
 import { ImagesContext } from '@/context/images';
 import { StringObject } from '@/types/Ui';
 import { Boss as BossInterface, BossGame } from '@/types/Boss';
+import { pickImages } from '@/functions/images';
 
 interface Props {
 	games: BossGame[];
@@ -54,9 +55,12 @@ const PageBosses: React.FC<Props> = ({ games, images }) => {
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-	const bosses = require('../json/bosses.json');
-	const images = require('../json/monstersImages.json');
-	return { props: { games: bosses as BossGame[], images } };
+	const bosses: BossGame[] = require('../json/bosses.json');
+	const images = pickImages(
+		require('../json/monstersImages.json'),
+		bosses.flatMap(game => game.bosses.map(boss => boss.name))
+	);
+	return { props: { games: bosses, images } };
 };
 
 export default PageBosses;
