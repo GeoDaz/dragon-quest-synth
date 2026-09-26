@@ -1,4 +1,6 @@
-module.exports = {
+import { initOpenNextCloudflareForDev } from '@opennextjs/cloudflare';
+
+const nextConfig = {
 	reactStrictMode: true,
 	async redirects() {
 		return [
@@ -17,3 +19,7 @@ module.exports = {
 		unoptimized: true,
 	},
 };
+
+export default nextConfig;
+
+initOpenNextCloudflareForDev();
