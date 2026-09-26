@@ -515,9 +515,7 @@
 				"name": "Frou-Frou",
 				"rank": "B",
 				"family": "Dragon",
-				"synthesis": [
-					["Great Argon Lizard", "Frou-Fry", "Frou-Fry", "Frou-Fry"]
-				]
+				"synthesis": [["Great Argon Lizard", "Frou-Fry", "Frou-Fry", "Frou-Fry"]]
 			},
 			{
 				"name": "Drakularge",
@@ -605,7 +603,7 @@
 				"rank": "X",
 				"family": "Dragon",
 				"synthesis": [
-					["Wormonger", "Missing Lynx", "Bjorn The Behemoose", "Empyrea"]
+					["Wormonger", "Missing Lynx", "Bjorn The Behemoose", "Empyrea (Alt)"]
 				]
 			},
 			{
@@ -890,7 +888,7 @@
 				]
 			},
 			{
-				"name": "Empyrea",
+				"name": "Empyrea (Alt)",
 				"rank": "A",
 				"family": "Nature",
 				"synthesis": []
@@ -960,7 +958,7 @@
 				"name": "Ramia",
 				"rank": "X",
 				"family": "Nature",
-				"synthesis": [["Lord Of The Dragovians", "Empyrea"]]
+				"synthesis": [["Lord Of The Dragovians", "Empyrea (Alt)"]]
 			}
 		]
 	},
@@ -1529,9 +1527,7 @@
 				"name": "Overkilling Machine",
 				"rank": "S",
 				"family": "Material",
-				"synthesis": [
-					["Balhib", "Balhib", "Killing Machine", "Killing Machine"]
-				]
+				"synthesis": [["Balhib", "Balhib", "Killing Machine", "Killing Machine"]]
 			},
 			{
 				"name": "Mumboh-Jumboe",

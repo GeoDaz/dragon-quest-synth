@@ -27,6 +27,7 @@ export const familiesColors: StringObject = {
 	Material: '#676767', // grey
 	Demon: '#b130b0', // purple
 	Undead: '#434345', // black
+	Darkonium: '#821255', // purple
 	'???': '#ebb918', // gold
 };
 
@@ -38,6 +39,7 @@ export const familiesGradients: { [family: string]: [string, string] } = {
 	Material: ['#ada6ce', '#6b696b'],
 	Demon: ['#e775ff', '#940cbd'],
 	Undead: ['#6e6989', '#3c3642'],
+	Darkonium: ['#F6638C', '#AD51E7'],
 	'???': ['#fff339', '#e79a10'],
 };
 

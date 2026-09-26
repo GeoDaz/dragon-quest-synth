@@ -4282,7 +4282,7 @@
 				"synthesis": [["Shogum", "Grotwyrm"]]
 			},
 			{
-				"name": "Knight Abhorrent 2",
+				"name": "Knight Abhorrent (Alt)",
 				"rank": "S",
 				"family": "Demon",
 				"synthesis": [["Roseguardin", "Roseguardin"]]
@@ -5059,7 +5059,7 @@
 				"name": "Oren Wraithblade",
 				"rank": "S",
 				"family": "Undead",
-				"synthesis": [["Knight Abhorrent 2", "Dierantula"]]
+				"synthesis": [["Knight Abhorrent (Alt)", "Dierantula"]]
 			},
 			{
 				"name": "Captain Crow",
@@ -5382,7 +5382,7 @@
 				"family": "???",
 				"synthesis": [
 					["Mortamor Humanoid", "The Time Being"],
-					["Mortamor Humanoid", "Knight Abhorrent 2"],
+					["Mortamor Humanoid", "Knight Abhorrent (Alt)"],
 					["Mortamor Humanoid", "Escudogre"]
 				]
 			},

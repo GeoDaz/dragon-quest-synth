@@ -62,6 +62,7 @@ export const familiesIcons: StringObject = {
 	Material: 'Material.png',
 	Demon: 'Demon.png',
 	Undead: 'Undead.png',
+	Darkonium: 'Darkonium.png',
 	'???': 'Unknown.png',
 	Aquatic: 'Aquatic.png',
 	Reptile: 'Reptile.png',

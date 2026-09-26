@@ -6,7 +6,6 @@ import { useEffect, useState } from 'react';
 import Router from 'next/router';
 import { Spinner } from 'react-bootstrap';
 import type { AppProps } from 'next/app';
-import { Analytics } from '@vercel/analytics/react';
 import Header from '@/components/Header';
 import Donate from '@/components/Donate';
 import Footer from '@/components/Footer';
@@ -47,7 +46,6 @@ export default function App({ Component, pageProps }: AppProps) {
 				<Donate />
 				<Footer />
 			</LanguageContext.Provider>
-			<Analytics />
 		</ErrorBoundary>
 	);
 }

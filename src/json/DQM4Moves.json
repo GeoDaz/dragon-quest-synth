@@ -8,9 +8,7 @@
 			},
 			"mp": 2,
 			"target": "Single Enemy",
-			"elements": [
-				"fire"
-			]
+			"elements": ["fire"]
 		},
 		"メラミ": {
 			"en": "Frizzle",
@@ -20,9 +18,7 @@
 			},
 			"mp": 5,
 			"target": "Single Enemy",
-			"elements": [
-				"fire"
-			]
+			"elements": ["fire"]
 		},
 		"メラゾーマ": {
 			"en": "Kafrizz",
@@ -32,9 +28,7 @@
 			},
 			"mp": 12,
 			"target": "Single Enemy",
-			"elements": [
-				"fire"
-			]
+			"elements": ["fire"]
 		},
 		"メラガイアー": {
 			"en": "Kafrizzle",
@@ -44,9 +38,7 @@
 			},
 			"mp": 32,
 			"target": "Single Enemy",
-			"elements": [
-				"fire"
-			]
+			"elements": ["fire"]
 		},
 		"ザバ": {
 			"en": "Splish",
@@ -56,9 +48,7 @@
 			},
 			"mp": 2,
 			"target": "Single Enemy",
-			"elements": [
-				"water"
-			]
+			"elements": ["water"]
 		},
 		"ザバラ": {
 			"en": "Splash",
@@ -68,9 +58,7 @@
 			},
 			"mp": 5,
 			"target": "Single Enemy",
-			"elements": [
-				"water"
-			]
+			"elements": ["water"]
 		},
 		"バギ": {
 			"en": "Woosh",
@@ -80,9 +68,7 @@
 			},
 			"mp": 4,
 			"target": "All Enemies",
-			"elements": [
-				"wind"
-			]
+			"elements": ["wind"]
 		},
 		"バギマ": {
 			"en": "Swoosh",
@@ -92,9 +78,7 @@
 			},
 			"mp": 11,
 			"target": "All Enemies",
-			"elements": [
-				"wind"
-			]
+			"elements": ["wind"]
 		},
 		"バギクロス": {
 			"en": "Kaswoosh",
@@ -104,9 +88,7 @@
 			},
 			"mp": 22,
 			"target": "All Enemies",
-			"elements": [
-				"wind"
-			]
+			"elements": ["wind"]
 		},
 		"バギムーチョ": {
 			"en": "Kaswooshle",
@@ -116,9 +98,7 @@
 			},
 			"mp": 54,
 			"target": "All Enemies",
-			"elements": [
-				"wind"
-			]
+			"elements": ["wind"]
 		},
 		"ジバリア": {
 			"en": "Crag",
@@ -128,9 +108,7 @@
 			},
 			"mp": 5,
 			"target": "All Enemies",
-			"elements": [
-				"earth"
-			]
+			"elements": ["earth"]
 		},
 		"ジバリカ": {
 			"en": "Craggle",
@@ -140,9 +118,7 @@
 			},
 			"mp": 12,
 			"target": "All Enemies",
-			"elements": [
-				"earth"
-			]
+			"elements": ["earth"]
 		},
 		"イオ": {
 			"en": "Bang",
@@ -152,9 +128,7 @@
 			},
 			"mp": 5,
 			"target": "All Enemies",
-			"elements": [
-				"explosion"
-			]
+			"elements": ["explosion"]
 		},
 		"イオラ": {
 			"en": "Boom",
@@ -164,9 +138,7 @@
 			},
 			"mp": 12,
 			"target": "All Enemies",
-			"elements": [
-				"explosion"
-			]
+			"elements": ["explosion"]
 		},
 		"ヒャド": {
 			"en": "Crack",
@@ -176,9 +148,7 @@
 			},
 			"mp": 3,
 			"target": "Single Enemy",
-			"elements": [
-				"freeze"
-			]
+			"elements": ["freeze"]
 		},
 		"ヒャダルコ": {
 			"en": "Crackle",
@@ -188,9 +158,7 @@
 			},
 			"mp": 12,
 			"target": "All Enemies",
-			"elements": [
-				"freeze"
-			]
+			"elements": ["freeze"]
 		},
 		"マヒャド": {
 			"en": "Kacrack",
@@ -200,9 +168,7 @@
 			},
 			"mp": 22,
 			"target": "All Enemies",
-			"elements": [
-				"freeze"
-			]
+			"elements": ["freeze"]
 		},
 		"マヒャデドス": {
 			"en": "Kacrackle",
@@ -212,9 +178,7 @@
 			},
 			"mp": 58,
 			"target": "All Enemies",
-			"elements": [
-				"freeze"
-			]
+			"elements": ["freeze"]
 		},
 		"デイン": {
 			"en": "Zap",
@@ -224,9 +188,7 @@
 			},
 			"mp": 2,
 			"target": "Single Enemy",
-			"elements": [
-				"thunder"
-			]
+			"elements": ["thunder"]
 		},
 		"ライデイン": {
 			"en": "Zapple",
@@ -236,9 +198,7 @@
 			},
 			"mp": 13,
 			"target": "All Enemies",
-			"elements": [
-				"thunder"
-			]
+			"elements": ["thunder"]
 		},
 		"ギラ": {
 			"en": "Sizz",
@@ -248,9 +208,7 @@
 			},
 			"mp": 4,
 			"target": "All Enemies",
-			"elements": [
-				"light"
-			]
+			"elements": ["light"]
 		},
 		"ベギラマ": {
 			"en": "Sizzle",
@@ -260,9 +218,7 @@
 			},
 			"mp": 11,
 			"target": "All Enemies",
-			"elements": [
-				"light"
-			]
+			"elements": ["light"]
 		},
 		"ドルマ": {
 			"en": "Zam",
@@ -272,9 +228,7 @@
 			},
 			"mp": 3,
 			"target": "Single Enemy",
-			"elements": [
-				"darkness"
-			]
+			"elements": ["darkness"]
 		},
 		"ドルクマ": {
 			"en": "Zammle",
@@ -284,9 +238,7 @@
 			},
 			"mp": 6,
 			"target": "Single Enemy",
-			"elements": [
-				"darkness"
-			]
+			"elements": ["darkness"]
 		},
 		"マダンチョ": {
 			"en": "Magic Pop",
@@ -296,9 +248,7 @@
 			"mp": 25,
 			"mpType": "percentage",
 			"target": "Single Enemy",
-			"elements": [
-				"light"
-			]
+			"elements": ["light"]
 		},
 		"ホイミ": {
 			"en": "Heal",
@@ -343,9 +293,7 @@
 			},
 			"mp": 2,
 			"target": "All Allies",
-			"elements": [
-				"poison"
-			]
+			"elements": ["poison"]
 		},
 		"キアリク": {
 			"en": "Tingle",
@@ -355,9 +303,7 @@
 			},
 			"mp": 2,
 			"target": "All Allies",
-			"elements": [
-				"paralysis"
-			]
+			"elements": ["paralysis"]
 		},
 		"キアラル": {
 			"en": "Defuddle",
@@ -367,9 +313,7 @@
 			},
 			"mp": 2,
 			"target": "All Allies",
-			"elements": [
-				"confusion"
-			]
+			"elements": ["confusion"]
 		},
 		"ザメハ": {
 			"en": "Cock-a-Doodle-Doo",
@@ -379,9 +323,7 @@
 			},
 			"mp": 2,
 			"target": "All Allies",
-			"elements": [
-				"sleep"
-			]
+			"elements": ["sleep"]
 		},
 		"バイキルト": {
 			"en": "Oomph",
@@ -400,9 +342,7 @@
 			},
 			"mp": 15,
 			"target": "All Enemies",
-			"elements": [
-				"darkness"
-			]
+			"elements": ["darkness"]
 		},
 		"会心封じ": {
 			"en": "Critical Meltdown",
@@ -567,9 +507,7 @@
 			},
 			"mp": 3,
 			"target": "All Enemies",
-			"elements": [
-				"bedazzle"
-			]
+			"elements": ["bedazzle"]
 		},
 		"マホトーン": {
 			"en": "Fizzle",
@@ -579,9 +517,7 @@
 			},
 			"mp": 3,
 			"target": "All Enemies",
-			"elements": [
-				"seal"
-			]
+			"elements": ["seal"]
 		},
 		"マホトラ": {
 			"en": "Drain Magic",
@@ -600,9 +536,7 @@
 			},
 			"mp": 5,
 			"target": "Single Enemy",
-			"elements": [
-				"confusion"
-			]
+			"elements": ["confusion"]
 		},
 		"ラリホー": {
 			"en": "Snooze",
@@ -612,9 +546,7 @@
 			},
 			"mp": 3,
 			"target": "Single Enemy",
-			"elements": [
-				"sleep"
-			]
+			"elements": ["sleep"]
 		},
 		"ラリホーマ": {
 			"en": "Kasnooze",
@@ -624,9 +556,7 @@
 			},
 			"mp": 8,
 			"target": "All Enemies",
-			"elements": [
-				"sleep"
-			]
+			"elements": ["sleep"]
 		},
 		"シビー": {
 			"en": "Numb",
@@ -636,9 +566,7 @@
 			},
 			"mp": 8,
 			"target": "Single Enemy",
-			"elements": [
-				"paralysis"
-			]
+			"elements": ["paralysis"]
 		},
 		"ヴェレ": {
 			"en": "Tox",
@@ -648,9 +576,7 @@
 			},
 			"mp": 3,
 			"target": "Single Enemy",
-			"elements": [
-				"poison"
-			]
+			"elements": ["poison"]
 		},
 		"ヴェレーノ": {
 			"en": "Katox",
@@ -660,9 +586,7 @@
 			},
 			"mp": 8,
 			"target": "All Enemies",
-			"elements": [
-				"poison"
-			]
+			"elements": ["poison"]
 		},
 		"ザキ": {
 			"en": "Whack",
@@ -672,9 +596,7 @@
 			},
 			"mp": 9,
 			"target": "Single Enemy",
-			"elements": [
-				"sudden_death"
-			]
+			"elements": ["sudden_death"]
 		},
 		"メガンテ": {
 			"en": "Kamikazee",
@@ -692,9 +614,7 @@
 			},
 			"mp": 2,
 			"target": "Single Enemy",
-			"elements": [
-				"fire"
-			]
+			"elements": ["fire"]
 		},
 		"しんくう斬り": {
 			"en": "Gust Slash",
@@ -703,9 +623,7 @@
 			},
 			"mp": 2,
 			"target": "Single Enemy",
-			"elements": [
-				"wind"
-			]
+			"elements": ["wind"]
 		},
 		"マヒャド斬り": {
 			"en": "Kacrackle Slash",
@@ -715,9 +633,7 @@
 			},
 			"mp": 2,
 			"target": "Single Enemy",
-			"elements": [
-				"freeze"
-			]
+			"elements": ["freeze"]
 		},
 		"いなずま斬り": {
 			"en": "Lightning Slash",
@@ -726,9 +642,7 @@
 			},
 			"mp": 2,
 			"target": "Single Enemy",
-			"elements": [
-				"thunder"
-			]
+			"elements": ["thunder"]
 		},
 		"灼熱斬": {
 			"en": "Flamesplitter",
@@ -737,9 +651,7 @@
 			},
 			"mp": 15,
 			"target": "All Enemies",
-			"elements": [
-				"fire"
-			]
+			"elements": ["fire"]
 		},
 		"空裂斬": {
 			"en": "Skysplitter",
@@ -748,9 +660,7 @@
 			},
 			"mp": 15,
 			"target": "All Enemies",
-			"elements": [
-				"wind"
-			]
+			"elements": ["wind"]
 		},
 		"閃光斬": {
 			"en": "Brightsplitter",
@@ -759,9 +669,7 @@
 			},
 			"mp": 15,
 			"target": "All Enemies",
-			"elements": [
-				"light"
-			]
+			"elements": ["light"]
 		},
 		"スライムたたき": {
 			"en": "Slime Squisher",
@@ -912,9 +820,7 @@
 			},
 			"mp": 4,
 			"target": "Single Enemy",
-			"elements": [
-				"confusion"
-			]
+			"elements": ["confusion"]
 		},
 		"ねむりこうげき": {
 			"en": "Sleep Attack",
@@ -924,9 +830,7 @@
 			},
 			"mp": 4,
 			"target": "Single Enemy",
-			"elements": [
-				"sleep"
-			]
+			"elements": ["sleep"]
 		},
 		"マヒこうげき": {
 			"en": "Paralysing Punch",
@@ -936,9 +840,7 @@
 			},
 			"mp": 4,
 			"target": "Single Enemy",
-			"elements": [
-				"paralysis"
-			]
+			"elements": ["paralysis"]
 		},
 		"ハートブレイク": {
 			"en": "Heart Breaker",
@@ -947,9 +849,7 @@
 			},
 			"mp": 4,
 			"target": "Single Enemy",
-			"elements": [
-				"rest"
-			]
+			"elements": ["rest"]
 		},
 		"どくこうげき": {
 			"en": "Poison Attack",
@@ -959,9 +859,7 @@
 			},
 			"mp": 2,
 			"target": "Single Enemy",
-			"elements": [
-				"poison"
-			]
+			"elements": ["poison"]
 		},
 		"アサシンアタック": {
 			"en": "Assassin's Stab",
@@ -971,9 +869,7 @@
 			},
 			"mp": 8,
 			"target": "Single Enemy",
-			"elements": [
-				"sudden_death"
-			]
+			"elements": ["sudden_death"]
 		},
 		"タナトスハント": {
 			"en": "Victimiser",
@@ -982,10 +878,7 @@
 			},
 			"mp": 4,
 			"target": "Single Enemy",
-			"elements": [
-				"poison",
-				"paralysis"
-			]
+			"elements": ["poison", "paralysis"]
 		},
 		"ヒュプノスハント": {
 			"en": "Persecutter",
@@ -994,21 +887,16 @@
 			},
 			"mp": 4,
 			"target": "Single Enemy",
-			"elements": [
-				"confusion",
-				"sleep"
-			]
+			"elements": ["confusion", "sleep"]
 		},
 		"かまいたち": {
-			"en": "Wind Sickles",
+			"en": "Cyclown",
 			"desc": {
 				"en": "Inflicts minor wind-elemental damage on a single enemy."
 			},
 			"mp": 4,
 			"target": "Single Enemy",
-			"elements": [
-				"wind"
-			]
+			"elements": ["wind"]
 		},
 		"しんくうは": {
 			"en": "Thin Air",
@@ -1017,9 +905,7 @@
 			},
 			"mp": 12,
 			"target": "All Enemies",
-			"elements": [
-				"wind"
-			]
+			"elements": ["wind"]
 		},
 		"いわなげ": {
 			"en": "Stone's Throw",
@@ -1028,9 +914,7 @@
 			},
 			"mp": 4,
 			"target": "Single Enemy",
-			"elements": [
-				"earth"
-			]
+			"elements": ["earth"]
 		},
 		"じひびき": {
 			"en": "Stomp",
@@ -1039,9 +923,7 @@
 			},
 			"mp": 12,
 			"target": "All Enemies",
-			"elements": [
-				"earth"
-			]
+			"elements": ["earth"]
 		},
 		"めいそう": {
 			"en": "Meditation",
@@ -1086,9 +968,7 @@
 			},
 			"mp": 2,
 			"target": "All Enemies",
-			"elements": [
-				"bedazzle"
-			],
+			"elements": ["bedazzle"],
 			"effect": "Accuracy Down"
 		},
 		"くちをふさぐ": {
@@ -1125,9 +1005,7 @@
 			},
 			"mp": 3,
 			"target": "All Enemies",
-			"elements": [
-				"rest"
-			]
+			"elements": ["rest"]
 		},
 		"なめまわし": {
 			"en": "Tongue Lashing",
@@ -1136,9 +1014,7 @@
 			},
 			"mp": 1,
 			"target": "Single Enemy",
-			"elements": [
-				"rest"
-			],
+			"elements": ["rest"],
 			"effect": "Defence Down"
 		},
 		"ひゃくれつなめ": {
@@ -1149,9 +1025,7 @@
 			},
 			"mp": 8,
 			"target": "Single Enemy",
-			"elements": [
-				"rest"
-			],
+			"elements": ["rest"],
 			"effect": "Defence Down"
 		},
 		"たぎる": {
@@ -1189,9 +1063,7 @@
 			},
 			"mp": 3,
 			"target": "All Enemies",
-			"elements": [
-				"fire"
-			]
+			"elements": ["fire"]
 		},
 		"火炎の息": {
 			"en": "Flame Breath",
@@ -1201,9 +1073,7 @@
 			},
 			"mp": 6,
 			"target": "All Enemies",
-			"elements": [
-				"fire"
-			]
+			"elements": ["fire"]
 		},
 		"はげしい炎": {
 			"en": "Inferno",
@@ -1213,9 +1083,7 @@
 			},
 			"mp": 15,
 			"target": "All Enemies",
-			"elements": [
-				"fire"
-			]
+			"elements": ["fire"]
 		},
 		"しゃくねつ": {
 			"en": "Scorch",
@@ -1225,9 +1093,7 @@
 			},
 			"mp": 30,
 			"target": "All Enemies",
-			"elements": [
-				"fire"
-			]
+			"elements": ["fire"]
 		},
 		"つめたい息": {
 			"en": "Cool Breath",
@@ -1237,9 +1103,7 @@
 			},
 			"mp": 3,
 			"target": "All Enemies",
-			"elements": [
-				"freeze"
-			]
+			"elements": ["freeze"]
 		},
 		"こおりの息": {
 			"en": "Chilly Breath",
@@ -1249,9 +1113,7 @@
 			},
 			"mp": 6,
 			"target": "All Enemies",
-			"elements": [
-				"freeze"
-			]
+			"elements": ["freeze"]
 		},
 		"こごえる吹雪": {
 			"en": "Freezing Blizzard",
@@ -1261,9 +1123,7 @@
 			},
 			"mp": 15,
 			"target": "All Enemies",
-			"elements": [
-				"freeze"
-			]
+			"elements": ["freeze"]
 		},
 		"かがやく息": {
 			"en": "C-C-Cold Breath",
@@ -1273,9 +1133,7 @@
 			},
 			"mp": 30,
 			"target": "All Enemies",
-			"elements": [
-				"freeze"
-			]
+			"elements": ["freeze"]
 		},
 		"サンドブレス": {
 			"en": "Sandy Sigh",
@@ -1284,9 +1142,7 @@
 			},
 			"mp": 22,
 			"target": "All Enemies",
-			"elements": [
-				"earth"
-			],
+			"elements": ["earth"],
 			"effect": "Accuracy Down"
 		},
 		"ひかりの息": {
@@ -1297,10 +1153,7 @@
 			},
 			"mp": 22,
 			"target": "All Enemies",
-			"elements": [
-				"light",
-				"confusion"
-			]
+			"elements": ["light", "confusion"]
 		},
 		"やみの息": {
 			"en": "Black Breath",
@@ -1309,10 +1162,7 @@
 			},
 			"mp": 22,
 			"target": "All Enemies",
-			"elements": [
-				"darkness",
-				"seal"
-			]
+			"elements": ["darkness", "seal"]
 		},
 		"息をすいこむ": {
 			"en": "Deep Breath",
@@ -1331,9 +1181,7 @@
 			},
 			"mp": 3,
 			"target": "All Enemies",
-			"elements": [
-				"sleep"
-			]
+			"elements": ["sleep"]
 		},
 		"やけつく息": {
 			"en": "Burning Breath",
@@ -1343,9 +1191,7 @@
 			},
 			"mp": 4,
 			"target": "All Enemies",
-			"elements": [
-				"paralysis"
-			]
+			"elements": ["paralysis"]
 		},
 		"どくの息": {
 			"en": "Poison Breath",
@@ -1355,9 +1201,7 @@
 			},
 			"mp": 3,
 			"target": "All Enemies",
-			"elements": [
-				"poison"
-			]
+			"elements": ["poison"]
 		},
 		"つるぎのまい": {
 			"en": "Sword Dance",
@@ -1385,9 +1229,7 @@
 			},
 			"mp": 0,
 			"target": "Single Enemy",
-			"elements": [
-				"drain_mp"
-			]
+			"elements": ["drain_mp"]
 		},
 		"メダパニダンス": {
 			"en": "Fuddle Dance",
@@ -1397,9 +1239,7 @@
 			},
 			"mp": 2,
 			"target": "All Enemies",
-			"elements": [
-				"confusion"
-			]
+			"elements": ["confusion"]
 		},
 		"さそう踊り": {
 			"en": "Sultry Dance",
@@ -1409,9 +1249,7 @@
 			},
 			"mp": 2,
 			"target": "All Enemies",
-			"elements": [
-				"rest"
-			]
+			"elements": ["rest"]
 		},
 		"だいぼうぎょ": {
 			"en": "Intense Defence",
@@ -1429,9 +1267,7 @@
 			},
 			"mp": 11,
 			"target": "Single Enemy",
-			"elements": [
-				"water"
-			]
+			"elements": ["water"]
 		},
 		"ザバトローム": {
 			"en": "Kasplashle",
@@ -1441,9 +1277,7 @@
 			},
 			"mp": 29,
 			"target": "Single Enemy",
-			"elements": [
-				"water"
-			]
+			"elements": ["water"]
 		},
 		"ヘナトール": {
 			"en": "Kablunt",
@@ -1462,9 +1296,7 @@
 			},
 			"mp": 23,
 			"target": "All Enemies",
-			"elements": [
-				"earth"
-			]
+			"elements": ["earth"]
 		},
 		"ジバルンバ": {
 			"en": "Kacraggle",
@@ -1473,9 +1305,7 @@
 			},
 			"mp": 58,
 			"target": "All Enemies",
-			"elements": [
-				"earth"
-			]
+			"elements": ["earth"]
 		},
 		"大地斬": {
 			"en": "Earthsplitter",
@@ -1484,9 +1314,7 @@
 			},
 			"mp": 15,
 			"target": "All Enemies",
-			"elements": [
-				"earth"
-			]
+			"elements": ["earth"]
 		},
 		"イオナズン": {
 			"en": "Kaboom",
@@ -1496,9 +1324,7 @@
 			},
 			"mp": 24,
 			"target": "All Enemies",
-			"elements": [
-				"explosion"
-			]
+			"elements": ["explosion"]
 		},
 		"イオグランデ": {
 			"en": "Kaboomle",
@@ -1508,9 +1334,7 @@
 			},
 			"mp": 60,
 			"target": "All Enemies",
-			"elements": [
-				"explosion"
-			]
+			"elements": ["explosion"]
 		},
 		"いなずま": {
 			"en": "Lightning",
@@ -1520,9 +1344,7 @@
 			},
 			"mp": 12,
 			"target": "All Enemies",
-			"elements": [
-				"thunder"
-			]
+			"elements": ["thunder"]
 		},
 		"ギガデイン": {
 			"en": "Kazap",
@@ -1531,9 +1353,7 @@
 			},
 			"mp": 23,
 			"target": "All Enemies",
-			"elements": [
-				"thunder"
-			]
+			"elements": ["thunder"]
 		},
 		"シビリーニョ": {
 			"en": "Kanumb",
@@ -1543,9 +1363,7 @@
 			},
 			"mp": 15,
 			"target": "All Enemies",
-			"elements": [
-				"paralysis"
-			]
+			"elements": ["paralysis"]
 		},
 		"ジゴデイン": {
 			"en": "Kazapple",
@@ -1555,9 +1373,7 @@
 			},
 			"mp": 61,
 			"target": "All Enemies",
-			"elements": [
-				"thunder"
-			]
+			"elements": ["thunder"]
 		},
 		"インテラ": {
 			"en": "Kaping",
@@ -1577,9 +1393,7 @@
 			},
 			"mp": 22,
 			"target": "All Enemies",
-			"elements": [
-				"light"
-			]
+			"elements": ["light"]
 		},
 		"ギラグレイド": {
 			"en": "Kasizzle",
@@ -1589,9 +1403,7 @@
 			},
 			"mp": 54,
 			"target": "All Enemies",
-			"elements": [
-				"light"
-			]
+			"elements": ["light"]
 		},
 		"ドルモーア": {
 			"en": "Kazam",
@@ -1601,9 +1413,7 @@
 			},
 			"mp": 10,
 			"target": "Single Enemy",
-			"elements": [
-				"darkness"
-			]
+			"elements": ["darkness"]
 		},
 		"ドルマドン": {
 			"en": "Kazammle",
@@ -1613,9 +1423,7 @@
 			},
 			"mp": 30,
 			"target": "Single Enemy",
-			"elements": [
-				"darkness"
-			]
+			"elements": ["darkness"]
 		},
 		"シャイニングボウ": {
 			"en": "Shining Shot",
@@ -1625,9 +1433,7 @@
 			},
 			"mp": 100,
 			"target": "Random Enemies",
-			"elements": [
-				"light"
-			]
+			"elements": ["light"]
 		},
 		"ばくれつけん": {
 			"en": "Multifists",
@@ -1655,9 +1461,7 @@
 			},
 			"mp": 10,
 			"target": "All Enemies",
-			"elements": [
-				"confusion"
-			]
+			"elements": ["confusion"]
 		},
 		"ギガブレイク": {
 			"en": "Gigagash",
@@ -1667,9 +1471,7 @@
 			},
 			"mp": 56,
 			"target": "All Enemies",
-			"elements": [
-				"thunder"
-			]
+			"elements": ["thunder"]
 		},
 		"ギガクロスブレイク": {
 			"en": "Gigacross",
@@ -1679,9 +1481,7 @@
 			},
 			"mp": 80,
 			"target": "All Enemies",
-			"elements": [
-				"thunder"
-			]
+			"elements": ["thunder"]
 		},
 		"ダークブレイク": {
 			"en": "Shadow Blast",
@@ -1691,9 +1491,7 @@
 			},
 			"mp": 80,
 			"target": "All Enemies",
-			"elements": [
-				"darkness"
-			]
+			"elements": ["darkness"]
 		},
 		"煉獄火炎": {
 			"en": "Hellitosis",
@@ -1703,10 +1501,7 @@
 			},
 			"mp": 64,
 			"target": "All Enemies",
-			"elements": [
-				"fire",
-				"rest"
-			]
+			"elements": ["fire", "rest"]
 		},
 		"蒼天魔斬": {
 			"en": "Parallax",
@@ -1715,9 +1510,7 @@
 			},
 			"mp": 20,
 			"target": "Single Enemy",
-			"elements": [
-				"paralysis"
-			]
+			"elements": ["paralysis"]
 		},
 		"ハッスルダンス": {
 			"en": "Hustle Dance",
@@ -1755,9 +1548,7 @@
 			"mp": 50,
 			"mpType": "percentage",
 			"target": "Random Enemies",
-			"elements": [
-				"drain_mp"
-			]
+			"elements": ["drain_mp"]
 		},
 		"マホカンタ": {
 			"en": "Bounce",
@@ -1775,10 +1566,7 @@
 			},
 			"mp": 64,
 			"target": "All Enemies",
-			"elements": [
-				"freeze",
-				"rest"
-			]
+			"elements": ["freeze", "rest"]
 		},
 		"ギガスラッシュ": {
 			"en": "Gigaslash",
@@ -1788,9 +1576,7 @@
 			},
 			"mp": 20,
 			"target": "Single Enemy",
-			"elements": [
-				"thunder"
-			]
+			"elements": ["thunder"]
 		},
 		"ジゴスパーク": {
 			"en": "Lightning Storm",
@@ -1800,9 +1586,7 @@
 			},
 			"mp": 52,
 			"target": "All Enemies",
-			"elements": [
-				"thunder"
-			]
+			"elements": ["thunder"]
 		},
 		"ヒュプノスムーチョ": {
 			"en": "Multi-Persecutter",
@@ -1813,10 +1597,7 @@
 			"mp": 0,
 			"mpType": "all-with-min",
 			"target": "All Enemies",
-			"elements": [
-				"sleep",
-				"confusion"
-			]
+			"elements": ["sleep", "confusion"]
 		},
 		"ザラキ": {
 			"en": "Thwack",
@@ -1826,9 +1607,7 @@
 			},
 			"mp": 12,
 			"target": "All Enemies",
-			"elements": [
-				"sudden_death"
-			]
+			"elements": ["sudden_death"]
 		},
 		"おぞましいおたけび": {
 			"en": "Hellish Howl",
@@ -1839,9 +1618,7 @@
 			"mp": 0,
 			"mpType": "all-with-min",
 			"target": "All Enemies",
-			"elements": [
-				"rest"
-			]
+			"elements": ["rest"]
 		},
 		"タナトスムーチョ": {
 			"en": "Multi-Victimiser",
@@ -1851,10 +1628,7 @@
 			},
 			"mp": 26,
 			"target": "All Enemies",
-			"elements": [
-				"poison",
-				"paralysis"
-			]
+			"elements": ["poison", "paralysis"]
 		},
 		"黒くかがやく炎": {
 			"en": "Grim Breath",
@@ -1864,9 +1638,7 @@
 			},
 			"mp": 80,
 			"target": "All Enemies",
-			"elements": [
-				"darkness"
-			]
+			"elements": ["darkness"]
 		},
 		"いなずまダンス": {
 			"en": "Electric Boogie",
@@ -1876,9 +1648,7 @@
 			},
 			"mp": 30,
 			"target": "All Enemies",
-			"elements": [
-				"thunder"
-			]
+			"elements": ["thunder"]
 		},
 		"炎のダンス": {
 			"en": "Hotstepper",
@@ -1888,9 +1658,7 @@
 			},
 			"mp": 30,
 			"target": "All Enemies",
-			"elements": [
-				"fire"
-			]
+			"elements": ["fire"]
 		},
 		"ミラーステップ": {
 			"en": "Mirror Moves",
@@ -1909,9 +1677,7 @@
 			},
 			"mp": 6,
 			"target": "All Enemies",
-			"elements": [
-				"sudden_death"
-			]
+			"elements": ["sudden_death"]
 		},
 		"アゲハ乱舞": {
 			"en": "Butterfly Bop",
@@ -1930,9 +1696,7 @@
 			},
 			"mp": 52,
 			"target": "All Enemies",
-			"elements": [
-				"water"
-			]
+			"elements": ["water"]
 		},
 		"ベホマラー": {
 			"en": "Multiheal",
@@ -1960,9 +1724,7 @@
 			},
 			"mp": 36,
 			"target": "All Enemies",
-			"elements": [
-				"explosion"
-			]
+			"elements": ["explosion"]
 		},
 		"アビスハンド": {
 			"en": "Bad Hand",
@@ -1972,9 +1734,7 @@
 			},
 			"mp": 52,
 			"target": "All Enemies",
-			"elements": [
-				"darkness"
-			]
+			"elements": ["darkness"]
 		},
 		"ベホマズン": {
 			"en": "Omniheal",
@@ -2003,9 +1763,7 @@
 			"mp": 100,
 			"mpType": "percentage",
 			"target": "All Enemies",
-			"elements": [
-				"light"
-			]
+			"elements": ["light"]
 		},
 		"グランドクロス": {
 			"en": "Pearly Gates",
@@ -2015,9 +1773,7 @@
 			},
 			"mp": 60,
 			"target": "All Enemies",
-			"elements": [
-				"light"
-			]
+			"elements": ["light"]
 		},
 		"流星": {
 			"en": "Starfall",
@@ -2027,9 +1783,7 @@
 			},
 			"mp": 12,
 			"target": "All Enemies",
-			"elements": [
-				"light"
-			]
+			"elements": ["light"]
 		},
 		"がんせきおとし": {
 			"en": "Boulder Toss",
@@ -2039,9 +1793,7 @@
 			},
 			"mp": 36,
 			"target": "All Enemies",
-			"elements": [
-				"earth"
-			]
+			"elements": ["earth"]
 		},
 		"ヴェレノーマ": {
 			"en": "Katoxle",
@@ -2051,9 +1803,7 @@
 			},
 			"mp": 15,
 			"target": "All Enemies",
-			"elements": [
-				"poison"
-			]
+			"elements": ["poison"]
 		},
 		"やみのはどう": {
 			"en": "Wave of Panic",
@@ -2081,9 +1831,7 @@
 			},
 			"mp": 4,
 			"target": "All Enemies",
-			"elements": [
-				"fire"
-			]
+			"elements": ["fire"]
 		},
 		"シルバースパーク": {
 			"en": "Power Surge",
@@ -2093,9 +1841,7 @@
 			},
 			"mp": 52,
 			"target": "All Enemies",
-			"elements": [
-				"thunder"
-			]
+			"elements": ["thunder"]
 		},
 		"終末の炎": {
 			"en": "Hold Fire",
@@ -2105,9 +1851,7 @@
 			},
 			"mp": 52,
 			"target": "All Enemies",
-			"elements": [
-				"fire"
-			]
+			"elements": ["fire"]
 		},
 		"Snap, Crackle, Poof": {
 			"en": "Snap, Crackle, Poof",
@@ -2598,9 +2342,7 @@
 					"sp": 120
 				}
 			],
-			"traits": [
-				"自動MP回復"
-			]
+			"traits": ["自動MP回復"]
 		},
 		"アサシン": {
 			"moves": [
@@ -2867,10 +2609,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"最大MPプラス４",
-				"最大MPプラス８"
-			]
+			"traits": ["最大MPプラス４", "最大MPプラス８"]
 		},
 		"爆発の極意": {
 			"moves": [
@@ -2907,10 +2646,7 @@
 					"sp": 150
 				}
 			],
-			"traits": [
-				"最大MPプラス１６",
-				"最大MPプラス２４"
-			]
+			"traits": ["最大MPプラス１６", "最大MPプラス２４"]
 		},
 		"爆発ガード": {
 			"moves": [
@@ -2990,9 +2726,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"守備力プラス４"
-			]
+			"traits": ["守備力プラス４"]
 		},
 		"幻惑ガード": {
 			"moves": [
@@ -3110,10 +2844,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"守備力プラス８",
-				"攻撃力プラス８"
-			]
+			"traits": ["守備力プラス８", "攻撃力プラス８"]
 		},
 		"グランドブレスSP": {
 			"moves": [
@@ -3198,10 +2929,7 @@
 					"sp": 120
 				}
 			],
-			"traits": [
-				"すばやさプラス８",
-				"かしこさプラス１６"
-			]
+			"traits": ["すばやさプラス８", "かしこさプラス１６"]
 		},
 		"つむじ風": {
 			"moves": [
@@ -3278,9 +3006,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"最大HPプラス４"
-			]
+			"traits": ["最大HPプラス４"]
 		},
 		"みわく": {
 			"moves": [
@@ -3408,10 +3134,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"すばやさプラス８",
-				"かしこさプラス１６"
-			]
+			"traits": ["すばやさプラス８", "かしこさプラス１６"]
 		},
 		"エンターテイナー": {
 			"moves": [
@@ -3484,12 +3207,7 @@
 					"sp": 150
 				}
 			],
-			"traits": [
-				"最大HPプラス８",
-				"守備力プラス１６",
-				"混乱ガード大",
-				"自動HP回復"
-			]
+			"traits": ["最大HPプラス８", "守備力プラス１６", "混乱ガード大", "自動HP回復"]
 		},
 		"氷結の心": {
 			"moves": [
@@ -3526,10 +3244,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"最大MPプラス４",
-				"最大MPプラス８"
-			]
+			"traits": ["最大MPプラス４", "最大MPプラス８"]
 		},
 		"氷結の極意": {
 			"moves": [
@@ -3566,10 +3281,7 @@
 					"sp": 150
 				}
 			],
-			"traits": [
-				"最大MPプラス８",
-				"最大MPプラス２４"
-			]
+			"traits": ["最大MPプラス８", "最大MPプラス２４"]
 		},
 		"氷結ガード": {
 			"moves": [
@@ -3649,10 +3361,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"最大MPプラス４",
-				"最大MPプラス８"
-			]
+			"traits": ["最大MPプラス４", "最大MPプラス８"]
 		},
 		"地の極意": {
 			"moves": [
@@ -3689,10 +3398,7 @@
 					"sp": 150
 				}
 			],
-			"traits": [
-				"最大MPプラス１６",
-				"最大MPプラス２４"
-			]
+			"traits": ["最大MPプラス１６", "最大MPプラス２４"]
 		},
 		"地ガード": {
 			"moves": [
@@ -3773,9 +3479,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"最大HPプラス８"
-			]
+			"traits": ["最大HPプラス８"]
 		},
 		"ぬすっと": {
 			"moves": [
@@ -3904,10 +3608,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"すばやさプラス４",
-				"最大MPプラス８"
-			]
+			"traits": ["すばやさプラス４", "最大MPプラス８"]
 		},
 		"悪魔のささやき": {
 			"moves": [
@@ -3948,9 +3649,7 @@
 					"sp": 120
 				}
 			],
-			"traits": [
-				"自動MP回復"
-			]
+			"traits": ["自動MP回復"]
 		},
 		"即死ガード": {
 			"moves": [
@@ -3987,12 +3686,7 @@
 					"sp": 150
 				}
 			],
-			"traits": [
-				"最大HPプラス８",
-				"最大MPプラス１６",
-				"即死ガード大",
-				"自動HP回復"
-			]
+			"traits": ["最大HPプラス８", "最大MPプラス１６", "即死ガード大", "自動HP回復"]
 		},
 		"弱体化ガード": {
 			"moves": [
@@ -4353,9 +4047,7 @@
 					"sp": 120
 				}
 			],
-			"traits": [
-				"自動HP回復"
-			]
+			"traits": ["自動HP回復"]
 		},
 		"MP吸収ガード": {
 			"moves": [
@@ -4658,10 +4350,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"最大MPプラス４",
-				"最大MPプラス８"
-			]
+			"traits": ["最大MPプラス４", "最大MPプラス８"]
 		},
 		"火の極意": {
 			"moves": [
@@ -4698,10 +4387,7 @@
 					"sp": 150
 				}
 			],
-			"traits": [
-				"最大MPプラス１６",
-				"最大MPプラス２４"
-			]
+			"traits": ["最大MPプラス１６", "最大MPプラス２４"]
 		},
 		"火ガード": {
 			"moves": [
@@ -4789,10 +4475,7 @@
 					"sp": 200
 				}
 			],
-			"traits": [
-				"かしこさプラス１６",
-				"かしこさプラス３２"
-			]
+			"traits": ["かしこさプラス１６", "かしこさプラス３２"]
 		},
 		"稲妻ガードSP": {
 			"moves": [
@@ -4941,9 +4624,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"最大HPプラス８"
-			]
+			"traits": ["最大HPプラス８"]
 		},
 		"騎士道": {
 			"moves": [
@@ -5144,9 +4825,7 @@
 					"sp": 120
 				}
 			],
-			"traits": [
-				"かしこさプラス２４"
-			]
+			"traits": ["かしこさプラス２４"]
 		},
 		"むしのしらせ": {
 			"moves": [
@@ -5223,9 +4902,7 @@
 					"sp": 120
 				}
 			],
-			"traits": [
-				"自動MP回復"
-			]
+			"traits": ["自動MP回復"]
 		},
 		"HPアップ１": {
 			"moves": [
@@ -5262,11 +4939,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"最大HPプラス４",
-				"最大HPプラス８",
-				"最大HPプラス１２"
-			]
+			"traits": ["最大HPプラス４", "最大HPプラス８", "最大HPプラス１２"]
 		},
 		"HPアップ２": {
 			"moves": [
@@ -5582,10 +5255,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"最大HPプラス８",
-				"守備力プラス８"
-			]
+			"traits": ["最大HPプラス８", "守備力プラス８"]
 		},
 		"いしあたま": {
 			"moves": [
@@ -5893,9 +5563,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"自動HP回復"
-			]
+			"traits": ["自動HP回復"]
 		},
 		"ナチュラル": {
 			"moves": [
@@ -5936,9 +5604,7 @@
 					"sp": 120
 				}
 			],
-			"traits": [
-				"自動MP回復"
-			]
+			"traits": ["自動MP回復"]
 		},
 		"バンデッド": {
 			"moves": [
@@ -6134,12 +5800,7 @@
 					"sp": 150
 				}
 			],
-			"traits": [
-				"最大HPプラス８",
-				"最大MPプラス１６",
-				"毒ガード大",
-				"自動HP回復"
-			]
+			"traits": ["最大HPプラス８", "最大MPプラス１６", "毒ガード大", "自動HP回復"]
 		},
 		"聖なる吹雪SP": {
 			"moves": [
@@ -6220,9 +5881,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"攻撃力プラス１２"
-			]
+			"traits": ["攻撃力プラス１２"]
 		},
 		"いたずら": {
 			"moves": [
@@ -6259,9 +5918,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"すばやさプラス４"
-			]
+			"traits": ["すばやさプラス４"]
 		},
 		"プリンセス": {
 			"moves": [
@@ -6302,10 +5959,7 @@
 					"sp": 120
 				}
 			],
-			"traits": [
-				"最大HPプラス４",
-				"最大MPプラス１２"
-			]
+			"traits": ["最大HPプラス４", "最大MPプラス１２"]
 		},
 		"火遊び": {
 			"moves": [
@@ -6422,10 +6076,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"攻撃力プラス４",
-				"攻撃力プラス８"
-			]
+			"traits": ["攻撃力プラス４", "攻撃力プラス８"]
 		},
 		"光の心": {
 			"moves": [
@@ -6462,10 +6113,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"最大MPプラス４",
-				"最大MPプラス８"
-			]
+			"traits": ["最大MPプラス４", "最大MPプラス８"]
 		},
 		"光の極意": {
 			"moves": [
@@ -6502,10 +6150,7 @@
 					"sp": 150
 				}
 			],
-			"traits": [
-				"最大MPプラス１６",
-				"最大MPプラス２４"
-			]
+			"traits": ["最大MPプラス１６", "最大MPプラス２４"]
 		},
 		"光ガード": {
 			"moves": [
@@ -6622,12 +6267,7 @@
 					"sp": 150
 				}
 			],
-			"traits": [
-				"最大HPプラス８",
-				"すばやさプラス８",
-				"眠りガード大",
-				"自動HP回復"
-			]
+			"traits": ["最大HPプラス８", "すばやさプラス８", "眠りガード大", "自動HP回復"]
 		},
 		"スラフォース": {
 			"moves": [
@@ -6664,9 +6304,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"自動HP回復"
-			]
+			"traits": ["自動HP回復"]
 		},
 		"獄炎": {
 			"moves": [
@@ -6711,10 +6349,7 @@
 					"sp": 200
 				}
 			],
-			"traits": [
-				"守備力プラス１６",
-				"攻撃力プラス１６"
-			]
+			"traits": ["守備力プラス１６", "攻撃力プラス１６"]
 		},
 		"ブルーソード": {
 			"moves": [
@@ -6755,10 +6390,7 @@
 					"sp": 120
 				}
 			],
-			"traits": [
-				"かしこさプラス８",
-				"かしこさプラス１６"
-			]
+			"traits": ["かしこさプラス８", "かしこさプラス１６"]
 		},
 		"妖精": {
 			"moves": [
@@ -6835,9 +6467,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"すばやさプラス４"
-			]
+			"traits": ["すばやさプラス４"]
 		},
 		"レッドソード": {
 			"moves": [
@@ -6878,10 +6508,7 @@
 					"sp": 120
 				}
 			],
-			"traits": [
-				"攻撃力プラス４",
-				"攻撃力プラス８"
-			]
+			"traits": ["攻撃力プラス４", "攻撃力プラス８"]
 		},
 		"水の心": {
 			"moves": [
@@ -6918,10 +6545,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"最大MPプラス４",
-				"最大MPプラス８"
-			]
+			"traits": ["最大MPプラス４", "最大MPプラス８"]
 		},
 		"水の極意": {
 			"moves": [
@@ -6958,10 +6582,7 @@
 					"sp": 150
 				}
 			],
-			"traits": [
-				"最大MPプラス１６",
-				"最大MPプラス２４"
-			]
+			"traits": ["最大MPプラス１６", "最大MPプラス２４"]
 		},
 		"水ガード": {
 			"moves": [
@@ -7081,10 +6702,7 @@
 					"sp": 120
 				}
 			],
-			"traits": [
-				"守備力プラス８",
-				"守備力プラス１６"
-			]
+			"traits": ["守備力プラス８", "守備力プラス１６"]
 		},
 		"風雷の剣技": {
 			"moves": [
@@ -7165,10 +6783,7 @@
 					"sp": 150
 				}
 			],
-			"traits": [
-				"かしこさプラス１６",
-				"最大MPプラス６０"
-			]
+			"traits": ["かしこさプラス１６", "最大MPプラス６０"]
 		},
 		"休みガード": {
 			"moves": [
@@ -7248,10 +6863,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"最大HPプラス８",
-				"自動MP回復"
-			]
+			"traits": ["最大HPプラス８", "自動MP回復"]
 		},
 		"スリラー": {
 			"moves": [
@@ -7292,9 +6904,7 @@
 					"sp": 120
 				}
 			],
-			"traits": [
-				"かしこさプラス２４"
-			]
+			"traits": ["かしこさプラス２４"]
 		},
 		"ヌメヌメ": {
 			"moves": [
@@ -7439,9 +7049,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"攻撃力プラス４"
-			]
+			"traits": ["攻撃力プラス４"]
 		},
 		"サポーター": {
 			"moves": [
@@ -7486,9 +7094,7 @@
 					"sp": 150
 				}
 			],
-			"traits": [
-				"最大MPプラス２４"
-			]
+			"traits": ["最大MPプラス２４"]
 		},
 		"かしこさアップ１": {
 			"moves": [
@@ -7721,10 +7327,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"最大MPプラス４",
-				"最大MPプラス８"
-			]
+			"traits": ["最大MPプラス４", "最大MPプラス８"]
 		},
 		"風の極意": {
 			"moves": [
@@ -7761,10 +7364,7 @@
 					"sp": 150
 				}
 			],
-			"traits": [
-				"最大MPプラス１６",
-				"最大MPプラス２４"
-			]
+			"traits": ["最大MPプラス１６", "最大MPプラス２４"]
 		},
 		"風ガード": {
 			"moves": [
@@ -7844,10 +7444,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"最大MPプラス４",
-				"最大MPプラス８"
-			]
+			"traits": ["最大MPプラス４", "最大MPプラス８"]
 		},
 		"闇の極意": {
 			"moves": [
@@ -7884,10 +7481,7 @@
 					"sp": 150
 				}
 			],
-			"traits": [
-				"最大MPプラス１６",
-				"最大MPプラス２４"
-			]
+			"traits": ["最大MPプラス１６", "最大MPプラス２４"]
 		},
 		"闇ガード": {
 			"moves": [
@@ -7966,10 +7560,7 @@
 					"sp": 100
 				}
 			],
-			"traits": [
-				"最大MPプラス４",
-				"最大MPプラス８"
-			]
+			"traits": ["最大MPプラス４", "最大MPプラス８"]
 		},
 		"電撃の極意": {
 			"moves": [
@@ -8006,10 +7597,7 @@
 					"sp": 150
 				}
 			],
-			"traits": [
-				"最大MPプラス１６",
-				"最大MPプラス２４"
-			]
+			"traits": ["最大MPプラス１６", "最大MPプラス２４"]
 		},
 		"電撃ガード": {
 			"moves": [

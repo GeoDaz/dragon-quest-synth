@@ -1795,6 +1795,12 @@
 				"synthesis": [["Lieutenant Goreham-Hogg", "Pruslas"]]
 			},
 			{
+				"name": "Equestrion",
+				"rank": "S",
+				"family": "Beast",
+				"synthesis": [["Equinox"]]
+			},
+			{
 				"name": "Fowleye",
 				"rank": "S",
 				"family": "Beast",
@@ -2001,6 +2007,18 @@
 				"family": "Nature",
 				"subfamily": ["Bug"],
 				"synthesis": [["Nature Family", "Material Family", "Rank F"]]
+			},
+			{
+				"name": "Armoured Ant",
+				"rank": "F",
+				"family": "Nature",
+				"subfamily": ["Bug"]
+			},
+			{
+				"name": "Green Scissors",
+				"rank": "F",
+				"family": "Nature",
+				"subfamily": ["Bug"]
 			},
 			{
 				"name": "Bagworm",
@@ -2690,7 +2708,7 @@
 				"rank": "F",
 				"family": "Material",
 				"subfamily": ["Machine"],
-				"synthesis": [["Restless Armour", "Material Family"]]
+				"synthesis": [["Restless Armour", "Avian Android"]]
 			},
 			{
 				"name": "Muddy Hand",
@@ -3099,7 +3117,7 @@
 				"synthesis": [["Mimic", "Ne'er-Do-Well"]]
 			},
 			{
-				"name": "Knight Abhorrent 2",
+				"name": "Knight Abhorrent (Alt)",
 				"rank": "A",
 				"family": "Material",
 				"synthesis": [["Knight Errant", "Bone Baron"]]
@@ -4286,7 +4304,7 @@
 				"rank": "A",
 				"family": "???",
 				"subfamily": ["Dragon"],
-				"synthesis": [["Knight Abhorrent 2", "Avarith"]]
+				"synthesis": [["Knight Abhorrent (Alt)", "Avarith"]]
 			},
 			{
 				"name": "Hargon",
