@@ -1,7 +1,7 @@
 export const DEV = 'development';
 export const PROD = 'production';
 export const TEST = 'test';
-export const SITE_URL = 'https://dragon-quest-synth.netlify.app';
+export const SITE_URL = 'https://dragon-quest-synth.com';
 export const DISCORD_URL = 'https://discord.gg/RJrEuN7cQs';
 // Ko-fi partagé avec les autres projets de l'auteur (digimon-lines, yugioh-lines).
 export const DONATE_URL = 'https://ko-fi.com/digimonlines';
