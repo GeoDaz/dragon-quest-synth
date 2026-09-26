@@ -7,6 +7,7 @@ export interface Monster {
 	to?: string;
 	egg?: string;
 	subfamily?: string[];
+	version?: string;
 	synthesis: string[][];
 	revSynthesis: string[];
 }

@@ -92,7 +92,12 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 					>
 						<MonsterImg name={monster.name} title={displayName} />
 					</div>
-					<span className="monster-name">{displayName}</span>
+					<span className="monster-name">
+						{displayName}
+						{monster.version && (
+							<span className="monster-version">({monster.version})</span>
+						)}
+					</span>
 				</div>
 			</td>
 			<td className="cell-details">

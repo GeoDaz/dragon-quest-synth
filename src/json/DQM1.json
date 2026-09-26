@@ -54,6 +54,20 @@
 				"rank": "F",
 				"family": "Slime",
 				"synthesis": [["Slime Family", "Rank F"]]
+			},
+			{
+				"name": "Eggsoskeleton",
+				"rank": "F",
+				"family": "Slime",
+				"synthesis": [],
+				"version": "SP"
+			},
+			{
+				"name": "Fright Bulb",
+				"rank": "F",
+				"family": "Slime",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"E": [
@@ -86,6 +100,13 @@
 				"rank": "E",
 				"family": "Slime",
 				"synthesis": [["Frostburn", "Slime Family"]]
+			},
+			{
+				"name": "Bite Bulb",
+				"rank": "E",
+				"family": "Slime",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"D": [
@@ -184,6 +205,13 @@
 				"rank": "D",
 				"family": "Slime",
 				"synthesis": []
+			},
+			{
+				"name": "Rotten Eggsoskeleton",
+				"rank": "D",
+				"family": "Slime",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"C": [
@@ -246,6 +274,13 @@
 				"rank": "C",
 				"family": "Slime",
 				"synthesis": [["Hunter Mech", "Slime Family"]]
+			},
+			{
+				"name": "Sprite Bulb",
+				"rank": "C",
+				"family": "Slime",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"B": [
@@ -305,6 +340,13 @@
 				"rank": "B",
 				"family": "Slime",
 				"synthesis": [["King Slime", "King Slime"]]
+			},
+			{
+				"name": "Runny Eggsoskeleton",
+				"rank": "B",
+				"family": "Slime",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"A": [
@@ -369,6 +411,20 @@
 						"Liquid Metal Slime"
 					]
 				]
+			},
+			{
+				"name": "Wight Bulb",
+				"rank": "A",
+				"family": "Slime",
+				"synthesis": [],
+				"version": "SP"
+			},
+			{
+				"name": "Hard-Boiled Eggsoskeleton",
+				"rank": "A",
+				"family": "Slime",
+				"synthesis": [["Rotten Eggsoskeleton", "Runny Eggsoskeleton"]],
+				"version": "SP"
 			}
 		],
 		"S": [
@@ -625,6 +681,13 @@
 				"rank": "E",
 				"family": "Dragon",
 				"synthesis": [["Dragon Family", "Rank E"]]
+			},
+			{
+				"name": "Professaurus",
+				"rank": "E",
+				"family": "Dragon",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"D": [
@@ -755,6 +818,13 @@
 				"rank": "C",
 				"family": "Dragon",
 				"synthesis": [["Phantom Fencer", "Red Dragon"]]
+			},
+			{
+				"name": "Evangelizard",
+				"rank": "C",
+				"family": "Dragon",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"B": [
@@ -823,6 +893,13 @@
 				"rank": "B",
 				"family": "Dragon",
 				"synthesis": [["Eveel", "Octavian Sentry"]]
+			},
+			{
+				"name": "Kleptoreptile",
+				"rank": "B",
+				"family": "Dragon",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"A": [
@@ -967,6 +1044,12 @@
 					["Great Dragon", "Demon-At-Arms"],
 					["Flapdragon", "Demon-At-Arms"]
 				]
+			},
+			{
+				"name": "Avarith",
+				"rank": "S",
+				"family": "Dragon",
+				"synthesis": [["Kleptoreptile", "Evangelizard"]]
 			}
 		],
 		"X": [
@@ -1118,6 +1201,13 @@
 				"rank": "F",
 				"family": "Beast",
 				"synthesis": [["Beast Family", "Rank F"]]
+			},
+			{
+				"name": "Needler",
+				"rank": "F",
+				"family": "Beast",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"E": [
@@ -1323,6 +1413,13 @@
 				"rank": "C",
 				"family": "Beast",
 				"synthesis": [["Beast Family", "Rank C"]]
+			},
+			{
+				"name": "Pine Needler",
+				"rank": "C",
+				"family": "Beast",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"B": [
@@ -1508,6 +1605,13 @@
 				"rank": "A",
 				"family": "Beast",
 				"synthesis": [["Great Sabrecat", "Bishop Ladja"]]
+			},
+			{
+				"name": "Electric Needler",
+				"rank": "A",
+				"family": "Beast",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"S": [
@@ -1676,6 +1780,13 @@
 				"rank": "F",
 				"family": "Nature",
 				"synthesis": [["Nature Family", "Rank F"]]
+			},
+			{
+				"name": "Midnight Horknight",
+				"rank": "F",
+				"family": "Nature",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"E": [
@@ -1818,6 +1929,13 @@
 				"rank": "D",
 				"family": "Nature",
 				"synthesis": [["Wild Boarfish", "Demon Family"]]
+			},
+			{
+				"name": "Horknight",
+				"rank": "D",
+				"family": "Nature",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"C": [
@@ -1968,6 +2086,13 @@
 				"rank": "B",
 				"family": "Nature",
 				"synthesis": [["Gnuriel", "Nature Family"]]
+			},
+			{
+				"name": "Honeyhead Horknight",
+				"rank": "B",
+				"family": "Nature",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"A": [
@@ -2035,6 +2160,13 @@
 				"rank": "A",
 				"family": "Nature",
 				"synthesis": [["Mohawker", "Slon The Rook"]]
+			},
+			{
+				"name": "Horknight Watchman",
+				"rank": "A",
+				"family": "Nature",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"S": [
@@ -2879,6 +3011,13 @@
 				"rank": "D",
 				"family": "Demon",
 				"synthesis": []
+			},
+			{
+				"name": "Succubat",
+				"rank": "D",
+				"family": "Demon",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"C": [
@@ -2952,6 +3091,13 @@
 				"rank": "C",
 				"family": "Demon",
 				"synthesis": [["Wrecktor", "Puppeteer"]]
+			},
+			{
+				"name": "Fruity Succubat",
+				"rank": "C",
+				"family": "Demon",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"B": [
@@ -3023,6 +3169,13 @@
 				"rank": "B",
 				"family": "Demon",
 				"synthesis": [["Malevolamp", "Cumulus Rex"]]
+			},
+			{
+				"name": "Vampire Succubat",
+				"rank": "B",
+				"family": "Demon",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"A": [
@@ -3166,6 +3319,13 @@
 				"rank": "A",
 				"family": "Demon",
 				"synthesis": [["Jamirus", "Kon The Knight"]]
+			},
+			{
+				"name": "Supreme Succubat",
+				"rank": "A",
+				"family": "Demon",
+				"synthesis": [["Vampire Succubat", "Fruity Succubat"]],
+				"version": "SP"
 			}
 		],
 		"S": [
@@ -3398,6 +3558,13 @@
 				"rank": "E",
 				"family": "Undead",
 				"synthesis": [["Undead Family", "Rank E"]]
+			},
+			{
+				"name": "Haystack Needler",
+				"rank": "E",
+				"family": "Undead",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"D": [
@@ -3454,6 +3621,13 @@
 				"rank": "D",
 				"family": "Undead",
 				"synthesis": [["Undead Family", "Rank D"]]
+			},
+			{
+				"name": "Iron Maiden",
+				"rank": "D",
+				"family": "Undead",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"C": [
@@ -3512,6 +3686,13 @@
 				"synthesis": [
 					["Phantom Fencer", "Phantom Fencerx Phantom Fencer", "Phantom Fencer"]
 				]
+			},
+			{
+				"name": "Steel Siren",
+				"rank": "C",
+				"family": "Undead",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"B": [
@@ -3542,7 +3723,7 @@
 				"rank": "B",
 				"family": "Undead",
 				"synthesis": [
-					["Fire Spirit", "Fire Spirit X Fire Spirit", "Fire Spirit"],
+					["Firespirit", "Firespirit", "Firespirit", "Firespirit"],
 					["Ghost", "Ghost", "Ghost", "Ghost"]
 				]
 			},
@@ -3596,6 +3777,13 @@
 					["King Kelp", "Skeleton Soldier"],
 					["King Kelp", "Phantom Swordsman"]
 				]
+			},
+			{
+				"name": "Golden Girl",
+				"rank": "B",
+				"family": "Undead",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"A": [
@@ -3719,6 +3907,13 @@
 				"rank": "A",
 				"family": "Undead",
 				"synthesis": [["Elusid", "Mandrake Marshal"]]
+			},
+			{
+				"name": "Platinum Poppet",
+				"rank": "A",
+				"family": "Undead",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"S": [
@@ -3790,6 +3985,13 @@
 					["Darkonium Slime", "Robbin's Old Lady"],
 					["Darkonium Slime", "Prince O' Thieves"]
 				]
+			},
+			{
+				"name": "Garuvirus",
+				"rank": "X",
+				"family": "Undead",
+				"synthesis": [["Dr Snapped", "Vurato"]],
+				"version": "SP"
 			}
 		]
 	},
@@ -3908,6 +4110,34 @@
 				"rank": "A",
 				"family": "???",
 				"synthesis": [["Grandpa Slime", "Tiko"]]
+			},
+			{
+				"name": "Windeo",
+				"rank": "A",
+				"family": "???",
+				"synthesis": [],
+				"version": "SP"
+			},
+			{
+				"name": "Freisha",
+				"rank": "A",
+				"family": "???",
+				"synthesis": [],
+				"version": "SP"
+			},
+			{
+				"name": "Ackle",
+				"rank": "A",
+				"family": "???",
+				"synthesis": [],
+				"version": "SP"
+			},
+			{
+				"name": "Gaogaya",
+				"rank": "A",
+				"family": "???",
+				"synthesis": [],
+				"version": "SP"
 			}
 		],
 		"S": [
@@ -4037,6 +4267,29 @@
 				"rank": "S",
 				"family": "???",
 				"synthesis": []
+			},
+			{
+				"name": "Dora-In-Grey",
+				"rank": "S",
+				"family": "???",
+				"synthesis": [
+					["Iron Maiden", "Golden Girl", "Steel Siren", "Platinum Poppet"]
+				],
+				"version": "SP"
+			},
+			{
+				"name": "Krystalinda",
+				"rank": "S",
+				"family": "???",
+				"synthesis": [],
+				"version": "SP"
+			},
+			{
+				"name": "Jasper",
+				"rank": "S",
+				"family": "???",
+				"synthesis": [["Avarith", "Krystalinda"]],
+				"version": "SP"
 			}
 		],
 		"X": [
@@ -4044,25 +4297,25 @@
 				"name": "Wulfspade Ace",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Icarnus monster (Joker 2)", "Nature Family", "Rank S+"]]
+				"synthesis": [["Incarnus", "Nature Family", "Rank S+"]]
 			},
 			{
 				"name": "Hawkhart Ace",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Icarnus monster (Joker 2)", "Demon Family", "Rank S+"]]
+				"synthesis": [["Incarnus", "Demon Family", "Rank S+"]]
 			},
 			{
 				"name": "Cluboon Ace",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Icarnus monster (Joker 2)", "Material Family", "Rank S+"]]
+				"synthesis": [["Incarnus", "Material Family", "Rank S+"]]
 			},
 			{
 				"name": "Diamagon Ace",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Icarnus monster (Joker 2)", "Beast Family", "Rank S+"]]
+				"synthesis": [["Incarnus", "Beast Family", "Rank S+"]]
 			},
 			{
 				"name": "Robbin' Ladies",
@@ -4077,7 +4330,7 @@
 				"synthesis": [["Malroth", "Taurix"]]
 			},
 			{
-				"name": "Psaro",
+				"name": "Psaro The Manslayer",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
@@ -4144,7 +4397,7 @@
 				"name": "Mortamor",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Psaro", "Mortamor Intermediate Forme"]]
+				"synthesis": [["Psaro The Manslayer", "Mortamor Intermediate Forme"]]
 			},
 			{
 				"name": "Hihyurude",
@@ -4202,7 +4455,7 @@
 				"name": "Rhapthorne II",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Rhaphorne", "Estark"]]
+				"synthesis": [["Rhapthorne", "Estark"]]
 			},
 			{
 				"name": "Ramia",
@@ -4274,7 +4527,114 @@
 				"name": "Zumergias",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Styrmling", "Maizar the Exiled"]]
+				"synthesis": [["Styrmling", "Malzar Beast"]]
+			},
+			{
+				"name": "Emperor Windeo",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Windeo", "Malroth"]],
+				"version": "SP"
+			},
+			{
+				"name": "Emperor Freisha",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Freisha", "Psaro The Manslayer"]],
+				"version": "SP"
+			},
+			{
+				"name": "Emperor Ackle",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Ackle", "Mortamor"]],
+				"version": "SP"
+			},
+			{
+				"name": "Emperor Gaogaya",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Gaogaya", "Rhapthorne II"]],
+				"version": "SP"
+			},
+			{
+				"name": "Cobrara",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Nimzo", "Corvus"]],
+				"version": "SP"
+			},
+			{
+				"name": "Vurato",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Xiphos The Deathbringer", "Hihyudorado"]],
+				"version": "SP"
+			},
+			{
+				"name": "Shadroth",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Barbarus", "Dragonlord"]],
+				"version": "SP"
+			},
+			{
+				"name": "Fractos",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Shadroth", "Zoma"]],
+				"version": "SP"
+			},
+			{
+				"name": "Jester",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [
+					[
+						"Emperor Windeo",
+						"Emperor Gaogaya",
+						"Emperor Ackle",
+						"Emperor Freisha"
+					]
+				],
+				"version": "SP"
+			},
+			{
+				"name": "Mordegon",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Jasper", "Orgodemir"]],
+				"version": "SP"
+			},
+			{
+				"name": "Rigor Mortex Evolved Forme",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Rigor Mortex", "Cobrara"]],
+				"version": "SP"
+			},
+			{
+				"name": "Mordegon, Lord Of Shadows",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Xenlon", "Mordegon", "Estark", "Nokturnus"]],
+				"version": "SP"
+			},
+			{
+				"name": "Demon King Madyuraja",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [
+					["Garuvirus", "Fractos", "Rigor Mortex Evolved Forme", "Zumergias"]
+				],
+				"version": "SP"
+			},
+			{
+				"name": "WORLD",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Wildcard", "Jester"]],
+				"version": "SP"
 			}
 		]
 	}

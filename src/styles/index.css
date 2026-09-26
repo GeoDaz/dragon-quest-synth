@@ -1686,6 +1686,13 @@ h3,
   color: #e7ecf2;
 }
 
+.synthesis-table .monster-version {
+  display: block;
+  font-size: .8em;
+  font-weight: 600;
+  color: #9aa7b5;
+}
+
 .synthesis-list .monster-tile,
 .synthesis-list .monster-tile .line-point-safe-zone {
   flex: none;

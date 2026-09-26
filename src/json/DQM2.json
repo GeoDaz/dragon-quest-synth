@@ -5117,55 +5117,55 @@
 		],
 		"D": [
 			{
-				"name": "God will Benihi",
+				"name": "God Will Benihi",
 				"rank": "D",
 				"family": "???",
 				"synthesis": []
 			},
 			{
-				"name": "God will Taisha",
+				"name": "God Will Taisha",
 				"rank": "D",
 				"family": "???",
 				"synthesis": []
 			},
 			{
-				"name": "God will Geppaku",
+				"name": "God Will Geppaku",
 				"rank": "D",
 				"family": "???",
 				"synthesis": []
 			},
 			{
-				"name": "God will Shion",
+				"name": "God Will Shion",
 				"rank": "D",
 				"family": "???",
 				"synthesis": []
 			},
 			{
-				"name": "God will Tetsuguro",
+				"name": "God Will Tesuguro",
 				"rank": "D",
 				"family": "???",
 				"synthesis": []
 			},
 			{
-				"name": "God will Kogane",
+				"name": "God Will Kogane",
 				"rank": "D",
 				"family": "???",
 				"synthesis": []
 			},
 			{
-				"name": "God will Seiran",
+				"name": "God Will Seiran",
 				"rank": "D",
 				"family": "???",
 				"synthesis": []
 			},
 			{
-				"name": "God will Tokiwa",
+				"name": "God Will Tokiwa",
 				"rank": "D",
 				"family": "???",
 				"synthesis": []
 			},
 			{
-				"name": "God will Suo",
+				"name": "God Will Suou",
 				"rank": "D",
 				"family": "???",
 				"synthesis": []
@@ -5308,10 +5308,10 @@
 				"rank": "S",
 				"family": "???",
 				"synthesis": [
-					["God will Shion", "God will Geppaku"],
-					["God will Shion", "God will Kogane"],
-					["God will Shion", "God will Seiran"],
-					["God will Shion", "God will Benihi"]
+					["God Will Shion", "God Will Geppaku"],
+					["God Will Shion", "God Will Kogane"],
+					["God Will Shion", "God Will Seiran"],
+					["God Will Shion", "God Will Benihi"]
 				]
 			},
 			{
@@ -5319,10 +5319,10 @@
 				"rank": "S",
 				"family": "???",
 				"synthesis": [
-					["God will Shion", "God will Suo"],
-					["God will Shion", "God will Taisha"],
-					["God will Shion", "God will Tetsuguro"],
-					["God will Shion", "God will Tokiwa"]
+					["God Will Shion", "God Will Suou"],
+					["God Will Shion", "God Will Taisha"],
+					["God Will Shion", "God Will Tesuguro"],
+					["God Will Shion", "God Will Tokiwa"]
 				]
 			},
 			{
