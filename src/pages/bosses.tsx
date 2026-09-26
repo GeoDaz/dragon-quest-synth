@@ -56,7 +56,6 @@ const PageBosses: React.FC<Props> = ({ games, images }) => {
 
 export const getStaticProps: GetStaticProps = async () => {
 	const bosses: BossGame[] = require('../json/bosses.json');
-	// seuls les boss sont affichés : inutile d'embarquer toute la map d'images
 	const images = pickImages(
 		require('../json/monstersImages.json'),
 		bosses.flatMap(game => game.bosses.map(boss => boss.name))
