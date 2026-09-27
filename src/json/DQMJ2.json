@@ -64,7 +64,15 @@
 				"name": "Mottle Slime",
 				"rank": "E",
 				"family": "Slime",
-				"synthesis": [["Shell Slime", "Lower"]]
+				"synthesis": [["Shell Slime", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Mottle Slime",
+				"rank": "E",
+				"family": "Slime",
+				"synthesis": [["Slime", "She-Slime"]],
+				"version": "Pro"
 			}
 		],
 		"D": [
@@ -114,13 +122,34 @@
 				"name": "Metal Slime Knight",
 				"rank": "D",
 				"family": "Slime",
-				"synthesis": [["Behemoth Slime", "Lower"]]
+				"synthesis": [["Behemoth Slime", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Metal Slime Knight",
+				"rank": "D",
+				"family": "Slime",
+				"synthesis": [
+					["Metal Slime", "Demonrider"],
+					["Metal Slime", "Slime Knight"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Beshemoth Slime",
 				"rank": "D",
 				"family": "Slime",
 				"synthesis": [["Behemoth Slime", "She-Slime"]]
+			},
+			{
+				"name": "Mottle King Slime",
+				"rank": "D",
+				"family": "Slime",
+				"synthesis": [
+					["Mottle Slime", "Mottle Slime", "Mottle Slime", "Mottle Slime"],
+					["Behemoth Slime", "Beshemoth Slime"]
+				],
+				"version": "Pro"
 			}
 		],
 		"C": [
@@ -187,13 +216,32 @@
 				"name": "Rotten Egg",
 				"rank": "B",
 				"family": "Slime",
-				"synthesis": [["Dark Slime", "Lower"]]
+				"synthesis": [["Dark Slime", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Rotten Egg",
+				"rank": "B",
+				"family": "Slime",
+				"synthesis": [["Bad Egg", "Mottle King Slime"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Dark Slime Knight",
 				"rank": "B",
 				"family": "Slime",
-				"synthesis": [["Rotten Egg", "Lower"]]
+				"synthesis": [["Rotten Egg", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Dark Slime Knight",
+				"rank": "B",
+				"family": "Slime",
+				"synthesis": [
+					["Dark Slime", "Demonrider"],
+					["Dark Slime", "Slime Knight"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Seedy Weedie",
@@ -216,7 +264,17 @@
 				"name": "King Bubble Slime",
 				"rank": "A",
 				"family": "Slime",
-				"synthesis": [["King Cureslime", "Lower"]]
+				"synthesis": [["King Cureslime", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "King Bubble Slime",
+				"rank": "A",
+				"family": "Slime",
+				"synthesis": [
+					["Bubble Slime", "Bubble Slime", "King Slime", "King Slime"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Metal Kaiser Slime",
@@ -229,7 +287,22 @@
 						"Metal Slime",
 						"Metal Slime"
 					]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Metal Kaiser Slime",
+				"rank": "A",
+				"family": "Slime",
+				"synthesis": [
+					[
+						"Metal Slime Knight",
+						"Metal Slime Knight",
+						"King Cureslime",
+						"King Cureslime"
+					]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Ultra Slime",
@@ -242,6 +315,13 @@
 				"rank": "A",
 				"family": "Slime",
 				"synthesis": []
+			},
+			{
+				"name": "Slime Gang",
+				"rank": "A",
+				"family": "Slime",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"S": [
@@ -281,7 +361,22 @@
 						"King Cureslime",
 						"Metal King Slime"
 					]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Darkonium Slime",
+				"rank": "S",
+				"family": "Slime",
+				"synthesis": [
+					[
+						"Beshemoth Slime",
+						"Beshemoth Slime",
+						"Metal King Slime",
+						"Metal King Slime"
+					]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Grandpa Slime",
@@ -294,19 +389,56 @@
 						"King Bubble Slime",
 						"Metal Kaiser Slime"
 					]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Grandpa Slime",
+				"rank": "S",
+				"family": "Slime",
+				"synthesis": [
+					[
+						"King Cureslime",
+						"King Cureslime",
+						"Metal Kaiser Slime",
+						"Metal Kaiser Slime"
+					]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Canzar",
 				"rank": "S",
 				"family": "Slime",
-				"synthesis": [["Gem Slime", "Slime", "Crabid", "Ruin"]]
+				"synthesis": [["Gem Slime", "Slime", "Crabid", "Ruin"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Canzar",
+				"rank": "S",
+				"family": "Slime",
+				"synthesis": [["Gem Slime", "Gem Slime", "DarkCrab", "DarkCrab"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Slime XY",
 				"rank": "S",
 				"family": "Slime",
 				"synthesis": [["Slime X", "Slime X"]]
+			},
+			{
+				"name": "Slider Girl",
+				"rank": "S",
+				"family": "Slime",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Slime Blaster",
+				"rank": "S",
+				"family": "Slime",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"X": [
@@ -315,6 +447,29 @@
 				"rank": "X",
 				"family": "Slime",
 				"synthesis": [["Grandpa Slime", "Grandpa Slime", "Balhib", "Balhib"]]
+			},
+			{
+				"name": "Diamond Slime",
+				"rank": "X",
+				"family": "Slime",
+				"synthesis": [
+					["Gem Slime", "Gem Slime", "Darkonium Slime", "Darkonium Slime"]
+				],
+				"version": "Pro"
+			},
+			{
+				"name": "Liquid Metal Slime King",
+				"rank": "X",
+				"family": "Slime",
+				"synthesis": [["Slime Blaster", "Diamond Slime"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Dark Robot Slime",
+				"rank": "X",
+				"family": "Slime",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		]
 	},
@@ -346,6 +501,20 @@
 				"rank": "F",
 				"family": "Dragon",
 				"synthesis": [["Dragonthorn", "Lower"]]
+			},
+			{
+				"name": "Small Fry",
+				"rank": "F",
+				"family": "Dragon",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Dragonfry",
+				"rank": "F",
+				"family": "Dragon",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"E": [
@@ -385,6 +554,23 @@
 					["Dragonthorn", "Undead Family"],
 					["Nardragon", "Lower"]
 				]
+			},
+			{
+				"name": "Drag Racer",
+				"rank": "E",
+				"family": "Dragon",
+				"synthesis": [
+					["Komodo", "Argon Lizard"],
+					["Komodo", "Frou-Fry"]
+				],
+				"version": "Pro"
+			},
+			{
+				"name": "Damselfly",
+				"rank": "E",
+				"family": "Dragon",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"D": [
@@ -392,7 +578,15 @@
 				"name": "Green Dragon",
 				"rank": "D",
 				"family": "Dragon",
-				"synthesis": [["Snapdragon", "Lower"]]
+				"synthesis": [["Snapdragon", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Green Dragon",
+				"rank": "D",
+				"family": "Dragon",
+				"synthesis": [["Small Fry", "Small Fry"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Skelegon",
@@ -454,6 +648,13 @@
 				"synthesis": [["Eveel", "Seasaur"]]
 			},
 			{
+				"name": "Sea Dragon",
+				"rank": "C",
+				"family": "Dragon",
+				"synthesis": [["Seasaur", "Sentripede"]],
+				"version": "Pro"
+			},
+			{
 				"name": "Noble Gasbagon",
 				"rank": "C",
 				"family": "Dragon",
@@ -467,6 +668,20 @@
 					["Red Dragon", "Hunter Mech"],
 					["Red Dragon", "Metal Slime Knight"]
 				]
+			},
+			{
+				"name": "Armoured Wartoise",
+				"rank": "C",
+				"family": "Dragon",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Drag-Goof",
+				"rank": "C",
+				"family": "Dragon",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"B": [
@@ -503,7 +718,22 @@
 				"name": "Ethereal Serpent",
 				"rank": "B",
 				"family": "Dragon",
-				"synthesis": [["Tyrantosaurus", "Lower"]]
+				"synthesis": [["Tyrantosaurus", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Ethereal Serpent",
+				"rank": "B",
+				"family": "Dragon",
+				"synthesis": [
+					[
+						"Boreal Serpent",
+						"Boreal Serpent",
+						"Boreal Serpent",
+						"Boreal Serpent"
+					]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Megalodon",
@@ -515,13 +745,38 @@
 				"name": "Frou-Frou",
 				"rank": "B",
 				"family": "Dragon",
-				"synthesis": [["Great Argon Lizard", "Frou-Fry", "Frou-Fry", "Frou-Fry"]]
+				"synthesis": [["Great Argon Lizard", "Frou-Fry", "Frou-Fry", "Frou-Fry"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Frou-Frou",
+				"rank": "B",
+				"family": "Dragon",
+				"synthesis": [["Frou-Fry", "Frou-Fry", "Frou-Fry", "Frou-Fry"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Drakularge",
 				"rank": "B",
 				"family": "Dragon",
 				"synthesis": [["Megalodon", "Lower"]]
+			},
+			{
+				"name": "Mandrake Marshal",
+				"rank": "B",
+				"family": "Dragon",
+				"synthesis": [["Phantom Fencer", "Red Dragon"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Dragon Rider",
+				"rank": "B",
+				"family": "Dragon",
+				"synthesis": [
+					["Drag-Goof", "Demonrider"],
+					["Drag-Goof", "Slime Knight"]
+				],
+				"version": "Pro"
 			}
 		],
 		"A": [
@@ -529,7 +784,20 @@
 				"name": "Great Dragon",
 				"rank": "A",
 				"family": "Dragon",
-				"synthesis": [["Drakularge", "Lower"]]
+				"synthesis": [["Drakularge", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Great Dragon",
+				"rank": "A",
+				"family": "Dragon",
+				"synthesis": [
+					["Rashaverak", "Alphyn"],
+					["Rashaverak", "Sintaur"],
+					["Rashaverak", "Tortoceratops"],
+					["Rashaverak", "Wishmaster"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Dual Duellers",
@@ -547,6 +815,41 @@
 				"rank": "A",
 				"family": "Dragon",
 				"synthesis": [["Metal Dragon", "Great Dragon"]]
+			},
+			{
+				"name": "Mechan-O'-Wyrm",
+				"rank": "A",
+				"family": "Dragon",
+				"synthesis": [["Metal Dragon", "Rashaverak"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Tortoceratops",
+				"rank": "A",
+				"family": "Dragon",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Rashaverak",
+				"rank": "A",
+				"family": "Dragon",
+				"synthesis": [
+					["Great Argon Lizard", "Great Argon Lizard", "Frou-Frou", "Frou-Frou"]
+				],
+				"version": "Pro"
+			},
+			{
+				"name": "Sintaur",
+				"rank": "A",
+				"family": "Dragon",
+				"synthesis": [
+					["Knight Aberrant", "Dragon Rider"],
+					["Knight Aberrant", "Drakularge"],
+					["Knight Aberrant", "Mandrake Marshal"],
+					["Knight Aberrant", "Tortoceratops"]
+				],
+				"version": "Pro"
 			}
 		],
 		"S": [
@@ -576,7 +879,7 @@
 				"synthesis": [["Mechan-O'-Wyrm", "Drakulard"]]
 			},
 			{
-				"name": "True Dragonlord",
+				"name": "Dragonlord",
 				"rank": "S",
 				"family": "Dragon",
 				"synthesis": [["Great Dragon", "Demon-At-Arms"]]
@@ -586,17 +889,44 @@
 				"rank": "S",
 				"family": "Dragon",
 				"synthesis": [["Green Dragon X", "Green Dragon X"]]
+			},
+			{
+				"name": "Triwinder",
+				"rank": "S",
+				"family": "Dragon",
+				"synthesis": [
+					["Octavian Sentry", "Great Dragon"],
+					["Octavian Sentry", "Rashaverak"]
+				],
+				"version": "Pro"
+			},
+			{
+				"name": "Bilhaw",
+				"rank": "S",
+				"family": "Dragon",
+				"synthesis": [
+					["Balhib", "Beetlebully"],
+					["Balhib", "Black Dragon"]
+				],
+				"version": "Pro"
 			}
 		],
 		"X": [
 			{
-				"name": "Dragonlord",
+				"name": "True Dragonlord",
 				"rank": "X",
 				"family": "Dragon",
 				"synthesis": [
-					["True Dragonlord", "Alabast Dragon", "Gem Slime", "Captain Crow"],
-					["True Dragonlord", "Alabast Dragon"]
-				]
+					["Dragonlord", "Alabast Dragon", "Gem Slime", "Captain Crow"]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "True Dragonlord",
+				"rank": "X",
+				"family": "Dragon",
+				"synthesis": [["Dragonlord", "Alabast Dragon"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Orochi",
@@ -604,7 +934,15 @@
 				"family": "Dragon",
 				"synthesis": [
 					["Wormonger", "Missing Lynx", "Bjorn The Behemoose", "Empyrea (Alt)"]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Orochi",
+				"rank": "X",
+				"family": "Dragon",
+				"synthesis": [["Triwinder", "Triwinder", "Bilhaw", "Bilhaw"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Greygnarl",
@@ -624,13 +962,39 @@
 				"family": "Dragon",
 				"synthesis": [
 					["Boreal Serpent", "Ethereal Serpent", "Alabast Dragon", "Orochi"]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Xenlon",
+				"rank": "X",
+				"family": "Dragon",
+				"synthesis": [
+					["Greygnarl", "Wyrmhole Dragon"],
+					["Greygnarl", "Prism Peacock"],
+					["Greygnarl", "Yggdrasil"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Lord Of The Dragovians",
 				"rank": "X",
 				"family": "Dragon",
-				"synthesis": [["Dragonlord", "Rhapthorne II"]]
+				"synthesis": [["True Dragonlord", "Rhapthorne II"]]
+			},
+			{
+				"name": "Xiphos The Deathbringer",
+				"rank": "X",
+				"family": "Dragon",
+				"synthesis": [["Captain Crow", "Nokturnus"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Wyrmhole Dragon",
+				"rank": "X",
+				"family": "Dragon",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"???": [
@@ -639,10 +1003,17 @@
 				"rank": "???",
 				"family": "Dragon",
 				"synthesis": [
-					["Nokturnus", "Xenlon", "True Dragonlord", "Aquarion"],
-					["Nokturnus", "Xenlon", "True Dragonlord", "Sagittar"],
-					["Dragonlord", "Xenlon"]
-				]
+					["Nokturnus", "Xenlon", "Dragonlord", "Aquarion"],
+					["Nokturnus", "Xenlon", "Dragonlord", "Sagittar"]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Zenith Dragon",
+				"rank": "???",
+				"family": "Dragon",
+				"synthesis": [["True Dragonlord", "Xenlon"]],
+				"version": "Pro"
 			}
 		]
 	},
@@ -664,7 +1035,15 @@
 				"name": "Scissor Beatle",
 				"rank": "F",
 				"family": "Nature",
-				"synthesis": [["Yabby", "Scorpion"]]
+				"synthesis": [["Yabby", "Scorpion"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Scissor Beatle",
+				"rank": "F",
+				"family": "Nature",
+				"synthesis": [["Army Ant", "Pocus Poppet"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Killerpillar",
@@ -683,6 +1062,27 @@
 				"rank": "F",
 				"family": "Nature",
 				"synthesis": [["Hell Hornet", "Lower"]]
+			},
+			{
+				"name": "Cruelcumber",
+				"rank": "F",
+				"family": "Nature",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Army Ant",
+				"rank": "F",
+				"family": "Nature",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Kingfuschia",
+				"rank": "F",
+				"family": "Nature",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"E": [
@@ -721,6 +1121,20 @@
 				"rank": "E",
 				"family": "Nature",
 				"synthesis": [["Jailcat", "Lower"]]
+			},
+			{
+				"name": "Bantamweight",
+				"rank": "E",
+				"family": "Nature",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Cactiball",
+				"rank": "E",
+				"family": "Nature",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"D": [
@@ -759,6 +1173,20 @@
 				"rank": "D",
 				"family": "Nature",
 				"synthesis": []
+			},
+			{
+				"name": "Rockin' Rockhopper",
+				"rank": "D",
+				"family": "Nature",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Sentripede",
+				"rank": "D",
+				"family": "Nature",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"C": [
@@ -794,7 +1222,18 @@
 				"synthesis": [
 					["Stump Chump", "Stump Chump", "Capsichum", "Capsichum"],
 					["Khalamari Kid", "Lower"]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Treeface",
+				"rank": "C",
+				"family": "Nature",
+				"synthesis": [
+					["Stump Chump", "Stump Chump", "Capsichum", "Capsichum"],
+					["Stump Chump", "Stump Chump", "Mental Pitcher", "Mental Pitcher"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Paws",
@@ -812,7 +1251,39 @@
 				"name": "Yabby",
 				"rank": "C",
 				"family": "Nature",
-				"synthesis": [["Barracuda", "Lower"]]
+				"synthesis": [["Barracuda", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Yabby",
+				"rank": "C",
+				"family": "Nature",
+				"synthesis": [["Crabid", "Crabid"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Whackanape",
+				"rank": "C",
+				"family": "Nature",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Pipit",
+				"rank": "C",
+				"family": "Nature",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Lleviathan",
+				"rank": "C",
+				"family": "Nature",
+				"synthesis": [
+					["Sea Dragon", "Missing Lynx"],
+					["Sea Dragon", "Wormonger"]
+				],
+				"version": "Pro"
 			}
 		],
 		"B": [
@@ -820,7 +1291,22 @@
 				"name": "Beetleboy",
 				"rank": "B",
 				"family": "Nature",
-				"synthesis": [["Yabby", "Lower"]]
+				"synthesis": [["Yabby", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Beetleboy",
+				"rank": "B",
+				"family": "Nature",
+				"synthesis": [
+					[
+						"Scissor Beatle",
+						"Scissor Beatle",
+						"Scissor Beatle",
+						"Scissor Beatle"
+					]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Giant Moth",
@@ -839,6 +1325,20 @@
 				"rank": "B",
 				"family": "Nature",
 				"synthesis": [["Gorerilla", "Lower"]]
+			},
+			{
+				"name": "Compos Mantis",
+				"rank": "B",
+				"family": "Nature",
+				"synthesis": [["Scorpion", "Sentripede"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Flamethrower",
+				"rank": "B",
+				"family": "Nature",
+				"synthesis": [["Grim Keeper", "Firebird"]],
+				"version": "Pro"
 			}
 		],
 		"A": [
@@ -849,7 +1349,15 @@
 				"synthesis": [
 					["Gracos", "King Squid"],
 					["Stark Raven", "Lower"]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Heligator",
+				"rank": "A",
+				"family": "Nature",
+				"synthesis": [["Paws", "Megalodon"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Thornella",
@@ -872,6 +1380,13 @@
 				]
 			},
 			{
+				"name": "Riptide",
+				"rank": "A",
+				"family": "Nature",
+				"synthesis": [["Heligator", "Prickly Prankster"]],
+				"version": "Pro"
+			},
+			{
 				"name": "Garuda",
 				"rank": "A",
 				"family": "Nature",
@@ -881,17 +1396,44 @@
 				"name": "Gripevine",
 				"rank": "A",
 				"family": "Nature",
+				"synthesis": [["Marquis De Léon", "Hyper Heyedra"]]
+			},
+			{
+				"name": "Gripevine",
+				"rank": "A",
+				"family": "Nature",
 				"synthesis": [
-					["Marquis De Léon", "Hyper Heyedra"],
 					["Marquis De Léon", "Heyedra"],
 					["Gripevine", "Dorsal Fiend"]
-				]
+				],
+				"version": "Non-Pro"
 			},
 			{
 				"name": "Empyrea (Alt)",
 				"rank": "A",
 				"family": "Nature",
 				"synthesis": []
+			},
+			{
+				"name": "Blizzybody",
+				"rank": "A",
+				"family": "Nature",
+				"synthesis": [["Grim Keeper", "Snowbird"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Wooper Trooper",
+				"rank": "A",
+				"family": "Nature",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Kon The Knight",
+				"rank": "A",
+				"family": "Nature",
+				"synthesis": [["Bone Baron", "Mandrake Marshal"]],
+				"version": "Pro"
 			}
 		],
 		"S": [
@@ -902,6 +1444,13 @@
 				"synthesis": [["Beetleboy", "Metal King Slime"]]
 			},
 			{
+				"name": "Beetlebully",
+				"rank": "S",
+				"family": "Nature",
+				"synthesis": [["Beetleboy", "Beetleboy", "Beetleboy", "Beetleboy"]],
+				"version": "Pro"
+			},
+			{
 				"name": "King Squid",
 				"rank": "S",
 				"family": "Nature",
@@ -909,7 +1458,18 @@
 					["Night Clubber", "Khalamari Kid"],
 					["Yabby", "Gracos"],
 					["Heligator", "Gracos"]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "King Squid",
+				"rank": "S",
+				"family": "Nature",
+				"synthesis": [
+					["Heligator", "Gigalumph"],
+					["Heligator", "Gracos"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Khalamari",
@@ -924,6 +1484,32 @@
 				"rank": "S",
 				"family": "Nature",
 				"synthesis": [["Chimaera X", "Chimaera X"]]
+			},
+			{
+				"name": "Elder Pipit",
+				"rank": "S",
+				"family": "Nature",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Prism Peacock",
+				"rank": "S",
+				"family": "Nature",
+				"synthesis": [
+					["Firebird", "Firebird", "Snowbird", "Snowbird"],
+					["Pipit", "Garuda"]
+				],
+				"version": "Pro"
+			},
+			{
+				"name": "Lieutenant Goresby-Purrvis",
+				"rank": "S",
+				"family": "Nature",
+				"synthesis": [
+					["Great Sabrecat", "Ladja", "Roseguardin", "Demon-At-Arms"]
+				],
+				"version": "Pro"
 			}
 		],
 		"X": [
@@ -934,9 +1520,19 @@
 				"synthesis": [
 					["Dhoulmagus", "Xenlon", "Baramos", "Chainine"],
 					["Dhoulmagus", "Xenlon", "Murdaw", "Chainine"],
-					["Dhoulmagus", "Xenlon", "Hargon", "Chainine"],
+					["Dhoulmagus", "Xenlon", "Hargon", "Chainine"]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Evil Sir Leopold",
+				"rank": "X",
+				"family": "Nature",
+				"synthesis": [
+					["Dhoulmagus", "Cerberwretch"],
 					["Dhoulmagus", "Chainine"]
-				]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "The Almighty",
@@ -952,13 +1548,35 @@
 					["Nokturnus", "Xenlon", "Gem Slime", "Dual Duellers"],
 					["Nokturnus", "Xenlon", "Gem Slime", "Dorsal Fiend"],
 					["Nokturnus", "Xenlon", "Gem Slime", "Canzar"]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Trode",
+				"rank": "X",
+				"family": "Nature",
+				"synthesis": [["Darck", "Don Mole", "Scruffy", "King Sanguini"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Ramia",
 				"rank": "X",
 				"family": "Nature",
 				"synthesis": [["Lord Of The Dragovians", "Empyrea (Alt)"]]
+			},
+			{
+				"name": "Yggdrasil",
+				"rank": "X",
+				"family": "Nature",
+				"synthesis": [["Fluffy", "Scruffy"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Munchie",
+				"rank": "X",
+				"family": "Nature",
+				"synthesis": [["Greygnarl", "Fluffy"]],
+				"version": "Pro"
 			}
 		]
 	},
@@ -990,6 +1608,20 @@
 					["Hell Hornet", "Argon Lizard"],
 					["Satyr", "Lower"]
 				]
+			},
+			{
+				"name": "Pickayune",
+				"rank": "F",
+				"family": "Beast",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Boppin' Badger",
+				"rank": "F",
+				"family": "Beast",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"E": [
@@ -1021,13 +1653,32 @@
 				"synthesis": [
 					["Firebird", "Powie Yowie"],
 					["Pan Piper", "Lower"]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Snowbird",
+				"rank": "E",
+				"family": "Beast",
+				"synthesis": [
+					["Kingfuschia", "Boreal Serpent"],
+					["Kingfuschia", "Powie Yowie"],
+					["Kingfuschia", "Snowmangler"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Chainine",
 				"rank": "E",
 				"family": "Beast",
 				"synthesis": [["Snowbird", "Lower"]]
+			},
+			{
+				"name": "Vampire Cat",
+				"rank": "E",
+				"family": "Beast",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"D": [
@@ -1066,6 +1717,20 @@
 				"rank": "D",
 				"family": "Beast",
 				"synthesis": [["Hammerhood", "Nature Family"]]
+			},
+			{
+				"name": "Sea Dog",
+				"rank": "D",
+				"family": "Beast",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Battering Ram",
+				"rank": "D",
+				"family": "Beast",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"C": [
@@ -1110,6 +1775,34 @@
 				"rank": "C",
 				"family": "Beast",
 				"synthesis": []
+			},
+			{
+				"name": "Bewarewolf",
+				"rank": "C",
+				"family": "Beast",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Mortoad",
+				"rank": "C",
+				"family": "Beast",
+				"synthesis": [["Frogface", "Discombombulator"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Trigertaur",
+				"rank": "C",
+				"family": "Beast",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Half Hog",
+				"rank": "C",
+				"family": "Beast",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"B": [
@@ -1123,19 +1816,50 @@
 				"name": "Firebird",
 				"rank": "B",
 				"family": "Beast",
-				"synthesis": [["Notso Macho", "Lower"]]
+				"synthesis": [["Notso Macho", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Firebird",
+				"rank": "B",
+				"family": "Beast",
+				"synthesis": [["Hades Condor", "Dancing Flame"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Cockateer",
 				"rank": "B",
 				"family": "Beast",
-				"synthesis": [["Firebird", "Lower"]]
+				"synthesis": [["Firebird", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Cockateer",
+				"rank": "B",
+				"family": "Beast",
+				"synthesis": [["Phantom Fencer", "Hades Condor"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Pink Sanguini",
 				"rank": "B",
 				"family": "Beast",
-				"synthesis": [["Cockateer", "Lower"]]
+				"synthesis": [["Cockateer", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Pink Sanguini",
+				"rank": "B",
+				"family": "Beast",
+				"synthesis": [
+					[
+						"Teeny Sanguini",
+						"Teeny Sanguini",
+						"Teeny Sanguini",
+						"Teeny Sanguini"
+					]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Maniacal Mole",
@@ -1148,6 +1872,31 @@
 				"rank": "B",
 				"family": "Beast",
 				"synthesis": []
+			},
+			{
+				"name": "Squign",
+				"rank": "B",
+				"family": "Beast",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Tantamount",
+				"rank": "B",
+				"family": "Beast",
+				"synthesis": [["Grim Rider", "Firebird"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Eyevory Tusk-Tusk",
+				"rank": "B",
+				"family": "Beast",
+				"synthesis": [
+					["Diemon", "Lleviathan"],
+					["Half Hog", "Lleviathan"],
+					["Notso Macho", "Lleviathan"]
+				],
+				"version": "Pro"
 			}
 		],
 		"A": [
@@ -1155,13 +1904,34 @@
 				"name": "Gigantes",
 				"rank": "A",
 				"family": "Beast",
-				"synthesis": [["Pink Sanguini", "Lower"]]
+				"synthesis": [["Pink Sanguini", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Gigantes",
+				"rank": "A",
+				"family": "Beast",
+				"synthesis": [
+					["Lleviathan", "Boss Troll"],
+					["Lleviathan", "Cross Eye"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Buffalogre",
 				"rank": "A",
 				"family": "Beast",
-				"synthesis": [["Gigantes", "Lower"]]
+				"synthesis": [["Gigantes", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Buffalogre",
+				"rank": "A",
+				"family": "Beast",
+				"synthesis": [
+					["Battering Ram", "Battering Ram", "Battering Ram", "Battering Ram"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Mohawker",
@@ -1171,7 +1941,19 @@
 					["Buffalogre", "Bone Baron"],
 					["Buffalogre", "Great Sabrecat"],
 					["Buffalogre", "Wild Slime"]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Mohawker",
+				"rank": "A",
+				"family": "Beast",
+				"synthesis": [
+					["Wishmaster", "Great Sabrecat"],
+					["Wishmaster", "Sintaur"],
+					["Wishmaster", "Wild Slime"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Moosifer",
@@ -1180,13 +1962,28 @@
 				"synthesis": [
 					["Buffalogre", "Satyr"],
 					["Buffalogre", "Pan Piper"]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Moosifer",
+				"rank": "A",
+				"family": "Beast",
+				"synthesis": [["Buffalogre", "Battering Ram"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Marquis De Léon",
 				"rank": "A",
 				"family": "Beast",
 				"synthesis": [["Mohawker", "Buffalogre"]]
+			},
+			{
+				"name": "Marquis De Léon",
+				"rank": "A",
+				"family": "Beast",
+				"synthesis": [["Eyevory Tusk-Tusk", "Eyevory Tusk-Tusk"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Dorsal Fiend",
@@ -1198,6 +1995,34 @@
 					["Gracos", "Exorsus"],
 					["Gracos", "Thornella"]
 				]
+			},
+			{
+				"name": "Slon The Rook",
+				"rank": "A",
+				"family": "Beast",
+				"synthesis": [["Buffalogre", "Mandrake Marshal"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Alphyn",
+				"rank": "A",
+				"family": "Beast",
+				"synthesis": [["Marquis De Léon", "Moosifer"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Lieutenant Goreham-Hogg",
+				"rank": "A",
+				"family": "Beast",
+				"synthesis": [["Mohawker", "Slon The Rook"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Taurix",
+				"rank": "A",
+				"family": "Beast",
+				"synthesis": [["Buffalogre", "Gigantes"]],
+				"version": "Pro"
 			}
 		],
 		"S": [
@@ -1209,6 +2034,13 @@
 					["Gigantes", "Moosifer"],
 					["Gigantes", "Garuda"]
 				]
+			},
+			{
+				"name": "Atlas",
+				"rank": "S",
+				"family": "Beast",
+				"synthesis": [["Gigantes", "Gigantes", "Gigantes", "Gigantes"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Don Mole",
@@ -1233,19 +2065,68 @@
 				]
 			},
 			{
+				"name": "Night Clubber",
+				"rank": "S",
+				"family": "Beast",
+				"synthesis": [["Boss Troll", "Drakularge"]],
+				"version": "Pro"
+			},
+			{
 				"name": "Dhoulmagus",
 				"rank": "S",
 				"family": "Beast",
 				"synthesis": [
 					["Alabast Dragon", "Psaro The Manslayer"],
 					["Alabast Dragon", "Estark"]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Dhoulmagus",
+				"rank": "S",
+				"family": "Beast",
+				"synthesis": [["Alabast Dragon", "Tyrannosaurus Wrecks"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Teeny Sanguini XY",
 				"rank": "S",
 				"family": "Beast",
 				"synthesis": [["Teeny Sanguini X", "Teeny Sanguini X"]]
+			},
+			{
+				"name": "Genie Sanguini",
+				"rank": "S",
+				"family": "Beast",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Mossferatu",
+				"rank": "S",
+				"family": "Beast",
+				"synthesis": [["Baron Von Bellycose", "Gigalumph"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Balzack",
+				"rank": "S",
+				"family": "Beast",
+				"synthesis": [
+					["Gigantes", "Belial"],
+					["Gigantes", "Drakularge"],
+					["Gigantes", "Great Argon Lizard"]
+				],
+				"version": "Pro"
+			},
+			{
+				"name": "King Sanguini",
+				"rank": "S",
+				"family": "Beast",
+				"synthesis": [
+					["Pink Sanguini", "Genie Sanguini", "Pipit", "Elder Pipit"]
+				],
+				"version": "Pro"
 			}
 		],
 		"X": [
@@ -1259,10 +2140,32 @@
 				"name": "Aquarion",
 				"rank": "X",
 				"family": "Beast",
+				"synthesis": [["Gracos", "Nokturnus"]]
+			},
+			{
+				"name": "Aquarion",
+				"rank": "X",
+				"family": "Beast",
+				"synthesis": [["Megalodon", "Gracos", "Trode", "Rhapthorne II"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Robbin's Old Lady",
+				"rank": "X",
+				"family": "Beast",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Pruslas",
+				"rank": "X",
+				"family": "Beast",
 				"synthesis": [
-					["Megalodon", "Gracos", "Trode", "Rhapthorne II"],
-					["Gracos", "Nokturnus"]
-				]
+					["Ruin", "Alabast Dragon"],
+					["Ruin", "Atlas"],
+					["Ruin", "Drakulard"]
+				],
+				"version": "Pro"
 			}
 		]
 	},
@@ -1291,17 +2194,32 @@
 				"rank": "F",
 				"family": "Material",
 				"synthesis": [
-					["Dancing Flame", "Silvapithecus"],
-					["Dancing Flame", "Dragon Slime"],
 					["Dancing Flame", "Boreal Serpent"],
 					["Dancing Flame", "Powie Yowie"]
 				]
+			},
+			{
+				"name": "Frostburn",
+				"rank": "F",
+				"family": "Material",
+				"synthesis": [
+					["Dancing Flame", "Silvapithecus"],
+					["Dancing Flame", "Dragon Slime"]
+				],
+				"version": "Non-Pro"
 			},
 			{
 				"name": "Spitnik",
 				"rank": "F",
 				"family": "Material",
 				"synthesis": [["Wax Murderer", "Lower"]]
+			},
+			{
+				"name": "Ticking Timeburrm",
+				"rank": "F",
+				"family": "Material",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"E": [
@@ -1341,6 +2259,20 @@
 					["Bag O' Laughs", "Bag O' Laughs"],
 					["Dingaling", "Lower"]
 				]
+			},
+			{
+				"name": "Pocus Poppet",
+				"rank": "E",
+				"family": "Material",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Axecutioner",
+				"rank": "E",
+				"family": "Material",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"D": [
@@ -1351,7 +2283,15 @@
 				"synthesis": [
 					["Goodybag", "Goodybag"],
 					["Goodybag", "Lower"]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Cannibox",
+				"rank": "D",
+				"family": "Material",
+				"synthesis": [["Bag O' Laughs", "Rockbomb"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Shadow",
@@ -1373,7 +2313,18 @@
 					["Golem", "Balhib"],
 					["Golem", "Drakularge"],
 					["Shadow", "Lower"]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Gold Golem",
+				"rank": "D",
+				"family": "Material",
+				"synthesis": [
+					["Golem", "Gem Slime"],
+					["Golem", "Goodybag"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Mecha-Mynah",
@@ -1388,7 +2339,43 @@
 				"synthesis": [
 					["Snowbird", "Magmalice"],
 					["Mecha-Mynah", "Lower"]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Firn Fiend",
+				"rank": "D",
+				"family": "Material",
+				"synthesis": [["Snowbird", "Golem"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Moai Minstrel",
+				"rank": "D",
+				"family": "Material",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Foo Dog",
+				"rank": "D",
+				"family": "Material",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Chariot Chappie",
+				"rank": "D",
+				"family": "Material",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Harmour",
+				"rank": "D",
+				"family": "Material",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"C": [
@@ -1402,7 +2389,15 @@
 				"name": "Puppeteer",
 				"rank": "C",
 				"family": "Material",
-				"synthesis": [["Firn Fiend", "Lower"]]
+				"synthesis": [["Firn Fiend", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Puppeteer",
+				"rank": "C",
+				"family": "Material",
+				"synthesis": [["Slime", "Lump Wizard"]],
+				"version": "Pro"
 			},
 			{
 				"name": "King Kelp",
@@ -1426,7 +2421,31 @@
 				"name": "Golem",
 				"rank": "C",
 				"family": "Material",
-				"synthesis": [["Malevolamp", "Lower"]]
+				"synthesis": [["Malevolamp", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Golem",
+				"rank": "C",
+				"family": "Material",
+				"synthesis": [
+					["Mud Mannequin", "Mud Mannequin", "Mud Mannequin", "Mud Mannequin"]
+				],
+				"version": "Pro"
+			},
+			{
+				"name": "Octagoon",
+				"rank": "C",
+				"family": "Material",
+				"synthesis": [["Battering Ram", "Foo Dog"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Cumulus Rex",
+				"rank": "C",
+				"family": "Material",
+				"synthesis": [["Dancing Flame", "Frostburn"]],
+				"version": "Pro"
 			}
 		],
 		"B": [
@@ -1437,7 +2456,15 @@
 				"synthesis": [
 					["Firn Fiend", "Firebird"],
 					["Golem", "Lower"]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Magmalice",
+				"rank": "B",
+				"family": "Material",
+				"synthesis": [["Firebird", "Golem"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Jum",
@@ -1452,7 +2479,47 @@
 				"synthesis": [
 					["Cannibox", "Golem"],
 					["Jum", "Lower"]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Mimic",
+				"rank": "B",
+				"family": "Material",
+				"synthesis": [["Cannibox", "Cannibox", "Cannibox", "Cannibox"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Stainless Scrapper",
+				"rank": "B",
+				"family": "Material",
+				"synthesis": [["Hunter Mech", "Hunter Mech"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Corrupt Carter",
+				"rank": "B",
+				"family": "Material",
+				"synthesis": [
+					[
+						"Chariot Chappie",
+						"Chariot Chappie",
+						"Chariot Chappie",
+						"Chariot Chappie"
+					]
+				],
+				"version": "Pro"
+			},
+			{
+				"name": "Wishmaster",
+				"rank": "B",
+				"family": "Material",
+				"synthesis": [
+					["Diemon", "Golem"],
+					["Half Hog", "Golem"],
+					["Notso Macho", "Golem"]
+				],
+				"version": "Pro"
 			}
 		],
 		"A": [
@@ -1460,7 +2527,15 @@
 				"name": "Living Statue",
 				"rank": "A",
 				"family": "Material",
-				"synthesis": [["Mimic", "Lower"]]
+				"synthesis": [["Mimic", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Living Statue",
+				"rank": "A",
+				"family": "Material",
+				"synthesis": [["Golem", "Golem", "Golem", "Golem"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Killing Machine",
@@ -1470,13 +2545,33 @@
 					["Hunter Mech", "Mechan-O'-Wyrm"],
 					["Hunter Mech", "Phantom Swordsman"],
 					["Hunter Mech", "Ruin"]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Killing Machine",
+				"rank": "A",
+				"family": "Material",
+				"synthesis": [
+					["Hunter Mech", "Hunter Mech", "Hunter Mech", "Hunter Mech"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Balhib",
 				"rank": "A",
 				"family": "Material",
 				"synthesis": [["Magmalice", "Firn Fiend", "Golem", "Gold Golem"]]
+			},
+			{
+				"name": "Balhib",
+				"rank": "A",
+				"family": "Material",
+				"synthesis": [
+					["Golem", "Golem", "Gold Golem", "Gold Golem"],
+					["Magmalice", "Magmalice", "Firn Fiend", "Firn Fiend"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Boe",
@@ -1514,6 +2609,22 @@
 				"rank": "A",
 				"family": "Material",
 				"synthesis": []
+			},
+			{
+				"name": "Scytheborg",
+				"rank": "A",
+				"family": "Material",
+				"synthesis": [["Juggular", "Cyber Slime"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Terracotta Warrior",
+				"rank": "A",
+				"family": "Material",
+				"synthesis": [
+					["Pocus Poppet", "Pocus Poppet", "Pocus Poppet", "Pocus Poppet"]
+				],
+				"version": "Pro"
 			}
 		],
 		"S": [
@@ -1522,6 +2633,13 @@
 				"rank": "S",
 				"family": "Material",
 				"synthesis": [["Mimic", "Mimic", "Cannibox", "Metal Kaiser Slime"]]
+			},
+			{
+				"name": "Trap Box",
+				"rank": "S",
+				"family": "Material",
+				"synthesis": [["Mimic", "Mimic", "Mechan-O'-Wyrm", "Mechan-O'-Wyrm"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Overkilling Machine",
@@ -1551,6 +2669,33 @@
 				"rank": "S",
 				"family": "Material",
 				"synthesis": [["Goodybag X", "Goodybag X"]]
+			},
+			{
+				"name": "Escudogre",
+				"rank": "S",
+				"family": "Material",
+				"synthesis": [
+					["Scytheborg", "Living Statue"],
+					["Scytheborg", "Terracotta Warrior"],
+					["Scytheborg", "Trap Box"]
+				],
+				"version": "Pro"
+			},
+			{
+				"name": "The Time Being",
+				"rank": "S",
+				"family": "Material",
+				"synthesis": [
+					["Fallen Priest", "Fallen Priest", "Tortured Soul", "Tortured Soul"]
+				],
+				"version": "Pro"
+			},
+			{
+				"name": "Uberkilling Machine",
+				"rank": "S",
+				"family": "Material",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"X": [
@@ -1558,7 +2703,15 @@
 				"name": "Psaro The Manslayer",
 				"rank": "X",
 				"family": "Material",
-				"synthesis": [["Roseguardin", "Ruin"]]
+				"synthesis": [["Roseguardin", "Ruin"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Psaro The Manslayer",
+				"rank": "X",
+				"family": "Material",
+				"synthesis": [["Blackmar", "Ruin"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Trauminator",
@@ -1575,10 +2728,40 @@
 				]
 			},
 			{
+				"name": "Sagittar",
+				"rank": "X",
+				"family": "Material",
+				"synthesis": [
+					[
+						"Trauminator",
+						"Overkilling Machine",
+						"Killing Machine",
+						"Stainless Scrapper"
+					],
+					["Uberkilling Machine", "Uberkilling Machine"]
+				],
+				"version": "Pro"
+			},
+			{
 				"name": "Estark",
 				"rank": "X",
 				"family": "Material",
-				"synthesis": [["Psaro The Manslayer", "Marquis De Léon"]]
+				"synthesis": [["Psaro The Manslayer", "Marquis De Léon"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Estark",
+				"rank": "X",
+				"family": "Material",
+				"synthesis": [["Titanis", "Xiphos The Deathbringer"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Schwarzman Tank",
+				"rank": "X",
+				"family": "Material",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		]
 	},
@@ -1613,6 +2796,13 @@
 				"rank": "F",
 				"family": "Demon",
 				"synthesis": [["Conklave", "Lower"]]
+			},
+			{
+				"name": "Tree Feller",
+				"rank": "F",
+				"family": "Demon",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"E": [
@@ -1645,6 +2835,13 @@
 				"rank": "E",
 				"family": "Demon",
 				"synthesis": [["Lump Wizard", "Lower"]]
+			},
+			{
+				"name": "Gruffon",
+				"rank": "E",
+				"family": "Demon",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"D": [
@@ -1686,6 +2883,13 @@
 				"rank": "D",
 				"family": "Demon",
 				"synthesis": [["Silvapithecus", "Lower"]]
+			},
+			{
+				"name": "Prickly Prankster",
+				"rank": "D",
+				"family": "Demon",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"C": [
@@ -1730,6 +2934,25 @@
 				"rank": "C",
 				"family": "Demon",
 				"synthesis": [["Erazor Blade", "Lower"]]
+			},
+			{
+				"name": "Aggrosculpture",
+				"rank": "C",
+				"family": "Demon",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Grim Keeper",
+				"rank": "C",
+				"family": "Demon",
+				"synthesis": [
+					["Aggrosculpture", "Erazor Blade"],
+					["Aggrosculpture", "Gryphon"],
+					["Aggrosculpture", "Octavian Sentry"],
+					["Aggrosculpture", "Prickly Prankster"]
+				],
+				"version": "Pro"
 			}
 		],
 		"B": [
@@ -1758,25 +2981,83 @@
 					["Dessert Demon", "Notso Macho"],
 					["Dessert Demon", "Moosifer"],
 					["Lethal Armour", "Lower"]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Archdemon",
+				"rank": "B",
+				"family": "Demon",
+				"synthesis": [
+					["Dessert Demon", "Dessert Demon", "Dessert Demon", "Dessert Demon"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Boss Troll",
 				"rank": "B",
 				"family": "Demon",
 				"synthesis": [
+					["Diemon", "Gorerilla"],
+					["Notso Macho", "Gorerilla"],
 					["Gigantes", "Diemon"],
 					["Gigantes", "Buffalogre"],
-					["Buffalogre", "Diemon"],
+					["Buffalogre", "Diemon"]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Boss Troll",
+				"rank": "B",
+				"family": "Demon",
+				"synthesis": [
 					["Diemon", "Gorerilla"],
-					["Notso Macho", "Gorerilla"]
-				]
+					["Notso Macho", "Gorerilla"],
+					["Half Hog", "Gorerilla"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Jamirus",
 				"rank": "B",
 				"family": "Demon",
-				"synthesis": [["Gryphon", "Pazuzu"]]
+				"synthesis": [["Gryphon", "Pazuzu"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Jamirus",
+				"rank": "B",
+				"family": "Demon",
+				"synthesis": [["Gryphon", "Grim Keeper"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Captain Catastrophe",
+				"rank": "B",
+				"family": "Demon",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Juggular",
+				"rank": "B",
+				"family": "Demon",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Knight Aberrant",
+				"rank": "B",
+				"family": "Demon",
+				"synthesis": [["Restless Armour", "Hacksaurus"]],
+				"version": "Pro"
+			},
+			{
+				"name": "High Djinks",
+				"rank": "B",
+				"family": "Demon",
+				"synthesis": [["Malevolamp", "Cumulus Rex"]],
+				"version": "Pro"
 			}
 		],
 		"A": [
@@ -1790,17 +3071,31 @@
 				"name": "Dhuran",
 				"rank": "A",
 				"family": "Demon",
-				"synthesis": [["Demon-At-Arms", "Lower"]]
+				"synthesis": [["Demon-At-Arms", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Dhuran",
+				"rank": "A",
+				"family": "Demon",
+				"synthesis": [["Flamethrower", "Blizzybody"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Conkettes",
 				"rank": "A",
 				"family": "Demon",
 				"synthesis": [
-					["Conklave", "Thornella"],
 					["Conklave", "Mortella"],
-					["Conklave", "Gripevine"]
+					["Conklave", "Thornella"]
 				]
+			},
+			{
+				"name": "Conkettes",
+				"rank": "A",
+				"family": "Demon",
+				"synthesis": [["Conklave", "Gripevine"]],
+				"version": "Non-Pro"
 			},
 			{
 				"name": "Gracos",
@@ -1837,12 +3132,24 @@
 				"rank": "A",
 				"family": "Demon",
 				"synthesis": [
-					["Archdemon", "Gold Golem"],
-					["Archdemon", "Atlas"],
-					["Archdemon", "Great Dragon"],
 					["Archdemon", "Dessert Demon"],
-					["Archdemon", "Balhib"]
-				]
+					["Archdemon", "Gold Golem"],
+					["Archdemon", "Great Dragon"],
+					["Archdemon", "Balhib"],
+					["Archdemon", "Atlas"]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Belial",
+				"rank": "A",
+				"family": "Demon",
+				"synthesis": [
+					["Archdemon", "Great Dragon"],
+					["Archdemon", "Balhib"],
+					["Archdemon", "Archdemon", "Archdemon", "Archdemon"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Pazuzu",
@@ -1853,7 +3160,54 @@
 					["Silvapithecus", "Gigantes"],
 					["Silvapithecus", "Jamirus"],
 					["Silvapithecus", "Dierantula"]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Pazuzu",
+				"rank": "A",
+				"family": "Demon",
+				"synthesis": [
+					["Silvapithecus", "Dierantula"],
+					["Silvapithecus", "Rashaverak"],
+					["Silvapithecus", "Silvapithecus", "Silvapithecus", "Silvapithecus"]
+				],
+				"version": "Pro"
+			},
+			{
+				"name": "Hyperanemon",
+				"rank": "A",
+				"family": "Demon",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Baron Von Bellycose",
+				"rank": "A",
+				"family": "Demon",
+				"synthesis": [
+					["High Djinks", "Archdemon"],
+					["High Djinks", "Boss Troll"],
+					["High Djinks", "Fallen Priest"]
+				],
+				"version": "Pro"
+			},
+			{
+				"name": "King Korol",
+				"rank": "A",
+				"family": "Demon",
+				"synthesis": [
+					["Tortured Soul", "Great Dragon"],
+					["Tortured Soul", "Rashaverak"]
+				],
+				"version": "Pro"
+			},
+			{
+				"name": "Lieutenant Hootingham-Gore",
+				"rank": "A",
+				"family": "Demon",
+				"synthesis": [["Jamirus", "Kon The Knight"]],
+				"version": "Pro"
 			}
 		],
 		"S": [
@@ -1870,10 +3224,28 @@
 				"synthesis": [["Bjorn The Behemoose", "Night Clubber"]]
 			},
 			{
+				"name": "Murdaw",
+				"rank": "S",
+				"family": "Demon",
+				"synthesis": [["Bjorn The Behemoose", "Mossferatu"]],
+				"version": "Pro"
+			},
+			{
 				"name": "Baramos",
 				"rank": "S",
 				"family": "Demon",
-				"synthesis": [["Hargon", "Gemon"]]
+				"synthesis": [["Hargon", "Gemon"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Baramos",
+				"rank": "S",
+				"family": "Demon",
+				"synthesis": [
+					["Tortoceratops", "Beetlebully"],
+					["Tortoceratops", "The Time Being"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Hargon",
@@ -1889,17 +3261,62 @@
 				"rank": "S",
 				"family": "Demon",
 				"synthesis": [
-					["Hargon", "Khalamari"],
-					["Hargon", "Buffalogre"],
-					["Hargon", "Living Statue"],
-					["Hargon", "Demon-At-Arms"]
+					["Hargon", "Demon-At-Arms"],
+					["Hargon", "Khalamari"]
 				]
+			},
+			{
+				"name": "Malroth",
+				"rank": "S",
+				"family": "Demon",
+				"synthesis": [
+					["Hargon", "Buffalogre"],
+					["Hargon", "Living Statue"]
+				],
+				"version": "Non-Pro"
 			},
 			{
 				"name": "Conklave XY",
 				"rank": "S",
 				"family": "Demon",
 				"synthesis": [["Conklave X", "Conklave X"]]
+			},
+			{
+				"name": "Aamon",
+				"rank": "S",
+				"family": "Demon",
+				"synthesis": [
+					["King Korol", "Baron Von Bellycose"],
+					["King Korol", "Terracotta Warrior"]
+				],
+				"version": "Pro"
+			},
+			{
+				"name": "Blackmar",
+				"rank": "S",
+				"family": "Demon",
+				"synthesis": [["Aamon", "Ladja"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Titanis",
+				"rank": "S",
+				"family": "Demon",
+				"synthesis": [
+					["Moosifer", "Atlas"],
+					["Moosifer", "Triwinder"]
+				],
+				"version": "Pro"
+			},
+			{
+				"name": "Tyrannosaurus Wrecks",
+				"rank": "S",
+				"family": "Demon",
+				"synthesis": [
+					["Hyperanemon", "Kapurigon"],
+					["Hyperanemon", "Taurix"]
+				],
+				"version": "Pro"
 			}
 		],
 		"X": [
@@ -1914,6 +3331,13 @@
 				"rank": "X",
 				"family": "Demon",
 				"synthesis": [["Dhuran", "Dr Snapped"]]
+			},
+			{
+				"name": "Scruffy",
+				"rank": "X",
+				"family": "Demon",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		]
 	},
@@ -1948,6 +3372,13 @@
 				"rank": "F",
 				"family": "Undead",
 				"synthesis": [["Muddy Hand", "Lower"]]
+			},
+			{
+				"name": "Drooling Ghoul",
+				"rank": "F",
+				"family": "Undead",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"E": [
@@ -1980,6 +3411,13 @@
 				"rank": "E",
 				"family": "Undead",
 				"synthesis": [["Mummy Boy", "Lower"]]
+			},
+			{
+				"name": "Swingin' Hipster",
+				"rank": "E",
+				"family": "Undead",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"D": [
@@ -2012,6 +3450,13 @@
 				"rank": "D",
 				"family": "Undead",
 				"synthesis": [["Skeleton", "Lower"]]
+			},
+			{
+				"name": "Discombombulator",
+				"rank": "D",
+				"family": "Undead",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"C": [
@@ -2038,6 +3483,20 @@
 				"rank": "C",
 				"family": "Undead",
 				"synthesis": [["Restless Armour", "Lower"]]
+			},
+			{
+				"name": "DarkCrab",
+				"rank": "C",
+				"family": "Undead",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Cerberwretch",
+				"rank": "C",
+				"family": "Undead",
+				"synthesis": [],
+				"version": "Pro"
 			}
 		],
 		"B": [
@@ -2051,29 +3510,75 @@
 				"name": "Phantom Swordsman",
 				"rank": "B",
 				"family": "Undead",
-				"synthesis": [["Skeleton Soldier", "Skeleton Soldier"]]
+				"synthesis": [["Skeleton Soldier", "Skeleton Soldier"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Phantom Swordsman",
+				"rank": "B",
+				"family": "Undead",
+				"synthesis": [
+					[
+						"Phantom Fencer",
+						"Phantom Fencer",
+						"Phantom Fencer",
+						"Phantom Fencer"
+					]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Skeleton Soldier",
 				"rank": "B",
 				"family": "Undead",
-				"synthesis": [["Heyedra", "Lower"]]
+				"synthesis": [["Heyedra", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Skeleton Soldier",
+				"rank": "B",
+				"family": "Undead",
+				"synthesis": [["Skeleton", "Skeleton", "Skeleton", "Skeleton"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Grim Rider",
 				"rank": "B",
 				"family": "Undead",
 				"synthesis": [
-					["Bona Constrictor", "Demonrider"],
 					["Diemon", "Demonrider"],
-					["Notso Macho", "Demonrider"]
-				]
+					["Notso Macho", "Demonrider"],
+					["Bona Constrictor", "Demonrider"]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Grim Rider",
+				"rank": "B",
+				"family": "Undead",
+				"synthesis": [
+					["Diemon", "Demonrider"],
+					["Notso Macho", "Demonrider"],
+					["Half Hog", "Demonrider"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Soulspawn",
 				"rank": "B",
 				"family": "Undead",
-				"synthesis": [["Skeleton Soldier", "Lower"]]
+				"synthesis": [["Skeleton Soldier", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Soulspawn",
+				"rank": "B",
+				"family": "Undead",
+				"synthesis": [
+					["Firespirit", "Firespirit", "Firespirit", "Firespirit"],
+					["Ghost", "Ghost", "Ghost", "Ghost"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Cross Bones",
@@ -2085,7 +3590,36 @@
 				"name": "Fright Knight",
 				"rank": "B",
 				"family": "Undead",
-				"synthesis": [["Cross Bones", "Lower"]]
+				"synthesis": [["Cross Bones", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Fright Knight",
+				"rank": "B",
+				"family": "Undead",
+				"synthesis": [["Skeleton Soldier", "Lethal Armour"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Ragin' Contagion",
+				"rank": "B",
+				"family": "Undead",
+				"synthesis": [["Walking Corpse", "Soulspawn"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Cobra Cardinal",
+				"rank": "B",
+				"family": "Undead",
+				"synthesis": [["Ethereal Serpent", "Fallen Priest"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Wight Knight",
+				"rank": "B",
+				"family": "Undead",
+				"synthesis": [["Grim Rider", "Phantom Swordsman"]],
+				"version": "Pro"
 			}
 		],
 		"A": [
@@ -2114,13 +3648,32 @@
 				"name": "Night Knight",
 				"rank": "A",
 				"family": "Undead",
-				"synthesis": [["Wailin' Weed", "Lower"]]
+				"synthesis": [["Wailin' Weed", "Lower"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Night Knight",
+				"rank": "A",
+				"family": "Undead",
+				"synthesis": [["Fright Knight", "Fright Knight"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Tortured Soul",
 				"rank": "A",
 				"family": "Undead",
 				"synthesis": [["Fright Knight", "Wailin' Weed"]]
+			},
+			{
+				"name": "Tortured Soul",
+				"rank": "A",
+				"family": "Undead",
+				"synthesis": [
+					["Fright Knight", "Cobra Cardinal"],
+					["Fright Knight", "Ragin' Contagion"],
+					["Fright Knight", "Wight Knight"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Roseguardin",
@@ -2135,22 +3688,62 @@
 				"name": "Bone Baron",
 				"rank": "A",
 				"family": "Undead",
+				"synthesis": [["Grim Rider", "Grim Rider"]]
+			},
+			{
+				"name": "Bone Baron",
+				"rank": "A",
+				"family": "Undead",
 				"synthesis": [
 					["Grim Rider", "Mohawker"],
 					["Grim Rider", "Dark Slime Knight"],
-					["Grim Rider", "Grim Rider"],
 					["Soulspawn", "Boe"]
-				]
+				],
+				"version": "Non-Pro"
 			},
 			{
 				"name": "Dierantula",
 				"rank": "A",
 				"family": "Undead",
 				"synthesis": [
-					["Gripevine", "Wormonger"],
+					["Wormonger", "Gripevine"],
 					["Wormonger", "Night Knight"],
 					["Wormonger", "Tortured Soul"]
 				]
+			},
+			{
+				"name": "Gigalumph",
+				"rank": "A",
+				"family": "Undead",
+				"synthesis": [["Mortoad", "Mortoad"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Grotwyrm",
+				"rank": "A",
+				"family": "Undead",
+				"synthesis": [
+					["Ragin' Contagion", "Great Dragon"],
+					["Ragin' Contagion", "Rashaverak"]
+				],
+				"version": "Pro"
+			},
+			{
+				"name": "Monkey Zombie",
+				"rank": "A",
+				"family": "Undead",
+				"synthesis": [
+					["Gorerilla", "Squign"],
+					["Whackanape", "Squign"]
+				],
+				"version": "Pro"
+			},
+			{
+				"name": "Kapurigon",
+				"rank": "A",
+				"family": "Undead",
+				"synthesis": [["Moosifer", "Garuda"]],
+				"version": "Pro"
 			}
 		],
 		"S": [
@@ -2159,11 +3752,17 @@
 				"rank": "S",
 				"family": "Undead",
 				"synthesis": [
-					["Bone Baron", "Phantom Fencer"],
 					["Bone Baron", "Night Knight"],
 					["Bone Baron", "Ruin"],
 					["Bone Baron", "Tortured Soul"]
 				]
+			},
+			{
+				"name": "Dullahan",
+				"rank": "S",
+				"family": "Undead",
+				"synthesis": [["Bone Baron", "Phantom Fencer"]],
+				"version": "Non-Pro"
 			},
 			{
 				"name": "Wight King",
@@ -2185,6 +3784,27 @@
 				"rank": "S",
 				"family": "Undead",
 				"synthesis": [["Skeleton X", "Skeleton X"]]
+			},
+			{
+				"name": "Ladja",
+				"rank": "S",
+				"family": "Undead",
+				"synthesis": [["Slon The Rook", "Kon The Knight"]],
+				"version": "Pro"
+			},
+			{
+				"name": "King Godwyn Second Forme",
+				"rank": "S",
+				"family": "Undead",
+				"synthesis": [
+					[
+						"Lieutenant Goreham-Hogg",
+						"Lieutenant Hootingham-Gore",
+						"Lieutenant Goresby-Purrvis",
+						"Barbarus"
+					]
+				],
+				"version": "Pro"
 			}
 		],
 		"X": [
@@ -2192,14 +3812,54 @@
 				"name": "Dr Snapped",
 				"rank": "X",
 				"family": "Undead",
+				"synthesis": [["Darkonium Slime", "Murdaw"]]
+			},
+			{
+				"name": "Dr Snapped",
+				"rank": "X",
+				"family": "Undead",
 				"synthesis": [
-					["Darkonium Slime", "Rhapthorne II", "Orgodemir", "Captain Crow"],
-					["Darkonium Slime", "Murdaw"]
-				]
+					["Darkonium Slime", "Rhapthorne II", "Orgodemir", "Captain Crow"]
+				],
+				"version": "Non-Pro"
 			}
 		]
 	},
 	"???": {
+		"B": [
+			{
+				"name": "Leokid",
+				"rank": "B",
+				"family": "???",
+				"synthesis": [],
+				"version": "Pro"
+			}
+		],
+		"A": [
+			{
+				"name": "Stella",
+				"rank": "A",
+				"family": "???",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Zoma's Devil",
+				"rank": "A",
+				"family": "???",
+				"synthesis": [],
+				"version": "Pro"
+			}
+		],
+		"S": [
+			{
+				"name": "Darck",
+				"rank": "S",
+				"family": "???",
+				"synthesis": [["Murdaw", "Blackmar"]],
+				"version": "Pro"
+			}
+		],
 		"X": [
 			{
 				"name": "Nimzo",
@@ -2208,29 +3868,68 @@
 				"synthesis": [
 					["Baramos", "Khalamari"],
 					["Baramos", "Drakulard"]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Nimzo",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [
+					["Baramos", "Khalamari"],
+					["Baramos", "Mossferatu"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Zoma",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
-					["Malroth", "Captain Crow"],
 					["Malroth", "Dullahan"],
 					["Malroth", "Wight King"]
 				]
 			},
 			{
+				"name": "Zoma",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Malroth", "Captain Crow"]],
+				"version": "Non-Pro"
+			},
+			{
 				"name": "Mortamor",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Nimzo", "Estark"]]
+				"synthesis": [["Nimzo", "Estark"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Mortamor",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [
+					["Psaro The Manslayer", "Escudogre"],
+					["Psaro The Manslayer", "The Time Being"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Orgodemir",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Mortamor", "Alabast Dragon"]]
+				"synthesis": [["Mortamor", "Alabast Dragon"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Orgodemir",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [
+					["Tyrannosaurus Wrecks", "Bilhaw"],
+					["Tyrannosaurus Wrecks", "Triwinder"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Rhapthorne",
@@ -2239,7 +3938,21 @@
 				"synthesis": [
 					["Dhoulmagus", "Nimzo"],
 					["Dhoulmagus", "Mortamor"]
-				]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Rhapthorne",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Zoma", "Nimzo", "Mortamor", "Orgodemir"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Rhapthorne II",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Rhapthorne", "Estark"]]
 			},
 			{
 				"name": "Rhapthorne II",
@@ -2247,9 +3960,53 @@
 				"family": "???",
 				"synthesis": [
 					["Rhapthorne", "Zoma"],
-					["Rhapthorne", "Orgodemir"],
-					["Rhapthorne", "Estark"]
-				]
+					["Rhapthorne", "Orgodemir"]
+				],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Hihyurude",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [
+					["Aquarion", "Monkey Zombie", "Malevolynx", "Ace Of Spades"]
+				],
+				"version": "Pro"
+			},
+			{
+				"name": "Gadis",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Xiphos The Deathbringer", "Sagittar"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Malevolynx",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
+				"name": "Magarugi",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Rigor Mortex", "Orochi", "Pruslas", "Scruffy"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Corvus",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["King Godwyn Second Forme", "Magarugi"]],
+				"version": "Pro"
+			},
+			{
+				"name": "Hihyudorado",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [["Hihyurude", "Corvus"]],
+				"version": "Pro"
 			}
 		],
 		"???": [
@@ -2317,7 +4074,15 @@
 				"name": "Leonyx",
 				"rank": "???",
 				"family": "???",
-				"synthesis": [["Wildcard", "Orochi", "Marquis De Léon", "Don Mole"]]
+				"synthesis": [["Wildcard", "Orochi", "Marquis De Léon", "Don Mole"]],
+				"version": "Non-Pro"
+			},
+			{
+				"name": "Leonyx",
+				"rank": "???",
+				"family": "???",
+				"synthesis": [["Wildcard", "Leokid"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Rigor Mortex",

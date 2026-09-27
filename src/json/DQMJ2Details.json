@@ -1,0 +1,10527 @@
+{
+	"Weedie": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 340,
+			"attack": 550,
+			"defence": 660,
+			"agility": 670,
+			"wisdom": 500
+		},
+		"traits": [
+			{
+				"name": "Health Professional"
+			},
+			{
+				"name": "Crafty Whacker"
+			},
+			{
+				"name": "Whack Attack"
+			},
+			{
+				"name": "Immediate Accelerate"
+			}
+		]
+	},
+	"Small Fry": {
+		"size": "S",
+		"stats": {
+			"hp": 740,
+			"mp": 400,
+			"attack": 660,
+			"defence": 540,
+			"agility": 620,
+			"wisdom": 320
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Giant Killer"
+			},
+			{
+				"name": "Crafty Fire Breather"
+			}
+		]
+	},
+	"Cruelcumber": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 480,
+			"attack": 680,
+			"defence": 720,
+			"agility": 430,
+			"wisdom": 580
+		},
+		"traits": [
+			{
+				"name": "Last Word"
+			},
+			{
+				"name": "Crafty Dimmer"
+			},
+			{
+				"name": "Magic Drain Attack"
+			},
+			{
+				"name": "Counterslammer"
+			}
+		]
+	},
+	"Pickayune": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 380,
+			"attack": 620,
+			"defence": 650,
+			"agility": 590,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "Fly Swatter"
+			},
+			{
+				"name": "Able Ambusher"
+			},
+			{
+				"name": "Crafty Dazzler"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Wax Murderer": {
+		"size": "S",
+		"stats": {
+			"hp": 650,
+			"mp": 360,
+			"attack": 740,
+			"defence": 750,
+			"agility": 560,
+			"wisdom": 580
+		},
+		"traits": [
+			{
+				"name": "Frizzmeister"
+			},
+			{
+				"name": "Crafty Decelerater"
+			},
+			{
+				"name": "Protective Fog"
+			},
+			{
+				"name": "Crafty Frizzer"
+			}
+		]
+	},
+	"Winky": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 420,
+			"attack": 640,
+			"defence": 820,
+			"agility": 540,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "Desperado"
+			},
+			{
+				"name": "Crafty Fizzler"
+			},
+			{
+				"name": "Scare Stare"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Firespirit": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 480,
+			"attack": 360,
+			"defence": 670,
+			"agility": 580,
+			"wisdom": 700
+		},
+		"traits": [
+			{
+				"name": "Frizzmeister"
+			},
+			{
+				"name": "Crafty Frizzer"
+			},
+			{
+				"name": "Sizzmeister"
+			},
+			{
+				"name": "Magic Drain Attack"
+			}
+		]
+	},
+	"Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 280,
+			"attack": 680,
+			"defence": 570,
+			"agility": 780,
+			"wisdom": 500
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Crafty Frizzer"
+			},
+			{
+				"name": "Zapmeister"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Komodo": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 120,
+			"attack": 760,
+			"defence": 580,
+			"agility": 760,
+			"wisdom": 200
+		},
+		"traits": [
+			{
+				"name": "Crafty Fire Breather"
+			},
+			{
+				"name": "Escape Artist"
+			},
+			{
+				"name": "Lucky"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Swarmtroop": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 300,
+			"attack": 720,
+			"defence": 450,
+			"agility": 800,
+			"wisdom": 460
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Hit Squad (6)"
+			},
+			{
+				"name": "Random Brake Wind"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Platypunk": {
+		"size": "S",
+		"stats": {
+			"hp": 680,
+			"mp": 380,
+			"attack": 700,
+			"defence": 740,
+			"agility": 580,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (3)"
+			},
+			{
+				"name": "Strangely Alluring"
+			},
+			{
+				"name": "Enemy Tension Down"
+			},
+			{
+				"name": "Random Fizzle"
+			}
+		]
+	},
+	"Bag O' Laughs": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 480,
+			"attack": 520,
+			"defence": 580,
+			"agility": 670,
+			"wisdom": 700
+		},
+		"traits": [
+			{
+				"name": "Crafty Sleeper"
+			},
+			{
+				"name": "Crafty Inactivist"
+			},
+			{
+				"name": "Immediate Ping"
+			},
+			{
+				"name": "Metal Killer"
+			}
+		]
+	},
+	"Dracky": {
+		"size": "S",
+		"stats": {
+			"hp": 640,
+			"mp": 380,
+			"attack": 610,
+			"defence": 670,
+			"agility": 920,
+			"wisdom": 540
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Crafty Woosher"
+			},
+			{
+				"name": "Crafty Sapper"
+			},
+			{
+				"name": "Ally Tension Rise"
+			}
+		]
+	},
+	"Ghost": {
+		"size": "S",
+		"stats": {
+			"hp": 650,
+			"mp": 480,
+			"attack": 580,
+			"defence": 620,
+			"agility": 710,
+			"wisdom": 700
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Crafty Fizzler"
+			},
+			{
+				"name": "Crafty Sagger"
+			},
+			{
+				"name": "Sleep Attack"
+			}
+		]
+	},
+	"Bad Egg": {
+		"size": "S",
+		"stats": {
+			"hp": 680,
+			"mp": 380,
+			"attack": 600,
+			"defence": 880,
+			"agility": 580,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Crafty Gobstopper"
+			},
+			{
+				"name": "Crafty Dance Banner"
+			},
+			{
+				"name": "Magic Drain Body"
+			},
+			{
+				"name": "Rare Tension"
+			}
+		]
+	},
+	"Frou-Fry": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 260,
+			"attack": 700,
+			"defence": 660,
+			"agility": 470,
+			"wisdom": 300
+		},
+		"traits": [
+			{
+				"name": "Fly Swatter"
+			},
+			{
+				"name": "Crafty Fire Breather"
+			},
+			{
+				"name": "Immediate Oomph"
+			},
+			{
+				"name": "Crafty Confuser"
+			}
+		]
+	},
+	"Capsichum": {
+		"size": "S",
+		"stats": {
+			"hp": 740,
+			"mp": 440,
+			"attack": 560,
+			"defence": 600,
+			"agility": 560,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "Ally Tension Rise"
+			},
+			{
+				"name": "Crafty Blade Blunter"
+			},
+			{
+				"name": "Magic Regenerator"
+			},
+			{
+				"name": "Whack Attack"
+			}
+		]
+	},
+	"Mischievous Mole": {
+		"size": "S",
+		"stats": {
+			"hp": 710,
+			"mp": 280,
+			"attack": 720,
+			"defence": 700,
+			"agility": 640,
+			"wisdom": 440
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Item Chance Up"
+			},
+			{
+				"name": "Gold Up"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Mud Mannequin": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 360,
+			"attack": 690,
+			"defence": 800,
+			"agility": 560,
+			"wisdom": 280
+		},
+		"traits": [
+			{
+				"name": "Crafty Dance Banner"
+			},
+			{
+				"name": "Crafty Confuser"
+			},
+			{
+				"name": "Magic Drain Attack"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Lips": {
+		"size": "S",
+		"stats": {
+			"hp": 690,
+			"mp": 440,
+			"attack": 640,
+			"defence": 700,
+			"agility": 540,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "Crafty Confuser"
+			},
+			{
+				"name": "Crafty Sapper"
+			},
+			{
+				"name": "Random Fizzle"
+			},
+			{
+				"name": "Crafty Inactivist"
+			}
+		]
+	},
+	"Stump Chump": {
+		"size": "S",
+		"stats": {
+			"hp": 740,
+			"mp": 360,
+			"attack": 680,
+			"defence": 820,
+			"agility": 350,
+			"wisdom": 380
+		},
+		"traits": [
+			{
+				"name": "Crafty Abiliterator"
+			},
+			{
+				"name": "Crafty Magic Drainer"
+			},
+			{
+				"name": "Magic Drain Attack"
+			},
+			{
+				"name": "Magic Regenerator"
+			}
+		]
+	},
+	"Bubble Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 680,
+			"mp": 460,
+			"attack": 620,
+			"defence": 680,
+			"agility": 580,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Poison Body"
+			},
+			{
+				"name": "Crafty Zammer"
+			},
+			{
+				"name": "Poison Attack"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Dragonthorn": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 240,
+			"attack": 580,
+			"defence": 820,
+			"agility": 630,
+			"wisdom": 380
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Crafty Poisoner"
+			},
+			{
+				"name": "Sleep Attack"
+			},
+			{
+				"name": "Crafty Magic Drainer"
+			}
+		]
+	},
+	"Killerpillar": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 380,
+			"attack": 620,
+			"defence": 690,
+			"agility": 620,
+			"wisdom": 580
+		},
+		"traits": [
+			{
+				"name": "Desperado"
+			},
+			{
+				"name": "Poison Attack"
+			},
+			{
+				"name": "Immediate Buff"
+			},
+			{
+				"name": "Counterstriker"
+			}
+		]
+	},
+	"Satyr": {
+		"size": "S",
+		"stats": {
+			"hp": 740,
+			"mp": 340,
+			"attack": 640,
+			"defence": 700,
+			"agility": 520,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Scout Chance Up"
+			},
+			{
+				"name": "Random Fizzle"
+			},
+			{
+				"name": "Crafty Sleeper"
+			},
+			{
+				"name": "Crafty Confuser"
+			}
+		]
+	},
+	"Ticking Timeburrm": {
+		"size": "S",
+		"stats": {
+			"hp": 710,
+			"mp": 360,
+			"attack": 720,
+			"defence": 720,
+			"agility": 480,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "Donkmeister"
+			},
+			{
+				"name": "Random Oomph"
+			},
+			{
+				"name": "Random Tension"
+			},
+			{
+				"name": "Random Nether Fog"
+			}
+		]
+	},
+	"Tree Feller": {
+		"size": "S",
+		"stats": {
+			"hp": 640,
+			"mp": 480,
+			"attack": 620,
+			"defence": 680,
+			"agility": 710,
+			"wisdom": 500
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Hit Squad (4)"
+			},
+			{
+				"name": "Crafty Confuser"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Funghoul": {
+		"size": "S",
+		"stats": {
+			"hp": 680,
+			"mp": 400,
+			"attack": 660,
+			"defence": 700,
+			"agility": 600,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Crafty Poisoner"
+			},
+			{
+				"name": "Confusion Attack"
+			},
+			{
+				"name": "Crafty Dazzler"
+			},
+			{
+				"name": "Counterslammer"
+			}
+		]
+	},
+	"Healslime": {
+		"size": "S",
+		"stats": {
+			"hp": 640,
+			"mp": 480,
+			"attack": 490,
+			"defence": 660,
+			"agility": 840,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "Health Professional"
+			},
+			{
+				"name": "Crafty Magic Drainer"
+			},
+			{
+				"name": "Magic Drain Attack"
+			},
+			{
+				"name": "Scare Stare"
+			}
+		]
+	},
+	"Argon Lizard": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 160,
+			"attack": 760,
+			"defence": 620,
+			"agility": 620,
+			"wisdom": 240
+		},
+		"traits": [
+			{
+				"name": "Escape Artist"
+			},
+			{
+				"name": "Paralysis Attack"
+			},
+			{
+				"name": "Early Bird"
+			},
+			{
+				"name": "Crafty Dimmer"
+			}
+		]
+	},
+	"Army Ant": {
+		"size": "S",
+		"stats": {
+			"hp": 680,
+			"mp": 280,
+			"attack": 740,
+			"defence": 820,
+			"agility": 580,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "Immediate Buff"
+			},
+			{
+				"name": "Crafty Abiliterator"
+			},
+			{
+				"name": "Immediate Oomph"
+			},
+			{
+				"name": "Desperado"
+			}
+		]
+	},
+	"Hammerhood": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 160,
+			"attack": 800,
+			"defence": 640,
+			"agility": 540,
+			"wisdom": 360
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Ally Tension Rise"
+			},
+			{
+				"name": "Desperado"
+			},
+			{
+				"name": "Immediate Tension"
+			}
+		]
+	},
+	"Frostburn": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 380,
+			"attack": 680,
+			"defence": 630,
+			"agility": 600,
+			"wisdom": 500
+		},
+		"traits": [
+			{
+				"name": "Crackmeister"
+			},
+			{
+				"name": "Crafty Ice Breather"
+			},
+			{
+				"name": "Crafty Cracker"
+			},
+			{
+				"name": "Standard Killer"
+			}
+		]
+	},
+	"Conklave": {
+		"size": "S",
+		"stats": {
+			"hp": 680,
+			"mp": 320,
+			"attack": 660,
+			"defence": 660,
+			"agility": 840,
+			"wisdom": 440
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (4)"
+			},
+			{
+				"name": "Scout Chance Up"
+			},
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Muddy Hand": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 420,
+			"attack": 680,
+			"defence": 590,
+			"agility": 570,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "Crafty Abiliterator"
+			},
+			{
+				"name": "Crafty Blade Blunter"
+			},
+			{
+				"name": "Crafty Confuser"
+			},
+			{
+				"name": "Confusion Attack"
+			}
+		]
+	},
+	"She-Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 320,
+			"attack": 600,
+			"defence": 530,
+			"agility": 600,
+			"wisdom": 460
+		},
+		"traits": [
+			{
+				"name": "Frizzmeister"
+			},
+			{
+				"name": "Crafty Dazzler"
+			},
+			{
+				"name": "Crafty Fizzler"
+			},
+			{
+				"name": "Crafty Gobstopper"
+			}
+		]
+	},
+	"Jargon": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 160,
+			"attack": 780,
+			"defence": 800,
+			"agility": 300,
+			"wisdom": 440
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Rare Tension"
+			},
+			{
+				"name": "Standard Killer"
+			},
+			{
+				"name": "Desperado"
+			}
+		]
+	},
+	"Kingfuschia": {
+		"size": "S",
+		"stats": {
+			"hp": 640,
+			"mp": 360,
+			"attack": 640,
+			"defence": 600,
+			"agility": 950,
+			"wisdom": 580
+		},
+		"traits": [
+			{
+				"name": "Immediate Accelerate"
+			},
+			{
+				"name": "Crafty Fizzler"
+			},
+			{
+				"name": "Strangely Alluring"
+			},
+			{
+				"name": "Lucky"
+			}
+		]
+	},
+	"Scissor Beatle": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 280,
+			"attack": 660,
+			"defence": 920,
+			"agility": 320,
+			"wisdom": 320
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Crafty Paralyser"
+			},
+			{
+				"name": "Persistent"
+			},
+			{
+				"name": "Immediate Tension"
+			}
+		]
+	},
+	"Boppin' Badger": {
+		"size": "S",
+		"stats": {
+			"hp": 730,
+			"mp": 180,
+			"attack": 740,
+			"defence": 740,
+			"agility": 660,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "Enemy Tension Down"
+			},
+			{
+				"name": "Exp Up"
+			},
+			{
+				"name": "Scout Chance Up"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Spitnik": {
+		"size": "S",
+		"stats": {
+			"hp": 680,
+			"mp": 480,
+			"attack": 680,
+			"defence": 720,
+			"agility": 440,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "Bangmeister"
+			},
+			{
+				"name": "Crafty Banger"
+			},
+			{
+				"name": "Late Riser"
+			},
+			{
+				"name": "Counteractivist"
+			}
+		]
+	},
+	"See Urchin": {
+		"size": "S",
+		"stats": {
+			"hp": 670,
+			"mp": 480,
+			"attack": 480,
+			"defence": 500,
+			"agility": 900,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Health Professional"
+			},
+			{
+				"name": "Crafty Dance Banner"
+			},
+			{
+				"name": "Immediate Accelerate"
+			}
+		]
+	},
+	"Drohl Drone": {
+		"size": "S",
+		"stats": {
+			"hp": 680,
+			"mp": 400,
+			"attack": 610,
+			"defence": 620,
+			"agility": 780,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Flustered"
+			},
+			{
+				"name": "Magic Drain Body"
+			},
+			{
+				"name": "Crafty Devil"
+			},
+			{
+				"name": "Lucky"
+			}
+		]
+	},
+	"Drake Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 340,
+			"attack": 680,
+			"defence": 560,
+			"agility": 740,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Crafty Sizzer"
+			},
+			{
+				"name": "Immediate Accelerate"
+			},
+			{
+				"name": "Desperado"
+			}
+		]
+	},
+	"Dragonfry": {
+		"size": "S",
+		"stats": {
+			"hp": 740,
+			"mp": 360,
+			"attack": 620,
+			"defence": 480,
+			"agility": 840,
+			"wisdom": 320
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Zapmeister"
+			},
+			{
+				"name": "Crafty Saboteur"
+			},
+			{
+				"name": "Standard Killer"
+			}
+		]
+	},
+	"Hell Hornet": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 340,
+			"attack": 650,
+			"defence": 520,
+			"agility": 980,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Paralysis Attack"
+			},
+			{
+				"name": "Crafty Paralyser"
+			},
+			{
+				"name": "Random Nether Fog"
+			}
+		]
+	},
+	"Weaken Beakon": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 330,
+			"attack": 720,
+			"defence": 560,
+			"agility": 710,
+			"wisdom": 460
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Crafty Dimmer"
+			},
+			{
+				"name": "Escape Artist"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Cheeky Tiki": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 320,
+			"attack": 680,
+			"defence": 980,
+			"agility": 280,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Crafty Dazzler"
+			},
+			{
+				"name": "Immediate Brake Wind"
+			},
+			{
+				"name": "Immediate Accelerate"
+			},
+			{
+				"name": "Pressure"
+			}
+		]
+	},
+	"Heedoo Voodoo": {
+		"size": "S",
+		"stats": {
+			"hp": 690,
+			"mp": 480,
+			"attack": 600,
+			"defence": 550,
+			"agility": 530,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "Counterstriker"
+			},
+			{
+				"name": "Crafty Dance Banner"
+			},
+			{
+				"name": "Crafty Gobstopper"
+			},
+			{
+				"name": "Comeback Kid"
+			}
+		]
+	},
+	"Drooling Ghoul": {
+		"size": "S",
+		"stats": {
+			"hp": 630,
+			"mp": 480,
+			"attack": 660,
+			"defence": 540,
+			"agility": 670,
+			"wisdom": 780
+		},
+		"traits": [
+			{
+				"name": "Sleep Attack"
+			},
+			{
+				"name": "Crafty Decelerater"
+			},
+			{
+				"name": "Crafty Blade Blunter"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Wild Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 260,
+			"attack": 800,
+			"defence": 500,
+			"agility": 480,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Crafty Zapper"
+			},
+			{
+				"name": "Immediate Tension"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Boreal Serpent": {
+		"size": "M",
+		"stats": {
+			"hp": 1150,
+			"mp": 320,
+			"attack": 820,
+			"defence": 720,
+			"agility": 590,
+			"wisdom": 820
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Crackmeister"
+			},
+			{
+				"name": "Crafty Ice Breather"
+			}
+		]
+	},
+	"Bantamweight": {
+		"size": "M",
+		"stats": {
+			"hp": 1020,
+			"mp": 440,
+			"attack": 840,
+			"defence": 660,
+			"agility": 940,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Escape Artist"
+			},
+			{
+				"name": "Random Tension"
+			}
+		]
+	},
+	"Powie Yowie": {
+		"size": "S",
+		"stats": {
+			"hp": 740,
+			"mp": 260,
+			"attack": 760,
+			"defence": 680,
+			"agility": 460,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Crafty Ice Breather"
+			},
+			{
+				"name": "Crackmeister"
+			},
+			{
+				"name": "Counterstriker"
+			}
+		]
+	},
+	"Pocus Poppet": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 480,
+			"attack": 580,
+			"defence": 670,
+			"agility": 600,
+			"wisdom": 740
+		},
+		"traits": [
+			{
+				"name": "Crafty Saboteur"
+			},
+			{
+				"name": "Crafty Dimmer"
+			},
+			{
+				"name": "Counterslammer"
+			},
+			{
+				"name": "Metal Killer"
+			}
+		]
+	},
+	"Frogface": {
+		"size": "S",
+		"stats": {
+			"hp": 680,
+			"mp": 420,
+			"attack": 680,
+			"defence": 620,
+			"agility": 540,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Immediate Oomph"
+			},
+			{
+				"name": "Crafty Whacker"
+			},
+			{
+				"name": "Crafty Gobstopper"
+			},
+			{
+				"name": "Whack Attack"
+			}
+		]
+	},
+	"Mummy Boy": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 400,
+			"attack": 660,
+			"defence": 700,
+			"agility": 500,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "Sleep Attack"
+			},
+			{
+				"name": "Crafty Decelerater"
+			},
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Crafty Saboteur"
+			}
+		]
+	},
+	"Shell Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 480,
+			"attack": 420,
+			"defence": 960,
+			"agility": 240,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "Scout Chance Up"
+			},
+			{
+				"name": "Crafty Saboteur"
+			},
+			{
+				"name": "Immediate Buff"
+			},
+			{
+				"name": "Critical Guard"
+			}
+		]
+	},
+	"Nardragon": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 260,
+			"attack": 760,
+			"defence": 660,
+			"agility": 500,
+			"wisdom": 320
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Crafty Inactivist"
+			},
+			{
+				"name": "Crafty Abiliterator"
+			},
+			{
+				"name": "Whack Attack"
+			}
+		]
+	},
+	"Mental Pitcher": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 460,
+			"attack": 680,
+			"defence": 660,
+			"agility": 460,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "Poison Attack"
+			},
+			{
+				"name": "Sizzmeister"
+			},
+			{
+				"name": "Crafty Abiliterator"
+			},
+			{
+				"name": "Magic Drain Attack"
+			}
+		]
+	},
+	"Pan Piper": {
+		"size": "S",
+		"stats": {
+			"hp": 730,
+			"mp": 320,
+			"attack": 630,
+			"defence": 700,
+			"agility": 540,
+			"wisdom": 680
+		},
+		"traits": [
+			{
+				"name": "Sleep Attack"
+			},
+			{
+				"name": "Crafty Sleeper"
+			},
+			{
+				"name": "Desperado"
+			},
+			{
+				"name": "Ally Tension Rise"
+			}
+		]
+	},
+	"Axecutioner": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 240,
+			"attack": 740,
+			"defence": 660,
+			"agility": 440,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Crafty Decelerater"
+			},
+			{
+				"name": "Random Buff"
+			},
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Headhunter": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 340,
+			"attack": 800,
+			"defence": 660,
+			"agility": 700,
+			"wisdom": 240
+		},
+		"traits": [
+			{
+				"name": "Metal Beater"
+			},
+			{
+				"name": "Crafty Whacker"
+			},
+			{
+				"name": "Metal Killer"
+			},
+			{
+				"name": "Whack Attack"
+			}
+		]
+	},
+	"Demonrider": {
+		"size": "S",
+		"stats": {
+			"hp": 680,
+			"mp": 220,
+			"attack": 680,
+			"defence": 700,
+			"agility": 880,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Counterstriker"
+			},
+			{
+				"name": "Crafty Sagger"
+			},
+			{
+				"name": "Immediate Oomph"
+			},
+			{
+				"name": "Early Bird"
+			}
+		]
+	},
+	"Mottle Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 360,
+			"attack": 620,
+			"defence": 640,
+			"agility": 660,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Crafty Zapper"
+			},
+			{
+				"name": "Donkmeister"
+			},
+			{
+				"name": "Imaginative"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Snapdragon": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 230,
+			"attack": 720,
+			"defence": 810,
+			"agility": 400,
+			"wisdom": 500
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Immediate Brake Wind"
+			},
+			{
+				"name": "Frizzmeister"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Cactiball": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 230,
+			"attack": 800,
+			"defence": 630,
+			"agility": 580,
+			"wisdom": 500
+		},
+		"traits": [
+			{
+				"name": "Fly Swatter"
+			},
+			{
+				"name": "Crafty Dance Banner"
+			},
+			{
+				"name": "Counterstriker"
+			},
+			{
+				"name": "Crafty Saboteur"
+			}
+		]
+	},
+	"Vampire Cat": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 320,
+			"attack": 560,
+			"defence": 590,
+			"agility": 860,
+			"wisdom": 780
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Early Bird"
+			},
+			{
+				"name": "Random Fizzle"
+			},
+			{
+				"name": "Crafty Fizzler"
+			}
+		]
+	},
+	"Rockbomb": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 210,
+			"attack": 710,
+			"defence": 940,
+			"agility": 240,
+			"wisdom": 680
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Random Tension"
+			},
+			{
+				"name": "Rare Tension"
+			},
+			{
+				"name": "Crafty Whacker"
+			}
+		]
+	},
+	"Lump Wizard": {
+		"size": "S",
+		"stats": {
+			"hp": 680,
+			"mp": 480,
+			"attack": 460,
+			"defence": 720,
+			"agility": 680,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "Health Professional"
+			},
+			{
+				"name": "Crafty Magic Drainer"
+			},
+			{
+				"name": "Wooshmeister"
+			},
+			{
+				"name": "Magic Drain Attack"
+			}
+		]
+	},
+	"Swingin' Hipster": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 360,
+			"attack": 660,
+			"defence": 480,
+			"agility": 880,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Imaginative"
+			},
+			{
+				"name": "Metal Killer"
+			},
+			{
+				"name": "Sleep Attack"
+			}
+		]
+	},
+	"Drohl Diabolist": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 360,
+			"attack": 540,
+			"defence": 570,
+			"agility": 680,
+			"wisdom": 620
+		},
+		"traits": [
+			{
+				"name": "Scout Chance Up"
+			},
+			{
+				"name": "Crafty Magic Drainer"
+			},
+			{
+				"name": "Magic Counter"
+			},
+			{
+				"name": "Crafty Devil"
+			}
+		]
+	},
+	"Drag Racer": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 140,
+			"attack": 740,
+			"defence": 580,
+			"agility": 920,
+			"wisdom": 200
+		},
+		"traits": [
+			{
+				"name": "Immediate Tension"
+			},
+			{
+				"name": "Crafty Fire Breather"
+			},
+			{
+				"name": "Crafty Ice Breather"
+			},
+			{
+				"name": "Critical Massacre"
+			}
+		]
+	},
+	"Great Sabrecub": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 180,
+			"attack": 740,
+			"defence": 740,
+			"agility": 720,
+			"wisdom": 440
+		},
+		"traits": [
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Crafty Gobstopper"
+			},
+			{
+				"name": "Crafty Whacker"
+			},
+			{
+				"name": "Crafty Saboteur"
+			}
+		]
+	},
+	"Snowbird": {
+		"size": "S",
+		"stats": {
+			"hp": 680,
+			"mp": 400,
+			"attack": 660,
+			"defence": 560,
+			"agility": 680,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Crafty Ice Breather"
+			},
+			{
+				"name": "Random Fizzle"
+			},
+			{
+				"name": "Close Scraper"
+			}
+		]
+	},
+	"Dancing Flame": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 420,
+			"attack": 660,
+			"defence": 700,
+			"agility": 600,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Frizzmeister"
+			},
+			{
+				"name": "Crafty Frizzer"
+			},
+			{
+				"name": "Crafty Fire Breather"
+			},
+			{
+				"name": "Standard Killer"
+			}
+		]
+	},
+	"Imp": {
+		"size": "S",
+		"stats": {
+			"hp": 680,
+			"mp": 280,
+			"attack": 680,
+			"defence": 680,
+			"agility": 680,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "Bangmeister"
+			},
+			{
+				"name": "Crafty Banger"
+			},
+			{
+				"name": "Crafty Fire Breather"
+			},
+			{
+				"name": "Disruptive Wave"
+			}
+		]
+	},
+	"Skipper": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 380,
+			"attack": 600,
+			"defence": 860,
+			"agility": 680,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Escape Artist"
+			},
+			{
+				"name": "Crafty Dance Banner"
+			},
+			{
+				"name": "Rare Tension"
+			},
+			{
+				"name": "Early Bird"
+			}
+		]
+	},
+	"Snail Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 400,
+			"attack": 640,
+			"defence": 1000,
+			"agility": 160,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "Escape Artist"
+			},
+			{
+				"name": "Magic Barrier"
+			},
+			{
+				"name": "Early Bird"
+			},
+			{
+				"name": "Light Metal Body"
+			}
+		]
+	},
+	"Green Dragon": {
+		"size": "M",
+		"stats": {
+			"hp": 1300,
+			"mp": 240,
+			"attack": 760,
+			"defence": 670,
+			"agility": 460,
+			"wisdom": 540
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Able Ambusher"
+			},
+			{
+				"name": "Crafty Fire Breather"
+			},
+			{
+				"name": "Crafty Zapper"
+			}
+		]
+	},
+	"Chimaera": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 420,
+			"attack": 680,
+			"defence": 640,
+			"agility": 600,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Giant Killer"
+			},
+			{
+				"name": "Desperado"
+			}
+		]
+	},
+	"Chainine": {
+		"size": "S",
+		"stats": {
+			"hp": 680,
+			"mp": 300,
+			"attack": 700,
+			"defence": 700,
+			"agility": 680,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Immediate Fizzle"
+			},
+			{
+				"name": "Crafty Dimmer"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Dingaling": {
+		"size": "S",
+		"stats": {
+			"hp": 640,
+			"mp": 420,
+			"attack": 560,
+			"defence": 880,
+			"agility": 640,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "Confusion Attack"
+			},
+			{
+				"name": "Gambling Body"
+			},
+			{
+				"name": "Crafty Donker"
+			},
+			{
+				"name": "Lucky"
+			}
+		]
+	},
+	"Gruffon": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 400,
+			"attack": 560,
+			"defence": 800,
+			"agility": 300,
+			"wisdom": 360
+		},
+		"traits": [
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Restless"
+			},
+			{
+				"name": "Crafty Donker"
+			},
+			{
+				"name": "Random Oomph"
+			}
+		]
+	},
+	"Hellhound": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 180,
+			"attack": 700,
+			"defence": 820,
+			"agility": 740,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Fly Swatter"
+			},
+			{
+				"name": "Random Accelerate"
+			},
+			{
+				"name": "Intimidating"
+			}
+		]
+	},
+	"Snowmangler": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 400,
+			"attack": 700,
+			"defence": 740,
+			"agility": 480,
+			"wisdom": 680
+		},
+		"traits": [
+			{
+				"name": "Crackmeister"
+			},
+			{
+				"name": "Crafty Cracker"
+			},
+			{
+				"name": "Crafty Whacker"
+			},
+			{
+				"name": "Immediate Accelerate"
+			}
+		]
+	},
+	"Damselfly": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 420,
+			"attack": 580,
+			"defence": 460,
+			"agility": 940,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Crafty Dazzler"
+			},
+			{
+				"name": "Crafty Sleeper"
+			},
+			{
+				"name": "Crafty Inactivist"
+			}
+		]
+	},
+	"Bullfinch": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 380,
+			"attack": 720,
+			"defence": 680,
+			"agility": 600,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "Counterstriker"
+			},
+			{
+				"name": "Crafty Sleeper"
+			},
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Immediate Tension"
+			}
+		]
+	},
+	"Teeny Sanguini": {
+		"size": "S",
+		"stats": {
+			"hp": 600,
+			"mp": 480,
+			"attack": 600,
+			"defence": 640,
+			"agility": 880,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Strangely Alluring"
+			},
+			{
+				"name": "Early Bird"
+			},
+			{
+				"name": "Wave of Relief"
+			}
+		]
+	},
+	"Goodybag": {
+		"size": "S",
+		"stats": {
+			"hp": 620,
+			"mp": 480,
+			"attack": 560,
+			"defence": 780,
+			"agility": 680,
+			"wisdom": 760
+		},
+		"traits": [
+			{
+				"name": "Close Scraper"
+			},
+			{
+				"name": "Crafty Confuser"
+			},
+			{
+				"name": "Crafty Saboteur"
+			},
+			{
+				"name": "Magic Counter"
+			}
+		]
+	},
+	"Dancing Devil": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 460,
+			"attack": 420,
+			"defence": 700,
+			"agility": 720,
+			"wisdom": 680
+		},
+		"traits": [
+			{
+				"name": "Enemy Tension Reset"
+			},
+			{
+				"name": "Crafty Donker"
+			},
+			{
+				"name": "Crafty Dimmer"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Flyguy": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 360,
+			"attack": 640,
+			"defence": 660,
+			"agility": 890,
+			"wisdom": 420
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Crafty Dimmer"
+			},
+			{
+				"name": "Poison Body"
+			},
+			{
+				"name": "Crafty Poisoner"
+			}
+		]
+	},
+	"Slime Knight": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 420,
+			"attack": 660,
+			"defence": 740,
+			"agility": 560,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Counterstriker"
+			},
+			{
+				"name": "Crafty Banger"
+			},
+			{
+				"name": "Crafty Sapper"
+			},
+			{
+				"name": "Immediate Oomph"
+			}
+		]
+	},
+	"Skelegon": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 240,
+			"attack": 720,
+			"defence": 600,
+			"agility": 480,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "Crackmeister"
+			},
+			{
+				"name": "Zammeister"
+			},
+			{
+				"name": "Steady Recovery"
+			},
+			{
+				"name": "Crafty Ice Breather"
+			}
+		]
+	},
+	"Wild Boarfish": {
+		"size": "S",
+		"stats": {
+			"hp": 620,
+			"mp": 440,
+			"attack": 680,
+			"defence": 680,
+			"agility": 680,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Paralysing Body"
+			},
+			{
+				"name": "Crafty Inactivist"
+			},
+			{
+				"name": "Poison Attack"
+			},
+			{
+				"name": "Crafty Paralyser"
+			}
+		]
+	},
+	"Night Emperor": {
+		"size": "S",
+		"stats": {
+			"hp": 680,
+			"mp": 440,
+			"attack": 680,
+			"defence": 680,
+			"agility": 460,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Crafty Sleeper"
+			},
+			{
+				"name": "Restless"
+			},
+			{
+				"name": "Counterslammer"
+			}
+		]
+	},
+	"Cannibox": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 280,
+			"attack": 720,
+			"defence": 800,
+			"agility": 490,
+			"wisdom": 460
+		},
+		"traits": [
+			{
+				"name": "Desperado"
+			},
+			{
+				"name": "Item Chance Up"
+			},
+			{
+				"name": "Crafty Sleeper"
+			},
+			{
+				"name": "Crafty Whacker"
+			}
+		]
+	},
+	"Dessert Demon": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 340,
+			"attack": 680,
+			"defence": 640,
+			"agility": 360,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Crafty Donker"
+			},
+			{
+				"name": "Close Scraper"
+			},
+			{
+				"name": "Metal Killer"
+			}
+		]
+	},
+	"Hyper Heyedra": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 280,
+			"attack": 680,
+			"defence": 480,
+			"agility": 580,
+			"wisdom": 760
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (3)"
+			},
+			{
+				"name": "Crafty Zammer"
+			},
+			{
+				"name": "Counterslammer"
+			},
+			{
+				"name": "Paralysing Body"
+			}
+		]
+	},
+	"Metal Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 20,
+			"mp": 480,
+			"attack": 500,
+			"defence": 1200,
+			"agility": 1200,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "Metal Body"
+			},
+			{
+				"name": "Flustered"
+			},
+			{
+				"name": "Crafty Zapper"
+			},
+			{
+				"name": "Comeback Kid"
+			}
+		]
+	},
+	"Rubble Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 220,
+			"attack": 640,
+			"defence": 860,
+			"agility": 480,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Gambling Body"
+			},
+			{
+				"name": "Immediate Buff"
+			},
+			{
+				"name": "Steady Recovery"
+			},
+			{
+				"name": "Critical Guard"
+			}
+		]
+	},
+	"Dragurn": {
+		"size": "S",
+		"stats": {
+			"hp": 790,
+			"mp": 180,
+			"attack": 680,
+			"defence": 880,
+			"agility": 480,
+			"wisdom": 320
+		},
+		"traits": [
+			{
+				"name": "Exp Up"
+			},
+			{
+				"name": "Gold Up"
+			},
+			{
+				"name": "Item Chance Up"
+			},
+			{
+				"name": "Scout Chance Up"
+			}
+		]
+	},
+	"Jailcat": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 300,
+			"attack": 660,
+			"defence": 660,
+			"agility": 700,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Crackmeister"
+			},
+			{
+				"name": "Strangely Alluring"
+			},
+			{
+				"name": "Restless"
+			},
+			{
+				"name": "Late Riser"
+			}
+		]
+	},
+	"Sea Dog": {
+		"size": "S",
+		"stats": {
+			"hp": 680,
+			"mp": 400,
+			"attack": 720,
+			"defence": 560,
+			"agility": 680,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "Wooshmeister"
+			},
+			{
+				"name": "Giant Killer"
+			},
+			{
+				"name": "Fly Swatter"
+			},
+			{
+				"name": "Enemy Tension Reset"
+			}
+		]
+	},
+	"Shadow": {
+		"size": "S",
+		"stats": {
+			"hp": 620,
+			"mp": 480,
+			"attack": 540,
+			"defence": 650,
+			"agility": 860,
+			"wisdom": 740
+		},
+		"traits": [
+			{
+				"name": "Zammeister"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Counterslammer"
+			},
+			{
+				"name": "Magic Drain Body"
+			}
+		]
+	},
+	"Anchorman": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 300,
+			"attack": 700,
+			"defence": 930,
+			"agility": 300,
+			"wisdom": 580
+		},
+		"traits": [
+			{
+				"name": "Crafty Sapper"
+			},
+			{
+				"name": "Crafty Donker"
+			},
+			{
+				"name": "Magic Barrier"
+			},
+			{
+				"name": "Desperado"
+			}
+		]
+	},
+	"Lesser Demon": {
+		"size": "S",
+		"stats": {
+			"hp": 680,
+			"mp": 480,
+			"attack": 580,
+			"defence": 600,
+			"agility": 580,
+			"wisdom": 760
+		},
+		"traits": [
+			{
+				"name": "Crafty Donker"
+			},
+			{
+				"name": "Crafty Saboteur"
+			},
+			{
+				"name": "Crafty Sizzer"
+			},
+			{
+				"name": "Enemy Tension Reset"
+			}
+		]
+	},
+	"Discombombulator": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 420,
+			"attack": 660,
+			"defence": 580,
+			"agility": 560,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Hit Squad (3)"
+			},
+			{
+				"name": "Confusion Attack"
+			},
+			{
+				"name": "Metal Killer"
+			}
+		]
+	},
+	"Angel Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 480,
+			"attack": 480,
+			"defence": 620,
+			"agility": 820,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Health Professional"
+			},
+			{
+				"name": "Comeback Kid"
+			},
+			{
+				"name": "Lucky"
+			}
+		]
+	},
+	"Gasbagon": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 320,
+			"attack": 680,
+			"defence": 880,
+			"agility": 240,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "Last Word"
+			},
+			{
+				"name": "Crafty Frizzer"
+			},
+			{
+				"name": "Zapmeister"
+			},
+			{
+				"name": "Magic Regenerator"
+			}
+		]
+	},
+	"Spiked Hare": {
+		"size": "S",
+		"stats": {
+			"hp": 730,
+			"mp": 260,
+			"attack": 620,
+			"defence": 660,
+			"agility": 780,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Crafty Zapper"
+			},
+			{
+				"name": "Confused Frenzy"
+			},
+			{
+				"name": "Whack Attack"
+			}
+		]
+	},
+	"Rockin' Rockhopper": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 420,
+			"attack": 560,
+			"defence": 640,
+			"agility": 860,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Lucky"
+			},
+			{
+				"name": "Wooshmeister"
+			},
+			{
+				"name": "Crafty Woosher"
+			},
+			{
+				"name": "Persistent"
+			}
+		]
+	},
+	"Fencing Fox": {
+		"size": "S",
+		"stats": {
+			"hp": 620,
+			"mp": 360,
+			"attack": 710,
+			"defence": 660,
+			"agility": 860,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Early Bird"
+			},
+			{
+				"name": "Donkmeister"
+			},
+			{
+				"name": "Fly Swatter"
+			},
+			{
+				"name": "Counterstriker"
+			}
+		]
+	},
+	"Moai Minstrel": {
+		"size": "M",
+		"stats": {
+			"hp": 1100,
+			"mp": 520,
+			"attack": 740,
+			"defence": 820,
+			"agility": 420,
+			"wisdom": 880
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Crafty Blade Blunter"
+			},
+			{
+				"name": "Crafty Gobstopper"
+			},
+			{
+				"name": "Crafty Dance Banner"
+			}
+		]
+	},
+	"Foo Dog": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 380,
+			"attack": 650,
+			"defence": 580,
+			"agility": 560,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Last Word"
+			},
+			{
+				"name": "Persistent"
+			},
+			{
+				"name": "Immediate Buff"
+			},
+			{
+				"name": "Crafty Donker"
+			}
+		]
+	},
+	"Cross Eye": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 380,
+			"attack": 680,
+			"defence": 680,
+			"agility": 260,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Restless"
+			},
+			{
+				"name": "Crafty Paralyser"
+			},
+			{
+				"name": "Immediate Tension"
+			}
+		]
+	},
+	"Skeleton": {
+		"size": "S",
+		"stats": {
+			"hp": 790,
+			"mp": 240,
+			"attack": 720,
+			"defence": 620,
+			"agility": 480,
+			"wisdom": 440
+		},
+		"traits": [
+			{
+				"name": "Crafty Abiliterator"
+			},
+			{
+				"name": "Counterstriker"
+			},
+			{
+				"name": "Close Scraper"
+			},
+			{
+				"name": "Disruptive Wave"
+			}
+		]
+	},
+	"Mottle King Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 260,
+			"attack": 720,
+			"defence": 640,
+			"agility": 340,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Magic Barrier"
+			},
+			{
+				"name": "Crafty Sleeper"
+			},
+			{
+				"name": "Confused Frenzy"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Seasaur": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 180,
+			"attack": 780,
+			"defence": 880,
+			"agility": 280,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Protective Fog"
+			},
+			{
+				"name": "Crafty Ice Breather"
+			},
+			{
+				"name": "Steady Recovery"
+			}
+		]
+	},
+	"Boring Bug": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 360,
+			"attack": 680,
+			"defence": 680,
+			"agility": 650,
+			"wisdom": 700
+		},
+		"traits": [
+			{
+				"name": "Crafty Decelerater"
+			},
+			{
+				"name": "Crafty Sagger"
+			},
+			{
+				"name": "Crafty Sapper"
+			},
+			{
+				"name": "Immediate Oomph"
+			}
+		]
+	},
+	"Orc": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 360,
+			"attack": 700,
+			"defence": 600,
+			"agility": 580,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Health Professional"
+			},
+			{
+				"name": "Immediate Ping"
+			},
+			{
+				"name": "Crafty Blade Blunter"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Chariot Chappie": {
+		"size": "S",
+		"stats": {
+			"hp": 630,
+			"mp": 380,
+			"attack": 720,
+			"defence": 780,
+			"agility": 640,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Crafty Abiliterator"
+			},
+			{
+				"name": "Random Accelerate"
+			},
+			{
+				"name": "Whack Attack"
+			},
+			{
+				"name": "Crafty Whacker"
+			}
+		]
+	},
+	"Gold Golem": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 300,
+			"attack": 700,
+			"defence": 840,
+			"agility": 320,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Crafty Decelerater"
+			},
+			{
+				"name": "Crafty Magic Drainer"
+			},
+			{
+				"name": "Crafty Gobstopper"
+			}
+		]
+	},
+	"Silvapithecus": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 440,
+			"attack": 520,
+			"defence": 700,
+			"agility": 600,
+			"wisdom": 760
+		},
+		"traits": [
+			{
+				"name": "Crafty Fizzler"
+			},
+			{
+				"name": "Sizzmeister"
+			},
+			{
+				"name": "Crafty Sizzer"
+			},
+			{
+				"name": "Magic Counter"
+			}
+		]
+	},
+	"Behemoth Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 420,
+			"attack": 660,
+			"defence": 680,
+			"agility": 160,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Desperado"
+			},
+			{
+				"name": "Crafty Dance Banner"
+			},
+			{
+				"name": "Restless"
+			}
+		]
+	},
+	"Red Dragon": {
+		"size": "M",
+		"stats": {
+			"hp": 1200,
+			"mp": 240,
+			"attack": 960,
+			"defence": 680,
+			"agility": 380,
+			"wisdom": 680
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Crafty Sleeper"
+			},
+			{
+				"name": "Crafty Ice Breather"
+			},
+			{
+				"name": "Immediate Nether Fog"
+			}
+		]
+	},
+	"Crabid": {
+		"size": "S",
+		"stats": {
+			"hp": 680,
+			"mp": 260,
+			"attack": 640,
+			"defence": 980,
+			"agility": 680,
+			"wisdom": 440
+		},
+		"traits": [
+			{
+				"name": "Close Scraper"
+			},
+			{
+				"name": "Crafty Magic Drainer"
+			},
+			{
+				"name": "Immediate Buff"
+			},
+			{
+				"name": "Lucky"
+			}
+		]
+	},
+	"Scorpion": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 300,
+			"attack": 700,
+			"defence": 1000,
+			"agility": 520,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Paralysis Attack"
+			},
+			{
+				"name": "Crafty Poisoner"
+			},
+			{
+				"name": "Light Metal Body"
+			}
+		]
+	},
+	"Weartiger": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 320,
+			"attack": 680,
+			"defence": 770,
+			"agility": 540,
+			"wisdom": 580
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Scare Stare"
+			},
+			{
+				"name": "Crafty Dance Banner"
+			}
+		]
+	},
+	"Brownie": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 220,
+			"attack": 880,
+			"defence": 700,
+			"agility": 440,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Scout Chance Up"
+			},
+			{
+				"name": "Desperado"
+			},
+			{
+				"name": "Immediate Tension"
+			}
+		]
+	},
+	"Mecha-Mynah": {
+		"size": "S",
+		"stats": {
+			"hp": 680,
+			"mp": 360,
+			"attack": 620,
+			"defence": 940,
+			"agility": 520,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Exp Up"
+			},
+			{
+				"name": "Electrifying"
+			},
+			{
+				"name": "Metal Killer"
+			}
+		]
+	},
+	"Wrecktor": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 480,
+			"attack": 540,
+			"defence": 560,
+			"agility": 520,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "Zammeister"
+			},
+			{
+				"name": "Crafty Dimmer"
+			},
+			{
+				"name": "Crafty Banger"
+			},
+			{
+				"name": "Wave of Relief"
+			}
+		]
+	},
+	"Phantom Fencer": {
+		"size": "S",
+		"stats": {
+			"hp": 620,
+			"mp": 380,
+			"attack": 760,
+			"defence": 480,
+			"agility": 860,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Giant Killer"
+			},
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Fly Swatter"
+			}
+		]
+	},
+	"Metal Slime Knight": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 320,
+			"attack": 660,
+			"defence": 860,
+			"agility": 680,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Light Metal Body"
+			},
+			{
+				"name": "Counterstriker"
+			},
+			{
+				"name": "Crafty Paralyser"
+			},
+			{
+				"name": "Immediate Oomph"
+			}
+		]
+	},
+	"Sentripede": {
+		"size": "S",
+		"stats": {
+			"hp": 740,
+			"mp": 260,
+			"attack": 700,
+			"defence": 1030,
+			"agility": 280,
+			"wisdom": 420
+		},
+		"traits": [
+			{
+				"name": "Paralysis Attack"
+			},
+			{
+				"name": "Random Buff"
+			},
+			{
+				"name": "Paralysing Body"
+			},
+			{
+				"name": "Light Metal Body"
+			}
+		]
+	},
+	"Eveel": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 320,
+			"attack": 680,
+			"defence": 680,
+			"agility": 680,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "Poison Attack"
+			},
+			{
+				"name": "Crafty Sagger"
+			},
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Crafty Decelerater"
+			}
+		]
+	},
+	"Battering Ram": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 340,
+			"attack": 680,
+			"defence": 820,
+			"agility": 500,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "Random Fizzle"
+			},
+			{
+				"name": "Imaginative"
+			},
+			{
+				"name": "Crafty Fizzler"
+			},
+			{
+				"name": "Close Scraper"
+			}
+		]
+	},
+	"Firn Fiend": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 360,
+			"attack": 660,
+			"defence": 660,
+			"agility": 480,
+			"wisdom": 680
+		},
+		"traits": [
+			{
+				"name": "Crackmeister"
+			},
+			{
+				"name": "Crafty Ice Breather"
+			},
+			{
+				"name": "Immediate Oomph"
+			},
+			{
+				"name": "Crafty Cracker"
+			}
+		]
+	},
+	"Prickly Prankster": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 260,
+			"attack": 730,
+			"defence": 420,
+			"agility": 920,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "Zapmeister"
+			},
+			{
+				"name": "Random Accelerate"
+			},
+			{
+				"name": "Crafty Zapper"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Bona Constrictor": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 340,
+			"attack": 640,
+			"defence": 640,
+			"agility": 680,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "Crafty Dance Banner"
+			},
+			{
+				"name": "Crafty Cracker"
+			},
+			{
+				"name": "Random Accelerate"
+			},
+			{
+				"name": "Close Scraper"
+			}
+		]
+	},
+	"Beshemoth Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 280,
+			"attack": 700,
+			"defence": 740,
+			"agility": 280,
+			"wisdom": 440
+		},
+		"traits": [
+			{
+				"name": "Frizzmeister"
+			},
+			{
+				"name": "Desperado"
+			},
+			{
+				"name": "Crafty Inactivist"
+			},
+			{
+				"name": "Crafty Paralyser"
+			}
+		]
+	},
+	"Quayhorse": {
+		"size": "S",
+		"stats": {
+			"hp": 680,
+			"mp": 280,
+			"attack": 740,
+			"defence": 680,
+			"agility": 620,
+			"wisdom": 680
+		},
+		"traits": [
+			{
+				"name": "Fly Swatter"
+			},
+			{
+				"name": "Crafty Blade Blunter"
+			},
+			{
+				"name": "Standard Killer"
+			},
+			{
+				"name": "Critical Guard"
+			}
+		]
+	},
+	"Khalamari Kid": {
+		"size": "S",
+		"stats": {
+			"hp": 680,
+			"mp": 400,
+			"attack": 680,
+			"defence": 660,
+			"agility": 540,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Strangely Alluring"
+			},
+			{
+				"name": "Crafty Magic Drainer"
+			},
+			{
+				"name": "Crafty Cracker"
+			},
+			{
+				"name": "Magic Drain Attack"
+			}
+		]
+	},
+	"Wormonger": {
+		"size": "L",
+		"stats": {
+			"hp": 1950,
+			"mp": 220,
+			"attack": 680,
+			"defence": 620,
+			"agility": 540,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "1-3 Giga Moves"
+			},
+			{
+				"name": "Poison Body"
+			},
+			{
+				"name": "Paralysing Body"
+			},
+			{
+				"name": "Crafty Donker"
+			}
+		]
+	},
+	"Bodkin Archer": {
+		"size": "S",
+		"stats": {
+			"hp": 740,
+			"mp": 360,
+			"attack": 620,
+			"defence": 680,
+			"agility": 620,
+			"wisdom": 360
+		},
+		"traits": [
+			{
+				"name": "Crafty Poisoner"
+			},
+			{
+				"name": "Rare Tension"
+			},
+			{
+				"name": "Poison Attack"
+			},
+			{
+				"name": "Critical Massacre"
+			}
+		]
+	},
+	"Harmour": {
+		"size": "S",
+		"stats": {
+			"hp": 750,
+			"mp": 220,
+			"attack": 740,
+			"defence": 940,
+			"agility": 280,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Crafty Zammer"
+			},
+			{
+				"name": "Gambling Body"
+			},
+			{
+				"name": "Metal Beater"
+			},
+			{
+				"name": "Critical Guard"
+			}
+		]
+	},
+	"Robbin' Huddle": {
+		"size": "S",
+		"stats": {
+			"hp": 740,
+			"mp": 280,
+			"attack": 720,
+			"defence": 600,
+			"agility": 600,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Crafty Zapper"
+			},
+			{
+				"name": "Random Accelerate"
+			},
+			{
+				"name": "Donkmeister"
+			}
+		]
+	},
+	"Dangler Fish": {
+		"size": "S",
+		"stats": {
+			"hp": 640,
+			"mp": 400,
+			"attack": 700,
+			"defence": 620,
+			"agility": 660,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "Sizzmeister"
+			},
+			{
+				"name": "Crafty Paralyser"
+			},
+			{
+				"name": "Crafty Gobstopper"
+			},
+			{
+				"name": "Immediate Oomph"
+			}
+		]
+	},
+	"Dragon Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 400,
+			"attack": 780,
+			"defence": 680,
+			"agility": 800,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Crafty Sapper"
+			},
+			{
+				"name": "Protective Fog"
+			},
+			{
+				"name": "Crafty Fire Breather"
+			}
+		]
+	},
+	"Hacksaurus": {
+		"size": "S",
+		"stats": {
+			"hp": 880,
+			"mp": 160,
+			"attack": 900,
+			"defence": 640,
+			"agility": 700,
+			"wisdom": 440
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Giant Killer"
+			},
+			{
+				"name": "Scare Stare"
+			},
+			{
+				"name": "Hopeful Hitter"
+			}
+		]
+	},
+	"Hades Condor": {
+		"size": "S",
+		"stats": {
+			"hp": 840,
+			"mp": 440,
+			"attack": 730,
+			"defence": 660,
+			"agility": 630,
+			"wisdom": 420
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Crafty Dazzler"
+			},
+			{
+				"name": "Crafty Dimmer"
+			},
+			{
+				"name": "Immediate Accelerate"
+			}
+		]
+	},
+	"Bewarewolf": {
+		"size": "S",
+		"stats": {
+			"hp": 740,
+			"mp": 400,
+			"attack": 780,
+			"defence": 680,
+			"agility": 780,
+			"wisdom": 840
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (3)"
+			},
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Immediate Buff"
+			},
+			{
+				"name": "Immediate Tension"
+			}
+		]
+	},
+	"Mortoad": {
+		"size": "M",
+		"stats": {
+			"hp": 1400,
+			"mp": 580,
+			"attack": 760,
+			"defence": 620,
+			"agility": 440,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Hit Squad (4)"
+			},
+			{
+				"name": "Imaginative"
+			},
+			{
+				"name": "Paralysing Body"
+			}
+		]
+	},
+	"Puppeteer": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 540,
+			"attack": 720,
+			"defence": 710,
+			"agility": 720,
+			"wisdom": 900
+		},
+		"traits": [
+			{
+				"name": "Ally Tension Rise"
+			},
+			{
+				"name": "Enemy Tension Reset"
+			},
+			{
+				"name": "Enemy Tension Rise"
+			},
+			{
+				"name": "Enemy Tension Down"
+			}
+		]
+	},
+	"Aggrosculpture": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 400,
+			"attack": 800,
+			"defence": 900,
+			"agility": 480,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Bangmeister"
+			},
+			{
+				"name": "Crafty Banger"
+			},
+			{
+				"name": "Poison Attack"
+			},
+			{
+				"name": "Crafty Poisoner"
+			}
+		]
+	},
+	"DarkCrab": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 320,
+			"attack": 620,
+			"defence": 980,
+			"agility": 360,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "1-2 Moves"
+			},
+			{
+				"name": "Close Scraper"
+			},
+			{
+				"name": "Unlucky"
+			},
+			{
+				"name": "Light Metal Body"
+			}
+		]
+	},
+	"Slime Stack": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 420,
+			"attack": 760,
+			"defence": 730,
+			"agility": 660,
+			"wisdom": 660
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (3)"
+			},
+			{
+				"name": "Exp Up"
+			},
+			{
+				"name": "Protective Fog"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Armoured Wartoise": {
+		"size": "S",
+		"stats": {
+			"hp": 860,
+			"mp": 540,
+			"attack": 460,
+			"defence": 960,
+			"agility": 380,
+			"wisdom": 840
+		},
+		"traits": [
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Counterslammer"
+			},
+			{
+				"name": "Enemy Tension Down"
+			},
+			{
+				"name": "Critical Guard"
+			}
+		]
+	},
+	"Whackanape": {
+		"size": "S",
+		"stats": {
+			"hp": 880,
+			"mp": 200,
+			"attack": 840,
+			"defence": 600,
+			"agility": 760,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (3)"
+			},
+			{
+				"name": "Hopeful Hitter"
+			},
+			{
+				"name": "Immediate Tension"
+			},
+			{
+				"name": "Donkmeister"
+			}
+		]
+	},
+	"Great Sabrecat": {
+		"size": "S",
+		"stats": {
+			"hp": 860,
+			"mp": 120,
+			"attack": 900,
+			"defence": 560,
+			"agility": 960,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Early Bird"
+			},
+			{
+				"name": "Crafty Woosher"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Trigertaur": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 480,
+			"attack": 720,
+			"defence": 620,
+			"agility": 700,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "Steady Recovery"
+			},
+			{
+				"name": "Crafty Sapper"
+			},
+			{
+				"name": "Random Fizzle"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Gargoyle": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 460,
+			"attack": 760,
+			"defence": 720,
+			"agility": 720,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Donkmeister"
+			},
+			{
+				"name": "Immediate Fizzle"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"King Kelp": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 540,
+			"attack": 700,
+			"defence": 800,
+			"agility": 640,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "Ally Tension Rise"
+			},
+			{
+				"name": "Crafty Blade Blunter"
+			},
+			{
+				"name": "Enemy Tension Down"
+			},
+			{
+				"name": "Immediate Ping"
+			}
+		]
+	},
+	"Great Dracky": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 200,
+			"attack": 780,
+			"defence": 820,
+			"agility": 840,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Crafty Woosher"
+			},
+			{
+				"name": "Random Accelerate"
+			},
+			{
+				"name": "Wave of Relief"
+			}
+		]
+	},
+	"Walking Corpse": {
+		"size": "S",
+		"stats": {
+			"hp": 900,
+			"mp": 320,
+			"attack": 840,
+			"defence": 660,
+			"agility": 420,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "Poison Body"
+			},
+			{
+				"name": "Crafty Poisoner"
+			},
+			{
+				"name": "Random Nether Fog"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Sea Dragon": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 440,
+			"attack": 720,
+			"defence": 720,
+			"agility": 660,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Crafty Ice Breather"
+			},
+			{
+				"name": "Crafty Sapper"
+			},
+			{
+				"name": "Crafty Dazzler"
+			}
+		]
+	},
+	"Treeface": {
+		"size": "M",
+		"stats": {
+			"hp": 1250,
+			"mp": 660,
+			"attack": 850,
+			"defence": 720,
+			"agility": 450,
+			"wisdom": 820
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Despellado"
+			},
+			{
+				"name": "Crafty Magic Drainer"
+			}
+		]
+	},
+	"Merman": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 400,
+			"attack": 720,
+			"defence": 840,
+			"agility": 740,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Crafty Abiliterator"
+			},
+			{
+				"name": "Crafty Sapper"
+			},
+			{
+				"name": "Random Tension"
+			},
+			{
+				"name": "Health Professional"
+			}
+		]
+	},
+	"Octagoon": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 380,
+			"attack": 780,
+			"defence": 920,
+			"agility": 440,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Crafty Donker"
+			},
+			{
+				"name": "Crafty Sagger"
+			},
+			{
+				"name": "Steady Recovery"
+			}
+		]
+	},
+	"Malevolamp": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 400,
+			"attack": 700,
+			"defence": 750,
+			"agility": 820,
+			"wisdom": 620
+		},
+		"traits": [
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Ally Tension Rise"
+			},
+			{
+				"name": "Immediate Buff"
+			},
+			{
+				"name": "Magic Barrier"
+			}
+		]
+	},
+	"Octavian Sentry": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 500,
+			"attack": 720,
+			"defence": 790,
+			"agility": 620,
+			"wisdom": 620
+		},
+		"traits": [
+			{
+				"name": "Able Ambusher"
+			},
+			{
+				"name": "Crafty Dazzler"
+			},
+			{
+				"name": "Crafty Sagger"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Restless Armour": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 400,
+			"attack": 740,
+			"defence": 980,
+			"agility": 620,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Crafty Donker"
+			},
+			{
+				"name": "Able Ambusher"
+			},
+			{
+				"name": "Metal Beater"
+			}
+		]
+	},
+	"King Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 880,
+			"mp": 340,
+			"attack": 640,
+			"defence": 780,
+			"agility": 520,
+			"wisdom": 840
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Close Scraper"
+			},
+			{
+				"name": "Magic Barrier"
+			},
+			{
+				"name": "Intimidating"
+			}
+		]
+	},
+	"Noble Gasbagon": {
+		"size": "S",
+		"stats": {
+			"hp": 840,
+			"mp": 300,
+			"attack": 820,
+			"defence": 840,
+			"agility": 540,
+			"wisdom": 440
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Able Ambusher"
+			},
+			{
+				"name": "Crafty Banger"
+			},
+			{
+				"name": "Immediate Tension"
+			}
+		]
+	},
+	"Paws": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 280,
+			"attack": 800,
+			"defence": 700,
+			"agility": 780,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Enemy Tension Reset"
+			},
+			{
+				"name": "Random Tension"
+			},
+			{
+				"name": "Whack Attack"
+			}
+		]
+	},
+	"Jumping Jackal": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 320,
+			"attack": 820,
+			"defence": 600,
+			"agility": 920,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "Able Ambusher"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Fly Swatter"
+			},
+			{
+				"name": "Counterstriker"
+			}
+		]
+	},
+	"Cumulus Rex": {
+		"size": "S",
+		"stats": {
+			"hp": 860,
+			"mp": 540,
+			"attack": 640,
+			"defence": 520,
+			"agility": 460,
+			"wisdom": 840
+		},
+		"traits": [
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Magic Regenerator"
+			},
+			{
+				"name": "Random Brake Wind"
+			},
+			{
+				"name": "Wave of Relief"
+			}
+		]
+	},
+	"Hunter Mech": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 240,
+			"attack": 670,
+			"defence": 680,
+			"agility": 480,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "1-2 Moves"
+			},
+			{
+				"name": "Metal Beater"
+			},
+			{
+				"name": "Random Oomph"
+			},
+			{
+				"name": "Electrifying"
+			}
+		]
+	},
+	"Heyedra": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 400,
+			"attack": 760,
+			"defence": 740,
+			"agility": 540,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (3)"
+			},
+			{
+				"name": "Crafty Zammer"
+			},
+			{
+				"name": "Poison Body"
+			},
+			{
+				"name": "Immediate Fizzle"
+			}
+		]
+	},
+	"Cureslime": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 540,
+			"attack": 600,
+			"defence": 660,
+			"agility": 770,
+			"wisdom": 900
+		},
+		"traits": [
+			{
+				"name": "Health Professional"
+			},
+			{
+				"name": "Crafty Magic Drainer"
+			},
+			{
+				"name": "Random Ping"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Metal Dragon": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 420,
+			"attack": 720,
+			"defence": 900,
+			"agility": 580,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Gambling Body"
+			},
+			{
+				"name": "Crafty Blade Blunter"
+			},
+			{
+				"name": "Crafty Zammer"
+			},
+			{
+				"name": "Standard Killer"
+			}
+		]
+	},
+	"Barracuda": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 380,
+			"attack": 840,
+			"defence": 620,
+			"agility": 660,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "Early Bird"
+			},
+			{
+				"name": "Confused Frenzy"
+			},
+			{
+				"name": "Crafty Decelerater"
+			},
+			{
+				"name": "Critical Massacre"
+			}
+		]
+	},
+	"Pipit": {
+		"size": "S",
+		"stats": {
+			"hp": 900,
+			"mp": 540,
+			"attack": 260,
+			"defence": 690,
+			"agility": 860,
+			"wisdom": 900
+		},
+		"traits": [
+			{
+				"name": "Health Professional"
+			},
+			{
+				"name": "Strangely Alluring"
+			},
+			{
+				"name": "Attallergic"
+			},
+			{
+				"name": "Counteractivist"
+			}
+		]
+	},
+	"Half Hog": {
+		"size": "M",
+		"stats": {
+			"hp": 1300,
+			"mp": 290,
+			"attack": 840,
+			"defence": 480,
+			"agility": 330,
+			"wisdom": 410
+		},
+		"traits": [
+			{
+				"name": "1-3 Mega Moves"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Attallergic"
+			},
+			{
+				"name": "Immediate Oomph"
+			}
+		]
+	},
+	"Diemon": {
+		"size": "S",
+		"stats": {
+			"hp": 860,
+			"mp": 400,
+			"attack": 720,
+			"defence": 740,
+			"agility": 540,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "Wooshmeister"
+			},
+			{
+				"name": "Wave of Relief"
+			},
+			{
+				"name": "Random Ping"
+			},
+			{
+				"name": "Crafty Woosher"
+			}
+		]
+	},
+	"Golem": {
+		"size": "S",
+		"stats": {
+			"hp": 880,
+			"mp": 260,
+			"attack": 820,
+			"defence": 960,
+			"agility": 280,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Crafty Sagger"
+			},
+			{
+				"name": "Steady Recovery"
+			},
+			{
+				"name": "Rare Tension"
+			}
+		]
+	},
+	"Erazor Blade": {
+		"size": "S",
+		"stats": {
+			"hp": 740,
+			"mp": 380,
+			"attack": 780,
+			"defence": 720,
+			"agility": 900,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Fly Swatter"
+			},
+			{
+				"name": "Metal Beater"
+			},
+			{
+				"name": "Immediate Accelerate"
+			}
+		]
+	},
+	"Cerberwretch": {
+		"size": "S",
+		"stats": {
+			"hp": 640,
+			"mp": 220,
+			"attack": 580,
+			"defence": 420,
+			"agility": 600,
+			"wisdom": 440
+		},
+		"traits": [
+			{
+				"name": "1-3 Moves"
+			},
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Spell Splurger"
+			},
+			{
+				"name": "Poison Body"
+			}
+		]
+	},
+	"Cyber Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 400,
+			"attack": 780,
+			"defence": 760,
+			"agility": 500,
+			"wisdom": 760
+		},
+		"traits": [
+			{
+				"name": "Paralysing Body"
+			},
+			{
+				"name": "Item Chance Up"
+			},
+			{
+				"name": "Crafty Paralyser"
+			},
+			{
+				"name": "Paralysis Attack"
+			}
+		]
+	},
+	"Liquid Metal Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 40,
+			"mp": 540,
+			"attack": 580,
+			"defence": 1300,
+			"agility": 1300,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "Metal Body"
+			},
+			{
+				"name": "Escape Artist"
+			},
+			{
+				"name": "Persistent"
+			},
+			{
+				"name": "Crafty Banger"
+			}
+		]
+	},
+	"Drag-Goof": {
+		"size": "S",
+		"stats": {
+			"hp": 900,
+			"mp": 170,
+			"attack": 720,
+			"defence": 450,
+			"agility": 350,
+			"wisdom": 240
+		},
+		"traits": [
+			{
+				"name": "1-2 Moves"
+			},
+			{
+				"name": "Crafty Poisoner"
+			},
+			{
+				"name": "Immediate Break Bind"
+			},
+			{
+				"name": "Confused Frenzy"
+			}
+		]
+	},
+	"Yabby": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 420,
+			"attack": 700,
+			"defence": 980,
+			"agility": 660,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Crafty Sapper"
+			},
+			{
+				"name": "Immediate Buff"
+			},
+			{
+				"name": "Crafty Sagger"
+			}
+		]
+	},
+	"Lleviathan": {
+		"size": "L",
+		"stats": {
+			"hp": 1800,
+			"mp": 340,
+			"attack": 700,
+			"defence": 670,
+			"agility": 500,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "2-3 Giga Moves"
+			},
+			{
+				"name": "Restless"
+			},
+			{
+				"name": "Late Riser"
+			},
+			{
+				"name": "Spell Splurger"
+			}
+		]
+	},
+	"Notso Macho": {
+		"size": "S",
+		"stats": {
+			"hp": 880,
+			"mp": 220,
+			"attack": 840,
+			"defence": 760,
+			"agility": 600,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "Crafty Abiliterator"
+			},
+			{
+				"name": "Crafty Blade Blunter"
+			},
+			{
+				"name": "Confused Frenzy"
+			},
+			{
+				"name": "Loose Cannon"
+			}
+		]
+	},
+	"Missing Lynx": {
+		"size": "L",
+		"stats": {
+			"hp": 2100,
+			"mp": 210,
+			"attack": 750,
+			"defence": 700,
+			"agility": 890,
+			"wisdom": 580
+		},
+		"traits": [
+			{
+				"name": "1-3 Giga Moves"
+			},
+			{
+				"name": "Intimidating"
+			},
+			{
+				"name": "Crafty Woosher"
+			},
+			{
+				"name": "Crafty Blade Blunter"
+			}
+		]
+	},
+	"Gryphon": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 520,
+			"attack": 700,
+			"defence": 700,
+			"agility": 580,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "Crafty Dazzler"
+			},
+			{
+				"name": "Crafty Fizzler"
+			},
+			{
+				"name": "Immediate Ping"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Grim Keeper": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 420,
+			"attack": 760,
+			"defence": 670,
+			"agility": 840,
+			"wisdom": 580
+		},
+		"traits": [
+			{
+				"name": "Magic Regenerator"
+			},
+			{
+				"name": "Crafty Frizzer"
+			},
+			{
+				"name": "Enemy Tension Reset"
+			},
+			{
+				"name": "Whack Attack"
+			}
+		]
+	},
+	"Magic Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 540,
+			"attack": 480,
+			"defence": 680,
+			"agility": 910,
+			"wisdom": 900
+		},
+		"traits": [
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Sizzmeister"
+			},
+			{
+				"name": "Crafty Sizzer"
+			},
+			{
+				"name": "Magic Drain Attack"
+			}
+		]
+	},
+	"Great Argon Lizard": {
+		"size": "S",
+		"stats": {
+			"hp": 900,
+			"mp": 200,
+			"attack": 820,
+			"defence": 840,
+			"agility": 560,
+			"wisdom": 320
+		},
+		"traits": [
+			{
+				"name": "Desperado"
+			},
+			{
+				"name": "Poison Attack"
+			},
+			{
+				"name": "Random Buff"
+			},
+			{
+				"name": "Crafty Poisoner"
+			}
+		]
+	},
+	"Mandrake Marshal": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 420,
+			"attack": 740,
+			"defence": 760,
+			"agility": 680,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Crafty Frizzer"
+			},
+			{
+				"name": "Critical Guard"
+			}
+		]
+	},
+	"Beetleboy": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 280,
+			"attack": 800,
+			"defence": 1000,
+			"agility": 680,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Crafty Abiliterator"
+			},
+			{
+				"name": "Gambling Body"
+			},
+			{
+				"name": "Crafty Zammer"
+			}
+		]
+	},
+	"Firebird": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 360,
+			"attack": 780,
+			"defence": 680,
+			"agility": 880,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Crafty Fire Breather"
+			},
+			{
+				"name": "Immediate Fizzle"
+			},
+			{
+				"name": "Close Scraper"
+			}
+		]
+	},
+	"Magmalice": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 400,
+			"attack": 760,
+			"defence": 740,
+			"agility": 600,
+			"wisdom": 680
+		},
+		"traits": [
+			{
+				"name": "Frizzmeister"
+			},
+			{
+				"name": "Crafty Fire Breather"
+			},
+			{
+				"name": "Random Buff"
+			},
+			{
+				"name": "Crafty Frizzer"
+			}
+		]
+	},
+	"Captain Catastrophe": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 400,
+			"attack": 800,
+			"defence": 800,
+			"agility": 600,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Early Bird"
+			},
+			{
+				"name": "Desperado"
+			}
+		]
+	},
+	"Phantom Swordsman": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 500,
+			"attack": 720,
+			"defence": 700,
+			"agility": 860,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Confusion Attack"
+			},
+			{
+				"name": "Counterslammer"
+			},
+			{
+				"name": "Magic Drain Body"
+			}
+		]
+	},
+	"Skeleton Soldier": {
+		"size": "S",
+		"stats": {
+			"hp": 840,
+			"mp": 420,
+			"attack": 740,
+			"defence": 640,
+			"agility": 640,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "Paralysis Attack"
+			},
+			{
+				"name": "Crafty Magic Drainer"
+			},
+			{
+				"name": "Random Break Bind"
+			},
+			{
+				"name": "Close Scraper"
+			}
+		]
+	},
+	"Dark Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 740,
+			"mp": 520,
+			"attack": 620,
+			"defence": 680,
+			"agility": 830,
+			"wisdom": 900
+		},
+		"traits": [
+			{
+				"name": "Zammeister"
+			},
+			{
+				"name": "Enemy Tension Reset"
+			},
+			{
+				"name": "Unlucky"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Tyrantosaurus": {
+		"size": "S",
+		"stats": {
+			"hp": 900,
+			"mp": 180,
+			"attack": 860,
+			"defence": 660,
+			"agility": 740,
+			"wisdom": 240
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Pressure"
+			},
+			{
+				"name": "Whack Attack"
+			}
+		]
+	},
+	"Compos Mantis": {
+		"size": "S",
+		"stats": {
+			"hp": 740,
+			"mp": 480,
+			"attack": 720,
+			"defence": 860,
+			"agility": 640,
+			"wisdom": 680
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Confusion Attack"
+			},
+			{
+				"name": "Fly Swatter"
+			},
+			{
+				"name": "Standard Killer"
+			}
+		]
+	},
+	"Cockateer": {
+		"size": "S",
+		"stats": {
+			"hp": 840,
+			"mp": 120,
+			"attack": 800,
+			"defence": 820,
+			"agility": 1000,
+			"wisdom": 360
+		},
+		"traits": [
+			{
+				"name": "Fly Swatter"
+			},
+			{
+				"name": "Wooshmeister"
+			},
+			{
+				"name": "Immediate Brake Wind"
+			},
+			{
+				"name": "Crafty Woosher"
+			}
+		]
+	},
+	"Stainless Scrapper": {
+		"size": "S",
+		"stats": {
+			"hp": 600,
+			"mp": 320,
+			"attack": 500,
+			"defence": 560,
+			"agility": 510,
+			"wisdom": 580
+		},
+		"traits": [
+			{
+				"name": "1-3 Moves"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Spell Splurger"
+			},
+			{
+				"name": "Metal Killer"
+			}
+		]
+	},
+	"Fallen Priest": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 540,
+			"attack": 400,
+			"defence": 830,
+			"agility": 840,
+			"wisdom": 900
+		},
+		"traits": [
+			{
+				"name": "Zammeister"
+			},
+			{
+				"name": "Crafty Zammer"
+			},
+			{
+				"name": "Random Ping"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Grim Rider": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 380,
+			"attack": 740,
+			"defence": 620,
+			"agility": 800,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Counterstriker"
+			},
+			{
+				"name": "Crafty Confuser"
+			},
+			{
+				"name": "Fly Swatter"
+			},
+			{
+				"name": "Persistent"
+			}
+		]
+	},
+	"Soulspawn": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 540,
+			"attack": 440,
+			"defence": 860,
+			"agility": 920,
+			"wisdom": 840
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (3)"
+			},
+			{
+				"name": "Confusion Attack"
+			},
+			{
+				"name": "Paralysing Body"
+			},
+			{
+				"name": "Random Nether Fog"
+			}
+		]
+	},
+	"Rotten Egg": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 440,
+			"attack": 640,
+			"defence": 980,
+			"agility": 600,
+			"wisdom": 680
+		},
+		"traits": [
+			{
+				"name": "Counterstriker"
+			},
+			{
+				"name": "Crafty Sizzer"
+			},
+			{
+				"name": "Immediate Accelerate"
+			},
+			{
+				"name": "Magic Drain Body"
+			}
+		]
+	},
+	"Ethereal Serpent": {
+		"size": "M",
+		"stats": {
+			"hp": 1300,
+			"mp": 440,
+			"attack": 900,
+			"defence": 700,
+			"agility": 760,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Crafty Sagger"
+			},
+			{
+				"name": "Rare Tension"
+			}
+		]
+	},
+	"Giant Moth": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 540,
+			"attack": 600,
+			"defence": 800,
+			"agility": 640,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Paralysing Body"
+			},
+			{
+				"name": "Immediate Brake Wind"
+			},
+			{
+				"name": "Magic Drain Body"
+			}
+		]
+	},
+	"Pink Sanguini": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 460,
+			"attack": 700,
+			"defence": 720,
+			"agility": 720,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Strangely Alluring"
+			},
+			{
+				"name": "Crafty Saboteur"
+			},
+			{
+				"name": "Wave of Relief"
+			}
+		]
+	},
+	"Mimic": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 400,
+			"attack": 700,
+			"defence": 840,
+			"agility": 760,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Scout Chance Up"
+			},
+			{
+				"name": "Crafty Whacker"
+			},
+			{
+				"name": "Immediate Fizzle"
+			}
+		]
+	},
+	"Juggular": {
+		"size": "S",
+		"stats": {
+			"hp": 830,
+			"mp": 500,
+			"attack": 660,
+			"defence": 540,
+			"agility": 700,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (4)"
+			},
+			{
+				"name": "Crafty Confuser"
+			},
+			{
+				"name": "Random Oomph"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Archdemon": {
+		"size": "S",
+		"stats": {
+			"hp": 840,
+			"mp": 380,
+			"attack": 720,
+			"defence": 760,
+			"agility": 520,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "Bangmeister"
+			},
+			{
+				"name": "Crafty Banger"
+			},
+			{
+				"name": "Enemy Tension Reset"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Cross Bones": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 500,
+			"attack": 760,
+			"defence": 740,
+			"agility": 580,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Desperado"
+			},
+			{
+				"name": "Crafty Sagger"
+			},
+			{
+				"name": "Paralysis Attack"
+			},
+			{
+				"name": "Pressure"
+			}
+		]
+	},
+	"Dark Slime Knight": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 460,
+			"attack": 680,
+			"defence": 800,
+			"agility": 540,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Zammeister"
+			},
+			{
+				"name": "Random Brake Wind"
+			},
+			{
+				"name": "Immediate Accelerate"
+			}
+		]
+	},
+	"Megalodon": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 380,
+			"attack": 800,
+			"defence": 820,
+			"agility": 660,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Magic Regenerator"
+			},
+			{
+				"name": "Random Tension"
+			},
+			{
+				"name": "Whack Attack"
+			}
+		]
+	},
+	"Frou-Frou": {
+		"size": "S",
+		"stats": {
+			"hp": 900,
+			"mp": 160,
+			"attack": 860,
+			"defence": 980,
+			"agility": 400,
+			"wisdom": 360
+		},
+		"traits": [
+			{
+				"name": "Desperado"
+			},
+			{
+				"name": "Sleep Attack"
+			},
+			{
+				"name": "Crafty Cracker"
+			},
+			{
+				"name": "Crafty Sleeper"
+			}
+		]
+	},
+	"Gorerilla": {
+		"size": "S",
+		"stats": {
+			"hp": 880,
+			"mp": 140,
+			"attack": 700,
+			"defence": 860,
+			"agility": 900,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Intimidating"
+			},
+			{
+				"name": "Random Tension"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Maniacal Mole": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 260,
+			"attack": 840,
+			"defence": 780,
+			"agility": 800,
+			"wisdom": 440
+		},
+		"traits": [
+			{
+				"name": "Gold Up"
+			},
+			{
+				"name": "Item Chance Up"
+			},
+			{
+				"name": "Exp Up"
+			},
+			{
+				"name": "Scout Chance Up"
+			}
+		]
+	},
+	"Squign": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 500,
+			"attack": 740,
+			"defence": 740,
+			"agility": 700,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Gold Up"
+			},
+			{
+				"name": "Exp Up"
+			},
+			{
+				"name": "Scout Chance Up"
+			}
+		]
+	},
+	"Corrupt Carter": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 320,
+			"attack": 620,
+			"defence": 700,
+			"agility": 670,
+			"wisdom": 500
+		},
+		"traits": [
+			{
+				"name": "1-2 Moves"
+			},
+			{
+				"name": "Electrifying"
+			},
+			{
+				"name": "Sleep Attack"
+			},
+			{
+				"name": "Immediate Break Bind"
+			}
+		]
+	},
+	"Lethal Armour": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 380,
+			"attack": 760,
+			"defence": 860,
+			"agility": 560,
+			"wisdom": 440
+		},
+		"traits": [
+			{
+				"name": "Able Ambusher"
+			},
+			{
+				"name": "Crafty Sagger"
+			},
+			{
+				"name": "Enemy Tension Rise"
+			},
+			{
+				"name": "Light Metal Body"
+			}
+		]
+	},
+	"Boss Troll": {
+		"size": "M",
+		"stats": {
+			"hp": 1500,
+			"mp": 220,
+			"attack": 900,
+			"defence": 880,
+			"agility": 400,
+			"wisdom": 160
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Pressure"
+			},
+			{
+				"name": "Desperado"
+			}
+		]
+	},
+	"Jamirus": {
+		"size": "S",
+		"stats": {
+			"hp": 610,
+			"mp": 420,
+			"attack": 420,
+			"defence": 400,
+			"agility": 460,
+			"wisdom": 840
+		},
+		"traits": [
+			{
+				"name": "2 Moves"
+			},
+			{
+				"name": "Ally Tension Rise"
+			},
+			{
+				"name": "Spell Splurger"
+			},
+			{
+				"name": "Crafty Frizzer"
+			}
+		]
+	},
+	"Fright Knight": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 330,
+			"attack": 800,
+			"defence": 660,
+			"agility": 720,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "Able Ambusher"
+			},
+			{
+				"name": "Giant Killer"
+			},
+			{
+				"name": "Metal Beater"
+			},
+			{
+				"name": "Fly Swatter"
+			}
+		]
+	},
+	"Ragin' Contagion": {
+		"size": "S",
+		"stats": {
+			"hp": 860,
+			"mp": 520,
+			"attack": 520,
+			"defence": 580,
+			"agility": 680,
+			"wisdom": 840
+		},
+		"traits": [
+			{
+				"name": "Poison Body"
+			},
+			{
+				"name": "Paralysing Body"
+			},
+			{
+				"name": "Confusion Attack"
+			},
+			{
+				"name": "Crafty Confuser"
+			}
+		]
+	},
+	"Seedy Weedie": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 540,
+			"attack": 660,
+			"defence": 720,
+			"agility": 820,
+			"wisdom": 760
+		},
+		"traits": [
+			{
+				"name": "Exp Up"
+			},
+			{
+				"name": "Crafty Saboteur"
+			},
+			{
+				"name": "Crafty Gobstopper"
+			},
+			{
+				"name": "Steady Recovery"
+			}
+		]
+	},
+	"Abyss Diver": {
+		"size": "S",
+		"stats": {
+			"hp": 900,
+			"mp": 120,
+			"attack": 760,
+			"defence": 860,
+			"agility": 800,
+			"wisdom": 360
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Crafty Confuser"
+			},
+			{
+				"name": "Random Buff"
+			},
+			{
+				"name": "Steady Recovery"
+			}
+		]
+	},
+	"Dragon Rider": {
+		"size": "S",
+		"stats": {
+			"hp": 740,
+			"mp": 320,
+			"attack": 620,
+			"defence": 520,
+			"agility": 660,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "1-2 Moves"
+			},
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Enemy Tension Rise"
+			},
+			{
+				"name": "Wooshmeister"
+			}
+		]
+	},
+	"Stark Raven": {
+		"size": "S",
+		"stats": {
+			"hp": 770,
+			"mp": 460,
+			"attack": 620,
+			"defence": 820,
+			"agility": 840,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Enemy Tension Reset"
+			},
+			{
+				"name": "Zammeister"
+			},
+			{
+				"name": "Immediate Brake Wind"
+			}
+		]
+	},
+	"Tantamount": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 400,
+			"attack": 720,
+			"defence": 720,
+			"agility": 620,
+			"wisdom": 680
+		},
+		"traits": [
+			{
+				"name": "Early Bird"
+			},
+			{
+				"name": "Zapmeister"
+			},
+			{
+				"name": "Unlucky"
+			},
+			{
+				"name": "Counteractivist"
+			}
+		]
+	},
+	"Jum": {
+		"size": "S",
+		"stats": {
+			"hp": 900,
+			"mp": 320,
+			"attack": 660,
+			"defence": 900,
+			"agility": 440,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Immediate Buff"
+			},
+			{
+				"name": "Immediate Accelerate"
+			},
+			{
+				"name": "Yellow-Belly"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Knight Aberrant": {
+		"size": "S",
+		"stats": {
+			"hp": 860,
+			"mp": 260,
+			"attack": 760,
+			"defence": 880,
+			"agility": 480,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (3)"
+			},
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Crafty Sleeper"
+			},
+			{
+				"name": "Standard Killer"
+			}
+		]
+	},
+	"Cobra Cardinal": {
+		"size": "S",
+		"stats": {
+			"hp": 740,
+			"mp": 540,
+			"attack": 600,
+			"defence": 700,
+			"agility": 820,
+			"wisdom": 880
+		},
+		"traits": [
+			{
+				"name": "Paralysis Attack"
+			},
+			{
+				"name": "Crafty Zammer"
+			},
+			{
+				"name": "Random Ping"
+			},
+			{
+				"name": "Magic Counter"
+			}
+		]
+	},
+	"King Cureslime": {
+		"size": "S",
+		"stats": {
+			"hp": 900,
+			"mp": 540,
+			"attack": 360,
+			"defence": 780,
+			"agility": 590,
+			"wisdom": 860
+		},
+		"traits": [
+			{
+				"name": "Health Professional"
+			},
+			{
+				"name": "Close Scraper"
+			},
+			{
+				"name": "Random Ping"
+			},
+			{
+				"name": "Crafty Dimmer"
+			}
+		]
+	},
+	"Drakularge": {
+		"size": "S",
+		"stats": {
+			"hp": 900,
+			"mp": 300,
+			"attack": 800,
+			"defence": 840,
+			"agility": 390,
+			"wisdom": 340
+		},
+		"traits": [
+			{
+				"name": "Pressure"
+			},
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Restless"
+			},
+			{
+				"name": "Crafty Gobstopper"
+			}
+		]
+	},
+	"Flamethrower": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 480,
+			"attack": 780,
+			"defence": 540,
+			"agility": 500,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Frizzmeister"
+			},
+			{
+				"name": "Immediate Brake Wind"
+			},
+			{
+				"name": "Crafty Frizzer"
+			}
+		]
+	},
+	"Eyevory Tusk-Tusk": {
+		"size": "M",
+		"stats": {
+			"hp": 1500,
+			"mp": 380,
+			"attack": 740,
+			"defence": 640,
+			"agility": 480,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Crafty Donker"
+			},
+			{
+				"name": "Pressure"
+			}
+		]
+	},
+	"Bjorn The Behemoose": {
+		"size": "L",
+		"stats": {
+			"hp": 2300,
+			"mp": 190,
+			"attack": 800,
+			"defence": 600,
+			"agility": 240,
+			"wisdom": 360
+		},
+		"traits": [
+			{
+				"name": "2 Giga Moves"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Intimidating"
+			},
+			{
+				"name": "Last Word"
+			}
+		]
+	},
+	"Wishmaster": {
+		"size": "M",
+		"stats": {
+			"hp": 1200,
+			"mp": 440,
+			"attack": 720,
+			"defence": 540,
+			"agility": 490,
+			"wisdom": 650
+		},
+		"traits": [
+			{
+				"name": "1-3 Mega Moves"
+			},
+			{
+				"name": "Desperado"
+			},
+			{
+				"name": "Spell Splurger"
+			},
+			{
+				"name": "Bangmeister"
+			}
+		]
+	},
+	"High Djinks": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 500,
+			"attack": 760,
+			"defence": 680,
+			"agility": 720,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Zapmeister"
+			},
+			{
+				"name": "Crafty Woosher"
+			},
+			{
+				"name": "Gambling Body"
+			}
+		]
+	},
+	"Wight Knight": {
+		"size": "S",
+		"stats": {
+			"hp": 840,
+			"mp": 420,
+			"attack": 680,
+			"defence": 700,
+			"agility": 620,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Zapmeister"
+			},
+			{
+				"name": "Crafty Sizzer"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Leokid": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 300,
+			"attack": 680,
+			"defence": 580,
+			"agility": 660,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "2 Moves"
+			},
+			{
+				"name": "Yellow-Belly"
+			},
+			{
+				"name": "Persistent"
+			},
+			{
+				"name": "Crafty Devil"
+			}
+		]
+	},
+	"Tortoceratops": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 400,
+			"attack": 720,
+			"defence": 980,
+			"agility": 580,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Immediate Buff"
+			},
+			{
+				"name": "Last Word"
+			},
+			{
+				"name": "Increase Tension"
+			}
+		]
+	},
+	"Blizzybody": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 520,
+			"attack": 680,
+			"defence": 620,
+			"agility": 660,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Crackmeister"
+			},
+			{
+				"name": "Immediate Fizzle"
+			},
+			{
+				"name": "Crafty Cracker"
+			}
+		]
+	},
+	"Gigantes": {
+		"size": "M",
+		"stats": {
+			"hp": 1300,
+			"mp": 200,
+			"attack": 900,
+			"defence": 960,
+			"agility": 500,
+			"wisdom": 280
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Last Word"
+			},
+			{
+				"name": "Crafty Decelerater"
+			},
+			{
+				"name": "Hopeful Hitter"
+			}
+		]
+	},
+	"Killing Machine": {
+		"size": "S",
+		"stats": {
+			"hp": 620,
+			"mp": 360,
+			"attack": 500,
+			"defence": 500,
+			"agility": 420,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "2 Moves"
+			},
+			{
+				"name": "Electrifying"
+			},
+			{
+				"name": "Spell Splurger"
+			},
+			{
+				"name": "Crafty Inactivist"
+			}
+		]
+	},
+	"Demon-At-Arms": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 320,
+			"attack": 440,
+			"defence": 560,
+			"agility": 380,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "2 Moves"
+			},
+			{
+				"name": "Hit Squad (3)"
+			},
+			{
+				"name": "Spell Splurger"
+			},
+			{
+				"name": "Magic Drain Body"
+			}
+		]
+	},
+	"Robbin' 'Ood": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 520,
+			"attack": 780,
+			"defence": 720,
+			"agility": 740,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Intimidating"
+			},
+			{
+				"name": "Enemy Tension Reset"
+			},
+			{
+				"name": "Rare Tension"
+			}
+		]
+	},
+	"Wailin' Weed": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 520,
+			"attack": 520,
+			"defence": 720,
+			"agility": 700,
+			"wisdom": 840
+		},
+		"traits": [
+			{
+				"name": "Ally Tension Rise"
+			},
+			{
+				"name": "Enemy Tension Down"
+			},
+			{
+				"name": "Enemy Tension Reset"
+			},
+			{
+				"name": "Comeback Kid"
+			}
+		]
+	},
+	"King Bubble Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 900,
+			"mp": 500,
+			"attack": 620,
+			"defence": 660,
+			"agility": 340,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "Poison Body"
+			},
+			{
+				"name": "Poison Attack"
+			},
+			{
+				"name": "Restless"
+			},
+			{
+				"name": "Standard Killer"
+			}
+		]
+	},
+	"Rashaverak": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 400,
+			"attack": 780,
+			"defence": 720,
+			"agility": 500,
+			"wisdom": 680
+		},
+		"traits": [
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Crafty Paralyser"
+			},
+			{
+				"name": "Random Accelerate"
+			},
+			{
+				"name": "Close Scraper"
+			}
+		]
+	},
+	"Wooper Trooper": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 420,
+			"attack": 820,
+			"defence": 680,
+			"agility": 800,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "Immediate Oomph"
+			},
+			{
+				"name": "Desperado"
+			},
+			{
+				"name": "Sizzmeister"
+			},
+			{
+				"name": "Critical Guard"
+			}
+		]
+	},
+	"Buffalogre": {
+		"size": "S",
+		"stats": {
+			"hp": 870,
+			"mp": 200,
+			"attack": 800,
+			"defence": 900,
+			"agility": 640,
+			"wisdom": 360
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Crafty Gobstopper"
+			},
+			{
+				"name": "Immediate Tension"
+			},
+			{
+				"name": "Immediate Oomph"
+			}
+		]
+	},
+	"Scytheborg": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 420,
+			"attack": 780,
+			"defence": 700,
+			"agility": 540,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Paralysing Body"
+			},
+			{
+				"name": "Confused Frenzy"
+			},
+			{
+				"name": "Metal Killer"
+			}
+		]
+	},
+	"Hyperanemon": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 520,
+			"attack": 740,
+			"defence": 540,
+			"agility": 520,
+			"wisdom": 840
+		},
+		"traits": [
+			{
+				"name": "Zapmeister"
+			},
+			{
+				"name": "Crafty Zapper"
+			},
+			{
+				"name": "Poison Attack"
+			},
+			{
+				"name": "Steady Recovery"
+			}
+		]
+	},
+	"Gigalumph": {
+		"size": "S",
+		"stats": {
+			"hp": 900,
+			"mp": 260,
+			"attack": 820,
+			"defence": 900,
+			"agility": 360,
+			"wisdom": 360
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Restless"
+			},
+			{
+				"name": "Crafty Zapper"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Slime Gang": {
+		"size": "L",
+		"stats": {
+			"hp": 1800,
+			"mp": 400,
+			"attack": 500,
+			"defence": 550,
+			"agility": 1000,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "2-3 Giga Moves"
+			},
+			{
+				"name": "Immediate Accelerate"
+			},
+			{
+				"name": "Strangely Alluring"
+			},
+			{
+				"name": "Spell Splurger"
+			}
+		]
+	},
+	"Sintaur": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 380,
+			"attack": 800,
+			"defence": 640,
+			"agility": 600,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Counterstriker"
+			},
+			{
+				"name": "Hopeful Hitter"
+			},
+			{
+				"name": "Attallergic"
+			},
+			{
+				"name": "Steady Recovery"
+			}
+		]
+	},
+	"Heligator": {
+		"size": "S",
+		"stats": {
+			"hp": 900,
+			"mp": 360,
+			"attack": 760,
+			"defence": 920,
+			"agility": 260,
+			"wisdom": 360
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Crafty Zammer"
+			},
+			{
+				"name": "Restless"
+			},
+			{
+				"name": "Standard Killer"
+			}
+		]
+	},
+	"Marquis De Léon": {
+		"size": "M",
+		"stats": {
+			"hp": 1300,
+			"mp": 460,
+			"attack": 920,
+			"defence": 760,
+			"agility": 540,
+			"wisdom": 680
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Hit Squad (3)"
+			},
+			{
+				"name": "Crafty Cracker"
+			},
+			{
+				"name": "Crafty Sizzer"
+			}
+		]
+	},
+	"Balhib": {
+		"size": "S",
+		"stats": {
+			"hp": 860,
+			"mp": 280,
+			"attack": 780,
+			"defence": 940,
+			"agility": 420,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "Gold Up"
+			},
+			{
+				"name": "Crafty Devil"
+			},
+			{
+				"name": "Metal Beater"
+			},
+			{
+				"name": "Magic Barrier"
+			}
+		]
+	},
+	"Conkettes": {
+		"size": "S",
+		"stats": {
+			"hp": 740,
+			"mp": 400,
+			"attack": 700,
+			"defence": 800,
+			"agility": 900,
+			"wisdom": 680
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Hit Squad (4)"
+			},
+			{
+				"name": "Comeback Kid"
+			},
+			{
+				"name": "Strangely Alluring"
+			}
+		]
+	},
+	"Exorsus": {
+		"size": "M",
+		"stats": {
+			"hp": 1300,
+			"mp": 700,
+			"attack": 500,
+			"defence": 700,
+			"agility": 800,
+			"wisdom": 1000
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Sizzmeister"
+			},
+			{
+				"name": "Crafty Sizzer"
+			},
+			{
+				"name": "Immediate Fizzle"
+			}
+		]
+	},
+	"Metal Kaiser Slime": {
+		"size": "M",
+		"stats": {
+			"hp": 60,
+			"mp": 700,
+			"attack": 660,
+			"defence": 1600,
+			"agility": 1600,
+			"wisdom": 1180
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Metal Body"
+			},
+			{
+				"name": "Early Bird"
+			},
+			{
+				"name": "Immediate Break Bind"
+			}
+		]
+	},
+	"Dual Duellers": {
+		"size": "M",
+		"stats": {
+			"hp": 1100,
+			"mp": 380,
+			"attack": 660,
+			"defence": 640,
+			"agility": 1000,
+			"wisdom": 710
+		},
+		"traits": [
+			{
+				"name": "2 Mega Moves"
+			},
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Poison Attack"
+			},
+			{
+				"name": "Standard Killer"
+			}
+		]
+	},
+	"Riptide": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 300,
+			"attack": 740,
+			"defence": 780,
+			"agility": 880,
+			"wisdom": 680
+		},
+		"traits": [
+			{
+				"name": "Early Bird"
+			},
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Zammeister"
+			},
+			{
+				"name": "Crafty Cracker"
+			}
+		]
+	},
+	"Mohawker": {
+		"size": "S",
+		"stats": {
+			"hp": 900,
+			"mp": 240,
+			"attack": 800,
+			"defence": 700,
+			"agility": 500,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Health Professional"
+			},
+			{
+				"name": "Random Oomph"
+			},
+			{
+				"name": "Desperado"
+			}
+		]
+	},
+	"Boe": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 500,
+			"attack": 600,
+			"defence": 800,
+			"agility": 700,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Immediate Accelerate"
+			},
+			{
+				"name": "Steady Recovery"
+			},
+			{
+				"name": "Crafty Donker"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Gracos": {
+		"size": "S",
+		"stats": {
+			"hp": 840,
+			"mp": 440,
+			"attack": 580,
+			"defence": 820,
+			"agility": 600,
+			"wisdom": 760
+		},
+		"traits": [
+			{
+				"name": "Crackmeister"
+			},
+			{
+				"name": "Crafty Ice Breather"
+			},
+			{
+				"name": "Protective Fog"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Tortured Soul": {
+		"size": "S",
+		"stats": {
+			"hp": 860,
+			"mp": 520,
+			"attack": 400,
+			"defence": 720,
+			"agility": 750,
+			"wisdom": 900
+		},
+		"traits": [
+			{
+				"name": "Crafty Paralyser"
+			},
+			{
+				"name": "Sizzmeister"
+			},
+			{
+				"name": "Random Break Bind"
+			},
+			{
+				"name": "Crafty Sizzer"
+			}
+		]
+	},
+	"Great Dragon": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 240,
+			"attack": 900,
+			"defence": 800,
+			"agility": 600,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "Frizzmeister"
+			},
+			{
+				"name": "Crafty Fire Breather"
+			},
+			{
+				"name": "Random Brake Wind"
+			},
+			{
+				"name": "Close Scraper"
+			}
+		]
+	},
+	"Thornella": {
+		"size": "M",
+		"stats": {
+			"hp": 1400,
+			"mp": 200,
+			"attack": 900,
+			"defence": 820,
+			"agility": 620,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Health Professional"
+			},
+			{
+				"name": "Imaginative"
+			}
+		]
+	},
+	"Slon The Rook": {
+		"size": "S",
+		"stats": {
+			"hp": 900,
+			"mp": 360,
+			"attack": 860,
+			"defence": 460,
+			"agility": 500,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Confused Frenzy"
+			},
+			{
+				"name": "Critical Guard"
+			}
+		]
+	},
+	"Living Statue": {
+		"size": "S",
+		"stats": {
+			"hp": 860,
+			"mp": 320,
+			"attack": 740,
+			"defence": 940,
+			"agility": 400,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Crafty Sapper"
+			},
+			{
+				"name": "Random Buff"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Mortella": {
+		"size": "M",
+		"stats": {
+			"hp": 1300,
+			"mp": 400,
+			"attack": 720,
+			"defence": 660,
+			"agility": 1000,
+			"wisdom": 1000
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Paralysis Attack"
+			},
+			{
+				"name": "Enemy Tension Reset"
+			}
+		]
+	},
+	"Grotwyrm": {
+		"size": "S",
+		"stats": {
+			"hp": 840,
+			"mp": 420,
+			"attack": 720,
+			"defence": 620,
+			"agility": 620,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Poison Body"
+			},
+			{
+				"name": "Fly Swatter"
+			},
+			{
+				"name": "Confusion Attack"
+			},
+			{
+				"name": "Gambling Body"
+			}
+		]
+	},
+	"Ultra Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 400,
+			"attack": 780,
+			"defence": 620,
+			"agility": 1000,
+			"wisdom": 680
+		},
+		"traits": [
+			{
+				"name": "Early Bird"
+			},
+			{
+				"name": "Giant Killer"
+			},
+			{
+				"name": "Close Scraper"
+			},
+			{
+				"name": "Metal Killer"
+			}
+		]
+	},
+	"Garuda": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 460,
+			"attack": 680,
+			"defence": 800,
+			"agility": 920,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Persistent"
+			},
+			{
+				"name": "Random Brake Wind"
+			},
+			{
+				"name": "Desperado"
+			}
+		]
+	},
+	"Moosifer": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 360,
+			"attack": 800,
+			"defence": 700,
+			"agility": 500,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Sizzmeister"
+			},
+			{
+				"name": "Foot Dragger"
+			},
+			{
+				"name": "Magic Counter"
+			}
+		]
+	},
+	"Mum": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 500,
+			"attack": 800,
+			"defence": 800,
+			"agility": 550,
+			"wisdom": 900
+		},
+		"traits": [
+			{
+				"name": "Immediate Accelerate"
+			},
+			{
+				"name": "Health Professional"
+			},
+			{
+				"name": "Yellow-Belly"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Baron Von Bellycose": {
+		"size": "M",
+		"stats": {
+			"hp": 1200,
+			"mp": 600,
+			"attack": 860,
+			"defence": 880,
+			"agility": 640,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Crafty Sizzer"
+			},
+			{
+				"name": "Imaginative"
+			},
+			{
+				"name": "Electrifying"
+			}
+		]
+	},
+	"Gemon": {
+		"size": "M",
+		"stats": {
+			"hp": 1200,
+			"mp": 460,
+			"attack": 920,
+			"defence": 800,
+			"agility": 1000,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Fly Swatter"
+			},
+			{
+				"name": "Scare Stare"
+			},
+			{
+				"name": "Magic Counter"
+			}
+		]
+	},
+	"Roseguardin": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 360,
+			"attack": 580,
+			"defence": 820,
+			"agility": 440,
+			"wisdom": 560
+		},
+		"traits": [
+			{
+				"name": "1-2 Moves"
+			},
+			{
+				"name": "Counterstriker"
+			},
+			{
+				"name": "Random Buff"
+			},
+			{
+				"name": "Desperado"
+			}
+		]
+	},
+	"Night Knight": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 380,
+			"attack": 780,
+			"defence": 800,
+			"agility": 420,
+			"wisdom": 760
+		},
+		"traits": [
+			{
+				"name": "Metal Beater"
+			},
+			{
+				"name": "Fly Swatter"
+			},
+			{
+				"name": "Giant Killer"
+			},
+			{
+				"name": "Critical Guard"
+			}
+		]
+	},
+	"Nemeslime": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 400,
+			"attack": 600,
+			"defence": 540,
+			"agility": 800,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "1-2 Moves"
+			},
+			{
+				"name": "Intimidating"
+			},
+			{
+				"name": "Fly Swatter"
+			},
+			{
+				"name": "Metal Killer"
+			}
+		]
+	},
+	"Mechan-O'-Wyrm": {
+		"size": "S",
+		"stats": {
+			"hp": 880,
+			"mp": 300,
+			"attack": 720,
+			"defence": 1000,
+			"agility": 380,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Paralysing Body"
+			},
+			{
+				"name": "Crafty Paralyser"
+			},
+			{
+				"name": "Magic Counter"
+			}
+		]
+	},
+	"Gripevine": {
+		"size": "M",
+		"stats": {
+			"hp": 1300,
+			"mp": 400,
+			"attack": 550,
+			"defence": 720,
+			"agility": 280,
+			"wisdom": 750
+		},
+		"traits": [
+			{
+				"name": "1-3 Mega Moves"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Poison Body"
+			},
+			{
+				"name": "Magic Drain Attack"
+			}
+		]
+	},
+	"Alphyn": {
+		"size": "M",
+		"stats": {
+			"hp": 1100,
+			"mp": 600,
+			"attack": 600,
+			"defence": 600,
+			"agility": 760,
+			"wisdom": 630
+		},
+		"traits": [
+			{
+				"name": "2 Mega Moves"
+			},
+			{
+				"name": "Bangmeister"
+			},
+			{
+				"name": "Yellow-Belly"
+			},
+			{
+				"name": "Magic Counter"
+			}
+		]
+	},
+	"Boh": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 500,
+			"attack": 700,
+			"defence": 900,
+			"agility": 500,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "Health Professional"
+			},
+			{
+				"name": "Magic Regenerator"
+			},
+			{
+				"name": "Despellado"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Dhuran": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 400,
+			"attack": 800,
+			"defence": 560,
+			"agility": 740,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Intimidating"
+			},
+			{
+				"name": "Crafty Zammer"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Belial": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 360,
+			"attack": 580,
+			"defence": 680,
+			"agility": 480,
+			"wisdom": 760
+		},
+		"traits": [
+			{
+				"name": "1-2 Moves"
+			},
+			{
+				"name": "Bangmeister"
+			},
+			{
+				"name": "Health Professional"
+			},
+			{
+				"name": "Increase Tension"
+			}
+		]
+	},
+	"Monkey Zombie": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 500,
+			"attack": 720,
+			"defence": 640,
+			"agility": 680,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "Enemy Tension Rise"
+			},
+			{
+				"name": "Immediate Break Bind"
+			},
+			{
+				"name": "Random Break Bind"
+			},
+			{
+				"name": "Random Accelerate"
+			}
+		]
+	},
+	"Bone Baron": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 440,
+			"attack": 500,
+			"defence": 760,
+			"agility": 920,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "Counterstriker"
+			},
+			{
+				"name": "Enemy Tension Reset"
+			},
+			{
+				"name": "Confusion Attack"
+			},
+			{
+				"name": "Random Oomph"
+			}
+		]
+	},
+	"Kon The Knight": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 400,
+			"attack": 720,
+			"defence": 760,
+			"agility": 560,
+			"wisdom": 880
+		},
+		"traits": [
+			{
+				"name": "Hit Squad (3)"
+			},
+			{
+				"name": "Metal Killer"
+			},
+			{
+				"name": "Crafty Woosher"
+			},
+			{
+				"name": "Counterslammer"
+			}
+		]
+	},
+	"Dorsal Fiend": {
+		"size": "M",
+		"stats": {
+			"hp": 1300,
+			"mp": 520,
+			"attack": 720,
+			"defence": 620,
+			"agility": 900,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Wooshmeister"
+			},
+			{
+				"name": "Crafty Whacker"
+			},
+			{
+				"name": "Crafty Inactivist"
+			}
+		]
+	},
+	"Terracotta Warrior": {
+		"size": "M",
+		"stats": {
+			"hp": 1100,
+			"mp": 320,
+			"attack": 740,
+			"defence": 960,
+			"agility": 680,
+			"wisdom": 630
+		},
+		"traits": [
+			{
+				"name": "1-3 Mega Moves"
+			},
+			{
+				"name": "Wooshmeister"
+			},
+			{
+				"name": "Disenchanted"
+			},
+			{
+				"name": "Critical Guard"
+			}
+		]
+	},
+	"Pazuzu": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 400,
+			"attack": 660,
+			"defence": 800,
+			"agility": 680,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "Wooshmeister"
+			},
+			{
+				"name": "Crafty Woosher"
+			},
+			{
+				"name": "Random Ping"
+			},
+			{
+				"name": "1-2 Moves"
+			}
+		]
+	},
+	"Dierantula": {
+		"size": "M",
+		"stats": {
+			"hp": 1200,
+			"mp": 460,
+			"attack": 1040,
+			"defence": 760,
+			"agility": 600,
+			"wisdom": 880
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Scare Stare"
+			},
+			{
+				"name": "Crafty Woosher"
+			},
+			{
+				"name": "Crafty Zammer"
+			}
+		]
+	},
+	"Metal King Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 60,
+			"mp": 540,
+			"attack": 420,
+			"defence": 1400,
+			"agility": 1400,
+			"wisdom": 880
+		},
+		"traits": [
+			{
+				"name": "Metal Body"
+			},
+			{
+				"name": "Escape Artist"
+			},
+			{
+				"name": "Crafty Dance Banner"
+			},
+			{
+				"name": "Immediate Ping"
+			}
+		]
+	},
+	"King Korol": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 500,
+			"attack": 720,
+			"defence": 560,
+			"agility": 630,
+			"wisdom": 900
+		},
+		"traits": [
+			{
+				"name": "Desperado"
+			},
+			{
+				"name": "Crafty Banger"
+			},
+			{
+				"name": "Enemy Tension Down"
+			},
+			{
+				"name": "Imaginative"
+			}
+		]
+	},
+	"Lieutenant Goreham-Hogg": {
+		"size": "S",
+		"stats": {
+			"hp": 900,
+			"mp": 160,
+			"attack": 900,
+			"defence": 800,
+			"agility": 460,
+			"wisdom": 440
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Random Tension"
+			},
+			{
+				"name": "Counterstriker"
+			}
+		]
+	},
+	"Lieutenant Hootingham-Gore": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 540,
+			"attack": 480,
+			"defence": 740,
+			"agility": 850,
+			"wisdom": 900
+		},
+		"traits": [
+			{
+				"name": "Crafty Confuser"
+			},
+			{
+				"name": "Comeback Kid"
+			},
+			{
+				"name": "Enemy Tension Rise"
+			},
+			{
+				"name": "Magic Counter"
+			}
+		]
+	},
+	"Taurix": {
+		"size": "M",
+		"stats": {
+			"hp": 1200,
+			"mp": 320,
+			"attack": 860,
+			"defence": 640,
+			"agility": 880,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Despellado"
+			},
+			{
+				"name": "Confused Frenzy"
+			},
+			{
+				"name": "Hopeful Hitter"
+			}
+		]
+	},
+	"Kapurigon": {
+		"size": "M",
+		"stats": {
+			"hp": 1200,
+			"mp": 600,
+			"attack": 840,
+			"defence": 640,
+			"agility": 780,
+			"wisdom": 1000
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Crafty Paralyser"
+			},
+			{
+				"name": "Immediate Tension"
+			}
+		]
+	},
+	"Stormsgate Citadel": {
+		"size": "L",
+		"stats": {
+			"hp": 2100,
+			"mp": 410,
+			"attack": 750,
+			"defence": 860,
+			"agility": 320,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "2 Giga Moves"
+			},
+			{
+				"name": "Gambling Body"
+			},
+			{
+				"name": "Immediate Buff"
+			},
+			{
+				"name": "Last Word"
+			}
+		]
+	},
+	"Empyrea (Alt)": {
+		"size": "L",
+		"stats": {
+			"hp": 1900,
+			"mp": 400,
+			"attack": 740,
+			"defence": 820,
+			"agility": 1000,
+			"wisdom": 1000
+		},
+		"traits": [
+			{
+				"name": "1-3 Giga Moves"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Crafty Zapper"
+			},
+			{
+				"name": "Zapmeister"
+			}
+		]
+	},
+	"Stella": {
+		"size": "S",
+		"stats": {
+			"hp": 740,
+			"mp": 480,
+			"attack": 640,
+			"defence": 550,
+			"agility": 1000,
+			"wisdom": 900
+		},
+		"traits": [
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Enemy Tension Reset"
+			},
+			{
+				"name": "Comeback Kid"
+			},
+			{
+				"name": "Lucky"
+			}
+		]
+	},
+	"Zoma's Devil": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 420,
+			"attack": 480,
+			"defence": 600,
+			"agility": 570,
+			"wisdom": 900
+		},
+		"traits": [
+			{
+				"name": "1-2 Moves"
+			},
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Spell Splurger"
+			},
+			{
+				"name": "Disruptive Wave"
+			}
+		]
+	},
+	"Schleiman Tank": {
+		"size": "L",
+		"stats": {
+			"hp": 1700,
+			"mp": 240,
+			"attack": 880,
+			"defence": 1000,
+			"agility": 240,
+			"wisdom": 640
+		},
+		"traits": [
+			{
+				"name": "2 Giga Moves"
+			},
+			{
+				"name": "Light Metal Body"
+			},
+			{
+				"name": "Giant Killer"
+			},
+			{
+				"name": "Last Word"
+			}
+		]
+	},
+	"Black Dragon": {
+		"size": "S",
+		"stats": {
+			"hp": 1000,
+			"mp": 360,
+			"attack": 800,
+			"defence": 720,
+			"agility": 660,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Zammeister"
+			},
+			{
+				"name": "Scare Stare"
+			},
+			{
+				"name": "Crafty Sizzer"
+			},
+			{
+				"name": "Random Oomph"
+			}
+		]
+	},
+	"Beetlebully": {
+		"size": "S",
+		"stats": {
+			"hp": 900,
+			"mp": 360,
+			"attack": 920,
+			"defence": 1000,
+			"agility": 620,
+			"wisdom": 440
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Immediate Buff"
+			},
+			{
+				"name": "Immediate Tension"
+			},
+			{
+				"name": "Crafty Decelerater"
+			}
+		]
+	},
+	"Atlas": {
+		"size": "M",
+		"stats": {
+			"hp": 1400,
+			"mp": 300,
+			"attack": 500,
+			"defence": 900,
+			"agility": 500,
+			"wisdom": 300
+		},
+		"traits": [
+			{
+				"name": "1-3 Mega Moves"
+			},
+			{
+				"name": "Hopeful Hitter"
+			},
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Rare Tension"
+			}
+		]
+	},
+	"Genie Sanguini": {
+		"size": "S",
+		"stats": {
+			"hp": 1000,
+			"mp": 560,
+			"attack": 520,
+			"defence": 900,
+			"agility": 440,
+			"wisdom": 1000
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Counterstriker"
+			},
+			{
+				"name": "Confusion Attack"
+			},
+			{
+				"name": "Enemy Tension Reset"
+			}
+		]
+	},
+	"Trap Box": {
+		"size": "S",
+		"stats": {
+			"hp": 900,
+			"mp": 560,
+			"attack": 740,
+			"defence": 800,
+			"agility": 640,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Gambling Body"
+			},
+			{
+				"name": "Magic Drain Body"
+			},
+			{
+				"name": "Protective Fog"
+			}
+		]
+	},
+	"Dullahan": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 520,
+			"attack": 820,
+			"defence": 920,
+			"agility": 720,
+			"wisdom": 960
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Immediate Oomph"
+			},
+			{
+				"name": "Paralysis Attack"
+			},
+			{
+				"name": "Random Tension"
+			}
+		]
+	},
+	"Shogum": {
+		"size": "S",
+		"stats": {
+			"hp": 660,
+			"mp": 660,
+			"attack": 680,
+			"defence": 660,
+			"agility": 620,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "1-2 Moves"
+			},
+			{
+				"name": "Counterstriker"
+			},
+			{
+				"name": "Fly Swatter"
+			},
+			{
+				"name": "Last Word"
+			}
+		]
+	},
+	"Drakulard": {
+		"size": "S",
+		"stats": {
+			"hp": 1000,
+			"mp": 200,
+			"attack": 900,
+			"defence": 1000,
+			"agility": 540,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Pressure"
+			},
+			{
+				"name": "Protective Fog"
+			},
+			{
+				"name": "Scare Stare"
+			}
+		]
+	},
+	"King Squid": {
+		"size": "M",
+		"stats": {
+			"hp": 1350,
+			"mp": 400,
+			"attack": 1000,
+			"defence": 600,
+			"agility": 400,
+			"wisdom": 300
+		},
+		"traits": [
+			{
+				"name": "1-3 Mega Moves"
+			},
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Crafty Decelerater"
+			},
+			{
+				"name": "Imaginative"
+			}
+		]
+	},
+	"Don Mole": {
+		"size": "S",
+		"stats": {
+			"hp": 900,
+			"mp": 560,
+			"attack": 840,
+			"defence": 940,
+			"agility": 420,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "Counterstriker"
+			},
+			{
+				"name": "Whack Attack"
+			},
+			{
+				"name": "Enemy Tension Down"
+			},
+			{
+				"name": "Random Fizzle"
+			}
+		]
+	},
+	"Overkilling Machine": {
+		"size": "S",
+		"stats": {
+			"hp": 630,
+			"mp": 500,
+			"attack": 510,
+			"defence": 620,
+			"agility": 640,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "2 Moves"
+			},
+			{
+				"name": "Hit Squad (3)"
+			},
+			{
+				"name": "Crafty Inactivist"
+			},
+			{
+				"name": "Spell Splurger"
+			}
+		]
+	},
+	"Aamon": {
+		"size": "M",
+		"stats": {
+			"hp": 1300,
+			"mp": 800,
+			"attack": 580,
+			"defence": 860,
+			"agility": 1100,
+			"wisdom": 1360
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Wave of Relief"
+			},
+			{
+				"name": "Spell Splurger"
+			},
+			{
+				"name": "Magic Counter"
+			}
+		]
+	},
+	"Ladja": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 600,
+			"attack": 580,
+			"defence": 540,
+			"agility": 400,
+			"wisdom": 1000
+		},
+		"traits": [
+			{
+				"name": "1-2 Moves"
+			},
+			{
+				"name": "Crafty Frizzer"
+			},
+			{
+				"name": "Magic Counter"
+			},
+			{
+				"name": "Immediate Ping"
+			}
+		]
+	},
+	"Triwinder": {
+		"size": "M",
+		"stats": {
+			"hp": 1480,
+			"mp": 400,
+			"attack": 740,
+			"defence": 400,
+			"agility": 400,
+			"wisdom": 700
+		},
+		"traits": [
+			{
+				"name": "1-3 Mega Moves"
+			},
+			{
+				"name": "Hit Squad (3)"
+			},
+			{
+				"name": "Crafty Cracker"
+			},
+			{
+				"name": "Crafty Inactivist"
+			}
+		]
+	},
+	"Elder Pipit": {
+		"size": "S",
+		"stats": {
+			"hp": 600,
+			"mp": 1000,
+			"attack": 500,
+			"defence": 800,
+			"agility": 1200,
+			"wisdom": 1200
+		},
+		"traits": [
+			{
+				"name": "Random Accelerate"
+			},
+			{
+				"name": "Crafty Banger"
+			},
+			{
+				"name": "Donkmeister"
+			},
+			{
+				"name": "Random Ping"
+			}
+		]
+	},
+	"Night Clubber": {
+		"size": "S",
+		"stats": {
+			"hp": 1000,
+			"mp": 260,
+			"attack": 1000,
+			"defence": 1000,
+			"agility": 320,
+			"wisdom": 320
+		},
+		"traits": [
+			{
+				"name": "Last Word"
+			},
+			{
+				"name": "Giant Killer"
+			},
+			{
+				"name": "Yellow-Belly"
+			},
+			{
+				"name": "Persistent"
+			}
+		]
+	},
+	"Escudogre": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 480,
+			"attack": 880,
+			"defence": 1200,
+			"agility": 620,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Immediate Buff"
+			},
+			{
+				"name": "Crafty Ice Breather"
+			},
+			{
+				"name": "Light Metal Body"
+			},
+			{
+				"name": "Critical Guard"
+			}
+		]
+	},
+	"Blackmar": {
+		"size": "S",
+		"stats": {
+			"hp": 600,
+			"mp": 540,
+			"attack": 630,
+			"defence": 610,
+			"agility": 250,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "2 Moves"
+			},
+			{
+				"name": "Sizzmeister"
+			},
+			{
+				"name": "Crafty Fire Breather"
+			},
+			{
+				"name": "Yellow-Belly"
+			}
+		]
+	},
+	"Wight King": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 1000,
+			"attack": 200,
+			"defence": 940,
+			"agility": 960,
+			"wisdom": 1000
+		},
+		"traits": [
+			{
+				"name": "Poison Body"
+			},
+			{
+				"name": "Magic Regenerator"
+			},
+			{
+				"name": "Magic Drain Attack"
+			},
+			{
+				"name": "Random Ping"
+			}
+		]
+	},
+	"Slider Girl": {
+		"size": "M",
+		"stats": {
+			"hp": 1000,
+			"mp": 500,
+			"attack": 750,
+			"defence": 500,
+			"agility": 2000,
+			"wisdom": 700
+		},
+		"traits": [
+			{
+				"name": "1-3 Mega Moves"
+			},
+			{
+				"name": "Immediate Oomph"
+			},
+			{
+				"name": "Immediate Tension"
+			},
+			{
+				"name": "Ally Tension Rise"
+			}
+		]
+	},
+	"Alabast Dragon": {
+		"size": "M",
+		"stats": {
+			"hp": 1300,
+			"mp": 600,
+			"attack": 1060,
+			"defence": 1000,
+			"agility": 640,
+			"wisdom": 880
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Crafty Fire Breather"
+			},
+			{
+				"name": "Wave of Relief"
+			}
+		]
+	},
+	"Prism Peacock": {
+		"size": "S",
+		"stats": {
+			"hp": 860,
+			"mp": 620,
+			"attack": 840,
+			"defence": 640,
+			"agility": 740,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Crafty Fire Breather"
+			},
+			{
+				"name": "Crafty Ice Breather"
+			},
+			{
+				"name": "Wave of Relief"
+			},
+			{
+				"name": "Early Bird"
+			}
+		]
+	},
+	"Mossferatu": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 620,
+			"attack": 880,
+			"defence": 680,
+			"agility": 640,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "Enemy Tension Down"
+			},
+			{
+				"name": "Poison Attack"
+			},
+			{
+				"name": "Crafty Poisoner"
+			},
+			{
+				"name": "Magic Regenerator"
+			}
+		]
+	},
+	"The Time Being": {
+		"size": "S",
+		"stats": {
+			"hp": 600,
+			"mp": 660,
+			"attack": 410,
+			"defence": 420,
+			"agility": 540,
+			"wisdom": 1000
+		},
+		"traits": [
+			{
+				"name": "1-3 Moves"
+			},
+			{
+				"name": "Immediate Accelerate"
+			},
+			{
+				"name": "Immediate Ping"
+			},
+			{
+				"name": "Spell Splurger"
+			}
+		]
+	},
+	"Titanis": {
+		"size": "M",
+		"stats": {
+			"hp": 1300,
+			"mp": 800,
+			"attack": 540,
+			"defence": 440,
+			"agility": 430,
+			"wisdom": 1200
+		},
+		"traits": [
+			{
+				"name": "2 Mega Moves"
+			},
+			{
+				"name": "Scare Stare"
+			},
+			{
+				"name": "Intimidating"
+			},
+			{
+				"name": "Pressure"
+			}
+		]
+	},
+	"Darkonium Slime": {
+		"size": "M",
+		"stats": {
+			"hp": 60,
+			"mp": 720,
+			"attack": 620,
+			"defence": 1500,
+			"agility": 1500,
+			"wisdom": 1285
+		},
+		"traits": [
+			{
+				"name": "2 Mega Moves"
+			},
+			{
+				"name": "Metal Body"
+			},
+			{
+				"name": "Hit Squad (3)"
+			},
+			{
+				"name": "Last Word"
+			}
+		]
+	},
+	"Bilhaw": {
+		"size": "M",
+		"stats": {
+			"hp": 1200,
+			"mp": 600,
+			"attack": 600,
+			"defence": 1000,
+			"agility": 1200,
+			"wisdom": 1200
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Early Bird"
+			},
+			{
+				"name": "Hopeful Hitter"
+			},
+			{
+				"name": "Yellow-Belly"
+			}
+		]
+	},
+	"Lieutenant Goresby-Purrvis": {
+		"size": "S",
+		"stats": {
+			"hp": 530,
+			"mp": 300,
+			"attack": 800,
+			"defence": 610,
+			"agility": 800,
+			"wisdom": 540
+		},
+		"traits": [
+			{
+				"name": "2 Moves"
+			},
+			{
+				"name": "Intimidating"
+			},
+			{
+				"name": "Hopeful Hitter"
+			},
+			{
+				"name": "Yellow-Belly"
+			}
+		]
+	},
+	"Balzack": {
+		"size": "M",
+		"stats": {
+			"hp": 1300,
+			"mp": 500,
+			"attack": 1000,
+			"defence": 700,
+			"agility": 140,
+			"wisdom": 620
+		},
+		"traits": [
+			{
+				"name": "1-3 Mega Moves"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Standard Killer"
+			},
+			{
+				"name": "Yellow-Belly"
+			}
+		]
+	},
+	"True Dragonlord": {
+		"size": "S",
+		"stats": {
+			"hp": 860,
+			"mp": 600,
+			"attack": 720,
+			"defence": 700,
+			"agility": 760,
+			"wisdom": 920
+		},
+		"traits": [
+			{
+				"name": "Scare Stare"
+			},
+			{
+				"name": "Crafty Fizzler"
+			},
+			{
+				"name": "Immediate Brake Wind"
+			},
+			{
+				"name": "Immediate Break Bind"
+			}
+		]
+	},
+	"King Sanguini": {
+		"size": "M",
+		"stats": {
+			"hp": 1100,
+			"mp": 800,
+			"attack": 500,
+			"defence": 700,
+			"agility": 1000,
+			"wisdom": 1300
+		},
+		"traits": [
+			{
+				"name": "2 Mega Moves"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Immediate Malhaze"
+			},
+			{
+				"name": "Random Malhaze"
+			}
+		]
+	},
+	"Mumboh-Jumboe": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 540,
+			"attack": 1000,
+			"defence": 1000,
+			"agility": 300,
+			"wisdom": 680
+		},
+		"traits": [
+			{
+				"name": "Bangmeister"
+			},
+			{
+				"name": "Paralysing Body"
+			},
+			{
+				"name": "Crafty Sagger"
+			},
+			{
+				"name": "Metal Beater"
+			}
+		]
+	},
+	"Murdaw": {
+		"size": "S",
+		"stats": {
+			"hp": 920,
+			"mp": 520,
+			"attack": 640,
+			"defence": 720,
+			"agility": 800,
+			"wisdom": 960
+		},
+		"traits": [
+			{
+				"name": "Crackmeister"
+			},
+			{
+				"name": "Crafty Ice Breather"
+			},
+			{
+				"name": "Crafty Sleeper"
+			},
+			{
+				"name": "Random Break Bind"
+			}
+		]
+	},
+	"Baramos": {
+		"size": "S",
+		"stats": {
+			"hp": 780,
+			"mp": 600,
+			"attack": 520,
+			"defence": 560,
+			"agility": 580,
+			"wisdom": 1000
+		},
+		"traits": [
+			{
+				"name": "1-2 Moves"
+			},
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Frizzmeister"
+			},
+			{
+				"name": "Crafty Fire Breather"
+			}
+		]
+	},
+	"Hargon": {
+		"size": "S",
+		"stats": {
+			"hp": 940,
+			"mp": 580,
+			"attack": 620,
+			"defence": 760,
+			"agility": 600,
+			"wisdom": 960
+		},
+		"traits": [
+			{
+				"name": "Steady Recovery"
+			},
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Crafty Fizzler"
+			},
+			{
+				"name": "Random Ping"
+			}
+		]
+	},
+	"Malroth": {
+		"size": "M",
+		"stats": {
+			"hp": 1260,
+			"mp": 680,
+			"attack": 680,
+			"defence": 670,
+			"agility": 420,
+			"wisdom": 1000
+		},
+		"traits": [
+			{
+				"name": "2 Mega Moves"
+			},
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Health Professional"
+			},
+			{
+				"name": "Disruptive Wave"
+			}
+		]
+	},
+	"Darck": {
+		"size": "S",
+		"stats": {
+			"hp": 1000,
+			"mp": 460,
+			"attack": 700,
+			"defence": 700,
+			"agility": 580,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "Enemy Tension Reset"
+			},
+			{
+				"name": "Counterslammer"
+			},
+			{
+				"name": "Enemy Tension Down"
+			},
+			{
+				"name": "Disruptive Wave"
+			}
+		]
+	},
+	"Tyrannosaurus Wrecks": {
+		"size": "S",
+		"stats": {
+			"hp": 700,
+			"mp": 220,
+			"attack": 800,
+			"defence": 520,
+			"agility": 450,
+			"wisdom": 380
+		},
+		"traits": [
+			{
+				"name": "2 Moves"
+			},
+			{
+				"name": "Imaginative"
+			},
+			{
+				"name": "Electrifying"
+			},
+			{
+				"name": "Spell Splurger"
+			}
+		]
+	},
+	"Captain Crow": {
+		"size": "S",
+		"stats": {
+			"hp": 920,
+			"mp": 500,
+			"attack": 760,
+			"defence": 840,
+			"agility": 760,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Ally Tension Rise"
+			},
+			{
+				"name": "Disruptive Wave"
+			},
+			{
+				"name": "Random Brake Wind"
+			}
+		]
+	},
+	"Grandpa Slime": {
+		"size": "M",
+		"stats": {
+			"hp": 1300,
+			"mp": 800,
+			"attack": 740,
+			"defence": 1000,
+			"agility": 720,
+			"wisdom": 1200
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Disruptive Wave"
+			},
+			{
+				"name": "Rare Tension"
+			},
+			{
+				"name": "Zapmeister"
+			}
+		]
+	},
+	"Canzar": {
+		"size": "L",
+		"stats": {
+			"hp": 2550,
+			"mp": 200,
+			"attack": 800,
+			"defence": 800,
+			"agility": 200,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "2 Giga Moves"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Close Scraper"
+			},
+			{
+				"name": "Protective Fog"
+			}
+		]
+	},
+	"Khalamari": {
+		"size": "L",
+		"stats": {
+			"hp": 2300,
+			"mp": 400,
+			"attack": 900,
+			"defence": 760,
+			"agility": 440,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "2 Giga Moves"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Crafty Dazzler"
+			}
+		]
+	},
+	"Dhoulmagus": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 560,
+			"attack": 800,
+			"defence": 860,
+			"agility": 720,
+			"wisdom": 1000
+		},
+		"traits": [
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Counterstriker"
+			},
+			{
+				"name": "Zammeister"
+			}
+		]
+	},
+	"Uberkilling Machine": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 200,
+			"attack": 900,
+			"defence": 900,
+			"agility": 600,
+			"wisdom": 200
+		},
+		"traits": [
+			{
+				"name": "1-2 Moves"
+			},
+			{
+				"name": "Hit Squad (3)"
+			},
+			{
+				"name": "Magic Counter"
+			},
+			{
+				"name": "Random Oomph"
+			}
+		]
+	},
+	"Slime Blaster": {
+		"size": "L",
+		"stats": {
+			"hp": 2000,
+			"mp": 600,
+			"attack": 500,
+			"defence": 1000,
+			"agility": 200,
+			"wisdom": 1200
+		},
+		"traits": [
+			{
+				"name": "1-3 Giga Moves"
+			},
+			{
+				"name": "Magic Counter"
+			},
+			{
+				"name": "Counteractivist"
+			},
+			{
+				"name": "Late Riser"
+			}
+		]
+	},
+	"King Godwyn Second Forme": {
+		"size": "L",
+		"stats": {
+			"hp": 1900,
+			"mp": 700,
+			"attack": 550,
+			"defence": 500,
+			"agility": 800,
+			"wisdom": 1000
+		},
+		"traits": [
+			{
+				"name": "2-3 Giga Moves"
+			},
+			{
+				"name": "Magic Drain Attack"
+			},
+			{
+				"name": "Disruptive Wave"
+			},
+			{
+				"name": "Disenchanted"
+			}
+		]
+	},
+	"Ruin": {
+		"size": "L",
+		"stats": {
+			"hp": 2150,
+			"mp": 200,
+			"attack": 800,
+			"defence": 1000,
+			"agility": 200,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "2 Giga Moves"
+			},
+			{
+				"name": "Hopeful Hitter"
+			},
+			{
+				"name": "Disenchanted"
+			},
+			{
+				"name": "Last Word"
+			}
+		]
+	},
+	"Gem Slime": {
+		"size": "M",
+		"stats": {
+			"hp": 80,
+			"mp": 800,
+			"attack": 640,
+			"defence": 1800,
+			"agility": 1800,
+			"wisdom": 1400
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Metal Body"
+			},
+			{
+				"name": "Hit Squad (3)"
+			},
+			{
+				"name": "Enemy Tension Rise"
+			}
+		]
+	},
+	"Dragonlord": {
+		"size": "M",
+		"stats": {
+			"hp": 1100,
+			"mp": 520,
+			"attack": 1000,
+			"defence": 900,
+			"agility": 600,
+			"wisdom": 820
+		},
+		"traits": [
+			{
+				"name": "1-3 Mega Moves"
+			},
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Close Scraper"
+			},
+			{
+				"name": "Unlucky"
+			}
+		]
+	},
+	"Evil Sir Leopold": {
+		"size": "S",
+		"stats": {
+			"hp": 840,
+			"mp": 540,
+			"attack": 740,
+			"defence": 820,
+			"agility": 1000,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Early Bird"
+			},
+			{
+				"name": "Giant Killer"
+			},
+			{
+				"name": "Immediate Malhaze"
+			}
+		]
+	},
+	"Psaro The Manslayer": {
+		"size": "M",
+		"stats": {
+			"hp": 1400,
+			"mp": 500,
+			"attack": 1000,
+			"defence": 900,
+			"agility": 800,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Desperado"
+			},
+			{
+				"name": "Crafty Whacker"
+			},
+			{
+				"name": "Magic Counter"
+			}
+		]
+	},
+	"Robbin's Old Lady": {
+		"size": "M",
+		"stats": {
+			"hp": 1250,
+			"mp": 400,
+			"attack": 960,
+			"defence": 600,
+			"agility": 700,
+			"wisdom": 660
+		},
+		"traits": [
+			{
+				"name": "2 Mega Moves"
+			},
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Immediate Tension"
+			},
+			{
+				"name": "Strangely Alluring"
+			}
+		]
+	},
+	"Prince O' Thieves": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 360,
+			"attack": 820,
+			"defence": 620,
+			"agility": 760,
+			"wisdom": 440
+		},
+		"traits": [
+			{
+				"name": "1-2 Moves"
+			},
+			{
+				"name": "Pressure"
+			},
+			{
+				"name": "Enemy Tension Down"
+			},
+			{
+				"name": "Confused Frenzy"
+			}
+		]
+	},
+	"Nimzo": {
+		"size": "M",
+		"stats": {
+			"hp": 1300,
+			"mp": 500,
+			"attack": 720,
+			"defence": 700,
+			"agility": 600,
+			"wisdom": 820
+		},
+		"traits": [
+			{
+				"name": "2 Mega Moves"
+			},
+			{
+				"name": "Disruptive Wave"
+			},
+			{
+				"name": "Crafty Sapper"
+			},
+			{
+				"name": "Rare Tension"
+			}
+		]
+	},
+	"Xiphos The Deathbringer": {
+		"size": "L",
+		"stats": {
+			"hp": 1900,
+			"mp": 400,
+			"attack": 800,
+			"defence": 540,
+			"agility": 1000,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "2-3 Giga Moves"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Critical Guard"
+			},
+			{
+				"name": "Disenchanted"
+			}
+		]
+	},
+	"Diamond Slime": {
+		"size": "S",
+		"stats": {
+			"hp": 100,
+			"mp": 400,
+			"attack": 750,
+			"defence": 1400,
+			"agility": 1400,
+			"wisdom": 1000
+		},
+		"traits": [
+			{
+				"name": "Hard Metal Body"
+			},
+			{
+				"name": "Random Tension"
+			},
+			{
+				"name": "Magic Drain Attack"
+			},
+			{
+				"name": "Disenchanted"
+			}
+		]
+	},
+	"Orochi": {
+		"size": "L",
+		"stats": {
+			"hp": 2600,
+			"mp": 220,
+			"attack": 720,
+			"defence": 520,
+			"agility": 340,
+			"wisdom": 520
+		},
+		"traits": [
+			{
+				"name": "1-3 Giga Moves"
+			},
+			{
+				"name": "Hit Squad (4)"
+			},
+			{
+				"name": "Crafty Fire Breather"
+			},
+			{
+				"name": "Rare Tension"
+			}
+		]
+	},
+	"Trode": {
+		"size": "S",
+		"stats": {
+			"hp": 880,
+			"mp": 600,
+			"attack": 800,
+			"defence": 700,
+			"agility": 680,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Counterstriker"
+			},
+			{
+				"name": "Escape Artist"
+			},
+			{
+				"name": "Enemy Tension Reset"
+			}
+		]
+	},
+	"Pruslas": {
+		"size": "L",
+		"stats": {
+			"hp": 2200,
+			"mp": 200,
+			"attack": 800,
+			"defence": 800,
+			"agility": 200,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "1-3 Giga Moves"
+			},
+			{
+				"name": "Hopeful Hitter"
+			},
+			{
+				"name": "Last Word"
+			},
+			{
+				"name": "Yellow-Belly"
+			}
+		]
+	},
+	"Trauminator": {
+		"size": "M",
+		"stats": {
+			"hp": 1200,
+			"mp": 400,
+			"attack": 830,
+			"defence": 1000,
+			"agility": 730,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "2 Mega Moves"
+			},
+			{
+				"name": "Bangmeister"
+			},
+			{
+				"name": "Crafty Inactivist"
+			},
+			{
+				"name": "Magic Barrier"
+			}
+		]
+	},
+	"Scruffy": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 600,
+			"attack": 800,
+			"defence": 500,
+			"agility": 1000,
+			"wisdom": 1000
+		},
+		"traits": [
+			{
+				"name": "Enemy Tension Down"
+			},
+			{
+				"name": "Scout Chance Up"
+			},
+			{
+				"name": "Counteractivist"
+			},
+			{
+				"name": "Protective Fog"
+			}
+		]
+	},
+	"Dr Snapped": {
+		"size": "M",
+		"stats": {
+			"hp": 1100,
+			"mp": 600,
+			"attack": 920,
+			"defence": 700,
+			"agility": 610,
+			"wisdom": 1200
+		},
+		"traits": [
+			{
+				"name": "2 Mega Moves"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Poison Body"
+			},
+			{
+				"name": "Confusion Attack"
+			}
+		]
+	},
+	"Zoma": {
+		"size": "S",
+		"stats": {
+			"hp": 620,
+			"mp": 600,
+			"attack": 660,
+			"defence": 860,
+			"agility": 640,
+			"wisdom": 1000
+		},
+		"traits": [
+			{
+				"name": "1-2 Moves"
+			},
+			{
+				"name": "Magic Counter"
+			},
+			{
+				"name": "Crafty Cracker"
+			},
+			{
+				"name": "Immediate Ping"
+			}
+		]
+	},
+	"Liquid Metal Slime King": {
+		"size": "L",
+		"stats": {
+			"hp": 200,
+			"mp": 1000,
+			"attack": 565,
+			"defence": 1600,
+			"agility": 1600,
+			"wisdom": 1490
+		},
+		"traits": [
+			{
+				"name": "2-3 Giga Moves"
+			},
+			{
+				"name": "Metal Body"
+			},
+			{
+				"name": "Standard Killer"
+			},
+			{
+				"name": "Gambling Body"
+			}
+		]
+	},
+	"Barbarus": {
+		"size": "M",
+		"stats": {
+			"hp": 1300,
+			"mp": 280,
+			"attack": 940,
+			"defence": 710,
+			"agility": 600,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "2 Mega Moves"
+			},
+			{
+				"name": "Pressure"
+			},
+			{
+				"name": "Crafty Donker"
+			},
+			{
+				"name": "Random Nether Fog"
+			}
+		]
+	},
+	"The Almighty": {
+		"size": "S",
+		"stats": {
+			"hp": 840,
+			"mp": 590,
+			"attack": 760,
+			"defence": 760,
+			"agility": 700,
+			"wisdom": 960
+		},
+		"traits": [
+			{
+				"name": "Comeback Kid"
+			},
+			{
+				"name": "Wave of Relief"
+			},
+			{
+				"name": "Lucky"
+			},
+			{
+				"name": "Immediate Ping"
+			}
+		]
+	},
+	"Fluffy": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 540,
+			"attack": 840,
+			"defence": 700,
+			"agility": 900,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "Ally Tension Rise"
+			},
+			{
+				"name": "Scout Chance Up"
+			},
+			{
+				"name": "Magic Counter"
+			},
+			{
+				"name": "Protective Fog"
+			}
+		]
+	},
+	"Schwarzman Tank": {
+		"size": "L",
+		"stats": {
+			"hp": 1800,
+			"mp": 300,
+			"attack": 850,
+			"defence": 1000,
+			"agility": 100,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "1-3 Giga Moves"
+			},
+			{
+				"name": "Light Metal Body"
+			},
+			{
+				"name": "Desperado"
+			},
+			{
+				"name": "Spell Splurger"
+			}
+		]
+	},
+	"Mortamor": {
+		"size": "M",
+		"stats": {
+			"hp": 1000,
+			"mp": 800,
+			"attack": 870,
+			"defence": 710,
+			"agility": 800,
+			"wisdom": 1000
+		},
+		"traits": [
+			{
+				"name": "1-3 Mega Moves"
+			},
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Immediate Nether Fog"
+			},
+			{
+				"name": "Disruptive Wave"
+			}
+		]
+	},
+	"Hihyurude": {
+		"size": "L",
+		"stats": {
+			"hp": 2100,
+			"mp": 400,
+			"attack": 550,
+			"defence": 640,
+			"agility": 560,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "2-3 Giga Moves"
+			},
+			{
+				"name": "Sleep Attack"
+			},
+			{
+				"name": "Counteractivist"
+			},
+			{
+				"name": "Spell Splurger"
+			}
+		]
+	},
+	"Greygnarl": {
+		"size": "M",
+		"stats": {
+			"hp": 1300,
+			"mp": 320,
+			"attack": 920,
+			"defence": 670,
+			"agility": 650,
+			"wisdom": 700
+		},
+		"traits": [
+			{
+				"name": "2 Mega Moves"
+			},
+			{
+				"name": "Zapmeister"
+			},
+			{
+				"name": "Comeback Kid"
+			},
+			{
+				"name": "Random Oomph"
+			}
+		]
+	},
+	"Yggdrasil": {
+		"size": "L",
+		"stats": {
+			"hp": 2000,
+			"mp": 1200,
+			"attack": 600,
+			"defence": 1000,
+			"agility": 400,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "1-3 Giga Moves"
+			},
+			{
+				"name": "Hit Squad (4)"
+			},
+			{
+				"name": "Counterstriker"
+			},
+			{
+				"name": "Close Scraper"
+			}
+		]
+	},
+	"Sagittar": {
+		"size": "L",
+		"stats": {
+			"hp": 2300,
+			"mp": 400,
+			"attack": 600,
+			"defence": 1000,
+			"agility": 800,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "2 Giga Moves"
+			},
+			{
+				"name": "Hit Squad (4)"
+			},
+			{
+				"name": "Early Bird"
+			},
+			{
+				"name": "Random Break Bind"
+			}
+		]
+	},
+	"Orgodemir": {
+		"size": "M",
+		"stats": {
+			"hp": 1100,
+			"mp": 700,
+			"attack": 830,
+			"defence": 800,
+			"agility": 490,
+			"wisdom": 1200
+		},
+		"traits": [
+			{
+				"name": "1-3 Mega Moves"
+			},
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Crafty Ice Breather"
+			},
+			{
+				"name": "Imaginative"
+			}
+		]
+	},
+	"Gadis": {
+		"size": "L",
+		"stats": {
+			"hp": 1900,
+			"mp": 600,
+			"attack": 550,
+			"defence": 750,
+			"agility": 650,
+			"wisdom": 1200
+		},
+		"traits": [
+			{
+				"name": "2-3 Giga Moves"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Disruptive Wave"
+			},
+			{
+				"name": "Disenchanted"
+			}
+		]
+	},
+	"Xenlon": {
+		"size": "M",
+		"stats": {
+			"hp": 1300,
+			"mp": 420,
+			"attack": 780,
+			"defence": 800,
+			"agility": 580,
+			"wisdom": 740
+		},
+		"traits": [
+			{
+				"name": "1-3 Mega Moves"
+			},
+			{
+				"name": "Zapmeister"
+			},
+			{
+				"name": "Crafty Fire Breather"
+			},
+			{
+				"name": "Random Fizzle"
+			}
+		]
+	},
+	"Munchie": {
+		"size": "S",
+		"stats": {
+			"hp": 720,
+			"mp": 600,
+			"attack": 920,
+			"defence": 740,
+			"agility": 980,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "Crafty Fire Breather"
+			},
+			{
+				"name": "Crafty Ice Breather"
+			},
+			{
+				"name": "Strangely Alluring"
+			},
+			{
+				"name": "Ally Tension Rise"
+			}
+		]
+	},
+	"Nokturnus": {
+		"size": "S",
+		"stats": {
+			"hp": 760,
+			"mp": 300,
+			"attack": 900,
+			"defence": 620,
+			"agility": 640,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "1-2 Moves"
+			},
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Counterstriker"
+			},
+			{
+				"name": "Yellow-Belly"
+			}
+		]
+	},
+	"Rhapthorne": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 600,
+			"attack": 520,
+			"defence": 980,
+			"agility": 1000,
+			"wisdom": 1000
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Disruptive Wave"
+			},
+			{
+				"name": "Crafty Saboteur"
+			},
+			{
+				"name": "Magic Barrier"
+			}
+		]
+	},
+	"Dark Robot Slime": {
+		"size": "L",
+		"stats": {
+			"hp": 1500,
+			"mp": 400,
+			"attack": 650,
+			"defence": 900,
+			"agility": 1000,
+			"wisdom": 1000
+		},
+		"traits": [
+			{
+				"name": "2-3 Giga Moves"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Hopeful Hitter"
+			},
+			{
+				"name": "Spell Splurger"
+			}
+		]
+	},
+	"Dimensional Dragon": {
+		"size": "M",
+		"stats": {
+			"hp": 1300,
+			"mp": 500,
+			"attack": 850,
+			"defence": 600,
+			"agility": 800,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "2-3 Mega Moves"
+			},
+			{
+				"name": "Counterslammer"
+			},
+			{
+				"name": "Enemy Tension Rise"
+			},
+			{
+				"name": "Yellow-Belly"
+			}
+		]
+	},
+	"Aquarion": {
+		"size": "L",
+		"stats": {
+			"hp": 2600,
+			"mp": 240,
+			"attack": 600,
+			"defence": 600,
+			"agility": 520,
+			"wisdom": 400
+		},
+		"traits": [
+			{
+				"name": "2 Giga Moves"
+			},
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Magic Barrier"
+			}
+		]
+	},
+	"Estark": {
+		"size": "L",
+		"stats": {
+			"hp": 2350,
+			"mp": 450,
+			"attack": 820,
+			"defence": 730,
+			"agility": 460,
+			"wisdom": 540
+		},
+		"traits": [
+			{
+				"name": "2 Giga Moves"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Disruptive Wave"
+			},
+			{
+				"name": "Restless"
+			}
+		]
+	},
+	"Rhapthorne II": {
+		"size": "L",
+		"stats": {
+			"hp": 2200,
+			"mp": 800,
+			"attack": 600,
+			"defence": 800,
+			"agility": 400,
+			"wisdom": 1200
+		},
+		"traits": [
+			{
+				"name": "1-3 Giga Moves"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Crafty Zammer"
+			},
+			{
+				"name": "Crafty Magic Drainer"
+			}
+		]
+	},
+	"Ramia": {
+		"size": "L",
+		"stats": {
+			"hp": 2200,
+			"mp": 600,
+			"attack": 600,
+			"defence": 700,
+			"agility": 1200,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "2 Giga Moves"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Crafty Ice Breather"
+			},
+			{
+				"name": "Random Brake Wind"
+			}
+		]
+	},
+	"Malevolynx": {
+		"size": "L",
+		"stats": {
+			"hp": 2300,
+			"mp": 300,
+			"attack": 900,
+			"defence": 720,
+			"agility": 780,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "2 Giga Moves"
+			},
+			{
+				"name": "Sleep Attack"
+			},
+			{
+				"name": "Crafty Sizzer"
+			},
+			{
+				"name": "Random Malhaze"
+			}
+		]
+	},
+	"Leonyx": {
+		"size": "L",
+		"stats": {
+			"hp": 2300,
+			"mp": 300,
+			"attack": 800,
+			"defence": 800,
+			"agility": 800,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "2 Giga Moves"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Crafty Devil"
+			},
+			{
+				"name": "Yellow-Belly"
+			}
+		]
+	},
+	"Rigor Mortex": {
+		"size": "L",
+		"stats": {
+			"hp": 2300,
+			"mp": 620,
+			"attack": 600,
+			"defence": 1100,
+			"agility": 360,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "1-3 Giga Moves"
+			},
+			{
+				"name": "Magic Counter"
+			},
+			{
+				"name": "Gambling Body"
+			},
+			{
+				"name": "Immediate Nether Fog"
+			}
+		]
+	},
+	"Magarugi": {
+		"size": "L",
+		"stats": {
+			"hp": 2000,
+			"mp": 900,
+			"attack": 540,
+			"defence": 770,
+			"agility": 1000,
+			"wisdom": 1500
+		},
+		"traits": [
+			{
+				"name": "1-3 Giga Moves"
+			},
+			{
+				"name": "Hit Squad (3)"
+			},
+			{
+				"name": "Crafty Zapper"
+			},
+			{
+				"name": "Crafty Zammer"
+			}
+		]
+	},
+	"Corvus": {
+		"size": "S",
+		"stats": {
+			"hp": 600,
+			"mp": 360,
+			"attack": 770,
+			"defence": 600,
+			"agility": 380,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "2 Moves"
+			},
+			{
+				"name": "Disruptive Wave"
+			},
+			{
+				"name": "Crafty Zammer"
+			},
+			{
+				"name": "Comeback Kid"
+			}
+		]
+	},
+	"Lord Of The Dragovians": {
+		"size": "M",
+		"stats": {
+			"hp": 1500,
+			"mp": 200,
+			"attack": 1100,
+			"defence": 1000,
+			"agility": 700,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "1-2 Mega Moves"
+			},
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Desperado"
+			},
+			{
+				"name": "Despellado"
+			}
+		]
+	},
+	"Zenith Dragon": {
+		"size": "L",
+		"stats": {
+			"hp": 2400,
+			"mp": 400,
+			"attack": 600,
+			"defence": 800,
+			"agility": 600,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "1-3 Giga Moves"
+			},
+			{
+				"name": "Hit Squad (4)"
+			},
+			{
+				"name": "Desperado"
+			},
+			{
+				"name": "Counterslammer"
+			}
+		]
+	},
+	"Hihyudorado": {
+		"size": "L",
+		"stats": {
+			"hp": 1900,
+			"mp": 550,
+			"attack": 550,
+			"defence": 720,
+			"agility": 780,
+			"wisdom": 1200
+		},
+		"traits": [
+			{
+				"name": "2-3 Giga Moves"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Magic Counter"
+			},
+			{
+				"name": "Spell Splurger"
+			}
+		]
+	},
+	"Wulfspade": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 400,
+			"attack": 620,
+			"defence": 780,
+			"agility": 680,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Crafty Zapper"
+			},
+			{
+				"name": "Fly Swatter"
+			},
+			{
+				"name": "Strangely Alluring"
+			}
+		]
+	},
+	"Hawkhart": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 400,
+			"attack": 600,
+			"defence": 780,
+			"agility": 600,
+			"wisdom": 680
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Early Bird"
+			},
+			{
+				"name": "Strangely Alluring"
+			}
+		]
+	},
+	"Cluboon": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 400,
+			"attack": 680,
+			"defence": 720,
+			"agility": 600,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Giant Killer"
+			},
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Strangely Alluring"
+			}
+		]
+	},
+	"Diamagon": {
+		"size": "S",
+		"stats": {
+			"hp": 840,
+			"mp": 400,
+			"attack": 680,
+			"defence": 720,
+			"agility": 460,
+			"wisdom": 600
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Ally Tension Rise"
+			},
+			{
+				"name": "Metal Beater"
+			},
+			{
+				"name": "Strangely Alluring"
+			}
+		]
+	},
+	"Wulfspade Ace": {
+		"size": "S",
+		"stats": {
+			"hp": 800,
+			"mp": 500,
+			"attack": 800,
+			"defence": 900,
+			"agility": 840,
+			"wisdom": 920
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Crafty Zapper"
+			},
+			{
+				"name": "Fly Swatter"
+			}
+		]
+	},
+	"Hawkhart Ace": {
+		"size": "S",
+		"stats": {
+			"hp": 680,
+			"mp": 560,
+			"attack": 500,
+			"defence": 800,
+			"agility": 930,
+			"wisdom": 860
+		},
+		"traits": [
+			{
+				"name": "1-2 Moves"
+			},
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Early Bird"
+			},
+			{
+				"name": "Yellow-Belly"
+			}
+		]
+	},
+	"Cluboon Ace": {
+		"size": "S",
+		"stats": {
+			"hp": 820,
+			"mp": 510,
+			"attack": 840,
+			"defence": 900,
+			"agility": 760,
+			"wisdom": 720
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Hit Squad (3)"
+			},
+			{
+				"name": "Giant Killer"
+			},
+			{
+				"name": "Critical Massacre"
+			}
+		]
+	},
+	"Diamagon Ace": {
+		"size": "S",
+		"stats": {
+			"hp": 880,
+			"mp": 540,
+			"attack": 770,
+			"defence": 820,
+			"agility": 640,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "Increase Tension"
+			},
+			{
+				"name": "Hit Squad (2)"
+			},
+			{
+				"name": "Ally Tension Rise"
+			},
+			{
+				"name": "Metal Beater"
+			}
+		]
+	},
+	"Ace Of Spades": {
+		"size": "S",
+		"stats": {
+			"hp": 860,
+			"mp": 520,
+			"attack": 800,
+			"defence": 830,
+			"agility": 700,
+			"wisdom": 780
+		},
+		"traits": [
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Zammeister"
+			},
+			{
+				"name": "Immediate Fizzle"
+			},
+			{
+				"name": "Magic Barrier"
+			}
+		]
+	},
+	"Wildcard": {
+		"size": "S",
+		"stats": {
+			"hp": 620,
+			"mp": 600,
+			"attack": 1000,
+			"defence": 1000,
+			"agility": 920,
+			"wisdom": 800
+		},
+		"traits": [
+			{
+				"name": "Hit Squad"
+			},
+			{
+				"name": "Counteractivist"
+			},
+			{
+				"name": "Wave of Relief"
+			},
+			{
+				"name": "Protective Fog"
+			}
+		]
+	}
+}

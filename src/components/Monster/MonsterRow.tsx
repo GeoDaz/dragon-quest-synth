@@ -74,7 +74,7 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 }) {
 	const { isFr, translateMonster, translateUI } = useTranslate();
 	const { walkInto, addDefault } = useContext(TrailContext);
-	const { details, terms, farewell, items, spawns, hasDetails, hasSpawns } =
+	const { details, terms, farewell, items, spawns, hasDetails, hasSkills, hasSpawns } =
 		useContext(DetailsContext);
 	const { stock, goals, addToReserve, openReserve, toggleGoal } =
 		useContext(ReserveContext);
@@ -187,7 +187,7 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 			<td className="cell-rank">
 				<Rank name={monster.rank} />
 			</td>
-			{hasDetails && (
+			{hasSkills && (
 				<td className="cell-skill">
 					{skill ?
 						<Talent name={skill} />

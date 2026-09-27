@@ -25,34 +25,34 @@
 		},
 		"traits": [
 			{
-				"name": "やいばのボディ",
+				"name": "Spiky Skin",
 				"level": 1
 			},
 			{
-				"name": "ねがえり",
+				"name": "Sleep Twitch",
 				"level": 20
 			},
 			{
-				"name": "ときどきスカラ",
+				"name": "Rando-Buff",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から２",
+				"name": "Tactical Trooper",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "癒しの大力",
+				"name": "High Heal",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "会心かんぜんガード",
+				"name": "Desperate Measures",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ぼうぎょ",
+		"skill": "Defender",
 		"drops": [
 			{
 				"item": "薬草",
@@ -90,34 +90,34 @@
 		},
 		"traits": [
 			{
-				"name": "きょうせんし",
+				"name": "Agent of Chaos",
 				"level": 1
 			},
 			{
-				"name": "いきなりピオラ",
+				"name": "Insta-Accel",
 				"level": 20
 			},
 			{
-				"name": "プレッシャー",
+				"name": "Intimidating",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "くじけぬ心",
+				"name": "Close Scraper",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "闇ブレイク大",
+				"name": "Ultra Crafty Zammer",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ダウナー",
+		"skill": "Enfeebler",
 		"drops": [
 			{
 				"item": "毒消し草",
@@ -157,34 +157,34 @@
 		},
 		"traits": [
 			{
-				"name": "きょうせんし",
+				"name": "Agent of Chaos",
 				"level": 1
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 20
 			},
 			{
-				"name": "ときどきバイキルト",
+				"name": "Rando-Oomph",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "最後のあがき",
+				"name": "Parting Gift",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "全体攻撃",
+				"name": "Collective Punishment",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "あばれんぼう",
+		"skill": "Wild Child",
 		"drops": [
 			{
 				"item": "上薬草",
@@ -223,34 +223,34 @@
 		},
 		"traits": [
 			{
-				"name": "くじけぬ心",
+				"name": "Close Scraper",
 				"level": 1
 			},
 			{
-				"name": "徒手空拳",
+				"name": "Naked Ambition",
 				"level": 20
 			},
 			{
-				"name": "ピンチで会心",
+				"name": "Critical Moment",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ときどきスカラ",
+				"name": "Rando-Buff",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "根に持つタイプ",
+				"name": "Personal Grudge",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "あばれんぼう",
+		"skill": "Wild Child",
 		"drops": [
 			{
 				"item": "上薬草",
@@ -288,34 +288,34 @@
 		},
 		"traits": [
 			{
-				"name": "ときどきバイキルト",
+				"name": "Rando-Oomph",
 				"level": 1
 			},
 			{
-				"name": "メタルハンター",
+				"name": "Metal Beater",
 				"level": 20
 			},
 			{
-				"name": "ショック攻撃",
+				"name": "Stunning Touch",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "きょうせんし",
+				"name": "Agent of Chaos",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "休みブレイク大",
+				"name": "Ultra Crafty Stunner",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ちからもち"
+		"skill": "Power Player"
 	},
 	"Powie Yowie": {
 		"size": "S",
@@ -340,34 +340,34 @@
 		},
 		"traits": [
 			{
-				"name": "氷結のコツ",
+				"name": "Crackmeister",
 				"level": 1
 			},
 			{
-				"name": "アンチみかわし",
+				"name": "Dodge Denier",
 				"level": 20
 			},
 			{
-				"name": "ショック攻撃",
+				"name": "Stunning Touch",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ときどきピオラ",
+				"name": "Rando-Accel",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "氷結ブレイク大",
+				"name": "Ultra Crafty Cracker",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "吹雪",
+		"skill": "Chilly Receptionist",
 		"drops": [
 			{
 				"item": "やわらかウール",
@@ -403,34 +403,34 @@
 		},
 		"traits": [
 			{
-				"name": "とうそうほんのう",
+				"name": "Attacking Impulse",
 				"level": 1
 			},
 			{
-				"name": "ちからため",
+				"name": "Rando-Muster",
 				"level": 20
 			},
 			{
-				"name": "メタルキラー",
+				"name": "Metal Medley",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "会心率アップ大",
+				"name": "Critical Triumph",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "スモールキラー",
+				"name": "Little Menace",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "いたずら",
+		"skill": "Prankster",
 		"drops": [
 			{
 				"item": "さとりそう",
@@ -465,37 +465,37 @@
 		},
 		"traits": [
 			{
-				"name": "とうそうほんのう",
+				"name": "Attacking Impulse",
 				"level": 1
 			},
 			{
-				"name": "やいばのボディ",
+				"name": "Spiky Skin",
 				"level": 20
 			},
 			{
-				"name": "秘めたるチカラ",
+				"name": "Late Bloomer",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ラストスタンド",
+				"name": "Last Legs",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "けもの道",
+		"skill": "Naturalist",
 		"randomSkills": [
-			"マヒガード",
-			"すばやさアップ１"
+			"Paralysis Protector",
+			"Agility Booster I"
 		],
 		"drops": [
 			{
@@ -534,34 +534,34 @@
 		},
 		"traits": [
 			{
-				"name": "ショック攻撃",
+				"name": "Stunning Touch",
 				"level": 1
 			},
 			{
-				"name": "きょうせんし",
+				"name": "Agent of Chaos",
 				"level": 20
 			},
 			{
-				"name": "ピンチで会心",
+				"name": "Critical Moment",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "休みブレイク大",
+				"name": "Ultra Crafty Stunner",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "やいばのボディ",
+				"name": "Spiky Skin",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "じこぎせい"
+		"skill": "Martyr"
 	},
 	"Dragonthorn": {
 		"size": "S",
@@ -590,34 +590,34 @@
 		},
 		"traits": [
 			{
-				"name": "やいばのボディ",
+				"name": "Spiky Skin",
 				"level": 1
 			},
 			{
-				"name": "ねむり攻撃",
+				"name": "Sleepy Touch",
 				"level": 20
 			},
 			{
-				"name": "いやがらせ",
+				"name": "Major Downer",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "超魔獣キラー",
+				"name": "Über Beastsbane",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "マヒブレイク大",
+				"name": "Ultra Crafty Paralyser",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "グリーンソード"
+		"skill": "Blowy Slasher"
 	},
 	"Flython": {
 		"size": "S",
@@ -646,34 +646,34 @@
 		},
 		"traits": [
 			{
-				"name": "どく攻撃",
+				"name": "Poisonous Touch",
 				"level": 1
 			},
 			{
-				"name": "アンチみかわし",
+				"name": "Dodge Denier",
 				"level": 20
 			},
 			{
-				"name": "くじけぬ心",
+				"name": "Close Scraper",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "毒ブレイク大",
+				"name": "Ultra Crafty Poisoner",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ときどきバイキルト",
+				"name": "Rando-Oomph",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "毒舌",
+		"skill": "Toxicologist",
 		"drops": [
 			{
 				"item": "石ころ",
@@ -713,37 +713,37 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 1
 			},
 			{
-				"name": "いきなりピオラ",
+				"name": "Insta-Accel",
 				"level": 20
 			},
 			{
-				"name": "しっぺがえし",
+				"name": "Tit for Tat",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "闇のコツ",
+				"name": "Zammeister",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "いやがらせ",
+				"name": "Major Downer",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "つむじ風",
+		"skill": "Blusterer",
 		"randomSkills": [
-			"かしこさアップ１",
-			"封じガード"
+			"Wisdom Booster I",
+			"Antimagic Avoider"
 		],
 		"drops": [
 			{
@@ -783,37 +783,37 @@
 		},
 		"traits": [
 			{
-				"name": "会心率アップ大",
+				"name": "Critical Triumph",
 				"level": 1
 			},
 			{
-				"name": "メタルハンター",
+				"name": "Metal Beater",
 				"level": 20
 			},
 			{
-				"name": "いきなりバイキルト",
+				"name": "Insta-Oomph",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "くじけぬ心",
+				"name": "Close Scraper",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "アンチみかわし",
+				"name": "Dodge Denier",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ちからもち",
+		"skill": "Power Player",
 		"randomSkills": [
-			"攻撃力アップ１",
-			"爆発ガード"
+			"Attack Booster I",
+			"Bang Ward"
 		],
 		"drops": [
 			{
@@ -853,34 +853,34 @@
 		},
 		"traits": [
 			{
-				"name": "回復のコツ",
+				"name": "Health Professional",
 				"level": 1
 			},
 			{
-				"name": "アンチみかわし",
+				"name": "Dodge Denier",
 				"level": 20
 			},
 			{
-				"name": "ピンチで会心",
+				"name": "Critical Moment",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "いきなりピオラ",
+				"name": "Insta-Accel",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ときどきバイキルト",
+				"name": "Rando-Oomph",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "しんそく"
+		"skill": "Speedster"
 	},
 	"Bantamweight": {
 		"size": "S",
@@ -910,37 +910,37 @@
 		},
 		"traits": [
 			{
-				"name": "ロケットスタート",
+				"name": "Strong Starter",
 				"level": 1
 			},
 			{
-				"name": "ねむり攻撃",
+				"name": "Sleepy Touch",
 				"level": 20
 			},
 			{
-				"name": "ツッコミ",
+				"name": "Sobering Slap",
 				"level": 40
 			},
 			{
-				"name": "行動回数２から３",
+				"name": "Tactical Titan",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "スモールキラー",
+				"name": "Little Menace",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "眠りブレイク大",
+				"name": "Ultra Crafty Sleeper",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "巨漢",
+		"skill": "Goliath",
 		"randomSkills": [
-			"MPアップ１",
-			"混乱ガード"
+			"MP Booster I",
+			"Confusion Controller"
 		],
 		"drops": [
 			{
@@ -981,37 +981,37 @@
 		},
 		"traits": [
 			{
-				"name": "きょうせんし",
+				"name": "Agent of Chaos",
 				"level": 1
 			},
 			{
-				"name": "ときどきバイキルト",
+				"name": "Rando-Oomph",
 				"level": 20
 			},
 			{
-				"name": "とうそうほんのう",
+				"name": "Attacking Impulse",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "超自然キラー",
+				"name": "Über Naturesbane",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "全体攻撃",
+				"name": "Collective Punishment",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "地の心",
+		"skill": "Crag Afficionado",
 		"randomSkills": [
-			"火ガード",
-			"守備力アップ１"
+			"Frizz Ward",
+			"Defence Booster I"
 		],
 		"drops": [
 			{
@@ -1051,34 +1051,34 @@
 		},
 		"traits": [
 			{
-				"name": "ピンチで会心",
+				"name": "Critical Moment",
 				"level": 1
 			},
 			{
-				"name": "こんらん攻撃",
+				"name": "Confusing Touch",
 				"level": 20
 			},
 			{
-				"name": "いきなりバイキルト",
+				"name": "Insta-Oomph",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "封じブレイク大",
+				"name": "Ultra Crafty Spellbinder",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ギャンブルボディ",
+				"name": "Slick Skin",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "アンチスペル",
+		"skill": "Antimagician",
 		"drops": [
 			{
 				"item": "目覚めの針",
@@ -1116,34 +1116,34 @@
 		},
 		"traits": [
 			{
-				"name": "マヒ攻撃",
+				"name": "Paralysing Touch",
 				"level": 1
 			},
 			{
-				"name": "水のコツ",
+				"name": "Splishmeister",
 				"level": 20
 			},
 			{
-				"name": "ロケットスタート",
+				"name": "Strong Starter",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "きょうせんし",
+				"name": "Agent of Chaos",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "全体攻撃",
+				"name": "Collective Punishment",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ブルーソード",
+		"skill": "Soggy Slasher",
 		"drops": [
 			{
 				"item": "魔法の小瓶",
@@ -1183,34 +1183,34 @@
 		},
 		"traits": [
 			{
-				"name": "れんぞく６",
+				"name": "Hit Squad x6",
 				"level": 1
 			},
 			{
-				"name": "ラージキラー",
+				"name": "Big Bully",
 				"level": 20
 			},
 			{
-				"name": "かいひほんのう",
+				"name": "Evasive Impulse",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "超みかわしアップ",
+				"name": "Supreme Sidestepper",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "やまびこ",
+				"name": "Echonomist",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ナチュラル"
+		"skill": "Nature Child"
 	},
 	"Funghoul": {
 		"size": "S",
@@ -1240,34 +1240,34 @@
 		},
 		"traits": [
 			{
-				"name": "毒ブレイク大",
+				"name": "Ultra Crafty Poisoner",
 				"level": 1
 			},
 			{
-				"name": "おいうち",
+				"name": "Insult to Injury",
 				"level": 20
 			},
 			{
-				"name": "スヤスヤボディ",
+				"name": "Somnolent Skin",
 				"level": 40
 			},
 			{
-				"name": "行動回数２から３",
+				"name": "Tactical Titan",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "いやがらせ",
+				"name": "Major Downer",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "眠りブレイク大",
+				"name": "Ultra Crafty Sleeper",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "あくしゅう"
+		"skill": "Stinker"
 	},
 	"Wax Murderer": {
 		"size": "S",
@@ -1296,36 +1296,36 @@
 		},
 		"traits": [
 			{
-				"name": "火のコツ",
+				"name": "Frizzmeister",
 				"level": 1
 			},
 			{
-				"name": "きょうせんし",
+				"name": "Agent of Chaos",
 				"level": 20
 			},
 			{
-				"name": "くじけぬ心",
+				"name": "Close Scraper",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "弱体化ブレイク大",
+				"name": "Ultra Crafty Debilitator",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "最後のあがき",
+				"name": "Parting Gift",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "レッドソード",
+		"skill": "Spicy Slasher",
 		"randomSkills": [
-			"かしこさアップ１"
+			"Wisdom Booster I"
 		]
 	},
 	"Scarfish": {
@@ -1355,34 +1355,34 @@
 		},
 		"traits": [
 			{
-				"name": "どくどくボディ",
+				"name": "Infected Skin",
 				"level": 1
 			},
 			{
-				"name": "しっぺがえし",
+				"name": "Tit for Tat",
 				"level": 20
 			},
 			{
-				"name": "ロケットスタート",
+				"name": "Strong Starter",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "超自然キラー",
+				"name": "Über Naturesbane",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "どく攻撃",
+				"name": "Poisonous Touch",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "アンデッド",
+		"skill": "Graveheart",
 		"drops": [
 			{
 				"item": "薬草",
@@ -1421,36 +1421,36 @@
 		},
 		"traits": [
 			{
-				"name": "混乱ブレイク大",
+				"name": "Ultra Crafty Confuser",
 				"level": 1
 			},
 			{
-				"name": "ピンチで会心",
+				"name": "Critical Moment",
 				"level": 20
 			},
 			{
-				"name": "メタルハンター",
+				"name": "Metal Beater",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "最後のあがき",
+				"name": "Parting Gift",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "電撃ブレイク大",
+				"name": "Ultra Crafty Zapper",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "アンデッド",
+		"skill": "Graveheart",
 		"randomSkills": [
-			"攻撃力アップ１"
+			"Attack Booster I"
 		],
 		"drops": [
 			{
@@ -1491,34 +1491,34 @@
 		},
 		"traits": [
 			{
-				"name": "風のコツ",
+				"name": "Wooshmeister",
 				"level": 1
 			},
 			{
-				"name": "いきなりピオラ",
+				"name": "Insta-Accel",
 				"level": 20
 			},
 			{
-				"name": "弱体化ブレイク大",
+				"name": "Ultra Crafty Debilitator",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "わるあがき",
+				"name": "Snappy Comeback",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "全体攻撃",
+				"name": "Collective Punishment",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "風の心",
+		"skill": "Woosh Afficionado",
 		"drops": [
 			{
 				"item": "魔法の小瓶",
@@ -1557,34 +1557,34 @@
 		},
 		"traits": [
 			{
-				"name": "ギャンブルボディ",
+				"name": "Slick Skin",
 				"level": 1
 			},
 			{
-				"name": "ねがえり",
+				"name": "Sleep Twitch",
 				"level": 20
 			},
 			{
-				"name": "アンチみかわし",
+				"name": "Dodge Denier",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ときどきスカラ",
+				"name": "Rando-Buff",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ピンチで会心",
+				"name": "Critical Moment",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "いしあたま",
+		"skill": "Materialist",
 		"drops": [
 			{
 				"item": "魔法の小瓶",
@@ -1623,37 +1623,37 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 1
 			},
 			{
-				"name": "最後の息吹",
+				"name": "Benefaction",
 				"level": 20
 			},
 			{
-				"name": "風のコツ",
+				"name": "Wooshmeister",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "たいでんたいしつ",
+				"name": "Static Discharge",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "魔力の強風",
+				"name": "Wizardly Wind",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "風の心",
+		"skill": "Woosh Afficionado",
 		"randomSkills": [
-			"すばやさアップ１",
-			"風ガード"
+			"Agility Booster I",
+			"Woosh Ward"
 		],
 		"drops": [
 			{
@@ -1694,34 +1694,34 @@
 		},
 		"traits": [
 			{
-				"name": "いきなりスカラ",
+				"name": "Insta-Buff",
 				"level": 1
 			},
 			{
-				"name": "ピンチで会心",
+				"name": "Critical Moment",
 				"level": 20
 			},
 			{
-				"name": "どく攻撃",
+				"name": "Poisonous Touch",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "毒ブレイク大",
+				"name": "Ultra Crafty Poisoner",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "会心かんぜんガード",
+				"name": "Desperate Measures",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "むしのしらせ"
+		"skill": "Hive Mind"
 	},
 	"Vampire Cat": {
 		"size": "S",
@@ -1748,34 +1748,34 @@
 		},
 		"traits": [
 			{
-				"name": "封じブレイク大",
+				"name": "Ultra Crafty Spellbinder",
 				"level": 1
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 20
 			},
 			{
-				"name": "ときどきピオラ",
+				"name": "Rando-Accel",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "魔力の強風",
+				"name": "Wizardly Wind",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "呪文会心率アップ大",
+				"name": "Critical Theorist",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "アンチスペル"
+		"skill": "Antimagician"
 	},
 	"Odd Cob": {
 		"size": "S",
@@ -1802,34 +1802,34 @@
 		},
 		"traits": [
 			{
-				"name": "マヒブレイク大",
+				"name": "Ultra Crafty Paralyser",
 				"level": 1
 			},
 			{
-				"name": "癒しの力",
+				"name": "Low Heal",
 				"level": 20
 			},
 			{
-				"name": "おだてじょうず",
+				"name": "Bigger Upper",
 				"level": 40
 			},
 			{
-				"name": "行動回数２から３",
+				"name": "Tactical Titan",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "背水の陣",
+				"name": "Unhealthy Advantage",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "最後のあがき",
+				"name": "Parting Gift",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "サポーター",
+		"skill": "Willing Helper",
 		"drops": [
 			{
 				"item": "みかわしそう",
@@ -1864,37 +1864,37 @@
 		},
 		"traits": [
 			{
-				"name": "れんぞく",
+				"name": "Hit Squad x2",
 				"level": 1
 			},
 			{
-				"name": "セラピー",
+				"name": "Detox",
 				"level": 20
 			},
 			{
-				"name": "マホトラ攻撃",
+				"name": "Absorbent Touch",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "いやがらせ",
+				"name": "Major Downer",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "眠りブレイク大",
+				"name": "Ultra Crafty Sleeper",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ナチュラル",
+		"skill": "Nature Child",
 		"randomSkills": [
-			"かしこさアップ１",
-			"眠りガード"
+			"Wisdom Booster I",
+			"Sleep Suppressor"
 		],
 		"drops": [
 			{
@@ -1934,34 +1934,34 @@
 		},
 		"traits": [
 			{
-				"name": "どく攻撃",
+				"name": "Poisonous Touch",
 				"level": 1
 			},
 			{
-				"name": "休みブレイク大",
+				"name": "Ultra Crafty Stunner",
 				"level": 20
 			},
 			{
-				"name": "封じブレイク大",
+				"name": "Ultra Crafty Spellbinder",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "どくどくボディ",
+				"name": "Infected Skin",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ラストスタンド",
+				"name": "Last Legs",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "アンデッド",
+		"skill": "Graveheart",
 		"drops": [
 			{
 				"item": "まりょくの土",
@@ -1995,34 +1995,34 @@
 		},
 		"traits": [
 			{
-				"name": "封じブレイク大",
+				"name": "Ultra Crafty Spellbinder",
 				"level": 1
 			},
 			{
-				"name": "やいばのボディ",
+				"name": "Spiky Skin",
 				"level": 20
 			},
 			{
-				"name": "ラージキラー",
+				"name": "Big Bully",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "くじけぬ心",
+				"name": "Close Scraper",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "いきなりバイキルト",
+				"name": "Insta-Oomph",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "サポーター"
+		"skill": "Willing Helper"
 	},
 	"String Fella": {
 		"size": "S",
@@ -2050,34 +2050,34 @@
 		},
 		"traits": [
 			{
-				"name": "セラピー",
+				"name": "Detox",
 				"level": 1
 			},
 			{
-				"name": "マヒ攻撃",
+				"name": "Paralysing Touch",
 				"level": 20
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "マヒブレイク大",
+				"name": "Ultra Crafty Paralyser",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "全体攻撃",
+				"name": "Collective Punishment",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "トリッキー"
+		"skill": "Vexologist"
 	},
 	"Succubat": {
 		"size": "S",
@@ -2103,34 +2103,34 @@
 		},
 		"traits": [
 			{
-				"name": "闇のコツ",
+				"name": "Zammeister",
 				"level": 1
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 20
 			},
 			{
-				"name": "スヤスヤボディ",
+				"name": "Somnolent Skin",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ときどきピオラ",
+				"name": "Rando-Accel",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "MP吸収ブレイク大",
+				"name": "Ultra Crafty Magic Drainer",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "みわく",
+		"skill": "Charmer",
 		"drops": [
 			{
 				"item": "夜の帳",
@@ -2165,34 +2165,34 @@
 		},
 		"traits": [
 			{
-				"name": "呪文会心率アップ大",
+				"name": "Critical Theorist",
 				"level": 1
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 20
 			},
 			{
-				"name": "いやがらせ",
+				"name": "Major Downer",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "おいうち",
+				"name": "Insult to Injury",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "くじけぬ心",
+				"name": "Close Scraper",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "異常回復",
+		"skill": "Paramedic",
 		"drops": [
 			{
 				"item": "プラチナこうせき",
@@ -2226,34 +2226,34 @@
 		},
 		"traits": [
 			{
-				"name": "メタルキラー",
+				"name": "Metal Medley",
 				"level": 1
 			},
 			{
-				"name": "おだてじょうず",
+				"name": "Bigger Upper",
 				"level": 20
 			},
 			{
-				"name": "ときどきピオラ",
+				"name": "Rando-Accel",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "医術士",
+				"name": "Decontaminate",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "秘めたるチカラ",
+				"name": "Late Bloomer",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "アッパー",
+		"skill": "Fortifier",
 		"drops": [
 			{
 				"item": "薬草",
@@ -2293,34 +2293,34 @@
 		},
 		"traits": [
 			{
-				"name": "れんぞく",
+				"name": "Hit Squad x2",
 				"level": 1
 			},
 			{
-				"name": "いきなりスカラ",
+				"name": "Insta-Buff",
 				"level": 20
 			},
 			{
-				"name": "弱体化ブレイク大",
+				"name": "Ultra Crafty Debilitator",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から２",
+				"name": "Tactical Trooper",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "会心かんぜんガード",
+				"name": "Desperate Measures",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "最後のあがき",
+				"name": "Parting Gift",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ぼうぎょ",
+		"skill": "Defender",
 		"drops": [
 			{
 				"item": "石ころ",
@@ -2359,37 +2359,37 @@
 		},
 		"traits": [
 			{
-				"name": "封じブレイク大",
+				"name": "Ultra Crafty Spellbinder",
 				"level": 1
 			},
 			{
-				"name": "ショック攻撃",
+				"name": "Stunning Touch",
 				"level": 20
 			},
 			{
-				"name": "マホキテボディ",
+				"name": "Spongy Skin",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "超みかわしアップ",
+				"name": "Supreme Sidestepper",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "魔力の強風",
+				"name": "Wizardly Wind",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "アンデッド",
+		"skill": "Graveheart",
 		"randomSkills": [
-			"MPアップ１",
-			"電撃ガード"
+			"MP Booster I",
+			"Zap Ward"
 		],
 		"drops": [
 			{
@@ -2430,37 +2430,37 @@
 		},
 		"traits": [
 			{
-				"name": "会心率アップ大",
+				"name": "Critical Triumph",
 				"level": 1
 			},
 			{
-				"name": "ロケットスタート",
+				"name": "Strong Starter",
 				"level": 20
 			},
 			{
-				"name": "くじけぬ心",
+				"name": "Close Scraper",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "幻惑ブレイク大",
+				"name": "Ultra Crafty Dazzler",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "火ブレイク大",
+				"name": "Ultra Crafty Frizzer",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ぼうぎょ",
+		"skill": "Defender",
 		"randomSkills": [
-			"HPアップ１",
-			"氷結ガード"
+			"HP Booster I",
+			"Crack Ward"
 		],
 		"drops": [
 			{
@@ -2498,34 +2498,34 @@
 		},
 		"traits": [
 			{
-				"name": "やいばのボディ",
+				"name": "Spiky Skin",
 				"level": 1
 			},
 			{
-				"name": "休みブレイク大",
+				"name": "Ultra Crafty Stunner",
 				"level": 20
 			},
 			{
-				"name": "ラージキラー",
+				"name": "Big Bully",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "わるあがき",
+				"name": "Snappy Comeback",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "全体攻撃",
+				"name": "Collective Punishment",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "グリーンソード"
+		"skill": "Blowy Slasher"
 	},
 	"Restless Armour": {
 		"size": "S",
@@ -2557,34 +2557,34 @@
 		},
 		"traits": [
 			{
-				"name": "ミラクル攻撃",
+				"name": "Miraculous Touch",
 				"level": 1
 			},
 			{
-				"name": "ぼうえいほんのう",
+				"name": "Defensive Impulse",
 				"level": 20
 			},
 			{
-				"name": "わるあがき",
+				"name": "Snappy Comeback",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "たいでんたいしつ",
+				"name": "Static Discharge",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "全ガードブレイク",
+				"name": "Crafty Devil",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "アンチブレス"
+		"skill": "Breath Taker"
 	},
 	"See Urchin": {
 		"size": "S",
@@ -2611,34 +2611,34 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 1
 			},
 			{
-				"name": "癒しの力",
+				"name": "Low Heal",
 				"level": 20
 			},
 			{
-				"name": "水ブレイク大",
+				"name": "Ultra Crafty Splasher",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ふっかつの祈り",
+				"name": "Last Gasp",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ひかりのはどう",
+				"name": "Rando-Relief",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "水の心",
+		"skill": "Splash Afficionado",
 		"drops": [
 			{
 				"item": "魔法の小瓶",
@@ -2678,37 +2678,37 @@
 		},
 		"traits": [
 			{
-				"name": "ときどきスカラ",
+				"name": "Rando-Buff",
 				"level": 1
 			},
 			{
-				"name": "ねがえり",
+				"name": "Sleep Twitch",
 				"level": 20
 			},
 			{
-				"name": "秘めたるチカラ",
+				"name": "Late Bloomer",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "てんしのきまぐれ",
+				"name": "Saving Grace",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "いきなりマホカンタ",
+				"name": "Insta-Bounce",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ダウナー",
+		"skill": "Enfeebler",
 		"randomSkills": [
-			"すばやさアップ１",
-			"眠りガード"
+			"Agility Booster I",
+			"Sleep Suppressor"
 		],
 		"drops": [
 			{
@@ -2748,34 +2748,34 @@
 		},
 		"traits": [
 			{
-				"name": "闇のコツ",
+				"name": "Zammeister",
 				"level": 1
 			},
 			{
-				"name": "いきなりインテ",
+				"name": "Insta-Ping",
 				"level": 20
 			},
 			{
-				"name": "ザキ攻撃",
+				"name": "Deadly Touch",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "即死ブレイク大",
+				"name": "Ultra Crafty Whacker",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ギャンブルボディ",
+				"name": "Slick Skin",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "カース",
+		"skill": "Hexcommunicator",
 		"drops": [
 			{
 				"item": "魔法の小瓶",
@@ -2813,34 +2813,34 @@
 		},
 		"traits": [
 			{
-				"name": "ときどきバイキルト",
+				"name": "Rando-Oomph",
 				"level": 1
 			},
 			{
-				"name": "ときどきピオラ",
+				"name": "Rando-Accel",
 				"level": 20
 			},
 			{
-				"name": "どく攻撃",
+				"name": "Poisonous Touch",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "背水の陣",
+				"name": "Unhealthy Advantage",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ファイターズハイ",
+				"name": "Adrenaline Rush",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ウォリアー"
+		"skill": "Fighter"
 	},
 	"Ethereal Serpent": {
 		"size": "L",
@@ -2870,34 +2870,34 @@
 		},
 		"traits": [
 			{
-				"name": "会心率アップ大",
+				"name": "Critical Triumph",
 				"level": 1
 			},
 			{
-				"name": "氷結のコツ",
+				"name": "Crackmeister",
 				"level": 20
 			},
 			{
-				"name": "秘めたるチカラ",
+				"name": "Late Bloomer",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "背水の陣",
+				"name": "Unhealthy Advantage",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "最後の息吹",
+				"name": "Benefaction",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "息吹"
+		"skill": "Shallow Breather"
 	},
 	"Guaardvark": {
 		"size": "S",
@@ -2926,34 +2926,34 @@
 		},
 		"traits": [
 			{
-				"name": "混乱ブレイク大",
+				"name": "Ultra Crafty Confuser",
 				"level": 1
 			},
 			{
-				"name": "いきなりピオラ",
+				"name": "Insta-Accel",
 				"level": 20
 			},
 			{
-				"name": "きょうせんし",
+				"name": "Agent of Chaos",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ピンチで会心",
+				"name": "Critical Moment",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "こんらん攻撃",
+				"name": "Confusing Touch",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "スリラー"
+		"skill": "Thrill-Seeker"
 	},
 	"Skullrider": {
 		"size": "S",
@@ -2982,34 +2982,34 @@
 		},
 		"traits": [
 			{
-				"name": "行動回数１から２",
+				"name": "Tactical Trooper",
 				"level": 1
 			},
 			{
-				"name": "くじけぬ心",
+				"name": "Close Scraper",
 				"level": 20
 			},
 			{
-				"name": "きょうせんし",
+				"name": "Agent of Chaos",
 				"level": 40
 			},
 			{
-				"name": "ときどきピオラ",
+				"name": "Rando-Accel",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "地ブレイク大",
+				"name": "Ultra Crafty Cragger",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "アンチみかわし",
+				"name": "Dodge Denier",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ブルーソード",
+		"skill": "Soggy Slasher",
 		"drops": [
 			{
 				"item": "上薬草",
@@ -3047,37 +3047,37 @@
 		},
 		"traits": [
 			{
-				"name": "弱体化ブレイク大",
+				"name": "Ultra Crafty Debilitator",
 				"level": 1
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 20
 			},
 			{
-				"name": "封じブレイク大",
+				"name": "Ultra Crafty Spellbinder",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "いきなりピオラ",
+				"name": "Insta-Accel",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ラストスタンド",
+				"name": "Last Legs",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ジャマー",
+		"skill": "Irritant",
 		"randomSkills": [
-			"休みガード",
-			"すばやさアップ１"
+			"Stun Stopper",
+			"Agility Booster I"
 		],
 		"drops": [
 			{
@@ -3118,34 +3118,34 @@
 		},
 		"traits": [
 			{
-				"name": "ヘロヘロボディ",
+				"name": "Stunning Skin",
 				"level": 1
 			},
 			{
-				"name": "弱体化ブレイク大",
+				"name": "Ultra Crafty Debilitator",
 				"level": 20
 			},
 			{
-				"name": "爆発のコツ",
+				"name": "Bangmeister",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "おいうち",
+				"name": "Insult to Injury",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "全体攻撃",
+				"name": "Collective Punishment",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "グリーンソード"
+		"skill": "Blowy Slasher"
 	},
 	"Snowmangler": {
 		"size": "S",
@@ -3175,34 +3175,34 @@
 		},
 		"traits": [
 			{
-				"name": "氷結のコツ",
+				"name": "Crackmeister",
 				"level": 1
 			},
 			{
-				"name": "いきなりピオラ",
+				"name": "Insta-Accel",
 				"level": 20
 			},
 			{
-				"name": "ザキ攻撃",
+				"name": "Deadly Touch",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "氷結ブレイク大",
+				"name": "Ultra Crafty Cracker",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "最後のあがき",
+				"name": "Parting Gift",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "氷結の心"
+		"skill": "Crack Afficionado"
 	},
 	"Raptile": {
 		"size": "S",
@@ -3232,34 +3232,34 @@
 		},
 		"traits": [
 			{
-				"name": "れんぞく４",
+				"name": "Hit Squad x4",
 				"level": 1
 			},
 			{
-				"name": "きょうせんし",
+				"name": "Agent of Chaos",
 				"level": 20
 			},
 			{
-				"name": "たいでんたいしつ",
+				"name": "Static Discharge",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "火ブレイク大",
+				"name": "Ultra Crafty Frizzer",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "全体攻撃",
+				"name": "Collective Punishment",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "息吹",
+		"skill": "Shallow Breather",
 		"drops": [
 			{
 				"item": "上薬草",
@@ -3298,37 +3298,37 @@
 		},
 		"traits": [
 			{
-				"name": "電撃のコツ",
+				"name": "Zapmeister",
 				"level": 1
 			},
 			{
-				"name": "会心率アップ大",
+				"name": "Critical Triumph",
 				"level": 20
 			},
 			{
-				"name": "ラージキラー",
+				"name": "Big Bully",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "いきなりピオラ",
+				"name": "Insta-Accel",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ファイターズハイ",
+				"name": "Adrenaline Rush",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "スラフォース",
+		"skill": "Slimer",
 		"randomSkills": [
-			"守備力アップ１",
-			"水ガード"
+			"Defence Booster I",
+			"Splish Ward"
 		],
 		"drops": [
 			{
@@ -3370,34 +3370,34 @@
 		},
 		"traits": [
 			{
-				"name": "いきなりスカラ",
+				"name": "Insta-Buff",
 				"level": 1
 			},
 			{
-				"name": "ときどきまもりの霧",
+				"name": "Rando-Mister",
 				"level": 20
 			},
 			{
-				"name": "ぐるぐるボディ",
+				"name": "Stupefying Skin",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "魔力の強風",
+				"name": "Wizardly Wind",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "封じブレイク大",
+				"name": "Ultra Crafty Spellbinder",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "てっぺき",
+		"skill": "Barricade",
 		"drops": [
 			{
 				"item": "メタルストーン",
@@ -3438,34 +3438,34 @@
 		},
 		"traits": [
 			{
-				"name": "ラブリー",
+				"name": "Strangely Alluring",
 				"level": 1
 			},
 			{
-				"name": "魔力の風",
+				"name": "Wizardly Waft",
 				"level": 20
 			},
 			{
-				"name": "最後の息吹",
+				"name": "Benefaction",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "やまびこ",
+				"name": "Echonomist",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "おだてじょうず",
+				"name": "Bigger Upper",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "スイート"
+		"skill": "Sweet-Talker"
 	},
 	"Slime Stack": {
 		"size": "S",
@@ -3495,37 +3495,37 @@
 		},
 		"traits": [
 			{
-				"name": "電撃のコツ",
+				"name": "Zapmeister",
 				"level": 1
 			},
 			{
-				"name": "アンチみかわし",
+				"name": "Dodge Denier",
 				"level": 20
 			},
 			{
-				"name": "スモールキラー",
+				"name": "Little Menace",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ツッコミ",
+				"name": "Sobering Slap",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "くじけぬ心",
+				"name": "Close Scraper",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "電撃の心",
+		"skill": "Zap Afficionado",
 		"randomSkills": [
-			"守備力アップ１",
-			"休みガード"
+			"Defence Booster I",
+			"Stun Stopper"
 		],
 		"drops": [
 			{
@@ -3566,37 +3566,37 @@
 		},
 		"traits": [
 			{
-				"name": "ときどきスカラ",
+				"name": "Rando-Buff",
 				"level": 1
 			},
 			{
-				"name": "やいばのボディ",
+				"name": "Spiky Skin",
 				"level": 20
 			},
 			{
-				"name": "ラブリー",
+				"name": "Strangely Alluring",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から２",
+				"name": "Tactical Trooper",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "癒しの大力",
+				"name": "High Heal",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "マヒブレイク大",
+				"name": "Ultra Crafty Paralyser",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ぼうぎょ",
+		"skill": "Defender",
 		"randomSkills": [
-			"封じガード",
-			"守備力アップ１"
+			"Antimagic Avoider",
+			"Defence Booster I"
 		],
 		"drops": [
 			{
@@ -3636,36 +3636,36 @@
 		},
 		"traits": [
 			{
-				"name": "ときどきインテ",
+				"name": "Rando-Ping",
 				"level": 1
 			},
 			{
-				"name": "マヒ攻撃",
+				"name": "Paralysing Touch",
 				"level": 20
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "癒しの大力",
+				"name": "High Heal",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "マヒブレイク大",
+				"name": "Ultra Crafty Paralyser",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ナチュラル",
+		"skill": "Nature Child",
 		"randomSkills": [
-			"守備力アップ１"
+			"Defence Booster I"
 		],
 		"drops": [
 			{
@@ -3708,34 +3708,34 @@
 		},
 		"traits": [
 			{
-				"name": "行動回数１から２",
+				"name": "Tactical Trooper",
 				"level": 1
 			},
 			{
-				"name": "くじけぬ心",
+				"name": "Close Scraper",
 				"level": 20
 			},
 			{
-				"name": "ラージキラー",
+				"name": "Big Bully",
 				"level": 40
 			},
 			{
-				"name": "ピンチで会心",
+				"name": "Critical Moment",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "爆発ブレイク大",
+				"name": "Ultra Crafty Banger",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "いきなりバイキルト",
+				"name": "Insta-Oomph",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "騎士道"
+		"skill": "Good Knight"
 	},
 	"She-Slime": {
 		"size": "S",
@@ -3762,34 +3762,34 @@
 		},
 		"traits": [
 			{
-				"name": "火のコツ",
+				"name": "Frizzmeister",
 				"level": 1
 			},
 			{
-				"name": "ときどきピオラ",
+				"name": "Rando-Accel",
 				"level": 20
 			},
 			{
-				"name": "ロケットスタート",
+				"name": "Strong Starter",
 				"level": 40
 			},
 			{
-				"name": "行動回数２から３",
+				"name": "Tactical Titan",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "きょうせんし",
+				"name": "Agent of Chaos",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "火ブレイク大",
+				"name": "Ultra Crafty Frizzer",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "レッドソード"
+		"skill": "Spicy Slasher"
 	},
 	"Warhog": {
 		"size": "S",
@@ -3818,34 +3818,34 @@
 		},
 		"traits": [
 			{
-				"name": "スヤスヤボディ",
+				"name": "Somnolent Skin",
 				"level": 1
 			},
 			{
-				"name": "いきなりスカラ",
+				"name": "Insta-Buff",
 				"level": 20
 			},
 			{
-				"name": "ラストスタンド",
+				"name": "Last Legs",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "とうそうほんのう",
+				"name": "Attacking Impulse",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "秘めたるチカラ",
+				"name": "Late Bloomer",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ウォリアー",
+		"skill": "Fighter",
 		"drops": [
 			{
 				"item": "まじゅうの皮",
@@ -3881,34 +3881,34 @@
 		},
 		"traits": [
 			{
-				"name": "弱体化ブレイク大",
+				"name": "Ultra Crafty Debilitator",
 				"level": 1
 			},
 			{
-				"name": "かいひほんのう",
+				"name": "Evasive Impulse",
 				"level": 20
 			},
 			{
-				"name": "いきなりスカラ",
+				"name": "Insta-Buff",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "わるあがき",
+				"name": "Snappy Comeback",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "全ガードブレイク",
+				"name": "Crafty Devil",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "グリーンソード",
+		"skill": "Blowy Slasher",
 		"drops": [
 			{
 				"item": "こおりの樹木",
@@ -3942,34 +3942,34 @@
 		},
 		"traits": [
 			{
-				"name": "ロケットスタート",
+				"name": "Strong Starter",
 				"level": 1
 			},
 			{
-				"name": "ねがえり",
+				"name": "Sleep Twitch",
 				"level": 20
 			},
 			{
-				"name": "ピンチで会心",
+				"name": "Critical Moment",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ときどきピオラ",
+				"name": "Rando-Accel",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "とうそうほんのう",
+				"name": "Attacking Impulse",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "あばれんぼう"
+		"skill": "Wild Child"
 	},
 	"Onion Slime": {
 		"size": "S",
@@ -3996,34 +3996,34 @@
 		},
 		"traits": [
 			{
-				"name": "地のコツ",
+				"name": "Cragmeister",
 				"level": 1
 			},
 			{
-				"name": "幻惑ブレイク大",
+				"name": "Ultra Crafty Dazzler",
 				"level": 20
 			},
 			{
-				"name": "ときどきまもりの霧",
+				"name": "Rando-Mister",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "セラピー",
+				"name": "Detox",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ひかりのはどう",
+				"name": "Rando-Relief",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ナチュラル",
+		"skill": "Nature Child",
 		"drops": [
 			{
 				"item": "かがやきそう",
@@ -4060,34 +4060,34 @@
 		},
 		"traits": [
 			{
-				"name": "どく攻撃",
+				"name": "Poisonous Touch",
 				"level": 1
 			},
 			{
-				"name": "いきなりマホカンタ",
+				"name": "Insta-Bounce",
 				"level": 20
 			},
 			{
-				"name": "マホキテボディ",
+				"name": "Spongy Skin",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "氷結ブレイク大",
+				"name": "Ultra Crafty Cracker",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "全体攻撃",
+				"name": "Collective Punishment",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ヌメヌメ",
+		"skill": "Tongue Twister",
 		"drops": [
 			{
 				"item": "上薬草",
@@ -4125,34 +4125,34 @@
 		},
 		"traits": [
 			{
-				"name": "会心率アップ大",
+				"name": "Critical Triumph",
 				"level": 1
 			},
 			{
-				"name": "いきなりインテ",
+				"name": "Insta-Ping",
 				"level": 20
 			},
 			{
-				"name": "メタルハンター",
+				"name": "Metal Beater",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "アンチみかわし",
+				"name": "Dodge Denier",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "爆発ブレイク大",
+				"name": "Ultra Crafty Banger",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "爆発の心",
+		"skill": "Bang Afficionado",
 		"drops": [
 			{
 				"item": "ひかりの石",
@@ -4187,34 +4187,34 @@
 		},
 		"traits": [
 			{
-				"name": "幻惑ブレイク大",
+				"name": "Ultra Crafty Dazzler",
 				"level": 1
 			},
 			{
-				"name": "ピンチで会心",
+				"name": "Critical Moment",
 				"level": 20
 			},
 			{
-				"name": "ときどきバイキルト",
+				"name": "Rando-Oomph",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "スモールキラー",
+				"name": "Little Menace",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "火ブレイク大",
+				"name": "Ultra Crafty Frizzer",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "火炎"
+		"skill": "Blazer"
 	},
 	"Weartiger": {
 		"size": "S",
@@ -4243,34 +4243,34 @@
 		},
 		"traits": [
 			{
-				"name": "ピンチで会心",
+				"name": "Critical Moment",
 				"level": 1
 			},
 			{
-				"name": "きょうせんし",
+				"name": "Agent of Chaos",
 				"level": 20
 			},
 			{
-				"name": "アンチみかわし",
+				"name": "Dodge Denier",
 				"level": 40
 			},
 			{
-				"name": "行動回数２から３",
+				"name": "Tactical Titan",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "休みブレイク大",
+				"name": "Ultra Crafty Stunner",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "いきなりバイキルト",
+				"name": "Insta-Oomph",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "イエローソード",
+		"skill": "Stony Slasher",
 		"drops": [
 			{
 				"item": "上薬草",
@@ -4310,37 +4310,37 @@
 		},
 		"traits": [
 			{
-				"name": "闇のコツ",
+				"name": "Zammeister",
 				"level": 1
 			},
 			{
-				"name": "いきなりピオラ",
+				"name": "Insta-Accel",
 				"level": 20
 			},
 			{
-				"name": "ラージキラー",
+				"name": "Big Bully",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "幻惑ブレイク大",
+				"name": "Ultra Crafty Dazzler",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "闇の心",
+		"skill": "Zam Afficionado",
 		"randomSkills": [
-			"MPアップ１",
-			"闇ガード"
+			"MP Booster I",
+			"Zam Ward"
 		],
 		"drops": [
 			{
@@ -4380,34 +4380,34 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 1
 			},
 			{
-				"name": "いきなりピオラ",
+				"name": "Insta-Accel",
 				"level": 20
 			},
 			{
-				"name": "ピンチで会心",
+				"name": "Critical Moment",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "火ブレイク大",
+				"name": "Ultra Crafty Frizzer",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "火のコツ",
+				"name": "Frizzmeister",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "息吹"
+		"skill": "Shallow Breather"
 	},
 	"Small Fry": {
 		"size": "S",
@@ -4436,36 +4436,36 @@
 		},
 		"traits": [
 			{
-				"name": "会心率アップ大",
+				"name": "Critical Triumph",
 				"level": 1
 			},
 			{
-				"name": "ラージキラー",
+				"name": "Big Bully",
 				"level": 20
 			},
 			{
-				"name": "ときどきバイキルト",
+				"name": "Rando-Oomph",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "火ブレイク大",
+				"name": "Ultra Crafty Frizzer",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "プレッシャー",
+				"name": "Intimidating",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ドラゴンソウル",
+		"skill": "Dragonheart",
 		"randomSkills": [
-			"HPアップ１"
+			"HP Booster I"
 		]
 	},
 	"Bongo Drongo": {
@@ -4493,34 +4493,34 @@
 		},
 		"traits": [
 			{
-				"name": "れんぞく",
+				"name": "Hit Squad x2",
 				"level": 1
 			},
 			{
-				"name": "ツッコミ",
+				"name": "Sobering Slap",
 				"level": 20
 			},
 			{
-				"name": "最後の息吹",
+				"name": "Benefaction",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "おだてじょうず",
+				"name": "Bigger Upper",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "いきなりバイキルト",
+				"name": "Insta-Oomph",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "アッパー",
+		"skill": "Fortifier",
 		"drops": [
 			{
 				"item": "パープルアイ",
@@ -4555,34 +4555,34 @@
 		},
 		"traits": [
 			{
-				"name": "れんぞく",
+				"name": "Hit Squad x2",
 				"level": 1
 			},
 			{
-				"name": "呪文会心率アップ大",
+				"name": "Critical Theorist",
 				"level": 20
 			},
 			{
-				"name": "いきなりインテ",
+				"name": "Insta-Ping",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "マジシャンズハイ",
+				"name": "Trance State",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "MP吸収ブレイク大",
+				"name": "Ultra Crafty Magic Drainer",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "風の心"
+		"skill": "Woosh Afficionado"
 	},
 	"Avian Android": {
 		"size": "S",
@@ -4610,34 +4610,34 @@
 		},
 		"traits": [
 			{
-				"name": "眠りブレイク大",
+				"name": "Ultra Crafty Sleeper",
 				"level": 1
 			},
 			{
-				"name": "ビリビリボディ",
+				"name": "Insensitive Skin",
 				"level": 20
 			},
 			{
-				"name": "セラピー",
+				"name": "Detox",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "おいうち",
+				"name": "Insult to Injury",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "全ガードブレイク",
+				"name": "Crafty Devil",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "アサシン",
+		"skill": "Assassin",
 		"drops": [
 			{
 				"item": "鋭い爪",
@@ -4671,37 +4671,37 @@
 		},
 		"traits": [
 			{
-				"name": "地のコツ",
+				"name": "Cragmeister",
 				"level": 1
 			},
 			{
-				"name": "幻惑ブレイク大",
+				"name": "Ultra Crafty Dazzler",
 				"level": 20
 			},
 			{
-				"name": "くじけぬ心",
+				"name": "Close Scraper",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ときどきまもりの霧",
+				"name": "Rando-Mister",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "封じブレイク大",
+				"name": "Ultra Crafty Spellbinder",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "地の心",
+		"skill": "Crag Afficionado",
 		"randomSkills": [
-			"HPアップ１",
-			"地ガード"
+			"HP Booster I",
+			"Crag Ward"
 		],
 		"drops": [
 			{
@@ -4740,37 +4740,37 @@
 		},
 		"traits": [
 			{
-				"name": "地のコツ",
+				"name": "Cragmeister",
 				"level": 1
 			},
 			{
-				"name": "休みブレイク大",
+				"name": "Ultra Crafty Stunner",
 				"level": 20
 			},
 			{
-				"name": "根に持つタイプ",
+				"name": "Personal Grudge",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ときどきスカラ",
+				"name": "Rando-Buff",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "徒手空拳",
+				"name": "Naked Ambition",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ダンサー",
+		"skill": "Dancer",
 		"randomSkills": [
-			"HPアップ１",
-			"地ガード"
+			"HP Booster I",
+			"Crag Ward"
 		],
 		"drops": [
 			{
@@ -4811,34 +4811,34 @@
 		},
 		"traits": [
 			{
-				"name": "地のコツ",
+				"name": "Cragmeister",
 				"level": 1
 			},
 			{
-				"name": "ときどきスカラ",
+				"name": "Rando-Buff",
 				"level": 20
 			},
 			{
-				"name": "ギャンブルボディ",
+				"name": "Slick Skin",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "毒ブレイク大",
+				"name": "Ultra Crafty Poisoner",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "最後のあがき",
+				"name": "Parting Gift",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ヘドロ",
+		"skill": "Mudmonger",
 		"drops": [
 			{
 				"item": "魔法の小瓶",
@@ -4877,34 +4877,34 @@
 		},
 		"traits": [
 			{
-				"name": "封じブレイク大",
+				"name": "Ultra Crafty Spellbinder",
 				"level": 1
 			},
 			{
-				"name": "MP吸収ブレイク大",
+				"name": "Ultra Crafty Magic Drainer",
 				"level": 20
 			},
 			{
-				"name": "マホキテボディ",
+				"name": "Spongy Skin",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "どく攻撃",
+				"name": "Poisonous Touch",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "しっぺがえし",
+				"name": "Tit for Tat",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ヌメヌメ"
+		"skill": "Tongue Twister"
 	},
 	"Mitey Oak": {
 		"size": "S",
@@ -4933,34 +4933,34 @@
 		},
 		"traits": [
 			{
-				"name": "れんぞく６",
+				"name": "Hit Squad x6",
 				"level": 1
 			},
 			{
-				"name": "セラピー",
+				"name": "Detox",
 				"level": 20
 			},
 			{
-				"name": "ラージキラー",
+				"name": "Big Bully",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "最後のあがき",
+				"name": "Parting Gift",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "全体攻撃",
+				"name": "Collective Punishment",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "じこぎせい"
+		"skill": "Martyr"
 	},
 	"Woebergine": {
 		"size": "S",
@@ -4988,36 +4988,36 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 1
 			},
 			{
-				"name": "こんらん攻撃",
+				"name": "Confusing Touch",
 				"level": 20
 			},
 			{
-				"name": "ヘロヘロボディ",
+				"name": "Stunning Skin",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "いきなりピオラ",
+				"name": "Insta-Accel",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "休みブレイク大",
+				"name": "Ultra Crafty Stunner",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ダンサー",
+		"skill": "Dancer",
 		"randomSkills": [
-			"すばやさアップ１"
+			"Agility Booster I"
 		]
 	},
 	"Robber Rabbit": {
@@ -5046,34 +5046,34 @@
 		},
 		"traits": [
 			{
-				"name": "きょうせんし",
+				"name": "Agent of Chaos",
 				"level": 1
 			},
 			{
-				"name": "いきなりピオラ",
+				"name": "Insta-Accel",
 				"level": 20
 			},
 			{
-				"name": "くじけぬ心",
+				"name": "Close Scraper",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ロケットスタート",
+				"name": "Strong Starter",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ぐるぐるボディ",
+				"name": "Stupefying Skin",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ぬすっと"
+		"skill": "Cutpurse"
 	},
 	"Scallop Slime": {
 		"size": "S",
@@ -5103,34 +5103,34 @@
 		},
 		"traits": [
 			{
-				"name": "ぼうえいほんのう",
+				"name": "Defensive Impulse",
 				"level": 1
 			},
 			{
-				"name": "ときどきスカラ",
+				"name": "Rando-Buff",
 				"level": 20
 			},
 			{
-				"name": "メタルキラー",
+				"name": "Metal Medley",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "水のコツ",
+				"name": "Splishmeister",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "背水の陣",
+				"name": "Unhealthy Advantage",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "水の心",
+		"skill": "Splash Afficionado",
 		"drops": [
 			{
 				"item": "石ころ",
@@ -5168,36 +5168,36 @@
 		},
 		"traits": [
 			{
-				"name": "くじけぬ心",
+				"name": "Close Scraper",
 				"level": 1
 			},
 			{
-				"name": "メタルハンター",
+				"name": "Metal Beater",
 				"level": 20
 			},
 			{
-				"name": "いきなりピオラ",
+				"name": "Insta-Accel",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "火ブレイク大",
+				"name": "Ultra Crafty Frizzer",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "電撃ブレイク大",
+				"name": "Ultra Crafty Zapper",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "光の心",
+		"skill": "Sizz Afficionado",
 		"randomSkills": [
-			"守備力アップ１"
+			"Defence Booster I"
 		],
 		"drops": [
 			{
@@ -5236,34 +5236,34 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 1
 			},
 			{
-				"name": "回復のコツ",
+				"name": "Health Professional",
 				"level": 20
 			},
 			{
-				"name": "マホトラ攻撃",
+				"name": "Absorbent Touch",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "魔力の強風",
+				"name": "Wizardly Wind",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "風ブレイク大",
+				"name": "Ultra Crafty Woosher",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "つむじ風"
+		"skill": "Blusterer"
 	},
 	"Bubble Slime": {
 		"size": "S",
@@ -5292,37 +5292,37 @@
 		},
 		"traits": [
 			{
-				"name": "どくどくボディ",
+				"name": "Infected Skin",
 				"level": 1
 			},
 			{
-				"name": "いきなりピオラ",
+				"name": "Insta-Accel",
 				"level": 20
 			},
 			{
-				"name": "毒ブレイク大",
+				"name": "Ultra Crafty Poisoner",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ラブリー",
+				"name": "Strangely Alluring",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "スラフォース",
+		"skill": "Slimer",
 		"randomSkills": [
-			"HPアップ１",
-			"毒ガード"
+			"HP Booster I",
+			"Poison Preventer"
 		],
 		"drops": [
 			{
@@ -5364,37 +5364,37 @@
 		},
 		"traits": [
 			{
-				"name": "れんぞく３",
+				"name": "Hit Squad x3",
 				"level": 1
 			},
 			{
-				"name": "こんらん攻撃",
+				"name": "Confusing Touch",
 				"level": 20
 			},
 			{
-				"name": "ファイターズハイ",
+				"name": "Adrenaline Rush",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "おいうち",
+				"name": "Insult to Injury",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "混乱ブレイク大",
+				"name": "Ultra Crafty Confuser",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "つむじ風",
+		"skill": "Blusterer",
 		"randomSkills": [
-			"風ガード",
-			"すばやさアップ１"
+			"Woosh Ward",
+			"Agility Booster I"
 		],
 		"drops": [
 			{
@@ -5435,36 +5435,36 @@
 		},
 		"traits": [
 			{
-				"name": "スヤスヤボディ",
+				"name": "Somnolent Skin",
 				"level": 1
 			},
 			{
-				"name": "ラストスタンド",
+				"name": "Last Legs",
 				"level": 20
 			},
 			{
-				"name": "最後の息吹",
+				"name": "Benefaction",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ときどきインテ",
+				"name": "Rando-Ping",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "超会心率アップ",
+				"name": "Critical Sensation",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "息吹",
+		"skill": "Shallow Breather",
 		"randomSkills": [
-			"かしこさアップ１"
+			"Wisdom Booster I"
 		]
 	},
 	"Dancing Devil": {
@@ -5493,34 +5493,34 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 1
 			},
 			{
-				"name": "いきなりインテ",
+				"name": "Insta-Ping",
 				"level": 20
 			},
 			{
-				"name": "ツッコミ",
+				"name": "Sobering Slap",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "しっぺがえし",
+				"name": "Tit for Tat",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "闇ブレイク大",
+				"name": "Ultra Crafty Zammer",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ダンサー"
+		"skill": "Dancer"
 	},
 	"Erazor Blade": {
 		"size": "S",
@@ -5548,34 +5548,34 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 1
 			},
 			{
-				"name": "ピンチで会心",
+				"name": "Critical Moment",
 				"level": 20
 			},
 			{
-				"name": "アンチみかわし",
+				"name": "Dodge Denier",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ねがえり",
+				"name": "Sleep Twitch",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "いきなりバイキルト",
+				"name": "Insta-Oomph",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "剣術",
+		"skill": "Blade Maven",
 		"drops": [
 			{
 				"item": "上薬草",
@@ -5613,34 +5613,34 @@
 		},
 		"traits": [
 			{
-				"name": "ピンチで会心",
+				"name": "Critical Moment",
 				"level": 1
 			},
 			{
-				"name": "アンチみかわし",
+				"name": "Dodge Denier",
 				"level": 20
 			},
 			{
-				"name": "即死ブレイク大",
+				"name": "Ultra Crafty Whacker",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ザキ攻撃",
+				"name": "Deadly Touch",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "プレッシャー",
+				"name": "Intimidating",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "スリラー",
+		"skill": "Thrill-Seeker",
 		"drops": [
 			{
 				"item": "ちいさなメダル",
@@ -5681,34 +5681,34 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 1
 			},
 			{
-				"name": "スヤスヤボディ",
+				"name": "Somnolent Skin",
 				"level": 20
 			},
 			{
-				"name": "ラブリー",
+				"name": "Strangely Alluring",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "いきなりピオラ",
+				"name": "Insta-Accel",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "眠りブレイク大",
+				"name": "Ultra Crafty Sleeper",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "グリーンソード",
+		"skill": "Blowy Slasher",
 		"drops": [
 			{
 				"item": "満月草",
@@ -5746,34 +5746,34 @@
 		},
 		"traits": [
 			{
-				"name": "爆発のコツ",
+				"name": "Bangmeister",
 				"level": 1
 			},
 			{
-				"name": "光のコツ",
+				"name": "Sizzmeister",
 				"level": 20
 			},
 			{
-				"name": "火ブレイク大",
+				"name": "Ultra Crafty Frizzer",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から２",
+				"name": "Tactical Trooper",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "最後のあがき",
+				"name": "Parting Gift",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "爆発ブレイク大",
+				"name": "Ultra Crafty Banger",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "火炎"
+		"skill": "Blazer"
 	},
 	"Damselfly": {
 		"size": "S",
@@ -5803,37 +5803,37 @@
 		},
 		"traits": [
 			{
-				"name": "幻惑ブレイク大",
+				"name": "Ultra Crafty Dazzler",
 				"level": 1
 			},
 			{
-				"name": "最後の息吹",
+				"name": "Benefaction",
 				"level": 20
 			},
 			{
-				"name": "ヘロヘロボディ",
+				"name": "Stunning Skin",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "いきなりピオラ",
+				"name": "Insta-Accel",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "休みブレイク大",
+				"name": "Ultra Crafty Stunner",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "妖精",
+		"skill": "Soothesayer",
 		"randomSkills": [
-			"MPアップ１",
-			"MP吸収ガード"
+			"MP Booster I",
+			"Drain Dodger"
 		],
 		"drops": [
 			{
@@ -5872,36 +5872,36 @@
 		},
 		"traits": [
 			{
-				"name": "ヘロヘロボディ",
+				"name": "Stunning Skin",
 				"level": 1
 			},
 			{
-				"name": "いきなりインテ",
+				"name": "Insta-Ping",
 				"level": 20
 			},
 			{
-				"name": "ツッコミ",
+				"name": "Sobering Slap",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "魔力の強風",
+				"name": "Wizardly Wind",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "休みブレイク大",
+				"name": "Ultra Crafty Stunner",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "イエローソード",
+		"skill": "Stony Slasher",
 		"randomSkills": [
-			"攻撃力アップ１"
+			"Attack Booster I"
 		]
 	},
 	"Khalamari Kid": {
@@ -5931,34 +5931,34 @@
 		},
 		"traits": [
 			{
-				"name": "水のコツ",
+				"name": "Splishmeister",
 				"level": 1
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 20
 			},
 			{
-				"name": "MP吸収ブレイク大",
+				"name": "Ultra Crafty Magic Drainer",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "魔力の強風",
+				"name": "Wizardly Wind",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ラブリー",
+				"name": "Strangely Alluring",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "みずげい",
+		"skill": "Aquapothecary",
 		"drops": [
 			{
 				"item": "魔法の小瓶",
@@ -6000,34 +6000,34 @@
 		},
 		"traits": [
 			{
-				"name": "ツッコミ",
+				"name": "Sobering Slap",
 				"level": 1
 			},
 			{
-				"name": "ラブリー",
+				"name": "Strangely Alluring",
 				"level": 20
 			},
 			{
-				"name": "電撃ブレイク大",
+				"name": "Ultra Crafty Zapper",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ちからため",
+				"name": "Rando-Muster",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "全体攻撃",
+				"name": "Collective Punishment",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "イエローソード",
+		"skill": "Stony Slasher",
 		"drops": [
 			{
 				"item": "さとりそう",
@@ -6064,37 +6064,37 @@
 		},
 		"traits": [
 			{
-				"name": "徒手空拳",
+				"name": "Naked Ambition",
 				"level": 1
 			},
 			{
-				"name": "風のコツ",
+				"name": "Wooshmeister",
 				"level": 20
 			},
 			{
-				"name": "しっぺがえし",
+				"name": "Tit for Tat",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ときどきピオラ",
+				"name": "Rando-Accel",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "超みかわしアップ",
+				"name": "Supreme Sidestepper",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ドラゴンソウル",
+		"skill": "Dragonheart",
 		"randomSkills": [
-			"弱体化ガード",
-			"攻撃力アップ１"
+			"Debilitation Ducker",
+			"Attack Booster I"
 		],
 		"drops": [
 			{
@@ -6134,34 +6134,34 @@
 		},
 		"traits": [
 			{
-				"name": "混乱ブレイク大",
+				"name": "Ultra Crafty Confuser",
 				"level": 1
 			},
 			{
-				"name": "マホキテボディ",
+				"name": "Spongy Skin",
 				"level": 20
 			},
 			{
-				"name": "ねがえり",
+				"name": "Sleep Twitch",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "電撃ブレイク大",
+				"name": "Ultra Crafty Zapper",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ナチュラル",
+		"skill": "Nature Child",
 		"drops": [
 			{
 				"item": "蝶の羽",
@@ -6196,37 +6196,37 @@
 		},
 		"traits": [
 			{
-				"name": "水のコツ",
+				"name": "Splishmeister",
 				"level": 1
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 20
 			},
 			{
-				"name": "マホトラ攻撃",
+				"name": "Absorbent Touch",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ねがえり",
+				"name": "Sleep Twitch",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "混乱ブレイク大",
+				"name": "Ultra Crafty Confuser",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "水の心",
+		"skill": "Splash Afficionado",
 		"randomSkills": [
-			"水ガード",
-			"HPアップ１"
+			"Splish Ward",
+			"HP Booster I"
 		],
 		"drops": [
 			{
@@ -6269,23 +6269,23 @@
 		},
 		"traits": [
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1
 			},
 			{
-				"name": "火ブレイク大",
+				"name": "Ultra Crafty Frizzer",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "火のコツ",
+				"name": "Frizzmeister",
 				"level": 1,
 				"large": true
 			}
 		],
 		"skill": "",
 		"randomSkills": [
-			"MPアップ１"
+			"MP Booster I"
 		]
 	},
 	"Great Sabrecub": {
@@ -6314,34 +6314,34 @@
 		},
 		"traits": [
 			{
-				"name": "きょうせんし",
+				"name": "Agent of Chaos",
 				"level": 1
 			},
 			{
-				"name": "ショック攻撃",
+				"name": "Stunning Touch",
 				"level": 20
 			},
 			{
-				"name": "ラブリー",
+				"name": "Strangely Alluring",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "休みブレイク大",
+				"name": "Ultra Crafty Stunner",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "全体攻撃",
+				"name": "Collective Punishment",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "けもの道"
+		"skill": "Naturalist"
 	},
 	"Killer Gila": {
 		"size": "S",
@@ -6369,34 +6369,34 @@
 		},
 		"traits": [
 			{
-				"name": "どくどくボディ",
+				"name": "Infected Skin",
 				"level": 1
 			},
 			{
-				"name": "きょうせんし",
+				"name": "Agent of Chaos",
 				"level": 20
 			},
 			{
-				"name": "ピンチで会心",
+				"name": "Critical Moment",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "毒ブレイク大",
+				"name": "Ultra Crafty Poisoner",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "いきなりバイキルト",
+				"name": "Insta-Oomph",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "毒舌"
+		"skill": "Toxicologist"
 	},
 	"Soft Serve Spook": {
 		"size": "S",
@@ -6423,37 +6423,37 @@
 		},
 		"traits": [
 			{
-				"name": "ギャンブルボディ",
+				"name": "Slick Skin",
 				"level": 1
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 20
 			},
 			{
-				"name": "ツッコミ",
+				"name": "Sobering Slap",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "魔力の強風",
+				"name": "Wizardly Wind",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "風のコツ",
+				"name": "Wooshmeister",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "キューピット",
+		"skill": "Cupid",
 		"randomSkills": [
-			"光の心",
-			"守備力アップ１"
+			"Sizz Afficionado",
+			"Defence Booster I"
 		]
 	},
 	"Healslime": {
@@ -6480,34 +6480,34 @@
 		},
 		"traits": [
 			{
-				"name": "回復のコツ",
+				"name": "Health Professional",
 				"level": 1
 			},
 			{
-				"name": "ときどきまもりの霧",
+				"name": "Rando-Mister",
 				"level": 20
 			},
 			{
-				"name": "最後の息吹",
+				"name": "Benefaction",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "マホキテボディ",
+				"name": "Spongy Skin",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "HP回復",
+		"skill": "Healer",
 		"drops": [
 			{
 				"item": "魔法の小瓶",
@@ -6546,34 +6546,34 @@
 		},
 		"traits": [
 			{
-				"name": "封じブレイク大",
+				"name": "Ultra Crafty Spellbinder",
 				"level": 1
 			},
 			{
-				"name": "ミラクル攻撃",
+				"name": "Miraculous Touch",
 				"level": 20
 			},
 			{
-				"name": "かいひほんのう",
+				"name": "Evasive Impulse",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ビリビリボディ",
+				"name": "Insensitive Skin",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "星のおくりもの",
+				"name": "Heaven-Sent",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "アッパー"
+		"skill": "Fortifier"
 	},
 	"Boppin' Badger": {
 		"size": "S",
@@ -6603,34 +6603,34 @@
 		},
 		"traits": [
 			{
-				"name": "混乱ブレイク大",
+				"name": "Ultra Crafty Confuser",
 				"level": 1
 			},
 			{
-				"name": "しっぺがえし",
+				"name": "Tit for Tat",
 				"level": 20
 			},
 			{
-				"name": "ときどきピオラ",
+				"name": "Rando-Accel",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ぐるぐるボディ",
+				"name": "Stupefying Skin",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ザキ攻撃",
+				"name": "Deadly Touch",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ダンサー",
+		"skill": "Dancer",
 		"drops": [
 			{
 				"item": "獣の皮",
@@ -6665,34 +6665,34 @@
 		},
 		"traits": [
 			{
-				"name": "封じブレイク大",
+				"name": "Ultra Crafty Spellbinder",
 				"level": 1
 			},
 			{
-				"name": "回復のコツ",
+				"name": "Health Professional",
 				"level": 20
 			},
 			{
-				"name": "ミラクル攻撃",
+				"name": "Miraculous Touch",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "癒しの大力",
+				"name": "High Heal",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "弱体化ブレイク大",
+				"name": "Ultra Crafty Debilitator",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "みずげい",
+		"skill": "Aquapothecary",
 		"drops": [
 			{
 				"item": "赤いサンゴ",
@@ -6728,37 +6728,37 @@
 		},
 		"traits": [
 			{
-				"name": "こんらん攻撃",
+				"name": "Confusing Touch",
 				"level": 1
 			},
 			{
-				"name": "地のコツ",
+				"name": "Cragmeister",
 				"level": 20
 			},
 			{
-				"name": "封じブレイク大",
+				"name": "Ultra Crafty Spellbinder",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ツッコミ",
+				"name": "Sobering Slap",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "混乱ブレイク大",
+				"name": "Ultra Crafty Confuser",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "地の心",
+		"skill": "Crag Afficionado",
 		"randomSkills": [
-			"HPアップ１",
-			"幻惑ガード"
+			"HP Booster I",
+			"Bedazzlement Blocker"
 		],
 		"drops": [
 			{
@@ -6797,37 +6797,37 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 1
 			},
 			{
-				"name": "かいひほんのう",
+				"name": "Evasive Impulse",
 				"level": 20
 			},
 			{
-				"name": "休みブレイク大",
+				"name": "Ultra Crafty Stunner",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "最後のあがき",
+				"name": "Parting Gift",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "全体攻撃",
+				"name": "Collective Punishment",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "妖精",
+		"skill": "Soothesayer",
 		"randomSkills": [
-			"光ガード",
-			"かしこさアップ１"
+			"Sizz Ward",
+			"Wisdom Booster I"
 		],
 		"drops": [
 			{
@@ -6867,34 +6867,34 @@
 		},
 		"traits": [
 			{
-				"name": "眠りブレイク大",
+				"name": "Ultra Crafty Sleeper",
 				"level": 1
 			},
 			{
-				"name": "ねむり攻撃",
+				"name": "Sleepy Touch",
 				"level": 20
 			},
 			{
-				"name": "しっぺがえし",
+				"name": "Tit for Tat",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "スヤスヤボディ",
+				"name": "Somnolent Skin",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "弱体化ブレイク大",
+				"name": "Ultra Crafty Debilitator",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "アンデッド"
+		"skill": "Graveheart"
 	},
 	"Pocus Poppet": {
 		"size": "S",
@@ -6922,34 +6922,34 @@
 		},
 		"traits": [
 			{
-				"name": "弱体化ブレイク大",
+				"name": "Ultra Crafty Debilitator",
 				"level": 1
 			},
 			{
-				"name": "MP吸収ブレイク大",
+				"name": "Ultra Crafty Magic Drainer",
 				"level": 20
 			},
 			{
-				"name": "ときどきスカラ",
+				"name": "Rando-Buff",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "会心かんぜんガード",
+				"name": "Desperate Measures",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "封じブレイク大",
+				"name": "Ultra Crafty Spellbinder",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ジャマー",
+		"skill": "Irritant",
 		"drops": [
 			{
 				"item": "魔法の小瓶",
@@ -6989,37 +6989,37 @@
 		},
 		"traits": [
 			{
-				"name": "幻惑ブレイク大",
+				"name": "Ultra Crafty Dazzler",
 				"level": 1
 			},
 			{
-				"name": "光のコツ",
+				"name": "Sizzmeister",
 				"level": 20
 			},
 			{
-				"name": "マヒ攻撃",
+				"name": "Paralysing Touch",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "マヒブレイク大",
+				"name": "Ultra Crafty Paralyser",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "スリラー",
+		"skill": "Thrill-Seeker",
 		"randomSkills": [
-			"MPアップ１",
-			"MP吸収ガード"
+			"MP Booster I",
+			"Drain Dodger"
 		],
 		"drops": [
 			{
@@ -7059,34 +7059,34 @@
 		},
 		"traits": [
 			{
-				"name": "マホキテボディ",
+				"name": "Spongy Skin",
 				"level": 1
 			},
 			{
-				"name": "電撃のコツ",
+				"name": "Zapmeister",
 				"level": 20
 			},
 			{
-				"name": "かいひほんのう",
+				"name": "Evasive Impulse",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ときどきピオラ",
+				"name": "Rando-Accel",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "超みかわしアップ",
+				"name": "Supreme Sidestepper",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "風の心"
+		"skill": "Woosh Afficionado"
 	},
 	"Hunter Mech": {
 		"size": "S",
@@ -7113,34 +7113,34 @@
 		},
 		"traits": [
 			{
-				"name": "行動回数１から２",
+				"name": "Tactical Trooper",
 				"level": 1
 			},
 			{
-				"name": "メタルハンター",
+				"name": "Metal Beater",
 				"level": 20
 			},
 			{
-				"name": "たいでんたいしつ",
+				"name": "Static Discharge",
 				"level": 40
 			},
 			{
-				"name": "アンチみかわし",
+				"name": "Dodge Denier",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "超会心率アップ",
+				"name": "Critical Sensation",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ショック攻撃",
+				"name": "Stunning Touch",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "剣術",
+		"skill": "Blade Maven",
 		"drops": [
 			{
 				"item": "メタルストーン",
@@ -7180,34 +7180,34 @@
 		},
 		"traits": [
 			{
-				"name": "火のコツ",
+				"name": "Frizzmeister",
 				"level": 1
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 20
 			},
 			{
-				"name": "マホトラ攻撃",
+				"name": "Absorbent Touch",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ときどきインテ",
+				"name": "Rando-Ping",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "最後のあがき",
+				"name": "Parting Gift",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "火の心",
+		"skill": "Frizz Afficionado",
 		"drops": [
 			{
 				"item": "魔法の小瓶",
@@ -7250,37 +7250,37 @@
 		},
 		"traits": [
 			{
-				"name": "ショック攻撃",
+				"name": "Stunning Touch",
 				"level": 1
 			},
 			{
-				"name": "いきなりピオラ",
+				"name": "Insta-Accel",
 				"level": 20
 			},
 			{
-				"name": "秘めたるチカラ",
+				"name": "Late Bloomer",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ラブリー",
+				"name": "Strangely Alluring",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "悪魔のささやき",
+		"skill": "Dark Artist",
 		"randomSkills": [
-			"かしこさアップ１",
-			"闇ガード"
+			"Wisdom Booster I",
+			"Zam Ward"
 		],
 		"drops": [
 			{
@@ -7323,34 +7323,34 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 1
 			},
 			{
-				"name": "こんらん攻撃",
+				"name": "Confusing Touch",
 				"level": 20
 			},
 			{
-				"name": "ツッコミ",
+				"name": "Sobering Slap",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "最後のあがき",
+				"name": "Parting Gift",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ラブリー",
+				"name": "Strangely Alluring",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "レッドソード"
+		"skill": "Spicy Slasher"
 	},
 	"Platypunk": {
 		"size": "S",
@@ -7376,37 +7376,37 @@
 		},
 		"traits": [
 			{
-				"name": "れんぞく４",
+				"name": "Hit Squad x4",
 				"level": 1
 			},
 			{
-				"name": "ラブリー",
+				"name": "Strangely Alluring",
 				"level": 20
 			},
 			{
-				"name": "ツッコミ",
+				"name": "Sobering Slap",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "休みブレイク大",
+				"name": "Ultra Crafty Stunner",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "全体攻撃",
+				"name": "Collective Punishment",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "けもの道",
+		"skill": "Naturalist",
 		"randomSkills": [
-			"HPアップ１",
-			"即死ガード"
+			"HP Booster I",
+			"Death Defier"
 		],
 		"drops": [
 			{
@@ -7443,34 +7443,34 @@
 		},
 		"traits": [
 			{
-				"name": "ツッコミ",
+				"name": "Sobering Slap",
 				"level": 1
 			},
 			{
-				"name": "やいばのボディ",
+				"name": "Spiky Skin",
 				"level": 20
 			},
 			{
-				"name": "弱体化ブレイク大",
+				"name": "Ultra Crafty Debilitator",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "魔力の強風",
+				"name": "Wizardly Wind",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "やみのはどう",
+				"name": "Rando-Panic",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "闇の心"
+		"skill": "Zam Afficionado"
 	},
 	"Napir": {
 		"size": "S",
@@ -7498,34 +7498,34 @@
 		},
 		"traits": [
 			{
-				"name": "眠りブレイク大",
+				"name": "Ultra Crafty Sleeper",
 				"level": 1
 			},
 			{
-				"name": "MP吸収ブレイク大",
+				"name": "Ultra Crafty Magic Drainer",
 				"level": 20
 			},
 			{
-				"name": "しっぺがえし",
+				"name": "Tit for Tat",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "きょうせんし",
+				"name": "Agent of Chaos",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "最後の息吹",
+				"name": "Benefaction",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "睡魔",
+		"skill": "Sleep Counsellor",
 		"drops": [
 			{
 				"item": "目覚めの針",
@@ -7565,37 +7565,37 @@
 		},
 		"traits": [
 			{
-				"name": "火のコツ",
+				"name": "Frizzmeister",
 				"level": 1
 			},
 			{
-				"name": "ピンチで呪文会心",
+				"name": "Magical Moment",
 				"level": 20
 			},
 			{
-				"name": "わるあがき",
+				"name": "Snappy Comeback",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "くじけぬ心",
+				"name": "Close Scraper",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "爆発のコツ",
+				"name": "Bangmeister",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "火の心",
+		"skill": "Frizz Afficionado",
 		"randomSkills": [
-			"MPアップ１",
-			"火ガード"
+			"MP Booster I",
+			"Frizz Ward"
 		],
 		"drops": [
 			{
@@ -7635,34 +7635,34 @@
 		},
 		"traits": [
 			{
-				"name": "ちからため",
+				"name": "Rando-Muster",
 				"level": 1
 			},
 			{
-				"name": "爆発のコツ",
+				"name": "Bangmeister",
 				"level": 20
 			},
 			{
-				"name": "魔力の風",
+				"name": "Wizardly Waft",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "爆発ブレイク大",
+				"name": "Ultra Crafty Banger",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ふっかつの祈り",
+				"name": "Last Gasp",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "爆発の心",
+		"skill": "Bang Afficionado",
 		"drops": [
 			{
 				"item": "上薬草",
@@ -7702,36 +7702,36 @@
 		},
 		"traits": [
 			{
-				"name": "こんらん攻撃",
+				"name": "Confusing Touch",
 				"level": 1
 			},
 			{
-				"name": "いきなりインテ",
+				"name": "Insta-Ping",
 				"level": 20
 			},
 			{
-				"name": "ツッコミ",
+				"name": "Sobering Slap",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "どくどくボディ",
+				"name": "Infected Skin",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "混乱ブレイク大",
+				"name": "Ultra Crafty Confuser",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ヌメヌメ",
+		"skill": "Tongue Twister",
 		"randomSkills": [
-			"攻撃力アップ１"
+			"Attack Booster I"
 		],
 		"drops": [
 			{
@@ -7774,34 +7774,34 @@
 		},
 		"traits": [
 			{
-				"name": "ときどきスカラ",
+				"name": "Rando-Buff",
 				"level": 1
 			},
 			{
-				"name": "おだてじょうず",
+				"name": "Bigger Upper",
 				"level": 20
 			},
 			{
-				"name": "しっぺがえし",
+				"name": "Tit for Tat",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "根に持つタイプ",
+				"name": "Personal Grudge",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "全体攻撃",
+				"name": "Collective Punishment",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "アサシン",
+		"skill": "Assassin",
 		"drops": [
 			{
 				"item": "毒消し草",
@@ -7840,34 +7840,34 @@
 		},
 		"traits": [
 			{
-				"name": "癒しの力",
+				"name": "Low Heal",
 				"level": 1
 			},
 			{
-				"name": "ラージキラー",
+				"name": "Big Bully",
 				"level": 20
 			},
 			{
-				"name": "ときどきインテ",
+				"name": "Rando-Ping",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "セラピー",
+				"name": "Detox",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "全体攻撃",
+				"name": "Collective Punishment",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "みずげい",
+		"skill": "Aquapothecary",
 		"drops": [
 			{
 				"item": "ふしぎな海草",
@@ -7904,34 +7904,34 @@
 		},
 		"traits": [
 			{
-				"name": "どくどくボディ",
+				"name": "Infected Skin",
 				"level": 1
 			},
 			{
-				"name": "ねがえり",
+				"name": "Sleep Twitch",
 				"level": 20
 			},
 			{
-				"name": "どく攻撃",
+				"name": "Poisonous Touch",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "癒しの大力",
+				"name": "High Heal",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "全体攻撃",
+				"name": "Collective Punishment",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "あくしゅう"
+		"skill": "Stinker"
 	},
 	"Marislime": {
 		"size": "S",
@@ -7956,34 +7956,34 @@
 		},
 		"traits": [
 			{
-				"name": "水のコツ",
+				"name": "Splishmeister",
 				"level": 1
 			},
 			{
-				"name": "いきなりピオラ",
+				"name": "Insta-Accel",
 				"level": 20
 			},
 			{
-				"name": "アンチみかわし",
+				"name": "Dodge Denier",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "水ブレイク大",
+				"name": "Ultra Crafty Splasher",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "みずげい",
+		"skill": "Aquapothecary",
 		"drops": [
 			{
 				"item": "薬草",
@@ -8021,34 +8021,34 @@
 		},
 		"traits": [
 			{
-				"name": "火のコツ",
+				"name": "Frizzmeister",
 				"level": 1
 			},
 			{
-				"name": "とうそうほんのう",
+				"name": "Attacking Impulse",
 				"level": 20
 			},
 			{
-				"name": "くじけぬ心",
+				"name": "Close Scraper",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ファイターズハイ",
+				"name": "Adrenaline Rush",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "火ブレイク大",
+				"name": "Ultra Crafty Frizzer",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "火遊び"
+		"skill": "Roaster"
 	},
 	"Bad Egg": {
 		"size": "S",
@@ -8075,34 +8075,34 @@
 		},
 		"traits": [
 			{
-				"name": "マホキテボディ",
+				"name": "Spongy Skin",
 				"level": 1
 			},
 			{
-				"name": "封じブレイク大",
+				"name": "Ultra Crafty Spellbinder",
 				"level": 20
 			},
 			{
-				"name": "ときどきピオラ",
+				"name": "Rando-Accel",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "光のコツ",
+				"name": "Sizzmeister",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "マヒブレイク大",
+				"name": "Ultra Crafty Paralyser",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "氷結の心"
+		"skill": "Crack Afficionado"
 	},
 	"Burr Baby": {
 		"size": "S",
@@ -8128,37 +8128,37 @@
 		},
 		"traits": [
 			{
-				"name": "ときどきバイキルト",
+				"name": "Rando-Oomph",
 				"level": 1
 			},
 			{
-				"name": "徒手空拳",
+				"name": "Naked Ambition",
 				"level": 20
 			},
 			{
-				"name": "爆発のコツ",
+				"name": "Bangmeister",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "やいばのボディ",
+				"name": "Spiky Skin",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "全ガードブレイク",
+				"name": "Crafty Devil",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "いしあたま",
+		"skill": "Materialist",
 		"randomSkills": [
-			"攻撃力アップ１",
-			"爆発ガード"
+			"Attack Booster I",
+			"Bang Ward"
 		],
 		"drops": [
 			{
@@ -8195,34 +8195,34 @@
 		},
 		"traits": [
 			{
-				"name": "ピンチで会心",
+				"name": "Critical Moment",
 				"level": 1
 			},
 			{
-				"name": "しっぺがえし",
+				"name": "Tit for Tat",
 				"level": 20
 			},
 			{
-				"name": "いきなりピオラ",
+				"name": "Insta-Accel",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ツッコミ",
+				"name": "Sobering Slap",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "眠りブレイク大",
+				"name": "Ultra Crafty Sleeper",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "スイート"
+		"skill": "Sweet-Talker"
 	},
 	"Urnexpected": {
 		"size": "S",
@@ -8251,34 +8251,34 @@
 		},
 		"traits": [
 			{
-				"name": "ザキ攻撃",
+				"name": "Deadly Touch",
 				"level": 1
 			},
 			{
-				"name": "いきなりスカラ",
+				"name": "Insta-Buff",
 				"level": 20
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "スモールキラー",
+				"name": "Little Menace",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "即死ブレイク大",
+				"name": "Ultra Crafty Whacker",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "パニック",
+		"skill": "Alarmist",
 		"drops": [
 			{
 				"item": "ちいさなメダル",
@@ -8317,34 +8317,34 @@
 		},
 		"traits": [
 			{
-				"name": "ときどきピオラ",
+				"name": "Rando-Accel",
 				"level": 1
 			},
 			{
-				"name": "どく攻撃",
+				"name": "Poisonous Touch",
 				"level": 20
 			},
 			{
-				"name": "毒ブレイク大",
+				"name": "Ultra Crafty Poisoner",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "スモールキラー",
+				"name": "Little Menace",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "超会心率アップ",
+				"name": "Critical Sensation",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "バンデッド"
+		"skill": "Outlaw"
 	},
 	"Will-O'-The-Whips": {
 		"size": "S",
@@ -8370,34 +8370,34 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 1
 			},
 			{
-				"name": "ミラクル攻撃",
+				"name": "Miraculous Touch",
 				"level": 20
 			},
 			{
-				"name": "ピンチで呪文会心",
+				"name": "Magical Moment",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "いやがらせ",
+				"name": "Major Downer",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "根に持つタイプ",
+				"name": "Personal Grudge",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "アンデッド"
+		"skill": "Graveheart"
 	},
 	"Coconut Slime": {
 		"size": "S",
@@ -8426,34 +8426,34 @@
 		},
 		"traits": [
 			{
-				"name": "マホキテボディ",
+				"name": "Spongy Skin",
 				"level": 1
 			},
 			{
-				"name": "癒しの力",
+				"name": "Low Heal",
 				"level": 20
 			},
 			{
-				"name": "眠りブレイク大",
+				"name": "Ultra Crafty Sleeper",
 				"level": 40
 			},
 			{
-				"name": "行動回数２から３",
+				"name": "Tactical Titan",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "医術士",
+				"name": "Decontaminate",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "休みブレイク大",
+				"name": "Ultra Crafty Stunner",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "トロピカル",
+		"skill": "Hottie",
 		"drops": [
 			{
 				"item": "魔法の小瓶",
@@ -8493,34 +8493,34 @@
 		},
 		"traits": [
 			{
-				"name": "封じブレイク大",
+				"name": "Ultra Crafty Spellbinder",
 				"level": 1
 			},
 			{
-				"name": "ときどきスカラ",
+				"name": "Rando-Buff",
 				"level": 20
 			},
 			{
-				"name": "呪文会心率アップ大",
+				"name": "Critical Theorist",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "魔力の強風",
+				"name": "Wizardly Wind",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "氷結ブレイク大",
+				"name": "Ultra Crafty Cracker",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "魔術",
+		"skill": "Magic Maven",
 		"drops": [
 			{
 				"item": "魔法の小瓶",
@@ -8557,34 +8557,34 @@
 		},
 		"traits": [
 			{
-				"name": "ラブリー",
+				"name": "Strangely Alluring",
 				"level": 1
 			},
 			{
-				"name": "魔力の風",
+				"name": "Wizardly Waft",
 				"level": 20
 			},
 			{
-				"name": "ときどきまもりの霧",
+				"name": "Rando-Mister",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "おだてじょうず",
+				"name": "Bigger Upper",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ひかりのはどう",
+				"name": "Rando-Relief",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "HP回復"
+		"skill": "Healer"
 	},
 	"Funky Ferret": {
 		"size": "S",
@@ -8612,37 +8612,37 @@
 		},
 		"traits": [
 			{
-				"name": "眠りブレイク大",
+				"name": "Ultra Crafty Sleeper",
 				"level": 1
 			},
 			{
-				"name": "ショック攻撃",
+				"name": "Stunning Touch",
 				"level": 20
 			},
 			{
-				"name": "ラブリー",
+				"name": "Strangely Alluring",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ヘロヘロボディ",
+				"name": "Stunning Skin",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "最後のあがき",
+				"name": "Parting Gift",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "あくしゅう",
+		"skill": "Stinker",
 		"randomSkills": [
-			"幻惑ガード",
-			"すばやさアップ１"
+			"Bedazzlement Blocker",
+			"Agility Booster I"
 		],
 		"drops": [
 			{
@@ -8680,34 +8680,34 @@
 		},
 		"traits": [
 			{
-				"name": "会心率アップ大",
+				"name": "Critical Triumph",
 				"level": 1
 			},
 			{
-				"name": "ときどきスカラ",
+				"name": "Rando-Buff",
 				"level": 20
 			},
 			{
-				"name": "ラブリー",
+				"name": "Strangely Alluring",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ミラクル攻撃",
+				"name": "Miraculous Touch",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "背水の陣",
+				"name": "Unhealthy Advantage",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "けもの道"
+		"skill": "Naturalist"
 	},
 	"Gloomy Grublin": {
 		"size": "S",
@@ -8734,37 +8734,37 @@
 		},
 		"traits": [
 			{
-				"name": "いきなりピオラ",
+				"name": "Insta-Accel",
 				"level": 1
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 20
 			},
 			{
-				"name": "かいひほんのう",
+				"name": "Evasive Impulse",
 				"level": 40
 			},
 			{
-				"name": "行動回数２から３",
+				"name": "Tactical Titan",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ときどきまもりの霧",
+				"name": "Rando-Mister",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ふっかつの祈り",
+				"name": "Last Gasp",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "いたずら",
+		"skill": "Prankster",
 		"randomSkills": [
-			"かしこさアップ１",
-			"混乱ガード"
+			"Wisdom Booster I",
+			"Confusion Controller"
 		],
 		"drops": [
 			{
@@ -8801,34 +8801,34 @@
 		},
 		"traits": [
 			{
-				"name": "どく攻撃",
+				"name": "Poisonous Touch",
 				"level": 1
 			},
 			{
-				"name": "ときどきスカラ",
+				"name": "Rando-Buff",
 				"level": 20
 			},
 			{
-				"name": "毒ブレイク大",
+				"name": "Ultra Crafty Poisoner",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ピンチで会心",
+				"name": "Critical Moment",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "しっぺがえし",
+				"name": "Tit for Tat",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "むしのしらせ"
+		"skill": "Hive Mind"
 	},
 	"Hangelabra": {
 		"size": "S",
@@ -8852,34 +8852,34 @@
 		},
 		"traits": [
 			{
-				"name": "呪文会心率アップ大",
+				"name": "Critical Theorist",
 				"level": 1
 			},
 			{
-				"name": "魔力の風",
+				"name": "Wizardly Waft",
 				"level": 20
 			},
 			{
-				"name": "闇のコツ",
+				"name": "Zammeister",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "マジシャンズハイ",
+				"name": "Trance State",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "マヒブレイク大",
+				"name": "Ultra Crafty Paralyser",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "カース"
+		"skill": "Hexcommunicator"
 	},
 	"Little Devil": {
 		"size": "S",
@@ -8903,37 +8903,37 @@
 		},
 		"traits": [
 			{
-				"name": "いやがらせ",
+				"name": "Major Downer",
 				"level": 1
 			},
 			{
-				"name": "ツッコミ",
+				"name": "Sobering Slap",
 				"level": 20
 			},
 			{
-				"name": "わるあがき",
+				"name": "Snappy Comeback",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "マジシャンズハイ",
+				"name": "Trance State",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "地ブレイク大",
+				"name": "Ultra Crafty Cragger",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "悪魔のささやき",
+		"skill": "Dark Artist",
 		"randomSkills": [
-			"かしこさアップ１",
-			"幻惑ガード"
+			"Wisdom Booster I",
+			"Bedazzlement Blocker"
 		],
 		"drops": [
 			{
@@ -8968,34 +8968,34 @@
 		},
 		"traits": [
 			{
-				"name": "キラキラボディ",
+				"name": "Glowing Skin",
 				"level": 1
 			},
 			{
-				"name": "ちからため",
+				"name": "Rando-Muster",
 				"level": 20
 			},
 			{
-				"name": "いきなりマホカンタ",
+				"name": "Insta-Bounce",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "プレッシャー",
+				"name": "Intimidating",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "弱体化ブレイク大",
+				"name": "Ultra Crafty Debilitator",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "いしあたま"
+		"skill": "Materialist"
 	},
 	"Mad Moai": {
 		"size": "L",
@@ -9018,34 +9018,34 @@
 		},
 		"traits": [
 			{
-				"name": "プレッシャー",
+				"name": "Intimidating",
 				"level": 1
 			},
 			{
-				"name": "地のコツ",
+				"name": "Cragmeister",
 				"level": 20
 			},
 			{
-				"name": "わるあがき",
+				"name": "Snappy Comeback",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ツッコミ",
+				"name": "Sobering Slap",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "地ブレイク大",
+				"name": "Ultra Crafty Cragger",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "いしあたま"
+		"skill": "Materialist"
 	},
 	"Seasaur": {
 		"size": "L",
@@ -9073,34 +9073,34 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 1
 			},
 			{
-				"name": "水のコツ",
+				"name": "Splishmeister",
 				"level": 20
 			},
 			{
-				"name": "いきなりバイキルト",
+				"name": "Insta-Oomph",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ファイターズハイ",
+				"name": "Adrenaline Rush",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "氷結ブレイク大",
+				"name": "Ultra Crafty Cracker",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "水の心",
+		"skill": "Splash Afficionado",
 		"drops": [
 			{
 				"item": "薬草",
@@ -9137,34 +9137,34 @@
 		},
 		"traits": [
 			{
-				"name": "会心率アップ大",
+				"name": "Critical Triumph",
 				"level": 1
 			},
 			{
-				"name": "いきなりピオラ",
+				"name": "Insta-Accel",
 				"level": 20
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ロケットスタート",
+				"name": "Strong Starter",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "最後のあがき",
+				"name": "Parting Gift",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ダウナー",
+		"skill": "Enfeebler",
 		"drops": [
 			{
 				"item": "へびのぬけがら",
@@ -9197,34 +9197,34 @@
 		},
 		"traits": [
 			{
-				"name": "ショック攻撃",
+				"name": "Stunning Touch",
 				"level": 1
 			},
 			{
-				"name": "ときどきスカラ",
+				"name": "Rando-Buff",
 				"level": 20
 			},
 			{
-				"name": "地のコツ",
+				"name": "Cragmeister",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "しっぺがえし",
+				"name": "Tit for Tat",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "休みブレイク大",
+				"name": "Ultra Crafty Stunner",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "バンデッド",
+		"skill": "Outlaw",
 		"drops": [
 			{
 				"item": "せいれいせき",
@@ -9262,34 +9262,34 @@
 		},
 		"traits": [
 			{
-				"name": "会心率アップ大",
+				"name": "Critical Triumph",
 				"level": 1
 			},
 			{
-				"name": "マヒ攻撃",
+				"name": "Paralysing Touch",
 				"level": 20
 			},
 			{
-				"name": "いやがらせ",
+				"name": "Major Downer",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "背水の陣",
+				"name": "Unhealthy Advantage",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "マヒブレイク大",
+				"name": "Ultra Crafty Paralyser",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "むしのしらせ"
+		"skill": "Hive Mind"
 	},
 	"Swarmtroop": {
 		"size": "S",
@@ -9319,34 +9319,34 @@
 		},
 		"traits": [
 			{
-				"name": "れんぞく６",
+				"name": "Hit Squad x6",
 				"level": 1
 			},
 			{
-				"name": "みかわしアップ大",
+				"name": "Ace Evader",
 				"level": 20
 			},
 			{
-				"name": "毒ブレイク大",
+				"name": "Ultra Crafty Poisoner",
 				"level": 40
 			},
 			{
-				"name": "行動回数２から３",
+				"name": "Tactical Titan",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ぐるぐるボディ",
+				"name": "Stupefying Skin",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "パワードレイン",
+				"name": "Weedy Touch",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ダウナー",
+		"skill": "Enfeebler",
 		"drops": [
 			{
 				"item": "メタルストーン",
@@ -9386,34 +9386,34 @@
 		},
 		"traits": [
 			{
-				"name": "封じブレイク大",
+				"name": "Ultra Crafty Spellbinder",
 				"level": 1
 			},
 			{
-				"name": "ねがえり",
+				"name": "Sleep Twitch",
 				"level": 20
 			},
 			{
-				"name": "闇のコツ",
+				"name": "Zammeister",
 				"level": 40
 			},
 			{
-				"name": "行動回数２から３",
+				"name": "Tactical Titan",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "超呪文会心率アップ",
+				"name": "Critical Mastermind",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "魔力の強風",
+				"name": "Wizardly Wind",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "巨漢"
+		"skill": "Goliath"
 	},
 	"Mouldfish": {
 		"size": "S",
@@ -9437,34 +9437,34 @@
 		},
 		"traits": [
 			{
-				"name": "ビリビリボディ",
+				"name": "Insensitive Skin",
 				"level": 1
 			},
 			{
-				"name": "風のコツ",
+				"name": "Wooshmeister",
 				"level": 20
 			},
 			{
-				"name": "ぼうえいほんのう",
+				"name": "Defensive Impulse",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "闇ブレイク大",
+				"name": "Ultra Crafty Zammer",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "やみのはどう",
+				"name": "Rando-Panic",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "みずげい",
+		"skill": "Aquapothecary",
 		"drops": [
 			{
 				"item": "アモールの水",
@@ -9505,34 +9505,34 @@
 		},
 		"traits": [
 			{
-				"name": "かいひほんのう",
+				"name": "Evasive Impulse",
 				"level": 1
 			},
 			{
-				"name": "ときどきまもりの霧",
+				"name": "Rando-Mister",
 				"level": 20
 			},
 			{
-				"name": "幻惑ブレイク大",
+				"name": "Ultra Crafty Dazzler",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "超みかわしアップ",
+				"name": "Supreme Sidestepper",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "魔力の強風",
+				"name": "Wizardly Wind",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ジャマー"
+		"skill": "Irritant"
 	},
 	"Sky Fry": {
 		"size": "S",
@@ -9562,34 +9562,34 @@
 		},
 		"traits": [
 			{
-				"name": "ギャンブルボディ",
+				"name": "Slick Skin",
 				"level": 1
 			},
 			{
-				"name": "ときどきスカラ",
+				"name": "Rando-Buff",
 				"level": 20
 			},
 			{
-				"name": "ねむり攻撃",
+				"name": "Sleepy Touch",
 				"level": 40
 			},
 			{
-				"name": "行動回数２",
+				"name": "Tactical Commander",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "眠りブレイク大",
+				"name": "Ultra Crafty Sleeper",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "混乱ブレイク大",
+				"name": "Ultra Crafty Confuser",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "風の心"
+		"skill": "Woosh Afficionado"
 	},
 	"Jingle Bug": {
 		"size": "S",
@@ -9620,34 +9620,34 @@
 		},
 		"traits": [
 			{
-				"name": "てんしの音色",
+				"name": "Zinger Zongwriter",
 				"level": 1
 			},
 			{
-				"name": "かいひほんのう",
+				"name": "Evasive Impulse",
 				"level": 20
 			},
 			{
-				"name": "セラピー",
+				"name": "Detox",
 				"level": 40
 			},
 			{
-				"name": "行動回数２から３",
+				"name": "Tactical Titan",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ねむり攻撃",
+				"name": "Sleepy Touch",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "やまびこ",
+				"name": "Echonomist",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "アッパー"
+		"skill": "Fortifier"
 	},
 	"Platypup": {
 		"size": "S",
@@ -9678,37 +9678,37 @@
 		},
 		"traits": [
 			{
-				"name": "れんぞく３",
+				"name": "Hit Squad x3",
 				"level": 1
 			},
 			{
-				"name": "ラブリー",
+				"name": "Strangely Alluring",
 				"level": 20
 			},
 			{
-				"name": "とうそうほんのう",
+				"name": "Attacking Impulse",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "超会心率アップ",
+				"name": "Critical Sensation",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "ロケットスタート",
+				"name": "Strong Starter",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "いたずら",
+		"skill": "Prankster",
 		"randomSkills": [
-			"弱体化ガード",
-			"すばやさアップ１"
+			"Debilitation Ducker",
+			"Agility Booster I"
 		],
 		"drops": [
 			{
@@ -9749,34 +9749,34 @@
 		},
 		"traits": [
 			{
-				"name": "毒ブレイク大",
+				"name": "Ultra Crafty Poisoner",
 				"level": 1
 			},
 			{
-				"name": "MP吸収ブレイク大",
+				"name": "Ultra Crafty Magic Drainer",
 				"level": 20
 			},
 			{
-				"name": "混乱ブレイク大",
+				"name": "Ultra Crafty Confuser",
 				"level": 40
 			},
 			{
-				"name": "行動回数２から３",
+				"name": "Tactical Titan",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "眠りブレイク大",
+				"name": "Ultra Crafty Sleeper",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "即死ブレイク大",
+				"name": "Ultra Crafty Whacker",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "ナチュラル",
+		"skill": "Nature Child",
 		"drops": [
 			{
 				"item": "妖草",
@@ -9811,34 +9811,34 @@
 		},
 		"traits": [
 			{
-				"name": "れんぞく４",
+				"name": "Hit Squad x4",
 				"level": 1
 			},
 			{
-				"name": "いきなりピオラ",
+				"name": "Insta-Accel",
 				"level": 20
 			},
 			{
-				"name": "回復のコツ",
+				"name": "Health Professional",
 				"level": 40
 			},
 			{
-				"name": "行動回数１から３",
+				"name": "Tactical Genius",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "超みかわしアップ",
+				"name": "Supreme Sidestepper",
 				"level": 1,
 				"large": true
 			},
 			{
-				"name": "セラピー",
+				"name": "Detox",
 				"level": 60,
 				"large": true
 			}
 		],
-		"skill": "プリンセス",
+		"skill": "Princess",
 		"drops": [
 			{
 				"item": "毒消し草",

@@ -1,1441 +1,1441 @@
 {
 	"traits": {
-		"行動回数１から２": {
+		"Tactical Trooper": {
 			"en": "Tactical Trooper",
 			"desc": {
 				"en": "Sometimes performs 2 actions in a row. The number of actions is not affected if you don't issue specific orders. Very slightly lowers the monster's max. attributes.",
 				"fr": "Agit parfois 2 fois de suite. Donner ou non des ordres n'affecte pas le nombre d'actions. Réduit très légèrement la valeur maximale des caractéristiques."
 			}
 		},
-		"行動回数２": {
+		"Tactical Commander": {
 			"en": "Tactical Commander",
 			"desc": {
 				"en": "Performs 2 actions in a row. The number of actions is not affected if you don't issue specific orders. Slightly lowers the monster's max. attributes.",
 				"fr": "Agit 2 fois de suite. Donner ou non des ordres n'affecte pas le nombre d'actions. Réduit légèrement la valeur maximale des caractéristiques."
 			}
 		},
-		"行動回数１から３": {
+		"Tactical Genius": {
 			"en": "Tactical Genius",
 			"desc": {
 				"en": "Sometimes performs 2 or 3 actions in a row. The number of actions is not affected if you don't issue specific orders. Slightly lowers the monster's max. attributes.",
 				"fr": "Agit parfois 2 à 3 fois de suite. Donner ou non des ordres n'affecte pas le nombre d'actions. Réduit légèrement la valeur maximale des caractéristiques."
 			}
 		},
-		"行動回数２から３": {
+		"Tactical Titan": {
 			"en": "Tactical Titan",
 			"desc": {
 				"en": "Performs 2 or 3 actions in a row. The number of actions is not affected if you don't issue specific orders. Lowers the monster's max. attributes.",
 				"fr": "Agit 2 à 3 fois de suite. Donner ou non des ordres n'affecte pas le nombre d'actions. Réduit la valeur maximale des caractéristiques."
 			}
 		},
-		"いきなりバイキルト": {
+		"Insta-Oomph": {
 			"en": "Insta-Oomph",
 			"desc": {
 				"en": "Monster sometimes casts Oomph on itself at the start of battle.",
 				"fr": "Utilise parfois Décuplo sur soi-même en début de combat."
 			}
 		},
-		"いきなりスカラ": {
+		"Insta-Buff": {
 			"en": "Insta-Buff",
 			"desc": {
 				"en": "Monster sometimes casts Buff on itself at the start of battle.",
 				"fr": "Utilise parfois Protection sur soi-même en début de combat."
 			}
 		},
-		"いきなりピオラ": {
+		"Insta-Accel": {
 			"en": "Insta-Accel",
 			"desc": {
 				"en": "Monster sometimes casts Accelerate on itself at the start of battle.",
 				"fr": "Utilise parfois Accéléro sur soi-même en début de combat."
 			}
 		},
-		"いきなりインテ": {
+		"Insta-Ping": {
 			"en": "Insta-Ping",
 			"desc": {
 				"en": "Monster sometimes casts Ping on itself at the start of battle.",
 				"fr": "Utilise parfois Tilt sur soi-même en début de combat."
 			}
 		},
-		"いきなりマホカンタ": {
+		"Insta-Bounce": {
 			"en": "Insta-Bounce",
 			"desc": {
 				"en": "Monster sometimes casts Bounce on itself at the start of battle.",
 				"fr": "Utilise parfois Réflexion sur soi-même en début de combat."
 			}
 		},
-		"ときどきバイキルト": {
+		"Rando-Oomph": {
 			"en": "Rando-Oomph",
 			"desc": {
 				"en": "Monster sometimes casts Oomph on itself during battle.",
 				"fr": "Utilise parfois Décuplo sur soi-même en cours de combat."
 			}
 		},
-		"ときどきスカラ": {
+		"Rando-Buff": {
 			"en": "Rando-Buff",
 			"desc": {
 				"en": "Monster sometimes casts Buff on itself during battle.",
 				"fr": "Utilise parfois Protection sur soi-même en cours de combat."
 			}
 		},
-		"ときどきピオラ": {
+		"Rando-Accel": {
 			"en": "Rando-Accel",
 			"desc": {
 				"en": "Monster sometimes casts Accelerate on itself during battle.",
 				"fr": "Utilise parfois Accéléro sur soi-même en cours de combat."
 			}
 		},
-		"ときどきインテ": {
+		"Rando-Ping": {
 			"en": "Rando-Ping",
 			"desc": {
 				"en": "Monster sometimes casts Ping on itself during battle.",
 				"fr": "Utilise parfois Tilt sur soi-même en cours de combat."
 			}
 		},
-		"ときどきまもりの霧": {
+		"Rando-Mister": {
 			"en": "Rando-Mister",
 			"desc": {
 				"en": "Monster sometimes uses Mist Me on itself during battle.",
 				"fr": "Utilise parfois Brume de bataille sur soi-même en cours de combat."
 			}
 		},
-		"ひかりのはどう": {
+		"Rando-Relief": {
 			"en": "Rando-Relief",
 			"desc": {
 				"en": "Sometimes uses Wave of Relief during battle.",
 				"fr": "Utilise parfois Vague de soulagement en cours de combat."
 			}
 		},
-		"やみのはどう": {
+		"Rando-Panic": {
 			"en": "Rando-Panic",
 			"desc": {
 				"en": "Sometimes uses Wave of Panic during battle.",
 				"fr": "Utilise parfois Vague de panique en cours de combat."
 			}
 		},
-		"ちからため": {
+		"Rando-Muster": {
 			"en": "Rando-Muster",
 			"desc": {
 				"en": "Sometimes uses Muster Strength during battle.",
 				"fr": "Utilise parfois Concentration de force en cours de combat."
 			}
 		},
-		"癒しの力": {
+		"Low Heal": {
 			"en": "Low Heal",
 			"desc": {
 				"en": "Sometimes restores 30 or more HP to all allies during battle. Higher wisdom makes the healing effect more powerful.",
 				"fr": "Restaure parfois au moins 30 PV à tous les alliés en cours de combat. La quantité de PV restaurés est proportionnelle à la sagesse du monstre utilisateur."
 			}
 		},
-		"癒しの大力": {
+		"High Heal": {
 			"en": "High Heal",
 			"desc": {
 				"en": "Sometimes restores 80 or more HP to all allies during battle. Higher wisdom makes the healing effect more powerful.",
 				"fr": "Restaure parfois au moins 80 PV à tous les alliés en cours de combat. La quantité de PV restaurés est proportionnelle à la sagesse du monstre utilisateur."
 			}
 		},
-		"魔力の風": {
+		"Wizardly Waft": {
 			"en": "Wizardly Waft",
 			"desc": {
 				"en": "Sometimes restores 1 or more MP to all allies during battle. A higher level increases the restored amount.",
 				"fr": "Restaure parfois au moins 1 PM à tous les alliés en cours de combat. La quantité de points restaurés est proportionnelle au niveau du monstre utilisateur."
 			}
 		},
-		"魔力の強風": {
+		"Wizardly Wind": {
 			"en": "Wizardly Wind",
 			"desc": {
 				"en": "Sometimes restores 5 or more MP to all allies during battle. A higher level increases the restored amount.",
 				"fr": "Redonne parfois 5 PM ou plus à tous les alliés au cours du combat. La quantité de PM restaurés est proportionnelle au niveau du monstre utilisateur."
 			}
 		},
-		"ふっかつの祈り": {
+		"Last Gasp": {
 			"en": "Last Gasp",
 			"desc": {
 				"en": "Revives a single ally after it falls in battle. Only works once per battle.",
 				"fr": "Ressuscite un allié tombé au combat. Utilisable une fois par combat."
 			}
 		},
-		"火のコツ": {
+		"Frizzmeister": {
 			"en": "Frizzmeister",
 			"desc": {
 				"en": "Increases the potency of fire-elemental attacks and decreases their MP consumption.",
 				"fr": "Renforce les attaques de feu et réduit leur coût en PM."
 			}
 		},
-		"水のコツ": {
+		"Splishmeister": {
 			"en": "Splishmeister",
 			"desc": {
 				"en": "Increases the potency of water-elemental attacks and decreases their MP consumption.",
 				"fr": "Renforce les attaques d'eau et réduit leur coût en PM."
 			}
 		},
-		"風のコツ": {
+		"Wooshmeister": {
 			"en": "Wooshmeister",
 			"desc": {
 				"en": "Increases the potency of wind-elemental attacks and decreases their MP consumption.",
 				"fr": "Renforce les attaques de vent et réduit leur coût en PM."
 			}
 		},
-		"地のコツ": {
+		"Cragmeister": {
 			"en": "Cragmeister",
 			"desc": {
 				"en": "Increases the potency of earth-elemental attacks and decreases their MP consumption.",
 				"fr": "Renforce les attaques de terre et réduit leur coût en PM."
 			}
 		},
-		"爆発のコツ": {
+		"Bangmeister": {
 			"en": "Bangmeister",
 			"desc": {
 				"en": "Increases the potency of explosive attacks and decreases their MP consumption.",
 				"fr": "Renforce les attaques d'explosion et réduit leur coût en PM."
 			}
 		},
-		"氷結のコツ": {
+		"Crackmeister": {
 			"en": "Crackmeister",
 			"desc": {
 				"en": "Increases the potency of ice-elemental attacks and decreases their MP consumption.",
 				"fr": "Renforce les attaques de glace et réduit leur coût en PM."
 			}
 		},
-		"電撃のコツ": {
+		"Zapmeister": {
 			"en": "Zapmeister",
 			"desc": {
 				"en": "Increases the potency of electrical attacks and decreases their MP consumption.",
 				"fr": "Renforce les attaques de foudre et réduit leur coût en PM."
 			}
 		},
-		"光のコツ": {
+		"Sizzmeister": {
 			"en": "Sizzmeister",
 			"desc": {
 				"en": "Increases the potency of light-elemental attacks and decreases their MP consumption.",
 				"fr": "Renforce les attaques de lumière et réduit leur coût en PM."
 			}
 		},
-		"闇のコツ": {
+		"Zammeister": {
 			"en": "Zammeister",
 			"desc": {
 				"en": "Increases the potency of dark-elemental attacks and decreases their MP consumption.",
 				"fr": "Renforce les attaques de ténèbres et réduit leur coût en PM."
 			}
 		},
-		"回復のコツ": {
+		"Health Professional": {
 			"en": "Health Professional",
 			"desc": {
 				"en": "Increases the potency of healing skills and decreases their MP consumption.",
 				"fr": "Renforce l'effet des compétences de soin et réduit leur coût en PM."
 			}
 		},
-		"ギャンブルボディ": {
+		"Slick Skin": {
 			"en": "Slick Skin",
 			"desc": {
 				"en": "Sometimes renders an enemy's direct attacks ineffective.",
 				"fr": "Annule parfois les attaques directes des ennemis."
 			}
 		},
-		"やいばのボディ": {
+		"Spiky Skin": {
 			"en": "Spiky Skin",
 			"desc": {
 				"en": "Returns 1/4 of the damage suffered from direct attacks back at the attacking enemy.",
 				"fr": "Renvoie un quart des dégâts aux ennemis qui lui portent des attaques directes."
 			}
 		},
-		"どくどくボディ": {
+		"Infected Skin": {
 			"en": "Infected Skin",
 			"desc": {
 				"en": "Sometimes poisons enemies that inflict direct attacks.",
 				"fr": "Empoisonne parfois les ennemis qui lui portent des attaques directes."
 			}
 		},
-		"ヘロヘロボディ": {
+		"Stunning Skin": {
 			"en": "Stunning Skin",
 			"desc": {
 				"en": "Sometimes stuns enemies that inflict direct attacks for 1 turn.",
 				"fr": "Empêche parfois de bouger pendant 1 tour les ennemis qui lui portent des attaques directes."
 			}
 		},
-		"スヤスヤボディ": {
+		"Somnolent Skin": {
 			"en": "Somnolent Skin",
 			"desc": {
 				"en": "Sometimes puts enemies that inflict direct attacks to sleep.",
 				"fr": "Provoque parfois le sommeil des ennemis qui lui portent des attaques directes."
 			}
 		},
-		"ぐるぐるボディ": {
+		"Stupefying Skin": {
 			"en": "Stupefying Skin",
 			"desc": {
 				"en": "Sometimes confuses enemies that inflict direct attacks.",
 				"fr": "Provoque parfois la confusion des ennemis qui lui portent des attaques directes."
 			}
 		},
-		"ビリビリボディ": {
+		"Insensitive Skin": {
 			"en": "Insensitive Skin",
 			"desc": {
 				"en": "Sometimes paralyses enemies that inflict direct attacks.",
 				"fr": "Provoque parfois la paralysie des ennemis qui lui portent des attaques directes."
 			}
 		},
-		"マホキテボディ": {
+		"Spongy Skin": {
 			"en": "Spongy Skin",
 			"desc": {
 				"en": "Sometimes absorbs MP from enemies that inflict direct attacks.",
 				"fr": "Absorbe parfois des PM aux ennemis qui lui portent des attaques directes."
 			}
 		},
-		"キラキラボディ": {
+		"Glowing Skin": {
 			"en": "Glowing Skin",
 			"desc": {
 				"en": "Sometimes nullifies status ailments inflicted by enemies.",
 				"fr": "Annule parfois les effets néfastes infligés par les ennemis."
 			}
 		},
-		"みかわしアップ大": {
+		"Ace Evader": {
 			"en": "Ace Evader",
 			"desc": {
 				"en": "Makes it somewhat easier to avoid enemy attacks.",
 				"fr": "Augmente les chances d'esquiver les attaques ennemies."
 			}
 		},
-		"超みかわしアップ": {
+		"Supreme Sidestepper": {
 			"en": "Supreme Sidestepper",
 			"desc": {
 				"en": "Makes it much easier to avoid enemy attacks.",
 				"fr": "Augmente grandement les chances d'esquiver les attaques ennemies."
 			}
 		},
-		"アンチみかわし": {
+		"Dodge Denier": {
 			"en": "Dodge Denier",
 			"desc": {
 				"en": "Ensures the enemy cannot avoid attacks.",
 				"fr": "Rend les esquives impossibles pour les ennemis."
 			}
 		},
-		"会心率アップ大": {
+		"Critical Triumph": {
 			"en": "Critical Triumph",
 			"desc": {
 				"en": "Makes it somewhat easier to inflict critical hits.",
 				"fr": "Augmente les chances d'effectuer des coups critiques."
 			}
 		},
-		"超会心率アップ": {
+		"Critical Sensation": {
 			"en": "Critical Sensation",
 			"desc": {
 				"en": "Makes it much easier to inflict critical hits.",
 				"fr": "Augmente grandement les chances d'effectuer des coups critiques."
 			}
 		},
-		"ピンチで会心": {
+		"Critical Moment": {
 			"en": "Critical Moment",
 			"desc": {
 				"en": "Makes it easier to inflict critical hits when HP drops to 1/2, and even more so when HP drops to 1/4.",
 				"fr": "Augmente les chances d'effectuer des coups critiques quand les PV sont réduits de moitié, et encore davantage lorsque les PV sont réduits de 3/4."
 			}
 		},
-		"呪文会心率アップ大": {
+		"Critical Theorist": {
 			"en": "Critical Theorist",
 			"desc": {
 				"en": "Makes it somewhat easier to cast critical spells.",
 				"fr": "Augmente les chances de lancer des sorts critiques."
 			}
 		},
-		"超呪文会心率アップ": {
+		"Critical Mastermind": {
 			"en": "Critical Mastermind",
 			"desc": {
 				"en": "Makes it much easier to cast critical spells.",
 				"fr": "Augmente grandement les chances de lancer des sorts critiques."
 			}
 		},
-		"ピンチで呪文会心": {
+		"Magical Moment": {
 			"en": "Magical Moment",
 			"desc": {
 				"en": "Makes it easier to cast critical spells when HP drops to 1/2 or less<--->even more so when HP drops to 1/4 or less!",
 				"fr": "Augmente les chances de lancer des sorts critiques quand les PV sont réduits de moitié, et encore davantage lorsque les PV sont réduits de 3/4."
 			}
 		},
-		"会心かんぜんガード": {
+		"Desperate Measures": {
 			"en": "Desperate Measures",
 			"desc": {
 				"en": "Negates all damage suffered from critical hits and critical spells.",
 				"fr": "Annule tous les dégâts infligés par des coups critiques et des sorts critiques."
 			}
 		},
-		"自動HP回復": {
+		"Auto-Restora": {
 			"en": "Auto-Restora",
 			"desc": {
 				"en": "Restores a small amount of HP after each action.",
 				"fr": "Restaure légèrement les PV après chaque action."
 			}
 		},
-		"自動MP回復": {
+		"Auto-Cadabra": {
 			"en": "Auto-Cadabra",
 			"desc": {
 				"en": "Restores a small amount of MP after each action.",
 				"fr": "Restaure légèrement les PM après chaque action."
 			}
 		},
-		"しょうひＭＰ半分": {
+		"Castslasher": {
 			"en": "Castslasher",
 			"desc": {
 				"en": "Reduces MP consumption by 1/2.",
 				"fr": "Réduit de moitié les coûts en PM."
 			}
 		},
-		"れんぞく": {
+		"Hit Squad x2": {
 			"en": "Hit Squad x2",
 			"desc": {
 				"en": "Direct attacks hit multiple times, but the damage per hit decreases as the number of hits increases.",
 				"fr": "Les attaques directes touchent plusieurs fois. Toutefois, les dégâts de chaque coup diminuent en fonction de leur nombre."
 			}
 		},
-		"れんぞく３": {
+		"Hit Squad x3": {
 			"en": "Hit Squad x3",
 			"desc": {
 				"en": "Direct attacks hit multiple times, but the damage per hit decreases as the number of hits increases.",
 				"fr": "Les attaques directes touchent plusieurs fois. Toutefois, les dégâts de chaque coup diminuent en fonction de leur nombre."
 			}
 		},
-		"れんぞく４": {
+		"Hit Squad x4": {
 			"en": "Hit Squad x4",
 			"desc": {
 				"en": "Direct attacks hit multiple times, but the damage per hit decreases as the number of hits increases.",
 				"fr": "Les attaques directes touchent plusieurs fois. Toutefois, les dégâts de chaque coup diminuent en fonction de leur nombre."
 			}
 		},
-		"れんぞく６": {
+		"Hit Squad x6": {
 			"en": "Hit Squad x6",
 			"desc": {
 				"en": "Direct attacks hit multiple times, but the damage per hit decreases as the number of hits increases.",
 				"fr": "Les attaques directes touchent plusieurs fois. Toutefois, les dégâts de chaque coup diminuent en fonction de leur nombre."
 			}
 		},
-		"超魔獣キラー": {
+		"Über Beastsbane": {
 			"en": "Über Beastsbane",
 			"desc": {
 				"en": "Greatly increases damage inflicted on monsters from the beast family and lowers all resistances.",
 				"fr": "Augmente grandement les dégâts infligés aux monstres de la famille des bêtes, et réduit toutes leurs résistances."
 			}
 		},
-		"超自然キラー": {
+		"Über Naturesbane": {
 			"en": "Über Naturesbane",
 			"desc": {
 				"en": "Greatly increases damage inflicted on monsters from the nature family and lowers all resistances.",
 				"fr": "Augmente grandement les dégâts infligés aux monstres de la famille des naturels, et réduit toutes leurs résistances."
 			}
 		},
-		"超悪魔キラー": {
+		"Über Demonsbane": {
 			"en": "Über Demonsbane",
 			"desc": {
 				"en": "Greatly increases damage inflicted on monsters from the demon family and lowers all resistances.",
 				"fr": "Augmente grandement les dégâts infligés aux monstres de la famille des démons, et réduit toutes leurs résistances."
 			}
 		},
-		"メタルハンター": {
+		"Metal Beater": {
 			"en": "Metal Beater",
 			"desc": {
 				"en": "Inflicts additional damage on enemies. A higher level increases the effect. Works on enemies with the Metal Skin trait.",
 				"fr": "Augmente les dégâts infligés à l'ennemi proportionnellement au niveau du monstre attaquant. Efficace aussi contre les ennemis dotés de l'attribut Cuir d'acier."
 			}
 		},
-		"メタルキラー": {
+		"Metal Medley": {
 			"en": "Metal Medley",
 			"desc": {
 				"en": "Ignores the damage-reducing effect that the Metal Skin trait provides.",
 				"fr": "Ignore la réduction des dégâts dont bénéficient les ennemis dotés de l'attribut Cuir d'acier."
 			}
 		},
-		"スモールキラー": {
+		"Little Menace": {
 			"en": "Little Menace",
 			"desc": {
 				"en": "Increases damage inflicted on S-size monsters.",
 				"fr": "Augmente les dégâts infligés aux monstres de taille P."
 			}
 		},
-		"ラージキラー": {
+		"Big Bully": {
 			"en": "Big Bully",
 			"desc": {
 				"en": "Increases damage inflicted on L-size monsters.",
 				"fr": "Augmente les dégâts infligés aux monstres de taille G."
 			}
 		},
-		"どく攻撃": {
+		"Poisonous Touch": {
 			"en": "Poisonous Touch",
 			"desc": {
 				"en": "Regular attacks sometimes poison the enemy.",
 				"fr": "Permet parfois aux attaques ordinaires de provoquer l'empoisonnement de l'ennemi."
 			}
 		},
-		"ショック攻撃": {
+		"Stunning Touch": {
 			"en": "Stunning Touch",
 			"desc": {
 				"en": "Regular attacks sometimes stun the enemy for 1 turn.",
 				"fr": "Permet parfois aux attaques ordinaires d'empêcher l'ennemi de bouger pendant 1 tour."
 			}
 		},
-		"ねむり攻撃": {
+		"Sleepy Touch": {
 			"en": "Sleepy Touch",
 			"desc": {
 				"en": "Regular attacks sometimes put the enemy to sleep.",
 				"fr": "Permet parfois aux attaques ordinaires de provoquer le sommeil de l'ennemi."
 			}
 		},
-		"こんらん攻撃": {
+		"Confusing Touch": {
 			"en": "Confusing Touch",
 			"desc": {
 				"en": "Regular attacks sometimes confuse the enemy.",
 				"fr": "Permet parfois aux attaques ordinaires de provoquer la confusion de l'ennemi."
 			}
 		},
-		"マヒ攻撃": {
+		"Paralysing Touch": {
 			"en": "Paralysing Touch",
 			"desc": {
 				"en": "Regular attacks sometimes paralyse the enemy.",
 				"fr": "Permet parfois aux attaques ordinaires de provoquer la paralysie de l'ennemi."
 			}
 		},
-		"ザキ攻撃": {
+		"Deadly Touch": {
 			"en": "Deadly Touch",
 			"desc": {
 				"en": "Regular attacks sometimes kill the enemy instantly.",
 				"fr": "Permet parfois aux attaques ordinaires de provoquer la mort subite de l'ennemi."
 			}
 		},
-		"ミラクル攻撃": {
+		"Miraculous Touch": {
 			"en": "Miraculous Touch",
 			"desc": {
 				"en": "Regular attacks restore 1/2 of the damage they inflict on the enemy as HP.",
 				"fr": "Permet aux attaques ordinaires de restaurer en PV l'équivalent de la moitié des dégâts infligés."
 			}
 		},
-		"マホトラ攻撃": {
+		"Absorbent Touch": {
 			"en": "Absorbent Touch",
 			"desc": {
 				"en": "Regular attacks sometimes absorb a portion of the enemy's MP.",
 				"fr": "Permet parfois aux attaques ordinaires d'absorber des PM à l'ennemi."
 			}
 		},
-		"パワードレイン": {
+		"Weedy Touch": {
 			"en": "Weedy Touch",
 			"desc": {
 				"en": "Regular attacks sometimes absorb a portion of the enemy's attack, defence, agility, wisdom, or resistance attributes.",
 				"fr": "Absorbe parfois une partie de l'attaque, de la défense, de l'agilité, de la sagesse ou des résistances de l'ennemi lors des attaques directes."
 			}
 		},
-		"おいうち": {
+		"Insult to Injury": {
 			"en": "Insult to Injury",
 			"desc": {
 				"en": "Increases damage inflicted on enemies that are poisoned, severely poisoned, stunned, asleep, confused or paralysed.",
 				"fr": "Augmente les dégâts infligés aux ennemis subissant l'empoisonnement, l'empoisonnement sévère, l'étourdissement, le sommeil, la confusion ou la paralysie."
 			}
 		},
-		"プレッシャー": {
+		"Intimidating": {
 			"en": "Intimidating",
 			"desc": {
 				"en": "Sometimes stuns the enemy during battle for 1 turn.",
 				"fr": "Empêche parfois l'ennemi d'agir pendant 1 tour, en cours de combat."
 			}
 		},
-		"ラブリー": {
+		"Strangely Alluring": {
 			"en": "Strangely Alluring",
 			"desc": {
 				"en": "Sometimes stuns the enemy during battle for 1 turn.",
 				"fr": "Empêche parfois l'ennemi d'agir pendant 1 tour, en cours de combat."
 			}
 		},
-		"きょうせんし": {
+		"Agent of Chaos": {
 			"en": "Agent of Chaos",
 			"desc": {
 				"en": "Always attacks an enemy when the monster is confused. Successful strikes inflict critical hits.",
 				"fr": "Attaque l'ennemi même quand le monstre subit la confusion, et inflige un coup critique en cas d'attaque réussie."
 			}
 		},
-		"ねがえり": {
+		"Sleep Twitch": {
 			"en": "Sleep Twitch",
 			"desc": {
 				"en": "Attacks all enemies when the monster is asleep.",
 				"fr": "Attaque tous les ennemis même quand le monstre subit le sommeil."
 			}
 		},
-		"たいでんたいしつ": {
+		"Static Discharge": {
 			"en": "Static Discharge",
 			"desc": {
 				"en": "Sometimes paralyses enemies that inflict direct attacks when the monster is paralysed itself.",
 				"fr": "Provoque parfois la paralysie des ennemis qui lui portent des attaques directes, quand le monstre subit lui-même la paralysie."
 			}
 		},
-		"ツッコミ": {
+		"Sobering Slap": {
 			"en": "Sobering Slap",
 			"desc": {
 				"en": "Sometimes cures allies of sleep and confusion.",
 				"fr": "Soigne parfois les alliés du sommeil et de la confusion."
 			}
 		},
-		"セラピー": {
+		"Detox": {
 			"en": "Detox",
 			"desc": {
 				"en": "Sometimes cures allies of poison, severe poison, paralysis and stun.",
 				"fr": "Soigne parfois les alliés de l'empoisonnement, de l'empoisonnement sévère, de la paralysie et de l'étourdissement."
 			}
 		},
-		"医術士": {
+		"Decontaminate": {
 			"en": "Decontaminate",
 			"desc": {
 				"en": "Sometimes cures allies of sleep, confusion, poison, severe poison, paralysis and stun.",
 				"fr": "Soigne parfois les alliés du sommeil, de la confusion, de l'empoisonnement, de l'empoisonnement sévère, de la paralysie et de l'étourdissement."
 			}
 		},
-		"星のおくりもの": {
+		"Heaven-Sent": {
 			"en": "Heaven-Sent",
 			"desc": {
 				"en": "Sometimes greatly increases attack, defence, agility or wisdom.",
 				"fr": "Augmente parfois grandement l'attaque, la défense, l'agilité ou la sagesse."
 			}
 		},
-		"おだてじょうず": {
+		"Bigger Upper": {
 			"en": "Bigger Upper",
 			"desc": {
 				"en": "Extends the duration of skills that raise the strength, defence, agility or wisdom of allies to 5 turns. In addition, randomly grants invincibility, the ability to reflect spells or breath attacks, or raises evasion.",
 				"fr": "Étend à 5 tours la durée des compétences qui augmentent la force, la défense, l'agilité ou la sagesse des alliés. Par ailleurs, octroie aléatoirement l'invincibilité, la capacité de renvoyer les sorts ou les attaques de souffle, ou une augmentation de l'esquive."
 			}
 		},
-		"いやがらせ": {
+		"Major Downer": {
 			"en": "Major Downer",
 			"desc": {
 				"en": "Extends the duration of skills that lower the strength, defence, agility or wisdom of enemies to 5 turns. In addition, randomly prevents breath attacks, critical hits or the casting of magic, or bedazzles the enemy.",
 				"fr": "Étend à 5 tours la durée des compétences qui réduisent la force, la défense, l'agilité ou la sagesse des ennemis. Par ailleurs, inflige aléatoirement un effet empêchant les attaques de souffle, les coups critiques ou les sorts, ou provoquant l'éblouissement."
 			}
 		},
-		"くじけぬ心": {
+		"Close Scraper": {
 			"en": "Close Scraper",
 			"desc": {
 				"en": "Sometimes allows the monster to survive at 1 HP after suffering an attack that would otherwise kill it.",
 				"fr": "Permet parfois au monstre de survivre avec 1 PV restant après avoir subi des dégâts qui auraient dû le faire tomber au combat."
 			}
 		},
-		"ラストスタンド": {
+		"Last Legs": {
 			"en": "Last Legs",
 			"desc": {
 				"en": "Allows the monster to survive at 1 HP after suffering an attack that would otherwise kill it.",
 				"fr": "Permet 1 fois au monstre de survivre avec 1 PV restant après avoir subi des dégâts qui auraient dû le faire tomber au combat."
 			}
 		},
-		"わるあがき": {
+		"Snappy Comeback": {
 			"en": "Snappy Comeback",
 			"desc": {
 				"en": "Inflicts damage back on an enemy that lands a killer blow. The amount inflicted is proportional to the excess damage suffered after the monster's HP are reduced to zero.",
 				"fr": "Inflige des dégâts à l'ennemi qui a causé sa mort. Les dégâts infligés sont proportionnels à la quantité de ceux subis au-delà des PV restants du monstre."
 			}
 		},
-		"最後のあがき": {
+		"Parting Gift": {
 			"en": "Parting Gift",
 			"desc": {
 				"en": "Inflicts damage back on all enemies when the monster dies. The amount inflicted is proportional to the excess damage suffered after the monster's HP are reduced to zero.",
 				"fr": "Inflige des dégâts à tous les ennemis si le monstre meurt. Les dégâts infligés sont proportionnels à la quantité de ceux subis au-delà des PV restants du monstre."
 			}
 		},
-		"最後の息吹": {
+		"Benefaction": {
 			"en": "Benefaction",
 			"desc": {
 				"en": "Massively increases the attack, defence, agility and wisdom of allies when the monster dies.",
 				"fr": "Augmente énormément l'attaque, la défense, l'agilité et la sagesse des alliés si le monstre meurt."
 			}
 		},
-		"てんしのきまぐれ": {
+		"Saving Grace": {
 			"en": "Saving Grace",
 			"desc": {
 				"en": "Monster is sometimes resurrected after it dies.",
 				"fr": "Ressuscite parfois après avoir été tué."
 			}
 		},
-		"てんしの音色": {
+		"Zinger Zongwriter": {
 			"en": "Zinger Zongwriter",
 			"desc": {
 				"en": "If the monster dies, it casts Prezing on a single ally.",
 				"fr": "Utilise Prérappel sur un allié au hasard si le monstre meurt."
 			}
 		},
-		"ロケットスタート": {
+		"Strong Starter": {
 			"en": "Strong Starter",
 			"desc": {
 				"en": "Raises damage inflicted on enemies up to round 3, but lowers it from round 4 onwards.",
 				"fr": "Augmente les dégâts infligés aux ennemis jusqu'au 3e round, puis les réduit à partir du 4e."
 			}
 		},
-		"秘めたるチカラ": {
+		"Late Bloomer": {
 			"en": "Late Bloomer",
 			"desc": {
 				"en": "Increases attack, defence, agility and wisdom from round 3 onwards, and even more so from round 6.",
 				"fr": "Augmente l'attaque, la défense, l'agilité et la sagesse à partir du 3e round, et encore davantage à partir du 6e."
 			}
 		},
-		"しっぺがえし": {
+		"Tit for Tat": {
 			"en": "Tit for Tat",
 			"desc": {
 				"en": "When a monster is inflicted with a status ailment, the attacking enemy will have the same ailment inflicted back on them.",
 				"fr": "Inflige la même altération d'état à l'ennemi, quand le monstre en subit une."
 			}
 		},
-		"徒手空拳": {
+		"Naked Ambition": {
 			"en": "Naked Ambition",
 			"desc": {
 				"en": "Increases the likelihood of critical hits and critical spells if no accessory is equipped.",
 				"fr": "Augmente les chances de coups et de sorts critiques si le monstre n'est équipé d'aucun accessoire."
 			}
 		},
-		"とうそうほんのう": {
+		"Attacking Impulse": {
 			"en": "Attacking Impulse",
 			"desc": {
 				"en": "Increases damage inflicted when HP drop to 1/2.",
 				"fr": "Augmente les dégâts infligés quand les PV sont réduits de moitié."
 			}
 		},
-		"ぼうえいほんのう": {
+		"Defensive Impulse": {
 			"en": "Defensive Impulse",
 			"desc": {
 				"en": "Reduces damage received when HP drop to 1/2.",
 				"fr": "Réduit les dégâts subis quand les PV sont réduits de moitié."
 			}
 		},
-		"かいひほんのう": {
+		"Evasive Impulse": {
 			"en": "Evasive Impulse",
 			"desc": {
 				"en": "Sometimes increases evasion and greatly increases agility during battle when HP has dropped to 1/2. Only activates once per battle.",
 				"fr": "Augmente parfois l'esquive, et grandement l'agilité, quand les PV sont réduits de moitié en cours de combat. Ne s'active qu'une fois par combat."
 			}
 		},
-		"背水の陣": {
+		"Unhealthy Advantage": {
 			"en": "Unhealthy Advantage",
 			"desc": {
 				"en": "Inflicts increasing amounts of damage as remaining HP gets lower.",
 				"fr": "Augmente les dégâts infligés à l'ennemi proportionnellement aux PV manquant au monstre."
 			}
 		},
-		"全体攻撃": {
+		"Collective Punishment": {
 			"en": "Collective Punishment",
 			"desc": {
 				"en": "Attacks that do more damage as the attack attribute increases and strike a single target will strike all enemies instead.",
 				"fr": "Permet aux attaques à cible unique basées sur la caractéristique attaque de frapper tous les ennemis."
 			}
 		},
-		"根に持つタイプ": {
+		"Personal Grudge": {
 			"en": "Personal Grudge",
 			"desc": {
 				"en": "Greatly decreases the attack, defence, agility and wisdom of an enemy that lands a killer blow, and stuns them for the next turn. Only activates once per battle.",
 				"fr": "Empêche l'ennemi qui a vaincu le monstre d'agir au tour suivant, et réduit grandement son attaque, sa défense, son agilité et sa sagesse. Ne s'active qu'une fois par combat."
 			}
 		},
-		"やまびこ": {
+		"Echonomist": {
 			"en": "Echonomist",
 			"desc": {
 				"en": "Sometimes casts the same spell twice. Consumes slightly more MP than usual.",
 				"fr": "Lance parfois 2 fois le même sort. Augmente légèrement le coût en PM."
 			}
 		},
-		"ファイターズハイ": {
+		"Adrenaline Rush": {
 			"en": "Adrenaline Rush",
 			"desc": {
 				"en": "Greatly increases attack after inflicting a critical hit.",
 				"fr": "Augmente grandement l'attaque après avoir donné un coup critique."
 			}
 		},
-		"マジシャンズハイ": {
+		"Trance State": {
 			"en": "Trance State",
 			"desc": {
 				"en": "Greatly increases wisdom after casting a critical spell.",
 				"fr": "Augmente grandement la sagesse après avoir lancé un sort critique."
 			}
 		},
-		"火ブレイク大": {
+		"Ultra Crafty Frizzer": {
 			"en": "Ultra Crafty Frizzer",
 			"desc": {
 				"en": "Greatly increases the damage inflicted by fire-elemental attacks.",
 				"fr": "Augmente grandement les dégâts des attaques de feu."
 			}
 		},
-		"水ブレイク大": {
+		"Ultra Crafty Splasher": {
 			"en": "Ultra Crafty Splasher",
 			"desc": {
 				"en": "Greatly increases the damage inflicted by water-elemental attacks.",
 				"fr": "Augmente grandement les dégâts des attaques d'eau."
 			}
 		},
-		"風ブレイク大": {
+		"Ultra Crafty Woosher": {
 			"en": "Ultra Crafty Woosher",
 			"desc": {
 				"en": "Greatly increases the damage inflicted by wind-elemental attacks.",
 				"fr": "Augmente grandement les dégâts des attaques de vent."
 			}
 		},
-		"地ブレイク大": {
+		"Ultra Crafty Cragger": {
 			"en": "Ultra Crafty Cragger",
 			"desc": {
 				"en": "Greatly increases the damage inflicted by earth-elemental attacks.",
 				"fr": "Augmente grandement les dégâts des attaques de terre."
 			}
 		},
-		"爆発ブレイク大": {
+		"Ultra Crafty Banger": {
 			"en": "Ultra Crafty Banger",
 			"desc": {
 				"en": "Greatly increases the damage inflicted by explosive attacks.",
 				"fr": "Augmente grandement les dégâts des attaques d'explosion."
 			}
 		},
-		"氷結ブレイク大": {
+		"Ultra Crafty Cracker": {
 			"en": "Ultra Crafty Cracker",
 			"desc": {
 				"en": "Greatly increases the damage inflicted by ice-elemental attacks.",
 				"fr": "Augmente grandement les dégâts des attaques de glace."
 			}
 		},
-		"電撃ブレイク大": {
+		"Ultra Crafty Zapper": {
 			"en": "Ultra Crafty Zapper",
 			"desc": {
 				"en": "Greatly increases the damage inflicted by electrical attacks.",
 				"fr": "Augmente grandement les dégâts des attaques de foudre."
 			}
 		},
-		"闇ブレイク大": {
+		"Ultra Crafty Zammer": {
 			"en": "Ultra Crafty Zammer",
 			"desc": {
 				"en": "Greatly increases the damage inflicted by dark-elemental attacks.",
 				"fr": "Augmente grandement les dégâts des attaques de ténèbres."
 			}
 		},
-		"弱体化ブレイク大": {
+		"Ultra Crafty Debilitator": {
 			"en": "Ultra Crafty Debilitator",
 			"desc": {
 				"en": "Makes it much easier to reduce an enemy's attack, defence, agility or wisdom.",
 				"fr": "Rend grandement plus efficaces les attaques réduisant l'attaque, la défense, l'agilité ou la sagesse de l'ennemi."
 			}
 		},
-		"幻惑ブレイク大": {
+		"Ultra Crafty Dazzler": {
 			"en": "Ultra Crafty Dazzler",
 			"desc": {
 				"en": "Makes it much easier to bedazzle the enemy.",
 				"fr": "Rend grandement plus efficaces les attaques provoquant l'éblouissement."
 			}
 		},
-		"封じブレイク大": {
+		"Ultra Crafty Spellbinder": {
 			"en": "Ultra Crafty Spellbinder",
 			"desc": {
 				"en": "Makes it much easier to prevent spellcasting.",
 				"fr": "Rend grandement plus efficaces les attaques provoquant l'empêchement."
 			}
 		},
-		"MP吸収ブレイク大": {
+		"Ultra Crafty Magic Drainer": {
 			"en": "Ultra Crafty Magic Drainer",
 			"desc": {
 				"en": "Makes it much easier to absorb MP.",
 				"fr": "Rend grandement plus efficaces les attaques absorbant les PM."
 			}
 		},
-		"混乱ブレイク大": {
+		"Ultra Crafty Confuser": {
 			"en": "Ultra Crafty Confuser",
 			"desc": {
 				"en": "Makes it much easier to confuse the enemy.",
 				"fr": "Rend grandement plus efficaces les attaques provoquant la confusion."
 			}
 		},
-		"眠りブレイク大": {
+		"Ultra Crafty Sleeper": {
 			"en": "Ultra Crafty Sleeper",
 			"desc": {
 				"en": "Makes it much easier to put the enemy to sleep.",
 				"fr": "Rend grandement plus efficaces les attaques provoquant le sommeil."
 			}
 		},
-		"マヒブレイク大": {
+		"Ultra Crafty Paralyser": {
 			"en": "Ultra Crafty Paralyser",
 			"desc": {
 				"en": "Makes it much easier to paralyse the enemy.",
 				"fr": "Rend grandement plus efficaces les attaques provoquant la paralysie."
 			}
 		},
-		"休みブレイク大": {
+		"Ultra Crafty Stunner": {
 			"en": "Ultra Crafty Stunner",
 			"desc": {
 				"en": "Makes it much easier to stun the enemy.",
 				"fr": "Rend grandement plus efficaces les attaques provoquant l'étourdissement."
 			}
 		},
-		"毒ブレイク大": {
+		"Ultra Crafty Poisoner": {
 			"en": "Ultra Crafty Poisoner",
 			"desc": {
 				"en": "Makes it much easier to poison or severely poison the enemy.",
 				"fr": "Rend grandement plus efficaces les attaques provoquant l'empoisonnement ou l'empoisonnement sévère."
 			}
 		},
-		"即死ブレイク大": {
+		"Ultra Crafty Whacker": {
 			"en": "Ultra Crafty Whacker",
 			"desc": {
 				"en": "Makes it much easier to kill the enemy instantly.",
 				"fr": "Rend grandement plus efficaces les attaques provoquant la mort subite."
 			}
 		},
-		"全ガードブレイク": {
+		"Crafty Devil": {
 			"en": "Crafty Devil",
 			"desc": {
 				"en": "Lowers all of an enemy monster's resistances.",
 				"fr": "Réduit toutes les résistances de l'ennemi."
 			}
 		},
-		"最大HPプラス２": {
+		"Max. HP +2": {
 			"en": "Max. HP +2",
 			"desc": {
 				"en": "Raises max. HP by 2.",
 				"fr": "Augmente les PV max. de 2 points."
 			}
 		},
-		"最大HPプラス４": {
+		"Max. HP +4": {
 			"en": "Max. HP +4",
 			"desc": {
 				"en": "Raises max. HP by 4.",
 				"fr": "Augmente les PV max. de 4 points."
 			}
 		},
-		"最大HPプラス８": {
+		"Max. HP +8": {
 			"en": "Max. HP +8",
 			"desc": {
 				"en": "Raises max. HP by 8.",
 				"fr": "Augmente les PV max. de 8 points."
 			}
 		},
-		"最大HPプラス１２": {
+		"Max. HP +12": {
 			"en": "Max. HP +12",
 			"desc": {
 				"en": "Raises max. HP by 12.",
 				"fr": "Augmente les PV max. de 12 points."
 			}
 		},
-		"最大HPプラス１６": {
+		"Max. HP +16": {
 			"en": "Max. HP +16",
 			"desc": {
 				"en": "Raises max. HP by 16.",
 				"fr": "Augmente les PV max. de 16 points."
 			}
 		},
-		"最大HPプラス２０": {
+		"Max. HP +20": {
 			"en": "Max. HP +20",
 			"desc": {
 				"en": "Raises max. HP by 20.",
 				"fr": "Augmente les PV max. de 20 points."
 			}
 		},
-		"最大HPプラス２４": {
+		"Max. HP +24": {
 			"en": "Max. HP +24",
 			"desc": {
 				"en": "Raises max. HP by 24.",
 				"fr": "Augmente les PV max. de 24 points."
 			}
 		},
-		"最大HPプラス３０": {
+		"Max. HP +30": {
 			"en": "Max. HP +30",
 			"desc": {
 				"en": "Raises max. HP by 30.",
 				"fr": "Augmente les PV max. de 30 points."
 			}
 		},
-		"最大HPプラス３６": {
+		"Max. HP +36": {
 			"en": "Max. HP +36",
 			"desc": {
 				"en": "Raises max. HP by 36",
 				"fr": "Augmente les PV max. de 36 points."
 			}
 		},
-		"最大HPプラス４８": {
+		"Max. HP +48": {
 			"en": "Max. HP +48",
 			"desc": {
 				"en": "Raises max. HP by 48.",
 				"fr": "Augmente les PV max. de 48 points."
 			}
 		},
-		"最大MPプラス４": {
+		"Max. MP +4": {
 			"en": "Max. MP +4",
 			"desc": {
 				"en": "Raises max. MP by 4.",
 				"fr": "Augmente les PM max. de 4 points."
 			}
 		},
-		"最大MPプラス８": {
+		"Max. MP +8": {
 			"en": "Max. MP +8",
 			"desc": {
 				"en": "Raises max. MP by 8.",
 				"fr": "Augmente les PM max. de 8 points."
 			}
 		},
-		"最大MPプラス１２": {
+		"Max. MP +12": {
 			"en": "Max. MP +12",
 			"desc": {
 				"en": "Raises max. MP by 12.",
 				"fr": "Augmente les PM max. de 12 points."
 			}
 		},
-		"最大MPプラス１６": {
+		"Max. MP +16": {
 			"en": "Max. MP +16",
 			"desc": {
 				"en": "Raises max. MP by 16.",
 				"fr": "Augmente les PM max. de 16 points."
 			}
 		},
-		"最大MPプラス２４": {
+		"Max. MP +24": {
 			"en": "Max. MP +24",
 			"desc": {
 				"en": "Raises max. MP by 24.",
 				"fr": "Augmente les PM max. de 24 points."
 			}
 		},
-		"最大MPプラス３２": {
+		"Max. MP +32": {
 			"en": "Max. MP +32",
 			"desc": {
 				"en": "Raises max. MP by 32.",
 				"fr": "Augmente les PM max. de 32 points."
 			}
 		},
-		"最大MPプラス４０": {
+		"Max. MP +40": {
 			"en": "Max. MP +40",
 			"desc": {
 				"en": "Raises max. MP by 40.",
 				"fr": "Augmente les PM max. de 40 points."
 			}
 		},
-		"最大MPプラス４８": {
+		"Max. MP +48": {
 			"en": "Max. MP +48",
 			"desc": {
 				"en": "Raises max. MP by 48.",
 				"fr": "Augmente les PM max. de 48 points."
 			}
 		},
-		"最大MPプラス６０": {
+		"Max. MP +60": {
 			"en": "Max. MP +60",
 			"desc": {
 				"en": "Raises max. MP by 60.",
 				"fr": "Augmente les PM max. de 60 points."
 			}
 		},
-		"最大MPプラス７２": {
+		"Max. MP +72": {
 			"en": "Max. MP +72",
 			"desc": {
 				"en": "Raises max. MP by 72.",
 				"fr": "Augmente les PM max. de 72 points."
 			}
 		},
-		"最大MPプラス９６": {
+		"Max. MP +96": {
 			"en": "Max. MP +96",
 			"desc": {
 				"en": "Raises max. MP by 96.",
 				"fr": "Augmente les PM max. de 96 points."
 			}
 		},
-		"攻撃力プラス２": {
+		"Attack +2": {
 			"en": "Attack +2",
 			"desc": {
 				"en": "Raises attack by 2.",
 				"fr": "Augmente l'attaque de 2 points."
 			}
 		},
-		"攻撃力プラス４": {
+		"Attack +4": {
 			"en": "Attack +4",
 			"desc": {
 				"en": "Raises attack by 4.",
 				"fr": "Augmente l'attaque de 4 points."
 			}
 		},
-		"攻撃力プラス８": {
+		"Attack +8": {
 			"en": "Attack +8",
 			"desc": {
 				"en": "Raises attack by 8.",
 				"fr": "Augmente l'attaque de 8 points."
 			}
 		},
-		"攻撃力プラス１２": {
+		"Attack +12": {
 			"en": "Attack +12",
 			"desc": {
 				"en": "Raises attack by 12.",
 				"fr": "Augmente l'attaque de 12 points."
 			}
 		},
-		"攻撃力プラス１６": {
+		"Attack +16": {
 			"en": "Attack +16",
 			"desc": {
 				"en": "Raises attack by 16.",
 				"fr": "Augmente l'attaque de 16 points."
 			}
 		},
-		"攻撃力プラス２０": {
+		"Attack +20": {
 			"en": "Attack +20",
 			"desc": {
 				"en": "Raises attack by 20.",
 				"fr": "Augmente l'attaque de 20 points."
 			}
 		},
-		"攻撃力プラス２４": {
+		"Attack +24": {
 			"en": "Attack +24",
 			"desc": {
 				"en": "Raises attack by 24.",
 				"fr": "Augmente l'attaque de 24 points."
 			}
 		},
-		"攻撃力プラス３０": {
+		"Attack +30": {
 			"en": "Attack +30",
 			"desc": {
 				"en": "Raises attack by 30.",
 				"fr": "Augmente l'attaque de 30 points."
 			}
 		},
-		"攻撃力プラス３６": {
+		"Attack +36": {
 			"en": "Attack +36",
 			"desc": {
 				"en": "Raises attack by 36.",
 				"fr": "Augmente l'attaque de 36 points."
 			}
 		},
-		"攻撃力プラス４８": {
+		"Attack +48": {
 			"en": "Attack +48",
 			"desc": {
 				"en": "Raises attack by 48.",
 				"fr": "Augmente l'attaque de 48 points."
 			}
 		},
-		"守備力プラス４": {
+		"Defence +4": {
 			"en": "Defence +4",
 			"desc": {
 				"en": "Raises defence by 4.",
 				"fr": "Augmente la défense de 4 points."
 			}
 		},
-		"守備力プラス８": {
+		"Defence +8": {
 			"en": "Defence +8",
 			"desc": {
 				"en": "Raises defence by 8.",
 				"fr": "Augmente la défense de 8 points."
 			}
 		},
-		"守備力プラス１６": {
+		"Defence +16": {
 			"en": "Defence +16",
 			"desc": {
 				"en": "Raises defence by 16.",
 				"fr": "Augmente la défense de 16 points."
 			}
 		},
-		"守備力プラス２４": {
+		"Defence +24": {
 			"en": "Defence +24",
 			"desc": {
 				"en": "Raises defence by 24.",
 				"fr": "Augmente la défense de 24 points."
 			}
 		},
-		"守備力プラス３２": {
+		"Defence +32": {
 			"en": "Defence +32",
 			"desc": {
 				"en": "Raises defence by 32.",
 				"fr": "Augmente la défense de 32 points."
 			}
 		},
-		"守備力プラス４０": {
+		"Defence +40": {
 			"en": "Defence +40",
 			"desc": {
 				"en": "Raises defence by 40.",
 				"fr": "Augmente la défense de 40 points."
 			}
 		},
-		"守備力プラス４８": {
+		"Defence +48": {
 			"en": "Defence +48",
 			"desc": {
 				"en": "Raises defence by 48.",
 				"fr": "Augmente la défense de 48 points."
 			}
 		},
-		"守備力プラス６０": {
+		"Defence +60": {
 			"en": "Defence +60",
 			"desc": {
 				"en": "Raises defence by 60.",
 				"fr": "Augmente la défense de 60 points."
 			}
 		},
-		"守備力プラス７２": {
+		"Defence +72": {
 			"en": "Defence +72",
 			"desc": {
 				"en": "Raises defence by 72.",
 				"fr": "Augmente la défense de 72 points."
 			}
 		},
-		"守備力プラス９６": {
+		"Defence +96": {
 			"en": "Defence +96",
 			"desc": {
 				"en": "Raises defence by 96.",
 				"fr": "Augmente la défense de 96 points."
 			}
 		},
-		"すばやさプラス２": {
+		"Agility +2": {
 			"en": "Agility +2",
 			"desc": {
 				"en": "Raises agility by 2.",
 				"fr": "Augmente l'agilité de 2 points."
 			}
 		},
-		"すばやさプラス４": {
+		"Agility +4": {
 			"en": "Agility +4",
 			"desc": {
 				"en": "Raises agility by 4.",
 				"fr": "Augmente l'agilité de 4 points."
 			}
 		},
-		"すばやさプラス８": {
+		"Agility +8": {
 			"en": "Agility +8",
 			"desc": {
 				"en": "Raises agility by 8.",
 				"fr": "Augmente l'agilité de 8 points."
 			}
 		},
-		"すばやさプラス１２": {
+		"Agility +12": {
 			"en": "Agility +12",
 			"desc": {
 				"en": "Raises agility by 12.",
 				"fr": "Augmente l'agilité de 12 points."
 			}
 		},
-		"すばやさプラス１６": {
+		"Agility +16": {
 			"en": "Agility +16",
 			"desc": {
 				"en": "Raises agility by 16.",
 				"fr": "Augmente l'agilité de 16 points."
 			}
 		},
-		"すばやさプラス２０": {
+		"Agility +20": {
 			"en": "Agility +20",
 			"desc": {
 				"en": "Raises agility by 20.",
 				"fr": "Augmente l'agilité de 20 points."
 			}
 		},
-		"すばやさプラス２４": {
+		"Agility +24": {
 			"en": "Agility +24",
 			"desc": {
 				"en": "Raises agility by 24.",
 				"fr": "Augmente l'agilité de 24 points."
 			}
 		},
-		"すばやさプラス３０": {
+		"Agility +30": {
 			"en": "Agility +30",
 			"desc": {
 				"en": "Raises agility by 30.",
 				"fr": "Augmente l'agilité de 30 points."
 			}
 		},
-		"すばやさプラス３６": {
+		"Agility +36": {
 			"en": "Agility +36",
 			"desc": {
 				"en": "Raises agility by 36.",
 				"fr": "Augmente l'agilité de 36 points."
 			}
 		},
-		"すばやさプラス４８": {
+		"Agility +48": {
 			"en": "Agility +48",
 			"desc": {
 				"en": "Raises agility by 48.",
 				"fr": "Augmente l'agilité de 48 points."
 			}
 		},
-		"かしこさプラス４": {
+		"Wisdom +4": {
 			"en": "Wisdom +4",
 			"desc": {
 				"en": "Raises wisdom by 4.",
 				"fr": "Augmente la sagesse de 4 points."
 			}
 		},
-		"かしこさプラス８": {
+		"Wisdom +8": {
 			"en": "Wisdom +8",
 			"desc": {
 				"en": "Raises wisdom by 8.",
 				"fr": "Augmente la sagesse de 8 points."
 			}
 		},
-		"かしこさプラス１６": {
+		"Wisdom +16": {
 			"en": "Wisdom +16",
 			"desc": {
 				"en": "Raises wisdom by 16.",
 				"fr": "Augmente la sagesse de 16 points."
 			}
 		},
-		"かしこさプラス２４": {
+		"Wisdom +24": {
 			"en": "Wisdom +24",
 			"desc": {
 				"en": "Raises wisdom by 24.",
 				"fr": "Augmente la sagesse de 24 points."
 			}
 		},
-		"かしこさプラス３２": {
+		"Wisdom +32": {
 			"en": "Wisdom +32",
 			"desc": {
 				"en": "Raises wisdom by 32.",
 				"fr": "Augmente la sagesse de 32 points."
 			}
 		},
-		"かしこさプラス４０": {
+		"Wisdom +40": {
 			"en": "Wisdom +40",
 			"desc": {
 				"en": "Raises wisdom by 40.",
 				"fr": "Augmente la sagesse de 40 points."
 			}
 		},
-		"かしこさプラス４８": {
+		"Wisdom +48": {
 			"en": "Wisdom +48",
 			"desc": {
 				"en": "Raises wisdom by 48.",
 				"fr": "Augmente la sagesse de 48 points."
 			}
 		},
-		"かしこさプラス６０": {
+		"Wisdom +60": {
 			"en": "Wisdom +60",
 			"desc": {
 				"en": "Raises wisdom by 60.",
 				"fr": "Augmente la sagesse de 60 points."
 			}
 		},
-		"かしこさプラス７２": {
+		"Wisdom +72": {
 			"en": "Wisdom +72",
 			"desc": {
 				"en": "Raises wisdom by 72.",
 				"fr": "Augmente la sagesse de 72 points."
 			}
 		},
-		"かしこさプラス９６": {
+		"Wisdom +96": {
 			"en": "Wisdom +96",
 			"desc": {
 				"en": "Raises wisdom by 96.",
 				"fr": "Augmente la sagesse de 96 points."
 			}
 		},
-		"火ガード大": {
+		"Ultra Frizz Ward": {
 			"en": "Ultra Frizz Ward",
 			"desc": {
 				"en": "Greatly increases resistance to fire-elemental attacks.",
 				"fr": "Augmente grandement la résistance aux attaques de feu."
 			}
 		},
-		"水ガード大": {
+		"Ultra Splish Ward": {
 			"en": "Ultra Splish Ward",
 			"desc": {
 				"en": "Greatly increases resistance to water-elemental attacks.",
 				"fr": "Augmente grandement la résistance aux attaques d'eau."
 			}
 		},
-		"風ガード大": {
+		"Ultra Woosh Ward": {
 			"en": "Ultra Woosh Ward",
 			"desc": {
 				"en": "Greatly increases resistance to wind-elemental attacks.",
 				"fr": "Augmente grandement la résistance aux attaques de vent."
 			}
 		},
-		"地ガード大": {
+		"Ultra Crag Ward": {
 			"en": "Ultra Crag Ward",
 			"desc": {
 				"en": "Greatly increases resistance to earth-elemental attacks.",
 				"fr": "Augmente grandement la résistance aux attaques de terre."
 			}
 		},
-		"爆発ガード大": {
+		"Ultra Bang Ward": {
 			"en": "Ultra Bang Ward",
 			"desc": {
 				"en": "Greatly increases resistance to explosive attacks.",
 				"fr": "Augmente grandement la résistance aux attaques explosives."
 			}
 		},
-		"氷結ガード大": {
+		"Ultra Crack Ward": {
 			"en": "Ultra Crack Ward",
 			"desc": {
 				"en": "Greatly increases resistance to ice-elemental attacks.",
 				"fr": "Augmente grandement la résistance aux attaques de glace."
 			}
 		},
-		"電撃ガード大": {
+		"Ultra Zap Ward": {
 			"en": "Ultra Zap Ward",
 			"desc": {
 				"en": "Greatly increases resistance to electrical attacks.",
 				"fr": "Augmente grandement la résistance aux attaques de foudre."
 			}
 		},
-		"光ガード大": {
+		"Ultra Sizz Ward": {
 			"en": "Ultra Sizz Ward",
 			"desc": {
 				"en": "Greatly increases resistance to light-elemental attacks.",
 				"fr": "Augmente grandement la résistance aux attaques de lumière."
 			}
 		},
-		"闇ガード大": {
+		"Ultra Zam Ward": {
 			"en": "Ultra Zam Ward",
 			"desc": {
 				"en": "Greatly increases resistance to dark-elemental attacks.",
 				"fr": "Augmente grandement la résistance aux attaques de ténèbres."
 			}
 		},
-		"弱体化ガード大": {
+		"Ultra Tough Customer": {
 			"en": "Ultra Tough Customer",
 			"desc": {
 				"en": "Greatly increases resistance to debilitation.",
 				"fr": "Augmente grandement la résistance à l'affaiblissement."
 			}
 		},
-		"幻惑ガード大": {
+		"Ultra Visionary": {
 			"en": "Ultra Visionary",
 			"desc": {
 				"en": "Greatly increases resistance to bedazzlement.",
 				"fr": "Augmente grandement la résistance à l'éblouissement."
 			}
 		},
-		"封じガード大": {
+		"Ultra Spellbinder": {
 			"en": "Ultra Spellbinder",
 			"desc": {
 				"en": "Greatly increases resistance to antimagic.",
 				"fr": "Augmente grandement la résistance à l'empêchement."
 			}
 		},
-		"MP吸収ガード大": {
+		"Ultra Drain Blocker": {
 			"en": "Ultra Drain Blocker",
 			"desc": {
 				"en": "Greatly increases resistance to MP absorption.",
 				"fr": "Augmente grandement la résistance à l'aspirmagie."
 			}
 		},
-		"混乱ガード大": {
+		"Ultra Clear Thinker": {
 			"en": "Ultra Clear Thinker",
 			"desc": {
 				"en": "Greatly increases resistance to confusion.",
 				"fr": "Augmente grandement la résistance à la confusion."
 			}
 		},
-		"眠りガード大": {
+		"Ultra Insomniac": {
 			"en": "Ultra Insomniac",
 			"desc": {
 				"en": "Greatly increases resistance to being put to sleep.",
 				"fr": "Augmente grandement la résistance à l'endormissement."
 			}
 		},
-		"マヒガード大": {
+		"Ultra Fidget": {
 			"en": "Ultra Fidget",
 			"desc": {
 				"en": "Greatly increases resistance to paralysis.",
 				"fr": "Augmente grandement la résistance à la paralysie."
 			}
 		},
-		"休みガード大": {
+		"Ultra Granite Chin": {
 			"en": "Ultra Granite Chin",
 			"desc": {
 				"en": "Greatly increases resistance to being stunned.",
 				"fr": "Augmente grandement la résistance à l'étourdissement."
 			}
 		},
-		"毒ガード大": {
+		"Ultra Antitoxidant": {
 			"en": "Ultra Antitoxidant",
 			"desc": {
 				"en": "Greatly increases resistance to poison and severe poison.",
 				"fr": "Augmente grandement la résistance à l'empoisonnement et à l'empoisonnement sévère."
 			}
 		},
-		"即死ガード大": {
+		"Ultra Death Defier": {
 			"en": "Ultra Death Defier",
 			"desc": {
 				"en": "Greatly increases resistance to instant death.",
 				"fr": "Augmente grandement la résistance à la mort subite."
 			}
 		},
-		"怒りの泉": {
+		"Bubbling Rage": {
 			"en": "Bubbling Rage",
 			"desc": {
 				"en": "Sometimes raises the Rage Gauge during battle.",
@@ -1444,427 +1444,427 @@
 		}
 	},
 	"skills": {
-		"火の心": {
+		"Frizz Afficionado": {
 			"en": "Frizz Afficionado"
 		},
-		"火の極意": {
+		"Frizz Virtuoso": {
 			"en": "Frizz Virtuoso"
 		},
-		"水の心": {
+		"Splash Afficionado": {
 			"en": "Splash Afficionado"
 		},
-		"水の極意": {
+		"Splash Virtuoso": {
 			"en": "Splash Virtuoso"
 		},
-		"風の心": {
+		"Woosh Afficionado": {
 			"en": "Woosh Afficionado"
 		},
-		"風の極意": {
+		"Woosh Virtuoso": {
 			"en": "Woosh Virtuoso"
 		},
-		"地の心": {
+		"Crag Afficionado": {
 			"en": "Crag Afficionado"
 		},
-		"地の極意": {
+		"Crag Virtuoso": {
 			"en": "Crag Virtuoso"
 		},
-		"爆発の心": {
+		"Bang Afficionado": {
 			"en": "Bang Afficionado"
 		},
-		"爆発の極意": {
+		"Bang Virtuoso": {
 			"en": "Bang Virtuoso"
 		},
-		"氷結の心": {
+		"Crack Afficionado": {
 			"en": "Crack Afficionado"
 		},
-		"氷結の極意": {
+		"Crack Virtuoso": {
 			"en": "Crack Virtuoso"
 		},
-		"電撃の心": {
+		"Zap Afficionado": {
 			"en": "Zap Afficionado"
 		},
-		"電撃の極意": {
+		"Zap Virtuoso": {
 			"en": "Zap Virtuoso"
 		},
-		"光の心": {
+		"Sizz Afficionado": {
 			"en": "Sizz Afficionado"
 		},
-		"光の極意": {
+		"Sizz Virtuoso": {
 			"en": "Sizz Virtuoso"
 		},
-		"闇の心": {
+		"Zam Afficionado": {
 			"en": "Zam Afficionado"
 		},
-		"闇の極意": {
+		"Zam Virtuoso": {
 			"en": "Zam Virtuoso"
 		},
-		"火炎": {
+		"Blazer": {
 			"en": "Blazer"
 		},
-		"獄炎": {
+		"Smart Blazer": {
 			"en": "Smart Blazer"
 		},
-		"吹雪": {
+		"Chilly Receptionist": {
 			"en": "Chilly Receptionist"
 		},
-		"氷獄": {
+		"Frosty Receptionist": {
 			"en": "Frosty Receptionist"
 		},
-		"息吹": {
+		"Shallow Breather": {
 			"en": "Shallow Breather"
 		},
-		"ブレスマスター": {
+		"Deep Breather": {
 			"en": "Deep Breather"
 		},
-		"ダンサー": {
+		"Dancer": {
 			"en": "Dancer"
 		},
-		"エンターテイナー": {
+		"Choreographer": {
 			"en": "Choreographer"
 		},
-		"スラフォース": {
+		"Slimer": {
 			"en": "Slimer"
 		},
-		"ドラゴンソウル": {
+		"Dragonheart": {
 			"en": "Dragonheart"
 		},
-		"アンデッド": {
+		"Graveheart": {
 			"en": "Graveheart"
 		},
-		"むしのしらせ": {
+		"Hive Mind": {
 			"en": "Hive Mind"
 		},
-		"いしあたま": {
+		"Materialist": {
 			"en": "Materialist"
 		},
-		"けもの道": {
+		"Naturalist": {
 			"en": "Naturalist"
 		},
-		"悪魔のささやき": {
+		"Dark Artist": {
 			"en": "Dark Artist"
 		},
-		"つむじ風": {
+		"Blusterer": {
 			"en": "Blusterer"
 		},
-		"ナチュラル": {
+		"Nature Child": {
 			"en": "Nature Child"
 		},
-		"みずげい": {
+		"Aquapothecary": {
 			"en": "Aquapothecary"
 		},
-		"レッドソード": {
+		"Spicy Slasher": {
 			"en": "Spicy Slasher"
 		},
-		"ブルーソード": {
+		"Soggy Slasher": {
 			"en": "Soggy Slasher"
 		},
-		"グリーンソード": {
+		"Blowy Slasher": {
 			"en": "Blowy Slasher"
 		},
-		"イエローソード": {
+		"Stony Slasher": {
 			"en": "Stony Slasher"
 		},
-		"スリラー": {
+		"Thrill-Seeker": {
 			"en": "Thrill-Seeker"
 		},
-		"カース": {
+		"Hexcommunicator": {
 			"en": "Hexcommunicator"
 		},
-		"しんそく": {
+		"Speedster": {
 			"en": "Speedster"
 		},
-		"キューピット": {
+		"Cupid": {
 			"en": "Cupid"
 		},
-		"火遊び": {
+		"Roaster": {
 			"en": "Roaster"
 		},
-		"ヘドロ": {
+		"Mudmonger": {
 			"en": "Mudmonger"
 		},
-		"ちからもち": {
+		"Power Player": {
 			"en": "Power Player"
 		},
-		"あばれんぼう": {
+		"Wild Child": {
 			"en": "Wild Child"
 		},
-		"バンデッド": {
+		"Outlaw": {
 			"en": "Outlaw"
 		},
-		"ウォリアー": {
+		"Fighter": {
 			"en": "Fighter"
 		},
-		"魔術": {
+		"Magic Maven": {
 			"en": "Magic Maven"
 		},
-		"剣術": {
+		"Blade Maven": {
 			"en": "Blade Maven"
 		},
-		"騎士道": {
+		"Good Knight": {
 			"en": "Good Knight"
 		},
-		"ぬすっと": {
+		"Cutpurse": {
 			"en": "Cutpurse"
 		},
-		"スイート": {
+		"Sweet-Talker": {
 			"en": "Sweet-Talker"
 		},
-		"トロピカル": {
+		"Hottie": {
 			"en": "Hottie"
 		},
-		"ヌメヌメ": {
+		"Tongue Twister": {
 			"en": "Tongue Twister"
 		},
-		"アサシン": {
+		"Assassin": {
 			"en": "Assassin"
 		},
-		"巨漢": {
+		"Goliath": {
 			"en": "Goliath"
 		},
-		"じこぎせい": {
+		"Martyr": {
 			"en": "Martyr"
 		},
-		"いたずら": {
+		"Prankster": {
 			"en": "Prankster"
 		},
-		"プリンセス": {
+		"Princess": {
 			"en": "Princess"
 		},
-		"HP回復": {
+		"Healer": {
 			"en": "Healer"
 		},
-		"異常回復": {
+		"Paramedic": {
 			"en": "Paramedic"
 		},
-		"妖精": {
+		"Soothesayer": {
 			"en": "Soothesayer"
 		},
-		"睡魔": {
+		"Sleep Counsellor": {
 			"en": "Sleep Counsellor"
 		},
-		"毒舌": {
+		"Toxicologist": {
 			"en": "Toxicologist"
 		},
-		"パニック": {
+		"Alarmist": {
 			"en": "Alarmist"
 		},
-		"アッパー": {
+		"Fortifier": {
 			"en": "Fortifier"
 		},
-		"ダウナー": {
+		"Enfeebler": {
 			"en": "Enfeebler"
 		},
-		"サポーター": {
+		"Willing Helper": {
 			"en": "Willing Helper"
 		},
-		"アンチブレス": {
+		"Breath Taker": {
 			"en": "Breath Taker"
 		},
-		"アンチスペル": {
+		"Antimagician": {
 			"en": "Antimagician"
 		},
-		"ぼうぎょ": {
+		"Defender": {
 			"en": "Defender"
 		},
-		"てっぺき": {
+		"Barricade": {
 			"en": "Barricade"
 		},
-		"ジャマー": {
+		"Irritant": {
 			"en": "Irritant"
 		},
-		"トリッキー": {
+		"Vexologist": {
 			"en": "Vexologist"
 		},
-		"みわく": {
+		"Charmer": {
 			"en": "Charmer"
 		},
-		"あくしゅう": {
+		"Stinker": {
 			"en": "Stinker"
 		},
-		"ソーサラー": {
+		"Strong Speller": {
 			"en": "Strong Speller"
 		},
-		"わたぼう": {
+		"Fluffy": {
 			"en": "Fluffy"
 		},
-		"ワルぼう": {
+		"Scruffy": {
 			"en": "Scruffy"
 		},
-		"ピピぼう": {
+		"Fuzzy Thinker": {
 			"en": "Fuzzy Thinker"
 		},
-		"風炎の剣技": {
+		"Air Fryer": {
 			"en": "Air Fryer"
 		},
-		"風雷の剣技": {
+		"Storm Brewer": {
 			"en": "Storm Brewer"
 		},
-		"爆氷の剣技": {
+		"Freeze Popper": {
 			"en": "Freeze Popper"
 		},
-		"氷炎の剣技": {
+		"Freezer Burner": {
 			"en": "Freezer Burner"
 		},
-		"けんごうSP": {
+		"Hair Splitter": {
 			"en": "Hair Splitter"
 		},
-		"闇の爆炎SP": {
+		"Impactor": {
 			"en": "Impactor"
 		},
-		"聖なる吹雪SP": {
+		"Polariser": {
 			"en": "Polariser"
 		},
-		"グランスペルSP": {
+		"Perfect Speller": {
 			"en": "Perfect Speller"
 		},
-		"グランドブレスSP": {
+		"Blowhard": {
 			"en": "Blowhard"
 		},
-		"HPアップ１": {
+		"HP Booster I": {
 			"en": "HP Booster I"
 		},
-		"HPアップ２": {
+		"HP Booster II": {
 			"en": "HP Booster II"
 		},
-		"HPアップ３": {
+		"HP Booster III": {
 			"en": "HP Booster III"
 		},
-		"HPアップ４": {
+		"HP Booster IV": {
 			"en": "HP Booster IV"
 		},
-		"MPアップ１": {
+		"MP Booster I": {
 			"en": "MP Booster I"
 		},
-		"MPアップ２": {
+		"MP Booster II": {
 			"en": "MP Booster II"
 		},
-		"MPアップ３": {
+		"MP Booster III": {
 			"en": "MP Booster III"
 		},
-		"MPアップ４": {
+		"MP Booster IV": {
 			"en": "MP Booster IV"
 		},
-		"攻撃力アップ１": {
+		"Attack Booster I": {
 			"en": "Attack Booster I"
 		},
-		"攻撃力アップ２": {
+		"Attack Booster II": {
 			"en": "Attack Booster II"
 		},
-		"攻撃力アップ３": {
+		"Attack Booster III": {
 			"en": "Attack Booster III"
 		},
-		"攻撃力アップ４": {
+		"Attack Booster IV": {
 			"en": "Attack Booster IV"
 		},
-		"守備力アップ１": {
+		"Defence Booster I": {
 			"en": "Defence Booster I"
 		},
-		"守備力アップ２": {
+		"Defence Booster II": {
 			"en": "Defence Booster II"
 		},
-		"守備力アップ３": {
+		"Defence Booster III": {
 			"en": "Defence Booster III"
 		},
-		"守備力アップ４": {
+		"Defence Booster IV": {
 			"en": "Defence Booster IV"
 		},
-		"すばやさアップ１": {
+		"Agility Booster I": {
 			"en": "Agility Booster I"
 		},
-		"すばやさアップ２": {
+		"Agility Booster II": {
 			"en": "Agility Booster II"
 		},
-		"すばやさアップ３": {
+		"Agility Booster III": {
 			"en": "Agility Booster III"
 		},
-		"すばやさアップ４": {
+		"Agility Booster IV": {
 			"en": "Agility Booster IV"
 		},
-		"かしこさアップ１": {
+		"Wisdom Booster I": {
 			"en": "Wisdom Booster I"
 		},
-		"かしこさアップ２": {
+		"Wisdom Booster II": {
 			"en": "Wisdom Booster II"
 		},
-		"かしこさアップ３": {
+		"Wisdom Booster III": {
 			"en": "Wisdom Booster III"
 		},
-		"かしこさアップ４": {
+		"Wisdom Booster IV": {
 			"en": "Wisdom Booster IV"
 		},
-		"火ガード": {
+		"Frizz Ward": {
 			"en": "Frizz Ward"
 		},
-		"水ガード": {
+		"Splish Ward": {
 			"en": "Splish Ward"
 		},
-		"風ガード": {
+		"Woosh Ward": {
 			"en": "Woosh Ward"
 		},
-		"地ガード": {
+		"Crag Ward": {
 			"en": "Crag Ward"
 		},
-		"爆発ガード": {
+		"Bang Ward": {
 			"en": "Bang Ward"
 		},
-		"氷結ガード": {
+		"Crack Ward": {
 			"en": "Crack Ward"
 		},
-		"電撃ガード": {
+		"Zap Ward": {
 			"en": "Zap Ward"
 		},
-		"光ガード": {
+		"Sizz Ward": {
 			"en": "Sizz Ward"
 		},
-		"闇ガード": {
+		"Zam Ward": {
 			"en": "Zam Ward"
 		},
-		"弱体化ガード": {
+		"Debilitation Ducker": {
 			"en": "Debilitation Ducker"
 		},
-		"幻惑ガード": {
+		"Bedazzlement Blocker": {
 			"en": "Bedazzlement Blocker"
 		},
-		"封じガード": {
+		"Antimagic Avoider": {
 			"en": "Antimagic Avoider"
 		},
-		"MP吸収ガード": {
+		"Drain Dodger": {
 			"en": "Drain Dodger"
 		},
-		"毒ガード": {
+		"Poison Preventer": {
 			"en": "Poison Preventer"
 		},
-		"休みガード": {
+		"Stun Stopper": {
 			"en": "Stun Stopper"
 		},
-		"眠りガード": {
+		"Sleep Suppressor": {
 			"en": "Sleep Suppressor"
 		},
-		"混乱ガード": {
+		"Confusion Controller": {
 			"en": "Confusion Controller"
 		},
-		"マヒガード": {
+		"Paralysis Protector": {
 			"en": "Paralysis Protector"
 		},
-		"即死ガード": {
+		"Death Defier": {
 			"en": "Death Defier"
 		},
-		"溶岩ガードSP": {
+		"Magma Shield": {
 			"en": "Magma Shield"
 		},
-		"流氷ガードSP": {
+		"Glacier Shield": {
 			"en": "Glacier Shield"
 		},
-		"爆風ガードSP": {
+		"Cyclone Shield": {
 			"en": "Cyclone Shield"
 		},
-		"白黒ガードSP": {
+		"Chiaroscuro Shield": {
 			"en": "Chiaroscuro Shield"
 		},
-		"衝撃ガードSP": {
+		"Tremor Shield": {
 			"en": "Tremor Shield"
 		},
-		"稲妻ガードSP": {
+		"Fulgurite Shield": {
 			"en": "Fulgurite Shield"
 		}
 	}

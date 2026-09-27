@@ -16,6 +16,7 @@ export interface DetailsContextValue {
 	spawns: GameSpawns;
 	talents: GameTalents;
 	hasDetails: boolean;
+	hasSkills: boolean;
 	hasSpawns: boolean;
 }
 
@@ -37,5 +38,6 @@ export const DetailsContext = createContext<DetailsContextValue>({
 	spawns: {},
 	talents: emptyTalents,
 	hasDetails: false,
+	hasSkills: false,
 	hasSpawns: false,
 });

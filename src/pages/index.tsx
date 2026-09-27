@@ -179,10 +179,21 @@ const PageLines: React.FC<Props> = props => {
 		clearReserve,
 	} = useReserve(game.key);
 	const hasDetails = !!Object.keys(details).length;
+	const hasSkills = Object.values(details).some(monster => !!monster.skill);
 	const hasSpawns = !!Object.keys(spawns).length;
 	const detailsValue = useMemo(
-		() => ({ details, terms, farewell, items, spawns, talents, hasDetails, hasSpawns }),
-		[details, terms, farewell, items, spawns, talents, hasDetails, hasSpawns]
+		() => ({
+			details,
+			terms,
+			farewell,
+			items,
+			spawns,
+			talents,
+			hasDetails,
+			hasSkills,
+			hasSpawns,
+		}),
+		[details, terms, farewell, items, spawns, talents, hasDetails, hasSkills, hasSpawns]
 	);
 
 	// Flat, ordered view of the current families after family/rank filters, plus
@@ -516,7 +527,7 @@ const FamilySection = ({
 }) => {
 	const { translateUI } = useTranslate();
 	const { selectedFamily, selectedRank } = useContext(FiltersContext);
-	const { hasDetails, hasSpawns } = useContext(DetailsContext);
+	const { hasSkills, hasSpawns } = useContext(DetailsContext);
 	const headerRef = useCallback(
 		(el: HTMLHeadingElement | null) => onHeader(family, el),
 		[family, onHeader]
@@ -568,7 +579,7 @@ const FamilySection = ({
 								<th className="cell-details" />
 								<th className="cell-family">{translateUI('Family')}</th>
 								<th className="cell-rank">{translateUI('Rank')}</th>
-								{hasDetails && (
+								{hasSkills && (
 									<th className="cell-skill">
 										{translateUI('Skill set')}
 									</th>
@@ -615,8 +626,8 @@ const RankSection = ({
 	const [ref, visible] = useIsVisible();
 
 	const { translateUI } = useTranslate();
-	const { hasDetails, hasSpawns } = useContext(DetailsContext);
-	const columns = 6 + (hasDetails ? 1 : 0) + (hasSpawns ? 1 : 0);
+	const { hasSkills, hasSpawns } = useContext(DetailsContext);
+	const columns = 6 + (hasSkills ? 1 : 0) + (hasSpawns ? 1 : 0);
 	const hashId = `${family}-${rank}`;
 	return (
 		<tbody ref={ref as any} className="rank-group">

@@ -14,7 +14,7 @@ const MonsterRowLoading = ({
 	hash?: string;
 	id?: string;
 }) => {
-	const { hasDetails, hasSpawns } = useContext(DetailsContext);
+	const { hasSkills, hasSpawns } = useContext(DetailsContext);
 	if (!monster) return null;
 	return (
 		<tr
@@ -42,7 +42,7 @@ const MonsterRowLoading = ({
 			<td className="cell-rank">
 				<Rank name={monster.rank} />
 			</td>
-			{hasDetails && (
+			{hasSkills && (
 				<td className="cell-skill">
 					<Skeleton size={16} width={80} />
 				</td>

@@ -6,7 +6,7 @@ export interface MonsterDrop {
 
 export interface MonsterTrait {
 	name: string;
-	level: number;
+	level?: number;
 	large?: boolean;
 }
 
@@ -21,7 +21,7 @@ export interface MonsterStats {
 
 export interface MonsterDetails {
 	size?: string;
-	egg: boolean;
+	egg?: boolean;
 	eggColor?: string;
 	stats?: MonsterStats;
 	resistances?: { [key: string]: number };

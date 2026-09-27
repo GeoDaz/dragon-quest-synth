@@ -79,15 +79,11 @@ const MonsterDetailsModal: React.FC<Props> = ({
 }) => {
 	const { isFr, translateUI, translateTrait } = useTranslate();
 	const localised = (entry?: Localised) => (isFr && entry?.fr) || entry?.en;
-	const named = (japanese: string, table: GameTerms['traits']) => {
-		const term = table[japanese];
-		const name = term?.en && translateTrait(term.en);
+	const named = (name: string, table: GameTerms['traits']) => {
+		const term = table[name];
 		return (
-			<Described
-				text={localised(term?.desc)}
-				className={name ? undefined : 'details-jp'}
-			>
-				{name || japanese}
+			<Described text={localised(term?.desc)}>
+				{translateTrait(term?.en || name)}
 			</Described>
 		);
 	};
@@ -181,16 +177,18 @@ const MonsterDetailsModal: React.FC<Props> = ({
 										</div>
 									</li>
 								)}
-								<li>
-									<span>{translateUI('Egg')}</span>
-									<b>
-										{details.eggColor ?
-											translateUI(details.eggColor)
-										: details.egg ?
-											translateUI('Yes')
-										:	translateUI('No')}
-									</b>
-								</li>
+								{(details.egg !== undefined || !!details.eggColor) && (
+									<li>
+										<span>{translateUI('Egg')}</span>
+										<b>
+											{details.eggColor ?
+												translateUI(details.eggColor)
+											: details.egg ?
+												translateUI('Yes')
+											:	translateUI('No')}
+										</b>
+									</li>
+								)}
 								{/* {details.drops?.map(drop => (
 									<li key={drop.item}>
 										<span>
@@ -206,7 +204,7 @@ const MonsterDetailsModal: React.FC<Props> = ({
 						</section>
 
 						<TraitsTable
-							size="S"
+							size={largeTraits.length ? 'S' : ''}
 							rows={smallTraits}
 							terms={terms}
 							named={named}
@@ -286,7 +284,7 @@ const TraitsTable = ({
 	size: string;
 	rows: MonsterTrait[];
 	terms: GameTerms;
-	named: (japanese: string, table: GameTerms['traits']) => React.ReactNode;
+	named: (name: string, table: GameTerms['traits']) => React.ReactNode;
 	heading: string;
 	level: string;
 }) => {
@@ -300,9 +298,11 @@ const TraitsTable = ({
 				<tbody>
 					{rows.map((trait, i) => (
 						<tr key={`${trait.name}-${i}`}>
-							<th scope="row">
-								{level} {trait.level}
-							</th>
+							{trait.level !== undefined && (
+								<th scope="row">
+									{level} {trait.level}
+								</th>
+							)}
 							<TraitCell names={[trait.name]} terms={terms} named={named} />
 						</tr>
 					))}
@@ -319,7 +319,7 @@ const TraitCell = ({
 }: {
 	names: string[];
 	terms: GameTerms;
-	named: (japanese: string, table: GameTerms['traits']) => React.ReactNode;
+	named: (name: string, table: GameTerms['traits']) => React.ReactNode;
 }) => {
 	if (!names.length) return <td className="cell-empty">&mdash;</td>;
 	return (
