@@ -246,7 +246,7 @@ const PageLines: React.FC<Props> = props => {
 		return undefined;
 	}, [hash, filtered]);
 
-	const scrolledNavRef = useRef<number>();
+	const scrolledNavRef = useRef<number | undefined>(undefined);
 	useEffect(() => {
 		if (!hash || filtered.total === 0 || scrolledNavRef.current === nav) return;
 		const idx =

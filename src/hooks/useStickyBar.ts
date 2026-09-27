@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 const HEADER_VAR = '--dl-header-height';
 const BAR_VAR = '--dl-filters-height';
 
-const useStickyBar = (barRef: React.RefObject<HTMLElement>) => {
+const useStickyBar = (barRef: React.RefObject<HTMLElement | null>) => {
 	useEffect(() => {
 		const bar = barRef.current;
 		if (!bar || typeof ResizeObserver === 'undefined') return;

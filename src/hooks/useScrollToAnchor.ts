@@ -7,7 +7,7 @@ const DRIFT_TOLERANCE = 1;
 const documentTop = (el: HTMLElement) => el.getBoundingClientRect().top + window.scrollY;
 
 const useScrollToAnchor = () => {
-	const cancelRef = useRef<() => void>();
+	const cancelRef = useRef<(() => void) | undefined>(undefined);
 
 	const cancel = () => cancelRef.current?.();
 
