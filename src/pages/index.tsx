@@ -137,6 +137,8 @@ export const gameTalents = (game: string, details: MonstersDetails): GameTalents
 	}
 };
 
+const ALWAYS_OPEN_BELOW = 10;
+
 const PageLines: React.FC<Props> = props => {
 	const {
 		images,
@@ -230,7 +232,20 @@ const PageLines: React.FC<Props> = props => {
 		return result;
 	}, [filtered]);
 	const familyKeys = useMemo(() => Object.keys(listFamilies), [listFamilies]);
-	const accordion = useFamilyAccordion(familyKeys);
+	const isSmallFamily = (family: string) =>
+		familyKeys.length > 1 && filtered.familyTotals[family] < ALWAYS_OPEN_BELOW;
+	const accordionKeys = useMemo(
+		() =>
+			familyKeys.filter(
+				family =>
+					familyKeys.length === 1 ||
+					filtered.familyTotals[family] >= ALWAYS_OPEN_BELOW
+			),
+		[familyKeys, filtered]
+	);
+	const accordion = useFamilyAccordion(accordionKeys);
+	const isFamilyOpen = (family: string) =>
+		isSmallFamily(family) || accordion.open === family;
 
 	const hashFamily = useMemo(() => {
 		if (!hash) return undefined;
@@ -253,7 +268,7 @@ const PageLines: React.FC<Props> = props => {
 			filtered.monsterIndex[hash] ??
 			filtered.rankStart[hash] ??
 			filtered.familyStart[hash];
-		if (idx !== undefined && hashFamily && accordion.open !== hashFamily) {
+		if (idx !== undefined && hashFamily && !isFamilyOpen(hashFamily)) {
 			accordion.openFamily(hashFamily);
 			return;
 		}
@@ -436,8 +451,10 @@ const PageLines: React.FC<Props> = props => {
 														ranks={ranks}
 														count={filtered.familyTotals[family]}
 														hash={hash}
-														open={accordion.open === family}
-														collapsible={familyKeys.length > 1}
+														open={isFamilyOpen(family)}
+														collapsible={
+															accordionKeys.length > 1 && !isSmallFamily(family)
+														}
 														onToggle={accordion.toggle}
 														onHeader={accordion.registerHeader}
 													/>
@@ -530,7 +547,7 @@ const FamilySection = ({
 					aria-expanded={open}
 					aria-controls={panelId}
 					aria-disabled={!collapsible || undefined}
-					onClick={() => onToggle(family)}
+					onClick={() => collapsible && onToggle(family)}
 				>
 					<Family name={family} big />
 					<span className="family-name">{translateUI(family)}</span>
