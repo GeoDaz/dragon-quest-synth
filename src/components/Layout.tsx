@@ -19,7 +19,7 @@ const Layout: React.FC<Props> = ({
 	children,
 	metatitle,
 	metadescription,
-	metaimg = 'og_image.png',
+	metaimg = 'site.png',
 	noGoBack = false,
 	className,
 }) => {
@@ -43,6 +43,8 @@ const Layout: React.FC<Props> = ({
 					content={metadescription || 'List of Dragon Quest Synthesis'}
 				/>
 				<meta property="og:image" content={`${SITE_URL}/images/${metaimg}`} />
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:image" content={`${SITE_URL}/images/${metaimg}`} />
 			</Head>
 			<main>
 				<Container className={makeClassName('page', className)} fluid>
