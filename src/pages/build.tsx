@@ -27,7 +27,7 @@ interface Props {
 	search: Search;
 }
 const PageBuild: React.FC<Props> = ({ images = {}, search }) => {
-	const [line, dispatchState] = useReducer(lineReducer, defaultLine);
+	const [line, dispatchState] = useReducer<Line, [Record<string, any>]>(lineReducer, defaultLine);
 	const setLine = (line: Line) => dispatchState(setLineAction(line));
 	const { setItemToStorage } = useLocalStorage('line', line, setLine);
 	const [zoom, setZoom] = useState<number>(100);
