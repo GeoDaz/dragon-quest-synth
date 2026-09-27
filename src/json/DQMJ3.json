@@ -4888,6 +4888,24 @@
 				"version": "Pro"
 			},
 			{
+				"name": "Camothrust",
+				"rank": "X",
+				"family": "???",
+				"synthesis": []
+			},
+			{
+				"name": "Regiwing",
+				"rank": "X",
+				"family": "???",
+				"synthesis": []
+			},
+			{
+				"name": "Regimarine",
+				"rank": "X",
+				"family": "???",
+				"synthesis": []
+			},
+			{
 				"name": "Great Nochoro",
 				"rank": "X",
 				"family": "???",
@@ -4906,25 +4924,6 @@
 				"synthesis": []
 			},
 			{
-				"name": "Camothrust",
-				"rank": "X",
-				"family": "???",
-				"synthesis": []
-			},
-			{
-				"name": "J3P Axel Gold",
-				"rank": "X",
-				"family": "???",
-				"synthesis": [],
-				"version": "Pro"
-			},
-			{
-				"name": "Regiwing",
-				"rank": "X",
-				"family": "???",
-				"synthesis": []
-			},
-			{
 				"name": "J3P-Gold Wing",
 				"rank": "X",
 				"family": "???",
@@ -4932,10 +4931,11 @@
 				"version": "Pro"
 			},
 			{
-				"name": "Regimarine",
+				"name": "J3P Axel Gold",
 				"rank": "X",
 				"family": "???",
-				"synthesis": []
+				"synthesis": [],
+				"version": "Pro"
 			},
 			{
 				"name": "J3P-Gold Marin",
@@ -4957,19 +4957,19 @@
 				"synthesis": [["Malroth", "Zoma"]]
 			},
 			{
+				"name": "Cobrara",
+				"rank": "X",
+				"family": "???",
+				"synthesis": [],
+				"version": "Pro"
+			},
+			{
 				"name": "Fractos",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
 					["Rigor Mortex Evolved Forme", "Cobrara", "Zeldorade", "Evil Estark"]
 				],
-				"version": "Pro"
-			},
-			{
-				"name": "Cobrara",
-				"rank": "X",
-				"family": "???",
-				"synthesis": [],
 				"version": "Pro"
 			},
 			{
