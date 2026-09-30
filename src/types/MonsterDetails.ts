@@ -8,6 +8,8 @@ export interface MonsterTrait {
 	name: string;
 	level?: number;
 	large?: boolean;
+	plus?: number;
+	tier?: string;
 }
 
 export interface MonsterStats {

@@ -1,0 +1,2888 @@
+{
+	"Slime": [
+		{
+			"area": "Departure Gate"
+		},
+		{
+			"area": "Hesitation Gate"
+		}
+	],
+	"Weedie": [
+		{
+			"area": "Departure Gate (Golden Land)"
+		}
+	],
+	"Buddy Slime": [
+		{
+			"area": "Fondness Gate"
+		},
+		{
+			"area": "Courage Gate"
+		},
+		{
+			"area": "Grudge Gate"
+		}
+	],
+	"Bubble Slime": [
+		{
+			"area": "Giant Gate"
+		},
+		{
+			"area": "Illusion Gate"
+		}
+	],
+	"Healslime": [
+		{
+			"area": "Departure Gate (Boss)"
+		}
+	],
+	"Wing Slime": [
+		{
+			"area": "Ruins Gate"
+		},
+		{
+			"area": "Temptation Gate"
+		},
+		{
+			"area": "Grudge Gate"
+		}
+	],
+	"Drake Slime": [
+		{
+			"area": "Grudge Gate"
+		}
+	],
+	"Wild Slime": [
+		{
+			"area": "Calming Gate (Boss)"
+		}
+	],
+	"Eggsoskeleton": [
+		{
+			"area": "Strength Gate"
+		}
+	],
+	"Fright Bulb": [
+		{
+			"area": "Longing Gate"
+		}
+	],
+	"Shell Slime": [
+		{
+			"area": "Smiles Gate"
+		}
+	],
+	"Mottle Slime": [
+		{
+			"area": "Strength Gate"
+		},
+		{
+			"area": "Grudge Gate"
+		}
+	],
+	"Snail Slime": [
+		{
+			"area": "Judgment Gate"
+		}
+	],
+	"Bite Bulb": [
+		{
+			"area": "Anger Gate (Golden Land)"
+		}
+	],
+	"Slime Knight": [
+		{
+			"area": "Anger Gate"
+		}
+	],
+	"Rubble Slime": [
+		{
+			"area": "Departure Gate"
+		},
+		{
+			"area": "Hesitation Gate"
+		}
+	],
+	"Box Slime": [
+		{
+			"area": "Reflection Gate"
+		}
+	],
+	"Angel Slime": [
+		{
+			"area": "Judgment Gate"
+		},
+		{
+			"area": "Reflection Gate"
+		},
+		{
+			"area": "Grudge Gate"
+		}
+	],
+	"Behemoth Slime": [
+		{
+			"area": "Far Gate"
+		}
+	],
+	"Armoured Wartoise": [
+		{
+			"area": "Joy Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Rotten Eggsoskeleton": [
+		{
+			"area": "Judgment Gate (Golden Land)"
+		}
+	],
+	"Mottle King Slime": [
+		{
+			"area": "Smiles Gate"
+		},
+		{
+			"area": "Hope Gate"
+		}
+	],
+	"Slabbit": [
+		{
+			"area": "Giant Gate"
+		}
+	],
+	"Metal Slime Knight": [
+		{
+			"area": "Reflection Gate"
+		},
+		{
+			"area": "Grudge Gate"
+		}
+	],
+	"Beshemoth Slime": [
+		{
+			"area": "Trial Gate"
+		},
+		{
+			"area": "Far Gate"
+		},
+		{
+			"area": "Giant Gate (Golden Land)"
+		}
+	],
+	"Dragon Slime": [
+		{
+			"area": "Trial Gate"
+		},
+		{
+			"area": "Far Gate"
+		}
+	],
+	"King Slime": [
+		{
+			"area": "Departure Gate (Golden Land, Boss)"
+		}
+	],
+	"Slime Stack": [
+		{
+			"area": "Strength Gate (Golden Land)"
+		}
+	],
+	"Cyber Slime": [
+		{
+			"area": "Grudge Gate"
+		}
+	],
+	"Sprite Bulb": [
+		{
+			"area": "Joy Gate (Golden Land)"
+		}
+	],
+	"Liquid Metal Slime": [
+		{
+			"area": "Strength Gate"
+		},
+		{
+			"area": "Giant Gate"
+		},
+		{
+			"area": "Joy Gate"
+		},
+		{
+			"area": "Sky Gate"
+		},
+		{
+			"area": "Ruins Gate"
+		},
+		{
+			"area": "Smiles Gate"
+		},
+		{
+			"area": "Temptation Gate"
+		},
+		{
+			"area": "Judgment Gate"
+		},
+		{
+			"area": "Reflection Gate"
+		},
+		{
+			"area": "Gale Gate"
+		},
+		{
+			"area": "Storm Gate"
+		},
+		{
+			"area": "Gaia Gate"
+		},
+		{
+			"area": "Sea Gate"
+		},
+		{
+			"area": "Flame Gate"
+		},
+		{
+			"area": "Eternal Night Gate"
+		},
+		{
+			"area": "Truth Gate"
+		},
+		{
+			"area": "Trial Gate"
+		}
+	],
+	"Magic Slime": [
+		{
+			"area": "Judgment Gate"
+		},
+		{
+			"area": "Grudge Gate"
+		}
+	],
+	"Dark Slime": [
+		{
+			"area": "Trial Gate"
+		},
+		{
+			"area": "Grudge Gate"
+		}
+	],
+	"Seedy Weedie": [
+		{
+			"area": "Hope Gate"
+		}
+	],
+	"Dark Slime Knight": [
+		{
+			"area": "Grudge Gate"
+		}
+	],
+	"King Cureslime": [
+		{
+			"area": "Trial Gate"
+		}
+	],
+	"Runny Eggsoskeleton": [
+		{
+			"area": "Truth Gate (Golden Land)"
+		}
+	],
+	"Slime Gang": [
+		{
+			"area": "Joy Gate (Golden Land, Boss)"
+		}
+	],
+	"King Bubble Slime": [
+		{
+			"area": "Far Gate"
+		},
+		{
+			"area": "Grudge Gate"
+		},
+		{
+			"area": "Hope Gate"
+		}
+	],
+	"Slider Kids": [
+		{
+			"area": "Fondness Gate (Golden Land)"
+		}
+	],
+	"Metal King Slime": [
+		{
+			"area": "Hope Gate"
+		}
+	],
+	"Wight Bulb": [
+		{
+			"area": "Departure Gate (Golden Land)"
+		}
+	],
+	"Hard-Boiled Eggsoskeleton": [
+		{
+			"area": "Anger Gate (Golden Land)"
+		}
+	],
+	"Schleiman Tank": [
+		{
+			"area": "Sky Gate (Golden Land, Boss)"
+		}
+	],
+	"Canzar": [
+		{
+			"area": "Calming Gate (Golden Land, Boss)"
+		}
+	],
+	"Diamond Slime": [
+		{
+			"area": "Smiles Gate (Golden Land, Boss)"
+		}
+	],
+	"Small Fry": [
+		{
+			"area": "Protection Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Komodo": [
+		{
+			"area": "Hesitation Gate"
+		},
+		{
+			"area": "Illusion Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Frou-Fry": [
+		{
+			"area": "Calming Gate"
+		},
+		{
+			"area": "Disorientation Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Crested Viper": [
+		{
+			"area": "Longing Gate"
+		},
+		{
+			"area": "Protection Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Dragonthorn": [
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Argon Lizard": [
+		{
+			"area": "Truth Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Jargon": [
+		{
+			"area": "Strength Gate"
+		},
+		{
+			"area": "Joy Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Dragonfry": [
+		{
+			"area": "Strength Gate"
+		},
+		{
+			"area": "Joy Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Killer Gila": [
+		{
+			"area": "Hesitation Gate"
+		},
+		{
+			"area": "Illusion Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Boreal Serpent": [
+		{
+			"area": "Longing Gate"
+		}
+	],
+	"Nardragon": [
+		{
+			"area": "Joy Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Snapdragon": [
+		{
+			"area": "Smiles Gate"
+		}
+	],
+	"Drag Racer": [
+		{
+			"area": "Illusion Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Green Dragon": [
+		{
+			"area": "Longing Gate (Boss)"
+		}
+	],
+	"Damselfly": [
+		{
+			"area": "Smiles Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Biguana": [
+		{
+			"area": "Anger Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Flython": [
+		{
+			"area": "Strength Gate"
+		}
+	],
+	"Skelegon": [
+		{
+			"area": "Calming Gate"
+		}
+	],
+	"Dragurn": [
+		{
+			"area": "Departure Gate"
+		}
+	],
+	"Gasbagon": [
+		{
+			"area": "Ruins Gate"
+		},
+		{
+			"area": "Smiles Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Drackal": [
+		{
+			"area": "Temptation Gate"
+		}
+	],
+	"Professaurus": [
+		{
+			"area": "Temptation Gate"
+		}
+	],
+	"Seasaur": [
+		{
+			"area": "Illusion Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Quayhorse": [
+		{
+			"area": "Far Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Terrordactyl": [
+		{
+			"area": "Anger Gate"
+		},
+		{
+			"area": "Sky Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Cobra King": [
+		{
+			"area": "Reflection Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Pteranodon": [
+		{
+			"area": "Departure Gate (Golden Land)"
+		}
+	],
+	"Drakularge": [
+		{
+			"area": "Ruins Gate"
+		},
+		{
+			"area": "Smiles Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Wyrtle": [
+		{
+			"area": "Smiles Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Hacksaurus": [
+		{
+			"area": "Anger Gate (Boss)"
+		}
+	],
+	"Sluggernaut": [
+		{
+			"area": "Gaia Gate"
+		},
+		{
+			"area": "Grudge Gate"
+		}
+	],
+	"Sea Dragon": [
+		{
+			"area": "Illusion Gate"
+		}
+	],
+	"Noble Gasbagon": [
+		{
+			"area": "Judgment Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Metal Dragon": [
+		{
+			"area": "Temptation Gate"
+		},
+		{
+			"area": "Storm Gate"
+		}
+	],
+	"Drag-Goof": [
+		{
+			"area": "Gale Gate"
+		}
+	],
+	"Stabosaur": [
+		{
+			"area": "Gale Gate (Golden Land)"
+		}
+	],
+	"Tortoceratops": [
+		{
+			"area": "Judgment Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Wyvern": [
+		{
+			"area": "Far Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Weighvern": [
+		{
+			"area": "Reflection Gate"
+		},
+		{
+			"area": "Flame Gate"
+		}
+	],
+	"Tantamount": [
+		{
+			"area": "Reflection Gate"
+		}
+	],
+	"Mandrake Marshal": [
+		{
+			"area": "Temptation Gate"
+		}
+	],
+	"Evangelizard": [
+		{
+			"area": "Calming Gate (Golden Land)"
+		}
+	],
+	"Great Argon Lizard": [
+		{
+			"area": "Flame Gate"
+		}
+	],
+	"Tyrantosaurus": [
+		{
+			"area": "Gaia Gate"
+		}
+	],
+	"Ethereal Serpent": [
+		{
+			"area": "Sky Gate (Boss)"
+		}
+	],
+	"Frou-Frou": [
+		{
+			"area": "Gaia Gate"
+		},
+		{
+			"area": "Sea Gate"
+		}
+	],
+	"Abyss Diver": [
+		{
+			"area": "Sea Gate"
+		}
+	],
+	"Dragon Rider": [
+		{
+			"area": "Reflection Gate"
+		}
+	],
+	"Raptile": [
+		{
+			"area": "Reflection Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Triwinder": [
+		{
+			"area": "Sea Gate"
+		}
+	],
+	"Kleptoreptile": [
+		{
+			"area": "Temptation Gate (Golden Land)"
+		}
+	],
+	"Rashaverak": [
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Sintaur": [
+		{
+			"area": "Flame Gate"
+		}
+	],
+	"Riptide": [
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Great Dragon": [
+		{
+			"area": "Flame Gate"
+		}
+	],
+	"Mechan-O'-Wyrm": [
+		{
+			"area": "Hope Gate"
+		}
+	],
+	"Black Dragon": [
+		{
+			"area": "Eternal Night Gate"
+		}
+	],
+	"Drakulard": [
+		{
+			"area": "Flame Gate"
+		},
+		{
+			"area": "Eternal Night Gate"
+		},
+		{
+			"area": "Longing Gate (Golden Land, Boss)"
+		}
+	],
+	"Orochi": [
+		{
+			"area": "Far Gate (Boss)"
+		}
+	],
+	"Flapdragon": [
+		{
+			"area": "Anger Gate (Golden Land, Boss)"
+		}
+	],
+	"Alabast Dragon": [
+		{
+			"area": "Flame Gate"
+		}
+	],
+	"Dragonlord": [
+		{
+			"area": "Temptation Gate (Golden Land, Boss)"
+		}
+	],
+	"Rugius": [
+		{
+			"area": "Flame Gate (Boss)"
+		}
+	],
+	"Wyrmhole Dragon": [
+		{
+			"area": "Far Gate (Golden Land, Boss)"
+		}
+	],
+	"Platypunk": [
+		{
+			"area": "Departure Gate (Golden Land)"
+		}
+	],
+	"Mischievous Mole": [
+		{
+			"area": "Ruins Gate"
+		}
+	],
+	"Antguzzler": [
+		{
+			"area": "Departure Gate"
+		}
+	],
+	"Feralball": [
+		{
+			"area": "Longing Gate"
+		},
+		{
+			"area": "Protection Gate"
+		}
+	],
+	"Hammerhood": [
+		{
+			"area": "Courage Gate"
+		},
+		{
+			"area": "Calming Gate"
+		}
+	],
+	"Boppin' Badger": [
+		{
+			"area": "Grudge Gate"
+		}
+	],
+	"Frogface": [
+		{
+			"area": "Disorientation Gate"
+		}
+	],
+	"Vampire Cat": [
+		{
+			"area": "Disorientation Gate"
+		}
+	],
+	"Guaardvark": [
+		{
+			"area": "Disorientation Gate"
+		},
+		{
+			"area": "Anger Gate"
+		}
+	],
+	"Needler": [
+		{
+			"area": "Courage Gate"
+		}
+	],
+	"Great Sabrecub": [
+		{
+			"area": "Fondness Gate"
+		}
+	],
+	"Chainine": [
+		{
+			"area": "Giant Gate"
+		},
+		{
+			"area": "Illusion Gate"
+		}
+	],
+	"Ursa Major": [
+		{
+			"area": "Joy Gate"
+		}
+	],
+	"Night Emperor": [
+		{
+			"area": "Strength Gate"
+		},
+		{
+			"area": "Joy Gate"
+		},
+		{
+			"area": "Grudge Gate"
+		}
+	],
+	"Sea Dog": [
+		{
+			"area": "Illusion Gate (Golden Land)"
+		}
+	],
+	"Spiked Hare": [
+		{
+			"area": "Giant Gate"
+		}
+	],
+	"Fencing Fox": [
+		{
+			"area": "Hesitation Gate"
+		}
+	],
+	"Cross Eye": [
+		{
+			"area": "Courage Gate (Boss)"
+		}
+	],
+	"Orc": [
+		{
+			"area": "Ruins Gate"
+		},
+		{
+			"area": "Smiles Gate"
+		},
+		{
+			"area": "Plot Gate"
+		}
+	],
+	"Weartiger": [
+		{
+			"area": "Illusion Gate"
+		}
+	],
+	"Battering Ram": [
+		{
+			"area": "Hesitation Gate (Boss)"
+		}
+	],
+	"Growlbear": [
+		{
+			"area": "Judgment Gate"
+		}
+	],
+	"Bewarewolf": [
+		{
+			"area": "Disorientation Gate (Golden Land)"
+		}
+	],
+	"Whackanape": [
+		{
+			"area": "Trial Gate"
+		}
+	],
+	"Mortoad": [
+		{
+			"area": "Strength Gate"
+		}
+	],
+	"Tuskateer": [
+		{
+			"area": "Far Gate"
+		}
+	],
+	"Great Sabrecat": [
+		{
+			"area": "Fondness Gate (Boss)"
+		}
+	],
+	"Trigertaur": [
+		{
+			"area": "Sky Gate"
+		}
+	],
+	"Gargoyle": [
+		{
+			"area": "Ruins Gate"
+		},
+		{
+			"area": "Trial Gate"
+		}
+	],
+	"Meowgician": [
+		{
+			"area": "Judgment Gate"
+		},
+		{
+			"area": "Reflection Gate"
+		},
+		{
+			"area": "Grudge Gate"
+		}
+	],
+	"Rhinoceraxe": [
+		{
+			"area": "Smiles Gate"
+		}
+	],
+	"Octagoon": [
+		{
+			"area": "Giant Gate"
+		},
+		{
+			"area": "Eternal Night Gate"
+		}
+	],
+	"Merman": [
+		{
+			"area": "Smiles Gate (Golden Land)"
+		}
+	],
+	"Jumping Jackal": [
+		{
+			"area": "Far Gate"
+		},
+		{
+			"area": "Grudge Gate"
+		}
+	],
+	"Half Hog": [
+		{
+			"area": "Longing Gate (Golden Land)"
+		}
+	],
+	"Notso Macho": [
+		{
+			"area": "Grudge Gate"
+		}
+	],
+	"Pine Needler": [
+		{
+			"area": "Sealed Gate (Golden Land)"
+		}
+	],
+	"Gorerilla": [
+		{
+			"area": "Reflection Gate"
+		}
+	],
+	"Rampage": [
+		{
+			"area": "Grudge Gate"
+		}
+	],
+	"Cockateer": [
+		{
+			"area": "Grudge Gate"
+		}
+	],
+	"Maniacal Mole": [
+		{
+			"area": "Truth Gate"
+		}
+	],
+	"Pink Sanguini": [
+		{
+			"area": "Trial Gate (Boss)"
+		}
+	],
+	"Missing Lynx": [
+		{
+			"area": "Judgment Gate"
+		},
+		{
+			"area": "Truth Gate"
+		}
+	],
+	"Ginormoose": [
+		{
+			"area": "Sky Gate (Golden Land)"
+		}
+	],
+	"Gastank": [
+		{
+			"area": "Trial Gate"
+		}
+	],
+	"Eyevory Tusk-Tusk": [
+		{
+			"area": "Trial Gate"
+		}
+	],
+	"Tigergram": [
+		{
+			"area": "Grudge Gate"
+		}
+	],
+	"Bjorn The Behemoose": [
+		{
+			"area": "Strength Gate"
+		}
+	],
+	"Buffalogre": [
+		{
+			"area": "Far Gate"
+		}
+	],
+	"Thwarthog": [
+		{
+			"area": "Eternal Night Gate"
+		}
+	],
+	"Alphyn": [
+		{
+			"area": "Flame Gate"
+		}
+	],
+	"Mohawker": [
+		{
+			"area": "Gaia Gate"
+		}
+	],
+	"Taurix": [
+		{
+			"area": "Grudge Gate"
+		}
+	],
+	"Electric Needler": [
+		{
+			"area": "Courage Gate (Golden Land)"
+		}
+	],
+	"Marquis De Léon": [
+		{
+			"area": "Fondness Gate (Golden Land, Boss)"
+		}
+	],
+	"Night Clubber": [
+		{
+			"area": "Eternal Night Gate"
+		}
+	],
+	"Mossferatu": [
+		{
+			"area": "Courage Gate (Golden Land, Boss)"
+		}
+	],
+	"Hellsguard Veera": [
+		{
+			"area": "Gaia Gate (Boss)"
+		}
+	],
+	"Cruelcumber": [
+		{
+			"area": "Longing Gate"
+		},
+		{
+			"area": "Hesitation Gate"
+		},
+		{
+			"area": "Plot Gate"
+		}
+	],
+	"Swarmtroop": [
+		{
+			"area": "Longing Gate"
+		}
+	],
+	"Capsichum": [
+		{
+			"area": "Protection Gate"
+		},
+		{
+			"area": "Fondness Gate"
+		}
+	],
+	"Bludgerigar": [
+		{
+			"area": "Departure Gate"
+		},
+		{
+			"area": "Hesitation Gate"
+		}
+	],
+	"Killerpillar": [
+		{
+			"area": "Departure Gate (Golden Land)"
+		}
+	],
+	"Army Ant": [
+		{
+			"area": "Protection Gate"
+		},
+		{
+			"area": "Fondness Gate"
+		}
+	],
+	"Kingfuschia": [
+		{
+			"area": "Trial Gate"
+		},
+		{
+			"area": "Far Gate"
+		}
+	],
+	"Walking Stick": [
+		{
+			"area": "Hesitation Gate"
+		}
+	],
+	"Bagworm": [
+		{
+			"area": "Longing Gate (Golden Land)"
+		}
+	],
+	"Woebergine": [
+		{
+			"area": "Departure Gate"
+		}
+	],
+	"Bantamweight": [
+		{
+			"area": "Disorientation Gate"
+		}
+	],
+	"Midnight Horknight": [
+		{
+			"area": "Disorientation Gate"
+		}
+	],
+	"Bullfinch": [
+		{
+			"area": "Smiles Gate"
+		},
+		{
+			"area": "Plot Gate"
+		}
+	],
+	"Leafy Larrikin": [
+		{
+			"area": "Courage Gate"
+		},
+		{
+			"area": "Grudge Gate"
+		}
+	],
+	"Mental Pitcher": [
+		{
+			"area": "Reflection Gate (Golden Land)"
+		}
+	],
+	"Cactiball": [
+		{
+			"area": "Temptation Gate (Golden Land)"
+		}
+	],
+	"Ornery Onion": [
+		{
+			"area": "Ruins Gate"
+		}
+	],
+	"Mad Mollusk": [
+		{
+			"area": "Far Gate"
+		},
+		{
+			"area": "Hope Gate"
+		}
+	],
+	"Cyclown": [
+		{
+			"area": "Temptation Gate"
+		}
+	],
+	"Batterfly": [
+		{
+			"area": "Truth Gate"
+		}
+	],
+	"Mousenap": [
+		{
+			"area": "Hesitation Gate"
+		},
+		{
+			"area": "Illusion Gate"
+		}
+	],
+	"Chimaera": [
+		{
+			"area": "Judgment Gate"
+		}
+	],
+	"Boring Bug": [
+		{
+			"area": "Hesitation Gate (Golden Land)"
+		}
+	],
+	"Rockin' Rockhopper": [
+		{
+			"area": "Joy Gate"
+		}
+	],
+	"Beanie Meanie": [
+		{
+			"area": "Temptation Gate"
+		},
+		{
+			"area": "Judgment Gate"
+		}
+	],
+	"Crabid": [
+		{
+			"area": "Judgment Gate"
+		}
+	],
+	"Eveel": [
+		{
+			"area": "Smiles Gate"
+		}
+	],
+	"Khalamari": [
+		{
+			"area": "Plot Gate"
+		}
+	],
+	"Dangler Fish": [
+		{
+			"area": "Plot Gate"
+		}
+	],
+	"Horknight": [
+		{
+			"area": "Disorientation Gate (Golden Land)"
+		}
+	],
+	"Hades Condor": [
+		{
+			"area": "Sky Gate"
+		},
+		{
+			"area": "Storm Gate"
+		}
+	],
+	"Crested Loon": [
+		{
+			"area": "Fondness Gate (Golden Land)"
+		}
+	],
+	"Treeface": [
+		{
+			"area": "Disorientation Gate (Boss)"
+		}
+	],
+	"WeedBug": [
+		{
+			"area": "Trial Gate"
+		},
+		{
+			"area": "Plot Gate"
+		}
+	],
+	"Barracuda": [
+		{
+			"area": "Plot Gate"
+		}
+	],
+	"Flame Flower": [
+		{
+			"area": "Reflection Gate"
+		}
+	],
+	"Yabby": [
+		{
+			"area": "Plot Gate"
+		}
+	],
+	"Quack Up": [
+		{
+			"area": "Ruins Gate"
+		},
+		{
+			"area": "Temptation Gate"
+		}
+	],
+	"Funky Chicken": [
+		{
+			"area": "Joy Gate (Boss)"
+		}
+	],
+	"Snowbird": [
+		{
+			"area": "Judgment Gate"
+		}
+	],
+	"Firebird": [
+		{
+			"area": "Flame Gate"
+		},
+		{
+			"area": "Far Gate"
+		}
+	],
+	"Beetleboy": [
+		{
+			"area": "Gaia Gate"
+		}
+	],
+	"Compos Mantis": [
+		{
+			"area": "Plot Gate"
+		}
+	],
+	"Deadly Dodo": [
+		{
+			"area": "Far Gate"
+		}
+	],
+	"Carnivine": [
+		{
+			"area": "Hope Gate"
+		}
+	],
+	"Wormonger": [
+		{
+			"area": "Giant Gate"
+		},
+		{
+			"area": "Smiles Gate"
+		}
+	],
+	"Palooka Prawn": [
+		{
+			"area": "Truth Gate (Boss)"
+		}
+	],
+	"Hell Hornet": [
+		{
+			"area": "Hope Gate"
+		}
+	],
+	"Giant Moth": [
+		{
+			"area": "Storm Gate"
+		},
+		{
+			"area": "Gaia Gate"
+		}
+	],
+	"Sentripede": [
+		{
+			"area": "Far Gate"
+		},
+		{
+			"area": "Hope Gate"
+		}
+	],
+	"Honeyhead Horknight": [
+		{
+			"area": "Ruins Gate (Golden Land)"
+		}
+	],
+	"Chewlip": [
+		{
+			"area": "Hope Gate"
+		}
+	],
+	"Wooper Trooper": [
+		{
+			"area": "Sea Gate"
+		}
+	],
+	"Garuda": [
+		{
+			"area": "Plot Gate"
+		}
+	],
+	"Horknight Watchman": [
+		{
+			"area": "Protection Gate (Golden Land)"
+		}
+	],
+	"Lleviathan": [
+		{
+			"area": "Sea Gate"
+		}
+	],
+	"Empyrea": [
+		{
+			"area": "Ruins Gate"
+		},
+		{
+			"area": "Storm Gate"
+		}
+	],
+	"Gripevine": [
+		{
+			"area": "Disorientation Gate (Golden Land, Boss)"
+		}
+	],
+	"HornBeet": [
+		{
+			"area": "Storm Gate"
+		}
+	],
+	"Armoured Scorpion": [
+		{
+			"area": "Eternal Night Gate"
+		}
+	],
+	"Hogeira": [
+		{
+			"area": "Storm Gate (Boss)"
+		}
+	],
+	"Wax Murderer": [
+		{
+			"area": "Departure Gate"
+		},
+		{
+			"area": "Longing Gate"
+		},
+		{
+			"area": "Plot Gate"
+		}
+	],
+	"Bag O' Laughs": [
+		{
+			"area": "Protection Gate"
+		},
+		{
+			"area": "Fondness Gate"
+		}
+	],
+	"Mud Mannequin": [
+		{
+			"area": "Fondness Gate"
+		},
+		{
+			"area": "Courage Gate"
+		},
+		{
+			"area": "Plot Gate"
+		}
+	],
+	"CoilBird": [
+		{
+			"area": "Truth Gate"
+		},
+		{
+			"area": "Trial Gate"
+		}
+	],
+	"Ticking Timeburrm": [
+		{
+			"area": "Disorientation Gate"
+		}
+	],
+	"Spitnik": [
+		{
+			"area": "Truth Gate"
+		}
+	],
+	"Cheeky Tiki": [
+		{
+			"area": "Anger Gate"
+		}
+	],
+	"Muddy Hand": [
+		{
+			"area": "Calming Gate"
+		},
+		{
+			"area": "Disorientation Gate"
+		}
+	],
+	"Pocus Poppet": [
+		{
+			"area": "Ruins Gate"
+		}
+	],
+	"Rockbomb": [
+		{
+			"area": "Illusion Gate"
+		}
+	],
+	"Dancing Flame": [
+		{
+			"area": "Sky Gate"
+		}
+	],
+	"Mudraker": [
+		{
+			"area": "Joy Gate"
+		},
+		{
+			"area": "Sky Gate"
+		},
+		{
+			"area": "Plot Gate"
+		}
+	],
+	"Dingaling": [
+		{
+			"area": "Sky Gate"
+		}
+	],
+	"Goodybag": [
+		{
+			"area": "Fondness Gate"
+		}
+	],
+	"Urnexpected": [
+		{
+			"area": "Longing Gate"
+		},
+		{
+			"area": "Anger Gate"
+		},
+		{
+			"area": "Strength Gate"
+		},
+		{
+			"area": "Giant Gate"
+		},
+		{
+			"area": "Sky Gate"
+		},
+		{
+			"area": "Ruins Gate"
+		},
+		{
+			"area": "Smiles Gate"
+		},
+		{
+			"area": "Temptation Gate"
+		},
+		{
+			"area": "Reflection Gate"
+		},
+		{
+			"area": "Gale Gate"
+		},
+		{
+			"area": "Gaia Gate"
+		},
+		{
+			"area": "Illusion Gate"
+		},
+		{
+			"area": "Truth Gate"
+		},
+		{
+			"area": "Trial Gate"
+		},
+		{
+			"area": "Far Gate"
+		},
+		{
+			"area": "Grudge Gate"
+		},
+		{
+			"area": "Sealed Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Cannibox": [
+		{
+			"area": "Anger Gate"
+		},
+		{
+			"area": "Strength Gate"
+		},
+		{
+			"area": "Giant Gate"
+		},
+		{
+			"area": "Joy Gate"
+		},
+		{
+			"area": "Sky Gate"
+		},
+		{
+			"area": "Smiles Gate"
+		},
+		{
+			"area": "Illusion Gate"
+		},
+		{
+			"area": "Truth Gate"
+		}
+	],
+	"Shadow": [
+		{
+			"area": "Calming Gate"
+		},
+		{
+			"area": "Plot Gate"
+		}
+	],
+	"Chariot Chappie": [
+		{
+			"area": "Disorientation Gate"
+		}
+	],
+	"Gold Golem": [
+		{
+			"area": "Disorientation Gate"
+		}
+	],
+	"Cumaulus": [
+		{
+			"area": "Trial Gate"
+		},
+		{
+			"area": "Far Gate"
+		}
+	],
+	"Mecha-Mynah": [
+		{
+			"area": "Giant Gate"
+		},
+		{
+			"area": "Truth Gate"
+		}
+	],
+	"Foo Dog": [
+		{
+			"area": "Anger Gate"
+		}
+	],
+	"Moai Minstrel": [
+		{
+			"area": "Gaia Gate"
+		}
+	],
+	"Golem": [
+		{
+			"area": "Protection Gate (Boss)"
+		}
+	],
+	"Erazor Blade": [
+		{
+			"area": "Grudge Gate (Golden Land)"
+		}
+	],
+	"Puppeteer": [
+		{
+			"area": "Judgment Gate"
+		}
+	],
+	"Harmour": [
+		{
+			"area": "Strength Gate"
+		},
+		{
+			"area": "Plot Gate"
+		}
+	],
+	"Metal Heavy": [
+		{
+			"area": "Gale Gate"
+		}
+	],
+	"Bag O' Tricks": [
+		{
+			"area": "Fondness Gate"
+		},
+		{
+			"area": "Courage Gate"
+		},
+		{
+			"area": "Calming Gate"
+		},
+		{
+			"area": "Disorientation Gate"
+		},
+		{
+			"area": "Anger Gate"
+		},
+		{
+			"area": "Strength Gate"
+		},
+		{
+			"area": "Giant Gate"
+		},
+		{
+			"area": "Joy Gate"
+		},
+		{
+			"area": "Sky Gate"
+		},
+		{
+			"area": "Ruins Gate"
+		},
+		{
+			"area": "Smiles Gate"
+		},
+		{
+			"area": "Temptation Gate"
+		},
+		{
+			"area": "Judgment Gate"
+		},
+		{
+			"area": "Reflection Gate"
+		},
+		{
+			"area": "Hesitation Gate"
+		},
+		{
+			"area": "Illusion Gate"
+		},
+		{
+			"area": "Truth Gate"
+		},
+		{
+			"area": "Trial Gate"
+		},
+		{
+			"area": "Far Gate"
+		}
+	],
+	"Well Wisher": [
+		{
+			"area": "Strength Gate"
+		},
+		{
+			"area": "Giant Gate"
+		},
+		{
+			"area": "Joy Gate"
+		},
+		{
+			"area": "Sky Gate"
+		},
+		{
+			"area": "Ruins Gate"
+		},
+		{
+			"area": "Smiles Gate"
+		},
+		{
+			"area": "Temptation Gate"
+		},
+		{
+			"area": "Judgment Gate"
+		},
+		{
+			"area": "Reflection Gate"
+		},
+		{
+			"area": "Gale Gate"
+		},
+		{
+			"area": "Storm Gate"
+		},
+		{
+			"area": "Gaia Gate"
+		},
+		{
+			"area": "Sea Gate"
+		},
+		{
+			"area": "Flame Gate"
+		},
+		{
+			"area": "Eternal Night Gate"
+		},
+		{
+			"area": "Hesitation Gate"
+		},
+		{
+			"area": "Illusion Gate"
+		}
+	],
+	"Wraithwand": [
+		{
+			"area": "Trial Gate"
+		},
+		{
+			"area": "Far Gate"
+		},
+		{
+			"area": "Plot Gate"
+		}
+	],
+	"Malevolamp": [
+		{
+			"area": "Far Gate"
+		},
+		{
+			"area": "Plot Gate"
+		}
+	],
+	"Cumulus Rex": [
+		{
+			"area": "Judgment Gate"
+		},
+		{
+			"area": "Storm Gate"
+		}
+	],
+	"Devil Glass": [
+		{
+			"area": "Far Gate"
+		},
+		{
+			"area": "Plot Gate"
+		}
+	],
+	"Great Muddy Hand": [
+		{
+			"area": "Sky Gate"
+		}
+	],
+	"Scytheborg": [
+		{
+			"area": "Eternal Night Gate"
+		}
+	],
+	"AmberWeed": [
+		{
+			"area": "Plot Gate"
+		}
+	],
+	"Magmalice": [
+		{
+			"area": "Smiles Gate"
+		},
+		{
+			"area": "Temptation Gate"
+		}
+	],
+	"Automaton": [
+		{
+			"area": "Gale Gate"
+		}
+	],
+	"Mimic": [
+		{
+			"area": "Ruins Gate"
+		},
+		{
+			"area": "Temptation Gate"
+		},
+		{
+			"area": "Judgment Gate"
+		},
+		{
+			"area": "Reflection Gate"
+		},
+		{
+			"area": "Gale Gate"
+		},
+		{
+			"area": "Storm Gate"
+		},
+		{
+			"area": "Gaia Gate"
+		},
+		{
+			"area": "Sea Gate"
+		},
+		{
+			"area": "Flame Gate"
+		},
+		{
+			"area": "Eternal Night Gate"
+		},
+		{
+			"area": "Trial Gate"
+		},
+		{
+			"area": "Far Gate"
+		},
+		{
+			"area": "Grudge Gate"
+		},
+		{
+			"area": "Plot Gate"
+		},
+		{
+			"area": "Sealed Gate"
+		},
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Lethal Armour": [
+		{
+			"area": "Flame Gate"
+		}
+	],
+	"Flamethrower": [
+		{
+			"area": "Truth Gate"
+		},
+		{
+			"area": "Grudge Gate"
+		}
+	],
+	"Blizzybody": [
+		{
+			"area": "Sea Gate"
+		}
+	],
+	"Killing Machine": [
+		{
+			"area": "Flame Gate"
+		},
+		{
+			"area": "Eternal Night Gate"
+		}
+	],
+	"Jum": [
+		{
+			"area": "Far Gate"
+		},
+		{
+			"area": "Plot Gate"
+		}
+	],
+	"Boe": [
+		{
+			"area": "Far Gate"
+		}
+	],
+	"Mum": [
+		{
+			"area": "Gaia Gate"
+		},
+		{
+			"area": "Sea Gate"
+		}
+	],
+	"Boh": [
+		{
+			"area": "Eternal Night Gate"
+		}
+	],
+	"Terracotta Warrior": [
+		{
+			"area": "Eternal Night Gate"
+		}
+	],
+	"Stormsgate Citadel": [
+		{
+			"area": "Hesitation Gate (Golden Land, Boss)"
+		}
+	],
+	"DarkCrystal": [
+		{
+			"area": "Sea Gate"
+		}
+	],
+	"Balhib": [
+		{
+			"area": "Protection Gate (Golden Land, Boss)"
+		}
+	],
+	"Trauminator": [
+		{
+			"area": "Hope Gate"
+		}
+	],
+	"AU-1000": [
+		{
+			"area": "Ruins Gate (Golden Land, Boss)"
+		}
+	],
+	"Schwarzman Tank": [
+		{
+			"area": "Strength Gate (Golden Land, Boss)"
+		}
+	],
+	"Realm Of The Mighty": [
+		{
+			"area": "Illusion Gate (Golden Land, Boss)"
+		}
+	],
+	"Winky": [
+		{
+			"area": "Anger Gate"
+		},
+		{
+			"area": "Strength Gate"
+		},
+		{
+			"area": "Sealed Gate"
+		}
+	],
+	"Dracky": [
+		{
+			"area": "Departure Gate"
+		},
+		{
+			"area": "Longing Gate"
+		}
+	],
+	"Lips": [
+		{
+			"area": "Sealed Gate"
+		}
+	],
+	"Satyr": [
+		{
+			"area": "Disorientation Gate"
+		}
+	],
+	"Tree Feller": [
+		{
+			"area": "Trial Gate"
+		},
+		{
+			"area": "Hope Gate"
+		}
+	],
+	"Lunatick": [
+		{
+			"area": "Strength Gate"
+		}
+	],
+	"Conklave": [
+		{
+			"area": "Illusion Gate"
+		}
+	],
+	"Heedoo Voodoo": [
+		{
+			"area": "Sky Gate"
+		}
+	],
+	"Pan Piper": [
+		{
+			"area": "Truth Gate"
+		},
+		{
+			"area": "Trial Gate"
+		}
+	],
+	"Axecutioner": [
+		{
+			"area": "Departure Gate"
+		},
+		{
+			"area": "Hesitation Gate"
+		}
+	],
+	"Headhunter": [
+		{
+			"area": "Disorientation Gate"
+		},
+		{
+			"area": "Anger Gate"
+		},
+		{
+			"area": "Sealed Gate"
+		}
+	],
+	"Lump Wizard": [
+		{
+			"area": "Fondness Gate"
+		}
+	],
+	"Swingin' Hipster": [
+		{
+			"area": "Calming Gate"
+		},
+		{
+			"area": "Sealed Gate"
+		}
+	],
+	"Imp": [
+		{
+			"area": "Giant Gate"
+		},
+		{
+			"area": "Truth Gate"
+		}
+	],
+	"Gremlin": [
+		{
+			"area": "Far Gate"
+		}
+	],
+	"Gruffon": [
+		{
+			"area": "Temptation Gate"
+		},
+		{
+			"area": "Judgment Gate"
+		}
+	],
+	"Dancing Devil": [
+		{
+			"area": "Giant Gate"
+		}
+	],
+	"Lesser Demon": [
+		{
+			"area": "Truth Gate"
+		}
+	],
+	"Jinkster": [
+		{
+			"area": "Ruins Gate"
+		},
+		{
+			"area": "Temptation Gate"
+		}
+	],
+	"Dessert Demon": [
+		{
+			"area": "Temptation Gate"
+		},
+		{
+			"area": "Sealed Gate"
+		}
+	],
+	"Madusa": [
+		{
+			"area": "Anger Gate"
+		},
+		{
+			"area": "Temptation Gate"
+		}
+	],
+	"Silvapithecus": [
+		{
+			"area": "Temptation Gate"
+		}
+	],
+	"Wrecktor": [
+		{
+			"area": "Truth Gate"
+		}
+	],
+	"Prickly Prankster": [
+		{
+			"area": "Grudge Gate (Golden Land)"
+		}
+	],
+	"Bodkin Archer": [
+		{
+			"area": "Temptation Gate"
+		},
+		{
+			"area": "Judgment Gate"
+		}
+	],
+	"Flying Flayer": [
+		{
+			"area": "Sky Gate"
+		},
+		{
+			"area": "Sealed Gate"
+		}
+	],
+	"Peeper": [
+		{
+			"area": "Reflection Gate (Golden Land)"
+		}
+	],
+	"Succubat": [
+		{
+			"area": "Sky Gate"
+		}
+	],
+	"Beastmaster": [
+		{
+			"area": "Giant Gate"
+		},
+		{
+			"area": "Truth Gate"
+		},
+		{
+			"area": "Sealed Gate"
+		}
+	],
+	"Quadrahead": [
+		{
+			"area": "Strength Gate (Boss)"
+		}
+	],
+	"Sculptrice": [
+		{
+			"area": "Strength Gate (Golden Land)"
+		}
+	],
+	"Great Dracky": [
+		{
+			"area": "Smiles Gate"
+		},
+		{
+			"area": "Temptation Gate"
+		}
+	],
+	"Octavian Sentry": [
+		{
+			"area": "Sea Gate"
+		}
+	],
+	"Gryphon": [
+		{
+			"area": "Ruins Gate"
+		}
+	],
+	"Grim Keeper": [
+		{
+			"area": "Truth Gate"
+		},
+		{
+			"area": "Trial Gate"
+		}
+	],
+	"Kotobukino": [
+		{
+			"area": "Reflection Gate"
+		},
+		{
+			"area": "Gale Gate"
+		}
+	],
+	"Captain Catastrophe": [
+		{
+			"area": "Far Gate"
+		},
+		{
+			"area": "Sealed Gate"
+		}
+	],
+	"Fallen Priest": [
+		{
+			"area": "Reflection Gate"
+		}
+	],
+	"Fruity Succubat": [
+		{
+			"area": "Sky Gate (Golden Land)"
+		}
+	],
+	"Togrus Maximus": [
+		{
+			"area": "Sleep Gate"
+		}
+	],
+	"Juggular": [
+		{
+			"area": "Judgment Gate"
+		}
+	],
+	"Samigina": [
+		{
+			"area": "Flame Gate"
+		},
+		{
+			"area": "Eternal Night Gate"
+		}
+	],
+	"Gigantes": [
+		{
+			"area": "Giant Gate (Boss)"
+		}
+	],
+	"Boss Troll": [
+		{
+			"area": "Truth Gate"
+		}
+	],
+	"Ogre": [
+		{
+			"area": "Truth Gate"
+		}
+	],
+	"Knight Aberrant": [
+		{
+			"area": "Ruins Gate (Boss)"
+		}
+	],
+	"Jamirus": [
+		{
+			"area": "Smiles Gate (Boss)"
+		}
+	],
+	"Archdemon": [
+		{
+			"area": "Eternal Night Gate"
+		}
+	],
+	"High Djinks": [
+		{
+			"area": "Trial Gate"
+		},
+		{
+			"area": "Far Gate"
+		},
+		{
+			"area": "Sealed Gate"
+		}
+	],
+	"Vampire Succubat": [
+		{
+			"area": "Trial Gate (Golden Land)"
+		}
+	],
+	"Aggrosculpture": [
+		{
+			"area": "Far Gate"
+		}
+	],
+	"Demon-At-Arms": [
+		{
+			"area": "Temptation Gate (Boss)"
+		}
+	],
+	"Hyperanemon": [
+		{
+			"area": "Storm Gate"
+		}
+	],
+	"Mortella": [
+		{
+			"area": "Smiles Gate"
+		}
+	],
+	"Dhuran": [
+		{
+			"area": "Reflection Gate (Boss)"
+		}
+	],
+	"Supreme Succubat": [
+		{
+			"area": "Calming Gate (Golden Land)"
+		}
+	],
+	"Atlas": [
+		{
+			"area": "Eternal Night Gate"
+		}
+	],
+	"Blackmar": [
+		{
+			"area": "Judgment Gate (Boss)"
+		}
+	],
+	"Tyrannosaura Wrecks": [
+		{
+			"area": "Judgment Gate (Golden Land)"
+		}
+	],
+	"Argo": [
+		{
+			"area": "Sea Gate (Boss)"
+		}
+	],
+	"Nokturnus": [
+		{
+			"area": "Reflection Gate (Golden Land, Boss)"
+		}
+	],
+	"Firespirit": [
+		{
+			"area": "Anger Gate"
+		},
+		{
+			"area": "Strength Gate"
+		}
+	],
+	"Ghost": [
+		{
+			"area": "Joy Gate"
+		}
+	],
+	"Stump Chump": [
+		{
+			"area": "Fondness Gate"
+		},
+		{
+			"area": "Courage Gate"
+		},
+		{
+			"area": "Disorientation Gate"
+		}
+	],
+	"EvilSeed": [
+		{
+			"area": "Courage Gate"
+		}
+	],
+	"Funghoul": [
+		{
+			"area": "Joy Gate"
+		}
+	],
+	"Putrefido": [
+		{
+			"area": "Disorientation Gate"
+		},
+		{
+			"area": "Strength Gate"
+		}
+	],
+	"Drohl Drone": [
+		{
+			"area": "Joy Gate"
+		}
+	],
+	"Drooling Ghoul": [
+		{
+			"area": "Truth Gate"
+		}
+	],
+	"Mummy Boy": [
+		{
+			"area": "Joy Gate (Golden Land)"
+		}
+	],
+	"MistyWing": [
+		{
+			"area": "Protection Gate"
+		},
+		{
+			"area": "Courage Gate"
+		},
+		{
+			"area": "Sealed Gate"
+		}
+	],
+	"RotRaven": [
+		{
+			"area": "Temptation Gate"
+		}
+	],
+	"Demonrider": [
+		{
+			"area": "Courage Gate"
+		}
+	],
+	"Marrow Escapee": [
+		{
+			"area": "Courage Gate"
+		},
+		{
+			"area": "Disorientation Gate"
+		},
+		{
+			"area": "Sealed Gate"
+		}
+	],
+	"Skipper": [
+		{
+			"area": "Strength Gate"
+		},
+		{
+			"area": "Joy Gate"
+		}
+	],
+	"Hellhound": [
+		{
+			"area": "Temptation Gate"
+		},
+		{
+			"area": "Sealed Gate"
+		}
+	],
+	"Mudslinger": [
+		{
+			"area": "Temptation Gate"
+		}
+	],
+	"Flyguy": [
+		{
+			"area": "Reflection Gate"
+		}
+	],
+	"Blooming Sorcerer": [
+		{
+			"area": "Giant Gate"
+		}
+	],
+	"Discombombulator": [
+		{
+			"area": "Sky Gate"
+		},
+		{
+			"area": "Smiles Gate"
+		}
+	],
+	"Hyper Heyedra": [
+		{
+			"area": "Hesitation Gate (Golden Land)"
+		}
+	],
+	"Monolog": [
+		{
+			"area": "Judgment Gate"
+		},
+		{
+			"area": "Reflection Gate"
+		}
+	],
+	"Haystack Needler": [
+		{
+			"area": "Courage Gate (Golden Land)"
+		}
+	],
+	"Phantom Fencer": [
+		{
+			"area": "Reflection Gate"
+		},
+		{
+			"area": "Sealed Gate"
+		}
+	],
+	"Skeleton": [
+		{
+			"area": "Giant Gate"
+		}
+	],
+	"Bona Constrictor": [
+		{
+			"area": "Trial Gate"
+		},
+		{
+			"area": "Far Gate"
+		}
+	],
+	"Mild Headache": [
+		{
+			"area": "Reflection Gate"
+		}
+	],
+	"Maulusc": [
+		{
+			"area": "Trial Gate"
+		},
+		{
+			"area": "Hope Gate"
+		}
+	],
+	"Float-O-Copier": [
+		{
+			"area": "Illusion Gate (Boss)"
+		}
+	],
+	"DarkCrab": [
+		{
+			"area": "Joy Gate"
+		},
+		{
+			"area": "Smiles Gate"
+		}
+	],
+	"Will-O'-The-Whips": [
+		{
+			"area": "Reflection Gate"
+		}
+	],
+	"Iron Maiden": [
+		{
+			"area": "Smiles Gate"
+		}
+	],
+	"Pumpkin Knight": [
+		{
+			"area": "Smiles Gate"
+		}
+	],
+	"Walking Corpse": [
+		{
+			"area": "Reflection Gate"
+		},
+		{
+			"area": "Gale Gate"
+		},
+		{
+			"area": "Sealed Gate"
+		}
+	],
+	"Restless Armour": [
+		{
+			"area": "Reflection Gate"
+		},
+		{
+			"area": "Sealed Gate"
+		}
+	],
+	"Wight Watchman": [
+		{
+			"area": "Flame Gate"
+		}
+	],
+	"Cerberwretch": [
+		{
+			"area": "Gaia Gate"
+		}
+	],
+	"Mean Spirit": [
+		{
+			"area": "Gale Gate"
+		}
+	],
+	"Gustbluster": [
+		{
+			"area": "Trial Gate"
+		},
+		{
+			"area": "Sealed Gate"
+		}
+	],
+	"Wild Carrot": [
+		{
+			"area": "Judgment Gate"
+		}
+	],
+	"Phantom Swordsman": [
+		{
+			"area": "Sea Gate"
+		},
+		{
+			"area": "Flame Gate"
+		}
+	],
+	"Steel Siren": [
+		{
+			"area": "Anger Gate (Golden Land)"
+		}
+	],
+	"Skeleton Soldier": [
+		{
+			"area": "Reflection Gate"
+		},
+		{
+			"area": "Sealed Gate"
+		}
+	],
+	"Grim Rider": [
+		{
+			"area": "Gale Gate"
+		}
+	],
+	"Widow's Pique": [
+		{
+			"area": "Sealed Gate"
+		}
+	],
+	"Soulspawn": [
+		{
+			"area": "Storm Gate"
+		}
+	],
+	"Cross Bones": [
+		{
+			"area": "Grudge Gate (Golden Land)"
+		}
+	],
+	"Cobra Cardinal": [
+		{
+			"area": "Gale Gate"
+		},
+		{
+			"area": "Trial Gate"
+		}
+	],
+	"HerbMan": [
+		{
+			"area": "Gaia Gate"
+		}
+	],
+	"Gnuriel": [
+		{
+			"area": "Reflection Gate"
+		}
+	],
+	"Wailin' Weed": [
+		{
+			"area": "Eternal Night Gate"
+		}
+	],
+	"Golden Girl": [
+		{
+			"area": "Smiles Gate (Golden Land)"
+		}
+	],
+	"Galumph": [
+		{
+			"area": "Sea Gate"
+		}
+	],
+	"DeathMasker": [
+		{
+			"area": "Gale Gate"
+		},
+		{
+			"area": "Hope Gate"
+		}
+	],
+	"Roseguardin": [
+		{
+			"area": "Sealed Gate"
+		}
+	],
+	"Kapurigon": [
+		{
+			"area": "Storm Gate"
+		}
+	],
+	"Bones Of Baramos (Alt)": [
+		{
+			"area": "Sealed Gate"
+		}
+	],
+	"Ghost Ship": [
+		{
+			"area": "Grudge Gate (Golden Land, Boss)"
+		}
+	],
+	"Captain Crow": [
+		{
+			"area": "Grudge Gate (Boss)"
+		}
+	],
+	"Siphon": [
+		{
+			"area": "Gale Gate (Boss)"
+		}
+	],
+	"Dr Snapped": [
+		{
+			"area": "Plot Gate (Boss)"
+		}
+	],
+	"Garuvirus": [
+		{
+			"area": "Plot Gate (Golden Land, Boss)"
+		}
+	],
+	"Mortamor": [
+		{
+			"area": "Judgment Gate (Golden Land, Boss)"
+		}
+	],
+	"Purrgatroyd": [
+		{
+			"area": "Longing Gate (Golden Land)"
+		}
+	],
+	"Foo Yung & Chow Mein": [
+		{
+			"area": "Disorientation Gate (Golden Land)"
+		}
+	],
+	"Klashmi": [
+		{
+			"area": "Gale Gate (Golden Land)"
+		}
+	],
+	"Kamashki": [
+		{
+			"area": "Storm Gate (Golden Land)"
+		}
+	],
+	"Blamara": [
+		{
+			"area": "Gaia Gate (Golden Land)"
+		}
+	],
+	"Damniuni": [
+		{
+			"area": "Sea Gate (Golden Land)"
+		}
+	],
+	"Dora-In-Grey": [
+		{
+			"area": "Smiles Gate (Golden Land)"
+		}
+	],
+	"Malzar": [
+		{
+			"area": "Eternal Night Gate (Golden Land, Boss)"
+		}
+	],
+	"The Almighty": [
+		{
+			"area": "Flame Gate (Golden Land)"
+		}
+	],
+	"Estark": [
+		{
+			"area": "Sleep Gate (Boss)"
+		}
+	],
+	"Ramia": [
+		{
+			"area": "Eternal Night Gate (Golden Land)"
+		}
+	],
+	"Malevolynx": [
+		{
+			"area": "Sealed Gate (Boss)"
+		}
+	],
+	"Malzar Beast": [
+		{
+			"area": "Eternal Night Gate (Boss)"
+		}
+	],
+	"Cobrara": [
+		{
+			"area": "Trial Gate (Golden Land, Boss)"
+		}
+	],
+	"Vurato": [
+		{
+			"area": "Giant Gate (Golden Land, Boss)"
+		}
+	],
+	"Shadroth": [
+		{
+			"area": "Truth Gate (Golden Land, Boss)"
+		}
+	],
+	"Fractos": [
+		{
+			"area": "Sleep Gate (Golden Land, Boss)"
+		}
+	],
+	"Rigor Mortex Evolved Forme": [
+		{
+			"area": "Sealed Gate (Golden Land, Boss)"
+		}
+	]
+}

@@ -1,4 +1,4 @@
-import { makeClassName } from '@/functions';
+import { makeClassName, withoutAlt } from '@/functions';
 import { Spinner } from 'react-bootstrap';
 import { Monster as MonsterInterface } from '@/types/Monster';
 import Rank from './Rank';
@@ -30,7 +30,7 @@ const MonsterRowLoading = ({
 							</div>
 						</div>
 					</div>
-					<span className="monster-name">{monster.name}</span>
+					<span className="monster-name">{withoutAlt(monster.name)}</span>
 				</div>
 			</td>
 			<td className="cell-details" />

@@ -1,10 +1,12 @@
 import { useCallback, useContext } from 'react';
 import { LanguageContext } from '@/context/language';
 import { StringObject } from '@/types/Ui';
+import { withoutAlt } from '@/functions';
 const translatedMonsters = require('../json/monsterTranslations.json');
 const translatedMoves: StringObject = require('../json/movesTranslations.json');
 const translatedSkills: StringObject = require('../json/skillsTranslations.json');
 const translatedTraits: StringObject = require('../json/traitsTranslations.json');
+const translatedAreas: StringObject = require('../json/areasTranslations.json');
 
 const translatedUI: StringObject = {
 	Synthesis: 'Synthèse',
@@ -147,18 +149,68 @@ const translatedUI: StringObject = {
 	Stun: 'Étourdissement',
 	Poison: 'Poison',
 	'Instant death': 'Mort subite',
+	Frizz: 'Flamme',
+	Sizz: 'Crame',
+	Bang: 'Bang',
+	Woosh: 'Tornade',
+	Crack: 'Glace',
+	Rubble: 'Roche',
+	Zap: 'Foudre',
+	Zam: 'Elec',
+	Donk: 'Lest',
+	'Fire breath': 'Souffle de feu',
+	'Ice breath': 'Souffle de glace',
+	Whack: 'Kill',
+	Curse: 'Maudit',
+	Immobilized: 'Immobilisé',
+	Dazzle: 'Illusion',
+	'Drain Magic': 'Aspirmagie',
+	Hack: 'Vulnérable',
+	Fizzled: 'Enflammé',
+	Blunted: 'Ramollo',
+	Abiliterator: 'Raptitude',
+	Gobstopped: 'Hygiaphone',
+	'Ban Dance': 'Antidanse',
+	Sag: 'Affaiblo',
+	Sap: 'Altération',
+	Decelerate: 'Décélero',
+	Dim: 'Simplet',
+	Heal: 'Soin',
+	Bounce: 'Réflexion',
+	Mega: 'Méga',
+	Giga: 'Giga',
+	Ultra: 'Ultra',
+	'Golden Land': 'Eldorado',
+	'after clearing': 'après avoir terminé',
+	'the story': "l'histoire",
 };
 
 const useTranslate = () => {
 	const isFr = useContext(LanguageContext);
 
 	const translateMonster = (name: string): string => {
-		if (isFr) return translatedMonsters[name] || name;
-		return name;
+		const base = withoutAlt(name);
+		return (isFr && translatedMonsters[base]) || base;
 	};
 	const translateUI = (word: string) => {
 		if (isFr) return translatedUI[word] || word;
 		return word;
+	};
+	const translateArea = (area: string): string => {
+		if (!isFr) return area;
+		const [, place, note] = area.match(/^(.*?)(?: \((.*)\))?$/) || [];
+		const label = place
+			.split(' : ')
+			.map(part => translatedAreas[part] || part)
+			.join(' : ');
+		if (!note) return label;
+		const cleared = note.match(/^after clearing (.*)$/)?.[1];
+		if (cleared) {
+			const world = translatedAreas[cleared] || translatedUI[cleared] || cleared;
+			return `${label} (${translatedUI['after clearing']} ${world})`;
+		}
+		const tags = note.split(', ').map(tag => translatedUI[tag] || tag);
+		return `${label} (${tags.join(', ')})`;
 	};
 	const translateMove = useCallback(
 		(name: string): string => (isFr && translatedMoves[name]) || name,
@@ -177,6 +229,7 @@ const useTranslate = () => {
 		isFr,
 		translateMonster,
 		translateUI,
+		translateArea,
 		translateMove,
 		translateSkill,
 		translateTrait,

@@ -1,0 +1,1732 @@
+{
+	"Slime": [
+		{
+			"area": "Desert World : Field"
+		},
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Weedie": [
+		{
+			"area": "Celestial World : Field"
+		}
+	],
+	"Buddy Slime": [
+		{
+			"area": "Great Log : Coastline"
+		}
+	],
+	"Bubble Slime": [
+		{
+			"area": "Water World : Ghost Ship"
+		}
+	],
+	"Healslime": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Wing Slime": [
+		{
+			"area": "Snow World : Field"
+		}
+	],
+	"Fright Bulb": [
+		{
+			"area": "Snow World : Forest of the Lost"
+		}
+	],
+	"Mottle Slime": [
+		{
+			"area": "Desert World : Field"
+		}
+	],
+	"Scallop Slime": [
+		{
+			"area": "Water World : Blue Grotto"
+		},
+		{
+			"area": "Water World : West Cape Cave"
+		}
+	],
+	"Coconut Slime": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Molten Slime": [
+		{
+			"area": "Water World : Volcano Cave"
+		}
+	],
+	"Marislime": [
+		{
+			"area": "Water World : Blue Grotto"
+		}
+	],
+	"Snowmangler": [
+		{
+			"area": "Snow World : Field"
+		}
+	],
+	"Bite Bulb": [
+		{
+			"area": "Snow World : Forest of the Lost"
+		}
+	],
+	"Slime Knight": [
+		{
+			"area": "Snow World : Field"
+		}
+	],
+	"Snooty Slime Knight": [
+		{
+			"area": "Snow World : Field"
+		}
+	],
+	"Rubble Slime": [
+		{
+			"area": "Celestial World : West Mountain"
+		}
+	],
+	"Metal Slime": [
+		{
+			"area": "Snow World : Field"
+		},
+		{
+			"area": "Celestial World : Field"
+		},
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Spiny Slime": [
+		{
+			"area": "Snow World : Field (after clearing Snow World)"
+		},
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Pink Slime": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Lemon Slime": [
+		{
+			"area": "Desert World : Field (after clearing the story)"
+		}
+	],
+	"Lime Slime": [
+		{
+			"area": "Water World : Field (after clearing the story)"
+		}
+	],
+	"Berry Slime": [
+		{
+			"area": "Water World : Field (after clearing the story)"
+		}
+	],
+	"Cherry Slime": [
+		{
+			"area": "Celestial World : Field (after clearing the story)"
+		}
+	],
+	"Cream Slime": [
+		{
+			"area": "Snow World : Northern Mountain Cave (after clearing Snow World)"
+		}
+	],
+	"Crème Caraslime": [
+		{
+			"area": "Celestial World : Field (after clearing the story)"
+		}
+	],
+	"Mottle King Slime": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"King Slime": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Slimecicle": [
+		{
+			"area": "Snow World : Northern Mountain Cave (after clearing Snow World)"
+		}
+	],
+	"Sugarstar Slime": [
+		{
+			"area": "Celestial World : Field"
+		}
+	],
+	"King Bubble Slime": [
+		{
+			"area": "Snow World : Woolly Elefort's Insides"
+		}
+	],
+	"Sprite Bulb": [
+		{
+			"area": "Celestial World : Field"
+		}
+	],
+	"Magic Slime": [
+		{
+			"area": "Celestial World : Sage's Tower"
+		}
+	],
+	"Liquid Metal Slime": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Queen Slime": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Superior Slime": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Shogum": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Metal King Slime": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Slick Slime": [
+		{
+			"area": "Water World : Volcano Cave (after clearing Water World)"
+		},
+		{
+			"area": "Water World : Field (after clearing Water World)"
+		}
+	],
+	"Canzar": [
+		{
+			"area": "Ultimate World : Lava Cavern"
+		}
+	],
+	"Slime Blaster": [
+		{
+			"area": "Celestial World : Field (after clearing the story)"
+		}
+	],
+	"Diamond Slime": [
+		{
+			"area": "Celestial World : Field (after clearing Celestial World)"
+		}
+	],
+	"Small Fry": [
+		{
+			"area": "Water World : Moonstone Lighthouse"
+		}
+	],
+	"Crested Viper": [
+		{
+			"area": "Desert World : Field"
+		},
+		{
+			"area": "Snow World : Woolly Elefort's Insides"
+		}
+	],
+	"Killer Gila": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Cobra King": [
+		{
+			"area": "Desert World : Field"
+		}
+	],
+	"Biguana": [
+		{
+			"area": "Water World : Field (after clearing Water World)"
+		}
+	],
+	"Professaurus": [
+		{
+			"area": "Snow World : Field (after clearing Snow World)"
+		}
+	],
+	"Drag-Goof": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Finned Fatale": [
+		{
+			"area": "Water World : Blue Grotto (after clearing Water World)"
+		}
+	],
+	"Quayhorse": [
+		{
+			"area": "Water World : Moonstone Lighthouse (after clearing Water World)"
+		}
+	],
+	"Seasaur": [
+		{
+			"area": "Water World : Field (after clearing Celestial World)"
+		}
+	],
+	"Pteranodon": [
+		{
+			"area": "Desert World : Field (after clearing Desert World)"
+		}
+	],
+	"Wyrtle": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Boreal Serpent": [
+		{
+			"area": "Snow World : Northern Mountain Cave (after clearing Snow World)"
+		}
+	],
+	"Drygon": [
+		{
+			"area": "Snow World : Field"
+		}
+	],
+	"Wormbat": [
+		{
+			"area": "Celestial World : Wind Tower"
+		}
+	],
+	"Metal Dragon": [
+		{
+			"area": "Snow World : D'Argent's Tower (after clearing Snow World)"
+		}
+	],
+	"Tantamount": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Tundragster": [
+		{
+			"area": "Snow World : Field (after clearing Snow World)"
+		}
+	],
+	"Mandrake Mercenary": [
+		{
+			"area": "Celestial World : Demonlord's Castle"
+		}
+	],
+	"Evangelizard": [
+		{
+			"area": "Snow World : D'Argent's Tower (after clearing the story)"
+		}
+	],
+	"Briny Bronco": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Abyss Diver": [
+		{
+			"area": "Water World : Temple of the Sea God"
+		}
+	],
+	"Ethereal Serpent": [
+		{
+			"area": "Celestial World : Field (after clearing Celestial World)"
+		}
+	],
+	"Fryling": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Dragon Rider": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Serpentia": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Thaumatosaurus": [
+		{
+			"area": "Water World : Field (after clearing Water World)"
+		}
+	],
+	"Flapdragon": [
+		{
+			"area": "Celestial World : Demonlord's Castle"
+		}
+	],
+	"Kleptoreptile": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Rashaverak": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Equinox": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Liege Lizard": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Great Dragon": [
+		{
+			"area": "Limbo World : Darck's Castle"
+		}
+	],
+	"Chihuawyrm": [
+		{
+			"area": "Snow World : Field (after clearing Snow World)"
+		}
+	],
+	"Orochi": [
+		{
+			"area": "Ultimate World : Lava Cavern"
+		}
+	],
+	"Bilhaw": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Silverine": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Quiller": [
+		{
+			"area": "Desert World : Field"
+		}
+	],
+	"Mischievous Mole": [
+		{
+			"area": "Desert World : Field"
+		}
+	],
+	"Feralball": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Pink Bonbon": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Powie Yowie": [
+		{
+			"area": "Snow World : Northern Mountain Cave (after clearing Snow World)"
+		}
+	],
+	"Vampire Cat": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Fat Rat": [
+		{
+			"area": "Desert World : Underground Aqueduct"
+		}
+	],
+	"Great Sabrecub": [
+		{
+			"area": "Desert World : Field"
+		}
+	],
+	"Needler": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Night Emperor": [
+		{
+			"area": "Celestial World : Wind Tower"
+		}
+	],
+	"Fencing Fox": [
+		{
+			"area": "Desert World : Field"
+		}
+	],
+	"Spiked Hare": [
+		{
+			"area": "Snow World : Field"
+		}
+	],
+	"24-Carrot Bunicorn": [
+		{
+			"area": "Snow World : Field"
+		}
+	],
+	"Orc": [
+		{
+			"area": "Snow World : Field"
+		}
+	],
+	"Barksman": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Ursa Major": [
+		{
+			"area": "Snow World : Field"
+		}
+	],
+	"Grublin": [
+		{
+			"area": "Desert World : Field"
+		}
+	],
+	"Haystack Needler": [
+		{
+			"area": "Celestial World : Field"
+		}
+	],
+	"Tongue Fu Fighter": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Brownie": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Spiked Club": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Whackanape": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Great Sabrecat": [
+		{
+			"area": "Desert World : Field (after clearing Water World)"
+		}
+	],
+	"Tuskateer": [
+		{
+			"area": "Snow World : Field (after clearing Snow World)"
+		}
+	],
+	"BeastNite": [
+		{
+			"area": "Snow World : Field"
+		}
+	],
+	"Meowgician": [
+		{
+			"area": "Water World : Moonstone Lighthouse"
+		}
+	],
+	"Mad Mole": [
+		{
+			"area": "Snow World : Goldmine Border"
+		}
+	],
+	"Infanticore": [
+		{
+			"area": "Desert World : Field (after clearing Snow World)"
+		}
+	],
+	"Merman": [
+		{
+			"area": "Snow World : Field"
+		}
+	],
+	"Ewwnicorn": [
+		{
+			"area": "Snow World : Forest of the Lost"
+		}
+	],
+	"MerTiger": [
+		{
+			"area": "Water World : Field (after clearing Water World)"
+		}
+	],
+	"Ham Shamwitch": [
+		{
+			"area": "Celestial World : Field"
+		}
+	],
+	"Sham Hamwitch": [
+		{
+			"area": "Celestial World : Field"
+		}
+	],
+	"Continent Toad": [
+		{
+			"area": "Celestial World : Field"
+		}
+	],
+	"Rampage": [
+		{
+			"area": "Snow World : Field"
+		}
+	],
+	"Pine Needler": [
+		{
+			"area": "Celestial World : Field"
+		}
+	],
+	"Gorerilla": [
+		{
+			"area": "Celestial World : West Mountain"
+		}
+	],
+	"Missing Lynx": [
+		{
+			"area": "Ultimate World : Lava Cavern"
+		}
+	],
+	"Napir": [
+		{
+			"area": "Mistle World : Mistle Minaret",
+			"time": "night"
+		}
+	],
+	"Ripped Rabbit": [
+		{
+			"area": "Water World : Temple of the Sea God"
+		}
+	],
+	"AxeShark": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Ginormoose": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Bjorn The Behemoose": [
+		{
+			"area": "Ultimate World : Lava Cavern"
+		}
+	],
+	"Genie Sanguini": [
+		{
+			"area": "Mistle World : Mistle Minaret",
+			"time": "day"
+		}
+	],
+	"Queenie Sanguini": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Dorsal Fiend": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Ursa Panda": [
+		{
+			"area": "Snow World : Northern Mountain Cave"
+		}
+	],
+	"Jowler": [
+		{
+			"area": "Snow World : Northern Mountain Cave (after clearing Snow World)"
+		}
+	],
+	"Prism Peacock": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Gryphinx": [
+		{
+			"area": "Desert World : Field (after clearing Snow World)"
+		}
+	],
+	"Woolly Elefort": [
+		{
+			"area": "Snow World : Field"
+		}
+	],
+	"Kingfuschia": [
+		{
+			"area": "Great Log : Coastline"
+		}
+	],
+	"Killerpillar": [
+		{
+			"area": "Desert World : Field"
+		}
+	],
+	"Cactiball": [
+		{
+			"area": "Desert World : Field"
+		},
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Golden Globe": [
+		{
+			"area": "Desert World : Field"
+		}
+	],
+	"Army Ant": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Bagworm": [
+		{
+			"area": "Snow World : Field"
+		}
+	],
+	"Dread Herring": [
+		{
+			"area": "Desert World : Field"
+		}
+	],
+	"Toady": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Midnight Horknight": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Pollywaggle": [
+		{
+			"area": "Water World : Field (after clearing Water World)"
+		}
+	],
+	"Parched Peckerel": [
+		{
+			"area": "Desert World : Field (after clearing Desert World)"
+		}
+	],
+	"Puffpoise": [
+		{
+			"area": "Great Log : Coastline"
+		}
+	],
+	"Scorpion": [
+		{
+			"area": "Desert World : Field"
+		}
+	],
+	"Mad Mollusk": [
+		{
+			"area": "Desert World : Field"
+		}
+	],
+	"Suckling Ocker": [
+		{
+			"area": "Water World : Blue Grotto"
+		},
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Wild Boarfish": [
+		{
+			"area": "Snow World : Field"
+		}
+	],
+	"Leafy Larrikin": [
+		{
+			"area": "Celestial World : West Mountain"
+		}
+	],
+	"Spinchilla": [
+		{
+			"area": "Water World : Field (after clearing Water World)"
+		}
+	],
+	"Power Hammer": [
+		{
+			"area": "Desert World : Field (after clearing Desert World)"
+		}
+	],
+	"Nightcrawler": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Gastropog": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Chimaera": [
+		{
+			"area": "Desert World : Field (after clearing Desert World)"
+		}
+	],
+	"Lunar Chimaera": [
+		{
+			"area": "Desert World : Field (after clearing Desert World)"
+		}
+	],
+	"Incineraytor": [
+		{
+			"area": "Water World : Blue Grotto"
+		},
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Beanie Meanie": [
+		{
+			"area": "Celestial World : Field"
+		},
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Rockin' Rockhopper": [
+		{
+			"area": "Snow World : Field"
+		}
+	],
+	"Sluggernaut": [
+		{
+			"area": "Ultimate World : Lava Cavern"
+		}
+	],
+	"Paws": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Eveel": [
+		{
+			"area": "Water World : West Cape Cave"
+		}
+	],
+	"Dangler Fish": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Boring Bug": [
+		{
+			"area": "Water World : Moonstone Lighthouse (after clearing Water World)"
+		}
+	],
+	"Wooper Trooper": [
+		{
+			"area": "Water World : Moonstone Lighthouse"
+		}
+	],
+	"Horknight": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Crested Loon": [
+		{
+			"area": "Snow World : Northern Mountain Cave"
+		}
+	],
+	"Treeface": [
+		{
+			"area": "Snow World : Forest of the Lost"
+		}
+	],
+	"Antiquitree": [
+		{
+			"area": "Snow World : Forest of the Lost"
+		}
+	],
+	"Snowbird": [
+		{
+			"area": "Snow World : Field (after clearing Snow World)"
+		}
+	],
+	"Flame Flower": [
+		{
+			"area": "Celestial World : Field"
+		}
+	],
+	"Funky Chicken": [
+		{
+			"area": "Snow World : Northern Mountain Cave (after clearing Snow World)"
+		}
+	],
+	"Giant Moth": [
+		{
+			"area": "Snow World : Northern Mountain Cave"
+		}
+	],
+	"Sickler": [
+		{
+			"area": "Celestial World : Field"
+		}
+	],
+	"Slurperon": [
+		{
+			"area": "Celestial World : West Mountain"
+		}
+	],
+	"Pyuro": [
+		{
+			"area": "Celestial World : Small Cave"
+		}
+	],
+	"CancerMan": [
+		{
+			"area": "Snow World : Field (after clearing Snow World)"
+		}
+	],
+	"Firebird": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Beetleboy": [
+		{
+			"area": "Mistle World : Mistle Minaret",
+			"time": "night"
+		}
+	],
+	"Wormonger": [
+		{
+			"area": "Ultimate World : Lava Cavern"
+		}
+	],
+	"Deadly Dodo": [
+		{
+			"area": "Celestial World : Field"
+		}
+	],
+	"Octophant": [
+		{
+			"area": "Water World : Temple of the Sea God"
+		}
+	],
+	"Crayzee": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Chewlip": [
+		{
+			"area": "Snow World : Forest of the Lost (after clearing Snow World)"
+		}
+	],
+	"Mosquito Gnat": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Gangleclaw": [
+		{
+			"area": "Celestial World : Field"
+		},
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Honeyhead Horknight": [
+		{
+			"area": "Celestial World : Field"
+		}
+	],
+	"Thunderbird": [
+		{
+			"area": "Celestial World : West Mountain (after clearing Celestial World)"
+		}
+	],
+	"Garuda": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Armoured Scorpion": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Wax Murderer": [
+		{
+			"area": "Desert World : Underground Aqueduct"
+		}
+	],
+	"CoilBird": [
+		{
+			"area": "Celestial World : Wind Tower"
+		}
+	],
+	"Sacksquatch": [
+		{
+			"area": "Desert World : Field (after clearing Desert World)"
+		}
+	],
+	"Spitnik": [
+		{
+			"area": "Celestial World : Field (after clearing Celestial World)"
+		}
+	],
+	"Cheeky Tiki": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Muddy Hand": [
+		{
+			"area": "Snow World : Goldmine Border"
+		}
+	],
+	"Pocus Poppet": [
+		{
+			"area": "Snow World : Goldmine Border"
+		}
+	],
+	"Sky Fry": [
+		{
+			"area": "Desert World : Field"
+		}
+	],
+	"Smog": [
+		{
+			"area": "Water World : Moonstone Lighthouse"
+		}
+	],
+	"Eggsoskeleton": [
+		{
+			"area": "Snow World : Field (after clearing Snow World)"
+		}
+	],
+	"Malevolamp": [
+		{
+			"area": "Desert World : Field"
+		}
+	],
+	"Mudraker": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Goodybag": [
+		{
+			"area": "Water World : Ghost Ship"
+		}
+	],
+	"Killer Wave": [
+		{
+			"area": "Water World : Field"
+		},
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Shadow": [
+		{
+			"area": "Snow World : Goldmine Border"
+		}
+	],
+	"Anchorman": [
+		{
+			"area": "Water World : Ghost Ship"
+		}
+	],
+	"Gold Golem": [
+		{
+			"area": "Snow World : Goldmine Border"
+		}
+	],
+	"Dancing Flame": [
+		{
+			"area": "Water World : Volcano Cave"
+		}
+	],
+	"Aquarella": [
+		{
+			"area": "Water World : Blue Grotto"
+		},
+		{
+			"area": "Water World : West Cape Cave"
+		}
+	],
+	"Hellbound Horror": [
+		{
+			"area": "Limbo World : Darck's Castle"
+		}
+	],
+	"Leery Lout": [
+		{
+			"area": "Celestial World : Small Cave"
+		}
+	],
+	"Cumaulus": [
+		{
+			"area": "Celestial World : Field"
+		}
+	],
+	"Magmalice": [
+		{
+			"area": "Water World : Volcano Cave"
+		}
+	],
+	"Harmour": [
+		{
+			"area": "Celestial World : Demonlord's Castle"
+		}
+	],
+	"Metal Heavy": [
+		{
+			"area": "Snow World : D'Argent's Tower (after clearing Snow World)"
+		}
+	],
+	"Bag O' Tricks": [
+		{
+			"area": "Water World : Volcano Cave"
+		},
+		{
+			"area": "Snow World : Glacial Cave (after clearing Snow World)"
+		},
+		{
+			"area": "Celestial World : Field"
+		},
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Frostburn": [
+		{
+			"area": "Snow World : Glacial Cave (after clearing Snow World)"
+		}
+	],
+	"Sand Wave": [
+		{
+			"area": "Desert World : Field (after clearing Desert World)"
+		}
+	],
+	"Rotten Eggsoskeleton": [
+		{
+			"area": "Snow World : Field (after clearing Snow World)"
+		}
+	],
+	"Bongo Drongo": [
+		{
+			"area": "Water World : Volcano Cave"
+		}
+	],
+	"Earthenwarrior": [
+		{
+			"area": "Snow World : Goldmine Border"
+		}
+	],
+	"Devil Glass": [
+		{
+			"area": "Celestial World : Wind Tower"
+		}
+	],
+	"Gastank": [
+		{
+			"area": "Snow World : Woolly Elefort's Insides"
+		}
+	],
+	"Puppetor": [
+		{
+			"area": "Snow World : D'Argent's Tower (after clearing Snow World)"
+		}
+	],
+	"Golem": [
+		{
+			"area": "Snow World : D'Argent's Tower (after clearing Snow World)"
+		}
+	],
+	"AmberWeed": [
+		{
+			"area": "Celestial World : Field (after clearing Celestial World)"
+		}
+	],
+	"Flying Saucers": [
+		{
+			"area": "Celestial World : Wind Tower"
+		}
+	],
+	"Coralossus": [
+		{
+			"area": "Water World : Blue Grotto"
+		}
+	],
+	"Automaton": [
+		{
+			"area": "Celestial World : Demonlord's Castle"
+		}
+	],
+	"Mimic": [
+		{
+			"area": "Celestial World : Wind Tower"
+		}
+	],
+	"String Fella": [
+		{
+			"area": "Water World : Temple of the Sea God"
+		}
+	],
+	"Bambooligan": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Lethal Armour": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Killing Machine": [
+		{
+			"area": "Celestial World : Field"
+		}
+	],
+	"Type G0": [
+		{
+			"area": "Celestial World : Field"
+		}
+	],
+	"Prancing Pillar": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Living Statue": [
+		{
+			"area": "Celestial World : Sage's Tower"
+		}
+	],
+	"Runny Eggsoskeleton": [
+		{
+			"area": "Celestial World : Field"
+		}
+	],
+	"Escudogre": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Mazin": [
+		{
+			"area": "Limbo World : Darck's Castle"
+		}
+	],
+	"Terracotta Warrior": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"DarkCrystal": [
+		{
+			"area": "Snow World : Glacial Cave (after clearing Snow World)"
+		}
+	],
+	"Sagittar": [
+		{
+			"area": "Ultimate World : Lava Cavern"
+		}
+	],
+	"Piña Marauder": [
+		{
+			"area": "Great Log : Coastline"
+		}
+	],
+	"Dracky": [
+		{
+			"area": "Desert World : Field",
+			"time": "night"
+		},
+		{
+			"area": "Desert World : Underground Aqueduct"
+		},
+		{
+			"area": "Desert World : Pyramid"
+		}
+	],
+	"Picksy": [
+		{
+			"area": "Water World : Moonstone Lighthouse"
+		}
+	],
+	"Tree Feller": [
+		{
+			"area": "Snow World : Glacial Cave (after clearing Snow World)"
+		}
+	],
+	"Lunatick": [
+		{
+			"area": "Water World : Moonstone Lighthouse"
+		}
+	],
+	"Conklave": [
+		{
+			"area": "Celestial World : Small Cave"
+		}
+	],
+	"Mohawkling": [
+		{
+			"area": "Desert World : Field"
+		}
+	],
+	"Lump Wizard": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Imp": [
+		{
+			"area": "Snow World : Woolly Elefort's Insides"
+		}
+	],
+	"Gremlin": [
+		{
+			"area": "Celestial World : Small Cave"
+		}
+	],
+	"Cauldrone": [
+		{
+			"area": "Water World : West Cape Cave"
+		}
+	],
+	"Jinkster": [
+		{
+			"area": "Limbo World : Darck's Castle"
+		}
+	],
+	"Boorbarian": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Anemon": [
+		{
+			"area": "Water World : Blue Grotto"
+		}
+	],
+	"Madusa": [
+		{
+			"area": "Ultimate World : Lava Cavern"
+		}
+	],
+	"Bubblemon": [
+		{
+			"area": "Ultimate World : Lava Cavern"
+		}
+	],
+	"Prickly Prankster": [
+		{
+			"area": "Limbo World : Darck's Castle"
+		}
+	],
+	"Crone": [
+		{
+			"area": "Snow World : Forest of the Lost"
+		}
+	],
+	"FishRider": [
+		{
+			"area": "Snow World : Field"
+		}
+	],
+	"Succubat": [
+		{
+			"area": "Water World : Moonstone Lighthouse"
+		}
+	],
+	"Hulagan": [
+		{
+			"area": "Water World : Field (after clearing Snow World)"
+		}
+	],
+	"Grim Keeper": [
+		{
+			"area": "Mistle World : Mistle Minaret",
+			"time": "day"
+		}
+	],
+	"Sculptrice": [
+		{
+			"area": "Celestial World : Sage's Tower"
+		}
+	],
+	"Prestidigitator": [
+		{
+			"area": "Celestial World : Sage's Tower"
+		}
+	],
+	"Peahooter": [
+		{
+			"area": "Celestial World : Field"
+		}
+	],
+	"Giga Hero": [
+		{
+			"area": "Celestial World : Small Cave"
+		}
+	],
+	"Dingbat": [
+		{
+			"area": "Celestial World : Field"
+		},
+		{
+			"area": "Celestial World : Demonlord's Castle"
+		}
+	],
+	"IronHawk": [
+		{
+			"area": "Celestial World : Field"
+		}
+	],
+	"Witch": [
+		{
+			"area": "Snow World : Forest of the Lost"
+		}
+	],
+	"Fruity Succubat": [
+		{
+			"area": "Snow World : Forest of the Lost (after clearing Snow World)"
+		}
+	],
+	"Togrus Maximus": [
+		{
+			"area": "Ultimate World : Lava Cavern"
+		}
+	],
+	"Boss Troll": [
+		{
+			"area": "Desert World : East Cave"
+		}
+	],
+	"Babygoyle": [
+		{
+			"area": "Mistle World : Mistle Minaret",
+			"time": "day"
+		}
+	],
+	"Grim Grinner": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Samigina": [
+		{
+			"area": "Limbo World : Darck's Castle"
+		}
+	],
+	"Gigantes": [
+		{
+			"area": "Celestial World : Field"
+		}
+	],
+	"High Djinks": [
+		{
+			"area": "Desert World : Field (after clearing Desert World)"
+		}
+	],
+	"Vampire Succubat": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Hyperanemon": [
+		{
+			"area": "Celestial World : Field (after clearing Celestial World)",
+			"time": "day"
+		}
+	],
+	"Bloodbonnet & Goobonce": [
+		{
+			"area": "Celestial World : Field (after clearing Celestial World)"
+		}
+	],
+	"Ghost": [
+		{
+			"area": "Desert World : Field"
+		}
+	],
+	"Soft Serve Spook": [
+		{
+			"area": "Desert World : Underground Aqueduct"
+		}
+	],
+	"EvilSeed": [
+		{
+			"area": "Celestial World : Small Cave"
+		}
+	],
+	"Putrefido": [
+		{
+			"area": "Snow World : Woolly Elefort's Insides"
+		},
+		{
+			"area": "Celestial World : Castle of the Dead"
+		}
+	],
+	"Bad Apple": [
+		{
+			"area": "Snow World : Forest of the Lost"
+		}
+	],
+	"Putric Stinkenheimer": [
+		{
+			"area": "Celestial World : Field (after clearing Celestial World)"
+		}
+	],
+	"RotRaven": [
+		{
+			"area": "Water World : Volcano Cave"
+		}
+	],
+	"Marrow Escapee": [
+		{
+			"area": "Water World : Ghost Ship"
+		}
+	],
+	"Scarfish": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Inverzon": [
+		{
+			"area": "Water World : Ghost Ship"
+		}
+	],
+	"Hellhound": [
+		{
+			"area": "Snow World : Field"
+		}
+	],
+	"Monolog": [
+		{
+			"area": "Snow World : Northern Mountain Cave"
+		}
+	],
+	"Hyper Heyedra": [
+		{
+			"area": "Snow World : Woolly Elefort's Insides"
+		}
+	],
+	"Bona Constrictor": [
+		{
+			"area": "Snow World : Woolly Elefort's Insides"
+		}
+	],
+	"Mild Headache": [
+		{
+			"area": "Water World : Ghost Ship"
+		},
+		{
+			"area": "Water World : Moonstone Lighthouse"
+		}
+	],
+	"Eyelasher": [
+		{
+			"area": "Snow World : Glacial Cave (after clearing Snow World)"
+		}
+	],
+	"Float-O-Copier": [
+		{
+			"area": "Snow World : D'Argent's Tower (after clearing Snow World)"
+		}
+	],
+	"Drac The Vlad": [
+		{
+			"area": "Snow World : Forest of the Lost"
+		}
+	],
+	"DarkCrab": [
+		{
+			"area": "Water World : Field"
+		}
+	],
+	"Grinferno": [
+		{
+			"area": "Snow World : Field (after clearing Snow World)"
+		}
+	],
+	"Swag Bagger": [
+		{
+			"area": "Snow World : Field (after clearing Snow World)"
+		}
+	],
+	"Iron Maiden": [
+		{
+			"area": "Snow World : Forest of the Lost"
+		}
+	],
+	"Walking Corpse": [
+		{
+			"area": "Celestial World : Field"
+		}
+	],
+	"Lumberin' Jack": [
+		{
+			"area": "Celestial World : Field"
+		}
+	],
+	"Restless Armour": [
+		{
+			"area": "Snow World : Glacial Cave (after clearing Snow World)"
+		}
+	],
+	"MistyWing": [
+		{
+			"area": "Limbo World : Darck's Castle"
+		}
+	],
+	"Wight Watchman": [
+		{
+			"area": "Snow World : Forest of the Lost"
+		}
+	],
+	"Cerberwretch": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Mean Spirit": [
+		{
+			"area": "Celestial World : Field",
+			"time": "night"
+		}
+	],
+	"Gustbluster": [
+		{
+			"area": "Desert World : Pyramid"
+		}
+	],
+	"Frightening Conductor": [
+		{
+			"area": "Celestial World : Castle of the Dead"
+		}
+	],
+	"Morphean Mushroom": [
+		{
+			"area": "Celestial World : Small Cave"
+		}
+	],
+	"GhosTree": [
+		{
+			"area": "Celestial World : Castle of the Dead"
+		}
+	],
+	"Beelzebuzz": [
+		{
+			"area": "Celestial World : Castle of the Dead"
+		}
+	],
+	"Eyesaur": [
+		{
+			"area": "Celestial World : Castle of the Dead"
+		}
+	],
+	"Steel Siren": [
+		{
+			"area": "Snow World : Forest of the Lost"
+		}
+	],
+	"Bone Bat": [
+		{
+			"area": "Desert World : Pyramid"
+		}
+	],
+	"Skeleton Soldier (Alt)": [
+		{
+			"area": "Celestial World : Castle of the Dead"
+		}
+	],
+	"Grim Rider": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Shadow Noble": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Animated Armour": [
+		{
+			"area": "Desert World : Pyramid"
+		}
+	],
+	"KiteHawk": [
+		{
+			"area": "Mistle World : Mistle Minaret"
+		}
+	],
+	"Soulspawn": [
+		{
+			"area": "Desert World : Pyramid"
+		}
+	],
+	"Cobra Cardinal": [
+		{
+			"area": "Desert World : Pyramid"
+		}
+	],
+	"Mummy": [
+		{
+			"area": "Desert World : Pyramid"
+		}
+	],
+	"HerbMan": [
+		{
+			"area": "Snow World : D'Argent's Tower (after clearing Snow World)"
+		}
+	],
+	"Golden Girl": [
+		{
+			"area": "Celestial World : Demonlord's Castle"
+		}
+	],
+	"Skeleton Swordsman": [
+		{
+			"area": "Celestial World : Demonlord's Castle"
+		}
+	],
+	"Grotwyrm": [
+		{
+			"area": "Desert World : Pyramid"
+		}
+	],
+	"Platinum Poppet": [
+		{
+			"area": "Mistle World : Mistle Minaret",
+			"time": "day"
+		}
+	],
+	"Estark": [
+		{
+			"area": "Ultimate World : Lava Cavern"
+		}
+	]
+}

@@ -4,7 +4,7 @@ import Lower from './Lower';
 import Talent from './Talent';
 import MonsterImg from './MonsterImg';
 import { LOWER } from '@/hooks/useSynthesisTrail';
-import { makeClassName } from '@/functions';
+import { makeClassName, withoutAlt } from '@/functions';
 import { Monster as MonsterInterface } from '@/types/Monster';
 import AnchorLink from '../AnchorLink';
 import { Fragment, memo, useContext, useState } from 'react';
@@ -60,7 +60,10 @@ const MonsterRow = ({
 	return (
 		<tr
 			id={id}
-			className={makeClassName('monster transition', hash == id && 'active-outline')}
+			className={makeClassName(
+				'monster transition',
+				hash == id && 'active-outline'
+			)}
 		>
 			<MemoizedMonsterCells monster={monster} />
 		</tr>
@@ -81,7 +84,7 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 	const isGoal = !!goals?.includes(monster.name);
 	const active = stock?.[monster.name] || 0;
 	const [open, setOpen] = useState(false);
-	const displayName = (isFr && monster.nom) || monster.name;
+	const displayName = (isFr && monster.nom) || withoutAlt(monster.name);
 	const skill = details[monster.name]?.skill;
 	const places = spawns[monster.name];
 	return (
@@ -275,8 +278,8 @@ const TIME_LABELS: { [time: string]: string } = {
 };
 
 const SpawnChip = ({ spawn }: { spawn: Spawn }) => {
-	const { translateUI } = useTranslate();
-	const area = areasNames[spawn.area] || spawn.area;
+	const { translateUI, translateArea } = useTranslate();
+	const area = translateArea(areasNames[spawn.area] || spawn.area);
 	const when = [
 		...(spawn.time ? [TIME_LABELS[spawn.time]] : []),
 		...(spawn.seasons || []),

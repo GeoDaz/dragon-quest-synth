@@ -4,10 +4,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Slimer",
-		"randomSkills": [
-			"Agility Booster I",
-			"Zap Ward"
-		],
+		"randomSkills": ["Agility Booster I", "Zap Ward"],
 		"stats": {
 			"hp": 1410,
 			"mp": 430,
@@ -71,10 +68,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Sweet-Talker",
-		"randomSkills": [
-			"Defence Booster I",
-			"Stun Stopper"
-		],
+		"randomSkills": ["Defence Booster I", "Stun Stopper"],
 		"stats": {
 			"hp": 1390,
 			"mp": 450,
@@ -258,10 +252,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Splash Afficionado",
-		"randomSkills": [
-			"Defence Booster I",
-			"Splish Ward"
-		],
+		"randomSkills": ["Defence Booster I", "Splish Ward"],
 		"stats": {
 			"hp": 1360,
 			"mp": 410,
@@ -326,10 +317,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Blusterer",
-		"randomSkills": [
-			"Agility Booster I",
-			"Frizz Ward"
-		],
+		"randomSkills": ["Agility Booster I", "Frizz Ward"],
 		"stats": {
 			"hp": 1320,
 			"mp": 480,
@@ -394,10 +382,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Slimer",
-		"randomSkills": [
-			"HP Booster I",
-			"Poison Preventer"
-		],
+		"randomSkills": ["HP Booster I", "Poison Preventer"],
 		"stats": {
 			"hp": 1400,
 			"mp": 620,
@@ -461,10 +446,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Healer",
-		"randomSkills": [
-			"Defence Booster I",
-			"Confusion Controller"
-		],
+		"randomSkills": ["Defence Booster I", "Confusion Controller"],
 		"stats": {
 			"hp": 1320,
 			"mp": 600,
@@ -714,10 +696,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Crack Afficionado",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Debilitation Ducker"
-		],
+		"randomSkills": ["Wisdom Booster I", "Debilitation Ducker"],
 		"stats": {
 			"hp": 1370,
 			"mp": 480,
@@ -781,10 +760,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Barricade",
-		"randomSkills": [
-			"Agility Booster I",
-			"Woosh Guard"
-		],
+		"randomSkills": ["Agility Booster I", "Woosh Guard"],
 		"stats": {
 			"hp": 1410,
 			"mp": 470,
@@ -849,10 +825,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Zap Afficionado",
-		"randomSkills": [
-			"Agility Booster I",
-			"Paralysis Protector"
-		],
+		"randomSkills": ["Agility Booster I", "Paralysis Protector"],
 		"stats": {
 			"hp": 1340,
 			"mp": 390,
@@ -917,10 +890,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Good Knight",
-		"randomSkills": [
-			"HP Booster I",
-			"Crag Ward"
-		],
+		"randomSkills": ["HP Booster I", "Crag Ward"],
 		"stats": {
 			"hp": 1320,
 			"mp": 410,
@@ -984,10 +954,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Spicy Slasher",
-		"randomSkills": [
-			"HP Booster I",
-			"Zap Ward"
-		],
+		"randomSkills": ["HP Booster I", "Zap Ward"],
 		"stats": {
 			"hp": 1480,
 			"mp": 400,
@@ -1113,10 +1080,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Shallow Breather",
-		"randomSkills": [
-			"HP Booster I",
-			"Woosh Guard"
-		],
+		"randomSkills": ["HP Booster I", "Woosh Guard"],
 		"stats": {
 			"hp": 1380,
 			"mp": 460,
@@ -1429,10 +1393,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Cupid",
-		"randomSkills": [
-			"HP Booster I",
-			"Sizz Ward"
-		],
+		"randomSkills": ["HP Booster I", "Sizz Ward"],
 		"stats": {
 			"hp": 1280,
 			"mp": 420,
@@ -1496,10 +1457,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Crag Afficionado",
-		"randomSkills": [
-			"Defence Booster I",
-			"Confusion Controller"
-		],
+		"randomSkills": ["Defence Booster I", "Confusion Controller"],
 		"stats": {
 			"hp": 1360,
 			"mp": 380,
@@ -1563,10 +1521,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Fortifier",
-		"randomSkills": [
-			"Defence Booster I",
-			"Sleep Suppressor"
-		],
+		"randomSkills": ["Defence Booster I", "Sleep Suppressor"],
 		"stats": {
 			"hp": 1360,
 			"mp": 450,
@@ -1692,10 +1647,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Prankster",
-		"randomSkills": [
-			"MP Booster I",
-			"Zam Ward"
-		],
+		"randomSkills": ["MP Booster I", "Zam Ward"],
 		"stats": {
 			"hp": 1340,
 			"mp": 590,
@@ -2070,10 +2022,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Shallow Breather",
-		"randomSkills": [
-			"HP Booster I",
-			"Crag Ward"
-		],
+		"randomSkills": ["HP Booster I", "Crag Ward"],
 		"stats": {
 			"hp": 1370,
 			"mp": 450,
@@ -2137,10 +2086,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Blazer",
-		"randomSkills": [
-			"Defence Booster I",
-			"Bedazzlement Blocker"
-		],
+		"randomSkills": ["Defence Booster I", "Bedazzlement Blocker"],
 		"stats": {
 			"hp": 1390,
 			"mp": 360,
@@ -2266,10 +2212,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Sweet-Talker",
-		"randomSkills": [
-			"MP Booster I",
-			"Poison Preventer"
-		],
+		"randomSkills": ["MP Booster I", "Poison Preventer"],
 		"stats": {
 			"hp": 1360,
 			"mp": 480,
@@ -2395,10 +2338,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Nuisance",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Poison Preventer"
-		],
+		"randomSkills": ["Wisdom Booster I", "Poison Preventer"],
 		"stats": {
 			"hp": 1450,
 			"mp": 480,
@@ -2462,10 +2402,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Healer",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Sizz Ward"
-		],
+		"randomSkills": ["Wisdom Booster I", "Sizz Ward"],
 		"stats": {
 			"hp": 1370,
 			"mp": 610,
@@ -2530,10 +2467,7 @@
 		"eggColor": "Silver",
 		"scoutable": true,
 		"skill": "Hulk",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Woosh Guard"
-		],
+		"randomSkills": ["Wisdom Booster I", "Woosh Guard"],
 		"stats": {
 			"hp": 1460,
 			"mp": 460,
@@ -2910,10 +2844,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Lightning Rod",
-		"randomSkills": [
-			"MP Booster I",
-			"Stun Stopper"
-		],
+		"randomSkills": ["MP Booster I", "Stun Stopper"],
 		"stats": {
 			"hp": 1360,
 			"mp": 340,
@@ -3284,7 +3215,7 @@
 			}
 		]
 	},
-	"Diamond Slime": {
+	"Diamond Slime (Alt)": {
 		"egg": false,
 		"skill": "Mouth Guard",
 		"stats": {
@@ -4098,10 +4029,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Blowy Slasher",
-		"randomSkills": [
-			"Attack Booster I",
-			"Poison Preventer"
-		],
+		"randomSkills": ["Attack Booster I", "Poison Preventer"],
 		"stats": {
 			"hp": 1360,
 			"mp": 340,
@@ -4166,10 +4094,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Defender",
-		"randomSkills": [
-			"Attack Booster I",
-			"Bedazzlement Blocker"
-		],
+		"randomSkills": ["Attack Booster I", "Bedazzlement Blocker"],
 		"stats": {
 			"hp": 1360,
 			"mp": 310,
@@ -4295,10 +4220,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Bang Afficionado",
-		"randomSkills": [
-			"HP Booster I",
-			"Crack Ward"
-		],
+		"randomSkills": ["HP Booster I", "Crack Ward"],
 		"stats": {
 			"hp": 1410,
 			"mp": 290,
@@ -4362,10 +4284,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Sizz Afficionado",
-		"randomSkills": [
-			"MP Booster I",
-			"Sleep Suppressor"
-		],
+		"randomSkills": ["MP Booster I", "Sleep Suppressor"],
 		"stats": {
 			"hp": 1360,
 			"mp": 570,
@@ -4430,10 +4349,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Soothesayer",
-		"randomSkills": [
-			"HP Booster I",
-			"Zap Ward"
-		],
+		"randomSkills": ["HP Booster I", "Zap Ward"],
 		"stats": {
 			"hp": 1310,
 			"mp": 430,
@@ -4607,10 +4523,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Defender",
-		"randomSkills": [
-			"Defence Booster I",
-			"Zap Ward"
-		],
+		"randomSkills": ["Defence Booster I", "Zap Ward"],
 		"stats": {
 			"hp": 1370,
 			"mp": 540,
@@ -4736,10 +4649,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Fortifier",
-		"randomSkills": [
-			"Attack Booster I",
-			"Bang Ward"
-		],
+		"randomSkills": ["Attack Booster I", "Bang Ward"],
 		"stats": {
 			"hp": 1390,
 			"mp": 610,
@@ -4803,10 +4713,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Aquapothecary",
-		"randomSkills": [
-			"Attack Booster I",
-			"Bedazzlement Blocker"
-		],
+		"randomSkills": ["Attack Booster I", "Bedazzlement Blocker"],
 		"stats": {
 			"hp": 1330,
 			"mp": 360,
@@ -5238,10 +5145,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Hulk",
-		"randomSkills": [
-			"Defence Booster I",
-			"Debilitation Ducker"
-		],
+		"randomSkills": ["Defence Booster I", "Debilitation Ducker"],
 		"stats": {
 			"hp": 1390,
 			"mp": 290,
@@ -5429,10 +5333,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Stinker",
-		"randomSkills": [
-			"Attack Booster I",
-			"Sleep Suppressor"
-		],
+		"randomSkills": ["Attack Booster I", "Sleep Suppressor"],
 		"stats": {
 			"hp": 1370,
 			"mp": 340,
@@ -5496,10 +5397,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Blazer",
-		"randomSkills": [
-			"Attack Booster I",
-			"Frizz Ward"
-		],
+		"randomSkills": ["Attack Booster I", "Frizz Ward"],
 		"stats": {
 			"hp": 1340,
 			"mp": 280,
@@ -5564,10 +5462,7 @@
 		"eggColor": "Silver",
 		"scoutable": true,
 		"skill": "Blazer",
-		"randomSkills": [
-			"Attack Booster I",
-			"Antimagic Avoider"
-		],
+		"randomSkills": ["Attack Booster I", "Antimagic Avoider"],
 		"stats": {
 			"hp": 1400,
 			"mp": 300,
@@ -5694,10 +5589,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Soggy Slasher",
-		"randomSkills": [
-			"Attack Booster I",
-			"Drain Dodger"
-		],
+		"randomSkills": ["Attack Booster I", "Drain Dodger"],
 		"stats": {
 			"hp": 1350,
 			"mp": 330,
@@ -6071,10 +5963,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Charge Leader",
-		"randomSkills": [
-			"Agility Booster I",
-			"Crag Ward"
-		],
+		"randomSkills": ["Agility Booster I", "Crag Ward"],
 		"stats": {
 			"hp": 1370,
 			"mp": 310,
@@ -6512,10 +6401,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Demoniac",
-		"randomSkills": [
-			"Sleep Suppressor",
-			"Confusion Controller"
-		],
+		"randomSkills": ["Sleep Suppressor", "Confusion Controller"],
 		"stats": {
 			"hp": 1350,
 			"mp": 310,
@@ -6828,10 +6714,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Mariner",
-		"randomSkills": [
-			"Agility Booster I",
-			"Crag Ward"
-		],
+		"randomSkills": ["Agility Booster I", "Crag Ward"],
 		"stats": {
 			"hp": 1400,
 			"mp": 330,
@@ -8012,9 +7895,7 @@
 	"The Dragonlord": {
 		"egg": false,
 		"skill": "Sovereign",
-		"randomSkills": [
-			"Dragonlord"
-		],
+		"randomSkills": ["Dragonlord"],
 		"stats": {
 			"hp": 1340,
 			"mp": 490,
@@ -8504,10 +8385,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Blusterer",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Bedazzlement Blocker"
-		],
+		"randomSkills": ["Wisdom Booster I", "Bedazzlement Blocker"],
 		"stats": {
 			"hp": 1300,
 			"mp": 410,
@@ -8572,10 +8450,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Hulk",
-		"randomSkills": [
-			"Defence Booster I",
-			"Debilitation Ducker"
-		],
+		"randomSkills": ["Defence Booster I", "Debilitation Ducker"],
 		"stats": {
 			"hp": 1270,
 			"mp": 320,
@@ -8701,10 +8576,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Hive Mind",
-		"randomSkills": [
-			"Defence Booster I",
-			"Zam Ward"
-		],
+		"randomSkills": ["Defence Booster I", "Zam Ward"],
 		"stats": {
 			"hp": 1320,
 			"mp": 400,
@@ -8769,10 +8641,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Willing Helper",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Antimagic Avoider"
-		],
+		"randomSkills": ["Wisdom Booster I", "Antimagic Avoider"],
 		"stats": {
 			"hp": 1360,
 			"mp": 440,
@@ -8899,10 +8768,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Tongue Twister",
-		"randomSkills": [
-			"MP Booster I",
-			"Debilitation Ducker"
-		],
+		"randomSkills": ["MP Booster I", "Debilitation Ducker"],
 		"stats": {
 			"hp": 1400,
 			"mp": 530,
@@ -8966,10 +8832,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Dancer",
-		"randomSkills": [
-			"MP Booster I",
-			"Confusion Controller"
-		],
+		"randomSkills": ["MP Booster I", "Confusion Controller"],
 		"stats": {
 			"hp": 1350,
 			"mp": 610,
@@ -9096,10 +8959,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Aquapothecary",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Drain Dodger"
-		],
+		"randomSkills": ["Wisdom Booster I", "Drain Dodger"],
 		"stats": {
 			"hp": 1400,
 			"mp": 520,
@@ -9164,10 +9024,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Splash Afficionado",
-		"randomSkills": [
-			"Attack Booster I",
-			"Poison Preventer"
-		],
+		"randomSkills": ["Attack Booster I", "Poison Preventer"],
 		"stats": {
 			"hp": 1400,
 			"mp": 340,
@@ -9355,10 +9212,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Woosh Afficionado",
-		"randomSkills": [
-			"Agility Booster I",
-			"Woosh Guard"
-		],
+		"randomSkills": ["Agility Booster I", "Woosh Guard"],
 		"stats": {
 			"hp": 1310,
 			"mp": 570,
@@ -9423,10 +9277,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Sizz Afficionado",
-		"randomSkills": [
-			"Agility Booster I",
-			"Poison Preventer"
-		],
+		"randomSkills": ["Agility Booster I", "Poison Preventer"],
 		"stats": {
 			"hp": 1270,
 			"mp": 430,
@@ -9490,10 +9341,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Willing Helper",
-		"randomSkills": [
-			"Attack Booster I",
-			"Crag Ward"
-		],
+		"randomSkills": ["Attack Booster I", "Crag Ward"],
 		"stats": {
 			"hp": 1280,
 			"mp": 550,
@@ -9557,10 +9405,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Blowy Slasher",
-		"randomSkills": [
-			"Agility Booster I",
-			"Confusion Controller"
-		],
+		"randomSkills": ["Agility Booster I", "Confusion Controller"],
 		"stats": {
 			"hp": 1370,
 			"mp": 310,
@@ -9624,10 +9469,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Choreographer",
-		"randomSkills": [
-			"HP Booster I",
-			"Splish Ward"
-		],
+		"randomSkills": ["HP Booster I", "Splish Ward"],
 		"stats": {
 			"hp": 1330,
 			"mp": 300,
@@ -9815,10 +9657,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Defender",
-		"randomSkills": [
-			"Defence Booster I",
-			"Confusion Controller"
-		],
+		"randomSkills": ["Defence Booster I", "Confusion Controller"],
 		"stats": {
 			"hp": 1340,
 			"mp": 480,
@@ -9882,10 +9721,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Spicy Slasher",
-		"randomSkills": [
-			"Defence Booster I",
-			"Sizz Ward"
-		],
+		"randomSkills": ["Defence Booster I", "Sizz Ward"],
 		"stats": {
 			"hp": 1350,
 			"mp": 660,
@@ -9950,10 +9786,7 @@
 		"eggColor": "Silver",
 		"scoutable": true,
 		"skill": "Splash Afficionado",
-		"randomSkills": [
-			"MP Booster I",
-			"Drain Dodger"
-		],
+		"randomSkills": ["MP Booster I", "Drain Dodger"],
 		"stats": {
 			"hp": 1410,
 			"mp": 280,
@@ -10142,10 +9975,7 @@
 		"eggColor": "Silver",
 		"scoutable": true,
 		"skill": "Defender",
-		"randomSkills": [
-			"Defence Booster I",
-			"Zam Ward"
-		],
+		"randomSkills": ["Defence Booster I", "Zam Ward"],
 		"stats": {
 			"hp": 1330,
 			"mp": 300,
@@ -10568,10 +10398,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Vexologist",
-		"randomSkills": [
-			"Attack Booster I",
-			"Woosh Guard"
-		],
+		"randomSkills": ["Attack Booster I", "Woosh Guard"],
 		"stats": {
 			"hp": 1360,
 			"mp": 420,
@@ -10697,10 +10524,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Water Baby",
-		"randomSkills": [
-			"Agility Booster I",
-			"Bedazzlement Blocker"
-		],
+		"randomSkills": ["Agility Booster I", "Bedazzlement Blocker"],
 		"stats": {
 			"hp": 1370,
 			"mp": 320,
@@ -10889,10 +10713,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Zap Afficionado",
-		"randomSkills": [
-			"Frizz Ward",
-			"Zap Ward"
-		],
+		"randomSkills": ["Frizz Ward", "Zap Ward"],
 		"stats": {
 			"hp": 1390,
 			"mp": 390,
@@ -11205,10 +11026,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Nuisance",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Woosh Guard"
-		],
+		"randomSkills": ["Wisdom Booster I", "Woosh Guard"],
 		"stats": {
 			"hp": 1370,
 			"mp": 340,
@@ -11556,10 +11374,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Mouth Guard",
-		"randomSkills": [
-			"Defence Booster I",
-			"Sizz Ward"
-		],
+		"randomSkills": ["Defence Booster I", "Sizz Ward"],
 		"stats": {
 			"hp": 1320,
 			"mp": 340,
@@ -12061,10 +11876,7 @@
 		"eggColor": "Gold",
 		"scoutable": true,
 		"skill": "Vaudevillan",
-		"randomSkills": [
-			"Defence Booster I",
-			"Woosh Guard"
-		],
+		"randomSkills": ["Defence Booster I", "Woosh Guard"],
 		"stats": {
 			"hp": 1310,
 			"mp": 450,
@@ -12191,10 +12003,7 @@
 		"eggColor": "Gold",
 		"scoutable": true,
 		"skill": "Fire Chief",
-		"randomSkills": [
-			"Attack Booster I",
-			"Antimagic Avoider"
-		],
+		"randomSkills": ["Attack Booster I", "Antimagic Avoider"],
 		"stats": {
 			"hp": 1310,
 			"mp": 340,
@@ -12258,10 +12067,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Firebrand",
-		"randomSkills": [
-			"Agility Booster I",
-			"Sleep Suppressor"
-		],
+		"randomSkills": ["Agility Booster I", "Sleep Suppressor"],
 		"stats": {
 			"hp": 1330,
 			"mp": 380,
@@ -12387,10 +12193,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Smarty-Pants",
-		"randomSkills": [
-			"HP Booster I",
-			"Splish Ward"
-		],
+		"randomSkills": ["HP Booster I", "Splish Ward"],
 		"stats": {
 			"hp": 1420,
 			"mp": 420,
@@ -12454,10 +12257,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Cold Snapper",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Bedazzlement Blocker"
-		],
+		"randomSkills": ["Wisdom Booster I", "Bedazzlement Blocker"],
 		"stats": {
 			"hp": 1320,
 			"mp": 400,
@@ -12958,10 +12758,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Power Player",
-		"randomSkills": [
-			"Attack Booster I",
-			"Stun Stopper"
-		],
+		"randomSkills": ["Attack Booster I", "Stun Stopper"],
 		"stats": {
 			"hp": 1380,
 			"mp": 450,
@@ -13026,10 +12823,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Prankster",
-		"randomSkills": [
-			"Defence Booster I",
-			"Crag Ward"
-		],
+		"randomSkills": ["Defence Booster I", "Crag Ward"],
 		"stats": {
 			"hp": 1330,
 			"mp": 300,
@@ -13093,10 +12887,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Naturalist",
-		"randomSkills": [
-			"HP Booster I",
-			"Paralysis Protector"
-		],
+		"randomSkills": ["HP Booster I", "Paralysis Protector"],
 		"stats": {
 			"hp": 1370,
 			"mp": 350,
@@ -13347,10 +13138,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Enfeebler",
-		"randomSkills": [
-			"Agility Booster I",
-			"Crag Ward"
-		],
+		"randomSkills": ["Agility Booster I", "Crag Ward"],
 		"stats": {
 			"hp": 1350,
 			"mp": 480,
@@ -13415,10 +13203,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Shallow Breather",
-		"randomSkills": [
-			"HP Booster I",
-			"Drain Dodger"
-		],
+		"randomSkills": ["HP Booster I", "Drain Dodger"],
 		"stats": {
 			"hp": 1360,
 			"mp": 360,
@@ -13483,10 +13268,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Blowy Slasher",
-		"randomSkills": [
-			"HP Booster I",
-			"Woosh Guard"
-		],
+		"randomSkills": ["HP Booster I", "Woosh Guard"],
 		"stats": {
 			"hp": 1420,
 			"mp": 570,
@@ -13550,10 +13332,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Naturalist",
-		"randomSkills": [
-			"Agility Booster I",
-			"Woosh Guard"
-		],
+		"randomSkills": ["Agility Booster I", "Woosh Guard"],
 		"stats": {
 			"hp": 1390,
 			"mp": 290,
@@ -13618,10 +13397,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Blusterer",
-		"randomSkills": [
-			"Agility Booster I",
-			"Poison Preventer"
-		],
+		"randomSkills": ["Agility Booster I", "Poison Preventer"],
 		"stats": {
 			"hp": 1360,
 			"mp": 360,
@@ -13871,10 +13647,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Antimagician",
-		"randomSkills": [
-			"Agility Booster I",
-			"Stun Stopper"
-		],
+		"randomSkills": ["Agility Booster I", "Stun Stopper"],
 		"stats": {
 			"hp": 1300,
 			"mp": 370,
@@ -13938,10 +13711,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Thrill-Seeker",
-		"randomSkills": [
-			"MP Booster I",
-			"Bang Ward"
-		],
+		"randomSkills": ["MP Booster I", "Bang Ward"],
 		"stats": {
 			"hp": 1360,
 			"mp": 450,
@@ -14496,10 +14266,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Martial Maven",
-		"randomSkills": [
-			"Agility Booster I",
-			"Drain Dodger"
-		],
+		"randomSkills": ["Agility Booster I", "Drain Dodger"],
 		"stats": {
 			"hp": 1350,
 			"mp": 310,
@@ -14548,10 +14315,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Wild Child",
-		"randomSkills": [
-			"Attack Booster I",
-			"Zam Ward"
-		],
+		"randomSkills": ["Attack Booster I", "Zam Ward"],
 		"stats": {
 			"hp": 1350,
 			"mp": 370,
@@ -14615,10 +14379,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Cutpurse",
-		"randomSkills": [
-			"Defence Booster I",
-			"Confusion Controller"
-		],
+		"randomSkills": ["Defence Booster I", "Confusion Controller"],
 		"stats": {
 			"hp": 1340,
 			"mp": 330,
@@ -14682,10 +14443,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Prankster",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Bedazzlement Blocker"
-		],
+		"randomSkills": ["Wisdom Booster I", "Bedazzlement Blocker"],
 		"stats": {
 			"hp": 1380,
 			"mp": 340,
@@ -14920,10 +14678,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Outlaw",
-		"randomSkills": [
-			"Attack Booster I",
-			"Poison Preventer"
-		],
+		"randomSkills": ["Attack Booster I", "Poison Preventer"],
 		"stats": {
 			"hp": 1340,
 			"mp": 320,
@@ -14987,10 +14742,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Crack Afficionado",
-		"randomSkills": [
-			"HP Booster I",
-			"Bedazzlement Blocker"
-		],
+		"randomSkills": ["HP Booster I", "Bedazzlement Blocker"],
 		"stats": {
 			"hp": 1320,
 			"mp": 310,
@@ -15490,10 +15242,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Blazer",
-		"randomSkills": [
-			"HP Booster I",
-			"Bang Ward"
-		],
+		"randomSkills": ["HP Booster I", "Bang Ward"],
 		"stats": {
 			"hp": 1410,
 			"mp": 350,
@@ -15557,10 +15306,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Hottie",
-		"randomSkills": [
-			"Defence Booster I",
-			"Sizz Ward"
-		],
+		"randomSkills": ["Defence Booster I", "Sizz Ward"],
 		"stats": {
 			"hp": 1360,
 			"mp": 470,
@@ -15624,10 +15370,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Super Naturalist",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Death Defier"
-		],
+		"randomSkills": ["Wisdom Booster I", "Death Defier"],
 		"stats": {
 			"hp": 1380,
 			"mp": 300,
@@ -16002,10 +15745,7 @@
 		"eggColor": "Gold",
 		"scoutable": true,
 		"skill": "Bobby Dazzler",
-		"randomSkills": [
-			"HP Booster I",
-			"Crag Ward"
-		],
+		"randomSkills": ["HP Booster I", "Crag Ward"],
 		"stats": {
 			"hp": 1400,
 			"mp": 330,
@@ -16069,10 +15809,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Maniac",
-		"randomSkills": [
-			"Attack Booster I",
-			"Debilitation Ducker"
-		],
+		"randomSkills": ["Attack Booster I", "Debilitation Ducker"],
 		"stats": {
 			"hp": 1360,
 			"mp": 300,
@@ -16261,10 +15998,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Hardliner",
-		"randomSkills": [
-			"Attack Booster I",
-			"Antimagic Avoider"
-		],
+		"randomSkills": ["Attack Booster I", "Antimagic Avoider"],
 		"stats": {
 			"hp": 1300,
 			"mp": 330,
@@ -16611,10 +16345,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Strong Speller",
-		"randomSkills": [
-			"Agility Booster I",
-			"Sizz Ward"
-		],
+		"randomSkills": ["Agility Booster I", "Sizz Ward"],
 		"stats": {
 			"hp": 1290,
 			"mp": 520,
@@ -16929,10 +16660,7 @@
 		"eggColor": "Gold",
 		"scoutable": true,
 		"skill": "Vaudevillan",
-		"randomSkills": [
-			"HP Booster I",
-			"Bang Ward"
-		],
+		"randomSkills": ["HP Booster I", "Bang Ward"],
 		"stats": {
 			"hp": 1330,
 			"mp": 300,
@@ -16997,10 +16725,7 @@
 		"eggColor": "Gold",
 		"scoutable": true,
 		"skill": "Super Naturalist",
-		"randomSkills": [
-			"Defence Booster I",
-			"Bedazzlement Blocker"
-		],
+		"randomSkills": ["Defence Booster I", "Bedazzlement Blocker"],
 		"stats": {
 			"hp": 1390,
 			"mp": 300,
@@ -17065,10 +16790,7 @@
 		"eggColor": "Gold",
 		"scoutable": true,
 		"skill": "Lightning Rod",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Paralysis Protector"
-		],
+		"randomSkills": ["Wisdom Booster I", "Paralysis Protector"],
 		"stats": {
 			"hp": 1370,
 			"mp": 350,
@@ -17633,10 +17355,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Materialist",
-		"randomSkills": [
-			"Attack Booster I",
-			"Antimagic Avoider"
-		],
+		"randomSkills": ["Attack Booster I", "Antimagic Avoider"],
 		"stats": {
 			"hp": 1370,
 			"mp": 360,
@@ -17701,10 +17420,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Woosh Afficionado",
-		"randomSkills": [
-			"MP Booster I",
-			"Drain Dodger"
-		],
+		"randomSkills": ["MP Booster I", "Drain Dodger"],
 		"stats": {
 			"hp": 1340,
 			"mp": 430,
@@ -17892,10 +17608,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Blowy Slasher",
-		"randomSkills": [
-			"HP Booster I",
-			"Paralysis Protector"
-		],
+		"randomSkills": ["HP Booster I", "Paralysis Protector"],
 		"stats": {
 			"hp": 1390,
 			"mp": 290,
@@ -17960,10 +17673,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Crag Afficionado",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Debilitation Ducker"
-		],
+		"randomSkills": ["Wisdom Booster I", "Debilitation Ducker"],
 		"stats": {
 			"hp": 1390,
 			"mp": 540,
@@ -18090,10 +17800,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Stony Slasher",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Drain Dodger"
-		],
+		"randomSkills": ["Wisdom Booster I", "Drain Dodger"],
 		"stats": {
 			"hp": 1370,
 			"mp": 480,
@@ -18158,10 +17865,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Woosh Afficionado",
-		"randomSkills": [
-			"Defence Booster I",
-			"Paralysis Protector"
-		],
+		"randomSkills": ["Defence Booster I", "Paralysis Protector"],
 		"stats": {
 			"hp": 1390,
 			"mp": 490,
@@ -18226,10 +17930,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Frizz Afficionado",
-		"randomSkills": [
-			"Agility Booster I",
-			"Poison Preventer"
-		],
+		"randomSkills": ["Agility Booster I", "Poison Preventer"],
 		"stats": {
 			"hp": 1360,
 			"mp": 460,
@@ -18356,10 +18057,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Wild Child",
-		"randomSkills": [
-			"HP Booster I",
-			"Sizz Ward"
-		],
+		"randomSkills": ["HP Booster I", "Sizz Ward"],
 		"stats": {
 			"hp": 1350,
 			"mp": 400,
@@ -18547,10 +18245,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Stony Slasher",
-		"randomSkills": [
-			"Attack Booster I",
-			"Stun Stopper"
-		],
+		"randomSkills": ["Attack Booster I", "Stun Stopper"],
 		"stats": {
 			"hp": 1340,
 			"mp": 370,
@@ -18614,10 +18309,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Fortifier",
-		"randomSkills": [
-			"Attack Booster I",
-			"Zam Ward"
-		],
+		"randomSkills": ["Attack Booster I", "Zam Ward"],
 		"stats": {
 			"hp": 1380,
 			"mp": 460,
@@ -18805,10 +18497,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Blade Maven",
-		"randomSkills": [
-			"Attack Booster I",
-			"Woosh Guard"
-		],
+		"randomSkills": ["Attack Booster I", "Woosh Guard"],
 		"stats": {
 			"hp": 1310,
 			"mp": 360,
@@ -18872,10 +18561,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Thrill-Seeker",
-		"randomSkills": [
-			"MP Booster I",
-			"Splish Ward"
-		],
+		"randomSkills": ["MP Booster I", "Splish Ward"],
 		"stats": {
 			"hp": 1370,
 			"mp": 280,
@@ -18939,10 +18625,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Irritant",
-		"randomSkills": [
-			"Defence Booster I",
-			"Confusion Controller"
-		],
+		"randomSkills": ["Defence Booster I", "Confusion Controller"],
 		"stats": {
 			"hp": 1320,
 			"mp": 500,
@@ -19254,10 +18937,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Blusterer",
-		"randomSkills": [
-			"HP Booster I",
-			"Bedazzlement Blocker"
-		],
+		"randomSkills": ["HP Booster I", "Bedazzlement Blocker"],
 		"stats": {
 			"hp": 1380,
 			"mp": 320,
@@ -19321,10 +19001,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Hexcommunicator",
-		"randomSkills": [
-			"Agility Booster I",
-			"Bang Ward"
-		],
+		"randomSkills": ["Agility Booster I", "Bang Ward"],
 		"stats": {
 			"hp": 1360,
 			"mp": 360,
@@ -19576,10 +19253,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Blade Maven",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Bedazzlement Blocker"
-		],
+		"randomSkills": ["Wisdom Booster I", "Bedazzlement Blocker"],
 		"stats": {
 			"hp": 1360,
 			"mp": 290,
@@ -19644,10 +19318,7 @@
 		"eggColor": "Silver",
 		"scoutable": true,
 		"skill": "Martyr",
-		"randomSkills": [
-			"Defence Booster I",
-			"Antimagic Avoider"
-		],
+		"randomSkills": ["Defence Booster I", "Antimagic Avoider"],
 		"stats": {
 			"hp": 1350,
 			"mp": 280,
@@ -19711,10 +19382,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Frizz Afficionado",
-		"randomSkills": [
-			"MP Booster I",
-			"Debilitation Ducker"
-		],
+		"randomSkills": ["MP Booster I", "Debilitation Ducker"],
 		"stats": {
 			"hp": 1310,
 			"mp": 420,
@@ -19779,10 +19447,7 @@
 		"eggColor": "Silver",
 		"scoutable": true,
 		"skill": "Crack Afficionado",
-		"randomSkills": [
-			"MP Booster I",
-			"Stun Stopper"
-		],
+		"randomSkills": ["MP Booster I", "Stun Stopper"],
 		"stats": {
 			"hp": 1330,
 			"mp": 420,
@@ -19908,10 +19573,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Super Naturalist",
-		"randomSkills": [
-			"HP Booster I",
-			"Zap Ward"
-		],
+		"randomSkills": ["HP Booster I", "Zap Ward"],
 		"stats": {
 			"hp": 1350,
 			"mp": 430,
@@ -20099,10 +19761,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Materialist",
-		"randomSkills": [
-			"Attack Booster I",
-			"Zap Ward"
-		],
+		"randomSkills": ["Attack Booster I", "Zap Ward"],
 		"stats": {
 			"hp": 1400,
 			"mp": 330,
@@ -20166,10 +19825,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Demoniac",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Crack Ward"
-		],
+		"randomSkills": ["Wisdom Booster I", "Crack Ward"],
 		"stats": {
 			"hp": 1290,
 			"mp": 450,
@@ -20233,10 +19889,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Sweet-Talker",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Paralysis Protector"
-		],
+		"randomSkills": ["Wisdom Booster I", "Paralysis Protector"],
 		"stats": {
 			"hp": 1410,
 			"mp": 540,
@@ -20363,10 +20016,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Choreographer",
-		"randomSkills": [
-			"Defence Booster I",
-			"Death Defier"
-		],
+		"randomSkills": ["Defence Booster I", "Death Defier"],
 		"stats": {
 			"hp": 1330,
 			"mp": 450,
@@ -20602,10 +20252,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Musclehead",
-		"randomSkills": [
-			"Attack Booster I",
-			"Stun Stopper"
-		],
+		"randomSkills": ["Attack Booster I", "Stun Stopper"],
 		"stats": {
 			"hp": 1370,
 			"mp": 290,
@@ -20670,10 +20317,7 @@
 		"eggColor": "Gold",
 		"scoutable": true,
 		"skill": "Enigma",
-		"randomSkills": [
-			"Defence Booster I",
-			"Zam Ward"
-		],
+		"randomSkills": ["Defence Booster I", "Zam Ward"],
 		"stats": {
 			"hp": 1310,
 			"mp": 500,
@@ -21081,10 +20725,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Evil Genius",
-		"randomSkills": [
-			"MP Booster I",
-			"Paralysis Protector"
-		],
+		"randomSkills": ["MP Booster I", "Paralysis Protector"],
 		"stats": {
 			"hp": 1310,
 			"mp": 360,
@@ -21210,10 +20851,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Firebrand",
-		"randomSkills": [
-			"Defence Booster I",
-			"Debilitation Ducker"
-		],
+		"randomSkills": ["Defence Booster I", "Debilitation Ducker"],
 		"stats": {
 			"hp": 1350,
 			"mp": 530,
@@ -21652,10 +21290,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Enigma",
-		"randomSkills": [
-			"HP Booster I",
-			"Drain Dodger"
-		],
+		"randomSkills": ["HP Booster I", "Drain Dodger"],
 		"stats": {
 			"hp": 1420,
 			"mp": 460,
@@ -22312,10 +21947,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Paramedic",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Frizz Ward"
-		],
+		"randomSkills": ["Wisdom Booster I", "Frizz Ward"],
 		"stats": {
 			"hp": 1360,
 			"mp": 650,
@@ -22380,10 +22012,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Defender",
-		"randomSkills": [
-			"Defence Booster I",
-			"Antimagic Avoider"
-		],
+		"randomSkills": ["Defence Booster I", "Antimagic Avoider"],
 		"stats": {
 			"hp": 1350,
 			"mp": 340,
@@ -22448,10 +22077,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Zam Afficionado",
-		"randomSkills": [
-			"MP Booster I",
-			"Bang Ward"
-		],
+		"randomSkills": ["MP Booster I", "Bang Ward"],
 		"stats": {
 			"hp": 1290,
 			"mp": 430,
@@ -22640,10 +22266,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Magic Maven",
-		"randomSkills": [
-			"MP Booster I",
-			"Sizz Ward"
-		],
+		"randomSkills": ["MP Booster I", "Sizz Ward"],
 		"stats": {
 			"hp": 1370,
 			"mp": 420,
@@ -22708,10 +22331,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Thrill-Seeker",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Crack Ward"
-		],
+		"randomSkills": ["Wisdom Booster I", "Crack Ward"],
 		"stats": {
 			"hp": 1390,
 			"mp": 440,
@@ -22775,10 +22395,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Dark Artist",
-		"randomSkills": [
-			"Agility Booster I",
-			"Death Defier"
-		],
+		"randomSkills": ["Agility Booster I", "Death Defier"],
 		"stats": {
 			"hp": 1300,
 			"mp": 500,
@@ -22843,10 +22460,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Tongue Twister",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Bedazzlement Blocker"
-		],
+		"randomSkills": ["Wisdom Booster I", "Bedazzlement Blocker"],
 		"stats": {
 			"hp": 1420,
 			"mp": 630,
@@ -23096,10 +22710,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Charmer",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Antimagic Avoider"
-		],
+		"randomSkills": ["Wisdom Booster I", "Antimagic Avoider"],
 		"stats": {
 			"hp": 1310,
 			"mp": 490,
@@ -23288,10 +22899,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Splash Afficionado",
-		"randomSkills": [
-			"HP Booster I",
-			"Debilitation Ducker"
-		],
+		"randomSkills": ["HP Booster I", "Debilitation Ducker"],
 		"stats": {
 			"hp": 1310,
 			"mp": 580,
@@ -23604,10 +23212,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Bang Afficionado",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Sleep Suppressor"
-		],
+		"randomSkills": ["Wisdom Booster I", "Sleep Suppressor"],
 		"stats": {
 			"hp": 1360,
 			"mp": 430,
@@ -23733,10 +23338,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Sleep Counsellor",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Sizz Ward"
-		],
+		"randomSkills": ["Wisdom Booster I", "Sizz Ward"],
 		"stats": {
 			"hp": 1350,
 			"mp": 490,
@@ -23863,10 +23465,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Bang Afficionado",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Crag Ward"
-		],
+		"randomSkills": ["Wisdom Booster I", "Crag Ward"],
 		"stats": {
 			"hp": 1340,
 			"mp": 490,
@@ -23930,10 +23529,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Sweet-Talker",
-		"randomSkills": [
-			"Attack Booster I",
-			"Sleep Suppressor"
-		],
+		"randomSkills": ["Attack Booster I", "Sleep Suppressor"],
 		"stats": {
 			"hp": 1350,
 			"mp": 530,
@@ -23997,10 +23593,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Antimagician",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Frizz Ward"
-		],
+		"randomSkills": ["Wisdom Booster I", "Frizz Ward"],
 		"stats": {
 			"hp": 1390,
 			"mp": 360,
@@ -24112,10 +23705,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Magic Maven",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Stun Stopper"
-		],
+		"randomSkills": ["Wisdom Booster I", "Stun Stopper"],
 		"stats": {
 			"hp": 1330,
 			"mp": 560,
@@ -24179,10 +23769,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Hexcommunicator",
-		"randomSkills": [
-			"MP Booster I",
-			"Sizz Ward"
-		],
+		"randomSkills": ["MP Booster I", "Sizz Ward"],
 		"stats": {
 			"hp": 1360,
 			"mp": 390,
@@ -24246,10 +23833,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Sleep Counsellor",
-		"randomSkills": [
-			"MP Booster I",
-			"Bang Ward"
-		],
+		"randomSkills": ["MP Booster I", "Bang Ward"],
 		"stats": {
 			"hp": 1330,
 			"mp": 430,
@@ -24375,10 +23959,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Evil Genius",
-		"randomSkills": [
-			"MP Booster I",
-			"Sizz Ward"
-		],
+		"randomSkills": ["MP Booster I", "Sizz Ward"],
 		"stats": {
 			"hp": 1320,
 			"mp": 430,
@@ -24552,10 +24133,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Charmer",
-		"randomSkills": [
-			"HP Booster I",
-			"Crag Ward"
-		],
+		"randomSkills": ["HP Booster I", "Crag Ward"],
 		"stats": {
 			"hp": 1370,
 			"mp": 410,
@@ -24619,10 +24197,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Demoniac",
-		"randomSkills": [
-			"Attack Booster I",
-			"Stun Stopper"
-		],
+		"randomSkills": ["Attack Booster I", "Stun Stopper"],
 		"stats": {
 			"hp": 1360,
 			"mp": 350,
@@ -24810,10 +24385,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Good Knight",
-		"randomSkills": [
-			"Agility Booster I",
-			"Crack Ward"
-		],
+		"randomSkills": ["Agility Booster I", "Crack Ward"],
 		"stats": {
 			"hp": 1360,
 			"mp": 350,
@@ -25001,10 +24573,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Slayer",
-		"randomSkills": [
-			"Defence Booster I",
-			"Bedazzlement Blocker"
-		],
+		"randomSkills": ["Defence Booster I", "Bedazzlement Blocker"],
 		"stats": {
 			"hp": 1320,
 			"mp": 390,
@@ -25068,10 +24637,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Duelist",
-		"randomSkills": [
-			"Agility Booster I",
-			"Woosh Guard"
-		],
+		"randomSkills": ["Agility Booster I", "Woosh Guard"],
 		"stats": {
 			"hp": 1370,
 			"mp": 350,
@@ -25383,10 +24949,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Charge Leader",
-		"randomSkills": [
-			"HP Booster I",
-			"Sizz Ward"
-		],
+		"randomSkills": ["HP Booster I", "Sizz Ward"],
 		"stats": {
 			"hp": 1370,
 			"mp": 450,
@@ -25640,10 +25203,7 @@
 		"eggColor": "Gold",
 		"scoutable": true,
 		"skill": "Storm Chaser",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Bang Ward"
-		],
+		"randomSkills": ["Wisdom Booster I", "Bang Ward"],
 		"stats": {
 			"hp": 1360,
 			"mp": 400,
@@ -25708,10 +25268,7 @@
 		"eggColor": "Gold",
 		"scoutable": true,
 		"skill": "Strong Speller",
-		"randomSkills": [
-			"MP Booster I",
-			"Bang Ward"
-		],
+		"randomSkills": ["MP Booster I", "Bang Ward"],
 		"stats": {
 			"hp": 1350,
 			"mp": 420,
@@ -27081,10 +26638,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Enfeebler",
-		"randomSkills": [
-			"Agility Booster I",
-			"Sleep Suppressor"
-		],
+		"randomSkills": ["Agility Booster I", "Sleep Suppressor"],
 		"stats": {
 			"hp": 1380,
 			"mp": 500,
@@ -27149,10 +26703,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Stinker",
-		"randomSkills": [
-			"MP Booster I",
-			"Crag Ward"
-		],
+		"randomSkills": ["MP Booster I", "Crag Ward"],
 		"stats": {
 			"hp": 1340,
 			"mp": 420,
@@ -27279,10 +26830,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Graveheart",
-		"randomSkills": [
-			"Attack Booster I",
-			"Zam Ward"
-		],
+		"randomSkills": ["Attack Booster I", "Zam Ward"],
 		"stats": {
 			"hp": 1410,
 			"mp": 280,
@@ -27347,10 +26895,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Nature Child",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Splish Ward"
-		],
+		"randomSkills": ["Wisdom Booster I", "Splish Ward"],
 		"stats": {
 			"hp": 1360,
 			"mp": 460,
@@ -27414,10 +26959,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Graveheart",
-		"randomSkills": [
-			"Agility Booster I",
-			"Death Defier"
-		],
+		"randomSkills": ["Agility Booster I", "Death Defier"],
 		"stats": {
 			"hp": 1340,
 			"mp": 640,
@@ -27482,10 +27024,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Irritant",
-		"randomSkills": [
-			"Attack Booster I",
-			"Poison Preventer"
-		],
+		"randomSkills": ["Attack Booster I", "Poison Preventer"],
 		"stats": {
 			"hp": 1320,
 			"mp": 380,
@@ -27611,10 +27150,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Cupid",
-		"randomSkills": [
-			"HP Booster I",
-			"Debilitation Ducker"
-		],
+		"randomSkills": ["HP Booster I", "Debilitation Ducker"],
 		"stats": {
 			"hp": 1420,
 			"mp": 430,
@@ -27679,10 +27215,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Frizz Afficionado",
-		"randomSkills": [
-			"MP Booster I",
-			"Frizz Ward"
-		],
+		"randomSkills": ["MP Booster I", "Frizz Ward"],
 		"stats": {
 			"hp": 1390,
 			"mp": 520,
@@ -27870,10 +27403,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Breath Taker",
-		"randomSkills": [
-			"Defence Booster I",
-			"Zam Ward"
-		],
+		"randomSkills": ["Defence Booster I", "Zam Ward"],
 		"stats": {
 			"hp": 1330,
 			"mp": 360,
@@ -27938,10 +27468,7 @@
 		"eggColor": "White",
 		"scoutable": true,
 		"skill": "Hexcommunicator",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Death Defier"
-		],
+		"randomSkills": ["Wisdom Booster I", "Death Defier"],
 		"stats": {
 			"hp": 1270,
 			"mp": 440,
@@ -28067,10 +27594,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Nature Child",
-		"randomSkills": [
-			"Attack Booster I",
-			"Crag Ward"
-		],
+		"randomSkills": ["Attack Booster I", "Crag Ward"],
 		"stats": {
 			"hp": 1440,
 			"mp": 430,
@@ -28196,10 +27720,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Graveheart",
-		"randomSkills": [
-			"Attack Booster I",
-			"Stun Stopper"
-		],
+		"randomSkills": ["Attack Booster I", "Stun Stopper"],
 		"stats": {
 			"hp": 1380,
 			"mp": 420,
@@ -28263,10 +27784,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Zam Afficionado",
-		"randomSkills": [
-			"Agility Booster I",
-			"Confusion Controller"
-		],
+		"randomSkills": ["Agility Booster I", "Confusion Controller"],
 		"stats": {
 			"hp": 1320,
 			"mp": 440,
@@ -28393,10 +27911,7 @@
 		"eggColor": "Silver",
 		"scoutable": true,
 		"skill": "Blazer",
-		"randomSkills": [
-			"Defence Booster I",
-			"Sizz Ward"
-		],
+		"randomSkills": ["Defence Booster I", "Sizz Ward"],
 		"stats": {
 			"hp": 1380,
 			"mp": 390,
@@ -28460,10 +27975,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Thrill-Seeker",
-		"randomSkills": [
-			"HP Booster I",
-			"Bedazzlement Blocker"
-		],
+		"randomSkills": ["HP Booster I", "Bedazzlement Blocker"],
 		"stats": {
 			"hp": 1380,
 			"mp": 320,
@@ -28778,10 +28290,7 @@
 		"eggColor": "Silver",
 		"scoutable": true,
 		"skill": "Prankster",
-		"randomSkills": [
-			"Attack Booster I",
-			"Paralysis Protector"
-		],
+		"randomSkills": ["Attack Booster I", "Paralysis Protector"],
 		"stats": {
 			"hp": 1360,
 			"mp": 320,
@@ -28845,10 +28354,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Soggy Slasher",
-		"randomSkills": [
-			"Attack Booster I",
-			"Crack Ward"
-		],
+		"randomSkills": ["Attack Booster I", "Crack Ward"],
 		"stats": {
 			"hp": 1350,
 			"mp": 370,
@@ -28912,10 +28418,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Stinker",
-		"randomSkills": [
-			"Agility Booster I",
-			"Paralysis Protector"
-		],
+		"randomSkills": ["Agility Booster I", "Paralysis Protector"],
 		"stats": {
 			"hp": 1360,
 			"mp": 530,
@@ -29042,10 +28545,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Charmer",
-		"randomSkills": [
-			"Attack Booster I",
-			"Sleep Suppressor"
-		],
+		"randomSkills": ["Attack Booster I", "Sleep Suppressor"],
 		"stats": {
 			"hp": 1280,
 			"mp": 460,
@@ -29110,10 +28610,7 @@
 		"eggColor": "Silver",
 		"scoutable": true,
 		"skill": "Doomsayer",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Paralysis Protector"
-		],
+		"randomSkills": ["Wisdom Booster I", "Paralysis Protector"],
 		"stats": {
 			"hp": 1300,
 			"mp": 470,
@@ -29177,10 +28674,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Slayer",
-		"randomSkills": [
-			"HP Booster I",
-			"Zam Ward"
-		],
+		"randomSkills": ["HP Booster I", "Zam Ward"],
 		"stats": {
 			"hp": 1410,
 			"mp": 310,
@@ -29278,10 +28772,7 @@
 		"eggColor": "Silver",
 		"scoutable": true,
 		"skill": "Antimagician",
-		"randomSkills": [
-			"HP Booster I",
-			"Confusion Controller"
-		],
+		"randomSkills": ["HP Booster I", "Confusion Controller"],
 		"stats": {
 			"hp": 1320,
 			"mp": 390,
@@ -29469,10 +28960,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Devil's Advocate",
-		"randomSkills": [
-			"Attack Booster I",
-			"Confusion Controller"
-		],
+		"randomSkills": ["Attack Booster I", "Confusion Controller"],
 		"stats": {
 			"hp": 1440,
 			"mp": 330,
@@ -29536,10 +29024,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Good Knight",
-		"randomSkills": [
-			"Agility Booster I",
-			"Sleep Suppressor"
-		],
+		"randomSkills": ["Agility Booster I", "Sleep Suppressor"],
 		"stats": {
 			"hp": 1360,
 			"mp": 350,
@@ -29915,10 +29400,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Destroyer",
-		"randomSkills": [
-			"Attack Booster I",
-			"Zam Ward"
-		],
+		"randomSkills": ["Attack Booster I", "Zam Ward"],
 		"stats": {
 			"hp": 1390,
 			"mp": 320,
@@ -30106,10 +29588,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Slayer",
-		"randomSkills": [
-			"Defence Booster I",
-			"Drain Dodger"
-		],
+		"randomSkills": ["Defence Booster I", "Drain Dodger"],
 		"stats": {
 			"hp": 1320,
 			"mp": 400,
@@ -30173,10 +29652,7 @@
 		"egg": false,
 		"scoutable": true,
 		"skill": "Water Baby",
-		"randomSkills": [
-			"Attack Booster I",
-			"Sleep Suppressor"
-		],
+		"randomSkills": ["Attack Booster I", "Sleep Suppressor"],
 		"stats": {
 			"hp": 1360,
 			"mp": 620,
@@ -30613,10 +30089,7 @@
 		"eggColor": "Gold",
 		"scoutable": true,
 		"skill": "Freeze",
-		"randomSkills": [
-			"Defence Booster I",
-			"Poison Preventer"
-		],
+		"randomSkills": ["Defence Booster I", "Poison Preventer"],
 		"stats": {
 			"hp": 1410,
 			"mp": 280,
@@ -30929,10 +30402,7 @@
 		"eggColor": "Gold",
 		"scoutable": true,
 		"skill": "Devil's Advocate",
-		"randomSkills": [
-			"HP Booster I",
-			"Stun Stopper"
-		],
+		"randomSkills": ["HP Booster I", "Stun Stopper"],
 		"stats": {
 			"hp": 1290,
 			"mp": 480,

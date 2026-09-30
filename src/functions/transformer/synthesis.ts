@@ -1,4 +1,5 @@
 import { Families, Monster, Monsters } from '@/types/Monster';
+import { withoutAlt } from '@/functions';
 
 export const indexMonsters = (families: Families): Monsters => {
 	const monsters: Monsters = {};
@@ -20,7 +21,7 @@ export const reverseSynth = (families: Families): void => {
 		Object.values(ranks).forEach(innerMonsters => {
 			innerMonsters.forEach(monster => {
 				(byName[monster.name] ??= []).push(monster);
-				const frName = translatedMonsters[monster.name];
+				const frName = translatedMonsters[withoutAlt(monster.name)];
 				if (frName) {
 					monster.nom = frName;
 				}

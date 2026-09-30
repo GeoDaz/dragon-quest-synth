@@ -397,7 +397,7 @@
 				"synthesis": [["King Cureslime", "Angel Slime"]]
 			},
 			{
-				"name": "Diamond Slime",
+				"name": "Diamond Slime (Alt)",
 				"rank": "B",
 				"family": "Slime",
 				"synthesis": [["Metal King Slime", "Goodybag"]]
@@ -468,7 +468,7 @@
 				"name": "Emperor Slime",
 				"rank": "A",
 				"family": "Slime",
-				"synthesis": [["Diamond Slime", "Slionheart"]]
+				"synthesis": [["Diamond Slime (Alt)", "Slionheart"]]
 			},
 			{
 				"name": "Superior Slime",

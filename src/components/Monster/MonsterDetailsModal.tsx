@@ -11,7 +11,7 @@ import {
 } from '@/types/MonsterDetails';
 import { Monster as MonsterInterface } from '@/types/Monster';
 import useTranslate from '@/hooks/useTranslate';
-import { makeClassName } from '@/functions';
+import { makeClassName, withoutAlt } from '@/functions';
 import Described from '../Described';
 import Family from './Family';
 import Rank from './Rank';
@@ -48,7 +48,45 @@ const RESISTANCES: { key: string; label: string }[] = [
 	{ key: 'rest', label: 'Stun' },
 	{ key: 'poison', label: 'Poison' },
 	{ key: 'sudden_death', label: 'Instant death' },
+	{ key: 'frizz', label: 'Frizz' },
+	{ key: 'sizz', label: 'Sizz' },
+	{ key: 'bang', label: 'Bang' },
+	{ key: 'woosh', label: 'Woosh' },
+	{ key: 'crack', label: 'Crack' },
+	{ key: 'rubble', label: 'Rubble' },
+	{ key: 'zap', label: 'Zap' },
+	{ key: 'zam', label: 'Zam' },
+	{ key: 'donk', label: 'Donk' },
+	{ key: 'fire_breath', label: 'Fire breath' },
+	{ key: 'ice_breath', label: 'Ice breath' },
+	{ key: 'whack', label: 'Whack' },
+	{ key: 'curse', label: 'Curse' },
+	{ key: 'immobilize', label: 'Immobilized' },
+	{ key: 'dazzle', label: 'Dazzle' },
+	{ key: 'drain_magic', label: 'Drain Magic' },
+	{ key: 'hack', label: 'Hack' },
+	{ key: 'fizzle', label: 'Fizzled' },
+	{ key: 'blunt', label: 'Blunted' },
+	{ key: 'abiliterator', label: 'Abiliterator' },
+	{ key: 'gobstopper', label: 'Gobstopped' },
+	{ key: 'ban_dance', label: 'Ban Dance' },
+	{ key: 'sag', label: 'Sag' },
+	{ key: 'sap', label: 'Sap' },
+	{ key: 'decelerate', label: 'Decelerate' },
+	{ key: 'dim', label: 'Dim' },
 ];
+
+const TRAIT_TIERS: { [tier: string]: string } = {
+	M: 'Mega',
+	G: 'Giga',
+	SG: 'Ultra',
+};
+
+const resistanceValue = (value: number) => {
+	if (value >= 200) return 'Bounce';
+	if (value > 100) return 'Heal';
+	return value > 0 ? `+${value}` : `${value}`;
+};
 
 const resistanceClass = (value: number) => {
 	if (value >= 100) return 'immune';
@@ -92,8 +130,13 @@ const MonsterDetailsModal: React.FC<Props> = ({
 			{japanese}
 		</Described>
 	);
-	const label = (isFr && monster.nom) || monster.name;
+	const label = (isFr && monster.nom) || withoutAlt(monster.name);
 
+	const traitTag = (trait: MonsterTrait) => {
+		if (trait.level !== undefined) return `${translateUI('Level')} ${trait.level}`;
+		if (trait.plus !== undefined) return `+${trait.plus}`;
+		if (trait.tier) return translateUI(TRAIT_TIERS[trait.tier] || trait.tier);
+	};
 	const traits = details?.traits || [];
 	const smallTraits = traits.filter(trait => !trait.large);
 	const largeTraits = traits.filter(trait => trait.large);
@@ -209,7 +252,7 @@ const MonsterDetailsModal: React.FC<Props> = ({
 							terms={terms}
 							named={named}
 							heading={translateUI('Traits')}
-							level={translateUI('Level')}
+							tag={traitTag}
 						/>
 						<TraitsTable
 							size="L"
@@ -217,7 +260,7 @@ const MonsterDetailsModal: React.FC<Props> = ({
 							terms={terms}
 							named={named}
 							heading={translateUI('Traits')}
-							level={translateUI('Level')}
+							tag={traitTag}
 						/>
 
 						{!!resisted.length && (
@@ -233,7 +276,9 @@ const MonsterDetailsModal: React.FC<Props> = ({
 												className={resistanceClass(value)}
 											>
 												<span>{translateUI(entry.label)}</span>
-												<b>{value > 0 ? `+${value}` : value}</b>
+												<b>
+													{translateUI(resistanceValue(value))}
+												</b>
 											</li>
 										);
 									})}
@@ -279,16 +324,17 @@ const TraitsTable = ({
 	terms,
 	named,
 	heading,
-	level,
+	tag,
 }: {
 	size: string;
 	rows: MonsterTrait[];
 	terms: GameTerms;
 	named: (name: string, table: GameTerms['traits']) => React.ReactNode;
 	heading: string;
-	level: string;
+	tag: (trait: MonsterTrait) => string | undefined;
 }) => {
 	if (!rows.length) return null;
+	const tagged = rows.some(trait => tag(trait) !== undefined);
 	return (
 		<section className="details-block">
 			<h5>
@@ -298,11 +344,7 @@ const TraitsTable = ({
 				<tbody>
 					{rows.map((trait, i) => (
 						<tr key={`${trait.name}-${i}`}>
-							{trait.level !== undefined && (
-								<th scope="row">
-									{level} {trait.level}
-								</th>
-							)}
+							{tagged && <th scope="row">{tag(trait)}</th>}
 							<TraitCell names={[trait.name]} terms={terms} named={named} />
 						</tr>
 					))}
