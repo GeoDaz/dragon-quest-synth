@@ -11,11 +11,10 @@ import PageLines, {
 import { reverseSynth } from '@/functions/transformer/synthesis';
 import { familiesImageNames, pickImages } from '@/functions/images';
 import { Game } from '@/types/Game';
+import { games } from '@/functions/games';
 
 export const getStaticPaths = async () => {
-	const paths: { params: { name: string } }[] = (
-		Object.values(require('../../json/games.json')) as Game[]
-	)
+	const paths: { params: { name: string } }[] = Object.values(games)
 		.filter((game: Game) => game.available)
 		.map((game: Game) => ({
 			params: { name: game.key },
@@ -28,7 +27,6 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 		return { notFound: true };
 	}
 	const gameName = params.name as string;
-	const games = require('../../json/games.json');
 	const game = games[gameName];
 	if (!game || !game.available) {
 		return { notFound: true };

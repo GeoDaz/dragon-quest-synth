@@ -422,6 +422,12 @@
 				"synthesis": [["Crème Caraslime", "Cureslime"]]
 			},
 			{
+				"name": "Magic Slime",
+				"rank": "B",
+				"family": "Slime",
+				"synthesis": [["King Cureslime", "Magus"]]
+			},
+			{
 				"name": "Queen Slime",
 				"rank": "B",
 				"family": "Slime",
@@ -493,7 +499,7 @@
 				"name": "King Healslime",
 				"rank": "A",
 				"family": "Slime",
-				"synthesis": [["Queen Slime", "Tentacular"]]
+				"synthesis": [["Magic Slime", "Tentacular"]]
 			},
 			{
 				"name": "Platinum King Jewel",
@@ -1923,18 +1929,18 @@
 				"synthesis": [["Nature Family", "Material Family", "Rank G"]]
 			},
 			{
+				"name": "Odd Cob",
+				"rank": "G",
+				"family": "Nature",
+				"subfamily": ["Plant"],
+				"synthesis": [["Capsichum", "Lunatick"]]
+			},
+			{
 				"name": "Cruelcumber",
 				"rank": "G",
 				"family": "Nature",
 				"subfamily": ["Plant"],
 				"synthesis": [["Capsichum", "Bambooligan"]]
-			},
-			{
-				"name": "Bantamweight",
-				"rank": "G",
-				"family": "Nature",
-				"subfamily": ["Bird"],
-				"synthesis": [["Stark Raven", "Bludgerigar"]]
 			},
 			{
 				"name": "Toady",
@@ -1945,6 +1951,13 @@
 			}
 		],
 		"F": [
+			{
+				"name": "Bantamweight",
+				"rank": "F",
+				"family": "Nature",
+				"subfamily": ["Bird"],
+				"synthesis": [["Stark Raven", "Bludgerigar"]]
+			},
 			{
 				"name": "Bullfinch",
 				"rank": "F",
@@ -1965,13 +1978,6 @@
 				"family": "Nature",
 				"subfamily": ["Bird"],
 				"synthesis": [["Pteranodon", "Bullfinch"]]
-			},
-			{
-				"name": "Odd Cob",
-				"rank": "F",
-				"family": "Nature",
-				"subfamily": ["Plant"],
-				"synthesis": [["Capsichum", "Lunatick"]]
 			},
 			{
 				"name": "Cactiball",

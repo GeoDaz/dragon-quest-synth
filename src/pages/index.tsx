@@ -53,7 +53,7 @@ import useReserve from '@/hooks/useReserve';
 import ScrollUp from '@/components/ScrollUp';
 import GameCard from '@/components/GameCard';
 import { Game } from '@/types/Game';
-import games from '@/json/games.json';
+import { games } from '@/functions/games';
 import Rank from '@/components/Monster/Rank';
 import useFamilyAccordion from '@/hooks/useFamilyAccordion';
 import useStickyBar from '@/hooks/useStickyBar';
@@ -664,7 +664,6 @@ export const getStaticProps: GetStaticProps = async () => {
 		const defaultGame = 'DQM4';
 		const families: Families = require(`../json/${defaultGame}.json`);
 		reverseSynth(families);
-		const games = require('../json/games.json');
 		const game = games[defaultGame];
 
 		const images = pickImages(
