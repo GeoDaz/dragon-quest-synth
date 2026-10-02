@@ -14,6 +14,7 @@ import Family from './Family';
 import Lower from './Lower';
 import { makeClassName } from '@/functions';
 import useTranslate from '@/hooks/useTranslate';
+import useReserveFilter from '@/hooks/useReserveFilter';
 import { TrailContext } from '@/context/trail';
 import AnchorLink from '../AnchorLink';
 import Icon from '../Icon';
@@ -71,11 +72,25 @@ const ReserveSidebar: React.FC<Props> = ({
 				rankIndex(monsters[a.name]?.rank) - rankIndex(monsters[b.name]?.rank)
 		);
 	}, [entries, monsters, ranks]);
+	const goalItems = useMemo(
+		() =>
+			open ?
+				goals
+					.filter(name => monsters[name])
+					.map(name => ({
+						goal: monsters[name],
+						recipes: goalRecipes(monsters[name], monsters, stock, ranks),
+					}))
+			:	[],
+		[open, goals, monsters, stock, ranks]
+	);
 	const total = entries.reduce((sum, entry) => sum + entry.count, 0);
+	const { query, setQuery, search, filteredEntries, filteredOptions, filteredGoals } =
+		useReserveFilter(sortedEntries, options, goalItems);
 
 	useEffect(() => {
 		setShown(PAGE_SIZE);
-	}, [stock]);
+	}, [stock, search]);
 
 	return (
 		<aside
@@ -91,6 +106,7 @@ const ReserveSidebar: React.FC<Props> = ({
 						variant="outline"
 						type="button"
 						onClick={onToggleExpanded}
+						className="reserve-expand-button"
 						aria-expanded={open}
 						title={translateUI(
 							expanded ? 'Shrink the reserve' : 'Expend the reserve'
@@ -134,28 +150,43 @@ const ReserveSidebar: React.FC<Props> = ({
 						)}
 						<button
 							type="button"
-							className="reserve-icon-button reserve-expand"
-							onClick={onToggleExpanded}
-							aria-pressed={expanded}
-							title={translateUI(
-								expanded ? 'Shrink the reserve' : 'Expand the reserve'
-							)}
+							className="reserve-icon-button close-reserve-button"
+							onClick={onToggle}
+							title={translateUI('Close the reserve')}
 						>
-							<Icon
-								name={
-									expanded ?
-										'arrows-angle-contract'
-									:	'arrows-angle-expand'
-								}
-							/>
+							<Icon name={'x-lg'} />
 						</button>
 					</header>
+					{(!!entries.length || !!goals.length) && (
+						<div className="reserve-search">
+							<Icon name="search" />
+							<input
+								type="search"
+								value={query}
+								onChange={e => setQuery(e.target.value)}
+								placeholder={translateUI('Search a monster')}
+								aria-label={translateUI('Search a monster')}
+							/>
+							{!!query && (
+								<button
+									type="button"
+									className="reserve-icon-button"
+									onClick={() => setQuery('')}
+									title={translateUI('Void')}
+								>
+									<Icon name="x-lg" />
+								</button>
+							)}
+						</div>
+					)}
 					<div className="reserve-body">
 						{!!goals.length && (
 							<section className="reserve-section reserve-goals">
 								<h3 className="reserve-subtitle">
 									<Icon name="bullseye" /> {translateUI('Goals')}
-									<span className="reserve-count">{goals.length}</span>
+									<span className="reserve-count">
+										{filteredGoals.length}
+									</span>
 									<button
 										type="button"
 										className="reserve-icon-button ms-auto"
@@ -165,30 +196,34 @@ const ReserveSidebar: React.FC<Props> = ({
 										<Icon name="trash" />
 									</button>
 								</h3>
-								<ul className="reserve-options">
-									{goals.map(name =>
-										monsters[name] ?
+								{filteredGoals.length ?
+									<ul className="reserve-options">
+										{filteredGoals.map(({ goal, recipes }) => (
 											<GoalRow
-												key={name}
-												goal={monsters[name]}
-												monsters={monsters}
-												stock={stock}
-												ranks={ranks}
+												key={goal.name}
+												goal={goal}
+												recipes={recipes}
 												onRemove={onToggleGoal}
 											/>
-										:	null
-									)}
-								</ul>
+										))}
+									</ul>
+								:	<p className="reserve-empty">
+										{translateUI('No result.')}
+									</p>
+								}
 							</section>
 						)}
 						<section className="reserve-section">
 							<h3 className="reserve-subtitle">
-								<Icon name="box-seam" /> {translateUI('Monsters in reserve')}
-								{!!total && <span className="reserve-count">{total}</span>}
+								<Icon name="box-seam" />{' '}
+								{translateUI('Monsters in reserve')}
+								{!!total && (
+									<span className="reserve-count">{total}</span>
+								)}
 							</h3>
-							{entries.length ?
+							{filteredEntries.length ?
 								<ul className="reserve-list">
-									{sortedEntries.map(entry => (
+									{filteredEntries.map(entry => (
 										<ReserveRow
 											key={entry.name}
 											entry={entry}
@@ -199,6 +234,10 @@ const ReserveSidebar: React.FC<Props> = ({
 										/>
 									))}
 								</ul>
+							: entries.length ?
+								<p className="reserve-empty">
+									{translateUI('No result.')}
+								</p>
 							:	<p className="reserve-empty">
 									{translateUI('Your reserve is empty.')}{' '}
 									{translateUI(
@@ -212,21 +251,23 @@ const ReserveSidebar: React.FC<Props> = ({
 								<h3 className="reserve-subtitle">
 									{translateUI('Possible syntheses')}
 									<span className="reserve-count">
-										{options.length}
+										{filteredOptions.length}
 									</span>
 								</h3>
-								{options.length ?
+								{filteredOptions.length ?
 									<>
 										<ul className="reserve-options">
-											{options.slice(0, shown).map(option => (
-												<OptionRow
-													key={option.result.name}
-													option={option}
-													onAdd={onAdd}
-												/>
-											))}
+											{filteredOptions
+												.slice(0, shown)
+												.map(option => (
+													<OptionRow
+														key={option.result.name}
+														option={option}
+														onAdd={onAdd}
+													/>
+												))}
 										</ul>
-										{shown < options.length && (
+										{shown < filteredOptions.length && (
 											<button
 												type="button"
 												className="reserve-more"
@@ -238,6 +279,10 @@ const ReserveSidebar: React.FC<Props> = ({
 											</button>
 										)}
 									</>
+								: options.length ?
+									<p className="reserve-empty">
+										{translateUI('No result.')}
+									</p>
 								:	<p className="reserve-empty">
 										{translateUI(
 											'No synthesis available with this reserve.'
@@ -308,23 +353,15 @@ const ReserveRow = ({
 
 const GoalRow = ({
 	goal,
-	monsters,
-	stock,
-	ranks,
+	recipes,
 	onRemove,
 }: {
 	goal: Monster;
-	monsters: Monsters;
-	stock: ReserveStock;
-	ranks: string[];
+	recipes: GoalRecipe[];
 	onRemove: (name: string) => void;
 }) => {
 	const { translateMonster, translateUI } = useTranslate();
 	const { walkFrom } = useContext(TrailContext);
-	const recipes = useMemo(
-		() => goalRecipes(goal, monsters, stock, ranks),
-		[goal, monsters, stock, ranks]
-	);
 	const ready = recipes.some(recipe => !!recipe.combo);
 	const [unfolded, setUnfolded] = useState(false);
 	const label = translateMonster(goal.name);
@@ -356,7 +393,9 @@ const GoalRow = ({
 			<span className="reserve-option-marks">
 				<span
 					className={makeClassName('reserve-goal-status', ready && 'ready')}
-					title={translateUI(ready ? 'Ready to synthesize' : 'Missing components')}
+					title={translateUI(
+						ready ? 'Ready to synthesize' : 'Missing components'
+					)}
 				>
 					<Icon name={ready ? 'check-circle-fill' : 'hourglass-split'} />
 				</span>
@@ -393,7 +432,12 @@ const GoalRecipeLine = ({ recipe }: { recipe: GoalRecipe }) => {
 	const { translateMonster, translateUI } = useTranslate();
 	const { parts, combo, rank, rankOk, plus } = recipe;
 	return (
-		<span className={makeClassName('reserve-parents reserve-goal-recipe', !!combo && 'ready')}>
+		<span
+			className={makeClassName(
+				'reserve-parents reserve-goal-recipe',
+				!!combo && 'ready'
+			)}
+		>
 			{combo ?
 				combo.map(parent => (
 					<span key={parent.name} className="reserve-parent">
