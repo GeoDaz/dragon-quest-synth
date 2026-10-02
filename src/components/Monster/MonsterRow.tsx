@@ -19,6 +19,7 @@ import { StringObject } from '@/types/Ui';
 import { Spawn } from '@/types/MonsterDetails';
 import { ReserveContext } from '@/context/reserve';
 import MonsterImgModal from './MonsterImgModal';
+import Popup from '../Popup';
 
 interface Parent {
 	name?: string;
@@ -111,53 +112,77 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 			<td className="cell-details">
 				<div className="row-actions">
 					{/* {hasDetails && ( */}
-					<button
-						type="button"
-						className="btn btn-primary details-button"
-						onClick={() => setOpen(true)}
+					<Popup
+						trigger={
+							<button
+								type="button"
+								className="btn btn-primary details-button"
+								aria-label={translateUI(
+									hasDetails ? 'Details' : 'Enlarge the image'
+								)}
+								onClick={() => setOpen(true)}
+							>
+								<Icon
+									name={hasDetails ? 'text-indent-left' : 'zoom-in'}
+								/>
+								{/*  {translateUI('Details')} */}
+							</button>
+						}
 					>
-						<Icon name={hasDetails ? 'text-indent-left' : 'zoom-in'} />
-						{/*  {translateUI('Details')} */}
-					</button>
+						{translateUI(hasDetails ? 'Details' : 'Enlarge the image')}
+					</Popup>
 					{/* )} */}
 					{/* <div className="d-flex gap-2"> */}
 					{!!addToReserve && (
-						<button
-							type="button"
-							className={makeClassName(
-								'btn btn-primary details-button reserve-button',
-								!!active && 'active'
-							)}
-							onClick={() => {
-								addToReserve(monster.name);
-								if (openReserve) openReserve();
-							}}
+						<Popup
+							trigger={
+								<button
+									type="button"
+									className={makeClassName(
+										'btn btn-primary details-button reserve-button',
+										!!active && 'active'
+									)}
+									aria-label={translateUI('Add to the reserve')}
+									onClick={() => {
+										addToReserve(monster.name);
+										if (openReserve) openReserve();
+									}}
+								>
+									<Icon name="box-seam" />
+									{/*  {translateUI('Reserve')} */}{' '}
+									{/* {active > 1 && (
+										<span className="reserve-times">×{active}</span>
+									)} */}
+								</button>
+							}
 						>
-							<Icon name="box-seam" />
-							{/*  {translateUI('Reserve')} */}{' '}
-							{/* {active > 1 && (
-								<span className="reserve-times">×{active}</span>
-							)} */}
-						</button>
+							{translateUI('Add to the reserve')}
+						</Popup>
 					)}
 					{!!toggleGoal && (
-						<button
-							type="button"
-							className={makeClassName(
-								'btn btn-primary details-button reserve-button goal-button',
-								isGoal && 'active'
-							)}
-							aria-pressed={isGoal}
-							title={translateUI(
-								isGoal ? 'Remove from goals' : 'Add as a goal'
-							)}
-							onClick={() => {
-								toggleGoal(monster.name);
-								if (!isGoal && openReserve) openReserve();
-							}}
+						<Popup
+							trigger={
+								<button
+									type="button"
+									className={makeClassName(
+										'btn btn-primary details-button reserve-button goal-button',
+										isGoal && 'active'
+									)}
+									aria-pressed={isGoal}
+									aria-label={translateUI(
+										isGoal ? 'Remove from goals' : 'Add as a goal'
+									)}
+									onClick={() => {
+										toggleGoal(monster.name);
+										if (!isGoal && openReserve) openReserve();
+									}}
+								>
+									<Icon name="bullseye" /> {/* {translateUI('Goal')} */}
+								</button>
+							}
 						>
-							<Icon name="bullseye" /> {/* {translateUI('Goal')} */}
-						</button>
+							{translateUI(isGoal ? 'Remove from goals' : 'Add as a goal')}
+						</Popup>
 					)}
 					{/* </div> */}
 				</div>
