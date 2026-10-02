@@ -5521,7 +5521,7 @@
 		],
 		"skill": "Prince"
 	},
-	"Crystal Slime": {
+	"Diamond Slime (Alt)": {
 		"size": "S",
 		"stats": {
 			"hp": 900,
@@ -52391,7 +52391,7 @@
 			}
 		]
 	},
-	"Jasper": {
+	"Jasper Unbound": {
 		"size": "S",
 		"stats": {
 			"hp": 1555,
@@ -55536,7 +55536,7 @@
 			}
 		]
 	},
-	"Yocchis": {
+	"Tockles": {
 		"size": "S",
 		"stats": {
 			"hp": 1300,

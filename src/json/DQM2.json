@@ -641,7 +641,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Crystal Slime",
+				"name": "Diamond Slime (Alt)",
 				"rank": "S",
 				"family": "Slime",
 				"synthesis": [
@@ -6011,7 +6011,7 @@
 				"version": "SP"
 			},
 			{
-				"name": "Jasper",
+				"name": "Jasper Unbound",
 				"rank": "S",
 				"family": "???",
 				"synthesis": [["Tyriant", "Indignus"]],
@@ -6354,7 +6354,7 @@
 				"version": "SP"
 			},
 			{
-				"name": "Yocchis",
+				"name": "Tockles",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [],
@@ -6420,7 +6420,7 @@
 				"name": "Mordegon",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Jasper", "Alizarin", "Booga", "Gyldygga"]],
+				"synthesis": [["Jasper Unbound", "Alizarin", "Booga", "Gyldygga"]],
 				"version": "SP"
 			},
 			{
@@ -6513,7 +6513,7 @@
 				"name": "Calasmos",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Mordegon, Lord Of Shadows", "Yocchis"]],
+				"synthesis": [["Mordegon, Lord Of Shadows", "Tockles"]],
 				"version": "SP"
 			},
 			{

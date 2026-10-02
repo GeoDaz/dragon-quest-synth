@@ -4601,7 +4601,7 @@
 				"version": "SP"
 			},
 			{
-				"name": "Jasper",
+				"name": "Jasper Unbound",
 				"rank": "S",
 				"family": "???",
 				"synthesis": [["Avarith", "Krystalinda"]],
@@ -4933,7 +4933,7 @@
 				"name": "Mordegon",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Jasper", "Orgodemir"]],
+				"synthesis": [["Jasper Unbound", "Orgodemir"]],
 				"version": "SP"
 			},
 			{
