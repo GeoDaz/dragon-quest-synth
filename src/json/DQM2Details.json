@@ -43717,7 +43717,7 @@
 		],
 		"skill": "Enfeebler"
 	},
-	"Cursed Mask": {
+	"Hex Hellmet": {
 		"size": "M",
 		"stats": {
 			"hp": 1580,
@@ -56414,7 +56414,7 @@
 			}
 		]
 	},
-	"Maldragora": {
+	"Maldragora Final Forme": {
 		"size": "G",
 		"stats": {
 			"hp": 1260,
