@@ -32,8 +32,9 @@ interface GridProps {
 	line: Line;
 	zoom?: number;
 	handleUpdate?: CallableFunction;
+	handleCut?: (coord: number[]) => void;
 }
-const LineGrid: React.FC<GridProps> = ({ line, zoom = 100, handleUpdate }) => {
+const LineGrid: React.FC<GridProps> = ({ line, zoom = 100, handleUpdate, handleCut }) => {
 	const [drawing, setDrawing] = useState<number[] | undefined>();
 	const [edition, edit] = useState<number[]>();
 	const dragCoord = useRef<number[] | null>(null);
@@ -149,6 +150,7 @@ const LineGrid: React.FC<GridProps> = ({ line, zoom = 100, handleUpdate }) => {
 				handleDragEnd: handleUpdate ? handleDragEnd : undefined,
 				handleDragOver: handleUpdate ? handleDragOver : undefined,
 				handleDrop: handleUpdate ? handleDrop : undefined,
+				handleCut,
 			}}
 		>
 			{!!handleUpdate && (
@@ -167,7 +169,8 @@ const LineGrid: React.FC<GridProps> = ({ line, zoom = 100, handleUpdate }) => {
 				<div
 					className={makeClassName(
 						'line-wrapper line-grid',
-						handleUpdate && 'editable'
+						handleUpdate && 'editable',
+						handleCut && 'cuttable'
 					)}
 					style={{ zoom: `${zoom}%` }}
 				>

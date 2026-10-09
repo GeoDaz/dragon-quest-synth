@@ -9,6 +9,11 @@ export interface TrailNode {
 	parents?: TrailNode[];
 }
 
+export interface TrailPick {
+	name: string;
+	path: number[];
+}
+
 export const LOWER = 'Lower';
 export const isLower = (token: string) => token == LOWER;
 export const isFamily = (token: string) => token.includes('Family');
@@ -21,6 +26,12 @@ export const height = (node: TrailNode): number =>
 
 export const findNode = (node: TrailNode, name: string): TrailNode | undefined =>
 	node.name == name ? node : node.parents?.map(p => findNode(p, name)).find(Boolean);
+
+export const nodeAt = (roots: TrailNode[], path: number[]): TrailNode | undefined =>
+	path.slice(1).reduce<TrailNode | undefined>(
+		(node, step) => node?.parents?.[step],
+		roots[path[0]]
+	);
 
 const recipeParents = (recipe: string[]): TrailNode[] => {
 	const rank = recipe.find(isRank)?.split(' ').pop();
@@ -58,6 +69,26 @@ const fillLeaf = (node: TrailNode, subtree: TrailNode): TrailNode =>
 		{ ...node, parents: node.parents.map(parent => fillLeaf(parent, subtree)) }
 	: node.name == subtree.name ? subtree
 	: node;
+
+const expandedNode = (roots: TrailNode[], name: string): TrailNode | undefined => {
+	const find = (node: TrailNode): TrailNode | undefined =>
+		!node.parents?.length ? undefined
+		: node.name == name ? node
+		: node.parents.map(find).find(Boolean);
+	return roots.map(find).find(Boolean);
+};
+
+const prune = (node: TrailNode, steps: number[]): TrailNode => {
+	if (!steps.length) {
+		const { parents, ...rest } = node;
+		return rest;
+	}
+	const [step, ...rest] = steps;
+	return {
+		...node,
+		parents: node.parents?.map((parent, i) => (i == step ? prune(parent, rest) : parent)),
+	};
+};
 
 const join = (roots: TrailNode[]): TrailNode[] => {
 	for (let i = 0; i < roots.length; i++) {
@@ -101,23 +132,22 @@ const graft = (
 
 const useSynthesisTrail = (monsters: Monsters) => {
 	const [roots, setRoots] = useState<TrailNode[]>([]);
-	const [preferred, setPreferred] = useState<string | undefined>();
+	const [preferred, setPreferred] = useState<TrailPick | undefined>();
 
-	const regraft = (current: TrailNode[], holder: TrailNode, name: string, parents: TrailNode[]) => {
+	const regraft = (current: TrailNode[], name: string, parents: TrailNode[]) => {
 		const displaced: TrailNode[] = [];
-		const grafted = graft(holder, name, parents, displaced);
-		return join([
-			...current.map(root => (root === holder ? grafted : root)),
-			...displaced,
-		]);
+		const grafted = current.map(root =>
+			findNode(root, name) ? graft(root, name, parents, displaced) : root
+		);
+		return join([...grafted, ...displaced]);
 	};
 
 	const walkFrom = useCallback((child: string, recipe: string[]) => {
 		const parents = recipeParents(recipe);
 		setRoots(current => {
-			const holder = current.find(root => !!findNode(root, child));
-			if (!holder) return join([...current, { name: child, parents }]);
-			return regraft(current, holder, child, parents);
+			if (!current.some(root => !!findNode(root, child)))
+				return join([...current, { name: child, parents }]);
+			return regraft(current, child, parents);
 		});
 	}, []);
 
@@ -128,7 +158,7 @@ const useSynthesisTrail = (monsters: Monsters) => {
 			setRoots(current => {
 				const holder = current.find(root => root.name == into);
 				if (!holder) return join([...current, { name: into, parents }]);
-				return regraft(current, holder, into, parents);
+				return regraft(current, into, parents);
 			});
 		},
 		[monsters]
@@ -139,26 +169,38 @@ const useSynthesisTrail = (monsters: Monsters) => {
 			const recipe = defaultRecipe(monsters[name]);
 			setRoots(current => {
 				const parents = recipe ? recipeParents(recipe) : undefined;
-				const holder = current.find(root => !!findNode(root, name));
-				if (!holder) return join([...current, { name, parents }]);
+				if (!current.some(root => !!findNode(root, name)))
+					return join([...current, { name, parents }]);
+				const known = expandedNode(current, name);
+				if (known && current.some(root => hasLeaf(root, name)))
+					return current.map(root => fillLeaf(root, known));
 				if (!parents) return current;
-				return regraft(current, holder, name, parents);
+				return regraft(current, name, parents);
 			});
 		},
 		[monsters]
 	);
 
 	const pickInTrail = useCallback(
-		(name: string) => {
-			const node = roots.map(root => findNode(root, name)).find(Boolean);
-			if (node?.parents?.length) {
-				setPreferred(name);
+		(pick: TrailPick) => {
+			setPreferred(pick);
+			const known = expandedNode(roots, pick.name);
+			if (!known) {
+				addDefault(pick.name);
 				return;
 			}
-			addDefault(name);
+			if (roots.some(root => hasLeaf(root, pick.name)))
+				setRoots(current => current.map(root => fillLeaf(root, known)));
 		},
 		[roots, addDefault]
 	);
+
+	const cutTrail = useCallback((path: number[]) => {
+		const [tree, ...steps] = path;
+		setRoots(current =>
+			current.map((root, i) => (i == tree ? prune(root, steps) : root))
+		);
+	}, []);
 
 	const clearTrail = useCallback(() => {
 		setRoots([]);
@@ -170,7 +212,7 @@ const useSynthesisTrail = (monsters: Monsters) => {
 		[walkInto, walkFrom, addDefault]
 	);
 
-	return { trees: roots, preferred, walk, pickInTrail, clearTrail };
+	return { trees: roots, preferred, walk, pickInTrail, clearTrail, cutTrail };
 };
 
 export default useSynthesisTrail;

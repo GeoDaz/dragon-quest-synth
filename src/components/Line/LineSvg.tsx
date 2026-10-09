@@ -16,6 +16,7 @@ interface Props {
 	ySize?: number;
 	baseWidth?: number;
 	baseHeight?: number;
+	cut?: React.SVGProps<SVGLineElement>;
 }
 const LineSvg: React.FC<Props> = ({
 	from = defaultFrom,
@@ -24,6 +25,7 @@ const LineSvg: React.FC<Props> = ({
 	ySize = 0,
 	baseWidth = pointWidth,
 	baseHeight = pointHeight,
+	cut,
 }) => {
 	if (!from) return null;
 
@@ -81,7 +83,7 @@ const LineSvg: React.FC<Props> = ({
 	}
 	return (
 		<svg
-			className={'line-svg ' + (left ? 'left' : 'right')}
+			className={'line-svg ' + (left ? 'left' : 'right') + (cut ? ' cut' : '')}
 			width={baseWidth + x}
 			height={baseHeight + y}
 			style={svgStyle}
@@ -91,6 +93,7 @@ const LineSvg: React.FC<Props> = ({
 				y1={left ? yOrigin : yOrigin + yDest}
 				x2={xOrigin + xDest}
 				y2={left ? yOrigin + yDest : yOrigin}
+				{...cut}
 				style={{
 					stroke: (color && colors[color]) || colors.default,
 					strokeWidth,

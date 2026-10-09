@@ -160,7 +160,7 @@ const PageLines: React.FC<Props> = props => {
 	const filtersRef = useRef<HTMLDivElement | null>(null);
 	useStickyBar(filtersRef);
 	const allMonsters = useMemo(() => indexMonsters(props.families), [props.families]);
-	const { trees, preferred, walk, pickInTrail, clearTrail } =
+	const { trees, preferred, walk, pickInTrail, clearTrail, cutTrail } =
 		useSynthesisTrail(allMonsters);
 	const {
 		entries,
@@ -479,6 +479,7 @@ const PageLines: React.FC<Props> = props => {
 									preferred={preferred}
 									onPick={pickInTrail}
 									onClear={clearTrail}
+									onCut={cutTrail}
 								/>
 								<ReserveSidebar
 									entries={entries}

@@ -52,6 +52,7 @@ const translatedUI: StringObject = {
 	Rainbow: 'Multicolore',
 	'Collapse the synthesis': 'Replier la synthèse',
 	'Expand the synthesis': 'Déplier la synthèse',
+	Resize: 'Redimensionner',
 	'Download the image': "Télécharger l'image",
 	'Search a monster or a skill set': 'Rechercher un monstre ou un talent',
 	'Search a monster': 'Rechercher un monstre',

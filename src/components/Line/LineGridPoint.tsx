@@ -1,4 +1,4 @@
-import React, { MouseEventHandler, useMemo, useContext } from 'react';
+import React, { MouseEventHandler, useMemo, useContext, useState } from 'react';
 import { LinePoint as LinePointInterface } from '@/types/Line';
 import LineImage from '@/components/Line/LineImage';
 import { makeClassName } from '@/functions';
@@ -51,7 +51,9 @@ const LinePoint: React.FC<{
 		handleDragEnd,
 		handleDragOver,
 		handleDrop,
+		handleCut,
 	} = React.useContext(GridContext);
+	const [cutting, setCutting] = useState(false);
 	const isDrawing: boolean =
 		!!drawing && drawing[0] == coord[0] && drawing[1] == coord[1];
 
@@ -88,10 +90,20 @@ const LinePoint: React.FC<{
 		}
 	};
 
+	const cut = handleCut && {
+		onMouseEnter: () => setCutting(true),
+		onMouseLeave: () => setCutting(false),
+		onClick: (e: React.MouseEvent) => {
+			handleClickBuffer(e);
+			setCutting(false);
+			handleCut(coord);
+		},
+	};
+
 	const {
 		name,
 		from,
-		color,
+		color: pointColor,
 		skins = [],
 		image,
 		xSize,
@@ -102,6 +114,7 @@ const LinePoint: React.FC<{
 		rank,
 		plus,
 	} = point;
+	const color = cutting ? 'fire' : pointColor;
 
 	const width: number = useMemo(() => {
 		if (xSize) {
@@ -214,6 +227,7 @@ const LinePoint: React.FC<{
 						baseHeight={height}
 						xSize={xSize}
 						ySize={ySize}
+						cut={cut}
 					/>
 				))
 			) : (
@@ -224,6 +238,7 @@ const LinePoint: React.FC<{
 					baseHeight={height}
 					xSize={xSize}
 					ySize={ySize}
+					cut={cut}
 				/>
 			)}
 		</div>

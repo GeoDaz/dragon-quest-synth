@@ -12,6 +12,7 @@ export interface GridContextInterface {
 	handleDragEnd?: () => void;
 	handleDragOver?: (e: DragEvent) => void;
 	handleDrop?: (coord: number[]) => void;
+	handleCut?: (coord: number[]) => void;
 }
 
 export const GridContext = createContext<GridContextInterface>({});
