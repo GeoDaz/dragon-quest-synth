@@ -1420,7 +1420,7 @@
 				"synthesis": [["Orc", "Lower"]]
 			},
 			{
-				"name": "Battering Ram",
+				"name": "Damned Ram",
 				"rank": "D",
 				"family": "Beast",
 				"synthesis": [
@@ -1432,7 +1432,7 @@
 				"name": "Growlbear",
 				"rank": "D",
 				"family": "Beast",
-				"synthesis": [["Battering Ram", "Lower"]]
+				"synthesis": [["Damned Ram", "Lower"]]
 			},
 			{
 				"name": "Bewarewolf",
@@ -1513,7 +1513,7 @@
 				"name": "Octagoon",
 				"rank": "C",
 				"family": "Beast",
-				"synthesis": [["Battering Ram", "Foo Dog"]]
+				"synthesis": [["Damned Ram", "Foo Dog"]]
 			},
 			{
 				"name": "Merman",
@@ -1666,7 +1666,7 @@
 				"rank": "A",
 				"family": "Beast",
 				"synthesis": [
-					["Battering Ram", "Battering Ram", "Battering Ram", "Battering Ram"],
+					["Damned Ram", "Damned Ram", "Damned Ram", "Damned Ram"],
 					["Tigergram", "Lower"]
 				]
 			},
@@ -3515,7 +3515,7 @@
 				"rank": "A",
 				"family": "Demon",
 				"synthesis": [
-					["Buffalogre", "Battering Ram"],
+					["Buffalogre", "Damned Ram"],
 					["Buffalogre", "Samigina"]
 				]
 			},

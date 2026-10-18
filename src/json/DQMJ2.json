@@ -1726,7 +1726,7 @@
 				"version": "Pro"
 			},
 			{
-				"name": "Battering Ram",
+				"name": "Damned Ram",
 				"rank": "D",
 				"family": "Beast",
 				"synthesis": [],
@@ -1928,9 +1928,7 @@
 				"name": "Buffalogre",
 				"rank": "A",
 				"family": "Beast",
-				"synthesis": [
-					["Battering Ram", "Battering Ram", "Battering Ram", "Battering Ram"]
-				],
+				"synthesis": [["Damned Ram", "Damned Ram", "Damned Ram", "Damned Ram"]],
 				"version": "Pro"
 			},
 			{
@@ -1969,7 +1967,7 @@
 				"name": "Moosifer",
 				"rank": "A",
 				"family": "Beast",
-				"synthesis": [["Buffalogre", "Battering Ram"]],
+				"synthesis": [["Buffalogre", "Damned Ram"]],
 				"version": "Pro"
 			},
 			{
@@ -2437,7 +2435,7 @@
 				"name": "Octagoon",
 				"rank": "C",
 				"family": "Material",
-				"synthesis": [["Battering Ram", "Foo Dog"]],
+				"synthesis": [["Damned Ram", "Foo Dog"]],
 				"version": "Pro"
 			},
 			{
