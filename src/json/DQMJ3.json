@@ -940,15 +940,15 @@
 				"name": "Dragonlord",
 				"rank": "X",
 				"family": "Dragon",
-				"synthesis": [["Noble Dragon", "Black Flying Dragon"]],
+				"synthesis": [["Demon-At-Arms", "Noble Dragon"]],
 				"version": "Non-Pro"
 			},
 			{
-				"name": "Dragonlord",
+				"name": "True Dragonlord",
 				"rank": "X",
 				"family": "Dragon",
-				"synthesis": [["True Dragonlord", "Black Flying Dragon"]],
-				"version": "Pro"
+				"synthesis": [["Noble Dragon", "Black Flying Dragon"]],
+				"version": "Non-Pro"
 			},
 			{
 				"name": "True Dragonlord",
@@ -4550,7 +4550,8 @@
 				"name": "Psaro",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["PsychoPiz", "Madyuraja", "Fractos", "Zenith Dragon"]]
+				"synthesis": [["PsychoPiz", "Madyuraja", "Fractos", "Zenith Dragon"]],
+				"version": "Pro"
 			},
 			{
 				"name": "Nimzo",
@@ -4751,11 +4752,11 @@
 				"version": "Pro"
 			},
 			{
-				"name": "Hoakari",
+				"name": "Hihyurude",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
-					["Leonyx", "Ace Of Spades", "Liquid Metal Slime", "Elder Pipit"]
+					["Leonyx", "Ace Of Spades", "Liquid Metal Slime King", "Elder Pipit"]
 				],
 				"version": "Pro"
 			},
@@ -4770,7 +4771,7 @@
 				"name": "Hihyudorado",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Hoakari", "King Sanguini"]],
+				"synthesis": [["Hihyurude", "King Sanguini"]],
 				"version": "Pro"
 			},
 			{
