@@ -1015,7 +1015,10 @@
 				"name": "Grand Dragon",
 				"rank": "X",
 				"family": "Dragon",
-				"synthesis": [["Gran Estark", "King Hydra", "Madyuraja", "J3P Axel Gold"]]
+				"synthesis": [
+					["Gran Estark", "King Hydra", "Madyuraja", "J3P Axel Gold"]
+				],
+				"version": "Pro"
 			},
 			{
 				"name": "Wyrmhole Dragon",
