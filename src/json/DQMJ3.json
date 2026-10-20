@@ -4808,7 +4808,7 @@
 				"name": "Nameless King Of Darkness",
 				"rank": "X",
 				"family": "???",
-				"synthesis": [["Psaro", "Nimzo", "Lucky Seven 'Oods", "Great Nochoro"]],
+				"synthesis": [["Psaro", "Nimzo", "Lucky Seven 'Oods", "Mecha Nochoro Z"]],
 				"version": "Non-Pro"
 			},
 			{
@@ -4906,7 +4906,7 @@
 				"synthesis": []
 			},
 			{
-				"name": "Great Nochoro",
+				"name": "Mecha Nochoro Z",
 				"rank": "X",
 				"family": "???",
 				"synthesis": []
@@ -4924,21 +4924,21 @@
 				"synthesis": []
 			},
 			{
-				"name": "J3P-Gold Wing",
+				"name": "Golden Wing",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [],
 				"version": "Pro"
 			},
 			{
-				"name": "J3P Axel Gold",
+				"name": "Golden Camothrust",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [],
 				"version": "Pro"
 			},
 			{
-				"name": "J3P-Gold Marin",
+				"name": "Golden Marine",
 				"rank": "X",
 				"family": "???",
 				"synthesis": [],
