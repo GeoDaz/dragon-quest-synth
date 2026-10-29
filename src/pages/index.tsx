@@ -57,6 +57,7 @@ import { games } from '@/functions/games';
 import Rank from '@/components/Monster/Rank';
 import useFamilyAccordion from '@/hooks/useFamilyAccordion';
 import useStickyBar from '@/hooks/useStickyBar';
+import GameTabs from '@/components/GameTabs';
 
 interface Props {
 	families: Families;
@@ -68,6 +69,7 @@ interface Props {
 	spawns: GameSpawns;
 	talents: GameTalents;
 	game: Game;
+	hasTalentRecipes?: boolean;
 }
 export const gameDetails = (game: string): MonstersDetails => {
 	try {
@@ -137,6 +139,40 @@ export const gameTalents = (game: string, details: MonstersDetails): GameTalents
 	}
 };
 
+export const gameTalentRecipes = (game: string): GameTalents => {
+	try {
+		const data = require(`../json/${game}Moves.json`);
+		const names = new Set<string>();
+		Object.entries(data.talents || {}).forEach(([name, talent]: [string, any]) => {
+			if (!talent.from?.length) return;
+			names.add(name);
+			talent.from.flat().forEach((ingredient: string) => names.add(ingredient));
+		});
+		const talents: GameTalents['talents'] = {};
+		const moves: GameTalents['moves'] = {};
+		names.forEach(name => {
+			const talent = data.talents[name];
+			if (!talent?.moves?.length) return;
+			talents[name] = {
+				moves: talent.moves.map(({ move, sp }: TalentStep) => ({ move, sp })),
+				...(talent.traits?.length ? { traits: talent.traits } : {}),
+				...(talent.category ? { category: talent.category } : {}),
+				...(talent.from?.length ? { from: talent.from } : {}),
+			};
+			talent.moves.forEach(({ move }: TalentStep) => {
+				const entry = data.moves?.[move];
+				if (entry?.en) moves[move] = { en: entry.en };
+			});
+		});
+		return { talents, moves };
+	} catch (e) {
+		return emptyTalents;
+	}
+};
+
+export const gameHasTalentRecipes = (game: string): boolean =>
+	Object.values(gameTalentRecipes(game).talents).some(talent => !!talent.from);
+
 const ALWAYS_OPEN_BELOW = 10;
 
 const PageLines: React.FC<Props> = props => {
@@ -149,6 +185,7 @@ const PageLines: React.FC<Props> = props => {
 		items = emptyItems,
 		spawns = emptySpawns,
 		talents = emptyTalents,
+		hasTalentRecipes = false,
 	} = props;
 	const [families, setFamilies] = useState<Families>(props.families);
 	const { hash, nav, navigate } = useHash();
@@ -376,6 +413,7 @@ const PageLines: React.FC<Props> = props => {
 						</div>
 					))}
 			</div>
+			{hasTalentRecipes && <GameTabs game={game.key} active="synthesis" />}
 			<div ref={filtersRef} className="synthesis-filters mb-4">
 				<SearchBar
 					label={translateUI('Search a monster or a skill set')}
@@ -688,6 +726,7 @@ export const getStaticProps: GetStaticProps = async () => {
 				spawns,
 				talents,
 				game,
+				hasTalentRecipes: gameHasTalentRecipes(defaultGame),
 			},
 		};
 	} catch (e) {

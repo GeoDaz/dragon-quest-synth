@@ -5,11 +5,19 @@ import { Game } from '@/types/Game';
 import Image from 'next/image';
 import Icon from './Icon';
 
-const GameCard = ({ game, currentGame }: { game: Game; currentGame?: string }) => {
+const GameCard = ({
+	game,
+	currentGame,
+	href = `/game/${game.key}`,
+}: {
+	game: Game;
+	currentGame?: string;
+	href?: string;
+}) => {
 	const router = useRouter();
 	return (
 		<Card
-			onClick={() => router.push(`/game/${game.key}`)}
+			onClick={() => router.push(href)}
 			className={makeClassName(
 				'click flex-grow-1 flex-center overflow-hidden',
 				!game || game.key == currentGame ? 'active' : ''

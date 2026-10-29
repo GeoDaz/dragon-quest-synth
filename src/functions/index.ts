@@ -6,7 +6,8 @@ export const typeOf = (value: any): string => {
 	return typeof value;
 };
 
-export const withoutAlt = (name: string): string => name.replace(/ \(Alt\)$/, '');
+export const withoutAlt = (name: string): string =>
+	name.replace(/ \(Alt(?: \d+)?\)$/, '');
 
 export const camelToKebab = (str: string): string =>
 	str.replace(/([a-z0-9])([A-Z])/g, '$1-$2').toLowerCase();
@@ -35,7 +36,10 @@ export const capitalize = (string: string): string => {
 
 export const processLanguage = () => {
 	const language: string =
-		navigator.language || navigator.languages?.[0] || (navigator as any).userLanguage || '';
+		navigator.language ||
+		navigator.languages?.[0] ||
+		(navigator as any).userLanguage ||
+		'';
 	const [p1, p2] = language.split('-');
 	if (p1 == 'fr' || p2 == 'FR') return true;
 	return false;

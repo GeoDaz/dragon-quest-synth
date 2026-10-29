@@ -4,8 +4,8 @@ import Icon from '@/components/Icon';
 import { LineColor, LineFrom, LinePoint } from '@/types/Line';
 import { GridContext } from '@/context/grid';
 import { setLinePoint } from '@/reducers/lineReducer';
-import SearchBar from '@/components/SearchBar';
 import LineImage from './LineImage';
+import MonsterFinder from './MonsterFinder';
 import colors, { legend } from '@/consts/colors';
 import UploadImage from '../UploadImage';
 import InputMono from '../InputMono';
@@ -145,11 +145,7 @@ const LinePointSettings: React.FC<Props> = ({
 				</Modal.Title>
 			</Modal.Header>
 			<Modal.Body>
-				<SearchBar
-					label={`Research a Monster`}
-					onSubmit={handleChoose}
-					forwardRef={ref}
-				/>
+				<MonsterFinder onSelect={handleChoose} forwardRef={ref} />
 				<InputMono
 					name="image"
 					onSubmit={handleImage}
@@ -189,9 +185,9 @@ const LinePointSettings: React.FC<Props> = ({
 						>
 							Add a skin (max 3)
 						</h4>
-						<SearchBar
-							label={`Research a Monster`}
-							onSubmit={handleChooseSkin}
+						<MonsterFinder
+							id="monster-finder-skin"
+							onSelect={handleChooseSkin}
 							disabled={point.skins ? point.skins.length > 2 : false}
 						/>
 						<div className="d-flex flex-wrap gap-3">

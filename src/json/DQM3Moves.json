@@ -2521,7 +2521,8 @@
 				}
 			],
 			"traits": ["Max. MP +16", "Max. MP +24"],
-			"category": "Evolution"
+			"category": "Evolution",
+			"from": [["Woosh Afficionado"]]
 		},
 		"Crag Afficionado": {
 			"moves": [

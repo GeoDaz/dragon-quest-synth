@@ -84,6 +84,8 @@ export interface TalentStep {
 export interface GameTalent {
 	moves: TalentStep[];
 	traits?: string[];
+	category?: string;
+	from?: string[][];
 }
 
 export interface GameTalents {

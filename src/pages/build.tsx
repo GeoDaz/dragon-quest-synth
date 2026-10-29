@@ -21,12 +21,16 @@ import { ImagesContext } from '@/context/images';
 import { StringObject } from '@/types/Ui';
 import Search from '@/types/Search';
 import { getDubbedSearchList } from '@/functions/search';
+import { MonsterInfoContext, MonsterInfos } from '@/context/monsterInfo';
+import { games } from '@/functions/games';
+import { Families } from '@/types/Monster';
 
 interface Props {
 	images: StringObject;
 	search: Search;
+	monsterInfos: MonsterInfos;
 }
-const PageBuild: React.FC<Props> = ({ images = {}, search }) => {
+const PageBuild: React.FC<Props> = ({ images = {}, search, monsterInfos = {} }) => {
 	const [line, dispatchState] = useReducer<Line, [Record<string, any>]>(lineReducer, defaultLine);
 	const setLine = (line: Line) => dispatchState(setLineAction(line));
 	const { setItemToStorage } = useLocalStorage('line', line, setLine);
@@ -123,11 +127,13 @@ const PageBuild: React.FC<Props> = ({ images = {}, search }) => {
 			</div>
 			<SearchContext.Provider value={search}>
 				<ImagesContext.Provider value={images}>
-					<LineGrid
-						line={line}
-						zoom={zoom}
-						handleUpdate={edition ? handleUpdate : undefined}
-					/>
+					<MonsterInfoContext.Provider value={monsterInfos}>
+						<LineGrid
+							line={line}
+							zoom={zoom}
+							handleUpdate={edition ? handleUpdate : undefined}
+						/>
+					</MonsterInfoContext.Provider>
 				</ImagesContext.Provider>
 			</SearchContext.Provider>
 		</Layout>
@@ -141,7 +147,25 @@ export const getStaticProps: GetStaticProps = async () => {
 		const searchList: string[] = Object.keys(images);
 		const search: Search = getDubbedSearchList(searchList, translatedMonsters);
 
-		return { props: { images, search } };
+		const monsterInfos: MonsterInfos = {};
+		Object.values(games)
+			.filter(game => game.available && game.key !== 'Custom')
+			.forEach(game => {
+				const families: Families = require(`../json/${game.key}.json`);
+				Object.entries(families).forEach(([family, ranks]) =>
+					Object.entries(ranks).forEach(([rank, monsters]) =>
+						monsters.forEach(({ name }) => {
+							const info = (monsterInfos[name] ||= [family, '']);
+							const entry = `${game.key} ${rank}`;
+							if (!info[1].split(', ').some(e => e.startsWith(`${game.key} `))) {
+								info[1] = info[1] ? `${info[1]}, ${entry}` : entry;
+							}
+						})
+					)
+				);
+			});
+
+		return { props: { images, search, monsterInfos } };
 	} catch (e) {
 		console.error(e);
 		return { props: {} };

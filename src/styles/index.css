@@ -1274,6 +1274,40 @@ a.line-point {
   background-color: rgba(0, 0, 0, .4);
 }
 
+/* monster finder */
+.monster-finder-list {
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+.monster-finder-thumb {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+}
+
+.monster-finder-thumb .line-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.monster-finder-variant {
+  margin-left: .5em;
+  padding: 0 .4em;
+  border: 1px solid var(--dl-border-soft);
+  border-radius: 999px;
+  font-size: .75em;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.monster-finder-details {
+  opacity: .75;
+}
+
 /* dropdown */
 .dropdown-header {
   color: white;
@@ -3142,4 +3176,155 @@ body:has(.reserve-sidebar.open) .btn-scroll-up {
 .reserve-goal-more:focus {
   color: #e7ecf2;
   border-color: var(--dl-label);
+}
+
+/* Game tabs */
+
+.game-tabs {
+  display: flex;
+  gap: 6px;
+  border-bottom: 1px solid var(--dl-border-soft);
+}
+
+a.game-tab {
+  margin-bottom: -1px;
+  padding: 8px 18px;
+  border: 1px solid transparent;
+  border-radius: 9px 9px 0 0;
+  font-weight: 600;
+  color: var(--dl-label);
+  text-decoration: none;
+  transition: all .3s;
+}
+
+a.game-tab:hover,
+a.game-tab:focus-visible {
+  color: #e7ecf2;
+  border-color: var(--dl-border-soft);
+  background-color: var(--bs-body-bg);
+}
+
+a.game-tab.active {
+  border-color: var(--dl-border-soft);
+  border-bottom-color: var(--bs-body-bg);
+  background-color: var(--bs-body-bg);
+  color: #e7ecf2;
+}
+
+/* Talent recipes */
+
+.talent-recipes-intro {
+  color: var(--dl-muted);
+}
+
+.talent-recipes-title {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #e7ecf2;
+}
+
+.talent-recipes-count {
+  margin-left: auto;
+  font-family: var(--dl-mono);
+  font-size: .55em;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--dl-label);
+}
+
+.talent-recipe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 360px), 1fr));
+  gap: 12px;
+}
+
+.talent-recipes-wide .talent-recipe-list {
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 560px), 1fr));
+}
+
+.talent-recipe {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 14px;
+  border: 1px solid var(--dl-border-soft);
+  border-radius: 12px;
+  background-color: var(--dl-panel-soft);
+  scroll-margin-top: calc(var(--dl-header-height, 67px) + 70px);
+}
+
+.talent-recipe-result {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #e7ecf2;
+}
+
+.talent-recipe-sources {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.talent-recipe-label {
+  font-family: var(--dl-mono);
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--dl-muted);
+}
+
+.talent-recipe-combo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.talent-recipe-ingredient {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  border: 1px solid var(--dl-border-strong);
+  border-radius: 999px;
+  background-color: var(--dl-panel);
+  font-size: .9rem;
+  color: var(--dl-label);
+}
+
+.talent-recipe-sp {
+  font-family: var(--dl-mono);
+  font-size: .75rem;
+  color: var(--dl-muted);
+  white-space: nowrap;
+}
+
+a.talent-recipe-link,
+a.talent-recipe-link:hover,
+a.talent-recipe-link:focus-visible {
+  color: var(--dl-label);
+  text-decoration: none;
+  transition: border-color .3s;
+}
+
+a.talent-recipe-link:hover,
+a.talent-recipe-link:focus-visible {
+  border-color: var(--dl-accent);
+}
+
+.talent-recipe-plus,
+.talent-recipe-or {
+  font-weight: 700;
+  color: var(--dl-muted);
+}
+
+.talent-recipe-or {
+  font-size: .8rem;
+  text-transform: uppercase;
 }

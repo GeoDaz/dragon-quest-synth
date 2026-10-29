@@ -3,6 +3,7 @@ import { Families } from '@/types/Monster';
 import PageLines, {
 	gameDetails,
 	gameFarewell,
+	gameHasTalentRecipes,
 	gameItems,
 	gameSpawns,
 	gameTalents,
@@ -57,6 +58,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 				spawns,
 				talents,
 				game,
+				hasTalentRecipes: gameHasTalentRecipes(gameName),
 			},
 		};
 	} catch (e) {
