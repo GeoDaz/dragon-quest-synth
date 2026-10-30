@@ -3298,6 +3298,10 @@ a.game-tab.active {
   color: var(--dl-label);
 }
 
+.talent-recipe-ingredient .described{
+  line-height: 1;
+}
+
 .talent-recipe-sp {
   font-family: var(--dl-mono);
   font-size: .75rem;

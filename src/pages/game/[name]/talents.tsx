@@ -11,7 +11,7 @@ import ScrollUp from '@/components/ScrollUp';
 import Talent from '@/components/Monster/Talent';
 import { DetailsContext, emptyTalents, emptyTerms } from '@/context/details';
 import { FiltersContext } from '@/context/filter';
-import { GameTalents, GameTerms } from '@/types/MonsterDetails';
+import { GameTalent, GameTalents, GameTerms } from '@/types/MonsterDetails';
 import { Game } from '@/types/Game';
 import { games } from '@/functions/games';
 import { makeClassName, stringToKey } from '@/functions';
@@ -20,6 +20,61 @@ import useHash from '@/hooks/useHash';
 import useScrollToAnchor from '@/hooks/useScrollToAnchor';
 import useStickyBar from '@/hooks/useStickyBar';
 import { gameHasTalentRecipes, gameTalentRecipes, gameTerms } from '../..';
+
+const categoryLabels: { [category: string]: string } = {
+	Evolution: 'Evolved skill sets',
+	Combination: 'Combined skill sets',
+};
+
+const categoryDescriptions: { [category: string]: string } = {
+	Evolution:
+		'Obtained by synthesizing a monster that has reached the right amount of SP in the previous skill set, or by synthesizing 2 monsters that have this same skill set with the right amount of SP between them.',
+	Combination:
+		'Obtained by synthesizing 2 monsters that each have one of the required skill sets with the right amount of SP.',
+};
+
+const categoryLabel = (category: string) => categoryLabels[category] || category;
+
+const isBonus = (talent: GameTalent) =>
+	talent.moves.every(({ move }) => talent.traits?.includes(move));
+
+const orderRecipes = <T extends [string, GameTalent]>(list: T[]): T[] => {
+	const byName = new Map(list.map(entry => [entry[0], entry]));
+	const index = new Map(list.map(([name], i) => [name, i]));
+	const used = new Set(list.flatMap(([, talent]) => talent.from?.flat() || []));
+	const ordered: T[] = [];
+	const seen = new Set<string>();
+	const visit = (name: string) => {
+		const entry = byName.get(name);
+		if (!entry || seen.has(name)) return;
+		seen.add(name);
+		Array.from(new Set(entry[1].from?.flat()))
+			.sort((a, b) => (index.get(a) ?? -1) - (index.get(b) ?? -1))
+			.forEach(visit);
+		ordered.push(entry);
+	};
+	const finals = list.filter(([name]) => !used.has(name));
+	const groupKey = (name: string) => name.split(' ').pop() || name;
+	const rank = ([name, talent]: T) =>
+		isBonus(talent) ? 2
+		: name.endsWith(' Virtuoso') ? 1
+		: 0;
+	const groupStart = new Map<string, number>();
+	finals.forEach(([name], i) => {
+		if (!groupStart.has(groupKey(name))) groupStart.set(groupKey(name), i);
+	});
+	finals
+		.map((entry, i) => ({ entry, i }))
+		.sort(
+			(a, b) =>
+				rank(a.entry) - rank(b.entry) ||
+				groupStart.get(groupKey(a.entry[0]))! - groupStart.get(groupKey(b.entry[0]))! ||
+				a.i - b.i
+		)
+		.forEach(({ entry: [name] }) => visit(name));
+	list.forEach(([name]) => visit(name));
+	return ordered;
+};
 
 interface Props {
 	game: Game;
@@ -76,7 +131,10 @@ const TalentsPage: React.FC<Props> = ({
 		[talents]
 	);
 	const categories = useMemo(
-		() => Array.from(new Set(recipes.map(([, talent]) => talent.category || 'Evolution'))),
+		() =>
+			Array.from(new Set(recipes.map(([, talent]) => talent.category || 'Evolution'))).sort(
+				(a, b) => Number(b == 'Combination') - Number(a == 'Combination')
+			),
 		[recipes]
 	);
 
@@ -163,9 +221,6 @@ const TalentsPage: React.FC<Props> = ({
 					))}
 			</div>
 			<GameTabs game={game.key} active="talents" />
-			<p className="talent-recipes-intro">
-				{translateUI('Skill sets obtained by evolving or combining maxed skill sets.')}
-			</p>
 			<div ref={filtersRef} className="synthesis-filters mb-4">
 				<SearchBar
 					label={translateUI('Search a skill set')}
@@ -179,7 +234,7 @@ const TalentsPage: React.FC<Props> = ({
 							'filter-dropdown',
 							!!selectedCategory && 'filter-active'
 						)}
-						title={translateUI(selectedCategory || 'Category')}
+						title={translateUI(selectedCategory ? categoryLabel(selectedCategory) : 'Category')}
 					>
 						{!!selectedCategory && (
 							<Dropdown.Item onClick={() => setSelectedCategory(undefined)}>
@@ -192,7 +247,7 @@ const TalentsPage: React.FC<Props> = ({
 								active={selectedCategory == category}
 								onClick={() => setSelectedCategory(category)}
 							>
-								{translateUI(category)}
+								{translateUI(categoryLabel(category))}
 							</Dropdown.Item>
 						))}
 					</DropdownButton>
@@ -211,8 +266,10 @@ const TalentsPage: React.FC<Props> = ({
 				<DetailsContext.Provider value={detailsValue}>
 					{filtered.length > 0 ?
 						categories.map(category => {
-							const list = filtered.filter(
-								([, talent]) => (talent.category || 'Evolution') == category
+							const list = orderRecipes(
+								filtered.filter(
+									([, talent]) => (talent.category || 'Evolution') == category
+								)
 							);
 							if (!list.length) return null;
 							return (
@@ -224,7 +281,7 @@ const TalentsPage: React.FC<Props> = ({
 									)}
 								>
 									<h2 className="talent-recipes-title">
-										{translateUI(category)}
+										{translateUI(categoryLabel(category))}
 										<span className="talent-recipes-count">
 											{list.length}&nbsp;
 											{translateUI(
@@ -232,6 +289,11 @@ const TalentsPage: React.FC<Props> = ({
 											)}
 										</span>
 									</h2>
+									{!!categoryDescriptions[category] && (
+										<p className="talent-recipes-intro">
+											{translateUI(categoryDescriptions[category])}
+										</p>
+									)}
 									<div className="talent-recipe-list">
 										{list.map(([name, talent]) => (
 											<TalentRecipe
@@ -338,11 +400,18 @@ const Ingredient = ({ name }: { name: string }) => {
 	);
 };
 
-const IngredientContent = ({ name, sp }: { name: string; sp?: number }) => (
-	<>
-		<Talent name={name} />
-		{sp !== undefined && <span className="talent-recipe-sp">{sp}&nbsp;SP</span>}
-	</>
-);
+const IngredientContent = ({ name, sp }: { name: string; sp?: number }) => {
+	const { translateUI } = useTranslate();
+	return (
+		<>
+			<Talent name={name} />
+			{sp !== undefined && (
+				<span className="talent-recipe-sp">
+					{sp}&nbsp;{translateUI('SP')}
+				</span>
+			)}
+		</>
+	);
+};
 
 export default TalentsPage;

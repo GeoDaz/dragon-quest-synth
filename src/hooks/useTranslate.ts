@@ -1,10 +1,14 @@
 import { useCallback, useContext } from 'react';
 import { LanguageContext } from '@/context/language';
+import { GameContext } from '@/context/game';
 import { StringObject } from '@/types/Ui';
 import { withoutAlt } from '@/functions';
 const translatedMonsters = require('../json/monsterTranslations.json');
 const translatedMoves: StringObject = require('../json/movesTranslations.json');
 const translatedSkills: StringObject = require('../json/skillsTranslations.json');
+const gameTranslatedSkills: { [game: string]: StringObject } = {
+	DQM4: require('../json/DQM4SkillsTranslations.json'),
+};
 const translatedTraits: StringObject = require('../json/traitsTranslations.json');
 const translatedAreas: StringObject = require('../json/areasTranslations.json');
 
@@ -101,14 +105,17 @@ const translatedUI: StringObject = {
 	'skill sets': 'talents',
 	'Search a skill set': 'Rechercher un talent',
 	'No skill set found': 'Aucun talent trouvé',
-	Evolution: 'Évolution',
-	Combination: 'Fusion',
+	'Evolved skill sets': 'Talents évolués',
+	'Combined skill sets': 'Talents combinés',
+	'Obtained by synthesizing 2 monsters that each have one of the required skill sets with the right amount of SP.':
+		'Obtenus en synthétisant 2 monstres ayant chacun un des talents requis avec le bon nombre de PC.',
+	'Obtained by synthesizing a monster that has reached the right amount of SP in the previous skill set, or by synthesizing 2 monsters that have this same skill set with the right amount of SP between them.':
+		'Obtenus en synthétisant un monstre ayant atteint le bon nombre de PC sur le talent précédent ou en synthétisant 2 monstres ayant ce même talent avec le bon nombre de PC à eux deux.',
 	Category: 'Catégorie',
 	'Skill sets to max': 'Talents à maxer',
-	'Skill sets obtained by evolving or combining maxed skill sets.':
-		'Talents obtenus en faisant évoluer ou en fusionnant des talents maxés.',
 	'Go to this skill set': 'Aller à ce talent',
 	'2 among the following': '2 parmi les suivants',
+	SP: 'PC',
 	Skill: 'Compétence',
 	'2nd skill among': 'Second talent parmi',
 	Drop: 'Butin',
@@ -204,6 +211,7 @@ const translatedUI: StringObject = {
 
 const useTranslate = () => {
 	const isFr = useContext(LanguageContext);
+	const game = useContext(GameContext);
 
 	const translateMonster = (name: string): string => {
 		const base = withoutAlt(name);
@@ -234,8 +242,11 @@ const useTranslate = () => {
 		[isFr]
 	);
 	const translateSkill = useCallback(
-		(name: string): string => (isFr && translatedSkills[name]) || name,
-		[isFr]
+		(name: string): string =>
+			(isFr &&
+				((game && gameTranslatedSkills[game]?.[name]) || translatedSkills[name])) ||
+			name,
+		[isFr, game]
 	);
 	const translateTrait = useCallback(
 		(name: string): string => (isFr && translatedTraits[name]) || name,

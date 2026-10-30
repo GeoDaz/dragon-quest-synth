@@ -11,6 +11,7 @@ import Donate from '@/components/Donate';
 import Footer from '@/components/Footer';
 import ErrorBoundary from '@/components/ErrorBoundary';
 import { LanguageContext } from '@/context/language';
+import { GameContext } from '@/context/game';
 import { processLanguage } from '@/functions';
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -38,11 +39,13 @@ export default function App({ Component, pageProps }: AppProps) {
 		<ErrorBoundary>
 			<Header />
 			<LanguageContext.Provider value={language}>
-				{loading ?
-					<div className="spinner-wrapper text-center mt-5 mb-5">
-						<Spinner animation="border" className="xl" variant="primary" />
-					</div>
-				:	<Component {...pageProps} />}
+				<GameContext.Provider value={pageProps.game?.key}>
+					{loading ?
+						<div className="spinner-wrapper text-center mt-5 mb-5">
+							<Spinner animation="border" className="xl" variant="primary" />
+						</div>
+					:	<Component {...pageProps} />}
+				</GameContext.Provider>
 				<Donate />
 				<Footer />
 			</LanguageContext.Provider>

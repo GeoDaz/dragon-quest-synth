@@ -335,7 +335,7 @@
 				"rank": "C",
 				"family": "Slime",
 				"subfamily": ["Fire", "Elemental", "Material"],
-				"synthesis": [["Molten Slime", "Stalagluant"]]
+				"synthesis": [["Molten Slime", "Slimecicle"]]
 			},
 			{
 				"name": "Liquid Metal Slime",
@@ -357,13 +357,6 @@
 				"family": "Slime",
 				"subfamily": ["Metal"],
 				"synthesis": [["Metal Slime", "Angel Slime"]]
-			},
-			{
-				"name": "Jester Slime",
-				"rank": "C",
-				"family": "Slime",
-				"subfamily": ["Dark"],
-				"synthesis": [["Dark Slime", "Angel Slime"]]
 			},
 			{
 				"name": "Snooty Slime Knight",
@@ -439,13 +432,6 @@
 				"family": "Slime",
 				"subfamily": ["Food"],
 				"synthesis": [["King Bubble Slime", "Scuttle Slime"]]
-			},
-			{
-				"name": "King Jester Slime",
-				"rank": "B",
-				"family": "Slime",
-				"subfamily": ["Dark"],
-				"synthesis": [["Dark King Slime", "Jester Slime"]]
 			},
 			{
 				"name": "Shogum",
@@ -1787,10 +1773,10 @@
 				"family": "Beast",
 				"synthesis": [
 					[
-						"King Jester Slime",
+						"Greater Platypunk",
 						"Queen Slime",
-						"Splatypunk",
-						"Greater Platypunk"
+						"Abominable Showman",
+						"Tigergram"
 					]
 				]
 			},
@@ -4598,7 +4584,7 @@
 				"rank": "X",
 				"family": "???",
 				"synthesis": [
-					["Nelgel The Netherfiend", "Leon Bubro", "Nimzo", "Tyrannoceratops"]
+					["Nelgel The Netherfiend", "Leon Bubro", "Nimzo", "Crowgre"]
 				]
 			},
 			{
@@ -4654,7 +4640,7 @@
 			},
 			{
 				"name": "Rigor Mortex Evolved Forme",
-				"rank": "X",
+				"rank": "Z",
 				"family": "???",
 				"synthesis": [
 					["Rigor Mortex", "War Goddess Togamihime", "Hihyudorado", "Fractos"]
