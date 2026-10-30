@@ -196,7 +196,55 @@
 			"Bang": "爆発の使い手",
 			"Crack": "氷結の使い手",
 			"Zap": "電撃の使い手",
-			"Gravity": "重力の使い手"
+			"Gravity": "重力の使い手",
+			"Paralysis": "マヒの力",
+			"Feral": "ワイルドフォース",
+			"Dragon": "ドラゴフォース",
+			"Asura Zoma": "アスラゾーマ",
+			"Devil": "デビルフォース",
+			"Material": "マテリアフォース",
+			"Zam": "闇の使い手",
+			"Icy Breather": "氷の息吹",
+			"Zombie+": "ゾンビフォース+",
+			"Fuddle": "こんらんの力",
+			"Brash": "ブラス",
+			"Devil Dog Brenda": "豪魔将ブレンダ",
+			"Putrid Breath": "よどんだ息吹",
+			"Beast": "ビーストフォース",
+			"Poison": "どくの力",
+			"Enfeebler": "ダウナー",
+			"Curse": "呪いの力",
+			"Whacker": "死の力",
+			"Chiu": "チウ",
+			"Aldarahla": "アルダララ",
+			"Sizz": "光の使い手",
+			"Hypnotist": "さいみん",
+			"Toxifier": "どくが",
+			"ねむりの力": "ねむりの力",
+			"Fire Breather": "炎の息吹",
+			"休みの力": "休みの力",
+			"Break": "ブレイクフォース",
+			"Comet Spirit": "星降りの精霊",
+			"Fear-monger": "ホラー",
+			"Fortifier": "アッパー",
+			"Wonderous": "ワンダーフォース",
+			"Slime": "スラフォース",
+			"Gome-chan": "ゴメちゃん",
+			"Nightmare": "ナイトメア",
+			"Incandescent Breath": "きらめく息吹",
+			"Kill-Vearn": "キルバーン",
+			"Myst-Vearn": "ミストバーン",
+			"Hades Nelgel": "冥獣王ネルゲル",
+			"Martyr": "じこぎせい",
+			"Pusugon the Monsterous": "怪獣プスゴン",
+			"Deep Freezer": "コールドスリープ",
+			"Jolly Eastern Gal": "快活な東の乙女",
+			"Elegant Western Gal": "風雅なる西の乙女",
+			"Totem of Urubea": "ウルベア魔神兵",
+			"Great King Vearn": "大魔王バーン",
+			"Vearn, The Beholder": "鬼眼王バーン",
+			"WORLD": "WORLD",
+			"Rime Ridden Treant": "ジュヒョウの戦士"
 		},
 		"moves": {
 			"Vacuum Slash": "真空斬り",
@@ -679,7 +727,47 @@
 				"Frizz",
 				"Zap",
 				"Bang",
-				"Crack"
+				"Crack",
+				"Paralysis",
+				"Feral",
+				"Dragon",
+				"Devil",
+				"Material",
+				"Zam",
+				"Icy Breather",
+				"Zombie+",
+				"Fuddle",
+				"Brash",
+				"Devil Dog Brenda",
+				"Putrid Breath",
+				"Beast",
+				"Poison",
+				"Curse",
+				"Whacker",
+				"Chiu",
+				"Aldarahla",
+				"Sizz",
+				"ねむりの力",
+				"Fire Breather",
+				"休みの力",
+				"Break",
+				"Comet Spirit",
+				"Wonderous",
+				"Slime",
+				"Gome-chan",
+				"Incandescent Breath",
+				"Kill-Vearn",
+				"Myst-Vearn",
+				"Hades Nelgel",
+				"Pusugon the Monsterous",
+				"Deep Freezer",
+				"Jolly Eastern Gal",
+				"Elegant Western Gal",
+				"Totem of Urubea",
+				"Great King Vearn",
+				"Vearn, The Beholder",
+				"WORLD",
+				"Rime Ridden Treant"
 			]
 		}
 	},
@@ -15107,6 +15195,246 @@
 		"Crack": {
 			"moves": [],
 			"unofficial": true
+		},
+		"Paralysis": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "マヒの力"
+		},
+		"Feral": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "ワイルドフォース"
+		},
+		"Dragon": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "ドラゴフォース"
+		},
+		"Asura Zoma": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "アスラゾーマ"
+		},
+		"Devil": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "デビルフォース"
+		},
+		"Material": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "マテリアフォース"
+		},
+		"Zam": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "闇の使い手"
+		},
+		"Icy Breather": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "氷の息吹"
+		},
+		"Zombie+": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "ゾンビフォース+"
+		},
+		"Fuddle": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "こんらんの力"
+		},
+		"Brash": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "ブラス"
+		},
+		"Devil Dog Brenda": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "豪魔将ブレンダ"
+		},
+		"Putrid Breath": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "よどんだ息吹"
+		},
+		"Beast": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "ビーストフォース"
+		},
+		"Poison": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "どくの力"
+		},
+		"Enfeebler": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "ダウナー"
+		},
+		"Curse": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "呪いの力"
+		},
+		"Whacker": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "死の力"
+		},
+		"Chiu": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "チウ"
+		},
+		"Aldarahla": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "アルダララ"
+		},
+		"Sizz": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "光の使い手"
+		},
+		"Hypnotist": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "さいみん"
+		},
+		"Toxifier": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "どくが"
+		},
+		"ねむりの力": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "ねむりの力"
+		},
+		"Fire Breather": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "炎の息吹"
+		},
+		"休みの力": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "休みの力"
+		},
+		"Break": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "ブレイクフォース"
+		},
+		"Comet Spirit": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "星降りの精霊"
+		},
+		"Fear-monger": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "ホラー"
+		},
+		"Fortifier": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "アッパー"
+		},
+		"Wonderous": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "ワンダーフォース"
+		},
+		"Slime": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "スラフォース"
+		},
+		"Gome-chan": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "ゴメちゃん"
+		},
+		"Nightmare": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "ナイトメア"
+		},
+		"Incandescent Breath": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "きらめく息吹"
+		},
+		"Kill-Vearn": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "キルバーン"
+		},
+		"Myst-Vearn": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "ミストバーン"
+		},
+		"Hades Nelgel": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "冥獣王ネルゲル"
+		},
+		"Martyr": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "じこぎせい"
+		},
+		"Pusugon the Monsterous": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "怪獣プスゴン"
+		},
+		"Deep Freezer": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "コールドスリープ"
+		},
+		"Jolly Eastern Gal": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "快活な東の乙女"
+		},
+		"Elegant Western Gal": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "風雅なる西の乙女"
+		},
+		"Totem of Urubea": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "ウルベア魔神兵"
+		},
+		"Great King Vearn": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "大魔王バーン"
+		},
+		"Vearn, The Beholder": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "鬼眼王バーン"
+		},
+		"WORLD": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "WORLD"
+		},
+		"Rime Ridden Treant": {
+			"moves": [],
+			"unofficial": true,
+			"jp": "ジュヒョウの戦士"
 		}
 	}
 }

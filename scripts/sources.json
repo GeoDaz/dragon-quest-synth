@@ -165,6 +165,11 @@
 			"data": ["compétences des talents de métiers"]
 		},
 		{
+			"url": "https://game8.jp/dqmj3pro/113039",
+			"data": ["talents des monstres", "tailles", "stats", "traits", "résistances"],
+			"notes": "Une page par monstre (liens depuis les pages par rang 114016…114033), champ スキル du premier tableau. ~100 monstres de la version Pro ont le champ vide. Monstres reliés par leur nom JP (champ japanese du wiki Fandom), boss reliés à la main. Coquilles Game8 : 勇車スラリンガル (勇者), 魔神ゼクセン (魔人), マテリアフォース (マテリアル). Résistances : 弱点 -25, 軽減 25, 半減 50, 激減 75, 無効 100, 回復 150, 反射 200, « 変化 » ignoré. Traits : nom EN officiel quand le nom JP existe dans DQM4 (export DQM4, appariement par description), sinon laissés en japonais ; les traits de taille (…ボディ) sont omis."
+		},
+		{
 			"url": "https://github.com/Lurpigi/DQMJ3P-IT-FanTranslation/tree/HEAD/json/eng/Message",
 			"data": ["noms EN des talents (fan-trad)", "compétences EN (fan-trad)"],
 			"reliability": "low",

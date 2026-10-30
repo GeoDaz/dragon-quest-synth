@@ -35,10 +35,13 @@ const RESISTANCES: { key: string; label: string }[] = [
 	{ key: 'explosion', label: 'Explosion' },
 	{ key: 'freeze', label: 'Ice' },
 	{ key: 'thunder', label: 'Thunder' },
+	{ key: 'gravity', label: 'Gravity' },
 	{ key: 'light', label: 'Light' },
 	{ key: 'darkness', label: 'Darkness' },
 	{ key: 'weakness', label: 'Debuff' },
 	{ key: 'bedazzle', label: 'Bedazzle' },
+	{ key: 'resistance', label: 'Resistance down' },
+	{ key: 'drain_tension', label: 'Tension drain' },
 	{ key: 'hit', label: 'Blunt' },
 	{ key: 'seal', label: 'Seal' },
 	{ key: 'drain_mp', label: 'MP drain' },
@@ -80,6 +83,8 @@ const TRAIT_TIERS: { [tier: string]: string } = {
 	M: 'Mega',
 	G: 'Giga',
 	SG: 'Ultra',
+	Fixed: 'Fixed',
+	Initial: 'Initial',
 };
 
 const resistanceValue = (value: number) => {

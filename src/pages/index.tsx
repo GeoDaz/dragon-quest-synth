@@ -124,12 +124,14 @@ export const gameTalents = (game: string, details: MonstersDetails): GameTalents
 		const moves: GameTalents['moves'] = {};
 		used.forEach(name => {
 			const talent = data.talents?.[name];
-			if (!talent?.moves?.length) return;
+			if (!talent?.moves?.length && !talent?.unofficial && !talent?.unofficialFr) return;
 			talents[name] = {
-				moves: talent.moves.map(({ move, sp }: TalentStep) => ({ move, sp })),
+				moves: (talent.moves || []).map(({ move, sp }: TalentStep) => ({ move, sp })),
 				...(talent.traits?.length ? { traits: talent.traits } : {}),
+				...(talent.unofficial ? { unofficial: true } : {}),
+				...(talent.unofficialFr ? { unofficialFr: true } : {}),
 			};
-			talent.moves.forEach(({ move }: TalentStep) => {
+			(talent.moves || []).forEach(({ move }: TalentStep) => {
 				const entry = data.moves?.[move];
 				if (entry?.en) moves[move] = { en: entry.en };
 			});
