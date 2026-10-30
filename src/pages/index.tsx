@@ -160,7 +160,9 @@ export const gameTalentRecipes = (game: string): GameTalents => {
 				...(talent.category ? { category: talent.category } : {}),
 				...(talent.from?.length ? { from: talent.from } : {}),
 				...(talent.points ? { points: talent.points } : {}),
-				...(talent.unofficial ? { unofficial: true, jp: talent.jp } : {}),
+				...(talent.unofficial ? { unofficial: true } : {}),
+				...(talent.unofficial && talent.jp ? { jp: talent.jp } : {}),
+				...(talent.unofficialFr ? { unofficialFr: true } : {}),
 			};
 			(talent.moves || []).forEach(({ move }: TalentStep) => {
 				const entry = data.moves?.[move];

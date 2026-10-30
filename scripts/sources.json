@@ -169,6 +169,12 @@
 			"data": ["noms EN des talents (fan-trad)", "compétences EN (fan-trad)"],
 			"reliability": "low",
 			"notes": "PEU FIABLE : fan-trad anglaise 2021 (reprise par Akoi89/DQMJ3P-english-fixed, qui ne publie que des patchs binaires). Appariement JP↔EN par signature des bonus de stats. Marqué unofficial dans DQMJ3Moves.json, à remplacer dès qu'une meilleure source existe."
+		},
+		{
+			"url": "Dragon Quest Monster Joker 3 Pro Maj 7 (patch romfs fourni par l'utilisateur, pas d'URL)",
+			"data": ["noms FR des talents (fan-trad)", "compétences FR (fan-trad)"],
+			"reliability": "low",
+			"notes": "PEU FIABLE : fan-trad française. romfs/data/Message/SkillMessage.mes et SkillHelpMessage.mes (UTF-16LE, étiquettes SkillNameNNNN / SkillHelpNNNN aux mêmes numéros que la fan-trad anglaise). Talents restés en japonais appariés par leur liste de compétences. Noms en collision avec un nom officiel ignorés (怪盗 = Voleur, etc.). Listés dans unofficial.fr de DQMJ3Moves.json (unofficialFr sur les talents à nom EN officiel)."
 		}
 	]
 }

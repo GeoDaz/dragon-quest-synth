@@ -89,6 +89,7 @@ export interface GameTalent {
 	from?: string[][];
 	points?: { [ingredient: string]: number };
 	unofficial?: boolean;
+	unofficialFr?: boolean;
 	jp?: string;
 }
 
