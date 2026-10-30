@@ -206,6 +206,20 @@ const MonsterDetailsModal: React.FC<Props> = ({
 										</b>
 									</li>
 								)}
+								{!!details.skills?.length && (
+									<li className="flex align-items-center">
+										<div>{translateUI('Skill sets')}</div>
+										<div>
+											{details.skills.map(name => (
+												<div key={name} className="text-end">
+													<b>
+														<Talent name={name} />
+													</b>
+												</div>
+											))}
+										</div>
+									</li>
+								)}
 								{!!details.randomSkills?.length && (
 									<li className="flex align-items-center">
 										<div>{translateUI('2nd skill among')}</div>

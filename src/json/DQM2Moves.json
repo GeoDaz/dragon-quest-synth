@@ -1,0 +1,484 @@
+{
+	"unofficial": {
+		"source": "https://github.com/Ich73/DQM2-FanTranslation (Message_EN/msg_skillname.patJ + Message_FR/msg_skillname.patJ, line-aligned)",
+		"note": "French names in DQM2SkillsTranslations.json come from this unofficial fan translation, low reliability: replace them when an official or more reliable source is found.",
+		"translations": [
+			"Frizz & Bang II",
+			"Frizz & Woosh II",
+			"Frizz & Sizz II",
+			"Frizz & Zap II",
+			"Frizz & Zam II",
+			"Bang & Woosh II",
+			"Bang & Crack II",
+			"Bang & Sizz II",
+			"Bang & Zap II",
+			"Bang & Zam II",
+			"Woosh & Crack II",
+			"Woosh & Sizz II",
+			"Woosh & Zap II",
+			"Woosh & Zam II",
+			"Crack & Sizz II",
+			"Crack & Zap II",
+			"Crack & Zam II",
+			"Sizz & Zap II",
+			"Sizz & Zam II",
+			"Strong Flame",
+			"Strong Ice",
+			"Strong Breath",
+			"Sword Breaker II",
+			"Breath Breaker II",
+			"Dance Breaker II",
+			"Wulfspade II",
+			"Hawkhart II",
+			"Strongest Montner",
+			"Uber Windblast Ward",
+			"Donk Ward",
+			"Uber Darklight Ward",
+			"Uber Health Boost",
+			"Attack Boost III",
+			"Martial Artist",
+			"Uber Magic Boost",
+			"Wisdom Boost III",
+			"Mage",
+			"Uber Attack Boost",
+			"Warrior",
+			"Uber Defense Boost",
+			"Defense Boost III",
+			"Priest",
+			"Uber Agility Boost",
+			"Agility Boost III",
+			"Thief",
+			"Uber Wisdom Boost",
+			"Uber Heat Ward",
+			"Fire Breath Ward",
+			"Uber Cold Ward",
+			"Ice Breath Ward",
+			"Uber Lightning Ward",
+			"Uber Rock Ward",
+			"Rubblerouser Ward"
+		]
+	},
+	"moves": {},
+	"talents": {
+		"Frizz & Bang II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Frizz & Bang"]]
+		},
+		"Frizz & Bang": {
+			"moves": []
+		},
+		"Frizz & Woosh II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Frizz & Woosh"]]
+		},
+		"Frizz & Woosh": {
+			"moves": []
+		},
+		"Frizz & Sizz II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Frizz & Sizz"]]
+		},
+		"Frizz & Sizz": {
+			"moves": []
+		},
+		"Frizz & Zap II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Frizz & Zap"]]
+		},
+		"Frizz & Zap": {
+			"moves": []
+		},
+		"Frizz & Zam II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Frizz & Zam"]]
+		},
+		"Frizz & Zam": {
+			"moves": []
+		},
+		"Bang & Woosh II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Bang & Woosh"]]
+		},
+		"Bang & Woosh": {
+			"moves": []
+		},
+		"Bang & Crack II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Bang & Crack"]]
+		},
+		"Bang & Crack": {
+			"moves": []
+		},
+		"Bang & Sizz II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Bang & Sizz"]]
+		},
+		"Bang & Sizz": {
+			"moves": []
+		},
+		"Bang & Zap II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Bang & Zap"]]
+		},
+		"Bang & Zap": {
+			"moves": []
+		},
+		"Bang & Zam II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Bang & Zam"]]
+		},
+		"Bang & Zam": {
+			"moves": []
+		},
+		"Woosh & Crack II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Woosh & Crack"]]
+		},
+		"Woosh & Crack": {
+			"moves": []
+		},
+		"Woosh & Sizz II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Woosh & Sizz"]]
+		},
+		"Woosh & Sizz": {
+			"moves": []
+		},
+		"Woosh & Zap II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Woosh & Zap"]]
+		},
+		"Woosh & Zap": {
+			"moves": []
+		},
+		"Woosh & Zam II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Woosh & Zam"]]
+		},
+		"Woosh & Zam": {
+			"moves": []
+		},
+		"Crack & Sizz II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Crack & Sizz"]]
+		},
+		"Crack & Sizz": {
+			"moves": []
+		},
+		"Crack & Zap II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Crack & Zap"]]
+		},
+		"Crack & Zap": {
+			"moves": []
+		},
+		"Crack & Zam II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Crack & Zam"]]
+		},
+		"Crack & Zam": {
+			"moves": []
+		},
+		"Sizz & Zap II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Sizz & Zap"]]
+		},
+		"Sizz & Zap": {
+			"moves": []
+		},
+		"Sizz & Zam II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Sizz & Zam"]]
+		},
+		"Sizz & Zam": {
+			"moves": []
+		},
+		"Strong Flame": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Fire"]]
+		},
+		"Fire": {
+			"moves": []
+		},
+		"Strong Ice": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Ice"]]
+		},
+		"Ice": {
+			"moves": []
+		},
+		"Strong Breath": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Breath"]]
+		},
+		"Breath": {
+			"moves": []
+		},
+		"Sword Breaker II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Sword Breaker"]]
+		},
+		"Sword Breaker": {
+			"moves": []
+		},
+		"Strong Ability Breaker": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Ability Breaker"]]
+		},
+		"Ability Breaker": {
+			"moves": []
+		},
+		"Spell Breaker II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Spell Breaker"]]
+		},
+		"Spell Breaker": {
+			"moves": []
+		},
+		"Breath Breaker II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Breath Breaker"]]
+		},
+		"Breath Breaker": {
+			"moves": []
+		},
+		"Dance Breaker II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Dance Breaker"]]
+		},
+		"Dance Breaker": {
+			"moves": []
+		},
+		"Wulfspade II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Wulfspade"]]
+		},
+		"Wulfspade": {
+			"moves": []
+		},
+		"Hawkhart II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Hawkhart"]]
+		},
+		"Hawkhart": {
+			"moves": []
+		},
+		"Strongest Montner": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Montner"]]
+		},
+		"Montner": {
+			"moves": []
+		},
+		"Firewind Slashes": {
+			"moves": [],
+			"category": "Combination",
+			"from": [
+				["Fire Fighter", "Boom Boxer"],
+				["Fire Fighter", "Wind Blower"]
+			]
+		},
+		"Fire Fighter": {
+			"moves": []
+		},
+		"Boom Boxer": {
+			"moves": []
+		},
+		"Wind Blower": {
+			"moves": []
+		},
+		"Thunderwind Slashes": {
+			"moves": [],
+			"category": "Combination",
+			"from": [["Wind Blower", "Dark Knight"]]
+		},
+		"Dark Knight": {
+			"moves": []
+		},
+		"Iceplosion Slashes": {
+			"moves": [],
+			"category": "Combination",
+			"from": [
+				["Boom Boxer", "Icemeister"],
+				["Boom Boxer", "White Knight"]
+			]
+		},
+		"Icemeister": {
+			"moves": []
+		},
+		"White Knight": {
+			"moves": []
+		},
+		"Darklight Slashes": {
+			"moves": [],
+			"category": "Combination",
+			"from": [
+				["Icemeister", "White Knight"],
+				["Icemeister", "Dark Knight"]
+			]
+		},
+		"Healer": {
+			"moves": [],
+			"category": "Combination",
+			"from": [["Cleanser", "Cleanser"]]
+		},
+		"Cleanser": {
+			"moves": [],
+			"category": "Combination",
+			"from": [["Healer", "Healer"]]
+		},
+		"Uber Windblast Ward": {
+			"moves": [],
+			"category": "Combination",
+			"from": [["Woosh Ward", "Donk Ward"]]
+		},
+		"Woosh Ward": {
+			"moves": []
+		},
+		"Donk Ward": {
+			"moves": []
+		},
+		"Uber Darklight Ward": {
+			"moves": [],
+			"category": "Combination",
+			"from": [["Zap Ward", "Zam Ward"]]
+		},
+		"Zap Ward": {
+			"moves": []
+		},
+		"Zam Ward": {
+			"moves": []
+		},
+		"Uber Health Boost": {
+			"moves": [],
+			"category": "Combination",
+			"from": [["Attack Boost III", "Martial Artist"]]
+		},
+		"Attack Boost III": {
+			"moves": []
+		},
+		"Martial Artist": {
+			"moves": []
+		},
+		"Uber Magic Boost": {
+			"moves": [],
+			"category": "Combination",
+			"from": [["Wisdom Boost III", "Mage"]]
+		},
+		"Wisdom Boost III": {
+			"moves": []
+		},
+		"Mage": {
+			"moves": []
+		},
+		"Uber Attack Boost": {
+			"moves": [],
+			"category": "Combination",
+			"from": [["Attack Boost III", "Warrior"]]
+		},
+		"Warrior": {
+			"moves": []
+		},
+		"Uber Defense Boost": {
+			"moves": [],
+			"category": "Combination",
+			"from": [["Defense Boost III", "Priest"]]
+		},
+		"Defense Boost III": {
+			"moves": []
+		},
+		"Priest": {
+			"moves": []
+		},
+		"Uber Agility Boost": {
+			"moves": [],
+			"category": "Combination",
+			"from": [["Agility Boost III", "Thief"]]
+		},
+		"Agility Boost III": {
+			"moves": []
+		},
+		"Thief": {
+			"moves": []
+		},
+		"Uber Wisdom Boost": {
+			"moves": [],
+			"category": "Combination",
+			"from": [["Wisdom Boost III", "Sage"]]
+		},
+		"Sage": {
+			"moves": []
+		},
+		"Uber Heat Ward": {
+			"moves": [],
+			"category": "Combination",
+			"from": [["Frizz Ward", "Fire Breath Ward"]]
+		},
+		"Frizz Ward": {
+			"moves": []
+		},
+		"Fire Breath Ward": {
+			"moves": []
+		},
+		"Uber Cold Ward": {
+			"moves": [],
+			"category": "Combination",
+			"from": [["Crack Ward", "Ice Breath Ward"]]
+		},
+		"Crack Ward": {
+			"moves": []
+		},
+		"Ice Breath Ward": {
+			"moves": []
+		},
+		"Uber Lightning Ward": {
+			"moves": [],
+			"category": "Combination",
+			"from": [["Sizz Ward", "Zap Ward"]]
+		},
+		"Sizz Ward": {
+			"moves": []
+		},
+		"Uber Rock Ward": {
+			"moves": [],
+			"category": "Combination",
+			"from": [["Bang Ward", "Rubblerouser Ward"]]
+		},
+		"Bang Ward": {
+			"moves": []
+		},
+		"Rubblerouser Ward": {
+			"moves": []
+		}
+	}
+}

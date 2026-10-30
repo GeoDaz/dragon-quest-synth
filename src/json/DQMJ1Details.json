@@ -1,0 +1,3961 @@
+{
+	"Slime": {
+		"stats": {
+			"hp": 910,
+			"mp": 600,
+			"attack": 820,
+			"defence": 900,
+			"agility": 800,
+			"wisdom": 840
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			}
+		],
+		"skill": "Slimer"
+	},
+	"Bubble Slime": {
+		"stats": {
+			"hp": 900,
+			"mp": 630,
+			"attack": 860,
+			"defence": 940,
+			"agility": 700,
+			"wisdom": 860
+		},
+		"resistances": {
+			"poison": 100
+		},
+		"traits": [
+			{
+				"name": "Poisoner"
+			}
+		],
+		"skill": "Slimer"
+	},
+	"Shell Slime": {
+		"stats": {
+			"hp": 840,
+			"mp": 820,
+			"attack": 900,
+			"defence": 990,
+			"agility": 500,
+			"wisdom": 820
+		},
+		"skill": "Bolsterer"
+	},
+	"Healslime": {
+		"stats": {
+			"hp": 770,
+			"mp": 990,
+			"attack": 630,
+			"defence": 690,
+			"agility": 990,
+			"wisdom": 990
+		},
+		"resistances": {
+			"fizzle": 100
+		},
+		"traits": [
+			{
+				"name": "Health Professional"
+			}
+		],
+		"skill": "Healer"
+	},
+	"She-Slime": {
+		"stats": {
+			"hp": 870,
+			"mp": 690,
+			"attack": 850,
+			"defence": 870,
+			"agility": 760,
+			"wisdom": 800
+		},
+		"resistances": {
+			"frizz": 100
+		},
+		"traits": [
+			{
+				"name": "Frizzmeister"
+			}
+		],
+		"skill": "Frizz & Zap"
+	},
+	"Drake Slime": {
+		"stats": {
+			"hp": 940,
+			"mp": 440,
+			"attack": 990,
+			"defence": 900,
+			"agility": 830,
+			"wisdom": 470
+		},
+		"resistances": {
+			"fire_breath": 100,
+			"ice_breath": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "Slimer"
+	},
+	"Snail Slime": {
+		"stats": {
+			"hp": 800,
+			"mp": 920,
+			"attack": 990,
+			"defence": 990,
+			"agility": 330,
+			"wisdom": 890
+		},
+		"resistances": {
+			"dazzle": 100
+		},
+		"skill": "Mage Aid"
+	},
+	"Wild Slime": {
+		"stats": {
+			"hp": 990,
+			"mp": 360,
+			"attack": 940,
+			"defence": 990,
+			"agility": 710,
+			"wisdom": 710
+		},
+		"resistances": {
+			"sag": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Champion"
+	},
+	"Slime Knight": {
+		"stats": {
+			"hp": 820,
+			"mp": 590,
+			"attack": 720,
+			"defence": 980,
+			"agility": 690,
+			"wisdom": 690
+		},
+		"resistances": {
+			"confusion": 100
+		},
+		"traits": [
+			{
+				"name": "Counterstriker"
+			}
+		],
+		"skill": "White Knight"
+	},
+	"Metal Slime": {
+		"stats": {
+			"hp": 32,
+			"mp": 999,
+			"attack": 950,
+			"defence": 999,
+			"agility": 999,
+			"wisdom": 999
+		},
+		"traits": [
+			{
+				"name": "Metal Body"
+			},
+			{
+				"name": "Escape Artist"
+			}
+		],
+		"skill": "Slimer"
+	},
+	"Metal Slime Knight": {
+		"stats": {
+			"hp": 790,
+			"mp": 570,
+			"attack": 820,
+			"defence": 970,
+			"agility": 650,
+			"wisdom": 560
+		},
+		"resistances": {
+			"paralysis": 100
+		},
+		"traits": [
+			{
+				"name": "Counterstriker"
+			}
+		],
+		"skill": "Darklight Slashes"
+	},
+	"Angel Slime": {
+		"stats": {
+			"hp": 770,
+			"mp": 990,
+			"attack": 570,
+			"defence": 880,
+			"agility": 930,
+			"wisdom": 990
+		},
+		"resistances": {
+			"zap": 150,
+			"zam": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Zapmeister"
+			}
+		],
+		"skill": "Healer"
+	},
+	"Behemoth Slime": {
+		"stats": {
+			"hp": 990,
+			"mp": 710,
+			"attack": 770,
+			"defence": 870,
+			"agility": 450,
+			"wisdom": 990
+		},
+		"resistances": {
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			},
+			{
+				"name": "Desperado"
+			}
+		],
+		"skill": "Woosh & Zap"
+	},
+	"Beshemoth Slime": {
+		"stats": {
+			"hp": 990,
+			"mp": 520,
+			"attack": 880,
+			"defence": 990,
+			"agility": 490,
+			"wisdom": 990
+		},
+		"resistances": {
+			"frizz": 100
+		},
+		"traits": [
+			{
+				"name": "Frizzmeister"
+			},
+			{
+				"name": "Desperado"
+			}
+		],
+		"skill": "Frizz & Zam"
+	},
+	"Dragon Slime": {
+		"stats": {
+			"hp": 860,
+			"mp": 620,
+			"attack": 890,
+			"defence": 990,
+			"agility": 770,
+			"wisdom": 720
+		},
+		"resistances": {
+			"fire_breath": 100,
+			"ice_breath": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "Dragon Lore"
+	},
+	"King Slime": {
+		"stats": {
+			"hp": 990,
+			"mp": 600,
+			"attack": 920,
+			"defence": 940,
+			"agility": 420,
+			"wisdom": 800
+		},
+		"resistances": {
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			}
+		],
+		"skill": "Cleric"
+	},
+	"Cureslime": {
+		"stats": {
+			"hp": 860,
+			"mp": 990,
+			"attack": 490,
+			"defence": 750,
+			"agility": 870,
+			"wisdom": 990
+		},
+		"resistances": {
+			"fizzle": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Health Professional"
+			}
+		],
+		"skill": "Healer"
+	},
+	"Liquid Metal Slime": {
+		"stats": {
+			"hp": 48,
+			"mp": 999,
+			"attack": 800,
+			"defence": 999,
+			"agility": 999,
+			"wisdom": 999
+		},
+		"traits": [
+			{
+				"name": "Metal Body"
+			},
+			{
+				"name": "Escape Artist"
+			}
+		],
+		"skill": "Bombardier"
+	},
+	"Dark Slime": {
+		"stats": {
+			"hp": 740,
+			"mp": 930,
+			"attack": 700,
+			"defence": 860,
+			"agility": 930,
+			"wisdom": 990
+		},
+		"resistances": {
+			"zam": 150,
+			"zap": -50
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Zammeister"
+			}
+		],
+		"skill": "Muspell"
+	},
+	"Dark Slime Knight": {
+		"stats": {
+			"hp": 940,
+			"mp": 590,
+			"attack": 640,
+			"defence": 910,
+			"agility": 570,
+			"wisdom": 740
+		},
+		"resistances": {
+			"zam": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			},
+			{
+				"name": "Zammeister"
+			}
+		],
+		"skill": "Dark Knight"
+	},
+	"King Cureslime": {
+		"stats": {
+			"hp": 990,
+			"mp": 740,
+			"attack": 720,
+			"defence": 710,
+			"agility": 650,
+			"wisdom": 800
+		},
+		"resistances": {
+			"fizzle": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Health Professional"
+			}
+		],
+		"skill": "Cure-all"
+	},
+	"King Bubble Slime": {
+		"stats": {
+			"hp": 990,
+			"mp": 800,
+			"attack": 720,
+			"defence": 770,
+			"agility": 470,
+			"wisdom": 950
+		},
+		"resistances": {
+			"paralysis": 100,
+			"poison": 100
+		},
+		"traits": [
+			{
+				"name": "Poisoner"
+			}
+		],
+		"skill": "Bad Breath"
+	},
+	"Metal Kaiser Slime": {
+		"stats": {
+			"hp": 52,
+			"mp": 999,
+			"attack": 900,
+			"defence": 999,
+			"agility": 900,
+			"wisdom": 999
+		},
+		"traits": [
+			{
+				"name": "Metal Body"
+			},
+			{
+				"name": "Escape Artist"
+			}
+		],
+		"skill": "Bang & Zam"
+	},
+	"Metal King Slime": {
+		"stats": {
+			"hp": 56,
+			"mp": 999,
+			"attack": 950,
+			"defence": 999,
+			"agility": 950,
+			"wisdom": 999
+		},
+		"traits": [
+			{
+				"name": "Metal Body"
+			},
+			{
+				"name": "Escape Artist"
+			}
+		],
+		"skill": "Bang & Crack"
+	},
+	"Darkonium Slime": {
+		"stats": {
+			"hp": 64,
+			"mp": 999,
+			"attack": 950,
+			"defence": 999,
+			"agility": 999,
+			"wisdom": 999
+		},
+		"traits": [
+			{
+				"name": "Metal Body"
+			},
+			{
+				"name": "Escape Artist"
+			}
+		],
+		"skill": "Fire II"
+	},
+	"Grandpa Slime": {
+		"stats": {
+			"hp": 960,
+			"mp": 990,
+			"attack": 450,
+			"defence": 920,
+			"agility": 630,
+			"wisdom": 820
+		},
+		"resistances": {
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			},
+			{
+				"name": "Magic Regenerator"
+			}
+		],
+		"skill": "Bang & Zap"
+	},
+	"Gem Slime": {
+		"stats": {
+			"hp": 64,
+			"mp": 999,
+			"attack": 999,
+			"defence": 999,
+			"agility": 999,
+			"wisdom": 999
+		},
+		"traits": [
+			{
+				"name": "Metal Body"
+			},
+			{
+				"name": "Escape Artist"
+			}
+		],
+		"skill": "Bang & Zap"
+	},
+	"Trode": {
+		"stats": {
+			"hp": 880,
+			"mp": 550,
+			"attack": 780,
+			"defence": 740,
+			"agility": 650,
+			"wisdom": 650
+		},
+		"resistances": {
+			"fire_breath": 100,
+			"fizzle": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			},
+			{
+				"name": "Counterstriker"
+			}
+		],
+		"skill": "Trickster"
+	},
+	"Komodo": {
+		"stats": {
+			"hp": 990,
+			"mp": 400,
+			"attack": 990,
+			"defence": 940,
+			"agility": 820,
+			"wisdom": 80
+		},
+		"resistances": {
+			"dazzle": 100
+		},
+		"skill": "Defender"
+	},
+	"Frou-Fry": {
+		"stats": {
+			"hp": 990,
+			"mp": 500,
+			"attack": 990,
+			"defence": 960,
+			"agility": 610,
+			"wisdom": 300
+		},
+		"resistances": {
+			"paralysis": 100
+		},
+		"skill": "Icemeister"
+	},
+	"Dragonthorn": {
+		"stats": {
+			"hp": 990,
+			"mp": 750,
+			"attack": 860,
+			"defence": 490,
+			"agility": 610,
+			"wisdom": 750
+		},
+		"resistances": {
+			"fizzle": 100,
+			"frizz": -50
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "Toxifier"
+	},
+	"Argon Lizard": {
+		"stats": {
+			"hp": 990,
+			"mp": 580,
+			"attack": 940,
+			"defence": 650,
+			"agility": 700,
+			"wisdom": 550
+		},
+		"resistances": {
+			"paralysis": 100,
+			"poison": 100
+		},
+		"traits": [
+			{
+				"name": "Escape Artist"
+			}
+		],
+		"skill": "Toxifier"
+	},
+	"Nardragon": {
+		"stats": {
+			"hp": 990,
+			"mp": 400,
+			"attack": 990,
+			"defence": 960,
+			"agility": 690,
+			"wisdom": 480
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Martyr"
+	},
+	"Snapdragon": {
+		"stats": {
+			"hp": 990,
+			"mp": 770,
+			"attack": 840,
+			"defence": 820,
+			"agility": 440,
+			"wisdom": 580
+		},
+		"resistances": {
+			"confusion": 100,
+			"frizz": -50
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "Frizz & Woosh"
+	},
+	"Jargon": {
+		"stats": {
+			"hp": 990,
+			"mp": 730,
+			"attack": 990,
+			"defence": 910,
+			"agility": 250,
+			"wisdom": 580
+		},
+		"resistances": {
+			"drain_magic": 100
+		},
+		"skill": "Toughie"
+	},
+	"Green Dragon": {
+		"stats": {
+			"hp": 990,
+			"mp": 480,
+			"attack": 990,
+			"defence": 990,
+			"agility": 580,
+			"wisdom": 390
+		},
+		"resistances": {
+			"fire_breath": 100,
+			"ice_breath": 100
+		},
+		"skill": "Dragon Lore"
+	},
+	"Skelegon": {
+		"stats": {
+			"hp": 990,
+			"mp": 400,
+			"attack": 990,
+			"defence": 950,
+			"agility": 520,
+			"wisdom": 990
+		},
+		"resistances": {
+			"zap": -50,
+			"whack": 100
+		},
+		"skill": "Crack & Zam"
+	},
+	"Dragurn": {
+		"stats": {
+			"hp": 990,
+			"mp": 520,
+			"attack": 990,
+			"defence": 990,
+			"agility": 590,
+			"wisdom": 230
+		},
+		"resistances": {
+			"fizzle": 100
+		},
+		"skill": "Fire"
+	},
+	"Seasaur": {
+		"stats": {
+			"hp": 990,
+			"mp": 650,
+			"attack": 990,
+			"defence": 990,
+			"agility": 390,
+			"wisdom": 330
+		},
+		"resistances": {
+			"fizzle": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "Dragon Lore"
+	},
+	"Dread Dragon": {
+		"stats": {
+			"hp": 950,
+			"mp": 520,
+			"attack": 850,
+			"defence": 990,
+			"agility": 750,
+			"wisdom": 690
+		},
+		"resistances": {
+			"fire_breath": 100,
+			"fizzle": 100
+		},
+		"traits": [
+			{
+				"name": "Magic Regenerator"
+			}
+		],
+		"skill": "Seal"
+	},
+	"Hacksaurus": {
+		"stats": {
+			"hp": 970,
+			"mp": 180,
+			"attack": 990,
+			"defence": 920,
+			"agility": 980,
+			"wisdom": 700
+		},
+		"resistances": {
+			"confusion": 100
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			}
+		],
+		"skill": "Dragon Lore"
+	},
+	"Sea Dragon": {
+		"stats": {
+			"hp": 920,
+			"mp": 620,
+			"attack": 790,
+			"defence": 890,
+			"agility": 800,
+			"wisdom": 770
+		},
+		"resistances": {
+			"bang": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "Ice"
+	},
+	"Tyrantosaurus": {
+		"stats": {
+			"hp": 950,
+			"mp": 380,
+			"attack": 940,
+			"defence": 880,
+			"agility": 950,
+			"wisdom": 500
+		},
+		"resistances": {
+			"sag": 100
+		},
+		"skill": "Guerrilla"
+	},
+	"Metal Dragon": {
+		"stats": {
+			"hp": 950,
+			"mp": 480,
+			"attack": 940,
+			"defence": 970,
+			"agility": 730,
+			"wisdom": 490
+		},
+		"resistances": {
+			"whack": 100
+		},
+		"skill": "Assassin"
+	},
+	"Great Argon Lizard": {
+		"stats": {
+			"hp": 990,
+			"mp": 420,
+			"attack": 980,
+			"defence": 990,
+			"agility": 650,
+			"wisdom": 460
+		},
+		"resistances": {
+			"fire_breath": 100
+		},
+		"skill": "Breath"
+	},
+	"Abyss Diver": {
+		"stats": {
+			"hp": 990,
+			"mp": 440,
+			"attack": 910,
+			"defence": 910,
+			"agility": 710,
+			"wisdom": 640
+		},
+		"resistances": {
+			"sleep": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "Crack & Zap"
+	},
+	"Megalodon": {
+		"stats": {
+			"hp": 890,
+			"mp": 500,
+			"attack": 950,
+			"defence": 990,
+			"agility": 790,
+			"wisdom": 630
+		},
+		"resistances": {
+			"fizzle": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Magic Regenerator"
+			}
+		],
+		"skill": "Breath"
+	},
+	"Frou-Frou": {
+		"stats": {
+			"hp": 990,
+			"mp": 640,
+			"attack": 990,
+			"defence": 990,
+			"agility": 200,
+			"wisdom": 880
+		},
+		"resistances": {
+			"dazzle": 100,
+			"fire_breath": 100,
+			"whack": 100
+		},
+		"skill": "Cold Sleep"
+	},
+	"Drakularge": {
+		"stats": {
+			"hp": 990,
+			"mp": 550,
+			"attack": 990,
+			"defence": 980,
+			"agility": 350,
+			"wisdom": 840
+		},
+		"resistances": {
+			"bang": 100,
+			"whack": 100
+		},
+		"skill": "Boom Boxer"
+	},
+	"Great Dragon": {
+		"stats": {
+			"hp": 980,
+			"mp": 290,
+			"attack": 990,
+			"defence": 990,
+			"agility": 760,
+			"wisdom": 680
+		},
+		"resistances": {
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Frizzmeister"
+			}
+		],
+		"skill": "Ice"
+	},
+	"Mechan-O'-Wyrm": {
+		"stats": {
+			"hp": 990,
+			"mp": 680,
+			"attack": 990,
+			"defence": 990,
+			"agility": 370,
+			"wisdom": 290
+		},
+		"resistances": {
+			"paralysis": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			}
+		],
+		"skill": "Barricade"
+	},
+	"Black Dragon": {
+		"stats": {
+			"hp": 990,
+			"mp": 430,
+			"attack": 860,
+			"defence": 960,
+			"agility": 720,
+			"wisdom": 740
+		},
+		"resistances": {
+			"whack": 100,
+			"zam": 100
+		},
+		"traits": [
+			{
+				"name": "Zammeister"
+			}
+		],
+		"skill": "Antimagic"
+	},
+	"Drakulard": {
+		"stats": {
+			"hp": 990,
+			"mp": 390,
+			"attack": 960,
+			"defence": 990,
+			"agility": 610,
+			"wisdom": 770
+		},
+		"resistances": {
+			"whack": 100,
+			"zap": 100
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			}
+		],
+		"skill": "Toughie"
+	},
+	"Alabast Dragon": {
+		"stats": {
+			"hp": 930,
+			"mp": 610,
+			"attack": 820,
+			"defence": 930,
+			"agility": 720,
+			"wisdom": 820
+		},
+		"resistances": {
+			"zap": 150,
+			"ice_breath": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Cleric"
+	},
+	"True Dragonlord": {
+		"stats": {
+			"hp": 930,
+			"mp": 550,
+			"attack": 880,
+			"defence": 999,
+			"agility": 680,
+			"wisdom": 800
+		},
+		"resistances": {
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Dragonlord"
+	},
+	"Lord Of The Dragovians": {
+		"stats": {
+			"hp": 920,
+			"mp": 660,
+			"attack": 880,
+			"defence": 820,
+			"agility": 710,
+			"wisdom": 710
+		},
+		"resistances": {
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Desperado"
+			}
+		],
+		"skill": "Dragovian Lord"
+	},
+	"Capsichum": {
+		"stats": {
+			"hp": 700,
+			"mp": 920,
+			"attack": 860,
+			"defence": 980,
+			"agility": 780,
+			"wisdom": 980
+		},
+		"resistances": {
+			"sleep": 100,
+			"frizz": -50
+		},
+		"skill": "Saboteur"
+	},
+	"Wild Boarfish": {
+		"stats": {
+			"hp": 740,
+			"mp": 860,
+			"attack": 860,
+			"defence": 920,
+			"agility": 840,
+			"wisdom": 820
+		},
+		"resistances": {
+			"drain_magic": 100,
+			"water": 150
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "Huntsman"
+	},
+	"Scorpion": {
+		"stats": {
+			"hp": 780,
+			"mp": 660,
+			"attack": 860,
+			"defence": 990,
+			"agility": 990,
+			"wisdom": 650
+		},
+		"resistances": {
+			"paralysis": 100,
+			"poison": 100,
+			"frizz": -50
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			},
+			{
+				"name": "Paralyser"
+			}
+		],
+		"skill": "Hive Mind"
+	},
+	"Crabid": {
+		"stats": {
+			"hp": 940,
+			"mp": 410,
+			"attack": 920,
+			"defence": 990,
+			"agility": 860,
+			"wisdom": 600
+		},
+		"resistances": {
+			"frizz": -50
+		},
+		"skill": "Defender"
+	},
+	"Chimaera": {
+		"stats": {
+			"hp": 960,
+			"mp": 650,
+			"attack": 820,
+			"defence": 920,
+			"agility": 610,
+			"wisdom": 740
+		},
+		"resistances": {
+			"confusion": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "Cleanser"
+	},
+	"Spiked Hare": {
+		"stats": {
+			"hp": 890,
+			"mp": 410,
+			"attack": 980,
+			"defence": 850,
+			"agility": 990,
+			"wisdom": 620
+		},
+		"resistances": {
+			"drain_magic": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Naturalist"
+	},
+	"Khalamari Kid": {
+		"stats": {
+			"hp": 800,
+			"mp": 730,
+			"attack": 940,
+			"defence": 990,
+			"agility": 730,
+			"wisdom": 730
+		},
+		"resistances": {
+			"fizzle": 100,
+			"water": 150
+		},
+		"skill": "Aquapothecary"
+	},
+	"Jailcat": {
+		"stats": {
+			"hp": 990,
+			"mp": 640,
+			"attack": 850,
+			"defence": 820,
+			"agility": 580,
+			"wisdom": 650
+		},
+		"resistances": {
+			"crack": 100
+		},
+		"traits": [
+			{
+				"name": "Crackmeister"
+			}
+		],
+		"skill": "Woosh & Crack"
+	},
+	"Great Sabrecub": {
+		"stats": {
+			"hp": 980,
+			"mp": 290,
+			"attack": 970,
+			"defence": 980,
+			"agility": 980,
+			"wisdom": 200
+		},
+		"resistances": {
+			"decelerate": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Naturalist"
+	},
+	"Hell Hornet": {
+		"stats": {
+			"hp": 700,
+			"mp": 790,
+			"attack": 830,
+			"defence": 950,
+			"agility": 990,
+			"wisdom": 990
+		},
+		"resistances": {
+			"paralysis": 100,
+			"poison": 100,
+			"frizz": -50
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Paralyser"
+			}
+		],
+		"skill": "Diminisher"
+	},
+	"Eveel": {
+		"stats": {
+			"hp": 900,
+			"mp": 590,
+			"attack": 790,
+			"defence": 970,
+			"agility": 950,
+			"wisdom": 390
+		},
+		"resistances": {
+			"water": 150,
+			"poison": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Poisoner"
+			}
+		],
+		"skill": "Hypnotist"
+	},
+	"Bullfinch": {
+		"stats": {
+			"hp": 820,
+			"mp": 590,
+			"attack": 670,
+			"defence": 950,
+			"agility": 790,
+			"wisdom": 720
+		},
+		"resistances": {
+			"sag": 100,
+			"sleep": -50
+		},
+		"traits": [
+			{
+				"name": "Counterstriker"
+			}
+		],
+		"skill": "Toughie"
+	},
+	"Hades Condor": {
+		"stats": {
+			"hp": 910,
+			"mp": 800,
+			"attack": 820,
+			"defence": 830,
+			"agility": 710,
+			"wisdom": 450
+		},
+		"resistances": {
+			"ice_breath": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "Cure-all"
+	},
+	"Great Sabrecat": {
+		"stats": {
+			"hp": 990,
+			"mp": 260,
+			"attack": 990,
+			"defence": 810,
+			"agility": 950,
+			"wisdom": 580
+		},
+		"resistances": {
+			"decelerate": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			},
+			{
+				"name": "Early Bird"
+			}
+		],
+		"skill": "Speedster"
+	},
+	"Treeface": {
+		"stats": {
+			"hp": 990,
+			"mp": 540,
+			"attack": 880,
+			"defence": 990,
+			"agility": 580,
+			"wisdom": 600
+		},
+		"resistances": {
+			"frizz": -50
+		},
+		"traits": [
+			{
+				"name": "Steady Recovery"
+			}
+		],
+		"skill": "Green Finger"
+	},
+	"Scissor Beatle": {
+		"stats": {
+			"hp": 890,
+			"mp": 460,
+			"attack": 990,
+			"defence": 990,
+			"agility": 800,
+			"wisdom": 600
+		},
+		"resistances": {
+			"sleep": 100,
+			"frizz": -50
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Hive Mind"
+	},
+	"Beetleboy": {
+		"stats": {
+			"hp": 940,
+			"mp": 460,
+			"attack": 990,
+			"defence": 990,
+			"agility": 790,
+			"wisdom": 300
+		},
+		"resistances": {
+			"sleep": 100,
+			"frizz": -50
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Hive Mind"
+	},
+	"Giant Moth": {
+		"stats": {
+			"hp": 750,
+			"mp": 990,
+			"attack": 670,
+			"defence": 970,
+			"agility": 790,
+			"wisdom": 980
+		},
+		"resistances": {
+			"paralysis": 100,
+			"poison": 100,
+			"frizz": -50
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Poisoner"
+			}
+		],
+		"skill": "Toxifier"
+	},
+	"Gorerilla": {
+		"stats": {
+			"hp": 990,
+			"mp": 190,
+			"attack": 950,
+			"defence": 990,
+			"agility": 980,
+			"wisdom": 540
+		},
+		"resistances": {
+			"dazzle": 100
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			}
+		],
+		"skill": "Huntsman"
+	},
+	"Heligator": {
+		"stats": {
+			"hp": 990,
+			"mp": 630,
+			"attack": 900,
+			"defence": 990,
+			"agility": 440,
+			"wisdom": 610
+		},
+		"resistances": {
+			"fire_breath": 100,
+			"ice_breath": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "Naturalist"
+	},
+	"Yabby": {
+		"stats": {
+			"hp": 730,
+			"mp": 860,
+			"attack": 730,
+			"defence": 990,
+			"agility": 990,
+			"wisdom": 780
+		},
+		"resistances": {
+			"confusion": 100,
+			"water": 150
+		},
+		"traits": [
+			{
+				"name": "Paralyser"
+			}
+		],
+		"skill": "Mage Aid"
+	},
+	"Riptide": {
+		"stats": {
+			"hp": 840,
+			"mp": 440,
+			"attack": 920,
+			"defence": 990,
+			"agility": 940,
+			"wisdom": 960
+		},
+		"resistances": {
+			"confusion": 100
+		},
+		"traits": [
+			{
+				"name": "Early Bird"
+			}
+		],
+		"skill": "Firewind Slashes"
+	},
+	"Garuda": {
+		"stats": {
+			"hp": 810,
+			"mp": 610,
+			"attack": 820,
+			"defence": 940,
+			"agility": 990,
+			"wisdom": 850
+		},
+		"resistances": {
+			"fizzle": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "Frizz & Zap"
+	},
+	"Beetlebully": {
+		"stats": {
+			"hp": 960,
+			"mp": 480,
+			"attack": 940,
+			"defence": 990,
+			"agility": 700,
+			"wisdom": 490
+		},
+		"resistances": {
+			"dazzle": 100,
+			"frizz": -50
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Bounty Hunter"
+	},
+	"King Squid": {
+		"stats": {
+			"hp": 990,
+			"mp": 610,
+			"attack": 920,
+			"defence": 880,
+			"agility": 560,
+			"wisdom": 510
+		},
+		"resistances": {
+			"fizzle": 100,
+			"water": 150
+		},
+		"traits": [
+			{
+				"name": "Steady Recovery"
+			}
+		],
+		"skill": "Cleanser"
+	},
+	"Khalamari": {
+		"stats": {
+			"hp": 970,
+			"mp": 700,
+			"attack": 900,
+			"defence": 920,
+			"agility": 460,
+			"wisdom": 620
+		},
+		"resistances": {
+			"fizzle": 100,
+			"water": 150,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Paralyser"
+			}
+		],
+		"skill": "Breath II"
+	},
+	"Evil Sir Leopold": {
+		"stats": {
+			"hp": 850,
+			"mp": 560,
+			"attack": 960,
+			"defence": 870,
+			"agility": 960,
+			"wisdom": 500
+		},
+		"resistances": {
+			"confusion": 100,
+			"zam": 150,
+			"zap": -50
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Zammeister"
+			}
+		],
+		"skill": "Leopold"
+	},
+	"Empyrea": {
+		"stats": {
+			"hp": 860,
+			"mp": 610,
+			"attack": 910,
+			"defence": 880,
+			"agility": 800,
+			"wisdom": 880
+		},
+		"resistances": {
+			"zap": 150,
+			"sleep": 100,
+			"zam": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Zapmeister"
+			}
+		],
+		"skill": "Crusader"
+	},
+	"Platypunk": {
+		"stats": {
+			"hp": 940,
+			"mp": 610,
+			"attack": 860,
+			"defence": 960,
+			"agility": 680,
+			"wisdom": 630
+		},
+		"resistances": {
+			"fizzle": 100
+		},
+		"skill": "Naturalist"
+	},
+	"Mischievous Mole": {
+		"stats": {
+			"hp": 990,
+			"mp": 480,
+			"attack": 990,
+			"defence": 990,
+			"agility": 570,
+			"wisdom": 410
+		},
+		"resistances": {
+			"dazzle": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Guerrilla"
+	},
+	"Satyr": {
+		"stats": {
+			"hp": 940,
+			"mp": 550,
+			"attack": 920,
+			"defence": 860,
+			"agility": 610,
+			"wisdom": 990
+		},
+		"resistances": {
+			"sleep": 100
+		},
+		"skill": "Dancer"
+	},
+	"Hammerhood": {
+		"stats": {
+			"hp": 990,
+			"mp": 750,
+			"attack": 990,
+			"defence": 720,
+			"agility": 370,
+			"wisdom": 500
+		},
+		"resistances": {
+			"dazzle": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Huntsman"
+	},
+	"Fencing Fox": {
+		"stats": {
+			"hp": 820,
+			"mp": 730,
+			"attack": 920,
+			"defence": 960,
+			"agility": 730,
+			"wisdom": 650
+		},
+		"resistances": {
+			"confusion": 100
+		},
+		"traits": [
+			{
+				"name": "Early Bird"
+			}
+		],
+		"skill": "Guerrilla"
+	},
+	"Chainine": {
+		"stats": {
+			"hp": 990,
+			"mp": 540,
+			"attack": 850,
+			"defence": 960,
+			"agility": 650,
+			"wisdom": 650
+		},
+		"resistances": {
+			"dazzle": 100
+		},
+		"skill": "Mime"
+	},
+	"Orc": {
+		"stats": {
+			"hp": 910,
+			"mp": 510,
+			"attack": 990,
+			"defence": 910,
+			"agility": 730,
+			"wisdom": 630
+		},
+		"resistances": {
+			"sleep": 100
+		},
+		"skill": "Speedster"
+	},
+	"Pan Piper": {
+		"stats": {
+			"hp": 930,
+			"mp": 670,
+			"attack": 830,
+			"defence": 850,
+			"agility": 690,
+			"wisdom": 750
+		},
+		"resistances": {
+			"sleep": 100
+		},
+		"skill": "Nightmare"
+	},
+	"Jumping Jackal": {
+		"stats": {
+			"hp": 970,
+			"mp": 390,
+			"attack": 990,
+			"defence": 880,
+			"agility": 900,
+			"wisdom": 160
+		},
+		"resistances": {
+			"dazzle": 100
+		},
+		"traits": [
+			{
+				"name": "Able Ambusher"
+			}
+		],
+		"skill": "Speedster"
+	},
+	"Night Emperor": {
+		"stats": {
+			"hp": 930,
+			"mp": 850,
+			"attack": 790,
+			"defence": 870,
+			"agility": 460,
+			"wisdom": 880
+		},
+		"resistances": {
+			"sleep": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "Bad Breath"
+	},
+	"Weartiger": {
+		"stats": {
+			"hp": 930,
+			"mp": 490,
+			"attack": 950,
+			"defence": 990,
+			"agility": 690,
+			"wisdom": 660
+		},
+		"resistances": {
+			"fizzle": 100
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			}
+		],
+		"skill": "Boom Boxer"
+	},
+	"Brownie": {
+		"stats": {
+			"hp": 920,
+			"mp": 690,
+			"attack": 990,
+			"defence": 880,
+			"agility": 490,
+			"wisdom": 630
+		},
+		"resistances": {
+			"drain_magic": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Bounty Hunter"
+	},
+	"Bodkin Archer": {
+		"stats": {
+			"hp": 940,
+			"mp": 680,
+			"attack": 830,
+			"defence": 940,
+			"agility": 680,
+			"wisdom": 510
+		},
+		"resistances": {
+			"fizzle": 100
+		},
+		"skill": "Fortifier"
+	},
+	"Gargoyle": {
+		"stats": {
+			"hp": 830,
+			"mp": 600,
+			"attack": 920,
+			"defence": 880,
+			"agility": 920,
+			"wisdom": 740
+		},
+		"resistances": {
+			"immobilize": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "Bird Brain"
+	},
+	"Merman": {
+		"stats": {
+			"hp": 830,
+			"mp": 580,
+			"attack": 890,
+			"defence": 990,
+			"agility": 890,
+			"wisdom": 740
+		},
+		"resistances": {
+			"dazzle": 100,
+			"water": 150
+		},
+		"skill": "Aquapothecary"
+	},
+	"Diemon": {
+		"stats": {
+			"hp": 950,
+			"mp": 580,
+			"attack": 890,
+			"defence": 950,
+			"agility": 650,
+			"wisdom": 620
+		},
+		"resistances": {
+			"confusion": 100
+		},
+		"traits": [
+			{
+				"name": "Wooshmeister"
+			}
+		],
+		"skill": "Wind Blower"
+	},
+	"Notso Macho": {
+		"stats": {
+			"hp": 990,
+			"mp": 520,
+			"attack": 970,
+			"defence": 990,
+			"agility": 510,
+			"wisdom": 510
+		},
+		"resistances": {
+			"confusion": 100
+		},
+		"skill": "Berserker"
+	},
+	"Cockateer": {
+		"stats": {
+			"hp": 980,
+			"mp": 240,
+			"attack": 990,
+			"defence": 990,
+			"agility": 990,
+			"wisdom": 190
+		},
+		"resistances": {
+			"sleep": 100
+		},
+		"traits": [
+			{
+				"name": "Fly Swatter"
+			}
+		],
+		"skill": "Bird Brain"
+	},
+	"Silvapithecus": {
+		"stats": {
+			"hp": 860,
+			"mp": 760,
+			"attack": 760,
+			"defence": 870,
+			"agility": 790,
+			"wisdom": 900
+		},
+		"resistances": {
+			"whack": 100
+		},
+		"skill": "Diabolist"
+	},
+	"Gigantes": {
+		"stats": {
+			"hp": 990,
+			"mp": 400,
+			"attack": 990,
+			"defence": 990,
+			"agility": 590,
+			"wisdom": 690
+		},
+		"resistances": {
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Last Word"
+			}
+		],
+		"skill": "Anti-metal"
+	},
+	"Moosifer": {
+		"stats": {
+			"hp": 980,
+			"mp": 510,
+			"attack": 940,
+			"defence": 950,
+			"agility": 580,
+			"wisdom": 700
+		},
+		"resistances": {
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Woosh & Crack"
+	},
+	"Mohawker": {
+		"stats": {
+			"hp": 990,
+			"mp": 590,
+			"attack": 900,
+			"defence": 990,
+			"agility": 490,
+			"wisdom": 610
+		},
+		"resistances": {
+			"sleep": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			}
+		],
+		"skill": "White Knight"
+	},
+	"Buffalogre": {
+		"stats": {
+			"hp": 990,
+			"mp": 370,
+			"attack": 990,
+			"defence": 990,
+			"agility": 720,
+			"wisdom": 440
+		},
+		"resistances": {
+			"confusion": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Berserker"
+	},
+	"Pazuzu": {
+		"stats": {
+			"hp": 910,
+			"mp": 500,
+			"attack": 770,
+			"defence": 950,
+			"agility": 960,
+			"wisdom": 840
+		},
+		"resistances": {
+			"bang": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Wooshmeister"
+			}
+		],
+		"skill": "Bombardier"
+	},
+	"Atlas": {
+		"stats": {
+			"hp": 990,
+			"mp": 490,
+			"attack": 990,
+			"defence": 990,
+			"agility": 560,
+			"wisdom": 450
+		},
+		"resistances": {
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			}
+		],
+		"skill": "Diabolist"
+	},
+	"Don Mole": {
+		"stats": {
+			"hp": 970,
+			"mp": 610,
+			"attack": 920,
+			"defence": 990,
+			"agility": 510,
+			"wisdom": 550
+		},
+		"resistances": {
+			"immobilize": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Mime"
+	},
+	"Nimzo": {
+		"stats": {
+			"hp": 850,
+			"mp": 530,
+			"attack": 790,
+			"defence": 820,
+			"agility": 460,
+			"wisdom": 640
+		},
+		"resistances": {
+			"zam": 150,
+			"sap": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Double Trouble"
+			}
+		],
+		"skill": "Nimzo"
+	},
+	"Dhoulmagus": {
+		"stats": {
+			"hp": 800,
+			"mp": 870,
+			"attack": 790,
+			"defence": 850,
+			"agility": 750,
+			"wisdom": 990
+		},
+		"resistances": {
+			"whack": 100,
+			"woosh": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Dhoulmagus"
+	},
+	"Rhapthorne": {
+		"stats": {
+			"hp": 760,
+			"mp": 999,
+			"attack": 540,
+			"defence": 950,
+			"agility": 999,
+			"wisdom": 999
+		},
+		"resistances": {
+			"zam": 150,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Zammeister"
+			}
+		],
+		"skill": "Rhapthorne"
+	},
+	"Rhapthorne II": {
+		"stats": {
+			"hp": 999,
+			"mp": 610,
+			"attack": 940,
+			"defence": 920,
+			"agility": 400,
+			"wisdom": 770
+		},
+		"resistances": {
+			"zam": 150
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Rhapthorne II"
+	},
+	"Bag O' Laughs": {
+		"stats": {
+			"hp": 680,
+			"mp": 980,
+			"attack": 720,
+			"defence": 930,
+			"agility": 940,
+			"wisdom": 990
+		},
+		"skill": "Fear-monger"
+	},
+	"Shadow": {
+		"stats": {
+			"hp": 710,
+			"mp": 880,
+			"attack": 800,
+			"defence": 900,
+			"agility": 990,
+			"wisdom": 740
+		},
+		"resistances": {
+			"zam": 150,
+			"zap": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Zammeister"
+			}
+		],
+		"skill": "Reaper"
+	},
+	"Dancing Flame": {
+		"stats": {
+			"hp": 880,
+			"mp": 610,
+			"attack": 860,
+			"defence": 920,
+			"agility": 820,
+			"wisdom": 780
+		},
+		"resistances": {
+			"fire_breath": 150,
+			"frizz": 150,
+			"crack": -50
+		},
+		"traits": [
+			{
+				"name": "Frizzmeister"
+			}
+		],
+		"skill": "Fire Fighter"
+	},
+	"Frostburn": {
+		"stats": {
+			"hp": 900,
+			"mp": 650,
+			"attack": 920,
+			"defence": 780,
+			"agility": 680,
+			"wisdom": 920
+		},
+		"resistances": {
+			"crack": 150,
+			"ice_breath": 150,
+			"frizz": -50
+		},
+		"traits": [
+			{
+				"name": "Crackmeister"
+			}
+		],
+		"skill": "Icemeister"
+	},
+	"Spitnik": {
+		"stats": {
+			"hp": 990,
+			"mp": 650,
+			"attack": 840,
+			"defence": 940,
+			"agility": 570,
+			"wisdom": 440
+		},
+		"resistances": {
+			"bang": 150,
+			"crack": -50
+		},
+		"traits": [
+			{
+				"name": "Bangmeister"
+			}
+		],
+		"skill": "Frizz & Bang"
+	},
+	"Goodybag": {
+		"stats": {
+			"hp": 690,
+			"mp": 950,
+			"attack": 730,
+			"defence": 920,
+			"agility": 950,
+			"wisdom": 990
+		},
+		"resistances": {
+			"fizzle": 100
+		},
+		"skill": "Enfeebler"
+	},
+	"King Kelp": {
+		"stats": {
+			"hp": 690,
+			"mp": 900,
+			"attack": 840,
+			"defence": 990,
+			"agility": 840,
+			"wisdom": 990
+		},
+		"resistances": {
+			"water": 150,
+			"sleep": 100
+		},
+		"skill": "All-Rounder"
+	},
+	"Wax Murderer": {
+		"stats": {
+			"hp": 780,
+			"mp": 620,
+			"attack": 950,
+			"defence": 990,
+			"agility": 850,
+			"wisdom": 850
+		},
+		"resistances": {
+			"sag": 100
+		},
+		"skill": "Fire Fighter"
+	},
+	"Cannibox": {
+		"stats": {
+			"hp": 980,
+			"mp": 560,
+			"attack": 880,
+			"defence": 930,
+			"agility": 750,
+			"wisdom": 260
+		},
+		"resistances": {
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Desperado"
+			}
+		],
+		"skill": "Fear-monger"
+	},
+	"Rockbomb": {
+		"stats": {
+			"hp": 990,
+			"mp": 560,
+			"attack": 880,
+			"defence": 990,
+			"agility": 460,
+			"wisdom": 880
+		},
+		"resistances": {
+			"whack": 100
+		},
+		"skill": "Martyr"
+	},
+	"Anchorman": {
+		"stats": {
+			"hp": 980,
+			"mp": 640,
+			"attack": 980,
+			"defence": 990,
+			"agility": 360,
+			"wisdom": 560
+		},
+		"resistances": {
+			"immobilize": 100
+		},
+		"skill": "Materialist"
+	},
+	"Gold Golem": {
+		"stats": {
+			"hp": 990,
+			"mp": 460,
+			"attack": 970,
+			"defence": 990,
+			"agility": 660,
+			"wisdom": 330
+		},
+		"resistances": {
+			"sleep": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Iceplosion Slashes"
+	},
+	"Mecha-Mynah": {
+		"stats": {
+			"hp": 820,
+			"mp": 720,
+			"attack": 850,
+			"defence": 990,
+			"agility": 750,
+			"wisdom": 890
+		},
+		"resistances": {
+			"immobilize": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "Bird Brain"
+	},
+	"Mud Mannequin": {
+		"stats": {
+			"hp": 950,
+			"mp": 740,
+			"attack": 800,
+			"defence": 920,
+			"agility": 680,
+			"wisdom": 300
+		},
+		"resistances": {
+			"dazzle": 100,
+			"frizz": -50
+		},
+		"skill": "Dancer"
+	},
+	"Dingaling": {
+		"stats": {
+			"hp": 800,
+			"mp": 710,
+			"attack": 740,
+			"defence": 990,
+			"agility": 920,
+			"wisdom": 970
+		},
+		"resistances": {
+			"confusion": 100
+		},
+		"skill": "Materialist"
+	},
+	"Hunter Mech": {
+		"stats": {
+			"hp": 950,
+			"mp": 520,
+			"attack": 860,
+			"defence": 980,
+			"agility": 800,
+			"wisdom": 480
+		},
+		"resistances": {
+			"paralysis": 100,
+			"poison": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Metal Beater"
+			}
+		],
+		"skill": "Anti-metal"
+	},
+	"Puppeteer": {
+		"stats": {
+			"hp": 890,
+			"mp": 740,
+			"attack": 770,
+			"defence": 940,
+			"agility": 740,
+			"wisdom": 740
+		},
+		"resistances": {
+			"sleep": 100
+		},
+		"skill": "All-Rounder"
+	},
+	"Jum": {
+		"stats": {
+			"hp": 990,
+			"mp": 470,
+			"attack": 990,
+			"defence": 990,
+			"agility": 490,
+			"wisdom": 710
+		},
+		"resistances": {
+			"sleep": 100
+		},
+		"skill": "Defender"
+	},
+	"Mimic": {
+		"stats": {
+			"hp": 920,
+			"mp": 550,
+			"attack": 820,
+			"defence": 930,
+			"agility": 900,
+			"wisdom": 570
+		},
+		"resistances": {
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			}
+		],
+		"skill": "Nightmare"
+	},
+	"Golem": {
+		"stats": {
+			"hp": 990,
+			"mp": 340,
+			"attack": 990,
+			"defence": 990,
+			"agility": 640,
+			"wisdom": 780
+		},
+		"resistances": {
+			"sleep": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Materialist"
+	},
+	"Living Statue": {
+		"stats": {
+			"hp": 990,
+			"mp": 520,
+			"attack": 960,
+			"defence": 990,
+			"agility": 480,
+			"wisdom": 670
+		},
+		"resistances": {
+			"sleep": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			}
+		],
+		"skill": "Barricade"
+	},
+	"Boe": {
+		"stats": {
+			"hp": 920,
+			"mp": 650,
+			"attack": 790,
+			"defence": 930,
+			"agility": 740,
+			"wisdom": 740
+		},
+		"resistances": {
+			"confusion": 100
+		},
+		"skill": "Fortifier"
+	},
+	"Mum": {
+		"stats": {
+			"hp": 820,
+			"mp": 820,
+			"attack": 820,
+			"defence": 890,
+			"agility": 680,
+			"wisdom": 990
+		},
+		"skill": "Mage Aid"
+	},
+	"Boh": {
+		"stats": {
+			"hp": 950,
+			"mp": 900,
+			"attack": 720,
+			"defence": 930,
+			"agility": 550,
+			"wisdom": 380
+		},
+		"resistances": {
+			"fizzle": 100
+		},
+		"skill": "Healer"
+	},
+	"Trap Box": {
+		"stats": {
+			"hp": 930,
+			"mp": 680,
+			"attack": 800,
+			"defence": 870,
+			"agility": 700,
+			"wisdom": 760
+		},
+		"resistances": {
+			"paralysis": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			}
+		],
+		"skill": "Fear-monger"
+	},
+	"Killing Machine": {
+		"stats": {
+			"hp": 810,
+			"mp": 400,
+			"attack": 760,
+			"defence": 870,
+			"agility": 820,
+			"wisdom": 460
+		},
+		"resistances": {
+			"dazzle": 100,
+			"bang": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Double Trouble"
+			}
+		],
+		"skill": "Assassin"
+	},
+	"Mumboh-Jumboe": {
+		"stats": {
+			"hp": 940,
+			"mp": 610,
+			"attack": 990,
+			"defence": 990,
+			"agility": 360,
+			"wisdom": 920
+		},
+		"resistances": {
+			"sleep": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Bangmeister"
+			}
+		],
+		"skill": "Barricade"
+	},
+	"Ruin": {
+		"stats": {
+			"hp": 999,
+			"mp": 550,
+			"attack": 999,
+			"defence": 900,
+			"agility": 500,
+			"wisdom": 500
+		},
+		"resistances": {
+			"confusion": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Last Word"
+			},
+			{
+				"name": "Critical Massacre"
+			}
+		],
+		"skill": "Niflheim"
+	},
+	"Psaro The Manslayer": {
+		"stats": {
+			"hp": 960,
+			"mp": 450,
+			"attack": 999,
+			"defence": 950,
+			"agility": 730,
+			"wisdom": 450
+		},
+		"resistances": {
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			},
+			{
+				"name": "Desperado"
+			}
+		],
+		"skill": "Niflheim"
+	},
+	"Estark": {
+		"stats": {
+			"hp": 880,
+			"mp": 300,
+			"attack": 900,
+			"defence": 800,
+			"agility": 480,
+			"wisdom": 600
+		},
+		"resistances": {
+			"fizzle": 100,
+			"sleep": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Double Trouble"
+			}
+		],
+		"skill": "Estark"
+	},
+	"Dracky": {
+		"stats": {
+			"hp": 860,
+			"mp": 690,
+			"attack": 720,
+			"defence": 720,
+			"agility": 990,
+			"wisdom": 990
+		},
+		"resistances": {
+			"fizzle": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "Dark Knight"
+	},
+	"Lips": {
+		"stats": {
+			"hp": 920,
+			"mp": 640,
+			"attack": 990,
+			"defence": 990,
+			"agility": 490,
+			"wisdom": 650
+		},
+		"resistances": {
+			"drain_magic": 100
+		},
+		"skill": "Hypnotist"
+	},
+	"Winky": {
+		"stats": {
+			"hp": 840,
+			"mp": 740,
+			"attack": 900,
+			"defence": 990,
+			"agility": 740,
+			"wisdom": 510
+		},
+		"resistances": {
+			"dazzle": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Desperado"
+			}
+		],
+		"skill": "Seal"
+	},
+	"See Urchin": {
+		"stats": {
+			"hp": 690,
+			"mp": 890,
+			"attack": 650,
+			"defence": 970,
+			"agility": 990,
+			"wisdom": 990
+		},
+		"resistances": {
+			"fizzle": 100,
+			"water": 150
+		},
+		"traits": [
+			{
+				"name": "Health Professional"
+			}
+		],
+		"skill": "Aquapothecary"
+	},
+	"Imp": {
+		"stats": {
+			"hp": 840,
+			"mp": 780,
+			"attack": 810,
+			"defence": 870,
+			"agility": 760,
+			"wisdom": 870
+		},
+		"resistances": {
+			"fizzle": 100
+		},
+		"traits": [
+			{
+				"name": "Bangmeister"
+			}
+		],
+		"skill": "Frizz & Bang"
+	},
+	"Lump Wizard": {
+		"stats": {
+			"hp": 620,
+			"mp": 990,
+			"attack": 810,
+			"defence": 960,
+			"agility": 950,
+			"wisdom": 990
+		},
+		"skill": "Bang & Woosh"
+	},
+	"Frogface": {
+		"stats": {
+			"hp": 750,
+			"mp": 990,
+			"attack": 730,
+			"defence": 820,
+			"agility": 840,
+			"wisdom": 910
+		},
+		"resistances": {
+			"frizz": -50
+		},
+		"skill": "Healer"
+	},
+	"Dessert Demon": {
+		"stats": {
+			"hp": 990,
+			"mp": 620,
+			"attack": 950,
+			"defence": 900,
+			"agility": 430,
+			"wisdom": 610
+		},
+		"resistances": {
+			"dazzle": 100
+		},
+		"skill": "Bolsterer"
+	},
+	"Dancing Devil": {
+		"stats": {
+			"hp": 790,
+			"mp": 970,
+			"attack": 460,
+			"defence": 990,
+			"agility": 990,
+			"wisdom": 990
+		},
+		"resistances": {
+			"drain_magic": 100
+		},
+		"skill": "Dancer"
+	},
+	"Headhunter": {
+		"stats": {
+			"hp": 900,
+			"mp": 620,
+			"attack": 990,
+			"defence": 880,
+			"agility": 650,
+			"wisdom": 560
+		},
+		"resistances": {
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Metal Beater"
+			}
+		],
+		"skill": "Berserker"
+	},
+	"Lesser Demon": {
+		"stats": {
+			"hp": 750,
+			"mp": 990,
+			"attack": 690,
+			"defence": 790,
+			"agility": 870,
+			"wisdom": 990
+		},
+		"resistances": {
+			"bang": 100
+		},
+		"skill": "Diabolist"
+	},
+	"Gryphon": {
+		"stats": {
+			"hp": 860,
+			"mp": 740,
+			"attack": 860,
+			"defence": 850,
+			"agility": 710,
+			"wisdom": 830
+		},
+		"resistances": {
+			"fizzle": 100
+		},
+		"skill": "Antimagic"
+	},
+	"Great Dracky": {
+		"stats": {
+			"hp": 970,
+			"mp": 250,
+			"attack": 970,
+			"defence": 990,
+			"agility": 860,
+			"wisdom": 710
+		},
+		"resistances": {
+			"bang": 100,
+			"zam": 150
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "Bang & Crack"
+	},
+	"Octavian Sentry": {
+		"stats": {
+			"hp": 880,
+			"mp": 710,
+			"attack": 800,
+			"defence": 950,
+			"agility": 740,
+			"wisdom": 770
+		},
+		"resistances": {
+			"water": 150,
+			"sag": 100
+		},
+		"skill": "Thunderwind Slashes"
+	},
+	"Wrecktor": {
+		"stats": {
+			"hp": 730,
+			"mp": 990,
+			"attack": 620,
+			"defence": 920,
+			"agility": 930,
+			"wisdom": 990
+		},
+		"resistances": {
+			"fizzle": 100
+		},
+		"traits": [
+			{
+				"name": "Wooshmeister"
+			}
+		],
+		"skill": "Bang & Woosh"
+	},
+	"Lethal Armour": {
+		"stats": {
+			"hp": 980,
+			"mp": 520,
+			"attack": 940,
+			"defence": 990,
+			"agility": 600,
+			"wisdom": 490
+		},
+		"resistances": {
+			"confusion": 100
+		},
+		"traits": [
+			{
+				"name": "Able Ambusher"
+			}
+		],
+		"skill": "Cold Sleep"
+	},
+	"Fallen Priest": {
+		"stats": {
+			"hp": 730,
+			"mp": 990,
+			"attack": 630,
+			"defence": 930,
+			"agility": 920,
+			"wisdom": 990
+		},
+		"resistances": {
+			"fizzle": 100
+		},
+		"traits": [
+			{
+				"name": "Zammeister"
+			}
+		],
+		"skill": "Woosh & Zam"
+	},
+	"Archdemon": {
+		"stats": {
+			"hp": 980,
+			"mp": 520,
+			"attack": 930,
+			"defence": 990,
+			"agility": 570,
+			"wisdom": 570
+		},
+		"resistances": {
+			"bang": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Bangmeister"
+			}
+		],
+		"skill": "Frizz & Bang II"
+	},
+	"Boss Troll": {
+		"stats": {
+			"hp": 990,
+			"mp": 710,
+			"attack": 990,
+			"defence": 990,
+			"agility": 370,
+			"wisdom": 140
+		},
+		"resistances": {
+			"dazzle": 100,
+			"sleep": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			}
+		],
+		"skill": "Anti-dragon"
+	},
+	"Jamirus": {
+		"stats": {
+			"hp": 780,
+			"mp": 650,
+			"attack": 650,
+			"defence": 880,
+			"agility": 780,
+			"wisdom": 560
+		},
+		"resistances": {
+			"fizzle": 100,
+			"immobilize": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Double Trouble"
+			}
+		],
+		"skill": "Frizz & Woosh"
+	},
+	"Gracos": {
+		"stats": {
+			"hp": 920,
+			"mp": 570,
+			"attack": 840,
+			"defence": 890,
+			"agility": 770,
+			"wisdom": 860
+		},
+		"resistances": {
+			"fizzle": 100,
+			"water": 150
+		},
+		"traits": [
+			{
+				"name": "Crackmeister"
+			}
+		],
+		"skill": "Crack & Zap"
+	},
+	"Demon-At-Arms": {
+		"stats": {
+			"hp": 860,
+			"mp": 470,
+			"attack": 800,
+			"defence": 780,
+			"agility": 540,
+			"wisdom": 560
+		},
+		"resistances": {
+			"sag": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Double Trouble"
+			}
+		],
+		"skill": "Crack & Zam II"
+	},
+	"Belial": {
+		"stats": {
+			"hp": 860,
+			"mp": 440,
+			"attack": 890,
+			"defence": 790,
+			"agility": 420,
+			"wisdom": 440
+		},
+		"resistances": {
+			"bang": 100,
+			"fizzle": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Double Trouble"
+			},
+			{
+				"name": "Bangmeister"
+			}
+		],
+		"skill": "Bang & Zam II"
+	},
+	"Robbin' 'Ood": {
+		"stats": {
+			"hp": 880,
+			"mp": 590,
+			"attack": 920,
+			"defence": 970,
+			"agility": 820,
+			"wisdom": 510
+		},
+		"resistances": {
+			"immobilize": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Bounty Hunter"
+	},
+	"Night Clubber": {
+		"stats": {
+			"hp": 990,
+			"mp": 530,
+			"attack": 990,
+			"defence": 990,
+			"agility": 520,
+			"wisdom": 370
+		},
+		"resistances": {
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Critical Massacre"
+			}
+		],
+		"skill": "Martyr"
+	},
+	"Malroth": {
+		"stats": {
+			"hp": 900,
+			"mp": 870,
+			"attack": 770,
+			"defence": 870,
+			"agility": 570,
+			"wisdom": 720
+		},
+		"resistances": {
+			"confusion": 100,
+			"zam": 150,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			},
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Healer"
+	},
+	"Zoma": {
+		"stats": {
+			"hp": 680,
+			"mp": 660,
+			"attack": 740,
+			"defence": 900,
+			"agility": 700,
+			"wisdom": 999
+		},
+		"resistances": {
+			"fizzle": 100,
+			"zap": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Double Trouble"
+			}
+		],
+		"skill": "Ice II"
+	},
+	"Mortamor": {
+		"stats": {
+			"hp": 780,
+			"mp": 999,
+			"attack": 540,
+			"defence": 800,
+			"agility": 999,
+			"wisdom": 999
+		},
+		"resistances": {
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Steady Recovery"
+			},
+			{
+				"name": "Magic Regenerator"
+			}
+		],
+		"skill": "Mortamor"
+	},
+	"Ghost": {
+		"stats": {
+			"hp": 780,
+			"mp": 990,
+			"attack": 610,
+			"defence": 700,
+			"agility": 990,
+			"wisdom": 990
+		},
+		"resistances": {
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "Graveheart"
+	},
+	"Firespirit": {
+		"stats": {
+			"hp": 810,
+			"mp": 990,
+			"attack": 470,
+			"defence": 860,
+			"agility": 990,
+			"wisdom": 990
+		},
+		"resistances": {
+			"fire_breath": 150,
+			"frizz": 150,
+			"water": -50
+		},
+		"traits": [
+			{
+				"name": "Frizzmeister"
+			}
+		],
+		"skill": "Fire"
+	},
+	"Stump Chump": {
+		"stats": {
+			"hp": 920,
+			"mp": 630,
+			"attack": 940,
+			"defence": 990,
+			"agility": 530,
+			"wisdom": 690
+		},
+		"resistances": {
+			"fizzle": 100,
+			"frizz": -50
+		},
+		"skill": "Green Finger"
+	},
+	"Funghoul": {
+		"stats": {
+			"hp": 900,
+			"mp": 700,
+			"attack": 860,
+			"defence": 980,
+			"agility": 650,
+			"wisdom": 650
+		},
+		"resistances": {
+			"poison": 100,
+			"frizz": -50
+		},
+		"skill": "Graveheart"
+	},
+	"Muddy Hand": {
+		"stats": {
+			"hp": 870,
+			"mp": 690,
+			"attack": 850,
+			"defence": 950,
+			"agility": 690,
+			"wisdom": 870
+		},
+		"resistances": {
+			"dazzle": 100,
+			"frizz": -50
+		},
+		"skill": "Materialist"
+	},
+	"Demonrider": {
+		"stats": {
+			"hp": 820,
+			"mp": 690,
+			"attack": 580,
+			"defence": 780,
+			"agility": 990,
+			"wisdom": 650
+		},
+		"resistances": {
+			"fizzle": 100,
+			"zap": -50
+		},
+		"traits": [
+			{
+				"name": "Counterstriker"
+			}
+		],
+		"skill": "Diminisher"
+	},
+	"Mummy Boy": {
+		"stats": {
+			"hp": 990,
+			"mp": 440,
+			"attack": 930,
+			"defence": 990,
+			"agility": 650,
+			"wisdom": 600
+		},
+		"resistances": {
+			"crack": 100,
+			"zap": -50,
+			"whack": 100
+		},
+		"skill": "Graveheart"
+	},
+	"Skipper": {
+		"stats": {
+			"hp": 870,
+			"mp": 580,
+			"attack": 820,
+			"defence": 990,
+			"agility": 940,
+			"wisdom": 580
+		},
+		"resistances": {
+			"immobilize": 100
+		},
+		"skill": "Saboteur"
+	},
+	"Phantom Fencer": {
+		"stats": {
+			"hp": 770,
+			"mp": 570,
+			"attack": 930,
+			"defence": 930,
+			"agility": 990,
+			"wisdom": 920
+		},
+		"resistances": {
+			"zap": -50,
+			"whack": 100,
+			"woosh": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "Wind Blower"
+	},
+	"Flyguy": {
+		"stats": {
+			"hp": 850,
+			"mp": 670,
+			"attack": 800,
+			"defence": 850,
+			"agility": 990,
+			"wisdom": 560
+		},
+		"resistances": {
+			"sleep": 100,
+			"frizz": -50
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "Seal"
+	},
+	"Skeleton": {
+		"stats": {
+			"hp": 990,
+			"mp": 470,
+			"attack": 950,
+			"defence": 990,
+			"agility": 560,
+			"wisdom": 660
+		},
+		"resistances": {
+			"immobilize": 100,
+			"zap": -50,
+			"whack": 100
+		},
+		"skill": "Enfeebler"
+	},
+	"Walking Corpse": {
+		"stats": {
+			"hp": 990,
+			"mp": 680,
+			"attack": 990,
+			"defence": 580,
+			"agility": 480,
+			"wisdom": 710
+		},
+		"resistances": {
+			"poison": 100,
+			"zap": -50,
+			"whack": 100
+		},
+		"skill": "Bad Breath"
+	},
+	"Restless Armour": {
+		"stats": {
+			"hp": 890,
+			"mp": 540,
+			"attack": 940,
+			"defence": 990,
+			"agility": 710,
+			"wisdom": 750
+		},
+		"resistances": {
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Anti-dragon"
+	},
+	"Hellhound": {
+		"stats": {
+			"hp": 950,
+			"mp": 210,
+			"attack": 980,
+			"defence": 990,
+			"agility": 920,
+			"wisdom": 800
+		},
+		"resistances": {
+			"sag": 100,
+			"zap": -50
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Crack & Zam"
+	},
+	"Phantom Swordsman": {
+		"stats": {
+			"hp": 790,
+			"mp": 890,
+			"attack": 680,
+			"defence": 790,
+			"agility": 990,
+			"wisdom": 850
+		},
+		"resistances": {
+			"dazzle": 100,
+			"zap": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "Woosh & Zam"
+	},
+	"Skeleton Soldier": {
+		"stats": {
+			"hp": 990,
+			"mp": 570,
+			"attack": 890,
+			"defence": 790,
+			"agility": 600,
+			"wisdom": 800
+		},
+		"resistances": {
+			"immobilize": 100,
+			"zap": -50,
+			"whack": 100
+		},
+		"skill": "Healer"
+	},
+	"Grim Rider": {
+		"stats": {
+			"hp": 870,
+			"mp": 330,
+			"attack": 710,
+			"defence": 830,
+			"agility": 990,
+			"wisdom": 740
+		},
+		"resistances": {
+			"sleep": 100,
+			"zap": -50
+		},
+		"traits": [
+			{
+				"name": "Counterstriker"
+			}
+		],
+		"skill": "Assassin"
+	},
+	"Soulspawn": {
+		"stats": {
+			"hp": 670,
+			"mp": 990,
+			"attack": 700,
+			"defence": 920,
+			"agility": 990,
+			"wisdom": 990
+		},
+		"resistances": {
+			"poison": 100,
+			"zap": -50,
+			"whack": 100
+		},
+		"skill": "Graveheart"
+	},
+	"Stark Raven": {
+		"stats": {
+			"hp": 830,
+			"mp": 640,
+			"attack": 800,
+			"defence": 950,
+			"agility": 950,
+			"wisdom": 760
+		},
+		"resistances": {
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "Bird Brain"
+	},
+	"Wailin' Weed": {
+		"stats": {
+			"hp": 780,
+			"mp": 990,
+			"attack": 650,
+			"defence": 840,
+			"agility": 840,
+			"wisdom": 940
+		},
+		"resistances": {
+			"fizzle": 100,
+			"frizz": -50
+		},
+		"traits": [
+			{
+				"name": "Artful Dodger"
+			}
+		],
+		"skill": "All-Rounder"
+	},
+	"Tortured Soul": {
+		"stats": {
+			"hp": 750,
+			"mp": 990,
+			"attack": 690,
+			"defence": 920,
+			"agility": 790,
+			"wisdom": 990
+		},
+		"resistances": {
+			"sleep": 100,
+			"zap": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Poisoner"
+			}
+		],
+		"skill": "Cursader"
+	},
+	"Roseguardin": {
+		"stats": {
+			"hp": 750,
+			"mp": 490,
+			"attack": 850,
+			"defence": 740,
+			"agility": 680,
+			"wisdom": 680
+		},
+		"resistances": {
+			"fizzle": 100,
+			"paralysis": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Double Trouble"
+			}
+		],
+		"skill": "Diminisher"
+	},
+	"Bone Baron": {
+		"stats": {
+			"hp": 880,
+			"mp": 530,
+			"attack": 560,
+			"defence": 780,
+			"agility": 990,
+			"wisdom": 870
+		},
+		"resistances": {
+			"immobilize": 100,
+			"zap": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Counterstriker"
+			}
+		],
+		"skill": "Diabolist"
+	},
+	"Dullahan": {
+		"stats": {
+			"hp": 900,
+			"mp": 560,
+			"attack": 900,
+			"defence": 970,
+			"agility": 700,
+			"wisdom": 920
+		},
+		"resistances": {
+			"paralysis": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Champion"
+	},
+	"Wight King": {
+		"stats": {
+			"hp": 790,
+			"mp": 990,
+			"attack": 430,
+			"defence": 990,
+			"agility": 990,
+			"wisdom": 990
+		},
+		"resistances": {
+			"sleep": 100,
+			"zap": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Poisoner"
+			}
+		],
+		"skill": "Reaper"
+	},
+	"Captain Crow": {
+		"stats": {
+			"hp": 880,
+			"mp": 720,
+			"attack": 820,
+			"defence": 900,
+			"agility": 840,
+			"wisdom": 430
+		},
+		"resistances": {
+			"confusion": 100,
+			"paralysis": 100,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Captain Crow"
+	},
+	"Orgodemir": {
+		"stats": {
+			"hp": 740,
+			"mp": 860,
+			"attack": 680,
+			"defence": 830,
+			"agility": 480,
+			"wisdom": 915
+		},
+		"resistances": {
+			"paralysis": 100,
+			"confusion": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Double Trouble"
+			}
+		],
+		"skill": "Muspell"
+	},
+	"Dr Snapped": {
+		"stats": {
+			"hp": 800,
+			"mp": 700,
+			"attack": 700,
+			"defence": 620,
+			"agility": 600,
+			"wisdom": 999
+		},
+		"resistances": {
+			"zam": 150,
+			"zap": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Double Trouble"
+			},
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Dr Snapped"
+	},
+	"Wulfspade": {
+		"stats": {
+			"hp": 950,
+			"mp": 440,
+			"attack": 820,
+			"defence": 990,
+			"agility": 820,
+			"wisdom": 820
+		},
+		"resistances": {
+			"thunder": 150,
+			"sag": 100,
+			"earth": -50
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Wulfspade"
+	},
+	"Hawkhart": {
+		"stats": {
+			"hp": 980,
+			"mp": 450,
+			"attack": 790,
+			"defence": 990,
+			"agility": 790,
+			"wisdom": 820
+		},
+		"resistances": {
+			"fizzle": 100,
+			"fire": 150,
+			"water": -50
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Hawkhart"
+	},
+	"Cluboon": {
+		"stats": {
+			"hp": 970,
+			"mp": 380,
+			"attack": 930,
+			"defence": 980,
+			"agility": 820,
+			"wisdom": 610
+		},
+		"resistances": {
+			"earth": 150,
+			"sag": 100,
+			"fire": -50
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Cluboon"
+	},
+	"Diamagon": {
+		"stats": {
+			"hp": 990,
+			"mp": 450,
+			"attack": 910,
+			"defence": 980,
+			"agility": 600,
+			"wisdom": 820
+		},
+		"resistances": {
+			"water": 150,
+			"ice_breath": 100,
+			"thunder": -50
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			}
+		],
+		"skill": "Diamagon"
+	},
+	"Wulfspade Ace": {
+		"stats": {
+			"hp": 900,
+			"mp": 700,
+			"attack": 800,
+			"defence": 900,
+			"agility": 800,
+			"wisdom": 900
+		},
+		"resistances": {
+			"thunder": 150,
+			"paralysis": 100,
+			"poison": 100,
+			"earth": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			},
+			{
+				"name": "Desperado"
+			}
+		],
+		"skill": "Wulfspade III"
+	},
+	"Hawkhart Ace": {
+		"stats": {
+			"hp": 800,
+			"mp": 900,
+			"attack": 800,
+			"defence": 800,
+			"agility": 900,
+			"wisdom": 900
+		},
+		"resistances": {
+			"fire": 150,
+			"poison": -50,
+			"sleep": -50,
+			"water": -50
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			},
+			{
+				"name": "Magic Regenerator"
+			}
+		],
+		"skill": "Hawkhart III"
+	},
+	"Cluboon Ace": {
+		"stats": {
+			"hp": 950,
+			"mp": 600,
+			"attack": 850,
+			"defence": 800,
+			"agility": 750,
+			"wisdom": 750
+		},
+		"resistances": {
+			"earth": 150,
+			"poison": 100,
+			"sleep": 100,
+			"fire": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			},
+			{
+				"name": "Critical Massacre"
+			}
+		],
+		"skill": "Cluboon III"
+	},
+	"Diamagon Ace": {
+		"stats": {
+			"hp": 930,
+			"mp": 740,
+			"attack": 820,
+			"defence": 910,
+			"agility": 600,
+			"wisdom": 700
+		},
+		"resistances": {
+			"confusion": 100,
+			"water": 150,
+			"poison": 100,
+			"thunder": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			},
+			{
+				"name": "Steady Recovery"
+			}
+		],
+		"skill": "Diamagon III"
+	},
+	"Ace Of Spades": {
+		"stats": {
+			"hp": 940,
+			"mp": 650,
+			"attack": 800,
+			"defence": 870,
+			"agility": 730,
+			"wisdom": 750
+		},
+		"resistances": {
+			"fire_breath": 100,
+			"zam": 150,
+			"zap": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			},
+			{
+				"name": "Zammeister"
+			}
+		],
+		"skill": "Cursader"
+	},
+	"Wildcard": {
+		"stats": {
+			"hp": 900,
+			"mp": 700,
+			"attack": 800,
+			"defence": 999,
+			"agility": 800,
+			"wisdom": 800
+		},
+		"resistances": {
+			"fire_breath": 100,
+			"zap": 150,
+			"zam": -50,
+			"whack": 100
+		},
+		"traits": [
+			{
+				"name": "Psycho"
+			},
+			{
+				"name": "Zapmeister"
+			}
+		],
+		"skill": "Crusader"
+	}
+}

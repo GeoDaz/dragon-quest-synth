@@ -13,7 +13,7 @@ const Talent = memo(function Talent({ name }: { name: string }) {
 	const term = terms.skills[name];
 	const label = translateSkill(term?.en || name);
 	const desc = localised(term?.desc);
-	const talent = talents.talents[name];
+	const talent = talents.talents[name]?.moves.length ? talents.talents[name] : undefined;
 
 	const content =
 		talent ?
@@ -51,7 +51,10 @@ const Talent = memo(function Talent({ name }: { name: string }) {
 	return (
 		<Described
 			text={content}
-			className={makeClassName(!term && 'details-jp')}
+			className={makeClassName(
+				!term && 'details-jp',
+				talents.talents[name]?.unofficial && 'talent-unofficial'
+			)}
 			popoverClassName={talent && 'talent-popover'}
 		>
 			{label}

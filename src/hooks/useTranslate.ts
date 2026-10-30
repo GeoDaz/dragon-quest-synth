@@ -7,7 +7,12 @@ const translatedMonsters = require('../json/monsterTranslations.json');
 const translatedMoves: StringObject = require('../json/movesTranslations.json');
 const translatedSkills: StringObject = require('../json/skillsTranslations.json');
 const gameTranslatedSkills: { [game: string]: StringObject } = {
+	DQM1: require('../json/DQM1SkillsTranslations.json'),
+	DQM2: require('../json/DQM2SkillsTranslations.json'),
 	DQM4: require('../json/DQM4SkillsTranslations.json'),
+	DQMJ1: require('../json/DQMJ1SkillsTranslations.json'),
+	DQMJ2: require('../json/DQMJ2SkillsTranslations.json'),
+	DQMJ3: require('../json/DQMJ3SkillsTranslations.json'),
 };
 const translatedTraits: StringObject = require('../json/traitsTranslations.json');
 const translatedAreas: StringObject = require('../json/areasTranslations.json');
@@ -113,8 +118,14 @@ const translatedUI: StringObject = {
 		'Obtenus en synthétisant un monstre ayant atteint le bon nombre de PC sur le talent précédent ou en synthétisant 2 monstres ayant ce même talent avec le bon nombre de PC à eux deux.',
 	Category: 'Catégorie',
 	'Skill sets to max': 'Talents à maxer',
+	'Required skill sets': 'Talents requis',
 	'Go to this skill set': 'Aller à ce talent',
 	'2 among the following': '2 parmi les suivants',
+	'1 among the following': '1 parmi les suivants',
+	'{min} among the following': '{min} parmi les suivants',
+	'{min} to {max} among the following': '{min} à {max} parmi les suivants',
+	'together covering': 'réunissant',
+	and: 'et',
 	SP: 'PC',
 	Skill: 'Compétence',
 	'2nd skill among': 'Second talent parmi',

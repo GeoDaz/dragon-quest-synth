@@ -22,7 +22,17 @@
 			{
 				"name": "Immediate Accelerate"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"fire_breath": 100,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"gobstopper": 100,
+			"blunt": 100
+		}
 	},
 	"Small Fry": {
 		"size": "S",
@@ -47,7 +57,18 @@
 			{
 				"name": "Crafty Fire Breather"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"fire_breath": 100,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		}
 	},
 	"Cruelcumber": {
 		"size": "S",
@@ -72,7 +93,18 @@
 			{
 				"name": "Counterslammer"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"whack": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		}
 	},
 	"Pickayune": {
 		"size": "S",
@@ -97,7 +129,18 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"drain_magic": 100,
+			"abiliterator": 100
+		}
 	},
 	"Wax Murderer": {
 		"size": "S",
@@ -122,7 +165,18 @@
 			{
 				"name": "Crafty Frizzer"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 100,
+			"sap": -25,
+			"dim": 100
+		},
+		"skills": ["Fire Fighter"]
 	},
 	"Winky": {
 		"size": "S",
@@ -147,7 +201,20 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"whack": 100,
+			"dazzle": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		},
+		"skills": ["Seal"]
 	},
 	"Firespirit": {
 		"size": "S",
@@ -172,7 +239,23 @@
 			{
 				"name": "Magic Drain Attack"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 150,
+			"woosh": -25,
+			"crack": -25,
+			"zap": -25,
+			"zam": 50,
+			"fire_breath": 150,
+			"ice_breath": -25,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25
+		},
+		"skills": ["Frizz & Sizz"]
 	},
 	"Slime": {
 		"size": "S",
@@ -197,7 +280,17 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 50,
+			"zam": -25,
+			"dazzle": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"drain_magic": -25,
+			"fizzle": 50
+		},
+		"skills": ["Attack Boost", "Slimer"]
 	},
 	"Komodo": {
 		"size": "S",
@@ -222,7 +315,18 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"donk": -25,
+			"dazzle": 100,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		},
+		"skills": ["Defender"]
 	},
 	"Swarmtroop": {
 		"size": "S",
@@ -247,7 +351,19 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"woosh": 100,
+			"sizz": -25,
+			"fire_breath": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		}
 	},
 	"Platypunk": {
 		"size": "S",
@@ -272,7 +388,20 @@
 			{
 				"name": "Random Fizzle"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"sizz": -25,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"fizzle": 100,
+			"abiliterator": 100
+		},
+		"skills": ["Defence Boost", "Naturalist"]
 	},
 	"Bag O' Laughs": {
 		"size": "S",
@@ -297,7 +426,20 @@
 			{
 				"name": "Metal Killer"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"immobilize": 100,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100,
+			"fizzle": -25
+		},
+		"skills": ["Fear-monger"]
 	},
 	"Dracky": {
 		"size": "S",
@@ -322,7 +464,18 @@
 			{
 				"name": "Ally Tension Rise"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		},
+		"skills": ["Agility Boost", "Dark Knight"]
 	},
 	"Ghost": {
 		"size": "S",
@@ -347,7 +500,20 @@
 			{
 				"name": "Sleep Attack"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 50,
+			"whack": 100,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"decelerate": -25,
+			"dim": -25
+		},
+		"skills": ["Graveheart"]
 	},
 	"Bad Egg": {
 		"size": "S",
@@ -372,7 +538,18 @@
 			{
 				"name": "Rare Tension"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": 50,
+			"zap": 50,
+			"zam": -25,
+			"dazzle": 100,
+			"sag": 50,
+			"dim": 50,
+			"drain_magic": -25,
+			"fizzle": 50
+		},
+		"skills": ["Crack & Sizz"]
 	},
 	"Frou-Fry": {
 		"size": "S",
@@ -397,7 +574,19 @@
 			{
 				"name": "Crafty Confuser"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"paralysis": 100,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		},
+		"skills": ["Icemeister"]
 	},
 	"Capsichum": {
 		"size": "S",
@@ -422,7 +611,20 @@
 			{
 				"name": "Whack Attack"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"bang": 50,
+			"sizz": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"sleep": 100,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Saboteur"]
 	},
 	"Mischievous Mole": {
 		"size": "S",
@@ -447,7 +649,20 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"ice_breath": -25,
+			"dazzle": 100,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		},
+		"skills": ["Guerrilla"]
 	},
 	"Mud Mannequin": {
 		"size": "S",
@@ -472,7 +687,20 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"dazzle": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		},
+		"skills": ["Dancer"]
 	},
 	"Lips": {
 		"size": "S",
@@ -497,7 +725,19 @@
 			{
 				"name": "Crafty Inactivist"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"dazzle": 100,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"gobstopper": -25,
+			"fizzle": 100
+		},
+		"skills": ["Wisdom Boost", "Hypnotist"]
 	},
 	"Stump Chump": {
 		"size": "S",
@@ -522,7 +762,18 @@
 			{
 				"name": "Magic Regenerator"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 50,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"fizzle": 100
+		},
+		"skills": ["Green Finger"]
 	},
 	"Bubble Slime": {
 		"size": "S",
@@ -547,7 +798,19 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 50,
+			"zam": -25,
+			"dazzle": 100,
+			"poison": 100,
+			"immobilize": -25,
+			"sag": 50,
+			"decelerate": -25,
+			"drain_magic": -25,
+			"fizzle": 50
+		},
+		"skills": ["Slimer"]
 	},
 	"Dragonthorn": {
 		"size": "S",
@@ -572,7 +835,20 @@
 			{
 				"name": "Crafty Magic Drainer"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"sizz": 50,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100,
+			"fizzle": 100
+		},
+		"skills": ["Toxifier"]
 	},
 	"Killerpillar": {
 		"size": "S",
@@ -597,7 +873,21 @@
 			{
 				"name": "Counterstriker"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"bang": 50,
+			"crack": -25,
+			"sizz": -25,
+			"immobilize": -25,
+			"paralysis": 100,
+			"sleep": -25,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Bang & Zam"]
 	},
 	"Satyr": {
 		"size": "S",
@@ -622,7 +912,19 @@
 			{
 				"name": "Crafty Confuser"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": 50,
+			"sag": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"abiliterator": 100
+		},
+		"skills": ["Dancer"]
 	},
 	"Ticking Timeburrm": {
 		"size": "S",
@@ -647,7 +949,18 @@
 			{
 				"name": "Random Nether Fog"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 150,
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		}
 	},
 	"Tree Feller": {
 		"size": "S",
@@ -672,7 +985,18 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": 100,
+			"crack": 50,
+			"zap": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		}
 	},
 	"Funghoul": {
 		"size": "S",
@@ -697,7 +1021,17 @@
 			{
 				"name": "Counterslammer"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 50,
+			"poison": 100,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25
+		},
+		"skills": ["Graveheart"]
 	},
 	"Healslime": {
 		"size": "S",
@@ -722,7 +1056,17 @@
 			{
 				"name": "Scare Stare"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 50,
+			"zam": -25,
+			"dazzle": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"drain_magic": -25,
+			"fizzle": 100
+		},
+		"skills": ["Healer"]
 	},
 	"Argon Lizard": {
 		"size": "S",
@@ -747,7 +1091,19 @@
 			{
 				"name": "Crafty Dimmer"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"paralysis": 100,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		},
+		"skills": ["Toxifier"]
 	},
 	"Army Ant": {
 		"size": "S",
@@ -772,7 +1128,19 @@
 			{
 				"name": "Desperado"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"crack": -25,
+			"sizz": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"sap": 100,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		}
 	},
 	"Hammerhood": {
 		"size": "S",
@@ -797,7 +1165,19 @@
 			{
 				"name": "Immediate Tension"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"dazzle": 100,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		},
+		"skills": ["Huntsman"]
 	},
 	"Frostburn": {
 		"size": "S",
@@ -822,7 +1202,23 @@
 			{
 				"name": "Standard Killer"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"woosh": -25,
+			"crack": 150,
+			"zap": -25,
+			"fire_breath": -25,
+			"ice_breath": 150,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		},
+		"skills": ["Icemeister"]
 	},
 	"Conklave": {
 		"size": "S",
@@ -847,7 +1243,18 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"poison": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 100,
+			"fizzle": 100
+		},
+		"skills": ["Frizz & Woosh"]
 	},
 	"Muddy Hand": {
 		"size": "S",
@@ -872,7 +1279,19 @@
 			{
 				"name": "Confusion Attack"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 50,
+			"donk": 100,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25
+		},
+		"skills": ["Materialist"]
 	},
 	"She-Slime": {
 		"size": "S",
@@ -897,7 +1316,18 @@
 			{
 				"name": "Crafty Gobstopper"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"zap": 50,
+			"zam": -25,
+			"dazzle": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"drain_magic": -25,
+			"fizzle": 50
+		},
+		"skills": ["Frizz & Zap"]
 	},
 	"Jargon": {
 		"size": "S",
@@ -922,7 +1352,19 @@
 			{
 				"name": "Desperado"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 50,
+			"blunt": 50,
+			"fizzle": 100
+		},
+		"skills": ["Toughie"]
 	},
 	"Kingfuschia": {
 		"size": "S",
@@ -947,7 +1389,19 @@
 			{
 				"name": "Lucky"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"woosh": 100,
+			"sizz": -25,
+			"donk": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		}
 	},
 	"Scissor Beatle": {
 		"size": "S",
@@ -972,7 +1426,20 @@
 			{
 				"name": "Immediate Tension"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"bang": 50,
+			"sizz": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"sleep": 100,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Hive Mind"]
 	},
 	"Boppin' Badger": {
 		"size": "S",
@@ -997,7 +1464,18 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"ban_dance": 100,
+			"abiliterator": 100
+		}
 	},
 	"Spitnik": {
 		"size": "S",
@@ -1022,7 +1500,23 @@
 			{
 				"name": "Counteractivist"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 150,
+			"woosh": -25,
+			"crack": -25,
+			"zam": -25,
+			"sizz": 150,
+			"ice_breath": -25,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		},
+		"skills": ["Frizz & Bang"]
 	},
 	"See Urchin": {
 		"size": "S",
@@ -1047,7 +1541,19 @@
 			{
 				"name": "Immediate Accelerate"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"sizz": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		},
+		"skills": ["Aquapothecary"]
 	},
 	"Drohl Drone": {
 		"size": "S",
@@ -1072,7 +1578,20 @@
 			{
 				"name": "Lucky"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 50,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"decelerate": 100,
+			"dim": -25,
+			"ban_dance": -25
+		},
+		"skills": ["Sizz & Zam"]
 	},
 	"Drake Slime": {
 		"size": "S",
@@ -1097,7 +1616,18 @@
 			{
 				"name": "Desperado"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 50,
+			"zam": -25,
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"dazzle": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"drain_magic": -25,
+			"fizzle": 50
+		}
 	},
 	"Dragonfry": {
 		"size": "S",
@@ -1122,7 +1652,19 @@
 			{
 				"name": "Standard Killer"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": 100,
+			"crack": -25,
+			"sizz": 50,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		}
 	},
 	"Hell Hornet": {
 		"size": "S",
@@ -1147,7 +1689,20 @@
 			{
 				"name": "Random Nether Fog"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"bang": 50,
+			"sizz": -25,
+			"poison": 100,
+			"immobilize": -25,
+			"paralysis": 100,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Diminisher"]
 	},
 	"Weaken Beakon": {
 		"size": "S",
@@ -1172,7 +1727,19 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 100,
+			"ban_dance": 100,
+			"abiliterator": 100
+		},
+		"skills": ["Sizz & Zap"]
 	},
 	"Cheeky Tiki": {
 		"size": "S",
@@ -1197,7 +1764,22 @@
 			{
 				"name": "Pressure"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"bang": 100,
+			"woosh": -25,
+			"crack": -25,
+			"sizz": 100,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		},
+		"skills": ["Trickster"]
 	},
 	"Heedoo Voodoo": {
 		"size": "S",
@@ -1222,7 +1804,18 @@
 			{
 				"name": "Comeback Kid"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 100,
+			"dim": -25,
+			"fizzle": 100
+		},
+		"skills": ["Mime"]
 	},
 	"Drooling Ghoul": {
 		"size": "S",
@@ -1247,7 +1840,18 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 50,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25
+		}
 	},
 	"Wild Slime": {
 		"size": "S",
@@ -1272,7 +1876,18 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 50,
+			"zam": -25,
+			"donk": -25,
+			"dazzle": 100,
+			"sag": 100,
+			"decelerate": -25,
+			"drain_magic": -25,
+			"fizzle": 50
+		},
+		"skills": ["Champion"]
 	},
 	"Boreal Serpent": {
 		"size": "M",
@@ -1297,7 +1912,27 @@
 			{
 				"name": "Crafty Ice Breather"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"crack": 150,
+			"sizz": 50,
+			"fire_breath": -25,
+			"ice_breath": 150,
+			"donk": -25,
+			"whack": 50,
+			"dazzle": 50,
+			"poison": -25,
+			"confusion": 50,
+			"immobilize": 50,
+			"paralysis": 50,
+			"sleep": 50,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		},
+		"skills": ["Ice"]
 	},
 	"Bantamweight": {
 		"size": "M",
@@ -1322,7 +1957,20 @@
 			{
 				"name": "Random Tension"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"woosh": 100,
+			"sizz": -25,
+			"whack": 50,
+			"confusion": 50,
+			"paralysis": 100,
+			"sleep": 100,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		}
 	},
 	"Powie Yowie": {
 		"size": "S",
@@ -1347,7 +1995,20 @@
 			{
 				"name": "Counterstriker"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"crack": 100,
+			"sizz": -25,
+			"ice_breath": 100,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		},
+		"skills": ["Crack & Zap"]
 	},
 	"Pocus Poppet": {
 		"size": "S",
@@ -1372,7 +2033,18 @@
 			{
 				"name": "Metal Killer"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"dazzle": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		}
 	},
 	"Frogface": {
 		"size": "S",
@@ -1397,7 +2069,20 @@
 			{
 				"name": "Whack Attack"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"crack": 50,
+			"zap": -25,
+			"dazzle": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		},
+		"skills": ["Healer"]
 	},
 	"Mummy Boy": {
 		"size": "S",
@@ -1422,7 +2107,20 @@
 			{
 				"name": "Crafty Saboteur"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"crack": 100,
+			"zap": -25,
+			"zam": 50,
+			"whack": 100,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25
+		}
 	},
 	"Shell Slime": {
 		"size": "S",
@@ -1447,7 +2145,19 @@
 			{
 				"name": "Critical Guard"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 50,
+			"zam": -25,
+			"whack": -25,
+			"dazzle": 100,
+			"sag": 50,
+			"sap": 100,
+			"decelerate": -25,
+			"drain_magic": -25,
+			"fizzle": 50
+		},
+		"skills": ["Bolsterer"]
 	},
 	"Nardragon": {
 		"size": "S",
@@ -1472,7 +2182,20 @@
 			{
 				"name": "Whack Attack"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"paralysis": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100,
+			"abiliterator": 100
+		},
+		"skills": ["Martyr"]
 	},
 	"Mental Pitcher": {
 		"size": "S",
@@ -1497,7 +2220,20 @@
 			{
 				"name": "Magic Drain Attack"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"woosh": -25,
+			"sizz": -25,
+			"dazzle": 100,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Frizz & Sizz"]
 	},
 	"Pan Piper": {
 		"size": "S",
@@ -1522,7 +2258,19 @@
 			{
 				"name": "Ally Tension Rise"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"dazzle": -25,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": 50,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		},
+		"skills": ["Nightmare"]
 	},
 	"Axecutioner": {
 		"size": "S",
@@ -1547,7 +2295,18 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"crack": 100,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		}
 	},
 	"Headhunter": {
 		"size": "S",
@@ -1572,7 +2331,20 @@
 			{
 				"name": "Whack Attack"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"whack": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"sap": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		},
+		"skills": ["Berserker"]
 	},
 	"Demonrider": {
 		"size": "S",
@@ -1597,7 +2369,22 @@
 			{
 				"name": "Early Bird"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zap": -25,
+			"zam": 50,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"immobilize": -50,
+			"paralysis": 100,
+			"sleep": -50,
+			"sap": 50,
+			"dim": -50,
+			"fizzle": 100
+		},
+		"skills": ["Diminisher"]
 	},
 	"Mottle Slime": {
 		"size": "S",
@@ -1622,7 +2409,17 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 50,
+			"zam": -25,
+			"dazzle": 100,
+			"sag": 50,
+			"decelerate": 50,
+			"dim": 100,
+			"drain_magic": -25,
+			"fizzle": 50
+		}
 	},
 	"Snapdragon": {
 		"size": "S",
@@ -1647,7 +2444,20 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"sizz": 50,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"confusion": 100,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		},
+		"skills": ["Frizz & Woosh"]
 	},
 	"Cactiball": {
 		"size": "S",
@@ -1672,7 +2482,19 @@
 			{
 				"name": "Crafty Saboteur"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"woosh": -25,
+			"sizz": -25,
+			"donk": 100,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		}
 	},
 	"Vampire Cat": {
 		"size": "S",
@@ -1697,7 +2519,20 @@
 			{
 				"name": "Crafty Fizzler"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"poison": 100,
+			"confusion": -25,
+			"immobilize": 50,
+			"paralysis": -25,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"fizzle": 100,
+			"abiliterator": 100
+		}
 	},
 	"Rockbomb": {
 		"size": "S",
@@ -1722,7 +2557,18 @@
 			{
 				"name": "Crafty Whacker"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 100,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		},
+		"skills": ["Martyr"]
 	},
 	"Lump Wizard": {
 		"size": "S",
@@ -1747,7 +2593,24 @@
 			{
 				"name": "Magic Drain Attack"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"bang": 100,
+			"woosh": 100,
+			"crack": 100,
+			"zap": 100,
+			"zam": 100,
+			"sizz": 100,
+			"whack": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		},
+		"skills": ["Bang & Woosh"]
 	},
 	"Swingin' Hipster": {
 		"size": "S",
@@ -1772,7 +2635,17 @@
 			{
 				"name": "Sleep Attack"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 50,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25
+		}
 	},
 	"Drohl Diabolist": {
 		"size": "S",
@@ -1797,7 +2670,19 @@
 			{
 				"name": "Crafty Devil"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 100,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"decelerate": 50,
+			"dim": -25,
+			"drain_magic": 100
+		}
 	},
 	"Drag Racer": {
 		"size": "S",
@@ -1822,7 +2707,19 @@
 			{
 				"name": "Critical Massacre"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 100,
+			"sizz": 50,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"ban_dance": -25,
+			"blunt": 100
+		}
 	},
 	"Great Sabrecub": {
 		"size": "S",
@@ -1847,7 +2744,18 @@
 			{
 				"name": "Crafty Saboteur"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": 50,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Naturalist"]
 	},
 	"Snowbird": {
 		"size": "S",
@@ -1872,7 +2780,20 @@
 			{
 				"name": "Close Scraper"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"crack": 150,
+			"fire_breath": -25,
+			"ice_breath": 150,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		},
+		"skills": ["Cold Sleep"]
 	},
 	"Dancing Flame": {
 		"size": "S",
@@ -1897,7 +2818,23 @@
 			{
 				"name": "Standard Killer"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 150,
+			"woosh": -25,
+			"crack": -25,
+			"zam": -25,
+			"fire_breath": 150,
+			"ice_breath": -25,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		},
+		"skills": ["Fire Fighter"]
 	},
 	"Imp": {
 		"size": "S",
@@ -1922,7 +2859,18 @@
 			{
 				"name": "Disruptive Wave"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		},
+		"skills": ["Wisdom Boost", "Frizz & Bang"]
 	},
 	"Skipper": {
 		"size": "S",
@@ -1947,7 +2895,21 @@
 			{
 				"name": "Early Bird"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 50,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"immobilize": -25,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25,
+			"ban_dance": -25,
+			"abiliterator": 100
+		},
+		"skills": ["Saboteur"]
 	},
 	"Snail Slime": {
 		"size": "S",
@@ -1972,7 +2934,19 @@
 			{
 				"name": "Light Metal Body"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 50,
+			"zam": -25,
+			"whack": 100,
+			"dazzle": 100,
+			"sag": 50,
+			"sap": -25,
+			"decelerate": -25,
+			"drain_magic": -25,
+			"fizzle": 50
+		},
+		"skills": ["Mage Aid"]
 	},
 	"Green Dragon": {
 		"size": "M",
@@ -1997,7 +2971,26 @@
 			{
 				"name": "Crafty Zapper"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"sizz": 50,
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"donk": -25,
+			"whack": 50,
+			"dazzle": 50,
+			"poison": -25,
+			"confusion": 50,
+			"immobilize": 50,
+			"paralysis": 50,
+			"sleep": 50,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		},
+		"skills": ["Dragon Lore"]
 	},
 	"Chimaera": {
 		"size": "S",
@@ -2022,7 +3015,20 @@
 			{
 				"name": "Desperado"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"whack": -25,
+			"confusion": 100,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Cleanser"]
 	},
 	"Chainine": {
 		"size": "S",
@@ -2047,7 +3053,20 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"donk": 100,
+			"dazzle": 100,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		},
+		"skills": ["Mime"]
 	},
 	"Dingaling": {
 		"size": "S",
@@ -2072,7 +3091,18 @@
 			{
 				"name": "Lucky"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 100,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		},
+		"skills": ["Materialist"]
 	},
 	"Gruffon": {
 		"size": "S",
@@ -2097,7 +3127,17 @@
 			{
 				"name": "Random Oomph"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		}
 	},
 	"Hellhound": {
 		"size": "S",
@@ -2122,7 +3162,20 @@
 			{
 				"name": "Intimidating"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zap": -25,
+			"zam": 50,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sag": 100,
+			"sap": 50,
+			"dim": -25
+		},
+		"skills": ["Crack & Sizz"]
 	},
 	"Snowmangler": {
 		"size": "S",
@@ -2147,7 +3200,20 @@
 			{
 				"name": "Immediate Accelerate"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"crack": 150,
+			"zap": 50,
+			"zam": -25,
+			"fire_breath": -25,
+			"ice_breath": 150,
+			"dazzle": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"fizzle": 50
+		},
+		"skills": ["Crack & Sizz"]
 	},
 	"Damselfly": {
 		"size": "S",
@@ -2172,7 +3238,19 @@
 			{
 				"name": "Crafty Inactivist"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"sizz": 50,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"confusion": 100,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		}
 	},
 	"Bullfinch": {
 		"size": "S",
@@ -2197,7 +3275,20 @@
 			{
 				"name": "Immediate Tension"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"sleep": -25,
+			"sag": 100,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Toughie"]
 	},
 	"Teeny Sanguini": {
 		"size": "S",
@@ -2222,7 +3313,22 @@
 			{
 				"name": "Wave of Relief"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"ban_dance": 100,
+			"abiliterator": 100
+		},
+		"skills": ["Frizz & Zap"]
 	},
 	"Goodybag": {
 		"size": "S",
@@ -2247,7 +3353,20 @@
 			{
 				"name": "Magic Counter"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"sizz": 100,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100,
+			"fizzle": 100
+		},
+		"skills": ["Enfeebler"]
 	},
 	"Dancing Devil": {
 		"size": "S",
@@ -2272,7 +3391,18 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"drain_magic": 100,
+			"fizzle": 100
+		}
 	},
 	"Flyguy": {
 		"size": "S",
@@ -2297,7 +3427,19 @@
 			{
 				"name": "Crafty Poisoner"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 50,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sap": 50,
+			"dim": -25
+		},
+		"skills": ["Seal"]
 	},
 	"Slime Knight": {
 		"size": "S",
@@ -2322,7 +3464,19 @@
 			{
 				"name": "Immediate Oomph"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 50,
+			"zam": -25,
+			"dazzle": 100,
+			"confusion": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"blunt": 100,
+			"drain_magic": -25,
+			"fizzle": 50
+		},
+		"skills": ["White Knight"]
 	},
 	"Skelegon": {
 		"size": "S",
@@ -2347,7 +3501,20 @@
 			{
 				"name": "Crafty Ice Breather"
 			}
-		]
+		],
+		"resistances": {
+			"zap": -25,
+			"sizz": 50,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		},
+		"skills": ["Crack & Sizz"]
 	},
 	"Wild Boarfish": {
 		"size": "S",
@@ -2372,7 +3539,18 @@
 			{
 				"name": "Crafty Paralyser"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Huntsman"]
 	},
 	"Night Emperor": {
 		"size": "S",
@@ -2397,7 +3575,19 @@
 			{
 				"name": "Counterslammer"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"donk": 100,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": 50,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		},
+		"skills": ["Bad Breath"]
 	},
 	"Cannibox": {
 		"size": "S",
@@ -2422,7 +3612,19 @@
 			{
 				"name": "Crafty Whacker"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100,
+			"fizzle": -25
+		},
+		"skills": ["Fear-monger"]
 	},
 	"Dessert Demon": {
 		"size": "S",
@@ -2447,7 +3649,20 @@
 			{
 				"name": "Metal Killer"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"donk": -25,
+			"dazzle": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		},
+		"skills": ["Wisdom Boost", "Bolsterer"]
 	},
 	"Hyper Heyedra": {
 		"size": "S",
@@ -2472,7 +3687,20 @@
 			{
 				"name": "Paralysing Body"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 50,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25,
+			"gobstopper": 100,
+			"ban_dance": 100
+		},
+		"skills": ["Anti-dragon"]
 	},
 	"Metal Slime": {
 		"size": "S",
@@ -2497,7 +3725,30 @@
 			{
 				"name": "Comeback Kid"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"bang": 100,
+			"woosh": 100,
+			"crack": 100,
+			"zap": 100,
+			"zam": 100,
+			"sizz": 100,
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"donk": 100,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": 50,
+			"gobstopper": 100,
+			"ban_dance": 100,
+			"blunt": 100,
+			"fizzle": 25,
+			"abiliterator": 100
+		}
 	},
 	"Rubble Slime": {
 		"size": "S",
@@ -2522,7 +3773,19 @@
 			{
 				"name": "Critical Guard"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"zap": 50,
+			"zam": -25,
+			"dazzle": 100,
+			"sag": 50,
+			"sap": 100,
+			"decelerate": -25,
+			"drain_magic": -25,
+			"fizzle": 50
+		},
+		"skills": ["Bang & Sizz"]
 	},
 	"Dragurn": {
 		"size": "S",
@@ -2547,7 +3810,20 @@
 			{
 				"name": "Scout Chance Up"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100,
+			"fizzle": 100,
+			"abiliterator": 100
+		},
+		"skills": ["Fire"]
 	},
 	"Jailcat": {
 		"size": "S",
@@ -2572,7 +3848,19 @@
 			{
 				"name": "Late Riser"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"crack": 100,
+			"sizz": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100,
+			"abiliterator": -25
+		}
 	},
 	"Sea Dog": {
 		"size": "S",
@@ -2597,7 +3885,18 @@
 			{
 				"name": "Enemy Tension Reset"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"blunt": 100,
+			"abiliterator": 100
+		}
 	},
 	"Shadow": {
 		"size": "S",
@@ -2622,7 +3921,20 @@
 			{
 				"name": "Magic Drain Body"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"zap": -25,
+			"zam": 150,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		},
+		"skills": ["Reaper"]
 	},
 	"Anchorman": {
 		"size": "S",
@@ -2647,7 +3959,18 @@
 			{
 				"name": "Desperado"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 100,
+			"whack": 100,
+			"confusion": -25,
+			"immobilize": 100,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		}
 	},
 	"Lesser Demon": {
 		"size": "S",
@@ -2672,7 +3995,19 @@
 			{
 				"name": "Enemy Tension Reset"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 100,
+			"crack": 50,
+			"zap": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		},
+		"skills": ["Diabolist"]
 	},
 	"Discombombulator": {
 		"size": "S",
@@ -2697,7 +4032,18 @@
 			{
 				"name": "Metal Killer"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"bang": 100,
+			"zam": 50,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25
+		}
 	},
 	"Angel Slime": {
 		"size": "S",
@@ -2722,7 +4068,18 @@
 			{
 				"name": "Lucky"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 150,
+			"zam": -25,
+			"whack": 100,
+			"dazzle": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"drain_magic": -25,
+			"fizzle": 50
+		},
+		"skills": ["Healer"]
 	},
 	"Gasbagon": {
 		"size": "S",
@@ -2747,7 +4104,20 @@
 			{
 				"name": "Magic Regenerator"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"fire_breath": 100,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"confusion": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 50,
+			"blunt": 50
+		},
+		"skills": ["Fire"]
 	},
 	"Spiked Hare": {
 		"size": "S",
@@ -2772,7 +4142,17 @@
 			{
 				"name": "Whack Attack"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		}
 	},
 	"Rockin' Rockhopper": {
 		"size": "S",
@@ -2797,7 +4177,21 @@
 			{
 				"name": "Persistent"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"crack": 100,
+			"sizz": -25,
+			"fire_breath": -25,
+			"ice_breath": 100,
+			"poison": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		}
 	},
 	"Fencing Fox": {
 		"size": "S",
@@ -2822,7 +4216,22 @@
 			{
 				"name": "Counterstriker"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"woosh": 50,
+			"crack": -25,
+			"poison": 100,
+			"confusion": -25,
+			"immobilize": 50,
+			"paralysis": -25,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"ban_dance": -25,
+			"abiliterator": 100
+		},
+		"skills": ["Guerrilla"]
 	},
 	"Moai Minstrel": {
 		"size": "M",
@@ -2847,7 +4256,19 @@
 			{
 				"name": "Crafty Dance Banner"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"paralysis": 50,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100,
+			"fizzle": 100
+		}
 	},
 	"Foo Dog": {
 		"size": "S",
@@ -2872,7 +4293,17 @@
 			{
 				"name": "Crafty Donker"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		}
 	},
 	"Cross Eye": {
 		"size": "S",
@@ -2897,7 +4328,18 @@
 			{
 				"name": "Immediate Tension"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 100,
+			"ice_breath": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		},
+		"skills": ["Hypnotist"]
 	},
 	"Skeleton": {
 		"size": "S",
@@ -2922,7 +4364,20 @@
 			{
 				"name": "Disruptive Wave"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zap": -25,
+			"zam": 50,
+			"whack": 100,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25
+		}
 	},
 	"Mottle King Slime": {
 		"size": "S",
@@ -2947,7 +4402,18 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 50,
+			"zam": -25,
+			"whack": 100,
+			"dazzle": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"drain_magic": -25,
+			"fizzle": 50,
+			"abiliterator": 100
+		}
 	},
 	"Seasaur": {
 		"size": "S",
@@ -2972,7 +4438,19 @@
 			{
 				"name": "Steady Recovery"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 100,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100,
+			"fizzle": 100
+		},
+		"skills": ["Dragon Lore"]
 	},
 	"Boring Bug": {
 		"size": "S",
@@ -2997,7 +4475,20 @@
 			{
 				"name": "Immediate Oomph"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"sap": 100,
+			"decelerate": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"ban_dance": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Enfeebler"]
 	},
 	"Orc": {
 		"size": "S",
@@ -3022,7 +4513,20 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"sizz": -25,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"blunt": 100,
+			"abiliterator": 100
+		},
+		"skills": ["Speedster"]
 	},
 	"Chariot Chappie": {
 		"size": "S",
@@ -3047,7 +4551,18 @@
 			{
 				"name": "Crafty Whacker"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 100,
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		}
 	},
 	"Gold Golem": {
 		"size": "S",
@@ -3072,7 +4587,18 @@
 			{
 				"name": "Crafty Gobstopper"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		},
+		"skills": ["Iceplosion Slashes"]
 	},
 	"Silvapithecus": {
 		"size": "S",
@@ -3097,7 +4623,20 @@
 			{
 				"name": "Magic Counter"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"whack": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"drain_magic": -25,
+			"fizzle": 100
+		},
+		"skills": ["Diabolist"]
 	},
 	"Behemoth Slime": {
 		"size": "S",
@@ -3122,7 +4661,18 @@
 			{
 				"name": "Restless"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 50,
+			"zam": -25,
+			"whack": 100,
+			"dazzle": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"drain_magic": -25,
+			"fizzle": 50,
+			"abiliterator": -25
+		}
 	},
 	"Red Dragon": {
 		"size": "M",
@@ -3147,7 +4697,25 @@
 			{
 				"name": "Immediate Nether Fog"
 			}
-		]
+		],
+		"resistances": {
+			"crack": -25,
+			"sizz": 50,
+			"fire_breath": 100,
+			"donk": -25,
+			"whack": 50,
+			"dazzle": 50,
+			"poison": -25,
+			"confusion": 50,
+			"immobilize": 50,
+			"paralysis": 50,
+			"sleep": 50,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100,
+			"fizzle": 100
+		}
 	},
 	"Crabid": {
 		"size": "S",
@@ -3172,7 +4740,20 @@
 			{
 				"name": "Lucky"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"bang": 50,
+			"sizz": -25,
+			"donk": 100,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Defender"]
 	},
 	"Scorpion": {
 		"size": "S",
@@ -3197,7 +4778,20 @@
 			{
 				"name": "Light Metal Body"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"bang": 50,
+			"sizz": -25,
+			"poison": 100,
+			"immobilize": -25,
+			"paralysis": 100,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Hive Mind"]
 	},
 	"Weartiger": {
 		"size": "S",
@@ -3222,7 +4816,19 @@
 			{
 				"name": "Crafty Dance Banner"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"fizzle": 100,
+			"abiliterator": 100
+		},
+		"skills": ["Boom Boxer"]
 	},
 	"Brownie": {
 		"size": "S",
@@ -3247,7 +4853,20 @@
 			{
 				"name": "Immediate Tension"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"sizz": 100,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"drain_magic": 100,
+			"abiliterator": 100
+		},
+		"skills": ["Bounty Hunter"]
 	},
 	"Mecha-Mynah": {
 		"size": "S",
@@ -3272,7 +4891,19 @@
 			{
 				"name": "Metal Killer"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"immobilize": 100,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		},
+		"skills": ["Bird Brain"]
 	},
 	"Wrecktor": {
 		"size": "S",
@@ -3297,7 +4928,18 @@
 			{
 				"name": "Wave of Relief"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		},
+		"skills": ["Bang & Woosh"]
 	},
 	"Phantom Fencer": {
 		"size": "S",
@@ -3322,7 +4964,21 @@
 			{
 				"name": "Fly Swatter"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"woosh": 100,
+			"zap": -25,
+			"zam": 50,
+			"whack": 100,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25
+		},
+		"skills": ["Wind Blower"]
 	},
 	"Metal Slime Knight": {
 		"size": "S",
@@ -3347,7 +5003,19 @@
 			{
 				"name": "Immediate Oomph"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 50,
+			"zam": -25,
+			"dazzle": 100,
+			"paralysis": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"blunt": 100,
+			"drain_magic": -25,
+			"fizzle": 50
+		},
+		"skills": ["Darklight Slashes"]
 	},
 	"Sentripede": {
 		"size": "S",
@@ -3372,7 +5040,19 @@
 			{
 				"name": "Light Metal Body"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"bang": 50,
+			"sizz": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"gobstopper": -25,
+			"ban_dance": 100,
+			"drain_magic": 100
+		}
 	},
 	"Eveel": {
 		"size": "S",
@@ -3397,7 +5077,19 @@
 			{
 				"name": "Crafty Decelerater"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"poison": 100,
+			"immobilize": -25,
+			"paralysis": 50,
+			"sag": -25,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		}
 	},
 	"Damned Ram": {
 		"size": "S",
@@ -3422,7 +5114,17 @@
 			{
 				"name": "Close Scraper"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": 50,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		}
 	},
 	"Firn Fiend": {
 		"size": "S",
@@ -3447,7 +5149,22 @@
 			{
 				"name": "Crafty Cracker"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"woosh": -25,
+			"crack": 150,
+			"sizz": -25,
+			"fire_breath": -25,
+			"ice_breath": 150,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		}
 	},
 	"Prickly Prankster": {
 		"size": "S",
@@ -3472,7 +5189,18 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"blunt": 100,
+			"fizzle": 100
+		}
 	},
 	"Bona Constrictor": {
 		"size": "S",
@@ -3497,7 +5225,19 @@
 			{
 				"name": "Close Scraper"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 50,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"decelerate": 100,
+			"dim": -25
+		},
+		"skills": ["Fortifier"]
 	},
 	"Beshemoth Slime": {
 		"size": "S",
@@ -3522,7 +5262,18 @@
 			{
 				"name": "Crafty Paralyser"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"zap": 50,
+			"zam": -25,
+			"dazzle": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"blunt": -25,
+			"drain_magic": -25,
+			"fizzle": 50
+		}
 	},
 	"Quayhorse": {
 		"size": "S",
@@ -3547,7 +5298,20 @@
 			{
 				"name": "Critical Guard"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100,
+			"fizzle": 50,
+			"abiliterator": -25
+		},
+		"skills": ["Champion"]
 	},
 	"Khalamari Kid": {
 		"size": "S",
@@ -3572,7 +5336,19 @@
 			{
 				"name": "Magic Drain Attack"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100,
+			"fizzle": 100
+		},
+		"skills": ["Aquapothecary"]
 	},
 	"Wormonger": {
 		"size": "L",
@@ -3597,7 +5373,24 @@
 			{
 				"name": "Crafty Donker"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"ice_breath": -25,
+			"donk": 50,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Wormonger"]
 	},
 	"Bodkin Archer": {
 		"size": "S",
@@ -3622,7 +5415,19 @@
 			{
 				"name": "Critical Massacre"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"fizzle": 100,
+			"abiliterator": 100
+		},
+		"skills": ["Fortifier"]
 	},
 	"Harmour": {
 		"size": "S",
@@ -3647,7 +5452,19 @@
 			{
 				"name": "Critical Guard"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"woosh": -25,
+			"crack": 100,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		}
 	},
 	"Robbin' Huddle": {
 		"size": "S",
@@ -3672,7 +5489,18 @@
 			{
 				"name": "Donkmeister"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"drain_magic": 100,
+			"fizzle": 100
+		}
 	},
 	"Dangler Fish": {
 		"size": "S",
@@ -3697,7 +5525,19 @@
 			{
 				"name": "Immediate Oomph"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"dazzle": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		},
+		"skills": ["Sizz & Zam"]
 	},
 	"Dragon Slime": {
 		"size": "S",
@@ -3722,7 +5562,18 @@
 			{
 				"name": "Crafty Fire Breather"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 50,
+			"zam": -25,
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"dazzle": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"drain_magic": -25,
+			"fizzle": 50
+		}
 	},
 	"Hacksaurus": {
 		"size": "S",
@@ -3747,7 +5598,18 @@
 			{
 				"name": "Hopeful Hitter"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"confusion": 100,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		}
 	},
 	"Hades Condor": {
 		"size": "S",
@@ -3772,7 +5634,19 @@
 			{
 				"name": "Immediate Accelerate"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"ice_breath": 100,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Cure-all"]
 	},
 	"Bewarewolf": {
 		"size": "S",
@@ -3797,7 +5671,19 @@
 			{
 				"name": "Immediate Tension"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"poison": 100,
+			"immobilize": 50,
+			"paralysis": 100,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"fizzle": 100,
+			"abiliterator": 100
+		}
 	},
 	"Mortoad": {
 		"size": "M",
@@ -3822,7 +5708,21 @@
 			{
 				"name": "Paralysing Body"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"bang": 100,
+			"crack": -25,
+			"whack": 50,
+			"poison": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		}
 	},
 	"Puppeteer": {
 		"size": "S",
@@ -3847,7 +5747,21 @@
 			{
 				"name": "Enemy Tension Down"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"immobilize": -25,
+			"sleep": 100,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100,
+			"ban_dance": 100,
+			"abiliterator": 100
+		},
+		"skills": ["All-Rounder"]
 	},
 	"Aggrosculpture": {
 		"size": "S",
@@ -3872,7 +5786,19 @@
 			{
 				"name": "Crafty Poisoner"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 100,
+			"woosh": 100,
+			"crack": 50,
+			"zap": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		}
 	},
 	"DarkCrab": {
 		"size": "S",
@@ -3897,7 +5823,19 @@
 			{
 				"name": "Light Metal Body"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"bang": 100,
+			"zam": 50,
+			"whack": 100,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25
+		}
 	},
 	"Slime Stack": {
 		"size": "S",
@@ -3922,7 +5860,19 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"zap": 50,
+			"zam": -25,
+			"dazzle": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"dim": 100,
+			"drain_magic": 100,
+			"fizzle": 25
+		},
+		"skills": ["Bang & Zap"]
 	},
 	"Armoured Wartoise": {
 		"size": "S",
@@ -3947,7 +5897,18 @@
 			{
 				"name": "Critical Guard"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 100,
+			"sizz": 50,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		}
 	},
 	"Whackanape": {
 		"size": "S",
@@ -3972,7 +5933,19 @@
 			{
 				"name": "Donkmeister"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"donk": 100,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100,
+			"abiliterator": 100
+		}
 	},
 	"Great Sabrecat": {
 		"size": "S",
@@ -3997,7 +5970,19 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"woosh": 50,
+			"sizz": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": 50,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Speedster"]
 	},
 	"Trigertaur": {
 		"size": "S",
@@ -4022,7 +6007,20 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 50,
+			"paralysis": 100,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		}
 	},
 	"Gargoyle": {
 		"size": "S",
@@ -4047,7 +6045,19 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"poison": 100,
+			"immobilize": 100,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"blunt": 100,
+			"abiliterator": 100
+		},
+		"skills": ["Bird Brain"]
 	},
 	"King Kelp": {
 		"size": "S",
@@ -4072,7 +6082,18 @@
 			{
 				"name": "Immediate Ping"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 100,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		},
+		"skills": ["All-Rounder"]
 	},
 	"Great Dracky": {
 		"size": "S",
@@ -4097,7 +6118,20 @@
 			{
 				"name": "Wave of Relief"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 100,
+			"crack": 50,
+			"zap": -25,
+			"zam": 150,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		},
+		"skills": ["Bang & Crack"]
 	},
 	"Walking Corpse": {
 		"size": "S",
@@ -4122,7 +6156,19 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zap": -25,
+			"zam": 50,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25
+		},
+		"skills": ["Bad Breath"]
 	},
 	"Sea Dragon": {
 		"size": "S",
@@ -4147,7 +6193,21 @@
 			{
 				"name": "Crafty Dazzler"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 100,
+			"crack": 50,
+			"sizz": 50,
+			"ice_breath": 50,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		},
+		"skills": ["Ice"]
 	},
 	"Treeface": {
 		"size": "M",
@@ -4172,7 +6232,23 @@
 			{
 				"name": "Crafty Magic Drainer"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"bang": 50,
+			"sizz": -25,
+			"whack": 50,
+			"confusion": 50,
+			"immobilize": -25,
+			"paralysis": 50,
+			"sleep": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100,
+			"abiliterator": 100
+		},
+		"skills": ["Green Finger"]
 	},
 	"Merman": {
 		"size": "S",
@@ -4197,7 +6273,21 @@
 			{
 				"name": "Health Professional"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"woosh": 50,
+			"crack": -25,
+			"fire_breath": -25,
+			"ice_breath": 50,
+			"dazzle": 100,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		}
 	},
 	"Octagoon": {
 		"size": "S",
@@ -4222,7 +6312,20 @@
 			{
 				"name": "Steady Recovery"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"zam": -25,
+			"donk": 100,
+			"whack": 100,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		}
 	},
 	"Malevolamp": {
 		"size": "S",
@@ -4247,7 +6350,19 @@
 			{
 				"name": "Magic Barrier"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"zam": 100,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"paralysis": 50,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		}
 	},
 	"Octavian Sentry": {
 		"size": "S",
@@ -4272,7 +6387,21 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": 50,
+			"crack": 50,
+			"zap": -25,
+			"ice_breath": 50,
+			"whack": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"sag": 100,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		}
 	},
 	"Restless Armour": {
 		"size": "S",
@@ -4297,7 +6426,20 @@
 			{
 				"name": "Metal Beater"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 50,
+			"whack": 100,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25,
+			"blunt": 100
+		},
+		"skills": ["Anti-dragon"]
 	},
 	"King Slime": {
 		"size": "S",
@@ -4322,7 +6464,18 @@
 			{
 				"name": "Intimidating"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 50,
+			"zam": -25,
+			"whack": 100,
+			"dazzle": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"drain_magic": -25,
+			"fizzle": 50
+		},
+		"skills": ["Cleric"]
 	},
 	"Noble Gasbagon": {
 		"size": "S",
@@ -4347,7 +6500,19 @@
 			{
 				"name": "Immediate Tension"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"fire_breath": 100,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 100,
+			"gobstopper": 100,
+			"blunt": 100
+		},
+		"skills": ["Bombardier"]
 	},
 	"Paws": {
 		"size": "S",
@@ -4372,7 +6537,20 @@
 			{
 				"name": "Whack Attack"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"crack": 100,
+			"sizz": -25,
+			"ice_breath": 100,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Anti-metal"]
 	},
 	"Jumping Jackal": {
 		"size": "S",
@@ -4397,7 +6575,18 @@
 			{
 				"name": "Counterstriker"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"dazzle": 100,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		}
 	},
 	"Cumulus Rex": {
 		"size": "S",
@@ -4422,7 +6611,20 @@
 			{
 				"name": "Wave of Relief"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"woosh": 100,
+			"crack": -25,
+			"dazzle": 100,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"gobstopper": 100,
+			"abiliterator": 100
+		}
 	},
 	"Hunter Mech": {
 		"size": "S",
@@ -4447,7 +6649,20 @@
 			{
 				"name": "Electrifying"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"poison": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		},
+		"skills": ["Anti-metal"]
 	},
 	"Heyedra": {
 		"size": "S",
@@ -4472,7 +6687,20 @@
 			{
 				"name": "Immediate Fizzle"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 50,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25,
+			"gobstopper": 100,
+			"ban_dance": 100
+		},
+		"skills": ["Antimagic"]
 	},
 	"Cureslime": {
 		"size": "S",
@@ -4497,7 +6725,17 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 50,
+			"zam": -25,
+			"whack": 100,
+			"dazzle": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"fizzle": 100
+		},
+		"skills": ["Healer"]
 	},
 	"Metal Dragon": {
 		"size": "S",
@@ -4522,7 +6760,19 @@
 			{
 				"name": "Standard Killer"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		},
+		"skills": ["Assassin"]
 	},
 	"Barracuda": {
 		"size": "S",
@@ -4547,7 +6797,23 @@
 			{
 				"name": "Critical Massacre"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"crack": 50,
+			"sizz": -25,
+			"ice_breath": 50,
+			"poison": -25,
+			"confusion": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"sleep": -25,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Bang & Sizz"]
 	},
 	"Pipit": {
 		"size": "S",
@@ -4572,7 +6838,19 @@
 			{
 				"name": "Counteractivist"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"woosh": 100,
+			"zap": 100,
+			"sizz": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		}
 	},
 	"Half Hog": {
 		"size": "M",
@@ -4597,7 +6875,21 @@
 			{
 				"name": "Immediate Oomph"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"whack": 50,
+			"poison": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"blunt": 100,
+			"abiliterator": 100
+		}
 	},
 	"Diemon": {
 		"size": "S",
@@ -4622,7 +6914,19 @@
 			{
 				"name": "Crafty Woosher"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		},
+		"skills": ["Wind Blower"]
 	},
 	"Golem": {
 		"size": "S",
@@ -4647,7 +6951,18 @@
 			{
 				"name": "Rare Tension"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"immobilize": 50,
+			"paralysis": 50,
+			"sleep": 50,
+			"sap": -25,
+			"dim": 100
+		}
 	},
 	"Erazor Blade": {
 		"size": "S",
@@ -4672,7 +6987,18 @@
 			{
 				"name": "Immediate Accelerate"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"blunt": 100,
+			"fizzle": 100
+		},
+		"skills": ["Trickster"]
 	},
 	"Cerberwretch": {
 		"size": "S",
@@ -4697,7 +7023,18 @@
 			{
 				"name": "Poison Body"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"zam": 50,
+			"fire_breath": 50,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25
+		}
 	},
 	"Cyber Slime": {
 		"size": "S",
@@ -4722,7 +7059,19 @@
 			{
 				"name": "Paralysis Attack"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 50,
+			"zam": -25,
+			"dazzle": 100,
+			"confusion": 100,
+			"sag": 50,
+			"sap": 100,
+			"decelerate": -25,
+			"blunt": 100,
+			"drain_magic": -25,
+			"fizzle": 50
+		}
 	},
 	"Liquid Metal Slime": {
 		"size": "S",
@@ -4747,7 +7096,32 @@
 			{
 				"name": "Crafty Banger"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"bang": 100,
+			"woosh": 100,
+			"crack": 100,
+			"zap": 100,
+			"zam": 100,
+			"sizz": 100,
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"donk": 100,
+			"whack": 100,
+			"dazzle": 100,
+			"poison": 100,
+			"confusion": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": 50,
+			"gobstopper": 100,
+			"ban_dance": 100,
+			"blunt": 100,
+			"fizzle": 25,
+			"abiliterator": 100
+		},
+		"skills": ["Bombardier"]
 	},
 	"Drag-Goof": {
 		"size": "S",
@@ -4772,7 +7146,20 @@
 			{
 				"name": "Confused Frenzy"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 100,
+			"sizz": 50,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"confusion": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"ban_dance": 100,
+			"blunt": 100
+		}
 	},
 	"Yabby": {
 		"size": "S",
@@ -4797,7 +7184,21 @@
 			{
 				"name": "Crafty Sagger"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"whack": -25,
+			"confusion": 100,
+			"immobilize": -25,
+			"paralysis": 50,
+			"sap": 100,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Mage Aid"]
 	},
 	"Lleviathan": {
 		"size": "L",
@@ -4822,7 +7223,21 @@
 			{
 				"name": "Spell Splurger"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		}
 	},
 	"Notso Macho": {
 		"size": "S",
@@ -4847,7 +7262,21 @@
 			{
 				"name": "Loose Cannon"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"donk": 100,
+			"poison": 100,
+			"confusion": -25,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"ban_dance": 100,
+			"abiliterator": 100
+		},
+		"skills": ["Berserker"]
 	},
 	"Missing Lynx": {
 		"size": "L",
@@ -4872,7 +7301,22 @@
 			{
 				"name": "Crafty Blade Blunter"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"woosh": 150,
+			"crack": -25,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 50,
+			"sleep": 100,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		},
+		"skills": ["Missing Lynx"]
 	},
 	"Gryphon": {
 		"size": "S",
@@ -4897,7 +7341,18 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		},
+		"skills": ["Antimagic"]
 	},
 	"Grim Keeper": {
 		"size": "S",
@@ -4922,7 +7377,19 @@
 			{
 				"name": "Whack Attack"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"crack": 50,
+			"zap": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"blunt": 100,
+			"fizzle": 100
+		}
 	},
 	"Magic Slime": {
 		"size": "S",
@@ -4947,7 +7414,17 @@
 			{
 				"name": "Magic Drain Attack"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 25,
+			"zam": 100,
+			"dazzle": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"drain_magic": -25,
+			"fizzle": 50
+		},
+		"skills": ["Sizz & Zap"]
 	},
 	"Great Argon Lizard": {
 		"size": "S",
@@ -4972,7 +7449,19 @@
 			{
 				"name": "Crafty Poisoner"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"fire_breath": 100,
+			"donk": -25,
+			"dazzle": 100,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		},
+		"skills": ["Breath"]
 	},
 	"Mandrake Marshal": {
 		"size": "S",
@@ -4997,7 +7486,19 @@
 			{
 				"name": "Critical Guard"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100,
+			"fizzle": -25,
+			"abiliterator": 100
+		}
 	},
 	"Beetleboy": {
 		"size": "S",
@@ -5022,7 +7523,20 @@
 			{
 				"name": "Crafty Zammer"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"bang": 50,
+			"sizz": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"sleep": 100,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100,
+			"abiliterator": 100
+		}
 	},
 	"Firebird": {
 		"size": "S",
@@ -5047,7 +7561,19 @@
 			{
 				"name": "Close Scraper"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 150,
+			"crack": -25,
+			"fire_breath": 150,
+			"ice_breath": -25,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		}
 	},
 	"Magmalice": {
 		"size": "S",
@@ -5072,7 +7598,21 @@
 			{
 				"name": "Crafty Frizzer"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 150,
+			"woosh": -25,
+			"crack": -25,
+			"fire_breath": 150,
+			"ice_breath": -25,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		}
 	},
 	"Captain Catastrophe": {
 		"size": "S",
@@ -5097,7 +7637,20 @@
 			{
 				"name": "Desperado"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"sizz": 100,
+			"poison": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"sleep": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		}
 	},
 	"Phantom Swordsman": {
 		"size": "S",
@@ -5122,7 +7675,21 @@
 			{
 				"name": "Magic Drain Body"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zap": -25,
+			"zam": 50,
+			"whack": 100,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 50,
+			"immobilize": 50,
+			"paralysis": 50,
+			"sleep": 50,
+			"sap": 50,
+			"dim": -25
+		}
 	},
 	"Skeleton Soldier": {
 		"size": "S",
@@ -5147,7 +7714,20 @@
 			{
 				"name": "Close Scraper"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 50,
+			"whack": 100,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25
+		},
+		"skills": ["Healer"]
 	},
 	"Dark Slime": {
 		"size": "S",
@@ -5172,7 +7752,16 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"zam": 150,
+			"dazzle": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"drain_magic": -25,
+			"fizzle": 50
+		},
+		"skills": ["Muspell"]
 	},
 	"Tyrantosaurus": {
 		"size": "S",
@@ -5197,7 +7786,19 @@
 			{
 				"name": "Whack Attack"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"sag": 100,
+			"sap": -25,
+			"decelerate": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		}
 	},
 	"Compos Mantis": {
 		"size": "S",
@@ -5222,7 +7823,19 @@
 			{
 				"name": "Standard Killer"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		}
 	},
 	"Cockateer": {
 		"size": "S",
@@ -5247,7 +7860,20 @@
 			{
 				"name": "Crafty Woosher"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"woosh": 100,
+			"crack": -25,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"blunt": 100,
+			"fizzle": -25,
+			"abiliterator": 100
+		}
 	},
 	"Stainless Scrapper": {
 		"size": "S",
@@ -5272,7 +7898,18 @@
 			{
 				"name": "Metal Killer"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"zap": 100,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		}
 	},
 	"Fallen Priest": {
 		"size": "S",
@@ -5297,7 +7934,17 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		}
 	},
 	"Grim Rider": {
 		"size": "S",
@@ -5322,7 +7969,21 @@
 			{
 				"name": "Persistent"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zap": -25,
+			"zam": 50,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 50,
+			"immobilize": 50,
+			"paralysis": 50,
+			"sleep": 100,
+			"sap": 50,
+			"dim": -25
+		},
+		"skills": ["Assassin"]
 	},
 	"Soulspawn": {
 		"size": "S",
@@ -5347,7 +8008,19 @@
 			{
 				"name": "Random Nether Fog"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zap": -25,
+			"zam": 50,
+			"sizz": 100,
+			"whack": 100,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25
+		}
 	},
 	"Rotten Egg": {
 		"size": "S",
@@ -5372,7 +8045,16 @@
 			{
 				"name": "Magic Drain Body"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 100,
+			"zam": 100,
+			"dazzle": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"drain_magic": 100,
+			"fizzle": 25
+		}
 	},
 	"Ethereal Serpent": {
 		"size": "M",
@@ -5397,7 +8079,26 @@
 			{
 				"name": "Rare Tension"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"crack": -25,
+			"sizz": 50,
+			"fire_breath": 100,
+			"donk": -25,
+			"whack": 50,
+			"dazzle": 50,
+			"poison": -25,
+			"confusion": 50,
+			"immobilize": 50,
+			"paralysis": 50,
+			"sleep": 50,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		},
+		"skills": ["Breath"]
 	},
 	"Giant Moth": {
 		"size": "S",
@@ -5422,7 +8123,19 @@
 			{
 				"name": "Magic Drain Body"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"bang": 50,
+			"sizz": -25,
+			"dazzle": 100,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		}
 	},
 	"Pink Sanguini": {
 		"size": "S",
@@ -5447,7 +8160,21 @@
 			{
 				"name": "Wave of Relief"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": -25,
+			"decelerate": 100,
+			"ban_dance": 100,
+			"abiliterator": 100
+		}
 	},
 	"Mimic": {
 		"size": "S",
@@ -5472,7 +8199,18 @@
 			{
 				"name": "Immediate Fizzle"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		},
+		"skills": ["Nightmare"]
 	},
 	"Juggular": {
 		"size": "S",
@@ -5497,7 +8235,18 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"ban_dance": 100,
+			"fizzle": 100
+		}
 	},
 	"Archdemon": {
 		"size": "S",
@@ -5522,7 +8271,19 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 100,
+			"crack": 50,
+			"zap": -25,
+			"whack": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		}
 	},
 	"Cross Bones": {
 		"size": "S",
@@ -5547,7 +8308,20 @@
 			{
 				"name": "Pressure"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 50,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sag": 100,
+			"sap": 50,
+			"dim": -25,
+			"abiliterator": 100
+		},
+		"skills": ["Muspell"]
 	},
 	"Dark Slime Knight": {
 		"size": "S",
@@ -5572,7 +8346,18 @@
 			{
 				"name": "Immediate Accelerate"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 25,
+			"zam": 100,
+			"dazzle": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"blunt": 100,
+			"drain_magic": -25,
+			"fizzle": 50
+		},
+		"skills": ["Dark Knight"]
 	},
 	"Megalodon": {
 		"size": "S",
@@ -5597,7 +8382,18 @@
 			{
 				"name": "Whack Attack"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100,
+			"fizzle": 100
+		}
 	},
 	"Frou-Frou": {
 		"size": "S",
@@ -5622,7 +8418,19 @@
 			{
 				"name": "Crafty Sleeper"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"fire_breath": 100,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 100,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		}
 	},
 	"Gorerilla": {
 		"size": "S",
@@ -5647,7 +8455,20 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"dazzle": 100,
+			"confusion": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"sag": 100,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		}
 	},
 	"Maniacal Mole": {
 		"size": "S",
@@ -5672,7 +8493,20 @@
 			{
 				"name": "Scout Chance Up"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"dim": 100,
+			"ban_dance": 100,
+			"abiliterator": 100
+		},
+		"skills": ["Wonder Construction"]
 	},
 	"Squign": {
 		"size": "S",
@@ -5697,7 +8531,20 @@
 			{
 				"name": "Scout Chance Up"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"whack": 100,
+			"dazzle": 100,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"ban_dance": 100,
+			"abiliterator": 100
+		}
 	},
 	"Corrupt Carter": {
 		"size": "S",
@@ -5722,7 +8569,20 @@
 			{
 				"name": "Immediate Break Bind"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 100,
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"decelerate": 100,
+			"dim": 100,
+			"abiliterator": 100
+		}
 	},
 	"Lethal Armour": {
 		"size": "S",
@@ -5747,7 +8607,19 @@
 			{
 				"name": "Light Metal Body"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"blunt": 100,
+			"fizzle": 100
+		},
+		"skills": ["Cold Sleep"]
 	},
 	"Boss Troll": {
 		"size": "M",
@@ -5772,7 +8644,21 @@
 			{
 				"name": "Desperado"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"sizz": -25,
+			"whack": 100,
+			"dazzle": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": -25,
+			"sleep": 100,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		}
 	},
 	"Jamirus": {
 		"size": "S",
@@ -5797,7 +8683,18 @@
 			{
 				"name": "Crafty Frizzer"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"whack": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		}
 	},
 	"Fright Knight": {
 		"size": "S",
@@ -5822,7 +8719,21 @@
 			{
 				"name": "Fly Swatter"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"crack": 100,
+			"zap": -25,
+			"zam": 50,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sag": 100,
+			"sap": 50,
+			"dim": -25
+		},
+		"skills": ["Firewind Slashes"]
 	},
 	"Ragin' Contagion": {
 		"size": "S",
@@ -5847,7 +8758,18 @@
 			{
 				"name": "Crafty Confuser"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 50,
+			"whack": 100,
+			"dazzle": -25,
+			"poison": 100,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25
+		}
 	},
 	"Seedy Weedie": {
 		"size": "S",
@@ -5872,7 +8794,19 @@
 			{
 				"name": "Steady Recovery"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 50,
+			"zam": -25,
+			"dazzle": 100,
+			"sag": 50,
+			"sap": 100,
+			"decelerate": -25,
+			"dim": 100,
+			"ban_dance": 100,
+			"drain_magic": -25,
+			"fizzle": 50
+		}
 	},
 	"Abyss Diver": {
 		"size": "S",
@@ -5897,7 +8831,19 @@
 			{
 				"name": "Steady Recovery"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 100,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"sleep": 100,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		},
+		"skills": ["Crack & Zap"]
 	},
 	"Dragon Rider": {
 		"size": "S",
@@ -5922,7 +8868,19 @@
 			{
 				"name": "Wooshmeister"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": 100,
+			"sizz": 50,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		}
 	},
 	"Stark Raven": {
 		"size": "S",
@@ -5947,7 +8905,18 @@
 			{
 				"name": "Immediate Brake Wind"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"whack": 100,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		}
 	},
 	"Tantamount": {
 		"size": "S",
@@ -5972,7 +8941,19 @@
 			{
 				"name": "Counteractivist"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"crack": -25,
+			"sizz": 100,
+			"fire_breath": 100,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		}
 	},
 	"Jum": {
 		"size": "S",
@@ -5997,7 +8978,20 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"poison": 50,
+			"confusion": -25,
+			"sleep": 100,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100,
+			"ban_dance": 100,
+			"blunt": -25
+		}
 	},
 	"Knight Aberrant": {
 		"size": "S",
@@ -6022,7 +9016,18 @@
 			{
 				"name": "Standard Killer"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"ban_dance": 100,
+			"fizzle": 100
+		}
 	},
 	"Cobra Cardinal": {
 		"size": "S",
@@ -6047,7 +9052,19 @@
 			{
 				"name": "Magic Counter"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zap": -25,
+			"zam": 50,
+			"donk": 100,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25
+		}
 	},
 	"King Cureslime": {
 		"size": "S",
@@ -6072,7 +9089,17 @@
 			{
 				"name": "Crafty Dimmer"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 50,
+			"zam": -25,
+			"whack": 100,
+			"dazzle": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"fizzle": 100
+		},
+		"skills": ["Cure-all"]
 	},
 	"Drakularge": {
 		"size": "S",
@@ -6097,7 +9124,20 @@
 			{
 				"name": "Crafty Gobstopper"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 100,
+			"sizz": 50,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		},
+		"skills": ["Boom Boxer"]
 	},
 	"Flamethrower": {
 		"size": "S",
@@ -6122,7 +9162,19 @@
 			{
 				"name": "Crafty Frizzer"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"bang": 50,
+			"sizz": -25,
+			"fire_breath": 100,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		}
 	},
 	"Eyevory Tusk-Tusk": {
 		"size": "M",
@@ -6147,7 +9199,20 @@
 			{
 				"name": "Pressure"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"bang": 100,
+			"crack": -25,
+			"whack": 50,
+			"poison": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		}
 	},
 	"Bjorn The Behemoose": {
 		"size": "L",
@@ -6172,7 +9237,24 @@
 			{
 				"name": "Last Word"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"zap": 100,
+			"donk": 100,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": -25,
+			"decelerate": 50,
+			"gobstopper": -25,
+			"abiliterator": 100
+		},
+		"skills": ["Bjorn"]
 	},
 	"Wishmaster": {
 		"size": "M",
@@ -6197,7 +9279,22 @@
 			{
 				"name": "Bangmeister"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"woosh": -25,
+			"sizz": 50,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"immobilize": 50,
+			"paralysis": 50,
+			"sleep": 100,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100,
+			"blunt": 100
+		}
 	},
 	"High Djinks": {
 		"size": "S",
@@ -6222,7 +9319,19 @@
 			{
 				"name": "Gambling Body"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": 100,
+			"crack": 50,
+			"zap": -25,
+			"donk": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		}
 	},
 	"Wight Knight": {
 		"size": "S",
@@ -6247,7 +9356,19 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 50,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25,
+			"blunt": 100
+		}
 	},
 	"Leokid": {
 		"size": "S",
@@ -6272,7 +9393,25 @@
 			{
 				"name": "Crafty Devil"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"bang": -25,
+			"woosh": 50,
+			"zap": -25,
+			"whack": 100,
+			"poison": 50,
+			"confusion": 50,
+			"paralysis": 50,
+			"sleep": 50,
+			"sag": -25,
+			"sap": 50,
+			"dim": -25,
+			"blunt": 50,
+			"drain_magic": 50,
+			"fizzle": -25,
+			"abiliterator": -25
+		}
 	},
 	"Tortoceratops": {
 		"size": "S",
@@ -6297,7 +9436,19 @@
 			{
 				"name": "Increase Tension"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 100,
+			"sizz": 50,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100,
+			"abiliterator": 100
+		}
 	},
 	"Blizzybody": {
 		"size": "S",
@@ -6322,7 +9473,19 @@
 			{
 				"name": "Crafty Cracker"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"woosh": 100,
+			"sizz": -25,
+			"ice_breath": 100,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		}
 	},
 	"Gigantes": {
 		"size": "M",
@@ -6347,7 +9510,23 @@
 			{
 				"name": "Hopeful Hitter"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": 50,
+			"sleep": -25,
+			"sag": -25,
+			"sap": -25,
+			"decelerate": 50,
+			"ban_dance": 100,
+			"blunt": 100,
+			"abiliterator": 100
+		}
 	},
 	"Killing Machine": {
 		"size": "S",
@@ -6372,7 +9551,19 @@
 			{
 				"name": "Crafty Inactivist"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"poison": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		}
 	},
 	"Demon-At-Arms": {
 		"size": "S",
@@ -6397,7 +9588,20 @@
 			{
 				"name": "Magic Drain Body"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"zam": 100,
+			"whack": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		}
 	},
 	"Robbin' 'Ood": {
 		"size": "S",
@@ -6422,7 +9626,18 @@
 			{
 				"name": "Rare Tension"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"whack": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"blunt": 100
+		}
 	},
 	"Wailin' Weed": {
 		"size": "S",
@@ -6447,7 +9662,20 @@
 			{
 				"name": "Comeback Kid"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"crack": 50,
+			"zam": 50,
+			"ice_breath": 50,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25,
+			"fizzle": 100
+		}
 	},
 	"King Bubble Slime": {
 		"size": "S",
@@ -6472,7 +9700,18 @@
 			{
 				"name": "Standard Killer"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 50,
+			"zam": -25,
+			"dazzle": 100,
+			"poison": 100,
+			"paralysis": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"drain_magic": -25,
+			"fizzle": 50
+		}
 	},
 	"Rashaverak": {
 		"size": "S",
@@ -6497,7 +9736,18 @@
 			{
 				"name": "Close Scraper"
 			}
-		]
+		],
+		"resistances": {
+			"zam": 100,
+			"sizz": 50,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		}
 	},
 	"Wooper Trooper": {
 		"size": "S",
@@ -6522,7 +9772,19 @@
 			{
 				"name": "Critical Guard"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"zap": 100,
+			"zam": 100,
+			"sizz": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		}
 	},
 	"Buffalogre": {
 		"size": "S",
@@ -6547,7 +9809,19 @@
 			{
 				"name": "Immediate Oomph"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		}
 	},
 	"Scytheborg": {
 		"size": "S",
@@ -6572,7 +9846,19 @@
 			{
 				"name": "Metal Killer"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"zap": 100,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"paralysis": 100,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		}
 	},
 	"Hyperanemon": {
 		"size": "S",
@@ -6597,7 +9883,18 @@
 			{
 				"name": "Steady Recovery"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100,
+			"abiliterator": 100
+		}
 	},
 	"Gigalumph": {
 		"size": "S",
@@ -6622,7 +9919,19 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"woosh": 100,
+			"zam": 50,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25,
+			"abiliterator": 100
+		}
 	},
 	"Slime Gang": {
 		"size": "L",
@@ -6647,7 +9956,23 @@
 			{
 				"name": "Spell Splurger"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 50,
+			"zam": -25,
+			"whack": 100,
+			"dazzle": -25,
+			"poison": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"ban_dance": 100,
+			"drain_magic": -25,
+			"fizzle": 50,
+			"abiliterator": 100
+		}
 	},
 	"Sintaur": {
 		"size": "S",
@@ -6672,7 +9997,18 @@
 			{
 				"name": "Steady Recovery"
 			}
-		]
+		],
+		"resistances": {
+			"zam": 100,
+			"sizz": 50,
+			"donk": -25,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		}
 	},
 	"Heligator": {
 		"size": "S",
@@ -6697,7 +10033,20 @@
 			{
 				"name": "Standard Killer"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"immobilize": -25,
+			"paralysis": 50,
+			"sag": -25,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		}
 	},
 	"Marquis De Léon": {
 		"size": "M",
@@ -6722,7 +10071,23 @@
 			{
 				"name": "Crafty Sizzer"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"sizz": 150,
+			"donk": -25,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"gobstopper": 100,
+			"abiliterator": 100
+		}
 	},
 	"Balhib": {
 		"size": "S",
@@ -6747,7 +10112,19 @@
 			{
 				"name": "Magic Barrier"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Crusader"]
 	},
 	"Conkettes": {
 		"size": "S",
@@ -6772,7 +10149,20 @@
 			{
 				"name": "Strangely Alluring"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"woosh": 100,
+			"crack": 50,
+			"zap": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"ban_dance": 100,
+			"fizzle": 100
+		}
 	},
 	"Exorsus": {
 		"size": "M",
@@ -6797,7 +10187,26 @@
 			{
 				"name": "Immediate Fizzle"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"bang": 100,
+			"woosh": 100,
+			"crack": 100,
+			"zap": 100,
+			"zam": 100,
+			"sizz": 100,
+			"whack": 100,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 50,
+			"immobilize": 50,
+			"paralysis": 50,
+			"sleep": 50,
+			"sap": 50,
+			"dim": -25
+		},
+		"skills": ["Exorsus"]
 	},
 	"Metal Kaiser Slime": {
 		"size": "M",
@@ -6822,7 +10231,32 @@
 			{
 				"name": "Immediate Break Bind"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"bang": 100,
+			"woosh": 100,
+			"crack": 100,
+			"zap": 100,
+			"zam": 100,
+			"sizz": 100,
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"donk": 100,
+			"whack": 100,
+			"dazzle": 100,
+			"poison": 100,
+			"confusion": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": 50,
+			"gobstopper": 100,
+			"ban_dance": 100,
+			"blunt": 100,
+			"fizzle": 25,
+			"abiliterator": 100
+		},
+		"skills": ["Bang & Zam"]
 	},
 	"Dual Duellers": {
 		"size": "M",
@@ -6847,7 +10281,25 @@
 			{
 				"name": "Standard Killer"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"poison": -25,
+			"confusion": 50,
+			"immobilize": 50,
+			"paralysis": 50,
+			"sleep": 50,
+			"sap": -25,
+			"decelerate": 100,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100,
+			"abiliterator": 100
+		},
+		"skills": ["Dual Duellers"]
 	},
 	"Riptide": {
 		"size": "S",
@@ -6872,7 +10324,23 @@
 			{
 				"name": "Crafty Cracker"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"poison": -25,
+			"confusion": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"sleep": -25,
+			"sag": 100,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"blunt": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Firewind Slashes"]
 	},
 	"Mohawker": {
 		"size": "S",
@@ -6897,7 +10365,19 @@
 			{
 				"name": "Desperado"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"whack": 100,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		},
+		"skills": ["White Knight"]
 	},
 	"Boe": {
 		"size": "S",
@@ -6922,7 +10402,20 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"poison": 50,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100,
+			"gobstopper": 100,
+			"blunt": -25
+		}
 	},
 	"Gracos": {
 		"size": "S",
@@ -6947,7 +10440,17 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		}
 	},
 	"Tortured Soul": {
 		"size": "S",
@@ -6972,7 +10475,21 @@
 			{
 				"name": "Crafty Sizzer"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zap": -25,
+			"zam": 50,
+			"whack": 100,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sap": 50,
+			"dim": -25
+		},
+		"skills": ["Cursader"]
 	},
 	"Great Dragon": {
 		"size": "S",
@@ -6997,7 +10514,20 @@
 			{
 				"name": "Close Scraper"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		}
 	},
 	"Thornella": {
 		"size": "M",
@@ -7022,7 +10552,23 @@
 			{
 				"name": "Imaginative"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"crack": 100,
+			"sizz": -25,
+			"fire_breath": -25,
+			"whack": 100,
+			"confusion": 50,
+			"immobilize": -25,
+			"paralysis": 50,
+			"sleep": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Thornella"]
 	},
 	"Slon The Rook": {
 		"size": "S",
@@ -7047,7 +10593,20 @@
 			{
 				"name": "Critical Guard"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"fire_breath": 100,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"ban_dance": 100,
+			"blunt": 100,
+			"abiliterator": 100
+		}
 	},
 	"Living Statue": {
 		"size": "S",
@@ -7072,7 +10631,18 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 100,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		},
+		"skills": ["Barricade"]
 	},
 	"Mortella": {
 		"size": "M",
@@ -7097,7 +10667,20 @@
 			{
 				"name": "Enemy Tension Reset"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"ice_breath": 100,
+			"whack": 100,
+			"confusion": 100,
+			"immobilize": 50,
+			"paralysis": -25,
+			"sleep": 50,
+			"decelerate": 100,
+			"blunt": -25,
+			"fizzle": 100
+		}
 	},
 	"Grotwyrm": {
 		"size": "S",
@@ -7122,7 +10705,19 @@
 			{
 				"name": "Gambling Body"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"woosh": 100,
+			"crack": 100,
+			"zam": 50,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25
+		}
 	},
 	"Ultra Slime": {
 		"size": "S",
@@ -7147,7 +10742,23 @@
 			{
 				"name": "Metal Killer"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": 100,
+			"zap": 50,
+			"zam": -25,
+			"whack": -25,
+			"poison": -25,
+			"confusion": -25,
+			"immobilize": -25,
+			"paralysis": -25,
+			"sleep": -25,
+			"sag": 100,
+			"sap": 100,
+			"decelerate": -25,
+			"drain_magic": -25,
+			"fizzle": 50
+		}
 	},
 	"Garuda": {
 		"size": "S",
@@ -7172,7 +10783,18 @@
 			{
 				"name": "Desperado"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100,
+			"fizzle": 100
+		}
 	},
 	"Moosifer": {
 		"size": "S",
@@ -7197,7 +10819,18 @@
 			{
 				"name": "Magic Counter"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"sizz": 100,
+			"whack": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		}
 	},
 	"Mum": {
 		"size": "S",
@@ -7222,7 +10855,19 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"poison": 50,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"decelerate": 100,
+			"dim": 100
+		}
 	},
 	"Baron Von Bellycose": {
 		"size": "M",
@@ -7247,7 +10892,21 @@
 			{
 				"name": "Electrifying"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": 100,
+			"crack": 50,
+			"zap": -25,
+			"zam": 100,
+			"whack": 50,
+			"confusion": 100,
+			"immobilize": 50,
+			"paralysis": -25,
+			"sleep": 50,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		}
 	},
 	"Gemon": {
 		"size": "M",
@@ -7272,7 +10931,20 @@
 			{
 				"name": "Magic Counter"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"zam": 100,
+			"whack": 50,
+			"confusion": 100,
+			"immobilize": 50,
+			"paralysis": -25,
+			"sleep": 50,
+			"decelerate": 100,
+			"gobstopper": 100,
+			"fizzle": 100
+		}
 	},
 	"Roseguardin": {
 		"size": "S",
@@ -7297,7 +10969,20 @@
 			{
 				"name": "Desperado"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 50,
+			"donk": 100,
+			"whack": -25,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25,
+			"fizzle": 100
+		}
 	},
 	"Night Knight": {
 		"size": "S",
@@ -7322,7 +11007,20 @@
 			{
 				"name": "Critical Guard"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"crack": 100,
+			"zam": 50,
+			"ice_breath": 100,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sag": 100,
+			"sap": 50,
+			"dim": -25
+		}
 	},
 	"Nemeslime": {
 		"size": "S",
@@ -7347,7 +11045,20 @@
 			{
 				"name": "Metal Killer"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"crack": 100,
+			"zap": 50,
+			"zam": -25,
+			"whack": 200,
+			"paralysis": -25,
+			"sag": 100,
+			"sap": 100,
+			"decelerate": 50,
+			"drain_magic": -25,
+			"fizzle": 50
+		}
 	},
 	"Mechan-O'-Wyrm": {
 		"size": "S",
@@ -7372,7 +11083,20 @@
 			{
 				"name": "Magic Counter"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 100,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"poison": -25,
+			"paralysis": 100,
+			"sap": -25,
+			"dim": 50,
+			"gobstopper": 100,
+			"blunt": 100
+		},
+		"skills": ["Barricade"]
 	},
 	"Gripevine": {
 		"size": "M",
@@ -7397,7 +11121,25 @@
 			{
 				"name": "Magic Drain Attack"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"woosh": 50,
+			"sizz": -25,
+			"ice_breath": -25,
+			"donk": 50,
+			"whack": 50,
+			"poison": 100,
+			"confusion": 50,
+			"immobilize": -25,
+			"paralysis": 100,
+			"sleep": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Niflheim"]
 	},
 	"Alphyn": {
 		"size": "M",
@@ -7422,7 +11164,22 @@
 			{
 				"name": "Magic Counter"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"bang": 100,
+			"crack": -25,
+			"ice_breath": 100,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		}
 	},
 	"Boh": {
 		"size": "S",
@@ -7447,7 +11204,20 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"poison": 50,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100,
+			"drain_magic": -25,
+			"fizzle": 100
+		}
 	},
 	"Dhuran": {
 		"size": "S",
@@ -7472,7 +11242,21 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": 100,
+			"crack": 50,
+			"zap": -25,
+			"dazzle": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"sag": 100,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		},
+		"skills": ["Reaper"]
 	},
 	"Belial": {
 		"size": "S",
@@ -7497,7 +11281,19 @@
 			{
 				"name": "Increase Tension"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 150,
+			"crack": 50,
+			"zap": -25,
+			"whack": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		}
 	},
 	"Monkey Zombie": {
 		"size": "S",
@@ -7522,7 +11318,20 @@
 			{
 				"name": "Random Accelerate"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"crack": 50,
+			"zam": 50,
+			"ice_breath": 50,
+			"whack": 100,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25
+		}
 	},
 	"Bone Baron": {
 		"size": "S",
@@ -7547,7 +11356,19 @@
 			{
 				"name": "Random Oomph"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 50,
+			"whack": 100,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25
+		}
 	},
 	"Kon The Knight": {
 		"size": "S",
@@ -7572,7 +11393,19 @@
 			{
 				"name": "Counterslammer"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"woosh": 100,
+			"sizz": -25,
+			"ice_breath": 100,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		}
 	},
 	"Dorsal Fiend": {
 		"size": "M",
@@ -7597,7 +11430,20 @@
 			{
 				"name": "Crafty Inactivist"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"whack": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"dim": 100,
+			"abiliterator": 100
+		},
+		"skills": ["Dorsal Fiend"]
 	},
 	"Terracotta Warrior": {
 		"size": "M",
@@ -7622,7 +11468,20 @@
 			{
 				"name": "Critical Guard"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"poison": 100,
+			"confusion": -25,
+			"immobilize": 100,
+			"paralysis": 50,
+			"sleep": 100,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100
+		}
 	},
 	"Pazuzu": {
 		"size": "S",
@@ -7647,7 +11506,17 @@
 			{
 				"name": "1-2 Moves"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 100,
+			"whack": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		}
 	},
 	"Dierantula": {
 		"size": "M",
@@ -7672,7 +11541,23 @@
 			{
 				"name": "Crafty Zammer"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"crack": 50,
+			"zam": 100,
+			"ice_breath": 50,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 50,
+			"immobilize": 50,
+			"paralysis": 50,
+			"sleep": 50,
+			"sap": 50
+		},
+		"skills": ["Niflheim"]
 	},
 	"Metal King Slime": {
 		"size": "S",
@@ -7697,7 +11582,32 @@
 			{
 				"name": "Immediate Ping"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"bang": 100,
+			"woosh": 100,
+			"crack": 100,
+			"zap": 100,
+			"zam": 100,
+			"sizz": 100,
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"donk": 100,
+			"whack": 100,
+			"dazzle": 100,
+			"poison": 100,
+			"confusion": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": 50,
+			"gobstopper": 100,
+			"ban_dance": 100,
+			"blunt": 100,
+			"fizzle": 25,
+			"abiliterator": 100
+		},
+		"skills": ["Bang & Crack"]
 	},
 	"King Korol": {
 		"size": "S",
@@ -7722,7 +11632,18 @@
 			{
 				"name": "Imaginative"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 100,
+			"crack": 50,
+			"zap": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"fizzle": 100
+		}
 	},
 	"Lieutenant Goreham-Hogg": {
 		"size": "S",
@@ -7747,7 +11668,19 @@
 			{
 				"name": "Counterstriker"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"fire_breath": 100,
+			"donk": 100,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"abiliterator": 100
+		}
 	},
 	"Lieutenant Hootingham-Gore": {
 		"size": "S",
@@ -7772,7 +11705,18 @@
 			{
 				"name": "Magic Counter"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"drain_magic": 100,
+			"fizzle": 100
+		}
 	},
 	"Taurix": {
 		"size": "M",
@@ -7797,7 +11741,24 @@
 			{
 				"name": "Hopeful Hitter"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"zap": 100,
+			"donk": 100,
+			"whack": 50,
+			"dazzle": 100,
+			"poison": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"blunt": 100,
+			"abiliterator": 100
+		}
 	},
 	"Kapurigon": {
 		"size": "M",
@@ -7822,7 +11783,22 @@
 			{
 				"name": "Immediate Tension"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"woosh": 100,
+			"crack": 100,
+			"zam": 50,
+			"whack": 100,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 50,
+			"immobilize": 50,
+			"paralysis": 50,
+			"sleep": 50,
+			"sap": 50,
+			"dim": -25
+		}
 	},
 	"Stormsgate Citadel": {
 		"size": "L",
@@ -7847,7 +11823,23 @@
 			{
 				"name": "Last Word"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 100,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": 50,
+			"sap": -25,
+			"dim": 100,
+			"drain_magic": -25,
+			"fizzle": -25
+		},
+		"skills": ["Stormsgate Citadel"]
 	},
 	"Empyrea (Alt)": {
 		"size": "L",
@@ -7872,7 +11864,24 @@
 			{
 				"name": "Zapmeister"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"zap": 150,
+			"zam": -25,
+			"sizz": -25,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"decelerate": -25,
+			"dim": 50,
+			"ban_dance": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Empyrea"]
 	},
 	"Stella": {
 		"size": "S",
@@ -7897,7 +11906,20 @@
 			{
 				"name": "Lucky"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"zap": 150,
+			"zam": -25,
+			"whack": 100,
+			"immobilize": -25,
+			"paralysis": -25,
+			"sag": -25,
+			"sap": 50,
+			"drain_magic": 50,
+			"fizzle": -25
+		}
 	},
 	"Zoma's Devil": {
 		"size": "S",
@@ -7922,7 +11944,19 @@
 			{
 				"name": "Disruptive Wave"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"zam": 100,
+			"whack": 100,
+			"paralysis": 100,
+			"sag": -25,
+			"sap": 50,
+			"gobstopper": 100,
+			"drain_magic": 50,
+			"fizzle": -25
+		}
 	},
 	"Schleiman Tank": {
 		"size": "L",
@@ -7947,7 +11981,24 @@
 			{
 				"name": "Last Word"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 100,
+			"zam": -25,
+			"whack": 200,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"gobstopper": -25,
+			"drain_magic": -25,
+			"fizzle": 50,
+			"abiliterator": 100
+		},
+		"skills": ["Flute Warrior"]
 	},
 	"Black Dragon": {
 		"size": "S",
@@ -7972,7 +12023,18 @@
 			{
 				"name": "Random Oomph"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 100,
+			"zam": 100,
+			"sizz": 100,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50
+		}
 	},
 	"Beetlebully": {
 		"size": "S",
@@ -7997,7 +12059,20 @@
 			{
 				"name": "Crafty Decelerater"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"bang": 50,
+			"sizz": -25,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": -25,
+			"paralysis": 50,
+			"sleep": 100,
+			"decelerate": -25,
+			"dim": 50
+		},
+		"skills": ["Bounty Hunter"]
 	},
 	"Atlas": {
 		"size": "M",
@@ -8022,7 +12097,19 @@
 			{
 				"name": "Rare Tension"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50
+		}
 	},
 	"Genie Sanguini": {
 		"size": "S",
@@ -8047,7 +12134,18 @@
 			{
 				"name": "Enemy Tension Reset"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"dazzle": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50
+		}
 	},
 	"Trap Box": {
 		"size": "S",
@@ -8072,7 +12170,18 @@
 			{
 				"name": "Protective Fog"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"poison": 100,
+			"confusion": -25,
+			"paralysis": 100,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25
+		}
 	},
 	"Dullahan": {
 		"size": "S",
@@ -8097,7 +12206,18 @@
 			{
 				"name": "Random Tension"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 50,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25,
+			"blunt": 100
+		}
 	},
 	"Shogum": {
 		"size": "S",
@@ -8122,7 +12242,21 @@
 			{
 				"name": "Last Word"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 100,
+			"zap": 50,
+			"zam": -25,
+			"immobilize": 50,
+			"paralysis": 50,
+			"sleep": 50,
+			"sag": 100,
+			"decelerate": -25,
+			"blunt": 100,
+			"drain_magic": -25,
+			"fizzle": 50
+		},
+		"skills": ["Iceplosion Slashes"]
 	},
 	"Drakulard": {
 		"size": "S",
@@ -8147,7 +12281,18 @@
 			{
 				"name": "Scare Stare"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"zap": 100,
+			"sizz": 50,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 50
+		}
 	},
 	"King Squid": {
 		"size": "M",
@@ -8172,7 +12317,21 @@
 			{
 				"name": "Imaginative"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"donk": 100,
+			"whack": 50,
+			"poison": 50,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"decelerate": -25,
+			"dim": 50
+		},
+		"skills": ["Cleanser"]
 	},
 	"Don Mole": {
 		"size": "S",
@@ -8197,7 +12356,18 @@
 			{
 				"name": "Random Fizzle"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"donk": 200,
+			"dazzle": 100,
+			"confusion": -25,
+			"immobilize": 100,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50
+		}
 	},
 	"Overkilling Machine": {
 		"size": "S",
@@ -8222,7 +12392,19 @@
 			{
 				"name": "Spell Splurger"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"poison": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"blunt": 100
+		}
 	},
 	"Aamon": {
 		"size": "M",
@@ -8247,7 +12429,19 @@
 			{
 				"name": "Magic Counter"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"whack": 100,
+			"confusion": 100,
+			"immobilize": 50,
+			"paralysis": -25,
+			"sleep": 50,
+			"decelerate": 50,
+			"dim": -25,
+			"drain_magic": 100
+		}
 	},
 	"Ladja": {
 		"size": "S",
@@ -8272,7 +12466,17 @@
 			{
 				"name": "Immediate Ping"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 100,
+			"whack": 100,
+			"dazzle": -25,
+			"poison": 50,
+			"sap": 50,
+			"decelerate": 100,
+			"dim": -25
+		}
 	},
 	"Triwinder": {
 		"size": "M",
@@ -8297,7 +12501,20 @@
 			{
 				"name": "Crafty Inactivist"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"poison": -25,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sap": -25,
+			"dim": 50
+		}
 	},
 	"Elder Pipit": {
 		"size": "S",
@@ -8322,7 +12539,18 @@
 			{
 				"name": "Random Ping"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"woosh": 100,
+			"zap": 100,
+			"sizz": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"fizzle": 100
+		}
 	},
 	"Night Clubber": {
 		"size": "S",
@@ -8347,7 +12575,16 @@
 			{
 				"name": "Persistent"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"whack": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50
+		}
 	},
 	"Escudogre": {
 		"size": "S",
@@ -8372,7 +12609,19 @@
 			{
 				"name": "Critical Guard"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 100,
+			"woosh": -25,
+			"sizz": 100,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"abiliterator": 100
+		}
 	},
 	"Blackmar": {
 		"size": "S",
@@ -8397,7 +12646,18 @@
 			{
 				"name": "Yellow-Belly"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 100,
+			"crack": 50,
+			"zap": -25,
+			"whack": 100,
+			"confusion": 50,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"abiliterator": 100
+		}
 	},
 	"Wight King": {
 		"size": "S",
@@ -8422,7 +12682,22 @@
 			{
 				"name": "Random Ping"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"bang": 100,
+			"woosh": 100,
+			"crack": 100,
+			"zap": 50,
+			"zam": 100,
+			"sizz": 100,
+			"whack": 100,
+			"dazzle": -25,
+			"poison": 50,
+			"sleep": 100,
+			"sap": 50,
+			"dim": -25
+		}
 	},
 	"Slider Girl": {
 		"size": "M",
@@ -8447,7 +12722,26 @@
 			{
 				"name": "Ally Tension Rise"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": 100,
+			"crack": 100,
+			"zap": 50,
+			"zam": -25,
+			"ice_breath": 100,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"blunt": 100,
+			"drain_magic": -25,
+			"fizzle": 50,
+			"abiliterator": 100
+		}
 	},
 	"Alabast Dragon": {
 		"size": "M",
@@ -8472,7 +12766,23 @@
 			{
 				"name": "Wave of Relief"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 150,
+			"sizz": 50,
+			"ice_breath": 100,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"poison": -25,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sap": -25,
+			"dim": 50
+		},
+		"skills": ["Cleric"]
 	},
 	"Prism Peacock": {
 		"size": "S",
@@ -8497,7 +12807,22 @@
 			{
 				"name": "Early Bird"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"bang": 50,
+			"crack": 100,
+			"sizz": -25,
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"poison": -25,
+			"confusion": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"sleep": -25,
+			"decelerate": -25,
+			"dim": 50
+		}
 	},
 	"Mossferatu": {
 		"size": "S",
@@ -8522,7 +12847,19 @@
 			{
 				"name": "Magic Regenerator"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"woosh": 100,
+			"crack": -25,
+			"ice_breath": 100,
+			"donk": -25,
+			"poison": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50
+		}
 	},
 	"The Time Being": {
 		"size": "S",
@@ -8547,7 +12884,18 @@
 			{
 				"name": "Spell Splurger"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"crack": 100,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"fizzle": 100
+		}
 	},
 	"Titanis": {
 		"size": "M",
@@ -8572,7 +12920,18 @@
 			{
 				"name": "Pressure"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"whack": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": -25,
+			"sleep": 100,
+			"decelerate": 50,
+			"dim": -25
+		}
 	},
 	"Darkonium Slime": {
 		"size": "M",
@@ -8597,7 +12956,29 @@
 			{
 				"name": "Last Word"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"bang": 100,
+			"woosh": 100,
+			"crack": 100,
+			"zap": 100,
+			"zam": 100,
+			"sizz": 100,
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"donk": 100,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": 50,
+			"gobstopper": 100,
+			"ban_dance": 100,
+			"blunt": 100,
+			"abiliterator": 100
+		}
 	},
 	"Bilhaw": {
 		"size": "M",
@@ -8622,7 +13003,20 @@
 			{
 				"name": "Yellow-Belly"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"poison": -25,
+			"confusion": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"sleep": 50,
+			"sap": -25,
+			"dim": 50
+		}
 	},
 	"Lieutenant Goresby-Purrvis": {
 		"size": "S",
@@ -8647,7 +13041,19 @@
 			{
 				"name": "Yellow-Belly"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"zam": 100,
+			"sizz": -25,
+			"dazzle": 100,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"blunt": 100,
+			"abiliterator": 100
+		}
 	},
 	"Balzack": {
 		"size": "M",
@@ -8672,7 +13078,18 @@
 			{
 				"name": "Yellow-Belly"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"crack": -25,
+			"sizz": 100,
+			"fire_breath": 100,
+			"whack": 100,
+			"immobilize": 100,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50
+		}
 	},
 	"True Dragonlord": {
 		"size": "S",
@@ -8697,7 +13114,18 @@
 			{
 				"name": "Immediate Break Bind"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 100,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"poison": -25,
+			"sap": -25,
+			"dim": 100,
+			"drain_magic": 100
+		},
+		"skills": ["Dragonlord"]
 	},
 	"King Sanguini": {
 		"size": "M",
@@ -8722,7 +13150,22 @@
 			{
 				"name": "Random Malhaze"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"zap": 150,
+			"donk": 100,
+			"whack": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"drain_magic": 100,
+			"fizzle": 100
+		}
 	},
 	"Mumboh-Jumboe": {
 		"size": "S",
@@ -8747,7 +13190,18 @@
 			{
 				"name": "Metal Beater"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"confusion": -25,
+			"sleep": 100,
+			"sag": 50,
+			"sap": -25,
+			"blunt": 50,
+			"abiliterator": 50
+		}
 	},
 	"Murdaw": {
 		"size": "S",
@@ -8772,7 +13226,19 @@
 			{
 				"name": "Random Break Bind"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"zam": 100,
+			"whack": 100,
+			"confusion": 50,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"gobstopper": 100,
+			"drain_magic": -25
+		}
 	},
 	"Baramos": {
 		"size": "S",
@@ -8797,7 +13263,19 @@
 			{
 				"name": "Crafty Fire Breather"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"bang": 100,
+			"crack": 50,
+			"zap": -25,
+			"whack": 100,
+			"dazzle": -25,
+			"confusion": 50,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25
+		}
 	},
 	"Hargon": {
 		"size": "S",
@@ -8822,7 +13300,18 @@
 			{
 				"name": "Random Ping"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"whack": 100,
+			"dazzle": 100,
+			"confusion": 50,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"drain_magic": 100
+		}
 	},
 	"Malroth": {
 		"size": "M",
@@ -8847,7 +13336,22 @@
 			{
 				"name": "Disruptive Wave"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"crack": 50,
+			"zap": -25,
+			"zam": 150,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": -25,
+			"sleep": 100,
+			"decelerate": 50,
+			"dim": -25
+		},
+		"skills": ["Healer"]
 	},
 	"Darck": {
 		"size": "S",
@@ -8872,7 +13376,25 @@
 			{
 				"name": "Disruptive Wave"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"whack": 100,
+			"dazzle": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": -25,
+			"sap": 50,
+			"gobstopper": 100,
+			"ban_dance": 100,
+			"blunt": 100,
+			"drain_magic": 50,
+			"fizzle": -25,
+			"abiliterator": 100
+		}
 	},
 	"Tyrannosaurus Wrecks": {
 		"size": "S",
@@ -8897,7 +13419,18 @@
 			{
 				"name": "Spell Splurger"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"whack": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"sleep": 100,
+			"decelerate": 50,
+			"dim": -25
+		}
 	},
 	"Captain Crow": {
 		"size": "S",
@@ -8922,7 +13455,19 @@
 			{
 				"name": "Random Brake Wind"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zam": 50,
+			"whack": 100,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"paralysis": 100,
+			"sap": 50,
+			"dim": -25
+		},
+		"skills": ["Captain Crow"]
 	},
 	"Grandpa Slime": {
 		"size": "M",
@@ -8947,7 +13492,22 @@
 			{
 				"name": "Zapmeister"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 50,
+			"zam": -25,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 50,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"drain_magic": -25,
+			"fizzle": 50
+		},
+		"skills": ["Bang & Zap"]
 	},
 	"Canzar": {
 		"size": "L",
@@ -8972,7 +13532,26 @@
 			{
 				"name": "Protective Fog"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 200,
+			"bang": 200,
+			"woosh": 200,
+			"crack": 200,
+			"zap": 200,
+			"sizz": 200,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"drain_magic": -25,
+			"fizzle": 50
+		},
+		"skills": ["Canzar"]
 	},
 	"Khalamari": {
 		"size": "L",
@@ -8997,7 +13576,22 @@
 			{
 				"name": "Crafty Dazzler"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"ice_breath": -25,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"decelerate": -25,
+			"dim": 50,
+			"fizzle": 100
+		},
+		"skills": ["Khalamari", "Breath"]
 	},
 	"Dhoulmagus": {
 		"size": "S",
@@ -9022,7 +13616,21 @@
 			{
 				"name": "Zammeister"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"bang": 50,
+			"woosh": 100,
+			"crack": -25,
+			"zap": -25,
+			"zam": 200,
+			"whack": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50
+		},
+		"skills": ["Dhoulmagus"]
 	},
 	"Uberkilling Machine": {
 		"size": "S",
@@ -9047,7 +13655,20 @@
 			{
 				"name": "Random Oomph"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"poison": 100,
+			"confusion": -25,
+			"immobilize": 100,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"blunt": 100
+		}
 	},
 	"Slime Blaster": {
 		"size": "L",
@@ -9072,7 +13693,25 @@
 			{
 				"name": "Late Riser"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"crack": 100,
+			"zap": 50,
+			"zam": -25,
+			"fire_breath": -25,
+			"ice_breath": -25,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"drain_magic": -25,
+			"fizzle": 50
+		}
 	},
 	"King Godwyn Second Forme": {
 		"size": "L",
@@ -9097,7 +13736,23 @@
 			{
 				"name": "Disenchanted"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"bang": 100,
+			"crack": 100,
+			"zam": 100,
+			"ice_breath": 100,
+			"whack": 100,
+			"dazzle": -25,
+			"poison": 50,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sap": 50,
+			"dim": -25
+		}
 	},
 	"Ruin": {
 		"size": "L",
@@ -9122,7 +13777,20 @@
 			{
 				"name": "Last Word"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 100,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": 50,
+			"sap": -25
+		},
+		"skills": ["Ruin"]
 	},
 	"Gem Slime": {
 		"size": "M",
@@ -9147,7 +13815,30 @@
 			{
 				"name": "Enemy Tension Rise"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"bang": 100,
+			"woosh": 100,
+			"crack": 100,
+			"zap": 100,
+			"zam": 100,
+			"sizz": 100,
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"donk": 100,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": 50,
+			"gobstopper": 100,
+			"ban_dance": 100,
+			"blunt": 100,
+			"fizzle": 25,
+			"abiliterator": 100
+		}
 	},
 	"Dragonlord": {
 		"size": "M",
@@ -9172,7 +13863,22 @@
 			{
 				"name": "Unlucky"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"poison": -25,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 50,
+			"sleep": 100,
+			"sap": -25,
+			"dim": 50
+		}
 	},
 	"Evil Sir Leopold": {
 		"size": "S",
@@ -9197,7 +13903,23 @@
 			{
 				"name": "Immediate Malhaze"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"zap": -25,
+			"zam": 150,
+			"sizz": -25,
+			"whack": 100,
+			"poison": -25,
+			"confusion": -25,
+			"immobilize": -25,
+			"paralysis": 50,
+			"sleep": -25,
+			"sag": 100,
+			"decelerate": -25,
+			"dim": 50
+		},
+		"skills": ["Leopold"]
 	},
 	"Psaro The Manslayer": {
 		"size": "M",
@@ -9222,7 +13944,21 @@
 			{
 				"name": "Magic Counter"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": 50,
+			"sap": -25,
+			"gobstopper": 100
+		}
 	},
 	"Robbin's Old Lady": {
 		"size": "M",
@@ -9247,7 +13983,22 @@
 			{
 				"name": "Strangely Alluring"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"woosh": 100,
+			"crack": -25,
+			"zam": 100,
+			"ice_breath": 100,
+			"donk": 100,
+			"whack": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50
+		}
 	},
 	"Prince O' Thieves": {
 		"size": "S",
@@ -9272,7 +14023,19 @@
 			{
 				"name": "Confused Frenzy"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"whack": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"blunt": 100,
+			"abiliterator": 100
+		}
 	},
 	"Nimzo": {
 		"size": "M",
@@ -9297,7 +14060,23 @@
 			{
 				"name": "Rare Tension"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"zam": 150,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": -25,
+			"sap": 50,
+			"drain_magic": 50,
+			"fizzle": -25
+		},
+		"skills": ["Nimzo"]
 	},
 	"Xiphos The Deathbringer": {
 		"size": "L",
@@ -9322,7 +14101,22 @@
 			{
 				"name": "Disenchanted"
 			}
-		]
+		],
+		"resistances": {
+			"zam": 100,
+			"sizz": 50,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"poison": 50,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sap": -25,
+			"dim": 50,
+			"blunt": 100
+		}
 	},
 	"Diamond Slime": {
 		"size": "S",
@@ -9347,7 +14141,30 @@
 			{
 				"name": "Disenchanted"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"bang": 100,
+			"woosh": 100,
+			"crack": 100,
+			"zap": 100,
+			"zam": 100,
+			"sizz": 100,
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"donk": 100,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": 50,
+			"gobstopper": 100,
+			"ban_dance": 100,
+			"blunt": 100,
+			"fizzle": 25,
+			"abiliterator": 100
+		}
 	},
 	"Orochi": {
 		"size": "L",
@@ -9372,7 +14189,23 @@
 			{
 				"name": "Rare Tension"
 			}
-		]
+		],
+		"resistances": {
+			"crack": -25,
+			"sizz": 50,
+			"fire_breath": 100,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"poison": 50,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sap": -25,
+			"dim": 50
+		},
+		"skills": ["Orochi"]
 	},
 	"Trode": {
 		"size": "S",
@@ -9397,7 +14230,19 @@
 			{
 				"name": "Enemy Tension Reset"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"sizz": -25,
+			"fire_breath": 100,
+			"whack": 100,
+			"immobilize": -25,
+			"paralysis": 50,
+			"decelerate": -25,
+			"dim": 50,
+			"fizzle": 100,
+			"abiliterator": 100
+		}
 	},
 	"Pruslas": {
 		"size": "L",
@@ -9422,7 +14267,20 @@
 			{
 				"name": "Yellow-Belly"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"donk": 100,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": -25,
+			"decelerate": 50
+		}
 	},
 	"Trauminator": {
 		"size": "M",
@@ -9447,7 +14305,22 @@
 			{
 				"name": "Magic Barrier"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"zap": 100,
+			"donk": 50,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": 50,
+			"sap": -25,
+			"blunt": 100
+		},
+		"skills": ["Darklight Slashes"]
 	},
 	"Scruffy": {
 		"size": "S",
@@ -9472,7 +14345,18 @@
 			{
 				"name": "Protective Fog"
 			}
-		]
+		],
+		"resistances": {
+			"crack": 50,
+			"zap": -25,
+			"zam": 150,
+			"whack": 100,
+			"confusion": 50,
+			"paralysis": -25,
+			"decelerate": 50,
+			"dim": -25,
+			"ban_dance": 100
+		}
 	},
 	"Dr Snapped": {
 		"size": "M",
@@ -9497,7 +14381,19 @@
 			{
 				"name": "Confusion Attack"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": -25,
+			"zap": -25,
+			"zam": 150,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sap": 50
+		},
+		"skills": ["Dr Snapped"]
 	},
 	"Zoma": {
 		"size": "S",
@@ -9522,7 +14418,21 @@
 			{
 				"name": "Immediate Ping"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"zap": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"immobilize": -25,
+			"sag": -25,
+			"sap": 50,
+			"gobstopper": 50,
+			"drain_magic": 50,
+			"fizzle": 100
+		},
+		"skills": ["Zoma"]
 	},
 	"Liquid Metal Slime King": {
 		"size": "L",
@@ -9547,7 +14457,31 @@
 			{
 				"name": "Gambling Body"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"bang": 100,
+			"woosh": 100,
+			"crack": 100,
+			"zap": 100,
+			"zam": 100,
+			"sizz": 100,
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"donk": 100,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 50,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": 50,
+			"gobstopper": 100,
+			"ban_dance": 100,
+			"blunt": 100,
+			"fizzle": 25,
+			"abiliterator": 100
+		}
 	},
 	"Barbarus": {
 		"size": "M",
@@ -9572,7 +14506,24 @@
 			{
 				"name": "Random Nether Fog"
 			}
-		]
+		],
+		"resistances": {
+			"zap": -25,
+			"zam": 150,
+			"sizz": 50,
+			"ice_breath": 100,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"poison": -25,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sap": -25,
+			"dim": 50
+		},
+		"skills": ["Vile Void"]
 	},
 	"The Almighty": {
 		"size": "S",
@@ -9597,7 +14548,19 @@
 			{
 				"name": "Immediate Ping"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"zap": 100,
+			"zam": -25,
+			"sizz": -25,
+			"whack": 100,
+			"immobilize": -25,
+			"paralysis": 50,
+			"sap": 100,
+			"decelerate": 50,
+			"dim": 50
+		}
 	},
 	"Fluffy": {
 		"size": "S",
@@ -9622,7 +14585,18 @@
 			{
 				"name": "Protective Fog"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"zap": 100,
+			"whack": 100,
+			"immobilize": 50,
+			"sleep": -25,
+			"sag": -25,
+			"decelerate": 50,
+			"dim": 100
+		}
 	},
 	"Schwarzman Tank": {
 		"size": "L",
@@ -9647,7 +14621,20 @@
 			{
 				"name": "Spell Splurger"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"zam": 100,
+			"donk": 100,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": 50,
+			"sap": -25
+		}
 	},
 	"Mortamor": {
 		"size": "M",
@@ -9672,7 +14659,24 @@
 			{
 				"name": "Disruptive Wave"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": -25,
+			"sap": 50,
+			"blunt": -25,
+			"drain_magic": 50,
+			"fizzle": -25
+		}
 	},
 	"Hihyurude": {
 		"size": "L",
@@ -9697,7 +14701,26 @@
 			{
 				"name": "Spell Splurger"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"bang": -25,
+			"woosh": 50,
+			"zap": 50,
+			"zam": 50,
+			"sizz": 50,
+			"fire_breath": 50,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": -25,
+			"sap": 50,
+			"drain_magic": 50,
+			"fizzle": -25
+		}
 	},
 	"Greygnarl": {
 		"size": "M",
@@ -9722,7 +14745,24 @@
 			{
 				"name": "Random Oomph"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 150,
+			"zam": -25,
+			"sizz": 50,
+			"fire_breath": 100,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"poison": -25,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sap": -25,
+			"dim": 50
+		},
+		"skills": ["Hero of the Heavens"]
 	},
 	"Yggdrasil": {
 		"size": "L",
@@ -9747,7 +14787,20 @@
 			{
 				"name": "Close Scraper"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"woosh": 100,
+			"sizz": -25,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"decelerate": -25,
+			"dim": 50
+		}
 	},
 	"Sagittar": {
 		"size": "L",
@@ -9772,7 +14825,23 @@
 			{
 				"name": "Random Break Bind"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 100,
+			"woosh": -25,
+			"zap": 100,
+			"donk": 50,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": 50,
+			"sap": -25,
+			"abiliterator": -25
+		},
+		"skills": ["Sagittar"]
 	},
 	"Orgodemir": {
 		"size": "M",
@@ -9797,7 +14866,24 @@
 			{
 				"name": "Imaginative"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"fire_breath": 200,
+			"ice_breath": 200,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 50,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": -25,
+			"sap": 50,
+			"ban_dance": -25,
+			"drain_magic": 50,
+			"fizzle": -25
+		}
 	},
 	"Gadis": {
 		"size": "L",
@@ -9822,7 +14908,22 @@
 			{
 				"name": "Disenchanted"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"zam": 150,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": -25,
+			"sap": 50,
+			"drain_magic": 50,
+			"fizzle": -25
+		}
 	},
 	"Xenlon": {
 		"size": "M",
@@ -9847,7 +14948,22 @@
 			{
 				"name": "Random Fizzle"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"fire_breath": 200,
+			"ice_breath": 200,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"poison": -25,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sap": -25,
+			"dim": 50
+		}
 	},
 	"Munchie": {
 		"size": "S",
@@ -9872,7 +14988,21 @@
 			{
 				"name": "Ally Tension Rise"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"zap": 150,
+			"sizz": -25,
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"confusion": 100,
+			"immobilize": 50,
+			"paralysis": 100,
+			"sleep": 100,
+			"decelerate": -25,
+			"dim": 50,
+			"gobstopper": 100
+		}
 	},
 	"Nokturnus": {
 		"size": "S",
@@ -9897,7 +15027,19 @@
 			{
 				"name": "Yellow-Belly"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"crack": 50,
+			"zap": 100,
+			"zam": 100,
+			"whack": 100,
+			"confusion": 50,
+			"paralysis": -25,
+			"sag": 100,
+			"sap": 100,
+			"decelerate": 100
+		}
 	},
 	"Rhapthorne": {
 		"size": "S",
@@ -9922,7 +15064,20 @@
 			{
 				"name": "Magic Barrier"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"zam": 150,
+			"sizz": 100,
+			"whack": 100,
+			"sag": -25,
+			"sap": 50,
+			"ban_dance": 50,
+			"drain_magic": 50,
+			"fizzle": -25
+		},
+		"skills": ["Rhapthorne"]
 	},
 	"Dark Robot Slime": {
 		"size": "L",
@@ -9947,7 +15102,25 @@
 			{
 				"name": "Spell Splurger"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"crack": 100,
+			"zap": 50,
+			"zam": -25,
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": 50,
+			"decelerate": -25,
+			"drain_magic": -25,
+			"fizzle": 50
+		}
 	},
 	"Dimensional Dragon": {
 		"size": "M",
@@ -9972,7 +15145,20 @@
 			{
 				"name": "Yellow-Belly"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"poison": -25,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sap": -25,
+			"dim": 50
+		}
 	},
 	"Aquarion": {
 		"size": "L",
@@ -9997,7 +15183,22 @@
 			{
 				"name": "Magic Barrier"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"crack": -25,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": -25,
+			"decelerate": 50,
+			"gobstopper": -25,
+			"drain_magic": 100
+		},
+		"skills": ["Aquarion"]
 	},
 	"Estark": {
 		"size": "L",
@@ -10022,7 +15223,21 @@
 			{
 				"name": "Restless"
 			}
-		]
+		],
+		"resistances": {
+			"woosh": -25,
+			"donk": 50,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 50,
+			"sag": 50,
+			"sap": -25,
+			"blunt": 100
+		},
+		"skills": ["Estark"]
 	},
 	"Rhapthorne II": {
 		"size": "L",
@@ -10047,7 +15262,25 @@
 			{
 				"name": "Crafty Magic Drainer"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"zam": 150,
+			"donk": 100,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": -25,
+			"sap": 50,
+			"decelerate": -25,
+			"drain_magic": 50,
+			"fizzle": -25
+		},
+		"skills": ["Rhapthorne 2"]
 	},
 	"Ramia": {
 		"size": "L",
@@ -10072,7 +15305,22 @@
 			{
 				"name": "Random Brake Wind"
 			}
-		]
+		],
+		"resistances": {
+			"bang": 50,
+			"zap": 150,
+			"zam": -25,
+			"sizz": -25,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"decelerate": 50,
+			"dim": 50
+		},
+		"skills": ["Great Godbird"]
 	},
 	"Malevolynx": {
 		"size": "L",
@@ -10097,7 +15345,24 @@
 			{
 				"name": "Random Malhaze"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"crack": 100,
+			"whack": 200,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sag": -25,
+			"sap": 50,
+			"decelerate": -25,
+			"ban_dance": 100,
+			"drain_magic": 50,
+			"fizzle": -25,
+			"abiliterator": 100
+		}
 	},
 	"Leonyx": {
 		"size": "L",
@@ -10122,7 +15387,25 @@
 			{
 				"name": "Yellow-Belly"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"bang": -25,
+			"woosh": 50,
+			"whack": 200,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": -25,
+			"sap": 50,
+			"dim": -25,
+			"blunt": 100,
+			"drain_magic": 50,
+			"fizzle": -25
+		},
+		"skills": ["Leonyx"]
 	},
 	"Rigor Mortex": {
 		"size": "L",
@@ -10147,7 +15430,25 @@
 			{
 				"name": "Immediate Nether Fog"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"zam": 100,
+			"sizz": 200,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": -25,
+			"sap": 50,
+			"decelerate": -25,
+			"drain_magic": 50,
+			"fizzle": -25
+		},
+		"skills": ["Rigor Mortex"]
 	},
 	"Magarugi": {
 		"size": "L",
@@ -10172,7 +15473,23 @@
 			{
 				"name": "Crafty Zammer"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"zap": 100,
+			"zam": 100,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": -25,
+			"sap": 50,
+			"drain_magic": 50,
+			"fizzle": -25
+		}
 	},
 	"Corvus": {
 		"size": "S",
@@ -10197,7 +15514,18 @@
 			{
 				"name": "Comeback Kid"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"zap": 200,
+			"zam": 200,
+			"whack": 100,
+			"sag": -25,
+			"sap": 50,
+			"drain_magic": 50,
+			"fizzle": -25
+		}
 	},
 	"Lord Of The Dragovians": {
 		"size": "M",
@@ -10222,7 +15550,23 @@
 			{
 				"name": "Despellado"
 			}
-		]
+		],
+		"resistances": {
+			"sizz": 50,
+			"fire_breath": 100,
+			"ice_breath": 100,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"poison": -25,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sap": -25,
+			"dim": 50
+		},
+		"skills": ["Dragovian Lord"]
 	},
 	"Zenith Dragon": {
 		"size": "L",
@@ -10247,7 +15591,24 @@
 			{
 				"name": "Counterslammer"
 			}
-		]
+		],
+		"resistances": {
+			"zap": 100,
+			"sizz": 50,
+			"fire_breath": 150,
+			"ice_breath": 150,
+			"donk": -25,
+			"whack": 100,
+			"dazzle": 50,
+			"poison": 50,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sap": -25,
+			"dim": 50
+		},
+		"skills": ["Zenith Dragon"]
 	},
 	"Hihyudorado": {
 		"size": "L",
@@ -10272,7 +15633,25 @@
 			{
 				"name": "Spell Splurger"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"crack": 100,
+			"zap": 100,
+			"zam": 100,
+			"ice_breath": 100,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"immobilize": 100,
+			"paralysis": 100,
+			"sleep": 100,
+			"sag": -25,
+			"sap": 50,
+			"drain_magic": 50,
+			"fizzle": -25
+		}
 	},
 	"Wulfspade": {
 		"size": "S",
@@ -10297,7 +15676,20 @@
 			{
 				"name": "Strangely Alluring"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"fire_breath": 50,
+			"whack": 50,
+			"poison": 50,
+			"paralysis": 50,
+			"sag": -25,
+			"sap": 50,
+			"drain_magic": 50,
+			"fizzle": -25
+		},
+		"skills": ["Wulfspade"]
 	},
 	"Hawkhart": {
 		"size": "S",
@@ -10322,7 +15714,26 @@
 			{
 				"name": "Strangely Alluring"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 50,
+			"woosh": 50,
+			"crack": 50,
+			"zap": 50,
+			"sizz": 50,
+			"ice_breath": 50,
+			"whack": 50,
+			"poison": -25,
+			"confusion": -25,
+			"immobilize": -25,
+			"paralysis": -25,
+			"sleep": -25,
+			"sag": -25,
+			"sap": 50,
+			"drain_magic": 50,
+			"fizzle": -25
+		},
+		"skills": ["Hawkhart"]
 	},
 	"Cluboon": {
 		"size": "S",
@@ -10347,7 +15758,21 @@
 			{
 				"name": "Strangely Alluring"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"fire_breath": 50,
+			"whack": 50,
+			"poison": 50,
+			"sleep": 50,
+			"sag": -25,
+			"sap": 50,
+			"drain_magic": 50,
+			"fizzle": -25,
+			"abiliterator": 50
+		},
+		"skills": ["Cluboon"]
 	},
 	"Diamagon": {
 		"size": "S",
@@ -10372,7 +15797,21 @@
 			{
 				"name": "Strangely Alluring"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"ice_breath": 50,
+			"whack": 50,
+			"poison": 50,
+			"confusion": 50,
+			"sag": -25,
+			"sap": 50,
+			"blunt": 50,
+			"drain_magic": 50,
+			"fizzle": -25
+		},
+		"skills": ["Diamagon"]
 	},
 	"Wulfspade Ace": {
 		"size": "S",
@@ -10397,7 +15836,19 @@
 			{
 				"name": "Fly Swatter"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"fire_breath": 100,
+			"whack": 100,
+			"poison": 100,
+			"paralysis": 100,
+			"sag": -25,
+			"sap": 50,
+			"drain_magic": 50,
+			"fizzle": -25
+		}
 	},
 	"Hawkhart Ace": {
 		"size": "S",
@@ -10422,7 +15873,26 @@
 			{
 				"name": "Yellow-Belly"
 			}
-		]
+		],
+		"resistances": {
+			"frizz": 100,
+			"bang": 50,
+			"woosh": 100,
+			"crack": 100,
+			"zap": 100,
+			"zam": 50,
+			"sizz": 100,
+			"ice_breath": 100,
+			"whack": 100,
+			"poison": -25,
+			"confusion": -25,
+			"immobilize": -25,
+			"paralysis": -25,
+			"sleep": -25,
+			"sag": -25,
+			"sap": 50,
+			"fizzle": -25
+		}
 	},
 	"Cluboon Ace": {
 		"size": "S",
@@ -10447,7 +15917,20 @@
 			{
 				"name": "Critical Massacre"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"ice_breath": 100,
+			"whack": 100,
+			"poison": 100,
+			"sleep": 100,
+			"sag": -25,
+			"sap": 50,
+			"drain_magic": 50,
+			"fizzle": -25,
+			"abiliterator": 100
+		}
 	},
 	"Diamagon Ace": {
 		"size": "S",
@@ -10472,7 +15955,20 @@
 			{
 				"name": "Metal Beater"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"ice_breath": 100,
+			"whack": 100,
+			"poison": 100,
+			"confusion": 100,
+			"sag": -25,
+			"sap": 50,
+			"blunt": 100,
+			"drain_magic": 50,
+			"fizzle": -25
+		}
 	},
 	"Ace Of Spades": {
 		"size": "S",
@@ -10497,7 +15993,19 @@
 			{
 				"name": "Magic Barrier"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"zap": -25,
+			"zam": 150,
+			"fire_breath": 100,
+			"whack": 100,
+			"sag": -25,
+			"sap": 50,
+			"drain_magic": 50,
+			"fizzle": -25
+		}
 	},
 	"Wildcard": {
 		"size": "S",
@@ -10522,6 +16030,41 @@
 			{
 				"name": "Protective Fog"
 			}
-		]
+		],
+		"resistances": {
+			"bang": -25,
+			"woosh": 50,
+			"zap": 150,
+			"zam": -25,
+			"fire_breath": 100,
+			"whack": -25,
+			"sleep": 200,
+			"sag": -25,
+			"sap": 50,
+			"drain_magic": 50,
+			"fizzle": -25
+		},
+		"skills": ["Wildcard"]
+	},
+	"Goodybag XY": {
+		"skills": ["Uber Charmer"]
+	},
+	"Skeleton XY": {
+		"skills": ["Uber Knight"]
+	},
+	"Conklave XY": {
+		"skills": ["Uber Dark Dynamiter"]
+	},
+	"Chimaera XY": {
+		"skills": ["Uber Healer"]
+	},
+	"Green Dragon XY": {
+		"skills": ["Uber Breath"]
+	},
+	"Teeny Sanguini XY": {
+		"skills": ["Uber Helpful"]
+	},
+	"Slime XY": {
+		"skills": ["Uber Zapologist"]
 	}
 }

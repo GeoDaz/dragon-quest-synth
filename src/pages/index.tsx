@@ -117,6 +117,7 @@ export const gameTalents = (game: string, details: MonstersDetails): GameTalents
 		const used = new Set<string>();
 		Object.values(details).forEach(monster => {
 			if (monster.skill) used.add(monster.skill);
+			monster.skills?.forEach(skill => used.add(skill));
 			monster.randomSkills?.forEach(skill => used.add(skill));
 		});
 		const talents: GameTalents['talents'] = {};
@@ -152,14 +153,16 @@ export const gameTalentRecipes = (game: string): GameTalents => {
 		const moves: GameTalents['moves'] = {};
 		names.forEach(name => {
 			const talent = data.talents[name];
-			if (!talent?.moves?.length) return;
+			if (!talent) return;
 			talents[name] = {
-				moves: talent.moves.map(({ move, sp }: TalentStep) => ({ move, sp })),
+				moves: (talent.moves || []).map(({ move, sp }: TalentStep) => ({ move, sp })),
 				...(talent.traits?.length ? { traits: talent.traits } : {}),
 				...(talent.category ? { category: talent.category } : {}),
 				...(talent.from?.length ? { from: talent.from } : {}),
+				...(talent.points ? { points: talent.points } : {}),
+				...(talent.unofficial ? { unofficial: true, jp: talent.jp } : {}),
 			};
-			talent.moves.forEach(({ move }: TalentStep) => {
+			(talent.moves || []).forEach(({ move }: TalentStep) => {
 				const entry = data.moves?.[move];
 				if (entry?.en) moves[move] = { en: entry.en };
 			});
@@ -216,7 +219,9 @@ const PageLines: React.FC<Props> = props => {
 		clearReserve,
 	} = useReserve(game.key);
 	const hasDetails = !!Object.keys(details).length;
-	const hasSkills = Object.values(details).some(monster => !!monster.skill);
+	const hasSkills = Object.values(details).some(
+		monster => !!monster.skill || !!monster.skills?.length
+	);
 	const hasSpawns = !!Object.keys(spawns).length;
 	const detailsValue = useMemo(
 		() => ({
@@ -333,10 +338,13 @@ const PageLines: React.FC<Props> = props => {
 				monsters.forEach(monster => {
 					const parts = [monster.name];
 					if (isFr && monster.nom) parts.push(monster.nom);
-					const skill = details[monster.name]?.skill;
-					const term = skill ? terms.skills[skill] : undefined;
-					if (term?.en) parts.push(term.en);
-					if (isFr && term?.en) parts.push(translateSkill(term.en));
+					const detail = details[monster.name];
+					const skills = detail?.skills || (detail?.skill ? [detail.skill] : []);
+					skills.forEach(skill => {
+						const en = terms.skills[skill]?.en || skill;
+						parts.push(en);
+						if (isFr) parts.push(translateSkill(en));
+					});
 					index[monster.name] = parts.map(stringToKey).join('|');
 				})
 			)

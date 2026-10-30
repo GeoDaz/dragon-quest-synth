@@ -29,6 +29,7 @@ export interface MonsterDetails {
 	resistances?: { [key: string]: number };
 	traits?: MonsterTrait[];
 	skill?: string;
+	skills?: string[];
 	randomSkills?: string[];
 	scoutable?: boolean;
 	drops?: MonsterDrop[];
@@ -86,6 +87,9 @@ export interface GameTalent {
 	traits?: string[];
 	category?: string;
 	from?: string[][];
+	points?: { [ingredient: string]: number };
+	unofficial?: boolean;
+	jp?: string;
 }
 
 export interface GameTalents {

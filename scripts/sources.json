@@ -1,0 +1,174 @@
+{
+	"all": [
+		{
+			"url": "https://dragonquest.fandom.com/wiki/Category:Families",
+			"data": ["monstres", "images", "noms EN", "noms JP"],
+			"notes": "Point de départ de makeMonsterList.js ; noms JP via le champ |japanese = de MonsterInfo (API dragonquest.fandom.com/api.php)."
+		}
+	],
+	"DQM1": [
+		{
+			"url": "https://altema.jp/terrysp/zukan",
+			"data": ["noms JP", "numéros du bestiaire"],
+			"notes": "Les 659 monstres de Terry SP sur une seule page (NO1→659)."
+		},
+		{
+			"url": "https://altema.jp/terrysp/haigouhyou",
+			"data": ["synthèses spéciales"],
+			"notes": "Parents parfois répartis sur plusieurs lignes."
+		},
+		{
+			"url": "https://altema.jp/terrysp/monsterichiran",
+			"data": ["portes", "scout", "boss de porte"],
+			"notes": "【スカウト】/【扉のボス】, suffixe (黄金郷) pour l'Eldorado."
+		},
+		{
+			"url": "https://privespa.org/dqm_terry/haigou_skill.html",
+			"data": ["talents combinés", "talents évolués"],
+			"notes": "Terry 3D (Shift_JIS) : évolutions (○○＆△△ → 最強, bonus de stats 1→2→3) et combinaisons. Contredit kyokugen sur ばくふうガードSP (イオ＋ベタン) : kyokugen retenu."
+		},
+		{
+			"url": "https://kyokugen.info/dqm2/dqm_3d_begin8.html",
+			"data": ["talents combinés"],
+			"notes": "Terry 3D : règles des SP (couverture d'éléments, « 2 parmi », croisements) développées en recettes dans DQM1Moves.json, plus les compétences des SP avec leurs PC."
+		},
+		{
+			"url": "https://github.com/Ich73/DQMT-FanTranslation",
+			"data": ["noms EN des talents (fan-trad)"],
+			"reliability": "low",
+			"notes": "PEU FIABLE : msg_skillname.patJ (même encodage que DQM2). Sert seulement à valider les noms anglais ; écrit « Whoosh » là où le projet utilise « Woosh »."
+		}
+	],
+	"DQM2": [
+		{
+			"url": "https://note.com/seigaikijin495/n/ne09723a36b02",
+			"data": [
+				"synthèses spéciales",
+				"synthèses à 4 corps",
+				"monstres non synthétisables",
+				"sommets de chaîne"
+			],
+			"notes": "Source la plus fiable pour Iruruka 3DS + SP. API : https://note.com/api/v3/notes/ne09723a36b02"
+		},
+		{
+			"url": "https://altema.jp/iruruka",
+			"data": ["scout par monde"],
+			"notes": "Pages monde (sabakunosekai, mizunosekai, koorinosekai, tenkunosekai, hazamanosekai, yadoriginosekai). Bloque curl/WebFetch, rangs parfois faux."
+		},
+		{
+			"url": "https://game8.jp/dqm2/323202",
+			"data": ["talents combinés", "talents évolués"],
+			"notes": "Iruruka SP : tableau スキル一覧 = 32 dérivations (最強X = X à 100 pt), tableau 組み合わせ一覧 = combinaisons par paires. Les tableaux des SP (« 生成できる組み合わせの例 ») ne sont que des exemples, non repris. altema.jp/iruruka/spskill a la même chose mais bloque l'accès automatique."
+		},
+		{
+			"url": "https://github.com/Ich73/DQM2-FanTranslation",
+			"data": ["noms EN/FR des talents (fan-trad)"],
+			"reliability": "low",
+			"notes": "PEU FIABLE : fan-trad. Message_EN|FR/msg_skillname.patJ alignés ligne à ligne, encodage hex (A=0x0D, a=0x27, espace=0x0B, 0=0x01, é=5E, è=5D, ê=5F, à=58, â=5A, ç=5C, î=63, ï=64, ô=68, û=6D, œ=6A, &=E13C, -=E143, '=E12D). 53 noms FR repris dans DQM2SkillsTranslations.json, listés dans le bloc unofficial de DQM2Moves.json."
+		}
+	],
+	"DQM3": [
+		{
+			"url": "https://wikidragonquest.fr/Liste_des_talents_de_Dragon_Quest_Monsters_3",
+			"data": ["noms FR des talents"],
+			"notes": "241 talents, dans l'ordre de DQM3Moves.json (quelques boss décalés). Noms sans « SP »."
+		},
+		{
+			"url": "https://wikidragonquest.fr/Liste_des_attributs_de_Dragon_Quest_Monsters_3",
+			"data": ["noms FR des traits", "descriptions FR des traits"]
+		}
+	],
+	"DQM4": [
+		{
+			"url": "https://wikidragonquest.fr/Liste_des_talents_de_Dragon_Quest_Monsters_4",
+			"data": ["noms FR des talents"],
+			"notes": "Ébauche : dans l'ordre de l'export du jeu (DT_MonsterSkill), avec des entrées « À compléter ». Noms avec « SP »."
+		}
+	],
+	"DQMJ1": [
+		{
+			"url": "https://rebjorn-wiki.com/dqmj/monsters",
+			"data": ["noms EN/JP/FR", "familles", "rangs", "scout"],
+			"notes": "FR en minuscules, le projet capitalise."
+		},
+		{
+			"url": "https://rebjorn-wiki.com/dqmj/synthesis/special",
+			"data": ["synthèses spéciales"]
+		},
+		{
+			"url": "https://dqmj.fandom.com/wiki/%C3%9Cber_skillsets",
+			"data": ["talents combinés"],
+			"notes": "Liste des Über skillsets (ex. Attack Boost III + Warrior = Über Attack Boost). Recettes tronquées (« And N more ») : détail complet sur la page de chaque skillset. API : dqmj.fandom.com/api.php?action=parse&page=…&prop=wikitext 3 recettes de Top Blizzard absentes du wiki ajoutées par la règle de couverture (bloc inferred de DQMJ1Moves.json)."
+		},
+		{
+			"url": "https://dqmj.fandom.com/wiki/Skillsets",
+			"data": ["talents évolués"],
+			"notes": "Montée de niveau des skillsets (ex. Attack Boost → II à 50 points cumulés par les deux parents)."
+		},
+		{
+			"url": "https://wikidragonquest.fr/Liste_des_comp%C3%A9tences_de_Dragon_Quest_Monsters:_Joker",
+			"data": ["noms FR des talents"],
+			"notes": "192 talents dans l'ordre de la bibliothèque (= champ number du wiki Fandom)."
+		}
+	],
+	"DQMJ2": [
+		{
+			"url": "https://rebjorn-wiki.com/dqmj2/monsters",
+			"data": ["noms EN/JP/FR", "familles", "rangs", "scout"],
+			"notes": "FR en minuscules, le projet capitalise."
+		},
+		{
+			"url": "https://rebjorn-wiki.com/dqmj2/synthesis/special",
+			"data": ["synthèses spéciales"]
+		},
+		{
+			"url": "https://dq-gh.com/dqmj2/sp.html",
+			"data": ["talents combinés"],
+			"notes": "Tableau des SP skills (cellules fusionnées) : nom + skills 1 à 4, points minimum entre parenthèses. Source des recettes Uber de DQMJ2Moves.json ; 防御力アップ3 dans HPアップSP est une coquille pour 攻撃力アップ3. PEU FIABLE pour Top Dynamiteur et Top Blizzard : recettes d'éléments incomplètes (variantes avec Crame oubliées) et lignes erronées ; remplacées par la règle de couverture (bloc inferred de DQMJ2Moves.json).",
+			"reliability": "low"
+		},
+		{
+			"url": "https://www.dragonquest-fan.com/forum/index.php?subjectID=13668",
+			"data": [
+				"noms FR des talents",
+				"compétences FR",
+				"moyen d'obtention des talents",
+				"recettes Top-bonus / Top-protection",
+				"talents des monstres (partiel)"
+			],
+			"notes": "Fil « Compétençothèque II » : 146 talents. Seulement 2 monstres d'exemple par talent. Les Top non-bonus y sont indiqués via des monstres XY. Attention : ses recettes Top-bonus sont celles de DQMJ1 (2 talents), fausses pour DQMJ2 (4 talents). Listes « obtenue par » inversées dans DQMJ2Details.json (champ skills) : 202 monstres sur 435 (dont 7 XY ; boss : Grand Oiseau Céleste = Ramia, Empyréa = Empyrea (Alt)), uniquement les exemples cités."
+		},
+		{
+			"url": "https://github.com/Saneezore/DQMJ2Pro_Translation/tree/master/Database",
+			"data": ["stats", "traits", "résistances"],
+			"notes": "CSV extraits du jeu (Pro). Résistances : -25% = faiblesse, ^25%/^50% = résistance, Immune/Absorb/Reflect."
+		}
+	],
+	"DQMJ3": [
+		{
+			"url": "https://dragon-quest.jp/dqmj3/data/combi.php",
+			"data": ["talents combinés", "talents évolués"],
+			"notes": "DQMJ3 et Professional : 133 talents, 433 recettes une fois les « A, B, Cのうち1つ » développés. Cellule du résultat fusionnée (rowspan)."
+		},
+		{
+			"url": "https://dragon-quest.jp/dqmj3/data/s_skill.php",
+			"data": ["compétences des talents combinés"],
+			"notes": "En japonais. Format : nom du talent puis compétence | SP."
+		},
+		{
+			"url": "https://dragon-quest.jp/dqmj3/data/k_skill.php",
+			"data": ["compétences des talents de monstres"],
+			"notes": "Talents portant un nom de monstre."
+		},
+		{
+			"url": "https://dragon-quest.jp/dqmj3/data/job.php",
+			"data": ["compétences des talents de métiers"]
+		},
+		{
+			"url": "https://github.com/Lurpigi/DQMJ3P-IT-FanTranslation/tree/HEAD/json/eng/Message",
+			"data": ["noms EN des talents (fan-trad)", "compétences EN (fan-trad)"],
+			"reliability": "low",
+			"notes": "PEU FIABLE : fan-trad anglaise 2021 (reprise par Akoi89/DQMJ3P-english-fixed, qui ne publie que des patchs binaires). Appariement JP↔EN par signature des bonus de stats. Marqué unofficial dans DQMJ3Moves.json, à remplacer dès qu'une meilleure source existe."
+		}
+	]
+}

@@ -1,0 +1,1217 @@
+{
+	"unofficial": {
+		"source": "https://github.com/Ich73/DQM2-FanTranslation (Message_FR/msg_skillname.patJ), via DQM2SkillsTranslations.json",
+		"note": "French names in DQM1SkillsTranslations.json come from the unofficial DQM2 fan translation (same English names), low reliability: replace them when an official or more reliable source is found.",
+		"translations": [
+			"Strong Flame",
+			"Strong Ice",
+			"Strong Breath",
+			"Breath Breaker II",
+			"Dance Breaker II",
+			"Uber Lightning Ward",
+			"Uber Rock Ward"
+		]
+	},
+	"moves": {},
+	"talents": {
+		"Frizz & Bang II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Frizz & Bang"]]
+		},
+		"Frizz & Bang": {
+			"moves": []
+		},
+		"Frizz & Woosh II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Frizz & Woosh"]]
+		},
+		"Frizz & Woosh": {
+			"moves": []
+		},
+		"Frizz & Sizz II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Frizz & Sizz"]]
+		},
+		"Frizz & Sizz": {
+			"moves": []
+		},
+		"Frizz & Zap II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Frizz & Zap"]]
+		},
+		"Frizz & Zap": {
+			"moves": []
+		},
+		"Frizz & Zam II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Frizz & Zam"]]
+		},
+		"Frizz & Zam": {
+			"moves": []
+		},
+		"Bang & Woosh II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Bang & Woosh"]]
+		},
+		"Bang & Woosh": {
+			"moves": []
+		},
+		"Bang & Crack II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Bang & Crack"]]
+		},
+		"Bang & Crack": {
+			"moves": []
+		},
+		"Bang & Sizz II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Bang & Sizz"]]
+		},
+		"Bang & Sizz": {
+			"moves": []
+		},
+		"Bang & Zap II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Bang & Zap"]]
+		},
+		"Bang & Zap": {
+			"moves": []
+		},
+		"Bang & Zam II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Bang & Zam"]]
+		},
+		"Bang & Zam": {
+			"moves": []
+		},
+		"Woosh & Crack II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Woosh & Crack"]]
+		},
+		"Woosh & Crack": {
+			"moves": []
+		},
+		"Woosh & Sizz II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Woosh & Sizz"]]
+		},
+		"Woosh & Sizz": {
+			"moves": []
+		},
+		"Woosh & Zap II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Woosh & Zap"]]
+		},
+		"Woosh & Zap": {
+			"moves": []
+		},
+		"Woosh & Zam II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Woosh & Zam"]]
+		},
+		"Woosh & Zam": {
+			"moves": []
+		},
+		"Crack & Sizz II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Crack & Sizz"]]
+		},
+		"Crack & Sizz": {
+			"moves": []
+		},
+		"Crack & Zap II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Crack & Zap"]]
+		},
+		"Crack & Zap": {
+			"moves": []
+		},
+		"Crack & Zam II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Crack & Zam"]]
+		},
+		"Crack & Zam": {
+			"moves": []
+		},
+		"Sizz & Zap II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Sizz & Zap"]]
+		},
+		"Sizz & Zap": {
+			"moves": []
+		},
+		"Sizz & Zam II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Sizz & Zam"]]
+		},
+		"Sizz & Zam": {
+			"moves": []
+		},
+		"Strong Flame": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Fire"]]
+		},
+		"Fire": {
+			"moves": []
+		},
+		"Strong Ice": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Ice"]]
+		},
+		"Ice": {
+			"moves": []
+		},
+		"Strong Breath": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Breath"]]
+		},
+		"Breath": {
+			"moves": []
+		},
+		"Slash Breaker II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Slash Breaker"]]
+		},
+		"Slash Breaker": {
+			"moves": []
+		},
+		"Strong Ability Breaker": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Ability Breaker"]]
+		},
+		"Ability Breaker": {
+			"moves": []
+		},
+		"Antimagic II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Antimagic"]]
+		},
+		"Antimagic": {
+			"moves": []
+		},
+		"Breath Breaker II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Breath Breaker"]]
+		},
+		"Breath Breaker": {
+			"moves": []
+		},
+		"Dance Breaker II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Dance Breaker"]]
+		},
+		"Dance Breaker": {
+			"moves": []
+		},
+		"Wulfspade II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Wulfspade"]]
+		},
+		"Wulfspade": {
+			"moves": []
+		},
+		"Hawkhart II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Hawkhart"]]
+		},
+		"Hawkhart": {
+			"moves": []
+		},
+		"Cluboon II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Cluboon"]]
+		},
+		"Cluboon": {
+			"moves": []
+		},
+		"Diamagon II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Diamagon"]]
+		},
+		"Diamagon": {
+			"moves": []
+		},
+		"Attack Boost II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Attack Boost"]]
+		},
+		"Attack Boost": {
+			"moves": []
+		},
+		"Attack Boost III": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Attack Boost II"]]
+		},
+		"Defense Boost II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Defense Boost"]]
+		},
+		"Defense Boost": {
+			"moves": []
+		},
+		"Defense Boost III": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Defense Boost II"]]
+		},
+		"Agility Boost II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Agility Boost"]]
+		},
+		"Agility Boost": {
+			"moves": []
+		},
+		"Agility Boost III": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Agility Boost II"]]
+		},
+		"Wisdom Boost II": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Wisdom Boost"]]
+		},
+		"Wisdom Boost": {
+			"moves": []
+		},
+		"Wisdom Boost III": {
+			"moves": [],
+			"category": "Evolution",
+			"from": [["Wisdom Boost II"]]
+		},
+		"Uber Dark Dynamiter": {
+			"moves": [
+				{
+					"move": "Kafrizz",
+					"sp": 10
+				},
+				{
+					"move": "Kazam",
+					"sp": 25
+				},
+				{
+					"move": "Kaboom",
+					"sp": 40
+				},
+				{
+					"move": "れんごく斬り",
+					"sp": 60
+				},
+				{
+					"move": "ばくれん斬り",
+					"sp": 80
+				},
+				{
+					"move": "ダークマッシャー",
+					"sp": 100
+				},
+				{
+					"move": "Kafrizzle",
+					"sp": 130
+				},
+				{
+					"move": "Kazammle",
+					"sp": 165
+				},
+				{
+					"move": "Kaboomle",
+					"sp": 200
+				}
+			],
+			"category": "Combination",
+			"from": [
+				["Frizz & Bang II", "Frizz & Zam II"],
+				["Frizz & Bang II", "Bang & Zam II"],
+				["Frizz & Zam II", "Bang & Zam II"]
+			]
+		},
+		"Uber Blessed Blizzardier": {
+			"moves": [
+				{
+					"move": "Kaswoosh",
+					"sp": 15
+				},
+				{
+					"move": "Kazap",
+					"sp": 25
+				},
+				{
+					"move": "Kacrack",
+					"sp": 40
+				},
+				{
+					"move": "ふうじん斬り",
+					"sp": 60
+				},
+				{
+					"move": "ホーリーラッシュ",
+					"sp": 80
+				},
+				{
+					"move": "ブリザーラッシュ",
+					"sp": 100
+				},
+				{
+					"move": "Kaswooshle",
+					"sp": 135
+				},
+				{
+					"move": "Kazapple",
+					"sp": 165
+				},
+				{
+					"move": "Kacrackle",
+					"sp": 200
+				}
+			],
+			"category": "Combination",
+			"from": [
+				["Woosh & Crack II", "Woosh & Zap II"],
+				["Woosh & Crack II", "Crack & Zap II"],
+				["Woosh & Zap II", "Crack & Zap II"]
+			]
+		},
+		"Uber Zapologist": {
+			"moves": [
+				{
+					"move": "Kazap",
+					"sp": 10
+				},
+				{
+					"move": "Kasizz",
+					"sp": 20
+				},
+				{
+					"move": "Lightning",
+					"sp": 30
+				},
+				{
+					"move": "らいじん斬り",
+					"sp": 40
+				},
+				{
+					"move": "ホーリーラッシュ",
+					"sp": 50
+				},
+				{
+					"move": "ジゴスパーク",
+					"sp": 70
+				},
+				{
+					"move": "ビッグバン",
+					"sp": 95
+				},
+				{
+					"move": "Kazapple",
+					"sp": 120
+				},
+				{
+					"move": "Kasizzle",
+					"sp": 150
+				}
+			],
+			"category": "Combination",
+			"from": [["Sizz & Zap II", "Sizz & Zam II"]]
+		},
+		"Uber Mage": {
+			"moves": [
+				{
+					"move": "Kafrizzle",
+					"sp": 20
+				},
+				{
+					"move": "Kazapple",
+					"sp": 50
+				},
+				{
+					"move": "Kazammle",
+					"sp": 80
+				},
+				{
+					"move": "Kaswooshle",
+					"sp": 110
+				},
+				{
+					"move": "Kacrackle",
+					"sp": 140
+				},
+				{
+					"move": "Kaboomle",
+					"sp": 170
+				},
+				{
+					"move": "Kasizzle",
+					"sp": 200
+				}
+			],
+			"category": "Combination",
+			"from": [
+				["Frizz & Bang II", "Woosh & Zap II", "Crack & Zam II"],
+				["Frizz & Bang II", "Woosh & Zam II", "Crack & Zap II"],
+				["Frizz & Woosh II", "Bang & Zap II", "Crack & Zam II"],
+				["Frizz & Woosh II", "Bang & Zam II", "Crack & Zap II"],
+				["Frizz & Zap II", "Bang & Woosh II", "Crack & Zam II"],
+				["Frizz & Zap II", "Bang & Crack II", "Woosh & Zam II"],
+				["Frizz & Zap II", "Bang & Zam II", "Woosh & Crack II"],
+				["Frizz & Zam II", "Bang & Woosh II", "Crack & Zap II"],
+				["Frizz & Zam II", "Bang & Crack II", "Woosh & Zap II"],
+				["Frizz & Zam II", "Bang & Zap II", "Woosh & Crack II"]
+			]
+		},
+		"Uber Breath": {
+			"moves": [
+				{
+					"move": "Sweet Breath",
+					"sp": 10
+				},
+				{
+					"move": "すべてをすいこむ",
+					"sp": 25
+				},
+				{
+					"move": "もうどくの息",
+					"sp": 40
+				},
+				{
+					"move": "まどいの息",
+					"sp": 60
+				},
+				{
+					"move": "Deep Breath",
+					"sp": 85
+				},
+				{
+					"move": "Burning Breath",
+					"sp": 110
+				},
+				{
+					"move": "Scorch",
+					"sp": 140
+				},
+				{
+					"move": "C-C-Cold Breath",
+					"sp": 170
+				},
+				{
+					"move": "息封じガード＋",
+					"sp": 200
+				}
+			],
+			"category": "Combination",
+			"from": [
+				["Strong Flame", "Toxifier"],
+				["Strong Flame", "Bad Breath"],
+				["Strong Ice", "Toxifier"],
+				["Strong Ice", "Bad Breath"],
+				["Strong Breath", "Toxifier"],
+				["Strong Breath", "Bad Breath"]
+			]
+		},
+		"Toxifier": {
+			"moves": []
+		},
+		"Bad Breath": {
+			"moves": []
+		},
+		"Uber Knight": {
+			"moves": [
+				{
+					"move": "れんごく斬り",
+					"sp": 20
+				},
+				{
+					"move": "ばくれん斬り",
+					"sp": 40
+				},
+				{
+					"move": "ふうじん斬り",
+					"sp": 60
+				},
+				{
+					"move": "らいじん斬り",
+					"sp": 80
+				},
+				{
+					"move": "ブリザーラッシュ",
+					"sp": 100
+				},
+				{
+					"move": "ホーリーラッシュ",
+					"sp": 120
+				},
+				{
+					"move": "ダークスマッシャー",
+					"sp": 140
+				},
+				{
+					"move": "ギガスラッシュ",
+					"sp": 160
+				},
+				{
+					"move": "強者のよゆう",
+					"sp": 180
+				},
+				{
+					"move": "Gigagash",
+					"sp": 200
+				}
+			],
+			"category": "Combination",
+			"from": [
+				["Cleric", "Firewind Slashes"],
+				["Cleric", "Thunderwind Slashes"],
+				["Cleric", "Iceplosion Slashes"],
+				["Cleric", "Darklight Slashes"],
+				[
+					"Firewind Slashes",
+					"Thunderwind Slashes",
+					"Iceplosion Slashes",
+					"Darklight Slashes"
+				],
+				[
+					"Fire Fighter",
+					"Boom Boxer",
+					"Icemeister",
+					"Wind Blower",
+					"Dark Knight",
+					"White Knight"
+				]
+			]
+		},
+		"Cleric": {
+			"moves": []
+		},
+		"Firewind Slashes": {
+			"moves": []
+		},
+		"Thunderwind Slashes": {
+			"moves": []
+		},
+		"Iceplosion Slashes": {
+			"moves": []
+		},
+		"Darklight Slashes": {
+			"moves": []
+		},
+		"Fire Fighter": {
+			"moves": []
+		},
+		"Boom Boxer": {
+			"moves": []
+		},
+		"Icemeister": {
+			"moves": []
+		},
+		"Wind Blower": {
+			"moves": []
+		},
+		"Dark Knight": {
+			"moves": []
+		},
+		"White Knight": {
+			"moves": []
+		},
+		"Uber Charmer": {
+			"moves": [],
+			"category": "Combination",
+			"from": [
+				["Hypnotist", "Seal"],
+				["Hypnotist", "Fear-monger"],
+				["Hypnotist", "Diabolist"],
+				["Hypnotist", "Hive Mind"],
+				["Hypnotist", "Mage"]
+			]
+		},
+		"Hypnotist": {
+			"moves": []
+		},
+		"Seal": {
+			"moves": []
+		},
+		"Fear-monger": {
+			"moves": []
+		},
+		"Diabolist": {
+			"moves": []
+		},
+		"Hive Mind": {
+			"moves": []
+		},
+		"Mage": {
+			"moves": []
+		},
+		"Uber Healer": {
+			"moves": [
+				{
+					"move": "ベホイマ",
+					"sp": 5
+				},
+				{
+					"move": "Dodgy Dance",
+					"sp": 15
+				},
+				{
+					"move": "マホヤズン",
+					"sp": 30
+				},
+				{
+					"move": "マジックバリア",
+					"sp": 45
+				},
+				{
+					"move": "Multiheal",
+					"sp": 60
+				},
+				{
+					"move": "Mist Me",
+					"sp": 80
+				},
+				{
+					"move": "オロオロ",
+					"sp": 90
+				},
+				{
+					"move": "Kazing",
+					"sp": 110
+				},
+				{
+					"move": "リザオラル",
+					"sp": 130
+				},
+				{
+					"move": "ベホマズン",
+					"sp": 150
+				}
+			],
+			"category": "Combination",
+			"from": [
+				["Healer", "Mage Aid"],
+				["Healer", "Bolsterer"],
+				["Healer", "Barricade"],
+				["Healer", "Crusader"],
+				["Cure-all", "Mage Aid"],
+				["Cure-all", "Bolsterer"],
+				["Cure-all", "Barricade"],
+				["Cure-all", "Crusader"],
+				["Cleanser", "Mage Aid"],
+				["Cleanser", "Bolsterer"],
+				["Cleanser", "Barricade"],
+				["Cleanser", "Crusader"]
+			]
+		},
+		"Healer": {
+			"moves": []
+		},
+		"Mage Aid": {
+			"moves": []
+		},
+		"Bolsterer": {
+			"moves": []
+		},
+		"Barricade": {
+			"moves": []
+		},
+		"Crusader": {
+			"moves": []
+		},
+		"Cure-all": {
+			"moves": []
+		},
+		"Cleanser": {
+			"moves": [],
+			"category": "Combination",
+			"from": [["Healer", "Healer"]]
+		},
+		"Uber Helpful": {
+			"moves": [
+				{
+					"move": "Acceleratle",
+					"sp": 15
+				},
+				{
+					"move": "Kabuff",
+					"sp": 30
+				},
+				{
+					"move": "Deceleratle",
+					"sp": 50
+				},
+				{
+					"move": "Kasap",
+					"sp": 70
+				},
+				{
+					"move": "Kaping",
+					"sp": 90
+				},
+				{
+					"move": "Oomphle",
+					"sp": 110
+				},
+				{
+					"move": "Kadim",
+					"sp": 130
+				},
+				{
+					"move": "ダウンオール",
+					"sp": 150
+				}
+			],
+			"category": "Combination",
+			"from": [
+				["Champion", "Defender"],
+				["Champion", "Fortifier"],
+				["Champion", "Enfeebler"],
+				["Champion", "Saboteur"],
+				["Defender", "Fortifier"],
+				["Defender", "Enfeebler"],
+				["Defender", "Saboteur"],
+				["Fortifier", "Enfeebler"],
+				["Fortifier", "Saboteur"],
+				["Enfeebler", "Saboteur"]
+			]
+		},
+		"Champion": {
+			"moves": []
+		},
+		"Defender": {
+			"moves": []
+		},
+		"Fortifier": {
+			"moves": []
+		},
+		"Enfeebler": {
+			"moves": []
+		},
+		"Saboteur": {
+			"moves": []
+		},
+		"Uber Health Boost": {
+			"moves": [
+				{
+					"move": "最大HP+2",
+					"sp": 10
+				},
+				{
+					"move": "最大HP+4",
+					"sp": 25
+				},
+				{
+					"move": "最大HP+6",
+					"sp": 45
+				},
+				{
+					"move": "最大HP+9",
+					"sp": 65
+				},
+				{
+					"move": "最大HP+12",
+					"sp": 90
+				},
+				{
+					"move": "最大HP+15",
+					"sp": 115
+				},
+				{
+					"move": "最大HP+19",
+					"sp": 145
+				},
+				{
+					"move": "最大HP+23",
+					"sp": 175
+				},
+				{
+					"move": "最大HP+27",
+					"sp": 210
+				},
+				{
+					"move": "最大HP+33",
+					"sp": 250
+				}
+			],
+			"category": "Combination",
+			"from": [["Attack Boost III", "Martial Artist"]]
+		},
+		"Martial Artist": {
+			"moves": []
+		},
+		"Uber Magic Boost": {
+			"moves": [
+				{
+					"move": "最大MP+8",
+					"sp": 10
+				},
+				{
+					"move": "最大MP+16",
+					"sp": 25
+				},
+				{
+					"move": "最大MP+24",
+					"sp": 45
+				},
+				{
+					"move": "最大MP+36",
+					"sp": 65
+				},
+				{
+					"move": "最大MP+48",
+					"sp": 90
+				},
+				{
+					"move": "最大MP+60",
+					"sp": 115
+				},
+				{
+					"move": "最大MP+76",
+					"sp": 145
+				},
+				{
+					"move": "最大MP+92",
+					"sp": 175
+				},
+				{
+					"move": "最大MP+108",
+					"sp": 210
+				},
+				{
+					"move": "最大MP+132",
+					"sp": 250
+				}
+			],
+			"category": "Combination",
+			"from": [["Wisdom Boost III", "Mage"]]
+		},
+		"Uber Attack Boost": {
+			"moves": [
+				{
+					"move": "攻撃力+4",
+					"sp": 10
+				},
+				{
+					"move": "攻撃力+8",
+					"sp": 25
+				},
+				{
+					"move": "攻撃力+12",
+					"sp": 45
+				},
+				{
+					"move": "攻撃力+18",
+					"sp": 65
+				},
+				{
+					"move": "攻撃力+24",
+					"sp": 90
+				},
+				{
+					"move": "攻撃力+30",
+					"sp": 115
+				},
+				{
+					"move": "攻撃力+38",
+					"sp": 145
+				},
+				{
+					"move": "攻撃力+46",
+					"sp": 175
+				},
+				{
+					"move": "攻撃力+54",
+					"sp": 210
+				},
+				{
+					"move": "攻撃力+66",
+					"sp": 250
+				}
+			],
+			"category": "Combination",
+			"from": [["Attack Boost III", "Warrior"]]
+		},
+		"Warrior": {
+			"moves": []
+		},
+		"Uber Defense Boost": {
+			"moves": [
+				{
+					"move": "守備力+8",
+					"sp": 10
+				},
+				{
+					"move": "守備力+16",
+					"sp": 25
+				},
+				{
+					"move": "守備力+24",
+					"sp": 45
+				},
+				{
+					"move": "守備力+36",
+					"sp": 65
+				},
+				{
+					"move": "守備力+48",
+					"sp": 90
+				},
+				{
+					"move": "守備力+60",
+					"sp": 115
+				},
+				{
+					"move": "守備力+76",
+					"sp": 145
+				},
+				{
+					"move": "守備力+92",
+					"sp": 175
+				},
+				{
+					"move": "守備力+108",
+					"sp": 210
+				},
+				{
+					"move": "守備力+132",
+					"sp": 250
+				}
+			],
+			"category": "Combination",
+			"from": [["Defense Boost III", "Priest"]]
+		},
+		"Priest": {
+			"moves": []
+		},
+		"Uber Agility Boost": {
+			"moves": [
+				{
+					"move": "すばやさ+4",
+					"sp": 10
+				},
+				{
+					"move": "すばやさ+8",
+					"sp": 25
+				},
+				{
+					"move": "すばやさ+12",
+					"sp": 45
+				},
+				{
+					"move": "すばやさ+18",
+					"sp": 65
+				},
+				{
+					"move": "すばやさ+24",
+					"sp": 90
+				},
+				{
+					"move": "すばやさ+30",
+					"sp": 115
+				},
+				{
+					"move": "すばやさ+38",
+					"sp": 145
+				},
+				{
+					"move": "すばやさ+46",
+					"sp": 175
+				},
+				{
+					"move": "すばやさ+54",
+					"sp": 210
+				},
+				{
+					"move": "すばやさ+66",
+					"sp": 250
+				}
+			],
+			"category": "Combination",
+			"from": [["Agility Boost III", "Thief"]]
+		},
+		"Thief": {
+			"moves": []
+		},
+		"Uber Wisdom Boost": {
+			"moves": [
+				{
+					"move": "かしこさ+8",
+					"sp": 10
+				},
+				{
+					"move": "かしこさ+16",
+					"sp": 25
+				},
+				{
+					"move": "かしこさ+24",
+					"sp": 45
+				},
+				{
+					"move": "かしこさ+36",
+					"sp": 65
+				},
+				{
+					"move": "かしこさ+48",
+					"sp": 90
+				},
+				{
+					"move": "かしこさ+60",
+					"sp": 115
+				},
+				{
+					"move": "かしこさ+76",
+					"sp": 145
+				},
+				{
+					"move": "かしこさ+92",
+					"sp": 175
+				},
+				{
+					"move": "かしこさ+108",
+					"sp": 210
+				},
+				{
+					"move": "かしこさ+132",
+					"sp": 250
+				}
+			],
+			"category": "Combination",
+			"from": [["Wisdom Boost III", "Sage"]]
+		},
+		"Sage": {
+			"moves": []
+		},
+		"Uber Heat Ward": {
+			"moves": [],
+			"category": "Combination",
+			"from": [["Frizz Ward", "Fire Breath Ward"]]
+		},
+		"Frizz Ward": {
+			"moves": []
+		},
+		"Fire Breath Ward": {
+			"moves": []
+		},
+		"Uber Cold Ward": {
+			"moves": [],
+			"category": "Combination",
+			"from": [["Crack Ward", "Ice Breath Ward"]]
+		},
+		"Crack Ward": {
+			"moves": []
+		},
+		"Ice Breath Ward": {
+			"moves": []
+		},
+		"Uber Lightning Ward": {
+			"moves": [
+				{
+					"move": "最大HP+6",
+					"sp": 10
+				},
+				{
+					"move": "最大MP+24",
+					"sp": 25
+				},
+				{
+					"move": "最大ＨＰ+15",
+					"sp": 45
+				},
+				{
+					"move": "最大MP+60",
+					"sp": 65
+				},
+				{
+					"move": "最大ＨＰ+27",
+					"sp": 90
+				},
+				{
+					"move": "最大MP+108",
+					"sp": 115
+				},
+				{
+					"move": "マホトーンガード＋",
+					"sp": 145
+				},
+				{
+					"move": "ハックガード＋",
+					"sp": 175
+				},
+				{
+					"move": "デインガード＋",
+					"sp": 210
+				},
+				{
+					"move": "ギラガード＋",
+					"sp": 250
+				}
+			],
+			"category": "Combination",
+			"from": [["Sizz Ward", "Zap Ward"]]
+		},
+		"Sizz Ward": {
+			"moves": []
+		},
+		"Zap Ward": {
+			"moves": []
+		},
+		"Uber Windblast Ward": {
+			"moves": [],
+			"category": "Combination",
+			"from": [["Bang Ward", "Woosh Ward"]]
+		},
+		"Bang Ward": {
+			"moves": []
+		},
+		"Woosh Ward": {
+			"moves": []
+		},
+		"Uber Rock Ward": {
+			"moves": [],
+			"category": "Combination",
+			"from": [["Zam Ward", "Donk Ward"]]
+		},
+		"Zam Ward": {
+			"moves": []
+		},
+		"Donk Ward": {
+			"moves": []
+		},
+		"Uber Darklight Ward": {
+			"moves": [],
+			"category": "Combination",
+			"from": [["Zap Ward", "Zam Ward"]]
+		}
+	}
+}

@@ -3332,3 +3332,7 @@ a.talent-recipe-link:focus-visible {
   font-size: .8rem;
   text-transform: uppercase;
 }
+
+.talent-unofficial {
+  font-style: italic;
+}

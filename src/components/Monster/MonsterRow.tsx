@@ -86,7 +86,9 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 	const active = stock?.[monster.name] || 0;
 	const [open, setOpen] = useState(false);
 	const displayName = (isFr && monster.nom) || withoutAlt(monster.name);
-	const skill = details[monster.name]?.skill;
+	const skills =
+		details[monster.name]?.skills ||
+		(details[monster.name]?.skill ? [details[monster.name].skill as string] : []);
 	const places = spawns[monster.name];
 	return (
 		<>
@@ -217,8 +219,12 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 			</td>
 			{hasSkills && (
 				<td className="cell-skill">
-					{skill ?
-						<Talent name={skill} />
+					{skills.length ?
+						skills.map(skill => (
+							<div key={skill}>
+								<Talent name={skill} />
+							</div>
+						))
 					:	<span className="cell-empty">&mdash;</span>}
 				</td>
 			)}

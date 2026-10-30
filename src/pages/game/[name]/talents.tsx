@@ -314,10 +314,103 @@ const TalentsPage: React.FC<Props> = ({
 	);
 };
 
-const pairPool = (from: string[][]): string[] | undefined => {
-	if (from.length < 3 || from.some(ingredients => ingredients.length != 2)) return;
-	const pool = Array.from(new Set(from.flat()));
-	return (pool.length * (pool.length - 1)) / 2 == from.length ? pool : undefined;
+const pairPool = (from: string[][]): { pool: string[]; rest: string[][] } | undefined => {
+	const pairs = from.filter(r => r.length == 2 && r[0] != r[1]);
+	const linked = new Set(pairs.map(([a, b]) => [a, b].sort().join('|')));
+	const isLinked = (a: string, b: string) => linked.has([a, b].sort().join('|'));
+	const nodes = Array.from(new Set(pairs.flat()));
+	let best: string[] = [];
+	const grow = (clique: string[], start: number) => {
+		if (clique.length > best.length) best = clique;
+		for (let i = start; i < nodes.length; i++) {
+			if (clique.every(n => isLinked(n, nodes[i]))) grow([...clique, nodes[i]], i + 1);
+		}
+	};
+	grow([], 0);
+	if (best.length < 3) return;
+	const inPool = new Set(best);
+	const rest = from.filter(r => !(r.length == 2 && r[0] != r[1] && r.every(n => inPool.has(n))));
+	return { pool: best, rest };
+};
+
+const ELEMENTS = ['Frizz', 'Bang', 'Woosh', 'Crack', 'Sizz', 'Zap', 'Zam'];
+
+const elementsOf = (talent: string): string[] | undefined => {
+	const m = talent.match(/^(\w+) & (\w+)(?: [\w]+)?$/);
+	return m && ELEMENTS.includes(m[1]) && ELEMENTS.includes(m[2]) ? [m[1], m[2]] : undefined;
+};
+
+const elementRule = (from: string[][]) => {
+	const elementRecipes = from.filter(r => r.every(n => elementsOf(n)));
+	if (elementRecipes.length < 3) return;
+	const covers = (r: string[]) => new Set(r.flatMap(n => elementsOf(n) as string[]));
+	const target = ELEMENTS.filter(e => elementRecipes.every(r => covers(r).has(e)));
+	if (target.length < 2) return;
+	const talents = Array.from(new Set(elementRecipes.flat()));
+	const sizes = elementRecipes.map(r => r.length);
+	const [min, max] = [Math.min(...sizes), Math.max(...sizes)];
+	const covering = (r: string[]) => target.every(e => covers(r).has(e));
+	const expected = new Set<string>();
+	const walk = (chosen: string[], start: number) => {
+		if (chosen.length >= min && covering(chosen)) {
+			if (chosen.every((_, i) => !covering(chosen.filter((__, j) => j != i)))) expected.add([...chosen].sort().join('|'));
+			return;
+		}
+		if (chosen.length == max) return;
+		for (let i = start; i < talents.length; i++) walk([...chosen, talents[i]], i + 1);
+	};
+	walk([], 0);
+	const actual = new Set(elementRecipes.map(r => [...r].sort().join('|')));
+	if (expected.size != actual.size || Array.from(expected).some(k => !actual.has(k))) return;
+	return {
+		target,
+		talents,
+		min,
+		max,
+		rest: from.filter(r => !elementRecipes.includes(r)),
+	};
+};
+
+const ELEMENT_FR: { [element: string]: string } = {
+	Frizz: 'Flamme',
+	Bang: 'Bang',
+	Woosh: 'Tornade',
+	Crack: 'Glace',
+	Sizz: 'Crame',
+	Zap: 'Foudre',
+	Zam: 'Élec',
+};
+
+type RecipeLine = string[][];
+
+const partKey = (part: string[]) => [...part].sort().join('|');
+
+const groupByCommon = (recipes: string[][]): RecipeLine[] => {
+	let lines: RecipeLine[] = recipes.map(recipe => recipe.map(ingredient => [ingredient]));
+	for (;;) {
+		let merged = false;
+		for (let a = 0; a < lines.length && !merged; a++) {
+			for (let b = a + 1; b < lines.length && !merged; b++) {
+				const [x, y] = [lines[a], lines[b]];
+				if (x.length != y.length) continue;
+				const yKeys = y.map(partKey);
+				const onlyX = x.filter(part => {
+					const i = yKeys.indexOf(partKey(part));
+					if (i == -1) return true;
+					yKeys.splice(i, 1);
+					return false;
+				});
+				if (onlyX.length != 1 || yKeys.length != 1) continue;
+				const onlyY = y.find(part => partKey(part) == yKeys[0]) as string[];
+				const union = Array.from(new Set([...onlyX[0], ...onlyY]));
+				const line = x.map(part => (part == onlyX[0] ? union : part));
+				line.sort((p, q) => p.length - q.length);
+				lines = [...lines.slice(0, a), line, ...lines.slice(a + 1, b), ...lines.slice(b + 1)];
+				merged = true;
+			}
+		}
+		if (!merged) return lines;
+	}
 };
 
 const TalentRecipe = ({
@@ -330,7 +423,17 @@ const TalentRecipe = ({
 	active: boolean;
 }) => {
 	const { translateUI } = useTranslate();
-	const pool = pairPool(from);
+	const { talents } = React.useContext(DetailsContext);
+	const points = talents.talents[name]?.points;
+	const { isFr } = useTranslate();
+	const rule = elementRule(from);
+	const remaining = rule ? rule.rest : from;
+	const pool = pairPool(remaining);
+	const lines = groupByCommon(pool ? pool.rest : remaining);
+	const elementList = (elements: string[]) => {
+		const names = elements.map(e => (isFr ? ELEMENT_FR[e] : e));
+		return `${names.slice(0, -1).join(', ')} ${translateUI('and')} ${names[names.length - 1]}`;
+	};
 
 	return (
 		<article
@@ -342,49 +445,77 @@ const TalentRecipe = ({
 			</div>
 			<div className="talent-recipe-sources">
 				<span className="talent-recipe-label">
-					{translateUI('Skill sets to max')}
+					{translateUI(points ? 'Required skill sets' : 'Skill sets to max')}
 				</span>
-				{pool ?
+				{!!rule && (
 					<>
+						<span className="talent-recipe-or">
+							{translateUI(rule.min == rule.max ? '{min} among the following' : '{min} to {max} among the following')
+								.replace('{min}', String(rule.min))
+								.replace('{max}', String(rule.max))}
+							{', '}
+							{translateUI('together covering')} {elementList(rule.target)}
+						</span>
+						<div className="talent-recipe-combo">
+							{rule.talents.map(ingredient => (
+								<Ingredient key={ingredient} name={ingredient} points={points?.[ingredient]} />
+							))}
+						</div>
+					</>
+				)}
+				{!!pool && (
+					<>
+						{!!rule && <span className="talent-recipe-or">{translateUI('Or')}</span>}
 						<span className="talent-recipe-or">
 							{translateUI('2 among the following')}
 						</span>
 						<div className="talent-recipe-combo">
-							{pool.map(ingredient => (
-								<Ingredient key={ingredient} name={ingredient} />
+							{pool.pool.map(ingredient => (
+								<Ingredient
+									key={ingredient}
+									name={ingredient}
+									points={points?.[ingredient]}
+								/>
 							))}
 						</div>
 					</>
-				:	from.map((ingredients, i) => (
-						<React.Fragment key={i}>
-							{i > 0 && (
-								<span className="talent-recipe-or">{translateUI('Or')}</span>
-							)}
-							<div className="talent-recipe-combo">
-								{ingredients.map((ingredient, j) => (
-									<React.Fragment key={ingredient}>
-										{j > 0 && <span className="talent-recipe-plus">+</span>}
-										<Ingredient name={ingredient} />
-									</React.Fragment>
-								))}
-							</div>
-						</React.Fragment>
-					))
-				}
+				)}
+				{lines.map((line, i) => (
+					<React.Fragment key={i}>
+						{(i > 0 || !!pool || !!rule) && (
+							<span className="talent-recipe-or">{translateUI('Or')}</span>
+						)}
+						<div className="talent-recipe-combo">
+							{line.map((part, j) => (
+								<React.Fragment key={j}>
+									{j > 0 && <span className="talent-recipe-plus">+</span>}
+									{part.map((ingredient, k) => (
+										<React.Fragment key={`${ingredient}-${k}`}>
+											{k > 0 && (
+												<span className="talent-recipe-or">{translateUI('Or')}</span>
+											)}
+											<Ingredient name={ingredient} points={points?.[ingredient]} />
+										</React.Fragment>
+									))}
+								</React.Fragment>
+							))}
+						</div>
+					</React.Fragment>
+				))}
 			</div>
 		</article>
 	);
 };
 
-const Ingredient = ({ name }: { name: string }) => {
+const Ingredient = ({ name, points }: { name: string; points?: number }) => {
 	const { translateUI } = useTranslate();
 	const { talents } = React.useContext(DetailsContext);
 	const moves = talents.talents[name]?.moves;
-	const sp = moves?.length ? moves[moves.length - 1].sp : undefined;
+	const sp = points ?? (moves?.length ? moves[moves.length - 1].sp : undefined);
 	if (!talents.talents[name]?.from) {
 		return (
 			<span className="talent-recipe-ingredient">
-				<IngredientContent name={name} sp={sp} />
+				<IngredientContent name={name} sp={sp} minimum={points !== undefined} />
 			</span>
 		);
 	}
@@ -394,19 +525,28 @@ const Ingredient = ({ name }: { name: string }) => {
 			className="talent-recipe-ingredient talent-recipe-link"
 			title={translateUI('Go to this skill set')}
 		>
-			<IngredientContent name={name} sp={sp} />
+			<IngredientContent name={name} sp={sp} minimum={points !== undefined} />
 			<Icon name="link-45deg" />
 		</AnchorLink>
 	);
 };
 
-const IngredientContent = ({ name, sp }: { name: string; sp?: number }) => {
+const IngredientContent = ({
+	name,
+	sp,
+	minimum,
+}: {
+	name: string;
+	sp?: number;
+	minimum?: boolean;
+}) => {
 	const { translateUI } = useTranslate();
 	return (
 		<>
 			<Talent name={name} />
 			{sp !== undefined && (
 				<span className="talent-recipe-sp">
+					{minimum && '≥ '}
 					{sp}&nbsp;{translateUI('SP')}
 				</span>
 			)}
