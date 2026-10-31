@@ -34,9 +34,9 @@
 		},
 		{
 			"url": "https://github.com/Ich73/DQMT-FanTranslation",
-			"data": ["noms EN des talents (fan-trad)"],
+			"data": ["noms EN des talents (fan-trad)", "noms EN des traits (fan-trad)", "noms EN des portes (fan-trad)"],
 			"reliability": "low",
-			"notes": "PEU FIABLE : msg_skillname.patJ (même encodage que DQM2). Sert seulement à valider les noms anglais ; écrit « Whoosh » là où le projet utilise « Woosh »."
+			"notes": "PEU FIABLE : EN + DE seulement, pas de FR. msg_skillname.patJ, msg_tokusei.patJ et msg_field.patJ (même encodage que DQM2). Sert seulement à valider les noms anglais ; écrit « Whoosh » là où le projet utilise « Woosh ». Index des traits/talents identiques à ceux de DQM2 (Suddenly/Sudden, Craffy/Crafty…), d'où le FR repris de la fan-trad DQM2 au même index. Correspondance des portes JP↔EN apprise en croisant avec ignored/DQM1-monsters.html (まちびと = Longing, おもいで = Fondness) ; しれん, さそい, とこやみ absentes, nommées à la main."
 		}
 	],
 	"DQM2": [
@@ -51,9 +51,29 @@
 			"notes": "Source la plus fiable pour Iruruka 3DS + SP. API : https://note.com/api/v3/notes/ne09723a36b02"
 		},
 		{
+			"url": "https://note.com/seigaikijin495/n/nc2aed6ad492c",
+			"data": ["stats", "tailles", "traits", "résistances"],
+			"notes": "Même auteur : zip « イルルカSPモンスターデータビューア » joint à la note (API https://note.com/api/v3/notes/nc2aed6ad492c, lien attachments/download). MonsterDataForHTML.json : 903 monstres par 位階, stats max hors traits, traits JP (taille, 特性1/2, +25/+50/+100, メガ/ギガ/超ギガ), 30 résistances. Noms EN des traits obtenus en alignant avec ignored/DQM2-raw.csv. Résistances : 弱点 -25, 軽減 25, 半減 50, 激減 75, 無効 100, 回復 150, 反射 200."
+		},
+		{
+			"url": "https://altema.jp/iruruka/monsterzukan",
+			"data": ["noms JP", "numéros du bestiaire", "familles"],
+			"notes": "Les 903 entrées sur une page ; le n° = 位階. Rangs par monstre parfois faux (se fier aux plages de 位階). Bloque curl/WebFetch : Invoke-WebRequest PowerShell passe, ~1 requête sur 6."
+		},
+		{
+			"url": "https://altema.jp/iruruka/haigohyo",
+			"data": ["synthèses spéciales"],
+			"notes": "Recoupement seulement : mélange spéciales et exemples de synthèse normale (« X + 相手問わず »)."
+		},
+		{
 			"url": "https://altema.jp/iruruka",
 			"data": ["scout par monde"],
 			"notes": "Pages monde (sabakunosekai, mizunosekai, koorinosekai, tenkunosekai, hazamanosekai, yadoriginosekai). Bloque curl/WebFetch, rangs parfois faux."
+		},
+		{
+			"url": "https://altema.jp/iruruka/sinmonster",
+			"data": ["scout des monstres SP"],
+			"notes": "Lieux des ~100 monstres ajoutés par SP, complément des pages monde."
 		},
 		{
 			"url": "https://game8.jp/dqm2/323202",
@@ -62,9 +82,14 @@
 		},
 		{
 			"url": "https://github.com/Ich73/DQM2-FanTranslation",
-			"data": ["noms EN/FR des talents (fan-trad)"],
+			"data": [
+				"noms EN/FR des talents (fan-trad)",
+				"noms EN/FR des traits (fan-trad)",
+				"noms EN/FR des lieux (fan-trad)",
+				"noms EN/FR des résistances (fan-trad)"
+			],
 			"reliability": "low",
-			"notes": "PEU FIABLE : fan-trad. Message_EN|FR/msg_skillname.patJ alignés ligne à ligne, encodage hex (A=0x0D, a=0x27, espace=0x0B, 0=0x01, é=5E, è=5D, ê=5F, à=58, â=5A, ç=5C, î=63, ï=64, ô=68, û=6D, œ=6A, &=E13C, -=E143, '=E12D). 53 noms FR repris dans DQM2SkillsTranslations.json, listés dans le bloc unofficial de DQM2Moves.json."
+			"notes": "PEU FIABLE : fan-trad. msg_tokusei (traits), msg_field et msg_menu (lieux, portes de DQM1 comprises), msg_taiseiname (résistances et valeurs). Message_EN|FR/msg_skillname.patJ alignés ligne à ligne, encodage hex (A=0x0D, a=0x27, espace=0x0B, 0=0x01, é=5E, è=5D, ê=5F, à=58, â=5A, ç=5C, î=63, ï=64, ô=68, û=6D, œ=6A, &=E13C, -=E143, '=E12D). 53 noms FR repris dans DQM2SkillsTranslations.json, listés dans le bloc unofficial de DQM2Moves.json."
 		}
 	],
 	"DQM3": [

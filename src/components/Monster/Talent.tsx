@@ -51,12 +51,7 @@ const Talent = memo(function Talent({ name }: { name: string }) {
 	return (
 		<Described
 			text={content}
-			className={makeClassName(
-				!term && 'details-jp',
-				(talents.talents[name]?.unofficial ||
-					(isFr && talents.talents[name]?.unofficialFr)) &&
-					'talent-unofficial'
-			)}
+			className={makeClassName(!term && 'details-jp')}
 			popoverClassName={talent && 'talent-popover'}
 		>
 			{label}
