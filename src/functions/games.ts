@@ -12,3 +12,20 @@ const CUSTOM_GAME: Game = {
 
 export const games: Record<string, Game> =
 	process.env.NODE_ENV === DEV ? { ...gamesJson, Custom: CUSTOM_GAME } : gamesJson;
+
+export const gameMetaDescription = (
+	game: Game,
+	count: number,
+	hasSkills: boolean,
+	hasSpawns: boolean
+): string => {
+	const name = game.alias ? `${game.title} (${game.alias})` : game.title;
+	const parts = [
+		'synthesis (breeding) recipes',
+		'what they synthesize into',
+		...(hasSkills ? ['skill sets'] : []),
+		...(hasSpawns ? ['locations'] : []),
+	];
+	const last = parts.pop();
+	return `${name} synthesis chart: all ${count} monsters with their ${parts.join(', ')} and ${last}. Search by name, family or rank.`;
+};

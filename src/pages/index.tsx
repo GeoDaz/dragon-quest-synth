@@ -53,7 +53,7 @@ import useReserve from '@/hooks/useReserve';
 import ScrollUp from '@/components/ScrollUp';
 import GameCard from '@/components/GameCard';
 import { Game } from '@/types/Game';
-import { games } from '@/functions/games';
+import { games, gameMetaDescription } from '@/functions/games';
 import Rank from '@/components/Monster/Rank';
 import useFamilyAccordion from '@/hooks/useFamilyAccordion';
 import useStickyBar from '@/hooks/useStickyBar';
@@ -70,6 +70,7 @@ interface Props {
 	talents: GameTalents;
 	game: Game;
 	hasTalentRecipes?: boolean;
+	isHome?: boolean;
 }
 export const gameDetails = (game: string): MonstersDetails => {
 	try {
@@ -193,6 +194,7 @@ const PageLines: React.FC<Props> = props => {
 		spawns = emptySpawns,
 		talents = emptyTalents,
 		hasTalentRecipes = false,
+		isHome = false,
 	} = props;
 	const [families, setFamilies] = useState<Families>(props.families);
 	const { hash, nav, navigate } = useHash();
@@ -409,7 +411,17 @@ const PageLines: React.FC<Props> = props => {
 		<Layout
 			noGoBack
 			title={translateUI('Synthesis')}
-			metadescription="The aim of this site is to present dragon quest synthesis from all games."
+			metatitle={isHome ? undefined : `${game.title} ${translateUI('Synthesis chart')}`}
+			metadescription={
+				isHome ?
+					"Synthesis (breeding) charts for every Dragon Quest Monsters game, from Dragon Warrior Monsters to Joker 3 and The Dark Prince: each monster's recipe, what it synthesizes into, its skill sets and where to find it."
+				:	gameMetaDescription(
+						game,
+						Object.keys(allMonsters).length,
+						hasSkills,
+						hasSpawns
+					)
+			}
 			className="overflow-visible"
 		>
 			<ScrollUp />
@@ -739,6 +751,7 @@ export const getStaticProps: GetStaticProps = async () => {
 				talents,
 				game,
 				hasTalentRecipes: gameHasTalentRecipes(defaultGame),
+				isHome: true,
 			},
 		};
 	} catch (e) {

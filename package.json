@@ -28,6 +28,7 @@
 	"scripts": {
 		"dev": "next dev --webpack",
 		"start": "next dev --webpack",
+		"prebuild": "node scripts/generateSitemap.js",
 		"build": "next build --webpack",
 		"daemon": "next start",
 		"preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",

@@ -84,8 +84,8 @@ const PageBuild: React.FC<Props> = ({ images = {}, search, monsterInfos = {} }) 
 	return (
 		<Layout
 			title="Make your synthesis three"
-			metatitle="Builder"
-			metadescription="Make your own Dragon Quest synthesis threes. Be creative your are free."
+			metatitle="Synthesis tree builder"
+			metadescription="Build your own Dragon Quest Monsters synthesis tree on a grid, then export it as an image or as a code file to rework it later."
 		>
 			<blockquote className="blockquote">
 				<b>Click</b> on a case from the grid to set a Monster.

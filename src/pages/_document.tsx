@@ -1,5 +1,4 @@
 import { Html, Head, Main, NextScript } from 'next/document';
-import { SITE_URL } from '@/consts/env';
 
 export default function Document() {
 	return (
@@ -12,7 +11,6 @@ export default function Document() {
 				<meta property="og:site_name" content="Dragon Quest Synthesis" />
 				<meta property="og:type" content="website" />
 				<meta name="robots" content="index, follow" />
-				<meta property="og:url" content={SITE_URL} />
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
 				<link
 					rel="preconnect"
@@ -24,7 +22,7 @@ export default function Document() {
 					rel="stylesheet"
 				/>
 				<link rel="icon" href="/favicon.ico" />
-				<link rel="apple-touch-icon" href="/logo192.png" />
+				<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 				<link rel="manifest" href="/manifest.json" />
 			</Head>
 			<body>

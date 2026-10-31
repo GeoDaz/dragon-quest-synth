@@ -106,6 +106,7 @@ const translatedUI: StringObject = {
 	Large: 'Grand',
 	'Skill set': 'Talent',
 	'Skill sets': 'Talents',
+	'Synthesis chart': 'Table des synthèses',
 	'skill set': 'talent',
 	'skill sets': 'talents',
 	'Search a skill set': 'Rechercher un talent',

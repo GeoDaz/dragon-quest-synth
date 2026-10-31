@@ -2,6 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import GoBack from '@/components/GoBack';
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 import { SITE_URL } from '@/consts/env';
 import { makeClassName } from '@/functions';
 
@@ -11,6 +12,7 @@ interface Props {
 	metatitle?: string;
 	metadescription?: string;
 	metaimg?: string;
+	fullMetatitle?: boolean;
 	noGoBack?: boolean;
 	className?: string;
 }
@@ -20,18 +22,26 @@ const Layout: React.FC<Props> = ({
 	metatitle,
 	metadescription,
 	metaimg = 'site.png',
+	fullMetatitle = false,
 	noGoBack = false,
 	className,
 }) => {
-	const trueMetaTitle = metatitle
-		? `${metatitle} | Dragon Quest Synthesis`
-		: 'Dragon Quest Synthesis';
+	const router = useRouter();
+	const trueMetaTitle =
+		!metatitle ? 'Dragon Quest Synthesis'
+		: fullMetatitle ? metatitle
+		: `${metatitle} | Dragon Quest Synthesis`;
+	const path = router.asPath.split(/[?#]/)[0];
+	const url = `${SITE_URL}${path}`;
+	const indexable = router.pathname != '/404';
 	return (
 		<>
 			<Head>
 				<title>{trueMetaTitle}</title>
 				<meta name="title" content={trueMetaTitle} />
-				<meta name="og:title" content={trueMetaTitle} />
+				<meta property="og:title" content={trueMetaTitle} />
+				{indexable && <link rel="canonical" href={url} />}
+				{indexable && <meta property="og:url" content={url} />}
 				{/* here because refused from _document.tsx */}
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta
@@ -39,7 +49,7 @@ const Layout: React.FC<Props> = ({
 					content={metadescription || 'List of Dragon Quest Synthesis'}
 				/>
 				<meta
-					name="og:description"
+					property="og:description"
 					content={metadescription || 'List of Dragon Quest Synthesis'}
 				/>
 				<meta property="og:image" content={`${SITE_URL}/images/${metaimg}`} />

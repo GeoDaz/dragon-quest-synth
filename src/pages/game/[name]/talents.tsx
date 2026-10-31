@@ -195,8 +195,8 @@ const TalentsPage: React.FC<Props> = ({
 		<Layout
 			noGoBack
 			title={translateUI('Skill sets')}
-			metatitle={`${translateUI('Skill sets')} ${game.key}`}
-			metadescription={`${game.title}: skill sets obtained by evolving or combining maxed skill sets.`}
+			metatitle={`${game.title} ${translateUI('Skill sets')}`}
+			metadescription={`${game.title}: every skill set obtained by evolving or combining maxed skill sets, with the SP needed and the skills and traits they unlock.`}
 			className="overflow-visible"
 		>
 			<ScrollUp />
