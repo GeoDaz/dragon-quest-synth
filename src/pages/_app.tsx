@@ -7,7 +7,7 @@ import Router, { useRouter } from 'next/router';
 import { Spinner } from 'react-bootstrap';
 import type { AppProps } from 'next/app';
 import Header from '@/components/Header';
-import LanguageSuggestion from '@/components/LanguageSuggestion';
+import LanguageRedirect from '@/components/LanguageRedirect';
 import Donate from '@/components/Donate';
 import Footer from '@/components/Footer';
 import ErrorBoundary from '@/components/ErrorBoundary';
@@ -37,7 +37,7 @@ export default function App({ Component, pageProps }: AppProps) {
 		<ErrorBoundary>
 			<LanguageContext.Provider value={locale == 'fr'}>
 				<Header />
-				<LanguageSuggestion />
+				<LanguageRedirect />
 				<GameContext.Provider value={pageProps.game?.key}>
 					{loading ?
 						<div className="spinner-wrapper text-center mt-5 mb-5">
