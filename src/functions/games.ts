@@ -13,13 +13,28 @@ const CUSTOM_GAME: Game = {
 export const games: Record<string, Game> =
 	process.env.NODE_ENV === DEV ? { ...gamesJson, Custom: CUSTOM_GAME } : gamesJson;
 
+export const gameTitle = (game: Game, isFr: boolean): string =>
+	isFr ? (game.titleFr || game.title).replace(/ ?:/g, ' :') : game.title;
+
 export const gameMetaDescription = (
 	game: Game,
 	count: number,
 	hasSkills: boolean,
-	hasSpawns: boolean
+	hasSpawns: boolean,
+	isFr = false
 ): string => {
-	const name = game.alias ? `${game.title} (${game.alias})` : game.title;
+	const title = gameTitle(game, isFr);
+	const name = game.alias ? `${title} (${game.alias})` : title;
+	if (isFr) {
+		const parts = [
+			'leurs recettes de synthèse',
+			"les monstres qu'ils permettent d'obtenir",
+			...(hasSkills ? ['leurs talents'] : []),
+			...(hasSpawns ? ['leurs emplacements'] : []),
+		];
+		const last = parts.pop();
+		return `${name} : table des synthèses avec les ${count} monstres, ${parts.join(', ')} et ${last}. Recherche par nom, famille ou rang.`;
+	}
 	const parts = [
 		'synthesis (breeding) recipes',
 		'what they synthesize into',

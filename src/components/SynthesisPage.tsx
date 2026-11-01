@@ -430,12 +430,17 @@ const PageLines: React.FC<Props> = props => {
 					{translateUI('Synthesis')} {translateGame(game)}
 				</>
 			}
-			metatitle={`${translateGame(game)} ${translateUI('Synthesis chart')}`}
+			metatitle={
+				isFr ?
+					`${translateUI('Synthesis chart')} – ${translateGame(game)}`
+				:	`${translateGame(game)} ${translateUI('Synthesis chart')}`
+			}
 			metadescription={gameMetaDescription(
 				game,
 				Object.keys(allMonsters).length,
 				hasSkills,
-				hasSpawns
+				hasSpawns,
+				isFr
 			)}
 			className="overflow-visible"
 		>

@@ -4,6 +4,7 @@ import { GameContext } from '@/context/game';
 import { StringObject } from '@/types/Ui';
 import { Game } from '@/types/Game';
 import { withoutAlt } from '@/functions';
+import { gameTitle } from '@/functions/games';
 const translatedMonsters = require('../json/monsterTranslations.json');
 const translatedMoves: StringObject = require('../json/movesTranslations.json');
 const translatedSkills: StringObject = require('../json/skillsTranslations.json');
@@ -334,8 +335,7 @@ const useTranslate = () => {
 		(name: string): string => (isFr && translatedTraits[name]) || name,
 		[isFr]
 	);
-	const translateGame = (game: Game): string =>
-		isFr ? (game.titleFr || game.title).replace(/ ?:/g, ' :') : game.title;
+	const translateGame = (game: Game): string => gameTitle(game, isFr);
 
 	return {
 		isFr,

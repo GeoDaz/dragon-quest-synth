@@ -3973,3 +3973,53 @@ a.talent-recipe-link:focus-visible {
     font-size: 1.5rem;
   }
 }
+
+/* Language */
+
+.language-switch {
+  display: inline-flex;
+  padding: 2px;
+  border: 1px solid var(--dl-border-soft);
+  border-radius: 999px;
+}
+
+.language-switch-item {
+  padding: .15em .6em;
+  font-size: .8rem;
+  font-weight: 600;
+  color: var(--dl-muted);
+  text-decoration: none;
+  border-radius: 999px;
+}
+
+.language-switch-item:hover {
+  color: var(--dl-label);
+}
+
+.language-switch-item.active {
+  color: white;
+  background: var(--bs-primary);
+}
+
+.language-suggestion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: .5rem 1rem;
+  padding: .5rem 1rem;
+  font-size: .9rem;
+  background: var(--dl-panel-soft);
+  border-bottom: 1px solid var(--dl-border-soft);
+}
+
+.language-suggestion-close {
+  padding: .2rem .4rem;
+  color: var(--dl-muted);
+  background: none;
+  border: none;
+}
+
+.language-suggestion-close:hover {
+  color: var(--dl-label);
+}

@@ -3,25 +3,23 @@ import 'bootstrap-switch-button-react/src/style.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import '@/styles/index.css';
 import { useEffect, useState } from 'react';
-import Router from 'next/router';
+import Router, { useRouter } from 'next/router';
 import { Spinner } from 'react-bootstrap';
 import type { AppProps } from 'next/app';
 import Header from '@/components/Header';
+import LanguageSuggestion from '@/components/LanguageSuggestion';
 import Donate from '@/components/Donate';
 import Footer from '@/components/Footer';
 import ErrorBoundary from '@/components/ErrorBoundary';
 import { LanguageContext } from '@/context/language';
 import { GameContext } from '@/context/game';
-import { processLanguage } from '@/functions';
 
 export default function App({ Component, pageProps }: AppProps) {
 	const [loading, setLoading] = useState<boolean>(false);
-	const [language, setLanguage] = useState<boolean>(false);
+	const { locale } = useRouter();
 
 	// loading on page change
 	useEffect(() => {
-		setLanguage(processLanguage());
-
 		if (process.env.NODE_ENV === 'development') return;
 		const start = () => setLoading(true);
 		const end = () => setLoading(false);
@@ -37,8 +35,9 @@ export default function App({ Component, pageProps }: AppProps) {
 
 	return (
 		<ErrorBoundary>
-			<Header />
-			<LanguageContext.Provider value={language}>
+			<LanguageContext.Provider value={locale == 'fr'}>
+				<Header />
+				<LanguageSuggestion />
 				<GameContext.Provider value={pageProps.game?.key}>
 					{loading ?
 						<div className="spinner-wrapper text-center mt-5 mb-5">

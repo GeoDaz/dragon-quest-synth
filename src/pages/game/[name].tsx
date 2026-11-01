@@ -1,4 +1,4 @@
-import { GetStaticProps } from 'next';
+import { GetStaticPaths, GetStaticProps } from 'next';
 import { Families } from '@/types/Monster';
 import PageLines, {
 	gameDetails,
@@ -14,12 +14,12 @@ import { familiesImageNames, pickImages } from '@/functions/images';
 import { Game } from '@/types/Game';
 import { games } from '@/functions/games';
 
-export const getStaticPaths = async () => {
-	const paths: { params: { name: string } }[] = Object.values(games)
+export const getStaticPaths: GetStaticPaths = async ({ locales = [] }) => {
+	const paths = Object.values(games)
 		.filter((game: Game) => game.available)
-		.map((game: Game) => ({
-			params: { name: game.key },
-		}));
+		.flatMap((game: Game) =>
+			locales.map(locale => ({ params: { name: game.key }, locale }))
+		);
 	return { paths, fallback: false };
 };
 

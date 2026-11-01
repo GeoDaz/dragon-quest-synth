@@ -1,11 +1,11 @@
-import { Html, Head, Main, NextScript } from 'next/document';
+import { Html, Head, Main, NextScript, DocumentProps } from 'next/document';
 
-export default function Document() {
+export default function Document({ locale = 'en' }: DocumentProps) {
 	return (
-		<Html lang="en" data-bs-theme="dark">
+		<Html lang={locale} data-bs-theme="dark">
 			<Head>
 				<meta charSet="utf-8" />
-				<meta property="og:locale" content="en_US" />
+				<meta property="og:locale" content={locale == 'fr' ? 'fr_FR' : 'en_US'} />
 				<meta name="theme-color" content="#000000" />
 				<meta name="MobileOptimized" content="width" />
 				<meta property="og:site_name" content="Dragon Quest Synthesis" />

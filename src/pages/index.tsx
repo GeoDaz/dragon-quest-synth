@@ -74,7 +74,9 @@ const PageHome: React.FC<Props> = ({
 
 	useEffect(() => {
 		if (window.location.hash) {
-			window.location.replace(`/game/${DEFAULT_GAME}${window.location.hash}`);
+			window.location.replace(
+				`${isFr ? '/fr' : ''}/game/${DEFAULT_GAME}${window.location.hash}`
+			);
 		}
 	}, []);
 
@@ -83,9 +85,15 @@ const PageHome: React.FC<Props> = ({
 			noGoBack
 			noTitle
 			title={translateUI('Dragon Quest Monsters synthesis')}
-			metatitle="Dragon Quest Synthesis – Synthesis charts for every Dragon Quest Monsters game"
+			metatitle={t(
+				'Dragon Quest Synthesis – Synthesis charts for every Dragon Quest Monsters game',
+				'Dragon Quest Synthesis – Tables des synthèses de tous les Dragon Quest Monsters'
+			)}
 			fullMetatitle
-			metadescription="Synthesis (breeding) charts for every Dragon Quest Monsters game, from Dragon Warrior Monsters to Joker 3 and The Dark Prince: each monster's recipe, what it synthesizes into, its skill sets and where to find it."
+			metadescription={t(
+				"Synthesis (breeding) charts for every Dragon Quest Monsters game, from Dragon Warrior Monsters to Joker 3 and The Dark Prince: each monster's recipe, what it synthesizes into, its skill sets and where to find it.",
+				'Tables des synthèses de tous les Dragon Quest Monsters, de Terry’s Wonderland à Joker 3 et au Prince des ombres : la recette de chaque monstre, ce qu’il permet d’obtenir, ses talents et où le trouver.'
+			)}
 			className="home"
 		>
 			<Head>

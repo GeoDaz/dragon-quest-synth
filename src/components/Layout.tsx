@@ -34,7 +34,9 @@ const Layout: React.FC<Props> = ({
 		: fullMetatitle ? metatitle
 		: `${metatitle} | Dragon Quest Synthesis`;
 	const path = router.asPath.split(/[?#]/)[0];
-	const url = `${SITE_URL}${path}`;
+	const localeUrl = (locale?: string) =>
+		locale == 'fr' ? `${SITE_URL}/fr${path == '/' ? '' : path}` : `${SITE_URL}${path}`;
+	const url = localeUrl(router.locale);
 	const indexable = router.pathname != '/404';
 	return (
 		<>
@@ -44,6 +46,18 @@ const Layout: React.FC<Props> = ({
 				<meta property="og:title" content={trueMetaTitle} />
 				{indexable && <link rel="canonical" href={url} />}
 				{indexable && <meta property="og:url" content={url} />}
+				{indexable &&
+					router.locales?.map(locale => (
+						<link
+							key={locale}
+							rel="alternate"
+							hrefLang={locale}
+							href={localeUrl(locale)}
+						/>
+					))}
+				{indexable && (
+					<link rel="alternate" hrefLang="x-default" href={localeUrl('en')} />
+				)}
 				{/* here because refused from _document.tsx */}
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta

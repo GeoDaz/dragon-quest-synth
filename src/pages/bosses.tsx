@@ -14,14 +14,18 @@ interface Props {
 }
 
 const PageBosses: React.FC<Props> = ({ games, images }) => {
-	const { translateUI } = useTranslate();
+	const { isFr, translateUI } = useTranslate();
 
 	return (
 		<Layout
 			noGoBack
 			title={translateUI('Bosses')}
-			metatitle="Bosses"
-			metadescription="The main bosses of every game in the main Dragon Quest saga, from I to XI."
+			metatitle={translateUI('Bosses')}
+			metadescription={
+				isFr ?
+					'Les boss majeurs de chaque jeu de la saga principale Dragon Quest, de I à XI.'
+				:	'The main bosses of every game in the main Dragon Quest saga, from I to XI.'
+			}
 		>
 			<blockquote className="blockquote">
 				{translateUI(

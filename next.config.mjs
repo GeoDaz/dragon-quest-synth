@@ -2,6 +2,11 @@ import { initOpenNextCloudflareForDev } from '@opennextjs/cloudflare';
 
 const nextConfig = {
 	reactStrictMode: true,
+	i18n: {
+		locales: ['en', 'fr'],
+		defaultLocale: 'en',
+		localeDetection: false,
+	},
 	async redirects() {
 		return [
 			{

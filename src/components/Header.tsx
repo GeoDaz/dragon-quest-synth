@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Icon from './Icon';
 import { DISCORD_URL } from '@/consts/env';
 import DropdownMenu from './DropdownMenu';
+import LanguageSwitch from './LanguageSwitch';
 import Digivice from '@/svgs/digivice';
 import Pokeball from '@/svgs/pokeball';
 import Millennium from '@/svgs/millennium';
@@ -80,7 +81,8 @@ const Header: React.FC = () => (
 						]}
 					/>
 				</Nav>
-				<div className="d-flex gap-3">
+				<div className="d-flex align-items-center gap-3">
+					<LanguageSwitch />
 					<Link
 						className="btn btn-outline-primary"
 						href={DISCORD_URL}

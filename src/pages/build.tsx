@@ -86,8 +86,12 @@ const PageBuild: React.FC<Props> = ({ images = {}, search, monsterInfos = {} }) 
 	return (
 		<Layout
 			title={translateUI('Make your synthesis tree')}
-			metatitle="Synthesis tree builder"
-			metadescription="Build your own Dragon Quest Monsters synthesis tree on a grid, then export it as an image or as a code file to rework it later."
+			metatitle={translateUI('Synthesis tree builder')}
+			metadescription={
+				isFr ?
+					'Construisez votre propre arbre de synthèse Dragon Quest Monsters sur une grille, puis exportez-le en image ou en fichier de code pour le reprendre plus tard.'
+				:	'Build your own Dragon Quest Monsters synthesis tree on a grid, then export it as an image or as a code file to rework it later.'
+			}
 		>
 			{isFr ?
 				<blockquote className="blockquote">

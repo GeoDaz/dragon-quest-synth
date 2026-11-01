@@ -28,10 +28,15 @@ const pages = [
 	['/terms', 0.1],
 ];
 
+const localized = pages.flatMap(([page, priority]) => [
+	[page, priority],
+	[page == '/' ? '/fr' : `/fr${page}`, priority],
+]);
+
 const xml = [
 	'<?xml version="1.0" encoding="UTF-8"?>',
 	'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-	...pages.map(
+	...localized.map(
 		([page, priority]) =>
 			`\t<url><loc>${SITE_URL}${page}</loc><priority>${priority}</priority></url>`
 	),
@@ -40,4 +45,4 @@ const xml = [
 ].join('\n');
 
 fs.writeFileSync(OUTPUT, xml);
-console.log(`sitemap.xml: ${pages.length} pages`);
+console.log(`sitemap.xml: ${localized.length} pages`);

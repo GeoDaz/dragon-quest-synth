@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import { GetStaticProps } from 'next';
+import { GetStaticPaths, GetStaticProps } from 'next';
 import { Dropdown, DropdownButton } from 'react-bootstrap';
 import Layout from '@/components/Layout';
 import GameCard from '@/components/GameCard';
@@ -88,10 +88,10 @@ interface Props {
 	talentGames: string[];
 }
 
-export const getStaticPaths = async () => {
+export const getStaticPaths: GetStaticPaths = async ({ locales = [] }) => {
 	const paths = Object.values(games)
 		.filter(game => game.available && gameHasTalentRecipes(game.key))
-		.map(game => ({ params: { name: game.key } }));
+		.flatMap(game => locales.map(locale => ({ params: { name: game.key }, locale })));
 	return { paths, fallback: false };
 };
 
@@ -211,8 +211,16 @@ const TalentsPage: React.FC<Props> = ({
 					{translateUI('Skill sets')} {translateGame(game)}
 				</>
 			}
-			metatitle={`${translateGame(game)} ${translateUI('Skill sets')}`}
-			metadescription={`${game.title}: every skill set obtained by evolving or combining maxed skill sets, with the SP needed and the skills and traits they unlock.`}
+			metatitle={
+				isFr ?
+					`${translateUI('Skill sets')} – ${translateGame(game)}`
+				:	`${translateGame(game)} ${translateUI('Skill sets')}`
+			}
+			metadescription={
+				isFr ?
+					`${translateGame(game)} : tous les talents obtenus en faisant évoluer ou en combinant des talents maxés, avec les points nécessaires et les compétences et traits qu’ils débloquent.`
+				:	`${game.title}: every skill set obtained by evolving or combining maxed skill sets, with the SP needed and the skills and traits they unlock.`
+			}
 			className="overflow-visible"
 		>
 			<ScrollUp />
