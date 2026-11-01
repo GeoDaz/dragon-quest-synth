@@ -1472,14 +1472,29 @@ h3,
 /* Family band */
 
 .family-title {
+  position: relative;
   font-size: 1.5rem;
   margin: 0;
   padding: 0;
   border-radius: 12px;
-  /* flat fallback first: a family with no sampled gradient keeps a solid band */
+  color: var(--dl-family-bottom, var(--dl-family-color));
+  transition: all .3s;
+}
+
+.family-title::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  padding: 3px;
+  border-radius: inherit;
+  /* flat fallback first: a family with no sampled gradient keeps a solid border */
   background-color: var(--dl-family-color);
   background-image: linear-gradient(var(--dl-family-top), var(--dl-family-bottom));
-  transition: all .3s;
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  pointer-events: none;
 }
 
 .family-section.open .family-title {
@@ -1508,8 +1523,6 @@ h3,
 
 .family-toggle .family-chevron {
   font-size: .7em;
-  color: #fff;
-  text-shadow: 0 0 3px rgba(0, 0, 0, .75);
   transition: transform .3s;
 }
 
@@ -1527,13 +1540,16 @@ h3,
 
 .family-title .family-name,
 .family-title .family-count {
-  text-shadow: 0 0 3px rgba(0, 0, 0, .75), 0 1px 1px rgba(0, 0, 0, .5);
+  background-color: var(--dl-family-color);
+  background-image: linear-gradient(var(--dl-family-top), var(--dl-family-bottom));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .family-title .family-name {
   font-weight: 700;
   letter-spacing: -.01em;
-  color: #fff;
 }
 
 .family-title .family-count {
@@ -1542,7 +1558,7 @@ h3,
   font-size: .8em;
   font-weight: 700;
   white-space: nowrap;
-  color: rgba(255, 255, 255, .92);
+  opacity: .92;
 }
 
 /* Table */
