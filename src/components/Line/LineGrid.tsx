@@ -21,6 +21,7 @@ import LinePointSettings from './LinePointSettings';
 import LineGridPoint from './LineGridPoint';
 import LineAddRow from './LineAddRow';
 import Icon from '../Icon';
+import useTranslate from '@/hooks/useTranslate';
 import LineLevels from './LineLevels';
 
 export interface LineEdition {
@@ -192,6 +193,7 @@ interface RowProps {
 }
 const LineRow: React.FC<RowProps> = ({ column, x, y }) => {
 	const { handleEdit, handleUpdate } = useContext(GridContext);
+	const { translateUI } = useTranslate();
 
 	const handleRemove = (e: any) => {
 		if (handleUpdate) {
@@ -212,12 +214,12 @@ const LineRow: React.FC<RowProps> = ({ column, x, y }) => {
 					<Button
 						variant="primary"
 						className="add"
-						title="insert column"
+						title={translateUI('insert column')}
 						onClick={handleAdd}
 					>
 						<Icon name="plus-lg" />
 					</Button>
-					<Button variant="danger" title="remove column" onClick={handleRemove}>
+					<Button variant="danger" title={translateUI('remove column')} onClick={handleRemove}>
 						<Icon name="trash3-fill" />
 					</Button>
 				</>

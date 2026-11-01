@@ -1,9 +1,11 @@
 import React from 'react';
 import Icon from './Icon';
+import useTranslate from '@/hooks/useTranslate';
 
 const UploadCode: React.FC<{
 	handleUpload: CallableFunction;
 }> = ({ handleUpload }) => {
+	const { translateUI } = useTranslate();
 	const getContent = (file: File) => {
 		return new Promise<string | null>((resolve, reject) => {
 			const reader = new FileReader();
@@ -33,7 +35,7 @@ const UploadCode: React.FC<{
 	return (
 		<>
 			<label htmlFor="upload-code" className="btn btn-secondary">
-				<Icon name="upload" className="me-2" /> Import from{' '}
+				<Icon name="upload" className="me-2" /> {translateUI('Import from')}{' '}
 				<Icon name="braces ms-1" />
 			</label>
 			<input

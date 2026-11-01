@@ -1,763 +1,395 @@
-import React, {
-	useCallback,
-	useContext,
-	useEffect,
-	useMemo,
-	useRef,
-	useState,
-} from 'react';
+import React, { useEffect } from 'react';
 import { GetStaticProps } from 'next';
-import { Families, Monster as MonsterInterface } from '@/types/Monster';
+import Head from 'next/head';
 import Layout from '@/components/Layout';
-import MonsterRow from '@/components/Monster/MonsterRow';
-import Family from '@/components/Monster/Family';
-import { ImagesContext } from '@/context/images';
-import {
-	DetailsContext,
-	emptyFarewell,
-	emptyItems,
-	emptySpawns,
-	emptyTalents,
-	emptyTerms,
-} from '@/context/details';
-import { familiesColors, familiesGradients } from '@/consts/colors';
-import { families as familyList } from '@/consts/data';
-import { Dropdown, DropdownButton } from 'react-bootstrap';
-import { indexMonsters, reverseSynth } from '@/functions/transformer/synthesis';
-import { StringObject } from '@/types/Ui';
-import {
-	GameFarewell,
-	GameItems,
-	GameSpawns,
-	GameTalents,
-	GameTerms,
-	MonstersDetails,
-	TalentStep,
-} from '@/types/MonsterDetails';
-import useTranslate from '@/hooks/useTranslate';
-import { makeClassName, stringToKey } from '@/functions';
-import { familiesImageNames, pickImages } from '@/functions/images';
-import useHash from '@/hooks/useHash';
-import useScrollToAnchor from '@/hooks/useScrollToAnchor';
-import useIsVisible from '@/hooks/useIsVisible';
-import MonsterRowLoading from '@/components/Monster/MonsterRowLoading';
-import SearchBar from '@/components/SearchBar';
-import Icon from '@/components/Icon';
-import { FiltersContext } from '@/context/filter';
-import { TrailContext } from '@/context/trail';
-import SynthesisTrail from '@/components/Monster/SynthesisTrail';
-import useSynthesisTrail from '@/hooks/useSynthesisTrail';
-import { ReserveContext } from '@/context/reserve';
-import ReserveSidebar from '@/components/Monster/ReserveSidebar';
-import useReserve from '@/hooks/useReserve';
-import ScrollUp from '@/components/ScrollUp';
 import GameCard from '@/components/GameCard';
+import Link from '@/components/Link';
+import Icon from '@/components/Icon';
+import HeroGraph from '@/components/Home/HeroGraph';
+import TrailMock from '@/components/Home/TrailMock';
+import ReserveMock from '@/components/Home/ReserveMock';
+import { gameHasTalentRecipes } from '@/components/SynthesisPage';
+import { ImagesContext } from '@/context/images';
 import { Game } from '@/types/Game';
-import { games, gameMetaDescription } from '@/functions/games';
-import Rank from '@/components/Monster/Rank';
-import useFamilyAccordion from '@/hooks/useFamilyAccordion';
-import useStickyBar from '@/hooks/useStickyBar';
-import GameTabs from '@/components/GameTabs';
+import { Families } from '@/types/Monster';
+import { StringObject } from '@/types/Ui';
+import { games } from '@/functions/games';
+import { pickImages } from '@/functions/images';
+import useTranslate from '@/hooks/useTranslate';
+import { DISCORD_URL, SITE_URL } from '@/consts/env';
+
+const DEFAULT_GAME = 'DQM4';
+
+const MOCK_MONSTERS = [
+	'Metal Slime',
+	'Liquid Metal Slime',
+	'Metal King Slime',
+	'Slime',
+	'Slime Stack',
+	'Gloomy Grublin',
+	'Dracky',
+	'Firespirit',
+	'Slime Knight',
+	'She-Slime',
+	'Mottle Slime',
+	'Healslime',
+];
+
+const seriesTitles: { [series: string]: string } = {
+	monsters: 'Dragon Quest Monsters',
+	joker: 'Dragon Quest Monsters: Joker',
+};
+
+const websiteJsonLd = {
+	'@context': 'https://schema.org',
+	'@type': 'WebSite',
+	name: 'Dragon Quest Synthesis',
+	alternateName: 'DQ Synths',
+	url: `${SITE_URL}/`,
+};
+
+interface Stats {
+	games: number;
+	monsters: number;
+	recipes: number;
+}
 
 interface Props {
-	families: Families;
+	talentGames: Game[];
+	stats: Stats;
 	images: StringObject;
-	details: MonstersDetails;
-	terms: GameTerms;
-	farewell: GameFarewell;
-	items: GameItems;
-	spawns: GameSpawns;
-	talents: GameTalents;
-	game: Game;
-	hasTalentRecipes?: boolean;
-	isHome?: boolean;
 }
-export const gameDetails = (game: string): MonstersDetails => {
-	try {
-		return require(`../json/${game}Details.json`);
-	} catch (e) {
-		return {};
-	}
-};
 
-export const gameTerms = (game: string): GameTerms => {
-	try {
-		return require(`../json/${game}Terms.json`);
-	} catch (e) {
-		return { traits: {}, skills: {} };
-	}
-};
-
-export const gameFarewell = (game: string): GameFarewell => {
-	try {
-		return require(`../json/${game}Farewell.json`);
-	} catch (e) {
-		return { items: [], amounts: [] };
-	}
-};
-
-export const gameItems = (game: string): GameItems => {
-	try {
-		return require(`../json/${game}Items.json`);
-	} catch (e) {
-		return {};
-	}
-};
-
-export const gameSpawns = (game: string): GameSpawns => {
-	try {
-		return require(`../json/${game}Spawns.json`);
-	} catch (e) {
-		return {};
-	}
-};
-
-export const gameTalents = (game: string, details: MonstersDetails): GameTalents => {
-	try {
-		const data = require(`../json/${game}Moves.json`);
-		const used = new Set<string>();
-		Object.values(details).forEach(monster => {
-			if (monster.skill) used.add(monster.skill);
-			monster.skills?.forEach(skill => used.add(skill));
-			monster.randomSkills?.forEach(skill => used.add(skill));
-		});
-		const talents: GameTalents['talents'] = {};
-		const moves: GameTalents['moves'] = {};
-		used.forEach(name => {
-			const talent = data.talents?.[name];
-			if (!talent?.moves?.length && !talent?.unofficial && !talent?.unofficialFr) return;
-			talents[name] = {
-				moves: (talent.moves || []).map(({ move, sp }: TalentStep) => ({ move, sp })),
-				...(talent.traits?.length ? { traits: talent.traits } : {}),
-				...(talent.unofficial ? { unofficial: true } : {}),
-				...(talent.unofficialFr ? { unofficialFr: true } : {}),
-			};
-			(talent.moves || []).forEach(({ move }: TalentStep) => {
-				const entry = data.moves?.[move];
-				if (entry?.en) moves[move] = { en: entry.en };
-			});
-		});
-		return { talents, moves };
-	} catch (e) {
-		return emptyTalents;
-	}
-};
-
-export const gameTalentRecipes = (game: string): GameTalents => {
-	try {
-		const data = require(`../json/${game}Moves.json`);
-		const names = new Set<string>();
-		Object.entries(data.talents || {}).forEach(([name, talent]: [string, any]) => {
-			if (!talent.from?.length) return;
-			names.add(name);
-			talent.from.flat().forEach((ingredient: string) => names.add(ingredient));
-		});
-		const talents: GameTalents['talents'] = {};
-		const moves: GameTalents['moves'] = {};
-		names.forEach(name => {
-			const talent = data.talents[name];
-			if (!talent) return;
-			talents[name] = {
-				moves: (talent.moves || []).map(({ move, sp }: TalentStep) => ({ move, sp })),
-				...(talent.traits?.length ? { traits: talent.traits } : {}),
-				...(talent.category ? { category: talent.category } : {}),
-				...(talent.from?.length ? { from: talent.from } : {}),
-				...(talent.points ? { points: talent.points } : {}),
-				...(talent.unofficial ? { unofficial: true } : {}),
-				...(talent.unofficial && talent.jp ? { jp: talent.jp } : {}),
-				...(talent.unofficialFr ? { unofficialFr: true } : {}),
-			};
-			(talent.moves || []).forEach(({ move }: TalentStep) => {
-				const entry = data.moves?.[move];
-				if (entry?.en) moves[move] = { en: entry.en };
-			});
-		});
-		return { talents, moves };
-	} catch (e) {
-		return emptyTalents;
-	}
-};
-
-export const gameHasTalentRecipes = (game: string): boolean =>
-	Object.values(gameTalentRecipes(game).talents).some(talent => !!talent.from);
-
-const ALWAYS_OPEN_BELOW = 10;
-
-const PageLines: React.FC<Props> = props => {
-	const {
-		images,
-		game,
-		details = {},
-		terms = emptyTerms,
-		farewell = emptyFarewell,
-		items = emptyItems,
-		spawns = emptySpawns,
-		talents = emptyTalents,
-		hasTalentRecipes = false,
-		isHome = false,
-	} = props;
-	const [families, setFamilies] = useState<Families>(props.families);
-	const { hash, nav, navigate } = useHash();
-	const scrollToAnchor = useScrollToAnchor();
-	const { isFr, translateUI, translateSkill } = useTranslate();
-	const [search, setSearch] = useState<string>();
-	const [selectedFamily, setSelectedFamily] = useState<string | undefined>();
-	const [selectedRank, setSelectedRank] = useState<string | undefined>();
-	const filtersRef = useRef<HTMLDivElement | null>(null);
-	useStickyBar(filtersRef);
-	const allMonsters = useMemo(() => indexMonsters(props.families), [props.families]);
-	const { trees, preferred, walk, pickInTrail, clearTrail, cutTrail } =
-		useSynthesisTrail(allMonsters);
-	const {
-		entries,
-		stock,
-		goals,
-		toggleGoal,
-		clearGoals,
-		reserve,
-		open: reserveOpen,
-		toggleReserve,
-		expanded: reserveExpanded,
-		toggleExpanded: toggleReserveExpanded,
-		addToReserve,
-		removeFromReserve,
-		dropFromReserve,
-		clearReserve,
-	} = useReserve(game.key);
-	const hasDetails = !!Object.keys(details).length;
-	const hasSkills = Object.values(details).some(
-		monster => !!monster.skill || !!monster.skills?.length
-	);
-	const hasSpawns = !!Object.keys(spawns).length;
-	const detailsValue = useMemo(
-		() => ({
-			details,
-			terms,
-			farewell,
-			items,
-			spawns,
-			talents,
-			hasDetails,
-			hasSkills,
-			hasSpawns,
-		}),
-		[details, terms, farewell, items, spawns, talents, hasDetails, hasSkills, hasSpawns]
-	);
-
-	// Flat, ordered view of the current families after family/rank filters, plus
-	// index maps used for pagination and hash deep-links. (search is already
-	// applied to the `families` state above.)
-	const filtered = useMemo(() => {
-		const entries: {
-			family: string;
-			rank: string;
-			monsters: MonsterInterface[];
-		}[] = [];
-		const monsterIndex: { [name: string]: number } = {};
-		const familyStart: { [family: string]: number } = {};
-		const familyTotals: { [family: string]: number } = {};
-		const rankStart: { [id: string]: number } = {};
-		let count = 0;
-		for (const [family, ranks] of Object.entries(families)) {
-			if (selectedFamily && selectedFamily !== family) continue;
-			if (familyStart[family] === undefined) familyStart[family] = count;
-			for (const [rank, monsters] of Object.entries(ranks)) {
-				if (selectedRank && selectedRank !== rank) continue;
-				rankStart[`${family}-${rank}`] = count;
-				entries.push({ family, rank, monsters });
-				familyTotals[family] = (familyTotals[family] || 0) + monsters.length;
-				monsters.forEach(m => {
-					monsterIndex[m.name] = count;
-					count++;
-				});
-			}
-		}
-		return {
-			entries,
-			total: count,
-			monsterIndex,
-			familyStart,
-			familyTotals,
-			rankStart,
-		};
-	}, [families, selectedFamily, selectedRank]);
-
-	const listFamilies = useMemo(() => {
-		const result: Families = {};
-		for (const { family, rank, monsters } of filtered.entries) {
-			if (!result[family]) result[family] = {};
-			result[family][rank] = monsters;
-		}
-		return result;
-	}, [filtered]);
-	const familyKeys = useMemo(() => Object.keys(listFamilies), [listFamilies]);
-	const isSmallFamily = (family: string) =>
-		familyKeys.length > 1 && filtered.familyTotals[family] < ALWAYS_OPEN_BELOW;
-	const accordionKeys = useMemo(
-		() =>
-			familyKeys.filter(
-				family =>
-					familyKeys.length === 1 ||
-					filtered.familyTotals[family] >= ALWAYS_OPEN_BELOW
-			),
-		[familyKeys, filtered]
-	);
-	const accordion = useFamilyAccordion(accordionKeys);
-	const isFamilyOpen = (family: string) =>
-		isSmallFamily(family) || accordion.open === family;
-
-	const hashFamily = useMemo(() => {
-		if (!hash) return undefined;
-		for (const { family, rank, monsters } of filtered.entries) {
-			if (
-				hash === family ||
-				hash === `${family}-${rank}` ||
-				monsters.some(m => m.name === hash)
-			) {
-				return family;
-			}
-		}
-		return undefined;
-	}, [hash, filtered]);
-
-	const scrolledNavRef = useRef<number | undefined>(undefined);
-	useEffect(() => {
-		if (!hash || filtered.total === 0 || scrolledNavRef.current === nav) return;
-		const idx =
-			filtered.monsterIndex[hash] ??
-			filtered.rankStart[hash] ??
-			filtered.familyStart[hash];
-		if (idx !== undefined && hashFamily && !isFamilyOpen(hashFamily)) {
-			accordion.openFamily(hashFamily);
-			return;
-		}
-		const firstHashOfSession = scrolledNavRef.current === undefined;
-		if (scrollToAnchor(hash, firstHashOfSession ? 'auto' : 'smooth')) {
-			scrolledNavRef.current = nav;
-		}
-	}, [hash, nav, filtered, hashFamily, accordion.open]);
-
-	const searchIndex = useMemo(() => {
-		const index: StringObject = {};
-		Object.values(props.families).forEach(ranks =>
-			Object.values(ranks).forEach(monsters =>
-				monsters.forEach(monster => {
-					const parts = [monster.name];
-					if (isFr && monster.nom) parts.push(monster.nom);
-					const detail = details[monster.name];
-					const skills = detail?.skills || (detail?.skill ? [detail.skill] : []);
-					skills.forEach(skill => {
-						const en = terms.skills[skill]?.en || skill;
-						parts.push(en);
-						if (isFr) parts.push(translateSkill(en));
-					});
-					index[monster.name] = parts.map(stringToKey).join('|');
-				})
-			)
-		);
-		return index;
-	}, [props.families, isFr, details, terms, translateSkill]);
+const PageHome: React.FC<Props> = ({
+	talentGames = [],
+	stats = { games: 0, monsters: 0, recipes: 0 },
+	images = {},
+}) => {
+	const { isFr, translateUI, translateGame } = useTranslate();
+	const t = (en: string, fr: string) => (isFr ? fr : en);
+	const formatNumber = (value: number) =>
+		value.toLocaleString(isFr ? 'fr-FR' : 'en-US');
+	const formatSeries = (title: string) => (isFr ? title.replace(/ ?:/g, ' :') : title);
+	const latestGame = games[DEFAULT_GAME];
 
 	useEffect(() => {
-		if (!search) {
-			if (families !== props.families) {
-				setFamilies(props.families);
-			}
-		} else {
-			setFamilies(
-				Object.entries(props.families).reduce((acc, [family, ranks]) => {
-					const nextRanks = Object.entries(ranks).reduce(
-						(acc, [rank, monsters]) => {
-							const nextMonsters = monsters.filter(monster =>
-								searchIndex[monster.name]?.includes(search)
-							);
-							if (nextMonsters.length > 0) {
-								acc[rank] = nextMonsters;
-							}
-							return acc;
-						},
-						{} as { [key: string]: MonsterInterface[] }
-					);
-					if (Object.keys(nextRanks).length > 0) {
-						acc[family] = nextRanks;
-					}
-					return acc;
-				}, {} as Families)
-			);
+		if (window.location.hash) {
+			window.location.replace(`/game/${DEFAULT_GAME}${window.location.hash}`);
 		}
-	}, [search, props.families, searchIndex]);
-
-	const resetFilters = useCallback(() => {
-		setSelectedFamily(undefined);
-		setSelectedRank(undefined);
-		setSearch(undefined);
 	}, []);
-
-	const filters = useMemo(
-		() => ({ resetFilters, navigate, search, selectedFamily, selectedRank }),
-		[resetFilters, navigate, search, selectedFamily, selectedRank]
-	);
-
-	const handleSearch = (value: string) => {
-		let sanitizedSearch = stringToKey(value);
-		if (sanitizedSearch == search) return;
-		if (sanitizedSearch.length < 3) {
-			sanitizedSearch = '';
-		}
-		setSearch(sanitizedSearch);
-	};
 
 	return (
 		<Layout
 			noGoBack
-			title={translateUI('Synthesis')}
-			metatitle={isHome ? undefined : `${game.title} ${translateUI('Synthesis chart')}`}
-			metadescription={
-				isHome ?
-					"Synthesis (breeding) charts for every Dragon Quest Monsters game, from Dragon Warrior Monsters to Joker 3 and The Dark Prince: each monster's recipe, what it synthesizes into, its skill sets and where to find it."
-				:	gameMetaDescription(
-						game,
-						Object.keys(allMonsters).length,
-						hasSkills,
-						hasSpawns
-					)
-			}
-			className="overflow-visible"
+			noTitle
+			title={translateUI('Dragon Quest Monsters synthesis')}
+			metatitle="Dragon Quest Synthesis – Synthesis charts for every Dragon Quest Monsters game"
+			fullMetatitle
+			metadescription="Synthesis (breeding) charts for every Dragon Quest Monsters game, from Dragon Warrior Monsters to Joker 3 and The Dark Prince: each monster's recipe, what it synthesizes into, its skill sets and where to find it."
+			className="home"
 		>
-			<ScrollUp />
-			<div className="row mb-4">
-				{Object.values(games)
-					.filter(game => game.available)
-					.map((_game: Game) => (
-						<div
-							key={_game.key}
-							className="game-card-col col-4 col-sm-3 d-flex mb-2 mb-md-3 mb-lg-4"
-						>
-							<GameCard game={_game} currentGame={game.key} />
-						</div>
-					))}
-			</div>
-			{hasTalentRecipes && <GameTabs game={game.key} active="synthesis" />}
-			<div ref={filtersRef} className="synthesis-filters mb-4">
-				<SearchBar
-					label={translateUI('Search a monster or a skill set')}
-					onSubmit={handleSearch}
-					defaultValue={search}
+			<Head>
+				<script
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
 				/>
-				<DropdownButton
-					id="family-selector"
-					className={makeClassName(
-						'filter-dropdown',
-						!!selectedFamily && 'filter-active'
-					)}
-					title={
-						selectedFamily ?
-							translateUI(selectedFamily)
-						:	translateUI('Family')
-					}
-				>
-					{!!selectedFamily && (
-						<Dropdown.Item onClick={() => setSelectedFamily(undefined)}>
-							<Icon name="x" /> {translateUI('Void')}
-						</Dropdown.Item>
-					)}
-					{familyList.map(family => (
-						<Dropdown.Item
-							key={family}
-							active={selectedFamily == family}
-							onClick={() => setSelectedFamily(family)}
+			</Head>
+			<ImagesContext.Provider value={images}>
+				<section className="home-hero">
+					<HeroGraph className="home-hero-graph" />
+					<div className="home-hero-text">
+						<h1 className="home-title">
+							{t('Every synthesis of ', 'Toutes les synthèses des ')}
+							<span className="home-title-accent">
+								Dragon Quest Monsters
+							</span>
+							{t(' game', '')}
+						</h1>
+						<p className="home-lead">
+							{t(
+								'Find how to get any monster, follow its synthesis chain step by step, and see what you can already create with the monsters you own.',
+								"Trouvez comment obtenir n'importe quel monstre, suivez sa chaîne de synthèses étape par étape et voyez ce que vous pouvez déjà créer avec vos monstres."
+							)}
+						</p>
+					</div>
+					<nav className="home-games" aria-label={translateUI('Games')}>
+						<h2 className="home-games-title">
+							{t('Pick your game', 'Choisissez votre jeu')}
+						</h2>
+						{Object.entries(seriesTitles).map(([series, seriesTitle]) => (
+							<section key={series} className="home-series">
+								<h3 className="home-series-title">
+									{formatSeries(seriesTitle)}
+								</h3>
+								<div className="row">
+									{Object.values(games)
+										.filter(
+											game =>
+												game.available && game.series == series
+										)
+										.reverse()
+										.map((game: Game) => (
+											<div
+												key={game.key}
+												className="game-card-col col-6 col-sm-3 d-flex mb-2 mb-md-3"
+											>
+												<GameCard game={game} caption />
+											</div>
+										))}
+								</div>
+							</section>
+						))}
+					</nav>
+				</section>
+
+				<ul className="home-stats">
+					<li>
+						<b>{formatNumber(stats.games)}</b>
+						<span>{t('games', 'jeux')}</span>
+					</li>
+					<li>
+						<b>{formatNumber(stats.monsters)}</b>
+						<span>{t('monster entries', 'fiches de monstres')}</span>
+					</li>
+					<li>
+						<b>{formatNumber(stats.recipes)}</b>
+						<span>{t('synthesis recipes', 'recettes de synthèse')}</span>
+					</li>
+				</ul>
+
+				<section className="home-feature">
+					<div className="home-feature-text">
+						<p className="home-kicker">
+							<Icon name="signpost-split" />{' '}
+							{t('Synthesis trail', "Fil d'Ariane")}
+						</p>
+						<h2 className="home-feature-title">
+							{t(
+								'Never get lost in a synthesis chain',
+								'Ne vous perdez plus dans les synthèses en chaîne'
+							)}
+						</h2>
+						<p>
+							{t(
+								'Getting a high-rank monster often means synthesizing its parents first, then their own parents… Every parent you follow is added to the trail at the bottom of the screen.',
+								"Obtenir un monstre de haut rang demande souvent de synthétiser d'abord ses parents, puis leurs propres parents… Chaque parent que vous suivez s'ajoute au fil d'Ariane en bas de l'écran."
+							)}
+						</p>
+						<ul className="home-checks">
+							<li>
+								<Icon name="check2" />
+								{t(
+									'Jump back to any step in one click',
+									"Revenez à n'importe quelle étape en un clic"
+								)}
+							</li>
+							<li>
+								<Icon name="check2" />
+								{t(
+									'Unfold the whole tree to see everything left to make',
+									"Dépliez l'arbre complet pour voir tout ce qu'il reste à faire"
+								)}
+							</li>
+							<li>
+								<Icon name="check2" />
+								{t(
+									'Save it as an image to keep it at hand while you play',
+									"Enregistrez-le en image pour l'avoir sous la main en jouant"
+								)}
+							</li>
+						</ul>
+					</div>
+					<div className="home-feature-visual">
+						<TrailMock />
+					</div>
+				</section>
+
+				<section className="home-feature reverse">
+					<div className="home-feature-text">
+						<p className="home-kicker">
+							<Icon name="box-seam" />{' '}
+							{t('Reserve & goals', 'Réserve et objectifs')}
+						</p>
+						<h2 className="home-feature-title">
+							{t(
+								'Know what you can synthesize right now',
+								'Sachez ce que vous pouvez synthétiser tout de suite'
+							)}
+						</h2>
+						<p>
+							{t(
+								'Add the monsters you own to your reserve: the site works out every synthesis you can make with them, rank-ups first.',
+								'Ajoutez vos monstres à la réserve : le site calcule toutes les synthèses possibles avec eux, montées de rang en premier.'
+							)}
+						</p>
+						<ul className="home-checks">
+							<li>
+								<Icon name="check2" />
+								{t(
+									'Set synthesis goals and see at a glance which parents are still missing',
+									"Fixez-vous des objectifs et voyez d'un coup d'œil les parents qui manquent encore"
+								)}
+							</li>
+							<li>
+								<Icon name="check2" />
+								{t(
+									'Possible syntheses sorted by rank gain',
+									'Synthèses possibles triées par montée de rang'
+								)}
+							</li>
+							<li>
+								<Icon name="check2" />
+								{t(
+									'Saved in your browser, one reserve per game',
+									'Sauvegardée dans votre navigateur, une réserve par jeu'
+								)}
+							</li>
+						</ul>
+					</div>
+					<div className="home-feature-visual">
+						<ReserveMock />
+					</div>
+				</section>
+
+				<section className="home-more">
+					<h2 className="home-more-title">{translateUI('More tools')}</h2>
+					<div className="home-more-grid">
+						<div className="home-more-card">
+							<Icon name="search" className="home-more-icon" />
+							<h3>{t('Search everything', 'Recherche complète')}</h3>
+							<p>
+								{t(
+									'Look up a monster or a skill set, then filter by family and rank.',
+									'Cherchez un monstre ou un talent, puis filtrez par famille et par rang.'
+								)}
+							</p>
+						</div>
+						{talentGames.length > 0 && (
+							<div className="home-more-card">
+								<Icon name="stars" className="home-more-icon" />
+								<h3>{translateUI('Skill sets')}</h3>
+								<p>
+									{t(
+										'Skill sets obtained by evolving or combining maxed skill sets.',
+										'Les talents obtenus en faisant évoluer ou en combinant des talents maxés.'
+									)}
+								</p>
+								<ul className="home-more-links">
+									{talentGames.map(game => (
+										<li key={game.key}>
+											<Link
+												href={`/game/${game.key}/talents`}
+												title={translateGame(game)}
+											>
+												{game.key}
+											</Link>
+										</li>
+									))}
+								</ul>
+							</div>
+						)}
+						<div className="home-more-card">
+							<Icon name="card-list" className="home-more-icon" />
+							<h3>{t('Monster details', 'Fiches détaillées')}</h3>
+							<p>
+								{t(
+									'Stats, traits, resistances, skill sets and drops, depending on the game.',
+									'Statistiques, traits, résistances, talents et objets, selon le jeu.'
+								)}
+							</p>
+						</div>
+						<div className="home-more-card">
+							<Icon name="diagram-3" className="home-more-icon" />
+							<h3>
+								<Link href="/build">
+									{translateUI('Synthesis tree builder')}
+								</Link>
+							</h3>
+							<p>
+								{t(
+									'Draw your own synthesis tree and export it as an image.',
+									'Construisez votre propre arbre de synthèse et exportez-le en image.'
+								)}
+							</p>
+						</div>
+						<div className="home-more-card">
+							<Icon name="trophy" className="home-more-icon" />
+							<h3>
+								<Link href="/bosses">{translateUI('Bosses')}</Link>
+							</h3>
+							<p>
+								{t(
+									'The major bosses of the main Dragon Quest saga, from I to XI.',
+									'Les boss majeurs de la saga principale Dragon Quest, de I à XI.'
+								)}
+							</p>
+						</div>
+						<div className="home-more-card">
+							<Icon name="translate" className="home-more-icon" />
+							<h3>{t('English & French', 'Français et anglais')}</h3>
+							<p>
+								{t(
+									'Monster, skill and trait names in French, taken from the official games whenever possible.',
+									'Noms des monstres, compétences et traits en français, repris des jeux officiels dès que possible.'
+								)}
+							</p>
+						</div>
+					</div>
+				</section>
+
+				<section className="home-cta">
+					<h2>{t('Ready to synthesize?', 'Prêt à synthétiser ?')}</h2>
+					<p>
+						{t(
+							'Start with the latest game, or join the community on Discord.',
+							'Commencez par le dernier jeu, ou rejoignez la communauté sur Discord.'
+						)}
+					</p>
+					<div className="home-cta-actions">
+						<Link
+							href={`/game/${DEFAULT_GAME}`}
+							className="btn btn-primary btn-lg"
 						>
-							{translateUI(family)}
-						</Dropdown.Item>
-					))}
-				</DropdownButton>
-				<DropdownButton
-					id="rank-selector"
-					className={makeClassName(
-						'filter-dropdown',
-						!!selectedRank && 'filter-active'
-					)}
-					title={
-						selectedRank ?
-							`${translateUI('Rank')} ${selectedRank}`
-						:	translateUI('Rank')
-					}
-				>
-					{!!selectedRank && (
-						<Dropdown.Item onClick={() => setSelectedRank(undefined)}>
-							<Icon name="x" /> {translateUI('Void')}
-						</Dropdown.Item>
-					)}
-					{game.ranks.map(rank => (
-						<Dropdown.Item
-							key={rank}
-							active={selectedRank == rank}
-							onClick={() => setSelectedRank(rank)}
+							{translateGame(latestGame)} <Icon name="arrow-right" />
+						</Link>
+						<Link
+							href={DISCORD_URL}
+							target="_blank"
+							rel="nofollow noopener noreferrer"
+							className="btn btn-outline-light btn-lg"
 						>
-							{rank}
-						</Dropdown.Item>
-					))}
-				</DropdownButton>
-				{(!!search || !!selectedFamily || !!selectedRank) && (
-					<button type="button" className="filter-reset" onClick={resetFilters}>
-						<Icon name="x" /> {translateUI('Clear filters')}
-					</button>
-				)}
-				<span className="filter-count">
-					{filtered.total}&nbsp;
-					{translateUI(filtered.total > 1 ? 'monsters' : 'monster')}
-				</span>
-			</div>
-			<FiltersContext.Provider value={filters}>
-				<ImagesContext.Provider value={images}>
-					<DetailsContext.Provider value={detailsValue}>
-						<TrailContext.Provider value={walk}>
-							<ReserveContext.Provider value={reserve}>
-								{filtered.total > 0 ?
-									<>
-										<div className="synthesis-list">
-											{Object.entries(listFamilies).map(
-												([family, ranks]) => (
-													<FamilySection
-														key={family}
-														family={family}
-														ranks={ranks}
-														count={filtered.familyTotals[family]}
-														hash={hash}
-														open={isFamilyOpen(family)}
-														collapsible={
-															accordionKeys.length > 1 && !isSmallFamily(family)
-														}
-														onToggle={accordion.toggle}
-														onHeader={accordion.registerHeader}
-													/>
-												)
-											)}
-										</div>
-									</>
-								:	<p>{translateUI('No synthesis found')}.</p>}
-								<SynthesisTrail
-									trees={trees}
-									preferred={preferred}
-									onPick={pickInTrail}
-									onClear={clearTrail}
-									onCut={cutTrail}
-								/>
-								<ReserveSidebar
-									entries={entries}
-									goals={goals}
-									onToggleGoal={toggleGoal}
-									onClearGoals={clearGoals}
-									stock={stock}
-									monsters={allMonsters}
-									ranks={game.ranks}
-									open={reserveOpen}
-									expanded={reserveExpanded}
-									onToggle={toggleReserve}
-									onToggleExpanded={toggleReserveExpanded}
-									onAdd={addToReserve}
-									onRemove={removeFromReserve}
-									onDrop={dropFromReserve}
-									onClear={clearReserve}
-								/>
-							</ReserveContext.Provider>
-						</TrailContext.Provider>
-					</DetailsContext.Provider>
-				</ImagesContext.Provider>
-			</FiltersContext.Provider>
+							<Icon name="discord" /> Discord
+						</Link>
+					</div>
+				</section>
+			</ImagesContext.Provider>
 		</Layout>
 	);
 };
 
-const FamilySection = ({
-	family,
-	hash,
-	ranks,
-	count,
-	open,
-	collapsible,
-	onToggle,
-	onHeader,
-}: {
-	family: string;
-	hash?: string;
-	ranks: { [key: string]: MonsterInterface[] };
-	count: number;
-	open: boolean;
-	collapsible: boolean;
-	onToggle: (family: string) => void;
-	onHeader: (family: string, el: HTMLElement | null) => void;
-}) => {
-	const { translateUI } = useTranslate();
-	const { selectedFamily, selectedRank } = useContext(FiltersContext);
-	const { hasSkills, hasSpawns } = useContext(DetailsContext);
-	const headerRef = useCallback(
-		(el: HTMLHeadingElement | null) => onHeader(family, el),
-		[family, onHeader]
-	);
-	const panelId = `${stringToKey(family)}-panel`;
-
-	if (selectedFamily && selectedFamily != family) return null;
-	return (
-		<section className={makeClassName('family-section', open && 'open')}>
-			<h2
-				ref={headerRef}
-				className={makeClassName(
-					'family-title',
-					hash == family && 'active-outline'
-				)}
-				style={
-					{
-						'--dl-family-color': familiesColors[family],
-						'--dl-family-top': familiesGradients[family]?.[0],
-						'--dl-family-bottom': familiesGradients[family]?.[1],
-					} as React.CSSProperties
-				}
-				id={family}
-			>
-				<button
-					type="button"
-					className="family-toggle"
-					aria-expanded={open}
-					aria-controls={panelId}
-					aria-disabled={!collapsible || undefined}
-					onClick={() => collapsible && onToggle(family)}
-				>
-					<Family name={family} big />
-					<span className="family-name">{translateUI(family)}</span>
-					<span className="family-count">
-						{count}&nbsp;{translateUI(count > 1 ? 'monsters' : 'monster')}
-					</span>
-					{collapsible && (
-						<Icon name="chevron-down" className="family-chevron" />
-					)}
-				</button>
-			</h2>
-			{open && (
-				<div className="table-responsive" id={panelId}>
-					<table className="table synthesis-table">
-						<thead>
-							<tr>
-								<th className="cell-monster">{translateUI('Monster')}</th>
-								<th className="cell-details" />
-								<th className="cell-family">{translateUI('Family')}</th>
-								<th className="cell-rank">{translateUI('Rank')}</th>
-								{hasSkills && (
-									<th className="cell-skill">
-										{translateUI('Skill set')}
-									</th>
-								)}
-								<th className="cell-synthesis">{translateUI('Synthesis')}</th>
-								<th className="cell-rev-synthesis">
-									{translateUI('Synthesize into')}
-								</th>
-								{hasSpawns && (
-									<th className="cell-spawn">{translateUI('Location')}</th>
-								)}
-							</tr>
-						</thead>
-						{/* selectedRank is used here to avoid calling useIsVisible */}
-						{Object.entries(ranks).map(([rank, ranking]) =>
-							selectedRank && selectedRank != rank ?
-								null
-							:	<RankSection
-									key={rank}
-									family={family}
-									rank={rank}
-									ranking={ranking}
-									hash={hash}
-								/>
-						)}
-					</table>
-				</div>
-			)}
-		</section>
-	);
-};
-
-const RankSection = ({
-	family,
-	rank,
-	ranking,
-	hash,
-}: {
-	family: string;
-	rank: string;
-	ranking: MonsterInterface[];
-	hash?: string;
-}) => {
-	const [ref, visible] = useIsVisible();
-
-	const { translateUI } = useTranslate();
-	const { hasSkills, hasSpawns } = useContext(DetailsContext);
-	const columns = 6 + (hasSkills ? 1 : 0) + (hasSpawns ? 1 : 0);
-	const hashId = `${family}-${rank}`;
-	return (
-		<tbody ref={ref as any} className="rank-group">
-			<tr>
-				<th colSpan={columns} className="group-cell pe-0">
-					<h3 id={hashId} className="rank-heading">
-						<span
-							className={makeClassName(
-								'rank-title',
-								hash == hashId && 'active-outline'
-							)}
-						>
-							{translateUI('Rank')} <Rank name={rank} big />
-						</span>
-						<span className="rank-rule" />
-					</h3>
-				</th>
-			</tr>
-			{ranking.map((monster, i) => {
-				const id =
-					ranking.findIndex(m => m.name === monster.name) === i ?
-						monster.name
-					:	`${monster.name}-${monster.version}`;
-				return visible ?
-						<MonsterRow key={id} id={id} monster={monster} hash={hash} />
-					:	<MonsterRowLoading key={id} id={id} monster={monster} hash={hash} />;
-			})}
-		</tbody>
-	);
-};
-
 export const getStaticProps: GetStaticProps = async () => {
-	try {
-		const defaultGame = 'DQM4';
-		const families: Families = require(`../json/${defaultGame}.json`);
-		reverseSynth(families);
-		const game = games[defaultGame];
-
-		const images = pickImages(
-			require('../json/monstersImages.json'),
-			familiesImageNames(families)
+	const available = Object.values(games).filter(
+		game => game.available && game.key != 'Custom'
+	);
+	const stats: Stats = { games: available.length, monsters: 0, recipes: 0 };
+	available.forEach(game => {
+		const families: Families = require(`../json/${game.key}.json`);
+		Object.values(families).forEach(ranks =>
+			Object.values(ranks).forEach(monsters =>
+				monsters.forEach(monster => {
+					stats.monsters++;
+					stats.recipes += monster.synthesis?.length || 0;
+				})
+			)
 		);
-		const details = gameDetails(defaultGame);
-		const terms = gameTerms(defaultGame);
-		const farewell = gameFarewell(defaultGame);
-		const items = gameItems(defaultGame);
-		const spawns = gameSpawns(defaultGame);
-		const talents = gameTalents(defaultGame, details);
-		return {
-			props: {
-				families,
-				images,
-				details,
-				terms,
-				farewell,
-				items,
-				spawns,
-				talents,
-				game,
-				hasTalentRecipes: gameHasTalentRecipes(defaultGame),
-				isHome: true,
-			},
-		};
-	} catch (e) {
-		console.error(e);
-		return { props: {} };
-	}
+	});
+	return {
+		props: {
+			talentGames: available.filter(game => gameHasTalentRecipes(game.key)),
+			stats,
+			images: pickImages(require('../json/monstersImages.json'), MOCK_MONSTERS),
+		},
+	};
 };
 
-export default PageLines;
+export default PageHome;

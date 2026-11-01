@@ -14,6 +14,7 @@ interface Props {
 	metaimg?: string;
 	fullMetatitle?: boolean;
 	noGoBack?: boolean;
+	noTitle?: boolean;
 	className?: string;
 }
 const Layout: React.FC<Props> = ({
@@ -24,6 +25,7 @@ const Layout: React.FC<Props> = ({
 	metaimg = 'site.png',
 	fullMetatitle = false,
 	noGoBack = false,
+	noTitle = false,
 	className,
 }) => {
 	const router = useRouter();
@@ -58,9 +60,11 @@ const Layout: React.FC<Props> = ({
 			</Head>
 			<main>
 				<Container className={makeClassName('page', className)} fluid>
-					<h1>
-						{!noGoBack && <GoBack />} {title}
-					</h1>
+					{!noTitle && (
+						<h1>
+							{!noGoBack && <GoBack />} {title}
+						</h1>
+					)}
 					{children}
 				</Container>
 			</main>

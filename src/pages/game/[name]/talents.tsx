@@ -19,7 +19,11 @@ import useTranslate from '@/hooks/useTranslate';
 import useHash from '@/hooks/useHash';
 import useScrollToAnchor from '@/hooks/useScrollToAnchor';
 import useStickyBar from '@/hooks/useStickyBar';
-import { gameHasTalentRecipes, gameTalentRecipes, gameTerms } from '../..';
+import {
+	gameHasTalentRecipes,
+	gameTalentRecipes,
+	gameTerms,
+} from '@/components/SynthesisPage';
 
 const categoryLabels: { [category: string]: string } = {
 	Evolution: 'Evolved skill sets',
@@ -68,7 +72,8 @@ const orderRecipes = <T extends [string, GameTalent]>(list: T[]): T[] => {
 		.sort(
 			(a, b) =>
 				rank(a.entry) - rank(b.entry) ||
-				groupStart.get(groupKey(a.entry[0]))! - groupStart.get(groupKey(b.entry[0]))! ||
+				groupStart.get(groupKey(a.entry[0]))! -
+					groupStart.get(groupKey(b.entry[0]))! ||
 				a.i - b.i
 		)
 		.forEach(({ entry: [name] }) => visit(name));
@@ -114,7 +119,7 @@ const TalentsPage: React.FC<Props> = ({
 	talents = emptyTalents,
 	talentGames = [],
 }) => {
-	const { translateUI, translateSkill, isFr } = useTranslate();
+	const { translateUI, translateSkill, translateGame, isFr } = useTranslate();
 	const { hash, nav, navigate } = useHash();
 	const scrollToAnchor = useScrollToAnchor();
 	const [search, setSearch] = useState<string>();
@@ -132,9 +137,9 @@ const TalentsPage: React.FC<Props> = ({
 	);
 	const categories = useMemo(
 		() =>
-			Array.from(new Set(recipes.map(([, talent]) => talent.category || 'Evolution'))).sort(
-				(a, b) => Number(b == 'Combination') - Number(a == 'Combination')
-			),
+			Array.from(
+				new Set(recipes.map(([, talent]) => talent.category || 'Evolution'))
+			).sort((a, b) => Number(b == 'Combination') - Number(a == 'Combination')),
 		[recipes]
 	);
 
@@ -148,11 +153,16 @@ const TalentsPage: React.FC<Props> = ({
 	const filtered = useMemo(
 		() =>
 			recipes.filter(([name, talent]) => {
-				if (selectedCategory && (talent.category || 'Evolution') != selectedCategory) {
+				if (
+					selectedCategory &&
+					(talent.category || 'Evolution') != selectedCategory
+				) {
 					return false;
 				}
 				if (!search) return true;
-				return [name, ...talent.from.flat()].some(n => searchKey(n).includes(search));
+				return [name, ...talent.from.flat()].some(n =>
+					searchKey(n).includes(search)
+				);
 			}),
 		[recipes, selectedCategory, search, isFr, terms]
 	);
@@ -165,7 +175,9 @@ const TalentsPage: React.FC<Props> = ({
 	const scrolledNavRef = useRef<number | undefined>(undefined);
 	useEffect(() => {
 		if (!hash || scrolledNavRef.current === nav) return;
-		if (scrollToAnchor(hash, scrolledNavRef.current === undefined ? 'auto' : 'smooth')) {
+		if (
+			scrollToAnchor(hash, scrolledNavRef.current === undefined ? 'auto' : 'smooth')
+		) {
 			scrolledNavRef.current = nav;
 		}
 	}, [hash, nav, filtered]);
@@ -194,8 +206,12 @@ const TalentsPage: React.FC<Props> = ({
 	return (
 		<Layout
 			noGoBack
-			title={translateUI('Skill sets')}
-			metatitle={`${game.title} ${translateUI('Skill sets')}`}
+			title={
+				<>
+					{translateUI('Skill sets')} {translateGame(game)}
+				</>
+			}
+			metatitle={`${translateGame(game)} ${translateUI('Skill sets')}`}
 			metadescription={`${game.title}: every skill set obtained by evolving or combining maxed skill sets, with the SP needed and the skills and traits they unlock.`}
 			className="overflow-visible"
 		>
@@ -234,7 +250,11 @@ const TalentsPage: React.FC<Props> = ({
 							'filter-dropdown',
 							!!selectedCategory && 'filter-active'
 						)}
-						title={translateUI(selectedCategory ? categoryLabel(selectedCategory) : 'Category')}
+						title={translateUI(
+							selectedCategory ?
+								categoryLabel(selectedCategory)
+							:	'Category'
+						)}
 					>
 						{!!selectedCategory && (
 							<Dropdown.Item onClick={() => setSelectedCategory(undefined)}>
@@ -268,7 +288,8 @@ const TalentsPage: React.FC<Props> = ({
 						categories.map(category => {
 							const list = orderRecipes(
 								filtered.filter(
-									([, talent]) => (talent.category || 'Evolution') == category
+									([, talent]) =>
+										(talent.category || 'Evolution') == category
 								)
 							);
 							if (!list.length) return null;
@@ -285,7 +306,9 @@ const TalentsPage: React.FC<Props> = ({
 										<span className="talent-recipes-count">
 											{list.length}&nbsp;
 											{translateUI(
-												list.length > 1 ? 'skill sets' : 'skill set'
+												list.length > 1 ?
+													'skill sets'
+												:	'skill set'
 											)}
 										</span>
 									</h2>
@@ -323,13 +346,16 @@ const pairPool = (from: string[][]): { pool: string[]; rest: string[][] } | unde
 	const grow = (clique: string[], start: number) => {
 		if (clique.length > best.length) best = clique;
 		for (let i = start; i < nodes.length; i++) {
-			if (clique.every(n => isLinked(n, nodes[i]))) grow([...clique, nodes[i]], i + 1);
+			if (clique.every(n => isLinked(n, nodes[i])))
+				grow([...clique, nodes[i]], i + 1);
 		}
 	};
 	grow([], 0);
 	if (best.length < 3) return;
 	const inPool = new Set(best);
-	const rest = from.filter(r => !(r.length == 2 && r[0] != r[1] && r.every(n => inPool.has(n))));
+	const rest = from.filter(
+		r => !(r.length == 2 && r[0] != r[1] && r.every(n => inPool.has(n)))
+	);
 	return { pool: best, rest };
 };
 
@@ -337,7 +363,9 @@ const ELEMENTS = ['Frizz', 'Bang', 'Woosh', 'Crack', 'Sizz', 'Zap', 'Zam'];
 
 const elementsOf = (talent: string): string[] | undefined => {
 	const m = talent.match(/^(\w+) & (\w+)(?: [\w]+)?$/);
-	return m && ELEMENTS.includes(m[1]) && ELEMENTS.includes(m[2]) ? [m[1], m[2]] : undefined;
+	return m && ELEMENTS.includes(m[1]) && ELEMENTS.includes(m[2]) ?
+			[m[1], m[2]]
+		:	undefined;
 };
 
 const elementRule = (from: string[][]) => {
@@ -353,7 +381,8 @@ const elementRule = (from: string[][]) => {
 	const expected = new Set<string>();
 	const walk = (chosen: string[], start: number) => {
 		if (chosen.length >= min && covering(chosen)) {
-			if (chosen.every((_, i) => !covering(chosen.filter((__, j) => j != i)))) expected.add([...chosen].sort().join('|'));
+			if (chosen.every((_, i) => !covering(chosen.filter((__, j) => j != i))))
+				expected.add([...chosen].sort().join('|'));
 			return;
 		}
 		if (chosen.length == max) return;
@@ -361,7 +390,8 @@ const elementRule = (from: string[][]) => {
 	};
 	walk([], 0);
 	const actual = new Set(elementRecipes.map(r => [...r].sort().join('|')));
-	if (expected.size != actual.size || Array.from(expected).some(k => !actual.has(k))) return;
+	if (expected.size != actual.size || Array.from(expected).some(k => !actual.has(k)))
+		return;
 	return {
 		target,
 		talents,
@@ -386,7 +416,9 @@ type RecipeLine = string[][];
 const partKey = (part: string[]) => [...part].sort().join('|');
 
 const groupByCommon = (recipes: string[][]): RecipeLine[] => {
-	let lines: RecipeLine[] = recipes.map(recipe => recipe.map(ingredient => [ingredient]));
+	let lines: RecipeLine[] = recipes.map(recipe =>
+		recipe.map(ingredient => [ingredient])
+	);
 	for (;;) {
 		let merged = false;
 		for (let a = 0; a < lines.length && !merged; a++) {
@@ -405,7 +437,12 @@ const groupByCommon = (recipes: string[][]): RecipeLine[] => {
 				const union = Array.from(new Set([...onlyX[0], ...onlyY]));
 				const line = x.map(part => (part == onlyX[0] ? union : part));
 				line.sort((p, q) => p.length - q.length);
-				lines = [...lines.slice(0, a), line, ...lines.slice(a + 1, b), ...lines.slice(b + 1)];
+				lines = [
+					...lines.slice(0, a),
+					line,
+					...lines.slice(a + 1, b),
+					...lines.slice(b + 1),
+				];
 				merged = true;
 			}
 		}
@@ -450,7 +487,11 @@ const TalentRecipe = ({
 				{!!rule && (
 					<>
 						<span className="talent-recipe-or">
-							{translateUI(rule.min == rule.max ? '{min} among the following' : '{min} to {max} among the following')
+							{translateUI(
+								rule.min == rule.max ?
+									'{min} among the following'
+								:	'{min} to {max} among the following'
+							)
 								.replace('{min}', String(rule.min))
 								.replace('{max}', String(rule.max))}
 							{', '}
@@ -458,14 +499,20 @@ const TalentRecipe = ({
 						</span>
 						<div className="talent-recipe-combo">
 							{rule.talents.map(ingredient => (
-								<Ingredient key={ingredient} name={ingredient} points={points?.[ingredient]} />
+								<Ingredient
+									key={ingredient}
+									name={ingredient}
+									points={points?.[ingredient]}
+								/>
 							))}
 						</div>
 					</>
 				)}
 				{!!pool && (
 					<>
-						{!!rule && <span className="talent-recipe-or">{translateUI('Or')}</span>}
+						{!!rule && (
+							<span className="talent-recipe-or">{translateUI('Or')}</span>
+						)}
 						<span className="talent-recipe-or">
 							{translateUI('2 among the following')}
 						</span>
@@ -488,13 +535,20 @@ const TalentRecipe = ({
 						<div className="talent-recipe-combo">
 							{line.map((part, j) => (
 								<React.Fragment key={j}>
-									{j > 0 && <span className="talent-recipe-plus">+</span>}
+									{j > 0 && (
+										<span className="talent-recipe-plus">+</span>
+									)}
 									{part.map((ingredient, k) => (
 										<React.Fragment key={`${ingredient}-${k}`}>
 											{k > 0 && (
-												<span className="talent-recipe-or">{translateUI('Or')}</span>
+												<span className="talent-recipe-or">
+													{translateUI('Or')}
+												</span>
 											)}
-											<Ingredient name={ingredient} points={points?.[ingredient]} />
+											<Ingredient
+												name={ingredient}
+												points={points?.[ingredient]}
+											/>
 										</React.Fragment>
 									))}
 								</React.Fragment>

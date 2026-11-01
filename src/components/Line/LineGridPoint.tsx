@@ -3,6 +3,7 @@ import { LinePoint as LinePointInterface } from '@/types/Line';
 import LineImage from '@/components/Line/LineImage';
 import { makeClassName } from '@/functions';
 import Icon from '@/components/Icon';
+import useTranslate from '@/hooks/useTranslate';
 import { GridContext } from '@/context/grid';
 import LineSvg, { pointHeight, pointWidth, xUnit, yUnit } from './LineSvg';
 
@@ -54,6 +55,7 @@ const LinePoint: React.FC<{
 		handleCut,
 	} = React.useContext(GridContext);
 	const [cutting, setCutting] = useState(false);
+	const { translateUI } = useTranslate();
 	const isDrawing: boolean =
 		!!drawing && drawing[0] == coord[0] && drawing[1] == coord[1];
 
@@ -172,14 +174,14 @@ const LinePoint: React.FC<{
 						name="bezier2"
 						className={makeClassName('action draw', isDrawing && 'active')}
 						onClick={handleClickDraw}
-						title="link it to another monster"
+						title={translateUI('link it to another monster')}
 					/>
 					{xCollapsable ? (
 						<Icon
 							name="arrows-collapse-vertical"
 							className="action collapse-point collapse-col-point"
 							onClick={handleClickXCollapse}
-							title="collapse 2 cells in 2 columns"
+							title={translateUI('collapse 2 cells in 2 columns')}
 						/>
 					) : (
 						xSize == 2 && (
@@ -187,7 +189,7 @@ const LinePoint: React.FC<{
 								name="arrows-expand-vertical"
 								className="action collapse-point"
 								onClick={handleClickXCollapse}
-								title="uncollapse 2 cells"
+								title={translateUI('uncollapse 2 cells')}
 							/>
 						)
 					)}
@@ -196,14 +198,14 @@ const LinePoint: React.FC<{
 							name="bullseye"
 							className="action target"
 							onClick={handleClickTarget}
-							title="be the target of the link"
+							title={translateUI('be the target of the link')}
 						/>
 					) : yCollapsable ? (
 						<Icon
 							name="arrows-collapse"
 							className="action collapse-point collapse-row-point"
 							onClick={handleClickYCollapse}
-							title="collapse 2 cells"
+							title={translateUI('collapse 2 cells')}
 						/>
 					) : (
 						ySize == 2 && (
@@ -211,7 +213,7 @@ const LinePoint: React.FC<{
 								name="arrows-expand"
 								className="action collapse-point"
 								onClick={handleClickYCollapse}
-								title="uncollapse 2 cells in 2 rows"
+								title={translateUI('uncollapse 2 cells in 2 rows')}
 							/>
 						)
 					)}

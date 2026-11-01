@@ -20,7 +20,7 @@ import Family from './Family';
 import Lower from './Lower';
 import MonsterImg from './MonsterImg';
 
-const TRAIL_ZOOM = 50;
+export const TRAIL_ZOOM = 50;
 const RENDER_HEIGHT = 8;
 const MIN_PREVIEW_HEIGHT = 80;
 const PREVIEW_HEIGHT_KEY = 'trail-preview-height';
@@ -53,7 +53,7 @@ const capped = (node: TrailNode, left: number): TrailNode =>
 		{ name: node.name, rank: node.rank, plus: node.plus, lower: node.lower }
 	:	{ ...node, parents: node.parents.map(parent => capped(parent, left - 1)) };
 
-const buildTrailLine = (trees: TrailNode[]): TrailLine => {
+export const buildTrailLine = (trees: TrailNode[]): TrailLine => {
 	const shown = trees.map(tree => capped(tree, RENDER_HEIGHT));
 	if (!shown.length) return { line: { size: 0, columns: [] }, paths: {} };
 

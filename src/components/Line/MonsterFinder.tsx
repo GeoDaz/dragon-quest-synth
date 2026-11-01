@@ -46,6 +46,7 @@ const MonsterFinder: React.FC<Props> = ({
 	disabled,
 }) => {
 	const searchList = useContext(SearchContext);
+	const { translateUI } = useTranslate();
 	const [query, setQuery] = useState('');
 	const [selection, setSelection] = useState(0);
 	const [limit, setLimit] = useState(PAGE_SIZE);
@@ -142,13 +143,13 @@ const MonsterFinder: React.FC<Props> = ({
 		<div className="monster-finder mb-3">
 			<div className="position-relative">
 				<Form.Label htmlFor={id} visuallyHidden>
-					{label}
+					{translateUI(label)}
 				</Form.Label>
 				<Form.Control
 					ref={forwardRef}
 					type="text"
 					id={id}
-					placeholder={label}
+					placeholder={translateUI(label)}
 					value={query}
 					onChange={e => setQuery(e.target.value)}
 					onKeyDown={onKeyDown}

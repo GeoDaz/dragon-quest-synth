@@ -8,7 +8,7 @@ import PageLines, {
 	gameSpawns,
 	gameTalents,
 	gameTerms,
-} from '..';
+} from '@/components/SynthesisPage';
 import { reverseSynth } from '@/functions/transformer/synthesis';
 import { familiesImageNames, pickImages } from '@/functions/images';
 import { Game } from '@/types/Game';

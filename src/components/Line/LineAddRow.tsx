@@ -2,16 +2,18 @@ import { addLineColumn } from '@/reducers/lineReducer';
 import React from 'react';
 import { Row } from 'react-bootstrap';
 import Icon from '../Icon';
+import useTranslate from '@/hooks/useTranslate';
 
 interface Props {
 	handleUpdate: CallableFunction;
 }
 const LineAddRow: React.FC<Props> = ({ handleUpdate }) => {
+	const { translateUI } = useTranslate();
 	return (
 		<Row className="add-row" onClick={e => handleUpdate(addLineColumn)}>
 			<div>
 				<Icon name="plus-lg" />
-				<br /> Add Column
+				<br /> {translateUI('Add Column')}
 			</div>
 		</Row>
 	);

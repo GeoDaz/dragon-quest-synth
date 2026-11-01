@@ -11,6 +11,7 @@ import UploadImage from '../UploadImage';
 import InputMono from '../InputMono';
 import { makeClassName } from '@/functions';
 import ButtonRemove from '../Button/ButtonRemove';
+import useTranslate from '@/hooks/useTranslate';
 
 interface Props {
 	handleClose: () => void;
@@ -24,6 +25,7 @@ const LinePointSettings: React.FC<Props> = ({
 	coord,
 	show = false,
 }) => {
+	const { translateUI } = useTranslate();
 	const ref = useRef<HTMLInputElement>(null);
 	const { handleUpdate } = useContext(GridContext);
 
@@ -141,7 +143,7 @@ const LinePointSettings: React.FC<Props> = ({
 		<Modal show={show} onHide={handleClose} className="line-point-settings">
 			<Modal.Header closeButton>
 				<Modal.Title>
-					<Icon name="sliders2" /> Element Options
+					<Icon name="sliders2" /> {translateUI('Element Options')}
 				</Modal.Title>
 			</Modal.Header>
 			<Modal.Body>
@@ -149,7 +151,7 @@ const LinePointSettings: React.FC<Props> = ({
 				<InputMono
 					name="image"
 					onSubmit={handleImage}
-					placeholder="Image URL"
+					placeholder={translateUI('Image URL')}
 					defaultValue={(point && point.name == 'url' && point.image) || ''}
 				/>
 				<UploadImage handleUpload={handleUpload} className="mb-3" />
@@ -183,7 +185,7 @@ const LinePointSettings: React.FC<Props> = ({
 									'text-decoration-line-through'
 							)}
 						>
-							Add a skin (max 3)
+							{translateUI('Add a skin (max 3)')}
 						</h4>
 						<MonsterFinder
 							id="monster-finder-skin"
@@ -196,7 +198,7 @@ const LinePointSettings: React.FC<Props> = ({
 									{skin}{' '}
 									<ButtonRemove
 										onClick={() => handleRemoveSkin(i)}
-										title="remove skin"
+										title={translateUI('remove skin')}
 									/>
 								</h5>
 							))}
@@ -214,76 +216,82 @@ const SettingPoint: React.FC<{
 	handleRemove: MouseEventHandler<HTMLElement>;
 	handleMirror: MouseEventHandler<HTMLElement>;
 	imgClassName?: string;
-}> = ({ className, point, handleRemove, handleMirror, imgClassName }) => (
-	<div className={className}>
-		<h4 className="text-capitalize break-word mb-3">
-			{point.name} <ButtonRemove onClick={handleRemove} title="remove digimon" />{' '}
-			<Button title="mirror mode" onClick={handleMirror}>
-				<Icon name="symmetry-vertical" />
-			</Button>
-		</h4>
-		<div className="line-point width-min-content">
-			<LineImage
-				name={point.name}
-				path={point.image}
-				mirror={point.mirror}
-				className={imgClassName}
-				width={300}
-				height={300}
-			/>
-			{point.skins?.map((skin, i) => (
+}> = ({ className, point, handleRemove, handleMirror, imgClassName }) => {
+	const { translateUI } = useTranslate();
+	return (
+		<div className={className}>
+			<h4 className="text-capitalize break-word mb-3">
+				{point.name} <ButtonRemove onClick={handleRemove} title={translateUI('remove monster')} />{' '}
+				<Button title={translateUI('mirror mode')} onClick={handleMirror}>
+					<Icon name="symmetry-vertical" />
+				</Button>
+			</h4>
+			<div className="line-point width-min-content">
 				<LineImage
-					key={i}
-					name={skin}
-					className="line-skin"
-					loadable={false}
+					name={point.name}
+					path={point.image}
+					mirror={point.mirror}
+					className={imgClassName}
 					width={300}
 					height={300}
-					style={{ bottom: 3.3 * i + 'em' }}
 				/>
-			))}
+				{point.skins?.map((skin, i) => (
+					<LineImage
+						key={i}
+						name={skin}
+						className="line-skin"
+						loadable={false}
+						width={300}
+						height={300}
+						style={{ bottom: 3.3 * i + 'em' }}
+					/>
+				))}
+			</div>
 		</div>
-	</div>
-);
+	);
+};
 
 const SettingFrom: React.FC<{
 	number: number;
 	color?: string;
 	handleSelect: CallableFunction;
 	handleRemove: CallableFunction;
-}> = ({ number, color, handleSelect, handleRemove }) => (
-	<div className="mt-4">
-		Line {number + 1}&nbsp;:{' '}
-		<DropdownButton
-			as={ButtonGroup}
-			id="line-point-settings_point-from"
-			variant="secondary"
-			title={
-				<>
-					<Icon
-						name="circle-fill"
-						style={{
-							color: color ? colors[color] : 'white',
-						}}
-					/>{' '}
-					{color || 'default'}
-				</>
-			}
-		>
-			{legend.map(legend => (
-				<Dropdown.Item
-					key={legend.key}
-					eventKey={legend.key}
-					active={legend.key === color}
-					onClick={e => handleSelect(legend.key, number)}
-				>
-					<Icon name="circle-fill" style={{ color: legend.color }} />{' '}
-					{legend.key}
-				</Dropdown.Item>
-			))}
-		</DropdownButton>{' '}
-		<ButtonRemove onClick={e => handleRemove(number)} title="remove line" />
-	</div>
-);
+}> = ({ number, color, handleSelect, handleRemove }) => {
+	const { translateUI } = useTranslate();
+	return (
+		<div className="mt-4">
+			{translateUI('Line')} {number + 1}&nbsp;:{' '}
+			<DropdownButton
+				as={ButtonGroup}
+				id="line-point-settings_point-from"
+				variant="secondary"
+				title={
+					<>
+						<Icon
+							name="circle-fill"
+							style={{
+								color: color ? colors[color] : 'white',
+							}}
+						/>{' '}
+						{translateUI(color || 'default')}
+					</>
+				}
+			>
+				{legend.map(legend => (
+					<Dropdown.Item
+						key={legend.key}
+						eventKey={legend.key}
+						active={legend.key === color}
+						onClick={e => handleSelect(legend.key, number)}
+					>
+						<Icon name="circle-fill" style={{ color: legend.color }} />{' '}
+						{translateUI(legend.key)}
+					</Dropdown.Item>
+				))}
+			</DropdownButton>{' '}
+			<ButtonRemove onClick={e => handleRemove(number)} title={translateUI('remove line')} />
+		</div>
+	);
+};
 
 export default LinePointSettings;

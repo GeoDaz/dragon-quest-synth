@@ -2,6 +2,7 @@ import { useCallback, useContext } from 'react';
 import { LanguageContext } from '@/context/language';
 import { GameContext } from '@/context/game';
 import { StringObject } from '@/types/Ui';
+import { Game } from '@/types/Game';
 import { withoutAlt } from '@/functions';
 const translatedMonsters = require('../json/monsterTranslations.json');
 const translatedMoves: StringObject = require('../json/movesTranslations.json');
@@ -106,7 +107,11 @@ const translatedUI: StringObject = {
 	Large: 'Grand',
 	'Skill set': 'Talent',
 	'Skill sets': 'Talents',
+	'Dragon Quest Monsters synthesis': 'Synthèses Dragon Quest Monsters',
 	'Synthesis chart': 'Table des synthèses',
+	'Synthesis tree builder': 'Créateur d’arbre de synthèse',
+	'More tools': 'Autres outils',
+	Games: 'Jeux',
 	'skill set': 'talent',
 	'skill sets': 'talents',
 	'Search a skill set': 'Rechercher un talent',
@@ -224,6 +229,66 @@ const translatedUI: StringObject = {
 	'Golden Land': 'Eldorado',
 	'after clearing': 'après avoir terminé',
 	'the story': "l'histoire",
+	'Make your synthesis tree': 'Créez votre arbre de synthèse',
+	Edit: 'Éditer',
+	View: 'Voir',
+	'Save as': 'Enregistrer en',
+	'Import from': 'Importer depuis',
+	'Report a bug': 'Signaler un bug',
+	Legend: 'Légende',
+	'Add Column': 'Ajouter une colonne',
+	'insert column': 'insérer une colonne',
+	'remove column': 'supprimer la colonne',
+	'insert row before': 'insérer une ligne avant',
+	'insert row': 'insérer une ligne',
+	'remove row': 'supprimer la ligne',
+	'link it to another monster': 'le relier à un autre monstre',
+	'be the target of the link': 'être la cible du lien',
+	'collapse 2 cells': 'fusionner 2 cases',
+	'uncollapse 2 cells': 'séparer 2 cases',
+	'collapse 2 cells in 2 columns': 'fusionner 2 cases sur 2 colonnes',
+	'uncollapse 2 cells in 2 rows': 'séparer 2 cases sur 2 lignes',
+	'Element Options': "Options de l'élément",
+	'Research a Monster': 'Rechercher un monstre',
+	'Image URL': "URL de l'image",
+	'Upload an image': 'Importer une image',
+	'Add a skin (max 3)': 'Ajouter un skin (max 3)',
+	'remove skin': 'retirer le skin',
+	'remove monster': 'retirer le monstre',
+	'mirror mode': 'mode miroir',
+	Line: 'Ligne',
+	'remove line': 'retirer la ligne',
+	'Default color': 'Couleur par défaut',
+	'Dark, death, black, chaos, demon, ... evolution':
+		'Évolution sombre, mort, noire, chaos, démon...',
+	Fusion: 'Fusion',
+	'Mode change': 'Changement de forme',
+	'From a human': "Issu d'un humain",
+	'Gold monster': 'Monstre doré',
+	'Holy, angel evolution': 'Évolution sacrée, angélique',
+	'Fire, lava made monster': 'Monstre de feu, de lave',
+	'Ice, snow made monster': 'Monstre de glace, de neige',
+	'Marine monster': 'Monstre marin',
+	'Aerial, wind master monster': 'Monstre aérien, maître du vent',
+	'Earth, rock monster': 'Monstre de terre, de roche',
+	'Grass made monster': 'Monstre végétal',
+	'Thunder, electric monster': 'Monstre de foudre, électrique',
+	'Machine, metal made monster': 'Monstre machine, de métal',
+	default: 'défaut',
+	dark: 'sombre',
+	fusion: 'fusion',
+	mode: 'forme',
+	human: 'humain',
+	gold: 'doré',
+	light: 'sacré',
+	fire: 'feu',
+	ice: 'glace',
+	marine: 'marin',
+	wind: 'vent',
+	earth: 'terre',
+	grass: 'végétal',
+	electric: 'électrique',
+	machine: 'machine',
 };
 
 const useTranslate = () => {
@@ -269,6 +334,8 @@ const useTranslate = () => {
 		(name: string): string => (isFr && translatedTraits[name]) || name,
 		[isFr]
 	);
+	const translateGame = (game: Game): string =>
+		isFr ? (game.titleFr || game.title).replace(/ ?:/g, ' :') : game.title;
 
 	return {
 		isFr,
@@ -278,6 +345,7 @@ const useTranslate = () => {
 		translateMove,
 		translateSkill,
 		translateTrait,
+		translateGame,
 	};
 };
 

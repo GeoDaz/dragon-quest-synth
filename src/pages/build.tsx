@@ -24,6 +24,7 @@ import { getDubbedSearchList } from '@/functions/search';
 import { MonsterInfoContext, MonsterInfos } from '@/context/monsterInfo';
 import { games } from '@/functions/games';
 import { Families } from '@/types/Monster';
+import useTranslate from '@/hooks/useTranslate';
 
 interface Props {
 	images: StringObject;
@@ -38,6 +39,7 @@ const PageBuild: React.FC<Props> = ({ images = {}, search, monsterInfos = {} }) 
 	const [edition, edit] = useState<boolean>(true);
 	useMemo(() => areCollapsablePoints(line), [line]);
 	const { downloadImage, downloading, error } = useDownloadImg(line.title);
+	const { isFr, translateUI } = useTranslate();
 
 	const handleDownloadImage = () => {
 		const editionState = edition;
@@ -83,36 +85,48 @@ const PageBuild: React.FC<Props> = ({ images = {}, search, monsterInfos = {} }) 
 
 	return (
 		<Layout
-			title="Make your synthesis three"
+			title={translateUI('Make your synthesis tree')}
 			metatitle="Synthesis tree builder"
 			metadescription="Build your own Dragon Quest Monsters synthesis tree on a grid, then export it as an image or as a code file to rework it later."
 		>
-			<blockquote className="blockquote">
-				<b>Click</b> on a case from the grid to set a Monster.
-				<br /> You can make any relations between a monsters.
-				<br /> Use <b>Save as</b> to export your work, either as a code file you
-				can import back later, or as an image.
-				<br /> Your work is saved on the browser for one line at a time but you
-				can export it on your computer with the <b>Save</b> button and rework it
-				later with the <b>Import</b> button.
-			</blockquote>
+			{isFr ?
+				<blockquote className="blockquote">
+					<b>Cliquez</b> sur une case de la grille pour y placer un monstre.
+					<br /> Vous pouvez relier les monstres comme vous le souhaitez.
+					<br /> Utilisez <b>Enregistrer en</b> pour exporter votre travail, soit
+					en fichier de code à réimporter plus tard, soit en image.
+					<br /> Votre travail est sauvegardé dans le navigateur, un arbre à la
+					fois, mais vous pouvez l&apos;exporter sur votre ordinateur avec le
+					bouton <b>Enregistrer en</b> et le reprendre plus tard avec le bouton{' '}
+					<b>Importer depuis</b>.
+				</blockquote>
+			:	<blockquote className="blockquote">
+					<b>Click</b> on a case from the grid to set a Monster.
+					<br /> You can make any relations between a monsters.
+					<br /> Use <b>Save as</b> to export your work, either as a code file you
+					can import back later, or as an image.
+					<br /> Your work is saved on the browser for one line at a time but you
+					can export it on your computer with the <b>Save</b> button and rework it
+					later with the <b>Import</b> button.
+				</blockquote>
+			}
 			<div className="line-filters align-items-center">
 				<BoostrapSwitch
 					checked={edition}
 					labelOn={
 						<>
-							Edit <Icon name="pencil-fill" />
+							{translateUI('Edit')} <Icon name="pencil-fill" />
 						</>
 					}
 					labelOff={
 						<>
-							<Icon name="eye-fill" /> View
+							<Icon name="eye-fill" /> {translateUI('View')}
 						</>
 					}
 					toggle={() => edit(!edition)}
 				/>
 				<Button variant="danger" onClick={handleVoid}>
-					<Icon name="trash3-fill" /> Void
+					<Icon name="trash3-fill" /> {translateUI('Void')}
 				</Button>
 				<DownloadDropdown
 					downloadCode={downloadCode}

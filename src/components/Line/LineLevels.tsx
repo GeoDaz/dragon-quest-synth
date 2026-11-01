@@ -3,6 +3,7 @@ import { Button, Form } from 'react-bootstrap';
 import { GridContext } from '@/context/grid';
 import { addLineRow, defaultLine, removeLineRow } from '@/reducers/lineReducer';
 import Icon from '../Icon';
+import useTranslate from '@/hooks/useTranslate';
 import Line from '@/types/Line';
 
 const EMPTY = '\u00A0';
@@ -16,6 +17,7 @@ interface Props {
 }
 const LineLevels: React.FC<Props> = ({ line }) => {
 	const { handleEdit, handleUpdate } = useContext(GridContext);
+	const { translateUI } = useTranslate();
 	const [editingIndex, setEditingIndex] = useState<number | null>(null);
 	const [levelsPicked, setLevelsPicked] = useState<string[]>(() => makeLevels(line));
 
@@ -99,7 +101,7 @@ const LineLevels: React.FC<Props> = ({ line }) => {
 								<Button
 									variant="primary"
 									className="add before"
-									title="insert row before"
+									title={translateUI('insert row before')}
 									onClick={e => handleAddBefore(e, i)}
 								>
 									<Icon name="plus-lg" />
@@ -108,14 +110,14 @@ const LineLevels: React.FC<Props> = ({ line }) => {
 							<Button
 								variant="primary"
 								className="add"
-								title="insert row"
+								title={translateUI('insert row')}
 								onClick={e => handleAdd(e, i)}
 							>
 								<Icon name="plus-lg" />
 							</Button>
 							<Button
 								variant="danger"
-								title="remove row"
+								title={translateUI('remove row')}
 								onClick={e => handleRemove(e, i)}
 							>
 								<Icon name="trash3-fill" />

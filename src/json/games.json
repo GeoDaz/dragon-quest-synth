@@ -2,7 +2,7 @@
 	"DQM1": {
 		"key": "DQM1",
 		"series": "monsters",
-		"title": "Dragon Quest Monsters 1: Terry's Wonderland",
+		"title": "Dragon Quest Monsters: Terry's Wonderland",
 		"alias": "Dragon Warrior Monsters",
 		"extension": "png",
 		"available": true,
@@ -11,7 +11,7 @@
 	"DQM2": {
 		"key": "DQM2",
 		"series": "monsters",
-		"title": "Dragon Quest Monsters 2: Cobi and Tara's Marvelous Mysterious Key",
+		"title": "Dragon Quest Monsters: Cobi and Tara's Marvelous Mysterious Key",
 		"alias": "Dragon Warrior Monsters 2",
 		"extension": "png",
 		"available": true,
@@ -21,6 +21,7 @@
 		"key": "DQM3",
 		"series": "monsters",
 		"title": "Dragon Quest Monsters: The Dark Prince",
+		"titleFr": "Dragon Quest Monsters : Le Prince des ombres",
 		"extension": "png",
 		"available": true,
 		"ranks": ["X", "S", "A", "B", "C", "D", "E", "F", "G"]
@@ -29,6 +30,7 @@
 		"key": "DQM4",
 		"series": "monsters",
 		"title": "Dragon Quest Monsters: The Withered World",
+		"titleFr": "Dragon Quest Monsters : Le royaume de Boisflétri",
 		"extension": "png",
 		"available": true,
 		"ranks": ["X", "S", "A", "B", "C", "D", "E", "F", "G"]
@@ -36,7 +38,7 @@
 	"DQMJ1": {
 		"key": "DQMJ1",
 		"series": "joker",
-		"title": "Dragon Quest Monsters: Joker",
+		"title": "Dragon Quest Monsters Joker",
 		"extension": "png",
 		"available": true,
 		"ranks": ["X", "S", "A", "B", "C", "D", "E", "F"]
@@ -44,7 +46,7 @@
 	"DQMJ2": {
 		"key": "DQMJ2",
 		"series": "joker",
-		"title": "Dragon Quest Monsters: Joker 2",
+		"title": "Dragon Quest Monsters Joker 2",
 		"extension": "png",
 		"available": true,
 		"ranks": ["???", "X", "S", "A", "B", "C", "D", "E", "F"]
@@ -52,7 +54,7 @@
 	"DQMJ3": {
 		"key": "DQMJ3",
 		"series": "joker",
-		"title": "Dragon Quest Monsters: Joker 3",
+		"title": "Dragon Quest Monsters Joker 3",
 		"extension": "png",
 		"available": true,
 		"ranks": ["X", "S", "A", "B", "C", "D", "E", "F"]

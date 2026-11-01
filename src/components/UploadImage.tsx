@@ -1,11 +1,13 @@
 import React from 'react';
 import Icon from './Icon';
+import useTranslate from '@/hooks/useTranslate';
 import { makeClassName } from '@/functions';
 
 const UploadImage: React.FC<{
 	handleUpload: CallableFunction;
 	className?: string;
 }> = ({ handleUpload, className }) => {
+	const { translateUI } = useTranslate();
 	const getBase64 = (file: File) => {
 		return new Promise<string | null>((resolve, reject) => {
 			const reader = new FileReader();
@@ -42,7 +44,7 @@ const UploadImage: React.FC<{
 				htmlFor="upload-image"
 				className={makeClassName('btn btn-secondary', className)}
 			>
-				<Icon name="upload" className="me-2" /> Upload an image
+				<Icon name="upload" className="me-2" /> {translateUI('Upload an image')}
 			</label>
 			<input
 				type="file"
