@@ -457,7 +457,12 @@ const PageLines: React.FC<Props> = props => {
 						</div>
 					))}
 			</div>
-			{hasTalentRecipes && <GameTabs game={game.key} active="synthesis" />}
+			<GameTabs
+				game={game.key}
+				active="synthesis"
+				hasTalents={hasTalentRecipes}
+				hasAreas={hasSpawns}
+			/>
 			<div ref={filtersRef} className="synthesis-filters mb-4">
 				<SearchBar
 					label={translateUI('Search a monster or a skill set')}

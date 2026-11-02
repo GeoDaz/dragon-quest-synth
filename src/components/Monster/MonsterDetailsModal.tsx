@@ -120,34 +120,8 @@ const MonsterDetailsModal: React.FC<Props> = ({
 	open,
 	handleClose,
 }) => {
-	const { isFr, translateUI, translateTrait } = useTranslate();
-	const localised = (entry?: Localised) => (isFr && entry?.fr) || entry?.en;
-	const named = (name: string, table: GameTerms['traits']) => {
-		const term = table[name];
-		return (
-			<Described text={localised(term?.desc)}>
-				{translateTrait(term?.en || name)}
-			</Described>
-		);
-	};
-	const itemName = (japanese: string) => (
-		<Described text={localised(items[japanese])} className="details-jp">
-			{japanese}
-		</Described>
-	);
+	const { isFr } = useTranslate();
 	const label = (isFr && monster.nom) || withoutAlt(monster.name);
-
-	const traitTag = (trait: MonsterTrait) => {
-		if (trait.level !== undefined) return `${translateUI('Level')} ${trait.level}`;
-		if (trait.plus !== undefined) return `+${trait.plus}`;
-		if (trait.tier) return translateUI(TRAIT_TIERS[trait.tier] || trait.tier);
-	};
-	const traits = details?.traits || [];
-	const smallTraits = traits.filter(trait => !trait.large);
-	const largeTraits = traits.filter(trait => trait.large);
-	const resisted = RESISTANCES.filter(
-		entry => details?.resistances?.[entry.key] !== undefined
-	);
 
 	return (
 		<Modal
@@ -172,168 +146,218 @@ const MonsterDetailsModal: React.FC<Props> = ({
 				</Modal.Title>
 			</Modal.Header>
 			<Modal.Body className="overflow-auto">
-				{!details ?
-					<p className="cell-empty">
-						{translateUI('No data for this monster.')}
-					</p>
-				:	<div className="details-grid">
-						{!!details.stats && (
-							<section className="details-block">
-								<h5>{translateUI('Statistics')}</h5>
-								<dl className="details-stats">
-									{STATS.map(stat => (
-										<div key={stat.key}>
-											<dt>{translateUI(stat.label)}</dt>
-											<dd>{details.stats?.[stat.key]}</dd>
-										</div>
-									))}
-								</dl>
-							</section>
-						)}
-						<section
-							className={makeClassName(
-								'details-block',
-								!details.stats && 'wide'
-							)}
-						>
-							<ul className="details-misc">
-								{!!details.size && (
-									<li>
-										<span>{translateUI('Default size')}</span>
-										<b>{details.size}</b>
-									</li>
-								)}
-								{!!details.skill && (
-									<li>
-										<span>{translateUI('Skill set')}</span>
-										<b>
-											<Talent name={details.skill} />
-										</b>
-									</li>
-								)}
-								{!!details.skills?.length && (
-									<li className="flex align-items-center">
-										<div>{translateUI('Skill sets')}</div>
-										<div>
-											{details.skills.map(name => (
-												<div key={name} className="text-end">
-													<b>
-														<Talent name={name} />
-													</b>
-												</div>
-											))}
-										</div>
-									</li>
-								)}
-								{!!details.randomSkills?.length && (
-									<li className="flex align-items-center">
-										<div>{translateUI('2nd skill among')}</div>
-										<div>
-											{details.randomSkills.map((name, i) => (
-												<div key={name} className="text-end">
-													<b>
-														<Talent name={name} />
-													</b>
-												</div>
-											))}
-										</div>
-									</li>
-								)}
-								{(details.egg !== undefined || !!details.eggColor) && (
-									<li>
-										<span>{translateUI('Egg')}</span>
-										<b>
-											{details.eggColor ?
-												translateUI(details.eggColor)
-											: details.egg ?
-												translateUI('Yes')
-											:	translateUI('No')}
-										</b>
-									</li>
-								)}
-								{/* {details.drops?.map(drop => (
-									<li key={drop.item}>
-										<span>
-											{translateUI('Drop')}
-											{drop.rare ? ' ★' : ''}
-										</span>
-										<b>
-											{itemName(drop.item)} &mdash; {drop.rate}%
-										</b>
-									</li>
-								))} */}
-							</ul>
-						</section>
-
-						<TraitsTable
-							size={largeTraits.length ? 'S' : ''}
-							rows={smallTraits}
-							terms={terms}
-							named={named}
-							heading={translateUI('Traits')}
-							tag={traitTag}
-						/>
-						<TraitsTable
-							size="L"
-							rows={largeTraits}
-							terms={terms}
-							named={named}
-							heading={translateUI('Traits')}
-							tag={traitTag}
-						/>
-
-						{!!resisted.length && (
-							<section className="details-block wide">
-								<h5>{translateUI('Resistances')}</h5>
-								<ul className="details-resistances">
-									{resisted.map(entry => {
-										const value =
-											details.resistances?.[entry.key] || 0;
-										return (
-											<li
-												key={entry.key}
-												className={resistanceClass(value)}
-											>
-												<span>{translateUI(entry.label)}</span>
-												<b>
-													{translateUI(resistanceValue(value))}
-												</b>
-											</li>
-										);
-									})}
-								</ul>
-							</section>
-						)}
-
-						{/* {!!farewell.items.length && (
-							<section className="details-block wide">
-								<h5>{translateUI('Farewell')}</h5>
-								<ul className="details-farewell">
-									{farewell.items.map(entry => (
-										<li key={entry.item}>
-											{itemName(entry.item)}
-											<b>{entry.rate}%</b>
-										</li>
-									))}
-								</ul>
-								<ul className="details-farewell">
-									{farewell.amounts.map(entry => (
-										<li key={entry.growth}>
-											<span>
-												{entry.growth ?
-													`${translateUI('Growth')} ≥ ${entry.growth}%`
-												:	translateUI('Otherwise')}
-											</span>
-											<b>&times;{entry.count}</b>
-										</li>
-									))}
-								</ul>
-							</section>
-						)} */}
-					</div>
-				}
+				<MonsterDetailsBody
+					details={details}
+					terms={terms}
+					farewell={farewell}
+					items={items}
+				/>
 			</Modal.Body>
 		</Modal>
+	);
+};
+
+export const MonsterDetailsBody = ({
+	details,
+	terms,
+	farewell,
+	items,
+}: {
+	details?: MonsterDetails;
+	terms: GameTerms;
+	farewell: GameFarewell;
+	items: GameItems;
+}) => {
+	const { isFr, translateUI, translateTrait } = useTranslate();
+	const localised = (entry?: Localised) => (isFr && entry?.fr) || entry?.en;
+	const named = (name: string, table: GameTerms['traits']) => {
+		const term = table[name];
+		return (
+			<Described text={localised(term?.desc)}>
+				{translateTrait(term?.en || name)}
+			</Described>
+		);
+	};
+	const itemName = (japanese: string) => (
+		<Described text={localised(items[japanese])} className="details-jp">
+			{japanese}
+		</Described>
+	);
+
+	const traitTag = (trait: MonsterTrait) => {
+		if (trait.level !== undefined) return `${translateUI('Level')} ${trait.level}`;
+		if (trait.plus !== undefined) return `+${trait.plus}`;
+		if (trait.tier) return translateUI(TRAIT_TIERS[trait.tier] || trait.tier);
+	};
+	const traits = details?.traits || [];
+	const smallTraits = traits.filter(trait => !trait.large);
+	const largeTraits = traits.filter(trait => trait.large);
+	const resisted = RESISTANCES.filter(
+		entry => details?.resistances?.[entry.key] !== undefined
+	);
+	return (
+		<>
+			{!details ?
+				<p className="cell-empty">
+					{translateUI('No data for this monster.')}
+				</p>
+			:	<div className="details-grid">
+					{!!details.stats && (
+						<section className="details-block">
+							<h5>{translateUI('Statistics')}</h5>
+							<dl className="details-stats">
+								{STATS.map(stat => (
+									<div key={stat.key}>
+										<dt>{translateUI(stat.label)}</dt>
+										<dd>{details.stats?.[stat.key]}</dd>
+									</div>
+								))}
+							</dl>
+						</section>
+					)}
+					<section
+						className={makeClassName(
+							'details-block',
+							!details.stats && 'wide'
+						)}
+					>
+						<ul className="details-misc">
+							{!!details.size && (
+								<li>
+									<span>{translateUI('Default size')}</span>
+									<b>{details.size}</b>
+								</li>
+							)}
+							{!!details.skill && (
+								<li>
+									<span>{translateUI('Skill set')}</span>
+									<b>
+										<Talent name={details.skill} />
+									</b>
+								</li>
+							)}
+							{!!details.skills?.length && (
+								<li className="flex align-items-center">
+									<div>{translateUI('Skill sets')}</div>
+									<div>
+										{details.skills.map(name => (
+											<div key={name} className="text-end">
+												<b>
+													<Talent name={name} />
+												</b>
+											</div>
+										))}
+									</div>
+								</li>
+							)}
+							{!!details.randomSkills?.length && (
+								<li className="flex align-items-center">
+									<div>{translateUI('2nd skill among')}</div>
+									<div>
+										{details.randomSkills.map((name, i) => (
+											<div key={name} className="text-end">
+												<b>
+													<Talent name={name} />
+												</b>
+											</div>
+										))}
+									</div>
+								</li>
+							)}
+							{(details.egg !== undefined || !!details.eggColor) && (
+								<li>
+									<span>{translateUI('Egg')}</span>
+									<b>
+										{details.eggColor ?
+											translateUI(details.eggColor)
+										: details.egg ?
+											translateUI('Yes')
+										:	translateUI('No')}
+									</b>
+								</li>
+							)}
+							{/* {details.drops?.map(drop => (
+								<li key={drop.item}>
+									<span>
+										{translateUI('Drop')}
+										{drop.rare ? ' ★' : ''}
+									</span>
+									<b>
+										{itemName(drop.item)} &mdash; {drop.rate}%
+									</b>
+								</li>
+							))} */}
+						</ul>
+					</section>
+
+					<TraitsTable
+						size={largeTraits.length ? 'S' : ''}
+						rows={smallTraits}
+						terms={terms}
+						named={named}
+						heading={translateUI('Traits')}
+						tag={traitTag}
+					/>
+					<TraitsTable
+						size="L"
+						rows={largeTraits}
+						terms={terms}
+						named={named}
+						heading={translateUI('Traits')}
+						tag={traitTag}
+					/>
+
+					{!!resisted.length && (
+						<section className="details-block wide">
+							<h5>{translateUI('Resistances')}</h5>
+							<ul className="details-resistances">
+								{resisted.map(entry => {
+									const value =
+										details.resistances?.[entry.key] || 0;
+									return (
+										<li
+											key={entry.key}
+											className={resistanceClass(value)}
+										>
+											<span>{translateUI(entry.label)}</span>
+											<b>
+												{translateUI(resistanceValue(value))}
+											</b>
+										</li>
+									);
+								})}
+							</ul>
+						</section>
+					)}
+
+					{/* {!!farewell.items.length && (
+						<section className="details-block wide">
+							<h5>{translateUI('Farewell')}</h5>
+							<ul className="details-farewell">
+								{farewell.items.map(entry => (
+									<li key={entry.item}>
+										{itemName(entry.item)}
+										<b>{entry.rate}%</b>
+									</li>
+								))}
+							</ul>
+							<ul className="details-farewell">
+								{farewell.amounts.map(entry => (
+									<li key={entry.growth}>
+										<span>
+											{entry.growth ?
+												`${translateUI('Growth')} ≥ ${entry.growth}%`
+											:	translateUI('Otherwise')}
+										</span>
+										<b>&times;{entry.count}</b>
+									</li>
+								))}
+							</ul>
+						</section>
+					)} */}
+				</div>
+			}
+		</>
 	);
 };
 

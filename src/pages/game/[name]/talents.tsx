@@ -19,6 +19,7 @@ import useTranslate from '@/hooks/useTranslate';
 import useHash from '@/hooks/useHash';
 import useScrollToAnchor from '@/hooks/useScrollToAnchor';
 import useStickyBar from '@/hooks/useStickyBar';
+import { gameHasAreas } from '@/functions/monsterPage';
 import {
 	gameHasTalentRecipes,
 	gameTalentRecipes,
@@ -86,6 +87,7 @@ interface Props {
 	terms: GameTerms;
 	talents: GameTalents;
 	talentGames: string[];
+	hasAreas?: boolean;
 }
 
 export const getStaticPaths: GetStaticPaths = async ({ locales = [] }) => {
@@ -106,6 +108,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 			game,
 			terms: gameTerms(gameName),
 			talents: gameTalentRecipes(gameName),
+			hasAreas: gameHasAreas(gameName),
 			talentGames: Object.values(games)
 				.filter(game => game.available && gameHasTalentRecipes(game.key))
 				.map(game => game.key),
@@ -118,6 +121,7 @@ const TalentsPage: React.FC<Props> = ({
 	terms = emptyTerms,
 	talents = emptyTalents,
 	talentGames = [],
+	hasAreas = false,
 }) => {
 	const { translateUI, translateSkill, translateGame, isFr } = useTranslate();
 	const { hash, nav, navigate } = useHash();
@@ -244,7 +248,7 @@ const TalentsPage: React.FC<Props> = ({
 						</div>
 					))}
 			</div>
-			<GameTabs game={game.key} active="talents" />
+			<GameTabs game={game.key} active="talents" hasAreas={hasAreas} />
 			<div ref={filtersRef} className="synthesis-filters mb-4">
 				<SearchBar
 					label={translateUI('Search a skill set')}

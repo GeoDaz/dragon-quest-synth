@@ -1,0 +1,971 @@
+{
+	"Slime": [
+		{
+			"area": "Albatross",
+			"time": "always"
+		},
+		{
+			"area": "Treepidation",
+			"time": "day",
+			"weathers": ["Clear"]
+		},
+		{
+			"area": "Dark world"
+		}
+	],
+	"Komodo": [
+		{
+			"area": "Doubtback",
+			"time": "day",
+			"weathers": ["Clear"]
+		}
+	],
+	"Swarmtroop": [
+		{
+			"area": "Treepidation",
+			"time": "night",
+			"weathers": ["Clear"]
+		}
+	],
+	"Platypunk": [
+		{
+			"area": "Doubtback",
+			"time": "always"
+		}
+	],
+	"Dracky": [
+		{
+			"area": "Treepidation",
+			"time": "night"
+		},
+		{
+			"area": "Doubtback",
+			"time": "night",
+			"weathers": ["Clear"]
+		}
+	],
+	"Ghost": [
+		{
+			"area": "Doubtback",
+			"time": "night",
+			"weathers": ["Clear"]
+		}
+	],
+	"Frou-Fry": [
+		{
+			"area": "Iceolation",
+			"time": "always"
+		}
+	],
+	"Mischievous Mole": [
+		{
+			"area": "Doubtback",
+			"time": "always"
+		}
+	],
+	"Mud Mannequin": [
+		{
+			"area": "Treepidation",
+			"time": "day"
+		}
+	],
+	"Lips": [
+		{
+			"area": "Treepidation",
+			"time": "night",
+			"weathers": ["Clear"]
+		}
+	],
+	"Stump Chump": [
+		{
+			"area": "Treepidation",
+			"time": "day"
+		}
+	],
+	"Scissor Beatle": [
+		{
+			"area": "Treepidation",
+			"time": "night",
+			"weathers": ["Clear"]
+		}
+	],
+	"Satyr": [
+		{
+			"area": "Doubtback",
+			"time": "night",
+			"weathers": ["Clear"]
+		}
+	],
+	"Wax Murderer": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Funghoul": [
+		{
+			"area": "Treepidation",
+			"time": "day",
+			"weathers": ["Rain"]
+		}
+	],
+	"Argon Lizard": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Hell Hornet": [
+		{
+			"area": "Treepidation",
+			"time": "always"
+		},
+		{
+			"area": "Dark world"
+		}
+	],
+	"Hammerhood": [
+		{
+			"area": "Iceolation",
+			"time": "day",
+			"weathers": ["Clear"]
+		},
+		{
+			"area": "Dark world"
+		}
+	],
+	"Conklave": [
+		{
+			"area": "Treepidation",
+			"time": "day",
+			"weathers": ["Rain"]
+		}
+	],
+	"Muddy Hand": [
+		{
+			"area": "Treepidation",
+			"time": "day"
+		}
+	],
+	"Healslime": [
+		{
+			"area": "Doubtback",
+			"time": "always"
+		}
+	],
+	"Mental Pitcher": [
+		{
+			"area": "Treepidation",
+			"time": "night",
+			"weathers": ["Rain"]
+		}
+	],
+	"Spitnik": [
+		{
+			"area": "Doubtback",
+			"time": "day",
+			"weathers": ["Clear"]
+		}
+	],
+	"See Urchin": [
+		{
+			"area": "Unshore",
+			"time": "day"
+		}
+	],
+	"Great Sabrecub": [
+		{
+			"area": "Treepidation",
+			"time": "night",
+			"weathers": ["Clear"]
+		}
+	],
+	"Weaken Beakon": [
+		{
+			"area": "Doubtback",
+			"time": "night",
+			"weathers": ["Clear"]
+		}
+	],
+	"Cheeky Tiki": [
+		{
+			"area": "Treepidation",
+			"time": "night"
+		}
+	],
+	"Heedoo Voodoo": [
+		{
+			"area": "Treepidation",
+			"time": "day",
+			"weathers": ["Clear"]
+		}
+	],
+	"Drohl Drone": [
+		{
+			"area": "Doubtback",
+			"weathers": ["Rain"]
+		}
+	],
+	"Drake Slime": [
+		{
+			"area": "Bemusoleum",
+			"time": "day"
+		}
+	],
+	"Chimaera": [
+		{
+			"area": "Doubtback",
+			"time": "day",
+			"weathers": ["Clear"]
+		}
+	],
+	"Rockbomb": [
+		{
+			"area": "Doubtback",
+			"time": "always"
+		}
+	],
+	"Frogface": [
+		{
+			"area": "Treepidation",
+			"weathers": ["Rain"]
+		}
+	],
+	"Mummy Boy": [
+		{
+			"area": "Bemusoleum",
+			"time": "night"
+		}
+	],
+	"Wild Slime": [
+		{
+			"area": "Iceolation",
+			"time": "day",
+			"weathers": ["Clear"]
+		},
+		{
+			"area": "Cragravation",
+			"time": "day"
+		}
+	],
+	"Nardragon": [
+		{
+			"area": "Unshore",
+			"time": "day",
+			"weathers": ["Fog"]
+		}
+	],
+	"Dancing Flame": [
+		{
+			"area": "Cragravation",
+			"time": "day"
+		},
+		{
+			"area": "Necropolis",
+			"time": "night"
+		}
+	],
+	"Headhunter": [
+		{
+			"area": "Treepidation",
+			"time": "night",
+			"weathers": ["Clear"]
+		}
+	],
+	"Shell Slime": [
+		{
+			"area": "Unshore",
+			"time": "day"
+		}
+	],
+	"Snapdragon": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Wild Boarfish": [
+		{
+			"area": "Doubtback",
+			"time": "night",
+			"weathers": ["Rain"]
+		}
+	],
+	"Snowbird": [
+		{
+			"area": "Iceolation",
+			"time": "day",
+			"weathers": ["Clear"]
+		}
+	],
+	"Jailcat": [
+		{
+			"area": "Iceolation",
+			"time": "always"
+		}
+	],
+	"Spiked Hare": [
+		{
+			"area": "Iceolation",
+			"time": "always"
+		},
+		{
+			"area": "Dark world"
+		}
+	],
+	"Goodybag": [
+		{
+			"area": "Bemusoleum",
+			"time": "night"
+		},
+		{
+			"area": "Dark world"
+		}
+	],
+	"Imp": [
+		{
+			"area": "Iceolation",
+			"time": "night"
+		},
+		{
+			"area": "Dark world"
+		}
+	],
+	"Snail Slime": [
+		{
+			"area": "Unshore",
+			"time": "day"
+		}
+	],
+	"Green Dragon": [
+		{
+			"area": "Unshore",
+			"time": "day",
+			"weathers": ["Fog"]
+		}
+	],
+	"Teeny Sanguini": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Cannibox": [
+		{
+			"area": "Bemusoleum",
+			"time": "day"
+		}
+	],
+	"Dancing Devil": [
+		{
+			"area": "Cragravation",
+			"time": "day"
+		}
+	],
+	"Skelegon": [
+		{
+			"area": "Cragravation",
+			"time": "always",
+			"weathers": ["Rain"]
+		},
+		{
+			"area": "Bemusoleum",
+			"time": "night"
+		}
+	],
+	"Night Emperor": [
+		{
+			"area": "Cragravation",
+			"time": "day"
+		}
+	],
+	"Shadow": [
+		{
+			"area": "Iceolation",
+			"time": "night"
+		},
+		{
+			"area": "Cragravation",
+			"time": "day"
+		}
+	],
+	"Crabid": [
+		{
+			"area": "Unshore",
+			"time": "day"
+		}
+	],
+	"Lesser Demon": [
+		{
+			"area": "Cragravation",
+			"time": "always",
+			"weathers": ["Rain"]
+		}
+	],
+	"Metal Slime": [
+		{
+			"area": "Treepidation",
+			"time": "always"
+		},
+		{
+			"area": "Doubtback",
+			"time": "day"
+		},
+		{
+			"area": "Iceolation",
+			"time": "always"
+		},
+		{
+			"area": "Cragravation",
+			"time": "day"
+		},
+		{
+			"area": "Unshore",
+			"time": "day"
+		}
+	],
+	"Rubble Slime": [
+		{
+			"area": "Cragravation",
+			"time": "day"
+		},
+		{
+			"area": "Bemusoleum",
+			"time": "day"
+		}
+	],
+	"Gasbagon": [
+		{
+			"area": "Cragravation",
+			"time": "always",
+			"weathers": ["Rain"]
+		}
+	],
+	"Scorpion": [
+		{
+			"area": "Cragravation",
+			"time": "day"
+		}
+	],
+	"Skeleton": [
+		{
+			"area": "Unshore",
+			"time": "day",
+			"weathers": ["Fog"]
+		},
+		{
+			"area": "Bemusoleum",
+			"time": "night",
+			"weathers": ["Rain"]
+		}
+	],
+	"Angel Slime": [
+		{
+			"area": "Cragravation",
+			"time": "day"
+		}
+	],
+	"Seasaur": [
+		{
+			"area": "Unshore",
+			"time": "day",
+			"weathers": ["Fog"]
+		}
+	],
+	"Eveel": [
+		{
+			"area": "Unshore",
+			"time": "night",
+			"weathers": ["Fog"]
+		}
+	],
+	"Mecha-Mynah": [
+		{
+			"area": "Cragravation",
+			"time": "day"
+		},
+		{
+			"area": "Bemusoleum",
+			"time": "night"
+		}
+	],
+	"Silvapithecus": [
+		{
+			"area": "Cragravation",
+			"time": "day"
+		},
+		{
+			"area": "Necropolis",
+			"time": "day"
+		}
+	],
+	"Phantom Fencer": [
+		{
+			"area": "Unshore",
+			"time": "day",
+			"weathers": ["Fog"]
+		},
+		{
+			"area": "Bemusoleum",
+			"time": "night"
+		}
+	],
+	"Behemoth Slime": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Red Dragon": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Khalamari Kid": [
+		{
+			"area": "Unshore",
+			"time": "day"
+		}
+	],
+	"Firn Fiend": [
+		{
+			"area": "Cragravation",
+			"time": "always",
+			"weathers": ["Rain"]
+		}
+	],
+	"Hacksaurus": [
+		{
+			"area": "Bemusoleum",
+			"time": "day"
+		}
+	],
+	"Hades Condor": [
+		{
+			"area": "Doubtback",
+			"time": "day",
+			"weathers": ["Clear"]
+		},
+		{
+			"area": "Cragravation",
+			"time": "day"
+		}
+	],
+	"Bodkin Archer": [
+		{
+			"area": "Bemusoleum",
+			"weathers": ["Rain"]
+		}
+	],
+	"Puppeteer": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Dangler Fish": [
+		{
+			"area": "Unshore",
+			"time": "day"
+		}
+	],
+	"Bona Constrictor": [
+		{
+			"area": "Unshore",
+			"time": "day"
+		},
+		{
+			"area": "Bemusoleum",
+			"time": "day"
+		}
+	],
+	"Dragon Slime": [
+		{
+			"area": "Cragravation",
+			"time": "day"
+		}
+	],
+	"Great Sabrecat": [
+		{
+			"area": "Treepidation",
+			"time": "night",
+			"weathers": ["Clear"]
+		},
+		{
+			"area": "Dark world"
+		}
+	],
+	"Gargoyle": [
+		{
+			"area": "Bemusoleum",
+			"time": "day"
+		},
+		{
+			"area": "Necropolis",
+			"time": "day"
+		}
+	],
+	"King Kelp": [
+		{
+			"area": "Unshore",
+			"time": "day"
+		}
+	],
+	"Great Dracky": [
+		{
+			"area": "Doubtback",
+			"time": "day",
+			"weathers": ["Clear"]
+		}
+	],
+	"Walking Corpse": [
+		{
+			"area": "Bemusoleum",
+			"time": "night"
+		}
+	],
+	"Slime Stack": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Merman": [
+		{
+			"area": "Unshore",
+			"time": "day"
+		}
+	],
+	"Octavian Sentry": [
+		{
+			"area": "Unshore",
+			"time": "day"
+		}
+	],
+	"Restless Armour": [
+		{
+			"area": "Bemusoleum",
+			"time": "day"
+		}
+	],
+	"King Slime": [
+		{
+			"area": "Albatross",
+			"time": "night"
+		},
+		{
+			"area": "Dark world"
+		}
+	],
+	"Paws": [
+		{
+			"area": "Unshore",
+			"time": "day"
+		}
+	],
+	"Jumping Jackal": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Hunter Mech": [
+		{
+			"area": "Bemusoleum",
+			"time": "day"
+		}
+	],
+	"Heyedra": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Cureslime": [
+		{
+			"area": "Unshore",
+			"time": "day"
+		}
+	],
+	"Metal Dragon": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Barracuda": [
+		{
+			"area": "Unshore",
+			"time": "day"
+		}
+	],
+	"Golem": [
+		{
+			"area": "Bemusoleum",
+			"time": "day"
+		}
+	],
+	"Cyber Slime": [
+		{
+			"area": "Bemusoleum",
+			"time": "day"
+		}
+	],
+	"Liquid Metal Slime": [
+		{
+			"area": "Bemusoleum",
+			"time": "day"
+		},
+		{
+			"area": "Necropolis",
+			"time": "day"
+		},
+		{
+			"area": "Dark world"
+		}
+	],
+	"Yabby": [
+		{
+			"area": "Unshore",
+			"time": "day"
+		}
+	],
+	"Notso Macho": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Gryphon": [
+		{
+			"area": "Necropolis",
+			"time": "night"
+		}
+	],
+	"Missing Lynx": [
+		{
+			"area": "Doubtback"
+		}
+	],
+	"Great Argon Lizard": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Beetleboy": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Firebird": [
+		{
+			"area": "Necropolis",
+			"time": "day"
+		}
+	],
+	"Magmalice": [
+		{
+			"area": "Necropolis",
+			"time": "day"
+		}
+	],
+	"Lethal Armour": [
+		{
+			"area": "Necropolis",
+			"time": "day"
+		}
+	],
+	"Phantom Swordsman": [
+		{
+			"area": "Necropolis",
+			"time": "day"
+		}
+	],
+	"Skeleton Soldier": [
+		{
+			"area": "Necropolis",
+			"time": "day"
+		}
+	],
+	"Dark Slime": [
+		{
+			"area": "Cragravation",
+			"time": "night",
+			"weathers": ["Clear"]
+		},
+		{
+			"area": "Necropolis",
+			"time": "day"
+		}
+	],
+	"Tyrantosaurus": [
+		{
+			"area": "Necropolis",
+			"time": "day"
+		}
+	],
+	"Grim Rider": [
+		{
+			"area": "Bemusoleum",
+			"time": "night",
+			"weathers": ["Rain"]
+		},
+		{
+			"area": "Necropolis",
+			"time": "night"
+		}
+	],
+	"Soulspawn": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Ethereal Serpent": [
+		{
+			"area": "Cragravation",
+			"time": "day"
+		}
+	],
+	"Gorerilla": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Pink Sanguini": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Mimic": [
+		{
+			"area": "Necropolis",
+			"time": "day"
+		}
+	],
+	"Archdemon": [
+		{
+			"area": "Necropolis",
+			"time": "night"
+		}
+	],
+	"Dark Slime Knight": [
+		{
+			"area": "Necropolis",
+			"time": "day"
+		},
+		{
+			"area": "Dark world"
+		}
+	],
+	"Frou-Frou": [
+		{
+			"area": "Iceolation",
+			"time": "day"
+		}
+	],
+	"Boss Troll": [
+		{
+			"area": "Treepidation",
+			"time": "always"
+		},
+		{
+			"area": "Dark world"
+		}
+	],
+	"Fright Knight": [
+		{
+			"area": "Necropolis",
+			"time": "night"
+		}
+	],
+	"Drakularge": [
+		{
+			"area": "Necropolis",
+			"time": "day"
+		},
+		{
+			"area": "Dark world"
+		}
+	],
+	"Heligator": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Gigantes": [
+		{
+			"area": "Iceolation",
+			"time": "day",
+			"weathers": ["Clear"]
+		},
+		{
+			"area": "Necropolis",
+			"time": "day"
+		}
+	],
+	"Living Statue": [
+		{
+			"area": "Bemusoleum",
+			"time": "day",
+			"weathers": ["Rain"]
+		},
+		{
+			"area": "Dark world"
+		}
+	],
+	"King Bubble Slime": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Great Dragon": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Killing Machine": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Metal Kaiser Slime": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Dual Duellers": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Moosifer": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Gemon": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Gripevine": [
+		{
+			"area": "Bemusoleum",
+			"time": "night"
+		},
+		{
+			"area": "Dark world"
+		}
+	],
+	"Pazuzu": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Dierantula": [
+		{
+			"area": "Cragravation",
+			"time": "night",
+			"weathers": ["Clear"]
+		}
+	],
+	"Atlas": [
+		{
+			"area": "Dark world"
+		}
+	],
+	"Khalamari": [
+		{
+			"area": "Unshore"
+		}
+	]
+}

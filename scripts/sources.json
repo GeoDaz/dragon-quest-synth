@@ -121,6 +121,11 @@
 			"data": ["synthèses spéciales"]
 		},
 		{
+			"url": "https://rebjorn-wiki.com/dqmj/areas",
+			"data": ["lieux", "localisations"],
+			"notes": "Habitats lus sur chaque page monstre (/dqmj/monsters/<slug>, cartes Habitats : moment et météo) par scripts/scrapRebjornSpawns.js. Noms FR des lieux via ?lang=fr."
+		},
+		{
 			"url": "https://dqmj.fandom.com/wiki/%C3%9Cber_skillsets",
 			"data": ["talents combinés"],
 			"notes": "Liste des Über skillsets (ex. Attack Boost III + Warrior = Über Attack Boost). Recettes tronquées (« And N more ») : détail complet sur la page de chaque skillset. API : dqmj.fandom.com/api.php?action=parse&page=…&prop=wikitext 3 recettes de Top Blizzard absentes du wiki ajoutées par la règle de couverture (bloc inferred de DQMJ1Moves.json)."
@@ -145,6 +150,11 @@
 		{
 			"url": "https://rebjorn-wiki.com/dqmj2/synthesis/special",
 			"data": ["synthèses spéciales"]
+		},
+		{
+			"url": "https://rebjorn-wiki.com/dqmj2/areas",
+			"data": ["lieux", "localisations"],
+			"notes": "Habitats lus sur chaque page monstre (/dqmj2/monsters/<slug>, cartes Habitats : moment et météo) par scripts/scrapRebjornSpawns.js. Noms FR des lieux via ?lang=fr."
 		},
 		{
 			"url": "https://dq-gh.com/dqmj2/sp.html",

@@ -1,0 +1,622 @@
+{
+	"Slime": [
+		{
+			"area": "Infant Isle",
+			"time": "always"
+		}
+	],
+	"Komodo": [
+		{
+			"area": "Xeroph Isle",
+			"time": "day"
+		}
+	],
+	"Capsichum": [
+		{
+			"area": "Palaish Isle",
+			"time": "day"
+		}
+	],
+	"Platypunk": [
+		{
+			"area": "Infant Isle",
+			"time": "day"
+		}
+	],
+	"Bag O' Laughs": [
+		{
+			"area": "Xeroph Isle",
+			"time": "always"
+		}
+	],
+	"Dracky": [
+		{
+			"area": "Infant Isle",
+			"time": "always"
+		}
+	],
+	"Ghost": [
+		{
+			"area": "Infant Isle",
+			"time": "night"
+		}
+	],
+	"Bubble Slime": [
+		{
+			"area": "Palaish Isle",
+			"time": "always"
+		}
+	],
+	"Mischievous Mole": [
+		{
+			"area": "Infant Isle",
+			"time": "always"
+		}
+	],
+	"Shadow": [
+		{
+			"area": "Infant Isle",
+			"time": "always"
+		}
+	],
+	"Lips": [
+		{
+			"area": "Infant Isle",
+			"time": "always"
+		}
+	],
+	"Firespirit": [
+		{
+			"area": "Xeroph Isle",
+			"time": "night"
+		}
+	],
+	"Shell Slime": [
+		{
+			"area": "Palaish Isle",
+			"time": "always"
+		}
+	],
+	"Dragonthorn": [
+		{
+			"area": "Palaish Isle",
+			"time": "day"
+		}
+	],
+	"Scorpion": [
+		{
+			"area": "Xeroph Isle",
+			"time": "day"
+		}
+	],
+	"Crabid": [
+		{
+			"area": "Xeroph Isle",
+			"time": "night"
+		}
+	],
+	"Dancing Flame": [
+		{
+			"area": "Xeroph Isle",
+			"time": "day"
+		}
+	],
+	"Winky": [
+		{
+			"area": "Infant Isle",
+			"time": "night"
+		},
+		{
+			"area": "Xeroph Isle",
+			"time": "always"
+		}
+	],
+	"Stump Chump": [
+		{
+			"area": "Infant Isle",
+			"time": "night"
+		}
+	],
+	"Healslime": [
+		{
+			"area": "Xeroph Isle",
+			"time": "day"
+		}
+	],
+	"Argon Lizard": [
+		{
+			"area": "Fert Isle",
+			"time": "day"
+		}
+	],
+	"Chimaera": [
+		{
+			"area": "Xeroph Isle",
+			"time": "night"
+		}
+	],
+	"Frostburn": [
+		{
+			"area": "Xeroph Isle",
+			"time": "night"
+		}
+	],
+	"Hammerhood": [
+		{
+			"area": "Xeroph Isle",
+			"time": "always"
+		}
+	],
+	"Spitnik": [
+		{
+			"area": "Xeroph Isle",
+			"time": "day"
+		}
+	],
+	"See Urchin": [
+		{
+			"area": "Palaish Isle",
+			"time": "always"
+		}
+	],
+	"Funghoul": [
+		{
+			"area": "Xeroph Isle",
+			"time": "day"
+		}
+	],
+	"Nardragon": [
+		{
+			"area": "Celeste Isle",
+			"time": "night"
+		}
+	],
+	"Fencing Fox": [
+		{
+			"area": "Palaish Isle",
+			"time": "always"
+		}
+	],
+	"Goodybag": [
+		{
+			"area": "Palaish Isle",
+			"time": "day"
+		}
+	],
+	"Imp": [
+		{
+			"area": "Xeroph Isle",
+			"time": "always"
+		}
+	],
+	"Muddy Hand": [
+		{
+			"area": "Xeroph Isle",
+			"time": "always"
+		}
+	],
+	"Khalamari Kid": [
+		{
+			"area": "Palaish Isle",
+			"time": "day"
+		}
+	],
+	"Chainine": [
+		{
+			"area": "Palaish Isle",
+			"time": "night"
+		}
+	],
+	"King Kelp": [
+		{
+			"area": "Palaish Isle",
+			"time": "night"
+		}
+	],
+	"Lump Wizard": [
+		{
+			"area": "Palaish Isle",
+			"time": "always"
+		},
+		{
+			"area": "Fert Isle",
+			"time": "night"
+		}
+	],
+	"Demonrider": [
+		{
+			"area": "Xeroph Isle",
+			"time": "night"
+		}
+	],
+	"Mummy Boy": [
+		{
+			"area": "Xeroph Isle",
+			"time": "always"
+		}
+	],
+	"Jargon": [
+		{
+			"area": "Fert Isle",
+			"time": "night"
+		}
+	],
+	"Jailcat": [
+		{
+			"area": "Palaish Isle",
+			"time": "always"
+		}
+	],
+	"Wax Murderer": [
+		{
+			"area": "Palaish Isle",
+			"time": "always"
+		}
+	],
+	"Frogface": [
+		{
+			"area": "Fert Isle",
+			"time": "day"
+		}
+	],
+	"Skipper": [
+		{
+			"area": "Palaish Isle",
+			"time": "always"
+		}
+	],
+	"Wild Slime": [
+		{
+			"area": "Fert Isle",
+			"time": "night"
+		}
+	],
+	"Green Dragon": [
+		{
+			"area": "Palaish Isle",
+			"time": "always"
+		}
+	],
+	"Great Sabrecub": [
+		{
+			"area": "Celeste Isle",
+			"time": "day"
+		}
+	],
+	"Cannibox": [
+		{
+			"area": "Palaish Isle",
+			"time": "always"
+		}
+	],
+	"Skelegon": [
+		{
+			"area": "Xeroph Isle",
+			"time": "night"
+		}
+	],
+	"Dessert Demon": [
+		{
+			"area": "Xeroph Isle",
+			"time": "always"
+		}
+	],
+	"Dancing Devil": [
+		{
+			"area": "Celeste Isle",
+			"time": "always"
+		}
+	],
+	"Phantom Fencer": [
+		{
+			"area": "Celeste Isle",
+			"time": "always"
+		}
+	],
+	"Dragurn": [
+		{
+			"area": "Infern Isle (Post-game)",
+			"time": "always"
+		}
+	],
+	"Metal Slime": [
+		{
+			"area": "Celeste Isle",
+			"time": "always"
+		},
+		{
+			"area": "Fert Isle",
+			"time": "always"
+		}
+	],
+	"Hell Hornet": [
+		{
+			"area": "Fert Isle",
+			"time": "day"
+		}
+	],
+	"Night Emperor": [
+		{
+			"area": "Celeste Isle",
+			"time": "always"
+		}
+	],
+	"Gold Golem": [
+		{
+			"area": "Palaish Isle",
+			"time": "always"
+		}
+	],
+	"Headhunter": [
+		{
+			"area": "Celeste Isle",
+			"time": "always"
+		}
+	],
+	"Flyguy": [
+		{
+			"area": "Infern Isle",
+			"time": "always"
+		}
+	],
+	"Metal Slime Knight": [
+		{
+			"area": "Infern Isle",
+			"time": "day"
+		}
+	],
+	"Seasaur": [
+		{
+			"area": "Palaish Isle",
+			"time": "night"
+		}
+	],
+	"Mecha-Mynah": [
+		{
+			"area": "Celeste Isle",
+			"time": "always"
+		}
+	],
+	"Lesser Demon": [
+		{
+			"area": "Celeste Isle",
+			"time": "always"
+		}
+	],
+	"Skeleton": [
+		{
+			"area": "Infern Isle",
+			"time": "always"
+		}
+	],
+	"Angel Slime": [
+		{
+			"area": "Palaish Isle",
+			"time": "night"
+		}
+	],
+	"Bodkin Archer": [
+		{
+			"area": "Fert Isle",
+			"time": "day"
+		}
+	],
+	"Mud Mannequin": [
+		{
+			"area": "Fert Isle",
+			"time": "always"
+		}
+	],
+	"Gryphon": [
+		{
+			"area": "Celeste Isle",
+			"time": "always"
+		}
+	],
+	"Walking Corpse": [
+		{
+			"area": "Infern Isle",
+			"time": "always"
+		}
+	],
+	"Hacksaurus": [
+		{
+			"area": "Celeste Isle",
+			"time": "always"
+		}
+	],
+	"Hades Condor": [
+		{
+			"area": "Infant Isle",
+			"time": "day"
+		},
+		{
+			"area": "Fert Isle",
+			"time": "day"
+		}
+	],
+	"Gargoyle": [
+		{
+			"area": "Celeste Isle",
+			"time": "day"
+		}
+	],
+	"Great Sabrecat": [
+		{
+			"area": "Celeste Isle",
+			"time": "day"
+		}
+	],
+	"Dingaling": [
+		{
+			"area": "Fert Isle",
+			"time": "night"
+		}
+	],
+	"King Slime": [
+		{
+			"area": "Infant Isle",
+			"time": "day"
+		}
+	],
+	"Restless Armour": [
+		{
+			"area": "Celeste Isle",
+			"time": "always"
+		}
+	],
+	"Hellhound": [
+		{
+			"area": "Fert Isle",
+			"time": "night"
+		}
+	],
+	"Hunter Mech": [
+		{
+			"area": "Celeste Isle",
+			"time": "always"
+		}
+	],
+	"Tyrantosaurus": [
+		{
+			"area": "Infern Isle (Post-game)",
+			"time": "always"
+		}
+	],
+	"Liquid Metal Slime": [
+		{
+			"area": "Infern Isle (Post-game)",
+			"time": "always"
+		}
+	],
+	"Treeface": [
+		{
+			"area": "Fert Isle",
+			"time": "night"
+		}
+	],
+	"Notso Macho": [
+		{
+			"area": "Celeste Isle",
+			"time": "always"
+		}
+	],
+	"Scissor Beatle": [
+		{
+			"area": "Fert Isle",
+			"time": "day"
+		}
+	],
+	"Wrecktor": [
+		{
+			"area": "Celeste Isle",
+			"time": "always"
+		}
+	],
+	"Great Argon Lizard": [
+		{
+			"area": "Fert Isle",
+			"time": "day"
+		}
+	],
+	"Phantom Swordsman": [
+		{
+			"area": "Infern Isle (Post-game)",
+			"time": "always"
+		}
+	],
+	"Skeleton Soldier": [
+		{
+			"area": "Celeste Isle",
+			"time": "always"
+		},
+		{
+			"area": "Infern Isle (Post-game)",
+			"time": "always"
+		}
+	],
+	"Beetleboy": [
+		{
+			"area": "Fert Isle",
+			"time": "day"
+		}
+	],
+	"Cockateer": [
+		{
+			"area": "Infern Isle (Post-game)",
+			"time": "always"
+		}
+	],
+	"Lethal Armour": [
+		{
+			"area": "Infern Isle (Post-game)",
+			"time": "always"
+		}
+	],
+	"Soulspawn": [
+		{
+			"area": "Infern Isle (Post-game)",
+			"time": "always"
+		}
+	],
+	"Dark Slime Knight": [
+		{
+			"area": "Infern Isle",
+			"time": "night"
+		}
+	],
+	"Fallen Priest": [
+		{
+			"area": "Infern Isle (Post-game)",
+			"time": "always"
+		}
+	],
+	"Giant Moth": [
+		{
+			"area": "Fert Isle",
+			"time": "night"
+		}
+	],
+	"Silvapithecus": [
+		{
+			"area": "Infern Isle (Post-game)",
+			"time": "always"
+		}
+	],
+	"Gorerilla": [
+		{
+			"area": "Fert Isle",
+			"time": "day"
+		}
+	],
+	"Boss Troll": [
+		{
+			"area": "Fert Isle",
+			"time": "always"
+		}
+	],
+	"Gigantes": [
+		{
+			"area": "Infant Isle",
+			"time": "day"
+		}
+	],
+	"Wailin' Weed": [
+		{
+			"area": "Fert Isle",
+			"time": "night"
+		}
+	],
+	"Metal King Slime": [
+		{
+			"area": "Infern Isle (Post-game)",
+			"time": "always"
+		}
+	],
+	"Trap Box": [
+		{
+			"area": "Infern Isle (Post-game)",
+			"time": "always"
+		}
+	]
+}

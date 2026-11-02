@@ -4,7 +4,7 @@ import Lower from './Lower';
 import Talent from './Talent';
 import MonsterImg from './MonsterImg';
 import { LOWER } from '@/hooks/useSynthesisTrail';
-import { makeClassName, withoutAlt } from '@/functions';
+import { makeClassName, monsterPath, withoutAlt } from '@/functions';
 import { Monster as MonsterInterface } from '@/types/Monster';
 import AnchorLink from '../AnchorLink';
 import { Fragment, memo, useContext, useState } from 'react';
@@ -20,6 +20,9 @@ import { Spawn } from '@/types/MonsterDetails';
 import { ReserveContext } from '@/context/reserve';
 import MonsterImgModal from './MonsterImgModal';
 import Popup from '../Popup';
+import Link from '../Link';
+import { GameContext } from '@/context/game';
+import { MonsterLinkContext } from '@/context/monsterLink';
 
 interface Parent {
 	name?: string;
@@ -31,7 +34,7 @@ interface Parent {
 const isCondition = (token: string) =>
 	token.includes('Rank') || token.startsWith('Plus ');
 
-const parseRecipe = (list: string[]): Parent[] => {
+export const parseRecipe = (list: string[]): Parent[] => {
 	const rankString = list.find(t => t.includes('Rank'));
 	const rank = rankString?.slice(rankString.indexOf(' ') + 1);
 	const plus = list
@@ -77,6 +80,7 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 	monster: MonsterInterface;
 }) {
 	const { isFr, translateMonster, translateUI } = useTranslate();
+	const game = useContext(GameContext);
 	const { walkInto, addDefault } = useContext(TrailContext);
 	const { details, terms, farewell, items, spawns, hasDetails, hasSkills, hasSpawns } =
 		useContext(DetailsContext);
@@ -104,7 +108,9 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 						<MonsterImg name={monster.name} title={displayName} />
 					</div>
 					<span className="monster-name">
-						{displayName}
+						{game ?
+							<Link href={monsterPath(game, monster.name)}>{displayName}</Link>
+						:	displayName}
 						{monster.version && (
 							<span className="monster-version">({monster.version})</span>
 						)}
@@ -297,18 +303,18 @@ const MemoizedMonsterCells = memo(function MonsterCells({
 	);
 });
 
-const TIME_ICONS: { [time: string]: string } = {
+export const TIME_ICONS: { [time: string]: string } = {
 	always: 'brightness-alt-high',
 	day: 'sun',
 	night: 'moon',
 };
-const TIME_LABELS: { [time: string]: string } = {
+export const TIME_LABELS: { [time: string]: string } = {
 	always: 'Day and night',
 	day: 'Day',
 	night: 'Night',
 };
 
-const SpawnChip = ({ spawn }: { spawn: Spawn }) => {
+export const SpawnChip = ({ spawn }: { spawn: Spawn }) => {
 	const { translateUI, translateArea } = useTranslate();
 	const area = translateArea(areasNames[spawn.area] || spawn.area);
 	const when = [
@@ -341,7 +347,7 @@ const SpawnChip = ({ spawn }: { spawn: Spawn }) => {
 	);
 };
 
-const SpawnWhen = ({
+export const SpawnWhen = ({
 	label,
 	values,
 	icons,
@@ -364,7 +370,7 @@ const SpawnWhen = ({
 	);
 };
 
-const ParentChip = ({
+export const ParentChip = ({
 	parent,
 	child,
 	recipe,
@@ -375,6 +381,7 @@ const ParentChip = ({
 }) => {
 	const { translateMonster, translateUI } = useTranslate();
 	const { walkFrom } = useContext(TrailContext);
+	const linkedGame = useContext(MonsterLinkContext);
 	// the whole recipe is grafted, so a family chip walks the trail too
 	const onNavigate = walkFrom && (() => walkFrom(child, recipe));
 
@@ -395,38 +402,60 @@ const ParentChip = ({
 			parent.rank ?
 				`${translateUI('Rank')} ${parent.rank.length > 1 ? translateUI(parent.rank) : parent.rank}`
 			:	translateUI('Any rank');
-		return (
-			<AnchorLink
-				hash={`${parent.family}-${parent.rank}`}
-				className="parent-chip"
-				title={`${family} · ${rank}`}
-				onNavigate={onNavigate}
-			>
+		const content = (
+			<>
 				<Family name={parent.family} />
 				<span className="sr-only">{family}</span>
 				<span className="chip-label">{rank}</span>
-			</AnchorLink>
+			</>
 		);
+		return linkedGame ?
+				<Link
+					href={`/game/${linkedGame}#${parent.family}${parent.rank ? `-${parent.rank}` : ''}`}
+					className="parent-chip"
+					title={`${family} · ${rank}`}
+				>
+					{content}
+				</Link>
+			:	<AnchorLink
+					hash={`${parent.family}-${parent.rank}`}
+					className="parent-chip"
+					title={`${family} · ${rank}`}
+					onNavigate={onNavigate}
+				>
+					{content}
+				</AnchorLink>;
 	}
 
 	const name = parent.name as string;
 	const label = translateMonster(name);
-	return (
-		<AnchorLink
-			hash={name}
-			className="parent-tile line-point pictured"
-			title={label}
-			onNavigate={onNavigate}
-		>
+	const content = (
+		<>
 			<MonsterImg name={name} small title={label} />
 			{!!parent.plus && (
 				<span className="line-point-badges">
 					<PlusBadge plus={parent.plus} />
 				</span>
 			)}
-			<span className="sr-only">{name}</span>
-		</AnchorLink>
+			<span className="sr-only">{label}</span>
+		</>
 	);
+	return linkedGame ?
+			<Link
+				href={monsterPath(linkedGame, name)}
+				className="parent-tile line-point pictured"
+				title={label}
+			>
+				{content}
+			</Link>
+		:	<AnchorLink
+				hash={name}
+				className="parent-tile line-point pictured"
+				title={label}
+				onNavigate={onNavigate}
+			>
+				{content}
+			</AnchorLink>;
 };
 
 const PlusBadge = ({ plus }: { plus: string }) => (

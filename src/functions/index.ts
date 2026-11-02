@@ -87,6 +87,17 @@ export function objectCompare(
 	return true;
 }
 
+export const monsterSlug = (name: string): string =>
+	name
+		.normalize('NFD')
+		.replace(/[\u0300-\u036f]/g, '')
+		.toLowerCase()
+		.replace(/[^a-z0-9]+/g, '-')
+		.replace(/^-|-$/g, '');
+
+export const monsterPath = (game: string, name: string): string =>
+	`/game/${game}/monster/${monsterSlug(name)}`;
+
 export const stringToKey = (string: string): string =>
 	string
 		.toLowerCase()

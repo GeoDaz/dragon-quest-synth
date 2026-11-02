@@ -32,6 +32,7 @@ export const seasonsIcons: StringObject = {
 export const weathersIcons: StringObject = {
 	Clear: 'sun-fill',
 	Rain: 'cloud-drizzle-fill',
+	Fog: 'cloud-fog2-fill',
 	Snow: 'cloud-snow-fill',
 	Blizzard: 'wind',
 	Lightning: 'cloud-lightning-fill',
@@ -42,7 +43,19 @@ export const weathersIcons: StringObject = {
 	'Star Shower': 'stars',
 	'Blood Moon': 'transparency',
 	'Spooky Night': 'cloud-moon-fill',
-	SansStorm: 'tornado',
+	Sandstorm: 'tornado',
+};
+
+export const worldsOrder: { [game: string]: string[] } = {
+	DQM2: [
+		'Great Log',
+		'Desert World',
+		'Water World',
+		'Snow World',
+		'Celestial World',
+		'Limbo World',
+		'Ultimate World',
+	],
 };
 
 export const areasNames: StringObject = {
