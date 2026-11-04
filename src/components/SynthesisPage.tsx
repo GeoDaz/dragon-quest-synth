@@ -205,6 +205,10 @@ const PageLines: React.FC<Props> = props => {
 	const scrollToAnchor = useScrollToAnchor();
 	const { isFr, translateUI, translateSkill, translateGame } = useTranslate();
 	const [search, setSearch] = useState<string>();
+	const [only, setOnly] = useState<string>();
+	const [searchView, setSearchView] = useState<{ key: number; value?: string }>({
+		key: 0,
+	});
 	const [selectedFamily, setSelectedFamily] = useState<string | undefined>();
 	const [selectedRank, setSelectedRank] = useState<string | undefined>();
 	const filtersRef = useRef<HTMLDivElement | null>(null);
@@ -374,7 +378,7 @@ const PageLines: React.FC<Props> = props => {
 	}, [props.families, isFr, details, terms, translateSkill]);
 
 	useEffect(() => {
-		if (!search) {
+		if (!search && !only) {
 			if (families !== props.families) {
 				setFamilies(props.families);
 			}
@@ -384,7 +388,9 @@ const PageLines: React.FC<Props> = props => {
 					const nextRanks = Object.entries(ranks).reduce(
 						(acc, [rank, monsters]) => {
 							const nextMonsters = monsters.filter(monster =>
-								searchIndex[monster.name]?.includes(search)
+								only ?
+									monster.name === only
+								:	!!search && searchIndex[monster.name]?.includes(search)
 							);
 							if (nextMonsters.length > 0) {
 								acc[rank] = nextMonsters;
@@ -400,20 +406,42 @@ const PageLines: React.FC<Props> = props => {
 				}, {} as Families)
 			);
 		}
-	}, [search, props.families, searchIndex]);
+	}, [search, only, props.families, searchIndex]);
 
 	const resetFilters = useCallback(() => {
+		setOnly(undefined);
 		setSelectedFamily(undefined);
 		setSelectedRank(undefined);
 		setSearch(undefined);
 	}, []);
 
+	const focusNavigate = useCallback(
+		(hash: string) => {
+			const monster = allMonsters[hash];
+			if (search && monster) {
+				const label = isFr && monster.nom ? monster.nom : monster.name;
+				setOnly(monster.name);
+				setSearch(stringToKey(label));
+				setSearchView(view => ({ key: view.key + 1, value: label }));
+			}
+			navigate(hash);
+		},
+		[search, allMonsters, isFr, navigate]
+	);
+
 	const filters = useMemo(
-		() => ({ resetFilters, navigate, search, selectedFamily, selectedRank }),
-		[resetFilters, navigate, search, selectedFamily, selectedRank]
+		() => ({
+			resetFilters,
+			navigate: focusNavigate,
+			search,
+			selectedFamily,
+			selectedRank,
+		}),
+		[resetFilters, focusNavigate, search, selectedFamily, selectedRank]
 	);
 
 	const handleSearch = (value: string) => {
+		setOnly(undefined);
 		let sanitizedSearch = stringToKey(value);
 		if (sanitizedSearch == search) return;
 		if (sanitizedSearch.length < 3) {
@@ -465,9 +493,10 @@ const PageLines: React.FC<Props> = props => {
 			/>
 			<div ref={filtersRef} className="synthesis-filters mb-4">
 				<SearchBar
+					key={searchView.key}
 					label={translateUI('Search a monster or a skill set')}
 					onSubmit={handleSearch}
-					defaultValue={search}
+					defaultValue={searchView.value ?? search}
 				/>
 				<DropdownButton
 					id="family-selector"

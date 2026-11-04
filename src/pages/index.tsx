@@ -37,7 +37,7 @@ const MOCK_MONSTERS = [
 
 const seriesTitles: { [series: string]: string } = {
 	monsters: 'Dragon Quest Monsters',
-	joker: 'Dragon Quest Monsters: Joker',
+	joker: 'Dragon Quest Monsters Joker',
 };
 
 const websiteJsonLd = {
