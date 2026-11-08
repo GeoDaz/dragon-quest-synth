@@ -4020,7 +4020,7 @@ a.talent-recipe-link:focus-visible {
   border-radius: 999px;
 }
 
-.language-switch-item {
+.language-switch .language-switch-item {
   padding: .15em .6em;
   font-size: .8rem;
   font-weight: 600;
@@ -4029,12 +4029,15 @@ a.talent-recipe-link:focus-visible {
   border-radius: 999px;
 }
 
-.language-switch-item:hover {
+.language-switch .language-switch-item:hover {
   color: var(--dl-label);
 }
 
-.language-switch-item.active,
-.language-switch-item:active {
+.language-switch .language-switch-item:active
+.language-switch .language-switch-item.active,
+.language-switch .language-switch-item.active:hover,
+.language-switch .language-switch-item.active:focus,
+.language-switch .language-switch-item.active:active {
   color: white;
   background: var(--bs-primary);
 }
