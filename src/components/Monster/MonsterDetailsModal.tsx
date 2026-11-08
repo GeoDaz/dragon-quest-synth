@@ -235,7 +235,7 @@ export const MonsterDetailsBody = ({
 	const statTotal = statValues.reduce((sum, value) => sum + value, 0);
 
 	const resisted = RESISTANCES.filter(
-		entry => details.resistances?.[entry.key] !== undefined,
+		entry => details.resistances?.[entry.key] !== undefined
 	).map(entry => ({
 		...entry,
 		value: details.resistances?.[entry.key] || 0,
@@ -250,7 +250,7 @@ export const MonsterDetailsBody = ({
 	const activeFilter = counts[filter] ? filter : 'all';
 	const weaknesses = resisted.filter(entry => entry.value < 0);
 	const shown = resisted.filter(
-		entry => activeFilter === 'all' || resistanceKind(entry.value) === activeFilter,
+		entry => activeFilter === 'all' || resistanceKind(entry.value) === activeFilter
 	);
 
 	const hasFacts =
@@ -261,158 +261,212 @@ export const MonsterDetailsBody = ({
 		details.egg !== undefined ||
 		!!details.eggColor;
 
-	return (
-		<div className="details-body">
-			{hasFacts && (
-				<section className="details-facts" aria-label={translateUI('Misc')}>
-					{!!details.size && (
-						<div className="details-fact">
-							<i className="bi bi-arrows-angle-expand" aria-hidden="true" />
-							<div>
-								<span>{translateUI('Default size')}</span>
-								<b>{details.size}</b>
-							</div>
-						</div>
-					)}
-					{(details.egg !== undefined || !!details.eggColor) && (
-						<div className="details-fact">
-							<i className="bi bi-egg" aria-hidden="true" />
-							<div>
-								<span>{translateUI('Egg')}</span>
-								<b>
-									{!!details.eggColor && (
-										<span
-											className="details-egg-swatch"
-											style={{
-												background: EGG_COLORS[details.eggColor] || 'var(--dl-muted)',
-											}}
-										/>
-									)}
-									{details.eggColor ?
-										translateUI(details.eggColor)
-									: details.egg ?
-										translateUI('Yes')
-									:	translateUI('No')}
-								</b>
-							</div>
-						</div>
-					)}
-					{!!details.skill && (
-						<div className="details-fact">
-							<i className="bi bi-stars" aria-hidden="true" />
-							<div>
-								<span>{translateUI('Skill set')}</span>
-								<b>
-									<Talent name={details.skill} />
-								</b>
-							</div>
-						</div>
-					)}
-					{!!details.skills?.length && (
-						<div className="details-fact grow">
-							<i className="bi bi-stars" aria-hidden="true" />
-							<div>
-								<span>{translateUI('Skill sets')}</span>
-								<div className="details-pills">
-									{details.skills.map(name => (
-										<b key={name} className="details-pill">
-											<Talent name={name} />
-										</b>
-									))}
-								</div>
-							</div>
-						</div>
-					)}
-					{!!details.randomSkills?.length && (
-						<div className="details-fact grow dashed">
-							<i className="bi bi-shuffle" aria-hidden="true" />
-							<div>
-								<span>{translateUI('2nd skill among')}</span>
-								<div className="details-pills">
-									{details.randomSkills.map(name => (
-										<b key={name} className="details-pill">
-											<Talent name={name} />
-										</b>
-									))}
-								</div>
-							</div>
-						</div>
-					)}
-					{/* {details.drops?.map(drop => (
-						<div key={drop.item} className="details-fact">
-							<div>
-								<span>
-									{translateUI('Drop')}
-									{drop.rare ? ' ★' : ''}
-								</span>
-								<b>
-									{itemName(drop.item)} &mdash; {drop.rate}%
-								</b>
-							</div>
-						</div>
-					))} */}
-				</section>
-			)}
+	const splitTraits = !!smallTraits.length && !!largeTraits.length;
+	const factsBeside = splitTraits && !!stats && hasFacts;
 
-			{(!!stats || !!traits.length) && (
-				<div className="details-grid">
-					{!!stats && (
-						<section className={makeClassName('details-card', !traits.length && 'wide')}>
-							<header className="details-card-header">
-								<h5>{translateUI('Statistics')}</h5>
-								<span className="details-total">
-									{translateUI('Total')} <b>{statTotal}</b>
-								</span>
-							</header>
-							<dl className="details-stats">
-								{STATS.map((stat, i) => (
-									<div key={stat.key}>
-										<dt>{translateUI(stat.label)}</dt>
-										<dd className="details-stat-bar" aria-hidden="true">
-											<span
-												style={{
-													width: `${Math.min(100, (statValues[i] / statScale) * 100)}%`,
-												}}
-											/>
-										</dd>
-										<dd className="details-stat-value">{statValues[i]}</dd>
-									</div>
-								))}
-							</dl>
-						</section>
-					)}
-					{!!traits.length && (
-						<section className={makeClassName('details-card', !stats && 'wide')}>
-							<header className="details-card-header">
-								<h5>{translateUI('Traits')}</h5>
-							</header>
-							{!!largeTraits.length && !!smallTraits.length && (
-								<span className="details-size-tag">{translateUI('Small size')}</span>
-							)}
-							<TraitList
-								rows={smallTraits}
-								terms={terms}
-								tag={traitTag}
-								translateTrait={translateTrait}
-								localised={localised}
-							/>
-							{!!largeTraits.length && (
-								<span className="details-size-tag large">
-									{translateUI('Large size')}
-								</span>
-							)}
-							<TraitList
-								rows={largeTraits}
-								terms={terms}
-								tag={traitTag}
-								translateTrait={translateTrait}
-								localised={localised}
-								large
-							/>
-						</section>
-					)}
+	const factsSection = hasFacts && (
+		<section
+			className={makeClassName('details-facts', factsBeside && 'stacked')}
+			aria-label={translateUI('Misc')}
+		>
+			{!!details.size && (
+				<div className="details-fact">
+					<i className="bi bi-arrows-angle-expand" aria-hidden="true" />
+					<div>
+						<span>{translateUI('Default size')}</span>
+						<b>{details.size}</b>
+					</div>
 				</div>
 			)}
+			{!!details.skill && (
+				<div className="details-fact">
+					<i className="bi bi-stars" aria-hidden="true" />
+					<div>
+						<span>{translateUI('Skill set')}</span>
+						<b className="details-pill">
+							<Talent name={details.skill} />
+						</b>
+					</div>
+				</div>
+			)}
+			{!!details.skills?.length && (
+				<div className="details-fact grow">
+					<i className="bi bi-stars" aria-hidden="true" />
+					<div>
+						<span>{translateUI('Skill sets')}</span>
+						<div className="details-pills">
+							{details.skills.map(name => (
+								<b key={name} className="details-pill">
+									<Talent name={name} />
+								</b>
+							))}
+						</div>
+					</div>
+				</div>
+			)}
+			{!!details.randomSkills?.length && (
+				<div className="details-fact grow dashed">
+					<i className="bi bi-shuffle" aria-hidden="true" />
+					<div>
+						<span>{translateUI('2nd skill among')}</span>
+						<div className="details-pills">
+							{details.randomSkills.map(name => (
+								<b key={name} className="details-pill">
+									<Talent name={name} />
+								</b>
+							))}
+						</div>
+					</div>
+				</div>
+			)}
+			{(details.egg !== undefined || !!details.eggColor) && (
+				<div className="details-fact">
+					<i className="bi bi-egg" aria-hidden="true" />
+					<div>
+						<span>{translateUI('Egg')}</span>
+						<b>
+							{!!details.eggColor && (
+								<span
+									className="details-egg-swatch"
+									style={{
+										background:
+											EGG_COLORS[details.eggColor] ||
+											'var(--dl-muted)',
+									}}
+								/>
+							)}
+							{details.eggColor ?
+								translateUI(details.eggColor)
+							: details.egg ?
+								translateUI('Yes')
+							:	translateUI('No')}
+						</b>
+					</div>
+				</div>
+			)}
+			{/* {details.drops?.map(drop => (
+				<div key={drop.item} className="details-fact">
+					<div>
+						<span>
+							{translateUI('Drop')}
+							{drop.rare ? ' ★' : ''}
+						</span>
+						<b>
+							{itemName(drop.item)} &mdash; {drop.rate}%
+						</b>
+					</div>
+				</div>
+			))} */}
+		</section>
+	);
+
+	const statsCard = !!stats && (
+		<section
+			className={makeClassName(
+				'details-card',
+				(splitTraits ? !factsBeside : !traits.length) && 'wide'
+			)}
+		>
+			<header className="details-card-header">
+				<h5>{translateUI('Statistics')}</h5>
+				<span className="details-total">
+					{translateUI('Total')} <b>{statTotal}</b>
+				</span>
+			</header>
+			<dl className="details-stats">
+				{STATS.map((stat, i) => (
+					<div key={stat.key}>
+						<dt>{translateUI(stat.label)}</dt>
+						<dd className="details-stat-bar" aria-hidden="true">
+							<span
+								style={{
+									width: `${Math.min(100, (statValues[i] / statScale) * 100)}%`,
+								}}
+							/>
+						</dd>
+						<dd className="details-stat-value">{statValues[i]}</dd>
+					</div>
+				))}
+			</dl>
+		</section>
+	);
+
+	const smallTraitList = (
+		<TraitList
+			rows={smallTraits}
+			terms={terms}
+			tag={traitTag}
+			translateTrait={translateTrait}
+			localised={localised}
+		/>
+	);
+	const largeTraitList = (
+		<TraitList
+			rows={largeTraits}
+			terms={terms}
+			tag={traitTag}
+			translateTrait={translateTrait}
+			localised={localised}
+			large
+		/>
+	);
+
+	const traitsCard = !!traits.length && (
+		<section
+			className={makeClassName('details-card', (splitTraits || !stats) && 'wide')}
+		>
+			<header className="details-card-header">
+				<h5>{translateUI('Traits')}</h5>
+			</header>
+			{splitTraits ?
+				<div className="details-trait-columns">
+					<div className="details-trait-column">
+						<span className="details-size-tag">
+							{translateUI('Small size')}
+						</span>
+						{smallTraitList}
+					</div>
+					<div className="details-trait-column">
+						<span className="details-size-tag large">
+							{translateUI('Large size')}
+						</span>
+						{largeTraitList}
+					</div>
+				</div>
+			:	<>
+					{!!largeTraits.length && (
+						<span className="details-size-tag large">
+							{translateUI('Large size')}
+						</span>
+					)}
+					{smallTraitList}
+					{largeTraitList}
+				</>
+			}
+		</section>
+	);
+
+	return (
+		<div className="details-body">
+			{!factsBeside && factsSection}
+
+			{splitTraits ?
+				<>
+					{(!!stats || factsBeside) && (
+						<div className="details-grid">
+							{factsBeside && factsSection}
+							{statsCard}
+						</div>
+					)}
+					{traitsCard}
+				</>
+			:	(!!stats || !!traits.length) && (
+					<div className="details-grid">
+						{statsCard}
+						{traitsCard}
+					</div>
+				)
+			}
 
 			{!!resisted.length && (
 				<section className="details-card">
@@ -429,7 +483,7 @@ export const MonsterDetailsBody = ({
 									type="button"
 									className={makeClassName(
 										'details-filter',
-										activeFilter === entry.key && 'active',
+										activeFilter === entry.key && 'active'
 									)}
 									aria-pressed={activeFilter === entry.key}
 									onClick={() => setFilter(entry.key)}
@@ -443,13 +497,17 @@ export const MonsterDetailsBody = ({
 
 					{!!weaknesses.length && (
 						<div className="details-weaknesses">
-							<i className="bi bi-exclamation-triangle" aria-hidden="true" />
+							<i
+								className="bi bi-exclamation-triangle"
+								aria-hidden="true"
+							/>
 							<span className="details-weaknesses-label">
 								{translateUI('Weak points')}
 							</span>
 							{weaknesses.map(entry => (
 								<span key={entry.key} className="details-weakness">
-									{translateUI(entry.label)} <b>{resistanceValue(entry.value)}</b>
+									{translateUI(entry.label)}{' '}
+									<b>{resistanceValue(entry.value)}</b>
 								</span>
 							))}
 						</div>
@@ -465,12 +523,24 @@ export const MonsterDetailsBody = ({
 									{entries.map(entry => {
 										const pct = Math.min(100, Math.abs(entry.value));
 										return (
-											<li key={entry.key} className={resistanceClass(entry.value)}>
+											<li
+												key={entry.key}
+												className={resistanceClass(entry.value)}
+											>
 												<div className="details-resistance-head">
-													<span>{translateUI(entry.label)}</span>
-													<b>{translateUI(resistanceValue(entry.value))}</b>
+													<span>
+														{translateUI(entry.label)}
+													</span>
+													<b>
+														{translateUI(
+															resistanceValue(entry.value)
+														)}
+													</b>
 												</div>
-												<div className="details-resistance-bar" aria-hidden="true">
+												<div
+													className="details-resistance-bar"
+													aria-hidden="true"
+												>
 													<span>
 														<i
 															style={{
@@ -557,7 +627,12 @@ const TraitList = ({
 				return (
 					<li key={`${trait.name}-${i}`}>
 						{tagged && (
-							<span className={makeClassName('details-trait-tag', large && 'large')}>
+							<span
+								className={makeClassName(
+									'details-trait-tag',
+									large && 'large'
+								)}
+							>
 								{tag(trait)}
 							</span>
 						)}
