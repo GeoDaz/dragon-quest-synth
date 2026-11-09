@@ -34,15 +34,32 @@ export const capitalize = (string: string): string => {
 	return string[0].toUpperCase() + string.slice(1);
 };
 
+const LANGUAGE_KEY = 'language';
+const LANGUAGES = ['en', 'fr'];
+
+export const getStoredLanguage = (): string | null => {
+	try {
+		const language = localStorage.getItem(LANGUAGE_KEY);
+		return language && LANGUAGES.includes(language) ? language : null;
+	} catch {
+		return null;
+	}
+};
+
+export const storeLanguage = (language: string) => {
+	try {
+		localStorage.setItem(LANGUAGE_KEY, language);
+	} catch {}
+};
+
 export const processLanguage = () => {
 	const language: string =
-		navigator.language ||
 		navigator.languages?.[0] ||
+		navigator.language ||
 		(navigator as any).userLanguage ||
 		'';
-	const [p1, p2] = language.split('-');
-	if (p1 == 'fr' || p2 == 'FR') return true;
-	return false;
+	const [p1, p2] = language.toLowerCase().split(/[-_]/);
+	return p1 == 'fr' || p2 == 'fr';
 };
 
 export const objectToGETparams = (

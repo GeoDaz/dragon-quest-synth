@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 import Link from './Link';
-import { makeClassName } from '@/functions';
+import { makeClassName, storeLanguage } from '@/functions';
 
 const LanguageSwitch = () => {
 	const { asPath, locale } = useRouter();
@@ -12,6 +12,7 @@ const LanguageSwitch = () => {
 					href={asPath}
 					locale={code}
 					hrefLang={code}
+					onClick={() => storeLanguage(code)}
 					aria-current={code == locale ? 'true' : undefined}
 					className={makeClassName('language-switch-item', code == locale && 'active')}
 				>
