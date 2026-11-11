@@ -132,12 +132,12 @@
 			"Crack Ward EX": "氷結ガードEX",
 			"Crack Ward SP": "氷結ガードSP",
 			"Ziggy the Wicked": "悪魔長ジウギス",
-			"Darkwood Spirit": "暗黒大樹の番人",
-			"Pusugon Awakened": "覚醒プスゴン",
+			"Guardian Of The Dark Tree": "暗黒大樹の番人",
+			"Pusugon Awaken": "覚醒プスゴン",
 			"Δ Hraesvelgr": "凶鳥フレス",
 			"Doom Groom": "黒き花婿",
 			"Dirty Bubble": "けがれの渦",
-			"Illusionist Fazma": "幻魔将ファズマ",
+			"Phantom General Fuzzma": "幻魔将ファズマ",
 			"Azamook": "狡猾王アーザムーク",
 			"Bundold": "強奪王ブンドルド",
 			"Devil Dog Belinda": "豪魔将ベリンダ",
@@ -147,9 +147,9 @@
 			"Defender of the Depths": "深海の守護者",
 			"Disasterking": "真・災厄の王",
 			"Sliderk": "スライダー",
-			"Valkeros of the Horizons": "青天竜バルケロス",
+			"Barkeros": "青天竜バルケロス",
 			"Boshock": "大食王ボーショック",
-			"Corvus the Fallen": "堕天使エルギオス",
+			"Corvus": "堕天使エルギオス",
 			"Scum Bubble": "どくどくバルーン",
 			"Nochora Engine": "ノチョーラ機関",
 			"Nochora Alloy": "ノチョーラ合金",
@@ -160,10 +160,10 @@
 			"Chibi Threes": "プチットⅢ",
 			"Chibi Eights": "プチットⅧ",
 			"Dancer Pleshauna": "舞踏魔プレシアンナ",
-			"Zeldorado": "魔元帥ゼルドラド",
+			"Zeldorade": "魔元帥ゼルドラド",
 			"Zexen the Devil": "魔人ゼクセン",
-			"Dark Hero Anlucia": "魔勇者アンルシア",
-			"Jungle Guardian": "密林の守人",
+			"Anlucia The Maluminary": "魔勇者アンルシア",
+			"Forest Guardian": "密林の守人",
 			"Shadroth": "闇竜シャムダ",
 			"Schleiman Tank": "勇者スラリンガル",
 			"Incarnus Trainee": "見習い戦士",
@@ -200,14 +200,14 @@
 			"Paralysis": "マヒの力",
 			"Feral": "ワイルドフォース",
 			"Dragon": "ドラゴフォース",
-			"Asura Zoma": "アスラゾーマ",
+			"AsuraZoma": "アスラゾーマ",
 			"Devil": "デビルフォース",
 			"Material": "マテリアフォース",
 			"Zam": "闇の使い手",
 			"Icy Breather": "氷の息吹",
 			"Zombie+": "ゾンビフォース+",
 			"Fuddle": "こんらんの力",
-			"Brash": "ブラス",
+			"Brass": "ブラス",
 			"Devil Dog Brenda": "豪魔将ブレンダ",
 			"Putrid Breath": "よどんだ息吹",
 			"Beast": "ビーストフォース",
@@ -216,7 +216,7 @@
 			"Curse": "呪いの力",
 			"Whacker": "死の力",
 			"Chiu": "チウ",
-			"Aldarahla": "アルダララ",
+			"Cobrara": "アルダララ",
 			"Sizz": "光の使い手",
 			"Hypnotist": "さいみん",
 			"Toxifier": "どくが",
@@ -229,233 +229,238 @@
 			"Fortifier": "アッパー",
 			"Wonderous": "ワンダーフォース",
 			"Slime": "スラフォース",
-			"Gome-chan": "ゴメちゃん",
+			"Gomechan": "ゴメちゃん",
 			"Nightmare": "ナイトメア",
 			"Incandescent Breath": "きらめく息吹",
-			"Kill-Vearn": "キルバーン",
-			"Myst-Vearn": "ミストバーン",
+			"Killvearn": "キルバーン",
+			"Mystvearn": "ミストバーン",
 			"Hades Nelgel": "冥獣王ネルゲル",
 			"Martyr": "じこぎせい",
-			"Pusugon the Monsterous": "怪獣プスゴン",
+			"Pusugon the Monstrous": "怪獣プスゴン",
 			"Deep Freezer": "コールドスリープ",
 			"Jolly Eastern Gal": "快活な東の乙女",
 			"Elegant Western Gal": "風雅なる西の乙女",
 			"Totem of Urubea": "ウルベア魔神兵",
-			"Great King Vearn": "大魔王バーン",
-			"Vearn, The Beholder": "鬼眼王バーン",
+			"Vearn": "大魔王バーン",
+			"Vearn The Supreme Sovereign": "鬼眼王バーン",
 			"WORLD": "WORLD",
 			"Rime Ridden Treant": "ジュヒョウの戦士"
 		},
 		"moves": {
-			"Vacuum Slash": "真空斬り",
-			"Thunder Slash": "雷鳴斬り",
-			"Shin Splinter": "すねくだき",
-			"Woosh Ward+": "風ガード＋",
-			"Woosh-Flurry": "バギマータ",
-			"Compressing Slash": "圧縮斬り",
-			"Gravity Ward+": "重力ガード＋",
-			"Kadonk": "ベタロール",
-			"Donk-Flurry": "ベタナマータ",
-			"Kadonkle": "ベタランブル",
-			"Rock Slash": "岩石斬り",
-			"Grand Nebula": "グランドネビュラ",
-			"Donkle": "ベタドロン",
-			"Quake Ward+": "地ガード＋",
-			"Shake-flurry": "ジバマータ",
-			"Temple Blow": "テンプルブロー",
-			"Zap Ward+": "電撃ガード＋",
-			"Zap-Flurry": "デイナマータ",
-			"Exploding Slash": "爆砕斬り",
+			"Abysmal Hand": "アビスハンド",
+			"Acid Breath": "アシッドブレス",
+			"Aqua Breath": "アクアブレス",
+			"Aurora Breath": "オーロラブレス",
+			"Ba-bounce": "アタカンタ",
+			"Backwater Stance": "背水のかまえ",
+			"Balancing Tango": "てんびんのタンゴ",
 			"Bang Ward+": "爆発ガード＋",
-			"Sun Slash": "日輪斬",
 			"Bang-Flurry": "イオマータ",
-			"Lightning Slash": "光明斬り",
-			"Dark Shackles": "修羅の獄",
-			"Sizz Ward+": "光ガード＋",
-			"Sizz-Flurry": "ギラマータ",
-			"Flame Slash": "火炎斬り",
-			"Frizz Ward+": "火ガード＋",
-			"Frizz-Flurry": "メラマータ",
-			"Water Slash": "水流斬り",
-			"Freezing Slash": "零度斬り",
-			"Hide": "かくれる",
-			"Counter Magic": "呪文よそく",
-			"Stealth Attack": "ステルスアタック",
+			"Bashful Dance": "やけつく踊り",
+			"Bemusing Breath": "まどいの息",
+			"Berserk Pentagram": "浪費の魔法陣",
+			"Big Banga": "ビッグバン",
+			"Black Hole": "ブラックホール",
+			"Black Mist": "黒い霧",
+			"Blade Blunter": "やいばきだき",
+			"Blind Stance": "盲信のかまえ",
+			"Blind Ward+": "命中ガード＋",
+			"Blue Mist": "青天の霧",
+			"Blunt Ward+": "攻撃力ガード＋",
+			"Body Slam": "たいあたり",
+			"Boulder Toss": "がんせきおとし",
 			"Bound": "マホターン",
-			"Tidal Wave": "つなみ",
-			"Ocean Slash": "海破斬",
+			"Break Breath": "ブレイクブレス",
+			"Call of the Falcon": "ハヤブサのふえ",
 			"Cataclysm": "てんぺんちい",
+			"Chain": "チェイン",
+			"Change": "チェンジ",
+			"Change of Heart": "心機一転",
+			"Comeback Kid": "てんしのきまぐれ",
+			"Compressing Slash": "圧縮斬り",
+			"Confuddling Command": "興奮の叫び",
+			"Copycat": "まねまね",
+			"Counter Attack": "物理よそく",
+			"Counter Breath": "息よそく",
+			"Counter Dance": "踊りよそく",
+			"Counter Magic": "呪文よそく",
 			"Crack Ward+": "氷結ガード＋",
 			"Crack-Flurry": "ヒャドマータ",
-			"Horns of Battle": "たたかいのふえ",
-			"Whistle of Wisdom": "ちしきのふえ",
-			"Hellfire": "れんごく火炎",
-			"Aurora Breath": "オーロラブレス",
-			"Big Banga": "ビッグバン",
+			"Cremate": "火炎竜",
+			"Curse Ward+": "呪いガード＋",
+			"Curse of Hades": "冥王の呪い",
+			"Cursed Cry": "じゅそのこえ",
+			"Cursed Hammer": "呪いの鉄槌",
+			"Cursed Roulette": "呪いのルーレット",
+			"Dance of Decay": "崩壊の舞",
+			"Dance of Exorcism": "破魔の舞",
+			"Dance of Ruin": "破滅の舞",
+			"Dark Shackles": "修羅の獄",
+			"Deadly Breath": "死神の息吹",
+			"Death Dance": "死の踊り",
+			"Dire Dirge": "レクイエムのふえ",
+			"Disrupting Call": "かくらんの叫び",
+			"Disrupting Light": "いてつくはもん",
+			"Donk": "ベタン",
+			"Donk-Flurry": "ベタナマータ",
+			"Donkle": "ベタドロン",
+			"Double Up": "すてみ",
+			"Double-Edged Slash": "もろば斬り",
+			"Draining Dance": "マホトラの踊り",
+			"Dream Stance": "夢想のかまえ",
+			"Drunkard's Breath": "よいどれブレス",
+			"Dulling Tempest": "攻滅の刻",
+			"Dumb Ward+": "かしこさガード＋",
+			"Dusk Stance": "晩成のかまえ",
+			"Escape Artist": "にげあし",
+			"Essence Drain Ward+": "気力吸収ガード＋",
+			"Essence Extractor": "タメトラ",
+			"Essence Extractor Dance": "タメトラ踊り",
+			"Exploding Slash": "爆砕斬り",
 			"Fizz Ward+": "水ガード＋",
 			"Fizz-Flurry": "ザバマータ",
-			"Void Slash": "無明斬り",
-			"Zam Ward+": "闇ガード＋",
-			"Zam-flurry": "ドルマータ",
-			"Universal slash": "しんらばんしょう斬",
+			"Flame Slash": "火炎斬り",
 			"Flawless Slash": "てんいむほう斬",
-			"Loud Sigh": "大きなため息",
-			"Deadly Breath": "死神の息吹",
-			"Kastrip": "フバハック",
-			"Tension Cutter": "サゲサゲチョップ",
-			"Preemptive Striker": "せんせいりつアップ",
+			"Flute of Fortification": "まもりのふえ",
+			"Freezing Slash": "零度斬り",
+			"Frizz Ward+": "火ガード＋",
+			"Frizz-Flurry": "メラマータ",
+			"Frizzcrackle": "メドローア",
+			"Fuddle Ward+": "こんらんガード＋",
+			"Fullheal": "ベホイマ",
+			"Gale Step": "暴風の舞",
+			"Gallant Gasher": "ゆうきの斬舞",
+			"Genma's Gaol": "幻魔の獄",
+			"Giant Killer": "ギガキラー",
+			"Giga Drain Magic": "ギガ・マホトラ",
 			"Giga Essence Extractor": "ギガ・タメトラ",
-			"Showstopper": "ゼロのしょうげき",
-			"Rival Riler": "ちょうはつ",
-			"Essence Extractor Dance": "タメトラ踊り",
-			"Disrupting Call": "かくらんの叫び",
-			"Jester's Jig": "遊び人のマイム",
-			"Copycat": "まねまね",
-			"Party change": "パーティチェンジ",
-			"Hocus Pocus": "パルプンテ",
-			"Tension Passer": "テンションパサー",
-			"Counter Dance": "踊りよそく",
-			"Counter Breath": "息よそく",
-			"Counter Attack": "物理よそく",
-			"Infectious Waltz": "みちづれのワルツ",
-			"Horoscope": "星うらない",
-			"Death Dance": "死の踊り",
-			"Regent's Rondo": "王様のロンド",
-			"Song of Salvation": "せいれいのうた",
-			"Starry Samba": "星降りのサンバ",
-			"Penny Pincher": "ゴールドアタック",
-			"Klepto Clobber": "ぬすっと斬り",
-			"Double-Edged Slash": "もろば斬り",
 			"Gigaslash": "ギガスラッシュ",
-			"Requiem for the Lost": "うらみぶし",
-			"Unnatural Order": "リバース",
-			"Shuffle": "シャッフル",
+			"God Hand": "ゴッドハンド",
+			"Grand Nebula": "グランドネビュラ",
+			"Gravity Ward+": "重力ガード＋",
+			"Heavenly Stance": "天地のかまえ",
+			"Hellfire": "れんごく火炎",
+			"Hide": "かくれる",
+			"Hocus Pocus": "パルプンテ",
+			"Horns of Battle": "たたかいのふえ",
+			"Horoscope": "星うらない",
+			"Hunter Mech": "メタルハンター",
+			"Infectious Waltz": "みちづれのワルツ",
+			"Iron Blow": "アイアンブロー",
+			"Iron Geyser": "アイアンゲイザー",
+			"Jester's Jig": "遊び人のマイム",
+			"Judgement": "ジャッジメント",
+			"Kaclang": "アストロン",
+			"Kadonk": "ベタロール",
+			"Kadonkle": "ベタランブル",
 			"Kaoomph": "バイメリト",
 			"Kaoomphle": "ヘルメリト",
-			"Skip": "スキップ",
-			"Kaclang": "アストロン",
-			"Change": "チェンジ",
-			"Call of the Falcon": "ハヤブサのふえ",
-			"Flute of Fortification": "まもりのふえ",
-			"Requiem of Restoration": "いやしのふえ",
-			"Sonata of Serenity": "やすらぎのふえ",
-			"Prezing": "リザオラル",
-			"Magic Miser": "しょうひMPせつやく",
-			"Omniheal": "ベホマズン",
-			"Magic Burst": "マダンテ",
-			"MP Drain Ward+": "MP吸収ガード＋",
-			"Ripple of Light": "光のはもん",
-			"Hunter Mech": "メタルハンター",
-			"Scout Up Small": "スカウト％アップ＋",
-			"Fullheal": "ベホイマ",
-			"MP Gambit": "MPバブル",
-			"Comeback Kid": "てんしのきまぐれ",
-			"Metal Killer": "メタルキラー",
-			"Tension Shift": "テンションシフト",
-			"Gallant Gasher": "ゆうきの斬舞",
-			"Essence Drain Ward+": "気力吸収ガード＋",
-			"Possessed Polka": "ひょういのポルカ",
-			"Dumb Ward+": "かしこさガード＋",
-			"Frizzcrackle": "メドローア",
-			"Body Slam": "たいあたり",
-			"Swelling Strike": "パイルハンマー",
-			"Heavenly Stance": "天地のかまえ",
-			"Nioh Slash": "におう斬り",
-			"Blunt Ward+": "攻撃力ガード＋",
-			"Change of Heart": "心機一転",
-			"Omnigen": "リベホイム",
-			"Sap Ward+": "守備力ガード＋",
-			"Essence Extractor": "タメトラ",
-			"Genma's Gaol": "幻魔の獄",
-			"Double Up": "すてみ",
-			"Pearly Gates": "グランドクロス",
-			"Slow Ward+": "すばやさガード＋",
-			"Chain": "チェイン",
-			"Cremate": "火炎竜",
-			"Wind Shear": "トルネード",
-			"Boulder Toss": "がんせきおとし",
-			"Red Mist": "赤い霧",
-			"Ripple of Darkness": "やみのはもん",
-			"Sheen": "シャナク",
-			"Ba-bounce": "アタカンタ",
-			"Sear": "おにび",
-			"God Hand": "ゴッドハンド",
-			"Unwavering Stance": "無心のかまえ",
-			"Cursed Hammer": "呪いの鉄槌",
-			"Giga Drain Magic": "ギガ・マホトラ",
-			"Black Mist": "黒い霧",
-			"Spooky Aura": "ぶきみな光",
-			"Dire Dirge": "レクイエムのふえ",
-			"Bemusing Breath": "まどいの息",
-			"Fuddle Ward+": "こんらんガード＋",
-			"Lunatic Stance": "乱心のかまえ",
-			"Underworld Fog": "冥界の霧",
-			"Whack Ward+": "即死ガード＋",
-			"White Mist": "白い霧",
-			"Meteor": "流星",
-			"Mirror Step": "ミラーステップ",
-			"Black Hole": "ブラックホール",
-			"Blue Mist": "青天の霧",
-			"Thwack": "ザラキ",
+			"Kastrip": "フバハック",
+			"Klepto Clobber": "ぬすっと斬り",
+			"Lightning Slash": "光明斬り",
 			"Lightning Storm": "ジゴスパーク",
-			"Poison Ward+": "どくガード＋",
-			"Venom Breath": "もうどくの息",
-			"Stance of Madness": "狂気のかまえ",
-			"Dream Stance": "夢想のかまえ",
-			"Nightmarish Shriek": "悪夢のよびごえ",
-			"Curse Ward+": "呪いガード＋",
-			"Cursed Cry": "じゅそのこえ",
-			"Rumba of Ruin": "呪いのルンバ",
-			"Blind Stance": "盲信のかまえ",
-			"Multigen": "リベホイミ",
-			"Strip": "バハック",
-			"Iron Geyser": "アイアンゲイザー",
-			"Paralysis Ward+": "マヒガード＋",
-			"Bashful Dance": "やけつく踊り",
-			"Backwater Stance": "背水のかまえ",
-			"Stasis Ward+": "休みガード＋",
-			"Dusk Stance": "晩成のかまえ",
-			"Acid Breath": "アシッドブレス",
-			"Drunkard's Breath": "よいどれブレス",
-			"Break Breath": "ブレイクブレス",
-			"Judgement": "ジャッジメント",
-			"One-on-One": "特攻",
-			"Dance of Decay": "崩壊の舞",
-			"Disrupting Light": "いてつくはもん",
-			"Stardust": "星くず",
-			"Pentagram of Despair": "絶望の魔法陣",
-			"Cursed Roulette": "呪いのルーレット",
-			"Wethering Wind": "守滅の刻",
-			"Temporal Twister": "早滅の刻",
-			"Confuddling Command": "興奮の叫び",
-			"Iron Blow": "アイアンブロー",
-			"Stupifying Swirl": "賢滅の刻",
-			"Gale Step": "暴風の舞",
-			"Berserk Pentagram": "浪費の魔法陣",
-			"Resistance Ward+": "耐性ガード＋",
-			"Dulling Tempest": "攻滅の刻",
-			"Regen": "リホイミ",
-			"Rakshasa's Rage": "羅刹斬",
-			"Whirlwind": "ゆうきの旋風",
-			"Vortex": "光の旋風",
-			"Aqua Breath": "アクアブレス",
-			"Miracle of the Stars": "星のきせき",
-			"Curse of Hades": "冥王の呪い",
-			"Thunder Breath": "サンダーブレス",
-			"Sleep Ward+": "ねむりガード＋",
-			"Dance of Ruin": "破滅の舞",
-			"Dance of Exorcism": "破魔の舞",
-			"Shining Breath": "シャイニングブレス",
-			"Mirror Multiverse": "写し鏡",
-			"Sword Dance": "つるぎの舞",
-			"Shining Bow": "シャイニング",
-			"Giant Killer": "ギガキラー",
-			"Wicked Waltz": "じごくの踊り",
 			"Little Killer": "スモールキラー",
-			"Blind Ward+": "命中ガード＋",
-			"Donk": "ベタン",
-			"Escape Artist": "にげあし",
-			"Blade Blunter": "やいばきだき"
+			"Loud Sigh": "大きなため息",
+			"Lunatic Stance": "乱心のかまえ",
+			"MP Drain Ward+": "MP吸収ガード＋",
+			"MP Gambit": "MPバブル",
+			"Magic Burst": "マダンテ",
+			"Magic Miser": "しょうひMPせつやく",
+			"Metal Killer": "メタルキラー",
+			"Meteor": "流星",
+			"Miracle of the Stars": "星のきせき",
+			"Mirror Multiverse": "写し鏡",
+			"Mirror Step": "ミラーステップ",
+			"Mist Me": "ひとりっ霧",
+			"Multigen": "リベホイミ",
+			"Naraku Step": "奈落の舞",
+			"Nightmarish Shriek": "悪夢のよびごえ",
+			"Nioh Slash": "におう斬り",
+			"Ocean Slash": "海破斬",
+			"Omnigen": "リベホイム",
+			"Omniheal": "ベホマズン",
+			"One-on-One": "特攻",
+			"Paralysis Ward+": "マヒガード＋",
+			"Party change": "パーティチェンジ",
+			"Pearly Gates": "グランドクロス",
+			"Penny Pincher": "ゴールドアタック",
+			"Pentagram of Despair": "絶望の魔法陣",
+			"Poison Ward+": "どくガード＋",
+			"Possessed Polka": "ひょういのポルカ",
+			"Preemptive Striker": "せんせいりつアップ",
+			"Prezing": "リザオラル",
+			"Quake Ward+": "地ガード＋",
+			"Rakshasa's Rage": "羅刹斬",
+			"Red Mist": "赤い霧",
+			"Regen": "リホイミ",
+			"Regent's Rondo": "王様のロンド",
+			"Requiem for the Lost": "うらみぶし",
+			"Requiem of Restoration": "いやしのふえ",
+			"Resistance Ward+": "耐性ガード＋",
+			"Ripple of Darkness": "やみのはもん",
+			"Ripple of Light": "光のはもん",
+			"Rival Riler": "ちょうはつ",
+			"Rock Slash": "岩石斬り",
+			"Rumba of Ruin": "呪いのルンバ",
+			"Sap Ward+": "守備力ガード＋",
+			"Scout Up Small": "スカウト％アップ＋",
+			"Sear": "おにび",
+			"Shake-flurry": "ジバマータ",
+			"Sheen": "シャナク",
+			"Shin Splinter": "すねくだき",
+			"Shining Bow": "シャイニング",
+			"Shining Breath": "シャイニングブレス",
+			"Showstopper": "ゼロのしょうげき",
+			"Shuffle": "シャッフル",
+			"Sizz Ward+": "光ガード＋",
+			"Sizz-Flurry": "ギラマータ",
+			"Skip": "スキップ",
+			"Sleep Ward+": "ねむりガード＋",
+			"Slow Ward+": "すばやさガード＋",
+			"Sonata of Serenity": "やすらぎのふえ",
+			"Song of Salvation": "せいれいのうた",
+			"Spooky Aura": "ぶきみな光",
+			"Stance of Madness": "狂気のかまえ",
+			"Stardust": "星くず",
+			"Starry Samba": "星降りのサンバ",
+			"Stasis Ward+": "休みガード＋",
+			"Stealth Attack": "ステルスアタック",
+			"Strip": "バハック",
+			"Stupifying Swirl": "賢滅の刻",
+			"Sun Slash": "日輪斬",
+			"Swelling Strike": "パイルハンマー",
+			"Sword Dance": "つるぎの舞",
+			"Temple Blow": "テンプルブロー",
+			"Temporal Twister": "早滅の刻",
+			"Tension Cutter": "サゲサゲチョップ",
+			"Tension Passer": "テンションパサー",
+			"Tension Shift": "テンションシフト",
+			"Thunder Breath": "サンダーブレス",
+			"Thunder Slash": "雷鳴斬り",
+			"Thwack": "ザラキ",
+			"Tidal Wave": "つなみ",
+			"Underworld Fog": "冥界の霧",
+			"Universal slash": "しんらばんしょう斬",
+			"Unnatural Order": "リバース",
+			"Unwavering Stance": "無心のかまえ",
+			"Vacuum Slash": "真空斬り",
+			"Venom Breath": "もうどくの息",
+			"Void Slash": "無明斬り",
+			"Vortex": "光の旋風",
+			"Water Slash": "水流斬り",
+			"Wethering Wind": "守滅の刻",
+			"Whack Ward+": "即死ガード＋",
+			"Whirlwind": "ゆうきの旋風",
+			"Whistle of Wisdom": "ちしきのふえ",
+			"White Mist": "白い霧",
+			"Wicked Waltz": "じごくの踊り",
+			"Wind Shear": "トルネード",
+			"Woosh Ward+": "風ガード＋",
+			"Woosh-Flurry": "バギマータ",
+			"Zam Ward+": "闇ガード＋",
+			"Zam-flurry": "ドルマータ",
+			"Zap Ward+": "電撃ガード＋",
+			"Zap-Flurry": "デイナマータ"
 		},
 		"fr": {
 			"source": "Fan-trad française « Dragon Quest Monster Joker 3 Pro Maj 7 » (romfs/data/Message/SkillMessage.mes + SkillHelpMessage.mes, UTF-16, mêmes identifiants SkillNameNNNN que la fan-trad anglaise)",
@@ -578,16 +583,16 @@
 				"青飛竜",
 				"赤飛竜",
 				"Ziggy the Wicked",
-				"Darkwood Spirit",
+				"Guardian Of The Dark Tree",
 				"Araniad the Enigma",
-				"Pusugon Awakened",
+				"Pusugon Awaken",
 				"ガルマザード",
 				"黄飛竜",
 				"義帝ガオガイヤ",
 				"Δ Hraesvelgr",
 				"Doom Groom",
 				"Dirty Bubble",
-				"Illusionist Fazma",
+				"Phantom General Fuzzma",
 				"Azamook",
 				"Bundold",
 				"皇帝ウィンディオ",
@@ -603,13 +608,13 @@
 				"Gillgush",
 				"Sliderk",
 				"Slime Gang",
-				"Valkeros of the Horizons",
+				"Barkeros",
 				"Holy Dragon Miraclea",
 				"戦帝アックル",
 				"Large Ghost Mammon",
 				"Boshock",
 				"ダグジャガルマ",
-				"Corvus the Fallen",
+				"Corvus",
 				"月夜の将",
 				"Scum Bubble",
 				"He Who Bears No Name",
@@ -622,10 +627,10 @@
 				"Chibi Threes",
 				"Chibi Eights",
 				"Dancer Pleshauna",
-				"Zeldorado",
+				"Zeldorade",
 				"Zexen the Devil",
-				"Dark Hero Anlucia",
-				"Jungle Guardian",
+				"Anlucia The Maluminary",
+				"Forest Guardian",
 				"Shadroth",
 				"闇の王ヴラート",
 				"Schleiman Tank",
@@ -737,7 +742,7 @@
 				"Icy Breather",
 				"Zombie+",
 				"Fuddle",
-				"Brash",
+				"Brass",
 				"Devil Dog Brenda",
 				"Putrid Breath",
 				"Beast",
@@ -745,7 +750,7 @@
 				"Curse",
 				"Whacker",
 				"Chiu",
-				"Aldarahla",
+				"Cobrara",
 				"Sizz",
 				"ねむりの力",
 				"Fire Breather",
@@ -754,18 +759,18 @@
 				"Comet Spirit",
 				"Wonderous",
 				"Slime",
-				"Gome-chan",
+				"Gomechan",
 				"Incandescent Breath",
-				"Kill-Vearn",
-				"Myst-Vearn",
+				"Killvearn",
+				"Mystvearn",
 				"Hades Nelgel",
-				"Pusugon the Monsterous",
+				"Pusugon the Monstrous",
 				"Deep Freezer",
 				"Jolly Eastern Gal",
 				"Elegant Western Gal",
 				"Totem of Urubea",
-				"Great King Vearn",
-				"Vearn, The Beholder",
+				"Vearn",
+				"Vearn The Supreme Sovereign",
 				"WORLD",
 				"Rime Ridden Treant"
 			]
@@ -818,14 +823,34 @@
 			],
 			"unofficial": true,
 			"jp": "風と電撃の達人",
-			"traits": ["Attack +12", "Max. MP +40", "Attack +24", "Max. MP +60"],
+			"traits": [
+				"Attack +12",
+				"Max. MP +40",
+				"Attack +24",
+				"Max. MP +60"
+			],
 			"category": "Combination",
 			"from": [
-				["Woosh EX", "Zap EX"],
-				["Woosh & Zap", "Uber Attack Boost"],
-				["Woosh & Zap", "剣豪"],
-				["Woosh & Zap", "Assassin"],
-				["Woosh & Zap", "Champion"]
+				[
+					"Woosh EX",
+					"Zap EX"
+				],
+				[
+					"Woosh & Zap",
+					"Uber Attack Boost"
+				],
+				[
+					"Woosh & Zap",
+					"剣豪"
+				],
+				[
+					"Woosh & Zap",
+					"Assassin"
+				],
+				[
+					"Woosh & Zap",
+					"Champion"
+				]
 			]
 		},
 		"Woosh & Zap+": {
@@ -873,14 +898,33 @@
 			],
 			"unofficial": true,
 			"jp": "風と電撃の探究者",
-			"traits": ["Wisdom +24", "Max. MP +40", "Max. MP +60"],
+			"traits": [
+				"Wisdom +24",
+				"Max. MP +40",
+				"Max. MP +60"
+			],
 			"category": "Combination",
 			"from": [
-				["Woosh SP", "Zap SP"],
-				["Woosh & Zap", "Uber Wisdom Boost"],
-				["Woosh & Zap", "Druid"],
-				["Woosh & Zap", "司祭"],
-				["Woosh & Zap", "スーパースター"]
+				[
+					"Woosh SP",
+					"Zap SP"
+				],
+				[
+					"Woosh & Zap",
+					"Uber Wisdom Boost"
+				],
+				[
+					"Woosh & Zap",
+					"Druid"
+				],
+				[
+					"Woosh & Zap",
+					"司祭"
+				],
+				[
+					"Woosh & Zap",
+					"スーパースター"
+				]
 			]
 		},
 		"Woosh & Zap": {
@@ -924,16 +968,41 @@
 			],
 			"unofficial": true,
 			"jp": "風と電撃の名手",
-			"traits": ["Attack +16", "Wisdom +32", "Max. MP +48"],
+			"traits": [
+				"Attack +16",
+				"Wisdom +32",
+				"Max. MP +48"
+			],
 			"category": "Combination",
 			"from": [
-				["Woosh+", "Zap+"],
-				["Woosh+", "Zap SP"],
-				["Woosh+", "Zap EX"],
-				["Woosh SP", "Zap+"],
-				["Woosh SP", "Zap EX"],
-				["Woosh EX", "Zap+"],
-				["Woosh EX", "Zap SP"]
+				[
+					"Woosh+",
+					"Zap+"
+				],
+				[
+					"Woosh+",
+					"Zap SP"
+				],
+				[
+					"Woosh+",
+					"Zap EX"
+				],
+				[
+					"Woosh SP",
+					"Zap+"
+				],
+				[
+					"Woosh SP",
+					"Zap EX"
+				],
+				[
+					"Woosh EX",
+					"Zap+"
+				],
+				[
+					"Woosh EX",
+					"Zap SP"
+				]
 			]
 		},
 		"Woosh EX": {
@@ -992,10 +1061,22 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Woosh+", "Uber Attack Boost"],
-				["Woosh+", "剣豪"],
-				["Woosh+", "Champion"],
-				["Woosh+", "Assassin"]
+				[
+					"Woosh+",
+					"Uber Attack Boost"
+				],
+				[
+					"Woosh+",
+					"剣豪"
+				],
+				[
+					"Woosh+",
+					"Champion"
+				],
+				[
+					"Woosh+",
+					"Assassin"
+				]
 			]
 		},
 		"Woosh SP": {
@@ -1054,10 +1135,22 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Woosh+", "Uber Wisdom Boost"],
-				["Woosh+", "Druid"],
-				["Woosh+", "司祭"],
-				["Woosh+", "スーパースター"]
+				[
+					"Woosh+",
+					"Uber Wisdom Boost"
+				],
+				[
+					"Woosh+",
+					"Druid"
+				],
+				[
+					"Woosh+",
+					"司祭"
+				],
+				[
+					"Woosh+",
+					"スーパースター"
+				]
 			]
 		},
 		"Gravity EX": {
@@ -1116,10 +1209,22 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Gravity+", "Uber Attack Boost"],
-				["Gravity+", "剣豪"],
-				["Gravity+", "Champion"],
-				["Gravity+", "Assassin"]
+				[
+					"Gravity+",
+					"Uber Attack Boost"
+				],
+				[
+					"Gravity+",
+					"剣豪"
+				],
+				[
+					"Gravity+",
+					"Champion"
+				],
+				[
+					"Gravity+",
+					"Assassin"
+				]
 			]
 		},
 		"Gravity SP": {
@@ -1178,10 +1283,22 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Gravity+", "Uber Wisdom Boost"],
-				["Gravity+", "Druid"],
-				["Gravity+", "司祭"],
-				["Gravity+", "スーパースター"]
+				[
+					"Gravity+",
+					"Uber Wisdom Boost"
+				],
+				[
+					"Gravity+",
+					"Druid"
+				],
+				[
+					"Gravity+",
+					"司祭"
+				],
+				[
+					"Gravity+",
+					"スーパースター"
+				]
 			]
 		},
 		"Quake & Gravity SP": {
@@ -1229,14 +1346,34 @@
 			],
 			"unofficial": true,
 			"jp": "地と重力の達人",
-			"traits": ["Attack +12", "Max. MP +40", "Attack +24", "Max. MP +60"],
+			"traits": [
+				"Attack +12",
+				"Max. MP +40",
+				"Attack +24",
+				"Max. MP +60"
+			],
 			"category": "Combination",
 			"from": [
-				["Quake EX", "Gravity EX"],
-				["Quake & Gravity", "Uber Attack Boost"],
-				["Quake & Gravity", "剣豪"],
-				["Quake & Gravity", "Champion"],
-				["Quake & Gravity", "Assassin"]
+				[
+					"Quake EX",
+					"Gravity EX"
+				],
+				[
+					"Quake & Gravity",
+					"Uber Attack Boost"
+				],
+				[
+					"Quake & Gravity",
+					"剣豪"
+				],
+				[
+					"Quake & Gravity",
+					"Champion"
+				],
+				[
+					"Quake & Gravity",
+					"Assassin"
+				]
 			]
 		},
 		"Quake & Gravity+": {
@@ -1284,14 +1421,33 @@
 			],
 			"unofficial": true,
 			"jp": "地と重力の探究者",
-			"traits": ["Wisdom +24", "Max. MP +40", "Max. MP +60"],
+			"traits": [
+				"Wisdom +24",
+				"Max. MP +40",
+				"Max. MP +60"
+			],
 			"category": "Combination",
 			"from": [
-				["Quake SP", "Gravity SP"],
-				["Quake & Gravity", "Uber Wisdom Boost"],
-				["Quake & Gravity", "Druid"],
-				["Quake & Gravity", "司祭"],
-				["Quake & Gravity", "スーパースター"]
+				[
+					"Quake SP",
+					"Gravity SP"
+				],
+				[
+					"Quake & Gravity",
+					"Uber Wisdom Boost"
+				],
+				[
+					"Quake & Gravity",
+					"Druid"
+				],
+				[
+					"Quake & Gravity",
+					"司祭"
+				],
+				[
+					"Quake & Gravity",
+					"スーパースター"
+				]
 			]
 		},
 		"Quake & Gravity": {
@@ -1335,16 +1491,41 @@
 			],
 			"unofficial": true,
 			"jp": "地と重力の名手",
-			"traits": ["Attack +16", "Wisdom +32", "Max. MP +48"],
+			"traits": [
+				"Attack +16",
+				"Wisdom +32",
+				"Max. MP +48"
+			],
 			"category": "Combination",
 			"from": [
-				["Quake+", "Gravity+"],
-				["Quake+", "Gravity SP"],
-				["Quake+", "Gravity EX"],
-				["Quake SP", "Gravity+"],
-				["Quake SP", "Gravity EX"],
-				["Quake EX", "Gravity+"],
-				["Quake EX", "Gravity SP"]
+				[
+					"Quake+",
+					"Gravity+"
+				],
+				[
+					"Quake+",
+					"Gravity SP"
+				],
+				[
+					"Quake+",
+					"Gravity EX"
+				],
+				[
+					"Quake SP",
+					"Gravity+"
+				],
+				[
+					"Quake SP",
+					"Gravity EX"
+				],
+				[
+					"Quake EX",
+					"Gravity+"
+				],
+				[
+					"Quake EX",
+					"Gravity SP"
+				]
 			]
 		},
 		"Quake EX": {
@@ -1403,10 +1584,22 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Quake+", "Uber Attack Boost"],
-				["Quake+", "剣豪"],
-				["Quake+", "Champion"],
-				["Quake+", "Assassin"]
+				[
+					"Quake+",
+					"Uber Attack Boost"
+				],
+				[
+					"Quake+",
+					"剣豪"
+				],
+				[
+					"Quake+",
+					"Champion"
+				],
+				[
+					"Quake+",
+					"Assassin"
+				]
 			]
 		},
 		"Quake SP": {
@@ -1465,10 +1658,22 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Quake+", "Uber Wisdom Boost"],
-				["Quake+", "Druid"],
-				["Quake+", "司祭"],
-				["Quake+", "スーパースター"]
+				[
+					"Quake+",
+					"Uber Wisdom Boost"
+				],
+				[
+					"Quake+",
+					"Druid"
+				],
+				[
+					"Quake+",
+					"司祭"
+				],
+				[
+					"Quake+",
+					"スーパースター"
+				]
 			]
 		},
 		"Zap EX": {
@@ -1527,10 +1732,22 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Zap+", "Uber Attack Boost"],
-				["Zap+", "剣豪"],
-				["Zap+", "Champion"],
-				["Zap+", "Assassin"]
+				[
+					"Zap+",
+					"Uber Attack Boost"
+				],
+				[
+					"Zap+",
+					"剣豪"
+				],
+				[
+					"Zap+",
+					"Champion"
+				],
+				[
+					"Zap+",
+					"Assassin"
+				]
 			]
 		},
 		"Zap SP": {
@@ -1589,10 +1806,22 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Zap+", "Uber Wisdom Boost"],
-				["Zap+", "Druid"],
-				["Zap+", "司祭"],
-				["Zap+", "スーパースター"]
+				[
+					"Zap+",
+					"Uber Wisdom Boost"
+				],
+				[
+					"Zap+",
+					"Druid"
+				],
+				[
+					"Zap+",
+					"司祭"
+				],
+				[
+					"Zap+",
+					"スーパースター"
+				]
 			]
 		},
 		"Bang EX": {
@@ -1651,10 +1880,22 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Bang+", "Uber Attack Boost"],
-				["Bang+", "剣豪"],
-				["Bang+", "Champion"],
-				["Bang+", "Assassin"]
+				[
+					"Bang+",
+					"Uber Attack Boost"
+				],
+				[
+					"Bang+",
+					"剣豪"
+				],
+				[
+					"Bang+",
+					"Champion"
+				],
+				[
+					"Bang+",
+					"Assassin"
+				]
 			]
 		},
 		"Bang SP": {
@@ -1713,10 +1954,22 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Bang+", "Uber Wisdom Boost"],
-				["Bang+", "Druid"],
-				["Bang+", "司祭"],
-				["Bang+", "スーパースター"]
+				[
+					"Bang+",
+					"Uber Wisdom Boost"
+				],
+				[
+					"Bang+",
+					"Druid"
+				],
+				[
+					"Bang+",
+					"司祭"
+				],
+				[
+					"Bang+",
+					"スーパースター"
+				]
 			]
 		},
 		"Sizz EX": {
@@ -1775,10 +2028,22 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Sizz+", "Uber Attack Boost"],
-				["Sizz+", "剣豪"],
-				["Sizz+", "Champion"],
-				["Sizz+", "Assassin"]
+				[
+					"Sizz+",
+					"Uber Attack Boost"
+				],
+				[
+					"Sizz+",
+					"剣豪"
+				],
+				[
+					"Sizz+",
+					"Champion"
+				],
+				[
+					"Sizz+",
+					"Assassin"
+				]
 			]
 		},
 		"Sizz SP": {
@@ -1837,10 +2102,22 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Sizz+", "Uber Wisdom Boost"],
-				["Sizz+", "Druid"],
-				["Sizz+", "司祭"],
-				["Sizz+", "スーパースター"]
+				[
+					"Sizz+",
+					"Uber Wisdom Boost"
+				],
+				[
+					"Sizz+",
+					"Druid"
+				],
+				[
+					"Sizz+",
+					"司祭"
+				],
+				[
+					"Sizz+",
+					"スーパースター"
+				]
 			]
 		},
 		"Frizz & Bang SP": {
@@ -1888,14 +2165,34 @@
 			],
 			"unofficial": true,
 			"jp": "火と爆発の達人",
-			"traits": ["Attack +12", "Max. MP +40", "Attack +24", "Max. MP +60"],
+			"traits": [
+				"Attack +12",
+				"Max. MP +40",
+				"Attack +24",
+				"Max. MP +60"
+			],
 			"category": "Combination",
 			"from": [
-				["Frizz EX", "Bang EX"],
-				["Frizz & Bang", "Uber Attack Boost"],
-				["Frizz & Bang", "剣豪"],
-				["Frizz & Bang", "Champion"],
-				["Frizz & Bang", "Assassin"]
+				[
+					"Frizz EX",
+					"Bang EX"
+				],
+				[
+					"Frizz & Bang",
+					"Uber Attack Boost"
+				],
+				[
+					"Frizz & Bang",
+					"剣豪"
+				],
+				[
+					"Frizz & Bang",
+					"Champion"
+				],
+				[
+					"Frizz & Bang",
+					"Assassin"
+				]
 			]
 		},
 		"Frizz & Bang+": {
@@ -1943,14 +2240,33 @@
 			],
 			"unofficial": true,
 			"jp": "火と爆発の探究者",
-			"traits": ["Wisdom +24", "Max. MP +40", "Max. MP +60"],
+			"traits": [
+				"Wisdom +24",
+				"Max. MP +40",
+				"Max. MP +60"
+			],
 			"category": "Combination",
 			"from": [
-				["Frizz SP", "Bang SP"],
-				["Frizz & Bang", "Uber Wisdom Boost"],
-				["Frizz & Bang", "Druid"],
-				["Frizz & Bang", "司祭"],
-				["Frizz & Bang", "スーパースター"]
+				[
+					"Frizz SP",
+					"Bang SP"
+				],
+				[
+					"Frizz & Bang",
+					"Uber Wisdom Boost"
+				],
+				[
+					"Frizz & Bang",
+					"Druid"
+				],
+				[
+					"Frizz & Bang",
+					"司祭"
+				],
+				[
+					"Frizz & Bang",
+					"スーパースター"
+				]
 			]
 		},
 		"Frizz & Bang": {
@@ -1994,16 +2310,41 @@
 			],
 			"unofficial": true,
 			"jp": "火と爆発の名手",
-			"traits": ["Attack +16", "Wisdom +32", "Max. MP +48"],
+			"traits": [
+				"Attack +16",
+				"Wisdom +32",
+				"Max. MP +48"
+			],
 			"category": "Combination",
 			"from": [
-				["Frizz+", "Bang+"],
-				["Frizz+", "Bang SP"],
-				["Frizz+", "Bang EX"],
-				["Frizz SP", "Bang+"],
-				["Frizz SP", "Bang EX"],
-				["Frizz EX", "Bang+"],
-				["Frizz EX", "Bang SP"]
+				[
+					"Frizz+",
+					"Bang+"
+				],
+				[
+					"Frizz+",
+					"Bang SP"
+				],
+				[
+					"Frizz+",
+					"Bang EX"
+				],
+				[
+					"Frizz SP",
+					"Bang+"
+				],
+				[
+					"Frizz SP",
+					"Bang EX"
+				],
+				[
+					"Frizz EX",
+					"Bang+"
+				],
+				[
+					"Frizz EX",
+					"Bang SP"
+				]
 			]
 		},
 		"Frizz EX": {
@@ -2062,10 +2403,22 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Frizz+", "Uber Attack Boost"],
-				["Frizz+", "剣豪"],
-				["Frizz+", "Champion"],
-				["Frizz+", "Assassin"]
+				[
+					"Frizz+",
+					"Uber Attack Boost"
+				],
+				[
+					"Frizz+",
+					"剣豪"
+				],
+				[
+					"Frizz+",
+					"Champion"
+				],
+				[
+					"Frizz+",
+					"Assassin"
+				]
 			]
 		},
 		"Frizz SP": {
@@ -2124,10 +2477,22 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Frizz+", "Uber Wisdom Boost"],
-				["Frizz+", "Druid"],
-				["Frizz+", "司祭"],
-				["Frizz+", "スーパースター"]
+				[
+					"Frizz+",
+					"Uber Wisdom Boost"
+				],
+				[
+					"Frizz+",
+					"Druid"
+				],
+				[
+					"Frizz+",
+					"司祭"
+				],
+				[
+					"Frizz+",
+					"スーパースター"
+				]
 			]
 		},
 		"氷海の力SP": {
@@ -2175,12 +2540,30 @@
 			],
 			"category": "Combination",
 			"from": [
-				["氷海の力", "Battle Master"],
-				["氷海の力", "Fighter+"],
-				["氷海の力", "Ranger"],
-				["氷海の力", "海賊"],
-				["氷海の力", "Shepherd"],
-				["氷海の力", "Champion"]
+				[
+					"氷海の力",
+					"Battle Master"
+				],
+				[
+					"氷海の力",
+					"Fighter+"
+				],
+				[
+					"氷海の力",
+					"Ranger"
+				],
+				[
+					"氷海の力",
+					"海賊"
+				],
+				[
+					"氷海の力",
+					"Shepherd"
+				],
+				[
+					"氷海の力",
+					"Champion"
+				]
 			],
 			"unofficial": true
 		},
@@ -2240,10 +2623,22 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Crack+", "Uber Attack Boost"],
-				["Crack+", "剣豪"],
-				["Crack+", "Champion"],
-				["Crack+", "Assassin"]
+				[
+					"Crack+",
+					"Uber Attack Boost"
+				],
+				[
+					"Crack+",
+					"剣豪"
+				],
+				[
+					"Crack+",
+					"Champion"
+				],
+				[
+					"Crack+",
+					"Assassin"
+				]
 			]
 		},
 		"Crack SP": {
@@ -2302,10 +2697,22 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Crack+", "Uber Wisdom Boost"],
-				["Crack+", "Druid"],
-				["Crack+", "司祭"],
-				["Crack+", "スーパースター"]
+				[
+					"Crack+",
+					"Uber Wisdom Boost"
+				],
+				[
+					"Crack+",
+					"Druid"
+				],
+				[
+					"Crack+",
+					"司祭"
+				],
+				[
+					"Crack+",
+					"スーパースター"
+				]
 			]
 		},
 		"Fire & Ice Breath+": {
@@ -2349,12 +2756,24 @@
 			],
 			"unofficial": true,
 			"jp": "炎と氷の息吹＋",
-			"traits": ["Attack +24", "Wisdom +48"],
+			"traits": [
+				"Attack +24",
+				"Wisdom +48"
+			],
 			"category": "Combination",
 			"from": [
-				["炎の息吹＋", "氷の息吹＋"],
-				["炎の息吹＋", "Icy Breather SP"],
-				["Fire Breather SP", "氷の息吹＋"]
+				[
+					"炎の息吹＋",
+					"氷の息吹＋"
+				],
+				[
+					"炎の息吹＋",
+					"Icy Breather SP"
+				],
+				[
+					"Fire Breather SP",
+					"氷の息吹＋"
+				]
 			]
 		},
 		"Fire & Ice Breath SP": {
@@ -2402,11 +2821,21 @@
 			],
 			"unofficial": true,
 			"jp": "炎と氷の息吹SP",
-			"traits": ["Attack +36", "Wisdom +72"],
+			"traits": [
+				"Attack +36",
+				"Wisdom +72"
+			],
 			"category": "Combination",
 			"from": [
-				["Fire Breather SP", "Icy Breather SP"],
-				["Fire & Ice Breath+", "よどんだ息吹SP", "きらめく息吹SP"]
+				[
+					"Fire Breather SP",
+					"Icy Breather SP"
+				],
+				[
+					"Fire & Ice Breath+",
+					"よどんだ息吹SP",
+					"きらめく息吹SP"
+				]
 			]
 		},
 		"Fire Breather SP": {
@@ -2454,9 +2883,18 @@
 			],
 			"unofficial": true,
 			"jp": "炎の息吹SP",
-			"traits": ["Attack +24", "Attack +36", "Frizz Ward+"],
+			"traits": [
+				"Attack +24",
+				"Attack +36",
+				"Frizz Ward+"
+			],
 			"category": "Combination",
-			"from": [["炎の息吹＋", "よどんだ息吹SP"]]
+			"from": [
+				[
+					"炎の息吹＋",
+					"よどんだ息吹SP"
+				]
+			]
 		},
 		"Fizz & Crack SP": {
 			"moves": [
@@ -2503,14 +2941,34 @@
 			],
 			"unofficial": true,
 			"jp": "水と氷結の達人",
-			"traits": ["Attack +12", "Max. MP +40", "Attack +24", "Max. MP +60"],
+			"traits": [
+				"Attack +12",
+				"Max. MP +40",
+				"Attack +24",
+				"Max. MP +60"
+			],
 			"category": "Combination",
 			"from": [
-				["Fizz EX", "Crack EX"],
-				["Fizz & Crack", "Uber Attack Boost"],
-				["Fizz & Crack", "剣豪"],
-				["Fizz & Crack", "Champion"],
-				["Fizz & Crack", "Assassin"]
+				[
+					"Fizz EX",
+					"Crack EX"
+				],
+				[
+					"Fizz & Crack",
+					"Uber Attack Boost"
+				],
+				[
+					"Fizz & Crack",
+					"剣豪"
+				],
+				[
+					"Fizz & Crack",
+					"Champion"
+				],
+				[
+					"Fizz & Crack",
+					"Assassin"
+				]
 			]
 		},
 		"Fizz & Crack+": {
@@ -2558,14 +3016,33 @@
 			],
 			"unofficial": true,
 			"jp": "水と氷結の探究者",
-			"traits": ["Wisdom +24", "Max. MP +40", "Max. MP +60"],
+			"traits": [
+				"Wisdom +24",
+				"Max. MP +40",
+				"Max. MP +60"
+			],
 			"category": "Combination",
 			"from": [
-				["Fizz SP", "Crack SP"],
-				["Fizz & Crack", "Uber Wisdom Boost"],
-				["Fizz & Crack", "Druid"],
-				["Fizz & Crack", "司祭"],
-				["Fizz & Crack", "スーパースター"]
+				[
+					"Fizz SP",
+					"Crack SP"
+				],
+				[
+					"Fizz & Crack",
+					"Uber Wisdom Boost"
+				],
+				[
+					"Fizz & Crack",
+					"Druid"
+				],
+				[
+					"Fizz & Crack",
+					"司祭"
+				],
+				[
+					"Fizz & Crack",
+					"スーパースター"
+				]
 			]
 		},
 		"Fizz & Crack": {
@@ -2609,16 +3086,41 @@
 			],
 			"unofficial": true,
 			"jp": "水と氷結の名手",
-			"traits": ["Attack +16", "Wisdom +32", "Max. MP +48"],
+			"traits": [
+				"Attack +16",
+				"Wisdom +32",
+				"Max. MP +48"
+			],
 			"category": "Combination",
 			"from": [
-				["Fizz+", "Crack+"],
-				["Fizz+", "Crack SP"],
-				["Fizz+", "Crack EX"],
-				["Fizz SP", "Crack+"],
-				["Fizz SP", "Crack EX"],
-				["Fizz EX", "Crack+"],
-				["Fizz EX", "Crack SP"]
+				[
+					"Fizz+",
+					"Crack+"
+				],
+				[
+					"Fizz+",
+					"Crack SP"
+				],
+				[
+					"Fizz+",
+					"Crack EX"
+				],
+				[
+					"Fizz SP",
+					"Crack+"
+				],
+				[
+					"Fizz SP",
+					"Crack EX"
+				],
+				[
+					"Fizz EX",
+					"Crack+"
+				],
+				[
+					"Fizz EX",
+					"Crack SP"
+				]
 			]
 		},
 		"Fizz EX": {
@@ -2677,10 +3179,22 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Fizz+", "Uber Attack Boost"],
-				["Fizz+", "剣豪"],
-				["Fizz+", "Champion"],
-				["Fizz+", "Assassin"]
+				[
+					"Fizz+",
+					"Uber Attack Boost"
+				],
+				[
+					"Fizz+",
+					"剣豪"
+				],
+				[
+					"Fizz+",
+					"Champion"
+				],
+				[
+					"Fizz+",
+					"Assassin"
+				]
 			]
 		},
 		"Fizz SP": {
@@ -2739,10 +3253,22 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Fizz+", "Uber Wisdom Boost"],
-				["Fizz+", "Druid"],
-				["Fizz+", "司祭"],
-				["Fizz+", "スーパースター"]
+				[
+					"Fizz+",
+					"Uber Wisdom Boost"
+				],
+				[
+					"Fizz+",
+					"Druid"
+				],
+				[
+					"Fizz+",
+					"司祭"
+				],
+				[
+					"Fizz+",
+					"スーパースター"
+				]
 			]
 		},
 		"Zam EX": {
@@ -2801,11 +3327,26 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Zam+", "Attack Boost 3"],
-				["Zam+", "Uber Attack Boost"],
-				["Zam+", "剣豪"],
-				["Zam+", "Champion"],
-				["Zam+", "Assassin"]
+				[
+					"Zam+",
+					"Attack Boost 3"
+				],
+				[
+					"Zam+",
+					"Uber Attack Boost"
+				],
+				[
+					"Zam+",
+					"剣豪"
+				],
+				[
+					"Zam+",
+					"Champion"
+				],
+				[
+					"Zam+",
+					"Assassin"
+				]
 			]
 		},
 		"Zam SP": {
@@ -2864,10 +3405,22 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Zam+", "Uber Wisdom Boost"],
-				["Zam+", "Druid"],
-				["Zam+", "司祭"],
-				["Zam+", "スーパースター"]
+				[
+					"Zam+",
+					"Uber Wisdom Boost"
+				],
+				[
+					"Zam+",
+					"Druid"
+				],
+				[
+					"Zam+",
+					"司祭"
+				],
+				[
+					"Zam+",
+					"スーパースター"
+				]
 			]
 		},
 		"Wake & Gravity SP": {
@@ -2915,14 +3468,34 @@
 			],
 			"unofficial": true,
 			"jp": "目覚めし重力の達人",
-			"traits": ["Attack +12", "Max. MP +40", "Max. MP +60"],
+			"traits": [
+				"Attack +12",
+				"Max. MP +40",
+				"Max. MP +60"
+			],
 			"category": "Combination",
 			"from": [
-				["Wake & Gravity", "Uber Attack Boost"],
-				["Wake & Gravity", "剣豪"],
-				["Wake & Gravity", "Champion"],
-				["Wake & Gravity", "Assassin"],
-				["Quake EX", "Fizz EX", "Gravity EX"]
+				[
+					"Wake & Gravity",
+					"Uber Attack Boost"
+				],
+				[
+					"Wake & Gravity",
+					"剣豪"
+				],
+				[
+					"Wake & Gravity",
+					"Champion"
+				],
+				[
+					"Wake & Gravity",
+					"Assassin"
+				],
+				[
+					"Quake EX",
+					"Fizz EX",
+					"Gravity EX"
+				]
 			]
 		},
 		"Wake & Gravity+": {
@@ -2970,14 +3543,34 @@
 			],
 			"unofficial": true,
 			"jp": "目覚めし重力の探究者",
-			"traits": ["Wisdom +24", "Max. MP +40", "Max. MP +60"],
+			"traits": [
+				"Wisdom +24",
+				"Max. MP +40",
+				"Max. MP +60"
+			],
 			"category": "Combination",
 			"from": [
-				["Wake & Gravity", "Uber Wisdom Boost"],
-				["Wake & Gravity", "Druid"],
-				["Wake & Gravity", "司祭"],
-				["Wake & Gravity", "スーパースター"],
-				["Quake SP", "Fizz SP", "Gravity SP"]
+				[
+					"Wake & Gravity",
+					"Uber Wisdom Boost"
+				],
+				[
+					"Wake & Gravity",
+					"Druid"
+				],
+				[
+					"Wake & Gravity",
+					"司祭"
+				],
+				[
+					"Wake & Gravity",
+					"スーパースター"
+				],
+				[
+					"Quake SP",
+					"Fizz SP",
+					"Gravity SP"
+				]
 			]
 		},
 		"Wake & Gravity": {
@@ -3023,13 +3616,41 @@
 			"jp": "目覚めし重力の力",
 			"category": "Combination",
 			"from": [
-				["Quake", "Fizz", "Gravity"],
-				["Quake", "Fizz", "Gravity+"],
-				["Quake", "Fizz+", "Gravity"],
-				["Quake", "Fizz+", "Gravity+"],
-				["Quake+", "Fizz", "Gravity"],
-				["Quake+", "Fizz", "Gravity+"],
-				["Quake+", "Fizz+", "Gravity+"]
+				[
+					"Quake",
+					"Fizz",
+					"Gravity"
+				],
+				[
+					"Quake",
+					"Fizz",
+					"Gravity+"
+				],
+				[
+					"Quake",
+					"Fizz+",
+					"Gravity"
+				],
+				[
+					"Quake",
+					"Fizz+",
+					"Gravity+"
+				],
+				[
+					"Quake+",
+					"Fizz",
+					"Gravity"
+				],
+				[
+					"Quake+",
+					"Fizz",
+					"Gravity+"
+				],
+				[
+					"Quake+",
+					"Fizz+",
+					"Gravity+"
+				]
 			]
 		},
 		"Wake & Zap SP": {
@@ -3077,14 +3698,34 @@
 			],
 			"unofficial": true,
 			"jp": "目覚めし電撃の達人",
-			"traits": ["Attack +12", "Max. MP +40", "Max. MP +60"],
+			"traits": [
+				"Attack +12",
+				"Max. MP +40",
+				"Max. MP +60"
+			],
 			"category": "Combination",
 			"from": [
-				["Wake & Zap", "Uber Attack Boost"],
-				["Wake & Zap", "剣豪"],
-				["Wake & Zap", "Champion"],
-				["Wake & Zap", "Assassin"],
-				["Woosh EX", "Frizz EX", "Zap EX"]
+				[
+					"Wake & Zap",
+					"Uber Attack Boost"
+				],
+				[
+					"Wake & Zap",
+					"剣豪"
+				],
+				[
+					"Wake & Zap",
+					"Champion"
+				],
+				[
+					"Wake & Zap",
+					"Assassin"
+				],
+				[
+					"Woosh EX",
+					"Frizz EX",
+					"Zap EX"
+				]
 			]
 		},
 		"Wake & Zap+": {
@@ -3132,14 +3773,34 @@
 			],
 			"unofficial": true,
 			"jp": "目覚めし電撃の探究者",
-			"traits": ["Wisdom +24", "Max. MP +40", "Max. MP +60"],
+			"traits": [
+				"Wisdom +24",
+				"Max. MP +40",
+				"Max. MP +60"
+			],
 			"category": "Combination",
 			"from": [
-				["Wake & Zap", "Uber Wisdom Boost"],
-				["Wake & Zap", "Druid"],
-				["Wake & Zap", "司祭"],
-				["Wake & Zap", "スーパースター"],
-				["Woosh SP", "Frizz SP", "Zap SP"]
+				[
+					"Wake & Zap",
+					"Uber Wisdom Boost"
+				],
+				[
+					"Wake & Zap",
+					"Druid"
+				],
+				[
+					"Wake & Zap",
+					"司祭"
+				],
+				[
+					"Wake & Zap",
+					"スーパースター"
+				],
+				[
+					"Woosh SP",
+					"Frizz SP",
+					"Zap SP"
+				]
 			]
 		},
 		"Wake & Zap": {
@@ -3185,13 +3846,41 @@
 			"jp": "目覚めし電撃の力",
 			"category": "Combination",
 			"from": [
-				["Woosh", "Frizz", "Zap"],
-				["Woosh", "Frizz", "Zap+"],
-				["Woosh", "Frizz+", "Zap"],
-				["Woosh", "Frizz+", "Zap+"],
-				["Woosh+", "Frizz", "Zap"],
-				["Woosh+", "Frizz", "Zap+"],
-				["Woosh+", "Frizz+", "Zap+"]
+				[
+					"Woosh",
+					"Frizz",
+					"Zap"
+				],
+				[
+					"Woosh",
+					"Frizz",
+					"Zap+"
+				],
+				[
+					"Woosh",
+					"Frizz+",
+					"Zap"
+				],
+				[
+					"Woosh",
+					"Frizz+",
+					"Zap+"
+				],
+				[
+					"Woosh+",
+					"Frizz",
+					"Zap"
+				],
+				[
+					"Woosh+",
+					"Frizz",
+					"Zap+"
+				],
+				[
+					"Woosh+",
+					"Frizz+",
+					"Zap+"
+				]
 			]
 		},
 		"Wake & Bang SP": {
@@ -3239,14 +3928,34 @@
 			],
 			"unofficial": true,
 			"jp": "目覚めし爆発の達人",
-			"traits": ["Attack +12", "Max. MP +40", "Max. MP +60"],
+			"traits": [
+				"Attack +12",
+				"Max. MP +40",
+				"Max. MP +60"
+			],
 			"category": "Combination",
 			"from": [
-				["Wake & Bang", "Uber Attack Boost"],
-				["Wake & Bang", "剣豪"],
-				["Wake & Bang", "Champion"],
-				["Wake & Bang", "Assassin"],
-				["Frizz EX", "Quake EX", "Bang EX"]
+				[
+					"Wake & Bang",
+					"Uber Attack Boost"
+				],
+				[
+					"Wake & Bang",
+					"剣豪"
+				],
+				[
+					"Wake & Bang",
+					"Champion"
+				],
+				[
+					"Wake & Bang",
+					"Assassin"
+				],
+				[
+					"Frizz EX",
+					"Quake EX",
+					"Bang EX"
+				]
 			]
 		},
 		"Wake & Bang+": {
@@ -3294,14 +4003,34 @@
 			],
 			"unofficial": true,
 			"jp": "目覚めし爆発の探究者",
-			"traits": ["Wisdom +24", "Max. MP +40", "Max. MP +60"],
+			"traits": [
+				"Wisdom +24",
+				"Max. MP +40",
+				"Max. MP +60"
+			],
 			"category": "Combination",
 			"from": [
-				["Wake & Bang", "Uber Wisdom Boost"],
-				["Wake & Bang", "Druid"],
-				["Wake & Bang", "司祭"],
-				["Wake & Bang", "スーパースター"],
-				["Frizz SP", "Quake SP", "Bang SP"]
+				[
+					"Wake & Bang",
+					"Uber Wisdom Boost"
+				],
+				[
+					"Wake & Bang",
+					"Druid"
+				],
+				[
+					"Wake & Bang",
+					"司祭"
+				],
+				[
+					"Wake & Bang",
+					"スーパースター"
+				],
+				[
+					"Frizz SP",
+					"Quake SP",
+					"Bang SP"
+				]
 			]
 		},
 		"Wake & Bang": {
@@ -3347,13 +4076,41 @@
 			"jp": "目覚めし爆発の力",
 			"category": "Combination",
 			"from": [
-				["Frizz", "Quake", "Bang"],
-				["Frizz", "Quake", "Bang+"],
-				["Frizz", "Quake+", "Bang"],
-				["Frizz", "Quake+", "Bang+"],
-				["Frizz+", "Quake", "Bang"],
-				["Frizz+", "Quake", "Bang+"],
-				["Frizz+", "Quake+", "Bang+"]
+				[
+					"Frizz",
+					"Quake",
+					"Bang"
+				],
+				[
+					"Frizz",
+					"Quake",
+					"Bang+"
+				],
+				[
+					"Frizz",
+					"Quake+",
+					"Bang"
+				],
+				[
+					"Frizz",
+					"Quake+",
+					"Bang+"
+				],
+				[
+					"Frizz+",
+					"Quake",
+					"Bang"
+				],
+				[
+					"Frizz+",
+					"Quake",
+					"Bang+"
+				],
+				[
+					"Frizz+",
+					"Quake+",
+					"Bang+"
+				]
 			]
 		},
 		"Wake & Crack SP": {
@@ -3401,14 +4158,34 @@
 			],
 			"unofficial": true,
 			"jp": "目覚めし氷結の達人",
-			"traits": ["Attack +12", "Max. MP +40", "Max. MP +60"],
+			"traits": [
+				"Attack +12",
+				"Max. MP +40",
+				"Max. MP +60"
+			],
 			"category": "Combination",
 			"from": [
-				["Wake & Crack", "Uber Attack Boost"],
-				["Wake & Crack", "剣豪"],
-				["Wake & Crack", "Champion"],
-				["Wake & Crack", "Assassin"],
-				["Fizz EX", "Woosh EX", "Crack EX"]
+				[
+					"Wake & Crack",
+					"Uber Attack Boost"
+				],
+				[
+					"Wake & Crack",
+					"剣豪"
+				],
+				[
+					"Wake & Crack",
+					"Champion"
+				],
+				[
+					"Wake & Crack",
+					"Assassin"
+				],
+				[
+					"Fizz EX",
+					"Woosh EX",
+					"Crack EX"
+				]
 			]
 		},
 		"Wake & Crack+": {
@@ -3456,14 +4233,34 @@
 			],
 			"unofficial": true,
 			"jp": "目覚めし氷結の探究者",
-			"traits": ["Wisdom +24", "Max. MP +40", "Max. MP +60"],
+			"traits": [
+				"Wisdom +24",
+				"Max. MP +40",
+				"Max. MP +60"
+			],
 			"category": "Combination",
 			"from": [
-				["Wake & Crack", "Uber Wisdom Boost"],
-				["Wake & Crack", "Druid"],
-				["Wake & Crack", "司祭"],
-				["Wake & Crack", "スーパースター"],
-				["Fizz SP", "Woosh SP", "Crack SP"]
+				[
+					"Wake & Crack",
+					"Uber Wisdom Boost"
+				],
+				[
+					"Wake & Crack",
+					"Druid"
+				],
+				[
+					"Wake & Crack",
+					"司祭"
+				],
+				[
+					"Wake & Crack",
+					"スーパースター"
+				],
+				[
+					"Fizz SP",
+					"Woosh SP",
+					"Crack SP"
+				]
 			]
 		},
 		"Wake & Crack": {
@@ -3509,13 +4306,41 @@
 			"jp": "目覚めし氷結の力",
 			"category": "Combination",
 			"from": [
-				["Fizz", "Woosh", "Crack"],
-				["Fizz", "Woosh", "Crack+"],
-				["Fizz", "Woosh+", "Crack"],
-				["Fizz", "Woosh+", "Crack+"],
-				["Fizz+", "Woosh", "Crack"],
-				["Fizz+", "Woosh", "Crack+"],
-				["Fizz+", "Woosh+", "Crack+"]
+				[
+					"Fizz",
+					"Woosh",
+					"Crack"
+				],
+				[
+					"Fizz",
+					"Woosh",
+					"Crack+"
+				],
+				[
+					"Fizz",
+					"Woosh+",
+					"Crack"
+				],
+				[
+					"Fizz",
+					"Woosh+",
+					"Crack+"
+				],
+				[
+					"Fizz+",
+					"Woosh",
+					"Crack"
+				],
+				[
+					"Fizz+",
+					"Woosh",
+					"Crack+"
+				],
+				[
+					"Fizz+",
+					"Woosh+",
+					"Crack+"
+				]
 			]
 		},
 		"Assassin": {
@@ -3562,7 +4387,12 @@
 				}
 			],
 			"category": "Combination",
-			"from": [["Thief", "Thief"]]
+			"from": [
+				[
+					"Thief",
+					"Thief"
+				]
+			]
 		},
 		"Jester": {
 			"moves": [
@@ -3610,7 +4440,12 @@
 			"unofficial": true,
 			"jp": "遊び人",
 			"category": "Combination",
-			"from": [["Thief", "Barnstormer"]]
+			"from": [
+				[
+					"Thief",
+					"Barnstormer"
+				]
+			]
 		},
 		"占い師": {
 			"moves": [
@@ -3643,7 +4478,7 @@
 					"sp": 110
 				},
 				{
-					"move": "てんびんのタンゴ",
+					"move": "Balancing Tango",
 					"sp": 140
 				},
 				{
@@ -3656,7 +4491,12 @@
 				}
 			],
 			"category": "Combination",
-			"from": [["Mage", "Barnstormer"]],
+			"from": [
+				[
+					"Mage",
+					"Barnstormer"
+				]
+			],
 			"unofficial": true
 		},
 		"Dancer": {
@@ -3705,7 +4545,12 @@
 			"unofficial": true,
 			"jp": "踊り子",
 			"category": "Combination",
-			"from": [["Martial Artist", "Barnstormer"]]
+			"from": [
+				[
+					"Martial Artist",
+					"Barnstormer"
+				]
+			]
 		},
 		"海賊": {
 			"moves": [
@@ -3751,7 +4596,12 @@
 				}
 			],
 			"category": "Combination",
-			"from": [["Martial Artist", "Thief"]],
+			"from": [
+				[
+					"Martial Artist",
+					"Thief"
+				]
+			],
 			"unofficial": true
 		},
 		"怪盗": {
@@ -3798,7 +4648,12 @@
 				}
 			],
 			"category": "Combination",
-			"from": [["Mage", "Thief"]]
+			"from": [
+				[
+					"Mage",
+					"Thief"
+				]
+			]
 		},
 		"Troubadour": {
 			"moves": [
@@ -3845,9 +4700,16 @@
 			],
 			"unofficial": true,
 			"jp": "吟遊詩人",
-			"traits": ["Max. MP +72"],
+			"traits": [
+				"Max. MP +72"
+			],
 			"category": "Combination",
-			"from": [["Priest", "Barnstormer"]]
+			"from": [
+				[
+					"Priest",
+					"Barnstormer"
+				]
+			]
 		},
 		"剣豪": {
 			"moves": [
@@ -3893,7 +4755,12 @@
 				}
 			],
 			"category": "Combination",
-			"from": [["Warrior", "Warrior"]],
+			"from": [
+				[
+					"Warrior",
+					"Warrior"
+				]
+			],
 			"unofficial": true
 		},
 		"Sage": {
@@ -3939,9 +4806,17 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Max. MP +72", "Wisdom +72"],
+			"traits": [
+				"Max. MP +72",
+				"Wisdom +72"
+			],
 			"category": "Combination",
-			"from": [["Mage", "Priest"]]
+			"from": [
+				[
+					"Mage",
+					"Priest"
+				]
+			]
 		},
 		"司祭": {
 			"moves": [
@@ -3986,9 +4861,17 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Max. MP +72", "MP Drain Ward+"],
+			"traits": [
+				"Max. MP +72",
+				"MP Drain Ward+"
+			],
 			"category": "Combination",
-			"from": [["Priest", "Priest"]],
+			"from": [
+				[
+					"Priest",
+					"Priest"
+				]
+			],
 			"unofficial": true
 		},
 		"商人": {
@@ -4035,7 +4918,12 @@
 				}
 			],
 			"category": "Combination",
-			"from": [["Priest", "Thief"]],
+			"from": [
+				[
+					"Priest",
+					"Thief"
+				]
+			],
 			"unofficial": true
 		},
 		"スーパースター": {
@@ -4081,9 +4969,16 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Essence Drain Ward+"],
+			"traits": [
+				"Essence Drain Ward+"
+			],
 			"category": "Combination",
-			"from": [["Barnstormer", "Barnstormer"]],
+			"from": [
+				[
+					"Barnstormer",
+					"Barnstormer"
+				]
+			],
 			"unofficial": true
 		},
 		"Druid": {
@@ -4131,9 +5026,17 @@
 			],
 			"unofficial": true,
 			"jp": "大魔道士",
-			"traits": ["Wisdom +72", "Dumb Ward+"],
+			"traits": [
+				"Wisdom +72",
+				"Dumb Ward+"
+			],
 			"category": "Combination",
-			"from": [["Mage", "Mage"]]
+			"from": [
+				[
+					"Mage",
+					"Mage"
+				]
+			]
 		},
 		"Champion": {
 			"moves": [
@@ -4180,9 +5083,17 @@
 			],
 			"unofficial": true,
 			"jp": "チャンピオン",
-			"traits": ["Attack +36", "Auto-Restora"],
+			"traits": [
+				"Attack +36",
+				"Auto-Restora"
+			],
 			"category": "Combination",
-			"from": [["Martial Artist", "Martial Artist"]]
+			"from": [
+				[
+					"Martial Artist",
+					"Martial Artist"
+				]
+			]
 		},
 		"Battle Master": {
 			"moves": [
@@ -4229,9 +5140,18 @@
 			],
 			"unofficial": true,
 			"jp": "バトルマスター",
-			"traits": ["Max. HP +36", "Attack +36", "Blunt Ward+"],
+			"traits": [
+				"Max. HP +36",
+				"Attack +36",
+				"Blunt Ward+"
+			],
 			"category": "Combination",
-			"from": [["Warrior", "Martial Artist"]]
+			"from": [
+				[
+					"Warrior",
+					"Martial Artist"
+				]
+			]
 		},
 		"Paladin": {
 			"moves": [
@@ -4278,9 +5198,18 @@
 			],
 			"unofficial": true,
 			"jp": "パラディン",
-			"traits": ["Max. HP +36", "Defence +72", "Sap Ward+"],
+			"traits": [
+				"Max. HP +36",
+				"Defence +72",
+				"Sap Ward+"
+			],
 			"category": "Combination",
-			"from": [["Warrior", "Priest"]]
+			"from": [
+				[
+					"Warrior",
+					"Priest"
+				]
+			]
 		},
 		"Shepherd": {
 			"moves": [
@@ -4327,9 +5256,18 @@
 			],
 			"unofficial": true,
 			"jp": "羊飼い",
-			"traits": ["Max. HP +36", "Agility +72", "Auto-Cadabra"],
+			"traits": [
+				"Max. HP +36",
+				"Agility +72",
+				"Auto-Cadabra"
+			],
 			"category": "Combination",
-			"from": [["Warrior", "Barnstormer"]]
+			"from": [
+				[
+					"Warrior",
+					"Barnstormer"
+				]
+			]
 		},
 		"Fighter+": {
 			"moves": [
@@ -4376,9 +5314,18 @@
 			],
 			"unofficial": true,
 			"jp": "魔闘士",
-			"traits": ["Max. MP +72", "Attack +24", "Auto-Cadabra"],
+			"traits": [
+				"Max. MP +72",
+				"Attack +24",
+				"Auto-Cadabra"
+			],
 			"category": "Combination",
-			"from": [["Mage", "Martial Artist"]]
+			"from": [
+				[
+					"Mage",
+					"Martial Artist"
+				]
+			]
 		},
 		"Magic Warrior": {
 			"moves": [
@@ -4425,9 +5372,17 @@
 			],
 			"unofficial": true,
 			"jp": "魔法戦士",
-			"traits": ["Attack +36", "Wisdom +72"],
+			"traits": [
+				"Attack +36",
+				"Wisdom +72"
+			],
 			"category": "Combination",
-			"from": [["Warrior", "Mage"]]
+			"from": [
+				[
+					"Warrior",
+					"Mage"
+				]
+			]
 		},
 		"Monk+": {
 			"moves": [
@@ -4474,9 +5429,17 @@
 			],
 			"unofficial": true,
 			"jp": "モンク",
-			"traits": ["Wisdom +72", "Attack +36"],
+			"traits": [
+				"Wisdom +72",
+				"Attack +36"
+			],
 			"category": "Combination",
-			"from": [["Priest", "Martial Artist"]]
+			"from": [
+				[
+					"Priest",
+					"Martial Artist"
+				]
+			]
 		},
 		"Ranger": {
 			"moves": [
@@ -4523,9 +5486,17 @@
 			],
 			"unofficial": true,
 			"jp": "レンジャー",
-			"traits": ["Agility +72", "Slow Ward+"],
+			"traits": [
+				"Agility +72",
+				"Slow Ward+"
+			],
 			"category": "Combination",
-			"from": [["Warrior", "Thief"]]
+			"from": [
+				[
+					"Warrior",
+					"Thief"
+				]
+			]
 		},
 		"Red Mister SP": {
 			"moves": [
@@ -4574,12 +5545,30 @@
 			"jp": "赤い霧マスターSP",
 			"category": "Combination",
 			"from": [
-				["赤い霧マスター", "Shepherd"],
-				["赤い霧マスター", "占い師"],
-				["赤い霧マスター", "Troubadour"],
-				["赤い霧マスター", "Dancer"],
-				["赤い霧マスター", "Jester"],
-				["赤い霧マスター", "スーパースター"]
+				[
+					"赤い霧マスター",
+					"Shepherd"
+				],
+				[
+					"赤い霧マスター",
+					"占い師"
+				],
+				[
+					"赤い霧マスター",
+					"Troubadour"
+				],
+				[
+					"赤い霧マスター",
+					"Dancer"
+				],
+				[
+					"赤い霧マスター",
+					"Jester"
+				],
+				[
+					"赤い霧マスター",
+					"スーパースター"
+				]
 			]
 		},
 		"Purifier+": {
@@ -4629,11 +5618,26 @@
 			"jp": "異常回復SP",
 			"category": "Combination",
 			"from": [
-				["Paramedic", "Paladin"],
-				["Paramedic", "Sage"],
-				["Paramedic", "Monk+"],
-				["Paramedic", "商人"],
-				["Paramedic", "Troubadour"]
+				[
+					"Paramedic",
+					"Paladin"
+				],
+				[
+					"Paramedic",
+					"Sage"
+				],
+				[
+					"Paramedic",
+					"Monk+"
+				],
+				[
+					"Paramedic",
+					"商人"
+				],
+				[
+					"Paramedic",
+					"Troubadour"
+				]
 			]
 		},
 		"火山の力SP": {
@@ -4681,12 +5685,30 @@
 			],
 			"category": "Combination",
 			"from": [
-				["火山の力", "Battle Master"],
-				["火山の力", "Fighter+"],
-				["火山の力", "Ranger"],
-				["火山の力", "海賊"],
-				["火山の力", "Shepherd"],
-				["火山の力", "Champion"]
+				[
+					"火山の力",
+					"Battle Master"
+				],
+				[
+					"火山の力",
+					"Fighter+"
+				],
+				[
+					"火山の力",
+					"Ranger"
+				],
+				[
+					"火山の力",
+					"海賊"
+				],
+				[
+					"火山の力",
+					"Shepherd"
+				],
+				[
+					"火山の力",
+					"Champion"
+				]
 			],
 			"unofficial": true
 		},
@@ -4735,12 +5757,30 @@
 			],
 			"category": "Combination",
 			"from": [
-				["神々の力", "Battle Master"],
-				["神々の力", "Fighter+"],
-				["神々の力", "Ranger"],
-				["神々の力", "海賊"],
-				["神々の力", "Shepherd"],
-				["神々の力", "Champion"]
+				[
+					"神々の力",
+					"Battle Master"
+				],
+				[
+					"神々の力",
+					"Fighter+"
+				],
+				[
+					"神々の力",
+					"Ranger"
+				],
+				[
+					"神々の力",
+					"海賊"
+				],
+				[
+					"神々の力",
+					"Shepherd"
+				],
+				[
+					"神々の力",
+					"Champion"
+				]
 			],
 			"unofficial": true
 		},
@@ -4789,9 +5829,16 @@
 			],
 			"unofficial": true,
 			"jp": "ギガパワーSP",
-			"traits": ["Auto-Restora"],
+			"traits": [
+				"Auto-Restora"
+			],
 			"category": "Combination",
-			"from": [["ギガパワー", "Uber Defence Boost"]]
+			"from": [
+				[
+					"ギガパワー",
+					"Uber Defence Boost"
+				]
+			]
 		},
 		"Black Mister+": {
 			"moves": [
@@ -4840,12 +5887,30 @@
 			"jp": "黒い霧マスターSP",
 			"category": "Combination",
 			"from": [
-				["黒い霧マスター", "Shepherd"],
-				["黒い霧マスター", "占い師"],
-				["黒い霧マスター", "Troubadour"],
-				["黒い霧マスター", "Dancer"],
-				["黒い霧マスター", "Jester"],
-				["黒い霧マスター", "スーパースター"]
+				[
+					"黒い霧マスター",
+					"Shepherd"
+				],
+				[
+					"黒い霧マスター",
+					"占い師"
+				],
+				[
+					"黒い霧マスター",
+					"Troubadour"
+				],
+				[
+					"黒い霧マスター",
+					"Dancer"
+				],
+				[
+					"黒い霧マスター",
+					"Jester"
+				],
+				[
+					"黒い霧マスター",
+					"スーパースター"
+				]
 			]
 		},
 		"Icy Breather SP": {
@@ -4893,9 +5958,18 @@
 			],
 			"unofficial": true,
 			"jp": "氷の息吹SP",
-			"traits": ["Wisdom +48", "Wisdom +72", "Crack Ward+"],
+			"traits": [
+				"Wisdom +48",
+				"Wisdom +72",
+				"Crack Ward+"
+			],
 			"category": "Combination",
-			"from": [["氷の息吹＋", "きらめく息吹SP"]]
+			"from": [
+				[
+					"氷の息吹＋",
+					"きらめく息吹SP"
+				]
+			]
 		},
 		"Fuddle SP": {
 			"moves": [
@@ -4942,15 +6016,38 @@
 			],
 			"unofficial": true,
 			"jp": "こんらんの力SP",
-			"traits": ["Fuddle Ward+", "Attack +20", "Attack +24", "Max. MP +96"],
+			"traits": [
+				"Fuddle Ward+",
+				"Attack +20",
+				"Attack +24",
+				"Max. MP +96"
+			],
 			"category": "Combination",
 			"from": [
-				["こんらんの力＋", "Shepherd"],
-				["こんらんの力＋", "占い師"],
-				["こんらんの力＋", "Troubadour"],
-				["こんらんの力＋", "Dancer"],
-				["こんらんの力＋", "Jester"],
-				["こんらんの力＋", "スーパースター"]
+				[
+					"こんらんの力＋",
+					"Shepherd"
+				],
+				[
+					"こんらんの力＋",
+					"占い師"
+				],
+				[
+					"こんらんの力＋",
+					"Troubadour"
+				],
+				[
+					"こんらんの力＋",
+					"Dancer"
+				],
+				[
+					"こんらんの力＋",
+					"Jester"
+				],
+				[
+					"こんらんの力＋",
+					"スーパースター"
+				]
 			]
 		},
 		"死の力SP": {
@@ -4996,15 +6093,38 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Whack Ward+", "Wisdom +40", "Wisdom +48", "Max. MP +96"],
+			"traits": [
+				"Whack Ward+",
+				"Wisdom +40",
+				"Wisdom +48",
+				"Max. MP +96"
+			],
 			"category": "Combination",
 			"from": [
-				["死の力＋", "Shepherd"],
-				["死の力＋", "占い師"],
-				["死の力＋", "Troubadour"],
-				["死の力＋", "Dancer"],
-				["死の力＋", "Jester"],
-				["死の力＋", "スーパースター"]
+				[
+					"死の力＋",
+					"Shepherd"
+				],
+				[
+					"死の力＋",
+					"占い師"
+				],
+				[
+					"死の力＋",
+					"Troubadour"
+				],
+				[
+					"死の力＋",
+					"Dancer"
+				],
+				[
+					"死の力＋",
+					"Jester"
+				],
+				[
+					"死の力＋",
+					"スーパースター"
+				]
 			],
 			"unofficial": true
 		},
@@ -5055,12 +6175,30 @@
 			"jp": "白い霧マスターSP",
 			"category": "Combination",
 			"from": [
-				["白い霧マスター", "Shepherd"],
-				["白い霧マスター", "占い師"],
-				["白い霧マスター", "Troubadour"],
-				["白い霧マスター", "Dancer"],
-				["白い霧マスター", "Jester"],
-				["白い霧マスター", "スーパースター"]
+				[
+					"白い霧マスター",
+					"Shepherd"
+				],
+				[
+					"白い霧マスター",
+					"占い師"
+				],
+				[
+					"白い霧マスター",
+					"Troubadour"
+				],
+				[
+					"白い霧マスター",
+					"Dancer"
+				],
+				[
+					"白い霧マスター",
+					"Jester"
+				],
+				[
+					"白い霧マスター",
+					"スーパースター"
+				]
 			]
 		},
 		"深淵の力SP": {
@@ -5102,18 +6240,36 @@
 					"sp": 160
 				},
 				{
-					"move": "アビスハンド",
+					"move": "Abysmal Hand",
 					"sp": 200
 				}
 			],
 			"category": "Combination",
 			"from": [
-				["深淵の力", "Battle Master"],
-				["深淵の力", "Fighter+"],
-				["深淵の力", "Ranger"],
-				["深淵の力", "海賊"],
-				["深淵の力", "Shepherd"],
-				["深淵の力", "Champion"]
+				[
+					"深淵の力",
+					"Battle Master"
+				],
+				[
+					"深淵の力",
+					"Fighter+"
+				],
+				[
+					"深淵の力",
+					"Ranger"
+				],
+				[
+					"深淵の力",
+					"海賊"
+				],
+				[
+					"深淵の力",
+					"Shepherd"
+				],
+				[
+					"深淵の力",
+					"Champion"
+				]
 			],
 			"unofficial": true
 		},
@@ -5163,7 +6319,12 @@
 			"unofficial": true,
 			"jp": "スモールパワーSP",
 			"category": "Combination",
-			"from": [["スモールパワー", "Uber Agility Boost"]]
+			"from": [
+				[
+					"スモールパワー",
+					"Uber Agility Boost"
+				]
+			]
 		},
 		"Slime SP": {
 			"moves": [
@@ -5212,8 +6373,14 @@
 			"jp": "スラフォースSP",
 			"category": "Combination",
 			"from": [
-				["スラフォース＋", "Zap SP"],
-				["スラフォース＋", "Zap EX"]
+				[
+					"スラフォース＋",
+					"Zap SP"
+				],
+				[
+					"スラフォース＋",
+					"Zap EX"
+				]
 			]
 		},
 		"Sublime Mister SP": {
@@ -5263,12 +6430,30 @@
 			"jp": "青天の霧マスターSP",
 			"category": "Combination",
 			"from": [
-				["青天の霧マスター", "Shepherd"],
-				["青天の霧マスター", "占い師"],
-				["青天の霧マスター", "Troubadour"],
-				["青天の霧マスター", "Dancer"],
-				["青天の霧マスター", "Jester"],
-				["青天の霧マスター", "スーパースター"]
+				[
+					"青天の霧マスター",
+					"Shepherd"
+				],
+				[
+					"青天の霧マスター",
+					"占い師"
+				],
+				[
+					"青天の霧マスター",
+					"Troubadour"
+				],
+				[
+					"青天の霧マスター",
+					"Dancer"
+				],
+				[
+					"青天の霧マスター",
+					"Jester"
+				],
+				[
+					"青天の霧マスター",
+					"スーパースター"
+				]
 			]
 		},
 		"Cure-All+": {
@@ -5318,11 +6503,26 @@
 			"jp": "全体回復SP",
 			"category": "Combination",
 			"from": [
-				["Cure-all", "Paladin"],
-				["Cure-all", "Sage"],
-				["Cure-all", "Monk+"],
-				["Cure-all", "商人"],
-				["Cure-all", "Troubadour"]
+				[
+					"Cure-all",
+					"Paladin"
+				],
+				[
+					"Cure-all",
+					"Sage"
+				],
+				[
+					"Cure-all",
+					"Monk+"
+				],
+				[
+					"Cure-all",
+					"商人"
+				],
+				[
+					"Cure-all",
+					"Troubadour"
+				]
 			]
 		},
 		"Zombie SP": {
@@ -5372,8 +6572,14 @@
 			"jp": "ゾンビフォースSP",
 			"category": "Combination",
 			"from": [
-				["ゾンビフォース", "Quake SP"],
-				["ゾンビフォース", "Quake EX"]
+				[
+					"ゾンビフォース",
+					"Quake SP"
+				],
+				[
+					"ゾンビフォース",
+					"Quake EX"
+				]
 			]
 		},
 		"Devil SP": {
@@ -5421,11 +6627,21 @@
 			],
 			"unofficial": true,
 			"jp": "デビルフォースSP",
-			"traits": ["Max. MP +48", "Wisdom +72", "Max. MP +72"],
+			"traits": [
+				"Max. MP +48",
+				"Wisdom +72",
+				"Max. MP +72"
+			],
 			"category": "Combination",
 			"from": [
-				["デビルフォース＋", "Frizz SP"],
-				["デビルフォース＋", "Frizz EX"]
+				[
+					"デビルフォース＋",
+					"Frizz SP"
+				],
+				[
+					"デビルフォース＋",
+					"Frizz EX"
+				]
 			]
 		},
 		"どくの力SP": {
@@ -5471,15 +6687,38 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Poison Ward+", "Attack +20", "Attack +24", "Max. MP +96"],
+			"traits": [
+				"Poison Ward+",
+				"Attack +20",
+				"Attack +24",
+				"Max. MP +96"
+			],
 			"category": "Combination",
 			"from": [
-				["どくの力＋", "Shepherd"],
-				["どくの力＋", "占い師"],
-				["どくの力＋", "Troubadour"],
-				["どくの力＋", "Dancer"],
-				["どくの力＋", "Jester"],
-				["どくの力＋", "スーパースター"]
+				[
+					"どくの力＋",
+					"Shepherd"
+				],
+				[
+					"どくの力＋",
+					"占い師"
+				],
+				[
+					"どくの力＋",
+					"Troubadour"
+				],
+				[
+					"どくの力＋",
+					"Dancer"
+				],
+				[
+					"どくの力＋",
+					"Jester"
+				],
+				[
+					"どくの力＋",
+					"スーパースター"
+				]
 			],
 			"unofficial": true
 		},
@@ -5528,11 +6767,21 @@
 			],
 			"unofficial": true,
 			"jp": "ドラゴフォースSP",
-			"traits": ["Attack +24", "Max. HP +36", "Attack +36"],
+			"traits": [
+				"Attack +24",
+				"Max. HP +36",
+				"Attack +36"
+			],
 			"category": "Combination",
 			"from": [
-				["ドラゴフォース＋", "Bang SP"],
-				["ドラゴフォース＋", "Bang EX"]
+				[
+					"ドラゴフォース＋",
+					"Bang SP"
+				],
+				[
+					"ドラゴフォース＋",
+					"Bang EX"
+				]
 			]
 		},
 		"ねむりの力SP": {
@@ -5578,15 +6827,38 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Fuddle Ward+", "Agility +40", "Agility +48", "Max. MP +96"],
+			"traits": [
+				"Fuddle Ward+",
+				"Agility +40",
+				"Agility +48",
+				"Max. MP +96"
+			],
 			"category": "Combination",
 			"from": [
-				["ねむりの力＋", "Shepherd"],
-				["ねむりの力＋", "占い師"],
-				["ねむりの力＋", "Troubadour"],
-				["ねむりの力＋", "Dancer"],
-				["ねむりの力＋", "Jester"],
-				["ねむりの力＋", "スーパースター"]
+				[
+					"ねむりの力＋",
+					"Shepherd"
+				],
+				[
+					"ねむりの力＋",
+					"占い師"
+				],
+				[
+					"ねむりの力＋",
+					"Troubadour"
+				],
+				[
+					"ねむりの力＋",
+					"Dancer"
+				],
+				[
+					"ねむりの力＋",
+					"Jester"
+				],
+				[
+					"ねむりの力＋",
+					"スーパースター"
+				]
 			],
 			"unofficial": true
 		},
@@ -5636,7 +6908,12 @@
 			"unofficial": true,
 			"jp": "ノーマルパワーSP",
 			"category": "Combination",
-			"from": [["ノーマルパワー", "Uber Wisdom Boost"]]
+			"from": [
+				[
+					"ノーマルパワー",
+					"Uber Wisdom Boost"
+				]
+			]
 		},
 		"呪いの力SP": {
 			"moves": [
@@ -5681,15 +6958,38 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Curse Ward+", "Wisdom +40", "Wisdom +48", "Max. MP +96"],
+			"traits": [
+				"Curse Ward+",
+				"Wisdom +40",
+				"Wisdom +48",
+				"Max. MP +96"
+			],
 			"category": "Combination",
 			"from": [
-				["呪いの力＋", "Shepherd"],
-				["呪いの力＋", "占い師"],
-				["呪いの力＋", "Troubadour"],
-				["呪いの力＋", "Dancer"],
-				["呪いの力＋", "Jester"],
-				["呪いの力＋", "スーパースター"]
+				[
+					"呪いの力＋",
+					"Shepherd"
+				],
+				[
+					"呪いの力＋",
+					"占い師"
+				],
+				[
+					"呪いの力＋",
+					"Troubadour"
+				],
+				[
+					"呪いの力＋",
+					"Dancer"
+				],
+				[
+					"呪いの力＋",
+					"Jester"
+				],
+				[
+					"呪いの力＋",
+					"スーパースター"
+				]
 			],
 			"unofficial": true
 		},
@@ -5738,11 +7038,21 @@
 			],
 			"unofficial": true,
 			"jp": "ビーストフォースSP",
-			"traits": ["Attack +24", "Agility +72", "Attack +36"],
+			"traits": [
+				"Attack +24",
+				"Agility +72",
+				"Attack +36"
+			],
 			"category": "Combination",
 			"from": [
-				["ビーストフォース＋", "Woosh SP"],
-				["ビーストフォース＋", "Woosh EX"]
+				[
+					"ビーストフォース＋",
+					"Woosh SP"
+				],
+				[
+					"ビーストフォース＋",
+					"Woosh EX"
+				]
 			]
 		},
 		"Healer SP": {
@@ -5792,11 +7102,26 @@
 			"jp": "HP回復SP",
 			"category": "Combination",
 			"from": [
-				["Healer", "Paladin"],
-				["Healer", "Sage"],
-				["Healer", "Monk+"],
-				["Healer", "商人"],
-				["Healer", "Troubadour"]
+				[
+					"Healer",
+					"Paladin"
+				],
+				[
+					"Healer",
+					"Sage"
+				],
+				[
+					"Healer",
+					"Monk+"
+				],
+				[
+					"Healer",
+					"商人"
+				],
+				[
+					"Healer",
+					"Troubadour"
+				]
 			]
 		},
 		"Mage's Aid+": {
@@ -5844,14 +7169,31 @@
 			],
 			"unofficial": true,
 			"jp": "MP回復SP",
-			"traits": ["MP Drain Ward+"],
+			"traits": [
+				"MP Drain Ward+"
+			],
 			"category": "Combination",
 			"from": [
-				["Mage Aid", "Paladin"],
-				["Mage Aid", "Sage"],
-				["Mage Aid", "Monk+"],
-				["Mage Aid", "商人"],
-				["Mage Aid", "Troubadour"]
+				[
+					"Mage Aid",
+					"Paladin"
+				],
+				[
+					"Mage Aid",
+					"Sage"
+				],
+				[
+					"Mage Aid",
+					"Monk+"
+				],
+				[
+					"Mage Aid",
+					"商人"
+				],
+				[
+					"Mage Aid",
+					"Troubadour"
+				]
 			]
 		},
 		"Material SP": {
@@ -5899,11 +7241,21 @@
 			],
 			"unofficial": true,
 			"jp": "マテリアルフォースSP",
-			"traits": ["Defence +48", "Max. HP +36", "Defence +72"],
+			"traits": [
+				"Defence +48",
+				"Max. HP +36",
+				"Defence +72"
+			],
 			"category": "Combination",
 			"from": [
-				["マテリアルフォース＋", "Crack SP"],
-				["マテリアルフォース＋", "Crack EX"]
+				[
+					"マテリアルフォース＋",
+					"Crack SP"
+				],
+				[
+					"マテリアルフォース＋",
+					"Crack EX"
+				]
 			]
 		},
 		"Paralysis SP": {
@@ -5959,12 +7311,30 @@
 			],
 			"category": "Combination",
 			"from": [
-				["マヒの力＋", "Shepherd"],
-				["マヒの力＋", "占い師"],
-				["マヒの力＋", "Troubadour"],
-				["マヒの力＋", "Dancer"],
-				["マヒの力＋", "Jester"],
-				["マヒの力＋", "スーパースター"]
+				[
+					"マヒの力＋",
+					"Shepherd"
+				],
+				[
+					"マヒの力＋",
+					"占い師"
+				],
+				[
+					"マヒの力＋",
+					"Troubadour"
+				],
+				[
+					"マヒの力＋",
+					"Dancer"
+				],
+				[
+					"マヒの力＋",
+					"Jester"
+				],
+				[
+					"マヒの力＋",
+					"スーパースター"
+				]
 			]
 		},
 		"Welterweight SP": {
@@ -6013,7 +7383,12 @@
 			"unofficial": true,
 			"jp": "メガパワーSP",
 			"category": "Combination",
-			"from": [["メガパワー", "Uber Attack Boost"]]
+			"from": [
+				[
+					"メガパワー",
+					"Uber Attack Boost"
+				]
+			]
 		},
 		"休みの力SP": {
 			"moves": [
@@ -6058,15 +7433,38 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Stasis Ward+", "Wisdom +40", "Wisdom +48", "Max. MP +96"],
+			"traits": [
+				"Stasis Ward+",
+				"Wisdom +40",
+				"Wisdom +48",
+				"Max. MP +96"
+			],
 			"category": "Combination",
 			"from": [
-				["休みの力＋", "Shepherd"],
-				["休みの力＋", "占い師"],
-				["休みの力＋", "Troubadour"],
-				["休みの力＋", "Dancer"],
-				["休みの力＋", "Jester"],
-				["休みの力＋", "スーパースター"]
+				[
+					"休みの力＋",
+					"Shepherd"
+				],
+				[
+					"休みの力＋",
+					"占い師"
+				],
+				[
+					"休みの力＋",
+					"Troubadour"
+				],
+				[
+					"休みの力＋",
+					"Dancer"
+				],
+				[
+					"休みの力＋",
+					"Jester"
+				],
+				[
+					"休みの力＋",
+					"スーパースター"
+				]
 			],
 			"unofficial": true
 		},
@@ -6117,12 +7515,30 @@
 			"jp": "雷雲の力SP",
 			"category": "Combination",
 			"from": [
-				["雷雲の力", "Battle Master"],
-				["雷雲の力", "Fighter+"],
-				["雷雲の力", "Ranger"],
-				["雷雲の力", "海賊"],
-				["雷雲の力", "Shepherd"],
-				["雷雲の力", "Champion"]
+				[
+					"雷雲の力",
+					"Battle Master"
+				],
+				[
+					"雷雲の力",
+					"Fighter+"
+				],
+				[
+					"雷雲の力",
+					"Ranger"
+				],
+				[
+					"雷雲の力",
+					"海賊"
+				],
+				[
+					"雷雲の力",
+					"Shepherd"
+				],
+				[
+					"雷雲の力",
+					"Champion"
+				]
 			]
 		},
 		"Feral SP": {
@@ -6170,11 +7586,20 @@
 			],
 			"unofficial": true,
 			"jp": "ワイルドフォースSP",
-			"traits": ["Wisdom +48", "Wisdom +72"],
+			"traits": [
+				"Wisdom +48",
+				"Wisdom +72"
+			],
 			"category": "Combination",
 			"from": [
-				["ワイルドフォース＋", "Fizz SP"],
-				["ワイルドフォース＋", "Fizz EX"]
+				[
+					"ワイルドフォース＋",
+					"Fizz SP"
+				],
+				[
+					"ワイルドフォース＋",
+					"Fizz EX"
+				]
 			]
 		},
 		"Uber Wisdom Boost": {
@@ -6233,7 +7658,12 @@
 				"Wisdom +96"
 			],
 			"category": "Combination",
-			"from": [["Druid", "Wisdom Boost 3"]]
+			"from": [
+				[
+					"Druid",
+					"Wisdom Boost 3"
+				]
+			]
 		},
 		"Woosh & Zap Ward+": {
 			"moves": [
@@ -6288,7 +7718,12 @@
 				"Auto-Restora"
 			],
 			"category": "Combination",
-			"from": [["Woosh Ward+", "Zap Ward+"]]
+			"from": [
+				[
+					"Woosh Ward+",
+					"Zap Ward+"
+				]
+			]
 		},
 		"Woosh & Zap Ward EX": {
 			"moves": [
@@ -6347,7 +7782,12 @@
 				"Zap Ward+"
 			],
 			"category": "Combination",
-			"from": [["Woosh Ward EX", "Zap Ward EX"]]
+			"from": [
+				[
+					"Woosh Ward EX",
+					"Zap Ward EX"
+				]
+			]
 		},
 		"Woosh & Zap Ward SP": {
 			"moves": [
@@ -6408,9 +7848,18 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Woosh Ward SP", "Zap Ward SP"],
-				["Woosh & Zap Ward+", "Uber Health Boost"],
-				["Woosh & Zap Ward+", "Uber Defence Boost"]
+				[
+					"Woosh Ward SP",
+					"Zap Ward SP"
+				],
+				[
+					"Woosh & Zap Ward+",
+					"Uber Health Boost"
+				],
+				[
+					"Woosh & Zap Ward+",
+					"Uber Defence Boost"
+				]
 			]
 		},
 		"Uber Attack Boost": {
@@ -6469,7 +7918,12 @@
 				"Attack +48"
 			],
 			"category": "Combination",
-			"from": [["剣豪", "Attack Boost 3"]]
+			"from": [
+				[
+					"剣豪",
+					"Attack Boost 3"
+				]
+			]
 		},
 		"Uber Defence Boost": {
 			"moves": [
@@ -6527,7 +7981,12 @@
 				"Defence +96"
 			],
 			"category": "Combination",
-			"from": [["Champion", "Defence Boost 3"]]
+			"from": [
+				[
+					"Champion",
+					"Defence Boost 3"
+				]
+			]
 		},
 		"Deep Sea Ward+": {
 			"moves": [
@@ -6586,7 +8045,13 @@
 				"Defence +24"
 			],
 			"category": "Combination",
-			"from": [["Quake Ward+", "Fizz Ward+", "Gravity Ward+"]]
+			"from": [
+				[
+					"Quake Ward+",
+					"Fizz Ward+",
+					"Gravity Ward+"
+				]
+			]
 		},
 		"Deep Sea Ward EX": {
 			"moves": [
@@ -6645,7 +8110,13 @@
 				"Defence +24"
 			],
 			"category": "Combination",
-			"from": [["Quake Ward EX", "Fizz Ward EX", "Gravity Ward EX"]]
+			"from": [
+				[
+					"Quake Ward EX",
+					"Fizz Ward EX",
+					"Gravity Ward EX"
+				]
+			]
 		},
 		"Deep Sea Ward SP": {
 			"moves": [
@@ -6705,9 +8176,19 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Quake Ward SP", "Fizz Ward SP", "Gravity Ward SP"],
-				["Deep Sea Ward+", "Uber Health Boost"],
-				["Deep Sea Ward+", "Uber Defence Boost"]
+				[
+					"Quake Ward SP",
+					"Fizz Ward SP",
+					"Gravity Ward SP"
+				],
+				[
+					"Deep Sea Ward+",
+					"Uber Health Boost"
+				],
+				[
+					"Deep Sea Ward+",
+					"Uber Defence Boost"
+				]
 			]
 		},
 		"Uber Agility Boost": {
@@ -6766,7 +8247,12 @@
 				"Agility +96"
 			],
 			"category": "Combination",
-			"from": [["Assassin", "Agility Boost 3"]]
+			"from": [
+				[
+					"Assassin",
+					"Agility Boost 3"
+				]
+			]
 		},
 		"Quake & Gravity Ward+": {
 			"moves": [
@@ -6821,7 +8307,12 @@
 				"Auto-Restora"
 			],
 			"category": "Combination",
-			"from": [["Quake Ward+", "Gravity Ward+"]]
+			"from": [
+				[
+					"Quake Ward+",
+					"Gravity Ward+"
+				]
+			]
 		},
 		"Quake & Gravity Ward EX": {
 			"moves": [
@@ -6880,7 +8371,12 @@
 				"Gravity Ward+"
 			],
 			"category": "Combination",
-			"from": [["Quake Ward EX", "Gravity Ward EX"]]
+			"from": [
+				[
+					"Quake Ward EX",
+					"Gravity Ward EX"
+				]
+			]
 		},
 		"Quake & Gravity Ward SP": {
 			"moves": [
@@ -6941,9 +8437,18 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Quake Ward SP", "Gravity Ward SP"],
-				["Quake & Gravity Ward+", "Uber Health Boost"],
-				["Quake & Gravity Ward+", "Uber Defence Boost"]
+				[
+					"Quake Ward SP",
+					"Gravity Ward SP"
+				],
+				[
+					"Quake & Gravity Ward+",
+					"Uber Health Boost"
+				],
+				[
+					"Quake & Gravity Ward+",
+					"Uber Defence Boost"
+				]
 			]
 		},
 		"Frizz & Bang Ward+": {
@@ -6999,7 +8504,12 @@
 				"Auto-Restora"
 			],
 			"category": "Combination",
-			"from": [["Frizz Ward+", "Bang Ward+"]]
+			"from": [
+				[
+					"Frizz Ward+",
+					"Bang Ward+"
+				]
+			]
 		},
 		"Frizz & Bang Ward EX": {
 			"moves": [
@@ -7058,7 +8568,12 @@
 				"Bang Ward+"
 			],
 			"category": "Combination",
-			"from": [["Frizz Ward EX", "Bang Ward EX"]]
+			"from": [
+				[
+					"Frizz Ward EX",
+					"Bang Ward EX"
+				]
+			]
 		},
 		"Frizz & Bang Ward SP": {
 			"moves": [
@@ -7119,9 +8634,18 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Frizz Ward SP", "Bang Ward SP"],
-				["Frizz & Bang Ward+", "Uber Health Boost"],
-				["Frizz & Bang Ward+", "Uber Defence Boost"]
+				[
+					"Frizz Ward SP",
+					"Bang Ward SP"
+				],
+				[
+					"Frizz & Bang Ward+",
+					"Uber Health Boost"
+				],
+				[
+					"Frizz & Bang Ward+",
+					"Uber Defence Boost"
+				]
 			]
 		},
 		"Uber Health Boost": {
@@ -7180,7 +8704,12 @@
 				"Max. HP +48"
 			],
 			"category": "Combination",
-			"from": [["スーパースター", "HPアップ3"]]
+			"from": [
+				[
+					"スーパースター",
+					"HPアップ3"
+				]
+			]
 		},
 		"Blizzard Ward+": {
 			"moves": [
@@ -7239,7 +8768,13 @@
 				"Wisdom +24"
 			],
 			"category": "Combination",
-			"from": [["Fizz Ward+", "Woosh Ward+", "Crack Ward+"]]
+			"from": [
+				[
+					"Fizz Ward+",
+					"Woosh Ward+",
+					"Crack Ward+"
+				]
+			]
 		},
 		"Blizzard Ward EX": {
 			"moves": [
@@ -7298,7 +8833,13 @@
 				"Wisdom +24"
 			],
 			"category": "Combination",
-			"from": [["Fizz Ward EX", "Woosh Ward EX", "Crack Ward EX"]]
+			"from": [
+				[
+					"Fizz Ward EX",
+					"Woosh Ward EX",
+					"Crack Ward EX"
+				]
+			]
 		},
 		"Uber Cold Ward": {
 			"moves": [
@@ -7356,9 +8897,19 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Fizz Ward SP", "Woosh Ward SP", "Crack Ward SP"],
-				["Blizzard Ward+", "Uber Health Boost"],
-				["Blizzard Ward+", "Uber Defence Boost"]
+				[
+					"Fizz Ward SP",
+					"Woosh Ward SP",
+					"Crack Ward SP"
+				],
+				[
+					"Blizzard Ward+",
+					"Uber Health Boost"
+				],
+				[
+					"Blizzard Ward+",
+					"Uber Defence Boost"
+				]
 			]
 		},
 		"Uber Magic Boost": {
@@ -7417,7 +8968,12 @@
 				"Max. MP +96"
 			],
 			"category": "Combination",
-			"from": [["司祭", "MPアップ3"]]
+			"from": [
+				[
+					"司祭",
+					"MPアップ3"
+				]
+			]
 		},
 		"Fizz & Crack Ward+": {
 			"moves": [
@@ -7472,7 +9028,12 @@
 				"Auto-Restora"
 			],
 			"category": "Combination",
-			"from": [["Fizz Ward+", "Crack Ward+"]]
+			"from": [
+				[
+					"Fizz Ward+",
+					"Crack Ward+"
+				]
+			]
 		},
 		"Fizz & Crack Ward EX": {
 			"moves": [
@@ -7531,7 +9092,12 @@
 				"Crack Ward+"
 			],
 			"category": "Combination",
-			"from": [["Fizz Ward EX", "Crack Ward EX"]]
+			"from": [
+				[
+					"Fizz Ward EX",
+					"Crack Ward EX"
+				]
+			]
 		},
 		"Fizz & Crack Ward SP": {
 			"moves": [
@@ -7592,9 +9158,18 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Fizz Ward SP", "Crack Ward SP"],
-				["Fizz & Crack Ward+", "Uber Health Boost"],
-				["Fizz & Crack Ward+", "Uber Defence Boost"]
+				[
+					"Fizz Ward SP",
+					"Crack Ward SP"
+				],
+				[
+					"Fizz & Crack Ward+",
+					"Uber Health Boost"
+				],
+				[
+					"Fizz & Crack Ward+",
+					"Uber Defence Boost"
+				]
 			]
 		},
 		"Volcanic Ward+": {
@@ -7654,7 +9229,13 @@
 				"Attack +12"
 			],
 			"category": "Combination",
-			"from": [["Frizz Ward+", "Quake Ward+", "Bang Ward+"]]
+			"from": [
+				[
+					"Frizz Ward+",
+					"Quake Ward+",
+					"Bang Ward+"
+				]
+			]
 		},
 		"Volcanic Ward EX": {
 			"moves": [
@@ -7713,7 +9294,13 @@
 				"Attack +12"
 			],
 			"category": "Combination",
-			"from": [["Frizz Ward EX", "Quake Ward EX", "Bang Ward EX"]]
+			"from": [
+				[
+					"Frizz Ward EX",
+					"Quake Ward EX",
+					"Bang Ward EX"
+				]
+			]
 		},
 		"Magma Shield": {
 			"moves": [
@@ -7771,9 +9358,19 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Frizz Ward SP", "Quake Ward SP", "Bang Ward SP"],
-				["Volcanic Ward+", "Uber Health Boost"],
-				["Volcanic Ward+", "Uber Defence Boost"]
+				[
+					"Frizz Ward SP",
+					"Quake Ward SP",
+					"Bang Ward SP"
+				],
+				[
+					"Volcanic Ward+",
+					"Uber Health Boost"
+				],
+				[
+					"Volcanic Ward+",
+					"Uber Defence Boost"
+				]
 			]
 		},
 		"Frizz & Zap Ward+": {
@@ -7833,7 +9430,13 @@
 				"Agility +24"
 			],
 			"category": "Combination",
-			"from": [["Woosh Ward+", "Frizz Ward+", "Zap Ward+"]]
+			"from": [
+				[
+					"Woosh Ward+",
+					"Frizz Ward+",
+					"Zap Ward+"
+				]
+			]
 		},
 		"Frizz & Zap Ward EX": {
 			"moves": [
@@ -7892,7 +9495,13 @@
 				"Agility +24"
 			],
 			"category": "Combination",
-			"from": [["Woosh Ward EX", "Frizz Ward EX", "Zap Ward EX"]]
+			"from": [
+				[
+					"Woosh Ward EX",
+					"Frizz Ward EX",
+					"Zap Ward EX"
+				]
+			]
 		},
 		"Frizz & Zap Ward SP": {
 			"moves": [
@@ -7952,9 +9561,19 @@
 			],
 			"category": "Combination",
 			"from": [
-				["Woosh Ward SP", "Frizz Ward SP", "Zap Ward SP"],
-				["Frizz & Zap Ward+", "Uber Health Boost"],
-				["Frizz & Zap Ward+", "Uber Defence Boost"]
+				[
+					"Woosh Ward SP",
+					"Frizz Ward SP",
+					"Zap Ward SP"
+				],
+				[
+					"Frizz & Zap Ward+",
+					"Uber Health Boost"
+				],
+				[
+					"Frizz & Zap Ward+",
+					"Uber Defence Boost"
+				]
 			]
 		},
 		"青飛竜": {
@@ -8000,7 +9619,9 @@
 					"sp": 250
 				}
 			],
-			"traits": ["Wisdom +40"],
+			"traits": [
+				"Wisdom +40"
+			],
 			"unofficial": true
 		},
 		"赤飛竜": {
@@ -8046,7 +9667,10 @@
 					"sp": 250
 				}
 			],
-			"traits": ["Blunt Ward+", "Attack +20"],
+			"traits": [
+				"Blunt Ward+",
+				"Attack +20"
+			],
 			"unofficial": true
 		},
 		"Blackmar": {
@@ -8214,9 +9838,13 @@
 					"sp": 100
 				}
 			],
-			"traits": ["Attack +8", "Defence +16", "Max. HP +8"]
+			"traits": [
+				"Attack +8",
+				"Defence +16",
+				"Max. HP +8"
+			]
 		},
-		"Darkwood Spirit": {
+		"Guardian Of The Dark Tree": {
 			"moves": [
 				{
 					"move": "Zammle",
@@ -8261,7 +9889,10 @@
 			],
 			"unofficial": true,
 			"jp": "暗黒大樹の番人",
-			"traits": ["Zam Ward+", "Curse Ward+"]
+			"traits": [
+				"Zam Ward+",
+				"Curse Ward+"
+			]
 		},
 		"Ruin": {
 			"moves": [
@@ -8350,7 +9981,9 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Sap Ward+"]
+			"traits": [
+				"Sap Ward+"
+			]
 		},
 		"Estark": {
 			"moves": [
@@ -8447,7 +10080,7 @@
 					"sp": 35
 				},
 				{
-					"move": "奈落の舞",
+					"move": "Naraku Step",
 					"sp": 50
 				},
 				{
@@ -8607,7 +10240,9 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Poison Ward+"],
+			"traits": [
+				"Poison Ward+"
+			],
 			"unofficialFr": true
 		},
 		"Hammibal": {
@@ -8654,7 +10289,7 @@
 				}
 			]
 		},
-		"Pusugon Awakened": {
+		"Pusugon Awaken": {
 			"moves": [
 				{
 					"move": "Bang Ward+",
@@ -8699,7 +10334,9 @@
 			],
 			"unofficial": true,
 			"jp": "覚醒プスゴン",
-			"traits": ["Bang Ward+"]
+			"traits": [
+				"Bang Ward+"
+			]
 		},
 		"ガルマザード": {
 			"moves": [
@@ -8740,7 +10377,7 @@
 					"sp": 160
 				},
 				{
-					"move": "アビスハンド",
+					"move": "Abysmal Hand",
 					"sp": 200
 				}
 			],
@@ -8789,7 +10426,9 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Whack Ward+"]
+			"traits": [
+				"Whack Ward+"
+			]
 		},
 		"Robbin' Hood": {
 			"moves": [
@@ -8834,7 +10473,11 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Agility +16", "Slow Ward+", "Agility +24"]
+			"traits": [
+				"Agility +16",
+				"Slow Ward+",
+				"Agility +24"
+			]
 		},
 		"Gigantes": {
 			"moves": [
@@ -8915,7 +10558,10 @@
 					"sp": 250
 				}
 			],
-			"traits": ["Slow Ward+", "Agility +40"],
+			"traits": [
+				"Slow Ward+",
+				"Agility +40"
+			],
 			"unofficial": true
 		},
 		"義帝ガオガイヤ": {
@@ -9006,7 +10652,11 @@
 					"sp": 250
 				}
 			],
-			"traits": ["Bang Ward+", "Resistance Ward+", "Blunt Ward+"]
+			"traits": [
+				"Bang Ward+",
+				"Resistance Ward+",
+				"Blunt Ward+"
+			]
 		},
 		"Δ Hraesvelgr": {
 			"moves": [
@@ -9053,7 +10703,10 @@
 			],
 			"unofficial": true,
 			"jp": "凶鳥フレス",
-			"traits": ["Dumb Ward+", "Wisdom +40"]
+			"traits": [
+				"Dumb Ward+",
+				"Wisdom +40"
+			]
 		},
 		"Killing Machine": {
 			"moves": [
@@ -9174,7 +10827,10 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Sizz Ward+", "Fuddle Ward+"]
+			"traits": [
+				"Sizz Ward+",
+				"Fuddle Ward+"
+			]
 		},
 		"Marquis De Leon": {
 			"moves": [
@@ -9219,7 +10875,9 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Auto-Restora"]
+			"traits": [
+				"Auto-Restora"
+			]
 		},
 		"Hawkhart Ace": {
 			"moves": [
@@ -9309,7 +10967,7 @@
 				}
 			]
 		},
-		"Grand Estark": {
+		"Gran Estark": {
 			"moves": [
 				{
 					"move": "Lightning Slash",
@@ -9443,7 +11101,7 @@
 			"unofficial": true,
 			"jp": "黒き花婿"
 		},
-		"Princess Togami": {
+		"War Goddess Togamihime": {
 			"moves": [
 				{
 					"move": "Requiem of Restoration",
@@ -9532,7 +11190,10 @@
 			],
 			"unofficial": true,
 			"jp": "けがれの渦",
-			"traits": ["Whack Ward+", "Curse Ward+"]
+			"traits": [
+				"Whack Ward+",
+				"Curse Ward+"
+			]
 		},
 		"Bishop Ladja": {
 			"moves": [
@@ -9577,9 +11238,11 @@
 					"sp": 250
 				}
 			],
-			"traits": ["Sap Ward+"]
+			"traits": [
+				"Sap Ward+"
+			]
 		},
-		"Illusionist Fazma": {
+		"Phantom General Fuzzma": {
 			"moves": [
 				{
 					"move": "Ping",
@@ -9624,7 +11287,9 @@
 			],
 			"unofficial": true,
 			"jp": "幻魔将ファズマ",
-			"traits": ["Sleep Ward+"]
+			"traits": [
+				"Sleep Ward+"
+			]
 		},
 		"Ghost": {
 			"moves": [
@@ -9753,7 +11418,10 @@
 			],
 			"unofficial": true,
 			"jp": "強奪王ブンドルド",
-			"traits": ["Essence Drain Ward+", "MP Drain Ward+"]
+			"traits": [
+				"Essence Drain Ward+",
+				"MP Drain Ward+"
+			]
 		},
 		"皇帝ウィンディオ": {
 			"moves": [
@@ -9845,7 +11513,9 @@
 			],
 			"unofficial": true,
 			"jp": "豪魔将ベリンダ",
-			"traits": ["Blunt Ward+"]
+			"traits": [
+				"Blunt Ward+"
+			]
 		},
 		"拷問王イッタブル": {
 			"moves": [
@@ -9890,10 +11560,13 @@
 					"sp": 250
 				}
 			],
-			"traits": ["Auto-Restora", "Auto-Cadabra"],
+			"traits": [
+				"Auto-Restora",
+				"Auto-Cadabra"
+			],
 			"unofficial": true
 		},
-		"Psycho Psaro": {
+		"PsychoPiz": {
 			"moves": [
 				{
 					"move": "C-C-Cold Breath",
@@ -9936,7 +11609,10 @@
 					"sp": 250
 				}
 			],
-			"traits": ["Sap Ward+", "Curse Ward+"]
+			"traits": [
+				"Sap Ward+",
+				"Curse Ward+"
+			]
 		},
 		"Restless Armour": {
 			"moves": [
@@ -9973,7 +11649,12 @@
 					"sp": 100
 				}
 			],
-			"traits": ["Defence +8", "Attack +4", "Defence +16", "Attack +8"]
+			"traits": [
+				"Defence +8",
+				"Attack +4",
+				"Defence +16",
+				"Attack +8"
+			]
 		},
 		"Geno Malroth": {
 			"moves": [
@@ -10018,7 +11699,10 @@
 					"sp": 250
 				}
 			],
-			"traits": ["Dumb Ward+", "MP Drain Ward+"]
+			"traits": [
+				"Dumb Ward+",
+				"MP Drain Ward+"
+			]
 		},
 		"Fowleye": {
 			"moves": [
@@ -10110,7 +11794,9 @@
 			],
 			"unofficial": true,
 			"jp": "ジャハガロス",
-			"traits": ["Zap Ward+"]
+			"traits": [
+				"Zap Ward+"
+			]
 		},
 		"Phantom Galray": {
 			"moves": [
@@ -10157,7 +11843,10 @@
 			],
 			"unofficial": true,
 			"jp": "獣魔将ガルレイ",
-			"traits": ["Blunt Ward+", "Sap Ward+"]
+			"traits": [
+				"Blunt Ward+",
+				"Sap Ward+"
+			]
 		},
 		"Guardian Lazuvann": {
 			"moves": [
@@ -10202,7 +11891,10 @@
 					"sp": 250
 				}
 			],
-			"traits": ["Max. HP +20", "Attack +20"]
+			"traits": [
+				"Max. HP +20",
+				"Attack +20"
+			]
 		},
 		"Shaman Marline": {
 			"moves": [
@@ -10247,7 +11939,9 @@
 					"sp": 250
 				}
 			],
-			"traits": ["Curse Ward+"]
+			"traits": [
+				"Curse Ward+"
+			]
 		},
 		"Wildcard": {
 			"moves": [
@@ -10292,7 +11986,9 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Paralysis Ward+"]
+			"traits": [
+				"Paralysis Ward+"
+			]
 		},
 		"Queen Freshia": {
 			"moves": [
@@ -10515,7 +12211,9 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Fuddle Ward+"],
+			"traits": [
+				"Fuddle Ward+"
+			],
 			"unofficial": true
 		},
 		"Xenlon": {
@@ -10605,7 +12303,10 @@
 					"sp": 250
 				}
 			],
-			"traits": ["Blunt Ward+", "Essence Drain Ward+"]
+			"traits": [
+				"Blunt Ward+",
+				"Essence Drain Ward+"
+			]
 		},
 		"Gillgush": {
 			"moves": [
@@ -10650,7 +12351,11 @@
 					"sp": 250
 				}
 			],
-			"traits": ["Fizz Ward+", "Dumb Ward+", "MP Drain Ward+"],
+			"traits": [
+				"Fizz Ward+",
+				"Dumb Ward+",
+				"MP Drain Ward+"
+			],
 			"unofficialFr": true
 		},
 		"Sliderk": {
@@ -10734,7 +12439,10 @@
 					"sp": 100
 				}
 			],
-			"traits": ["Attack +12", "Attack +16"]
+			"traits": [
+				"Attack +12",
+				"Attack +16"
+			]
 		},
 		"Slime Gang": {
 			"moves": [
@@ -10829,7 +12537,7 @@
 				}
 			]
 		},
-		"Valkeros of the Horizons": {
+		"Barkeros": {
 			"moves": [
 				{
 					"move": "Kasplash",
@@ -10874,7 +12582,10 @@
 			],
 			"unofficial": true,
 			"jp": "青天竜バルケロス",
-			"traits": ["Fizz Ward+", "Crack Ward+"]
+			"traits": [
+				"Fizz Ward+",
+				"Crack Ward+"
+			]
 		},
 		"Holy Dragon Miraclea": {
 			"moves": [
@@ -11060,7 +12771,9 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Whack Ward+"],
+			"traits": [
+				"Whack Ward+"
+			],
 			"unofficialFr": true
 		},
 		"Boshock": {
@@ -11108,7 +12821,9 @@
 			],
 			"unofficial": true,
 			"jp": "大食王ボーショック",
-			"traits": ["Essence Drain Ward+"]
+			"traits": [
+				"Essence Drain Ward+"
+			]
 		},
 		"Zoma": {
 			"moves": [
@@ -11177,7 +12892,7 @@
 					"sp": 50
 				},
 				{
-					"move": "てんびんのタンゴ",
+					"move": "Balancing Tango",
 					"sp": 70
 				},
 				{
@@ -11199,7 +12914,7 @@
 			],
 			"unofficial": true
 		},
-		"Corvus the Fallen": {
+		"Corvus": {
 			"moves": [
 				{
 					"move": "Multifists",
@@ -11284,7 +12999,9 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Blunt Ward+"],
+			"traits": [
+				"Blunt Ward+"
+			],
 			"unofficial": true
 		},
 		"Diamagon Ace": {
@@ -11374,7 +13091,9 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Auto-Cadabra"]
+			"traits": [
+				"Auto-Cadabra"
+			]
 		},
 		"Psaro": {
 			"moves": [
@@ -11459,11 +13178,14 @@
 					"sp": 180
 				},
 				{
-					"move": "アビスハンド",
+					"move": "Abysmal Hand",
 					"sp": 200
 				}
 			],
-			"traits": ["Zam Ward+", "Curse Ward+"]
+			"traits": [
+				"Zam Ward+",
+				"Curse Ward+"
+			]
 		},
 		"Kabalna the Divine": {
 			"moves": [
@@ -11508,7 +13230,10 @@
 					"sp": 250
 				}
 			],
-			"traits": ["Auto-Restora", "Auto-Cadabra"]
+			"traits": [
+				"Auto-Restora",
+				"Auto-Cadabra"
+			]
 		},
 		"Darck": {
 			"moves": [
@@ -11545,7 +13270,7 @@
 					"sp": 190
 				},
 				{
-					"move": "ひとりっ霧",
+					"move": "Mist Me",
 					"sp": 220
 				},
 				{
@@ -11641,7 +13366,9 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Auto-Cadabra"]
+			"traits": [
+				"Auto-Cadabra"
+			]
 		},
 		"Scum Bubble": {
 			"moves": [
@@ -11688,7 +13415,9 @@
 			],
 			"unofficial": true,
 			"jp": "どくどくバルーン",
-			"traits": ["Poison Ward+"]
+			"traits": [
+				"Poison Ward+"
+			]
 		},
 		"Dhoulmagus": {
 			"moves": [
@@ -11822,7 +13551,9 @@
 					"sp": 250
 				}
 			],
-			"traits": ["Fuddle Ward+"]
+			"traits": [
+				"Fuddle Ward+"
+			]
 		},
 		"Nochora Engine": {
 			"moves": [
@@ -11869,7 +13600,10 @@
 			],
 			"unofficial": true,
 			"jp": "ノチョーラ機関",
-			"traits": ["Agility +48", "Agility +72"]
+			"traits": [
+				"Agility +48",
+				"Agility +72"
+			]
 		},
 		"Nochora Alloy": {
 			"moves": [
@@ -11916,7 +13650,10 @@
 			],
 			"unofficial": true,
 			"jp": "ノチョーラ合金",
-			"traits": ["Defence +48", "Defence +72"]
+			"traits": [
+				"Defence +48",
+				"Defence +72"
+			]
 		},
 		"Hargon": {
 			"moves": [
@@ -11961,7 +13698,11 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Whack Ward+", "Resistance Ward+", "Auto-Cadabra"]
+			"traits": [
+				"Whack Ward+",
+				"Resistance Ward+",
+				"Auto-Cadabra"
+			]
 		},
 		"Belmud the Destroyer": {
 			"moves": [
@@ -12052,7 +13793,10 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Auto-Restora", "Sap Ward+"]
+			"traits": [
+				"Auto-Restora",
+				"Sap Ward+"
+			]
 		},
 		"Hacksaurus": {
 			"moves": [
@@ -12089,7 +13833,10 @@
 					"sp": 100
 				}
 			],
-			"traits": ["Attack +12", "Defence +24"]
+			"traits": [
+				"Attack +12",
+				"Defence +24"
+			]
 		},
 		"Baramos": {
 			"moves": [
@@ -12134,7 +13881,12 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Sizz Ward+", "Frizz Ward+", "Bang Ward+", "Auto-Restora"]
+			"traits": [
+				"Sizz Ward+",
+				"Frizz Ward+",
+				"Bang Ward+",
+				"Auto-Restora"
+			]
 		},
 		"Barbarus": {
 			"moves": [
@@ -12225,7 +13977,11 @@
 			],
 			"unofficial": true,
 			"jp": "ピピット",
-			"traits": ["Woosh Ward+", "Frizz Ward+", "Crack Ward+"]
+			"traits": [
+				"Woosh Ward+",
+				"Frizz Ward+",
+				"Crack Ward+"
+			]
 		},
 		"Evil Beast": {
 			"moves": [
@@ -12270,7 +14026,10 @@
 					"sp": 200
 				}
 			],
-			"traits": ["MP Drain Ward+", "Fuddle Ward+"]
+			"traits": [
+				"MP Drain Ward+",
+				"Fuddle Ward+"
+			]
 		},
 		"Ultimate Weapon": {
 			"moves": [
@@ -12317,7 +14076,9 @@
 			],
 			"unofficial": true,
 			"jp": "ファイナルウェポン",
-			"traits": ["Blunt Ward+"]
+			"traits": [
+				"Blunt Ward+"
+			]
 		},
 		"Bjorn": {
 			"moves": [
@@ -12448,7 +14209,10 @@
 			],
 			"unofficial": true,
 			"jp": "プチットⅠ・Ⅱ",
-			"traits": ["Frizz Ward+", "Fuddle Ward+"]
+			"traits": [
+				"Frizz Ward+",
+				"Fuddle Ward+"
+			]
 		},
 		"Chibi Threes": {
 			"moves": [
@@ -12495,7 +14259,10 @@
 			],
 			"unofficial": true,
 			"jp": "プチットⅢ",
-			"traits": ["Crack Ward+", "Sleep Ward+"]
+			"traits": [
+				"Crack Ward+",
+				"Sleep Ward+"
+			]
 		},
 		"Chibi Eights": {
 			"moves": [
@@ -12542,7 +14309,10 @@
 			],
 			"unofficial": true,
 			"jp": "プチットⅧ",
-			"traits": ["Zap Ward+", "Stasis Ward+"]
+			"traits": [
+				"Zap Ward+",
+				"Stasis Ward+"
+			]
 		},
 		"Dancer Pleshauna": {
 			"moves": [
@@ -12633,7 +14403,9 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Paralysis Ward+"]
+			"traits": [
+				"Paralysis Ward+"
+			]
 		},
 		"Tyrant Basagrande": {
 			"moves": [
@@ -12678,7 +14450,10 @@
 					"sp": 250
 				}
 			],
-			"traits": ["Attack +20", "Defence +40"]
+			"traits": [
+				"Attack +20",
+				"Defence +40"
+			]
 		},
 		"Boss Troll": {
 			"moves": [
@@ -12715,7 +14490,9 @@
 					"sp": 100
 				}
 			],
-			"traits": ["Attack +12"]
+			"traits": [
+				"Attack +12"
+			]
 		},
 		"Tactician Iddo": {
 			"moves": [
@@ -12760,7 +14537,9 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Stasis Ward+"]
+			"traits": [
+				"Stasis Ward+"
+			]
 		},
 		"Excalipurr": {
 			"moves": [
@@ -12806,7 +14585,7 @@
 				}
 			]
 		},
-		"Zeldorado": {
+		"Zeldorade": {
 			"moves": [
 				{
 					"move": "Disrupting Light",
@@ -12942,7 +14721,7 @@
 				}
 			]
 		},
-		"Dark Hero Anlucia": {
+		"Anlucia The Maluminary": {
 			"moves": [
 				{
 					"move": "Hatchet Man",
@@ -12988,7 +14767,7 @@
 			"unofficial": true,
 			"jp": "魔勇者アンルシア"
 		},
-		"Jungle Guardian": {
+		"Forest Guardian": {
 			"moves": [
 				{
 					"move": "Kaswoosh",
@@ -13033,7 +14812,9 @@
 			],
 			"unofficial": true,
 			"jp": "密林の守人",
-			"traits": ["Sap Ward+"]
+			"traits": [
+				"Sap Ward+"
+			]
 		},
 		"Mimic": {
 			"moves": [
@@ -13078,7 +14859,10 @@
 					"sp": 250
 				}
 			],
-			"traits": ["Whack Ward+", "MP Drain Ward+"]
+			"traits": [
+				"Whack Ward+",
+				"MP Drain Ward+"
+			]
 		},
 		"Nimzo": {
 			"moves": [
@@ -13123,7 +14907,9 @@
 					"sp": 250
 				}
 			],
-			"traits": ["Auto-Restora"]
+			"traits": [
+				"Auto-Restora"
+			]
 		},
 		"Murdaw": {
 			"moves": [
@@ -13252,7 +15038,9 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Agility +32"]
+			"traits": [
+				"Agility +32"
+			]
 		},
 		"Shadroth": {
 			"moves": [
@@ -13299,7 +15087,9 @@
 			],
 			"unofficial": true,
 			"jp": "闇竜シャムダ",
-			"traits": ["Zam Ward+"]
+			"traits": [
+				"Zam Ward+"
+			]
 		},
 		"闇の王ヴラート": {
 			"moves": [
@@ -13340,11 +15130,13 @@
 					"sp": 180
 				},
 				{
-					"move": "アビスハンド",
+					"move": "Abysmal Hand",
 					"sp": 200
 				}
 			],
-			"traits": ["Zam Ward+"],
+			"traits": [
+				"Zam Ward+"
+			],
 			"unofficial": true
 		},
 		"Schleiman Tank": {
@@ -13392,7 +15184,10 @@
 			],
 			"unofficial": true,
 			"jp": "勇者スラリンガル",
-			"traits": ["Blind Ward+", "Stasis Ward+"]
+			"traits": [
+				"Blind Ward+",
+				"Stasis Ward+"
+			]
 		},
 		"Oren Wraithblade": {
 			"moves": [
@@ -13433,7 +15228,10 @@
 					"sp": 100
 				}
 			],
-			"traits": ["Blunt Ward+", "Sap Ward+"]
+			"traits": [
+				"Blunt Ward+",
+				"Sap Ward+"
+			]
 		},
 		"妖魔将ゲジュラ": {
 			"moves": [
@@ -13478,7 +15276,9 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Whack Ward+"],
+			"traits": [
+				"Whack Ward+"
+			],
 			"unofficial": true
 		},
 		"Mystical Juliante": {
@@ -13654,7 +15454,7 @@
 				}
 			]
 		},
-		"Dragovian Lord": {
+		"Lord Of The Dragovians": {
 			"moves": [
 				{
 					"move": "Bound",
@@ -13741,7 +15541,10 @@
 					"sp": 250
 				}
 			],
-			"traits": ["Fuddle Ward+", "Agility +60"]
+			"traits": [
+				"Fuddle Ward+",
+				"Agility +60"
+			]
 		},
 		"Leaf Spirit": {
 			"moves": [
@@ -13786,7 +15589,10 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Woosh Ward+", "Quake Ward+"],
+			"traits": [
+				"Woosh Ward+",
+				"Quake Ward+"
+			],
 			"unofficialFr": true
 		},
 		"Incarnus Trainee": {
@@ -13822,7 +15628,11 @@
 			],
 			"unofficial": true,
 			"jp": "見習い戦士",
-			"traits": ["Max. HP +2", "Attack +4", "Defence +8"]
+			"traits": [
+				"Max. HP +2",
+				"Attack +4",
+				"Defence +8"
+			]
 		},
 		"Warrior": {
 			"moves": [
@@ -13863,7 +15673,11 @@
 					"sp": 150
 				}
 			],
-			"traits": ["Max. HP +4", "Attack +12", "Defence +24"]
+			"traits": [
+				"Max. HP +4",
+				"Attack +12",
+				"Defence +24"
+			]
 		},
 		"戦士の知恵": {
 			"moves": [
@@ -13908,7 +15722,11 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Attack +8", "Attack +20", "Attack +24"],
+			"traits": [
+				"Attack +8",
+				"Attack +20",
+				"Attack +24"
+			],
 			"unofficial": true
 		},
 		"Warrior EX": {
@@ -13990,7 +15808,11 @@
 			],
 			"unofficial": true,
 			"jp": "見習い魔法使い",
-			"traits": ["Max. MP +4", "Wisdom +8", "Max. MP +8"]
+			"traits": [
+				"Max. MP +4",
+				"Wisdom +8",
+				"Max. MP +8"
+			]
 		},
 		"Mage": {
 			"moves": [
@@ -14031,7 +15853,10 @@
 					"sp": 150
 				}
 			],
-			"traits": ["Wisdom +24", "Wisdom +32"]
+			"traits": [
+				"Wisdom +24",
+				"Wisdom +32"
+			]
 		},
 		"魔法使いの知恵": {
 			"moves": [
@@ -14076,7 +15901,10 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Curse Ward+", "Whack Ward+"],
+			"traits": [
+				"Curse Ward+",
+				"Whack Ward+"
+			],
 			"unofficial": true
 		},
 		"Wizard EX": {
@@ -14124,7 +15952,10 @@
 			],
 			"unofficial": true,
 			"jp": "魔法使いの裏技",
-			"traits": ["Zam Ward+", "Whack Ward+"]
+			"traits": [
+				"Zam Ward+",
+				"Whack Ward+"
+			]
 		},
 		"Trainee Monk": {
 			"moves": [
@@ -14199,7 +16030,11 @@
 					"sp": 150
 				}
 			],
-			"traits": ["Max. MP +24", "Wisdom +32", "Auto-Cadabra"]
+			"traits": [
+				"Max. MP +24",
+				"Wisdom +32",
+				"Auto-Cadabra"
+			]
 		},
 		"Monk SP": {
 			"moves": [
@@ -14246,7 +16081,10 @@
 			],
 			"unofficial": true,
 			"jp": "僧侶の知恵",
-			"traits": ["Wisdom +32", "Max. MP +48"]
+			"traits": [
+				"Wisdom +32",
+				"Max. MP +48"
+			]
 		},
 		"Monk EX": {
 			"moves": [
@@ -14293,7 +16131,10 @@
 			],
 			"unofficial": true,
 			"jp": "僧侶の裏技",
-			"traits": ["Essence Drain Ward+", "Sizz Ward+"]
+			"traits": [
+				"Essence Drain Ward+",
+				"Sizz Ward+"
+			]
 		},
 		"Trainee Grapler": {
 			"moves": [
@@ -14328,7 +16169,11 @@
 			],
 			"unofficial": true,
 			"jp": "見習い武闘家",
-			"traits": ["Attack +2", "Agility +8", "Attack +4"]
+			"traits": [
+				"Attack +2",
+				"Agility +8",
+				"Attack +4"
+			]
 		},
 		"Martial Artist": {
 			"moves": [
@@ -14369,7 +16214,12 @@
 					"sp": 150
 				}
 			],
-			"traits": ["Attack +4", "Agility +24", "Attack +12", "Auto-Restora"]
+			"traits": [
+				"Attack +4",
+				"Agility +24",
+				"Attack +12",
+				"Auto-Restora"
+			]
 		},
 		"武闘家の知恵": {
 			"moves": [
@@ -14414,7 +16264,9 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Blunt Ward+"],
+			"traits": [
+				"Blunt Ward+"
+			],
 			"unofficial": true
 		},
 		"武闘家の裏技": {
@@ -14460,7 +16312,10 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Attack +16", "Max. HP +24"],
+			"traits": [
+				"Attack +16",
+				"Max. HP +24"
+			],
 			"unofficial": true
 		},
 		"Trainee Bandit": {
@@ -14496,7 +16351,10 @@
 			],
 			"unofficial": true,
 			"jp": "見習い盗賊",
-			"traits": ["Agility +4", "Agility +8"]
+			"traits": [
+				"Agility +4",
+				"Agility +8"
+			]
 		},
 		"Thief": {
 			"moves": [
@@ -14537,7 +16395,10 @@
 					"sp": 150
 				}
 			],
-			"traits": ["Agility +24", "Agility +32"]
+			"traits": [
+				"Agility +24",
+				"Agility +32"
+			]
 		},
 		"Bandit SP": {
 			"moves": [
@@ -14584,7 +16445,9 @@
 			],
 			"unofficial": true,
 			"jp": "盗賊の知恵",
-			"traits": ["Slow Ward+"]
+			"traits": [
+				"Slow Ward+"
+			]
 		},
 		"盗賊の裏技": {
 			"moves": [
@@ -14629,7 +16492,10 @@
 					"sp": 200
 				}
 			],
-			"traits": ["Crack Ward+", "Whack Ward+"],
+			"traits": [
+				"Crack Ward+",
+				"Whack Ward+"
+			],
 			"unofficial": true
 		},
 		"Trainee Entertainer": {
@@ -14727,7 +16593,7 @@
 					"sp": 80
 				},
 				{
-					"move": "マホトラの踊り",
+					"move": "Draining Dance",
 					"sp": 100
 				},
 				{
@@ -14803,8 +16669,14 @@
 			"moves": [],
 			"category": "Combination",
 			"from": [
-				["超ギガパワー", "Uber Health Boost"],
-				["超ギガパワー", "Uber Magic Boost"]
+				[
+					"超ギガパワー",
+					"Uber Health Boost"
+				],
+				[
+					"超ギガパワー",
+					"Uber Magic Boost"
+				]
 			],
 			"unofficial": true
 		},
@@ -14812,8 +16684,14 @@
 			"moves": [],
 			"category": "Combination",
 			"from": [
-				["ブレイクフォース＋", "Gravity SP"],
-				["ブレイクフォース＋", "Gravity EX"]
+				[
+					"ブレイクフォース＋",
+					"Gravity SP"
+				],
+				[
+					"ブレイクフォース＋",
+					"Gravity EX"
+				]
 			],
 			"unofficial": true
 		},
@@ -14821,10 +16699,22 @@
 			"moves": [],
 			"category": "Combination",
 			"from": [
-				["ワンダーフォース＋", "Sizz SP"],
-				["ワンダーフォース＋", "Sizz EX"],
-				["ワンダーフォース＋", "Zam SP"],
-				["ワンダーフォース＋", "Zam EX"]
+				[
+					"ワンダーフォース＋",
+					"Sizz SP"
+				],
+				[
+					"ワンダーフォース＋",
+					"Sizz EX"
+				],
+				[
+					"ワンダーフォース＋",
+					"Zam SP"
+				],
+				[
+					"ワンダーフォース＋",
+					"Zam EX"
+				]
 			],
 			"unofficial": true
 		},
@@ -15211,7 +17101,7 @@
 			"unofficial": true,
 			"jp": "ドラゴフォース"
 		},
-		"Asura Zoma": {
+		"AsuraZoma": {
 			"moves": [],
 			"unofficial": true,
 			"jp": "アスラゾーマ"
@@ -15246,7 +17136,7 @@
 			"unofficial": true,
 			"jp": "こんらんの力"
 		},
-		"Brash": {
+		"Brass": {
 			"moves": [],
 			"unofficial": true,
 			"jp": "ブラス"
@@ -15291,7 +17181,7 @@
 			"unofficial": true,
 			"jp": "チウ"
 		},
-		"Aldarahla": {
+		"Cobrara": {
 			"moves": [],
 			"unofficial": true,
 			"jp": "アルダララ"
@@ -15356,7 +17246,7 @@
 			"unofficial": true,
 			"jp": "スラフォース"
 		},
-		"Gome-chan": {
+		"Gomechan": {
 			"moves": [],
 			"unofficial": true,
 			"jp": "ゴメちゃん"
@@ -15371,12 +17261,12 @@
 			"unofficial": true,
 			"jp": "きらめく息吹"
 		},
-		"Kill-Vearn": {
+		"Killvearn": {
 			"moves": [],
 			"unofficial": true,
 			"jp": "キルバーン"
 		},
-		"Myst-Vearn": {
+		"Mystvearn": {
 			"moves": [],
 			"unofficial": true,
 			"jp": "ミストバーン"
@@ -15391,7 +17281,7 @@
 			"unofficial": true,
 			"jp": "じこぎせい"
 		},
-		"Pusugon the Monsterous": {
+		"Pusugon the Monstrous": {
 			"moves": [],
 			"unofficial": true,
 			"jp": "怪獣プスゴン"
@@ -15416,12 +17306,12 @@
 			"unofficial": true,
 			"jp": "ウルベア魔神兵"
 		},
-		"Great King Vearn": {
+		"Vearn": {
 			"moves": [],
 			"unofficial": true,
 			"jp": "大魔王バーン"
 		},
-		"Vearn, The Beholder": {
+		"Vearn The Supreme Sovereign": {
 			"moves": [],
 			"unofficial": true,
 			"jp": "鬼眼王バーン"

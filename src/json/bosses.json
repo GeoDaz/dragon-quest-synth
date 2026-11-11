@@ -231,7 +231,7 @@
 			{ "name": "Slayer Of The Sands", "role": "Boss" },
 			{ "name": "Jasper", "role": "Boss" },
 			{ "name": "Arachtagon", "role": "Boss" },
-			{ "name": "Dora-in-Grey", "role": "Boss" },
+			{ "name": "Dora-In-Grey", "role": "Boss" },
 			{ "name": "Jörmun", "role": "Boss" },
 			{ "name": "Krystalinda", "role": "Boss" },
 			{ "name": "Boodica", "role": "Boss" },
@@ -254,7 +254,7 @@
 			{ "name": "Calasmos", "role": "Secret Boss" },
 			{ "name": "Darkling", "role": "Secret Boss" },
 			{ "name": "Timewyrm", "role": "Secret Boss" },
-			{ "name": "End of Time", "role": "Secret Boss" }
+			{ "name": "End Of Time", "role": "Secret Boss" }
 		]
 	}
 ]

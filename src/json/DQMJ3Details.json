@@ -53,7 +53,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zap"]
+		"skills": [
+			"Zap"
+		]
 	},
 	"AU-1000": {
 		"size": "M",
@@ -107,7 +109,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Uberkilling Machine"]
+		"skills": [
+			"Uberkilling Machine"
+		]
 	},
 	"Ace Of Spades": {
 		"size": "S",
@@ -167,7 +171,9 @@
 				"name": "ときどき黒い霧"
 			}
 		],
-		"skills": ["Ace Of Spades"]
+		"skills": [
+			"Ace Of Spades"
+		]
 	},
 	"Ackle": {
 		"size": "S",
@@ -195,7 +201,9 @@
 			"curse": -25,
 			"whack": 50
 		},
-		"skills": ["戦帝アックル"]
+		"skills": [
+			"戦帝アックル"
+		]
 	},
 	"Admirer": {
 		"size": "S",
@@ -249,7 +257,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Paralysis"]
+		"skills": [
+			"Paralysis"
+		]
 	},
 	"Alefgardian Conklave": {
 		"size": "S",
@@ -281,7 +291,9 @@
 				"name": "光の玉"
 			}
 		],
-		"skills": ["Chibi Threes"]
+		"skills": [
+			"Chibi Threes"
+		]
 	},
 	"Aliahanian Conklave": {
 		"size": "S",
@@ -313,7 +325,9 @@
 				"name": "光の玉"
 			}
 		],
-		"skills": ["Chibi Threes"]
+		"skills": [
+			"Chibi Threes"
+		]
 	},
 	"Amodeus": {
 		"size": "S",
@@ -366,7 +380,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["デビルフォース＋"]
+		"skills": [
+			"デビルフォース＋"
+		]
 	},
 	"Angel Slime": {
 		"size": "S",
@@ -421,7 +437,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Healer"]
+		"skills": [
+			"Healer"
+		]
 	},
 	"Anlucia The Maluminary": {
 		"stats": {
@@ -484,7 +502,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Dark Hero Anlucia"]
+		"skills": [
+			"Anlucia The Maluminary"
+		]
 	},
 	"Aragune": {
 		"size": "M",
@@ -543,7 +563,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Araniad the Enigma"]
+		"skills": [
+			"Araniad the Enigma"
+		]
 	},
 	"Archdemon": {
 		"size": "M",
@@ -598,7 +620,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bang"]
+		"skills": [
+			"Bang"
+		]
 	},
 	"Armoured Ant": {
 		"size": "S",
@@ -648,7 +672,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["Feral"]
+		"skills": [
+			"Feral"
+		]
 	},
 	"Armoured Wartoise": {
 		"size": "S",
@@ -698,7 +724,9 @@
 				"name": "はじまりの守護者"
 			}
 		],
-		"skills": ["Dragon"]
+		"skills": [
+			"Dragon"
+		]
 	},
 	"AsuraZoma": {
 		"size": "SG",
@@ -756,7 +784,9 @@
 				"name": "闇の衣"
 			}
 		],
-		"skills": ["Asura Zoma"]
+		"skills": [
+			"AsuraZoma"
+		]
 	},
 	"Atlas": {
 		"size": "M",
@@ -815,7 +845,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["赤い霧マスター"]
+		"skills": [
+			"赤い霧マスター"
+		]
 	},
 	"Attihocc": {
 		"size": "SG",
@@ -874,7 +906,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["超ギガパワー"]
+		"skills": [
+			"超ギガパワー"
+		]
 	},
 	"Awebergine": {
 		"size": "S",
@@ -930,7 +964,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["神々の力"]
+		"skills": [
+			"神々の力"
+		]
 	},
 	"Axesaurus": {
 		"size": "M",
@@ -982,7 +1018,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bang+"]
+		"skills": [
+			"Bang+"
+		]
 	},
 	"Axolhotl": {
 		"size": "S",
@@ -1061,7 +1099,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zam+"]
+		"skills": [
+			"Zam+"
+		]
 	},
 	"Bad Bird": {
 		"size": "S",
@@ -1118,7 +1158,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Δ Hraesvelgr"]
+		"skills": [
+			"Δ Hraesvelgr"
+		]
 	},
 	"Bad Egg": {
 		"size": "S",
@@ -1166,7 +1208,9 @@
 				"name": "全ガード＋"
 			}
 		],
-		"skills": ["Crack"]
+		"skills": [
+			"Crack"
+		]
 	},
 	"Bad Hare": {
 		"size": "S",
@@ -1222,7 +1266,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zam+"]
+		"skills": [
+			"Zam+"
+		]
 	},
 	"Badja": {
 		"size": "S",
@@ -1293,7 +1339,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Sizz+"]
+		"skills": [
+			"Sizz+"
+		]
 	},
 	"Balzack": {
 		"size": "G",
@@ -1350,7 +1398,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Devil"]
+		"skills": [
+			"Devil"
+		]
 	},
 	"Bamboo Bopper": {
 		"size": "S",
@@ -1408,7 +1458,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Devil"]
+		"skills": [
+			"Devil"
+		]
 	},
 	"Bambooligan": {
 		"size": "S",
@@ -1468,7 +1520,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Material"]
+		"skills": [
+			"Material"
+		]
 	},
 	"Bamboozler": {
 		"size": "S",
@@ -1528,7 +1582,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ノーマルパワー"]
+		"skills": [
+			"ノーマルパワー"
+		]
 	},
 	"Baramos": {
 		"size": "S",
@@ -1556,7 +1612,9 @@
 			"rest": 75,
 			"whack": 100
 		},
-		"skills": ["Baramos"]
+		"skills": [
+			"Baramos"
+		]
 	},
 	"Barbarus": {
 		"size": "M",
@@ -1585,7 +1643,9 @@
 			"curse": 50,
 			"whack": 100
 		},
-		"skills": ["Barbarus"]
+		"skills": [
+			"Barbarus"
+		]
 	},
 	"Barkeros": {
 		"size": "M",
@@ -1645,7 +1705,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Valkeros of the Horizons"]
+		"skills": [
+			"Barkeros"
+		]
 	},
 	"Barracuda": {
 		"size": "S",
@@ -1701,7 +1763,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Feral"]
+		"skills": [
+			"Feral"
+		]
 	},
 	"Batmandrill": {
 		"size": "S",
@@ -1758,7 +1822,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zam"]
+		"skills": [
+			"Zam"
+		]
 	},
 	"Beaster Egg": {
 		"size": "S",
@@ -1810,7 +1876,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Gravity+"]
+		"skills": [
+			"Gravity+"
+		]
 	},
 	"Belial": {
 		"size": "M",
@@ -1865,7 +1933,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bang"]
+		"skills": [
+			"Bang"
+		]
 	},
 	"Belinda": {
 		"size": "M",
@@ -1923,7 +1993,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Devil Dog Belinda"]
+		"skills": [
+			"Devil Dog Belinda"
+		]
 	},
 	"Bilhaw": {
 		"size": "G",
@@ -1978,7 +2050,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Crack"]
+		"skills": [
+			"Crack"
+		]
 	},
 	"Bird Of Terrordise": {
 		"size": "S",
@@ -2038,7 +2112,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["炎の息吹＋"]
+		"skills": [
+			"炎の息吹＋"
+		]
 	},
 	"Black Dragon": {
 		"size": "M",
@@ -2095,7 +2171,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zam"]
+		"skills": [
+			"Zam"
+		]
 	},
 	"Black Flying Dragon": {
 		"size": "G",
@@ -2154,7 +2232,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zam+"]
+		"skills": [
+			"Zam+"
+		]
 	},
 	"Black Goyle": {
 		"size": "S",
@@ -2210,7 +2290,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zam+"]
+		"skills": [
+			"Zam+"
+		]
 	},
 	"Black Groom": {
 		"size": "M",
@@ -2265,7 +2347,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["Doom Groom"]
+		"skills": [
+			"Doom Groom"
+		]
 	},
 	"Black Mantis": {
 		"size": "S",
@@ -2324,7 +2408,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["深淵の力"]
+		"skills": [
+			"深淵の力"
+		]
 	},
 	"Blastoad": {
 		"size": "G",
@@ -2382,7 +2468,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bang+"]
+		"skills": [
+			"Bang+"
+		]
 	},
 	"Bloody Hand": {
 		"size": "S",
@@ -2461,7 +2549,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Quake"]
+		"skills": [
+			"Quake"
+		]
 	},
 	"Blue Dragon": {
 		"size": "G",
@@ -2517,7 +2607,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Icy Breather"]
+		"skills": [
+			"Icy Breather"
+		]
 	},
 	"Blue Flying Dragon": {
 		"size": "G",
@@ -2576,7 +2668,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["青飛竜"]
+		"skills": [
+			"青飛竜"
+		]
 	},
 	"Blue Minx": {
 		"size": "S",
@@ -2654,7 +2748,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["深淵の力"]
+		"skills": [
+			"深淵の力"
+		]
 	},
 	"Bobonga": {
 		"size": "M",
@@ -2710,7 +2806,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["メガパワー"]
+		"skills": [
+			"メガパワー"
+		]
 	},
 	"Bomboulder": {
 		"size": "S",
@@ -2762,7 +2860,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ダイナマイト"]
+		"skills": [
+			"ダイナマイト"
+		]
 	},
 	"Bone Bat": {
 		"size": "S",
@@ -2820,7 +2920,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ゾンビフォース"]
+		"skills": [
+			"ゾンビフォース"
+		]
 	},
 	"Bone Idol": {
 		"size": "S",
@@ -2878,7 +2980,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["雷雲の力"]
+		"skills": [
+			"雷雲の力"
+		]
 	},
 	"Bones Of Baramos": {
 		"size": "S",
@@ -2939,7 +3043,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zombie+"]
+		"skills": [
+			"Zombie+"
+		]
 	},
 	"Bony Bat": {
 		"size": "S",
@@ -2997,7 +3103,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fuddle"]
+		"skills": [
+			"Fuddle"
+		]
 	},
 	"Boppin' Badger": {
 		"size": "S",
@@ -3124,7 +3232,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Boss Troll"]
+		"skills": [
+			"Boss Troll"
+		]
 	},
 	"Brass": {
 		"size": "S",
@@ -3163,7 +3273,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Brash"]
+		"skills": [
+			"Brass"
+		]
 	},
 	"Brenda": {
 		"size": "M",
@@ -3221,7 +3333,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Devil Dog Brenda"]
+		"skills": [
+			"Devil Dog Brenda"
+		]
 	},
 	"Brimstone Bulb": {
 		"size": "S",
@@ -3279,7 +3393,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Putrid Breath"]
+		"skills": [
+			"Putrid Breath"
+		]
 	},
 	"Broken King Bermud": {
 		"size": "M",
@@ -3338,7 +3454,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Belmud the Destroyer"]
+		"skills": [
+			"Belmud the Destroyer"
+		]
 	},
 	"Brownie": {
 		"size": "S",
@@ -3392,7 +3510,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Beast"]
+		"skills": [
+			"Beast"
+		]
 	},
 	"Bubble Slime": {
 		"size": "S",
@@ -3448,7 +3568,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Poison"]
+		"skills": [
+			"Poison"
+		]
 	},
 	"Buffalo Wing": {
 		"size": "S",
@@ -3504,7 +3626,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ノーマルパワー"]
+		"skills": [
+			"ノーマルパワー"
+		]
 	},
 	"Bulldozer": {
 		"size": "S",
@@ -3560,7 +3684,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ビーストフォース＋"]
+		"skills": [
+			"ビーストフォース＋"
+		]
 	},
 	"Bullfinch": {
 		"size": "S",
@@ -3616,7 +3742,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bullfinch"]
+		"skills": [
+			"Bullfinch"
+		]
 	},
 	"Bullion": {
 		"size": "M",
@@ -3700,7 +3828,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zombie+"]
+		"skills": [
+			"Zombie+"
+		]
 	},
 	"Bundold": {
 		"size": "M",
@@ -3754,7 +3884,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bundold"]
+		"skills": [
+			"Bundold"
+		]
 	},
 	"Bunicorn": {
 		"size": "S",
@@ -3810,7 +3942,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Beast"]
+		"skills": [
+			"Beast"
+		]
 	},
 	"Buntzenberner": {
 		"size": "S",
@@ -3867,7 +4001,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Putrid Breath"]
+		"skills": [
+			"Putrid Breath"
+		]
 	},
 	"Bushy Baby": {
 		"size": "S",
@@ -3923,7 +4059,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bang"]
+		"skills": [
+			"Bang"
+		]
 	},
 	"Butoma Preciana": {
 		"size": "S",
@@ -3981,7 +4119,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Dancer Pleshauna"]
+		"skills": [
+			"Dancer Pleshauna"
+		]
 	},
 	"Cactiball": {
 		"size": "S",
@@ -4035,7 +4175,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Feral"]
+		"skills": [
+			"Feral"
+		]
 	},
 	"Camothrust": {
 		"size": "S",
@@ -4102,7 +4244,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Quake+"]
+		"skills": [
+			"Quake+"
+		]
 	},
 	"Candy Cat": {
 		"size": "S",
@@ -4158,7 +4302,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Enfeebler"]
+		"skills": [
+			"Enfeebler"
+		]
 	},
 	"Cannibox": {
 		"size": "S",
@@ -4216,7 +4362,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Material"]
+		"skills": [
+			"Material"
+		]
 	},
 	"Canzar": {
 		"size": "G",
@@ -4244,7 +4392,9 @@
 			"curse": 75,
 			"whack": 75
 		},
-		"skills": ["Canzar"]
+		"skills": [
+			"Canzar"
+		]
 	},
 	"Captain Crow": {
 		"size": "S",
@@ -4312,7 +4462,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zap+"]
+		"skills": [
+			"Zap+"
+		]
 	},
 	"Carnivine": {
 		"size": "M",
@@ -4370,7 +4522,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bang"]
+		"skills": [
+			"Bang"
+		]
 	},
 	"Cavorting Column": {
 		"size": "S",
@@ -4421,7 +4575,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Material"]
+		"skills": [
+			"Material"
+		]
 	},
 	"Chariot Chappie": {
 		"size": "S",
@@ -4502,7 +4658,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Curse"]
+		"skills": [
+			"Curse"
+		]
 	},
 	"Chest Mimic": {
 		"size": "S",
@@ -4554,7 +4712,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Whacker"]
+		"skills": [
+			"Whacker"
+		]
 	},
 	"Chimaera": {
 		"size": "S",
@@ -4612,7 +4772,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Paramedic"]
+		"skills": [
+			"Paramedic"
+		]
 	},
 	"Chiu": {
 		"size": "S",
@@ -4663,7 +4825,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Chiu"]
+		"skills": [
+			"Chiu"
+		]
 	},
 	"Chopping Machine": {
 		"size": "S",
@@ -4715,7 +4879,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Material"]
+		"skills": [
+			"Material"
+		]
 	},
 	"Clockwork Cuckoo": {
 		"size": "S",
@@ -4766,7 +4932,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["雷雲の力"]
+		"skills": [
+			"雷雲の力"
+		]
 	},
 	"Cluboon": {
 		"size": "S",
@@ -4791,7 +4959,9 @@
 			"curse": -25,
 			"whack": 50
 		},
-		"skills": ["Cluboon Ace"]
+		"skills": [
+			"Cluboon Ace"
+		]
 	},
 	"Cluboon Ace": {
 		"size": "S",
@@ -4848,7 +5018,9 @@
 				"name": "ひん死で会心"
 			}
 		],
-		"skills": ["Cluboon Ace"]
+		"skills": [
+			"Cluboon Ace"
+		]
 	},
 	"Cobrara": {
 		"size": "G",
@@ -4913,7 +5085,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Aldarahla"]
+		"skills": [
+			"Cobrara"
+		]
 	},
 	"Conkettes": {
 		"size": "S",
@@ -5020,7 +5194,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Putrid Breath"]
+		"skills": [
+			"Putrid Breath"
+		]
 	},
 	"Corrupt Carter": {
 		"size": "S",
@@ -5112,7 +5288,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Corvus the Fallen"]
+		"skills": [
+			"Corvus"
+		]
 	},
 	"Cosmic Chimaera": {
 		"size": "S",
@@ -5170,7 +5348,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Sizz+"]
+		"skills": [
+			"Sizz+"
+		]
 	},
 	"Crabber Dabber Doo": {
 		"size": "S",
@@ -5233,7 +5413,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fizz"]
+		"skills": [
+			"Fizz"
+		]
 	},
 	"Crabid": {
 		"size": "S",
@@ -5291,7 +5473,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fizz"]
+		"skills": [
+			"Fizz"
+		]
 	},
 	"Crack-Billed Platypunk": {
 		"size": "S",
@@ -5347,7 +5531,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zap+"]
+		"skills": [
+			"Zap+"
+		]
 	},
 	"Crimson Killing Machine": {
 		"size": "M",
@@ -5405,7 +5591,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Uberkilling Machine"]
+		"skills": [
+			"Uberkilling Machine"
+		]
 	},
 	"Crocodog": {
 		"size": "M",
@@ -5462,7 +5650,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["メガパワー"]
+		"skills": [
+			"メガパワー"
+		]
 	},
 	"Crowgre": {
 		"size": "M",
@@ -5569,7 +5759,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Icy Breather"]
+		"skills": [
+			"Icy Breather"
+		]
 	},
 	"Cunning King Azamook": {
 		"size": "M",
@@ -5622,7 +5814,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Azamook"]
+		"skills": [
+			"Azamook"
+		]
 	},
 	"Cureslime": {
 		"size": "S",
@@ -5677,7 +5871,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Healer"]
+		"skills": [
+			"Healer"
+		]
 	},
 	"Cursed Rock": {
 		"size": "S",
@@ -5725,7 +5921,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Curse"]
+		"skills": [
+			"Curse"
+		]
 	},
 	"Cyclops": {
 		"size": "M",
@@ -5784,7 +5982,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["メガパワー"]
+		"skills": [
+			"メガパワー"
+		]
 	},
 	"Cyclown": {
 		"size": "S",
@@ -5868,7 +6068,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Frizz"]
+		"skills": [
+			"Frizz"
+		]
 	},
 	"Dangler Fish": {
 		"size": "S",
@@ -5920,7 +6122,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Sizz"]
+		"skills": [
+			"Sizz"
+		]
 	},
 	"Dank Bubble Slime": {
 		"size": "S",
@@ -5972,7 +6176,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Hypnotist"]
+		"skills": [
+			"Hypnotist"
+		]
 	},
 	"Dappled Dragon": {
 		"size": "S",
@@ -6030,7 +6236,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Hypnotist"]
+		"skills": [
+			"Hypnotist"
+		]
 	},
 	"Dark Brownie": {
 		"size": "S",
@@ -6086,7 +6294,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["黒い霧マスター"]
+		"skills": [
+			"黒い霧マスター"
+		]
 	},
 	"Dark Golem": {
 		"size": "S",
@@ -6144,7 +6354,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Material"]
+		"skills": [
+			"Material"
+		]
 	},
 	"Dark Hare": {
 		"size": "S",
@@ -6200,7 +6412,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["インスパイア"]
+		"skills": [
+			"インスパイア"
+		]
 	},
 	"Dark Moth": {
 		"size": "S",
@@ -6254,7 +6468,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Toxifier"]
+		"skills": [
+			"Toxifier"
+		]
 	},
 	"Dark Nebulus": {
 		"size": "M",
@@ -6310,7 +6526,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zam"]
+		"skills": [
+			"Zam"
+		]
 	},
 	"Dark Planet": {
 		"size": "G",
@@ -6364,7 +6582,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zam"]
+		"skills": [
+			"Zam"
+		]
 	},
 	"Dark Robot Slime": {
 		"size": "G",
@@ -6397,7 +6617,9 @@
 			"curse": 100,
 			"whack": 75
 		},
-		"skills": ["Sliderk"]
+		"skills": [
+			"Sliderk"
+		]
 	},
 	"Dark Sabrecat": {
 		"size": "S",
@@ -6452,7 +6674,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zam"]
+		"skills": [
+			"Zam"
+		]
 	},
 	"Dark Sabrecub": {
 		"size": "S",
@@ -6510,7 +6734,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Quake"]
+		"skills": [
+			"Quake"
+		]
 	},
 	"Dark Skeleton": {
 		"size": "S",
@@ -6568,7 +6794,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zombie+"]
+		"skills": [
+			"Zombie+"
+		]
 	},
 	"Dark Star": {
 		"size": "G",
@@ -6621,7 +6849,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["深淵の力"]
+		"skills": [
+			"深淵の力"
+		]
 	},
 	"Darkodile": {
 		"size": "M",
@@ -6679,7 +6909,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["メガパワー"]
+		"skills": [
+			"メガパワー"
+		]
 	},
 	"Darkonium Slime": {
 		"size": "M",
@@ -6744,7 +6976,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["メガパワー"]
+		"skills": [
+			"メガパワー"
+		]
 	},
 	"Deadly Dodo": {
 		"size": "S",
@@ -6802,7 +7036,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["黒い霧マスター"]
+		"skills": [
+			"黒い霧マスター"
+		]
 	},
 	"Deep Sea Guardian": {
 		"size": "M",
@@ -6863,7 +7099,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Defender of the Depths"]
+		"skills": [
+			"Defender of the Depths"
+		]
 	},
 	"Demon Batboon": {
 		"size": "S",
@@ -6919,7 +7157,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Crack+"]
+		"skills": [
+			"Crack+"
+		]
 	},
 	"Demon Cloud": {
 		"size": "S",
@@ -6973,7 +7213,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Putrid Breath"]
+		"skills": [
+			"Putrid Breath"
+		]
 	},
 	"Demon Overlord": {
 		"size": "S",
@@ -7061,7 +7303,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Ziggy the Wicked"]
+		"skills": [
+			"Ziggy the Wicked"
+		]
 	},
 	"Devilmoth": {
 		"size": "S",
@@ -7115,7 +7359,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Toxifier"]
+		"skills": [
+			"Toxifier"
+		]
 	},
 	"Dhoulmagus": {
 		"size": "S",
@@ -7143,7 +7389,9 @@
 			"poison": 75,
 			"whack": 100
 		},
-		"skills": ["Dhoulmagus"]
+		"skills": [
+			"Dhoulmagus"
+		]
 	},
 	"Dhuran": {
 		"size": "S",
@@ -7180,7 +7428,9 @@
 			"curse": -25,
 			"whack": 100
 		},
-		"skills": ["Diamagon Ace"]
+		"skills": [
+			"Diamagon Ace"
+		]
 	},
 	"Diamagon Ace": {
 		"size": "S",
@@ -7234,7 +7484,9 @@
 				"name": "Saving Grace"
 			}
 		],
-		"skills": ["Diamagon Ace"]
+		"skills": [
+			"Diamagon Ace"
+		]
 	},
 	"Dirty Dogu": {
 		"size": "S",
@@ -7316,7 +7568,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["火山の力"]
+		"skills": [
+			"火山の力"
+		]
 	},
 	"Disfigurine": {
 		"size": "S",
@@ -7366,7 +7620,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bang"]
+		"skills": [
+			"Bang"
+		]
 	},
 	"Don Mole": {
 		"size": "S",
@@ -7434,7 +7690,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Dr Snapped"]
+		"skills": [
+			"Dr Snapped"
+		]
 	},
 	"Drackmage": {
 		"size": "S",
@@ -7489,7 +7747,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Woosh"]
+		"skills": [
+			"Woosh"
+		]
 	},
 	"Drackolyte": {
 		"size": "S",
@@ -7545,7 +7805,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ねむりの力"]
+		"skills": [
+			"ねむりの力"
+		]
 	},
 	"Dracky": {
 		"size": "S",
@@ -7601,7 +7863,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zam"]
+		"skills": [
+			"Zam"
+		]
 	},
 	"Drag Racer": {
 		"size": "M",
@@ -7657,7 +7921,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fire Breather"]
+		"skills": [
+			"Fire Breather"
+		]
 	},
 	"Dragon Slime": {
 		"size": "S",
@@ -7713,7 +7979,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Icy Breather"]
+		"skills": [
+			"Icy Breather"
+		]
 	},
 	"Dragon Zombie": {
 		"size": "S",
@@ -7774,7 +8042,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Icy Breather"]
+		"skills": [
+			"Icy Breather"
+		]
 	},
 	"Dragonlord": {
 		"size": "M",
@@ -7833,7 +8103,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Dragonlord"]
+		"skills": [
+			"Dragonlord"
+		]
 	},
 	"Dragstar": {
 		"size": "M",
@@ -7889,7 +8161,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Icy Breather"]
+		"skills": [
+			"Icy Breather"
+		]
 	},
 	"Dragster": {
 		"size": "M",
@@ -7945,7 +8219,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fire Breather"]
+		"skills": [
+			"Fire Breather"
+		]
 	},
 	"Dragurn": {
 		"size": "M",
@@ -8001,7 +8277,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fire Breather"]
+		"skills": [
+			"Fire Breather"
+		]
 	},
 	"Drake Slime": {
 		"size": "S",
@@ -8057,7 +8335,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fire Breather"]
+		"skills": [
+			"Fire Breather"
+		]
 	},
 	"Drakenstein": {
 		"size": "S",
@@ -8118,7 +8398,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Crack"]
+		"skills": [
+			"Crack"
+		]
 	},
 	"Drakulard": {
 		"size": "M",
@@ -8174,7 +8456,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Gravity"]
+		"skills": [
+			"Gravity"
+		]
 	},
 	"Drakularge": {
 		"size": "M",
@@ -8231,7 +8515,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Quake"]
+		"skills": [
+			"Quake"
+		]
 	},
 	"Drakulord": {
 		"size": "M",
@@ -8286,7 +8572,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bang+"]
+		"skills": [
+			"Bang+"
+		]
 	},
 	"Drakulurch": {
 		"size": "M",
@@ -8342,7 +8630,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["火山の力"]
+		"skills": [
+			"火山の力"
+		]
 	},
 	"Dread Squirrel": {
 		"size": "S",
@@ -8450,7 +8740,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["じごく"]
+		"skills": [
+			"じごく"
+		]
 	},
 	"Egg-En-Ciel": {
 		"size": "S",
@@ -8506,7 +8798,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Gravity"]
+		"skills": [
+			"Gravity"
+		]
 	},
 	"Eggsalted Leader": {
 		"size": "S",
@@ -8558,7 +8852,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Gravity+"]
+		"skills": [
+			"Gravity+"
+		]
 	},
 	"Elder Dragon": {
 		"size": "M",
@@ -8613,7 +8909,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Icy Breather"]
+		"skills": [
+			"Icy Breather"
+		]
 	},
 	"Elder Pipit": {
 		"size": "S",
@@ -8637,7 +8935,9 @@
 			"curse": -25,
 			"whack": 100
 		},
-		"skills": ["Pipit"]
+		"skills": [
+			"Pipit"
+		]
 	},
 	"Elephant King": {
 		"size": "M",
@@ -8693,7 +8993,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Woosh+"]
+		"skills": [
+			"Woosh+"
+		]
 	},
 	"Elysium Bird": {
 		"size": "S",
@@ -8749,7 +9051,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Cure-all"]
+		"skills": [
+			"Cure-all"
+		]
 	},
 	"Emerald Demon": {
 		"size": "G",
@@ -8804,7 +9108,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["休みの力"]
+		"skills": [
+			"休みの力"
+		]
 	},
 	"Emperor Ackle": {
 		"size": "S",
@@ -8861,7 +9167,9 @@
 				"name": "カウンター"
 			}
 		],
-		"skills": ["戦帝アックル"]
+		"skills": [
+			"戦帝アックル"
+		]
 	},
 	"Emperor Freisha": {
 		"size": "S",
@@ -8920,7 +9228,9 @@
 				"name": "火系のコツ"
 			}
 		],
-		"skills": ["Queen Freshia"]
+		"skills": [
+			"Queen Freshia"
+		]
 	},
 	"Emperor Gaogaya": {
 		"size": "S",
@@ -8975,7 +9285,9 @@
 				"name": "会心出やすい"
 			}
 		],
-		"skills": ["義帝ガオガイヤ"]
+		"skills": [
+			"義帝ガオガイヤ"
+		]
 	},
 	"Emperor Slime": {
 		"size": "M",
@@ -9029,7 +9341,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["メガパワー"]
+		"skills": [
+			"メガパワー"
+		]
 	},
 	"Emperor Windeo": {
 		"size": "S",
@@ -9084,7 +9398,9 @@
 				"name": "風系のコツ"
 			}
 		],
-		"skills": ["皇帝ウィンディオ"]
+		"skills": [
+			"皇帝ウィンディオ"
+		]
 	},
 	"Empyrea": {
 		"size": "G",
@@ -9148,7 +9464,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ギガパワー"]
+		"skills": [
+			"ギガパワー"
+		]
 	},
 	"Envoy Of Yama": {
 		"size": "S",
@@ -9206,7 +9524,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Devil"]
+		"skills": [
+			"Devil"
+		]
 	},
 	"Equestrion": {
 		"size": "S",
@@ -9319,7 +9639,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Sizz"]
+		"skills": [
+			"Sizz"
+		]
 	},
 	"Estark": {
 		"size": "G",
@@ -9375,7 +9697,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Estark"]
+		"skills": [
+			"Estark"
+		]
 	},
 	"Ethereal Serpent": {
 		"size": "M",
@@ -9459,7 +9783,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bang"]
+		"skills": [
+			"Bang"
+		]
 	},
 	"Evil Atlas": {
 		"size": "M",
@@ -9507,7 +9833,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Gigantes"]
+		"skills": [
+			"Gigantes"
+		]
 	},
 	"Evil Blue Moon": {
 		"size": "G",
@@ -9561,7 +9889,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["Break"]
+		"skills": [
+			"Break"
+		]
 	},
 	"Evil Chimaera": {
 		"size": "S",
@@ -9618,7 +9948,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Paramedic"]
+		"skills": [
+			"Paramedic"
+		]
 	},
 	"Evil Cosmic Chimaera": {
 		"size": "S",
@@ -9675,7 +10007,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Sizz+"]
+		"skills": [
+			"Sizz+"
+		]
 	},
 	"Evil Crabber Dabber Doo": {
 		"size": "S",
@@ -9733,7 +10067,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Break"]
+		"skills": [
+			"Break"
+		]
 	},
 	"Evil Crabid": {
 		"size": "S",
@@ -9791,7 +10127,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["氷海の力"]
+		"skills": [
+			"氷海の力"
+		]
 	},
 	"Evil Dark Planet": {
 		"size": "G",
@@ -9845,7 +10183,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zam"]
+		"skills": [
+			"Zam"
+		]
 	},
 	"Evil Disfigurine": {
 		"size": "S",
@@ -9892,7 +10232,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bang"]
+		"skills": [
+			"Bang"
+		]
 	},
 	"Evil Dragon Zombie": {
 		"size": "S",
@@ -9953,7 +10295,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Icy Breather"]
+		"skills": [
+			"Icy Breather"
+		]
 	},
 	"Evil Elder Dragon": {
 		"size": "M",
@@ -10007,7 +10351,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Icy Breather"]
+		"skills": [
+			"Icy Breather"
+		]
 	},
 	"Evil Estark": {
 		"size": "G",
@@ -10065,7 +10411,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Estark"]
+		"skills": [
+			"Estark"
+		]
 	},
 	"Evil Forest Dragon": {
 		"size": "M",
@@ -10116,7 +10464,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Healer"]
+		"skills": [
+			"Healer"
+		]
 	},
 	"Evil Gaia Dragon": {
 		"size": "M",
@@ -10173,7 +10523,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Woosh"]
+		"skills": [
+			"Woosh"
+		]
 	},
 	"Evil Ganesha": {
 		"size": "M",
@@ -10229,7 +10581,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ビーストフォース＋"]
+		"skills": [
+			"ビーストフォース＋"
+		]
 	},
 	"Evil Gigantes": {
 		"size": "M",
@@ -10281,7 +10635,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Gigantes"]
+		"skills": [
+			"Gigantes"
+		]
 	},
 	"Evil Hocus Chimaera": {
 		"size": "S",
@@ -10338,7 +10694,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Break"]
+		"skills": [
+			"Break"
+		]
 	},
 	"Evil King Crab": {
 		"size": "S",
@@ -10396,7 +10754,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["氷海の力"]
+		"skills": [
+			"氷海の力"
+		]
 	},
 	"Evil King Squid": {
 		"size": "M",
@@ -10453,7 +10813,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Paramedic"]
+		"skills": [
+			"Paramedic"
+		]
 	},
 	"Evil Leon Bubro": {
 		"size": "G",
@@ -10513,7 +10875,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ギガパワー"]
+		"skills": [
+			"ギガパワー"
+		]
 	},
 	"Evil Liege Lizard": {
 		"size": "M",
@@ -10570,7 +10934,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fire Breather"]
+		"skills": [
+			"Fire Breather"
+		]
 	},
 	"Evil Lleviathan": {
 		"size": "G",
@@ -10629,7 +10995,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fizz+"]
+		"skills": [
+			"Fizz+"
+		]
 	},
 	"Evil Mars Face": {
 		"size": "G",
@@ -10683,7 +11051,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Frizz"]
+		"skills": [
+			"Frizz"
+		]
 	},
 	"Evil Maulrus": {
 		"size": "M",
@@ -10735,7 +11105,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Crack"]
+		"skills": [
+			"Crack"
+		]
 	},
 	"Evil Mechan-O'-Wyrm": {
 		"size": "M",
@@ -10781,7 +11153,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fire Breather"]
+		"skills": [
+			"Fire Breather"
+		]
 	},
 	"Evil Metal Dragon": {
 		"size": "M",
@@ -10831,7 +11205,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["Sizz"]
+		"skills": [
+			"Sizz"
+		]
 	},
 	"Evil Metal Slime": {
 		"size": "S",
@@ -10896,7 +11272,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bang"]
+		"skills": [
+			"Bang"
+		]
 	},
 	"Evil Prism Peacock": {
 		"size": "S",
@@ -10956,7 +11334,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Prism Peacock"]
+		"skills": [
+			"Prism Peacock"
+		]
 	},
 	"Evil She-Slime": {
 		"size": "S",
@@ -11009,7 +11389,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Frizz"]
+		"skills": [
+			"Frizz"
+		]
 	},
 	"Evil Skelegon": {
 		"size": "S",
@@ -11070,7 +11452,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Crack"]
+		"skills": [
+			"Crack"
+		]
 	},
 	"Evil Slime": {
 		"size": "S",
@@ -11121,7 +11505,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Break"]
+		"skills": [
+			"Break"
+		]
 	},
 	"Evil Sorcerer": {
 		"size": "S",
@@ -11175,7 +11561,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Healer"]
+		"skills": [
+			"Healer"
+		]
 	},
 	"Evil Spike Head": {
 		"size": "S",
@@ -11222,7 +11610,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bang"]
+		"skills": [
+			"Bang"
+		]
 	},
 	"Evil Tentacular": {
 		"size": "M",
@@ -11279,7 +11669,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fizz"]
+		"skills": [
+			"Fizz"
+		]
 	},
 	"Evil Terrorhawk": {
 		"size": "S",
@@ -11339,7 +11731,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["炎の息吹＋"]
+		"skills": [
+			"炎の息吹＋"
+		]
 	},
 	"Evil Tuskateer": {
 		"size": "M",
@@ -11391,7 +11785,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Crack"]
+		"skills": [
+			"Crack"
+		]
 	},
 	"Evil Volcano Elder": {
 		"size": "M",
@@ -11445,7 +11841,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Healer"]
+		"skills": [
+			"Healer"
+		]
 	},
 	"Evil War-Rus": {
 		"size": "M",
@@ -11497,7 +11895,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Icy Breather"]
+		"skills": [
+			"Icy Breather"
+		]
 	},
 	"Evil Wormonger": {
 		"size": "G",
@@ -11555,7 +11955,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Woosh"]
+		"skills": [
+			"Woosh"
+		]
 	},
 	"Ewwnicorn": {
 		"size": "S",
@@ -11611,7 +12013,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Healer"]
+		"skills": [
+			"Healer"
+		]
 	},
 	"Expload": {
 		"size": "G",
@@ -11666,7 +12070,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Woosh"]
+		"skills": [
+			"Woosh"
+		]
 	},
 	"Eyevory Tusk-Tusk": {
 		"size": "M",
@@ -11736,7 +12142,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Material"]
+		"skills": [
+			"Material"
+		]
 	},
 	"Fandangow": {
 		"size": "S",
@@ -11786,7 +12194,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Paramedic"]
+		"skills": [
+			"Paramedic"
+		]
 	},
 	"Fightgeist": {
 		"size": "S",
@@ -11845,7 +12255,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Mage Aid"]
+		"skills": [
+			"Mage Aid"
+		]
 	},
 	"Fire Ball": {
 		"size": "S",
@@ -11904,7 +12316,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Frizz"]
+		"skills": [
+			"Frizz"
+		]
 	},
 	"Firebird": {
 		"size": "S",
@@ -11958,7 +12372,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Frizz"]
+		"skills": [
+			"Frizz"
+		]
 	},
 	"FishRider": {
 		"size": "S",
@@ -12014,7 +12430,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["みずげい"]
+		"skills": [
+			"みずげい"
+		]
 	},
 	"Fluffy": {
 		"size": "S",
@@ -12073,7 +12491,9 @@
 				"name": "おうえん"
 			}
 		],
-		"skills": ["Comet Spirit"]
+		"skills": [
+			"Comet Spirit"
+		]
 	},
 	"Fluffy Fur": {
 		"size": "S",
@@ -12129,7 +12549,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bang+"]
+		"skills": [
+			"Bang+"
+		]
 	},
 	"Flying Corpse": {
 		"size": "S",
@@ -12187,7 +12609,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fear-monger"]
+		"skills": [
+			"Fear-monger"
+		]
 	},
 	"Forest Guardian": {
 		"size": "M",
@@ -12246,7 +12670,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Jungle Guardian"]
+		"skills": [
+			"Forest Guardian"
+		]
 	},
 	"Fowleye": {
 		"size": "S",
@@ -12278,7 +12704,9 @@
 			"curse": 25,
 			"whack": 100
 		},
-		"skills": ["Fowleye"]
+		"skills": [
+			"Fowleye"
+		]
 	},
 	"Fractos": {
 		"size": "G",
@@ -12326,7 +12754,9 @@
 				"name": "呪い攻撃"
 			}
 		],
-		"skills": ["真・魔王ザラーム"]
+		"skills": [
+			"真・魔王ザラーム"
+		]
 	},
 	"Freezing Fog": {
 		"size": "S",
@@ -12382,7 +12812,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Icy Breather"]
+		"skills": [
+			"Icy Breather"
+		]
 	},
 	"Freisha": {
 		"size": "S",
@@ -12409,7 +12841,9 @@
 			"confusion": 50,
 			"whack": 50
 		},
-		"skills": ["Queen Freshia"]
+		"skills": [
+			"Queen Freshia"
+		]
 	},
 	"Frightbait": {
 		"size": "S",
@@ -12470,7 +12904,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fear-monger"]
+		"skills": [
+			"Fear-monger"
+		]
 	},
 	"Frightening Conductor": {
 		"size": "S",
@@ -12523,7 +12959,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Devil"]
+		"skills": [
+			"Devil"
+		]
 	},
 	"Frizzard": {
 		"size": "S",
@@ -12578,7 +13016,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Frizz"]
+		"skills": [
+			"Frizz"
+		]
 	},
 	"Fromage Fray": {
 		"size": "S",
@@ -12632,7 +13072,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bang"]
+		"skills": [
+			"Bang"
+		]
 	},
 	"Fromage Grey": {
 		"size": "S",
@@ -12686,7 +13128,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Poison"]
+		"skills": [
+			"Poison"
+		]
 	},
 	"Frostburn": {
 		"size": "S",
@@ -12746,7 +13190,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Crack"]
+		"skills": [
+			"Crack"
+		]
 	},
 	"Funghoul": {
 		"size": "S",
@@ -12804,7 +13250,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Funghoul"]
+		"skills": [
+			"Funghoul"
+		]
 	},
 	"Gaia Dragon": {
 		"size": "M",
@@ -12860,7 +13308,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Woosh"]
+		"skills": [
+			"Woosh"
+		]
 	},
 	"Gaogaya": {
 		"size": "S",
@@ -12887,7 +13337,9 @@
 			"curse": 50,
 			"whack": -25
 		},
-		"skills": ["義帝ガオガイヤ"]
+		"skills": [
+			"義帝ガオガイヤ"
+		]
 	},
 	"Gargoyle": {
 		"size": "S",
@@ -12943,7 +13395,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Woosh"]
+		"skills": [
+			"Woosh"
+		]
 	},
 	"Garuda": {
 		"size": "S",
@@ -13000,7 +13454,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Cure-all"]
+		"skills": [
+			"Cure-all"
+		]
 	},
 	"Gejura": {
 		"size": "M",
@@ -13054,7 +13510,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["妖魔将ゲジュラ"]
+		"skills": [
+			"妖魔将ゲジュラ"
+		]
 	},
 	"Gelbatross": {
 		"size": "S",
@@ -13112,7 +13570,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zam+"]
+		"skills": [
+			"Zam+"
+		]
 	},
 	"Gem Jamboree": {
 		"size": "S",
@@ -13181,7 +13641,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["スラフォース＋"]
+		"skills": [
+			"スラフォース＋"
+		]
 	},
 	"Gem Slime": {
 		"size": "M",
@@ -13250,7 +13712,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bang+"]
+		"skills": [
+			"Bang+"
+		]
 	},
 	"Genie Sanguini": {
 		"size": "S",
@@ -13307,7 +13771,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["スモールパワー"]
+		"skills": [
+			"スモールパワー"
+		]
 	},
 	"Genosidoh": {
 		"size": "SG",
@@ -13368,7 +13834,9 @@
 				"name": "即死攻撃"
 			}
 		],
-		"skills": ["Geno Malroth"]
+		"skills": [
+			"Geno Malroth"
+		]
 	},
 	"Ghost": {
 		"size": "S",
@@ -13427,7 +13895,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Ghost"]
+		"skills": [
+			"Ghost"
+		]
 	},
 	"Ghoul": {
 		"size": "S",
@@ -13480,7 +13950,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Putrid Breath"]
+		"skills": [
+			"Putrid Breath"
+		]
 	},
 	"Giant Moth": {
 		"size": "S",
@@ -13534,7 +14006,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Toxifier"]
+		"skills": [
+			"Toxifier"
+		]
 	},
 	"Giga Clubber": {
 		"size": "G",
@@ -13591,7 +14065,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["デビルフォース＋"]
+		"skills": [
+			"デビルフォース＋"
+		]
 	},
 	"Gigantes": {
 		"size": "M",
@@ -13650,7 +14126,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Gigantes"]
+		"skills": [
+			"Gigantes"
+		]
 	},
 	"Girguish": {
 		"size": "M",
@@ -13710,7 +14188,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Gillgush"]
+		"skills": [
+			"Gillgush"
+		]
 	},
 	"Glacial Golem": {
 		"size": "S",
@@ -13768,7 +14248,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["Crack+"]
+		"skills": [
+			"Crack+"
+		]
 	},
 	"Gladiator Troll": {
 		"size": "M",
@@ -13823,7 +14305,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["デビルフォース＋"]
+		"skills": [
+			"デビルフォース＋"
+		]
 	},
 	"Godsteed": {
 		"size": "S",
@@ -13880,7 +14364,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["神々の力"]
+		"skills": [
+			"神々の力"
+		]
 	},
 	"Gold Angel Slime": {
 		"size": "S",
@@ -13949,7 +14435,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Cure-all"]
+		"skills": [
+			"Cure-all"
+		]
 	},
 	"Gold Golem": {
 		"size": "S",
@@ -14007,7 +14495,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fortifier"]
+		"skills": [
+			"Fortifier"
+		]
 	},
 	"Gold Nochoro Z": {
 		"size": "G",
@@ -14075,7 +14565,10 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Wonderous", "Nochora Alloy"]
+		"skills": [
+			"Wonderous",
+			"Nochora Alloy"
+		]
 	},
 	"Gold Slime": {
 		"size": "S",
@@ -14144,7 +14637,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Slime"]
+		"skills": [
+			"Slime"
+		]
 	},
 	"Golden Camothrust": {
 		"size": "S",
@@ -14230,7 +14725,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ワイルドフォース＋"]
+		"skills": [
+			"ワイルドフォース＋"
+		]
 	},
 	"Golden Marine": {
 		"size": "M",
@@ -14361,7 +14858,9 @@
 				"name": "タフガイ"
 			}
 		],
-		"skills": ["Material"]
+		"skills": [
+			"Material"
+		]
 	},
 	"Gomechan": {
 		"size": "S",
@@ -14422,7 +14921,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Gome-chan"]
+		"skills": [
+			"Gomechan"
+		]
 	},
 	"Goregonzolla": {
 		"size": "S",
@@ -14476,7 +14977,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Curse"]
+		"skills": [
+			"Curse"
+		]
 	},
 	"Gourmet King Boshock": {
 		"size": "M",
@@ -14526,7 +15029,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["Boshock"]
+		"skills": [
+			"Boshock"
+		]
 	},
 	"Gracolyte": {
 		"size": "S",
@@ -14582,7 +15087,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fizz"]
+		"skills": [
+			"Fizz"
+		]
 	},
 	"Gracos": {
 		"size": "S",
@@ -14638,7 +15145,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Feral"]
+		"skills": [
+			"Feral"
+		]
 	},
 	"Gran Estark": {
 		"size": "SG",
@@ -14698,7 +15207,9 @@
 				"name": "武神"
 			}
 		],
-		"skills": ["Grand Estark"]
+		"skills": [
+			"Gran Estark"
+		]
 	},
 	"Grand Dragon": {
 		"size": "G",
@@ -14741,7 +15252,9 @@
 			"curse": 50,
 			"whack": 100
 		},
-		"skills": ["Marquis De Leon"]
+		"skills": [
+			"Marquis De Leon"
+		]
 	},
 	"Great Dragon": {
 		"size": "M",
@@ -14797,7 +15310,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Icy Breather"]
+		"skills": [
+			"Icy Breather"
+		]
 	},
 	"Great Keeper": {
 		"size": "S",
@@ -14879,7 +15394,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Beast"]
+		"skills": [
+			"Beast"
+		]
 	},
 	"Great Sabrecub": {
 		"size": "S",
@@ -14936,7 +15453,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["スモールパワー"]
+		"skills": [
+			"スモールパワー"
+		]
 	},
 	"Green Dragon": {
 		"size": "G",
@@ -14992,7 +15511,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Dragon"]
+		"skills": [
+			"Dragon"
+		]
 	},
 	"Green Glow": {
 		"size": "S",
@@ -15049,7 +15570,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["雷雲の力"]
+		"skills": [
+			"雷雲の力"
+		]
 	},
 	"Green Scissors": {
 		"size": "S",
@@ -15108,7 +15631,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Feral"]
+		"skills": [
+			"Feral"
+		]
 	},
 	"Gremlin": {
 		"size": "S",
@@ -15164,7 +15689,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["深淵の力"]
+		"skills": [
+			"深淵の力"
+		]
 	},
 	"Greygnarl": {
 		"size": "M",
@@ -15195,7 +15722,9 @@
 			"curse": 50,
 			"whack": 100
 		},
-		"skills": ["Greygnarl"]
+		"skills": [
+			"Greygnarl"
+		]
 	},
 	"Grimlin": {
 		"size": "S",
@@ -15251,7 +15780,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zam"]
+		"skills": [
+			"Zam"
+		]
 	},
 	"Grinade": {
 		"size": "S",
@@ -15307,7 +15838,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ダイナマイト"]
+		"skills": [
+			"ダイナマイト"
+		]
 	},
 	"Gripevine": {
 		"size": "M",
@@ -15390,7 +15923,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Scum Bubble"]
+		"skills": [
+			"Scum Bubble"
+		]
 	},
 	"Grudgerigar": {
 		"size": "S",
@@ -15446,7 +15981,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Quake"]
+		"skills": [
+			"Quake"
+		]
 	},
 	"Gryphon": {
 		"size": "S",
@@ -15504,7 +16041,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Woosh+"]
+		"skills": [
+			"Woosh+"
+		]
 	},
 	"Guaardvark": {
 		"size": "S",
@@ -15560,7 +16099,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["黒い霧マスター"]
+		"skills": [
+			"黒い霧マスター"
+		]
 	},
 	"Guardian Of The Dark Tree": {
 		"size": "M",
@@ -15619,7 +16160,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Darkwood Spirit"]
+		"skills": [
+			"Guardian Of The Dark Tree"
+		]
 	},
 	"Gullray Beast": {
 		"size": "M",
@@ -15676,7 +16219,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Phantom Galray"]
+		"skills": [
+			"Phantom Galray"
+		]
 	},
 	"Haardvark": {
 		"size": "S",
@@ -15734,7 +16279,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Poison"]
+		"skills": [
+			"Poison"
+		]
 	},
 	"Hacksaurus": {
 		"size": "M",
@@ -15789,7 +16336,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Hacksaurus"]
+		"skills": [
+			"Hacksaurus"
+		]
 	},
 	"Hades Condor": {
 		"size": "S",
@@ -15845,7 +16394,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Cure-all"]
+		"skills": [
+			"Cure-all"
+		]
 	},
 	"Halberdsaurus": {
 		"size": "M",
@@ -15901,7 +16452,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Hacksaurus"]
+		"skills": [
+			"Hacksaurus"
+		]
 	},
 	"Ham Shamwitch": {
 		"size": "S",
@@ -15958,7 +16511,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fire Breather"]
+		"skills": [
+			"Fire Breather"
+		]
 	},
 	"Hammerhood": {
 		"size": "S",
@@ -16018,7 +16573,9 @@
 				"name": "ムラっ気"
 			}
 		],
-		"skills": ["Beast"]
+		"skills": [
+			"Beast"
+		]
 	},
 	"Handsome Crab": {
 		"size": "S",
@@ -16076,7 +16633,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fizz+"]
+		"skills": [
+			"Fizz+"
+		]
 	},
 	"Hargon": {
 		"size": "S",
@@ -16089,7 +16648,9 @@
 			"wisdom": 1060
 		},
 		"resistances": {},
-		"skills": ["Hargon"]
+		"skills": [
+			"Hargon"
+		]
 	},
 	"Harmachis": {
 		"size": "G",
@@ -16144,7 +16705,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Frizz"]
+		"skills": [
+			"Frizz"
+		]
 	},
 	"Hat Hamwitch": {
 		"size": "S",
@@ -16196,7 +16759,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Gravity"]
+		"skills": [
+			"Gravity"
+		]
 	},
 	"Hawk Man": {
 		"size": "S",
@@ -16252,7 +16817,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zam"]
+		"skills": [
+			"Zam"
+		]
 	},
 	"Hawkhart": {
 		"size": "S",
@@ -16278,7 +16845,9 @@
 			"curse": 50,
 			"whack": 50
 		},
-		"skills": ["Hawkhart Ace"]
+		"skills": [
+			"Hawkhart Ace"
+		]
 	},
 	"Hawkhart Ace": {
 		"size": "S",
@@ -16342,7 +16911,9 @@
 				"name": "Close Scraper"
 			}
 		],
-		"skills": ["Hawkhart Ace"]
+		"skills": [
+			"Hawkhart Ace"
+		]
 	},
 	"Healium Balloon": {
 		"size": "S",
@@ -16399,7 +16970,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Crack"]
+		"skills": [
+			"Crack"
+		]
 	},
 	"Healslime": {
 		"size": "S",
@@ -16455,7 +17028,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Healer"]
+		"skills": [
+			"Healer"
+		]
 	},
 	"Heligator": {
 		"size": "M",
@@ -16513,7 +17088,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["メガパワー"]
+		"skills": [
+			"メガパワー"
+		]
 	},
 	"Hell Conductor": {
 		"size": "S",
@@ -16570,7 +17147,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zam"]
+		"skills": [
+			"Zam"
+		]
 	},
 	"Hell Gladiator": {
 		"size": "S",
@@ -16655,7 +17234,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fire Breather"]
+		"skills": [
+			"Fire Breather"
+		]
 	},
 	"Hellbound Hair-Raiser": {
 		"size": "S",
@@ -16711,7 +17292,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["雷雲の力"]
+		"skills": [
+			"雷雲の力"
+		]
 	},
 	"Hellbound Horror": {
 		"size": "S",
@@ -16763,7 +17346,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["Whacker"]
+		"skills": [
+			"Whacker"
+		]
 	},
 	"Hellbound Hunter": {
 		"size": "S",
@@ -16819,7 +17404,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Nightmare"]
+		"skills": [
+			"Nightmare"
+		]
 	},
 	"Hellsguard Veera": {
 		"size": "S",
@@ -16893,7 +17480,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ヒヒュドラード"]
+		"skills": [
+			"ヒヒュドラード"
+		]
 	},
 	"Hiptile": {
 		"size": "S",
@@ -16948,7 +17537,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Putrid Breath"]
+		"skills": [
+			"Putrid Breath"
+		]
 	},
 	"Hoakari": {
 		"size": "SG",
@@ -17007,7 +17598,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["超ギガパワー"]
+		"skills": [
+			"超ギガパワー"
+		]
 	},
 	"Hocus Chimaera": {
 		"size": "S",
@@ -17065,7 +17658,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Sizz"]
+		"skills": [
+			"Sizz"
+		]
 	},
 	"Hotbog": {
 		"size": "S",
@@ -17118,7 +17713,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["Curse"]
+		"skills": [
+			"Curse"
+		]
 	},
 	"Hunter Mech": {
 		"size": "S",
@@ -17170,7 +17767,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Hunter Mech"]
+		"skills": [
+			"Hunter Mech"
+		]
 	},
 	"Hybird": {
 		"size": "S",
@@ -17227,7 +17826,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Incandescent Breath"]
+		"skills": [
+			"Incandescent Breath"
+		]
 	},
 	"Ice Bomber": {
 		"size": "S",
@@ -17278,7 +17879,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Crack"]
+		"skills": [
+			"Crack"
+		]
 	},
 	"Imp": {
 		"size": "S",
@@ -17371,7 +17974,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["ねむりの力"]
+		"skills": [
+			"ねむりの力"
+		]
 	},
 	"Infernal Armour": {
 		"size": "S",
@@ -17429,7 +18034,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Restless Armour"]
+		"skills": [
+			"Restless Armour"
+		]
 	},
 	"Injury Vortex": {
 		"size": "M",
@@ -17484,7 +18091,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Dirty Bubble"]
+		"skills": [
+			"Dirty Bubble"
+		]
 	},
 	"Ironclad Wartoise": {
 		"size": "S",
@@ -17539,7 +18148,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Dragon"]
+		"skills": [
+			"Dragon"
+		]
 	},
 	"Jailcat": {
 		"size": "S",
@@ -17595,7 +18206,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Crack"]
+		"skills": [
+			"Crack"
+		]
 	},
 	"Jamirus": {
 		"size": "S",
@@ -17653,7 +18266,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Frizz+"]
+		"skills": [
+			"Frizz+"
+		]
 	},
 	"Jargon": {
 		"size": "M",
@@ -17705,7 +18320,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["Fire Breather"]
+		"skills": [
+			"Fire Breather"
+		]
 	},
 	"Jormungandros": {
 		"size": "SG",
@@ -17771,7 +18388,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ダグジャガルマ"]
+		"skills": [
+			"ダグジャガルマ"
+		]
 	},
 	"Kaleidocat": {
 		"size": "S",
@@ -17825,7 +18444,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Frizz+"]
+		"skills": [
+			"Frizz+"
+		]
 	},
 	"Khalamari Kid": {
 		"size": "S",
@@ -17881,7 +18502,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Feral"]
+		"skills": [
+			"Feral"
+		]
 	},
 	"Killer Moth": {
 		"size": "S",
@@ -17935,7 +18558,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Toxifier"]
+		"skills": [
+			"Toxifier"
+		]
 	},
 	"Killer Wave": {
 		"size": "S",
@@ -18014,7 +18639,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Killing Machine"]
+		"skills": [
+			"Killing Machine"
+		]
 	},
 	"Killing Machine Lite": {
 		"size": "S",
@@ -18066,7 +18693,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Killing Machine"]
+		"skills": [
+			"Killing Machine"
+		]
 	},
 	"Killvearn": {
 		"size": "M",
@@ -18130,7 +18759,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Kill-Vearn"]
+		"skills": [
+			"Killvearn"
+		]
 	},
 	"King Crab": {
 		"size": "S",
@@ -18188,7 +18819,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fizz+"]
+		"skills": [
+			"Fizz+"
+		]
 	},
 	"King Cureslime": {
 		"size": "S",
@@ -18244,7 +18877,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Cure-all"]
+		"skills": [
+			"Cure-all"
+		]
 	},
 	"King Healslime": {
 		"size": "G",
@@ -18302,7 +18937,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Cure-all"]
+		"skills": [
+			"Cure-all"
+		]
 	},
 	"King Hydra": {
 		"size": "G",
@@ -18387,7 +19024,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Disasterking"]
+		"skills": [
+			"Disasterking"
+		]
 	},
 	"King Sanguini": {
 		"size": "M",
@@ -18458,7 +19097,9 @@
 				"name": "合体上手"
 			}
 		],
-		"skills": ["スラフォース＋"]
+		"skills": [
+			"スラフォース＋"
+		]
 	},
 	"King Squid": {
 		"size": "M",
@@ -18509,7 +19150,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Paramedic"]
+		"skills": [
+			"Paramedic"
+		]
 	},
 	"Kotobukino": {
 		"size": "S",
@@ -18567,7 +19210,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Healer"]
+		"skills": [
+			"Healer"
+		]
 	},
 	"Kukri": {
 		"size": "S",
@@ -18631,7 +19276,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Kabalna the Divine"]
+		"skills": [
+			"Kabalna the Divine"
+		]
 	},
 	"Lantern Soldier": {
 		"size": "S",
@@ -18691,7 +19338,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Quake"]
+		"skills": [
+			"Quake"
+		]
 	},
 	"Leaf Spirit": {
 		"size": "M",
@@ -18750,7 +19399,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Leaf Spirit"]
+		"skills": [
+			"Leaf Spirit"
+		]
 	},
 	"Leon Bubro": {
 		"size": "G",
@@ -18808,7 +19459,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ギガパワー"]
+		"skills": [
+			"ギガパワー"
+		]
 	},
 	"Leonyx": {
 		"size": "G",
@@ -18872,7 +19525,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Leonyx"]
+		"skills": [
+			"Leonyx"
+		]
 	},
 	"Lethal Armour": {
 		"size": "S",
@@ -18926,7 +19581,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Restless Armour"]
+		"skills": [
+			"Restless Armour"
+		]
 	},
 	"Li'l Whizzer": {
 		"size": "S",
@@ -18979,7 +19636,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Crack+"]
+		"skills": [
+			"Crack+"
+		]
 	},
 	"Liege Lizard": {
 		"size": "M",
@@ -19035,7 +19694,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fire Breather"]
+		"skills": [
+			"Fire Breather"
+		]
 	},
 	"Lightmare": {
 		"size": "S",
@@ -19091,7 +19752,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Healer"]
+		"skills": [
+			"Healer"
+		]
 	},
 	"Lil' Tyke": {
 		"size": "S",
@@ -19182,7 +19845,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bang"]
+		"skills": [
+			"Bang"
+		]
 	},
 	"Liquid Metal Slime King": {
 		"size": "G",
@@ -19298,7 +19963,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Dragon"]
+		"skills": [
+			"Dragon"
+		]
 	},
 	"Living Statue": {
 		"size": "S",
@@ -19364,7 +20031,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["Putrid Breath"]
+		"skills": [
+			"Putrid Breath"
+		]
 	},
 	"Lord Of The Dragovians": {
 		"size": "M",
@@ -19425,7 +20094,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Dragovian Lord"]
+		"skills": [
+			"Lord Of The Dragovians"
+		]
 	},
 	"LordDraco": {
 		"size": "SG",
@@ -19483,7 +20154,9 @@
 				"name": "ギャンブルカウンター"
 			}
 		],
-		"skills": ["Dark Dragonlord"]
+		"skills": [
+			"Dark Dragonlord"
+		]
 	},
 	"Loss Leader": {
 		"size": "S",
@@ -19568,7 +20241,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["巨大モンスターつぶし"]
+		"skills": [
+			"巨大モンスターつぶし"
+		]
 	},
 	"Lumberin' Jack": {
 		"size": "S",
@@ -19621,7 +20296,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Putrid Breath"]
+		"skills": [
+			"Putrid Breath"
+		]
 	},
 	"Lumbering Lizard": {
 		"size": "M",
@@ -19673,7 +20350,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Quake"]
+		"skills": [
+			"Quake"
+		]
 	},
 	"Lump Mage": {
 		"size": "S",
@@ -19726,7 +20405,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fuddle"]
+		"skills": [
+			"Fuddle"
+		]
 	},
 	"Lump Shaman": {
 		"size": "S",
@@ -19783,7 +20464,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fuddle"]
+		"skills": [
+			"Fuddle"
+		]
 	},
 	"Lump Wizard": {
 		"size": "S",
@@ -19840,7 +20523,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Healer"]
+		"skills": [
+			"Healer"
+		]
 	},
 	"Lunar Chimaera": {
 		"size": "S",
@@ -19898,7 +20583,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zap"]
+		"skills": [
+			"Zap"
+		]
 	},
 	"Lunatick Board": {
 		"size": "S",
@@ -19959,7 +20646,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Wonderous"]
+		"skills": [
+			"Wonderous"
+		]
 	},
 	"Mad Mallard": {
 		"size": "S",
@@ -20017,7 +20706,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["白い霧マスター"]
+		"skills": [
+			"白い霧マスター"
+		]
 	},
 	"Mad Mole": {
 		"size": "S",
@@ -20072,7 +20763,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["こうじちゅう"]
+		"skills": [
+			"こうじちゅう"
+		]
 	},
 	"Magma Madness": {
 		"size": "M",
@@ -20127,7 +20820,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["休みの力"]
+		"skills": [
+			"休みの力"
+		]
 	},
 	"Malroth": {
 		"size": "M",
@@ -20192,7 +20887,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Malroth"]
+		"skills": [
+			"Malroth"
+		]
 	},
 	"Man O' War": {
 		"size": "S",
@@ -20245,7 +20942,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Paralysis"]
+		"skills": [
+			"Paralysis"
+		]
 	},
 	"Management Terminal Q484": {
 		"size": "M",
@@ -20311,7 +21010,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["Feral"]
+		"skills": [
+			"Feral"
+		]
 	},
 	"Mandrake Major": {
 		"size": "S",
@@ -20367,7 +21068,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["リザードマン"]
+		"skills": [
+			"リザードマン"
+		]
 	},
 	"Mandrake Marauder": {
 		"size": "S",
@@ -20423,7 +21126,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Woosh"]
+		"skills": [
+			"Woosh"
+		]
 	},
 	"Mandrake Monarch": {
 		"size": "S",
@@ -20479,7 +21184,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ノーマルパワー"]
+		"skills": [
+			"ノーマルパワー"
+		]
 	},
 	"Mangler Fish": {
 		"size": "S",
@@ -20531,7 +21238,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Paralysis"]
+		"skills": [
+			"Paralysis"
+		]
 	},
 	"Maniacal Mole": {
 		"size": "S",
@@ -20586,7 +21295,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["こうじちゅう"]
+		"skills": [
+			"こうじちゅう"
+		]
 	},
 	"Mars Face": {
 		"size": "G",
@@ -20640,7 +21351,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["火山の力"]
+		"skills": [
+			"火山の力"
+		]
 	},
 	"Masqueraider": {
 		"size": "S",
@@ -20698,7 +21411,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Crack+"]
+		"skills": [
+			"Crack+"
+		]
 	},
 	"Master Moosifer": {
 		"size": "S",
@@ -20771,7 +21486,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Crack"]
+		"skills": [
+			"Crack"
+		]
 	},
 	"Mecha Nochoro Z": {
 		"size": "G",
@@ -20838,7 +21555,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Wonderous"]
+		"skills": [
+			"Wonderous"
+		]
 	},
 	"Mecha-Mynah": {
 		"size": "S",
@@ -20889,7 +21608,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["Woosh"]
+		"skills": [
+			"Woosh"
+		]
 	},
 	"Mechan-O'-Wyrm": {
 		"size": "M",
@@ -20937,7 +21658,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fire Breather"]
+		"skills": [
+			"Fire Breather"
+		]
 	},
 	"Metal Angel Slime": {
 		"size": "S",
@@ -21006,7 +21729,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Mage Aid"]
+		"skills": [
+			"Mage Aid"
+		]
 	},
 	"Metal Dragon": {
 		"size": "M",
@@ -21054,7 +21779,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["Fortifier"]
+		"skills": [
+			"Fortifier"
+		]
 	},
 	"Metal Dragon Slime": {
 		"size": "S",
@@ -21123,7 +21850,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Incandescent Breath"]
+		"skills": [
+			"Incandescent Breath"
+		]
 	},
 	"Metal Goddess": {
 		"size": "SG",
@@ -21192,7 +21921,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["スラフォース＋"]
+		"skills": [
+			"スラフォース＋"
+		]
 	},
 	"Metal Healie": {
 		"size": "S",
@@ -21261,7 +21992,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Healer"]
+		"skills": [
+			"Healer"
+		]
 	},
 	"Metal King Slime": {
 		"size": "S",
@@ -21330,7 +22063,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bang+"]
+		"skills": [
+			"Bang+"
+		]
 	},
 	"Metal Medley": {
 		"size": "S",
@@ -21399,7 +22134,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bang"]
+		"skills": [
+			"Bang"
+		]
 	},
 	"Metal Slime": {
 		"size": "S",
@@ -21464,7 +22201,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bang"]
+		"skills": [
+			"Bang"
+		]
 	},
 	"Metal Slime Knight": {
 		"size": "S",
@@ -21533,7 +22272,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ゆうき"]
+		"skills": [
+			"ゆうき"
+		]
 	},
 	"Metal Truffle Slime": {
 		"size": "S",
@@ -21602,7 +22343,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bang"]
+		"skills": [
+			"Bang"
+		]
 	},
 	"Mimic": {
 		"size": "S",
@@ -21656,7 +22399,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Mimic"]
+		"skills": [
+			"Mimic"
+		]
 	},
 	"Minidemon": {
 		"size": "S",
@@ -21737,7 +22482,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Holy Dragon Miraclea"]
+		"skills": [
+			"Holy Dragon Miraclea"
+		]
 	},
 	"Mischievous Mole": {
 		"size": "S",
@@ -21793,7 +22540,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["こうじちゅう"]
+		"skills": [
+			"こうじちゅう"
+		]
 	},
 	"Mitey Oak": {
 		"size": "S",
@@ -21849,7 +22598,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["スモールパワー"]
+		"skills": [
+			"スモールパワー"
+		]
 	},
 	"Moonlight General": {
 		"size": "S",
@@ -21908,7 +22659,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["月夜の将"]
+		"skills": [
+			"月夜の将"
+		]
 	},
 	"Moosifer": {
 		"size": "S",
@@ -21992,7 +22745,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Funghoul"]
+		"skills": [
+			"Funghoul"
+		]
 	},
 	"Mortamor": {
 		"size": "M",
@@ -22053,7 +22808,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Mortamor"]
+		"skills": [
+			"Mortamor"
+		]
 	},
 	"Mortoad": {
 		"size": "G",
@@ -22108,7 +22865,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bang"]
+		"skills": [
+			"Bang"
+		]
 	},
 	"Mosquito Gnat": {
 		"size": "S",
@@ -22166,7 +22925,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Feral"]
+		"skills": [
+			"Feral"
+		]
 	},
 	"Mother Ocker": {
 		"size": "S",
@@ -22222,7 +22983,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["みずげい"]
+		"skills": [
+			"みずげい"
+		]
 	},
 	"Mouldy Slime": {
 		"size": "S",
@@ -22274,7 +23037,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["休みの力"]
+		"skills": [
+			"休みの力"
+		]
 	},
 	"Muddy Hand": {
 		"size": "S",
@@ -22353,7 +23118,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Poison"]
+		"skills": [
+			"Poison"
+		]
 	},
 	"Munchie": {
 		"size": "S",
@@ -22379,7 +23146,9 @@
 			"rest": -25,
 			"whack": 50
 		},
-		"skills": ["Munchie"]
+		"skills": [
+			"Munchie"
+		]
 	},
 	"Murdaw": {
 		"size": "S",
@@ -22408,7 +23177,9 @@
 			"poison": 25,
 			"whack": 100
 		},
-		"skills": ["Murdaw"]
+		"skills": [
+			"Murdaw"
+		]
 	},
 	"Mushroom Mage": {
 		"size": "S",
@@ -22462,7 +23233,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["Funghoul"]
+		"skills": [
+			"Funghoul"
+		]
 	},
 	"Mystical Juliante": {
 		"size": "S",
@@ -22523,7 +23296,9 @@
 				"name": "スーパースター"
 			}
 		],
-		"skills": ["Mystical Juliante"]
+		"skills": [
+			"Mystical Juliante"
+		]
 	},
 	"Mystvearn": {
 		"size": "M",
@@ -22585,7 +23360,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Myst-Vearn"]
+		"skills": [
+			"Mystvearn"
+		]
 	},
 	"Mythsteed": {
 		"size": "S",
@@ -22641,7 +23418,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zap"]
+		"skills": [
+			"Zap"
+		]
 	},
 	"Nameless King Of Darkness": {
 		"size": "SG",
@@ -22700,7 +23479,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["He Who Bears No Name"]
+		"skills": [
+			"He Who Bears No Name"
+		]
 	},
 	"Napir": {
 		"size": "S",
@@ -22753,7 +23534,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["ねむりの力"]
+		"skills": [
+			"ねむりの力"
+		]
 	},
 	"Naumannborg": {
 		"size": "M",
@@ -22809,7 +23592,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Woosh"]
+		"skills": [
+			"Woosh"
+		]
 	},
 	"Necromancer": {
 		"size": "S",
@@ -22875,7 +23660,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fortifier"]
+		"skills": [
+			"Fortifier"
+		]
 	},
 	"Nelgel The Netherfiend": {
 		"size": "G",
@@ -22934,7 +23721,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Hades Nelgel"]
+		"skills": [
+			"Hades Nelgel"
+		]
 	},
 	"Night Clubber": {
 		"size": "G",
@@ -22991,7 +23780,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ギガパワー"]
+		"skills": [
+			"ギガパワー"
+		]
 	},
 	"Nightmare": {
 		"size": "S",
@@ -23044,7 +23835,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ねむりの力"]
+		"skills": [
+			"ねむりの力"
+		]
 	},
 	"Nimzo": {
 		"size": "M",
@@ -23106,7 +23899,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Nimzo"]
+		"skills": [
+			"Nimzo"
+		]
 	},
 	"Noble Dragon": {
 		"size": "M",
@@ -23162,7 +23957,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Incandescent Breath"]
+		"skills": [
+			"Incandescent Breath"
+		]
 	},
 	"Nokturnus": {
 		"size": "S",
@@ -23226,7 +24023,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Healer"]
+		"skills": [
+			"Healer"
+		]
 	},
 	"Orc Chieftain": {
 		"size": "S",
@@ -23278,7 +24077,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["ノーマルパワー"]
+		"skills": [
+			"ノーマルパワー"
+		]
 	},
 	"Orc King": {
 		"size": "S",
@@ -23330,7 +24131,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["Healer"]
+		"skills": [
+			"Healer"
+		]
 	},
 	"Oren Wraithblade": {
 		"size": "S",
@@ -23389,7 +24192,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Oren Wraithblade"]
+		"skills": [
+			"Oren Wraithblade"
+		]
 	},
 	"Orgodemir": {
 		"size": "M",
@@ -23451,7 +24256,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Orgodemir"]
+		"skills": [
+			"Orgodemir"
+		]
 	},
 	"Ori Column": {
 		"size": "S",
@@ -23506,7 +24313,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["マテリアルフォース＋"]
+		"skills": [
+			"マテリアルフォース＋"
+		]
 	},
 	"Ornery Onion": {
 		"size": "S",
@@ -23564,7 +24373,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Feral"]
+		"skills": [
+			"Feral"
+		]
 	},
 	"Orochi": {
 		"size": "G",
@@ -23630,7 +24441,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["マテリアルフォース＋"]
+		"skills": [
+			"マテリアルフォース＋"
+		]
 	},
 	"Pale Whale": {
 		"size": "G",
@@ -23684,7 +24497,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Sizz"]
+		"skills": [
+			"Sizz"
+		]
 	},
 	"Pandora's Box": {
 		"size": "S",
@@ -23742,7 +24557,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Material"]
+		"skills": [
+			"Material"
+		]
 	},
 	"Pandora's Chest": {
 		"size": "S",
@@ -23794,7 +24611,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Whacker"]
+		"skills": [
+			"Whacker"
+		]
 	},
 	"Paralakeet": {
 		"size": "S",
@@ -23851,7 +24670,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zam+"]
+		"skills": [
+			"Zam+"
+		]
 	},
 	"Pazuzu": {
 		"size": "S",
@@ -23909,7 +24730,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Curse"]
+		"skills": [
+			"Curse"
+		]
 	},
 	"Perky Pelican": {
 		"size": "S",
@@ -23968,7 +24791,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["赤い霧マスター"]
+		"skills": [
+			"赤い霧マスター"
+		]
 	},
 	"Phantaseyes": {
 		"size": "M",
@@ -24054,7 +24879,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Illusionist Fazma"]
+		"skills": [
+			"Phantom General Fuzzma"
+		]
 	},
 	"Phantom Horse": {
 		"size": "S",
@@ -24102,7 +24929,9 @@
 				"name": "こうどうはやい"
 			}
 		],
-		"skills": ["Sizz"]
+		"skills": [
+			"Sizz"
+		]
 	},
 	"Phoenix": {
 		"size": "S",
@@ -24159,7 +24988,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Cure-all"]
+		"skills": [
+			"Cure-all"
+		]
 	},
 	"Picuda": {
 		"size": "S",
@@ -24215,7 +25046,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Feral"]
+		"skills": [
+			"Feral"
+		]
 	},
 	"Pigmalion": {
 		"size": "S",
@@ -24267,7 +25100,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Martyr"]
+		"skills": [
+			"Martyr"
+		]
 	},
 	"Pink Sanguini": {
 		"size": "S",
@@ -24324,7 +25159,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["スモールパワー"]
+		"skills": [
+			"スモールパワー"
+		]
 	},
 	"Plated Goretoise": {
 		"size": "S",
@@ -24379,7 +25216,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["Dragon"]
+		"skills": [
+			"Dragon"
+		]
 	},
 	"Platinum King Jewel": {
 		"size": "M",
@@ -24448,7 +25287,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["メガパワー"]
+		"skills": [
+			"メガパワー"
+		]
 	},
 	"Platinum Nochoro Z": {
 		"size": "G",
@@ -24515,7 +25356,10 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Wonderous", "Nochora Engine"]
+		"skills": [
+			"Wonderous",
+			"Nochora Engine"
+		]
 	},
 	"Platypunk": {
 		"size": "S",
@@ -24570,7 +25414,9 @@
 				"name": "ほっかほか"
 			}
 		],
-		"skills": ["スモールパワー"]
+		"skills": [
+			"スモールパワー"
+		]
 	},
 	"Platypunk The Sage": {
 		"size": "S",
@@ -24626,7 +25472,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Quake"]
+		"skills": [
+			"Quake"
+		]
 	},
 	"Poison Trill": {
 		"size": "S",
@@ -24683,7 +25531,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Poison"]
+		"skills": [
+			"Poison"
+		]
 	},
 	"Poseidon": {
 		"size": "G",
@@ -24739,7 +25589,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ギガパワー"]
+		"skills": [
+			"ギガパワー"
+		]
 	},
 	"Powie Yowie": {
 		"size": "S",
@@ -24793,7 +25645,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Icy Breather"]
+		"skills": [
+			"Icy Breather"
+		]
 	},
 	"Prancing Pillar": {
 		"size": "S",
@@ -24840,7 +25694,9 @@
 				"plus": 25
 			}
 		],
-		"skills": ["Material"]
+		"skills": [
+			"Material"
+		]
 	},
 	"Preying Manta": {
 		"size": "M",
@@ -24920,7 +25776,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Healer"]
+		"skills": [
+			"Healer"
+		]
 	},
 	"Prism Peacock": {
 		"size": "S",
@@ -24978,7 +25836,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Prism Peacock"]
+		"skills": [
+			"Prism Peacock"
+		]
 	},
 	"Psaro": {
 		"size": "M",
@@ -25039,7 +25899,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Psaro"]
+		"skills": [
+			"Psaro"
+		]
 	},
 	"Psaro The Manslayer": {
 		"stats": {
@@ -25085,7 +25947,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Psaro"]
+		"skills": [
+			"Psaro"
+		]
 	},
 	"Psycho Master": {
 		"size": "S",
@@ -25135,7 +25999,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["デビルフォース＋"]
+		"skills": [
+			"デビルフォース＋"
+		]
 	},
 	"PsychoPiz": {
 		"size": "SG",
@@ -25188,7 +26054,9 @@
 				"name": "こうどうおそい"
 			}
 		],
-		"skills": ["Psycho Psaro"]
+		"skills": [
+			"PsychoPiz"
+		]
 	},
 	"Pudgedevil": {
 		"size": "S",
@@ -25271,7 +26139,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Feral"]
+		"skills": [
+			"Feral"
+		]
 	},
 	"Pusugon": {
 		"size": "M",
@@ -25330,7 +26200,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Pusugon the Monsterous"]
+		"skills": [
+			"Pusugon the Monstrous"
+		]
 	},
 	"Pusugon Awaken": {
 		"size": "M",
@@ -25389,7 +26261,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Pusugon Awakened"]
+		"skills": [
+			"Pusugon Awaken"
+		]
 	},
 	"Putrefido": {
 		"size": "S",
@@ -25447,7 +26321,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ゾンビフォース"]
+		"skills": [
+			"ゾンビフォース"
+		]
 	},
 	"Quayhorse": {
 		"size": "S",
@@ -25503,7 +26379,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["氷海の力"]
+		"skills": [
+			"氷海の力"
+		]
 	},
 	"Rainbow Fromage": {
 		"size": "S",
@@ -25557,7 +26435,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["青天の霧マスター"]
+		"skills": [
+			"青天の霧マスター"
+		]
 	},
 	"Rainbow Scissor": {
 		"size": "S",
@@ -25616,7 +26496,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zap+"]
+		"skills": [
+			"Zap+"
+		]
 	},
 	"Ramia": {
 		"size": "G",
@@ -25681,7 +26563,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Ramia"]
+		"skills": [
+			"Ramia"
+		]
 	},
 	"Raptile": {
 		"size": "S",
@@ -25737,7 +26621,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Dragon"]
+		"skills": [
+			"Dragon"
+		]
 	},
 	"Red Flying Dragon": {
 		"size": "G",
@@ -25796,7 +26682,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["赤飛竜"]
+		"skills": [
+			"赤飛竜"
+		]
 	},
 	"Red Pudding": {
 		"size": "S",
@@ -25853,7 +26741,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Quake"]
+		"skills": [
+			"Quake"
+		]
 	},
 	"Regimarine": {
 		"size": "M",
@@ -25915,7 +26805,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fizz+"]
+		"skills": [
+			"Fizz+"
+		]
 	},
 	"Regiwing": {
 		"size": "S",
@@ -25977,7 +26869,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Woosh+"]
+		"skills": [
+			"Woosh+"
+		]
 	},
 	"Remote": {
 		"size": "S",
@@ -26033,7 +26927,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["インスパイア"]
+		"skills": [
+			"インスパイア"
+		]
 	},
 	"Restless Armour": {
 		"size": "S",
@@ -26091,7 +26987,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Restless Armour"]
+		"skills": [
+			"Restless Armour"
+		]
 	},
 	"Revaulting Horse": {
 		"size": "S",
@@ -26172,7 +27070,9 @@
 				"name": "みかわしアップ"
 			}
 		],
-		"skills": ["Rhapthorne"]
+		"skills": [
+			"Rhapthorne"
+		]
 	},
 	"Rhapthorne II": {
 		"size": "S",
@@ -26230,7 +27130,9 @@
 				"name": "みかわしアップ"
 			}
 		],
-		"skills": ["Rhapthorne"]
+		"skills": [
+			"Rhapthorne"
+		]
 	},
 	"Rigor Mortex": {
 		"size": "G",
@@ -26261,7 +27163,9 @@
 			"curse": 50,
 			"whack": 100
 		},
-		"skills": ["Rigor Mortex"]
+		"skills": [
+			"Rigor Mortex"
+		]
 	},
 	"Ringjara Demon": {
 		"size": "M",
@@ -26320,7 +27224,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Deep Freezer"]
+		"skills": [
+			"Deep Freezer"
+		]
 	},
 	"Ripped Rabbit": {
 		"size": "S",
@@ -26372,7 +27278,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["インスパイア"]
+		"skills": [
+			"インスパイア"
+		]
 	},
 	"Robber Rabbit": {
 		"size": "S",
@@ -26430,7 +27338,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Beast"]
+		"skills": [
+			"Beast"
+		]
 	},
 	"Robbin' Ladies": {
 		"size": "G",
@@ -26461,7 +27371,9 @@
 			"curse": 50,
 			"whack": 75
 		},
-		"skills": ["Robbin' Hood"]
+		"skills": [
+			"Robbin' Hood"
+		]
 	},
 	"Robo-Robin": {
 		"size": "S",
@@ -26509,7 +27421,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["Woosh"]
+		"skills": [
+			"Woosh"
+		]
 	},
 	"Rockbomb": {
 		"size": "S",
@@ -26561,7 +27475,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ダイナマイト"]
+		"skills": [
+			"ダイナマイト"
+		]
 	},
 	"Rottenweiler": {
 		"size": "S",
@@ -26620,7 +27536,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ゾンビフォース"]
+		"skills": [
+			"ゾンビフォース"
+		]
 	},
 	"Royal Armoire": {
 		"size": "S",
@@ -26672,7 +27590,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Nightmare"]
+		"skills": [
+			"Nightmare"
+		]
 	},
 	"Royal Reptile": {
 		"size": "M",
@@ -26727,7 +27647,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ドラゴフォース＋"]
+		"skills": [
+			"ドラゴフォース＋"
+		]
 	},
 	"Rugius": {
 		"size": "S",
@@ -26769,7 +27691,9 @@
 			"curse": 100,
 			"whack": 100
 		},
-		"skills": ["Ruin"]
+		"skills": [
+			"Ruin"
+		]
 	},
 	"Sacred Silver Haardvark": {
 		"size": "S",
@@ -26838,7 +27762,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["スモールパワー"]
+		"skills": [
+			"スモールパワー"
+		]
 	},
 	"Sagittar": {
 		"size": "G",
@@ -26963,7 +27889,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Woosh"]
+		"skills": [
+			"Woosh"
+		]
 	},
 	"Sand Wave": {
 		"size": "S",
@@ -27047,7 +27975,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Beast"]
+		"skills": [
+			"Beast"
+		]
 	},
 	"Scallop Slime": {
 		"size": "S",
@@ -27102,7 +28032,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fizz"]
+		"skills": [
+			"Fizz"
+		]
 	},
 	"Scaraburrower": {
 		"size": "S",
@@ -27158,7 +28090,9 @@
 			"curse": 100,
 			"whack": 100
 		},
-		"skills": ["Schleiman Tank"]
+		"skills": [
+			"Schleiman Tank"
+		]
 	},
 	"Schwarzchuld": {
 		"size": "S",
@@ -27216,7 +28150,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["マテリアルフォース＋"]
+		"skills": [
+			"マテリアルフォース＋"
+		]
 	},
 	"Scourgette": {
 		"size": "S",
@@ -27298,7 +28234,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Healer"]
+		"skills": [
+			"Healer"
+		]
 	},
 	"Scuttle Slime": {
 		"size": "S",
@@ -27353,7 +28291,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["火山の力"]
+		"skills": [
+			"火山の力"
+		]
 	},
 	"Seaslime": {
 		"size": "S",
@@ -27404,7 +28344,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fizz"]
+		"skills": [
+			"Fizz"
+		]
 	},
 	"See Angel": {
 		"size": "S",
@@ -27567,7 +28509,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Shadroth"]
+		"skills": [
+			"Shadroth"
+		]
 	},
 	"Sham Hamwitch": {
 		"size": "S",
@@ -27623,7 +28567,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Woosh"]
+		"skills": [
+			"Woosh"
+		]
 	},
 	"Sham Hatwitch": {
 		"size": "S",
@@ -27676,7 +28622,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fire Breather"]
+		"skills": [
+			"Fire Breather"
+		]
 	},
 	"She-Slime": {
 		"size": "S",
@@ -27732,7 +28680,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Frizz"]
+		"skills": [
+			"Frizz"
+		]
 	},
 	"Shell Slime": {
 		"size": "S",
@@ -27785,7 +28735,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Enfeebler"]
+		"skills": [
+			"Enfeebler"
+		]
 	},
 	"Shipwrecker": {
 		"size": "S",
@@ -27842,7 +28794,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["Fizz"]
+		"skills": [
+			"Fizz"
+		]
 	},
 	"Silhouette (Alt)": {
 		"size": "S",
@@ -27925,7 +28879,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zam"]
+		"skills": [
+			"Zam"
+		]
 	},
 	"Silverine": {
 		"size": "G",
@@ -27980,7 +28936,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["白い霧マスター"]
+		"skills": [
+			"白い霧マスター"
+		]
 	},
 	"Sizzard": {
 		"size": "S",
@@ -28036,7 +28994,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Crack"]
+		"skills": [
+			"Crack"
+		]
 	},
 	"Skelegon": {
 		"size": "S",
@@ -28097,7 +29057,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["じごく"]
+		"skills": [
+			"じごく"
+		]
 	},
 	"Skeleton": {
 		"size": "S",
@@ -28155,7 +29117,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ゾンビフォース"]
+		"skills": [
+			"ゾンビフォース"
+		]
 	},
 	"Skeleton Soldier": {
 		"size": "S",
@@ -28209,7 +29173,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ノーマルパワー"]
+		"skills": [
+			"ノーマルパワー"
+		]
 	},
 	"Slider Girl": {
 		"size": "M",
@@ -28241,7 +29207,11 @@
 			"curse": -25,
 			"whack": 50
 		},
-		"skills": ["Sliderk", "Jolly Eastern Gal", "Elegant Western Gal"]
+		"skills": [
+			"Sliderk",
+			"Jolly Eastern Gal",
+			"Elegant Western Gal"
+		]
 	},
 	"Slider Kids": {
 		"size": "S",
@@ -28269,7 +29239,9 @@
 				"name": "連携得意"
 			}
 		],
-		"skills": ["Sliderk"]
+		"skills": [
+			"Sliderk"
+		]
 	},
 	"Slime": {
 		"size": "S",
@@ -28325,7 +29297,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Slime"]
+		"skills": [
+			"Slime"
+		]
 	},
 	"Slime Gang": {
 		"size": "G",
@@ -28352,7 +29326,9 @@
 			"curse": 100,
 			"whack": 75
 		},
-		"skills": ["Slime Gang"]
+		"skills": [
+			"Slime Gang"
+		]
 	},
 	"Slime Knight": {
 		"size": "S",
@@ -28408,7 +29384,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Slime Knight"]
+		"skills": [
+			"Slime Knight"
+		]
 	},
 	"Slime Sisters": {
 		"size": "S",
@@ -28464,7 +29442,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Paramedic"]
+		"skills": [
+			"Paramedic"
+		]
 	},
 	"Slime Stack": {
 		"size": "S",
@@ -28520,7 +29500,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zap"]
+		"skills": [
+			"Zap"
+		]
 	},
 	"Slimecicle": {
 		"size": "S",
@@ -28577,7 +29559,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["氷海の力"]
+		"skills": [
+			"氷海の力"
+		]
 	},
 	"Slimeshroom": {
 		"size": "S",
@@ -28629,7 +29613,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fuddle"]
+		"skills": [
+			"Fuddle"
+		]
 	},
 	"Sludgeball": {
 		"size": "M",
@@ -28688,7 +29674,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Large Ghost Mammon"]
+		"skills": [
+			"Large Ghost Mammon"
+		]
 	},
 	"Small Fry": {
 		"size": "S",
@@ -28744,7 +29732,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Dragon"]
+		"skills": [
+			"Dragon"
+		]
 	},
 	"Snaily Tail": {
 		"size": "S",
@@ -28823,7 +29813,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ガルマザード"]
+		"skills": [
+			"ガルマザード"
+		]
 	},
 	"Snooty Slime Knight": {
 		"size": "S",
@@ -28879,7 +29871,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Slime Knight"]
+		"skills": [
+			"Slime Knight"
+		]
 	},
 	"Snowbird": {
 		"size": "S",
@@ -28937,7 +29931,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Icy Breather"]
+		"skills": [
+			"Icy Breather"
+		]
 	},
 	"Snowy Sanguini": {
 		"size": "S",
@@ -28994,7 +29990,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Crack"]
+		"skills": [
+			"Crack"
+		]
 	},
 	"Soft Serve Spook": {
 		"size": "S",
@@ -29047,7 +30045,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Deep Freezer"]
+		"skills": [
+			"Deep Freezer"
+		]
 	},
 	"Solaris": {
 		"size": "G",
@@ -29104,7 +30104,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zam"]
+		"skills": [
+			"Zam"
+		]
 	},
 	"Sooty Sanguini": {
 		"size": "S",
@@ -29161,7 +30163,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zam"]
+		"skills": [
+			"Zam"
+		]
 	},
 	"Spike Head": {
 		"size": "S",
@@ -29211,7 +30215,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Bang"]
+		"skills": [
+			"Bang"
+		]
 	},
 	"Spiked Club": {
 		"size": "S",
@@ -29269,7 +30275,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Beast"]
+		"skills": [
+			"Beast"
+		]
 	},
 	"Spiked Hare": {
 		"size": "S",
@@ -29321,7 +30329,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Beast"]
+		"skills": [
+			"Beast"
+		]
 	},
 	"Spinchilla": {
 		"size": "S",
@@ -29403,7 +30413,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Mage Aid"]
+		"skills": [
+			"Mage Aid"
+		]
 	},
 	"Spitnik": {
 		"size": "G",
@@ -29456,7 +30468,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["神々の力"]
+		"skills": [
+			"神々の力"
+		]
 	},
 	"Splatypunk": {
 		"size": "S",
@@ -29508,7 +30522,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Enfeebler"]
+		"skills": [
+			"Enfeebler"
+		]
 	},
 	"Squid Kid": {
 		"size": "S",
@@ -29564,7 +30580,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Feral"]
+		"skills": [
+			"Feral"
+		]
 	},
 	"Squidzilla": {
 		"size": "M",
@@ -29619,7 +30637,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fizz+"]
+		"skills": [
+			"Fizz+"
+		]
 	},
 	"Stale Whale": {
 		"size": "G",
@@ -29673,7 +30693,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ワイルドフォース＋"]
+		"skills": [
+			"ワイルドフォース＋"
+		]
 	},
 	"Stone Golem": {
 		"size": "S",
@@ -29731,7 +30753,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ノーマルパワー"]
+		"skills": [
+			"ノーマルパワー"
+		]
 	},
 	"Stone Guardian": {
 		"size": "S",
@@ -29786,7 +30810,9 @@
 			"curse": 100,
 			"whack": 100
 		},
-		"skills": ["Stormsgate Citadel"]
+		"skills": [
+			"Stormsgate Citadel"
+		]
 	},
 	"Stout Troll": {
 		"size": "M",
@@ -29842,7 +30868,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Devil"]
+		"skills": [
+			"Devil"
+		]
 	},
 	"Striking Sabrecat": {
 		"size": "S",
@@ -29899,7 +30927,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Beast"]
+		"skills": [
+			"Beast"
+		]
 	},
 	"Stump Chump": {
 		"size": "S",
@@ -29978,7 +31008,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Enfeebler"]
+		"skills": [
+			"Enfeebler"
+		]
 	},
 	"Suckling Ocker": {
 		"size": "S",
@@ -30037,7 +31069,9 @@
 				"name": "目くらまし"
 			}
 		],
-		"skills": ["Fizz"]
+		"skills": [
+			"Fizz"
+		]
 	},
 	"Swarmtroop": {
 		"size": "S",
@@ -30116,7 +31150,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fire Breather"]
+		"skills": [
+			"Fire Breather"
+		]
 	},
 	"Tactician Iddo": {
 		"size": "S",
@@ -30181,7 +31217,9 @@
 				"name": "マジックガード"
 			}
 		],
-		"skills": ["Tactician Iddo"]
+		"skills": [
+			"Tactician Iddo"
+		]
 	},
 	"Tantamount": {
 		"size": "S",
@@ -30239,7 +31277,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zap"]
+		"skills": [
+			"Zap"
+		]
 	},
 	"Teeny Sanguini": {
 		"size": "S",
@@ -30296,7 +31336,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["スモールパワー"]
+		"skills": [
+			"スモールパワー"
+		]
 	},
 	"Tentacular": {
 		"size": "M",
@@ -30351,7 +31393,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["氷海の力"]
+		"skills": [
+			"氷海の力"
+		]
 	},
 	"Terror Tabby": {
 		"size": "S",
@@ -30409,7 +31453,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Enfeebler"]
+		"skills": [
+			"Enfeebler"
+		]
 	},
 	"Terror Troll": {
 		"size": "M",
@@ -30464,7 +31510,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["デビルフォース＋"]
+		"skills": [
+			"デビルフォース＋"
+		]
 	},
 	"Terrorceratops": {
 		"size": "M",
@@ -30516,7 +31564,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Dragon"]
+		"skills": [
+			"Dragon"
+		]
 	},
 	"Terrorhawk": {
 		"size": "S",
@@ -30574,7 +31624,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["炎の息吹＋"]
+		"skills": [
+			"炎の息吹＋"
+		]
 	},
 	"Thriller Wave": {
 		"size": "S",
@@ -30658,7 +31710,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Beast"]
+		"skills": [
+			"Beast"
+		]
 	},
 	"Tiko": {
 		"size": "S",
@@ -30705,7 +31759,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Pipit"]
+		"skills": [
+			"Pipit"
+		]
 	},
 	"Tortoceratops": {
 		"size": "M",
@@ -30754,7 +31810,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Woosh"]
+		"skills": [
+			"Woosh"
+		]
 	},
 	"Torture King Itaburu": {
 		"size": "M",
@@ -30811,7 +31869,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["拷問王イッタブル"]
+		"skills": [
+			"拷問王イッタブル"
+		]
 	},
 	"Tortured Soul": {
 		"size": "S",
@@ -30871,7 +31931,9 @@
 				"name": "死神のレクイエム"
 			}
 		],
-		"skills": ["Zam"]
+		"skills": [
+			"Zam"
+		]
 	},
 	"Trikaceratops": {
 		"size": "M",
@@ -30919,7 +31981,9 @@
 				"plus": 50
 			}
 		],
-		"skills": ["Woosh"]
+		"skills": [
+			"Woosh"
+		]
 	},
 	"Trodainian Conklave": {
 		"size": "S",
@@ -30940,7 +32004,9 @@
 				"name": "太陽のカガミ"
 			}
 		],
-		"skills": ["Chibi Eights"]
+		"skills": [
+			"Chibi Eights"
+		]
 	},
 	"Troll": {
 		"size": "M",
@@ -30996,7 +32062,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Devil"]
+		"skills": [
+			"Devil"
+		]
 	},
 	"Tuffpoise": {
 		"size": "S",
@@ -31054,7 +32122,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["神々の力"]
+		"skills": [
+			"神々の力"
+		]
 	},
 	"Tundragster": {
 		"size": "M",
@@ -31109,7 +32179,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Icy Breather"]
+		"skills": [
+			"Icy Breather"
+		]
 	},
 	"Tuskateer": {
 		"size": "M",
@@ -31157,7 +32229,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["氷海の力"]
+		"skills": [
+			"氷海の力"
+		]
 	},
 	"Twisted Torch": {
 		"size": "S",
@@ -31208,7 +32282,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["マテリアルフォース＋"]
+		"skills": [
+			"マテリアルフォース＋"
+		]
 	},
 	"Type G0": {
 		"size": "S",
@@ -31260,7 +32336,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Killing Machine"]
+		"skills": [
+			"Killing Machine"
+		]
 	},
 	"Tyrannoceratops": {
 		"size": "M",
@@ -31312,7 +32390,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fire Breather"]
+		"skills": [
+			"Fire Breather"
+		]
 	},
 	"Tyrant Basagrande": {
 		"size": "G",
@@ -31370,7 +32450,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Tyrant Basagrande"]
+		"skills": [
+			"Tyrant Basagrande"
+		]
 	},
 	"Uberkilling Machine": {
 		"size": "M",
@@ -31428,7 +32510,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Uberkilling Machine"]
+		"skills": [
+			"Uberkilling Machine"
+		]
 	},
 	"Ultra Slime": {
 		"size": "S",
@@ -31457,7 +32541,9 @@
 			"curse": 25,
 			"whack": 25
 		},
-		"skills": ["Sliderk"]
+		"skills": [
+			"Sliderk"
+		]
 	},
 	"Ultraviolent Ray": {
 		"size": "M",
@@ -31539,7 +32625,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Feral"]
+		"skills": [
+			"Feral"
+		]
 	},
 	"Urubea Genie Soldier": {
 		"size": "G",
@@ -31598,7 +32686,9 @@
 				"name": "武神"
 			}
 		],
-		"skills": ["Totem of Urubea"]
+		"skills": [
+			"Totem of Urubea"
+		]
 	},
 	"Vearn": {
 		"size": "M",
@@ -31658,7 +32748,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Great King Vearn"]
+		"skills": [
+			"Vearn"
+		]
 	},
 	"Vearn The Supreme Sovereign": {
 		"size": "SG",
@@ -31724,7 +32816,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Vearn, The Beholder"]
+		"skills": [
+			"Vearn The Supreme Sovereign"
+		]
 	},
 	"Venus Guytrap": {
 		"size": "M",
@@ -31782,7 +32876,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zam+"]
+		"skills": [
+			"Zam+"
+		]
 	},
 	"Visor Kaiser": {
 		"size": "S",
@@ -31840,7 +32936,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fortifier"]
+		"skills": [
+			"Fortifier"
+		]
 	},
 	"Void Droid": {
 		"size": "M",
@@ -31894,7 +32992,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Ultimate Weapon"]
+		"skills": [
+			"Ultimate Weapon"
+		]
 	},
 	"Volcano Elder": {
 		"size": "M",
@@ -31949,7 +33049,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Healer"]
+		"skills": [
+			"Healer"
+		]
 	},
 	"Vurato": {
 		"size": "G",
@@ -32022,7 +33124,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["闇の王ヴラート"]
+		"skills": [
+			"闇の王ヴラート"
+		]
 	},
 	"WORLD": {
 		"size": "M",
@@ -32069,7 +33173,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["WORLD"]
+		"skills": [
+			"WORLD"
+		]
 	},
 	"Wadatsumi": {
 		"size": "SG",
@@ -32129,7 +33235,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["超ギガパワー"]
+		"skills": [
+			"超ギガパワー"
+		]
 	},
 	"Walking Corpse": {
 		"size": "S",
@@ -32182,7 +33290,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ゾンビフォース"]
+		"skills": [
+			"ゾンビフォース"
+		]
 	},
 	"War Goddess Togamihime": {
 		"size": "G",
@@ -32211,7 +33321,9 @@
 			"curse": 75,
 			"whack": 100
 		},
-		"skills": ["Princess Togami"]
+		"skills": [
+			"War Goddess Togamihime"
+		]
 	},
 	"War Gryphon": {
 		"size": "S",
@@ -32269,7 +33381,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["炎の息吹＋"]
+		"skills": [
+			"炎の息吹＋"
+		]
 	},
 	"War-Rus": {
 		"size": "M",
@@ -32316,7 +33430,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Icy Breather"]
+		"skills": [
+			"Icy Breather"
+		]
 	},
 	"Wharfhorse": {
 		"size": "S",
@@ -32372,7 +33488,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Fizz"]
+		"skills": [
+			"Fizz"
+		]
 	},
 	"Whirly Girly": {
 		"size": "S",
@@ -32452,7 +33570,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zam+"]
+		"skills": [
+			"Zam+"
+		]
 	},
 	"Wight King": {
 		"size": "S",
@@ -32509,7 +33629,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["ゾンビフォース"]
+		"skills": [
+			"ゾンビフォース"
+		]
 	},
 	"Wight Priest": {
 		"size": "S",
@@ -32566,7 +33688,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Woosh+"]
+		"skills": [
+			"Woosh+"
+		]
 	},
 	"Wild Boarfish": {
 		"size": "S",
@@ -32618,7 +33742,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Poison"]
+		"skills": [
+			"Poison"
+		]
 	},
 	"Wildcard": {
 		"size": "S",
@@ -32676,7 +33802,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Wildcard"]
+		"skills": [
+			"Wildcard"
+		]
 	},
 	"Windeo": {
 		"size": "S",
@@ -32703,7 +33831,9 @@
 			"curse": -25,
 			"whack": 50
 		},
-		"skills": ["皇帝ウィンディオ"]
+		"skills": [
+			"皇帝ウィンディオ"
+		]
 	},
 	"Woebergine": {
 		"size": "S",
@@ -32759,7 +33889,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Feral"]
+		"skills": [
+			"Feral"
+		]
 	},
 	"Wonder Wyrtle": {
 		"size": "M",
@@ -32809,7 +33941,9 @@
 				"name": "はじまりの守護者"
 			}
 		],
-		"skills": ["ドラゴフォース＋"]
+		"skills": [
+			"ドラゴフォース＋"
+		]
 	},
 	"Wooper Trooper": {
 		"size": "S",
@@ -32949,7 +34083,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Wulfspade Ace"]
+		"skills": [
+			"Wulfspade Ace"
+		]
 	},
 	"Wyrtle": {
 		"size": "M",
@@ -32997,7 +34133,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Dragon"]
+		"skills": [
+			"Dragon"
+		]
 	},
 	"Wyrtoise": {
 		"size": "M",
@@ -33044,7 +34182,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Dragon"]
+		"skills": [
+			"Dragon"
+		]
 	},
 	"Xenlon": {
 		"size": "M",
@@ -33073,7 +34213,9 @@
 			"curse": 50,
 			"whack": 100
 		},
-		"skills": ["Xenlon"]
+		"skills": [
+			"Xenlon"
+		]
 	},
 	"Yellow Flying Dragon": {
 		"size": "G",
@@ -33132,7 +34274,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["黄飛竜"]
+		"skills": [
+			"黄飛竜"
+		]
 	},
 	"Yellow Sickle": {
 		"size": "S",
@@ -33191,7 +34335,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Woosh"]
+		"skills": [
+			"Woosh"
+		]
 	},
 	"Zeldorade": {
 		"size": "S",
@@ -33250,7 +34396,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zeldorado"]
+		"skills": [
+			"Zeldorade"
+		]
 	},
 	"Zenith Dragon": {
 		"size": "G",
@@ -33311,7 +34459,9 @@
 				"name": "ひん死で会心"
 			}
 		],
-		"skills": ["Zenith Dragon"]
+		"skills": [
+			"Zenith Dragon"
+		]
 	},
 	"Zepling": {
 		"size": "S",
@@ -33368,7 +34518,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Woosh"]
+		"skills": [
+			"Woosh"
+		]
 	},
 	"Zoma": {
 		"size": "S",
@@ -33429,7 +34581,9 @@
 				"plus": 100
 			}
 		],
-		"skills": ["Zoma"]
+		"skills": [
+			"Zoma"
+		]
 	},
 	"Zoma's Devil": {
 		"size": "S",
@@ -33483,7 +34637,9 @@
 			"curse": 50,
 			"whack": 100
 		},
-		"skills": ["Rime Ridden Treant"]
+		"skills": [
+			"Rime Ridden Treant"
+		]
 	},
 	"Übergine": {
 		"size": "S",
@@ -33535,6 +34691,8 @@
 				"plus": 50
 			}
 		],
-		"skills": ["Mage Aid"]
+		"skills": [
+			"Mage Aid"
+		]
 	}
 }
