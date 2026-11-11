@@ -29,7 +29,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -37,7 +37,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "SG"
 			},
 			{
@@ -45,7 +45,7 @@
 				"plus": 25
 			},
 			{
-				"name": "電撃ブレイク",
+				"name": "Crafty Zapper",
 				"plus": 50
 			},
 			{
@@ -81,15 +81,15 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "Fixed"
 			},
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "G"
 			},
 			{
@@ -97,7 +97,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "爆発系のコツ",
+				"name": "Bangmeister",
 				"plus": 25
 			},
 			{
@@ -140,7 +140,7 @@
 		},
 		"traits": [
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"tier": "Initial"
 			},
 			{
@@ -148,11 +148,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "G"
 			},
 			{
@@ -160,7 +160,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 50
 			},
 			{
@@ -168,7 +168,7 @@
 				"plus": 100
 			},
 			{
-				"name": "ときどき黒い霧"
+				"name": "Chance Black Mister"
 			}
 		],
 		"skills": [
@@ -229,7 +229,7 @@
 		},
 		"traits": [
 			{
-				"name": "マヒブレイク",
+				"name": "Crafty Paralyser",
 				"tier": "Initial"
 			},
 			{
@@ -237,7 +237,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -352,11 +352,11 @@
 		},
 		"traits": [
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "Initial"
 			},
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"tier": "Fixed"
 			},
 			{
@@ -364,7 +364,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"tier": "G"
 			},
 			{
@@ -405,7 +405,7 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Initial"
 			},
 			{
@@ -417,7 +417,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -429,7 +429,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"plus": 50
 			},
 			{
@@ -470,7 +470,7 @@
 		},
 		"traits": [
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "Initial"
 			},
 			{
@@ -478,11 +478,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "電撃系のコツ",
+				"name": "Zapmeister",
 				"tier": "G"
 			},
 			{
@@ -494,7 +494,7 @@
 				"plus": 25
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 50
 			},
 			{
@@ -531,7 +531,7 @@
 		},
 		"traits": [
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "Initial"
 			},
 			{
@@ -539,7 +539,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -551,7 +551,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 25
 			},
 			{
@@ -559,7 +559,7 @@
 				"plus": 50
 			},
 			{
-				"name": "どくブレイク",
+				"name": "Crafty Poisoner",
 				"plus": 100
 			}
 		],
@@ -588,11 +588,11 @@
 		},
 		"traits": [
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "Initial"
 			},
 			{
-				"name": "爆発系のコツ",
+				"name": "Bangmeister",
 				"tier": "Fixed"
 			},
 			{
@@ -604,7 +604,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき白い霧",
+				"name": "Chance White Mister",
 				"tier": "SG"
 			},
 			{
@@ -612,7 +612,7 @@
 				"plus": 25
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 50
 			},
 			{
@@ -652,7 +652,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -705,7 +705,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -760,19 +760,19 @@
 		},
 		"traits": [
 			{
-				"name": "AI3～4回行動"
+				"name": "Act 3-4x"
 			},
 			{
 				"name": "ときどきシャッフル"
 			},
 			{
-				"name": "いてつくはどう"
+				"name": "Disruptive Wave"
 			},
 			{
 				"name": "Rando-Oomph"
 			},
 			{
-				"name": "電撃ブレイク"
+				"name": "Crafty Zapper"
 			},
 			{
 				"name": "Late Bloomer"
@@ -825,7 +825,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "G"
 			},
 			{
@@ -837,7 +837,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 50
 			},
 			{
@@ -874,7 +874,7 @@
 		},
 		"traits": [
 			{
-				"name": "地系のコツ",
+				"name": "Cragmeister",
 				"tier": "Initial"
 			},
 			{
@@ -890,7 +890,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "AI3～4回行動",
+				"name": "Act 3-4x",
 				"tier": "SG"
 			},
 			{
@@ -932,7 +932,7 @@
 		},
 		"traits": [
 			{
-				"name": "地系のコツ",
+				"name": "Cragmeister",
 				"tier": "Initial"
 			},
 			{
@@ -944,7 +944,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -998,7 +998,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -1006,7 +1006,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
@@ -1067,7 +1067,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "Initial"
 			},
 			{
@@ -1126,11 +1126,11 @@
 		},
 		"traits": [
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
@@ -1138,7 +1138,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "火系のコツ",
+				"name": "Frizzmeister",
 				"tier": "G"
 			},
 			{
@@ -1146,7 +1146,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"plus": 25
 			},
 			{
@@ -1154,7 +1154,7 @@
 				"plus": 50
 			},
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"plus": 100
 			}
 		],
@@ -1184,16 +1184,16 @@
 		},
 		"traits": [
 			{
-				"name": "AI2～3回行動"
+				"name": "Act 2-3x"
 			},
 			{
 				"name": "Rando-Accel"
 			},
 			{
-				"name": "マヒブレイク"
+				"name": "Crafty Paralyser"
 			},
 			{
-				"name": "負けず嫌い"
+				"name": "Sore Loser"
 			},
 			{
 				"name": "Close Scraper"
@@ -1202,7 +1202,7 @@
 				"name": "暴走機関"
 			},
 			{
-				"name": "ラッキー"
+				"name": "Lucky"
 			},
 			{
 				"name": "全ガード＋"
@@ -1242,11 +1242,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "M"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "G"
 			},
 			{
@@ -1254,15 +1254,15 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 25
 			},
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"plus": 50
 			},
 			{
-				"name": "負けず嫌い",
+				"name": "Sore Loser",
 				"plus": 100
 			}
 		],
@@ -1319,15 +1319,15 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "G"
 			},
 			{
-				"name": "地系のコツ",
+				"name": "Cragmeister",
 				"tier": "SG"
 			},
 			{
@@ -1374,7 +1374,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -1394,7 +1394,7 @@
 				"plus": 50
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 100
 			}
 		],
@@ -1434,11 +1434,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "即死ブレイク",
+				"name": "Crafty Whacker",
 				"tier": "G"
 			},
 			{
@@ -1450,7 +1450,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ときどき赤い霧",
+				"name": "Chance Red Mister",
 				"plus": 50
 			},
 			{
@@ -1496,7 +1496,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -1550,7 +1550,7 @@
 		},
 		"traits": [
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "Initial"
 			},
 			{
@@ -1562,7 +1562,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -1681,11 +1681,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -1693,7 +1693,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"plus": 25
 			},
 			{
@@ -1735,15 +1735,15 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "G"
 			},
 			{
@@ -1794,11 +1794,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -1806,7 +1806,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"tier": "SG"
 			},
 			{
@@ -1818,7 +1818,7 @@
 				"plus": 50
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"plus": 100
 			}
 		],
@@ -1852,7 +1852,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"tier": "Fixed"
 			},
 			{
@@ -1864,7 +1864,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "AI3～4回行動",
+				"name": "Act 3-4x",
 				"tier": "SG"
 			},
 			{
@@ -1901,11 +1901,11 @@
 		},
 		"traits": [
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "Initial"
 			},
 			{
-				"name": "爆発系のコツ",
+				"name": "Bangmeister",
 				"tier": "Fixed"
 			},
 			{
@@ -1917,7 +1917,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき白い霧",
+				"name": "Chance White Mister",
 				"tier": "SG"
 			},
 			{
@@ -1929,7 +1929,7 @@
 				"plus": 50
 			},
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"plus": 100
 			}
 		],
@@ -1965,7 +1965,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "Fixed"
 			},
 			{
@@ -1985,7 +1985,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"plus": 50
 			},
 			{
@@ -2018,7 +2018,7 @@
 		},
 		"traits": [
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"tier": "Initial"
 			},
 			{
@@ -2034,7 +2034,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "地系のコツ",
+				"name": "Cragmeister",
 				"tier": "SG"
 			},
 			{
@@ -2080,15 +2080,15 @@
 		},
 		"traits": [
 			{
-				"name": "爆発系のコツ",
+				"name": "Bangmeister",
 				"tier": "Initial"
 			},
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -2143,15 +2143,15 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "G"
 			},
 			{
@@ -2159,7 +2159,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "光ブレイク",
+				"name": "Crafty Sizzer",
 				"plus": 25
 			},
 			{
@@ -2204,7 +2204,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "Fixed"
 			},
 			{
@@ -2258,15 +2258,15 @@
 		},
 		"traits": [
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "M"
 			},
 			{
@@ -2274,7 +2274,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"tier": "SG"
 			},
 			{
@@ -2282,11 +2282,11 @@
 				"plus": 25
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 50
 			},
 			{
-				"name": "暴走列車",
+				"name": "Runaway Train",
 				"plus": 100
 			}
 		],
@@ -2323,11 +2323,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -2339,7 +2339,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"plus": 25
 			},
 			{
@@ -2380,7 +2380,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"tier": "Fixed"
 			},
 			{
@@ -2392,19 +2392,19 @@
 				"tier": "G"
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"tier": "SG"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 25
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"plus": 50
 			},
 			{
-				"name": "暴走列車",
+				"name": "Runaway Train",
 				"plus": 100
 			}
 		],
@@ -2456,7 +2456,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき青天の霧",
+				"name": "Chance Sublime Mister",
 				"plus": 25
 			},
 			{
@@ -2464,7 +2464,7 @@
 				"plus": 50
 			},
 			{
-				"name": "一族のほこり",
+				"name": "Clan Pride",
 				"plus": 100
 			}
 		],
@@ -2525,7 +2525,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -2533,7 +2533,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "SG"
 			},
 			{
@@ -2541,11 +2541,11 @@
 				"plus": 25
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 50
 			},
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"plus": 100
 			}
 		],
@@ -2575,15 +2575,15 @@
 		},
 		"traits": [
 			{
-				"name": "ねむりブレイク",
+				"name": "Crafty Sleeper",
 				"tier": "Initial"
 			},
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -2640,7 +2640,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"tier": "Fixed"
 			},
 			{
@@ -2656,7 +2656,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"plus": 25
 			},
 			{
@@ -2720,15 +2720,15 @@
 		},
 		"traits": [
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "Initial"
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -2782,7 +2782,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -2790,7 +2790,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "SG"
 			},
 			{
@@ -2840,7 +2840,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -2848,7 +2848,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "光系のコツ",
+				"name": "Sizzmeister",
 				"plus": 25
 			},
 			{
@@ -2856,7 +2856,7 @@
 				"plus": 50
 			},
 			{
-				"name": "光ブレイク",
+				"name": "Crafty Sizzer",
 				"plus": 100
 			}
 		],
@@ -2892,15 +2892,15 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"tier": "G"
 			},
 			{
@@ -2908,11 +2908,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"plus": 25
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"plus": 50
 			},
 			{
@@ -2948,15 +2948,15 @@
 		},
 		"traits": [
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -2972,7 +2972,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"plus": 50
 			},
 			{
@@ -3011,7 +3011,7 @@
 		},
 		"traits": [
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "Initial"
 			},
 			{
@@ -3023,7 +3023,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
@@ -3031,11 +3031,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 25
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"plus": 50
 			},
 			{
@@ -3075,11 +3075,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -3091,7 +3091,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"plus": 25
 			},
 			{
@@ -3200,7 +3200,7 @@
 		},
 		"traits": [
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"tier": "Initial"
 			},
 			{
@@ -3208,7 +3208,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -3220,7 +3220,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"plus": 25
 			},
 			{
@@ -3245,11 +3245,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -3269,7 +3269,7 @@
 				"plus": 50
 			},
 			{
-				"name": "ときどき赤い霧",
+				"name": "Chance Red Mister",
 				"plus": 100
 			}
 		],
@@ -3305,7 +3305,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "Fixed"
 			},
 			{
@@ -3365,7 +3365,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "ねむりブレイク",
+				"name": "Crafty Sleeper",
 				"tier": "Fixed"
 			},
 			{
@@ -3373,11 +3373,11 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"tier": "SG"
 			},
 			{
@@ -3385,7 +3385,7 @@
 				"plus": 25
 			},
 			{
-				"name": "どくブレイク",
+				"name": "Crafty Poisoner",
 				"plus": 50
 			},
 			{
@@ -3422,7 +3422,7 @@
 		},
 		"traits": [
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "Initial"
 			},
 			{
@@ -3434,11 +3434,11 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "G"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "SG"
 			},
 			{
@@ -3450,7 +3450,7 @@
 				"plus": 50
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"plus": 100
 			}
 		],
@@ -3490,7 +3490,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "G"
 			},
 			{
@@ -3544,7 +3544,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -3552,7 +3552,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"tier": "SG"
 			},
 			{
@@ -3560,7 +3560,7 @@
 				"plus": 25
 			},
 			{
-				"name": "どくブレイク",
+				"name": "Crafty Poisoner",
 				"plus": 50
 			},
 			{
@@ -3598,11 +3598,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -3656,11 +3656,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -3668,7 +3668,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"tier": "SG"
 			},
 			{
@@ -3710,19 +3710,19 @@
 		},
 		"traits": [
 			{
-				"name": "ねむりブレイク",
+				"name": "Crafty Sleeper",
 				"tier": "Initial"
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "G"
 			},
 			{
@@ -3796,7 +3796,7 @@
 		},
 		"traits": [
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"tier": "Initial"
 			},
 			{
@@ -3812,7 +3812,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき黒い霧",
+				"name": "Chance Black Mister",
 				"tier": "SG"
 			},
 			{
@@ -3820,7 +3820,7 @@
 				"plus": 25
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"plus": 50
 			},
 			{
@@ -3860,7 +3860,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -3918,7 +3918,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -3926,11 +3926,11 @@
 				"tier": "G"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "SG"
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"plus": 25
 			},
 			{
@@ -3969,7 +3969,7 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Initial"
 			},
 			{
@@ -3977,11 +3977,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "ときどき黒い霧",
+				"name": "Chance Black Mister",
 				"tier": "G"
 			},
 			{
@@ -4039,7 +4039,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -4087,7 +4087,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "Initial"
 			},
 			{
@@ -4107,11 +4107,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"plus": 25
 			},
 			{
-				"name": "負けず嫌い",
+				"name": "Sore Loser",
 				"plus": 50
 			},
 			{
@@ -4151,7 +4151,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -4163,11 +4163,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"plus": 25
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 50
 			},
 			{
@@ -4212,11 +4212,11 @@
 		},
 		"traits": [
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "Initial"
 			},
 			{
-				"name": "地系のコツ",
+				"name": "Cragmeister",
 				"tier": "Fixed"
 			},
 			{
@@ -4240,7 +4240,7 @@
 				"plus": 50
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"plus": 100
 			}
 		],
@@ -4278,7 +4278,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -4294,7 +4294,7 @@
 				"plus": 25
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"plus": 50
 			},
 			{
@@ -4334,11 +4334,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -4350,11 +4350,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ねむりブレイク",
+				"name": "Crafty Sleeper",
 				"plus": 25
 			},
 			{
-				"name": "即死ブレイク",
+				"name": "Crafty Whacker",
 				"plus": 50
 			},
 			{
@@ -4430,7 +4430,7 @@
 		},
 		"traits": [
 			{
-				"name": "電撃ブレイク",
+				"name": "Crafty Zapper",
 				"tier": "Initial"
 			},
 			{
@@ -4438,19 +4438,19 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "暴走列車",
+				"name": "Runaway Train",
 				"tier": "G"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "SG"
 			},
 			{
-				"name": "マヒブレイク",
+				"name": "Crafty Paralyser",
 				"plus": 25
 			},
 			{
@@ -4490,15 +4490,15 @@
 		},
 		"traits": [
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "Initial"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -4510,7 +4510,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき黒い霧",
+				"name": "Chance Black Mister",
 				"plus": 25
 			},
 			{
@@ -4518,7 +4518,7 @@
 				"plus": 50
 			},
 			{
-				"name": "ねむりブレイク",
+				"name": "Crafty Sleeper",
 				"plus": 100
 			}
 		],
@@ -4555,7 +4555,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -4567,7 +4567,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 25
 			},
 			{
@@ -4634,11 +4634,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -4646,7 +4646,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき黒い霧",
+				"name": "Chance Black Mister",
 				"plus": 25
 			},
 			{
@@ -4684,11 +4684,11 @@
 		},
 		"traits": [
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"tier": "Initial"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -4740,7 +4740,7 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Initial"
 			},
 			{
@@ -4752,19 +4752,19 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "G"
 			},
 			{
-				"name": "ときどき白い霧",
+				"name": "Chance White Mister",
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 50
 			},
 			{
@@ -4793,7 +4793,7 @@
 		},
 		"traits": [
 			{
-				"name": "負けず嫌い",
+				"name": "Sore Loser",
 				"tier": "Initial"
 			},
 			{
@@ -4801,7 +4801,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -4821,7 +4821,7 @@
 				"plus": 50
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"plus": 100
 			}
 		],
@@ -4851,7 +4851,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
@@ -4908,19 +4908,19 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Initial"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"tier": "G"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "SG"
 			},
 			{
@@ -4988,7 +4988,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -5000,7 +5000,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 25
 			},
 			{
@@ -5008,14 +5008,14 @@
 				"plus": 50
 			},
 			{
-				"name": "負けず嫌い",
+				"name": "Sore Loser",
 				"plus": 100
 			},
 			{
 				"name": "ギガキラー"
 			},
 			{
-				"name": "ひん死で会心"
+				"name": "Desperado"
 			}
 		],
 		"skills": [
@@ -5061,7 +5061,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -5069,11 +5069,11 @@
 				"tier": "G"
 			},
 			{
-				"name": "どくブレイク",
+				"name": "Crafty Poisoner",
 				"tier": "SG"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"plus": 25
 			},
 			{
@@ -5162,7 +5162,7 @@
 		},
 		"traits": [
 			{
-				"name": "どくブレイク",
+				"name": "Crafty Poisoner",
 				"tier": "Initial"
 			},
 			{
@@ -5170,7 +5170,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -5182,7 +5182,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"plus": 25
 			},
 			{
@@ -5190,7 +5190,7 @@
 				"plus": 50
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"plus": 100
 			}
 		],
@@ -5256,7 +5256,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
@@ -5284,7 +5284,7 @@
 				"plus": 50
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"plus": 100
 			}
 		],
@@ -5316,7 +5316,7 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Initial"
 			},
 			{
@@ -5328,15 +5328,15 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "G"
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
@@ -5393,7 +5393,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -5449,7 +5449,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -5465,7 +5465,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"plus": 50
 			},
 			{
@@ -5507,7 +5507,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "負けず嫌い",
+				"name": "Sore Loser",
 				"tier": "M"
 			},
 			{
@@ -5515,11 +5515,11 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき赤い霧",
+				"name": "Chance Red Mister",
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 25
 			},
 			{
@@ -5527,7 +5527,7 @@
 				"plus": 50
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"plus": 100
 			}
 		],
@@ -5559,7 +5559,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
@@ -5567,7 +5567,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "電撃ブレイク",
+				"name": "Crafty Zapper",
 				"tier": "M"
 			},
 			{
@@ -5579,11 +5579,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 25
 			},
 			{
-				"name": "電撃系のコツ",
+				"name": "Zapmeister",
 				"plus": 50
 			},
 			{
@@ -5630,7 +5630,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -5727,31 +5727,31 @@
 		},
 		"traits": [
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"tier": "G"
 			},
 			{
-				"name": "暴走列車",
+				"name": "Runaway Train",
 				"tier": "SG"
 			},
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"plus": 25
 			},
 			{
-				"name": "ときどき白い霧",
+				"name": "Chance White Mister",
 				"plus": 50
 			},
 			{
@@ -5790,11 +5790,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "G"
 			},
 			{
@@ -5843,7 +5843,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
@@ -5863,7 +5863,7 @@
 				"plus": 25
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 50
 			},
 			{
@@ -5905,7 +5905,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -5913,7 +5913,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 50
 			},
 			{
@@ -5958,7 +5958,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -6036,19 +6036,19 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Initial"
 			},
 			{
-				"name": "火系のコツ",
+				"name": "Frizzmeister",
 				"tier": "Fixed"
 			},
 			{
-				"name": "ときどき赤い霧",
+				"name": "Chance Red Mister",
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -6064,7 +6064,7 @@
 				"plus": 50
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"plus": 100
 			}
 		],
@@ -6094,19 +6094,19 @@
 		},
 		"traits": [
 			{
-				"name": "マヒブレイク",
+				"name": "Crafty Paralyser",
 				"tier": "Initial"
 			},
 			{
-				"name": "光系のコツ",
+				"name": "Sizzmeister",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
-				"name": "光ブレイク",
+				"name": "Crafty Sizzer",
 				"tier": "G"
 			},
 			{
@@ -6152,7 +6152,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -6168,11 +6168,11 @@
 				"plus": 25
 			},
 			{
-				"name": "ねむりブレイク",
+				"name": "Crafty Sleeper",
 				"plus": 50
 			},
 			{
-				"name": "負けず嫌い",
+				"name": "Sore Loser",
 				"plus": 100
 			}
 		],
@@ -6208,7 +6208,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "ねむりブレイク",
+				"name": "Crafty Sleeper",
 				"tier": "Fixed"
 			},
 			{
@@ -6216,11 +6216,11 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "SG"
 			},
 			{
@@ -6262,7 +6262,7 @@
 		},
 		"traits": [
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "Initial"
 			},
 			{
@@ -6270,7 +6270,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "M"
 			},
 			{
@@ -6330,7 +6330,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -6338,7 +6338,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "SG"
 			},
 			{
@@ -6388,15 +6388,15 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "電撃ブレイク",
+				"name": "Crafty Zapper",
 				"tier": "M"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "G"
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "SG"
 			},
 			{
@@ -6408,7 +6408,7 @@
 				"plus": 50
 			},
 			{
-				"name": "即死ブレイク",
+				"name": "Crafty Whacker",
 				"plus": 100
 			}
 		],
@@ -6448,7 +6448,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -6456,11 +6456,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"plus": 50
 			},
 			{
@@ -6498,19 +6498,19 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "G"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "SG"
 			},
 			{
@@ -6518,7 +6518,7 @@
 				"plus": 25
 			},
 			{
-				"name": "即死ブレイク",
+				"name": "Crafty Whacker",
 				"plus": 50
 			},
 			{
@@ -6554,11 +6554,11 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "Fixed"
 			},
 			{
@@ -6578,7 +6578,7 @@
 				"plus": 50
 			},
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"plus": 100
 			}
 		],
@@ -6646,11 +6646,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "Fixed"
 			},
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"tier": "M"
 			},
 			{
@@ -6662,11 +6662,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 25
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 50
 			},
 			{
@@ -6710,19 +6710,19 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
@@ -6770,7 +6770,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -6778,11 +6778,11 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき黒い霧",
+				"name": "Chance Black Mister",
 				"tier": "SG"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 25
 			},
 			{
@@ -6825,15 +6825,15 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "G"
 			},
 			{
@@ -6841,11 +6841,11 @@
 				"plus": 25
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"plus": 50
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"plus": 100
 			}
 		],
@@ -6889,7 +6889,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -6901,7 +6901,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 50
 			},
 			{
@@ -6956,7 +6956,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -7008,11 +7008,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -7020,11 +7020,11 @@
 				"tier": "G"
 			},
 			{
-				"name": "暴走列車",
+				"name": "Runaway Train",
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき黒い霧",
+				"name": "Chance Black Mister",
 				"plus": 25
 			},
 			{
@@ -7032,7 +7032,7 @@
 				"plus": 50
 			},
 			{
-				"name": "即死ブレイク",
+				"name": "Crafty Whacker",
 				"plus": 100
 			}
 		],
@@ -7067,7 +7067,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
@@ -7075,7 +7075,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"tier": "M"
 			},
 			{
@@ -7133,11 +7133,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "G"
 			},
 			{
@@ -7153,7 +7153,7 @@
 				"plus": 50
 			},
 			{
-				"name": "どくブレイク",
+				"name": "Crafty Poisoner",
 				"plus": 100
 			}
 		],
@@ -7189,11 +7189,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -7279,11 +7279,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"tier": "G"
 			},
 			{
@@ -7339,19 +7339,19 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"plus": 50
 			},
 			{
@@ -7460,7 +7460,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2～3回行動"
+				"name": "Act 2-3x"
 			},
 			{
 				"name": "おうえん"
@@ -7472,7 +7472,7 @@
 				"name": "かばう"
 			},
 			{
-				"name": "れんぞく×2"
+				"name": "Hit Squad (2)"
 			},
 			{
 				"name": "ひん死で呪文会心"
@@ -7536,7 +7536,7 @@
 		},
 		"traits": [
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "Initial"
 			},
 			{
@@ -7544,7 +7544,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -7552,7 +7552,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"tier": "SG"
 			},
 			{
@@ -7596,23 +7596,23 @@
 		},
 		"traits": [
 			{
-				"name": "爆発系のコツ",
+				"name": "Bangmeister",
 				"tier": "Initial"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "SG"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 25
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"plus": 50
 			},
 			{
@@ -7666,11 +7666,11 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "Fixed"
 			},
 			{
@@ -7678,7 +7678,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
@@ -7719,11 +7719,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -7731,11 +7731,11 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき青天の霧",
+				"name": "Chance Sublime Mister",
 				"tier": "SG"
 			},
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"plus": 25
 			},
 			{
@@ -7777,11 +7777,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -7835,23 +7835,23 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"tier": "G"
 			},
 			{
-				"name": "ときどき青天の霧",
+				"name": "Chance Sublime Mister",
 				"tier": "SG"
 			},
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"plus": 25
 			},
 			{
@@ -7889,7 +7889,7 @@
 		},
 		"traits": [
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"tier": "Initial"
 			},
 			{
@@ -7897,7 +7897,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -7951,11 +7951,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -7971,7 +7971,7 @@
 				"plus": 25
 			},
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"plus": 50
 			},
 			{
@@ -8010,11 +8010,11 @@
 		},
 		"traits": [
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "Initial"
 			},
 			{
-				"name": "氷結系のコツ",
+				"name": "Crackmeister",
 				"tier": "Fixed"
 			},
 			{
@@ -8022,7 +8022,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -8083,7 +8083,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
@@ -8095,7 +8095,7 @@
 				"plus": 25
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"plus": 50
 			},
 			{
@@ -8137,7 +8137,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -8149,7 +8149,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"plus": 25
 			},
 			{
@@ -8187,7 +8187,7 @@
 		},
 		"traits": [
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"tier": "Initial"
 			},
 			{
@@ -8199,7 +8199,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -8207,11 +8207,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "一族のほこり",
+				"name": "Clan Pride",
 				"plus": 25
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 50
 			},
 			{
@@ -8253,15 +8253,15 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "G"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "SG"
 			},
 			{
@@ -8303,11 +8303,11 @@
 		},
 		"traits": [
 			{
-				"name": "光ブレイク",
+				"name": "Crafty Sizzer",
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
@@ -8315,7 +8315,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
@@ -8327,7 +8327,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 50
 			},
 			{
@@ -8370,7 +8370,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "氷結系のコツ",
+				"name": "Crackmeister",
 				"tier": "Fixed"
 			},
 			{
@@ -8378,7 +8378,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -8432,11 +8432,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "G"
 			},
 			{
@@ -8452,7 +8452,7 @@
 				"plus": 50
 			},
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"plus": 100
 			}
 		],
@@ -8483,7 +8483,7 @@
 		},
 		"traits": [
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "Initial"
 			},
 			{
@@ -8491,7 +8491,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -8511,7 +8511,7 @@
 				"plus": 50
 			},
 			{
-				"name": "地系のコツ",
+				"name": "Cragmeister",
 				"plus": 100
 			}
 		],
@@ -8560,7 +8560,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"plus": 25
 			},
 			{
@@ -8568,7 +8568,7 @@
 				"plus": 50
 			},
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"plus": 100
 			}
 		],
@@ -8598,7 +8598,7 @@
 		},
 		"traits": [
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "Initial"
 			},
 			{
@@ -8606,7 +8606,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -8618,7 +8618,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "地系のコツ",
+				"name": "Cragmeister",
 				"plus": 25
 			},
 			{
@@ -8626,7 +8626,7 @@
 				"plus": 50
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"plus": 100
 			}
 		],
@@ -8708,7 +8708,7 @@
 		},
 		"traits": [
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "Initial"
 			},
 			{
@@ -8720,7 +8720,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
@@ -8728,7 +8728,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき黒い霧",
+				"name": "Chance Black Mister",
 				"plus": 25
 			},
 			{
@@ -8782,7 +8782,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "AI3～4回行動",
+				"name": "Act 3-4x",
 				"tier": "SG"
 			},
 			{
@@ -8824,7 +8824,7 @@
 		},
 		"traits": [
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "Initial"
 			},
 			{
@@ -8832,7 +8832,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -8840,7 +8840,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "SG"
 			},
 			{
@@ -8889,7 +8889,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -8901,7 +8901,7 @@
 				"plus": 25
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"plus": 50
 			},
 			{
@@ -8969,7 +8969,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -8985,11 +8985,11 @@
 				"plus": 25
 			},
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"plus": 50
 			},
 			{
-				"name": "負けず嫌い",
+				"name": "Sore Loser",
 				"plus": 100
 			}
 		],
@@ -9023,7 +9023,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
@@ -9043,11 +9043,11 @@
 				"plus": 25
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 50
 			},
 			{
-				"name": "暴走列車",
+				"name": "Runaway Train",
 				"plus": 100
 			}
 		],
@@ -9088,7 +9088,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -9100,11 +9100,11 @@
 				"plus": 25
 			},
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"plus": 50
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 100
 			}
 		],
@@ -9141,7 +9141,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -9164,7 +9164,7 @@
 				"name": "水系のコツ"
 			},
 			{
-				"name": "カウンター"
+				"name": "Counter Attack"
 			}
 		],
 		"skills": [
@@ -9202,11 +9202,11 @@
 		},
 		"traits": [
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"tier": "G"
 			},
 			{
@@ -9214,7 +9214,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき赤い霧",
+				"name": "Chance Red Mister",
 				"plus": 25
 			},
 			{
@@ -9225,7 +9225,7 @@
 				"name": "Insta-Accel"
 			},
 			{
-				"name": "火系のコツ"
+				"name": "Frizzmeister"
 			}
 		],
 		"skills": [
@@ -9259,7 +9259,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -9271,7 +9271,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 25
 			},
 			{
@@ -9279,7 +9279,7 @@
 				"plus": 100
 			},
 			{
-				"name": "地系のコツ"
+				"name": "Cragmeister"
 			},
 			{
 				"name": "会心出やすい"
@@ -9317,7 +9317,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -9372,11 +9372,11 @@
 		},
 		"traits": [
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"tier": "G"
 			},
 			{
@@ -9384,7 +9384,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 25
 			},
 			{
@@ -9395,7 +9395,7 @@
 				"name": "いあつ"
 			},
 			{
-				"name": "風系のコツ"
+				"name": "Wooshmeister"
 			}
 		],
 		"skills": [
@@ -9432,19 +9432,19 @@
 		},
 		"traits": [
 			{
-				"name": "電撃系のコツ",
+				"name": "Zapmeister",
 				"tier": "Initial"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "Fixed"
 			},
 			{
-				"name": "光ブレイク",
+				"name": "Crafty Sizzer",
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
@@ -9452,7 +9452,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
@@ -9492,7 +9492,7 @@
 		},
 		"traits": [
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"tier": "Initial"
 			},
 			{
@@ -9500,11 +9500,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "即死ブレイク",
+				"name": "Crafty Whacker",
 				"tier": "G"
 			},
 			{
@@ -9552,11 +9552,11 @@
 		},
 		"traits": [
 			{
-				"name": "光ブレイク",
+				"name": "Crafty Sizzer",
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -9564,7 +9564,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"plus": 25
 			},
 			{
@@ -9576,10 +9576,10 @@
 				"plus": 100
 			},
 			{
-				"name": "光系のコツ"
+				"name": "Sizzmeister"
 			},
 			{
-				"name": "超こうどうはやい"
+				"name": "Early Bird+"
 			}
 		]
 	},
@@ -9607,15 +9607,15 @@
 		},
 		"traits": [
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"tier": "Initial"
 			},
 			{
-				"name": "光系のコツ",
+				"name": "Sizzmeister",
 				"tier": "Fixed"
 			},
 			{
-				"name": "光ブレイク",
+				"name": "Crafty Sizzer",
 				"tier": "M"
 			},
 			{
@@ -9623,7 +9623,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "SG"
 			},
 			{
@@ -9631,7 +9631,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ときどき黒い霧",
+				"name": "Chance Black Mister",
 				"plus": 50
 			},
 			{
@@ -9669,11 +9669,11 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "Fixed"
 			},
 			{
@@ -9689,7 +9689,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 50
 			},
 			{
@@ -9755,7 +9755,7 @@
 		},
 		"traits": [
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "Fixed"
 			},
 			{
@@ -9767,7 +9767,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき白い霧",
+				"name": "Chance White Mister",
 				"tier": "SG"
 			},
 			{
@@ -9775,7 +9775,7 @@
 				"plus": 25
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"plus": 50
 			},
 			{
@@ -9817,7 +9817,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "G"
 			},
 			{
@@ -9825,7 +9825,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 50
 			},
 			{
@@ -9865,11 +9865,11 @@
 		},
 		"traits": [
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -9928,19 +9928,19 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "G"
 			},
 			{
-				"name": "ときどき白い霧",
+				"name": "Chance White Mister",
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 25
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 50
 			},
 			{
@@ -9983,15 +9983,15 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "G"
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 25
 			},
 			{
@@ -10047,7 +10047,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "G"
 			},
 			{
@@ -10103,7 +10103,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -10159,7 +10159,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "Fixed"
 			},
 			{
@@ -10212,19 +10212,19 @@
 		},
 		"traits": [
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "SG"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 25
 			},
 			{
@@ -10267,7 +10267,7 @@
 		},
 		"traits": [
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "Fixed"
 			},
 			{
@@ -10275,7 +10275,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -10331,7 +10331,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "G"
 			},
 			{
@@ -10343,11 +10343,11 @@
 				"plus": 25
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 50
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"plus": 100
 			}
 		],
@@ -10383,11 +10383,11 @@
 		},
 		"traits": [
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "Fixed"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "M"
 			},
 			{
@@ -10403,7 +10403,7 @@
 				"plus": 25
 			},
 			{
-				"name": "れんぞく×4",
+				"name": "Hit Squad (4)",
 				"plus": 50
 			},
 			{
@@ -10444,7 +10444,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -10511,7 +10511,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"plus": 25
 			},
 			{
@@ -10557,7 +10557,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -10569,7 +10569,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"plus": 25
 			},
 			{
@@ -10607,11 +10607,11 @@
 		},
 		"traits": [
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -10682,7 +10682,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 25
 			},
 			{
@@ -10730,7 +10730,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "M"
 			},
 			{
@@ -10785,11 +10785,11 @@
 		},
 		"traits": [
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -10797,7 +10797,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "SG"
 			},
 			{
@@ -10851,11 +10851,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "M"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "G"
 			},
 			{
@@ -10863,7 +10863,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×6",
+				"name": "Hit Squad (6)",
 				"plus": 25
 			},
 			{
@@ -10906,7 +10906,7 @@
 		},
 		"traits": [
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "Fixed"
 			},
 			{
@@ -10914,7 +10914,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "G"
 			},
 			{
@@ -10922,7 +10922,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"plus": 25
 			},
 			{
@@ -10975,7 +10975,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "G"
 			},
 			{
@@ -11027,7 +11027,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "Fixed"
 			},
 			{
@@ -11085,7 +11085,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -11093,7 +11093,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"plus": 25
 			},
 			{
@@ -11133,7 +11133,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -11145,11 +11145,11 @@
 				"plus": 25
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"plus": 50
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 100
 			}
 		],
@@ -11185,7 +11185,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -11193,11 +11193,11 @@
 				"tier": "G"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "SG"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"plus": 25
 			},
 			{
@@ -11252,11 +11252,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"tier": "G"
 			},
 			{
@@ -11306,11 +11306,11 @@
 		},
 		"traits": [
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -11322,7 +11322,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "光ブレイク",
+				"name": "Crafty Sizzer",
 				"plus": 25
 			},
 			{
@@ -11330,7 +11330,7 @@
 				"plus": 50
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"plus": 100
 			}
 		],
@@ -11365,19 +11365,19 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"tier": "G"
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき赤い霧",
+				"name": "Chance Red Mister",
 				"plus": 25
 			},
 			{
@@ -11424,7 +11424,7 @@
 		},
 		"traits": [
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"tier": "Fixed"
 			},
 			{
@@ -11432,7 +11432,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
@@ -11477,7 +11477,7 @@
 		},
 		"traits": [
 			{
-				"name": "電撃ブレイク",
+				"name": "Crafty Zapper",
 				"tier": "Initial"
 			},
 			{
@@ -11485,23 +11485,23 @@
 				"tier": "M"
 			},
 			{
-				"name": "ときどき白い霧",
+				"name": "Chance White Mister",
 				"tier": "G"
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
-				"name": "負けず嫌い",
+				"name": "Sore Loser",
 				"plus": 50
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 100
 			}
 		],
@@ -11537,7 +11537,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "Fixed"
 			},
 			{
@@ -11549,11 +11549,11 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき白い霧",
+				"name": "Chance White Mister",
 				"plus": 25
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 50
 			},
 			{
@@ -11590,15 +11590,15 @@
 		},
 		"traits": [
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "SG"
 			},
 			{
@@ -11606,7 +11606,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 100
 			}
 		],
@@ -11645,7 +11645,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -11653,7 +11653,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "SG"
 			},
 			{
@@ -11703,11 +11703,11 @@
 		},
 		"traits": [
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -11719,7 +11719,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"plus": 25
 			},
 			{
@@ -11765,7 +11765,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -11773,7 +11773,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "即死ブレイク",
+				"name": "Crafty Whacker",
 				"plus": 25
 			},
 			{
@@ -11817,11 +11817,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"tier": "M"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "G"
 			},
 			{
@@ -11837,7 +11837,7 @@
 				"plus": 50
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"plus": 100
 			}
 		],
@@ -11875,7 +11875,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -11883,7 +11883,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 25
 			},
 			{
@@ -11927,7 +11927,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "Fixed"
 			},
 			{
@@ -11943,7 +11943,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
@@ -11989,7 +11989,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -12114,11 +12114,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -12130,7 +12130,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"plus": 25
 			},
 			{
@@ -12138,7 +12138,7 @@
 				"plus": 50
 			},
 			{
-				"name": "地系のコツ",
+				"name": "Cragmeister",
 				"plus": 100
 			}
 		],
@@ -12170,11 +12170,11 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Initial"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -12182,11 +12182,11 @@
 				"tier": "G"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "SG"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 50
 			},
 			{
@@ -12227,11 +12227,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -12239,7 +12239,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"tier": "SG"
 			},
 			{
@@ -12251,7 +12251,7 @@
 				"plus": 50
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"plus": 100
 			}
 		],
@@ -12288,19 +12288,19 @@
 		},
 		"traits": [
 			{
-				"name": "火系のコツ",
+				"name": "Frizzmeister",
 				"tier": "Initial"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"tier": "G"
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"tier": "SG"
 			},
 			{
@@ -12308,7 +12308,7 @@
 				"plus": 25
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"plus": 50
 			},
 			{
@@ -12344,11 +12344,11 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Initial"
 			},
 			{
-				"name": "火系のコツ",
+				"name": "Frizzmeister",
 				"tier": "Fixed"
 			},
 			{
@@ -12360,7 +12360,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "SG"
 			},
 			{
@@ -12368,7 +12368,7 @@
 				"plus": 50
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"plus": 100
 			}
 		],
@@ -12406,7 +12406,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -12461,11 +12461,11 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "G"
 			},
 			{
@@ -12521,7 +12521,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "Fixed"
 			},
 			{
@@ -12529,7 +12529,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -12577,15 +12577,15 @@
 		},
 		"traits": [
 			{
-				"name": "火系のコツ",
+				"name": "Frizzmeister",
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -12638,15 +12638,15 @@
 		},
 		"traits": [
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "Initial"
 			},
 			{
-				"name": "爆発系のコツ",
+				"name": "Bangmeister",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -12654,15 +12654,15 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき黒い霧",
+				"name": "Chance Black Mister",
 				"tier": "SG"
 			},
 			{
-				"name": "火系のコツ",
+				"name": "Frizzmeister",
 				"plus": 25
 			},
 			{
-				"name": "氷結系のコツ",
+				"name": "Crackmeister",
 				"plus": 50
 			},
 			{
@@ -12736,16 +12736,16 @@
 		},
 		"traits": [
 			{
-				"name": "AI3回行動"
+				"name": "Act 3x"
 			},
 			{
-				"name": "ときどき赤い霧"
+				"name": "Chance Red Mister"
 			},
 			{
-				"name": "いてつくはどう"
+				"name": "Disruptive Wave"
 			},
 			{
-				"name": "闇ブレイク"
+				"name": "Crafty Zammer"
 			},
 			{
 				"name": "せいぞんほんのう"
@@ -12784,23 +12784,23 @@
 		},
 		"traits": [
 			{
-				"name": "氷結系のコツ",
+				"name": "Crackmeister",
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"tier": "G"
 			},
 			{
-				"name": "暴走列車",
+				"name": "Runaway Train",
 				"tier": "SG"
 			},
 			{
@@ -12880,7 +12880,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -12896,7 +12896,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"plus": 50
 			},
 			{
@@ -12931,7 +12931,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
@@ -12943,7 +12943,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"tier": "G"
 			},
 			{
@@ -12988,7 +12988,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "火系のコツ",
+				"name": "Frizzmeister",
 				"tier": "Fixed"
 			},
 			{
@@ -12996,7 +12996,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -13004,7 +13004,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
@@ -13012,7 +13012,7 @@
 				"plus": 50
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"plus": 100
 			}
 		],
@@ -13048,7 +13048,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -13060,7 +13060,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "爆発系のコツ",
+				"name": "Bangmeister",
 				"plus": 25
 			},
 			{
@@ -13104,7 +13104,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -13120,7 +13120,7 @@
 				"plus": 25
 			},
 			{
-				"name": "どくブレイク",
+				"name": "Crafty Poisoner",
 				"plus": 50
 			},
 			{
@@ -13158,19 +13158,19 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Initial"
 			},
 			{
-				"name": "氷結系のコツ",
+				"name": "Crackmeister",
 				"tier": "Fixed"
 			},
 			{
-				"name": "ときどき白い霧",
+				"name": "Chance White Mister",
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -13186,7 +13186,7 @@
 				"plus": 50
 			},
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"plus": 100
 			}
 		],
@@ -13218,7 +13218,7 @@
 		},
 		"traits": [
 			{
-				"name": "どくブレイク",
+				"name": "Crafty Poisoner",
 				"tier": "Initial"
 			},
 			{
@@ -13226,7 +13226,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -13242,7 +13242,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 50
 			},
 			{
@@ -13363,15 +13363,15 @@
 		},
 		"traits": [
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "ねむりブレイク",
+				"name": "Crafty Sleeper",
 				"tier": "M"
 			},
 			{
@@ -13383,15 +13383,15 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき黒い霧",
+				"name": "Chance Black Mister",
 				"plus": 25
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 50
 			},
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"plus": 100
 			}
 		],
@@ -13426,11 +13426,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -13442,15 +13442,15 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき黒い霧",
+				"name": "Chance Black Mister",
 				"plus": 25
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 50
 			},
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"plus": 100
 			}
 		],
@@ -13482,7 +13482,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "Initial"
 			},
 			{
@@ -13490,7 +13490,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "暴走列車",
+				"name": "Runaway Train",
 				"tier": "G"
 			},
 			{
@@ -13498,11 +13498,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 25
 			},
 			{
-				"name": "マヒブレイク",
+				"name": "Crafty Paralyser",
 				"plus": 50
 			},
 			{
@@ -13538,7 +13538,7 @@
 		},
 		"traits": [
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "Initial"
 			},
 			{
@@ -13562,7 +13562,7 @@
 				"plus": 25
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 50
 			},
 			{
@@ -13621,7 +13621,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -13629,7 +13629,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 25
 			},
 			{
@@ -13688,7 +13688,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -13696,7 +13696,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "SG"
 			},
 			{
@@ -13739,11 +13739,11 @@
 		},
 		"traits": [
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
@@ -13751,11 +13751,11 @@
 				"tier": "M"
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "G"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "SG"
 			},
 			{
@@ -13807,11 +13807,11 @@
 		},
 		"traits": [
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"plus": 25
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"plus": 50
 			},
 			{
@@ -13819,13 +13819,13 @@
 				"plus": 100
 			},
 			{
-				"name": "AI3～4回行動"
+				"name": "Act 3-4x"
 			},
 			{
 				"name": "Rando-Panic"
 			},
 			{
-				"name": "即死ブレイク"
+				"name": "Crafty Whacker"
 			},
 			{
 				"name": "重力ブレイク"
@@ -13867,11 +13867,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -13879,7 +13879,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"tier": "SG"
 			},
 			{
@@ -13887,7 +13887,7 @@
 				"plus": 25
 			},
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"plus": 50
 			},
 			{
@@ -13926,11 +13926,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "ねむりブレイク",
+				"name": "Crafty Sleeper",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -13978,11 +13978,11 @@
 		},
 		"traits": [
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -13990,15 +13990,15 @@
 				"tier": "G"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
-				"name": "マヒブレイク",
+				"name": "Crafty Paralyser",
 				"plus": 50
 			},
 			{
@@ -14041,7 +14041,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -14057,7 +14057,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 50
 			},
 			{
@@ -14094,7 +14094,7 @@
 		},
 		"traits": [
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "Initial"
 			},
 			{
@@ -14102,7 +14102,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -14168,7 +14168,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
@@ -14180,7 +14180,7 @@
 				"plus": 25
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"plus": 50
 			},
 			{
@@ -14224,7 +14224,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "氷結系のコツ",
+				"name": "Crackmeister",
 				"tier": "Fixed"
 			},
 			{
@@ -14236,7 +14236,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "SG"
 			},
 			{
@@ -14281,11 +14281,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "G"
 			},
 			{
@@ -14336,7 +14336,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "光系のコツ",
+				"name": "Sizzmeister",
 				"tier": "Fixed"
 			},
 			{
@@ -14344,11 +14344,11 @@
 				"tier": "M"
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "G"
 			},
 			{
-				"name": "AI3～4回行動",
+				"name": "Act 3-4x",
 				"tier": "SG"
 			},
 			{
@@ -14356,7 +14356,7 @@
 				"plus": 25
 			},
 			{
-				"name": "光ブレイク",
+				"name": "Crafty Sizzer",
 				"plus": 50
 			},
 			{
@@ -14411,7 +14411,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -14475,11 +14475,11 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "G"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "SG"
 			},
 			{
@@ -14545,11 +14545,11 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
-				"name": "暴走列車",
+				"name": "Runaway Train",
 				"tier": "SG"
 			},
 			{
@@ -14617,7 +14617,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"tier": "G"
 			},
 			{
@@ -14625,7 +14625,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"plus": 25
 			},
 			{
@@ -14705,7 +14705,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -14713,7 +14713,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 25
 			},
 			{
@@ -14831,7 +14831,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -14839,7 +14839,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "SG"
 			},
 			{
@@ -14901,15 +14901,15 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "G"
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"tier": "SG"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"plus": 25
 			},
 			{
@@ -14953,11 +14953,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "G"
 			},
 			{
@@ -14969,7 +14969,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"plus": 50
 			},
 			{
@@ -15021,7 +15021,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "SG"
 			},
 			{
@@ -15055,7 +15055,7 @@
 		},
 		"traits": [
 			{
-				"name": "光ブレイク",
+				"name": "Crafty Sizzer",
 				"tier": "Initial"
 			},
 			{
@@ -15071,15 +15071,15 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき青天の霧",
+				"name": "Chance Sublime Mister",
 				"tier": "SG"
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"plus": 25
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 50
 			},
 			{
@@ -15129,7 +15129,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき青天の霧",
+				"name": "Chance Sublime Mister",
 				"tier": "SG"
 			},
 			{
@@ -15137,7 +15137,7 @@
 				"plus": 25
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 50
 			},
 			{
@@ -15190,7 +15190,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 50
 			},
 			{
@@ -15198,10 +15198,10 @@
 				"plus": 100
 			},
 			{
-				"name": "AI4回行動"
+				"name": "Act 4x"
 			},
 			{
-				"name": "爆発ブレイク"
+				"name": "Crafty Banger"
 			},
 			{
 				"name": "武神"
@@ -15278,7 +15278,7 @@
 		},
 		"traits": [
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"tier": "Initial"
 			},
 			{
@@ -15286,11 +15286,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "G"
 			},
 			{
@@ -15306,7 +15306,7 @@
 				"plus": 50
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"plus": 100
 			}
 		],
@@ -15366,11 +15366,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"tier": "Fixed"
 			},
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"tier": "M"
 			},
 			{
@@ -15382,11 +15382,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"plus": 25
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 50
 			},
 			{
@@ -15429,19 +15429,19 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
@@ -15483,11 +15483,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -15503,11 +15503,11 @@
 				"plus": 25
 			},
 			{
-				"name": "電撃ブレイク",
+				"name": "Crafty Zapper",
 				"plus": 50
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"plus": 100
 			}
 		],
@@ -15538,11 +15538,11 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Initial"
 			},
 			{
-				"name": "電撃系のコツ",
+				"name": "Zapmeister",
 				"tier": "Fixed"
 			},
 			{
@@ -15550,7 +15550,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -15566,7 +15566,7 @@
 				"plus": 50
 			},
 			{
-				"name": "電撃ブレイク",
+				"name": "Crafty Zapper",
 				"plus": 100
 			}
 		],
@@ -15599,7 +15599,7 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Initial"
 			},
 			{
@@ -15611,11 +15611,11 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"tier": "SG"
 			},
 			{
@@ -15661,7 +15661,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
@@ -15752,7 +15752,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
@@ -15814,11 +15814,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
-				"name": "光ブレイク",
+				"name": "Crafty Sizzer",
 				"tier": "G"
 			},
 			{
@@ -15830,11 +15830,11 @@
 				"plus": 25
 			},
 			{
-				"name": "光系のコツ",
+				"name": "Sizzmeister",
 				"plus": 50
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 100
 			}
 		],
@@ -15899,11 +15899,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
-				"name": "どくブレイク",
+				"name": "Crafty Poisoner",
 				"tier": "G"
 			},
 			{
@@ -15957,7 +15957,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -15965,19 +15965,19 @@
 				"tier": "G"
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "SG"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"plus": 25
 			},
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"plus": 50
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 100
 			}
 		],
@@ -16013,7 +16013,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "Fixed"
 			},
 			{
@@ -16021,7 +16021,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"tier": "G"
 			},
 			{
@@ -16033,7 +16033,7 @@
 				"plus": 25
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 50
 			},
 			{
@@ -16071,11 +16071,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -16091,7 +16091,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"plus": 50
 			},
 			{
@@ -16128,11 +16128,11 @@
 		},
 		"traits": [
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "Initial"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "Fixed"
 			},
 			{
@@ -16140,11 +16140,11 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
-				"name": "ときどき黒い霧",
+				"name": "Chance Black Mister",
 				"tier": "SG"
 			},
 			{
@@ -16195,11 +16195,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
-				"name": "負けず嫌い",
+				"name": "Sore Loser",
 				"tier": "G"
 			},
 			{
@@ -16255,7 +16255,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -16267,7 +16267,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "どくブレイク",
+				"name": "Crafty Poisoner",
 				"plus": 25
 			},
 			{
@@ -16312,7 +16312,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -16324,15 +16324,15 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"plus": 50
 			},
 			{
-				"name": "負けず嫌い",
+				"name": "Sore Loser",
 				"plus": 100
 			}
 		],
@@ -16366,15 +16366,15 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"tier": "M"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "G"
 			},
 			{
@@ -16386,7 +16386,7 @@
 				"plus": 25
 			},
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"plus": 50
 			},
 			{
@@ -16428,7 +16428,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -16440,7 +16440,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
@@ -16491,11 +16491,11 @@
 				"tier": "M"
 			},
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "G"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "SG"
 			},
 			{
@@ -16503,7 +16503,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"plus": 50
 			},
 			{
@@ -16546,7 +16546,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -16558,7 +16558,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 25
 			},
 			{
@@ -16566,7 +16566,7 @@
 				"plus": 50
 			},
 			{
-				"name": "爆発系のコツ",
+				"name": "Bangmeister",
 				"plus": 100
 			},
 			{
@@ -16609,7 +16609,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -16673,7 +16673,7 @@
 		},
 		"traits": [
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"tier": "Initial"
 			},
 			{
@@ -16693,7 +16693,7 @@
 				"plus": 25
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"plus": 50
 			},
 			{
@@ -16743,7 +16743,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "SG"
 			},
 			{
@@ -16785,11 +16785,11 @@
 		},
 		"traits": [
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
@@ -16805,15 +16805,15 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき黒い霧",
+				"name": "Chance Black Mister",
 				"plus": 25
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 50
 			},
 			{
-				"name": "暴走列車",
+				"name": "Runaway Train",
 				"plus": 100
 			}
 		],
@@ -16885,7 +16885,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "G"
 			},
 			{
@@ -16893,11 +16893,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"plus": 25
 			},
 			{
-				"name": "光系のコツ",
+				"name": "Sizzmeister",
 				"plus": 50
 			},
 			{
@@ -16905,7 +16905,7 @@
 				"plus": 100
 			},
 			{
-				"name": "AI1～2回行動"
+				"name": "Act 1-2x"
 			},
 			{
 				"name": "Close Scraper"
@@ -16958,11 +16958,11 @@
 				"tier": "G"
 			},
 			{
-				"name": "爆発系のコツ",
+				"name": "Bangmeister",
 				"plus": 25
 			},
 			{
-				"name": "氷結系のコツ",
+				"name": "Crackmeister",
 				"plus": 50
 			},
 			{
@@ -16996,7 +16996,7 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Initial"
 			},
 			{
@@ -17004,11 +17004,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "G"
 			},
 			{
@@ -17056,7 +17056,7 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Initial"
 			},
 			{
@@ -17068,7 +17068,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
@@ -17076,7 +17076,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"plus": 25
 			},
 			{
@@ -17115,7 +17115,7 @@
 		},
 		"traits": [
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"tier": "Initial"
 			},
 			{
@@ -17123,7 +17123,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -17202,19 +17202,19 @@
 		},
 		"traits": [
 			{
-				"name": "爆発系のコツ",
+				"name": "Bangmeister",
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "G"
 			},
 			{
@@ -17222,7 +17222,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "光系のコツ",
+				"name": "Sizzmeister",
 				"plus": 25
 			},
 			{
@@ -17230,7 +17230,7 @@
 				"plus": 50
 			},
 			{
-				"name": "光ブレイク",
+				"name": "Crafty Sizzer",
 				"plus": 100
 			}
 		],
@@ -17264,19 +17264,19 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "電撃ブレイク",
+				"name": "Crafty Zapper",
 				"tier": "Fixed"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "M"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "G"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "SG"
 			},
 			{
@@ -17284,11 +17284,11 @@
 				"plus": 25
 			},
 			{
-				"name": "電撃系のコツ",
+				"name": "Zapmeister",
 				"plus": 50
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"plus": 100
 			}
 		],
@@ -17326,7 +17326,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -17342,7 +17342,7 @@
 				"plus": 25
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"plus": 50
 			}
 		],
@@ -17380,7 +17380,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -17448,15 +17448,15 @@
 		},
 		"traits": [
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "Initial"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "Fixed"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "M"
 			},
 			{
@@ -17468,7 +17468,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"plus": 25
 			},
 			{
@@ -17505,11 +17505,11 @@
 		},
 		"traits": [
 			{
-				"name": "ねむりブレイク",
+				"name": "Crafty Sleeper",
 				"tier": "Initial"
 			},
 			{
-				"name": "マヒブレイク",
+				"name": "Crafty Paralyser",
 				"tier": "Fixed"
 			},
 			{
@@ -17517,11 +17517,11 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "SG"
 			},
 			{
@@ -17566,15 +17566,15 @@
 		},
 		"traits": [
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"tier": "Initial"
 			},
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"tier": "Fixed"
 			},
 			{
-				"name": "暴走列車",
+				"name": "Runaway Train",
 				"tier": "M"
 			},
 			{
@@ -17582,7 +17582,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "AI3～4回行動",
+				"name": "Act 3-4x",
 				"tier": "SG"
 			},
 			{
@@ -17626,7 +17626,7 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Initial"
 			},
 			{
@@ -17646,7 +17646,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
@@ -17693,7 +17693,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -17739,7 +17739,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "Initial"
 			},
 			{
@@ -17747,7 +17747,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "M"
 			},
 			{
@@ -17798,7 +17798,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
@@ -17814,7 +17814,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 25
 			},
 			{
@@ -17822,7 +17822,7 @@
 				"plus": 50
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"plus": 100
 			}
 		],
@@ -17851,7 +17851,7 @@
 		},
 		"traits": [
 			{
-				"name": "氷結系のコツ",
+				"name": "Crackmeister",
 				"tier": "Initial"
 			},
 			{
@@ -17867,11 +17867,11 @@
 				"tier": "G"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "SG"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 25
 			},
 			{
@@ -17954,7 +17954,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -18002,15 +18002,15 @@
 		},
 		"traits": [
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "Initial"
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -18067,11 +18067,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"tier": "G"
 			},
 			{
@@ -18124,7 +18124,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -18136,7 +18136,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"plus": 25
 			},
 			{
@@ -18182,7 +18182,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -18194,11 +18194,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "氷結系のコツ",
+				"name": "Crackmeister",
 				"plus": 25
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"plus": 50
 			},
 			{
@@ -18234,11 +18234,11 @@
 		},
 		"traits": [
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "Initial"
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"tier": "Fixed"
 			},
 			{
@@ -18250,7 +18250,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"tier": "SG"
 			},
 			{
@@ -18258,11 +18258,11 @@
 				"plus": 25
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 50
 			},
 			{
-				"name": "火系のコツ",
+				"name": "Frizzmeister",
 				"plus": 100
 			}
 		],
@@ -18300,7 +18300,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -18316,7 +18316,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 50
 			}
 		],
@@ -18368,7 +18368,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "G"
 			},
 			{
@@ -18376,7 +18376,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
@@ -18416,15 +18416,15 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "火系のコツ",
+				"name": "Frizzmeister",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "G"
 			},
 			{
@@ -18478,7 +18478,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "M"
 			},
 			{
@@ -18486,7 +18486,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき青天の霧",
+				"name": "Chance Sublime Mister",
 				"tier": "SG"
 			},
 			{
@@ -18538,7 +18538,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -18546,11 +18546,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"plus": 50
 			},
 			{
@@ -18611,7 +18611,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
@@ -18619,7 +18619,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"tier": "M"
 			},
 			{
@@ -18627,7 +18627,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"plus": 25
 			},
 			{
@@ -18665,7 +18665,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
@@ -18673,7 +18673,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"tier": "M"
 			},
 			{
@@ -18681,7 +18681,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"plus": 25
 			},
 			{
@@ -18735,11 +18735,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
-				"name": "即死ブレイク",
+				"name": "Crafty Whacker",
 				"tier": "G"
 			},
 			{
@@ -18747,7 +18747,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき黒い霧",
+				"name": "Chance Black Mister",
 				"plus": 25
 			},
 			{
@@ -18795,7 +18795,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -18807,7 +18807,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "一族のほこり",
+				"name": "Clan Pride",
 				"plus": 25
 			},
 			{
@@ -18853,7 +18853,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -18861,7 +18861,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき赤い霧",
+				"name": "Chance Red Mister",
 				"tier": "SG"
 			},
 			{
@@ -18929,7 +18929,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"plus": 50
 			},
 			{
@@ -19004,11 +19004,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "M"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "G"
 			},
 			{
@@ -19066,11 +19066,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "一族のほこり",
+				"name": "Clan Pride",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -19078,7 +19078,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき赤い霧",
+				"name": "Chance Red Mister",
 				"tier": "SG"
 			},
 			{
@@ -19122,11 +19122,11 @@
 		},
 		"traits": [
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -19134,7 +19134,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "SG"
 			},
 			{
@@ -19186,7 +19186,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -19244,7 +19244,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "Initial"
 			},
 			{
@@ -19252,11 +19252,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "M"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "G"
 			},
 			{
@@ -19264,7 +19264,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×4",
+				"name": "Hit Squad (4)",
 				"plus": 25
 			},
 			{
@@ -19306,7 +19306,7 @@
 		},
 		"traits": [
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "Initial"
 			},
 			{
@@ -19314,7 +19314,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -19375,7 +19375,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -19387,7 +19387,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"plus": 25
 			},
 			{
@@ -19431,15 +19431,15 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "電撃ブレイク",
+				"name": "Crafty Zapper",
 				"tier": "Fixed"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
@@ -19493,7 +19493,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
@@ -19505,7 +19505,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "光ブレイク",
+				"name": "Crafty Sizzer",
 				"tier": "G"
 			},
 			{
@@ -19513,7 +19513,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
@@ -19561,7 +19561,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -19577,7 +19577,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ねむりブレイク",
+				"name": "Crafty Sleeper",
 				"plus": 100
 			}
 		],
@@ -19616,7 +19616,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"tier": "M"
 			},
 			{
@@ -19624,15 +19624,15 @@
 				"tier": "G"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"plus": 25
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 50
 			},
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"plus": 100
 			}
 		],
@@ -19682,7 +19682,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"plus": 25
 			},
 			{
@@ -19728,7 +19728,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -19821,11 +19821,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"tier": "G"
 			},
 			{
@@ -19900,13 +19900,13 @@
 				"plus": 100
 			},
 			{
-				"name": "AI2～3回行動"
+				"name": "Act 2-3x"
 			},
 			{
 				"name": "にげあし"
 			},
 			{
-				"name": "超こうどうはやい"
+				"name": "Early Bird+"
 			}
 		]
 	},
@@ -19931,7 +19931,7 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Initial"
 			},
 			{
@@ -19939,11 +19939,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"tier": "M"
 			},
 			{
-				"name": "暴走列車",
+				"name": "Runaway Train",
 				"tier": "G"
 			},
 			{
@@ -19951,7 +19951,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
@@ -19959,7 +19959,7 @@
 				"plus": 50
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 100
 			}
 		],
@@ -20007,11 +20007,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "ねむりブレイク",
+				"name": "Crafty Sleeper",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -20019,7 +20019,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき青天の霧",
+				"name": "Chance Sublime Mister",
 				"tier": "SG"
 			},
 			{
@@ -20027,7 +20027,7 @@
 				"plus": 25
 			},
 			{
-				"name": "どくブレイク",
+				"name": "Crafty Poisoner",
 				"plus": 50
 			}
 		],
@@ -20070,7 +20070,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "M"
 			},
 			{
@@ -20127,7 +20127,7 @@
 		},
 		"traits": [
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"plus": 25
 			},
 			{
@@ -20139,7 +20139,7 @@
 				"plus": 100
 			},
 			{
-				"name": "AI3～4回行動"
+				"name": "Act 3-4x"
 			},
 			{
 				"name": "いあつ"
@@ -20148,10 +20148,10 @@
 				"name": "神の息吹"
 			},
 			{
-				"name": "電撃ブレイク"
+				"name": "Crafty Zapper"
 			},
 			{
-				"name": "ギャンブルカウンター"
+				"name": "Gamble Counter"
 			}
 		],
 		"skills": [
@@ -20221,7 +20221,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "G"
 			},
 			{
@@ -20233,7 +20233,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"plus": 50
 			},
 			{
@@ -20272,11 +20272,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"tier": "G"
 			},
 			{
@@ -20322,7 +20322,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
@@ -20334,7 +20334,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "SG"
 			},
 			{
@@ -20377,11 +20377,11 @@
 		},
 		"traits": [
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"tier": "Initial"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "M"
 			},
 			{
@@ -20393,7 +20393,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 25
 			},
 			{
@@ -20432,7 +20432,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "Initial"
 			},
 			{
@@ -20440,7 +20440,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "M"
 			},
 			{
@@ -20452,7 +20452,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "どくブレイク",
+				"name": "Crafty Poisoner",
 				"plus": 25
 			},
 			{
@@ -20499,11 +20499,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "G"
 			},
 			{
@@ -20519,7 +20519,7 @@
 				"plus": 50
 			},
 			{
-				"name": "どくブレイク",
+				"name": "Crafty Poisoner",
 				"plus": 100
 			}
 		],
@@ -20551,7 +20551,7 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Initial"
 			},
 			{
@@ -20559,7 +20559,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -20567,11 +20567,11 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき白い霧",
+				"name": "Chance White Mister",
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
@@ -20579,7 +20579,7 @@
 				"plus": 50
 			},
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"plus": 100
 			}
 		],
@@ -20618,11 +20618,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -20634,7 +20634,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"plus": 25
 			},
 			{
@@ -20674,15 +20674,15 @@
 		},
 		"traits": [
 			{
-				"name": "即死ブレイク",
+				"name": "Crafty Whacker",
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -20690,11 +20690,11 @@
 				"tier": "G"
 			},
 			{
-				"name": "暴走列車",
+				"name": "Runaway Train",
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき白い霧",
+				"name": "Chance White Mister",
 				"plus": 25
 			},
 			{
@@ -20739,7 +20739,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -20800,7 +20800,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "G"
 			},
 			{
@@ -20855,11 +20855,11 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "Fixed"
 			},
 			{
@@ -20875,7 +20875,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×4",
+				"name": "Hit Squad (4)",
 				"plus": 25
 			},
 			{
@@ -20914,7 +20914,7 @@
 		},
 		"traits": [
 			{
-				"name": "マヒブレイク",
+				"name": "Crafty Paralyser",
 				"tier": "Initial"
 			},
 			{
@@ -20922,7 +20922,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -20982,7 +20982,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "Initial"
 			},
 			{
@@ -21002,11 +21002,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 25
 			},
 			{
-				"name": "マヒブレイク",
+				"name": "Crafty Paralyser",
 				"plus": 50
 			}
 		],
@@ -21040,7 +21040,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "Fixed"
 			},
 			{
@@ -21056,15 +21056,15 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
-				"name": "電撃ブレイク",
+				"name": "Crafty Zapper",
 				"plus": 50
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 100
 			}
 		],
@@ -21094,7 +21094,7 @@
 		},
 		"traits": [
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "Initial"
 			},
 			{
@@ -21102,7 +21102,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -21114,11 +21114,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"plus": 50
 			},
 			{
@@ -21152,7 +21152,7 @@
 		},
 		"traits": [
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "Initial"
 			},
 			{
@@ -21164,7 +21164,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -21172,11 +21172,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
-				"name": "負けず嫌い",
+				"name": "Sore Loser",
 				"plus": 50
 			},
 			{
@@ -21214,15 +21214,15 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "光系のコツ",
+				"name": "Sizzmeister",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "マヒブレイク",
+				"name": "Crafty Paralyser",
 				"tier": "G"
 			},
 			{
@@ -21275,7 +21275,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
@@ -21283,7 +21283,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "負けず嫌い",
+				"name": "Sore Loser",
 				"plus": 25
 			},
 			{
@@ -21323,11 +21323,11 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"tier": "Fixed"
 			},
 			{
@@ -21343,7 +21343,7 @@
 				"plus": 25
 			},
 			{
-				"name": "火系のコツ",
+				"name": "Frizzmeister",
 				"plus": 50
 			},
 			{
@@ -21387,7 +21387,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -21399,15 +21399,15 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
-				"name": "爆発系のコツ",
+				"name": "Bangmeister",
 				"plus": 50
 			},
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"plus": 100
 			}
 		],
@@ -21466,7 +21466,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -21523,19 +21523,19 @@
 		},
 		"traits": [
 			{
-				"name": "火系のコツ",
+				"name": "Frizzmeister",
 				"tier": "Initial"
 			},
 			{
-				"name": "爆発系のコツ",
+				"name": "Bangmeister",
 				"tier": "Fixed"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -21584,15 +21584,15 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Initial"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
-				"name": "電撃ブレイク",
+				"name": "Crafty Zapper",
 				"tier": "G"
 			},
 			{
@@ -21600,7 +21600,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "電撃系のコツ",
+				"name": "Zapmeister",
 				"plus": 25
 			},
 			{
@@ -21638,7 +21638,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -21650,11 +21650,11 @@
 				"plus": 25
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"plus": 50
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 100
 			}
 		],
@@ -21705,7 +21705,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -21759,7 +21759,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -21767,11 +21767,11 @@
 				"tier": "G"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "SG"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"plus": 25
 			},
 			{
@@ -21826,7 +21826,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -21842,7 +21842,7 @@
 				"plus": 25
 			},
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"plus": 50
 			},
 			{
@@ -21909,15 +21909,15 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×6",
+				"name": "Hit Squad (6)",
 				"plus": 25
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 50
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"plus": 100
 			}
 		],
@@ -21968,7 +21968,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -22039,7 +22039,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -22055,11 +22055,11 @@
 				"plus": 25
 			},
 			{
-				"name": "ときどき赤い霧",
+				"name": "Chance Red Mister",
 				"plus": 50
 			},
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"plus": 100
 			}
 		],
@@ -22110,11 +22110,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -22122,7 +22122,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 25
 			},
 			{
@@ -22181,11 +22181,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"tier": "G"
 			},
 			{
@@ -22244,15 +22244,15 @@
 		},
 		"traits": [
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"tier": "G"
 			},
 			{
@@ -22260,7 +22260,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "マヒブレイク",
+				"name": "Crafty Paralyser",
 				"plus": 25
 			},
 			{
@@ -22319,7 +22319,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -22327,11 +22327,11 @@
 				"tier": "G"
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "SG"
 			},
 			{
-				"name": "一族のほこり",
+				"name": "Clan Pride",
 				"plus": 25
 			},
 			{
@@ -22339,7 +22339,7 @@
 				"plus": 50
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"plus": 100
 			}
 		],
@@ -22375,11 +22375,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"tier": "G"
 			},
 			{
@@ -22387,7 +22387,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "即死ブレイク",
+				"name": "Crafty Whacker",
 				"plus": 50
 			},
 			{
@@ -22454,7 +22454,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "光ブレイク",
+				"name": "Crafty Sizzer",
 				"tier": "Fixed"
 			},
 			{
@@ -22462,11 +22462,11 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI4回行動",
+				"name": "Act 4x",
 				"tier": "G"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "SG"
 			},
 			{
@@ -22474,7 +22474,7 @@
 				"plus": 25
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"plus": 50
 			},
 			{
@@ -22520,7 +22520,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
@@ -22528,7 +22528,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "負けず嫌い",
+				"name": "Sore Loser",
 				"plus": 25
 			},
 			{
@@ -22570,11 +22570,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -22594,7 +22594,7 @@
 				"plus": 50
 			},
 			{
-				"name": "負けず嫌い",
+				"name": "Sore Loser",
 				"plus": 100
 			}
 		],
@@ -22627,7 +22627,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "Initial"
 			},
 			{
@@ -22635,7 +22635,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "M"
 			},
 			{
@@ -22643,7 +22643,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "SG"
 			},
 			{
@@ -22717,11 +22717,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "ねむりブレイク",
+				"name": "Crafty Sleeper",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -22776,15 +22776,15 @@
 		},
 		"traits": [
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "Initial"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "Fixed"
 			},
 			{
-				"name": "どくブレイク",
+				"name": "Crafty Poisoner",
 				"tier": "M"
 			},
 			{
@@ -22796,7 +22796,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 25
 			},
 			{
@@ -22857,11 +22857,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "一族のほこり",
+				"name": "Clan Pride",
 				"plus": 50
 			},
 			{
-				"name": "マヒブレイク",
+				"name": "Crafty Paralyser",
 				"plus": 100
 			}
 		],
@@ -22905,7 +22905,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
@@ -22951,7 +22951,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
@@ -22959,7 +22959,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "M"
 			},
 			{
@@ -23013,7 +23013,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -23086,7 +23086,7 @@
 		},
 		"traits": [
 			{
-				"name": "どくブレイク",
+				"name": "Crafty Poisoner",
 				"tier": "Initial"
 			},
 			{
@@ -23094,7 +23094,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -23110,11 +23110,11 @@
 				"plus": 25
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"plus": 50
 			},
 			{
-				"name": "地系のコツ",
+				"name": "Cragmeister",
 				"plus": 100
 			}
 		],
@@ -23209,7 +23209,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"tier": "Fixed"
 			},
 			{
@@ -23217,7 +23217,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -23269,7 +23269,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -23281,15 +23281,15 @@
 				"tier": "SG"
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"plus": 25
 			},
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"plus": 50
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"plus": 100
 			},
 			{
@@ -23336,7 +23336,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -23386,7 +23386,7 @@
 		},
 		"traits": [
 			{
-				"name": "電撃ブレイク",
+				"name": "Crafty Zapper",
 				"tier": "Initial"
 			},
 			{
@@ -23394,7 +23394,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -23459,7 +23459,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI4回行動",
+				"name": "Act 4x",
 				"tier": "G"
 			},
 			{
@@ -23475,7 +23475,7 @@
 				"plus": 50
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"plus": 100
 			}
 		],
@@ -23514,7 +23514,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -23522,7 +23522,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "SG"
 			},
 			{
@@ -23584,7 +23584,7 @@
 				"plus": 25
 			},
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"plus": 50
 			},
 			{
@@ -23632,7 +23632,7 @@
 		},
 		"traits": [
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "Initial"
 			},
 			{
@@ -23644,7 +23644,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "SG"
 			},
 			{
@@ -23656,7 +23656,7 @@
 				"plus": 50
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"plus": 100
 			}
 		],
@@ -23689,7 +23689,7 @@
 		},
 		"traits": [
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"tier": "Initial"
 			},
 			{
@@ -23697,7 +23697,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "M"
 			},
 			{
@@ -23756,11 +23756,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "G"
 			},
 			{
@@ -23772,7 +23772,7 @@
 				"plus": 25
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"plus": 50
 			},
 			{
@@ -23819,7 +23819,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -23867,7 +23867,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "Initial"
 			},
 			{
@@ -23875,11 +23875,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "火系のコツ",
+				"name": "Frizzmeister",
 				"tier": "M"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "G"
 			},
 			{
@@ -23895,7 +23895,7 @@
 				"plus": 50
 			},
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"plus": 100
 			}
 		],
@@ -23925,7 +23925,7 @@
 		},
 		"traits": [
 			{
-				"name": "光ブレイク",
+				"name": "Crafty Sizzer",
 				"tier": "Initial"
 			},
 			{
@@ -23933,11 +23933,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
-				"name": "光系のコツ",
+				"name": "Sizzmeister",
 				"tier": "G"
 			},
 			{
@@ -24015,7 +24015,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 50
 			},
 			{
@@ -24073,7 +24073,7 @@
 				"plus": 25
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 50
 			}
 		],
@@ -24127,7 +24127,7 @@
 				"plus": 25
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 50
 			}
 		],
@@ -24160,7 +24160,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
@@ -24188,7 +24188,7 @@
 				"plus": 50
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"plus": 100
 			}
 		],
@@ -24224,19 +24224,19 @@
 		},
 		"traits": [
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "Initial"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "Fixed"
 			},
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "M"
 			},
 			{
-				"name": "電撃ブレイク",
+				"name": "Crafty Zapper",
 				"tier": "G"
 			},
 			{
@@ -24244,15 +24244,15 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 25
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"plus": 50
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"plus": 100
 			}
 		],
@@ -24289,7 +24289,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -24349,15 +24349,15 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
-				"name": "ときどき青天の霧",
+				"name": "Chance Sublime Mister",
 				"tier": "SG"
 			},
 			{
@@ -24365,7 +24365,7 @@
 				"plus": 25
 			},
 			{
-				"name": "氷結系のコツ",
+				"name": "Crackmeister",
 				"plus": 50
 			},
 			{
@@ -24413,7 +24413,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
@@ -24421,7 +24421,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "電撃ブレイク",
+				"name": "Crafty Zapper",
 				"tier": "M"
 			},
 			{
@@ -24429,11 +24429,11 @@
 				"tier": "G"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 25
 			},
 			{
-				"name": "電撃系のコツ",
+				"name": "Zapmeister",
 				"plus": 50
 			},
 			{
@@ -24469,7 +24469,7 @@
 		},
 		"traits": [
 			{
-				"name": "光ブレイク",
+				"name": "Crafty Sizzer",
 				"tier": "Initial"
 			},
 			{
@@ -24477,7 +24477,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "G"
 			},
 			{
@@ -24485,7 +24485,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"plus": 25
 			},
 			{
@@ -24525,7 +24525,7 @@
 		},
 		"traits": [
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "Initial"
 			},
 			{
@@ -24533,11 +24533,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"tier": "G"
 			},
 			{
@@ -24545,7 +24545,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "即死ブレイク",
+				"name": "Crafty Whacker",
 				"plus": 25
 			},
 			{
@@ -24583,11 +24583,11 @@
 		},
 		"traits": [
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"tier": "Initial"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -24638,7 +24638,7 @@
 		},
 		"traits": [
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "Initial"
 			},
 			{
@@ -24646,7 +24646,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -24698,7 +24698,7 @@
 		},
 		"traits": [
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "Initial"
 			},
 			{
@@ -24706,7 +24706,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -24714,7 +24714,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"tier": "SG"
 			},
 			{
@@ -24763,7 +24763,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
@@ -24771,19 +24771,19 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
-				"name": "暴走列車",
+				"name": "Runaway Train",
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき赤い霧",
+				"name": "Chance Red Mister",
 				"plus": 25
 			},
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"plus": 50
 			},
 			{
@@ -24847,19 +24847,19 @@
 		},
 		"traits": [
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "Initial"
 			},
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"tier": "Fixed"
 			},
 			{
-				"name": "暴走列車",
+				"name": "Runaway Train",
 				"tier": "M"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "G"
 			},
 			{
@@ -24867,7 +24867,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ねむりブレイク",
+				"name": "Crafty Sleeper",
 				"plus": 25
 			},
 			{
@@ -24905,10 +24905,10 @@
 		},
 		"traits": [
 			{
-				"name": "AI3回行動"
+				"name": "Act 3x"
 			},
 			{
-				"name": "ときどき黒い霧"
+				"name": "Chance Black Mister"
 			},
 			{
 				"name": "Rando-Panic"
@@ -24917,16 +24917,16 @@
 				"name": "休みブレイク"
 			},
 			{
-				"name": "光ブレイク"
+				"name": "Crafty Sizzer"
 			},
 			{
-				"name": "地系のコツ"
+				"name": "Cragmeister"
 			},
 			{
 				"name": "パラメータブレイク"
 			},
 			{
-				"name": "こうどうはやい"
+				"name": "Early Bird"
 			}
 		],
 		"skills": [
@@ -24964,11 +24964,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "G"
 			},
 			{
@@ -24976,11 +24976,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき黒い霧",
+				"name": "Chance Black Mister",
 				"plus": 25
 			},
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"plus": 50
 			},
 			{
@@ -25018,15 +25018,15 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "G"
 			},
 			{
@@ -25038,11 +25038,11 @@
 				"plus": 25
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 50
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"plus": 100
 			}
 		],
@@ -25076,7 +25076,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -25096,7 +25096,7 @@
 				"plus": 50
 			},
 			{
-				"name": "暴走列車",
+				"name": "Runaway Train",
 				"plus": 100
 			}
 		],
@@ -25131,7 +25131,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
@@ -25139,11 +25139,11 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "SG"
 			},
 			{
@@ -25155,7 +25155,7 @@
 				"plus": 50
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"plus": 100
 			}
 		],
@@ -25196,7 +25196,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -25208,7 +25208,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"plus": 25
 			},
 			{
@@ -25263,7 +25263,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -25271,7 +25271,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "SG"
 			},
 			{
@@ -25328,7 +25328,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "Fixed"
 			},
 			{
@@ -25336,7 +25336,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -25387,7 +25387,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"tier": "Fixed"
 			},
 			{
@@ -25395,15 +25395,15 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "G"
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 25
 			},
 			{
@@ -25456,11 +25456,11 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき赤い霧",
+				"name": "Chance Red Mister",
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 25
 			},
 			{
@@ -25507,11 +25507,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"tier": "G"
 			},
 			{
@@ -25569,7 +25569,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -25613,7 +25613,7 @@
 		},
 		"traits": [
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"tier": "Initial"
 			},
 			{
@@ -25621,11 +25621,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
-				"name": "氷結系のコツ",
+				"name": "Crackmeister",
 				"tier": "G"
 			},
 			{
@@ -25633,11 +25633,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"plus": 50
 			},
 			{
@@ -25678,11 +25678,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "G"
 			},
 			{
@@ -25752,7 +25752,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "Fixed"
 			},
 			{
@@ -25764,11 +25764,11 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき白い霧",
+				"name": "Chance White Mister",
 				"plus": 25
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 50
 			},
 			{
@@ -25804,15 +25804,15 @@
 		},
 		"traits": [
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "Initial"
 			},
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -25824,7 +25824,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "光ブレイク",
+				"name": "Crafty Sizzer",
 				"plus": 25
 			},
 			{
@@ -25867,7 +25867,7 @@
 		},
 		"traits": [
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "Initial"
 			},
 			{
@@ -25875,7 +25875,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "M"
 			},
 			{
@@ -25919,7 +25919,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"tier": "Fixed"
 			},
 			{
@@ -25935,11 +25935,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"plus": 25
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"plus": 50
 			},
 			{
@@ -25975,11 +25975,11 @@
 		},
 		"traits": [
 			{
-				"name": "爆発系のコツ",
+				"name": "Bangmeister",
 				"tier": "Initial"
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "Fixed"
 			},
 			{
@@ -25991,7 +25991,7 @@
 				"plus": 25
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 50
 			},
 			{
@@ -26030,13 +26030,13 @@
 		},
 		"traits": [
 			{
-				"name": "AI3～4回行動"
+				"name": "Act 3-4x"
 			},
 			{
 				"name": "ときどきテンション"
 			},
 			{
-				"name": "ときどき黒い霧"
+				"name": "Chance Black Mister"
 			},
 			{
 				"name": "Crafty Devil"
@@ -26111,7 +26111,7 @@
 		},
 		"traits": [
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "Initial"
 			},
 			{
@@ -26119,7 +26119,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -26127,7 +26127,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"tier": "SG"
 			},
 			{
@@ -26176,11 +26176,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "ねむりブレイク",
+				"name": "Crafty Sleeper",
 				"tier": "M"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "G"
 			},
 			{
@@ -26188,7 +26188,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき白い霧",
+				"name": "Chance White Mister",
 				"plus": 25
 			},
 			{
@@ -26229,7 +26229,7 @@
 		},
 		"traits": [
 			{
-				"name": "マヒブレイク",
+				"name": "Crafty Paralyser",
 				"tier": "Initial"
 			},
 			{
@@ -26237,11 +26237,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "M"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "G"
 			},
 			{
@@ -26297,7 +26297,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -26305,7 +26305,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"tier": "SG"
 			},
 			{
@@ -26355,15 +26355,15 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "ねむりブレイク",
+				"name": "Crafty Sleeper",
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "SG"
 			},
 			{
@@ -26375,7 +26375,7 @@
 				"plus": 50
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 100
 			}
 		],
@@ -26411,15 +26411,15 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "G"
 			},
 			{
-				"name": "ときどき青天の霧",
+				"name": "Chance Sublime Mister",
 				"tier": "SG"
 			},
 			{
@@ -26468,7 +26468,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
@@ -26476,11 +26476,11 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"tier": "SG"
 			},
 			{
@@ -26531,7 +26531,7 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Initial"
 			},
 			{
@@ -26543,15 +26543,15 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
@@ -26589,7 +26589,7 @@
 		},
 		"traits": [
 			{
-				"name": "ねむりブレイク",
+				"name": "Crafty Sleeper",
 				"tier": "Initial"
 			},
 			{
@@ -26597,7 +26597,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -26605,7 +26605,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "SG"
 			},
 			{
@@ -26613,11 +26613,11 @@
 				"plus": 25
 			},
 			{
-				"name": "火系のコツ",
+				"name": "Frizzmeister",
 				"plus": 50
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"plus": 100
 			}
 		],
@@ -26654,7 +26654,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "Fixed"
 			},
 			{
@@ -26709,7 +26709,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "Initial"
 			},
 			{
@@ -26721,7 +26721,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "ときどき青天の霧",
+				"name": "Chance Sublime Mister",
 				"tier": "G"
 			},
 			{
@@ -26737,7 +26737,7 @@
 				"plus": 50
 			},
 			{
-				"name": "一族のほこり",
+				"name": "Clan Pride",
 				"plus": 100
 			}
 		],
@@ -26777,7 +26777,7 @@
 		},
 		"traits": [
 			{
-				"name": "氷結系のコツ",
+				"name": "Crackmeister",
 				"tier": "Initial"
 			},
 			{
@@ -26785,7 +26785,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -26793,7 +26793,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"plus": 25
 			},
 			{
@@ -26801,7 +26801,7 @@
 				"plus": 50
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"plus": 100
 			}
 		],
@@ -26837,15 +26837,15 @@
 		},
 		"traits": [
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "Initial"
 			},
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"tier": "Fixed"
 			},
 			{
-				"name": "電撃系のコツ",
+				"name": "Zapmeister",
 				"tier": "M"
 			},
 			{
@@ -26865,7 +26865,7 @@
 				"plus": 50
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"plus": 100
 			}
 		],
@@ -26903,23 +26903,23 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "G"
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
-				"name": "どくブレイク",
+				"name": "Crafty Poisoner",
 				"plus": 50
 			},
 			{
@@ -26963,7 +26963,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -27046,13 +27046,13 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動"
+				"name": "Act 2x"
 			},
 			{
 				"name": "ときどきテンション"
 			},
 			{
-				"name": "いてつくはどう"
+				"name": "Disruptive Wave"
 			},
 			{
 				"name": "まれにバーハ"
@@ -27067,7 +27067,7 @@
 				"name": "Late Bloomer"
 			},
 			{
-				"name": "みかわしアップ"
+				"name": "Artful Dodger"
 			}
 		],
 		"skills": [
@@ -27106,13 +27106,13 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動"
+				"name": "Act 2x"
 			},
 			{
 				"name": "ときどきテンション"
 			},
 			{
-				"name": "いてつくはどう"
+				"name": "Disruptive Wave"
 			},
 			{
 				"name": "まれにバーハ"
@@ -27127,7 +27127,7 @@
 				"name": "Late Bloomer"
 			},
 			{
-				"name": "みかわしアップ"
+				"name": "Artful Dodger"
 			}
 		],
 		"skills": [
@@ -27192,7 +27192,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
@@ -27212,11 +27212,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"plus": 25
 			},
 			{
-				"name": "暴走列車",
+				"name": "Runaway Train",
 				"plus": 50
 			},
 			{
@@ -27250,7 +27250,7 @@
 		},
 		"traits": [
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "Initial"
 			},
 			{
@@ -27262,15 +27262,15 @@
 				"tier": "M"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "G"
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"plus": 25
 			},
 			{
@@ -27318,19 +27318,19 @@
 				"tier": "M"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "G"
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"tier": "SG"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 25
 			},
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"plus": 50
 			},
 			{
@@ -27405,7 +27405,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -27455,7 +27455,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -27463,11 +27463,11 @@
 				"tier": "G"
 			},
 			{
-				"name": "即死ブレイク",
+				"name": "Crafty Whacker",
 				"plus": 25
 			},
 			{
-				"name": "爆発系のコツ",
+				"name": "Bangmeister",
 				"plus": 50
 			},
 			{
@@ -27512,11 +27512,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"tier": "G"
 			},
 			{
@@ -27566,7 +27566,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -27615,7 +27615,7 @@
 		},
 		"traits": [
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "Initial"
 			},
 			{
@@ -27738,11 +27738,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "G"
 			},
 			{
@@ -27799,11 +27799,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -27815,7 +27815,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×4",
+				"name": "Hit Squad (4)",
 				"plus": 25
 			},
 			{
@@ -27857,11 +27857,11 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"tier": "Fixed"
 			},
 			{
@@ -27881,11 +27881,11 @@
 				"plus": 25
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 50
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 100
 			}
 		],
@@ -27951,7 +27951,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -27963,11 +27963,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"plus": 50
 			},
 			{
@@ -28008,7 +28008,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -28118,7 +28118,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "Initial"
 			},
 			{
@@ -28206,11 +28206,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -28263,7 +28263,7 @@
 		},
 		"traits": [
 			{
-				"name": "爆発系のコツ",
+				"name": "Bangmeister",
 				"tier": "Initial"
 			},
 			{
@@ -28271,7 +28271,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -28324,7 +28324,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -28340,7 +28340,7 @@
 				"plus": 25
 			},
 			{
-				"name": "一族のほこり",
+				"name": "Clan Pride",
 				"plus": 100
 			}
 		],
@@ -28481,11 +28481,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "Fixed"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "M"
 			},
 			{
@@ -28501,7 +28501,7 @@
 				"plus": 25
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"plus": 50
 			},
 			{
@@ -28543,7 +28543,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -28559,7 +28559,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"plus": 50
 			},
 			{
@@ -28610,7 +28610,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "SG"
 			},
 			{
@@ -28652,23 +28652,23 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "火系のコツ",
+				"name": "Frizzmeister",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"tier": "G"
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき赤い霧",
+				"name": "Chance Red Mister",
 				"plus": 25
 			},
 			{
@@ -28715,7 +28715,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -28727,7 +28727,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "マヒブレイク",
+				"name": "Crafty Paralyser",
 				"plus": 25
 			},
 			{
@@ -28851,11 +28851,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -28863,7 +28863,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"tier": "SG"
 			},
 			{
@@ -28875,7 +28875,7 @@
 				"plus": 50
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"plus": 100
 			}
 		],
@@ -28912,7 +28912,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "M"
 			},
 			{
@@ -28928,7 +28928,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ときどき白い霧",
+				"name": "Chance White Mister",
 				"plus": 50
 			},
 			{
@@ -28962,7 +28962,7 @@
 		},
 		"traits": [
 			{
-				"name": "氷結系のコツ",
+				"name": "Crackmeister",
 				"tier": "Initial"
 			},
 			{
@@ -28970,7 +28970,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -28982,7 +28982,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
@@ -29029,7 +29029,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "氷結系のコツ",
+				"name": "Crackmeister",
 				"tier": "Fixed"
 			},
 			{
@@ -29037,7 +29037,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
@@ -29093,7 +29093,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -29101,7 +29101,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき黒い霧",
+				"name": "Chance Black Mister",
 				"tier": "SG"
 			},
 			{
@@ -29109,7 +29109,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 50
 			},
 			{
@@ -29153,7 +29153,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -29161,7 +29161,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき黒い霧",
+				"name": "Chance Black Mister",
 				"tier": "SG"
 			},
 			{
@@ -29169,7 +29169,7 @@
 				"plus": 50
 			},
 			{
-				"name": "マヒブレイク",
+				"name": "Crafty Paralyser",
 				"plus": 100
 			}
 		],
@@ -29265,7 +29265,7 @@
 		},
 		"traits": [
 			{
-				"name": "一族のほこり",
+				"name": "Clan Pride",
 				"tier": "Initial"
 			},
 			{
@@ -29277,23 +29277,23 @@
 				"tier": "M"
 			},
 			{
-				"name": "ときどき白い霧",
+				"name": "Chance White Mister",
 				"tier": "G"
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"tier": "SG"
 			},
 			{
-				"name": "電撃系のコツ",
+				"name": "Zapmeister",
 				"plus": 25
 			},
 			{
-				"name": "負けず嫌い",
+				"name": "Sore Loser",
 				"plus": 50
 			},
 			{
-				"name": "暴走列車",
+				"name": "Runaway Train",
 				"plus": 100
 			}
 		],
@@ -29352,15 +29352,15 @@
 		},
 		"traits": [
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "Initial"
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "M"
 			},
 			{
@@ -29422,7 +29422,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -29430,7 +29430,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 25
 			},
 			{
@@ -29468,7 +29468,7 @@
 		},
 		"traits": [
 			{
-				"name": "電撃系のコツ",
+				"name": "Zapmeister",
 				"tier": "Initial"
 			},
 			{
@@ -29480,7 +29480,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "電撃ブレイク",
+				"name": "Crafty Zapper",
 				"tier": "G"
 			},
 			{
@@ -29488,11 +29488,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 25
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 50
 			},
 			{
@@ -29531,11 +29531,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "氷結系のコツ",
+				"name": "Crackmeister",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -29551,7 +29551,7 @@
 				"plus": 25
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"plus": 50
 			},
 			{
@@ -29589,7 +29589,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -29597,7 +29597,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "SG"
 			},
 			{
@@ -29646,11 +29646,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "火系のコツ",
+				"name": "Frizzmeister",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -29658,7 +29658,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"tier": "SG"
 			},
 			{
@@ -29666,7 +29666,7 @@
 				"plus": 25
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"plus": 50
 			},
 			{
@@ -29700,7 +29700,7 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Initial"
 			},
 			{
@@ -29708,7 +29708,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -29720,15 +29720,15 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
-				"name": "火系のコツ",
+				"name": "Frizzmeister",
 				"plus": 50
 			},
 			{
-				"name": "負けず嫌い",
+				"name": "Sore Loser",
 				"plus": 100
 			}
 		],
@@ -29793,7 +29793,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "G"
 			},
 			{
@@ -29801,7 +29801,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 25
 			},
 			{
@@ -29843,7 +29843,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "Fixed"
 			},
 			{
@@ -29851,11 +29851,11 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "G"
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "SG"
 			},
 			{
@@ -29899,11 +29899,11 @@
 		},
 		"traits": [
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Initial"
 			},
 			{
-				"name": "氷結系のコツ",
+				"name": "Crackmeister",
 				"tier": "Fixed"
 			},
 			{
@@ -29915,7 +29915,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "SG"
 			},
 			{
@@ -29927,7 +29927,7 @@
 				"plus": 50
 			},
 			{
-				"name": "ねむりブレイク",
+				"name": "Crafty Sleeper",
 				"plus": 100
 			}
 		],
@@ -29958,11 +29958,11 @@
 		},
 		"traits": [
 			{
-				"name": "氷結系のコツ",
+				"name": "Crackmeister",
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
@@ -29970,11 +29970,11 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "SG"
 			},
 			{
@@ -29982,11 +29982,11 @@
 				"plus": 25
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"plus": 50
 			},
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"plus": 100
 			}
 		],
@@ -30021,7 +30021,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -30033,7 +30033,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"plus": 25
 			},
 			{
@@ -30041,7 +30041,7 @@
 				"plus": 50
 			},
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"plus": 100
 			}
 		],
@@ -30072,7 +30072,7 @@
 		},
 		"traits": [
 			{
-				"name": "光系のコツ",
+				"name": "Sizzmeister",
 				"tier": "Initial"
 			},
 			{
@@ -30080,7 +30080,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "M"
 			},
 			{
@@ -30096,7 +30096,7 @@
 				"plus": 25
 			},
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"plus": 50
 			},
 			{
@@ -30135,11 +30135,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -30147,7 +30147,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"tier": "SG"
 			},
 			{
@@ -30159,7 +30159,7 @@
 				"plus": 50
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"plus": 100
 			}
 		],
@@ -30191,15 +30191,15 @@
 		},
 		"traits": [
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "Initial"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "SG"
 			},
 			{
@@ -30211,7 +30211,7 @@
 				"plus": 50
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 100
 			}
 		],
@@ -30251,7 +30251,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -30301,7 +30301,7 @@
 		},
 		"traits": [
 			{
-				"name": "ねむりブレイク",
+				"name": "Crafty Sleeper",
 				"tier": "Initial"
 			},
 			{
@@ -30309,7 +30309,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -30317,11 +30317,11 @@
 				"tier": "G"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "SG"
 			},
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"plus": 25
 			},
 			{
@@ -30385,11 +30385,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -30397,7 +30397,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"tier": "SG"
 			},
 			{
@@ -30409,7 +30409,7 @@
 				"plus": 50
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"plus": 100
 			}
 		],
@@ -30444,15 +30444,15 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "光系のコツ",
+				"name": "Sizzmeister",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
-				"name": "光ブレイク",
+				"name": "Crafty Sizzer",
 				"tier": "G"
 			},
 			{
@@ -30510,11 +30510,11 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき赤い霧",
+				"name": "Chance Red Mister",
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 25
 			},
 			{
@@ -30564,7 +30564,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき青天の霧",
+				"name": "Chance Sublime Mister",
 				"tier": "SG"
 			},
 			{
@@ -30576,7 +30576,7 @@
 				"plus": 50
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 100
 			}
 		],
@@ -30613,7 +30613,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -30621,7 +30621,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "SG"
 			},
 			{
@@ -30673,7 +30673,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -30681,7 +30681,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"plus": 25
 			},
 			{
@@ -30721,7 +30721,7 @@
 		},
 		"traits": [
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "Initial"
 			},
 			{
@@ -30749,7 +30749,7 @@
 				"plus": 50
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"plus": 100
 			}
 		],
@@ -30836,19 +30836,19 @@
 		},
 		"traits": [
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "Initial"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "G"
 			},
 			{
@@ -30856,11 +30856,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 25
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"plus": 50
 			},
 			{
@@ -30903,7 +30903,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"tier": "M"
 			},
 			{
@@ -30915,11 +30915,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 50
 			},
 			{
@@ -30980,7 +30980,7 @@
 		},
 		"traits": [
 			{
-				"name": "ねむりブレイク",
+				"name": "Crafty Sleeper",
 				"tier": "Initial"
 			},
 			{
@@ -30988,7 +30988,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -31034,7 +31034,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
@@ -31054,7 +31054,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき黒い霧",
+				"name": "Chance Black Mister",
 				"plus": 25
 			},
 			{
@@ -31118,7 +31118,7 @@
 		},
 		"traits": [
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "Initial"
 			},
 			{
@@ -31126,11 +31126,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
-				"name": "爆発系のコツ",
+				"name": "Bangmeister",
 				"tier": "G"
 			},
 			{
@@ -31138,11 +31138,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"plus": 50
 			},
 			{
@@ -31186,7 +31186,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"tier": "Fixed"
 			},
 			{
@@ -31194,7 +31194,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -31202,7 +31202,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき赤い霧",
+				"name": "Chance Red Mister",
 				"plus": 25
 			},
 			{
@@ -31210,7 +31210,7 @@
 				"plus": 50
 			},
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"plus": 100
 			},
 			{
@@ -31245,11 +31245,11 @@
 		},
 		"traits": [
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"tier": "Initial"
 			},
 			{
-				"name": "電撃系のコツ",
+				"name": "Zapmeister",
 				"tier": "Fixed"
 			},
 			{
@@ -31261,7 +31261,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "SG"
 			},
 			{
@@ -31269,7 +31269,7 @@
 				"plus": 25
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"plus": 50
 			},
 			{
@@ -31308,7 +31308,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "Fixed"
 			},
 			{
@@ -31332,7 +31332,7 @@
 				"plus": 50
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"plus": 100
 			}
 		],
@@ -31369,7 +31369,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -31377,7 +31377,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "SG"
 			},
 			{
@@ -31445,7 +31445,7 @@
 				"plus": 25
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"plus": 50
 			},
 			{
@@ -31478,19 +31478,19 @@
 		},
 		"traits": [
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"tier": "Initial"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "G"
 			},
 			{
@@ -31498,7 +31498,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"plus": 25
 			},
 			{
@@ -31540,11 +31540,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "G"
 			},
 			{
@@ -31560,7 +31560,7 @@
 				"plus": 50
 			},
 			{
-				"name": "負けず嫌い",
+				"name": "Sore Loser",
 				"plus": 100
 			}
 		],
@@ -31592,15 +31592,15 @@
 		},
 		"traits": [
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "Initial"
 			},
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -31612,7 +31612,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"plus": 25
 			},
 			{
@@ -31686,23 +31686,23 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "こうどうはやい",
+				"name": "Early Bird",
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 50
 			},
 			{
@@ -31735,15 +31735,15 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"tier": "G"
 			},
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"tier": "SG"
 			},
 			{
@@ -31751,11 +31751,11 @@
 				"plus": 25
 			},
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"plus": 50
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"plus": 100
 			}
 		],
@@ -31790,7 +31790,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -31798,11 +31798,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"plus": 25
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"plus": 50
 			},
 			{
@@ -31845,7 +31845,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -31896,19 +31896,19 @@
 		},
 		"traits": [
 			{
-				"name": "マヒブレイク",
+				"name": "Crafty Paralyser",
 				"tier": "Initial"
 			},
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"tier": "Fixed"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "M"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "G"
 			},
 			{
@@ -31920,7 +31920,7 @@
 				"plus": 25
 			},
 			{
-				"name": "ときどき赤い霧",
+				"name": "Chance Red Mister",
 				"plus": 50
 			},
 			{
@@ -31961,7 +31961,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -31969,7 +31969,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "負けず嫌い",
+				"name": "Sore Loser",
 				"tier": "SG"
 			},
 			{
@@ -32038,7 +32038,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -32050,7 +32050,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"plus": 25
 			},
 			{
@@ -32058,7 +32058,7 @@
 				"plus": 50
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"plus": 100
 			}
 		],
@@ -32090,7 +32090,7 @@
 		},
 		"traits": [
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "Initial"
 			},
 			{
@@ -32098,19 +32098,19 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "光ブレイク",
+				"name": "Crafty Sizzer",
 				"tier": "G"
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"tier": "SG"
 			},
 			{
-				"name": "光系のコツ",
+				"name": "Sizzmeister",
 				"plus": 25
 			},
 			{
@@ -32118,7 +32118,7 @@
 				"plus": 50
 			},
 			{
-				"name": "ときどき青天の霧",
+				"name": "Chance Sublime Mister",
 				"plus": 100
 			}
 		],
@@ -32151,11 +32151,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -32163,7 +32163,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "SG"
 			},
 			{
@@ -32209,7 +32209,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -32217,7 +32217,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "即死ブレイク",
+				"name": "Crafty Whacker",
 				"plus": 25
 			},
 			{
@@ -32258,7 +32258,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -32270,7 +32270,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"plus": 25
 			},
 			{
@@ -32308,7 +32308,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
@@ -32328,7 +32328,7 @@
 				"plus": 25
 			},
 			{
-				"name": "氷結系のコツ",
+				"name": "Crackmeister",
 				"plus": 50
 			},
 			{
@@ -32370,11 +32370,11 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "SG"
 			},
 			{
@@ -32382,7 +32382,7 @@
 				"plus": 25
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"plus": 50
 			},
 			{
@@ -32422,11 +32422,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "Fixed"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"tier": "M"
 			},
 			{
@@ -32478,11 +32478,11 @@
 		},
 		"traits": [
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "Initial"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "Fixed"
 			},
 			{
@@ -32498,7 +32498,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 25
 			},
 			{
@@ -32601,7 +32601,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -32663,7 +32663,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -32671,7 +32671,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"plus": 25
 			},
 			{
@@ -32716,7 +32716,7 @@
 		},
 		"traits": [
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"tier": "Initial"
 			},
 			{
@@ -32724,11 +32724,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "G"
 			},
 			{
@@ -32736,7 +32736,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"plus": 25
 			},
 			{
@@ -32800,7 +32800,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "AI4回行動",
+				"name": "Act 4x",
 				"tier": "SG"
 			},
 			{
@@ -32844,15 +32844,15 @@
 		},
 		"traits": [
 			{
-				"name": "ギャンブルカウンター",
+				"name": "Gamble Counter",
 				"tier": "Initial"
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"tier": "Fixed"
 			},
 			{
-				"name": "闇系のコツ",
+				"name": "Zammeister",
 				"tier": "M"
 			},
 			{
@@ -32912,7 +32912,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "M"
 			},
 			{
@@ -32924,7 +32924,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 25
 			},
 			{
@@ -32964,7 +32964,7 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
@@ -33021,7 +33021,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"tier": "Fixed"
 			},
 			{
@@ -33029,7 +33029,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -33037,7 +33037,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "みかわしアップ",
+				"name": "Artful Dodger",
 				"plus": 25
 			},
 			{
@@ -33141,7 +33141,7 @@
 		"resistances": {},
 		"traits": [
 			{
-				"name": "つねにマホカンタ",
+				"name": "Bouncer",
 				"tier": "Initial"
 			},
 			{
@@ -33153,7 +33153,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "G"
 			},
 			{
@@ -33165,7 +33165,7 @@
 				"plus": 25
 			},
 			{
-				"name": "れんぞく×4",
+				"name": "Hit Squad (4)",
 				"plus": 50
 			},
 			{
@@ -33219,7 +33219,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "AI3～4回行動",
+				"name": "Act 3-4x",
 				"tier": "SG"
 			},
 			{
@@ -33266,11 +33266,11 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "ねむりブレイク",
+				"name": "Crafty Sleeper",
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -33349,7 +33349,7 @@
 		},
 		"traits": [
 			{
-				"name": "爆発系のコツ",
+				"name": "Bangmeister",
 				"tier": "Initial"
 			},
 			{
@@ -33373,7 +33373,7 @@
 				"plus": 25
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 50
 			},
 			{
@@ -33410,7 +33410,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -33418,7 +33418,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ひん死で会心",
+				"name": "Desperado",
 				"plus": 25
 			},
 			{
@@ -33464,7 +33464,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "カウンター",
+				"name": "Counter Attack",
 				"tier": "M"
 			},
 			{
@@ -33472,7 +33472,7 @@
 				"tier": "G"
 			},
 			{
-				"name": "ラッキー",
+				"name": "Lucky",
 				"tier": "SG"
 			},
 			{
@@ -33480,11 +33480,11 @@
 				"plus": 25
 			},
 			{
-				"name": "れんぞく×3",
+				"name": "Hit Squad (3)",
 				"plus": 50
 			},
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"plus": 100
 			}
 		],
@@ -33538,11 +33538,11 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "Fixed"
 			},
 			{
@@ -33597,7 +33597,7 @@
 		},
 		"traits": [
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"tier": "Initial"
 			},
 			{
@@ -33605,11 +33605,11 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
-				"name": "火ブレイク",
+				"name": "Crafty Frizzer",
 				"tier": "G"
 			},
 			{
@@ -33617,7 +33617,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "火系のコツ",
+				"name": "Frizzmeister",
 				"plus": 25
 			},
 			{
@@ -33660,15 +33660,15 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"tier": "Fixed"
 			},
 			{
-				"name": "風ブレイク",
+				"name": "Crafty Woosher",
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -33676,7 +33676,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき赤い霧",
+				"name": "Chance Red Mister",
 				"plus": 25
 			},
 			{
@@ -33714,11 +33714,11 @@
 		},
 		"traits": [
 			{
-				"name": "氷結系のコツ",
+				"name": "Crackmeister",
 				"tier": "Initial"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -33734,11 +33734,11 @@
 				"plus": 25
 			},
 			{
-				"name": "マヒブレイク",
+				"name": "Crafty Paralyser",
 				"plus": 50
 			},
 			{
-				"name": "どくブレイク",
+				"name": "Crafty Poisoner",
 				"plus": 100
 			}
 		],
@@ -33782,7 +33782,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI3回行動",
+				"name": "Act 3x",
 				"tier": "G"
 			},
 			{
@@ -33794,7 +33794,7 @@
 				"plus": 25
 			},
 			{
-				"name": "れんぞく×4",
+				"name": "Hit Squad (4)",
 				"plus": 50
 			},
 			{
@@ -33865,7 +33865,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "M"
 			},
 			{
@@ -33881,7 +33881,7 @@
 				"plus": 25
 			},
 			{
-				"name": "地系のコツ",
+				"name": "Cragmeister",
 				"plus": 50
 			},
 			{
@@ -34059,7 +34059,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -34071,11 +34071,11 @@
 				"tier": "SG"
 			},
 			{
-				"name": "電撃ブレイク",
+				"name": "Crafty Zapper",
 				"plus": 25
 			},
 			{
-				"name": "れんぞく×2",
+				"name": "Hit Squad (2)",
 				"plus": 50
 			},
 			{
@@ -34129,7 +34129,7 @@
 				"plus": 50
 			},
 			{
-				"name": "負けず嫌い",
+				"name": "Sore Loser",
 				"plus": 100
 			}
 		],
@@ -34246,7 +34246,7 @@
 				"tier": "Initial"
 			},
 			{
-				"name": "電撃ブレイク",
+				"name": "Crafty Zapper",
 				"tier": "Fixed"
 			},
 			{
@@ -34262,7 +34262,7 @@
 				"tier": "SG"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"plus": 25
 			},
 			{
@@ -34315,15 +34315,15 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI1～2回行動",
+				"name": "Act 1-2x",
 				"tier": "G"
 			},
 			{
-				"name": "超こうどうはやい",
+				"name": "Early Bird+",
 				"tier": "SG"
 			},
 			{
-				"name": "ときどき黒い霧",
+				"name": "Chance Black Mister",
 				"plus": 25
 			},
 			{
@@ -34364,11 +34364,11 @@
 		},
 		"traits": [
 			{
-				"name": "爆発ブレイク",
+				"name": "Crafty Banger",
 				"tier": "Initial"
 			},
 			{
-				"name": "闇ブレイク",
+				"name": "Crafty Zammer",
 				"tier": "Fixed"
 			},
 			{
@@ -34376,7 +34376,7 @@
 				"tier": "M"
 			},
 			{
-				"name": "AI2～3回行動",
+				"name": "Act 2-3x",
 				"tier": "G"
 			},
 			{
@@ -34392,7 +34392,7 @@
 				"plus": 50
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"plus": 100
 			}
 		],
@@ -34447,16 +34447,16 @@
 				"plus": 100
 			},
 			{
-				"name": "AI3～4回行動"
+				"name": "Act 3-4x"
 			},
 			{
-				"name": "れんぞく×4"
+				"name": "Hit Squad (4)"
 			},
 			{
-				"name": "ギャンブルカウンター"
+				"name": "Gamble Counter"
 			},
 			{
-				"name": "ひん死で会心"
+				"name": "Desperado"
 			}
 		],
 		"skills": [
@@ -34494,7 +34494,7 @@
 				"tier": "Fixed"
 			},
 			{
-				"name": "AI1～3回行動",
+				"name": "Act 1-3x",
 				"tier": "M"
 			},
 			{
@@ -34502,15 +34502,15 @@
 				"tier": "G"
 			},
 			{
-				"name": "ときどき冥界の霧",
+				"name": "Chance Underworld Mister",
 				"tier": "SG"
 			},
 			{
-				"name": "風系のコツ",
+				"name": "Wooshmeister",
 				"plus": 25
 			},
 			{
-				"name": "光系のコツ",
+				"name": "Sizzmeister",
 				"plus": 50
 			},
 			{
@@ -34549,15 +34549,15 @@
 		},
 		"traits": [
 			{
-				"name": "AI2回行動",
+				"name": "Act 2x",
 				"tier": "Initial"
 			},
 			{
-				"name": "いてつくはどう",
+				"name": "Disruptive Wave",
 				"tier": "Fixed"
 			},
 			{
-				"name": "氷結ブレイク",
+				"name": "Crafty Cracker",
 				"tier": "M"
 			},
 			{
