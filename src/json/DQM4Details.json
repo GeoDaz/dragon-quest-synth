@@ -493,10 +493,7 @@
 			}
 		],
 		"skill": "Naturalist",
-		"randomSkills": [
-			"Paralysis Protector",
-			"Agility Booster I"
-		],
+		"randomSkills": ["Paralysis Protector", "Agility Booster I"],
 		"drops": [
 			{
 				"item": "モンスターの糞",
@@ -741,10 +738,7 @@
 			}
 		],
 		"skill": "Blusterer",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Antimagic Avoider"
-		],
+		"randomSkills": ["Wisdom Booster I", "Antimagic Avoider"],
 		"drops": [
 			{
 				"item": "石ころ",
@@ -811,10 +805,7 @@
 			}
 		],
 		"skill": "Power Player",
-		"randomSkills": [
-			"Attack Booster I",
-			"Bang Ward"
-		],
+		"randomSkills": ["Attack Booster I", "Bang Ward"],
 		"drops": [
 			{
 				"item": "石ころ",
@@ -938,10 +929,7 @@
 			}
 		],
 		"skill": "Goliath",
-		"randomSkills": [
-			"MP Booster I",
-			"Confusion Controller"
-		],
+		"randomSkills": ["MP Booster I", "Confusion Controller"],
 		"drops": [
 			{
 				"item": "石ころ",
@@ -1009,10 +997,7 @@
 			}
 		],
 		"skill": "Crag Afficionado",
-		"randomSkills": [
-			"Frizz Ward",
-			"Defence Booster I"
-		],
+		"randomSkills": ["Frizz Ward", "Defence Booster I"],
 		"drops": [
 			{
 				"item": "石ころ",
@@ -1324,9 +1309,7 @@
 			}
 		],
 		"skill": "Spicy Slasher",
-		"randomSkills": [
-			"Wisdom Booster I"
-		]
+		"randomSkills": ["Wisdom Booster I"]
 	},
 	"Scarfish": {
 		"size": "S",
@@ -1449,9 +1432,7 @@
 			}
 		],
 		"skill": "Graveheart",
-		"randomSkills": [
-			"Attack Booster I"
-		],
+		"randomSkills": ["Attack Booster I"],
 		"drops": [
 			{
 				"item": "薬草",
@@ -1651,10 +1632,7 @@
 			}
 		],
 		"skill": "Woosh Afficionado",
-		"randomSkills": [
-			"Agility Booster I",
-			"Woosh Ward"
-		],
+		"randomSkills": ["Agility Booster I", "Woosh Ward"],
 		"drops": [
 			{
 				"item": "魔法の小瓶",
@@ -1892,10 +1870,7 @@
 			}
 		],
 		"skill": "Nature Child",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Sleep Suppressor"
-		],
+		"randomSkills": ["Wisdom Booster I", "Sleep Suppressor"],
 		"drops": [
 			{
 				"item": "薬草",
@@ -2387,10 +2362,7 @@
 			}
 		],
 		"skill": "Graveheart",
-		"randomSkills": [
-			"MP Booster I",
-			"Zap Ward"
-		],
+		"randomSkills": ["MP Booster I", "Zap Ward"],
 		"drops": [
 			{
 				"item": "魔法の小瓶",
@@ -2458,10 +2430,7 @@
 			}
 		],
 		"skill": "Defender",
-		"randomSkills": [
-			"HP Booster I",
-			"Crack Ward"
-		],
+		"randomSkills": ["HP Booster I", "Crack Ward"],
 		"drops": [
 			{
 				"item": "薬草",
@@ -2706,10 +2675,7 @@
 			}
 		],
 		"skill": "Enfeebler",
-		"randomSkills": [
-			"Agility Booster I",
-			"Sleep Suppressor"
-		],
+		"randomSkills": ["Agility Booster I", "Sleep Suppressor"],
 		"drops": [
 			{
 				"item": "魔法の小瓶",
@@ -3075,10 +3041,7 @@
 			}
 		],
 		"skill": "Irritant",
-		"randomSkills": [
-			"Stun Stopper",
-			"Agility Booster I"
-		],
+		"randomSkills": ["Stun Stopper", "Agility Booster I"],
 		"drops": [
 			{
 				"item": "魔法の小瓶",
@@ -3326,10 +3289,7 @@
 			}
 		],
 		"skill": "Slimer",
-		"randomSkills": [
-			"Defence Booster I",
-			"Splish Ward"
-		],
+		"randomSkills": ["Defence Booster I", "Splish Ward"],
 		"drops": [
 			{
 				"item": "薬草",
@@ -3523,10 +3483,7 @@
 			}
 		],
 		"skill": "Zap Afficionado",
-		"randomSkills": [
-			"Defence Booster I",
-			"Stun Stopper"
-		],
+		"randomSkills": ["Defence Booster I", "Stun Stopper"],
 		"drops": [
 			{
 				"item": "薬草",
@@ -3594,10 +3551,7 @@
 			}
 		],
 		"skill": "Defender",
-		"randomSkills": [
-			"Antimagic Avoider",
-			"Defence Booster I"
-		],
+		"randomSkills": ["Antimagic Avoider", "Defence Booster I"],
 		"drops": [
 			{
 				"item": "薬草",
@@ -3664,9 +3618,7 @@
 			}
 		],
 		"skill": "Nature Child",
-		"randomSkills": [
-			"Defence Booster I"
-		],
+		"randomSkills": ["Defence Booster I"],
 		"drops": [
 			{
 				"item": "上薬草",
@@ -4338,10 +4290,7 @@
 			}
 		],
 		"skill": "Zam Afficionado",
-		"randomSkills": [
-			"MP Booster I",
-			"Zam Ward"
-		],
+		"randomSkills": ["MP Booster I", "Zam Ward"],
 		"drops": [
 			{
 				"item": "魔法の小瓶",
@@ -4464,9 +4413,7 @@
 			}
 		],
 		"skill": "Dragonheart",
-		"randomSkills": [
-			"HP Booster I"
-		]
+		"randomSkills": ["HP Booster I"]
 	},
 	"Bongo Drongo": {
 		"size": "S",
@@ -4699,10 +4646,7 @@
 			}
 		],
 		"skill": "Crag Afficionado",
-		"randomSkills": [
-			"HP Booster I",
-			"Crag Ward"
-		],
+		"randomSkills": ["HP Booster I", "Crag Ward"],
 		"drops": [
 			{
 				"item": "石ころ",
@@ -4768,10 +4712,7 @@
 			}
 		],
 		"skill": "Dancer",
-		"randomSkills": [
-			"HP Booster I",
-			"Crag Ward"
-		],
+		"randomSkills": ["HP Booster I", "Crag Ward"],
 		"drops": [
 			{
 				"item": "薬草",
@@ -5016,9 +4957,7 @@
 			}
 		],
 		"skill": "Dancer",
-		"randomSkills": [
-			"Agility Booster I"
-		]
+		"randomSkills": ["Agility Booster I"]
 	},
 	"Robber Rabbit": {
 		"size": "S",
@@ -5196,9 +5135,7 @@
 			}
 		],
 		"skill": "Sizz Afficionado",
-		"randomSkills": [
-			"Defence Booster I"
-		],
+		"randomSkills": ["Defence Booster I"],
 		"drops": [
 			{
 				"item": "モンスターの糞",
@@ -5320,10 +5257,7 @@
 			}
 		],
 		"skill": "Slimer",
-		"randomSkills": [
-			"HP Booster I",
-			"Poison Preventer"
-		],
+		"randomSkills": ["HP Booster I", "Poison Preventer"],
 		"drops": [
 			{
 				"item": "毒消し草",
@@ -5392,10 +5326,7 @@
 			}
 		],
 		"skill": "Blusterer",
-		"randomSkills": [
-			"Woosh Ward",
-			"Agility Booster I"
-		],
+		"randomSkills": ["Woosh Ward", "Agility Booster I"],
 		"drops": [
 			{
 				"item": "石ころ",
@@ -5463,9 +5394,7 @@
 			}
 		],
 		"skill": "Shallow Breather",
-		"randomSkills": [
-			"Wisdom Booster I"
-		]
+		"randomSkills": ["Wisdom Booster I"]
 	},
 	"Dancing Devil": {
 		"size": "S",
@@ -5831,10 +5760,7 @@
 			}
 		],
 		"skill": "Soothesayer",
-		"randomSkills": [
-			"MP Booster I",
-			"Drain Dodger"
-		],
+		"randomSkills": ["MP Booster I", "Drain Dodger"],
 		"drops": [
 			{
 				"item": "毒消し草",
@@ -5900,9 +5826,7 @@
 			}
 		],
 		"skill": "Stony Slasher",
-		"randomSkills": [
-			"Attack Booster I"
-		]
+		"randomSkills": ["Attack Booster I"]
 	},
 	"Khalamari Kid": {
 		"size": "S",
@@ -6092,10 +6016,7 @@
 			}
 		],
 		"skill": "Dragonheart",
-		"randomSkills": [
-			"Debilitation Ducker",
-			"Attack Booster I"
-		],
+		"randomSkills": ["Debilitation Ducker", "Attack Booster I"],
 		"drops": [
 			{
 				"item": "モンスターの糞",
@@ -6224,10 +6145,7 @@
 			}
 		],
 		"skill": "Splash Afficionado",
-		"randomSkills": [
-			"Splish Ward",
-			"HP Booster I"
-		],
+		"randomSkills": ["Splish Ward", "HP Booster I"],
 		"drops": [
 			{
 				"item": "モンスターの糞",
@@ -6284,9 +6202,7 @@
 			}
 		],
 		"skill": "",
-		"randomSkills": [
-			"MP Booster I"
-		]
+		"randomSkills": ["MP Booster I"]
 	},
 	"Great Sabrecub": {
 		"size": "S",
@@ -6451,10 +6367,7 @@
 			}
 		],
 		"skill": "Cupid",
-		"randomSkills": [
-			"Sizz Afficionado",
-			"Defence Booster I"
-		]
+		"randomSkills": ["Sizz Afficionado", "Defence Booster I"]
 	},
 	"Healslime": {
 		"size": "S",
@@ -6756,10 +6669,7 @@
 			}
 		],
 		"skill": "Crag Afficionado",
-		"randomSkills": [
-			"HP Booster I",
-			"Bedazzlement Blocker"
-		],
+		"randomSkills": ["HP Booster I", "Bedazzlement Blocker"],
 		"drops": [
 			{
 				"item": "魔法の小瓶",
@@ -6825,10 +6735,7 @@
 			}
 		],
 		"skill": "Soothesayer",
-		"randomSkills": [
-			"Sizz Ward",
-			"Wisdom Booster I"
-		],
+		"randomSkills": ["Sizz Ward", "Wisdom Booster I"],
 		"drops": [
 			{
 				"item": "毒消し草",
@@ -7017,10 +6924,7 @@
 			}
 		],
 		"skill": "Thrill-Seeker",
-		"randomSkills": [
-			"MP Booster I",
-			"Drain Dodger"
-		],
+		"randomSkills": ["MP Booster I", "Drain Dodger"],
 		"drops": [
 			{
 				"item": "モンスターの糞",
@@ -7278,10 +7182,7 @@
 			}
 		],
 		"skill": "Dark Artist",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Zam Ward"
-		],
+		"randomSkills": ["Wisdom Booster I", "Zam Ward"],
 		"drops": [
 			{
 				"item": "モンスターの糞",
@@ -7404,10 +7305,7 @@
 			}
 		],
 		"skill": "Naturalist",
-		"randomSkills": [
-			"HP Booster I",
-			"Death Defier"
-		],
+		"randomSkills": ["HP Booster I", "Death Defier"],
 		"drops": [
 			{
 				"item": "薬草",
@@ -7593,10 +7491,7 @@
 			}
 		],
 		"skill": "Frizz Afficionado",
-		"randomSkills": [
-			"MP Booster I",
-			"Frizz Ward"
-		],
+		"randomSkills": ["MP Booster I", "Frizz Ward"],
 		"drops": [
 			{
 				"item": "魔法の小瓶",
@@ -7730,9 +7625,7 @@
 			}
 		],
 		"skill": "Tongue Twister",
-		"randomSkills": [
-			"Attack Booster I"
-		],
+		"randomSkills": ["Attack Booster I"],
 		"drops": [
 			{
 				"item": "モンスターの糞",
@@ -8156,10 +8049,7 @@
 			}
 		],
 		"skill": "Materialist",
-		"randomSkills": [
-			"Attack Booster I",
-			"Bang Ward"
-		],
+		"randomSkills": ["Attack Booster I", "Bang Ward"],
 		"drops": [
 			{
 				"item": "薬草",
@@ -8466,7 +8356,7 @@
 			}
 		]
 	},
-	"Prestidigitator": {
+	"Prestidigitator (Alt)": {
 		"size": "S",
 		"egg": true,
 		"stats": {
@@ -8640,10 +8530,7 @@
 			}
 		],
 		"skill": "Stinker",
-		"randomSkills": [
-			"Bedazzlement Blocker",
-			"Agility Booster I"
-		],
+		"randomSkills": ["Bedazzlement Blocker", "Agility Booster I"],
 		"drops": [
 			{
 				"item": "モンスターの糞",
@@ -8762,10 +8649,7 @@
 			}
 		],
 		"skill": "Prankster",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Confusion Controller"
-		],
+		"randomSkills": ["Wisdom Booster I", "Confusion Controller"],
 		"drops": [
 			{
 				"item": "薬草",
@@ -8931,10 +8815,7 @@
 			}
 		],
 		"skill": "Dark Artist",
-		"randomSkills": [
-			"Wisdom Booster I",
-			"Bedazzlement Blocker"
-		],
+		"randomSkills": ["Wisdom Booster I", "Bedazzlement Blocker"],
 		"drops": [
 			{
 				"item": "魔法の小瓶",
@@ -9706,10 +9587,7 @@
 			}
 		],
 		"skill": "Prankster",
-		"randomSkills": [
-			"Debilitation Ducker",
-			"Agility Booster I"
-		],
+		"randomSkills": ["Debilitation Ducker", "Agility Booster I"],
 		"drops": [
 			{
 				"item": "魔法の小瓶",
