@@ -225,6 +225,10 @@ const TalentsPage: React.FC<Props> = ({
 					`${translateGame(game)} : tous les talents obtenus en faisant évoluer ou en combinant des talents maxés, avec les points nécessaires et les compétences et traits qu’ils débloquent.`
 				:	`${game.title}: every skill set obtained by evolving or combining maxed skill sets, with the SP needed and the skills and traits they unlock.`
 			}
+			breadcrumb={[
+				{ name: translateGame(game), path: `/game/${game.key}` },
+				{ name: translateUI('Skill sets'), path: `/game/${game.key}/talents` },
+			]}
 			className="overflow-visible"
 		>
 			<ScrollUp />

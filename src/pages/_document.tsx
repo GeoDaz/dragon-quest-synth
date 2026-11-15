@@ -6,11 +6,10 @@ export default function Document({ locale = 'en' }: DocumentProps) {
 			<Head>
 				<meta charSet="utf-8" />
 				<meta property="og:locale" content={locale == 'fr' ? 'fr_FR' : 'en_US'} />
-				<meta name="theme-color" content="#000000" />
+				<meta name="theme-color" content="#212529" />
 				<meta name="MobileOptimized" content="width" />
 				<meta property="og:site_name" content="Dragon Quest Synthesis" />
 				<meta property="og:type" content="website" />
-				<meta name="robots" content="index, follow" />
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
 				<link
 					rel="preconnect"

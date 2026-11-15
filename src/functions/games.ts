@@ -16,6 +16,9 @@ export const games: Record<string, Game> =
 export const gameTitle = (game: Game, isFr: boolean): string =>
 	isFr ? (game.titleFr || game.title).replace(/ ?:/g, ' :') : game.title;
 
+export const gameShortTitle = (game: Game, isFr: boolean): string =>
+	game.shortTitle || gameTitle(game, isFr).replace(/^Dragon Quest Monsters(?: ?:)?/, 'DQM');
+
 export const gameMetaDescription = (
 	game: Game,
 	count: number,

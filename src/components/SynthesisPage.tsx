@@ -34,7 +34,9 @@ import {
 	TalentStep,
 } from '@/types/MonsterDetails';
 import useTranslate from '@/hooks/useTranslate';
-import { makeClassName, stringToKey } from '@/functions';
+import { makeClassName, monsterPath, stringToKey, withoutAlt } from '@/functions';
+import Link from '@/components/Link';
+import { GameContext } from '@/context/game';
 import { familiesImageNames, pickImages } from '@/functions/images';
 import useHash from '@/hooks/useHash';
 import useScrollToAnchor from '@/hooks/useScrollToAnchor';
@@ -470,6 +472,7 @@ const PageLines: React.FC<Props> = props => {
 				hasSpawns,
 				isFr
 			)}
+			breadcrumb={[{ name: translateGame(game), path: `/game/${game.key}` }]}
 			className="overflow-visible"
 		>
 			<ScrollUp />
@@ -734,7 +737,34 @@ const FamilySection = ({
 					</table>
 				</div>
 			)}
+			{!open && <FamilyLinks id={panelId} ranks={ranks} />}
 		</section>
+	);
+};
+
+const FamilyLinks = ({
+	id,
+	ranks,
+}: {
+	id: string;
+	ranks: { [key: string]: MonsterInterface[] };
+}) => {
+	const game = useContext(GameContext);
+	const { isFr } = useTranslate();
+	if (!game) return null;
+	const monsters = Object.values(ranks)
+		.flat()
+		.filter((monster, i, list) => list.findIndex(m => m.name == monster.name) == i);
+	return (
+		<ul id={id} hidden>
+			{monsters.map(monster => (
+				<li key={monster.name}>
+					<Link href={monsterPath(game, monster.name)}>
+						{(isFr && monster.nom) || withoutAlt(monster.name)}
+					</Link>
+				</li>
+			))}
+		</ul>
 	);
 };
 

@@ -8,7 +8,7 @@ const LanguageRedirect = () => {
 	useLayoutEffect(() => {
 		let target = getStoredLanguage();
 		if (!target) {
-			target = processLanguage() ? 'fr' : 'en';
+			target = locale == 'fr' || processLanguage() ? 'fr' : 'en';
 			storeLanguage(target);
 		}
 		if (target == locale) return;

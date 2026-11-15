@@ -1,4 +1,7 @@
-import { makeClassName, withoutAlt } from '@/functions';
+import { makeClassName, monsterPath, withoutAlt } from '@/functions';
+import Link from '../Link';
+import useTranslate from '@/hooks/useTranslate';
+import { GameContext } from '@/context/game';
 import { Spinner } from 'react-bootstrap';
 import { Monster as MonsterInterface } from '@/types/Monster';
 import Rank from './Rank';
@@ -15,7 +18,10 @@ const MonsterRowLoading = ({
 	id?: string;
 }) => {
 	const { hasSkills, hasSpawns } = useContext(DetailsContext);
+	const game = useContext(GameContext);
+	const { isFr } = useTranslate();
 	if (!monster) return null;
+	const displayName = (isFr && monster.nom) || withoutAlt(monster.name);
 	return (
 		<tr
 			id={id}
@@ -30,7 +36,11 @@ const MonsterRowLoading = ({
 							</div>
 						</div>
 					</div>
-					<span className="monster-name">{withoutAlt(monster.name)}</span>
+					<span className="monster-name">
+						{game ?
+							<Link href={monsterPath(game, monster.name)}>{displayName}</Link>
+						:	displayName}
+					</span>
 				</div>
 			</td>
 			<td className="cell-details" />

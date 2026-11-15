@@ -57,6 +57,10 @@ const PageAreas: React.FC<Props> = ({ game, areas, images, hasTalents, areaGames
 				`Every area of ${title} with the monsters you can meet there, and when: time of day, seasons and weather.`,
 				`Tous les lieux de ${title} avec les monstres qu’on peut y rencontrer, et quand : moment de la journée, saisons et météo.`
 			)}
+			breadcrumb={[
+				{ name: title, path: `/game/${game.key}` },
+				{ name: translateUI('Areas'), path: `/game/${game.key}/areas` },
+			]}
 			className="overflow-visible"
 		>
 			<ScrollUp />

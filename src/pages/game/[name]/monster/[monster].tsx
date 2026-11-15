@@ -1,7 +1,5 @@
 import React, { Fragment, useMemo } from 'react';
 import { GetStaticPaths, GetStaticProps } from 'next';
-import Head from 'next/head';
-import { useRouter } from 'next/router';
 import Layout from '@/components/Layout';
 import Link from '@/components/Link';
 import Icon from '@/components/Icon';
@@ -16,10 +14,9 @@ import { DetailsContext } from '@/context/details';
 import { ImagesContext } from '@/context/images';
 import { MonsterLinkContext } from '@/context/monsterLink';
 import { gameMonsterSlugs, monsterPageData, MonsterPageData } from '@/functions/monsterPage';
-import { games } from '@/functions/games';
+import { games, gameShortTitle } from '@/functions/games';
 import { monsterPath } from '@/functions';
 import useTranslate from '@/hooks/useTranslate';
-import { SITE_URL } from '@/consts/env';
 import { Game } from '@/types/Game';
 import { Monster } from '@/types/Monster';
 
@@ -33,18 +30,17 @@ const skillsOf = (props: Props, name: string) =>
 
 const PageMonster: React.FC<Props> = props => {
 	const { game, entries, images, related } = props;
-	const { locale } = useRouter();
 	const { isFr, translateMonster, translateUI, translateGame } = useTranslate();
 	const t = (en: string, fr: string) => (isFr ? fr : en);
 	const main = entries[0];
 	const name = translateMonster(main.name);
 	const gameName = translateGame(game);
+	const shortGame = gameShortTitle(game, isFr);
 	const family = translateUI(main.family);
 	const skills = skillsOf(props, main.name);
 	const places = props.spawns[main.name] || [];
 	const recipes = entries.reduce((sum, entry) => sum + entry.synthesis.length, 0);
 	const children = Array.from(new Set(entries.flatMap(entry => entry.revSynthesis || [])));
-	const localePrefix = locale == 'fr' ? '/fr' : '';
 
 	const detailsValue = useMemo(
 		() => ({
@@ -87,38 +83,23 @@ const PageMonster: React.FC<Props> = props => {
 			`Comment obtenir ${name} dans ${gameName} : monstre ${family} de rang ${main.rank}, ${recipes} recette${recipes > 1 ? 's' : ''} de synthèse, les ${children.length} monstres qu’il permet d’obtenir${skills.length ? ', son talent' : ''}${places.length ? ' et où le trouver' : ''}.`
 		:	`How to get ${name} in ${gameName}: rank ${main.rank} ${family} monster, ${recipes} synthesis recipe${recipes > 1 ? 's' : ''}, the ${children.length} monsters it synthesizes into${skills.length ? ', its skill set' : ''}${places.length ? ' and where to find it' : ''}.`;
 
-	const breadcrumb = {
-		'@context': 'https://schema.org',
-		'@type': 'BreadcrumbList',
-		itemListElement: [
-			{ name: 'Dragon Quest Synthesis', path: '' },
-			{ name: gameName, path: `/game/${game.key}` },
-			{ name, path: monsterPath(game.key, main.name) },
-		].map((item, i) => ({
-			'@type': 'ListItem',
-			position: i + 1,
-			name: item.name,
-			item: `${SITE_URL}${localePrefix}${item.path}`,
-		})),
-	};
-
 	return (
 		<Layout
 			noTitle
 			title={name}
 			metatitle={t(
-				`${name} (${game.key}) – Synthesis recipe`,
-				`${name} (${game.key}) – Recette de synthèse`
+				`${name} – ${shortGame} synthesis recipe`,
+				`${name} – Recette de synthèse ${shortGame}`
 			)}
 			metadescription={metadescription}
+			metaimg={images[main.name]}
+			twitterCard="summary"
+			breadcrumb={[
+				{ name: gameName, path: `/game/${game.key}` },
+				{ name, path: monsterPath(game.key, main.name) },
+			]}
 			className="monster-page"
 		>
-			<Head>
-				<script
-					type="application/ld+json"
-					dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
-				/>
-			</Head>
 			<nav className="monster-breadcrumb" aria-label={t('Breadcrumb', 'Fil d’Ariane')}>
 				<Link href="/">{t('Home', 'Accueil')}</Link>
 				<Icon name="chevron-right" />

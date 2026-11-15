@@ -6,6 +6,9 @@ import { useRouter } from 'next/router';
 import { SITE_URL } from '@/consts/env';
 import { makeClassName } from '@/functions';
 
+const DEFAULT_DESCRIPTION =
+	'Synthesis charts for every Dragon Quest Monsters game: recipes, what each monster synthesizes into, skill sets and locations.';
+
 interface Props {
 	title: string | React.ReactNode;
 	children: React.ReactNode;
@@ -16,6 +19,8 @@ interface Props {
 	noGoBack?: boolean;
 	noTitle?: boolean;
 	className?: string;
+	breadcrumb?: { name: string; path: string }[];
+	twitterCard?: 'summary' | 'summary_large_image';
 }
 const Layout: React.FC<Props> = ({
 	title,
@@ -27,6 +32,8 @@ const Layout: React.FC<Props> = ({
 	noGoBack = false,
 	noTitle = false,
 	className,
+	breadcrumb,
+	twitterCard = 'summary_large_image',
 }) => {
 	const router = useRouter();
 	const trueMetaTitle =
@@ -34,15 +41,28 @@ const Layout: React.FC<Props> = ({
 		: fullMetatitle ? metatitle
 		: `${metatitle} | Dragon Quest Synthesis`;
 	const path = router.asPath.split(/[?#]/)[0];
-	const localeUrl = (locale?: string) =>
-		locale == 'fr' ? `${SITE_URL}/fr${path == '/' ? '' : path}` : `${SITE_URL}${path}`;
+	const localeUrl = (locale?: string, page = path) =>
+		locale == 'fr' ? `${SITE_URL}/fr${page == '/' ? '' : page}` : `${SITE_URL}${page}`;
 	const url = localeUrl(router.locale);
 	const indexable = router.pathname != '/404';
+	const image = /^https?:/.test(metaimg) ? metaimg : `${SITE_URL}/images/${metaimg}`;
+	const description = metadescription || DEFAULT_DESCRIPTION;
+	const breadcrumbJsonLd = breadcrumb && {
+		'@context': 'https://schema.org',
+		'@type': 'BreadcrumbList',
+		itemListElement: [{ name: 'Dragon Quest Synthesis', path: '/' }, ...breadcrumb].map(
+			(item, i) => ({
+				'@type': 'ListItem',
+				position: i + 1,
+				name: item.name,
+				item: localeUrl(router.locale, item.path),
+			})
+		),
+	};
 	return (
 		<>
 			<Head>
 				<title>{trueMetaTitle}</title>
-				<meta name="title" content={trueMetaTitle} />
 				<meta property="og:title" content={trueMetaTitle} />
 				{indexable && <link rel="canonical" href={url} />}
 				{indexable && <meta property="og:url" content={url} />}
@@ -60,17 +80,17 @@ const Layout: React.FC<Props> = ({
 				)}
 				{/* here because refused from _document.tsx */}
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
-				<meta
-					name="description"
-					content={metadescription || 'List of Dragon Quest Synthesis'}
-				/>
-				<meta
-					property="og:description"
-					content={metadescription || 'List of Dragon Quest Synthesis'}
-				/>
-				<meta property="og:image" content={`${SITE_URL}/images/${metaimg}`} />
-				<meta name="twitter:card" content="summary_large_image" />
-				<meta name="twitter:image" content={`${SITE_URL}/images/${metaimg}`} />
+				<meta name="description" content={description} />
+				<meta property="og:description" content={description} />
+				<meta property="og:image" content={image} />
+				<meta name="twitter:card" content={twitterCard} />
+				<meta name="twitter:image" content={image} />
+				{indexable && breadcrumbJsonLd && (
+					<script
+						type="application/ld+json"
+						dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+					/>
+				)}
 			</Head>
 			<main>
 				<Container className={makeClassName('page', className)} fluid>

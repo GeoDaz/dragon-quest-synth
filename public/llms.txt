@@ -1,0 +1,54 @@
+# Dragon Quest Synthesis
+
+> Synthesis (breeding) charts for every Dragon Quest Monsters game, from Terry's Wonderland to Joker 3 and The Dark Prince: each monster's recipe, what it synthesizes into, its skill sets and where to find it. Available in English and French.
+
+Each game has a synthesis chart listing every monster by family and rank with its recipes. Monster pages show how to get the monster, what it can be used to synthesize and, depending on the game, its stats, traits, resistances, skill sets and drops. Visitors can follow a synthesis chain step by step and keep a reserve of the monsters they own to see which syntheses they can make right now.
+
+## Main pages
+
+- [Home](https://dragon-quest-synth.com/): all games and site features
+- [Synthesis tree builder](https://dragon-quest-synth.com/build): build a synthesis tree on a grid and export it as an image or a code file
+- [Bosses](https://dragon-quest-synth.com/bosses): the main bosses of every game in the main Dragon Quest saga, from I to XI
+
+## Synthesis charts
+
+- [Dragon Quest Monsters: Terry's Wonderland](https://dragon-quest-synth.com/game/DQM1)
+- [Dragon Quest Monsters: Cobi and Tara's Marvelous Mysterious Key](https://dragon-quest-synth.com/game/DQM2)
+- [Dragon Quest Monsters: The Dark Prince](https://dragon-quest-synth.com/game/DQM3)
+- [Dragon Quest Monsters: The Withered World](https://dragon-quest-synth.com/game/DQM4)
+- [Dragon Quest Monsters Joker](https://dragon-quest-synth.com/game/DQMJ1)
+- [Dragon Quest Monsters Joker 2](https://dragon-quest-synth.com/game/DQMJ2)
+- [Dragon Quest Monsters Joker 3](https://dragon-quest-synth.com/game/DQMJ3)
+
+## Skill sets
+
+Skill sets obtained by evolving or combining maxed skill sets, with the SP needed and the skills and traits they unlock.
+
+- [Terry's Wonderland skill sets](https://dragon-quest-synth.com/game/DQM1/talents)
+- [Cobi and Tara's Marvelous Mysterious Key skill sets](https://dragon-quest-synth.com/game/DQM2/talents)
+- [The Dark Prince skill sets](https://dragon-quest-synth.com/game/DQM3/talents)
+- [The Withered World skill sets](https://dragon-quest-synth.com/game/DQM4/talents)
+- [Joker skill sets](https://dragon-quest-synth.com/game/DQMJ1/talents)
+- [Joker 2 skill sets](https://dragon-quest-synth.com/game/DQMJ2/talents)
+- [Joker 3 skill sets](https://dragon-quest-synth.com/game/DQMJ3/talents)
+
+## Areas
+
+Every area of a game with the monsters met there, and when: time of day, seasons and weather.
+
+- [Terry's Wonderland areas](https://dragon-quest-synth.com/game/DQM1/areas)
+- [Cobi and Tara's Marvelous Mysterious Key areas](https://dragon-quest-synth.com/game/DQM2/areas)
+- [The Dark Prince areas](https://dragon-quest-synth.com/game/DQM3/areas)
+- [The Withered World areas](https://dragon-quest-synth.com/game/DQM4/areas)
+- [Joker areas](https://dragon-quest-synth.com/game/DQMJ1/areas)
+- [Joker 2 areas](https://dragon-quest-synth.com/game/DQMJ2/areas)
+
+## Monster pages
+
+- Pattern: `https://dragon-quest-synth.com/game/<GAME>/monster/<slug>`, where `<GAME>` is one of the game keys above and `<slug>` is the lowercase monster name with non-alphanumeric characters replaced by hyphens
+- Example: [Slime in The Dark Prince](https://dragon-quest-synth.com/game/DQM3/monster/slime)
+- [Sitemap](https://dragon-quest-synth.com/sitemap.xml): every page, including all monster pages
+
+## French
+
+Every page is also available in French under `/fr`, for example [https://dragon-quest-synth.com/fr](https://dragon-quest-synth.com/fr) and [https://dragon-quest-synth.com/fr/game/DQM3](https://dragon-quest-synth.com/fr/game/DQM3). Monster, skill and trait names in French are taken from the official games whenever possible.
