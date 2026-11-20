@@ -3,20 +3,20 @@
 	"configurations": [
 		{
 			"name": "dev",
-			"runtimeExecutable": "npm",
+			"runtimeExecutable": "pnpm",
 			"runtimeArgs": ["run", "dev"],
 			"port": 3000
 		},
 		{
 			"name": "prod",
-			"runtimeExecutable": "npm",
-			"runtimeArgs": ["run", "daemon", "--", "-p", "3002"],
+			"runtimeExecutable": "pnpm",
+			"runtimeArgs": ["run", "daemon", "-p", "3002"],
 			"port": 3002
 		},
 		{
 			"name": "digimon-lines",
-			"runtimeExecutable": "npm",
-			"runtimeArgs": ["--prefix", "../digimon-lines", "run", "daemon", "--", "-p", "3100"],
+			"runtimeExecutable": "pnpm",
+			"runtimeArgs": ["--dir", "../digimon-lines", "run", "daemon", "-p", "3100"],
 			"port": 3100
 		}
 	]
