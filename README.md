@@ -1,6 +1,6 @@
 # Dragon Quest Rank
 
-Run `npm run dev` to launch local compilation
+Run `pnpm install` then `pnpm run dev` to launch local compilation
 
 Prod : https://dragon-quest-synth.com/
 
